@@ -1,0 +1,113 @@
+$grp GenericEntity {
+ {
+  components {
+   MeshObject "{694F08F7B7AC1CFA}" {
+    Object "{EE590BA82FB83D7A}armst/monsters/wolf/wolf.xob"
+   }
+  }
+  coords 1740.102 307.192 156.349
+  angles 6.554 -1.495 77.116
+ }
+ {
+  components {
+   MeshObject "{694F08F7B7AC1CFA}" {
+    Object "{EE590BA82FB83D7A}armst/monsters/wolf/wolf.xob"
+   }
+  }
+  coords 1743.174 307.227 158.13
+  angles 0 0 -84.057
+ }
+}
+$grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawner.et" {
+ wolfs30 {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_InitialSpawnDelay 5
+    m_CheckInterval 300
+    m_SpawnChance 25
+    m_FailedSpawnDelay 300
+    m_PlayerDetectionRadius 250
+    m_SpawnGroups {
+     "{349CF4EBE29EFFA2}Configs/GAME_SETTING/BOTS/ALIFE/mutants/wolfs.conf"
+    }
+   }
+  }
+  coords 2251.019 317.318 201.346
+  scale 50
+ }
+ wolfs40 {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_InitialSpawnDelay 5
+    m_CheckInterval 300
+    m_SpawnChance 25
+    m_FailedSpawnDelay 300
+    m_PlayerDetectionRadius 250
+    m_SpawnGroups {
+     "{349CF4EBE29EFFA2}Configs/GAME_SETTING/BOTS/ALIFE/mutants/wolfs.conf"
+    }
+   }
+  }
+  coords 2863.549 309.827 207.007
+  scale 50
+ }
+ wolfs41 {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_InitialSpawnDelay 5
+    m_CheckInterval 300
+    m_SpawnChance 25
+    m_FailedSpawnDelay 300
+    m_PlayerDetectionRadius 250
+    m_SpawnGroups {
+     "{349CF4EBE29EFFA2}Configs/GAME_SETTING/BOTS/ALIFE/mutants/wolfs.conf"
+    }
+   }
+  }
+  coords 2576.503 306.658 179.822
+  scale 50
+ }
+}
+GameEntity : "{22CAE0A2F3DFF712}Prefabs/Characters/Deads/armst_dead_coat.et" {
+ components {
+  MeshObject "{6712D479D0C810CB}" {
+   Materials {
+    MaterialAssignClass "{694F08F799AE8E46}" {
+     SourceMaterial "Plash_Mat"
+     AssignedMaterial "{DA1BE1F6BC05B474}armst/new_clothes/vest/plash_new/retex/Plash_blood.emat"
+    }
+    MaterialAssignClass "{694F08F799AE8E26}" {
+     SourceMaterial "cap"
+     AssignedMaterial "{DA1BE1F6BC05B474}armst/new_clothes/vest/plash_new/retex/Plash_blood.emat"
+    }
+   }
+  }
+ }
+ coords 1741.408 307.251 157.977
+ angles 1.991 -92.724 1.842
+}
+GenericEntity : "{9B5E54AE53A664C4}Prefabs/QUESTS/BASE_QUEST_STAGE_CHANGE.et" {
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{A41E17F80F1C98D0}Assets/Toz/Toz.xob"
+   Materials {
+    MaterialAssignClass "{69245AD38BA6D871}" {
+     SourceMaterial "Izh"
+     AssignedMaterial "{78B0046238FD9BA8}Assets/Toz/data/Izh_black.emat"
+    }
+   }
+  }
+  ActionsManagerComponent "{670F618332E65D7F}" {
+   additionalActions {
+    ARMST_QUEST_STAGE_CHANGE "{670F618332E65D75}" {
+     m_sQuestNameDB "barm_found"
+     m_iStageStart 3
+     m_iStageSet 4
+     m_PrefabQuestFinish "{923B067A74826419}Prefabs/Weapons/Rifles/Shotgun/armst_toz66.et"
+    }
+   }
+  }
+ }
+ coords 1740.401 307.31 157.164
+ angles 4.002 -116.357 -87.681
+}

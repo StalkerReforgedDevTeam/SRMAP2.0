@@ -1,0 +1,22 @@
+GameProject {
+ ID "SRMAP20"
+ GUID "698B5911C20F704A"
+ TITLE "SRMAP2.0"
+ Dependencies {
+  "58D0FB3206B6F859" "6922BD179EEDD0D2"
+ }
+ Configurations {
+  GameProjectConfig PC {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}

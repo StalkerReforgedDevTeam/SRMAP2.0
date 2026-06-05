@@ -1,0 +1,93 @@
+$grp ARMST_ALIFE_InterestPoint {
+ voronka_1 {
+  coords 2082.392 309.358 2146.653
+  m_LocationKey VORONKA
+  m_sNextInterestPoint1 "voronka_2"
+  m_sNextInterestPoint2 "voronka_11"
+  m_sNextInterestPoint3 "voronka_13"
+  m_sNextInterestPoint4 "voronka_3"
+ }
+ voronka_2 {
+  coords 2189.862 300.489 2191.325
+  m_LocationKey VORONKA
+  m_sNextInterestPoint1 "voronka_3"
+  m_sNextInterestPoint2 "voronka_1"
+  m_sNextInterestPoint3 "voronka_13"
+ }
+ voronka_3 {
+  coords 2105.647 310.508 2345.779
+  m_LocationKey VORONKA
+  m_sNextInterestPoint1 "voronka_1"
+  m_sNextInterestPoint2 "voronka_2"
+  m_sNextInterestPoint3 "voronka_4"
+ }
+ voronka_4 {
+  coords 2310.03 312.057 2277.08
+  m_LocationKey VORONKA
+  m_sNextInterestPoint1 "voronka_2"
+  m_sNextInterestPoint2 "voronka_11"
+  m_sNextInterestPoint3 "voronka_5"
+  m_sNextInterestPoint4 "voronka_6"
+  m_sNextInterestPoint5 "voronka_3"
+ }
+ voronka_5 {
+  coords 2493.705 305.283 2325.899
+  m_LocationKey VORONKA
+  m_sNextInterestPoint1 "voronka_4"
+  m_sNextInterestPoint2 "voronka_6"
+ }
+ voronka_6 {
+  coords 2602.328 313.202 2277.829
+  m_LocationKey VORONKA
+  m_sNextInterestPoint1 "voronka_5"
+  m_sNextInterestPoint2 "voronka_7"
+  m_sNextInterestPoint3 "voronka_8"
+ }
+ voronka_7 {
+  coords 2787.67 312.34 2026.865
+  m_LocationKey VORONKA
+  m_sNextInterestPoint1 "voronka_6"
+  m_sNextInterestPoint2 "voronka_8"
+ }
+ voronka_8 {
+  coords 2580.91 311.006 2099.088
+  m_LocationKey VORONKA
+  m_sNextInterestPoint1 "voronka_6"
+  m_sNextInterestPoint2 "voronka_7"
+  m_sNextInterestPoint3 "voronka_9"
+ }
+ voronka_9 {
+  coords 2439.382 299.453 2029.66
+  m_LocationKey VORONKA
+  m_sNextInterestPoint1 "voronka_11"
+  m_sNextInterestPoint2 "voronka_8"
+  m_sNextInterestPoint3 "voronka_12"
+ }
+ voronka_10 {
+  coords 2732.527 313.209 1885.435
+  m_LocationKey VORONKA
+  m_sNextInterestPoint1 "voronka_8"
+  m_sNextInterestPoint2 "voronka_7"
+  m_sNextInterestPoint3 "voronka_9"
+ }
+ voronka_11 {
+  coords 2245.584 306.559 2118.427
+  m_LocationKey VORONKA
+  m_sNextInterestPoint1 "voronka_13"
+  m_sNextInterestPoint2 "voronka_2"
+  m_sNextInterestPoint3 "voronka_11"
+  m_sNextInterestPoint4 "voronka_9"
+ }
+ voronka_12 {
+  coords 2401.747 306.624 1932.264
+  m_LocationKey VORONKA
+  m_sNextInterestPoint1 "voronka_11"
+  m_sNextInterestPoint2 "voronka_9"
+ }
+ voronka_13 {
+  coords 2151.832 305.291 1981.943
+  m_LocationKey VORONKA
+  m_sNextInterestPoint1 "voronka_1"
+  m_sNextInterestPoint2 "voronka_2"
+ }
+}

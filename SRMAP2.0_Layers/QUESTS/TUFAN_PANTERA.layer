@@ -1,0 +1,30 @@
+GenericEntity spawn_kab {
+ coords 1730.15 290.581 673.24
+}
+GenericEntity : "{9B5E54AE53A664C4}Prefabs/QUESTS/BASE_QUEST_STAGE_CHANGE.et" {
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{A41E17F80F1C98D0}Assets/Toz/Toz.xob"
+   Materials {
+    MaterialAssignClass "{69245AD38BA6D871}" {
+     SourceMaterial "Izh"
+     AssignedMaterial "{78B0046238FD9BA8}Assets/Toz/data/Izh_black.emat"
+    }
+   }
+  }
+  ActionsManagerComponent "{670F618332E65D7F}" {
+   additionalActions {
+    ARMST_QUEST_STAGE_CHANGE "{670F618332E65D75}" {
+     m_sQuestNameDB "lost_gun"
+     m_iStageStart 3
+     m_iStageSet 5
+     m_PrefabQuestSpawn "{ED545A464A8DFF64}Prefabs/Monsters/Groups/Group_Boar_3.et"
+     m_sSpawnPos "spawn_kab"
+     m_PrefabQuestFinish "{A9B143751CB07F45}Prefabs/Weapons/Rifles/Shotgun/armst_toz66_pantera.et"
+    }
+   }
+  }
+ }
+ coords 1666.209 290.572 663.547
+ angles 2.569 -83.661 90.047
+}

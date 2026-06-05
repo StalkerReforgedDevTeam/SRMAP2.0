@@ -1,0 +1,28 @@
+GenericEntity spawn_gaz71 {
+ coords 4967.691 308.219 1003.387
+}
+GenericEntity : "{2D258BBB42C22250}Prefabs/QUESTS/KB/LOST_GAZ71/GAZ71lost_2pt_budka.et" {
+ coords 2083.945 293.174 709.034
+}
+GenericEntity : "{5802AE8A69F9147A}Prefabs/QUESTS/KB/LOST_GAZ71/GAZ71lost_2pt_final.et" {
+ coords 2118.117 290.021 533.886
+}
+GenericEntity : "{6EFF335E990BEFB0}Prefabs/QUESTS/KB/LOST_GAZ71/GAZ71lost_1pt.et" {
+ coords 3827.892 294.254 1464.751
+}
+GenericEntity : "{7F056D37697C02BA}Prefabs/QUESTS/KB/LOST_GAZ71/GAZ71lost_2pt.et" {
+ coords 2118.137 289.943 533.739
+}
+GenericEntity : "{8B0D2AAF64A16ACE}Prefabs/QUESTS/KB/LOST_GAZ71/GAZ71lost_3pt.et" {
+ components {
+  ActionsManagerComponent "{668E9CD35B54E263}" {
+   additionalActions {
+    ARMST_QUEST_STAGE_CHANGE "{668E9CD35B54E26B}" {
+     m_PrefabQuestSpawn "{1907FD8118E4ACDB}Prefabs/Monsters/Groups/Group_Nighstalker.et"
+     m_sSpawnPos "spawn_gaz71"
+    }
+   }
+  }
+ }
+ coords 4928.195 303.077 1021.862
+}

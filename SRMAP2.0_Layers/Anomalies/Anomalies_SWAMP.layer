@@ -1,0 +1,725 @@
+$grp GenericEntity : "{1168548775106B49}Prefabs/Systems/DamageAreas/DamageArea_Fire_Zone.et" {
+ {
+  components {
+   SCR_DamageAreaComponent "{6646D2612811A3C6}" {
+    DamageAreas {
+     SCR_DotDamageArea "{690274AAF02EAFF8}" {
+      "Area shape" DamageAreaShapeSphere "{6650CBAB7081F0F4}" {
+       Radius 6
+      }
+     }
+    }
+   }
+  }
+  coords 2115.092 296.14 1130.013
+  angles 0 0 -12.699
+ }
+ {
+  components {
+   SCR_DamageAreaComponent "{6646D2612811A3C6}" {
+    DamageAreas {
+     SCR_DotDamageArea "{690274AAF02EAFF8}" {
+      "Area shape" DamageAreaShapeSphere "{6650CBAB7081F0F4}" {
+       Radius 6
+      }
+     }
+    }
+   }
+  }
+  coords 2105.119 296.096 1123.705
+  angles 0 0 8.667
+ }
+ {
+  components {
+   SCR_DamageAreaComponent "{6646D2612811A3C6}" {
+    DamageAreas {
+     SCR_DotDamageArea "{690274AAF02EAFF8}" {
+      "Area shape" DamageAreaShapeSphere "{6650CBAB7081F0F4}" {
+       Radius 6
+      }
+     }
+    }
+   }
+  }
+  coords 2112.89 295.418 1151.643
+  angles 0 0 19.467
+ }
+ {
+  components {
+   SCR_DamageAreaComponent "{6646D2612811A3C6}" {
+    DamageAreas {
+     SCR_DotDamageArea "{690274AAF02EAFF8}" {
+      "Area shape" DamageAreaShapeSphere "{6650CBAB7081F0F4}" {
+       Radius 6
+      }
+     }
+    }
+   }
+  }
+  coords 2124.862 296.719 1168.123
+  angles 0 0 -20.051
+ }
+ {
+  components {
+   SCR_DamageAreaComponent "{6646D2612811A3C6}" {
+    DamageAreas {
+     SCR_DotDamageArea "{690274AAF02EAFF8}" {
+      "Area shape" DamageAreaShapeSphere "{6650CBAB7081F0F4}" {
+       Radius 6
+      }
+     }
+    }
+   }
+  }
+  coords 2120.493 295.698 1182.1
+  angles 0 0 21.322
+ }
+ {
+  components {
+   SCR_DamageAreaComponent "{6646D2612811A3C6}" {
+    DamageAreas {
+     SCR_DotDamageArea "{690274AAF02EAFF8}" {
+      "Area shape" DamageAreaShapeSphere "{6650CBAB7081F0F4}" {
+       Radius 6
+      }
+     }
+    }
+   }
+  }
+  coords 2127.957 295.878 1194.292
+  angles 8.955 0 0
+ }
+ {
+  components {
+   SCR_DamageAreaComponent "{6646D2612811A3C6}" {
+    DamageAreas {
+     SCR_DotDamageArea "{690274AAF02EAFF8}" {
+      "Area shape" DamageAreaShapeSphere "{6650CBAB7081F0F4}" {
+       Radius 6
+      }
+     }
+    }
+   }
+  }
+  coords 2133.163 296.758 1182.094
+  angles 0 0 -12.855
+ }
+ {
+  components {
+   SCR_DamageAreaComponent "{6646D2612811A3C6}" {
+    DamageAreas {
+     SCR_DotDamageArea "{690274AAF02EAFF8}" {
+      "Area shape" DamageAreaShapeSphere "{6650CBAB7081F0F4}" {
+       Radius 6
+      }
+     }
+    }
+   }
+  }
+  coords 2111.204 296.921 1166.641
+  angles 7.209 0.792 6.287
+ }
+ {
+  components {
+   SCR_DamageAreaComponent "{6646D2612811A3C6}" {
+    DamageAreas {
+     SCR_DotDamageArea "{690274AAF02EAFF8}" {
+      "Area shape" DamageAreaShapeSphere "{6650CBAB7081F0F4}" {
+       Radius 6
+      }
+     }
+    }
+   }
+  }
+  coords 2121.265 296.5 1144.541
+  angles 0 0 -15.838
+ }
+ {
+  components {
+   SCR_DamageAreaComponent "{6646D2612811A3C6}" {
+    DamageAreas {
+     SCR_DotDamageArea "{690274AAF02EAFF8}" {
+      "Area shape" DamageAreaShapeSphere "{6650CBAB7081F0F4}" {
+       Radius 6
+      }
+     }
+    }
+   }
+  }
+  coords 2105.58 296.997 1142.251
+  angles 10.081 0 0
+ }
+ {
+  components {
+   SCR_DamageAreaComponent "{6646D2612811A3C6}" {
+    DamageAreas {
+     SCR_DotDamageArea "{690274AAF02EAFF8}" {
+      "Area shape" DamageAreaShapeSphere "{6650CBAB7081F0F4}" {
+       Radius 6
+      }
+     }
+    }
+   }
+  }
+  coords 2098.287 299.731 1127.728
+  angles 0 0 8.667
+ }
+ {
+  components {
+   SCR_DamageAreaComponent "{6646D2612811A3C6}" {
+    DamageAreas {
+     SCR_DotDamageArea "{690274AAF02EAFF8}" {
+      "Area shape" DamageAreaShapeSphere "{6650CBAB7081F0F4}" {
+       Radius 6
+      }
+     }
+    }
+   }
+  }
+  coords 2124.684 299.077 1127.883
+  angles 0 0 8.667
+ }
+ {
+  components {
+   SCR_DamageAreaComponent "{6646D2612811A3C6}" {
+    DamageAreas {
+     SCR_DotDamageArea "{690274AAF02EAFF8}" {
+      "Area shape" DamageAreaShapeSphere "{6650CBAB7081F0F4}" {
+       Radius 6
+      }
+     }
+    }
+   }
+  }
+  coords 2111.705 298.958 1183.953
+  angles 0 0 8.667
+ }
+ {
+  components {
+   SCR_DamageAreaComponent "{6646D2612811A3C6}" {
+    DamageAreas {
+     SCR_DotDamageArea "{690274AAF02EAFF8}" {
+      "Area shape" DamageAreaShapeSphere "{6650CBAB7081F0F4}" {
+       Radius 6
+      }
+     }
+    }
+   }
+  }
+  coords 2137.462 300.39 1177.22
+  angles 0 0 8.667
+ }
+}
+$grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRIGGER_ANOMAL.et" {
+ ELECTRO_ANOMALY7 {
+  coords 2457.176 290.589 903.933
+  SphereRadius 70
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{60D88B47635E7627}Prefabs/Anomals/Electro/ARMST_ELECTRO_T1.et"
+  m_ObjectPrefab2 "{60D88B47635E7627}Prefabs/Anomals/Electro/ARMST_ELECTRO_T1.et"
+  m_ObjectPrefab3 "{60D88B47635E7627}Prefabs/Anomals/Electro/ARMST_ELECTRO_T1.et"
+  m_ArtsPrefab {
+   "{00DDB16A5A775F47}Prefabs/Items/artefacts_new/art_electro_1T_drop.et"
+  }
+  m_SpawnCount 8
+  m_CenterBias 0.5
+ }
+ JARKA_ANOMALY_36 {
+  coords 1923.946 291.41 658.591
+  SphereRadius 78.8
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{764A0D38D69BA7F3}Prefabs/Anomals/Jarka/ARMST_JARKA_T2.et"
+  m_ObjectPrefab2 "{642A15101599EB63}Prefabs/Anomals/Puziriks/ARMST_JARKA_PUZIRIKS.et"
+  m_ObjectPrefab3 "{764A0D38D69BA7F3}Prefabs/Anomals/Jarka/ARMST_JARKA_T2.et"
+  m_SpawnCount 8
+  m_CenterBias 0.8
+ }
+ JARKA_ANOMALY_37 {
+  coords 2340.911 292.134 835.006
+  SphereRadius 78.8
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{764A0D38D69BA7F3}Prefabs/Anomals/Jarka/ARMST_JARKA_T2.et"
+  m_ObjectPrefab2 "{642A15101599EB63}Prefabs/Anomals/Puziriks/ARMST_JARKA_PUZIRIKS.et"
+  m_ObjectPrefab3 "{764A0D38D69BA7F3}Prefabs/Anomals/Jarka/ARMST_JARKA_T2.et"
+  m_SpawnCount 8
+  m_CenterBias 0.8
+ }
+ ELECTRO_ANOMALY8 {
+  coords 2181.572 290.93 573.928
+  SphereRadius 70
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{60D88B47635E7627}Prefabs/Anomals/Electro/ARMST_ELECTRO_T1.et"
+  m_ObjectPrefab2 "{60D88B47635E7627}Prefabs/Anomals/Electro/ARMST_ELECTRO_T1.et"
+  m_ObjectPrefab3 "{60D88B47635E7627}Prefabs/Anomals/Electro/ARMST_ELECTRO_T1.et"
+  m_ArtsPrefab {
+   "{00DDB16A5A775F47}Prefabs/Items/artefacts_new/art_electro_1T_drop.et"
+  }
+  m_SpawnCount 8
+  m_CenterBias 0.5
+ }
+ {
+  coords 2326.494 293.125 635.755
+  SphereRadius 118.8
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{8D18616B60C9C265}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier1.et"
+  m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
+  m_ObjectPrefab3 "{57CC29488C129FC4}Prefabs/Anomals/Moshkara/ARMST_MOSHKARA.et"
+  m_ArtsPrefab {
+   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+  }
+  m_CenterBias 0.5
+  m_SpawnChance 75
+ }
+ {
+  coords 2637.878 291.2 507.178
+  SphereRadius 118.8
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{8D18616B60C9C265}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier1.et"
+  m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
+  m_ObjectPrefab3 "{57CC29488C129FC4}Prefabs/Anomals/Moshkara/ARMST_MOSHKARA.et"
+  m_ArtsPrefab {
+   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+  }
+  m_CenterBias 0.5
+  m_SpawnChance 75
+ }
+ {
+  coords 2623.166 292.476 726.857
+  SphereRadius 118.8
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{8D18616B60C9C265}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier1.et"
+  m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
+  m_ObjectPrefab3 "{57CC29488C129FC4}Prefabs/Anomals/Moshkara/ARMST_MOSHKARA.et"
+  m_ArtsPrefab {
+   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+  }
+  m_CenterBias 0.5
+  m_SpawnChance 75
+ }
+ {
+  coords 2474.254 291.128 582.297
+  SphereRadius 118.8
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{8D18616B60C9C265}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier1.et"
+  m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
+  m_ObjectPrefab3 "{57CC29488C129FC4}Prefabs/Anomals/Moshkara/ARMST_MOSHKARA.et"
+  m_ArtsPrefab {
+   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+  }
+  m_CenterBias 0.5
+  m_SpawnChance 75
+ }
+ {
+  coords 2636.075 291.765 926.366
+  SphereRadius 118.8
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{8D18616B60C9C265}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier1.et"
+  m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
+  m_ObjectPrefab3 "{57CC29488C129FC4}Prefabs/Anomals/Moshkara/ARMST_MOSHKARA.et"
+  m_ArtsPrefab {
+   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+  }
+  m_CenterBias 0.5
+  m_SpawnChance 75
+ }
+ {
+  coords 2865.392 312.221 835.883
+  SphereRadius 118.8
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{8D18616B60C9C265}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier1.et"
+  m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
+  m_ObjectPrefab3 "{57CC29488C129FC4}Prefabs/Anomals/Moshkara/ARMST_MOSHKARA.et"
+  m_ArtsPrefab {
+   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+  }
+  m_CenterBias 0.5
+  m_SpawnChance 75
+ }
+ {
+  coords 3041.989 300.132 888.284
+  SphereRadius 118.8
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{8D18616B60C9C265}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier1.et"
+  m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
+  m_ObjectPrefab3 "{57CC29488C129FC4}Prefabs/Anomals/Moshkara/ARMST_MOSHKARA.et"
+  m_ArtsPrefab {
+   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+  }
+  m_CenterBias 0.5
+  m_SpawnChance 75
+ }
+ {
+  coords 2305.134 292.302 991.259
+  SphereRadius 118.8
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{8D18616B60C9C265}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier1.et"
+  m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
+  m_ObjectPrefab3 "{57CC29488C129FC4}Prefabs/Anomals/Moshkara/ARMST_MOSHKARA.et"
+  m_ArtsPrefab {
+   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+  }
+  m_CenterBias 0.5
+  m_SpawnChance 75
+ }
+ {
+  coords 2100.484 290.868 685.31
+  SphereRadius 118.8
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{8D18616B60C9C265}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier1.et"
+  m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
+  m_ObjectPrefab3 "{57CC29488C129FC4}Prefabs/Anomals/Moshkara/ARMST_MOSHKARA.et"
+  m_ArtsPrefab {
+   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+  }
+  m_CenterBias 0.5
+  m_SpawnChance 75
+ }
+ {
+  coords 2197.441 289.943 846.997
+  SphereRadius 118.8
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{8D18616B60C9C265}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier1.et"
+  m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
+  m_ObjectPrefab3 "{57CC29488C129FC4}Prefabs/Anomals/Moshkara/ARMST_MOSHKARA.et"
+  m_ArtsPrefab {
+   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+  }
+  m_CenterBias 0.5
+  m_SpawnChance 75
+ }
+ {
+  coords 1881.15 291.138 812.446
+  SphereRadius 118.8
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{8D18616B60C9C265}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier1.et"
+  m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
+  m_ObjectPrefab3 "{57CC29488C129FC4}Prefabs/Anomals/Moshkara/ARMST_MOSHKARA.et"
+  m_ArtsPrefab {
+   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+  }
+  m_CenterBias 0.5
+  m_SpawnChance 75
+ }
+ {
+  coords 1717.159 292.185 939.438
+  SphereRadius 118.8
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{8D18616B60C9C265}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier1.et"
+  m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
+  m_ObjectPrefab3 "{57CC29488C129FC4}Prefabs/Anomals/Moshkara/ARMST_MOSHKARA.et"
+  m_ArtsPrefab {
+   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+  }
+  m_CenterBias 0.5
+  m_SpawnChance 75
+ }
+ {
+  coords 1403.888 302.31 838.058
+  SphereRadius 118.8
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{8D18616B60C9C265}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier1.et"
+  m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
+  m_ObjectPrefab3 "{57CC29488C129FC4}Prefabs/Anomals/Moshkara/ARMST_MOSHKARA.et"
+  m_ArtsPrefab {
+   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+  }
+  m_CenterBias 0.5
+  m_SpawnChance 75
+ }
+ {
+  coords 1437.929 304.349 677.124
+  SphereRadius 118.8
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{57CC29488C129FC4}Prefabs/Anomals/Moshkara/ARMST_MOSHKARA.et"
+  m_ObjectPrefab2 "{57CC29488C129FC4}Prefabs/Anomals/Moshkara/ARMST_MOSHKARA.et"
+  m_ObjectPrefab3 "{57CC29488C129FC4}Prefabs/Anomals/Moshkara/ARMST_MOSHKARA.et"
+  m_ArtsPrefab {
+   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+  }
+  m_CenterBias 0.5
+  m_SpawnChance 75
+ }
+ {
+  coords 1828.395 292.01 691.538
+  SphereRadius 118.8
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{8D18616B60C9C265}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier1.et"
+  m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
+  m_ObjectPrefab3 "{57CC29488C129FC4}Prefabs/Anomals/Moshkara/ARMST_MOSHKARA.et"
+  m_ArtsPrefab {
+   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+  }
+  m_CenterBias 0.5
+  m_SpawnChance 75
+ }
+ EYE_ANOMALY5 {
+  coords 2045.687 290.117 528.021
+  SphereRadius 74.2
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{1918FCF94E1DC74D}Prefabs/Anomals/Eye/ARMST_EYE.et"
+  m_ObjectPrefab2 "{9E0D254D4ECD2C1D}Prefabs/Anomals/Miracle/ARMST_MIRACLE.et"
+  m_ObjectPrefab3 "{9E0D254D4ECD2C1D}Prefabs/Anomals/Miracle/ARMST_MIRACLE.et"
+  m_SpawnCount 5
+  m_CenterBias 0.6
+ }
+ EYE_ANOMALY6 {
+  coords 2331.208 291.782 459.762
+  SphereRadius 74.2
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{1918FCF94E1DC74D}Prefabs/Anomals/Eye/ARMST_EYE.et"
+  m_ObjectPrefab2 "{9E0D254D4ECD2C1D}Prefabs/Anomals/Miracle/ARMST_MIRACLE.et"
+  m_ObjectPrefab3 "{9E0D254D4ECD2C1D}Prefabs/Anomals/Miracle/ARMST_MIRACLE.et"
+  m_SpawnCount 5
+  m_CenterBias 0.6
+ }
+ EYE_ANOMALY7 {
+  coords 2442.6 298.428 765.222
+  SphereRadius 74.2
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{1918FCF94E1DC74D}Prefabs/Anomals/Eye/ARMST_EYE.et"
+  m_ObjectPrefab2 "{9E0D254D4ECD2C1D}Prefabs/Anomals/Miracle/ARMST_MIRACLE.et"
+  m_ObjectPrefab3 "{9E0D254D4ECD2C1D}Prefabs/Anomals/Miracle/ARMST_MIRACLE.et"
+  m_SpawnCount 5
+  m_CenterBias 0.6
+ }
+ {
+  coords 1884.817 291.762 1136.111
+  SphereRadius 118.8
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{8D18616B60C9C265}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier1.et"
+  m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
+  m_ObjectPrefab3 "{57CC29488C129FC4}Prefabs/Anomals/Moshkara/ARMST_MOSHKARA.et"
+  m_ArtsPrefab {
+   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+  }
+  m_CenterBias 0.5
+  m_SpawnChance 75
+ }
+ {
+  coords 1402.515 291.835 1214.332
+  SphereRadius 118.8
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{8D18616B60C9C265}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier1.et"
+  m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
+  m_ObjectPrefab3 "{57CC29488C129FC4}Prefabs/Anomals/Moshkara/ARMST_MOSHKARA.et"
+  m_ArtsPrefab {
+   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+  }
+  m_CenterBias 0.5
+  m_SpawnChance 75
+ }
+ {
+  coords 1374.241 291.574 1045.882
+  SphereRadius 74.5
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{8D18616B60C9C265}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier1.et"
+  m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
+  m_ObjectPrefab3 "{57CC29488C129FC4}Prefabs/Anomals/Moshkara/ARMST_MOSHKARA.et"
+  m_ArtsPrefab {
+   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+  }
+  m_CenterBias 0.5
+  m_SpawnChance 75
+ }
+ EYE_ANOMALY14 {
+  coords 2251.682 291.138 713.403
+  SphereRadius 74.2
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{1918FCF94E1DC74D}Prefabs/Anomals/Eye/ARMST_EYE.et"
+  m_ObjectPrefab2 "{9E0D254D4ECD2C1D}Prefabs/Anomals/Miracle/ARMST_MIRACLE.et"
+  m_ObjectPrefab3 "{9E0D254D4ECD2C1D}Prefabs/Anomals/Miracle/ARMST_MIRACLE.et"
+  m_SpawnCount 5
+  m_CenterBias 0.6
+ }
+ {
+  coords 1548.93 302.31 797.494
+  SphereRadius 118.8
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{8D18616B60C9C265}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier1.et"
+  m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
+  m_ObjectPrefab3 "{57CC29488C129FC4}Prefabs/Anomals/Moshkara/ARMST_MOSHKARA.et"
+  m_ArtsPrefab {
+   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+  }
+  m_CenterBias 0.5
+  m_SpawnChance 75
+ }
+ JARKA_ANOMALY_7 {
+  coords 2121.212 293.256 1150.069
+  SphereRadius 78.8
+  DrawShape 0
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{784FF70F5D5BEB3A}Prefabs/Anomals/Jarka/ARMST_JARKA_T1.et"
+  m_ObjectPrefab2 "{784FF70F5D5BEB3A}Prefabs/Anomals/Jarka/ARMST_JARKA_T1.et"
+  m_ObjectPrefab3 "{784FF70F5D5BEB3A}Prefabs/Anomals/Jarka/ARMST_JARKA_T1.et"
+  m_ArtsPrefab {
+   "{EABCF33CC349E7C3}Prefabs/Items/artefacts_new/art_fire_1T_drop.et"
+  }
+  m_SpawnCount 10
+  m_CenterBias 0.8
+  m_SpawnChanceArtefacts 8.95
+ }
+ JARKA_ANOMALY_14 {
+  coords 2121.889 292.852 1177.15
+  SphereRadius 78.8
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{764A0D38D69BA7F3}Prefabs/Anomals/Jarka/ARMST_JARKA_T2.et"
+  m_ObjectPrefab2 "{764A0D38D69BA7F3}Prefabs/Anomals/Jarka/ARMST_JARKA_T2.et"
+  m_ObjectPrefab3 "{764A0D38D69BA7F3}Prefabs/Anomals/Jarka/ARMST_JARKA_T2.et"
+  m_ArtsPrefab {
+   "{EABCF33CC349E7C3}Prefabs/Items/artefacts_new/art_fire_1T_drop.et"
+  }
+  m_SpawnCount 10
+  m_CenterBias 0.8
+  m_SpawnChanceArtefacts 8.95
+ }
+ ART_ANOMAL_4 {
+  coords 2713.908 290.807 567.975
+  scale 0.342
+  SphereRadius 114.1
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{784FF70F5D5BEB3A}Prefabs/Anomals/Jarka/ARMST_JARKA_T1.et"
+  m_ObjectPrefab2 "{784FF70F5D5BEB3A}Prefabs/Anomals/Jarka/ARMST_JARKA_T1.et"
+  m_ObjectPrefab3 "{784FF70F5D5BEB3A}Prefabs/Anomals/Jarka/ARMST_JARKA_T1.et"
+  m_ArtsPrefab {
+   "{EABCF33CC349E7C3}Prefabs/Items/artefacts_new/art_fire_1T_drop.et"
+  }
+  m_SpawnCount 10
+  m_MinDistanceBetweenAnomalies 8
+  m_CenterBias 0.9
+  m_SpawnChanceArtefactsRestart 100
+  m_SpawnChanceArtefacts 10
+ }
+ ART_ANOMAL_5 {
+  coords 2265.896 290.885 668.449
+  scale 0.342
+  SphereRadius 114.1
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{78F0DD9ECF457B08}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T1.et"
+  m_ObjectPrefab2 "{78F0DD9ECF457B08}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T1.et"
+  m_ObjectPrefab3 "{78F0DD9ECF457B08}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T1.et"
+  m_ArtsPrefab {
+   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+  }
+  m_SpawnCount 10
+  m_MinDistanceBetweenAnomalies 8
+  m_CenterBias 0.9
+  m_SpawnChanceArtefactsRestart 100
+  m_SpawnChanceArtefacts 10
+ }
+ ART_ANOMAL_7 {
+  coords 1678.183 291.419 675.802
+  scale 0.342
+  SphereRadius 114.1
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
+  m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
+  m_ObjectPrefab3 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
+  m_ArtsPrefab {
+   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+  }
+  m_SpawnCount 14
+  m_MinDistanceBetweenAnomalies 8
+  m_SpawnChanceArtefactsRestart 100
+  m_SpawnChanceArtefacts 10
+ }
+}
+$grp GenericEntity : "{A6C183C3ACAAF08D}Prefabs/Anomals/Roots_anom.et" {
+ {
+  coords 1502.074 301.046 726.605
+  angles 0 87.648 0
+  scale 2.145
+  {
+   StaticModelEntity {
+    ID "65F7099B9679DE03"
+   }
+  }
+ }
+ {
+  coords 1491.481 301.223 720.557
+  angles 0 87.648 0
+  scale 2.145
+ }
+ {
+  coords 1497.687 301.051 722.612
+  angles 0 87.648 0
+  scale 2.145
+ }
+ {
+  coords 1444.833 299.392 715.599
+  angles 0 138.627 0
+  scale 2.145
+ }
+ {
+  coords 1449.301 299.456 727.211
+  angles 0 138.627 0
+  scale 2.145
+ }
+ {
+  coords 1446.086 299.575 720.156
+  angles 0 138.627 0
+  scale 2.145
+ }
+ {
+  coords 1443.009 299.572 719.812
+  angles 0 138.627 0
+  scale 2.145
+ }
+ {
+  coords 1450.919 299.535 723.318
+  angles 0 138.627 0
+  scale 2.145
+ }
+ {
+  coords 1448.751 299.367 718.047
+  angles 0 138.627 0
+  scale 2.145
+ }
+ {
+  coords 1462.712 301.525 691.091
+  angles 0.818 -39.314 -1.826
+  scale 2.145
+ }
+ {
+  coords 1459.451 301.702 688.865
+  angles 0.126 -39.291 -1.26
+  scale 2.145
+ }
+ {
+  coords 1464.851 301.826 696.789
+  angles -1.479 -39.259 -1.103
+  scale 2.145
+ }
+}

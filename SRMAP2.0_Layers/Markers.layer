@@ -1,0 +1,50 @@
+$grp GenericEntity : "{24D3CBB736F17E62}Prefabs/Props/marker.et" {
+ kb_base {
+  components {
+   ARMST_MAP_MARKERS "{66A2A963CD545D02}" {
+    m_sMapMarkerName "#armst_map_smuggler_warehouse"
+   }
+  }
+  coords 4182.979 312.306 713.843
+ }
+ obolon_bar {
+  components {
+   ARMST_MAP_MARKERS "{66A2A963CD545D02}" {
+    m_sMapMarkerName "#armst_map_obolon_base"
+   }
+  }
+  coords 2063.727 291.734 961.889
+ }
+ science {
+  components {
+   ARMST_MAP_MARKERS "{66A2A963CD545D02}" {
+    m_sMapMarkerName "#armst_map_science_base"
+   }
+  }
+  coords 2389.874 308.076 2490.924
+ }
+ michurino {
+  components {
+   ARMST_MAP_MARKERS "{66A2A963CD545D02}" {
+    m_sMapMarkerName "#armst_map_Michurino"
+   }
+  }
+  coords 1554.296 309.827 178.598
+ }
+ storm_base {
+  components {
+   ARMST_MAP_MARKERS "{66A2A963CD545D02}" {
+    m_sMapMarkerName "#armst_map_storm_base"
+   }
+  }
+  coords 4268.565 302.077 2313.165
+ }
+ {
+  components {
+   ARMST_MAP_MARKERS "{66A2A963CD545D02}" {
+    m_sMapMarkerName "#armst_map_bar_shot"
+   }
+  }
+  coords 6136.989 309.781 1620.533
+ }
+}

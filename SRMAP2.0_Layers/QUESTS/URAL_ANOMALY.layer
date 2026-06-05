@@ -1,0 +1,62 @@
+$grp ARMST_QUEST_TRIGGER : "{372F4469FF5293C9}Prefabs/QUESTS/ARMST_TRIGGER_QUEST.et" {
+ {
+  coords 2220.708 300.601 707.674
+  SphereRadius 31.5
+  DrawShape 0
+  UpdatePeriod 30
+  m_sQuestNameDB "sci_analyse"
+  m_iStageStart 4
+  m_iStageSet 5
+  m_PrefabQuestRequest "{BCFCAA198039E187}Prefabs/Items/devices/armst_itm_anom_detect.et"
+ }
+ {
+  coords 3416.461 305.358 1249.962
+  SphereRadius 31.5
+  DrawShape 0
+  UpdatePeriod 30
+  m_sQuestNameDB "sci_analyse"
+  m_iStageStart 5
+  m_iStageSet 6
+  m_PrefabQuestRequest "{BCFCAA198039E187}Prefabs/Items/devices/armst_itm_anom_detect.et"
+ }
+ {
+  coords 4896.653 319.813 689.038
+  SphereRadius 23.3
+  DrawShape 0
+  UpdatePeriod 30
+  m_sQuestNameDB "sci_analyse"
+  m_iStageStart 6
+  m_iStageSet 7
+  m_PrefabQuestRequest "{BCFCAA198039E187}Prefabs/Items/devices/armst_itm_anom_detect.et"
+ }
+ {
+  coords 5222.186 299.802 1849.086
+  SphereRadius 23.3
+  DrawShape 0
+  UpdatePeriod 30
+  m_sQuestNameDB "sci_analyse"
+  m_iStageStart 7
+  m_iStageSet 8
+  m_PrefabQuestRequest "{BCFCAA198039E187}Prefabs/Items/devices/armst_itm_anom_detect.et"
+ }
+ {
+  coords 3327.777 256.048 2215.032
+  SphereRadius 14.2
+  DrawShape 0
+  UpdatePeriod 30
+  m_sQuestNameDB "sci_analyse"
+  m_iStageStart 8
+  m_iStageSet 9
+  m_PrefabQuestRequest "{BCFCAA198039E187}Prefabs/Items/devices/armst_itm_anom_detect.et"
+ }
+ {
+  coords 2429.061 250.107 2214.617
+  SphereRadius 34.2
+  DrawShape 0
+  UpdatePeriod 30
+  m_sQuestNameDB "sci_analyse"
+  m_iStageStart 9
+  m_iStageSet 10
+  m_PrefabQuestRequest "{BCFCAA198039E187}Prefabs/Items/devices/armst_itm_anom_detect.et"
+ }
+}

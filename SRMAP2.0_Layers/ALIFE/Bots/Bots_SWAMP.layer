@@ -1,0 +1,20 @@
+GenericEntity KB_SPAWNER5 : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawner.et" {
+ components {
+  ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+   m_InitialSpawnDelay 5
+   m_CheckInterval 60
+   m_CheckPlayerRadius 5
+   m_RadiusPatrol 10
+   m_SpawnChance 40
+   m_FailedSpawnDelay 300
+   m_PlayerDetectionRadius 400
+   m_SpawnGroups {
+    "{0D9EAB525B8BB1E8}Configs/GAME_SETTING/BOTS/ALIFE/alife_groups_merc.conf"
+    "{3219E4C7FE35EFC4}Configs/GAME_SETTING/BOTS/ALIFE/alife_groups_bandit.conf"
+   }
+   m_WaypointPrefab "{2FCBE5C76E285A7B}Prefabs/AI/Waypoints/AIWaypoint_DefendSmall.et"
+  }
+ }
+ coords 1957.302 301.222 1976.177
+ scale 7.84
+}

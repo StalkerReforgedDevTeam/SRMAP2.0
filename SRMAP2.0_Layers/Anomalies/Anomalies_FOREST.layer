@@ -1,0 +1,2138 @@
+$grp ARMST_TRIGGER_GLUHOMAN : "{6C7D37D00F9EA453}Prefabs/Anomals/TRIGGERS/ARMST_TRIGGER_GLUHOMAN.et" {
+ {
+  coords 5217.976 311.764 1339.918
+  SphereRadius 185.3
+ }
+ {
+  coords 5295.132 311.764 1520.384
+  SphereRadius 185.3
+ }
+ {
+  coords 5346.088 307.113 1478.906
+  scale 1.77
+  SphereRadius 175.3
+  UpdatePeriod 20
+ }
+ {
+  coords 5173.639 307.113 1260.398
+  scale 1.77
+  SphereRadius 175.3
+  UpdatePeriod 20
+ }
+}
+$grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRIGGER_ANOMAL.et" {
+ ELECTRO_ANOMALY2 {
+  coords 5342.961 312.983 725.166
+  scale 0.55
+  SphereRadius 85.2
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{60D88B47635E7627}Prefabs/Anomals/Electro/ARMST_ELECTRO_T1.et"
+  m_ObjectPrefab2 "{60D88B47635E7627}Prefabs/Anomals/Electro/ARMST_ELECTRO_T1.et"
+  m_ArtsPrefab {
+   "{00DDB16A5A775F47}Prefabs/Items/artefacts_new/art_electro_1T_drop.et"
+  }
+  m_CenterBias 0.6
+ }
+ ELECTRO_ANOMALY3 {
+  coords 5224.387 312.108 1026.45
+  scale 0.55
+  SphereRadius 85.2
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{60D88B47635E7627}Prefabs/Anomals/Electro/ARMST_ELECTRO_T1.et"
+  m_ObjectPrefab2 "{60D88B47635E7627}Prefabs/Anomals/Electro/ARMST_ELECTRO_T1.et"
+  m_ArtsPrefab {
+   "{00DDB16A5A775F47}Prefabs/Items/artefacts_new/art_electro_1T_drop.et"
+  }
+  m_SpawnCount 11
+  m_CenterBias 0.3
+ }
+ JARKA_ANOMALY_5 {
+  coords 5162.016 305.708 560.741
+  SphereRadius 118.8
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{784FF70F5D5BEB3A}Prefabs/Anomals/Jarka/ARMST_JARKA_T1.et"
+  m_ObjectPrefab2 "{642A15101599EB63}Prefabs/Anomals/Puziriks/ARMST_JARKA_PUZIRIKS.et"
+  m_ObjectPrefab3 "{784FF70F5D5BEB3A}Prefabs/Anomals/Jarka/ARMST_JARKA_T1.et"
+  m_ArtsPrefab {
+   "{EABCF33CC349E7C3}Prefabs/Items/artefacts_new/art_fire_1T_drop.et"
+  }
+  m_SpawnCount 8
+  m_CenterBias 0.1
+ }
+ TOXIC_ANOMALY6 {
+  coords 4895.461 311.233 1265.564
+  SphereRadius 118.8
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{E696A918826666EB}Prefabs/Anomals/Studen/ARMST_STUDEN.et"
+  m_ObjectPrefab2 "{E696A918826666EB}Prefabs/Anomals/Studen/ARMST_STUDEN.et"
+  m_ObjectPrefab3 "{E696A918826666EB}Prefabs/Anomals/Studen/ARMST_STUDEN.et"
+  m_ArtsPrefab {
+   "{5BA31E48F7933CA9}Prefabs/Items/artefacts_new/art_toxys_1T_drop.et"
+  }
+  m_SpawnCount 35
+  m_CenterBias 0.4
+ }
+ {
+  coords 4579.875 305.204 1336.423
+  SphereRadius 118.8
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{57CC29488C129FC4}Prefabs/Anomals/Moshkara/ARMST_MOSHKARA.et"
+  m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
+  m_ObjectPrefab3 "{78F0DD9ECF457B08}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T1.et"
+  m_ArtsPrefab {
+   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+  }
+  m_SpawnChance 75
+ }
+ {
+  coords 4726.975 306.159 1166.95
+  SphereRadius 118.8
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{57CC29488C129FC4}Prefabs/Anomals/Moshkara/ARMST_MOSHKARA.et"
+  m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
+  m_ObjectPrefab3 "{78F0DD9ECF457B08}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T1.et"
+  m_ArtsPrefab {
+   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+  }
+  m_SpawnChance 75
+ }
+ {
+  coords 4715.832 312.108 905.117
+  SphereRadius 118.8
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{57CC29488C129FC4}Prefabs/Anomals/Moshkara/ARMST_MOSHKARA.et"
+  m_ObjectPrefab2 "{78F0DD9ECF457B08}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T1.et"
+  m_ObjectPrefab3 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
+  m_ArtsPrefab {
+   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+  }
+  m_SpawnChance 75
+ }
+ {
+  coords 5030.219 312.768 881.867
+  SphereRadius 118.8
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{57CC29488C129FC4}Prefabs/Anomals/Moshkara/ARMST_MOSHKARA.et"
+  m_ObjectPrefab2 "{78F0DD9ECF457B08}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T1.et"
+  m_ObjectPrefab3 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
+  m_ArtsPrefab {
+   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+  }
+  m_SpawnChance 75
+ }
+ {
+  coords 4526.486 309.699 662.839
+  SphereRadius 118.8
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{8D18616B60C9C265}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier1.et"
+  m_ObjectPrefab2 "{78F0DD9ECF457B08}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T1.et"
+  m_ObjectPrefab3 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
+  m_ArtsPrefab {
+   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+  }
+  m_SpawnChance 75
+ }
+ {
+  coords 5432.997 304.649 947.636
+  SphereRadius 118.8
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{8D18616B60C9C265}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier1.et"
+  m_ObjectPrefab2 "{78F0DD9ECF457B08}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T1.et"
+  m_ObjectPrefab3 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
+  m_ArtsPrefab {
+   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+  }
+  m_SpawnChance 75
+ }
+ {
+  coords 5199.932 321.434 787.631
+  SphereRadius 118.8
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{8D18616B60C9C265}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier1.et"
+  m_ObjectPrefab2 "{78F0DD9ECF457B08}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T1.et"
+  m_ObjectPrefab3 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
+  m_ArtsPrefab {
+   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+  }
+  m_SpawnChance 75
+ }
+ {
+  coords 4614.753 304.507 530.606
+  SphereRadius 118.8
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{8D18616B60C9C265}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier1.et"
+  m_ObjectPrefab2 "{78F0DD9ECF457B08}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T1.et"
+  m_ObjectPrefab3 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
+  m_ArtsPrefab {
+   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+  }
+  m_SpawnChance 75
+ }
+ {
+  coords 4897.021 320.223 681.528
+  SphereRadius 118.8
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{8D18616B60C9C265}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier1.et"
+  m_ObjectPrefab2 "{78F0DD9ECF457B08}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T1.et"
+  m_ObjectPrefab3 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
+  m_ArtsPrefab {
+   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+  }
+  m_SpawnChance 75
+ }
+ {
+  coords 4820.722 328.429 448.628
+  SphereRadius 118.8
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{8D18616B60C9C265}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier1.et"
+  m_ObjectPrefab2 "{78F0DD9ECF457B08}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T1.et"
+  m_ObjectPrefab3 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
+  m_ArtsPrefab {
+   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+  }
+  m_SpawnChance 75
+ }
+ {
+  coords 4413.07 308.108 490.686
+  SphereRadius 118.8
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{8D18616B60C9C265}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier1.et"
+  m_ObjectPrefab2 "{78F0DD9ECF457B08}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T1.et"
+  m_ObjectPrefab3 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
+  m_ArtsPrefab {
+   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+  }
+  m_SpawnChance 75
+ }
+ JARKA_ANOMALY_6 {
+  coords 5170.656 312.392 1271.108
+  scale 1.56
+  SphereRadius 79.4
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{642A15101599EB63}Prefabs/Anomals/Puziriks/ARMST_JARKA_PUZIRIKS.et"
+  m_ObjectPrefab2 "{642A15101599EB63}Prefabs/Anomals/Puziriks/ARMST_JARKA_PUZIRIKS.et"
+  m_ObjectPrefab3 "{642A15101599EB63}Prefabs/Anomals/Puziriks/ARMST_JARKA_PUZIRIKS.et"
+  m_ArtsPrefab {
+   "{EABCF33CC349E7C3}Prefabs/Items/artefacts_new/art_fire_1T_drop.et"
+  }
+  m_SpawnCount 8
+  m_CenterBias 0.4
+ }
+ EYE_ANOMALY2 {
+  coords 5447.662 304.427 989.656
+  SphereRadius 74.2
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{1918FCF94E1DC74D}Prefabs/Anomals/Eye/ARMST_EYE.et"
+  m_ObjectPrefab2 "{9E0D254D4ECD2C1D}Prefabs/Anomals/Miracle/ARMST_MIRACLE.et"
+  m_ObjectPrefab3 "{1918FCF94E1DC74D}Prefabs/Anomals/Eye/ARMST_EYE.et"
+  m_SpawnCount 5
+  m_CenterBias 0.5
+ }
+ EYE_ANOMALY3 {
+  coords 4632.931 310.275 994.965
+  SphereRadius 74.2
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{1918FCF94E1DC74D}Prefabs/Anomals/Eye/ARMST_EYE.et"
+  m_ObjectPrefab2 "{9E0D254D4ECD2C1D}Prefabs/Anomals/Miracle/ARMST_MIRACLE.et"
+  m_ObjectPrefab3 "{1918FCF94E1DC74D}Prefabs/Anomals/Eye/ARMST_EYE.et"
+  m_SpawnCount 5
+  m_CenterBias 0.6
+ }
+ TOXIC_ANOMALY7 {
+  coords 4462.402 314.48 1329.411
+  SphereRadius 40.6
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{E696A918826666EB}Prefabs/Anomals/Studen/ARMST_STUDEN.et"
+  m_ObjectPrefab2 "{E696A918826666EB}Prefabs/Anomals/Studen/ARMST_STUDEN.et"
+  m_ObjectPrefab3 "{E696A918826666EB}Prefabs/Anomals/Studen/ARMST_STUDEN.et"
+  m_ArtsPrefab {
+   "{5BA31E48F7933CA9}Prefabs/Items/artefacts_new/art_toxys_1T_drop.et"
+  }
+  m_SpawnCount 15
+  m_CenterBias 0.8
+ }
+ TOXIC_ANOMALY5 {
+  coords 4836.771 311.233 1268.726
+  SphereRadius 118.8
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{E696A918826666EB}Prefabs/Anomals/Studen/ARMST_STUDEN.et"
+  m_ObjectPrefab2 "{E696A918826666EB}Prefabs/Anomals/Studen/ARMST_STUDEN.et"
+  m_ObjectPrefab3 "{E696A918826666EB}Prefabs/Anomals/Studen/ARMST_STUDEN.et"
+  m_ArtsPrefab {
+   "{5BA31E48F7933CA9}Prefabs/Items/artefacts_new/art_toxys_1T_drop.et"
+  }
+  m_SpawnCount 35
+  m_CenterBias 0.4
+ }
+ {
+  coords 4472.199 308.089 303.579
+  SphereRadius 118.8
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{8D18616B60C9C265}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier1.et"
+  m_ObjectPrefab2 "{78F0DD9ECF457B08}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T1.et"
+  m_ObjectPrefab3 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
+  m_ArtsPrefab {
+   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+  }
+  m_SpawnChance 75
+ }
+ {
+  coords 5462.788 313.647 793.026
+  SphereRadius 118.8
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{8D18616B60C9C265}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier1.et"
+  m_ObjectPrefab2 "{78F0DD9ECF457B08}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T1.et"
+  m_ObjectPrefab3 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
+  m_ArtsPrefab {
+   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+  }
+  m_SpawnChance 75
+ }
+ {
+  coords 5290.299 322.899 920.699
+  SphereRadius 118.8
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{8D18616B60C9C265}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier1.et"
+  m_ObjectPrefab2 "{78F0DD9ECF457B08}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T1.et"
+  m_ObjectPrefab3 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
+  m_ArtsPrefab {
+   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+  }
+  m_SpawnChance 75
+ }
+ {
+  coords 5053.087 317.301 695.081
+  SphereRadius 118.8
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{8D18616B60C9C265}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier1.et"
+  m_ObjectPrefab2 "{78F0DD9ECF457B08}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T1.et"
+  m_ObjectPrefab3 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
+  m_ArtsPrefab {
+   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+  }
+  m_SpawnChance 75
+ }
+ {
+  coords 4994.763 310.655 518.269
+  SphereRadius 118.8
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{8D18616B60C9C265}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier1.et"
+  m_ObjectPrefab2 "{78F0DD9ECF457B08}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T1.et"
+  m_ObjectPrefab3 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
+  m_ArtsPrefab {
+   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+  }
+  m_SpawnChance 75
+ }
+ {
+  coords 4734.698 310.095 646.137
+  SphereRadius 118.8
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{8D18616B60C9C265}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier1.et"
+  m_ObjectPrefab2 "{78F0DD9ECF457B08}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T1.et"
+  m_ObjectPrefab3 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
+  m_ArtsPrefab {
+   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+  }
+  m_SpawnChance 75
+ }
+ GHOSTS {
+  coords 4960.13 309.212 1004.801
+  SphereRadius 63.2
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{42418A6454708241}Prefabs/Anomals/Ghost/ARMST_GHOST_SHADOW.et"
+  m_ObjectPrefab2 "{42418A6454708241}Prefabs/Anomals/Ghost/ARMST_GHOST_SHADOW.et"
+  m_ObjectPrefab3 "{42418A6454708241}Prefabs/Anomals/Ghost/ARMST_GHOST_SHADOW.et"
+  m_SpawnCount 5
+  m_MinDistanceBetweenAnomalies 8
+  m_CenterBias 0.6
+ }
+ GHOSTS2 {
+  coords 5470.252 311.751 1479.507
+  SphereRadius 39.6
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{42418A6454708241}Prefabs/Anomals/Ghost/ARMST_GHOST_SHADOW.et"
+  m_ObjectPrefab2 "{42418A6454708241}Prefabs/Anomals/Ghost/ARMST_GHOST_SHADOW.et"
+  m_ObjectPrefab3 "{42418A6454708241}Prefabs/Anomals/Ghost/ARMST_GHOST_SHADOW.et"
+  m_SpawnCount 3
+  m_MinDistanceBetweenAnomalies 8
+  m_CenterBias 0.6
+ }
+ ART_ANOMAL_8 {
+  coords 4417.252 308.867 242.079
+  scale 0.342
+  SphereRadius 114.1
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{60D88B47635E7627}Prefabs/Anomals/Electro/ARMST_ELECTRO_T1.et"
+  m_ObjectPrefab2 "{60D88B47635E7627}Prefabs/Anomals/Electro/ARMST_ELECTRO_T1.et"
+  m_ObjectPrefab3 "{60D88B47635E7627}Prefabs/Anomals/Electro/ARMST_ELECTRO_T1.et"
+  m_ArtsPrefab {
+   "{00DDB16A5A775F47}Prefabs/Items/artefacts_new/art_electro_1T_drop.et"
+  }
+  m_SpawnCount 10
+  m_MinDistanceBetweenAnomalies 8
+  m_CenterBias 0.9
+  m_SpawnChanceArtefactsRestart 100
+  m_SpawnChanceArtefacts 10
+ }
+ ART_ANOMAL_9 {
+  coords 4899.829 319.739 690.889
+  scale 0.342
+  SphereRadius 114.1
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{60D88B47635E7627}Prefabs/Anomals/Electro/ARMST_ELECTRO_T1.et"
+  m_ObjectPrefab2 "{60D88B47635E7627}Prefabs/Anomals/Electro/ARMST_ELECTRO_T1.et"
+  m_ObjectPrefab3 "{60D88B47635E7627}Prefabs/Anomals/Electro/ARMST_ELECTRO_T1.et"
+  m_ArtsPrefab {
+   "{00DDB16A5A775F47}Prefabs/Items/artefacts_new/art_electro_1T_drop.et"
+  }
+  m_SpawnCount 10
+  m_MinDistanceBetweenAnomalies 8
+  m_CenterBias 0.9
+  m_SpawnChanceArtefactsRestart 100
+  m_SpawnChanceArtefacts 10
+ }
+ ART_ANOMAL_10 {
+  coords 5251.109 308.063 814.203
+  scale 0.342
+  SphereRadius 114.1
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{784FF70F5D5BEB3A}Prefabs/Anomals/Jarka/ARMST_JARKA_T1.et"
+  m_ObjectPrefab2 "{784FF70F5D5BEB3A}Prefabs/Anomals/Jarka/ARMST_JARKA_T1.et"
+  m_ObjectPrefab3 "{784FF70F5D5BEB3A}Prefabs/Anomals/Jarka/ARMST_JARKA_T1.et"
+  m_ArtsPrefab {
+   "{EABCF33CC349E7C3}Prefabs/Items/artefacts_new/art_fire_1T_drop.et"
+  }
+  m_SpawnCount 10
+  m_MinDistanceBetweenAnomalies 8
+  m_CenterBias 0.9
+  m_SpawnChanceArtefactsRestart 100
+  m_SpawnChanceArtefacts 10
+ }
+ ART_ANOMAL_11 {
+  coords 4892.525 311.233 1234.659
+  scale 0.342
+  SphereRadius 114.1
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{A7BCEA2AE366E4AF}Prefabs/Anomals/Toxic/ARMST_TOXIC.et"
+  m_ObjectPrefab2 "{A7BCEA2AE366E4AF}Prefabs/Anomals/Toxic/ARMST_TOXIC.et"
+  m_ObjectPrefab3 "{A7BCEA2AE366E4AF}Prefabs/Anomals/Toxic/ARMST_TOXIC.et"
+  m_ArtsPrefab {
+   "{5BA31E48F7933CA9}Prefabs/Items/artefacts_new/art_toxys_1T_drop.et"
+  }
+  m_SpawnCount 10
+  m_MinDistanceBetweenAnomalies 8
+  m_CenterBias 0.9
+  m_SpawnChanceArtefactsRestart 100
+  m_SpawnChanceArtefacts 10
+ }
+ TOXIC_ANOMALY10 {
+  coords 4868.869 311.388 1360.054
+  SphereRadius 118.8
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{E696A918826666EB}Prefabs/Anomals/Studen/ARMST_STUDEN.et"
+  m_ObjectPrefab2 "{E696A918826666EB}Prefabs/Anomals/Studen/ARMST_STUDEN.et"
+  m_ObjectPrefab3 "{E696A918826666EB}Prefabs/Anomals/Studen/ARMST_STUDEN.et"
+  m_ArtsPrefab {
+   "{5BA31E48F7933CA9}Prefabs/Items/artefacts_new/art_toxys_1T_drop.et"
+  }
+  m_SpawnCount 35
+  m_CenterBias 0.4
+ }
+ TOXIC_ANOMALY11 {
+  coords 4892.765 311.39 1388.625
+  SphereRadius 118.8
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{E696A918826666EB}Prefabs/Anomals/Studen/ARMST_STUDEN.et"
+  m_ObjectPrefab2 "{E696A918826666EB}Prefabs/Anomals/Studen/ARMST_STUDEN.et"
+  m_ObjectPrefab3 "{E696A918826666EB}Prefabs/Anomals/Studen/ARMST_STUDEN.et"
+  m_ArtsPrefab {
+   "{5BA31E48F7933CA9}Prefabs/Items/artefacts_new/art_toxys_1T_drop.et"
+  }
+  m_SpawnCount 35
+  m_CenterBias 0.4
+ }
+}
+$grp GenericEntity : "{A6C183C3ACAAF08D}Prefabs/Anomals/Roots_anom.et" {
+ {
+  coords 4608.428 311.431 982.158
+  angles 0 0 0
+  scale 2.56
+ }
+ {
+  coords 4451.425 317.416 1333.443
+  angles 0 0 0
+  scale 2.56
+ }
+ {
+  coords 4440.89 316.805 1337.29
+  angles 0 0 0
+  scale 2.56
+ }
+ {
+  coords 4446.842 317.335 1339.66
+  angles 0 0 0
+  scale 2.56
+ }
+ {
+  coords 4467.022 319.687 1354.319
+  angles 0 0 0
+  scale 2.56
+ }
+ {
+  coords 4476.865 317.181 1335.355
+  angles 0 0 0
+  scale 2.56
+ }
+ {
+  coords 5428.928 307.635 914.97
+  angles 0 0 0
+  scale 1.613
+ }
+ {
+  coords 5432.89 307.006 919.722
+  angles 0 0 0
+  scale 1.613
+ }
+ {
+  coords 5450.922 307.665 934.089
+  angles 0 0 0
+  scale 1.613
+ }
+ {
+  coords 5449.037 307.564 929.305
+  angles 0 0 0
+  scale 1.613
+ }
+ {
+  coords 5484.22 309.482 944.65
+  angles 0 0 0
+  scale 1.613
+ }
+ {
+  coords 5485.178 309.427 938.217
+  angles 0 0 0
+  scale 1.613
+ }
+ {
+  coords 5492.763 309.873 944.039
+  angles 0 0 0
+  scale 1.613
+ }
+ {
+  coords 5492.688 309.944 948.803
+  angles 0 0 0
+  scale 1.613
+ }
+ {
+  coords 5485.753 313.334 942.635
+  angles 0 0 0
+  scale 1.613
+ }
+ {
+  coords 5492.132 313.694 946.564
+  angles 0 0 0
+  scale 1.613
+ }
+ {
+  coords 5475.115 308.66 978.624
+  angles 0 0 0
+  scale 1.613
+ }
+ {
+  coords 5469.232 308.14 976.067
+  angles 0 0 0
+  scale 1.613
+ }
+ {
+  coords 5468.977 307.945 968.598
+  angles 0 0 0
+  scale 1.613
+ }
+ {
+  coords 5411.247 311.564 976.754
+  angles 0 0 0
+  scale 1.613
+ }
+ {
+  coords 5409.928 308.314 971.533
+  angles 0 0 0
+  scale 1.613
+ }
+ {
+  coords 5413.729 308.315 971.727
+  angles 0 0 0
+  scale 1.613
+ }
+ {
+  coords 5412.776 308.347 975.832
+  angles 0 0 0
+  scale 1.613
+ }
+ {
+  coords 5412.978 308.385 980.664
+  angles 0 0 0
+  scale 1.613
+ }
+ {
+  coords 5408.852 308.371 978.818
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 5417.515 308.236 1024.215
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 5411.679 308.093 1020.568
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 5407.111 308.08 1020.238
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 5409.238 308.234 1024.177
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 5505.645 314.859 798.772
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 5501.66 314.859 797.453
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 5512.735 314.813 797.858
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 5515.299 314.854 799.475
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 5508.479 314.439 790.306
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 5512.347 314.22 786.448
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 5520.084 314.439 794.094
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 5517.772 314.439 784.061
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 5417.492 308.213 994.208
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 5470.132 309.269 1021.642
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 5468.75 310.35 1027.725
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 5474.94 310.001 1028.219
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 5471.006 310.903 1032.105
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 4836.667 314.63 1297.186
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 4850.818 314.934 1302.684
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 4849.813 314.958 1294.378
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 4852.858 315.235 1298.144
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 4862.162 314.673 1292.724
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 4866.34 314.992 1302.741
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 4881.66 314.75 1293.306
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 4904.216 315.125 1297.37
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 4906.183 315.262 1305.907
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 4907.103 315.262 1314.147
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 4905.406 315.262 1322.07
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 4903.248 315.147 1316.427
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 4900.451 314.864 1321.832
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 4912.23 314.762 1317.884
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 4909.708 315.086 1309.37
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 4911.391 314.94 1304.292
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 4912.913 314.819 1297.836
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 4923.572 315.114 1299.354
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 4925.954 315.262 1302.488
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 4927.215 315.262 1303.716
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 4925.014 315.262 1315.242
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 4931.106 314.895 1308.901
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 4930.128 314.959 1314.989
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 4929.369 314.998 1321.527
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 4948.654 315.756 1307.013
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 4950.698 315.756 1302.443
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 4954.708 315.756 1304.121
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 4951.206 315.756 1296.653
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 4945.793 315.756 1300.32
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 4956.319 315.756 1297.621
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 4958.607 315.756 1297.575
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 4958.487 315.756 1302.723
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 4959.918 315.756 1309.416
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 4964.575 315.756 1307.281
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 4977.545 314.233 1303.62
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 4972.342 314.233 1300.233
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 4889.122 314.402 1320.51
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 4885.369 314.402 1326.027
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 4877.16 314.785 1329.375
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 4875.64 314.635 1324.457
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 4866.385 314.222 1328.344
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 4845.768 315.033 1321.082
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 4842.488 315.033 1322.306
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 4847.607 315.033 1315.431
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 4843.688 314.559 1327.913
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 3972.063 322.202 1183.4
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 3973.578 322.263 1182.347
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 3004.724 305.631 1159.308
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 3058.139 303.607 996.128
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 3059.764 303.607 1001
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 3062.715 303.607 996.249
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 3064.305 303.607 991.706
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 3066.636 303.607 996.788
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 3068.788 303.607 994.058
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 3067.112 303.607 979.936
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 3068.997 303.607 982.856
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 3057.668 303.607 980.136
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 3064.013 303.607 979.77
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2776.43 316.246 1002.232
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2599.739 294.246 968.771
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2594.639 293.678 971.933
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2597.703 294.023 970.525
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2613.731 293.68 977.967
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2608.489 293.807 981.285
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2609.227 293.708 975.144
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2613.944 293.158 961.016
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2608.079 293.333 962.166
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2608.43 293.551 995.264
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2612.913 293.495 1003.78
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2613.033 293.492 997.793
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2621.279 295.823 1030.106
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2624.936 296.072 1032.569
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2629.247 296.134 1031.237
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2654.977 294.816 995.526
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2657.915 294.355 998.756
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2659.06 294.658 994.396
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2663.643 294.697 990.618
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2658.026 295.059 990.493
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2464.917 293.329 931.109
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2461.761 293.339 925.305
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2467.293 293.457 921.147
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2453.426 293.964 886.342
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2446.956 294.629 879.828
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2448.315 294.629 883.819
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2454.032 294.629 882.997
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2456.569 294.629 881.222
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2457.984 294.629 885.589
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2044.256 293.262 545.164
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2042.029 296.325 546.039
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2047.215 295.13 618.472
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2041.992 294.699 615.563
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2038.03 294.392 615.863
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2015.939 295.375 648.418
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2014.14 295.375 654.704
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2010.331 295.375 659.251
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2015.477 293.056 682.95
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2011.148 293.355 680.322
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2013.657 293.179 681.991
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2012.911 293.163 685.636
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2014.02 296.423 679.96
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1999.881 294.961 689.54
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2006.401 293.356 693.548
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2008.768 297.627 690.286
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2002.438 297.462 692.981
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1994.279 298.349 696.872
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1996.252 299.196 688.6
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1991.442 298.63 690.83
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1997.599 301.047 691.623
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2003.93 300.613 688.611
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2013.449 300.492 686.688
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2010.255 300.74 683.127
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2008.544 300.76 688.072
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2006.871 299.073 691.989
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2003.377 299.315 694.019
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1995.045 299.742 698.013
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1990.369 301.461 692.424
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1994.71 301.49 695.011
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1990.658 300.071 689.633
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2001.377 299.589 684.755
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2006.671 298.323 683.84
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2003.994 299.458 683.353
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1990.039 294.211 691.468
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1992.939 293.613 697.057
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1983.805 298.64 695.042
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1988.141 298.344 697.406
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1987.685 298.417 694.655
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1985.413 294.948 693.231
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1985.277 293.993 700.669
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1996.977 293.426 683.936
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1993.809 293.871 684.401
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1996.942 294.152 685.352
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2013.325 293.302 693.769
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2012.377 294.113 691.864
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2005.234 293.702 697.643
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2001.469 294.593 697.105
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1996.922 294.639 698.553
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1987.714 293.158 684.053
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1993.098 293.505 685.135
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1991.527 295.295 687.118
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2012.38 295.161 598.277
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2009.29 295.307 598.925
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2004.056 295.114 601.165
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2006.731 295.373 594.869
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1998.706 295.156 595.807
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2001.993 295.08 600.709
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1977.576 295.113 566.741
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1974.897 294.613 568.577
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1952.989 295.178 709.555
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1951.917 295.09 712.547
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1954.119 295.166 713.183
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1924.842 294.855 666.849
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1930.189 294.706 661.994
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2052.317 291.353 726.849
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1502.106 293.18 1042.904
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1515.848 293.956 1049.406
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1513.238 293.966 1044.184
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1516.852 294.027 1042.85
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1519.123 293.932 1045.523
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1595.4 296.245 1079.022
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1607.14 295.91 1079.719
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1718.832 296.685 1168.997
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1712.451 296.23 1146.091
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1512.765 305.787 1192.029
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1489.406 305.588 1201.283
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1988.155 310.906 1522.665
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1635.684 304.349 1517.119
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1638.301 304.349 1513.794
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1636.752 304.349 1507.713
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1621.767 303.086 1502.925
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1627.404 305.167 1493.164
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1631.734 304.627 1490.398
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1634.838 309.453 1491.378
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1635.634 309.453 1498.899
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1633.738 309.453 1500.89
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1628.253 309.453 1494.311
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1644.406 303.974 1475.663
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1650.941 303.974 1471.192
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1639.199 303.974 1480.635
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1635.193 303.974 1475.672
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1640.224 303.974 1477.422
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1641.616 303.974 1473.461
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1638.298 303.974 1472.05
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1644.582 303.974 1471.518
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1647.475 303.974 1468.62
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1651.313 303.974 1464.673
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1654.25 303.54 1499.191
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1651.295 303.54 1503.962
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1647.716 303.54 1500.348
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1644.059 303.54 1503.532
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1639.447 304.349 1511.258
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1653.348 304.251 1524.893
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1661.772 304.251 1523.16
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1653.09 304.251 1529.497
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1651.516 304.251 1530.54
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1648.489 304.251 1535.008
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1650.778 304.251 1533.488
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1648.323 304.251 1531.346
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1647.355 304.251 1532.018
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1646.065 304.251 1532.495
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1646.933 304.251 1530.736
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1647.453 304.251 1529.474
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1687.608 303.307 1502.571
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1689.517 303.307 1500.832
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1690.221 303.307 1500.028
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1690.907 303.307 1499.608
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1691.641 303.307 1498.421
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1690.721 303.307 1500.894
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1691.129 303.307 1501.776
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1691.469 303.307 1500.092
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1691.904 303.307 1499.421
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1528.341 293.454 1744.302
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1523.789 293.302 1744.582
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1516.402 294.215 1743.181
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1477.1 294.254 1797.585
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1477.413 294.39 1803.13
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1460.03 294.668 1787.079
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1458.587 294.668 1788.587
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1459.805 297.643 1789.569
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1508.835 299.627 1811.41
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1534.427 299.067 1806.21
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1558.049 297.619 1788.085
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1560.191 297.263 1786.942
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1556.026 296.912 1784.766
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1556.679 296.554 1781.354
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1643.88 295.186 1990.617
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1656.026 295.26 1988.691
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1617.611 295.683 1933.63
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1733.47 294.754 1851.608
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1737.589 294.887 1846.078
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1738.365 294.563 1851.616
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1741.346 294.37 1853.058
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1766.023 293.98 1884.108
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 1767.448 293.708 1877.871
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2027.483 315.045 1642.772
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2023.467 315.045 1643.798
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2035.329 315.045 1645.857
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2033.539 315.084 1671.099
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2036.061 315.088 1676.125
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2033.646 315.088 1672.299
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2029.883 315.088 1676.949
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2029.998 315.088 1680.175
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2031.928 315.088 1678.232
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2084.616 314.335 1696.564
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2079.95 313.744 1692.75
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2084.952 313.769 1692.501
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2118.921 314.619 1725.388
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2115.045 314.619 1724.171
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2113.084 314.619 1729.585
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2109.025 314.619 1730.959
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2164.292 313.288 1782.673
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2162.268 313.288 1785.957
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2231.79 308.847 1801.702
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2228.018 309.147 1807.55
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2233.784 309.817 1808.376
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2254.83 309.031 1806.844
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2259.003 309.031 1802.83
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2256.304 309.031 1808.51
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2252.268 309.031 1798.293
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2261.952 309.317 1816.695
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2265.949 309.317 1818.926
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2261.36 309.317 1823.223
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2255.02 309.317 1822.844
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2310.22 309.955 1870.145
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2306.796 307.806 1865.144
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2344.012 310.132 1847.349
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2339.974 308.812 1854.242
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2344.985 308.471 1857.753
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2378.75 312.913 1837.601
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2750.668 299.451 1506.414
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2743.231 301.53 1520.581
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2749.619 305.581 1522.726
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2749.193 310.709 1522.608
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2749.685 315.512 1524.297
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2746.718 316.778 1524.038
+  angles 0 0 0
+  scale 2.145
+ }
+ {
+  coords 2747.871 315.579 1525.911
+  angles 0 0 0
+  scale 2.145
+ }
+}
+$grp ARMST_TRIGGER_ANOMALY : "{AA2861A1D8917395}Prefabs/Anomals/TRIGGERS/ARMST_TRIGGER_LIGHTING.et" {
+ {
+  coords 4894.22 320.046 682.176
+  SphereRadius 64.7
+  UpdatePeriod 10.3
+  m_ObjectPrefab "{D43F10276490CD14}Prefabs/Anomals/Explosions/Lighting/Explosion_flash.et"
+  m_CenterBias 0.5
+  m_TimerSpawn 10
+ }
+ {
+  coords 5033.828 312.452 878.823
+  SphereRadius 64.7
+  UpdatePeriod 10.3
+  m_ObjectPrefab "{D43F10276490CD14}Prefabs/Anomals/Explosions/Lighting/Explosion_flash.et"
+  m_CenterBias 0.5
+  m_TimerSpawn 10
+ }
+}
+SCR_DestructibleBuildingEntity : "{C62C4F2A3F686C65}Prefabs/Industrial/sklades_soviet/Barrack_soviets.et" {
+ coords 2330.937 312.702 2533.735
+ angles 0 -173.005 0
+ {
+  GenericEntity {
+   ID "692C71939646CAC4"
+   {
+    GenericEntity {
+     ID "56C4E4016207F20D"
+     components {
+      DoorComponent "{221C667A9F7D4B69}" {
+       DoorAction SCR_DoorUserAction "{50888D3646A61640}" {
+        m_FactionKey FACTION_MUTANTS
+       }
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "692C71939646CB33"
+   {
+    GenericEntity {
+     ID "56C4E4016207F20D"
+     components {
+      DoorComponent "{221C667A9F7D4B69}" {
+       DoorAction SCR_DoorUserAction "{50888D3646A61640}" {
+        m_FactionKey FACTION_MUTANTS
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}
+SCR_DestructibleBuildingEntity : "{CE440ECE685FEC2C}Prefabs/agroprom/sarai_1.et" {
+ coords 1663.446 309.106 141.763
+ angles -3.295 -175.641 -3.831
+}
+SCR_DestructibleBuildingEntity : "{D0947E26A8A39ECF}Prefabs/Structures/Forest/DeerStands/DeerStand_01.et" {
+ coords 1725.366 0 182.768
+ angles 0 42.677 0
+}

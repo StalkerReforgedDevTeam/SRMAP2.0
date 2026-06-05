@@ -1,0 +1,86 @@
+$grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRIGGER_ANOMAL.et" {
+ {
+  coords 1367.444 309.765 478.056
+  SphereRadius 59.5
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{88A31E6AEF75DF99}Prefabs/Anomals/Gravy/ARMST_GRAVY_train.et"
+  m_ObjectPrefab2 "{88A31E6AEF75DF99}Prefabs/Anomals/Gravy/ARMST_GRAVY_train.et"
+  m_ObjectPrefab3 "{88A31E6AEF75DF99}Prefabs/Anomals/Gravy/ARMST_GRAVY_train.et"
+  m_CenterBias 0.6
+  m_SpawnChance 65
+  m_SpawnChanceArtefacts 0
+ }
+ {
+  coords 2076.953 306.413 295.895
+  SphereRadius 77.9
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{88A31E6AEF75DF99}Prefabs/Anomals/Gravy/ARMST_GRAVY_train.et"
+  m_ObjectPrefab2 "{88A31E6AEF75DF99}Prefabs/Anomals/Gravy/ARMST_GRAVY_train.et"
+  m_ObjectPrefab3 "{88A31E6AEF75DF99}Prefabs/Anomals/Gravy/ARMST_GRAVY_train.et"
+  m_CenterBias 0.6
+  m_SpawnChance 65
+  m_SpawnChanceArtefacts 0
+ }
+ {
+  coords 2425.6 309.494 236.394
+  SphereRadius 77.9
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{88A31E6AEF75DF99}Prefabs/Anomals/Gravy/ARMST_GRAVY_train.et"
+  m_ObjectPrefab2 "{88A31E6AEF75DF99}Prefabs/Anomals/Gravy/ARMST_GRAVY_train.et"
+  m_ObjectPrefab3 "{88A31E6AEF75DF99}Prefabs/Anomals/Gravy/ARMST_GRAVY_train.et"
+  m_CenterBias 0.6
+  m_SpawnChance 65
+  m_SpawnChanceArtefacts 0
+ }
+ {
+  coords 2877.404 309.827 232.341
+  SphereRadius 77.9
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{88A31E6AEF75DF99}Prefabs/Anomals/Gravy/ARMST_GRAVY_train.et"
+  m_ObjectPrefab2 "{88A31E6AEF75DF99}Prefabs/Anomals/Gravy/ARMST_GRAVY_train.et"
+  m_ObjectPrefab3 "{88A31E6AEF75DF99}Prefabs/Anomals/Gravy/ARMST_GRAVY_train.et"
+  m_CenterBias 0.6
+  m_SpawnChance 65
+  m_SpawnChanceArtefacts 0
+ }
+ {
+  coords 2971.569 308.186 642.334
+  SphereRadius 77.9
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{88A31E6AEF75DF99}Prefabs/Anomals/Gravy/ARMST_GRAVY_train.et"
+  m_ObjectPrefab2 "{88A31E6AEF75DF99}Prefabs/Anomals/Gravy/ARMST_GRAVY_train.et"
+  m_ObjectPrefab3 "{88A31E6AEF75DF99}Prefabs/Anomals/Gravy/ARMST_GRAVY_train.et"
+  m_CenterBias 0.6
+  m_SpawnChance 65
+  m_SpawnChanceArtefacts 0
+ }
+ {
+  coords 3506.651 306.709 360.99
+  SphereRadius 77.9
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{88A31E6AEF75DF99}Prefabs/Anomals/Gravy/ARMST_GRAVY_train.et"
+  m_ObjectPrefab2 "{88A31E6AEF75DF99}Prefabs/Anomals/Gravy/ARMST_GRAVY_train.et"
+  m_ObjectPrefab3 "{88A31E6AEF75DF99}Prefabs/Anomals/Gravy/ARMST_GRAVY_train.et"
+  m_CenterBias 0.6
+  m_SpawnChance 65
+  m_SpawnChanceArtefacts 0
+ }
+ {
+  coords 4020.927 307.58 260.778
+  SphereRadius 77.9
+  TriggerActivationType "Every query"
+  UpdatePeriod 10
+  m_ObjectPrefab "{88A31E6AEF75DF99}Prefabs/Anomals/Gravy/ARMST_GRAVY_train.et"
+  m_ObjectPrefab2 "{88A31E6AEF75DF99}Prefabs/Anomals/Gravy/ARMST_GRAVY_train.et"
+  m_ObjectPrefab3 "{88A31E6AEF75DF99}Prefabs/Anomals/Gravy/ARMST_GRAVY_train.et"
+  m_CenterBias 0.6
+  m_SpawnChance 65
+  m_SpawnChanceArtefacts 0
+ }
+}

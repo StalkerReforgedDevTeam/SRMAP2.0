@@ -1,0 +1,80 @@
+ARMST_QUEST_TRIGGER : "{372F4469FF5293C9}Prefabs/QUESTS/ARMST_TRIGGER_QUEST.et" {
+ coords 1544.253 309.827 231.506
+ SphereRadius 6.6
+ DrawShape 0
+ UpdatePeriod 5
+ m_sQuestNameDB "last_call"
+ m_iStageStart 77
+ m_iStageSet 55
+ m_PrefabQuestRequest "{A06041BF33B5C0BE}Prefabs/Items/Tools/armst_itm_cables.et"
+ m_PrefabRequestDelete 1
+}
+$grp GenericEntity : "{9B5E54AE53A664C4}Prefabs/QUESTS/BASE_QUEST_STAGE_CHANGE.et" {
+ {
+  components {
+   ActionsManagerComponent "{670F618332E65D7F}" {
+    additionalActions {
+     ARMST_QUEST_STAGE_CHANGE "{670F618332E65D75}" {
+      m_sQuestNameDB "last_call"
+      m_iStageStart 3
+      m_iStageSet 4
+     }
+     ARMST_QUEST_STAGE_CHANGE "{691C64515D91F28D}" {
+      ParentContextList {
+       "Default"
+      }
+      Duration 2
+      m_sActionMission "#AR-UserAction_Loot"
+      m_sQuestNameDB "last_call"
+      m_iStageStart 7
+      m_iStageSet 8
+      m_PrefabRequestDelete 1
+      m_PrefabQuestRequest "{A06041BF33B5C0BE}Prefabs/Items/Tools/armst_itm_cables.et"
+     }
+     ARMST_QUEST_STAGE_CHANGE "{691E9BB2C76FB36F}" {
+      ParentContextList {
+       "Default"
+      }
+      Duration 2
+      m_sActionMission "#AR-UserAction_Loot"
+      m_sQuestNameDB "last_call"
+      m_iStageStart 77
+      m_iStageSet 8
+      m_PrefabRequestDelete 1
+      m_PrefabQuestRequest "{A06041BF33B5C0BE}Prefabs/Items/Tools/armst_itm_cables.et"
+     }
+     ARMST_QUEST_STAGE_CHANGE "{691E9BB2EE168B22}" {
+      ParentContextList {
+       "Default"
+      }
+      Duration 2
+      m_sActionMission "#AR-UserAction_Loot"
+      m_sQuestNameDB "last_call"
+      m_iStageStart 66
+      m_iStageSet 8
+      m_PrefabRequestDelete 1
+      m_PrefabQuestRequest "{A06041BF33B5C0BE}Prefabs/Items/Tools/armst_itm_cables.et"
+     }
+    }
+   }
+  }
+  coords 1553.038 311.371 225.971
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Object "{14493A763C50D1E9}Assets/shelters/Support_wire_trash/SM_Wire_trash_5.xob"
+   }
+   ActionsManagerComponent "{670F618332E65D7F}" {
+    additionalActions {
+     ARMST_QUEST_STAGE_CHANGE "{670F618332E65D75}" {
+      m_sQuestNameDB "last_call"
+      m_iStageSet 77
+      m_PrefabQuestFinish "{A06041BF33B5C0BE}Prefabs/Items/Tools/armst_itm_cables.et"
+     }
+    }
+   }
+  }
+  coords 1528.587 309.827 226.499
+ }
+}

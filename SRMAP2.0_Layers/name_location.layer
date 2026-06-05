@@ -1,0 +1,905 @@
+$grp GenericEntity : "{ED3F3EBD5BA6B200}Prefabs/World/Locations/armst_location_middle.et" {
+ {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    Enabled 0
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "#armst_map_savino_farms"
+    }
+    m_fMaxDrawDistance 100
+    m_bBold 0
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    Enabled 0
+    DisplayName "#armst_map_savino_farms"
+   }
+  }
+  coords 3943.556 305.967 849.609
+ }
+ {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    Enabled 0
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "#armst_map_savino_church"
+    }
+    m_fMaxDrawDistance 100
+    m_bBold 0
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    Enabled 0
+    DisplayName "#armst_map_savino_church"
+   }
+  }
+  coords 3815.05 314.265 1138.028
+ }
+ {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    Enabled 0
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "#armst_map_gasstation"
+    }
+    m_fMaxDrawDistance 100
+    m_bBold 0
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    Enabled 0
+    DisplayName "#armst_map_gasstation"
+   }
+  }
+  coords 3834.506 298.171 1356.848
+ }
+ {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    Enabled 0
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "#armst_map_sawmill"
+    }
+    m_fMaxDrawDistance 100
+    m_bBold 0
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    Enabled 0
+    DisplayName "#armst_map_sawmill"
+   }
+  }
+  coords 3634.805 305.587 974.657
+ }
+ {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    Enabled 0
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "#armst_map_svalka"
+    }
+    m_fMaxDrawDistance 100
+    m_bBold 0
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    Enabled 0
+    DisplayName "#armst_map_svalka"
+   }
+  }
+  coords 3713.23 306.423 775.932
+ }
+ {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    Enabled 0
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "#armst_map_Construction_warehouse"
+    }
+    m_fMaxDrawDistance 100
+    m_bBold 0
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    Enabled 0
+    DisplayName "#armst_map_Construction_warehouse"
+   }
+  }
+  coords 3559.256 302.395 1532.5
+ }
+ {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    Enabled 0
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "#armst_map_Radiotower"
+    }
+    m_fMaxDrawDistance 100
+    m_bBold 0
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    Enabled 0
+    DisplayName "#armst_map_Radiotower"
+   }
+  }
+  coords 3959.701 319.246 1178.443
+ }
+ {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    Enabled 0
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "#armst_map_DeadManLake"
+    }
+    m_fMaxDrawDistance 100
+    m_bBold 0
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    Enabled 0
+    DisplayName "#armst_map_DeadManLake"
+   }
+  }
+  coords 3405.83 299.031 1246.921
+ }
+ {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    Enabled 0
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "#armst_map_Rangercamp"
+    }
+    m_fMaxDrawDistance 100
+    m_bBold 0
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    Enabled 0
+    DisplayName "#armst_map_Rangercamp"
+   }
+  }
+  coords 3268.153 308.577 1010.735
+ }
+ {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    Enabled 0
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "#armst_map_TheCursedFarm"
+    }
+    m_fMaxDrawDistance 100
+    m_bBold 0
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    Enabled 0
+    DisplayName "#armst_map_TheCursedFarm"
+   }
+  }
+  coords 4609.496 307.516 1016.547
+ }
+ {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    Enabled 0
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "#armst_map_Fishingvillage"
+    }
+    m_fMaxDrawDistance 100
+    m_bBold 0
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    Enabled 0
+    DisplayName "#armst_map_Fishingvillage"
+   }
+  }
+  coords 4463.224 314.473 1329.63
+ }
+ {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    Enabled 0
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "#armst_map_sawmill"
+    }
+    m_fMaxDrawDistance 100
+    m_bBold 0
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    Enabled 0
+    DisplayName "#armst_map_sawmill"
+   }
+  }
+  coords 4382.049 302.148 553.451
+ }
+ {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    Enabled 0
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "#armst_map_Osinovillage"
+    }
+    m_fMaxDrawDistance 100
+    m_bBold 0
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    Enabled 0
+    DisplayName "#armst_map_Osinovillage"
+   }
+  }
+  coords 5440.346 304.481 926.998
+ }
+ {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    Enabled 0
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "RLS Malutka"
+    }
+    m_fMaxDrawDistance 100
+    m_bBold 0
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    Enabled 0
+    DisplayName "#armst_map_RLSMalutka"
+   }
+  }
+  coords 5421.846 314.259 657.762
+ }
+ {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    Enabled 0
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "#armst_map_Sebej"
+    }
+    m_fMaxDrawDistance 100
+    m_bBold 0
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    Enabled 0
+    DisplayName "#armst_map_Sebej"
+   }
+  }
+  coords 3573.72 300.796 1847.686
+ }
+ {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    Enabled 0
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "Happy Lake"
+    }
+    m_fMaxDrawDistance 100
+    m_bBold 0
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    Enabled 0
+    DisplayName "#armst_map_HappyLake"
+   }
+  }
+  coords 3467.114 298.196 2258.862
+ }
+ {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    Enabled 0
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "Hill Pimple"
+    }
+    m_fMaxDrawDistance 100
+    m_bBold 0
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    Enabled 0
+    DisplayName "Hill Pimple"
+   }
+  }
+  coords 3858.039 309.241 1902.718
+ }
+ {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    Enabled 0
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "#armst_map_Holidaycamp"
+    }
+    m_fMaxDrawDistance 100
+    m_bBold 0
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    Enabled 0
+    DisplayName "#armst_map_Holidaycamp"
+   }
+  }
+  coords 4126.887 322.256 1634.811
+ }
+ {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    Enabled 0
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "#armst_map_old_perimetr"
+    }
+    m_fMaxDrawDistance 100
+    m_bBold 0
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    Enabled 0
+    DisplayName "#armst_map_old_perimetr"
+   }
+  }
+  coords 2818.217 318.757 908.725
+ }
+ {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    Enabled 0
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "#armst_map_sawmill"
+    }
+    m_fMaxDrawDistance 100
+    m_bBold 0
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    Enabled 0
+    DisplayName "#armst_map_sawmill"
+   }
+  }
+  coords 4788.717 300.276 2244.013
+ }
+ {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    Enabled 0
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "#armst_map_svalka"
+    }
+    m_fMaxDrawDistance 100
+    m_bBold 0
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    Enabled 0
+    DisplayName "#armst_map_svalka"
+   }
+  }
+  coords 4617.963 306.298 1972.357
+ }
+ {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    Enabled 0
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "#armst_map_karrier"
+    }
+    m_fMaxDrawDistance 100
+    m_bBold 0
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    Enabled 0
+    DisplayName "#armst_map_karrier"
+   }
+  }
+  coords 4542.515 320.927 1587.94
+ }
+ {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    Enabled 0
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "#armst_map_gaszavod"
+    }
+    m_fMaxDrawDistance 100
+    m_bBold 0
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    Enabled 0
+    DisplayName "#armst_map_gaszavod"
+   }
+  }
+  coords 4976.141 301.438 1648.752
+ }
+ {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    Enabled 0
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "#armst_map_rock_destiny"
+    }
+    m_fMaxDrawDistance 100
+    m_bBold 0
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    Enabled 0
+    DisplayName "#armst_map_rock_destiny"
+   }
+  }
+  coords 5176.247 315.266 2408.255
+ }
+ {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    Enabled 0
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "#armst_map_Fishingvillage"
+    }
+    m_fMaxDrawDistance 100
+    m_bBold 0
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    Enabled 0
+    DisplayName "#armst_map_Fishingvillage"
+   }
+  }
+  coords 4561.235 309.476 2470.356
+ }
+ {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    Enabled 0
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "#armst_map_kolhoz_gorkiy"
+    }
+    m_fMaxDrawDistance 100
+    m_bBold 0
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    Enabled 0
+    DisplayName "#armst_map_kolhoz_gorkiy"
+   }
+  }
+  coords 3888.6 300.796 2010.445
+ }
+ {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    Enabled 0
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "#armst_map_farm"
+    }
+    m_fMaxDrawDistance 100
+    m_bBold 0
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    Enabled 0
+    DisplayName "#armst_map_farm"
+   }
+  }
+  coords 5731.02 312.747 467.16
+ }
+ {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    Enabled 0
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "#armst_map_farm"
+    }
+    m_fMaxDrawDistance 100
+    m_bBold 0
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    Enabled 0
+    DisplayName "#armst_map_farm"
+   }
+  }
+  coords 5965.625 306.702 1494.543
+ }
+ {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    Enabled 0
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "#armst_map_karrier"
+    }
+    m_fMaxDrawDistance 100
+    m_bBold 0
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    Enabled 0
+    DisplayName "#armst_map_karrier"
+   }
+  }
+  coords 5500.156 309.936 1213.899
+ }
+ {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    Enabled 0
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "#armst_map_savino_church"
+    }
+    m_fMaxDrawDistance 100
+    m_bBold 0
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    Enabled 0
+    DisplayName "#armst_map_savino_church"
+   }
+  }
+  coords 6333.665 300.452 2784.802
+ }
+ {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    Enabled 0
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "#armst_map_gasstation"
+    }
+    m_fMaxDrawDistance 100
+    m_bBold 0
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    Enabled 0
+    DisplayName "#armst_map_gasstation"
+   }
+  }
+  coords 6270.252 318.921 2366.307
+ }
+ {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    Enabled 0
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "#armst_map_village_solomino"
+    }
+    m_fMaxDrawDistance 100
+    m_bBold 0
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    Enabled 0
+    DisplayName "#armst_map_village_solomino"
+   }
+  }
+  coords 6246.666 308.899 752.499
+ }
+ {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    Enabled 0
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "#armst_map_village_krotovo"
+    }
+    m_fMaxDrawDistance 100
+    m_bBold 0
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    Enabled 0
+    DisplayName "#armst_map_village_krotovo"
+   }
+  }
+  coords 6591.014 307.941 1340.89
+ }
+ {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    Enabled 0
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "#armst_map_swamp_wild"
+    }
+    m_fMaxDrawDistance 100
+    m_bBold 0
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    Enabled 0
+    DisplayName "#armst_map_swamp_wild"
+   }
+  }
+  coords 6583.027 306.491 1859.853
+ }
+ {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    Enabled 0
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "#armst_map_gravzavod"
+    }
+    m_fMaxDrawDistance 100
+    m_bBold 0
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    Enabled 0
+    DisplayName "#armst_map_gravzavod"
+   }
+  }
+  coords 5718.075 329.72 2031.662
+ }
+ {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    Enabled 0
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "#armst_map_redmines"
+    }
+    m_fMaxDrawDistance 100
+    m_bBold 0
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    Enabled 0
+    DisplayName "#armst_map_redmines"
+   }
+  }
+  coords 5388.594 320.452 1975.255
+ }
+ {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    Enabled 0
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "#armst_map_village_durino"
+    }
+    m_fMaxDrawDistance 100
+    m_bBold 0
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    Enabled 0
+    DisplayName "#armst_map_village_durino"
+   }
+  }
+  coords 5987.185 303.104 1815.28
+ }
+}
+$grp GenericEntity : "{FAB641538C993426}Prefabs/World/Locations/armst_location_big.et" {
+ Armst_Location_big {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableLinkedContentBrowserUIInfo "{5298E609432D192D}" {
+     Name "#armst_map_Savino"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "#armst_map_Savino"
+   }
+  }
+  coords 3470.433 302.64 832.737
+ }
+ Armst_Location_big2 {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableLinkedContentBrowserUIInfo "{5298E609432D192D}" {
+     Name "#armst_map_Savino_chem"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "#armst_map_Savino_chem"
+   }
+  }
+  coords 3314.31 308.589 1380.611
+ }
+ Armst_Location_big3 {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableLinkedContentBrowserUIInfo "{5298E609432D192D}" {
+     Name "#armst_map_checkpointXZ"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "#armst_map_checkpointXZ"
+   }
+  }
+  coords 3886.556 306.702 383.833
+ }
+ base_kb {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    Enabled 0
+    m_UIInfo SCR_EditableLinkedContentBrowserUIInfo "{5298E609432D192D}" {
+     Name "#armst_map_smuggler_warehouse"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    Enabled 0
+    DisplayName "#armst_map_smuggler_warehouse"
+    MainType "Name Local"
+   }
+  }
+  coords 4163.583 309.424 706.118
+ }
+ Armst_Location_big5 {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableLinkedContentBrowserUIInfo "{5298E609432D192D}" {
+     Name "#armst_map_radar_station"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "#armst_map_radar_station"
+   }
+  }
+  coords 4918.699 311.233 1369.175
+ }
+ Armst_Location_big6 {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableLinkedContentBrowserUIInfo "{5298E609432D192D}" {
+     Name "#armst_map_deep_forest"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "#armst_map_deep_forest"
+   }
+  }
+  coords 4834.757 312.886 492.426
+ }
+ Armst_Location_big7 {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableLinkedContentBrowserUIInfo "{5298E609432D192D}" {
+     Name "#armst_map_rls_horizont"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "#armst_map_rls_horizont"
+    MainType "Name City"
+   }
+  }
+  coords 3832.528 307.046 2755.204
+ }
+ Armst_Location_big8 {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableLinkedContentBrowserUIInfo "{5298E609432D192D}" {
+     Name "#armst_map_gorkiy12"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "#armst_map_gorkiy12"
+    MainType "Name City"
+   }
+  }
+  coords 3255.402 303.952 2463.75
+ }
+ Armst_Location_big10 {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableLinkedContentBrowserUIInfo "{5298E609432D192D}" {
+     Name "#armst_map_GreatSwamp"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "#armst_map_GreatSwamp"
+   }
+  }
+  coords 1812.349 292.991 805.729
+ }
+ Armst_Location_big11 {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableLinkedContentBrowserUIInfo "{5298E609432D192D}" {
+     Name "#armst_map_airoport"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "#armst_map_airoport"
+   }
+  }
+  coords 2417.285 303.934 1605.448
+ }
+ Armst_Location_big12 {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableLinkedContentBrowserUIInfo "{5298E609432D192D}" {
+     Name "#armst_map_checkpointJO"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "#armst_map_checkpointJO"
+   }
+  }
+  coords 1258.094 297.733 1419.153
+ }
+ Armst_Location_big13 {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableLinkedContentBrowserUIInfo "{5298E609432D192D}" {
+     Name "#armst_map_Zavod_Udarnik"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "#armst_map_Zavod_Udarnik"
+   }
+  }
+  coords 4925.982 314.432 2579.224
+ }
+ Armst_Location_big9 {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableLinkedContentBrowserUIInfo "{5298E609432D192D}" {
+     Name "#armst_map_port_ural"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "#armst_map_port_ural"
+   }
+  }
+  coords 5002.975 301.108 3096.836
+ }
+ base_storm {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    Enabled 0
+    m_UIInfo SCR_EditableLinkedContentBrowserUIInfo "{5298E609432D192D}" {
+     Name "#armst_map_storm_base"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    Enabled 0
+    DisplayName "#armst_map_storm_base"
+    MainType "Name Local"
+   }
+  }
+  coords 5037.674 312.616 412.202
+ }
+ base_science {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    Enabled 0
+    m_UIInfo SCR_EditableLinkedContentBrowserUIInfo "{5298E609432D192D}" {
+     Name "#armst_map_science_base"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    Enabled 0
+    DisplayName "#armst_map_science_base"
+    MainType "Name Local"
+   }
+  }
+  coords 1958.159 301.413 1980.109
+ }
+ Armst_Location_big4 {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableLinkedContentBrowserUIInfo "{5298E609432D192D}" {
+     Name "#armst_map_krasnokamensk"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "#armst_map_krasnokamensk"
+    MainType "Name City"
+   }
+  }
+  coords 5786.175 306.024 2534.919
+ }
+ Armst_Location_big15 {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableLinkedContentBrowserUIInfo "{5298E609432D192D}" {
+     Name "#armst_map_Michurino"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "#armst_map_Michurino"
+   }
+  }
+  coords 1557.525 309.827 206.489
+ }
+ Armst_Location_big16 {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableLinkedContentBrowserUIInfo "{5298E609432D192D}" {
+     Name "#armst_map_Lopatino_3"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "#armst_map_Lopatino_3"
+   }
+  }
+  coords 398.847 304.577 1558.519
+ }
+ Armst_Location_big17 {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableLinkedContentBrowserUIInfo "{5298E609432D192D}" {
+     Name "#armst_map_poligone"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "#armst_map_poligone"
+   }
+  }
+  coords 6031.965 293.296 1109.179
+ }
+ Armst_Location_big14 {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableLinkedContentBrowserUIInfo "{5298E609432D192D}" {
+     Name "#armst_pda_wiki_loc_voronka"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "#armst_pda_wiki_loc_voronka"
+   }
+  }
+  coords 2418.658 290.23 2190.567
+ }
+}

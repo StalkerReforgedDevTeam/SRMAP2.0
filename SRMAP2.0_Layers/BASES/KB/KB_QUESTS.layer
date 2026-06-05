@@ -1,0 +1,28 @@
+SCR_ChimeraCharacter KB_TRAVEL : "{33EA5F8AA3AA07DE}Prefabs/QUESTS/KB/KB_TRAVEL.et" {
+ coords 4176.015 311.063 717.041
+ angles 0 -45.412 0
+}
+SCR_ChimeraCharacter : "{662961940DEB939C}Prefabs/QUESTS/JOURNALIST/JOURNALIST.et" {
+ coords 4179.107 311.031 720.689
+ angles 0 -77.633 0
+}
+SCR_ChimeraCharacter KB_STALKER : "{7F42A2BE2574ACA3}Prefabs/QUESTS/KB/KB_STALKER.et" {
+ coords 4165.73 305.624 721.12
+ angles 0 -105.564 0
+}
+SCR_ChimeraCharacter KB_REPAIR : "{AA074FD5B0B4C40D}Prefabs/QUESTS/KB/KB_REPAIR.et" {
+ coords 4161.014 305.624 713.501
+ angles 0 -60.299 0
+}
+SCR_ChimeraCharacter KB_QUEST : "{D01A6281064C9192}Prefabs/QUESTS/KB/KB_QUEST.et" {
+ coords 4176.88 311.043 724.544
+ angles 0.001 126.912 0.013
+}
+SCR_ChimeraCharacter KB_MEDIC : "{F01700F95E39F0FA}Prefabs/QUESTS/KB/KB_MEDIC.et" {
+ coords 4163.928 305.609 715.176
+ angles 0 -21.722 0
+}
+SCR_ChimeraCharacter KB_BARMAN : "{F826977EC0A5C880}Prefabs/QUESTS/KB/KB_BARMAN.et" {
+ coords 4180.217 311.048 724.678
+ angles 0 -141.501 0
+}

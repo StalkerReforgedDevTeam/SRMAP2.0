@@ -1,0 +1,57 @@
+$grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST_RADIATIONS.et" {
+ {
+  coords 2314.177 301.233 1518.254
+  SphereRadius 129.9
+  DrawShape 0
+  UpdatePeriod 3
+  m_DamageRadioLevel 92
+ }
+ {
+  coords 2510.772 308.302 1358.718
+  SphereRadius 65.9
+  DrawShape 0
+  UpdatePeriod 3
+ }
+ {
+  coords 2300.068 321.781 1791.434
+  SphereRadius 65.9
+  DrawShape 0
+  UpdatePeriod 3
+ }
+ {
+  coords 2057.173 323.677 1733.391
+  SphereRadius 65.9
+  DrawShape 0
+  UpdatePeriod 3
+ }
+ {
+  coords 2038.695 335.985 1915.231
+  SphereRadius 65.9
+  DrawShape 0
+  UpdatePeriod 3
+ }
+ {
+  coords 2252.145 311.194 1272.407
+  SphereRadius 65.9
+  DrawShape 0
+  UpdatePeriod 3
+ }
+ {
+  coords 2685.999 311.872 1760.947
+  SphereRadius 65.9
+  DrawShape 0
+  UpdatePeriod 3
+ }
+ {
+  coords 2907.202 308.073 1455.349
+  SphereRadius 65.9
+  DrawShape 0
+  UpdatePeriod 3
+ }
+ {
+  coords 3172.438 307.685 1514.171
+  SphereRadius 65.9
+  DrawShape 0
+  UpdatePeriod 3
+ }
+}

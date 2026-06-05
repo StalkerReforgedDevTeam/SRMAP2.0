@@ -1,0 +1,115 @@
+$grp GenericEntity {
+ spawn_kab2 {
+  coords 1336.113 293.066 1027.983
+ }
+ spawn_kab3 {
+  coords 1468.478 291.339 1797.369
+ }
+}
+$grp ARMST_QUEST_TRIGGER : "{372F4469FF5293C9}Prefabs/QUESTS/ARMST_TRIGGER_QUEST.et" {
+ {
+  coords 1398.564 290.735 1066.083
+  SphereRadius 16.3
+  DrawShape 0
+  m_sQuestNameDB "barm_tuf"
+  m_iStageStart 3
+  m_iStageSet 4
+ }
+ {
+  coords 1475.167 291.589 1916.364
+  SphereRadius 156.9
+  DrawShape 0
+  m_sQuestNameDB "barm_tuf"
+  m_iStageStart 11
+  m_iStageSet 12
+  m_PrefabQuestSpawn "{36E49B5600842EA2}Prefabs/Factions/Groups/BANDITS/Group_BANDIT_5.et"
+  m_PrefabQuestSpawn_spawn_pos 1478.117 294.92 1924.721
+  m_PrefabQuestSpawn_Set_Waypoint_pos 1481.052 290.959 1907.007
+ }
+}
+$grp GenericEntity : "{4B83E8CA0DCB705C}Prefabs/Props/Industrial/BarrelMetal_01_FirePlace.et" {
+ {
+  coords 1482.612 291.675 1922.665
+  angles -0.999 -170.581 -0.17
+ }
+ {
+  coords 1478.26 294.843 1926.625
+  angles -0.999 -170.581 -0.17
+ }
+ {
+  coords 1469.494 291.541 1929.216
+  angles -0.999 -170.581 -0.17
+ }
+}
+$grp GenericEntity : "{9B5E54AE53A664C4}Prefabs/QUESTS/BASE_QUEST_STAGE_CHANGE.et" {
+ {
+  components {
+   ActionsManagerComponent "{670F618332E65D7F}" {
+    additionalActions {
+     ARMST_QUEST_STAGE_CHANGE "{670F618332E65D75}" {
+      m_sQuestNameDB "barm_tuf"
+      m_iStageStart 4
+      m_iStageSet 5
+     }
+    }
+   }
+  }
+  coords 1398.532 290.481 1064.199
+  angles -0.094 1.512 3.575
+ }
+ {
+  components {
+   ActionsManagerComponent "{670F618332E65D7F}" {
+    additionalActions {
+     ARMST_QUEST_STAGE_CHANGE "{670F618332E65D75}" {
+      m_sQuestNameDB "barm_tuf"
+     }
+    }
+   }
+  }
+  coords 1401.017 290.489 1066.167
+  angles -0.094 1.512 3.575
+ }
+ {
+  components {
+   ActionsManagerComponent "{670F618332E65D7F}" {
+    additionalActions {
+     ARMST_QUEST_STAGE_CHANGE "{670F618332E65D75}" {
+      m_sQuestNameDB "barm_tuf"
+      m_iStageStart 6
+      m_iStageSet 7
+      m_PrefabQuestSpawn "{A19A9FB7AB6FDD60}Prefabs/Factions/Groups/BANDITS/Group_BANDIT_3.et"
+      m_sSpawnPos "spawn_kab2"
+     }
+    }
+   }
+  }
+  coords 1400.172 290.674 1068.906
+  angles -0.094 1.512 3.575
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Object "{D41454DA845C3D59}armst/items/Container_b/Container.xob"
+   }
+   RigidBody "{5872F0EB7DFB5A9D}" {
+    ModelGeometry 0
+    Static 0
+   }
+   ActionsManagerComponent "{670F618332E65D7F}" {
+    additionalActions {
+     ARMST_QUEST_STAGE_CHANGE "{670F618332E65D75}" {
+      m_sQuestNameDB "barm_tuf"
+      m_iStageStart 12
+      m_iStageSet 13
+      m_PrefabQuestSpawn "{A19A9FB7AB6FDD60}Prefabs/Factions/Groups/BANDITS/Group_BANDIT_3.et"
+      m_sSpawnPos "spawn_kab3"
+      m_PrefabQuestFinish "{E87B9747B35F08F5}Prefabs/QUESTS/TUFANS/BARMAN_QUEST/armst_itm_gruz_borz.et"
+     }
+    }
+   }
+  }
+  coords 1474.592 300.155 1928.634
+  angles 0.713 1.511 -0.079
+ }
+}

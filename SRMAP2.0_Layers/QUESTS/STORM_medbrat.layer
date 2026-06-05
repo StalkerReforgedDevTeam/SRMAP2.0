@@ -1,0 +1,34 @@
+GameEntity medbrat_spawn {
+ coords 4972.823 308.387 2167.82
+ angles 0 34.156 0
+}
+$grp GenericEntity : "{008CF9D858E019F8}Prefabs/QUESTS/STORM/medbrat/medbrat_bunker_none.et" {
+ {
+  coords 4612.848 305.905 1316.18
+ }
+ {
+  coords 4614.081 306.452 1320.062
+ }
+ {
+  coords 4610.262 306.365 1317.149
+ }
+ {
+  coords 4612.027 306.216 1321.437
+ }
+}
+GenericEntity : "{3120E922097DBB82}Prefabs/QUESTS/STORM/somov/somov_map_32.et" {
+ coords 5486.516 307.179 942.047
+}
+$grp GameEntity : "{68A5DDB81BCE6B4B}Prefabs/QUESTS/STORM/medbrat/storm_medbrat_11.et" {
+ {
+  coords 4518.386 305.257 725.28
+  angles 0.823 171.933 -0.569
+ }
+ {
+  coords 4924.758 302.381 2227.015
+  angles 1.794 -142.894 -0.887
+ }
+}
+GenericEntity : "{6FE03A7648D78A87}Prefabs/QUESTS/STORM/medbrat/medbrat_bunker_21.et" {
+ coords 4609.393 306.033 1318.05
+}

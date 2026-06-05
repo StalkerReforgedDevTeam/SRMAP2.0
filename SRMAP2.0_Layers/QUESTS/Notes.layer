@@ -1,0 +1,21 @@
+GenericEntity : "{A74C3478FBA4B95A}Prefabs/QUESTS/BASE_ACTION_QUEST.et" {
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Materials {
+    MaterialAssignClass "{6910AA9B61431241}" {
+     SourceMaterial "Notebook_01"
+     AssignedMaterial "{E66EF8E8FBE826DC}Assets/Props/Civilian/Notebook_01/Data/Notebook_01_MarbleBlack.emat"
+    }
+   }
+  }
+  ActionsManagerComponent "{6910AA9B05A47EF4}" {
+   additionalActions {
+    ARMST_USER_OPEN_BOOK "{6910AA9B05A47EED}" {
+     s_TextToBook "Попробуй подобраться к аномалии, что у радио-вышки и просканировать её. Только не свались!"
+    }
+   }
+  }
+ }
+ coords 3960.046 318.96 1191.114
+ angles -1.264 -68.092 -16.471
+}

@@ -1,0 +1,1183 @@
+$grp LightEntity {
+ LIGHT_FLUO_SPOT_13 {
+  coords 3420.356 324.651 1254.147
+  Color 0.2467 0.7317 1 1
+  LV 11.38
+  ClipEV -10
+  Radius 41.95
+  NearPlane 1.28
+  SpotAngle 155
+  DistanceAttenuation 2.21
+  Visualization Disabled
+  VolLightScale 1
+  VolLightIntensity 0.3
+  LensFlareScale 5.03
+ }
+ LIGHT_FLUO_SPOT_22 {
+  coords 4934.488 373.723 1217.076
+  Color 0.2467 0.7317 1 1
+  LV 0.93
+  ClipEV -10
+  Radius 41.95
+  NearPlane 0.7
+  SpotAngle 155
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  LensFlareScale 0
+ }
+ LIGHT_FLUO_SPOT_35 {
+  coords 2506.039 315.528 1343.678
+  ColorType Temperature
+  Color 0.8213 0.1082 0.0025 1
+  Temperature 1800
+  LV 14.62
+  ClipEV -10
+  Radius 44.87
+  NearPlane 1.03
+  SpotAngle 155
+  DistanceAttenuation 2.01
+  Visualization Disabled
+  VolLightScale 0
+  VolLightIntensity 0
+  LensFlareScale 0
+ }
+ tonnel_light {
+  coords 4258.474 320.121 432.387
+  Color 0.2588 0.6863 0.6863 1
+  Temperature 1800
+  LV 9.17
+  ClipEV -10
+  Radius 55.79
+  NearPlane 0.11
+  SpotAngle 170
+  DistanceAttenuation 1.78
+  Visualization Disabled
+  VolLightScale 1
+  VolLightIntensity 0.5
+  LensFlareScale 3.65
+ }
+ LIGHT_FLUO_SPOT_14 {
+  coords 3259.813 303.394 525.896
+  angles -90 -41.184 0
+  Color 0.834 1 0.745 1
+  LV 6
+  ClipEV -10
+  Type Spot
+  Radius 5
+  NearPlane 0.7
+  SpotAngle 155
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_POINT_14 {
+  coords 3259.771 303.351 525.827
+  angles -90 -41.184 0
+  Color 0.834 1 0.745 1
+  LV 4
+  CastShadow 0
+  ClipEV -10
+  Radius 3
+  NearPlane 0.7
+  SpotAngle 155
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_SPOT_15 {
+  coords 3272.436 308.832 1073.792
+  angles -90 -41.184 0
+  Color 0.834 1 0.745 1
+  LV 6
+  ClipEV -10
+  Type Spot
+  Radius 5
+  NearPlane 0.7
+  SpotAngle 155
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_POINT_15 {
+  coords 3272.394 308.789 1073.724
+  angles -90 -41.184 0
+  Color 0.834 1 0.745 1
+  LV 4
+  CastShadow 0
+  ClipEV -10
+  Radius 3
+  NearPlane 0.7
+  SpotAngle 155
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_SPOT_16 {
+  coords 3265.491 308.833 1080.143
+  angles -90 -41.184 0
+  Color 0.834 1 0.745 1
+  LV 6
+  ClipEV -10
+  Type Spot
+  Radius 5
+  NearPlane 0.7
+  SpotAngle 155
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_POINT_16 {
+  coords 3265.449 308.79 1080.074
+  angles -90 -41.184 0
+  Color 0.834 1 0.745 1
+  LV 4
+  CastShadow 0
+  ClipEV -10
+  Radius 3
+  NearPlane 0.7
+  SpotAngle 155
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_SPOT_17 {
+  coords 3267.586 308.359 1086.334
+  angles -90 -41.184 0
+  Color 0.834 1 0.745 1
+  LV 6
+  ClipEV -10
+  Type Spot
+  Radius 5
+  NearPlane 0.7
+  SpotAngle 155
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_POINT_17 {
+  coords 3267.544 308.316 1086.266
+  angles -90 -41.184 0
+  Color 0.834 1 0.745 1
+  LV 4
+  CastShadow 0
+  ClipEV -10
+  Radius 3
+  NearPlane 0.7
+  SpotAngle 155
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_SPOT_18 {
+  coords 3277.17 308.355 1084.415
+  angles -90 -41.184 0
+  Color 0.834 1 0.745 1
+  LV 6
+  ClipEV -10
+  Type Spot
+  Radius 5
+  NearPlane 0.7
+  SpotAngle 155
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_POINT_18 {
+  coords 3277.128 308.312 1084.346
+  angles -90 -41.184 0
+  Color 0.834 1 0.745 1
+  LV 4
+  CastShadow 0
+  ClipEV -10
+  Radius 3
+  NearPlane 0.7
+  SpotAngle 155
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_SPOT_32 {
+  coords 3366.585 304.174 1354.582
+  angles -35.024 -24.76 111.619
+  Color 1 0.8398 0.2467 1
+  LV 5.33
+  ClipEV -10
+  Type Spot
+  Radius 14.77
+  NearPlane 0.7
+  SpotAngle 155
+  DistanceAttenuation 0.1
+  Visualization Disabled
+ }
+ LIGHT_FLUO_SPOT_02 {
+  coords 5403.933 316.268 628.479
+  angles -90 -41.184 0
+  Color 0.834 1 0.745 1
+  LV 6
+  ClipEV -10
+  Type Spot
+  Radius 5
+  NearPlane 0.7
+  SpotAngle 155
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_POINT_02 {
+  coords 5403.891 316.225 628.411
+  angles -90 -41.184 0
+  Color 0.834 1 0.745 1
+  LV 4
+  CastShadow 0
+  ClipEV -10
+  Radius 3
+  NearPlane 0.7
+  SpotAngle 155
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_POINT_2 {
+  coords 5410.243 316.268 621.671
+  angles -90 -41.184 0
+  Color 0.834 1 0.745 1
+  LV 4
+  CastShadow 0
+  ClipEV -10
+  Radius 3
+  NearPlane 0.7
+  SpotAngle 155
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_SPOT_2 {
+  coords 5410.285 316.311 621.74
+  angles -90 -41.184 0
+  Color 0.834 1 0.745 1
+  LV 6
+  ClipEV -10
+  Type Spot
+  Radius 5
+  NearPlane 0.7
+  SpotAngle 155
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_SPOT_3 {
+  coords 5415.024 316.142 619.577
+  angles -90 -41.184 0
+  Color 0.9267 0.0212 0 1
+  LV 6
+  ClipEV -10
+  Type Spot
+  Radius 5
+  NearPlane 0.7
+  SpotAngle 155
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_POINT_3 {
+  coords 5414.982 316.099 619.509
+  angles -90 -41.184 0
+  Color 0.9267 0.0212 0 1
+  LV 4
+  CastShadow 0
+  ClipEV -10
+  Radius 3
+  NearPlane 0.7
+  SpotAngle 155
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_SPOT_4 {
+  coords 5395.881 314.586 610.219
+  angles -90 -41.184 0
+  Color 0.834 1 0.745 1
+  LV 6
+  ClipEV -10
+  Type Spot
+  Radius 5
+  NearPlane 0.7
+  SpotAngle 155
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_POINT_4 {
+  coords 5395.839 314.543 610.151
+  angles -90 -41.184 0
+  Color 0.834 1 0.745 1
+  LV 4
+  CastShadow 0
+  ClipEV -10
+  Radius 3
+  NearPlane 0.7
+  SpotAngle 155
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_SPOT_5 {
+  coords 5368.333 308.6 583.36
+  angles -90 -41.184 0
+  Color 0.834 1 0.745 1
+  LV 6
+  ClipEV -10
+  Type Spot
+  Radius 5
+  NearPlane 0.7
+  SpotAngle 155
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_POINT_5 {
+  coords 5368.291 308.557 583.291
+  angles -90 -41.184 0
+  Color 0.834 1 0.745 1
+  LV 4
+  CastShadow 0
+  ClipEV -10
+  Radius 3
+  NearPlane 0.7
+  SpotAngle 155
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_SPOT_8 {
+  coords 4182.935 313.282 723.119
+  angles -49.214 -35.708 -90
+  Color 1 0.8398 0.2467 1
+  LV 2.48
+  ClipEV -10
+  Type Spot
+  Radius 5
+  NearPlane 0.7
+  SpotAngle 155
+  DistanceAttenuation 0.1
+  Visualization Disabled
+ }
+ LIGHT_FLUO_SPOT_11 {
+  coords 4171.58 313.655 719.626
+  angles -58.138 47.239 -171.712
+  Color 1 0.8398 0.2467 1
+  LV 2.48
+  ClipEV -10
+  Type Spot
+  Radius 5
+  NearPlane 0.7
+  SpotAngle 155
+  DistanceAttenuation 0.1
+  Visualization Disabled
+ }
+ LIGHT_FLUO_SPOT_10 {
+  coords 4185.07 313.372 730.012
+  angles -80.654 105.722 110.519
+  Color 1 0.8398 0.2467 1
+  LV 2.48
+  ClipEV -10
+  Type Spot
+  Radius 4.62
+  NearPlane 0.01
+  SpotAngle 155
+  DistanceAttenuation 0.1
+  Visualization Disabled
+ }
+ LIGHT_FLUO_SPOT_39 {
+  coords 5317.651 279.688 1568.911
+  Color 0.8213 0.1082 0.0025 1
+  LV 11.38
+  ClipEV -10
+  Radius 41.95
+  NearPlane 1.28
+  SpotAngle 155
+  DistanceAttenuation 2.21
+  Visualization Disabled
+  VolLightScale 1
+  VolLightIntensity 0.3
+  LensFlareScale 5.03
+ }
+ LIGHT_FLUO_SPOT_40 {
+  coords 5399.795 267.254 1508.985
+  Color 0.8213 0.1082 0.0025 1
+  LV 11.38
+  ClipEV -10
+  Radius 41.95
+  NearPlane 1.28
+  SpotAngle 155
+  DistanceAttenuation 2.21
+  Visualization Disabled
+  VolLightScale 1
+  VolLightIntensity 0.3
+  LensFlareScale 5.03
+ }
+ LIGHT_FLUO_SPOT_41 {
+  coords 5370.876 282.142 1400.694
+  Color 0.8213 0.1082 0.0025 1
+  LV 11.38
+  ClipEV -10
+  Radius 41.95
+  NearPlane 1.28
+  SpotAngle 155
+  DistanceAttenuation 2.21
+  Visualization Disabled
+  VolLightScale 1
+  VolLightIntensity 0.3
+  LensFlareScale 5.03
+ }
+ LIGHT_FLUO_SPOT_42 {
+  coords 5301.036 292.914 1466.807
+  Color 0.8213 0.1082 0.0025 1
+  LV 11.38
+  ClipEV -10
+  Radius 41.95
+  NearPlane 1.28
+  SpotAngle 155
+  DistanceAttenuation 2.21
+  Visualization Disabled
+  VolLightScale 1
+  VolLightIntensity 0.3
+  LensFlareScale 5.03
+ }
+ LIGHT_FLUO_SPOT_43 {
+  coords 5305.599 292.182 1410.538
+  Color 0.8213 0.1082 0.0025 1
+  LV 11.38
+  ClipEV -10
+  Radius 41.95
+  NearPlane 1.28
+  SpotAngle 155
+  DistanceAttenuation 2.21
+  Visualization Disabled
+  VolLightScale 1
+  VolLightIntensity 0.3
+  LensFlareScale 5.03
+ }
+ LIGHT_FLUO_SPOT_45 {
+  coords 5364.161 224.315 1558.687
+  Color 0.8213 0.1082 0.0025 1
+  LV 11.38
+  ClipEV -10
+  Radius 41.95
+  NearPlane 1.28
+  SpotAngle 155
+  DistanceAttenuation 2.21
+  Visualization Disabled
+  VolLightScale 1
+  VolLightIntensity 0.3
+  LensFlareScale 5.03
+ }
+ LIGHT_FLUO_SPOT_21 {
+  coords 5341.597 280.879 1502.95
+  Color 0.8213 0.1082 0.0025 1
+  LV 11.38
+  ClipEV -10
+  Radius 41.95
+  NearPlane 1.28
+  SpotAngle 155
+  DistanceAttenuation 2.21
+  Visualization Disabled
+  VolLightScale 1
+  VolLightIntensity 0.3
+  LensFlareScale 5.03
+ }
+ LIGHT_FLUO_SPOT_46 {
+  coords 5375.395 293.001 1496.415
+  Color 0.8213 0.1082 0.0025 1
+  LV 11.38
+  ClipEV -10
+  Radius 41.95
+  NearPlane 1.28
+  SpotAngle 155
+  DistanceAttenuation 2.21
+  Visualization Disabled
+  VolLightScale 1
+  VolLightIntensity 0.3
+  LensFlareScale 5.03
+ }
+ LIGHT_FLUO_SPOT_47 {
+  coords 5466.288 345.311 1478.672
+  angles -87.123 0 0
+  Color 0.3668 0.6422 0.64 1
+  LV 9.77
+  ClipEV -10
+  Type Spot
+  Radius 100
+  NearPlane 0.6
+  SpotAngle 110.13
+  SpotAngleAttenuation 0.31
+  DistanceAttenuation 1.73
+  Visualization Disabled
+  VolLightOffset 1
+  VolLightOffsetSide 1
+  VolLightOffsetUp 1
+  VolLightScale 0
+  VolLightIntensity 0
+  LensFlareScale 0
+ }
+ LIGHT_FLUO_SPOT_36 {
+  coords 6190.526 316.339 1133.832
+  ColorType Temperature
+  Color 0.8213 0.1082 0.0025 1
+  Temperature 1800
+  LV 14.62
+  ClipEV -10
+  Radius 44.87
+  NearPlane 1.03
+  SpotAngle 155
+  DistanceAttenuation 2.01
+  Visualization Disabled
+  VolLightScale 0
+  VolLightIntensity 0
+  LensFlareScale 0
+ }
+ LIGHT_FLUO_SPOT_33 {
+  coords 4273.116 303.698 2362.229
+  angles -88.12 151.901 61.081
+  Color 1 0.6314 0.2118 1
+  LV 0.29
+  ClipEV -10
+  Type Spot
+  Radius 9.87
+  NearPlane 0.01
+  SpotAngle 163.43
+  SpotAngleAttenuation 0.85
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  VolLightIntensity 0.8
+ }
+ LIGHT_FLUO_SPOT_37 {
+  coords 4283.782 303.697 2371.416
+  angles -88.12 151.901 61.081
+  Color 1 0.6314 0.2118 1
+  LV 0.29
+  ClipEV -10
+  Type Spot
+  Radius 9.87
+  NearPlane 0.01
+  SpotAngle 163.43
+  SpotAngleAttenuation 0.85
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  VolLightIntensity 0.8
+ }
+ LIGHT_FLUO_SPOT_53 {
+  coords 4280.369 303.178 2365.277
+  angles -88.12 151.901 61.081
+  Color 1 0.6314 0.2118 1
+  LV 0.29
+  ClipEV -10
+  Type Spot
+  Radius 9.87
+  NearPlane 0.01
+  SpotAngle 163.43
+  SpotAngleAttenuation 0.85
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  VolLightIntensity 0.8
+ }
+ LIGHT_FLUO_SPOT_38 {
+  coords 4272.024 303.723 2345.777
+  angles -88.12 151.901 61.081
+  Color 1 0.6314 0.2118 1
+  LV 0.29
+  ClipEV -10
+  Type Spot
+  Radius 9.87
+  NearPlane 0.01
+  SpotAngle 163.43
+  SpotAngleAttenuation 0.85
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  VolLightIntensity 0.8
+ }
+ LIGHT_FLUO_SPOT_34 {
+  coords 4282.939 303.67 2359.102
+  angles -88.12 151.901 61.081
+  Color 1 0.6314 0.2118 1
+  LV 0.29
+  ClipEV -10
+  Type Spot
+  Radius 9.87
+  NearPlane 0.01
+  SpotAngle 163.43
+  SpotAngleAttenuation 0.85
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  VolLightIntensity 0.8
+ }
+ LIGHT_FLUO_SPOT_54 {
+  coords 4272.629 303.683 2355.494
+  angles -88.12 151.901 61.081
+  Color 1 0.6314 0.2118 1
+  LV 0.29
+  ClipEV -10
+  Type Spot
+  Radius 9.87
+  NearPlane 0.01
+  SpotAngle 163.43
+  SpotAngleAttenuation 0.85
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  VolLightIntensity 0.8
+ }
+ LIGHT_FLUO_SPOT_57 {
+  coords 1578.789 313.265 259.337
+  angles -35.304 0.297 102.118
+  Color 1 0.8398 0.2467 1
+  LV 1.93
+  ClipEV -10
+  Radius 17.8
+  NearPlane 0.2
+  SpotAngle 107.23
+  DistanceAttenuation 2.26
+  Visualization Disabled
+ }
+ LIGHT_FLUO_SPOT_58 {
+  coords 1580.286 312.593 280.188
+  angles -35.304 0.297 102.118
+  Color 1 0.8398 0.2467 1
+  LV 1.93
+  ClipEV -10
+  Radius 17.8
+  NearPlane 0.2
+  SpotAngle 107.23
+  DistanceAttenuation 2.26
+  Visualization Disabled
+ }
+ LIGHT_FLUO_SPOT_59 {
+  coords 1585.083 312.547 282.818
+  angles -35.304 0.297 102.118
+  Color 1 0.8398 0.2467 1
+  LV 1.93
+  ClipEV -10
+  Radius 17.8
+  NearPlane 0.2
+  SpotAngle 107.23
+  DistanceAttenuation 2.26
+  Visualization Disabled
+ }
+ LIGHT_FLUO_SPOT_23 {
+  coords 2392.126 311.256 2479.761
+  angles -82.533 -36.561 130.912
+  Color 0.4533 0.6069 0.5894 1
+  LV 3.65
+  ClipEV -0.74
+  Type Spot
+  Radius 5.37
+  NearPlane 0.11
+  SpotAngle 127.21
+  DistanceAttenuation 0.1
+  Visualization Disabled
+ }
+ LIGHT_FLUO_SPOT_25 {
+  coords 2373.753 311.902 2499.944
+  angles -81.867 48.242 46.614
+  Color 0.4533 0.6069 0.5894 1
+  LV 2.95
+  ClipEV -0.74
+  Radius 5.37
+  NearPlane 0.11
+  SpotAngle 127.21
+  DistanceAttenuation 0.1
+  Visualization Disabled
+ }
+ LIGHT_FLUO_SPOT_26 {
+  coords 2377.244 311.838 2500.329
+  angles -81.867 48.242 46.614
+  Color 0.4533 0.6069 0.5894 1
+  LV 2.95
+  ClipEV -0.74
+  Radius 5.37
+  NearPlane 0.11
+  SpotAngle 127.21
+  DistanceAttenuation 0.1
+  Visualization Disabled
+ }
+ LIGHT_FLUO_SPOT_7 {
+  coords 2053.852 295.73 953.747
+  angles -35.304 0.297 102.118
+  Color 1 0.8398 0.2467 1
+  LV 1.93
+  ClipEV -10
+  Radius 17.8
+  NearPlane 0.2
+  SpotAngle 107.23
+  DistanceAttenuation 2.26
+  Visualization Disabled
+ }
+ LIGHT_FLUO_SPOT_48 {
+  coords 2056.238 296.426 956.746
+  angles -35.304 0.297 102.118
+  Color 1 0.8398 0.2467 1
+  LV 1.93
+  CastShadow 0
+  ClipEV -10
+  Radius 17.8
+  NearPlane 0.2
+  SpotAngle 107.23
+  DistanceAttenuation 2.26
+  Visualization Disabled
+ }
+ LIGHT_FLUO_SPOT_63 {
+  coords 2059.047 295.743 950.235
+  angles -35.304 0.297 102.118
+  Color 1 0.8398 0.2467 1
+  LV 1.93
+  CastShadow 0
+  ClipEV -10
+  Radius 17.8
+  NearPlane 0.2
+  SpotAngle 107.23
+  DistanceAttenuation 2.26
+  Visualization Disabled
+ }
+ LIGHT_FLUO_SPOT_64 {
+  coords 2054.564 295.841 948.84
+  angles -35.304 0.297 102.118
+  Color 1 0.8398 0.2467 1
+  LV 1.93
+  ClipEV -10
+  Radius 17.8
+  NearPlane 0.2
+  SpotAngle 107.23
+  DistanceAttenuation 2.26
+  Visualization Disabled
+ }
+ LIGHT_FLUO_SPOT_65 {
+  coords 2042.357 296.806 937.367
+  angles -35.304 0.297 102.118
+  Color 1 0.8398 0.2467 1
+  LV 1.93
+  ClipEV -10
+  Radius 17.8
+  NearPlane 0.2
+  SpotAngle 107.23
+  DistanceAttenuation 2.26
+  Visualization Disabled
+ }
+ LIGHT_FLUO_SPOT_66 {
+  coords 2044.791 300.587 933.682
+  angles -35.304 0.297 102.118
+  Color 1 0.8398 0.2467 1
+  LV 1.93
+  ClipEV -10
+  Radius 17.8
+  NearPlane 0.2
+  SpotAngle 107.23
+  DistanceAttenuation 2.26
+  Visualization Disabled
+ }
+ LIGHT_FLUO_SPOT_24 {
+  coords 2035.84 295.516 941.465
+  angles -35.304 0.297 102.118
+  Color 1 0.8398 0.2467 1
+  LV 1.93
+  ClipEV -10
+  Radius 17.8
+  NearPlane 0.2
+  SpotAngle 107.23
+  DistanceAttenuation 2.26
+  Visualization Disabled
+ }
+ LIGHT_FLUO_SPOT_60 {
+  coords 1549.576 312.98 264.181
+  angles -35.304 0.297 102.118
+  Color 1 0.8398 0.2467 1
+  LV 1.93
+  ClipEV -10
+  Radius 17.8
+  NearPlane 0.06
+  SpotAngle 107.23
+  DistanceAttenuation 2.26
+  Visualization Disabled
+ }
+ LIGHT_FLUO_SPOT_62 {
+  coords 1544.293 313.345 259.328
+  angles -35.304 0.297 102.118
+  Color 1 0.8398 0.2467 1
+  LV 3.79
+  ClipEV -10
+  Radius 8.42
+  NearPlane 0.29
+  SpotAngle 107.23
+  DistanceAttenuation 2.26
+  Dynamic 1
+  Visualization Disabled
+ }
+ LIGHT_FLUO_SPOT_61 {
+  coords 1548.693 312.958 256.964
+  angles -35.304 0.297 102.118
+  Color 1 0.8398 0.2467 1
+  LV 1.93
+  ClipEV -10
+  Radius 17.8
+  NearPlane 0.06
+  SpotAngle 107.23
+  DistanceAttenuation 2.26
+  Visualization Disabled
+ }
+ LIGHT_FLUO_SPOT_78 {
+  coords 2718.274 287.571 567.302
+  ColorType Temperature
+  Color 0.8213 0.1082 0.0025 1
+  Temperature 1800
+  LV 9.53
+  ClipEV -10
+  Radius 25.68
+  NearPlane 2
+  SpotAngle 155
+  DistanceAttenuation 1.89
+  Visualization Disabled
+  VolLightScale 0
+  VolLightIntensity 0
+  LensFlareScale 0
+ }
+ LIGHT_FLUO_SPOT_9 {
+  coords 2115.685 292.232 1150.751
+  ColorType Temperature
+  Color 0.8213 0.1082 0.0025 1
+  Temperature 1800
+  LV 11.32
+  ClipEV -10
+  Radius 25.68
+  NearPlane 2
+  SpotAngle 155
+  DistanceAttenuation 1.89
+  Visualization Disabled
+  VolLightScale 0
+  VolLightIntensity 0
+  LensFlareScale 0
+ }
+}
+$grp ParticleEffectEntity {
+ {
+  coords 2501.767 305.849 1343.92
+  EffectPath "{6551950A10DD2055}Prefabs/Anomals/Cometes/FIRE/data/sparks.ptc"
+ }
+ {
+  coords 2526.275 301.32 1337.564
+  EffectPath "{6551950A10DD2055}Prefabs/Anomals/Cometes/FIRE/data/sparks.ptc"
+ }
+ {
+  coords 2546.209 301.651 1334.254
+  EffectPath "{6551950A10DD2055}Prefabs/Anomals/Cometes/FIRE/data/sparks.ptc"
+ }
+ {
+  coords 1553.034 311.406 225.968
+  EffectPath "{5FAFA364AD98E2B9}Prefabs/Particles/env_iskra.ptc"
+ }
+ {
+  coords 1545.526 309.963 263.167
+  EffectPath "{164AA51DF8F2C97A}Prefabs/Particles/animals/roach.ptc"
+ }
+ {
+  coords 1547.235 309.963 266.519
+  EffectPath "{164AA51DF8F2C97A}Prefabs/Particles/animals/roach.ptc"
+ }
+ {
+  coords 1538.367 309.827 278.753
+  EffectPath "{938C36411ACCC6B4}Prefabs/Particles/animals/rats.ptc"
+ }
+}
+ParticleEffectEntity : "{35E86DD0B720CFF0}Prefabs/Anomals/Cometes/ELECTRO/data/Cometa_Particle_ELECTRO.et" {
+ components {
+  SoundComponent "{669ECE78C8BC6334}" {
+   Filenames {
+    "{0C91968C4B462931}Prefabs/Anomals/Cometes/ELECTRO/data/cometa_sound1.acp"
+   }
+  }
+ }
+ coords 4259.854 320.144 431.465
+}
+$grp GenericEntity : "{62482F79CF1B97FD}Prefabs/Structures/BuildingParts/Lights/LampIndustrial_01.et" {
+ {
+  coords 1578.53 313.36 261.571
+  angles -36.843 -27.913 51.044
+  {
+   LightEntity LIGHT_FLUO_SPOT_55 {
+    coords 0.043 -0.24 0.258
+    angles -35.304 0.297 102.118
+    Color 1 0.8398 0.2467 1
+    LV 3.07
+    ClipEV -10
+    Type Spot
+    Radius 17.8
+    NearPlane 0.2
+    SpotAngle 107.23
+    DistanceAttenuation 1.9
+    Visualization Disabled
+   }
+  }
+ }
+ {
+  coords 1583.247 312.647 284.209
+  angles -43.611 -27.405 36.931
+  {
+   LightEntity LIGHT_FLUO_SPOT_56 {
+    coords 0.043 -0.24 0.258
+    angles -35.304 0.297 102.118
+    Color 1 0.8398 0.2467 1
+    LV 3.07
+    ClipEV -10
+    Type Spot
+    Radius 17.8
+    NearPlane 0.2
+    SpotAngle 107.23
+    DistanceAttenuation 1.9
+    Visualization Disabled
+   }
+  }
+ }
+}
+$grp LightEntity : "{94E574957C0BA1FD}Prefabs/lights/LampStreet_E_03_light.et" {
+ {
+  coords 3408.339 322.642 470.745
+  angles -35.09 0 0
+ }
+ {
+  coords 3258.265 322.598 519.925
+  angles -35.09 0 0
+ }
+ {
+  coords 3484.377 322.683 465.092
+  angles -35.09 0 0
+ }
+ {
+  coords 3594.204 323.209 465.439
+  angles -35.09 0 0
+ }
+ {
+  coords 3733.929 322.477 425.771
+  angles -35.09 0 0
+ }
+ {
+  coords 3802.881 314.767 420.541
+  angles -35.09 0 0
+ }
+ {
+  coords 3780.08 322.631 420.299
+  angles -35.09 0 0
+ }
+ {
+  coords 3828.052 322.788 419.803
+  angles -35.09 0 0
+ }
+ {
+  coords 3884.957 323.127 421.261
+  angles -35.09 0 0
+ }
+ {
+  coords 3998.487 322.271 411.428
+  angles -35.09 0 0
+ }
+ {
+  coords 3950.655 322.885 412.802
+  angles -35.09 0 0
+ }
+ {
+  coords 3916.162 323.15 419.053
+  angles -35.09 0 0
+ }
+ {
+  coords 3689.029 322.136 441.385
+  angles -35.09 0 0
+ }
+ {
+  coords 3644.299 322.096 453.887
+  angles -35.09 0 0
+ }
+ {
+  coords 4055.417 322.113 409.863
+  angles -35.09 0 0
+ }
+ {
+  coords 4130.84 322.002 397.933
+  angles -35.09 0 0
+ }
+ {
+  coords 4454.429 338.795 148.448
+  angles -35.09 0 0
+ }
+ {
+  coords 4528.353 336.184 143.451
+  angles -35.09 0 0
+ }
+ {
+  coords 4639.934 338.548 155.292
+  angles -35.09 0 0
+ }
+ {
+  coords 4581.553 338.779 147.254
+  angles -35.09 0 0
+ }
+ {
+  coords 3797.655 313.161 284.273
+  angles -35.09 0 0
+ }
+ {
+  coords 3870.618 315.334 392.744
+  angles 6.632 -90.376 -90.311
+ }
+ {
+  coords 3792.313 315.222 388.609
+  angles -37.984 86.198 -1.819
+ }
+ {
+  coords 3051.675 307.94 1010.118
+  angles -35.438 -45.48 24.477
+ }
+ {
+  coords 2746.915 308.644 1034.042
+  angles -38.041 -152.24 122.234
+ }
+ {
+  coords 2775.386 308.847 995.243
+  angles -20.583 -134.4 -130.049
+ }
+ {
+  coords 2843.429 313.013 814.465
+  angles -52.666 -69.777 95.857
+ }
+}
+$grp GameEnvironmentProbeEntity : "{A3F046396756E15F}Prefabs/Structures/Core/ProbeExteriorWater_Base.et" {
+ ProbeExterior_PeriwinklePond {
+  coords 2511.218 311.934 1339.847
+  FarPlane 141.03
+  VisibleDistance 85.48
+  DebugShow None
+  LVReflectionBrightness 4.62
+  ReflectionColor 0.3372 0.0469 0.0017 1
+  LVBackgroundColor 2.22
+  BackgroundColor 0.8213 0.1082 0.0025 1
+  TopColorEV 10
+  TopColor 1 0 0 1
+  {
+   ProbeVolume {
+    ID "54FE653E68DF1A3B"
+    coords 0 0 0
+    angles 0 -71.04 0
+    Box BoundingVolume "{54989D4D1B10E454}" {
+     Size 70 50 110
+    }
+    BoxLerp 5
+   }
+  }
+ }
+ ProbeExterior_PeriwinklePond2 {
+  coords 3424.914 305.858 1256.834
+  FarPlane 111.12
+  VisibleDistance 85.48
+  DebugShow None
+  LVReflectionBrightness 4.1
+  ReflectionColor 0.1569 0.6235 0.6235 1
+  LVBackgroundColor 2.22
+  BackgroundColor 0.8213 0.1082 0.0025 1
+  TopColorEV 10
+  TopColor 1 0 0 1
+  {
+   ProbeVolume {
+    ID "54FE653E68DF1A3B"
+    coords 0 0 0
+    angles 0 -124.34 0
+    Box BoundingVolume "{54989D4D1B10E454}" {
+     Size 60 80 80
+    }
+    BoxLerp 5
+   }
+  }
+ }
+ tonnel_kb {
+  coords 4257.467 313.348 433.93
+  FarPlane 111.12
+  VisibleDistance 85.48
+  ExtProbeDiffuseWeight 1
+  PriorityProbe 1
+  CaptureLights 1
+  DebugShow None
+  LVReflectionBrightness -20
+  LVDiffuseBrightness -20
+  DesaturationGlobalOverride 0
+  LVBackgroundColor 20
+  EnableHDRModifications 1
+  VisiblePercentWhite 100
+  VisiblePercentBlack 99
+  TopColorEV -10
+  BottomColorEV 19.82
+  BottomColor 0 0 0 1
+  {
+   ProbeVolume {
+    ID "54FE653E68DF1A3B"
+    coords -1.694 -8.915 12.052
+    angles 0 -69.265 0
+    Box BoundingVolume "{54989D4D1B10E454}" {
+     Size 81.346 62.17 199.313
+    }
+    BoxLerp 4.05
+   }
+  }
+ }
+ ProbeExterior_PeriwinklePond4 {
+  coords 6161.993 291.796 1124.985
+  FarPlane 141.03
+  VisibleDistance 85.48
+  DebugShow None
+  LVReflectionBrightness 4.62
+  ReflectionColor 0.3372 0.0469 0.0017 1
+  LVBackgroundColor 2.22
+  BackgroundColor 0.8213 0.1082 0.0025 1
+  TopColorEV 10
+  TopColor 1 0 0 1
+  {
+   ProbeVolume {
+    ID "54FE653E68DF1A3B"
+    coords -29.451 25.293 -11.421
+    angles 0 -106.3 0
+    Box BoundingVolume "{54989D4D1B10E454}" {
+     Size 80.422 100.586 276.597
+    }
+    BoxLerp 5
+   }
+  }
+ }
+ ProbeExterior_PeriwinklePond5 {
+  coords 5480.572 309.808 1478.255
+  FarPlane 111.12
+  VisibleDistance 85.48
+  Rendering 0 0x18
+  CaptureLights 1
+  DebugShow None
+  SkyDesaturation 1
+  LVBackgroundColor 19.48
+  EnableHDRModifications 1
+  VisiblePercentWhite 100
+  VisiblePercentBlack 56
+  {
+   ProbeVolume {
+    ID "54FE653E68DF1A3B"
+    coords -19.19 -5.13 -39.653
+    angles 0 -97.12 0
+    Box BoundingVolume "{54989D4D1B10E454}" {
+     Size 239.754 69.74 206.88
+    }
+    SphereLerp 0
+    BoxLerp 5
+   }
+  }
+ }
+}
+$grp GenericEntity : "{EC9EC10F9D401E7A}Prefabs/Structures/BuildingParts/Lights/LampIndustrial_05/LampIndustrial_05.et" {
+ {
+  coords 1567.327 0.732 251.119
+  angles 0 -76.587 0
+ }
+ {
+  coords 1559.404 0 206.556
+  angles 0 -79.366 0
+ }
+}

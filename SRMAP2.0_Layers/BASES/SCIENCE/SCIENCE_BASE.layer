@@ -1,0 +1,64 @@
+$grp SCR_ChimeraCharacter : "{090F60A2FEFB08DA}Prefabs/QUESTS/URAL/CONTORA_STATIC_2.et" {
+ {
+  coords 2330.377 312.955 2529.154
+  angles 0 171.179 0
+ }
+ {
+  coords 2384.018 312.825 2534.983
+  angles 0 -89.131 0
+ }
+ {
+  coords 2313.192 312.855 2526.513
+  angles 0 -101.902 0
+ }
+}
+SCR_ChimeraCharacter : "{30F522A0DDDD0407}Prefabs/QUESTS/URAL/URAL_BARMAN.et" {
+ coords 2324.262 313.206 2500.37
+ angles 0 -18.224 0
+}
+SCR_ChimeraCharacter : "{577DD3C60AE3FA97}Prefabs/QUESTS/URAL/URAL_QUEST.et" {
+ coords 2340.708 313.379 2495.544
+ angles 0 42.041 0
+}
+$grp SCR_ChimeraCharacter : "{655B5442423F87F4}Prefabs/QUESTS/URAL/CONTORA_STATIC_1.et" {
+ {
+  coords 2308.125 313.351 2518.608
+  angles 0 -44.965 0
+ }
+ {
+  coords 2341.31 313.379 2500.932
+  angles 0 175.019 0
+ }
+ {
+  coords 2360.708 312.811 2503.925
+  angles 0 8.88 0
+ }
+ {
+  coords 2344.052 312.702 2506.055
+  angles 0 5.595 0
+ }
+}
+SCR_ChimeraCharacter : "{7F23FCA16DF01C53}Prefabs/QUESTS/URAL/URAL_TRAVEL.et" {
+ coords 2314.651 312.91 2494.811
+ angles 0 -70.492 0
+}
+SCR_ChimeraCharacter : "{8A1B56CAE3B8281E}Prefabs/QUESTS/URAL/URAL_MEDIC.et" {
+ coords 2332.415 313.162 2504.855
+ angles 0 80.876 0
+}
+SCR_ChimeraCharacter : "{A426BAE9FC0BEA50}Prefabs/QUESTS/URAL/URAL_STATIC_2.et" {
+ coords 2329.584 312.702 2508.645
+ angles 0 -79.307 0
+}
+SCR_ChimeraCharacter : "{C8728E0940CF657E}Prefabs/QUESTS/URAL/URAL_STATIC_1.et" {
+ coords 2328.887 312.701 2508.87
+ angles 0 118.8 0
+}
+SCR_ChimeraCharacter : "{E4EDF37967135455}Prefabs/QUESTS/URAL/URAL_SCIENCE.et" {
+ coords 2345.534 313.379 2497.148
+ angles 0 -0.876 0
+}
+SCR_ChimeraCharacter : "{EBC670FE8A9E9919}Prefabs/QUESTS/URAL/URAL_REPAIR.et" {
+ coords 2354.115 312.811 2497.348
+ angles 0 32.555 0
+}

@@ -1,0 +1,46 @@
+$grp GenericEntity {
+ MainPodval {
+  coords 7483.965 300.452 453.472
+ }
+ Shelter_exit {
+  coords 4174.452 311.047 722.352
+  angles 0 -1.413 0
+ }
+}
+GenericEntity : "{12C9F97F9D38F68D}Prefabs/Props/Teleport/ARMST_ACTION_TELEPORT.et" {
+ components {
+  ActionsManagerComponent "{657E8538A2BE1CCD}" {
+   ActionContexts {
+    UserActionContext "{657E8538A2BE1CCA}" {
+     Position PointInfo "{657E8538A2BE1CC5}" {
+      Offset 0.027 0.0107 -0.0612
+     }
+    }
+   }
+   additionalActions {
+    ARMST_TELEPORT_ACTIONS "{657E8538A2BE1CC0}" {
+     m_sTeleportActionName "On ground"
+     m_sTeleportTarget "enter_smuggler"
+     m_fTeleportDelay 2
+     m_fTeleportRadius 3
+    }
+   }
+  }
+ }
+ coords 4169.325 305.393 710.005
+ angles 0 -99.825 0
+ {
+  GenericEntity enter_smuggler {
+   coords -14.355 5.155 -13.443
+   angles 0 99.825 0
+  }
+  ParticleEffectEntity {
+   ID "6584A0E2D7807BBB"
+   coords 0.457 -2.554 -3.483
+  }
+ }
+}
+GenericEntity : "{3244854FF3798E1C}Prefabs/Props/SHELTER/ARMST_ACTION_SHELTER.et" {
+ coords 4174.091 311.144 723.892
+ angles 0 133.715 0
+}

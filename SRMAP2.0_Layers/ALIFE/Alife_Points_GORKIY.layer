@@ -1,0 +1,70 @@
+$grp ARMST_ALIFE_InterestPoint {
+ gorkiy_sebej {
+  coords 3563.605 300.796 1841.879
+  m_LocationKey GORKIY
+  m_sNextInterestPoint1 "gorkiy_house2"
+  m_sNextInterestPoint2 "gorkiy_farm"
+  m_sNextInterestPoint3 "gorkiy_house"
+  m_sNextInterestPoint4 "gorkiy_village"
+ }
+ gorkiy_farm {
+  coords 3867.833 300.844 2087.279
+  m_LocationKey GORKIY
+  m_sNextInterestPoint1 "gorkiy_sebej"
+  m_sNextInterestPoint2 "gorkiy_house"
+ }
+ gorkiy_house {
+  coords 3592.437 300.796 2353.472
+  m_LocationKey GORKIY
+  m_sNextInterestPoint1 "gorkiy_sebej"
+  m_sNextInterestPoint2 "gorkiy_house2"
+  m_sNextInterestPoint3 "gorkiy_village"
+  m_sNextInterestPoint4 "gorkiy_farm"
+ }
+ gorkiy_house2 {
+  coords 3176.27 300.796 2005.017
+  m_LocationKey GORKIY
+  m_sNextInterestPoint1 "gorkiy_sebej"
+  m_sNextInterestPoint2 "gorkiy_village"
+ }
+ gorkiy_village {
+  coords 3402.125 299.524 2289.531
+  m_LocationKey GORKIY
+  m_sNextInterestPoint1 "gorkiy_sebej"
+  m_sNextInterestPoint2 "gorkiy_house2"
+  m_sNextInterestPoint3 "gorkiy_house"
+  m_sNextInterestPoint4 "gorkiy_sklad"
+  m_sNextInterestPoint5 "gorkiy_bridge"
+ }
+ gorkiy_sklad {
+  coords 3076.385 304.702 2521.105
+  m_LocationKey GORKIY
+  m_sNextInterestPoint1 "gorkiy_village"
+  m_sNextInterestPoint2 "gorkiy_house"
+  m_sNextInterestPoint3 "gorkiy_plant"
+  m_sNextInterestPoint4 "gorkiy_bridge"
+  m_sNextInterestPoint5 "gorkiy_point"
+ }
+ gorkiy_plant {
+  coords 3083.053 304.702 2749.606
+  m_LocationKey GORKIY
+  m_sNextInterestPoint1 "gorkiy_sklad"
+  m_sNextInterestPoint2 "gorkiy_bridge"
+  m_sNextInterestPoint3 "gorkiy_water"
+  m_sNextInterestPoint4 "gorkiy_point"
+  m_sNextInterestPoint5 "gorkiy_point"
+ }
+ gorkiy_water {
+  coords 3281.955 303.952 2963.597
+  m_LocationKey GORKIY
+  m_sNextInterestPoint1 "gorkiy_plant"
+  m_sNextInterestPoint2 "gorkiy_bridge"
+ }
+ gorkiy_bridge {
+  coords 3472.171 303.952 2655.697
+  m_LocationKey GORKIY
+  m_sNextInterestPoint1 "gorkiy_village"
+  m_sNextInterestPoint2 "gorkiy_sklad"
+  m_sNextInterestPoint3 "gorkiy_water"
+ }
+}
