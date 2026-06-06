@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{CE8EF7F3B7EE655D}Configs/DATABASE_ITEMS/CLOTHES/MASKS/MASKS.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

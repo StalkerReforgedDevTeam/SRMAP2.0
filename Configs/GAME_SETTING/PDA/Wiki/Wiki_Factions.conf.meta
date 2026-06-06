@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{59401D37863068BB}Configs/GAME_SETTING/PDA/Wiki/Wiki_Factions.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

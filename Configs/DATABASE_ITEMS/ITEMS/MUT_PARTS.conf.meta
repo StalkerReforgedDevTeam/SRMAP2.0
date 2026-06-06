@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{D5E85707CD5332C0}Configs/DATABASE_ITEMS/ITEMS/MUT_PARTS.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{EB3172ACDC449C4C}Configs/GAME_SETTING/DIALOGS/ACTORS/MICH/MICH_TELEPHONIST.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

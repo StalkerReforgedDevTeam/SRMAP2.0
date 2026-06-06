@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{292EA04B0C338C3C}Configs/GAME_SETTING/DIALOGS/ACTORS/KB/KB_QUEST.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

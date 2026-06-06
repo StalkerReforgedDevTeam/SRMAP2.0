@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{C824A72272F194B8}Configs/GAME_SETTING/DIALOGS/ACTORS/URAL/URAL_TRAVEL.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

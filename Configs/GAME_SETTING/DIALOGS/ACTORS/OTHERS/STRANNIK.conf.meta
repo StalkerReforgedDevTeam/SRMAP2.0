@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{91B0A00B39E6CCCE}Configs/GAME_SETTING/DIALOGS/ACTORS/OTHERS/STRANNIK.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

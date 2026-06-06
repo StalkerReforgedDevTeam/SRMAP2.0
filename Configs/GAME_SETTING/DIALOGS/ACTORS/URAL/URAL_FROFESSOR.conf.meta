@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{A50392987FDC4415}Configs/GAME_SETTING/DIALOGS/ACTORS/URAL/URAL_FROFESSOR.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

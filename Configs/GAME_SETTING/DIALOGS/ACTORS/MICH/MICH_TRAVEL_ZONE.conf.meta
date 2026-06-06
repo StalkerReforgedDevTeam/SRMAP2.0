@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{9B6E25A34176970B}Configs/GAME_SETTING/DIALOGS/ACTORS/MICH/MICH_TRAVEL_ZONE.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

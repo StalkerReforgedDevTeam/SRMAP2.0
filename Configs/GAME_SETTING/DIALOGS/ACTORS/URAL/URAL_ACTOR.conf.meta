@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{E425790D46508B4B}Configs/GAME_SETTING/DIALOGS/ACTORS/URAL/URAL_ACTOR.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

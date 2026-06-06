@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{319289F26F0BEA57}Configs/GAME_SETTING/DIALOGS/ACTORS/URAL/URAL_BARMAN.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

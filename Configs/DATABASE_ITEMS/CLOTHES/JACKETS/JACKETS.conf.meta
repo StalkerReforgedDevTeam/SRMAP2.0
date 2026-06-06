@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{050544E7609295CB}Configs/DATABASE_ITEMS/CLOTHES/JACKETS/JACKETS.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

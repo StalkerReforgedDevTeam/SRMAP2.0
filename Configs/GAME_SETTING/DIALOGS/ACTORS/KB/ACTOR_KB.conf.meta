@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{B7F91828F74AFAC4}Configs/GAME_SETTING/DIALOGS/ACTORS/KB/ACTOR_KB.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

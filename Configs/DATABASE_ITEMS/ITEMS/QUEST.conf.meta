@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{AD31279B1CA0F163}Configs/DATABASE_ITEMS/ITEMS/QUEST.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

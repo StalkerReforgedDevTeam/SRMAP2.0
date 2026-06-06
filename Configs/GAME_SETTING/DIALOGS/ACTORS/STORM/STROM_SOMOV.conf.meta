@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{F4AE308F926C6BCB}Configs/GAME_SETTING/DIALOGS/ACTORS/STORM/STROM_SOMOV.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}
