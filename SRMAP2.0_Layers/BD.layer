@@ -110,6 +110,7 @@ SCR_GameModeEditor Armst_GameMaster : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Editor
    m_sMarkerCfgPath "{720E8E61D7692173}Configs/Map/MapMarkerConfig.conf"
   }
   SCR_NametagConfigComponent "{571AA9E54FC9210D}" {
+   Enabled 0
    m_sConfigPath "{DB53C99497C2DDBB}Configs/NameTags/NametagSingle.conf"
   }
   SCR_NightModeGameModeComponent "{5D50E84688D5A408}" {
@@ -137,6 +138,7 @@ SCR_GameModeEditor Armst_GameMaster : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Editor
    m_SpawnLogic ARMST_BasicSpawnLogic "{66BD147E817B0282}" {
     m_rDefaultPrefab "{BBCD96EFBDB923E4}Prefabs/Factions/PLAYER/Character_STALKER_Player_Save.et"
    }
+   m_bEnablePauseMenuRespawn 0
   }
   SCR_RespawnTimerComponent "{56C2DDA6EE0E4071}" {
    Enabled 0
