@@ -15,6 +15,10 @@ SCR_GameModeEditor Armst_GameMaster : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Editor
     m_sDatabaseName "Survival_2_0"
    }
   }
+  SCR_AdditionalGameModeSettingsComponent "{6170E11C3C452ACC}" {
+   m_eNametagRelationFilters 0
+   m_eNametagControllerFilters 0
+  }
   SCR_CampaignBuildingManagerComponent "{5D7CEE59B8954EBB}" {
    m_sFreeRoamBuildingClientTrigger "{5E191CEAF4B95816}Prefabs/MP/FreeRoamBuildingClientTrigger.et"
    m_BudgetType CAMPAIGN
@@ -114,10 +118,7 @@ SCR_GameModeEditor Armst_GameMaster : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Editor
    m_sConfigPath "{DB53C99497C2DDBB}Configs/NameTags/NametagSingle.conf"
   }
   SCR_NightModeGameModeComponent "{5D50E84688D5A408}" {
-   m_bAllowGlobalNightMode 1
-  }
-  SCR_PerceivedFactionManagerComponent "{61AA7E6E0C6A76F9}" {
-   Enabled 0
+   m_bAllowGlobalNightMode 0
   }
   SCR_PlayerSpawnPointManagerComponent "{56C2DDA69EF94C6D}" {
    Enabled 0
@@ -217,7 +218,6 @@ SCR_GameModeEditor Armst_GameMaster : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Editor
   }
  }
  coords 4176.283 311.046 720.867
- m_bAutoPlayerRespawn 0
  m_bAllowFactionChange 0
  m_bAutoInitEditor 0
  m_GameMasterTarget EVERYBODY
