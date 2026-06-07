@@ -1,0 +1,32 @@
+GenericEntity : "{067C84E7FFACE4D2}Prefabs/animals/dog_warden.et" {
+ coords 1605.432 309.897 293.013
+ angles 0 13.668 0
+}
+SCR_ChimeraCharacter : "{3879570DEE2B1AB7}Prefabs/QUESTS/MICH/MICH_TRAVEL_ZONE.et" {
+ coords 1546.95 309.963 259.051
+ angles 0 79.768 0
+}
+SCR_ChimeraCharacter : "{6989B17DD1EFA104}Prefabs/QUESTS/MICH/MICH_TELEPHONIST.et" {
+ coords 1543.595 309.963 257.43
+ angles 0 -26.77 0
+}
+SCR_ChimeraCharacter : "{9DED35EC3B12E4C1}Prefabs/QUESTS/MICH/MICH_MEDIC.et" {
+ coords 1579.46 310.707 257.666
+ angles 0 14.53 0
+}
+SCR_ChimeraCharacter : "{C2D484B9E903CCAB}Prefabs/QUESTS/MICH/MICH_MITAY.et" {
+ coords 1546.571 309.827 227.17
+ angles 0 -169.775 0
+}
+SCR_ChimeraCharacter : "{F66E613CDF1C27AE}Prefabs/QUESTS/MICH/MICH_BARMAN.et" {
+ coords 1549.246 309.963 264.642
+ angles 0 177.294 0
+}
+SCR_ChimeraCharacter : "{F66E613CDF1C27AF}Prefabs/QUESTS/MICH/MICH_TRADER.et" {
+ coords 1584.703 310.116 279.019
+ angles 0 0.735 0
+}
+SCR_ChimeraCharacter : "{FE43B2BCD4BD59A2}Prefabs/QUESTS/MICH/MICH_TRAVEL_PRED.et" {
+ coords 1583.551 309.827 306.574
+ angles 0 -115.193 0
+}

@@ -1,0 +1,16 @@
+ARMST_QUEST_TRIGGER : "{372F4469FF5293C9}Prefabs/QUESTS/ARMST_TRIGGER_QUEST.et" {
+ coords 3275.331 300.743 536.952
+ SphereRadius 38
+ DrawShape 0
+ UpdatePeriod 20
+ m_sQuestNameDB "kb_medik"
+ m_iStageStart 6
+ m_iStageSet 8
+ m_PrefabQuestSpawn "{37507C3B93F524F8}Prefabs/Factions/Groups/ARMY/Group_ARMY_4.et"
+ m_PrefabQuestSpawn_spawn_pos 3472.882 305.296 473.362
+ m_PrefabQuestSpawn_Set_Waypoint_pos 3388.329 0 587.853
+}
+SCR_ChimeraCharacter : "{BC8E6B27995EBFB9}Prefabs/QUESTS/OTHERS/KB_MEDIC_POSTAVHIK.et" {
+ coords 3257.087 300.744 523.246
+ angles 0 86.434 0
+}

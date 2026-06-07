@@ -1,0 +1,151 @@
+$grp GameEntity {
+ puzir_les {
+  coords 3926.791 315.421 1662.168
+ }
+ puzir_les2 {
+  coords 4050.524 304.696 1582.873
+ }
+ vishka_band_spawn {
+  coords 3898.783 317.775 1134.682
+ }
+}
+LightEntity LIGHT_FLUO_SPOT_12 {
+ coords 3878.862 319.225 1642.25
+ Color 0.2467 0.7317 1 1
+ LV 3.44
+ ClipEV -10
+ Radius 8.7
+ NearPlane 0.01
+ SpotAngle 155
+ DistanceAttenuation 0.1
+ Visualization Disabled
+ VolLightScale 1
+ VolLightIntensity 0
+ LensFlareIndex 1
+ LensFlareScale 7.74
+}
+$grp ARMST_QUEST_TRIGGER : "{372F4469FF5293C9}Prefabs/QUESTS/ARMST_TRIGGER_QUEST.et" {
+ {
+  coords 4128.991 321.857 1641.658
+  SphereRadius 114.7
+  DrawShape 0
+  UpdatePeriod 20
+  m_sQuestNameDB "kb_radio"
+  m_iStageStart 12
+  m_iStageSet 13
+  m_PrefabQuestSpawn "{B441CBBE7A048A3D}Prefabs/Anomals/TRIGGERS/gluhoman/ARMST_TRIGGER_GLUHOMAN_100m.et"
+  m_PrefabQuestSpawn_spawn_pos 4128.991 321.857 1641.658
+  m_PrefabQuestReward "{40855FFD2BBB84E8}Prefabs/Anomals/TRIGGERS/lighting/ARMST_TRIGGER_LIGHTING_30m_10sec.et"
+  m_PrefabQuestReward_spawn_pos 4093.861 314.095 1685.632
+ }
+ {
+  coords 4094.24 313.309 1686.246
+  SphereRadius 13.3
+  DrawShape 0
+  UpdatePeriod 20
+  m_sQuestNameDB "kb_radio"
+  m_iStageStart 13
+  m_iStageSet 14
+ }
+}
+SCR_ChimeraCharacter : "{4EA15A0DECD42FDE}Prefabs/QUESTS/OTHERS/STRANNIK.et" {
+ coords 3912.181 315.421 1646.012
+ angles 0 25.283 0
+}
+ARMST_TRIGGER_GLUHOMAN : "{6C7D37D00F9EA453}Prefabs/Anomals/TRIGGERS/ARMST_TRIGGER_GLUHOMAN.et" {
+ coords 3913.295 315.421 1647.724
+}
+ARMST_TRIGGER_SPAWN ELECTRO_ANOMALY20 : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRIGGER_ANOMAL.et" {
+ coords 4095.432 312.832 1685.63
+ SphereRadius 20.1
+ TriggerActivationType "Every query"
+ UpdatePeriod 10
+ m_ObjectPrefab "{60D88B47635E7627}Prefabs/Anomals/Electro/ARMST_ELECTRO_T1.et"
+ m_ObjectPrefab2 "{60D88B47635E7627}Prefabs/Anomals/Electro/ARMST_ELECTRO_T1.et"
+ m_ObjectPrefab3 "{60D88B47635E7627}Prefabs/Anomals/Electro/ARMST_ELECTRO_T1.et"
+ m_SpawnCount 2
+ m_CenterBias 0.9
+ m_SpawnChanceArtefacts 0
+}
+$grp GenericEntity : "{9B5E54AE53A664C4}Prefabs/QUESTS/BASE_QUEST_STAGE_CHANGE.et" {
+ {
+  components {
+   ActionsManagerComponent "{670F618332E65D7F}" {
+    additionalActions {
+     ARMST_QUEST_STAGE_CHANGE "{670F618332E65D75}" {
+      m_sActionMission "#armst_quest_ui_used"
+      m_sQuestNameDB "kb_radio"
+      m_iStageStart 3
+      m_iStageSet 4
+     }
+    }
+   }
+  }
+  coords 3434.151 303.722 758.083
+ }
+ {
+  components {
+   ActionsManagerComponent "{670F618332E65D7F}" {
+    additionalActions {
+     ARMST_QUEST_STAGE_CHANGE "{670F618332E65D75}" {
+      m_sActionMission "#armst_quest_ui_used"
+      m_sQuestNameDB "kb_radio"
+      m_iStageStart 4
+      m_iStageSet 5
+      m_PrefabQuestSpawn "{4406D34EA78A4A0B}Prefabs/Factions/Groups/BANDITS/Group_BANDIT_2.et"
+      m_sSpawnPos "vishka_band_spawn"
+     }
+    }
+   }
+  }
+  coords 3959.555 357.339 1185.883
+ }
+}
+$grp ParticleEffectEntity : "{FABF32251CA89C8D}Prefabs/Anomals/Teleport/ARMST_TELEPORT_FIX.et" {
+ {
+  components {
+   SCR_EditableEntityComponent "{6692A6CEE900C53A}" {
+    Enabled 0
+   }
+  }
+  coords 3876.497 318.473 1642.237
+  {
+   ARMST_DamagingTriggerEntity {
+    ID "6692A6CEE900C555"
+    coords 0 1.028 0
+    angles 0 32.639 0
+    TriggerShapeType Sphere
+    SphereRadius 7.3
+    BoxMins -2 -6 -2
+    BoxMaxs 1 6 1
+    UpdatePeriod 2.2
+    m_damageValue 0
+    m_sTeleportPos "puzir_les2"
+    m_DamageForceAction 0
+   }
+  }
+ }
+ {
+  components {
+   SCR_EditableEntityComponent "{6692A6CEE900C53A}" {
+    Enabled 0
+   }
+  }
+  coords 3851.163 310.745 1513.067
+  {
+   ARMST_DamagingTriggerEntity {
+    ID "6692A6CEE900C555"
+    coords 0 1.028 0
+    angles 0 32.639 0
+    TriggerShapeType Sphere
+    SphereRadius 6.5
+    BoxMins -2 -6 -2
+    BoxMaxs 1 6 1
+    UpdatePeriod 1.4
+    m_damageValue 0
+    m_sTeleportPos "puzir_les"
+    m_DamageForceAction 0
+   }
+  }
+ }
+}

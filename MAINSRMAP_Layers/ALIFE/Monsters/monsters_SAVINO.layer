@@ -1,0 +1,405 @@
+$grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawner.et" {
+ ghosts {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_InitialSpawnDelay 5
+    m_CheckInterval 300
+    m_SpawnChance 15
+    m_PlayerDetectionRadius 100
+    m_SpawnGroups {
+     "{5E1E3C20E998B32A}Configs/GAME_SETTING/BOTS/ALIFE/mutants/ghosts.conf"
+    }
+    m_fMonsterNight 1
+   }
+  }
+  coords 3820.024 314.92 1137.505
+  scale 50
+ }
+ zombie {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_InitialSpawnDelay 5
+    m_CheckInterval 300
+    m_SpawnChance 15
+    m_PlayerDetectionRadius 100
+    m_SpawnGroups {
+     "{AA31A2A6BD9679D4}Configs/GAME_SETTING/BOTS/ALIFE/mutants/zombie.conf"
+    }
+   }
+  }
+  coords 4223.566 309.056 1439.159
+  scale 50
+ }
+ toxic_2 {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_InitialSpawnDelay 5
+    m_CheckInterval 300
+    m_SpawnChance 15
+    m_PlayerDetectionRadius 100
+    m_SpawnGroups {
+     "{C3138D4C69EC31A4}Configs/GAME_SETTING/BOTS/ALIFE/mutants/spiders.conf"
+    }
+   }
+  }
+  coords 3389.496 308.577 1379.489
+  scale 50
+ }
+ toxic_3 {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_InitialSpawnDelay 5
+    m_CheckInterval 300
+    m_SpawnChance 15
+    m_PlayerDetectionRadius 100
+    m_SpawnGroups {
+     "{C3138D4C69EC31A4}Configs/GAME_SETTING/BOTS/ALIFE/mutants/spiders.conf"
+    }
+   }
+  }
+  coords 3298.45 308.577 1320.434
+  scale 50
+ }
+ zombie2 {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_InitialSpawnDelay 5
+    m_CheckInterval 300
+    m_SpawnChance 15
+    m_PlayerDetectionRadius 100
+    m_SpawnGroups {
+     "{AA31A2A6BD9679D4}Configs/GAME_SETTING/BOTS/ALIFE/mutants/zombie.conf"
+    }
+   }
+  }
+  coords 3504.437 303.173 1522.059
+  scale 50
+ }
+ boar {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_InitialSpawnDelay 5
+    m_CheckInterval 300
+    m_SpawnChance 15
+    m_PlayerDetectionRadius 100
+    m_SpawnGroups +{
+    }
+   }
+  }
+  coords 3990.552 306.989 880.382
+  scale 50
+ }
+ boar2 {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_InitialSpawnDelay 5
+    m_CheckInterval 300
+    m_SpawnChance 15
+    m_PlayerDetectionRadius 100
+    m_SpawnGroups +{
+    }
+   }
+  }
+  coords 4109.575 307.164 1282.297
+  scale 50
+ }
+ boar3 {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_InitialSpawnDelay 5
+    m_CheckInterval 300
+    m_SpawnChance 15
+    m_PlayerDetectionRadius 100
+    m_SpawnGroups +{
+    }
+   }
+  }
+  coords 3886.275 297.067 1356.971
+  scale 50
+ }
+ boar4 {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_InitialSpawnDelay 5
+    m_CheckInterval 300
+    m_SpawnChance 15
+    m_PlayerDetectionRadius 100
+    m_SpawnGroups +{
+    }
+   }
+  }
+  coords 3723.9 301.112 1488.135
+  scale 50
+ }
+ boar5 {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_InitialSpawnDelay 5
+    m_CheckInterval 300
+    m_SpawnChance 15
+    m_PlayerDetectionRadius 100
+    m_SpawnGroups +{
+    }
+   }
+  }
+  coords 3642.462 311.849 1233.931
+  scale 50
+ }
+ boar6 {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_InitialSpawnDelay 5
+    m_CheckInterval 300
+    m_SpawnChance 15
+    m_PlayerDetectionRadius 100
+    m_SpawnGroups +{
+    }
+   }
+  }
+  coords 3744.943 299.967 892.389
+  scale 50
+ }
+ boar8 {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_InitialSpawnDelay 5
+    m_CheckInterval 300
+    m_SpawnChance 15
+    m_PlayerDetectionRadius 100
+    m_SpawnGroups +{
+    }
+   }
+  }
+  coords 3411.052 304.275 528.118
+  scale 50
+ }
+ boar9 {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_InitialSpawnDelay 5
+    m_CheckInterval 300
+    m_SpawnChance 15
+    m_PlayerDetectionRadius 100
+    m_SpawnGroups +{
+    }
+   }
+  }
+  coords 3581.705 313.046 730.03
+  scale 50
+ }
+ boar10 {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_InitialSpawnDelay 5
+    m_CheckInterval 300
+    m_SpawnChance 15
+    m_PlayerDetectionRadius 100
+    m_SpawnGroups +{
+    }
+   }
+  }
+  coords 3466.435 300.564 1114.897
+  scale 50
+ }
+ zombie3 {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_InitialSpawnDelay 5
+    m_CheckInterval 300
+    m_SpawnChance 15
+    m_PlayerDetectionRadius 100
+    m_SpawnGroups {
+     "{AA31A2A6BD9679D4}Configs/GAME_SETTING/BOTS/ALIFE/mutants/zombie.conf"
+    }
+   }
+  }
+  coords 3261.211 308.577 1014.159
+  scale 50
+ }
+ zombie4 {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_InitialSpawnDelay 5
+    m_CheckInterval 300
+    m_SpawnChance 15
+    m_PlayerDetectionRadius 100
+    m_SpawnGroups {
+     "{AA31A2A6BD9679D4}Configs/GAME_SETTING/BOTS/ALIFE/mutants/zombie.conf"
+    }
+   }
+  }
+  coords 3422.84 302.262 801.313
+  scale 50
+ }
+ zombie5 {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_InitialSpawnDelay 5
+    m_CheckInterval 300
+    m_SpawnChance 15
+    m_PlayerDetectionRadius 100
+    m_SpawnGroups {
+     "{AA31A2A6BD9679D4}Configs/GAME_SETTING/BOTS/ALIFE/mutants/zombie.conf"
+    }
+   }
+  }
+  coords 3751.728 306.381 731.46
+  scale 50
+ }
+ zombie6 {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_InitialSpawnDelay 5
+    m_CheckInterval 300
+    m_SpawnChance 15
+    m_PlayerDetectionRadius 100
+    m_SpawnGroups {
+     "{AA31A2A6BD9679D4}Configs/GAME_SETTING/BOTS/ALIFE/mutants/zombie.conf"
+    }
+   }
+  }
+  coords 4109.119 314.951 1098.513
+  scale 50
+ }
+ zombie7 {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_InitialSpawnDelay 5
+    m_CheckInterval 300
+    m_SpawnChance 15
+    m_PlayerDetectionRadius 100
+    m_SpawnGroups {
+     "{AA31A2A6BD9679D4}Configs/GAME_SETTING/BOTS/ALIFE/mutants/zombie.conf"
+    }
+   }
+  }
+  coords 3585.692 302.538 1075.779
+  scale 50
+ }
+ boar12 {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_InitialSpawnDelay 5
+    m_CheckInterval 300
+    m_SpawnChance 15
+    m_PlayerDetectionRadius 100
+    m_SpawnGroups +{
+    }
+   }
+  }
+  coords 3911.785 308.348 523.936
+  scale 50
+ }
+ boar13 {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_InitialSpawnDelay 5
+    m_CheckInterval 300
+    m_SpawnChance 15
+    m_PlayerDetectionRadius 100
+    m_SpawnGroups +{
+    }
+   }
+  }
+  coords 4296.894 310.377 1033.586
+  scale 50
+ }
+ ghosts3 {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_InitialSpawnDelay 5
+    m_CheckInterval 300
+    m_SpawnChance 15
+    m_PlayerDetectionRadius 100
+    m_SpawnGroups {
+     "{5E1E3C20E998B32A}Configs/GAME_SETTING/BOTS/ALIFE/mutants/ghosts.conf"
+    }
+    m_fMonsterNight 1
+   }
+  }
+  coords 4620.703 306.938 1000.272
+  scale 50
+ }
+}
+$grp GenericEntity : "{529998114BE79AD6}Prefabs/Monsters/Characters/spider/spawner/egg2.et" {
+ {
+  coords 3944.732 307.828 838.2
+ }
+ {
+  coords 3942.155 308.48 840.005
+ }
+ {
+  coords 4002.846 310.946 618.441
+ }
+}
+$grp GenericEntity : "{8B5957823E815B98}Prefabs/Monsters/Characters/spider/spawner/egg.et" {
+ {
+  coords 3946.096 306.207 843.098
+  angles 0 0 0
+ }
+ {
+  coords 3945.78 306.32 838.381
+  angles 0 0 0
+ }
+ {
+  coords 3939.777 306.32 841.387
+  angles 0 0 0
+ }
+ {
+  coords 3942.803 306.26 842.725
+  angles 0 0 0
+ }
+ {
+  coords 3944.078 306.372 836.724
+  angles 0 0 0
+ }
+ {
+  coords 3346.321 300.042 1350.348
+  angles 0 -81.822 0
+ }
+ {
+  coords 3827.882 298.586 1388.461
+  angles 0 -77.856 0
+  scale 2.381
+ }
+ {
+  coords 3828.382 298.41 1387.175
+  angles 0 93.688 0
+ }
+ {
+  coords 3826.949 298.134 1387.569
+  angles 0 -93.949 0
+ }
+ {
+  coords 4002.643 310.675 617.105
+  angles 0 0 0
+ }
+ {
+  coords 4003.862 310.675 616.746
+  angles 0 -122.614 0
+ }
+ {
+  coords 3855.117 294.382 1392.117
+  angles 0 93.688 0
+ }
+ {
+  coords 3854.986 294.382 1393.852
+  angles 0 155.739 0
+ }
+ {
+  coords 3857.37 294.382 1393.779
+  angles 0 49.383 0
+ }
+ {
+  coords 3860.156 294.382 1392.689
+  angles 0 27.316 0
+ }
+ {
+  coords 3861.655 294.446 1394.124
+  angles 0 177.485 0
+ }
+ {
+  coords 3858.533 294.382 1392.236
+  angles 0 53.355 0
+ }
+}

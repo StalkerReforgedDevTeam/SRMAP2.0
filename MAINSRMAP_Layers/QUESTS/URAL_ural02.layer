@@ -1,0 +1,110 @@
+GenericEntity spawn_kab4 {
+ coords 4592.765 309.367 427.932
+}
+$grp ARMST_QUEST_TRIGGER : "{372F4469FF5293C9}Prefabs/QUESTS/ARMST_TRIGGER_QUEST.et" {
+ {
+  coords 4615.6 305.718 1313.765
+  SphereRadius 31.5
+  DrawShape 0
+  m_sQuestNameDB "sci_found"
+  m_iStageStart 7
+  m_iStageSet 8
+ }
+ {
+  coords 5034.678 306.6 2165.468
+  SphereRadius 42.4
+  DrawShape 0
+  m_sQuestNameDB "sci_found"
+  m_iStageStart 15
+  m_iStageSet 16
+ }
+}
+$grp GenericEntity : "{9B5E54AE53A664C4}Prefabs/QUESTS/BASE_QUEST_STAGE_CHANGE.et" {
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Object "{789311902B5FF0FF}Assets/Props/Civilian/Notebook_01/Notebook_01_Single.xob"
+    Materials {
+     MaterialAssignClass "{670F618332E65D67}" {
+      SourceMaterial "Notebook_01"
+      AssignedMaterial "{E66EF8E8FBE826DC}Assets/Props/Civilian/Notebook_01/Data/Notebook_01_MarbleBlack.emat"
+     }
+     MaterialAssignClass "{670F618332E65D7C}" {
+      SourceMaterial "Palette"
+      AssignedMaterial "{E66EF8E8FBE826DC}Assets/Props/Civilian/Notebook_01/Data/Notebook_01_MarbleBlack.emat"
+     }
+    }
+   }
+   ActionsManagerComponent "{670F618332E65D7F}" {
+    additionalActions {
+     ARMST_QUEST_STAGE_CHANGE "{670F618332E65D75}" {
+      m_sQuestNameDB "sci_found"
+      m_iStageStart 9
+      m_iStageSet 10
+      m_PrefabQuestSpawn "{076E7B2EFCD2D9E2}Prefabs/Monsters/Groups/Group_electro_elemetals.et"
+      m_sSpawnPos "spawn_kab4"
+      m_PrefabQuestFinish "{40EAE69A34336611}Prefabs/Items/Others/Documents/armst_itm_docs_URAL_02_1.et"
+     }
+    }
+   }
+  }
+  coords 4626.848 306.801 371.279
+  angles 1.753 -78.375 0.361
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Object "{789311902B5FF0FF}Assets/Props/Civilian/Notebook_01/Notebook_01_Single.xob"
+    Materials {
+     MaterialAssignClass "{670F618332E65D67}" {
+      SourceMaterial "Notebook_01"
+      AssignedMaterial "{E66EF8E8FBE826DC}Assets/Props/Civilian/Notebook_01/Data/Notebook_01_MarbleBlack.emat"
+     }
+     MaterialAssignClass "{670F618332E65D7C}" {
+      SourceMaterial "Palette"
+      AssignedMaterial "{E66EF8E8FBE826DC}Assets/Props/Civilian/Notebook_01/Data/Notebook_01_MarbleBlack.emat"
+     }
+    }
+   }
+   ActionsManagerComponent "{670F618332E65D7F}" {
+    additionalActions {
+     ARMST_QUEST_STAGE_CHANGE "{670F618332E65D75}" {
+      m_sQuestNameDB "sci_found"
+      m_iStageStart 16
+      m_iStageSet 17
+      m_PrefabQuestFinish "{2CBED27A88F7E93F}Prefabs/Items/Others/Documents/armst_itm_docs_URAL_02_2.et"
+     }
+    }
+   }
+  }
+  coords 5038.094 306.922 2151.024
+  angles 7.528 -127.187 -1.087
+ }
+}
+GenericEntity : "{A74C3478FBA4B95A}Prefabs/QUESTS/BASE_ACTION_QUEST.et" {
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Materials {
+    MaterialAssignClass "{6910AA9B61431241}" {
+     SourceMaterial "Notebook_01"
+     AssignedMaterial "{E66EF8E8FBE826DC}Assets/Props/Civilian/Notebook_01/Data/Notebook_01_MarbleBlack.emat"
+    }
+   }
+  }
+  ActionsManagerComponent "{6910AA9B05A47EF4}" {
+   additionalActions {
+    ARMST_QUEST_STAGE_CHANGE "{6910AA9B05A47EEA}" {
+     m_sActionMission "#AR-UserAction_Loot"
+     m_sQuestNameDB "sci_found"
+     m_iStageStart 8
+     m_iStageSet 9
+    }
+    ARMST_USER_OPEN_BOOK "{6910AA9B05A47EED}" {
+     s_TextToBook "Только что прошел мощнейний Выброс, всё наше оборудование перегорело. Находиться в данной точке мы считаем более небезопасно. Мы запросили эвакуацию, ожидаем вертолет. Подпись: Старший руководитель группы Антохин Р.И."
+    }
+   }
+  }
+ }
+ coords 4609.283 306.313 1320.676
+ angles 0.054 -68.116 -1.038
+}

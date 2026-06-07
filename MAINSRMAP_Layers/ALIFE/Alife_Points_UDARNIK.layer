@@ -1,0 +1,161 @@
+$grp ARMST_ALIFE_InterestPoint {
+ udarnik_enter {
+  coords 4841.811 303.342 1527.744
+  m_LocationKey UDARNIK
+  m_sNextInterestPoint1 "udarnik_gaszavod"
+ }
+ udarnik_gaszavod {
+  coords 4868.851 307.702 1671.767
+  m_LocationKey UDARNIK
+  m_sNextInterestPoint1 "udarnik_enter"
+  m_sNextInterestPoint2 "udarnik_gaszavod_2"
+  m_sNextInterestPoint3 "udarnik_warehouse"
+  m_sNextInterestPoint4 "udarnik_career"
+ }
+ udarnik_career {
+  coords 4614.776 314.376 1665.401
+  m_LocationKey UDARNIK
+  m_sNextInterestPoint1 "udarnik_gaszavod"
+  m_sNextInterestPoint2 "udarnik_warehouse"
+  m_sNextInterestPoint3 "udarnik_svalka"
+  m_sNextInterestPoint4 "udarnik_zapravka"
+ }
+ udarnik_gaszavod_2 {
+  coords 5019.943 306.289 1927.778
+  m_LocationKey UDARNIK
+  m_sNextInterestPoint1 "udarnik_gaszavod"
+  m_sNextInterestPoint2 "udarnik_pole"
+  m_sNextInterestPoint3 "udarnik_warehouse"
+  m_sNextInterestPoint4 "udarnik_chimeese"
+ }
+ udarnik_pole {
+  coords 5035.743 303.583 2242.154
+  m_LocationKey UDARNIK
+  m_sNextInterestPoint1 "udarnik_sawmill"
+  m_sNextInterestPoint2 "udarnik_chimeese"
+  m_sNextInterestPoint3 "udarnik_gaszavod_2"
+  m_sNextInterestPoint4 "udarnik_atp"
+  m_sNextInterestPoint5 "udarnik_bigzavo_2"
+ }
+ udarnik_warehouse {
+  coords 4742.298 310.889 1913.215
+  m_LocationKey UDARNIK
+  m_sNextInterestPoint1 "udarnik_svalka"
+  m_sNextInterestPoint2 "udarnik_sawmill"
+  m_sNextInterestPoint3 "udarnik_gaszavod_2"
+  m_sNextInterestPoint4 "udarnik_gaszavod"
+  m_sNextInterestPoint5 "udarnik_career"
+ }
+ udarnik_svalka {
+  coords 4617.562 306.405 1974.669
+  m_LocationKey UDARNIK
+  m_sNextInterestPoint1 "udarnik_zapravka"
+  m_sNextInterestPoint2 "udarnik_udarnik2"
+  m_sNextInterestPoint3 "udarnik_warehouse"
+  m_sNextInterestPoint4 "udarnik_sawmill"
+ }
+ udarnik_zapravka {
+  coords 4435.194 310.921 1908.757
+  m_LocationKey UDARNIK
+  m_sNextInterestPoint1 "udarnik_udarnik1"
+  m_sNextInterestPoint2 "udarnik_svalka"
+  m_sNextInterestPoint3 "udarnik_career"
+ }
+ udarnik_udarnik1 {
+  coords 4359.179 306.046 2070.131
+  m_LocationKey UDARNIK
+  m_sNextInterestPoint1 "udarnik_zapravka"
+  m_sNextInterestPoint2 "udarnik_udarnik2"
+  m_sNextInterestPoint3 "udarnik_svalka"
+  m_sNextInterestPoint4 "udarnik_enter2"
+ }
+ udarnik_udarnik2 {
+  coords 4534.333 306.859 2175.654
+  m_LocationKey UDARNIK
+  m_sNextInterestPoint1 "udarnik_enter2"
+  m_sNextInterestPoint2 "udarnik_udarnik1"
+  m_sNextInterestPoint3 "udarnik_svalka"
+  m_sNextInterestPoint4 "udarnik_sawmill"
+  m_sNextInterestPoint5 "udarnik_fishvillage"
+ }
+ udarnik_sawmill {
+  coords 4807.763 300.355 2199.511
+  m_LocationKey UDARNIK
+  m_sNextInterestPoint1 "udarnik_bigzavo_3"
+  m_sNextInterestPoint2 "udarnik_udarnik2"
+  m_sNextInterestPoint3 "udarnik_warehouse"
+  m_sNextInterestPoint4 "udarnik_svalka"
+  m_sNextInterestPoint5 "udarnik_fishvillage"
+ }
+ udarnik_fishvillage {
+  coords 4580.846 309.57 2481.807
+  m_LocationKey UDARNIK
+  m_sNextInterestPoint1 "udarnik_udarnik2"
+  m_sNextInterestPoint2 "udarnik_enter2"
+  m_sNextInterestPoint3 "udarnik_bigzavo_2"
+  m_sNextInterestPoint4 "udarnik_enter3"
+  m_sNextInterestPoint5 "udarnik_bigzavo_1"
+ }
+ udarnik_enter2 {
+  coords 4144.597 310.108 2245.615
+  m_LocationKey UDARNIK
+  m_sNextInterestPoint1 "udarnik_fishvillage"
+  m_sNextInterestPoint2 "udarnik_udarnik1"
+  m_sNextInterestPoint3 "udarnik_udarnik2"
+ }
+ udarnik_bigzavo_1 {
+  coords 4884.584 310.983 2754.934
+  m_LocationKey UDARNIK
+  m_sNextInterestPoint1 "udarnik_enter3"
+  m_sNextInterestPoint2 "udarnik_bigzavo_2"
+  m_sNextInterestPoint3 "udarnik_bigzavo_3"
+ }
+ udarnik_svalka2 {
+  coords 5115.757 316.059 2842.198
+  m_LocationKey UDARNIK
+  m_sNextInterestPoint1 "udarnik_bigzavo_1"
+  m_sNextInterestPoint2 "udarnik_bigzavo_3"
+  m_sNextInterestPoint3 "udarnik_enter3"
+  m_sNextInterestPoint4 "udarnik_atp"
+ }
+ udarnik_enter3 {
+  coords 4913.514 301.108 3097.443
+  m_LocationKey UDARNIK
+  m_sNextInterestPoint1 "udarnik_bigzavo_1"
+  m_sNextInterestPoint2 "udarnik_fishvillage"
+  m_sNextInterestPoint3 "udarnik_svalka2"
+ }
+ udarnik_bigzavo_2 {
+  coords 4843.091 310.983 2530.523
+  m_LocationKey UDARNIK
+  m_sNextInterestPoint1 "udarnik_bigzavo_1"
+  m_sNextInterestPoint2 "udarnik_bigzavo_3"
+  m_sNextInterestPoint3 "udarnik_svalka2"
+  m_sNextInterestPoint4 "udarnik_pole"
+  m_sNextInterestPoint5 "udarnik_fishvillage"
+ }
+ udarnik_bigzavo_3 {
+  coords 5028.024 310.983 2600.948
+  m_LocationKey UDARNIK
+  m_sNextInterestPoint1 "udarnik_bigzavo_1"
+  m_sNextInterestPoint2 "udarnik_pole"
+  m_sNextInterestPoint3 "udarnik_atp"
+  m_sNextInterestPoint4 "udarnik_bigzavo_2"
+  m_sNextInterestPoint5 "udarnik_svalka2"
+ }
+ udarnik_atp {
+  coords 5189.75 310.608 2439.089
+  m_LocationKey UDARNIK
+  m_sNextInterestPoint1 "udarnik_svalka2"
+  m_sNextInterestPoint2 "udarnik_pole"
+  m_sNextInterestPoint3 "udarnik_bigzavo_3"
+  m_sNextInterestPoint4 "udarnik_chimeese"
+ }
+ udarnik_chimeese {
+  coords 5282.934 313.474 2048.16
+  m_LocationKey UDARNIK
+  m_sNextInterestPoint1 "udarnik_sawmill"
+  m_sNextInterestPoint2 "udarnik_atp"
+  m_sNextInterestPoint3 "udarnik_gaszavod_2"
+ }
+}

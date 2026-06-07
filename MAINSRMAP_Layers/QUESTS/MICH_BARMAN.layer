@@ -1,0 +1,32 @@
+$grp ARMST_QUEST_TRIGGER : "{372F4469FF5293C9}Prefabs/QUESTS/ARMST_TRIGGER_QUEST.et" {
+ {
+  coords 1555.599 309.827 262.942
+  SphereRadius 25.6
+  DrawShape 0
+  m_sQuestNameDB "barm_start"
+  m_iStageSet 1
+ }
+ {
+  coords 1351.615 293.473 603.092
+  SphereRadius 60.3
+  DrawShape 0
+  m_sQuestNameDB "barm_start"
+  m_iStageStart 18
+  m_iStageSet 20
+ }
+}
+GenericEntity : "{F65F2A4A453B2571}Prefabs/QUESTS/BARMAN/Barman_2_stage.et" {
+ components {
+  ActionsManagerComponent "{68DD5AA537EE987D}" {
+   additionalActions {
+    ARMST_QUEST_STAGE_CHANGE "{68DD5AA537EE987B}" {
+     m_iStageStart 17
+     m_iStageSet 18
+     m_PrefabQuestFinish "{D355A82487C90BEB}Prefabs/QUESTS/BARMAN/armst_itm_docs_barman.et"
+    }
+   }
+  }
+ }
+ coords 1325.972 309.523 494.751
+ angles -1.884 -62.591 5.558
+}

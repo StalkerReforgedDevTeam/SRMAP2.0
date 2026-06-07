@@ -1,0 +1,84 @@
+GenericEntity KB_SPAWNER6 : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawner.et" {
+ components {
+  ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+   m_InitialSpawnDelay 5
+   m_CheckInterval 60
+   m_CheckPlayerRadius 5
+   m_RadiusPatrol 10
+   m_SpawnChance 40
+   m_FailedSpawnDelay 300
+   m_PlayerDetectionRadius 100
+   m_SpawnGroups {
+    "{864B9CDB604BC86F}Configs/GAME_SETTING/BOTS/ALIFE/alife_groups_stalker.conf"
+   }
+   m_WaypointPrefab "{2FCBE5C76E285A7B}Prefabs/AI/Waypoints/AIWaypoint_DefendSmall.et"
+  }
+ }
+ coords 2310.117 312.702 2503.403
+ scale 7.84
+}
+$grp GenericEntity : "{E105D2F87098E1D9}Prefabs/Method/Props/Camps/PatrolPoint_LoiterPoint.et" {
+ {
+  components {
+   SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+    m_eLoiterAnimation SIT
+   }
+  }
+  coords 2309.732 312.766 2501.146
+  angles 0 41.811 0
+ }
+ {
+  components {
+   SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+    m_eLoiterAnimation SIT
+   }
+  }
+  coords 2310.297 312.792 2504.478
+  angles 0 -119.803 0
+ }
+ {
+  components {
+   SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+    m_eLoiterAnimation SIT
+   }
+  }
+  coords 2311.956 312.77 2502.835
+  angles 0 128.303 0
+ }
+ {
+  components {
+   SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+    m_eLoiterAnimation SIT
+   }
+  }
+  coords 2306.251 312.702 2501.079
+  angles 0 84.442 0
+ }
+ {
+  components {
+   SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+    m_eLoiterAnimation SMOKING
+   }
+  }
+  coords 2308.862 312.702 2498.768
+  angles 0 -119.803 0
+ }
+ {
+  components {
+   SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+    m_eLoiterAnimation LOITERING
+   }
+  }
+  coords 2311.78 312.702 2497.906
+  angles 0 -174.538 0
+ }
+ {
+  components {
+   SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+    m_eLoiterAnimation LOITERING
+   }
+  }
+  coords 2310.308 312.755 2509.775
+  angles 0 -95.586 0
+ }
+}

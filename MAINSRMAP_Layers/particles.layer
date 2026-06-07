@@ -1,0 +1,326 @@
+$grp ParticleEffectEntity {
+ {
+  coords 3267.353 303.131 530.485
+  EffectPath "{5A3505D5F8F3891E}Prefabs/Particles/lights/police_sirena_red.ptc"
+ }
+ {
+  coords 3279.713 307.399 1068.984
+  EffectPath "{5FAFA364AD98E2B9}Prefabs/Particles/env_iskra.ptc"
+ }
+ {
+  coords 3277.123 308.336 1084.389
+  EffectPath "{5FAFA364AD98E2B9}Prefabs/Particles/env_iskra.ptc"
+ }
+ {
+  coords 3264.469 307.407 1088.148
+  EffectPath "{5FAFA364AD98E2B9}Prefabs/Particles/env_iskra.ptc"
+ }
+ {
+  coords 3269.36 307.936 1093.574
+  EffectPath "{5FAFA364AD98E2B9}Prefabs/Particles/env_iskra.ptc"
+ }
+ {
+  coords 3275.655 306.164 1070.393
+  EffectPath "{8F9A79ADDAF75EB8}Prefabs/Particles/pil_env.ptc"
+ }
+ {
+  coords 3269.601 306.164 1076.773
+  EffectPath "{8F9A79ADDAF75EB8}Prefabs/Particles/pil_env.ptc"
+ }
+ {
+  coords 3275.719 306.164 1079.686
+  EffectPath "{8F9A79ADDAF75EB8}Prefabs/Particles/pil_env.ptc"
+ }
+ {
+  coords 3274.357 306.187 1085.066
+  EffectPath "{8F9A79ADDAF75EB8}Prefabs/Particles/pil_env.ptc"
+ }
+ {
+  coords 3267.411 306.164 1087.857
+  EffectPath "{8F9A79ADDAF75EB8}Prefabs/Particles/pil_env.ptc"
+ }
+ {
+  coords 3360.368 298.473 818.164
+  EffectPath "{8F9A79ADDAF75EB8}Prefabs/Particles/pil_env.ptc"
+ }
+ {
+  coords 3861.777 294.382 1393.254
+  EffectPath "{8F9A79ADDAF75EB8}Prefabs/Particles/pil_env.ptc"
+ }
+ {
+  coords 3849.648 304.492 926.338
+  EffectPath "{7B4A41DA320475FF}Particles/Editor/Photo/Smoke.ptc"
+ }
+ {
+  coords 4139.837 321.955 1626.949
+  EffectPath "{938C36411ACCC6B4}Prefabs/Particles/animals/rats.ptc"
+ }
+ {
+  coords 4132.433 321.921 1635.485
+  EffectPath "{4F725BA84D6EB127}Prefabs/Particles/listva.ptc"
+ }
+ {
+  coords 4135.013 322.272 1624.795
+  EffectPath "{4F725BA84D6EB127}Prefabs/Particles/listva.ptc"
+ }
+ {
+  coords 4138.056 322.634 1613.159
+  EffectPath "{4F725BA84D6EB127}Prefabs/Particles/listva.ptc"
+ }
+ {
+  coords 4159.908 308.473 721.034
+  EffectPath "{CE1413353479571B}Prefabs/Particles/animals/Flies_point.ptc"
+ }
+ {
+  coords 4164.845 308.329 719.525
+  EffectPath "{CE1413353479571B}Prefabs/Particles/animals/Flies_point.ptc"
+ }
+ {
+  coords 4162.618 307.541 712.976
+  EffectPath "{CE1413353479571B}Prefabs/Particles/animals/Flies_point.ptc"
+ }
+ {
+  coords 5074.729 305.089 56.522
+  EffectPath "{CE1413353479571B}Prefabs/Particles/animals/Flies_point.ptc"
+ }
+ {
+  coords 5083.042 303.962 49.462
+  EffectPath "{CE1413353479571B}Prefabs/Particles/animals/Flies_point.ptc"
+ }
+ {
+  coords 4163.974 305.624 716.498
+  EffectPath "{164AA51DF8F2C97A}Prefabs/Particles/animals/roach.ptc"
+ }
+ {
+  coords 4160.086 305.624 720.139
+  EffectPath "{164AA51DF8F2C97A}Prefabs/Particles/animals/roach.ptc"
+ }
+ {
+  coords 3264.758 300.744 518.869
+  EffectPath "{938C36411ACCC6B4}Prefabs/Particles/animals/rats.ptc"
+ }
+ {
+  coords 3258.385 300.744 524.295
+  EffectPath "{938C36411ACCC6B4}Prefabs/Particles/animals/rats.ptc"
+ }
+ {
+  coords 3255.736 300.743 519.02
+  EffectPath "{164AA51DF8F2C97A}Prefabs/Particles/animals/roach.ptc"
+ }
+ {
+  coords 3259.807 303.277 525.923
+  EffectPath "{CE1413353479571B}Prefabs/Particles/animals/Flies_point.ptc"
+ }
+ {
+  coords 3265.551 300.743 527.897
+  EffectPath "{164AA51DF8F2C97A}Prefabs/Particles/animals/roach.ptc"
+ }
+ {
+  coords 4038.911 306.475 567.76
+  EffectPath "{938C36411ACCC6B4}Prefabs/Particles/animals/rats.ptc"
+ }
+ {
+  coords 4163.17 309.424 708.911
+  EffectPath "{938C36411ACCC6B4}Prefabs/Particles/animals/rats.ptc"
+ }
+ {
+  coords 3917.593 306.251 857.312
+  EffectPath "{938C36411ACCC6B4}Prefabs/Particles/animals/rats.ptc"
+ }
+ {
+  coords 3615.729 306.123 979.576
+  EffectPath "{938C36411ACCC6B4}Prefabs/Particles/animals/rats.ptc"
+ }
+ {
+  coords 3623.426 306.169 967.605
+  EffectPath "{938C36411ACCC6B4}Prefabs/Particles/animals/rats.ptc"
+ }
+ {
+  coords 3623.469 306.123 988.5
+  EffectPath "{938C36411ACCC6B4}Prefabs/Particles/animals/rats.ptc"
+ }
+ {
+  coords 3424.189 302.121 811.01
+  EffectPath "{938C36411ACCC6B4}Prefabs/Particles/animals/rats.ptc"
+ }
+ {
+  coords 3832.678 298.171 1365.446
+  EffectPath "{938C36411ACCC6B4}Prefabs/Particles/animals/rats.ptc"
+ }
+ {
+  coords 4126.081 316.336 1085.473
+  EffectPath "{938C36411ACCC6B4}Prefabs/Particles/animals/rats.ptc"
+ }
+ {
+  coords 4632.877 311.248 1057.201
+  EffectPath "{938C36411ACCC6B4}Prefabs/Particles/animals/rats.ptc"
+ }
+ {
+  coords 4682.365 312.108 792.783
+  EffectPath "{938C36411ACCC6B4}Prefabs/Particles/animals/rats.ptc"
+ }
+ {
+  coords 5291.768 312.983 756.335
+  EffectPath "{938C36411ACCC6B4}Prefabs/Particles/animals/rats.ptc"
+ }
+ {
+  coords 5404.7 313.152 629.229
+  EffectPath "{938C36411ACCC6B4}Prefabs/Particles/animals/rats.ptc"
+ }
+ {
+  coords 4223.824 309.254 1441.764
+  EffectPath "{938C36411ACCC6B4}Prefabs/Particles/animals/rats.ptc"
+ }
+ {
+  coords 5403.321 314.574 634.548
+  EffectPath "{5FAFA364AD98E2B9}Prefabs/Particles/env_iskra.ptc"
+ }
+ {
+  coords 5406.969 313.152 626.244
+  EffectPath "{8F9A79ADDAF75EB8}Prefabs/Particles/pil_env.ptc"
+ }
+ {
+  coords 5399.836 312.196 613.051
+  EffectPath "{8F9A79ADDAF75EB8}Prefabs/Particles/pil_env.ptc"
+ }
+ {
+  coords 5390.461 310.045 602.946
+  EffectPath "{8F9A79ADDAF75EB8}Prefabs/Particles/pil_env.ptc"
+ }
+ {
+  coords 5376.873 307.109 589.968
+  EffectPath "{8F9A79ADDAF75EB8}Prefabs/Particles/pil_env.ptc"
+ }
+ {
+  coords 5367.418 305.151 581.512
+  EffectPath "{8F9A79ADDAF75EB8}Prefabs/Particles/pil_env.ptc"
+ }
+ {
+  coords 5039.249 312.524 410.424
+  EffectPath "{8F9A79ADDAF75EB8}Prefabs/Particles/pil_env.ptc"
+ }
+ {
+  coords 4187.534 311.046 731.91
+  EffectPath "{938C36411ACCC6B4}Prefabs/Particles/animals/rats.ptc"
+ }
+ {
+  coords 4174.64 311.044 721.449
+  EffectPath "{164AA51DF8F2C97A}Prefabs/Particles/animals/roach.ptc"
+ }
+ {
+  coords 4182.571 311.046 725.668
+  EffectPath "{8F9A79ADDAF75EB8}Prefabs/Particles/pil_env.ptc"
+ }
+ {
+  coords 5475.281 308.543 1441.384
+  EffectPath "{6551950A10DD2055}Prefabs/Anomals/Cometes/FIRE/data/sparks.ptc"
+ }
+ {
+  coords 5438.142 308.543 1477.917
+  EffectPath "{6551950A10DD2055}Prefabs/Anomals/Cometes/FIRE/data/sparks.ptc"
+ }
+ {
+  coords 5509.116 308.543 1465.314
+  EffectPath "{6551950A10DD2055}Prefabs/Anomals/Cometes/FIRE/data/sparks.ptc"
+ }
+ {
+  coords 5489.637 308.543 1438.742
+  EffectPath "{6551950A10DD2055}Prefabs/Anomals/Cometes/FIRE/data/sparks.ptc"
+ }
+ {
+  coords 5445.684 308.543 1458.946
+  EffectPath "{6551950A10DD2055}Prefabs/Anomals/Cometes/FIRE/data/sparks.ptc"
+ }
+ {
+  coords 5508.501 308.543 1493.537
+  EffectPath "{6551950A10DD2055}Prefabs/Anomals/Cometes/FIRE/data/sparks.ptc"
+ }
+ {
+  coords 5500.339 308.543 1446.365
+  EffectPath "{6551950A10DD2055}Prefabs/Anomals/Cometes/FIRE/data/sparks.ptc"
+ }
+ {
+  coords 5446.803 308.543 1493.331
+  EffectPath "{6551950A10DD2055}Prefabs/Anomals/Cometes/FIRE/data/sparks.ptc"
+ }
+ {
+  coords 5481.993 308.543 1517.896
+  EffectPath "{6551950A10DD2055}Prefabs/Anomals/Cometes/FIRE/data/sparks.ptc"
+ }
+ {
+  coords 1942.826 301.541 1978.894
+  EffectPath "{48E90427E75C84C7}Particles/Logistics/Fire/Tire/Fire_wheel_small.ptc"
+ }
+ {
+  coords 1961.024 302.272 1977.514
+  EffectPath "{48E90427E75C84C7}Particles/Logistics/Fire/Tire/Fire_wheel_small.ptc"
+ }
+ {
+  coords 1955.986 300.921 1966.717
+  EffectPath "{48E90427E75C84C7}Particles/Logistics/Fire/Tire/Fire_wheel_small.ptc"
+ }
+ {
+  coords 1961.016 302.605 1977.417
+  EffectPath "{E14D16197695CAB3}Prefabs/Particles/fire_no_smoke.ptc"
+ }
+ {
+  coords 1942.839 301.781 1978.85
+  EffectPath "{E14D16197695CAB3}Prefabs/Particles/fire_no_smoke.ptc"
+ }
+ {
+  coords 1955.945 300.922 1966.775
+  EffectPath "{E14D16197695CAB3}Prefabs/Particles/fire_no_smoke.ptc"
+ }
+ {
+  coords 1954.985 304.092 1988.664
+  EffectPath "{5A3505D5F8F3891E}Prefabs/Particles/lights/police_sirena_red.ptc"
+ }
+ {
+  coords 1971.792 304.287 1970.154
+  EffectPath "{5FAFA364AD98E2B9}Prefabs/Particles/env_iskra.ptc"
+ }
+ {
+  coords 1975.007 304.591 1973.103
+  EffectPath "{5FAFA364AD98E2B9}Prefabs/Particles/env_iskra.ptc"
+ }
+ {
+  coords 1967.783 303.976 1971.566
+  EffectPath "{5FAFA364AD98E2B9}Prefabs/Particles/env_iskra.ptc"
+ }
+ {
+  coords 1955.652 303.132 1986.832
+  EffectPath "{5FAFA364AD98E2B9}Prefabs/Particles/env_iskra.ptc"
+ }
+ {
+  coords 1971.856 301.719 1971.456
+  EffectPath "{5A3505D5F8F3891E}Prefabs/Particles/lights/police_sirena_red.ptc"
+ }
+ {
+  coords 7707.801 283.378 7892.593
+  EffectPath "{51B8BD42BB6E4295}Prefabs/Anomals/puzir_rock/data/rock_idle_BIG.ptc"
+ }
+ {
+  coords 7728.771 293.123 7957.794
+  EffectPath "{51B8BD42BB6E4295}Prefabs/Anomals/puzir_rock/data/rock_idle_BIG.ptc"
+ }
+ {
+  coords 7758.398 294.459 7908.637
+  EffectPath "{90EF9DB31AF59405}Prefabs/Anomals/puzir/data/puzir_trees.ptc"
+ }
+ {
+  coords 7718.45 275.876 7979.68
+  EffectPath "{90EF9DB31AF59405}Prefabs/Anomals/puzir/data/puzir_trees.ptc"
+ }
+ {
+  coords 7713.361 267.954 7931.473
+  EffectPath "{90EF9DB31AF59405}Prefabs/Anomals/puzir/data/puzir_trees.ptc"
+ }
+ {
+  coords 7745.618 268.23 7958.55
+  EffectPath "{90EF9DB31AF59405}Prefabs/Anomals/puzir/data/puzir_trees.ptc"
+ }
+ {
+  coords 7718.974 307.944 7908.838
+  EffectPath "{90EF9DB31AF59405}Prefabs/Anomals/puzir/data/puzir_trees.ptc"
+ }
+}

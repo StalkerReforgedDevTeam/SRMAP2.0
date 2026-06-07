@@ -1,0 +1,42 @@
+SCR_ChimeraCharacter : "{0E3EBB5BBE6E3673}Prefabs/QUESTS/STORM/STROM_INJURED.et" {
+ coords 4285.613 301.469 2370.329
+ angles 0 -5.995 0
+}
+SCR_ChimeraCharacter : "{1FA038B201CDB7DC}Prefabs/QUESTS/STORM/STORM_BARMAN.et" {
+ coords 4279.876 300.852 2365.614
+ angles 0 71.182 0
+}
+$grp SCR_ChimeraCharacter : "{211246AFC9DE23E5}Prefabs/QUESTS/STORM/STORM_STATIC_GUARD2.et" {
+ {
+  coords 4272.948 300.812 2357.676
+  angles 0 175.191 0
+ }
+ {
+  coords 4273.243 300.818 2342.144
+  angles 0 -92.956 0
+ }
+}
+SCR_ChimeraCharacter : "{4D66AF803B8D48F0}Prefabs/QUESTS/STORM/STORM_HUNTER.et" {
+ coords 4282.035 300.82 2360.872
+ angles 0 -105.156 0
+}
+SCR_ChimeraCharacter : "{85C9AB43875D230F}Prefabs/QUESTS/STORM/somov/STORM_STATIC_SOMOV.et" {
+ coords 5256.516 315.621 1285.817
+ angles 0 -80.364 0
+}
+SCR_ChimeraCharacter STORM_MEDIC : "{9E75E589F13FCA9F}Prefabs/QUESTS/STORM/STORM_MEDIC.et" {
+ coords 4281.948 300.958 2370.097
+ angles 0 27.057 0
+}
+SCR_ChimeraCharacter STROM_TRAVEL : "{D15727ACFDFC035C}Prefabs/QUESTS/STORM/STORM_TRAVEL.et" {
+ coords 4270.542 300.833 2351.112
+ angles 0 59.283 0
+}
+SCR_ChimeraCharacter : "{F445B864634F1003}Prefabs/QUESTS/STORM/STORM_REPAIR.et" {
+ coords 4302.796 305.678 2324.695
+ angles 0 -41.019 0
+}
+SCR_ChimeraCharacter : "{FC342FEBD83C5F9D}Prefabs/QUESTS/STORM/STORM_LEADER.et" {
+ coords 4273.936 300.954 2359.703
+ angles 0 -69.518 0
+}

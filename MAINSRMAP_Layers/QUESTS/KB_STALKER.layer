@@ -1,0 +1,586 @@
+$grp GenericEntity {
+ {
+  components {
+   MeshObject "{69086574058029AF}" {
+    Object "{6EEDF9094F651C43}armst/items/artefacts/serafim.xob"
+   }
+  }
+  coords 7777.634 284.103 7961.557
+  angles 0 79.415 28.186
+  scale 100
+ }
+ {
+  components {
+   MeshObject "{69086574058029AF}" {
+    Object "{6EEDF9094F651C43}armst/items/artefacts/serafim.xob"
+   }
+  }
+  coords 7700.711 280.054 7991.019
+  angles -19.171 43.262 0
+  scale 100
+ }
+ {
+  components {
+   MeshObject "{69086575DBFF680C}" {
+    Object "{E5DB7234C2CE3ED4}Assets/Wall_Perimetr/Invisible/invisible_wall.xob"
+    Materials {
+     MaterialAssignClass "{69086576D3E8997B}" {
+      SourceMaterial "Box_Geometry"
+      AssignedMaterial "{71F882630DCA58D0}armst/anomaly/Anomal/Data/Sphera.emat"
+     }
+    }
+   }
+  }
+  coords 7805.006 229.577 7926.328
+  angles 0 93.299 0
+  scale 11.326
+ }
+ {
+  components {
+   MeshObject "{69086575DBFF680C}" {
+    Object "{E5DB7234C2CE3ED4}Assets/Wall_Perimetr/Invisible/invisible_wall.xob"
+    Materials {
+     MaterialAssignClass "{69086576D3E89B4A}" {
+      SourceMaterial "Box_Geometry"
+      AssignedMaterial "{71F882630DCA58D0}armst/anomaly/Anomal/Data/Sphera.emat"
+     }
+    }
+   }
+  }
+  coords 7776.547 229.577 7987.688
+  angles 0 36.737 0
+  scale 11.326
+ }
+ {
+  components {
+   MeshObject "{69086575DBFF680C}" {
+    Object "{E5DB7234C2CE3ED4}Assets/Wall_Perimetr/Invisible/invisible_wall.xob"
+    Materials {
+     MaterialAssignClass "{69086576D3E89BC5}" {
+      SourceMaterial "Box_Geometry"
+      AssignedMaterial "{71F882630DCA58D0}armst/anomaly/Anomal/Data/Sphera.emat"
+     }
+    }
+   }
+  }
+  coords 7706.292 229.577 8009.404
+  angles 0 -4.526 0
+  scale 11.326
+ }
+ {
+  components {
+   MeshObject "{69086575DBFF680C}" {
+    Object "{E5DB7234C2CE3ED4}Assets/Wall_Perimetr/Invisible/invisible_wall.xob"
+    Materials {
+     MaterialAssignClass "{69086576D3E8844E}" {
+      SourceMaterial "Box_Geometry"
+      AssignedMaterial "{71F882630DCA58D0}armst/anomaly/Anomal/Data/Sphera.emat"
+     }
+    }
+   }
+  }
+  coords 7643.507 229.577 7976.861
+  angles 0 -52.472 0
+  scale 11.326
+ }
+ {
+  components {
+   MeshObject "{69086575DBFF680C}" {
+    Object "{E5DB7234C2CE3ED4}Assets/Wall_Perimetr/Invisible/invisible_wall.xob"
+    Materials {
+     MaterialAssignClass "{69086576D3E884A0}" {
+      SourceMaterial "Box_Geometry"
+      AssignedMaterial "{71F882630DCA58D0}armst/anomaly/Anomal/Data/Sphera.emat"
+     }
+    }
+   }
+  }
+  coords 7634.876 229.577 7911.375
+  angles 0 -110.891 0
+  scale 11.326
+ }
+ {
+  components {
+   MeshObject "{69086575DBFF680C}" {
+    Object "{E5DB7234C2CE3ED4}Assets/Wall_Perimetr/Invisible/invisible_wall.xob"
+    Materials {
+     MaterialAssignClass "{69086576D3E8850F}" {
+      SourceMaterial "Box_Geometry"
+      AssignedMaterial "{71F882630DCA58D0}armst/anomaly/Anomal/Data/Sphera.emat"
+     }
+    }
+   }
+  }
+  coords 7683.78 229.577 7864.516
+  angles 0 -160.827 0
+  scale 11.326
+ }
+ {
+  components {
+   MeshObject "{69086575DBFF680C}" {
+    Object "{E5DB7234C2CE3ED4}Assets/Wall_Perimetr/Invisible/invisible_wall.xob"
+    Materials {
+     MaterialAssignClass "{69086576D3E88563}" {
+      SourceMaterial "Box_Geometry"
+      AssignedMaterial "{71F882630DCA58D0}armst/anomaly/Anomal/Data/Sphera.emat"
+     }
+    }
+   }
+  }
+  coords 7756.655 229.577 7865.667
+  angles 0 160.515 0
+  scale 11.326
+ }
+ {
+  components {
+   MeshObject "{69086575DBFF680C}" {
+    Object "{E5DB7234C2CE3ED4}Assets/Wall_Perimetr/Invisible/invisible_wall.xob"
+    Materials {
+     MaterialAssignClass "{69086576D3E885F8}" {
+      SourceMaterial "Box_Geometry"
+      AssignedMaterial "{71F882630DCA58D0}armst/anomaly/Anomal/Data/Sphera.emat"
+     }
+    }
+   }
+  }
+  coords 7848.141 215.794 7893.976
+  angles 87.957 -61.442 -180
+  scale 35.658
+ }
+ {
+  components {
+   MeshObject "{69086575DBFF680C}" {
+    Object "{E5DB7234C2CE3ED4}Assets/Wall_Perimetr/Invisible/invisible_wall.xob"
+    Materials {
+     MaterialAssignClass "{69086576D3E88641}" {
+      SourceMaterial "Box_Geometry"
+      AssignedMaterial "{71F882630DCA58D0}armst/anomaly/Anomal/Data/Sphera.emat"
+     }
+    }
+   }
+  }
+  coords 7814.941 337.539 7853.66
+  angles 87.957 -61.442 -180
+  scale 27.939
+ }
+ {
+  components {
+   MeshObject "{69086574058029AF}" {
+    Object "{6EEDF9094F651C43}armst/items/artefacts/serafim.xob"
+   }
+  }
+  coords 7781.256 282.438 7921.691
+  angles 0 79.415 84.012
+  scale 100
+ }
+ spawn_chistil {
+  coords 7729.416 284.257 7926.549
+ }
+ {
+  components {
+   MeshObject "{69086574058029AF}" {
+    Object "{6EEDF9094F651C43}armst/items/artefacts/serafim.xob"
+   }
+  }
+  coords 7708.69 262.351 7929.684
+  scale 100
+ }
+ {
+  components {
+   MeshObject "{69086574058029AF}" {
+    Object "{6EEDF9094F651C43}armst/items/artefacts/serafim.xob"
+   }
+  }
+  coords 7728.3 271.755 7921.894
+  angles -19.171 43.262 0
+  scale 100
+ }
+ spawn_chistil2 {
+  coords 7706.645 267.655 7931.964
+ }
+ spawn_chistil4 {
+  coords 7759.23 292.569 7913.364
+ }
+ spawn_chistil5 {
+  coords 7778.983 271.204 7965.4
+ }
+ spawn_chistil6 {
+  coords 7719.564 254.365 7965.108
+ }
+ spawn_chistil3 {
+  coords 7725.033 293.208 7955.628
+ }
+ spawn_kishka {
+  coords 3096.768 302.589 1221.871
+ }
+ spawn_dom_f {
+  coords 2571.868 306.77 517.294
+ }
+ spawn_dom_f2 {
+  coords 2528.921 293.124 458.735
+ }
+}
+$grp LightEntity {
+ LIGHT_FLUO_SPOT_49 {
+  coords 2560.909 307.851 518.141
+  angles -1.229 -0.122 5.655
+  Color 0.0034 0.6473 1 1
+  LV 7.58
+  ClipEV -10
+  Radius 100
+  NearPlane 0.2
+  SpotAngle 107.23
+  DistanceAttenuation 3
+  Visualization Disabled
+  VolLightIntensity 0.2
+  LensFlareScale 3.52
+ }
+ LIGHT_FLUO_SPOT_50 {
+  coords 7740.098 255.072 7945.461
+  angles -1.229 -0.122 5.655
+  Color 0.0034 0.6473 1 1
+  LV 7.58
+  ClipEV -10
+  Radius 100
+  NearPlane 0.2
+  SpotAngle 107.23
+  DistanceAttenuation 3
+  Visualization Disabled
+  VolLightIntensity 0.2
+  LensFlareScale 3.52
+ }
+ LIGHT_FLUO_SPOT_51 {
+  coords 3096.768 302.589 1221.871
+  angles 86.365 24.812 25.094
+  Color 0.1903 1 0.0034 1
+  LV 4.05
+  ClipEV -10
+  Radius 23.04
+  NearPlane 0.2
+  SpotAngle 170
+  DistanceAttenuation 3
+  Visualization Disabled
+  VolLightScale 0.8
+  VolLightIntensity 0.4
+  LensFlareScale 0
+ }
+}
+ARMST_QUEST_TRIGGER : "{372F4469FF5293C9}Prefabs/QUESTS/ARMST_TRIGGER_QUEST.et" {
+ coords 3101.008 302.734 1223.427
+ SphereRadius 25.6
+ DrawShape 0
+ m_sQuestNameDB "found_art"
+ m_iStageStart 5
+ m_iStageSet 6
+}
+$grp GenericEntity : "{7F3227601695A682}Prefabs/QUESTS/JOURNALIST/SAVINO_SVIRIDOV/SVIRIDOV_FARM_DOCS_7.et" {
+ {
+  components {
+   ActionsManagerComponent "{668ED7FB257C316F}" {
+    additionalActions {
+     ARMST_USER_OPEN_BOOK "{668ED7FB257C3166}" {
+      s_TextToBook "Черт бы меня побрал, когда я повелся на эти байки... Я сбился со счета, сколько дней я уже здесь нахожусь. Еда закончилась, вода на исходе. Я не понимаю, как мне отсюда выбраться... Кто-то до меня здесь оставил какие-то записи, но я в них ничего не понимаю... Оружие своё я давно потерял, даже застрелиться не могу! Сука, я не могу здесь умереть!!! "
+     }
+    }
+   }
+  }
+  coords 7730.936 283.475 7924.949
+  angles 2.642 24.96 19.915
+ }
+ {
+  components {
+   ActionsManagerComponent "{668ED7FB257C316F}" {
+    additionalActions {
+     ARMST_USER_OPEN_BOOK "{668ED7FB257C3166}" {
+      s_TextToBook "Север, нет пути."
+     }
+    }
+   }
+  }
+  coords 7732.502 283.977 7924.446
+  angles 30.337 34.925 -66.855
+ }
+ {
+  components {
+   ActionsManagerComponent "{668ED7FB257C316F}" {
+    additionalActions {
+     ARMST_USER_OPEN_BOOK "{668ED7FB257C3166}" {
+      s_TextToBook "Юг, безнадега."
+     }
+    }
+   }
+  }
+  coords 7730.05 284.709 7927.155
+  angles 3.046 23.841 19.86
+ }
+ {
+  components {
+   ActionsManagerComponent "{668ED7FB257C316F}" {
+    additionalActions {
+     ARMST_USER_OPEN_BOOK "{668ED7FB257C3166}" {
+      s_TextToBook "Восток, БТР, Юг, есть путь."
+     }
+    }
+   }
+  }
+  coords 7728.152 284.47 7925.637
+  angles -14.069 75.484 14.478
+ }
+ {
+  components {
+   ActionsManagerComponent "{668ED7FB257C316F}" {
+    additionalActions {
+     ARMST_USER_OPEN_BOOK "{668ED7FB257C3166}" {
+      s_TextToBook "Восток, БТР, Юг, Север, пустота."
+     }
+    }
+   }
+  }
+  coords 7728.794 285.077 7927.555
+  angles -22.562 78.41 -18.595
+ }
+ {
+  components {
+   ActionsManagerComponent "{668ED7FB257C316F}" {
+    additionalActions {
+     ARMST_USER_OPEN_BOOK "{668ED7FB257C3166}" {
+      s_TextToBook ""
+     }
+    }
+   }
+  }
+  coords 7732.672 283.219 7926.392
+  angles -11.808 67.089 16.361
+ }
+}
+$grp GenericEntity : "{9B5E54AE53A664C4}Prefabs/QUESTS/BASE_QUEST_STAGE_CHANGE.et" {
+ {
+  components {
+   ActionsManagerComponent "{670F618332E65D7F}" {
+    additionalActions {
+     ARMST_QUEST_STAGE_CHANGE "{670F618332E65D75}" {
+      m_sQuestNameDB "found_art"
+      m_iStageStart 6
+      m_iStageSet 7
+      m_sSpawnPos "spawn_kishka"
+      m_PrefabQuestFinish "{702B819BFF2CB59A}Prefabs/Items/Others/Documents/Image/armst_itm_quest_kish_art.et"
+     }
+    }
+   }
+  }
+  coords 3109.657 301.992 1242.505
+ }
+ {
+  components {
+   ActionsManagerComponent "{670F618332E65D7F}" {
+    additionalActions {
+     ARMST_QUEST_STAGE_CHANGE "{670F618332E65D75}" {
+      m_sQuestNameDB "found_art"
+      m_iStageStart 14
+      m_iStageSet 15
+     }
+    }
+   }
+  }
+  coords 2554.135 304.738 802.376
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Object "{1DF19BF369D7C1EC}armst/items/artefacts/vaza.xob"
+   }
+   ActionsManagerComponent "{670F618332E65D7F}" {
+    additionalActions {
+     ARMST_QUEST_STAGE_CHANGE "{670F618332E65D75}" {
+      Duration 2
+      m_sActionMission "#AR-Inventory_PickUp"
+      m_sQuestNameDB "found_art"
+      m_iStageStart 15
+      m_iStageSet 16
+      m_Teleport 1
+      m_sLocationPos 7729.617 284.193 7926.543
+     }
+    }
+   }
+  }
+  coords 2560.947 307.849 518.144
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Object "{1DF19BF369D7C1EC}armst/items/artefacts/vaza.xob"
+   }
+   ActionsManagerComponent "{670F618332E65D7F}" {
+    additionalActions {
+     ARMST_QUEST_STAGE_CHANGE "{670F618332E65D75}" {
+      Duration 2
+      m_sActionMission "#AR-Inventory_PickUp"
+      m_sQuestNameDB "found_art"
+      m_iStageStart 16
+      m_iStageSet 17
+      m_PrefabQuestFinish "{44F1FBB7605D2FF3}Prefabs/Items/artefacts/armst_art_chistil.et"
+      m_Teleport 1
+      m_sLocationPos 1692.847 293.097 1168.307
+     }
+    }
+   }
+  }
+  coords 7740.136 255.07 7945.464
+ }
+ {
+  components {
+   ActionsManagerComponent "{670F618332E65D7F}" {
+    additionalActions {
+     ARMST_QUEST_STAGE_CHANGE "{670F618332E65D75}" {
+      m_sQuestNameDB "found_art"
+      m_iStageStart 7
+      m_iStageSet 8
+      m_PrefabQuestFinish "{A58D7F040A5A2F45}Prefabs/Items/artefacts/armst_art_kishka.et"
+     }
+    }
+   }
+  }
+  coords 3096.729 302.643 1221.87
+ }
+}
+$grp ParticleEffectEntity : "{FABF32251CA89C8D}Prefabs/Anomals/Teleport/ARMST_TELEPORT_FIX.et" {
+ {
+  components {
+   SCR_EditableEntityComponent "{6692A6CEE900C53A}" {
+    Enabled 0
+   }
+  }
+  coords 7722.676 230.877 7927.026
+  {
+   ARMST_DamagingTriggerEntity {
+    ID "6692A6CEE900C555"
+    coords 0 1.041 0
+    BoxMins -60 -1 -60
+    BoxMaxs 60 10 60
+    UpdatePeriod 0.5
+    m_Attack_Timer 0
+    m_damageValue 0
+    m_sTeleportPos "spawn_chistil"
+   }
+  }
+ }
+ {
+  components {
+   SCR_EditableEntityComponent "{6692A6CEE900C53A}" {
+    Enabled 0
+   }
+  }
+  coords 7719.544 248.89 7876.238
+  {
+   ARMST_DamagingTriggerEntity {
+    ID "6692A6CEE900C555"
+    m_damageValue 0
+    m_sTeleportPos "spawn_chistil3"
+   }
+  }
+ }
+ {
+  components {
+   SCR_EditableEntityComponent "{6692A6CEE900C53A}" {
+    Enabled 0
+   }
+  }
+  coords 7743.249 255.809 7930.007
+  {
+   ARMST_DamagingTriggerEntity {
+    ID "6692A6CEE900C555"
+    m_damageValue 0
+    m_sTeleportPos "spawn_chistil4"
+   }
+  }
+ }
+ {
+  components {
+   SCR_EditableEntityComponent "{6692A6CEE900C53A}" {
+    Enabled 0
+   }
+  }
+  coords 7733.204 261.823 7981.759
+  {
+   ARMST_DamagingTriggerEntity {
+    ID "6692A6CEE900C555"
+    m_damageValue 0
+    m_sTeleportPos "spawn_chistil2"
+   }
+  }
+ }
+ {
+  components {
+   SCR_EditableEntityComponent "{6692A6CEE900C53A}" {
+    Enabled 0
+   }
+  }
+  coords 7698.411 287.476 7886.5
+  {
+   ARMST_DamagingTriggerEntity {
+    ID "6692A6CEE900C555"
+    m_damageValue 0
+    m_sTeleportPos "spawn_chistil5"
+   }
+  }
+ }
+ {
+  components {
+   SCR_EditableEntityComponent "{6692A6CEE900C53A}" {
+    Enabled 0
+   }
+  }
+  coords 7721.93 296.485 7962.215
+  {
+   ARMST_DamagingTriggerEntity {
+    ID "6692A6CEE900C555"
+    m_damageValue 0
+    m_sTeleportPos "spawn_chistil6"
+   }
+  }
+ }
+ {
+  components {
+   SCR_EditableEntityComponent "{6692A6CEE900C53A}" {
+    Enabled 0
+   }
+  }
+  coords 2612.145 294.626 512.251
+  {
+   ARMST_DamagingTriggerEntity {
+    ID "6692A6CEE900C555"
+    coords 0 1.041 0
+    TriggerShapeType Sphere
+    SphereRadius 1.6
+    BoxMins -2 -1 -2
+    BoxMaxs 2 1 2
+    UpdatePeriod 0.5
+    m_Attack_Timer 0
+    m_damageValue 0
+    m_sTeleportPos "spawn_dom_f"
+   }
+  }
+ }
+ {
+  components {
+   SCR_EditableEntityComponent "{6692A6CEE900C53A}" {
+    Enabled 0
+   }
+  }
+  coords 2553.633 303.216 506.302
+  {
+   ARMST_DamagingTriggerEntity {
+    ID "6692A6CEE900C555"
+    coords 0 1.041 0
+    TriggerShapeType Sphere
+    SphereRadius 1.6
+    BoxMins -2 -1 -2
+    BoxMaxs 2 1 2
+    UpdatePeriod 0.5
+    m_Attack_Timer 0
+    m_damageValue 0
+    m_sTeleportPos "spawn_dom_f2"
+   }
+  }
+ }
+}

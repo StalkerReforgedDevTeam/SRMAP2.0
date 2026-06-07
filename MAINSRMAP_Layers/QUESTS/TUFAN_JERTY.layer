@@ -1,0 +1,336 @@
+GenericEntity spawn_kab5 {
+ coords 2399.478 313.021 2522.286
+ angles 0 32.112 0
+}
+SCR_ChimeraCharacter : "{0826EDC0C792C3A4}Prefabs/QUESTS/URAL/CONTORA_PRODAJ.et" {
+ coords 2338.188 312.828 2540.983
+ angles 0 94.345 0
+}
+$grp SCR_ChimeraCharacter : "{090F60A2FEFB08DA}Prefabs/QUESTS/URAL/CONTORA_STATIC_2.et" {
+ {
+  coords 2346.502 314.525 2551.351
+  angles 0 2.561 0
+ }
+ {
+  coords 2364.498 314.525 2546.951
+  angles 0 179.546 0
+ }
+ {
+  coords 2381.754 314.522 2547.393
+  angles 0 0.007 0
+ }
+ {
+  coords 2408.883 312.826 2541.56
+  angles 0 -0.061 0
+ }
+ {
+  coords 2389.639 312.868 2538.808
+  angles 0 -168.094 0
+ }
+ {
+  coords 2420.213 313.191 2526.615
+  angles 0 84.311 0
+ }
+ {
+  coords 2420.902 313.197 2528.38
+  angles 0 140.308 0
+ }
+ {
+  coords 2403.125 312.702 2508.587
+  angles 0 59.214 0
+ }
+ {
+  coords 2403.905 312.702 2509.389
+  angles 0 -161.668 0
+ }
+ {
+  coords 2404.44 312.702 2489.513
+  angles 0 63.555 0
+ }
+ {
+  coords 2417.119 312.702 2509.308
+  angles 0 -134.153 0
+ }
+ {
+  coords 2428.447 312.745 2506.065
+  angles 0 4.308 0
+ }
+ {
+  coords 2429.035 312.806 2508.06
+  angles 0 -156.041 0
+ }
+}
+$grp ARMST_QUEST_TRIGGER : "{372F4469FF5293C9}Prefabs/QUESTS/ARMST_TRIGGER_QUEST.et" {
+ {
+  coords 2346.634 314.525 2554.205
+  angles 0 -86.201 0
+  TriggerShapeType "Oriented Bounding Box"
+  SphereRadius 6.6
+  BoxMins -3 -4 -3
+  BoxMaxs 3 5 3
+  DrawShape 0
+  UpdatePeriod 1
+  m_sQuestNameDB "dark_tasks"
+  m_iStageStart 8
+  m_iStageSet 40
+  m_Teleport 1
+  m_sLocationPos 2337.971 312.894 2535.858
+ }
+ {
+  coords 2364.546 314.525 2544.397
+  angles 0 8.219 0
+  TriggerShapeType "Oriented Bounding Box"
+  SphereRadius 6.6
+  BoxMins -3 -4 -2
+  BoxMaxs 5 5 3
+  DrawShape 0
+  UpdatePeriod 1
+  m_sQuestNameDB "dark_tasks"
+  m_iStageStart 8
+  m_iStageSet 40
+  m_Teleport 1
+  m_sLocationPos 2337.971 312.894 2535.858
+ }
+ {
+  coords 2381.708 314.154 2549.279
+  angles 0 8.219 0
+  TriggerShapeType "Oriented Bounding Box"
+  SphereRadius 6.6
+  BoxMins -3 -4 -2
+  BoxMaxs 5 5 3
+  DrawShape 0
+  UpdatePeriod 1
+  m_sQuestNameDB "dark_tasks"
+  m_iStageStart 8
+  m_iStageSet 40
+  m_Teleport 1
+  m_sLocationPos 2337.971 312.894 2535.858
+ }
+ {
+  coords 2388.663 312.881 2536.129
+  angles 0 95.9 0
+  TriggerShapeType "Oriented Bounding Box"
+  SphereRadius 6.6
+  BoxMins -3 -4 -2
+  BoxMaxs 5 5 3
+  DrawShape 0
+  UpdatePeriod 1
+  m_sQuestNameDB "dark_tasks"
+  m_iStageStart 8
+  m_iStageSet 40
+  m_Teleport 1
+  m_sLocationPos 2337.971 312.894 2535.858
+ }
+ {
+  coords 2408.256 313.416 2543.146
+  angles 0 8.219 0
+  TriggerShapeType "Oriented Bounding Box"
+  SphereRadius 6.6
+  BoxMins -3 -4 -2
+  BoxMaxs 5 5 3
+  DrawShape 0
+  UpdatePeriod 1
+  m_sQuestNameDB "dark_tasks"
+  m_iStageStart 8
+  m_iStageSet 40
+  m_Teleport 1
+  m_sLocationPos 2337.971 312.894 2535.858
+ }
+ {
+  coords 2422.089 313.188 2526.129
+  angles 0 25.752 0
+  TriggerShapeType "Oriented Bounding Box"
+  SphereRadius 6.6
+  BoxMins -3 -4 -2
+  BoxMaxs 5 5 3
+  DrawShape 0
+  UpdatePeriod 1
+  m_sQuestNameDB "dark_tasks"
+  m_iStageStart 8
+  m_iStageSet 40
+  m_Teleport 1
+  m_sLocationPos 2337.971 312.894 2535.858
+ }
+ {
+  coords 2401.547 312.702 2510.435
+  angles 0 42.692 0
+  TriggerShapeType "Oriented Bounding Box"
+  SphereRadius 6.6
+  BoxMins -3 -4 -2
+  BoxMaxs 5 5 3
+  DrawShape 0
+  UpdatePeriod 1
+  m_sQuestNameDB "dark_tasks"
+  m_iStageStart 8
+  m_iStageSet 40
+  m_Teleport 1
+  m_sLocationPos 2337.971 312.894 2535.858
+ }
+ {
+  coords 2397.139 312.702 2507.718
+  angles 0 -79.902 0
+  TriggerShapeType "Oriented Bounding Box"
+  SphereRadius 6.6
+  BoxMins -3 -4 -2
+  BoxMaxs 5 5 3
+  DrawShape 0
+  UpdatePeriod 1
+  m_sQuestNameDB "dark_tasks"
+  m_iStageStart 8
+  m_iStageSet 40
+  m_Teleport 1
+  m_sLocationPos 2337.971 312.894 2535.858
+ }
+ {
+  coords 2406.267 312.702 2490.189
+  angles 0 -18.736 0
+  TriggerShapeType "Oriented Bounding Box"
+  SphereRadius 6.6
+  BoxMins -3 -4 -2
+  BoxMaxs 5 5 3
+  DrawShape 0
+  UpdatePeriod 1
+  m_sQuestNameDB "dark_tasks"
+  m_iStageStart 8
+  m_iStageSet 40
+  m_Teleport 1
+  m_sLocationPos 2337.971 312.894 2535.858
+ }
+ {
+  coords 2396.256 312.702 2525.46
+  angles 0 139.971 0
+  TriggerShapeType "Oriented Bounding Box"
+  SphereRadius 6.6
+  BoxMins -3 -4 -2
+  BoxMaxs 5 5 3
+  DrawShape 0
+  UpdatePeriod 1
+  m_sQuestNameDB "dark_tasks"
+  m_iStageStart 8
+  m_iStageSet 40
+  m_Teleport 1
+  m_sLocationPos 2337.971 312.894 2535.858
+ }
+ {
+  coords 2415.136 312.702 2509.98
+  angles 0 165.329 0
+  TriggerShapeType "Oriented Bounding Box"
+  SphereRadius 6.6
+  BoxMins -3 -4 -2
+  BoxMaxs 5 5 3
+  DrawShape 0
+  UpdatePeriod 1
+  m_sQuestNameDB "dark_tasks"
+  m_iStageStart 8
+  m_iStageSet 40
+  m_Teleport 1
+  m_sLocationPos 2337.971 312.894 2535.858
+ }
+ {
+  coords 2428.195 312.816 2508.122
+  angles 0 112.218 0
+  TriggerShapeType "Oriented Bounding Box"
+  SphereRadius 6.6
+  BoxMins -3 -4 -2
+  BoxMaxs 5 5 3
+  DrawShape 0
+  UpdatePeriod 1
+  m_sQuestNameDB "dark_tasks"
+  m_iStageStart 8
+  m_iStageSet 40
+  m_Teleport 1
+  m_sLocationPos 2337.971 312.894 2535.858
+ }
+ {
+  coords 2383.296 313.542 2489.29
+  angles 0 -82.56 0
+  TriggerShapeType "Oriented Bounding Box"
+  SphereRadius 6.6
+  BoxMins -3 -4 -2
+  BoxMaxs 5 5 3
+  DrawShape 0
+  UpdatePeriod 1
+  m_sQuestNameDB "dark_tasks"
+  m_iStageStart 8
+  m_iStageSet 40
+  m_Teleport 1
+  m_sLocationPos 2337.971 312.894 2535.858
+ }
+ {
+  coords 2336.336 312.894 2535.226
+  angles 0 -86.201 0
+  TriggerShapeType "Oriented Bounding Box"
+  SphereRadius 6.6
+  BoxMins -3 -4 -3
+  BoxMaxs 3 5 3
+  DrawShape 0
+  UpdatePeriod 1
+  m_sQuestNameDB "dark_tasks"
+  m_iStageStart 40
+  m_iStageSet 40
+  m_PrefabQuestRequest "{BF5FD8B5BC04D2DA}Prefabs/QUESTS/TUFANS/JERTY_QUEST/armst_itm_Jerty_Quest.et"
+  m_PrefabRequestDelete 1
+ }
+}
+SCR_ChimeraCharacter : "{3F12EA9434F7C0A0}Prefabs/QUESTS/URAL/CONTORA_OHRANA.et" {
+ components {
+  ARMST_DIALOGS_COMPONENT "{6686D3236158621E}" {
+   m_DialogConfig "{09196AF4675F7727}Configs/GAME_SETTING/DIALOGS/ACTORS/URAL/CONTORA_OHRANA.conf"
+  }
+ }
+ coords 2334.841 312.894 2535.781
+ angles 0 67.93 0
+}
+$grp SCR_ChimeraCharacter : "{655B5442423F87F4}Prefabs/QUESTS/URAL/CONTORA_STATIC_1.et" {
+ {
+  coords 2398.311 312.814 2527.115
+  angles 0 -135.863 0
+ }
+ {
+  coords 2397.807 313.644 2512.001
+  angles 0 171.142 0
+ }
+ {
+  coords 2389.884 320.039 2488.777
+  angles 0 -108.635 0
+ }
+}
+$grp GenericEntity : "{9B5E54AE53A664C4}Prefabs/QUESTS/BASE_QUEST_STAGE_CHANGE.et" {
+ {
+  components {
+   ActionsManagerComponent "{670F618332E65D7F}" {
+    additionalActions {
+     ARMST_QUEST_STAGE_CHANGE "{670F618332E65D75}" {
+      m_sQuestNameDB "dark_tasks"
+      m_iStageStart 7
+      m_iStageSet 8
+      m_PrefabQuestSpawn "{BF5FD8B5BC04D2DA}Prefabs/QUESTS/TUFANS/JERTY_QUEST/armst_itm_Jerty_Quest.et"
+      m_fPrefabQuestFinishSpawnDistance 0
+      m_sSpawnPos "spawn_kab5"
+      m_Teleport 1
+      m_sLocationPos 2334.114 312.839 2540.375
+      m_fOnlyNight 1
+     }
+    }
+   }
+  }
+  coords 2336.461 313.822 2540.342
+ }
+ {
+  components {
+   ActionsManagerComponent "{670F618332E65D7F}" {
+    additionalActions {
+     ARMST_QUEST_STAGE_CHANGE "{670F618332E65D75}" {
+      m_sActionMission "Exit"
+      m_sQuestNameDB "dark_tasks"
+      m_iStageStart 42
+      m_iStageSet 43
+      m_Teleport 1
+      m_sLocationPos 2302.098 312.702 2531.642
+     }
+    }
+   }
+  }
+  coords 2335.047 313.932 2534.422
+ }
+}

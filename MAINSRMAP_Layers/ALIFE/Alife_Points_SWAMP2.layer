@@ -1,0 +1,80 @@
+$grp ARMST_ALIFE_InterestPoint {
+ swamp2_entry1 {
+  coords 1426.922 290.28 1120.784
+  m_LocationKey SWAMP_WEST
+  m_sNextInterestPoint1 "swamp2_entry3"
+  m_sNextInterestPoint2 "swamp2_entry2"
+ }
+ swamp2_entry2 {
+  coords 1573.003 293.402 1218.606
+  m_LocationKey SWAMP_WEST
+  m_sNextInterestPoint1 "swamp2_entry1"
+  m_sNextInterestPoint2 "swamp2_entry3"
+  m_sNextInterestPoint3 "swamp2_entry11"
+ }
+ swamp2_entry3 {
+  coords 1440.13 292.171 1502.844
+  m_LocationKey SWAMP_WEST
+  m_sNextInterestPoint1 "swamp2_entry1"
+  m_sNextInterestPoint2 "swamp2_entry2"
+  m_sNextInterestPoint3 "swamp2_entry11"
+  m_sNextInterestPoint4 "swamp2_entry4"
+  m_sNextInterestPoint5 "swamp2_entry5"
+ }
+ swamp2_entry4 {
+  coords 1562.476 300.42 1657.418
+  m_LocationKey SWAMP_WEST
+  m_sNextInterestPoint1 "swamp2_entry3"
+  m_sNextInterestPoint2 "swamp2_entry11"
+  m_sNextInterestPoint3 "swamp2_entry6"
+  m_sNextInterestPoint4 "swamp2_entry5"
+ }
+ swamp2_entry5 {
+  coords 1350.057 292.005 1833.858
+  m_LocationKey SWAMP_WEST
+  m_sNextInterestPoint1 "swamp2_entry3"
+  m_sNextInterestPoint2 "swamp2_entry6"
+ }
+ swamp2_entry6 {
+  coords 1535.708 296.425 1798.519
+  m_LocationKey SWAMP_WEST
+  m_sNextInterestPoint1 "swamp2_entry4"
+  m_sNextInterestPoint2 "swamp2_entry5"
+  m_sNextInterestPoint3 "swamp2_entry7"
+ }
+ swamp2_entry7 {
+  coords 1620.431 291.565 1918.173
+  m_LocationKey SWAMP_WEST
+  m_sNextInterestPoint1 "swamp2_entry6"
+  m_sNextInterestPoint2 "swamp2_entry8"
+ }
+ swamp2_entry8 {
+  coords 1800.019 296.091 2082.663
+  m_LocationKey SWAMP_WEST
+  m_sNextInterestPoint1 "swamp2_entry7"
+  m_sNextInterestPoint2 "swamp2_entry9"
+ }
+ swamp2_entry9 {
+  coords 1897.941 291.16 1678.701
+  m_LocationKey SWAMP_WEST
+  m_sNextInterestPoint1 "swamp2_entry11"
+  m_sNextInterestPoint2 "swamp2_entry4"
+  m_sNextInterestPoint3 "swamp2_entry6"
+  m_sNextInterestPoint4 "swamp2_entry8"
+  m_sNextInterestPoint5 "swamp2_entry7"
+ }
+ swamp2_entry10 {
+  coords 1973.623 291.96 1327.744
+  m_LocationKey SWAMP_WEST
+  m_sNextInterestPoint1 "swamp2_entry11"
+  m_sNextInterestPoint2 "swamp2_entry9"
+ }
+ swamp2_entry11 {
+  coords 1739.837 293.309 1416.426
+  m_LocationKey SWAMP_WEST
+  m_sNextInterestPoint1 "swamp2_entry3"
+  m_sNextInterestPoint2 "swamp2_entry2"
+  m_sNextInterestPoint3 "swamp2_entry10"
+  m_sNextInterestPoint4 "swamp2_entry4"
+ }
+}

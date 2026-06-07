@@ -1,0 +1,17 @@
+ARMST_TRIGGER_SPAWN train_anomal : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRIGGER_ANOMAL.et" {
+ coords 1833.073 290.287 984.067
+ SphereRadius 34.4
+ TriggerActivationType "Every query"
+ UpdatePeriod 10
+ m_ObjectPrefab "{88A31E6AEF75DF99}Prefabs/Anomals/Gravy/ARMST_GRAVY_train.et"
+ m_ObjectPrefab2 "{88A31E6AEF75DF99}Prefabs/Anomals/Gravy/ARMST_GRAVY_train.et"
+ m_ObjectPrefab3 "{88A31E6AEF75DF99}Prefabs/Anomals/Gravy/ARMST_GRAVY_train.et"
+ m_ArtsPrefab {
+  "{B7E5DD7B0D428656}Prefabs/Items/artefacts_new/art_gravy_train_1T_drop.et"
+ }
+ m_SpawnCount 5
+ m_MinDistanceBetweenAnomalies 4
+ m_CenterBias 0.7
+ m_SpawnChanceArtefactsRestart 100
+ m_SpawnChanceArtefacts 100
+}
