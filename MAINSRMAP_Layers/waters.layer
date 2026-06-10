@@ -8234,57 +8234,6 @@ $grp GenericEntity : "{A19A22F731C8C3E6}Prefabs/Systems/DamageAreas/DamageArea_K
       "Area shape" SCR_ConvexPolygonDamageAreaShape "{6650CBAB7081F0F4}" {
        m_aBounds {
         SCR_BoundsPosition "{6650CBAB76F8AE9F}" {
-         Offset 292.762 -7.5 -232.718
-        }
-        SCR_BoundsPosition "{6650CBAB0C484DA0}" {
-         Offset 327.187 -7.5 28.96
-        }
-        SCR_BoundsPosition "{6650CBAB00465D0A}" {
-         Offset 99.593 -7.5 233.733
-        }
-        SCR_BoundsPosition "{6650CBAB05580D4B}" {
-         Offset -9.045 -7.5 429
-        }
-        SCR_BoundsPosition "{6650CBAB247C3FB1}" {
-         Offset -196.981 -7.5 276.138
-        }
-        SCR_BoundsPosition "{6650CBAB3983D33B}" {
-         Offset -264.069 -7.5 120.976
-        }
-        SCR_BoundsPosition "{6650CBAB37D729CB}" {
-         Offset -285.339 -7.5 -42.755
-        }
-        SCR_BoundsPosition "{6650CBAAC89DBBE0}" {
-         Offset -135.936 -7.5 -185.268
-        }
-        SCR_BoundsPosition "{6650CBAACD535EDF}" {
-         Offset 2.303 -7.5 -298.107
-        }
-        SCR_BoundsPosition "{6650CBAD834B7E36}" {
-         Offset 169.524 -7.5 -329.961
-        }
-       }
-       m_fHeight 15
-      }
-      m_DamageEffect SCR_PsyDamageEffect "{6646DB3FF5525EBC}" {
-      }
-      m_bRemoveEffectWhenLeavingTheArea 1
-      m_fDotDamage 2
-     }
-    }
-   }
-  }
-  coords 3783.79 307.046 2653.84
-  angles 0 -28.258 0
- }
- {
-  components {
-   SCR_DamageAreaComponent "{6646D2612811A3C6}" {
-    DamageAreas {
-     SCR_DotDamageArea "{6646DB3FF2DCC4EC}" {
-      "Area shape" SCR_ConvexPolygonDamageAreaShape "{6650CBAB7081F0F4}" {
-       m_aBounds {
-        SCR_BoundsPosition "{6650CBAB76F8AE9F}" {
          Offset 25.713 -7.55 -91.593
         }
         SCR_BoundsPosition "{6650CBAB0C484DA0}" {

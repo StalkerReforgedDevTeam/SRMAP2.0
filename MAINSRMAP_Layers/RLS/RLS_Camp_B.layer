@@ -1,93 +1,111 @@
-GenericEntity {
- components {
-  Persistence "{68E913AD675B88F3}" {
-   Flags 0 0x1
-  }
-  DoorComponent "{68E913AD675B8854}" {
-   DoorAction SCR_DoorUserAction "{68E913AD675B88AA}" {
+$grp GenericEntity {
+ {
+  components {
+   Persistence "{68E913AD675B88F3}" {
+    Flags 0 0x1
    }
-   FakeDoor 1
-   DoorAnimationType WholeEntity
-   AngleRange 0
-   TestContacts 1
-   TestCollider "UBX_door"
-  }
-  MeshObject "{68E913AD675B8B8C}" {
-   Object "{A5C4B564D8FA358B}Assets/Structures/BuildingsParts/Doors/Door_AircraftShelter_E_01/Door_AircraftShelter_E_01_Side_Right_EXT_COV_B.xob"
-   Materials {
-    MaterialAssignClass "{68E913AD675B8824}" {
-     SourceMaterial "Door_AircraftShelter_E_01_Side_EXT"
-     AssignedMaterial "{73849AAE31D0BDAD}Assets/Structures/BuildingsParts/Doors/Door_AircraftShelter_E_01/Data/Door_AircraftShelter_E_01_Side_green_EXT.emat"
+   DoorComponent "{68E913AD675B8854}" {
+    DoorAction SCR_DoorUserAction "{68E913AD675B88AA}" {
     }
-    MaterialAssignClass "{68E913AD675B8827}" {
-     SourceMaterial "Door_AircraftShelter_E_01_Side_INT"
-     AssignedMaterial "{017C86E32494F99E}Assets/Structures/BuildingsParts/Doors/Door_AircraftShelter_E_01/Data/Door_AircraftShelter_E_01_Side_green_INT.emat"
+    FakeDoor 1
+    DoorAnimationType WholeEntity
+    AngleRange 0
+    TestContacts 1
+    TestCollider "UBX_door"
+   }
+   MeshObject "{68E913AD675B8B8C}" {
+    Object "{A5C4B564D8FA358B}Assets/Structures/BuildingsParts/Doors/Door_AircraftShelter_E_01/Door_AircraftShelter_E_01_Side_Right_EXT_COV_B.xob"
+    Materials {
+     MaterialAssignClass "{68E913AD675B8824}" {
+      SourceMaterial "Door_AircraftShelter_E_01_Side_EXT"
+      AssignedMaterial "{73849AAE31D0BDAD}Assets/Structures/BuildingsParts/Doors/Door_AircraftShelter_E_01/Data/Door_AircraftShelter_E_01_Side_green_EXT.emat"
+     }
+     MaterialAssignClass "{68E913AD675B8827}" {
+      SourceMaterial "Door_AircraftShelter_E_01_Side_INT"
+      AssignedMaterial "{017C86E32494F99E}Assets/Structures/BuildingsParts/Doors/Door_AircraftShelter_E_01/Data/Door_AircraftShelter_E_01_Side_green_INT.emat"
+     }
     }
+    LODFactors {
+     20
+     5
+     1
+     1
+     1
+    }
+    PixelSizeScale 10
    }
-   LODFactors {
-    20
-    5
-    1
-    1
-    1
-   }
-   PixelSizeScale 10
-  }
-  NavmeshCustomLinkComponent "{68E913AD6754472F}" {
-   LinkType NavmeshDoorLink "{68E913AD67544729}" {
-    "Navmesh setting presets" {
-     NavmeshCustomLinkSetting "{68E913AD675B8B70}" {
-      ProjectPresets {
-       NavmeshCustomLinkPreset "{68E913AD675B8B6E}" {
-        ProjectName "Soldiers"
-        AreaType "Door"
+   NavmeshCustomLinkComponent "{68E913AD6754472F}" {
+    LinkType NavmeshDoorLink "{68E913AD67544729}" {
+     "Navmesh setting presets" {
+      NavmeshCustomLinkSetting "{68E913AD675B8B70}" {
+       ProjectPresets {
+        NavmeshCustomLinkPreset "{68E913AD675B8B6E}" {
+         ProjectName "Soldiers"
+         AreaType "Door"
+        }
        }
+       BeginPoint 0.75 0 -1.5
+       EndPoint 0.75 0 1.5
+       Radius 0.5
+       QueueDelay 0.5
+       SnapDistance 1
       }
-      BeginPoint 0.75 0 -1.5
-      EndPoint 0.75 0 1.5
-      Radius 0.5
-      QueueDelay 0.5
-      SnapDistance 1
      }
     }
    }
-  }
-  RigidBody "{68E913AD67544719}" {
-   AngularSleepingThreashold 1
-   ResponseIndex "Normal"
-   ModelGeometry 1
-   Static 1
-   Kinematic 1
-  }
-  SCR_AISmartActionComponent "{68E913AD67544713}" {
-   AIBehaviorTree "{49E6280CE3FAAF4F}AI/BehaviorTrees/SmartActions/SA_OpenGate.bt"
-   Tags {
-    "OpenGate"
+   RigidBody "{68E913AD67544719}" {
+    AngularSleepingThreashold 1
+    ResponseIndex "Normal"
+    ModelGeometry 1
+    Static 1
+    Kinematic 1
    }
-   ActionOffset -1.5 0 0
-  }
-  ActionsManagerComponent "{68E913AD67544748}" {
-   ActionContexts {
-    UserActionContext "{68E913AD67544750}" {
-     UIInfo SCR_ActionUIInfo "{68E913AD67544779}" {
-      m_sIconName "open-door"
+   SCR_AISmartActionComponent "{68E913AD67544713}" {
+    AIBehaviorTree "{49E6280CE3FAAF4F}AI/BehaviorTrees/SmartActions/SA_OpenGate.bt"
+    Tags {
+     "OpenGate"
+    }
+    ActionOffset -1.5 0 0
+   }
+   ActionsManagerComponent "{68E913AD67544748}" {
+    ActionContexts {
+     UserActionContext "{68E913AD67544750}" {
+      UIInfo SCR_ActionUIInfo "{68E913AD67544779}" {
+       m_sIconName "open-door"
+      }
+      ContextName "SCR_DoorUserAction"
+      Position PointInfo "{68E913AD6754476B}" {
+       Offset 1.2 1.1 0
+      }
+      Radius 0.65
      }
-     ContextName "SCR_DoorUserAction"
-     Position PointInfo "{68E913AD6754476B}" {
-      Offset 1.2 1.1 0
-     }
-     Radius 0.65
     }
    }
+   RplComponent "{68E913AD6754474F}" {
+    RuntimeOnly 1
+   }
+   Hierarchy "{68E913AD67544743}" {
+   }
   }
-  RplComponent "{68E913AD6754474F}" {
-   RuntimeOnly 1
-  }
-  Hierarchy "{68E913AD67544743}" {
-  }
+  coords 3867.754 319.017 2605.478
+  angles -3.628 13.748 -91.139
  }
- coords 3867.754 319.017 2605.478
- angles -3.628 13.748 -91.139
+ {
+  coords 3860.167 11.969 2605.92
+  angles 0 104.885 0
+ }
+ {
+  coords 3859.927 11.969 2605.016
+  angles 0 102.315 0
+ }
+ {
+  coords 3860.568 11.969 2607.693
+  angles 0 102.346 0
+ }
+ {
+  coords 3860.902 11.969 2608.654
+  angles 0 87.127 0
+ }
 }
 SCR_DestructibleBuildingEntity {
  components {
@@ -305,7 +323,7 @@ SCR_DestructibleBuildingEntity {
   }
   SlotBoneMappingObject "{68E6D61BD5F3778C}" {
    BonePrefix "Socket_Faucet_01"
-   Prefab "{D0BD7A55306FC46B}Prefabs/Props/Furniture/Faucet_01.et"
+   Prefab "{D0BD7A55306FC46B}Prefabs/Props/Furniture/Faucet_01/Faucet_01.et"
   }
   SlotBoneMappingObject "{68E6D61BD5F37790}" {
    BonePrefix "Socket_Sink_01"
@@ -1970,7 +1988,7 @@ SCR_DestructibleBuildingEntity {
      coords 9.277 0.57 9.476
      angles 0 62 0
     }
-    GenericEntity : "{D0BD7A55306FC46B}Prefabs/Props/Furniture/Faucet_01.et" {
+    GenericEntity : "{D0BD7A55306FC46B}Prefabs/Props/Furniture/Faucet_01/Faucet_01.et" {
      coords 9.337 5.437 7.649
      angles 0 90 0
     }
@@ -5335,7 +5353,7 @@ GenericEntity : "{6220F5D951A6F92B}Prefabs/Staff/box_wooden_small.et" {
  angles 0 5.114 0
  scale 0.76
 }
-GenericEntity : "{7030822F7A54F479}Prefabs/LOOT_BOX/base/backpacks/CrateWooden_01_base.et" {
+GenericEntity : "{7030822F7A54F479}Prefabs/Props/Crates/CrateWooden_01_base.et" {
  coords 3863.792 315.602 2610.079
  angles 0 18.172 -90
 }
@@ -5375,24 +5393,6 @@ GenericEntity : "{8599EE1DF5685104}Prefabs/Props/Garbage/Generic/LitterInterior_
 GenericEntity : "{881558ACD5FC31C0}Prefabs/Props/Crates/CrateWooden_02/CrateWooden_02_1x1x2.et" {
  coords 3865.406 317.103 2609.592
  angles 7.769 13.67 -122.872
-}
-$grp GenericEntity : "{8871B00C873DA8B7}Prefabs/Props/Civilian/Shelves/Shelf_Metal.et" {
- {
-  coords 3860.167 11.969 2605.92
-  angles 0 104.885 0
- }
- {
-  coords 3859.927 11.969 2605.016
-  angles 0 102.315 0
- }
- {
-  coords 3860.568 11.969 2607.693
-  angles 0 102.346 0
- }
- {
-  coords 3860.902 11.969 2608.654
-  angles 0 87.127 0
- }
 }
 GenericEntity : "{8C82BBBDEE9CBA3A}Prefabs/Props/Military/Camps/WeaponRackStand_01.et" {
  coords 3867.265 319.014 2604.008
