@@ -190848,9 +190848,6 @@ $grp GenericEntity : "{FA97F9752BA2BA83}Prefabs/deads/skeleton/dead_skeleton.et"
   scale 0.8
  }
 }
-SCR_DestructibleBuildingEntity : "{FAA90E27998CD01F}Prefabs/Structures/Industrial/CoalMineShaft_01/Complete/CoalMineShaft_USSR_01_complete_Nadezhda.et" {
- coords 5576.066 321.308 2184.726
-}
 StaticModelEntity : "{FAE13B149BA9D61A}Prefabs/Structures/Military/Fortifications/Bunker_SPS/Dst/Bunker_SPS2M_Covered_Ruin.et" {
  coords 2291.257 303.307 1851.816
 }
