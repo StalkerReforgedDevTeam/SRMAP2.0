@@ -470,6 +470,10 @@ $grp GenericEntity : "{1EDBE01AAD5EE137}Prefabs/Props/Industrial/GasTank_02_blue
   coords 5337.401 305.154 557.237
  }
 }
+SCR_DestructibleBuildingEntity : "{1F5DE8371A7EA3B1}Prefabs/Structures/Industrial/ConstructionBuilding_A.et" {
+ coords 4446.339 -0.017 2037.268
+ angles 0 -79.35 0
+}
 $grp GenericEntity : "{2595F6426CDFDBBB}Prefabs/Props/Civilian/Computer_E_01/Computer_E_01_Monitor_on.et" {
  {
   coords 5337.444 291.739 571.008
