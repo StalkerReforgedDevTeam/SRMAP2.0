@@ -445,6 +445,21 @@ $grp GenericEntity {
   coords 3293.763 327.304 2936.173
   angles 0 -111.056 90
  }
+ {
+  coords 3295.901 303.705 2967.29
+  angles 0 -106.509 0
+  scale 0.536
+ }
+}
+ParticleEffectEntity {
+ coords 3296.072 307.106 2967.474
+ angles 0 -15.557 0
+ {
+  ARMST_DamagingTriggerEntity {
+   coords 0.358 -0.557 -0.141
+   angles 0 -23.073 0
+  }
+ }
 }
 $grp SCR_DestructibleBuildingEntity {
  {
@@ -615,234 +630,17 @@ $grp SCR_DestructibleBuildingEntity {
    }
   }
   {
-   GenericEntity {
-    coords 0 0 0
+   $grp Building {
     {
-     GenericEntity : "{0712799E7E8A0D56}Prefabs/Props/Industrial/GasTank_02_rusty.et" {
-      coords 0.506 -0.133 -25.278
-      angles 0 -14.837 90
-     }
-     GenericEntity : "{10C5A45290A9EEED}Prefabs/Props/Industrial/GasTank_01_blue.et" {
-      coords -13.489 -0.269 -6.879
-     }
-     GenericEntity : "{342E852E9A1847EA}Prefabs/Props/Industrial/Repair/VehicleGarbage_01_pile_medium.et" {
-      coords -12.968 -0.263 -8.252
-      angles 0 -17.05 0
-     }
-     GenericEntity : "{47F8D83F71EB2B74}Prefabs/Structures/Infrastructure/Lamps/LampStreet_E_02/LampStreet_E_02_addon.et" {
-      coords -14.298 9.986 -25.873
-      angles 0 180 0
-     }
-     GenericEntity : "{49011ACB162736A9}Prefabs/Props/Civilian/Workbenches/Workbench01.et" {
-      coords -13.548 -0.275 -13.181
-     }
-     $grp GenericEntity : "{4BE795374BE3D67E}Prefabs/Props/Industrial/BarrelFuel_01_closed.et" {
-      {
-       coords 2.614 -0.267 -23.871
-       angles 0 -78.596 0
-      }
-      {
-       coords 2.53 -0.267 -24.653
-       angles 0 -30.128 0
-      }
-      {
-       coords 3.239 -0.267 -24.181
-       angles 0 28.878 0
-      }
-      {
-       coords 3.123 -0.267 -23.182
-       angles 0 -143.021 0
-      }
-      {
-       coords 3.792 -0.267 -23.596
-       angles 0 -94.552 0
-      }
-      {
-       coords 3.673 -0.267 -22.753
-       angles 0 -35.547 0
+     components {
+      Hierarchy "{60B163FDFF570737}" {
+       Enabled 1
+       PivotID "socket_windowlong"
+       AutoTransform 1
       }
      }
-     GenericEntity : "{50A752B7D5E679A2}Prefabs/Props/Industrial/Repair/GasWelder_01.et" {
-      coords -12.374 -0.258 -9.81
-      angles 0 -60.337 0
-     }
-     $grp GameEntity : "{537055C7BFA8530F}Prefabs/Props/Civilian/Ladders/LadderFactorySilo.et.et" {
-      {
-       coords -0.799 22.672 -3.62
-       angles 0 -180 0
-      }
-      {
-       coords 1.343 22.672 11.888
-       angles 0 90 0
-      }
-     }
-     $grp GenericEntity : "{5EF5C5129B116115}Prefabs/Structures/BuildingParts/Lights/LampIndustrial_02.et" {
-      {
-       coords -7.261 7.36 -16.323
-      }
-      {
-       coords -7.261 7.36 -10.583
-      }
-      {
-       coords -7.261 7.36 -21.391
-      }
-     }
-     $grp GenericEntity : "{8871B00C873DA8B7}Prefabs/Props/Civilian/Shelves/Shelf_Metal.et" {
-      {
-       coords -13.568 -0.255 -21.066
-       angles 0 0 0
-      }
-      {
-       coords -13.63 -0.255 -19.588
-       angles 0 0 0
-      }
-      {
-       coords -13.63 -0.255 -18.863
-       angles 0 0 0
-      }
-      {
-       coords -13.63 -0.255 -17.425
-       angles 0 0 0
-      }
-      {
-       coords -13.63 -0.255 -18.15
-       angles 0 0 0
-      }
-      {
-       coords -13.63 -0.255 -20.367
-       angles 0 0 0
-      }
-      {
-       coords -13.545 -0.255 -21.822
-       angles 0 0 0
-      }
-     }
-     GenericEntity : "{90A74133C1DC6226}Prefabs/Props/Industrial/Repair/EngineCrane_01.et" {
-      coords -10.737 -0.252 -7.457
-      angles 0 -147.276 0
-     }
-     GenericEntity : "{A52C57FE8549A13E}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/CargoContainer_01_10ft_red.et" {
-      coords 2.939 -0.262 -10.878
-      angles 0 86.487 0
-     }
-     GenericEntity : "{B557358F8F64AE31}Prefabs/Props/Industrial/Repair/HydraulicCarJack_01.et" {
-      coords -8.698 -0.256 -6.832
-      angles 0 180 0
-     }
-     $grp StaticModelEntity : "{BB64FBA6986C62F7}Prefabs/Structures/BuildingParts/Entry/ConcreteSlope_02_MediumVehicle.et" {
-      {
-       coords -8.407 -0.277 -25.93
-       angles 0 180 0
-      }
-      {
-       coords -7.127 -0.274 -25.93
-       angles 0 180 0
-      }
-     }
-     $grp GenericEntity : "{BB6989EB97F4F67E}Prefabs/Structures/BuildingParts/Lights/LampIndustrial_03.et" {
-      {
-       coords 10.028 7.127 -17.84
-      }
-      {
-       coords 10.028 7.127 -23.021
-      }
-     }
-     GenericEntity : "{BC2FDA7C84AB753B}Prefabs/Compositions/Misc/SubCompositions/Workbench_Cluttered_US_01.et" {
-      coords 14.137 -0.263 -21.743
-      angles 0 -90 0
-      {
-       GenericEntity {
-        ID "552C7391D9C750E9"
-        coords -0.458 1.02 0.227
-        angles 0 -142.962 0
-       }
-       GenericEntity {
-        ID "552C7391D9C75090"
-        coords 0.433 1.014 0.257
-        angles 0 178.177 0
-       }
-      }
-     }
-     $grp GameEntity : "{C8D269AC41F9308B}Prefabs/Props/Civilian/Ladders/LadderSideFactory.et" {
-      {
-       coords 4.948 9.507 14.972
-       angles 0 90 0
-      }
-      {
-       coords -4.161 9.495 -4.236
-       angles 0 -90 0
-      }
-     }
-     GenericEntity : "{C94927591FBC6B54}Prefabs/Props/Industrial/BenchDrill_01_set.et" {
-      coords 14.028 -0.264 -23.527
-      angles 0 -89.177 0
-      {
-       GenericEntity {
-        ID "551C7973A671B69B"
-        coords 0.001 1.003 0.141
-       }
-      }
-     }
-     $grp StaticModelEntity : "{CAF8666F26CEB7AD}Prefabs/Structures/BuildingParts/Entry/ConcreteStairs_02_Narrow.et" {
-      {
-       coords 0.101 -0.272 -4.721
-      }
-      {
-       coords -3.718 -0.267 -25.918
-       angles 0 180 0
-      }
-     }
-     GenericEntity : "{DA861447E6D426AE}Prefabs/Props/Industrial/Repair/VehicleGarbage_01_pile_small.et" {
-      coords -13.241 -0.253 -9.825
-     }
+     coords 0 0 0
     }
-   }
-   Building : "{126C74C12BEF77DE}Prefabs/Structures/BuildingParts/Windows/FactoryWindowLongFrame.et" {
-    components {
-     Hierarchy "{60B163FDFF570737}" {
-      Enabled 1
-      PivotID "socket_windowlong"
-      AutoTransform 1
-     }
-    }
-    coords 0 0 0
-   }
-   GenericEntity : "{335A0EE16637C117}Prefabs/Props/Structures/Doors/FactoryFrameDoor.et" {
-    components {
-     Hierarchy "{60B8E41E4AA22B33}" {
-      Enabled 1
-      PivotID "socket_Doormain"
-      AutoTransform 1
-     }
-    }
-    coords 0 0 0
-    {
-     GenericEntity {
-      ID "613B5936F43A5107"
-      components {
-       DoorComponent "{60DAD4938B8E4C9B}" {
-        DoorAction SCR_DoorUserAction "{60DAD4938B8E4D1C}" {
-         m_FactionKey FACTION_MUTANTS
-        }
-       }
-      }
-     }
-     GenericEntity {
-      ID "613B5936F43A5161"
-      components {
-       DoorComponent "{60DAD493D6FA5AA7}" {
-        DoorAction SCR_DoorUserAction "{60DAD493D6FA5B48}" {
-         m_FactionKey FACTION_MUTANTS
-        }
-       }
-      }
-     }
-    }
-   }
-   GameEnvironmentProbeEntity : "{6F46BA45228BFA0B}Prefabs/Structures/Infrastructure/Power/DieselPowerPlant_01/HouseAddons/Probe_DieselPowerPlant_01.et" {
-    coords -6.007 4.516 -17.685
-   }
-   $grp Building : "{B438BD6F8AFDBB58}Prefabs/Structures/BuildingParts/Windows/WindowFrameFactoryside.et" {
     {
      components {
       Hierarchy "{60B163FDFF570737}" {
@@ -873,8 +671,223 @@ $grp SCR_DestructibleBuildingEntity {
      }
      coords 0 0 0
     }
+    {
+     components {
+      Hierarchy "{60B163FDFF570737}" {
+       Enabled 1
+       PivotID "socket_topwindow"
+       AutoTransform 1
+      }
+     }
+     coords 0 0 0
+    }
    }
-   $grp GenericEntity : "{DA2FF0446867B249}Prefabs/Props/Structures/Doors/Doorframe_Factory.et" {
+   $grp GenericEntity {
+    {
+     coords 0 0 0
+     {
+      $grp GameEntity {
+       {
+        coords -0.799 22.672 -3.62
+        angles 0 -180 0
+       }
+       {
+        coords 1.343 22.672 11.888
+        angles 0 90 0
+       }
+       {
+        coords 4.948 9.507 14.972
+        angles 0 90 0
+       }
+       {
+        coords -4.161 9.495 -4.236
+        angles 0 -90 0
+       }
+      }
+      $grp GenericEntity {
+       {
+        coords -13.548 -0.275 -13.181
+       }
+       {
+        coords -13.568 -0.255 -21.066
+       }
+       {
+        coords -13.63 -0.255 -19.588
+       }
+       {
+        coords -13.63 -0.255 -18.863
+       }
+       {
+        coords -13.63 -0.255 -17.425
+       }
+       {
+        coords -13.63 -0.255 -18.15
+       }
+       {
+        coords -13.63 -0.255 -20.367
+       }
+       {
+        coords -13.545 -0.255 -21.822
+       }
+      }
+      GenericEntity : "{0712799E7E8A0D56}Prefabs/Props/Industrial/GasTank_02_rusty.et" {
+       coords 0.506 -0.133 -25.278
+       angles 0 -14.837 90
+      }
+      GenericEntity : "{10C5A45290A9EEED}Prefabs/Props/Industrial/GasTank_01_blue.et" {
+       coords -13.489 -0.269 -6.879
+      }
+      GenericEntity : "{342E852E9A1847EA}Prefabs/Props/Industrial/Repair/VehicleGarbage_01_pile_medium.et" {
+       coords -12.968 -0.263 -8.252
+       angles 0 -17.05 0
+      }
+      GenericEntity : "{47F8D83F71EB2B74}Prefabs/Structures/Infrastructure/Lamps/LampStreet_E_02/LampStreet_E_02_addon.et" {
+       coords -14.298 9.986 -25.873
+       angles 0 180 0
+      }
+      $grp GenericEntity : "{4BE795374BE3D67E}Prefabs/Props/Industrial/BarrelFuel_01_closed.et" {
+       {
+        coords 2.614 -0.267 -23.871
+        angles 0 -78.596 0
+       }
+       {
+        coords 2.53 -0.267 -24.653
+        angles 0 -30.128 0
+       }
+       {
+        coords 3.239 -0.267 -24.181
+        angles 0 28.878 0
+       }
+       {
+        coords 3.123 -0.267 -23.182
+        angles 0 -143.021 0
+       }
+       {
+        coords 3.792 -0.267 -23.596
+        angles 0 -94.552 0
+       }
+       {
+        coords 3.673 -0.267 -22.753
+        angles 0 -35.547 0
+       }
+      }
+      GenericEntity : "{50A752B7D5E679A2}Prefabs/Props/Industrial/Repair/GasWelder_01.et" {
+       coords -12.374 -0.258 -9.81
+       angles 0 -60.337 0
+      }
+      $grp GenericEntity : "{5EF5C5129B116115}Prefabs/Structures/BuildingParts/Lights/LampIndustrial_02.et" {
+       {
+        coords -7.261 7.36 -16.323
+       }
+       {
+        coords -7.261 7.36 -10.583
+       }
+       {
+        coords -7.261 7.36 -21.391
+       }
+      }
+      GenericEntity : "{90A74133C1DC6226}Prefabs/Props/Industrial/Repair/EngineCrane_01.et" {
+       coords -10.737 -0.252 -7.457
+       angles 0 -147.276 0
+      }
+      GenericEntity : "{A52C57FE8549A13E}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/CargoContainer_01_10ft_red.et" {
+       coords 2.939 -0.262 -10.878
+       angles 0 86.487 0
+      }
+      GenericEntity : "{B557358F8F64AE31}Prefabs/Props/Industrial/Repair/HydraulicCarJack_01.et" {
+       coords -8.698 -0.256 -6.832
+       angles 0 180 0
+      }
+      $grp StaticModelEntity : "{BB64FBA6986C62F7}Prefabs/Structures/BuildingParts/Entry/ConcreteSlope_02_MediumVehicle.et" {
+       {
+        coords -8.407 -0.277 -25.93
+        angles 0 180 0
+       }
+       {
+        coords -7.127 -0.274 -25.93
+        angles 0 180 0
+       }
+      }
+      $grp GenericEntity : "{BB6989EB97F4F67E}Prefabs/Structures/BuildingParts/Lights/LampIndustrial_03.et" {
+       {
+        coords 10.028 7.127 -17.84
+       }
+       {
+        coords 10.028 7.127 -23.021
+       }
+      }
+      GenericEntity : "{BC2FDA7C84AB753B}Prefabs/Compositions/Misc/SubCompositions/Workbench_Cluttered_US_01.et" {
+       coords 14.137 -0.263 -21.743
+       angles 0 -90 0
+       {
+        GenericEntity {
+         ID "552C7391D9C750E9"
+         coords -0.458 1.02 0.227
+         angles 0 -142.962 0
+        }
+        GenericEntity {
+         ID "552C7391D9C75090"
+         coords 0.433 1.014 0.257
+         angles 0 178.177 0
+        }
+       }
+      }
+      GenericEntity : "{C94927591FBC6B54}Prefabs/Props/Industrial/BenchDrill_01_set.et" {
+       coords 14.028 -0.264 -23.527
+       angles 0 -89.177 0
+       {
+        GenericEntity {
+         ID "551C7973A671B69B"
+         coords 0.001 1.003 0.141
+        }
+       }
+      }
+      $grp StaticModelEntity : "{CAF8666F26CEB7AD}Prefabs/Structures/BuildingParts/Entry/ConcreteStairs_02_Narrow.et" {
+       {
+        coords 0.101 -0.272 -4.721
+       }
+       {
+        coords -3.718 -0.267 -25.918
+        angles 0 180 0
+       }
+      }
+      GenericEntity : "{DA861447E6D426AE}Prefabs/Props/Industrial/Repair/VehicleGarbage_01_pile_small.et" {
+       coords -13.241 -0.253 -9.825
+      }
+     }
+    }
+    {
+     components {
+      Hierarchy "{60B8E41E4AA22B33}" {
+       Enabled 1
+       PivotID "socket_Doormain"
+       AutoTransform 1
+      }
+     }
+     coords 0 0 0
+     {
+      $grp GenericEntity {
+       {
+        components {
+         DoorComponent "{60DAD4938B8E4C9B}" {
+          DoorAction SCR_DoorUserAction "{60DAD4938B8E4D1C}" {
+           m_FactionKey FACTION_MUTANTS
+          }
+         }
+        }
+       }
+       {
+        components {
+         DoorComponent "{60DAD493D6FA5AA7}" {
+          DoorAction SCR_DoorUserAction "{60DAD493D6FA5B48}" {
+           m_FactionKey FACTION_MUTANTS
+          }
+         }
+        }
+       }
+      }
+     }
+    }
     {
      components {
       Hierarchy "{60DAD4910B4CB99F}" {
@@ -886,7 +899,6 @@ $grp SCR_DestructibleBuildingEntity {
      coords 0 0 0
      {
       GenericEntity {
-       ID "60DAD4912D50F329"
        components {
         DoorComponent "{60DAD49168A76E46}" {
          DoorAction SCR_DoorUserAction "{60DAD49168A76E63}" {
@@ -908,7 +920,6 @@ $grp SCR_DestructibleBuildingEntity {
      coords 0 0 0
      {
       GenericEntity {
-       ID "60DAD4912D50F329"
        components {
         DoorComponent "{60DAD49168A76E46}" {
          DoorAction SCR_DoorUserAction "{60DAD49168A76E63}" {
@@ -930,7 +941,6 @@ $grp SCR_DestructibleBuildingEntity {
      coords 0 0 0
      {
       GenericEntity {
-       ID "60DAD4912D50F329"
        components {
         DoorComponent "{60DAD49168A76E46}" {
          DoorAction SCR_DoorUserAction "{60DAD49168A76E63}" {
@@ -942,15 +952,8 @@ $grp SCR_DestructibleBuildingEntity {
      }
     }
    }
-   Building : "{EA61622167E8A6DE}Prefabs/Structures/BuildingParts/Windows/WindowFrameTopFactory.et" {
-    components {
-     Hierarchy "{60B163FDFF570737}" {
-      Enabled 1
-      PivotID "socket_topwindow"
-      AutoTransform 1
-     }
-    }
-    coords 0 0 0
+   GameEnvironmentProbeEntity : "{6F46BA45228BFA0B}Prefabs/Structures/Infrastructure/Power/DieselPowerPlant_01/HouseAddons/Probe_DieselPowerPlant_01.et" {
+    coords -6.007 4.516 -17.685
    }
   }
  }
@@ -1122,227 +1125,17 @@ $grp SCR_DestructibleBuildingEntity {
    }
   }
   {
-   GenericEntity {
-    coords 0 0 0
+   $grp Building {
     {
-     GenericEntity : "{0712799E7E8A0D56}Prefabs/Props/Industrial/GasTank_02_rusty.et" {
-      coords 0.506 -0.133 -25.278
-      angles 0 -14.837 90
-     }
-     GenericEntity : "{10C5A45290A9EEED}Prefabs/Props/Industrial/GasTank_01_blue.et" {
-      coords -13.489 -0.269 -6.879
-     }
-     GenericEntity : "{342E852E9A1847EA}Prefabs/Props/Industrial/Repair/VehicleGarbage_01_pile_medium.et" {
-      coords -12.968 -0.263 -8.252
-      angles 0 -17.05 0
-     }
-     GenericEntity : "{47F8D83F71EB2B74}Prefabs/Structures/Infrastructure/Lamps/LampStreet_E_02/LampStreet_E_02_addon.et" {
-      coords -14.298 9.986 -25.873
-      angles 0 180 0
-     }
-     GenericEntity : "{49011ACB162736A9}Prefabs/Props/Civilian/Workbenches/Workbench01.et" {
-      coords -13.548 -0.275 -13.181
-     }
-     $grp GenericEntity : "{4BE795374BE3D67E}Prefabs/Props/Industrial/BarrelFuel_01_closed.et" {
-      {
-       coords 2.614 -0.267 -23.871
-       angles 0 -78.596 0
-      }
-      {
-       coords 2.53 -0.267 -24.653
-       angles 0 -30.128 0
-      }
-      {
-       coords 3.239 -0.267 -24.181
-       angles 0 28.878 0
-      }
-      {
-       coords 3.123 -0.267 -23.182
-       angles 0 -143.021 0
-      }
-      {
-       coords 3.792 -0.267 -23.596
-       angles 0 -94.552 0
-      }
-      {
-       coords 3.673 -0.267 -22.753
-       angles 0 -35.547 0
+     components {
+      Hierarchy "{60B163FDFF570737}" {
+       Enabled 1
+       PivotID "socket_windowlong"
+       AutoTransform 1
       }
      }
-     GenericEntity : "{50A752B7D5E679A2}Prefabs/Props/Industrial/Repair/GasWelder_01.et" {
-      coords -12.374 -0.258 -9.81
-      angles 0 -60.337 0
-     }
-     $grp GameEntity : "{537055C7BFA8530F}Prefabs/Props/Civilian/Ladders/LadderFactorySilo.et.et" {
-      {
-       coords -0.799 22.672 -3.62
-       angles 0 -180 0
-      }
-      {
-       coords 1.343 22.672 11.888
-       angles 0 90 0
-      }
-     }
-     $grp GenericEntity : "{5EF5C5129B116115}Prefabs/Structures/BuildingParts/Lights/LampIndustrial_02.et" {
-      {
-       coords -7.261 7.36 -16.323
-      }
-      {
-       coords -7.261 7.36 -10.583
-      }
-      {
-       coords -7.261 7.36 -21.391
-      }
-     }
-     $grp GenericEntity : "{8871B00C873DA8B7}Prefabs/Props/Civilian/Shelves/Shelf_Metal.et" {
-      {
-       coords -13.568 -0.255 -21.066
-       angles 0 0 0
-      }
-      {
-       coords -13.63 -0.255 -19.588
-       angles 0 0 0
-      }
-      {
-       coords -13.63 -0.255 -18.863
-       angles 0 0 0
-      }
-      {
-       coords -13.63 -0.255 -17.425
-       angles 0 0 0
-      }
-      {
-       coords -13.63 -0.255 -18.15
-       angles 0 0 0
-      }
-      {
-       coords -13.63 -0.255 -20.367
-       angles 0 0 0
-      }
-      {
-       coords -13.545 -0.255 -21.822
-       angles 0 0 0
-      }
-     }
-     GenericEntity : "{90A74133C1DC6226}Prefabs/Props/Industrial/Repair/EngineCrane_01.et" {
-      coords -10.737 -0.252 -7.457
-      angles 0 -147.276 0
-     }
-     GenericEntity : "{A52C57FE8549A13E}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/CargoContainer_01_10ft_red.et" {
-      coords 2.939 -0.262 -10.878
-      angles 0 86.487 0
-     }
-     GenericEntity : "{B557358F8F64AE31}Prefabs/Props/Industrial/Repair/HydraulicCarJack_01.et" {
-      coords -8.698 -0.256 -6.832
-      angles 0 180 0
-     }
-     $grp StaticModelEntity : "{BB64FBA6986C62F7}Prefabs/Structures/BuildingParts/Entry/ConcreteSlope_02_MediumVehicle.et" {
-      {
-       coords -8.407 -0.277 -25.93
-       angles 0 180 0
-      }
-      {
-       coords -7.127 -0.274 -25.93
-       angles 0 180 0
-      }
-     }
-     $grp GenericEntity : "{BB6989EB97F4F67E}Prefabs/Structures/BuildingParts/Lights/LampIndustrial_03.et" {
-      {
-       coords 10.028 7.127 -17.84
-      }
-      {
-       coords 10.028 7.127 -23.021
-      }
-     }
-     GenericEntity : "{BC2FDA7C84AB753B}Prefabs/Compositions/Misc/SubCompositions/Workbench_Cluttered_US_01.et" {
-      coords 14.192 -0.263 -21.989
-      angles 0 -90 0
-      {
-       GenericEntity {
-        ID "552C7391D9C750E9"
-        coords -0.048 1.02 0.004
-        angles 0 -142.962 0
-       }
-       GenericEntity {
-        ID "552C7391D9C75090"
-        coords 0.433 1.014 0.257
-        angles 0 178.177 0
-       }
-      }
-     }
-     $grp GameEntity : "{C8D269AC41F9308B}Prefabs/Props/Civilian/Ladders/LadderSideFactory.et" {
-      {
-       coords 4.948 9.507 14.972
-       angles 0 90 0
-      }
-      {
-       coords -4.161 9.495 -4.236
-       angles 0 -90 0
-      }
-     }
-     GenericEntity : "{C94927591FBC6B54}Prefabs/Props/Industrial/BenchDrill_01_set.et" {
-      coords 11.859 -0.264 -24.684
-     }
-     $grp StaticModelEntity : "{CAF8666F26CEB7AD}Prefabs/Structures/BuildingParts/Entry/ConcreteStairs_02_Narrow.et" {
-      {
-       coords 0.101 -0.272 -4.721
-      }
-      {
-       coords -3.718 -0.267 -25.918
-       angles 0 180 0
-      }
-     }
-     GenericEntity : "{DA861447E6D426AE}Prefabs/Props/Industrial/Repair/VehicleGarbage_01_pile_small.et" {
-      coords -13.241 -0.253 -9.825
-     }
+     coords 0 0 0
     }
-   }
-   Building : "{126C74C12BEF77DE}Prefabs/Structures/BuildingParts/Windows/FactoryWindowLongFrame.et" {
-    components {
-     Hierarchy "{60B163FDFF570737}" {
-      Enabled 1
-      PivotID "socket_windowlong"
-      AutoTransform 1
-     }
-    }
-    coords 0 0 0
-   }
-   GenericEntity : "{335A0EE16637C117}Prefabs/Props/Structures/Doors/FactoryFrameDoor.et" {
-    components {
-     Hierarchy "{60B8E41E4AA22B33}" {
-      Enabled 1
-      PivotID "socket_Doormain"
-      AutoTransform 1
-     }
-    }
-    coords 0 0 0
-    {
-     GenericEntity {
-      ID "613B5936F43A5107"
-      components {
-       DoorComponent "{60DAD4938B8E4C9B}" {
-        DoorAction SCR_DoorUserAction "{60DAD4938B8E4D1C}" {
-         m_FactionKey FACTION_MUTANTS
-        }
-       }
-      }
-     }
-     GenericEntity {
-      ID "613B5936F43A5161"
-      components {
-       DoorComponent "{60DAD493D6FA5AA7}" {
-        DoorAction SCR_DoorUserAction "{60DAD493D6FA5B48}" {
-         m_FactionKey FACTION_MUTANTS
-        }
-       }
-      }
-     }
-    }
-   }
-   GameEnvironmentProbeEntity : "{6F46BA45228BFA0B}Prefabs/Structures/Infrastructure/Power/DieselPowerPlant_01/HouseAddons/Probe_DieselPowerPlant_01.et" {
-    coords -6.007 4.516 -17.685
-   }
-   $grp Building : "{B438BD6F8AFDBB58}Prefabs/Structures/BuildingParts/Windows/WindowFrameFactoryside.et" {
     {
      components {
       Hierarchy "{60B163FDFF570737}" {
@@ -1373,8 +1166,216 @@ $grp SCR_DestructibleBuildingEntity {
      }
      coords 0 0 0
     }
+    {
+     components {
+      Hierarchy "{60B163FDFF570737}" {
+       Enabled 1
+       PivotID "socket_topwindow"
+       AutoTransform 1
+      }
+     }
+     coords 0 0 0
+    }
    }
-   $grp GenericEntity : "{DA2FF0446867B249}Prefabs/Props/Structures/Doors/Doorframe_Factory.et" {
+   $grp GenericEntity {
+    {
+     coords 0 0 0
+     {
+      $grp GameEntity {
+       {
+        coords -0.799 22.672 -3.62
+        angles 0 -180 0
+       }
+       {
+        coords 1.343 22.672 11.888
+        angles 0 90 0
+       }
+       {
+        coords 4.948 9.507 14.972
+        angles 0 90 0
+       }
+       {
+        coords -4.161 9.495 -4.236
+        angles 0 -90 0
+       }
+      }
+      $grp GenericEntity {
+       {
+        coords -13.548 -0.275 -13.181
+       }
+       {
+        coords -13.568 -0.255 -21.066
+       }
+       {
+        coords -13.63 -0.255 -19.588
+       }
+       {
+        coords -13.63 -0.255 -18.863
+       }
+       {
+        coords -13.63 -0.255 -17.425
+       }
+       {
+        coords -13.63 -0.255 -18.15
+       }
+       {
+        coords -13.63 -0.255 -20.367
+       }
+       {
+        coords -13.545 -0.255 -21.822
+       }
+      }
+      GenericEntity : "{0712799E7E8A0D56}Prefabs/Props/Industrial/GasTank_02_rusty.et" {
+       coords 0.506 -0.133 -25.278
+       angles 0 -14.837 90
+      }
+      GenericEntity : "{10C5A45290A9EEED}Prefabs/Props/Industrial/GasTank_01_blue.et" {
+       coords -13.489 -0.269 -6.879
+      }
+      GenericEntity : "{342E852E9A1847EA}Prefabs/Props/Industrial/Repair/VehicleGarbage_01_pile_medium.et" {
+       coords -12.968 -0.263 -8.252
+       angles 0 -17.05 0
+      }
+      GenericEntity : "{47F8D83F71EB2B74}Prefabs/Structures/Infrastructure/Lamps/LampStreet_E_02/LampStreet_E_02_addon.et" {
+       coords -14.298 9.986 -25.873
+       angles 0 180 0
+      }
+      $grp GenericEntity : "{4BE795374BE3D67E}Prefabs/Props/Industrial/BarrelFuel_01_closed.et" {
+       {
+        coords 2.614 -0.267 -23.871
+        angles 0 -78.596 0
+       }
+       {
+        coords 2.53 -0.267 -24.653
+        angles 0 -30.128 0
+       }
+       {
+        coords 3.239 -0.267 -24.181
+        angles 0 28.878 0
+       }
+       {
+        coords 3.123 -0.267 -23.182
+        angles 0 -143.021 0
+       }
+       {
+        coords 3.792 -0.267 -23.596
+        angles 0 -94.552 0
+       }
+       {
+        coords 3.673 -0.267 -22.753
+        angles 0 -35.547 0
+       }
+      }
+      GenericEntity : "{50A752B7D5E679A2}Prefabs/Props/Industrial/Repair/GasWelder_01.et" {
+       coords -12.374 -0.258 -9.81
+       angles 0 -60.337 0
+      }
+      $grp GenericEntity : "{5EF5C5129B116115}Prefabs/Structures/BuildingParts/Lights/LampIndustrial_02.et" {
+       {
+        coords -7.261 7.36 -16.323
+       }
+       {
+        coords -7.261 7.36 -10.583
+       }
+       {
+        coords -7.261 7.36 -21.391
+       }
+      }
+      GenericEntity : "{90A74133C1DC6226}Prefabs/Props/Industrial/Repair/EngineCrane_01.et" {
+       coords -10.737 -0.252 -7.457
+       angles 0 -147.276 0
+      }
+      GenericEntity : "{A52C57FE8549A13E}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/CargoContainer_01_10ft_red.et" {
+       coords 2.939 -0.262 -10.878
+       angles 0 86.487 0
+      }
+      GenericEntity : "{B557358F8F64AE31}Prefabs/Props/Industrial/Repair/HydraulicCarJack_01.et" {
+       coords -8.698 -0.256 -6.832
+       angles 0 180 0
+      }
+      $grp StaticModelEntity : "{BB64FBA6986C62F7}Prefabs/Structures/BuildingParts/Entry/ConcreteSlope_02_MediumVehicle.et" {
+       {
+        coords -8.407 -0.277 -25.93
+        angles 0 180 0
+       }
+       {
+        coords -7.127 -0.274 -25.93
+        angles 0 180 0
+       }
+      }
+      $grp GenericEntity : "{BB6989EB97F4F67E}Prefabs/Structures/BuildingParts/Lights/LampIndustrial_03.et" {
+       {
+        coords 10.028 7.127 -17.84
+       }
+       {
+        coords 10.028 7.127 -23.021
+       }
+      }
+      GenericEntity : "{BC2FDA7C84AB753B}Prefabs/Compositions/Misc/SubCompositions/Workbench_Cluttered_US_01.et" {
+       coords 14.192 -0.263 -21.989
+       angles 0 -90 0
+       {
+        GenericEntity {
+         ID "552C7391D9C750E9"
+         coords -0.048 1.02 0.004
+         angles 0 -142.962 0
+        }
+        GenericEntity {
+         ID "552C7391D9C75090"
+         coords 0.433 1.014 0.257
+         angles 0 178.177 0
+        }
+       }
+      }
+      GenericEntity : "{C94927591FBC6B54}Prefabs/Props/Industrial/BenchDrill_01_set.et" {
+       coords 11.859 -0.264 -24.684
+      }
+      $grp StaticModelEntity : "{CAF8666F26CEB7AD}Prefabs/Structures/BuildingParts/Entry/ConcreteStairs_02_Narrow.et" {
+       {
+        coords 0.101 -0.272 -4.721
+       }
+       {
+        coords -3.718 -0.267 -25.918
+        angles 0 180 0
+       }
+      }
+      GenericEntity : "{DA861447E6D426AE}Prefabs/Props/Industrial/Repair/VehicleGarbage_01_pile_small.et" {
+       coords -13.241 -0.253 -9.825
+      }
+     }
+    }
+    {
+     components {
+      Hierarchy "{60B8E41E4AA22B33}" {
+       Enabled 1
+       PivotID "socket_Doormain"
+       AutoTransform 1
+      }
+     }
+     coords 0 0 0
+     {
+      $grp GenericEntity {
+       {
+        components {
+         DoorComponent "{60DAD4938B8E4C9B}" {
+          DoorAction SCR_DoorUserAction "{60DAD4938B8E4D1C}" {
+           m_FactionKey FACTION_MUTANTS
+          }
+         }
+        }
+       }
+       {
+        components {
+         DoorComponent "{60DAD493D6FA5AA7}" {
+          DoorAction SCR_DoorUserAction "{60DAD493D6FA5B48}" {
+           m_FactionKey FACTION_MUTANTS
+          }
+         }
+        }
+       }
+      }
+     }
+    }
     {
      components {
       Hierarchy "{60DAD4910B4CB99F}" {
@@ -1386,7 +1387,6 @@ $grp SCR_DestructibleBuildingEntity {
      coords 0 0 0
      {
       GenericEntity {
-       ID "60DAD4912D50F329"
        components {
         DoorComponent "{60DAD49168A76E46}" {
          DoorAction SCR_DoorUserAction "{60DAD49168A76E63}" {
@@ -1408,7 +1408,6 @@ $grp SCR_DestructibleBuildingEntity {
      coords 0 0 0
      {
       GenericEntity {
-       ID "60DAD4912D50F329"
        components {
         DoorComponent "{60DAD49168A76E46}" {
          DoorAction SCR_DoorUserAction "{60DAD49168A76E63}" {
@@ -1430,7 +1429,6 @@ $grp SCR_DestructibleBuildingEntity {
      coords 0 0 0
      {
       GenericEntity {
-       ID "60DAD4912D50F329"
        components {
         DoorComponent "{60DAD49168A76E46}" {
          DoorAction SCR_DoorUserAction "{60DAD49168A76E63}" {
@@ -1442,15 +1440,8 @@ $grp SCR_DestructibleBuildingEntity {
      }
     }
    }
-   Building : "{EA61622167E8A6DE}Prefabs/Structures/BuildingParts/Windows/WindowFrameTopFactory.et" {
-    components {
-     Hierarchy "{60B163FDFF570737}" {
-      Enabled 1
-      PivotID "socket_topwindow"
-      AutoTransform 1
-     }
-    }
-    coords 0 0 0
+   GameEnvironmentProbeEntity : "{6F46BA45228BFA0B}Prefabs/Structures/Infrastructure/Power/DieselPowerPlant_01/HouseAddons/Probe_DieselPowerPlant_01.et" {
+    coords -6.007 4.516 -17.685
    }
   }
  }
@@ -1622,234 +1613,17 @@ $grp SCR_DestructibleBuildingEntity {
    }
   }
   {
-   GenericEntity {
-    coords 0 0 0
+   $grp Building {
     {
-     GenericEntity : "{0712799E7E8A0D56}Prefabs/Props/Industrial/GasTank_02_rusty.et" {
-      coords 0.506 -0.133 -25.278
-      angles 0 -14.837 90
-     }
-     GenericEntity : "{10C5A45290A9EEED}Prefabs/Props/Industrial/GasTank_01_blue.et" {
-      coords -13.489 -0.269 -6.879
-     }
-     GenericEntity : "{342E852E9A1847EA}Prefabs/Props/Industrial/Repair/VehicleGarbage_01_pile_medium.et" {
-      coords -12.968 -0.263 -8.252
-      angles 0 -17.05 0
-     }
-     GenericEntity : "{47F8D83F71EB2B74}Prefabs/Structures/Infrastructure/Lamps/LampStreet_E_02/LampStreet_E_02_addon.et" {
-      coords -14.298 9.986 -25.873
-      angles 0 180 0
-     }
-     GenericEntity : "{49011ACB162736A9}Prefabs/Props/Civilian/Workbenches/Workbench01.et" {
-      coords -13.548 -0.275 -13.181
-     }
-     $grp GenericEntity : "{4BE795374BE3D67E}Prefabs/Props/Industrial/BarrelFuel_01_closed.et" {
-      {
-       coords 2.614 -0.267 -23.871
-       angles 0 -78.596 0
-      }
-      {
-       coords 2.53 -0.267 -24.653
-       angles 0 -30.128 0
-      }
-      {
-       coords 3.239 -0.267 -24.181
-       angles 0 28.878 0
-      }
-      {
-       coords 3.123 -0.267 -23.182
-       angles 0 -143.021 0
-      }
-      {
-       coords 3.792 -0.267 -23.596
-       angles 0 -94.552 0
-      }
-      {
-       coords 3.673 -0.267 -22.753
-       angles 0 -35.547 0
+     components {
+      Hierarchy "{60B163FDFF570737}" {
+       Enabled 1
+       PivotID "socket_windowlong"
+       AutoTransform 1
       }
      }
-     GenericEntity : "{50A752B7D5E679A2}Prefabs/Props/Industrial/Repair/GasWelder_01.et" {
-      coords -12.374 -0.258 -9.81
-      angles 0 -60.337 0
-     }
-     $grp GameEntity : "{537055C7BFA8530F}Prefabs/Props/Civilian/Ladders/LadderFactorySilo.et.et" {
-      {
-       coords -0.799 22.672 -3.62
-       angles 0 -180 0
-      }
-      {
-       coords 1.343 22.672 11.888
-       angles 0 90 0
-      }
-     }
-     $grp GenericEntity : "{5EF5C5129B116115}Prefabs/Structures/BuildingParts/Lights/LampIndustrial_02.et" {
-      {
-       coords -7.261 7.36 -16.323
-      }
-      {
-       coords -7.261 7.36 -10.583
-      }
-      {
-       coords -7.261 7.36 -21.391
-      }
-     }
-     $grp GenericEntity : "{8871B00C873DA8B7}Prefabs/Props/Civilian/Shelves/Shelf_Metal.et" {
-      {
-       coords -13.568 -0.255 -21.066
-       angles 0 0 0
-      }
-      {
-       coords -13.63 -0.255 -19.588
-       angles 0 0 0
-      }
-      {
-       coords -13.63 -0.255 -18.863
-       angles 0 0 0
-      }
-      {
-       coords -13.63 -0.255 -17.425
-       angles 0 0 0
-      }
-      {
-       coords -13.63 -0.255 -18.15
-       angles 0 0 0
-      }
-      {
-       coords -13.63 -0.255 -20.367
-       angles 0 0 0
-      }
-      {
-       coords -13.545 -0.255 -21.822
-       angles 0 0 0
-      }
-     }
-     GenericEntity : "{90A74133C1DC6226}Prefabs/Props/Industrial/Repair/EngineCrane_01.et" {
-      coords -10.737 -0.252 -7.457
-      angles 0 -147.276 0
-     }
-     GenericEntity : "{A52C57FE8549A13E}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/CargoContainer_01_10ft_red.et" {
-      coords 2.939 -0.262 -10.878
-      angles 0 86.487 0
-     }
-     GenericEntity : "{B557358F8F64AE31}Prefabs/Props/Industrial/Repair/HydraulicCarJack_01.et" {
-      coords -8.698 -0.256 -6.832
-      angles 0 180 0
-     }
-     $grp StaticModelEntity : "{BB64FBA6986C62F7}Prefabs/Structures/BuildingParts/Entry/ConcreteSlope_02_MediumVehicle.et" {
-      {
-       coords -8.407 -0.277 -25.93
-       angles 0 180 0
-      }
-      {
-       coords -7.127 -0.274 -25.93
-       angles 0 180 0
-      }
-     }
-     $grp GenericEntity : "{BB6989EB97F4F67E}Prefabs/Structures/BuildingParts/Lights/LampIndustrial_03.et" {
-      {
-       coords 10.028 7.127 -17.84
-      }
-      {
-       coords 10.028 7.127 -23.021
-      }
-     }
-     GenericEntity : "{BC2FDA7C84AB753B}Prefabs/Compositions/Misc/SubCompositions/Workbench_Cluttered_US_01.et" {
-      coords 14.137 -0.263 -21.743
-      angles 0 -90 0
-      {
-       GenericEntity {
-        ID "552C7391D9C750E9"
-        coords -0.048 1.02 0.004
-        angles 0 -142.962 0
-       }
-       GenericEntity {
-        ID "552C7391D9C75090"
-        coords 0.433 1.014 0.257
-        angles 0 178.177 0
-       }
-      }
-     }
-     $grp GameEntity : "{C8D269AC41F9308B}Prefabs/Props/Civilian/Ladders/LadderSideFactory.et" {
-      {
-       coords 4.948 9.507 14.972
-       angles 0 90 0
-      }
-      {
-       coords -4.161 9.495 -4.236
-       angles 0 -90 0
-      }
-     }
-     GenericEntity : "{C94927591FBC6B54}Prefabs/Props/Industrial/BenchDrill_01_set.et" {
-      coords 14.028 -0.264 -23.527
-      angles 0 -89.177 0
-      {
-       GenericEntity {
-        ID "551C7973A671B69B"
-        coords 0.001 1.003 0.141
-       }
-      }
-     }
-     $grp StaticModelEntity : "{CAF8666F26CEB7AD}Prefabs/Structures/BuildingParts/Entry/ConcreteStairs_02_Narrow.et" {
-      {
-       coords 0.101 -0.272 -4.721
-      }
-      {
-       coords -3.718 -0.267 -25.918
-       angles 0 180 0
-      }
-     }
-     GenericEntity : "{DA861447E6D426AE}Prefabs/Props/Industrial/Repair/VehicleGarbage_01_pile_small.et" {
-      coords -13.241 -0.253 -9.825
-     }
+     coords 0 0 0
     }
-   }
-   Building : "{126C74C12BEF77DE}Prefabs/Structures/BuildingParts/Windows/FactoryWindowLongFrame.et" {
-    components {
-     Hierarchy "{60B163FDFF570737}" {
-      Enabled 1
-      PivotID "socket_windowlong"
-      AutoTransform 1
-     }
-    }
-    coords 0 0 0
-   }
-   GenericEntity : "{335A0EE16637C117}Prefabs/Props/Structures/Doors/FactoryFrameDoor.et" {
-    components {
-     Hierarchy "{60B8E41E4AA22B33}" {
-      Enabled 1
-      PivotID "socket_Doormain"
-      AutoTransform 1
-     }
-    }
-    coords 0 0 0
-    {
-     GenericEntity {
-      ID "613B5936F43A5107"
-      components {
-       DoorComponent "{60DAD4938B8E4C9B}" {
-        DoorAction SCR_DoorUserAction "{60DAD4938B8E4D1C}" {
-         m_FactionKey FACTION_MUTANTS
-        }
-       }
-      }
-     }
-     GenericEntity {
-      ID "613B5936F43A5161"
-      components {
-       DoorComponent "{60DAD493D6FA5AA7}" {
-        DoorAction SCR_DoorUserAction "{60DAD493D6FA5B48}" {
-         m_FactionKey FACTION_MUTANTS
-        }
-       }
-      }
-     }
-    }
-   }
-   GameEnvironmentProbeEntity : "{6F46BA45228BFA0B}Prefabs/Structures/Infrastructure/Power/DieselPowerPlant_01/HouseAddons/Probe_DieselPowerPlant_01.et" {
-    coords -6.007 4.516 -17.685
-   }
-   $grp Building : "{B438BD6F8AFDBB58}Prefabs/Structures/BuildingParts/Windows/WindowFrameFactoryside.et" {
     {
      components {
       Hierarchy "{60B163FDFF570737}" {
@@ -1880,8 +1654,223 @@ $grp SCR_DestructibleBuildingEntity {
      }
      coords 0 0 0
     }
+    {
+     components {
+      Hierarchy "{60B163FDFF570737}" {
+       Enabled 1
+       PivotID "socket_topwindow"
+       AutoTransform 1
+      }
+     }
+     coords 0 0 0
+    }
    }
-   $grp GenericEntity : "{DA2FF0446867B249}Prefabs/Props/Structures/Doors/Doorframe_Factory.et" {
+   $grp GenericEntity {
+    {
+     coords 0 0 0
+     {
+      $grp GameEntity {
+       {
+        coords -0.799 22.672 -3.62
+        angles 0 -180 0
+       }
+       {
+        coords 1.343 22.672 11.888
+        angles 0 90 0
+       }
+       {
+        coords 4.948 9.507 14.972
+        angles 0 90 0
+       }
+       {
+        coords -4.161 9.495 -4.236
+        angles 0 -90 0
+       }
+      }
+      $grp GenericEntity {
+       {
+        coords -13.548 -0.275 -13.181
+       }
+       {
+        coords -13.568 -0.255 -21.066
+       }
+       {
+        coords -13.63 -0.255 -19.588
+       }
+       {
+        coords -13.63 -0.255 -18.863
+       }
+       {
+        coords -13.63 -0.255 -17.425
+       }
+       {
+        coords -13.63 -0.255 -18.15
+       }
+       {
+        coords -13.63 -0.255 -20.367
+       }
+       {
+        coords -13.545 -0.255 -21.822
+       }
+      }
+      GenericEntity : "{0712799E7E8A0D56}Prefabs/Props/Industrial/GasTank_02_rusty.et" {
+       coords 0.506 -0.133 -25.278
+       angles 0 -14.837 90
+      }
+      GenericEntity : "{10C5A45290A9EEED}Prefabs/Props/Industrial/GasTank_01_blue.et" {
+       coords -13.489 -0.269 -6.879
+      }
+      GenericEntity : "{342E852E9A1847EA}Prefabs/Props/Industrial/Repair/VehicleGarbage_01_pile_medium.et" {
+       coords -12.968 -0.263 -8.252
+       angles 0 -17.05 0
+      }
+      GenericEntity : "{47F8D83F71EB2B74}Prefabs/Structures/Infrastructure/Lamps/LampStreet_E_02/LampStreet_E_02_addon.et" {
+       coords -14.298 9.986 -25.873
+       angles 0 180 0
+      }
+      $grp GenericEntity : "{4BE795374BE3D67E}Prefabs/Props/Industrial/BarrelFuel_01_closed.et" {
+       {
+        coords 2.614 -0.267 -23.871
+        angles 0 -78.596 0
+       }
+       {
+        coords 2.53 -0.267 -24.653
+        angles 0 -30.128 0
+       }
+       {
+        coords 3.239 -0.267 -24.181
+        angles 0 28.878 0
+       }
+       {
+        coords 3.123 -0.267 -23.182
+        angles 0 -143.021 0
+       }
+       {
+        coords 3.792 -0.267 -23.596
+        angles 0 -94.552 0
+       }
+       {
+        coords 3.673 -0.267 -22.753
+        angles 0 -35.547 0
+       }
+      }
+      GenericEntity : "{50A752B7D5E679A2}Prefabs/Props/Industrial/Repair/GasWelder_01.et" {
+       coords -12.374 -0.258 -9.81
+       angles 0 -60.337 0
+      }
+      $grp GenericEntity : "{5EF5C5129B116115}Prefabs/Structures/BuildingParts/Lights/LampIndustrial_02.et" {
+       {
+        coords -7.261 7.36 -16.323
+       }
+       {
+        coords -7.261 7.36 -10.583
+       }
+       {
+        coords -7.261 7.36 -21.391
+       }
+      }
+      GenericEntity : "{90A74133C1DC6226}Prefabs/Props/Industrial/Repair/EngineCrane_01.et" {
+       coords -10.737 -0.252 -7.457
+       angles 0 -147.276 0
+      }
+      GenericEntity : "{A52C57FE8549A13E}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/CargoContainer_01_10ft_red.et" {
+       coords 2.939 -0.262 -10.878
+       angles 0 86.487 0
+      }
+      GenericEntity : "{B557358F8F64AE31}Prefabs/Props/Industrial/Repair/HydraulicCarJack_01.et" {
+       coords -8.698 -0.256 -6.832
+       angles 0 180 0
+      }
+      $grp StaticModelEntity : "{BB64FBA6986C62F7}Prefabs/Structures/BuildingParts/Entry/ConcreteSlope_02_MediumVehicle.et" {
+       {
+        coords -8.407 -0.277 -25.93
+        angles 0 180 0
+       }
+       {
+        coords -7.127 -0.274 -25.93
+        angles 0 180 0
+       }
+      }
+      $grp GenericEntity : "{BB6989EB97F4F67E}Prefabs/Structures/BuildingParts/Lights/LampIndustrial_03.et" {
+       {
+        coords 10.028 7.127 -17.84
+       }
+       {
+        coords 10.028 7.127 -23.021
+       }
+      }
+      GenericEntity : "{BC2FDA7C84AB753B}Prefabs/Compositions/Misc/SubCompositions/Workbench_Cluttered_US_01.et" {
+       coords 14.137 -0.263 -21.743
+       angles 0 -90 0
+       {
+        GenericEntity {
+         ID "552C7391D9C750E9"
+         coords -0.048 1.02 0.004
+         angles 0 -142.962 0
+        }
+        GenericEntity {
+         ID "552C7391D9C75090"
+         coords 0.433 1.014 0.257
+         angles 0 178.177 0
+        }
+       }
+      }
+      GenericEntity : "{C94927591FBC6B54}Prefabs/Props/Industrial/BenchDrill_01_set.et" {
+       coords 14.028 -0.264 -23.527
+       angles 0 -89.177 0
+       {
+        GenericEntity {
+         ID "551C7973A671B69B"
+         coords 0.001 1.003 0.141
+        }
+       }
+      }
+      $grp StaticModelEntity : "{CAF8666F26CEB7AD}Prefabs/Structures/BuildingParts/Entry/ConcreteStairs_02_Narrow.et" {
+       {
+        coords 0.101 -0.272 -4.721
+       }
+       {
+        coords -3.718 -0.267 -25.918
+        angles 0 180 0
+       }
+      }
+      GenericEntity : "{DA861447E6D426AE}Prefabs/Props/Industrial/Repair/VehicleGarbage_01_pile_small.et" {
+       coords -13.241 -0.253 -9.825
+      }
+     }
+    }
+    {
+     components {
+      Hierarchy "{60B8E41E4AA22B33}" {
+       Enabled 1
+       PivotID "socket_Doormain"
+       AutoTransform 1
+      }
+     }
+     coords 0 0 0
+     {
+      $grp GenericEntity {
+       {
+        components {
+         DoorComponent "{60DAD4938B8E4C9B}" {
+          DoorAction SCR_DoorUserAction "{60DAD4938B8E4D1C}" {
+           m_FactionKey FACTION_MUTANTS
+          }
+         }
+        }
+       }
+       {
+        components {
+         DoorComponent "{60DAD493D6FA5AA7}" {
+          DoorAction SCR_DoorUserAction "{60DAD493D6FA5B48}" {
+           m_FactionKey FACTION_MUTANTS
+          }
+         }
+        }
+       }
+      }
+     }
+    }
     {
      components {
       Hierarchy "{60DAD4910B4CB99F}" {
@@ -1893,7 +1882,6 @@ $grp SCR_DestructibleBuildingEntity {
      coords 0 0 0
      {
       GenericEntity {
-       ID "60DAD4912D50F329"
        components {
         DoorComponent "{60DAD49168A76E46}" {
          DoorAction SCR_DoorUserAction "{60DAD49168A76E63}" {
@@ -1915,7 +1903,6 @@ $grp SCR_DestructibleBuildingEntity {
      coords 0 0 0
      {
       GenericEntity {
-       ID "60DAD4912D50F329"
        components {
         DoorComponent "{60DAD49168A76E46}" {
          DoorAction SCR_DoorUserAction "{60DAD49168A76E63}" {
@@ -1937,7 +1924,6 @@ $grp SCR_DestructibleBuildingEntity {
      coords 0 0 0
      {
       GenericEntity {
-       ID "60DAD4912D50F329"
        components {
         DoorComponent "{60DAD49168A76E46}" {
          DoorAction SCR_DoorUserAction "{60DAD49168A76E63}" {
@@ -1949,15 +1935,8 @@ $grp SCR_DestructibleBuildingEntity {
      }
     }
    }
-   Building : "{EA61622167E8A6DE}Prefabs/Structures/BuildingParts/Windows/WindowFrameTopFactory.et" {
-    components {
-     Hierarchy "{60B163FDFF570737}" {
-      Enabled 1
-      PivotID "socket_topwindow"
-      AutoTransform 1
-     }
-    }
-    coords 0 0 0
+   GameEnvironmentProbeEntity : "{6F46BA45228BFA0B}Prefabs/Structures/Infrastructure/Power/DieselPowerPlant_01/HouseAddons/Probe_DieselPowerPlant_01.et" {
+    coords -6.007 4.516 -17.685
    }
   }
  }
@@ -2135,7 +2114,7 @@ GenericEntity : "{2887E99075B9C928}Prefabs/Props/Garbage/Generic/Litter_01_long.
  coords 3319.002 304.276 2924.016
  angles 0 60.249 0
 }
-GenericEntity : "{2E2351CD5B452FD6}Prefabs/Teleport/TELEPORT_DOOR.et" {
+GenericEntity : "{2E2351CD5B452FD6}Prefabs/Props/Teleport/TELEPORT_DOOR.et" {
  components {
   ActionsManagerComponent "{657E853A83CE2D0D}" {
    ActionContexts {
@@ -2157,7 +2136,6 @@ GenericEntity : "{2E2351CD5B452FD6}Prefabs/Teleport/TELEPORT_DOOR.et" {
      }
      m_sTeleportActionName "Monolith Bunker"
      m_sTeleportTarget "enter_perimetr7"
-     m_PrefabToSpawn "{CFBE5282A6098D90}Prefabs/Teleport/Teleport_light.et"
      m_fTeleportDelay 2
      m_fTeleportRadius 3
     }
@@ -2276,18 +2254,7 @@ GenericEntity : "{64A3A595C0A833AC}Prefabs/Props/Military/Sandbags/Sandbag_01_ro
  coords 3290.876 327.19 2940.863
  angles 0 -125.33 0
 }
-ParticleEffectEntity : "{65286A6422875F27}Prefabs/Anomals/Miracle/ARMST_MIRACLE_test.et" {
- coords 3296.072 307.106 2967.474
- angles 0 -15.557 0
- {
-  ARMST_DamagingTriggerEntity {
-   ID "68487255A0910E1E"
-   coords 0.358 -0.557 -0.141
-   angles 0 -23.073 0
-  }
- }
-}
-GenericEntity : "{7030822F7A54F479}Prefabs/LOOT_BOX/base/backpacks/CrateWooden_01_base.et" {
+GenericEntity : "{7030822F7A54F479}Prefabs/Props/Crates/CrateWooden_01_base.et" {
  coords 3313.259 304.243 2918.504
  angles 0 -121.421 0
 }
@@ -2322,11 +2289,6 @@ GenericEntity : "{7AF4B627D5C90235}Prefabs/Props/Military/Sandbags/Sandbag_01_ro
  coords 3285.266 314.017 2948.016
  angles -0.037 -67.681 -0.05
  scale 0.713
-}
-GenericEntity : "{805E465A9AAB1C6B}Prefabs/Props/Industrial/PsyTower.et" {
- coords 3295.901 303.705 2967.29
- angles 0 -106.509 0
- scale 0.536
 }
 GenericEntity : "{881558ACD5FC31C0}Prefabs/Props/Crates/CrateWooden_02/CrateWooden_02_1x1x2.et" {
  coords 3314.229 304.243 2919.27
@@ -2386,46 +2348,6 @@ GenericEntity : "{90C62D3DBDEB0758}Prefabs/Props/Military/Camps/ConstructionMate
 $grp GenericEntity : "{91B8D41BE2DF1DB5}Prefabs/Props/TRADE/ARMST_TRADER.et" {
  {
   components {
-   ARMST_TRADER_CAT_COMPONENT "{65E06D1FFD7232FF}" {
-    m_EnableSell 0
-    m_sTraderCategoryName1 "Weapons (F)"
-    m_sTraderCategory1 {
-     "{8CFB9350E6C12F66}Configs/Trader/MONOLITH (MUTANT)/Monolith_Free_Weapons.conf"
-    }
-    m_sTraderCategoryName2 "Equipment (F)"
-    m_sTraderCategory2 {
-     "{2365F953D8DC4880}Configs/Trader/MONOLITH (MUTANT)/Monolith_Free_Equipment.conf"
-    }
-    m_sTraderCategoryName3 "Ammo (F)"
-    m_sTraderCategory3 {
-    }
-    m_sTraderCategoryName4 "Medical (F)"
-    m_sTraderCategory4 {
-    }
-    m_sTraderCategoryName5 "Misc (F)"
-    m_sTraderCategory5 {
-    }
-    m_sTraderCategoryName6 "Clothes (F)"
-    m_sTraderCategory6 {
-    }
-    m_sTraderCategoryName7 "Tools (F)"
-    m_sTraderCategory7 {
-    }
-    m_sTraderCategory8 {
-    }
-    m_sTraderCategoryName9 "Weapons (₽)"
-    m_sTraderCategory9 {
-    }
-    m_sTraderCategoryName10 "Equipment (₽)"
-    m_sTraderCategory10 {
-    }
-    m_sTraderCategory11 {
-    }
-    m_fSellPercent 0
-    m_fSellCondition 0
-    m_FactionTrader FACTION_MUTANTS
-    m_OnlyForFaction 1
-   }
    MeshObject "{5872F0EB7FA40561}" {
     Materials {
      MaterialAssignClass "{65E06D1FF49FE613}" {
@@ -2477,53 +2399,6 @@ $grp GenericEntity : "{91B8D41BE2DF1DB5}Prefabs/Props/TRADE/ARMST_TRADER.et" {
   angles 0 87.738 0
  }
  {
-  components {
-   ARMST_TRADER_CAT_COMPONENT "{65E06D1FFD7232FF}" {
-    m_sTraderCategoryName1 "Guns"
-    m_sTraderCategory1 {
-     "{497B65AC5FAB3FA9}Configs/Trader/MONOLITH (MUTANT)/SR_MONO_GUNS.conf"
-    }
-    m_sTraderCategoryName2 "Ammo"
-    m_sTraderCategory2 {
-     "{658755087A6B0041}Configs/Trader/MONOLITH (MUTANT)/SR_AMMO_MONO.conf"
-    }
-    m_sTraderCategoryName3 "Meds"
-    m_sTraderCategory3 {
-     "{7AE05DB06C735F1E}Configs/Trader/MONOLITH (MUTANT)/SR_MONO_MEDS.conf"
-    }
-    m_sTraderCategoryName4 "Tools"
-    m_sTraderCategory4 {
-     "{7DB147E9860A5371}Configs/Trader/MONOLITH (MUTANT)/SR_MONO_TOOLS.conf"
-    }
-    m_sTraderCategoryName5 "Armor"
-    m_sTraderCategory5 {
-     "{00062DD5995F57F1}Configs/Trader/MONOLITH (MUTANT)/SR_MONO_ARMOR.conf"
-    }
-    m_sTraderCategoryName6 "Explposives"
-    m_sTraderCategory6 {
-     "{853AEE515C2469E4}Configs/Trader/MONOLITH (MUTANT)/SR_EXPLO_MONO.conf"
-    }
-    m_sTraderCategoryName7 "Food"
-    m_sTraderCategory7 {
-     "{CDB78B588FBF8EF7}Configs/Trader/MONOLITH (MUTANT)/SR_MONO_FOODS.conf"
-    }
-    m_sTraderCategory8 {
-     "{C9C74CD09A933674}Configs/Trader/MONOLITH (MUTANT)/SR_MONO_SELLABLES.conf"
-    }
-    m_sTraderCategoryName9 "Repairs"
-    m_sTraderCategory9 {
-     "{5F10B39941EEAD16}Configs/Trader/Military Trader/SR_MILIREPAIR.conf"
-    }
-    m_sTraderCategory10 {
-    }
-    m_sTraderCategory11 {
-    }
-    m_fSellPercent 0
-    m_fSellCondition 70
-    m_FactionTrader FACTION_MUTANTS
-    m_OnlyForFaction 1
-   }
-  }
   coords 3318.555 305.274 2925.469
   angles 0 -31.549 0
  }

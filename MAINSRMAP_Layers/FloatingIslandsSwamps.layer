@@ -359,31 +359,16 @@ GenericEntity : "{24023F72054F5AB8}Prefabs/Vehicles/zil131/base/BASE_zil131_fire
  coords 2538.718 294.512 592.271
  angles 82.298 148.918 -5.699
 }
-$grp GenericEntity : "{2C819C7F1CECED07}Prefabs/LOOT_BOX/random loot prefabs/stash bags.et" {
+$grp GenericEntity : "{2C819C7F1CECED07}Prefabs/LOOT_BOX/1_TIER/1_TIER_Loot_randomize_army.et" {
  {
-  components {
-   ARMST_RANDOM_LOOTS_POINT "{669E640B5529F967}" {
-    m_bSpawnInMediumTier 1
-   }
-  }
   coords 2576.938 323.501 526.318
   angles 0 86.981 0
  }
  {
-  components {
-   ARMST_RANDOM_LOOTS_POINT "{669E640B5529F967}" {
-    m_bSpawnInMediumTier 1
-   }
-  }
   coords 2575.505 324.055 516.662
   angles 0 -43.549 0
  }
  {
-  components {
-   ARMST_RANDOM_LOOTS_POINT "{669E640B5529F967}" {
-    m_bSpawnInMediumTier 1
-   }
-  }
   coords 2565.464 323.318 521.489
  }
 }
@@ -442,10 +427,8 @@ SCR_DestructibleBuildingEntity : "{4FDDE496DACE1BA9}Prefabs/Houses/House_Individ
  angles -4.453 -88.394 -0.571
  {
   GameEntity BallisticTable_USSR_6718761FA9F1FD3 {
-   ID "665EA4BF2F306024"
   }
   GenericEntity TankerBoots_US_01_6718761FA9F3 {
-   ID "665EA4BEBF018CF9"
   }
  }
 }

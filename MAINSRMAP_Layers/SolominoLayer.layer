@@ -1,3 +1,14 @@
+$grp GenericEntity {
+ {
+  coords 6299.076 307.112 737.018
+ }
+ {
+  coords 6302.463 307.056 737.255
+ }
+ {
+  coords 6314.738 306.946 740.68
+ }
+}
 GenericEntity : "{06363A95838DD8ED}Prefabs/beds/matrass_4.et" {
  coords 6236.721 308.721 686.043
  angles 0 19.43 0
@@ -266,7 +277,7 @@ GenericEntity : "{70079E77310CA07C}Prefabs/Trash/ground_plane/clothes/plane_tras
  coords 6232.504 308.717 687.564
  angles 0 -70.977 0
 }
-GenericEntity : "{7030822F7A54F479}Prefabs/LOOT_BOX/base/backpacks/CrateWooden_01_base.et" {
+GenericEntity : "{7030822F7A54F479}Prefabs/Props/Crates/CrateWooden_01_base.et" {
  coords 6266.834 308.16 741.424
 }
 $grp StaticModelEntity : "{72BEAAAFAAB49846}Prefabs/Structures/Debris/DebrisPile/DebrisPile_Wood_01_Debris_01.et" {
@@ -288,14 +299,6 @@ $grp GenericEntity : "{75D6399D86C39EFF}Prefabs/posters/stalker_poster5.et" {
  {
   coords 6231.928 309.467 685.96
   angles 0 111.219 -4.456
- }
-}
-$grp GenericEntity : "{7623D8817F312691}Prefabs/DONT_USE/BenchIndustrial_01_d.et" {
- {
-  coords 6299.076 307.112 737.018
- }
- {
-  coords 6302.463 307.056 737.255
  }
 }
 StaticModelEntity : "{7BF8E2A89831D1D6}Prefabs/Structures/Debris/Debris_HouseVillage/Debris_HouseVillage_Wood_Roof_v6.et" {
@@ -533,9 +536,6 @@ $grp GenericEntity : "{D265EEBF3B9F8B72}Prefabs/Trash/ground_plane/stroy_musor/p
   angles 0 -84.644 0
   scale 1.8
  }
-}
-GenericEntity : "{D3E3B1B1874E4876}Prefabs/DONT_USE/ContainerMetal_01_d.et" {
- coords 6314.738 306.946 740.68
 }
 GenericEntity : "{D54AFB72F95D2EF3}Prefabs/posters/Poster_25.et" {
  coords 6300.671 308.192 736.267

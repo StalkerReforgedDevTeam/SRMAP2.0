@@ -2838,21 +2838,21 @@ $grp GenericEntity {
      angles 0 -15.956 0
      scale 0.63
     }
+    {
+     coords 0.408 -81.435 -0.292
+     angles 0 -2.086 0
+    }
+   }
+   SCR_DestructibleEntity {
+    coords 0.633 -66.943 -0.259
    }
    GenericEntity : "{4CCC2146D8B2B8E1}Prefabs/books/book_1.et" {
     coords -0.069 -48.019 -0.189
     angles 0 -174.365 -0.453
    }
-   SCR_DestructibleEntity : "{992672D768B80A55}Prefabs/DONT_USE/FlowerpotFlowers_01_tagetes_yellow_d.et" {
-    coords 0.633 -66.943 -0.259
-   }
    GenericEntity : "{E5DDF083958FE23C}Prefabs/Posuda/posuda_8.et" {
     coords -0.113 -47.994 -0.197
     angles 0 -87.454 0
-   }
-   GenericEntity : "{E69BE8E11A5FE6A1}Prefabs/DONT_USE/TikTak_01.et" {
-    coords 0.408 -81.435 -0.292
-    angles 0 -2.086 0
    }
   }
  }
@@ -2977,6 +2977,187 @@ $grp GenericEntity {
   coords 4972.483 314.269 3137.63
   angles 5.086 8.677 63.189
  }
+}
+SCR_ChimeraCharacter {
+ components {
+  SCR_CommunicationSoundComponent "{54FD05D0C92D071F}" {
+   Filenames {
+   }
+  }
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab ""
+      }
+      SCR_EquipmentStorageSlot WristwatchSlot {
+       Prefab "{6FD6C96121905202}Prefabs/Items/Equipment/Watches/Watch_Vostok.et"
+      }
+     }
+    }
+   }
+   Attributes ItemAttributeCollection "{52BAC70D641B89B1}" {
+   }
+  }
+  ARMST_DEATH_COMPONENTS "{65FB0C29F2EE24DA}" {
+   Enabled 0
+  }
+  ARMST_DIALOGS_COMPONENT "{6686D3236158621E}" {
+  }
+  ARMST_ITEMS_STATS_COMPONENTS "{626EA1DE349BFDE9}" {
+   Enabled 0
+  }
+  ARMST_PLAYER_ANIMATION "{66A0B319CD077DFF}" {
+   m_bInitStart 1
+  }
+  ARMST_PLAYER_QUEST "{66488623DA5185BD}" {
+   Enabled 0
+  }
+  ARMST_PLAYER_REPUTATIONS_COMPONENT "{6646CB329EBE8680}" {
+   Enabled 0
+  }
+  ARMST_PLAYER_STATS_COMPONENT "{6275149C8E6B70D6}" {
+   Enabled 0
+  }
+  ChimeraAIControlComponent "{520EA1D2DB109F34}" {
+   Enabled 1
+   components {
+    AICharacterAimingComponent "{520EA1D2DB109F0C}" {
+     Enabled 1
+    }
+    AICharacterHeadAimingComponent "{520EA1D2DB109F04}" {
+     Enabled 1
+    }
+    AICharacterMovementComponent "{520EA1D2DB109F01}" {
+     Enabled 1
+    }
+    AIPathfindingComponent "{56349A6F9C02E7A1}" {
+     Enabled 1
+    }
+    PerceptionComponent "{54A2CBC75F06064B}" {
+     Enabled 1
+     ForgetEnemyTime 10
+     SensorsList {
+      EyesSensor "{520EA1D2DB109AAD}" {
+       MaxRange 50
+      }
+      EarsSensor "{520EA1D2DB109AA9}" {
+       MaxRange 50
+      }
+     }
+    }
+    SCR_AICombatComponent "{55A2C9BE343B2EA1}" {
+     Enabled 1
+    }
+   }
+  }
+  EPF_PersistenceComponent "{5A12D8F4DFED6D84}" {
+   Enabled 0
+  }
+  FactionAffiliationComponent "{520EC9618276DF23}" {
+   "faction affiliation" "FACTION_STALKER"
+  }
+  SCR_CharacterDamageManagerComponent "{55872AD7B4E959F2}" {
+   Enabled 0
+  }
+  SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+   Enabled 1
+  }
+  SCR_CharacterRegistrationComponent "{5216D6E4AC68563B}" {
+   Enabled 1
+  }
+  SCR_CharacterStaminaComponent "{520EA1D2F659C824}" {
+   Enabled 1
+  }
+  SCR_CharacterVicinityComponent "{529A70D96D401B33}" {
+   Enabled 1
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   Enabled 0
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#Armst_neutral_character"
+    Icon "{9218EB59FC5028C7}Prefabs/Factions/Groups/STALKERS.edds"
+    m_Image "{9218EB59FC5028C7}Prefabs/Factions/Groups/STALKERS.edds"
+    m_sFaction "FACTION_STALKER"
+    m_aAuthoredLabels {
+    }
+   }
+   m_bAutoRegister NEVER
+  }
+  SCR_GadgetManagerComponent "{520EA1D2DB118DF3}" {
+   Enabled 1
+  }
+  SCR_MeleeComponent "{520EA1D2F659C85E}" {
+   Enabled 1
+  }
+  SCR_VoNComponent "{520EA1D2F659C856}" {
+   Enabled 1
+  }
+  BaseFlattenGrassComponent "{520EA1D2F659CE26}" {
+   Enabled 1
+  }
+  SCR_CharacterPerceivableComponent "{566CCE2397E28600}" {
+   Enabled 1
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Override 1
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{32583C88222142FD}Prefabs/Characters/Heads/Head_White_04.et"
+    }
+    Name ""
+    Alias ""
+    Surname "#armst_stalker_new_name_51"
+   }
+   m_IdentityFormatFull "#AR-Idenity_Name_Format_Ful"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{9A3C64E4F5691E86}Prefabs/Equipments/Helmets/Altyn/armst_hlmt_altyn_clear_gray.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{B46471B027875AE3}Prefabs/New_Equipment/Jackets/gorka/armst_jacket_tactical_western.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{845801D007B0C4C1}Prefabs/Armor/S26Vest_Black.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{10EE3F0831B6CEB2}Prefabs/Characters/Uniforms/Pants/Pants_Survivor.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{5DF442DF18F312F3}Prefabs/Equipments/Boots/armst_boots_soviet.et"
+    }
+    LoadoutSlotInfo Back {
+    }
+    LoadoutSlotInfo Vest {
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{2D525E69ACF22F5E}Prefabs/Equipments/Gloves/armst_gloves_hard.et"
+    }
+    LoadoutSlotInfo Head {
+     Prefab "{CB7E94FF44505957}Prefabs/Masks/PBF1Gasmask.et"
+    }
+   }
+  }
+  ActionsManagerComponent "{520EA1D2F659CE02}" {
+   ActionContexts {
+    UserActionContext "{520EA1D2F659CE17}" {
+    }
+   }
+   additionalActions {
+    ARMST_USER_DIALOGS "{6686ECEDBBB7636F}" {
+     m_bEnableDialogs 1
+    }
+   }
+  }
+  SCR_CharacterCameraHandlerComponent "{520EA1D2F659C98D}" {
+   Enabled 1
+  }
+ }
+ coords 4934.114 321.461 3139.684
+ angles 0 4.201 0
 }
 GameEntity : "{0DB214D91960B098}Prefabs/Structures/BuildingParts/Ladders/Ladder_Metal_612_B.et" {
  coords 4907.05 18.771 3149.674
@@ -3182,248 +3363,6 @@ $grp GenericEntity : "{AC7B97E7ABE8C0C2}Prefabs/Items/Deployable/furnitures/carp
 GenericEntity : "{B082D9F68862F5DF}Prefabs/chairs/chair_wooden.et" {
  coords 4934.823 321.385 3150.741
  angles 0 -151.08 0
-}
-SCR_ChimeraCharacter : "{BEAEA88EA0501921}Prefabs/QUESTS/SURVIVAL/STORM/SR_UDARNIKTRADER.et" {
- components {
-  SCR_CommunicationSoundComponent "{54FD05D0C92D071F}" {
-   Filenames +{
-   }
-  }
-  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
-   components {
-    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
-     InitialStorageSlots {
-      SCR_EquipmentStorageSlot BinocularSlot {
-       Prefab ""
-      }
-      SCR_EquipmentStorageSlot WristwatchSlot {
-       Prefab "{6FD6C96121905202}Prefabs/Items/Equipment/Watches/Watch_Vostok.et"
-      }
-     }
-    }
-   }
-   Attributes ItemAttributeCollection "{52BAC70D641B89B1}" {
-   }
-  }
-  ARMST_BOT_INTERACTION_COMPONENT "{62F9175F2C408F7A}" {
-   Enabled 0
-   m_bRecruitment 1
-   m_Chance_Recruitment 25
-   m_Chance_Story 35
-   m_Chance_Jokes 20
-   m_bActionCheck 1
-  }
-  ARMST_DEATH_COMPONENTS "{65FB0C29F2EE24DA}" {
-   Enabled 0
-  }
-  ARMST_DIALOGS_COMPONENT "{6686D3236158621E}" {
-   m_sFaction_Text "#Armst_faction_trader"
-   m_sDialog_2_Text "#armst_dialogs_trader"
-   m_sDialog_2_Scripts "Armst_dialog_trader"
-  }
-  ARMST_DeathHandlerComponent "{65891AD99A8DE826}" {
-   Enabled 0
-  }
-  ARMST_HUDCharacterComponent "{62F8B402505D4AE5}" {
-   Enabled 0
-  }
-  ARMST_HUD_Component "{62F8A3075397E503}" {
-   Enabled 0
-  }
-  ARMST_ITEMS_STATS_COMPONENTS "{626EA1DE349BFDE9}" {
-   Enabled 0
-  }
-  ARMST_MONEY_COMPONENTS "{6634B5230CEC9832}" {
-   Enabled 0
-  }
-  ARMST_PLAYER_ANIMATION "{66A0B319CD077DFF}" {
-   m_bInitStart 1
-   m_AnimationName LOITERING
-  }
-  ARMST_PLAYER_MAP_MARKERS "{66466BF8F18A06DB}" {
-   Enabled 0
-  }
-  ARMST_PLAYER_QUEST "{66488623DA5185BD}" {
-   Enabled 0
-  }
-  ARMST_PLAYER_REPUTATIONS_COMPONENT "{6646CB329EBE8680}" {
-   Enabled 0
-  }
-  ARMST_PLAYER_STATS_COMPONENT "{6275149C8E6B70D6}" {
-   Enabled 0
-  }
-  ARMST_TRADER_CAT_COMPONENT "{68C30C5633306F1B}" {
-   m_sTraderCategory1 +{
-   }
-   m_sTraderCategory2 +{
-   }
-   m_sTraderCategory3 +{
-   }
-   m_sTraderCategory4 +{
-   }
-   m_sTraderCategoryName5 "Equipment"
-   m_sTraderCategory5 {
-    "{EA1D16E3FEA78836}Configs/Trader/Northern Trader/SR_NORTHER_EQUIPMENT.conf"
-   }
-   m_sTraderCategoryName6 "Food"
-   m_sTraderCategory6 +{
-   }
-   m_sTraderCategoryName7 "Money"
-   m_sTraderCategory7 +{
-   }
-   m_sTraderCategoryName8 ""
-   m_sTraderCategory8 {
-   }
-   m_sTraderCategory9 +{
-    "{26655F9BF7A5714E}Configs/SR_ALLAMMOSELL.conf"
-    "{D6BCF51595CFFC25}Configs/Trader/ALL/armst_trader_cat_tools.conf"
-   }
-   m_fSellPercent 65
-  }
-  ChimeraAIControlComponent "{520EA1D2DB109F34}" {
-   Enabled 1
-   components {
-    AICharacterAimingComponent "{520EA1D2DB109F0C}" {
-     Enabled 1
-    }
-    AICharacterHeadAimingComponent "{520EA1D2DB109F04}" {
-     Enabled 1
-    }
-    AICharacterMovementComponent "{520EA1D2DB109F01}" {
-     Enabled 1
-    }
-    AIPathfindingComponent "{56349A6F9C02E7A1}" {
-     Enabled 1
-    }
-    PerceptionComponent "{54A2CBC75F06064B}" {
-     Enabled 1
-     ForgetEnemyTime 10
-     SensorsList {
-      EyesSensor "{520EA1D2DB109AAD}" {
-       MaxRange 50
-      }
-      EarsSensor "{520EA1D2DB109AA9}" {
-       MaxRange 50
-      }
-     }
-    }
-    SCR_AICombatComponent "{55A2C9BE343B2EA1}" {
-     Enabled 1
-    }
-   }
-  }
-  EPF_PersistenceComponent "{5A12D8F4DFED6D84}" {
-   Enabled 0
-  }
-  FactionAffiliationComponent "{520EC9618276DF23}" {
-   "faction affiliation" "FACTION_STALKER"
-  }
-  SCR_CharacterDamageManagerComponent "{55872AD7B4E959F2}" {
-   Enabled 0
-  }
-  SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
-   Enabled 1
-  }
-  SCR_CharacterRegistrationComponent "{5216D6E4AC68563B}" {
-   Enabled 1
-  }
-  SCR_CharacterStaminaComponent "{520EA1D2F659C824}" {
-   Enabled 1
-  }
-  SCR_CharacterVicinityComponent "{529A70D96D401B33}" {
-   Enabled 1
-  }
-  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
-   Enabled 0
-   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "#Armst_neutral_character"
-    Icon "{9218EB59FC5028C7}Prefabs/Groups/STALKERS.edds"
-    m_Image "{9218EB59FC5028C7}Prefabs/Groups/STALKERS.edds"
-    m_sFaction "FACTION_STALKER"
-    m_aAuthoredLabels +{
-    }
-   }
-   m_bAutoRegister NEVER
-  }
-  SCR_GadgetManagerComponent "{520EA1D2DB118DF3}" {
-   Enabled 1
-  }
-  SCR_MeleeComponent "{520EA1D2F659C85E}" {
-   Enabled 1
-  }
-  SCR_VoNComponent "{520EA1D2F659C856}" {
-   Enabled 1
-  }
-  BaseFlattenGrassComponent "{520EA1D2F659CE26}" {
-   Enabled 1
-  }
-  SCR_CharacterPerceivableComponent "{566CCE2397E28600}" {
-   Enabled 1
-  }
-  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
-   Override 1
-   Identity Identity "{5584CBC6363C648B}" {
-    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
-     Head "{32583C88222142FD}Prefabs/Characters/Heads/Head_White_04.et"
-    }
-    Name ""
-    Alias ""
-    Surname "#armst_stalker_new_name_51"
-   }
-   m_IdentityFormatFull "#AR-Idenity_Name_Format_Ful"
-  }
-  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
-   Slots {
-    LoadoutSlotInfo Hat {
-     Prefab "{9A3C64E4F5691E86}Prefabs/New_Equipment/Helmets/armst_hlmt_altyn_gray.et"
-    }
-    LoadoutSlotInfo Jacket {
-     Prefab "{B46471B027875AE3}Prefabs/New_Equipment/Jackets/gorka/armst_jacket_tactical_western.et"
-    }
-    LoadoutSlotInfo ArmoredVest {
-     Prefab "{845801D007B0C4C1}Prefabs/Armor/S26Vest_Black.et"
-    }
-    LoadoutSlotInfo Pants {
-     Prefab "{10EE3F0831B6CEB2}Prefabs/Characters/Uniforms/Pants/Pants_Survivor.et"
-    }
-    LoadoutSlotInfo Boots {
-     Prefab "{5DF442DF18F312F3}Prefabs/New_Equipment/Boots/armst_boots_soviet.et"
-    }
-    LoadoutSlotInfo Back {
-    }
-    LoadoutSlotInfo Vest {
-    }
-    LoadoutSlotInfo HandWear {
-     Prefab "{2D525E69ACF22F5E}Prefabs/New_Equipment/Gloves/armst_gloves_hard.et"
-    }
-    LoadoutSlotInfo Head {
-     Prefab "{CB7E94FF44505957}Prefabs/Masks/PBF1Gasmask.et"
-    }
-   }
-  }
-  ZEL_PlayerClaimComponent "{62D120DCE9ED7E8A}" {
-   Enabled 0
-  }
-  ZEL_PlayerUIDComponent "{62BC0E1BAAF353A1}" {
-   Enabled 0
-  }
-  ActionsManagerComponent "{520EA1D2F659CE02}" {
-   ActionContexts {
-    UserActionContext "{520EA1D2F659CE17}" {
-    }
-   }
-   additionalActions {
-    ARMST_USER_DIALOGS "{6686ECEDBBB7636F}" {
-     m_bEnableDialogs 1
-    }
-   }
-  }
-  SCR_CharacterCameraHandlerComponent "{520EA1D2F659C98D}" {
-   Enabled 1
-  }
- }
- coords 4934.114 321.461 3139.684
- angles 0 4.201 0
 }
 GenericEntity : "{C529E6E1AE272891}Prefabs/Compositions/Misc/SubCompositions/Barrel_Cluttered_01.et" {
  coords 4956.638 320.229 3142.35

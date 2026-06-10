@@ -1,8 +1,12 @@
+SCR_DestructibleBuildingEntity {
+ coords 2544.981 -0.44 3132.407
+ angles 0 175.495 0
+}
 GenericEntity : "{11AAC380569EC0EC}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/Dst/EquipmentBoxStack_01_V2_dst_03_USSR.et" {
  coords 2546.182 297.763 2952.183
  angles -3.123 0.147 -2.688
 }
-$grp GenericEntity : "{142EBFC473EC0E30}Prefabs/monster_spawner.et" {
+$grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawner.et" {
  wolfs44 {
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
@@ -10,11 +14,11 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/monster_spawner.et" {
     m_PlayerDetectionRadius 159
     m_RespawnDelayAfterDelete 800
     m_SpawnGroups {
-     "{D77BDED419E75367}Configs/Alife/mutants/nighstalker.conf"
+     "{D77BDED419E75367}Configs/GAME_SETTING/BOTS/ALIFE/mutants/nighstalker.conf"
     }
     m_fMonsterNight 1
     m_SpawnGroupsNight {
-     "{D77BDED419E75367}Configs/Alife/mutants/nighstalker.conf"
+     "{D77BDED419E75367}Configs/GAME_SETTING/BOTS/ALIFE/mutants/nighstalker.conf"
     }
    }
   }
@@ -28,11 +32,11 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/monster_spawner.et" {
     m_PlayerDetectionRadius 100
     m_RespawnDelayAfterDelete 800
     m_SpawnGroups {
-     "{D77BDED419E75367}Configs/Alife/mutants/nighstalker.conf"
+     "{D77BDED419E75367}Configs/GAME_SETTING/BOTS/ALIFE/mutants/nighstalker.conf"
     }
     m_fMonsterNight 1
     m_SpawnGroupsNight {
-     "{D77BDED419E75367}Configs/Alife/mutants/nighstalker.conf"
+     "{D77BDED419E75367}Configs/GAME_SETTING/BOTS/ALIFE/mutants/nighstalker.conf"
     }
    }
   }
@@ -46,11 +50,11 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/monster_spawner.et" {
     m_PlayerDetectionRadius 132
     m_RespawnDelayAfterDelete 800
     m_SpawnGroups {
-     "{D77BDED419E75367}Configs/Alife/mutants/nighstalker.conf"
+     "{D77BDED419E75367}Configs/GAME_SETTING/BOTS/ALIFE/mutants/nighstalker.conf"
     }
     m_fMonsterNight 1
     m_SpawnGroupsNight {
-     "{D77BDED419E75367}Configs/Alife/mutants/nighstalker.conf"
+     "{D77BDED419E75367}Configs/GAME_SETTING/BOTS/ALIFE/mutants/nighstalker.conf"
     }
    }
   }
@@ -63,7 +67,7 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/monster_spawner.et" {
     m_CheckInterval 150
     m_RespawnDelayAfterDelete 800
     m_SpawnGroups {
-     "{640EF50B76CB86C9}Configs/Alife/mutants/electro_elements.conf"
+     "{640EF50B76CB86C9}Configs/GAME_SETTING/BOTS/ALIFE/mutants/electro_elements.conf"
     }
    }
   }
@@ -77,11 +81,11 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/monster_spawner.et" {
     m_PlayerDetectionRadius 132
     m_RespawnDelayAfterDelete 800
     m_SpawnGroups {
-     "{D77BDED419E75367}Configs/Alife/mutants/nighstalker.conf"
+     "{D77BDED419E75367}Configs/GAME_SETTING/BOTS/ALIFE/mutants/nighstalker.conf"
     }
     m_fMonsterNight 1
     m_SpawnGroupsNight {
-     "{D77BDED419E75367}Configs/Alife/mutants/nighstalker.conf"
+     "{D77BDED419E75367}Configs/GAME_SETTING/BOTS/ALIFE/mutants/nighstalker.conf"
     }
    }
   }
@@ -95,11 +99,11 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/monster_spawner.et" {
     m_PlayerDetectionRadius 132
     m_RespawnDelayAfterDelete 800
     m_SpawnGroups {
-     "{D77BDED419E75367}Configs/Alife/mutants/nighstalker.conf"
+     "{D77BDED419E75367}Configs/GAME_SETTING/BOTS/ALIFE/mutants/nighstalker.conf"
     }
     m_fMonsterNight 1
     m_SpawnGroupsNight {
-     "{D77BDED419E75367}Configs/Alife/mutants/nighstalker.conf"
+     "{D77BDED419E75367}Configs/GAME_SETTING/BOTS/ALIFE/mutants/nighstalker.conf"
     }
    }
   }
@@ -275,10 +279,6 @@ SCR_DestructibleBuildingEntity : "{6CDAFB08D5F88533}Prefabs/Structures/Infrastru
  coords 2533.471 0.66 3000.036
  angles 0 -176.794 0
  scale 0.5
-}
-SCR_DestructibleBuildingEntity : "{703E76F55690F375}Prefabs/Structures/Houses/Village/Single Floor Buildings/Small Cabin HouseV2.et" {
- coords 2544.981 -0.44 3132.407
- angles 0 175.495 0
 }
 SCR_DestructibleBuildingEntity : "{728B436837CAC3ED}Prefabs/Props/Wrecks/ShipWreckMetal_03/ShipWreckMetal_03_base.et" {
  coords 2438.684 297.267 2822.931

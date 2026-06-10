@@ -69,6 +69,14 @@ $grp GenericEntity {
   angles 0 55.074 0
  }
 }
+ParticleEffectEntity {
+ coords 5558.27 321.504 2208.641
+ {
+  ARMST_DamagingTriggerEntity {
+   coords 0 1.028 0.223
+  }
+ }
+}
 SCR_DestructibleEntity : "{04C7E915CE05E478}Prefabs/Structures/Industrial/ConveyorBelts/ConveyorBeltWooden_01/ConveyorBeltWooden_01_10m_base.et" {
  components {
   MeshObject "{56ACD1C4DC78C87B}" {
@@ -286,15 +294,6 @@ $grp SCR_DestructibleEntity : "{396D3CC58EFE9E00}Prefabs/Props/Industrial/CableT
   angles 0 90 0
   scale 0.44
   placement none
- }
-}
-ParticleEffectEntity : "{3BF8E208B4FD78E2}Prefabs/Anomals/Zero_gravy/minecart_barrel_gravy.et" {
- coords 5558.27 321.504 2208.641
- {
-  ARMST_DamagingTriggerEntity {
-   ID "65B67455EB16FE03"
-   coords 0 1.028 0.223
-  }
  }
 }
 $grp GenericEntity : "{3C62CF424AF14B51}Prefabs/Props/Industrial/CrawlerCraneWreck_01/CrawlerCraneWreck_01_Track_base.et" {

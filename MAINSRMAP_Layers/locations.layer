@@ -1163,10 +1163,6 @@ $grp GenericEntity : "{00D81DF03240564B}Prefabs/Structures/Military/Camps/Canvas
   angles -1.302 63.89 2.17
  }
 }
-GenericEntity : "{00EC57C047FB8AE9}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Wall_Light_USSR_01.et" {
- coords 3371.729 308.589 1355.735
- angles 0 -82.378 0
-}
 $grp SCR_DestructibleEntity : "{010CF64FF7AEB129}PrefabLibrary/DefaultLibrary/Walls/Pipe/PipeRailing_02_End.et" {
  {
   coords 3268.117 -0.004 2789.092
@@ -16640,20 +16636,6 @@ $grp SCR_DestructibleBuildingEntity : "{1C4FE5160B6ED8F4}Prefabs/Houses/villages
  {
   coords 3615.255 300.784 2352.693
   angles 0 -178.102 0
- }
-}
-StaticModelEntity : "{1C6CB7504CBD1CC4}Prefabs/Compositions/Misc/SubCompositions/Tent_Barrack_Cluttered_US_03.et" {
- coords 2402.676 312.621 2522.866
- angles 0.208 29.581 0.174
- {
-  GenericEntity {
-   ID "570681944CF195B8"
-   components {
-    Hierarchy "{66AA72680BA8B0AB}" {
-     Enabled 0
-    }
-   }
-  }
  }
 }
 $grp SCR_DestructibleBuildingEntity : "{1C87C72319097FC1}Prefabs/Structures/Walls/Concrete/ConcreteRetainingWall_01/ConcreteRetainingWall_01_4m.et" {
@@ -150569,36 +150551,6 @@ $grp StaticModelEntity : "{C46702822629C334}Prefabs/Compositions/Misc/CustomEnti
 StaticModelEntity : "{C4B4A52809229F27}Prefabs/Structures/Industrial/Cranes/CoalLoader_01/Dst/CoalLoader_01_tower_Ruin.et" {
  coords 5602.417 320.919 2220.24
  angles 0 118.454 0
-}
-StaticModelEntity : "{C4C4DE9135340298}Prefabs/Compositions/Misc/SubCompositions/Tent_Barrack_Cluttered_US_05.et" {
- coords 2395.371 312.673 2499.581
- angles 0.447 157.832 -0.182
- {
-  GenericEntity {
-   ID "57068191F89355CD"
-   components {
-    Hierarchy "{66AA72680C91AD08}" {
-     Enabled 0
-    }
-   }
-  }
-  GenericEntity {
-   ID "57068191F89355E8"
-   components {
-    Hierarchy "{5706F8D0AB30E6EA}" {
-     Enabled 0
-    }
-   }
-  }
-  GenericEntity {
-   ID "57068191F893558A"
-   components {
-    Hierarchy "{5706F8D0AB223F34}" {
-     Enabled 0
-    }
-   }
-  }
- }
 }
 $grp SCR_DestructibleBuildingEntity : "{C4EAB3F9F0AB37B2}Prefabs/Structures/Infrastructure/Power/Utility/ElectricCabinet_01/ElectricCabinet_01_double.et" {
  {

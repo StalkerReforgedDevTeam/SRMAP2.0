@@ -1,3 +1,35 @@
+$grp DecalEntity {
+ {
+  coords 3714.222 0.038 2180.508
+  angles -90 -180 -180
+  scale 0.8
+ }
+ {
+  coords 3709.351 0.535 2181.125
+  angles -90 -180 -180
+  scale 0.8
+ }
+ {
+  coords 3712.313 0.067 2179.319
+  angles -90 -180 -180
+  scale 0.8
+ }
+ {
+  coords 3714.954 0.538 2181.537
+  angles -90 -180 -180
+  scale 1.5
+ }
+ {
+  coords 3713.818 0.063 2183.546
+  angles -90 0 47.364
+  scale 2
+ }
+ {
+  coords 3711.419 0.042 2180.871
+  angles -90 0 -4.442
+  scale 2
+ }
+}
 $grp GenericEntity {
  {
   components {
@@ -94,23 +126,6 @@ SCR_DestructibleBuildingEntity : "{184042D4EAE59FF5}Prefabs/Structures/Houses/Vi
  coords 3679.89 -2.434 2242.188
  angles -1.119 -15.014 1.285
 }
-$grp DecalEntity : "{19855E1BFBC4ABEE}Prefabs/Method/Decals/Blood/Blood_Small_01.et" {
- {
-  coords 3714.222 0.038 2180.508
-  angles -90 -180 -180
-  scale 0.8
- }
- {
-  coords 3709.351 0.535 2181.125
-  angles -90 -180 -180
-  scale 0.8
- }
- {
-  coords 3712.313 0.067 2179.319
-  angles -90 -180 -180
-  scale 0.8
- }
-}
 $grp GenericEntity : "{27EA47994266D9DD}Prefabs/Props/Services/Healthcare/BinMedical_01.et" {
  {
   coords 3715.939 300.812 2186.35
@@ -193,23 +208,6 @@ GenericEntity : "{881FCB0BDCE4B89F}Prefabs/Compositions/Misc/SubCompositions/Fur
 }
 GenericEntity : "{9841B04CB7D10188}PrefabsEditable/Auto/Props/Garbage/Medical/E_GarbageMedicalUSSR_02.et" {
  coords 3712.691 300.831 2182.152
-}
-DecalEntity : "{A4F7B125C823F202}Prefabs/Method/Decals/Blood/Blood_Large_01.et" {
- coords 3714.954 0.538 2181.537
- angles -90 -180 -180
- scale 1.5
-}
-$grp DecalEntity : "{A7E35F889C0C7D4B}Prefabs/Method/Decals/Blood/Blood_Drops_01.et" {
- {
-  coords 3713.818 0.063 2183.546
-  angles -90 0 47.364
-  scale 2
- }
- {
-  coords 3711.419 0.042 2180.871
-  angles -90 0 -4.442
-  scale 2
- }
 }
 GenericEntity : "{AF87DF4E0C8C81C4}Prefabs/Props/Services/Healthcare/LampMedical_01.et" {
  coords 3717.769 300.836 2183.857

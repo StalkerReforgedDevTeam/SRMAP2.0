@@ -11,7 +11,7 @@ GenericEntity : "{22325E7D9CC399D8}Prefabs/Trash/Cardboard/Cardboard_Pile_06.et"
  coords 6057.43 301.128 2188.833
  angles 0 0 -0.695
 }
-$grp GenericEntity : "{22CAE0A2F3DFF712}Prefabs/Characters/Deads/armst_dead_coat.et" {
+$grp GameEntity : "{22CAE0A2F3DFF712}Prefabs/Characters/Deads/armst_dead_coat.et" {
  {
   components {
    BaseItemAnimationComponent "{6712E82B4C0E57EA}" {
@@ -236,7 +236,7 @@ GenericEntity : "{CC98E67AC15E257D}Prefabs/Props/Recreation/Camp/TentBig_01/Tent
  coords 6055.392 301.136 2171.465
  angles -9.909 79.885 -0.033
 }
-GenericEntity : "{DA0B2CD369CC00F4}Prefabs/Characters/Deads/armst_dead_sweater.et" {
+GameEntity : "{DA0B2CD369CC00F4}Prefabs/Characters/Deads/armst_dead_sweater.et" {
  components {
   BaseItemAnimationComponent "{6712E82B4C0E57EA}" {
    StartNode "dead_3"

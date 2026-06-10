@@ -135,18 +135,18 @@ $grp GenericEntity : "{013297BA01640EB9}Prefabs/Props/Garbage/Military/Ammo/Garb
   scale 0.73
  }
 }
-$grp GenericEntity : "{142EBFC473EC0E30}Prefabs/monster_spawner.et" {
+$grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawner.et" {
  zombie43 {
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
     m_CheckInterval 150
     m_RespawnDelayAfterDelete 800
     m_SpawnGroups {
-     "{AA31A2A6BD9679D4}Configs/Alife/mutants/zombie.conf"
+     "{AA31A2A6BD9679D4}Configs/GAME_SETTING/BOTS/ALIFE/mutants/zombie.conf"
     }
     m_fMonsterNight 1
     m_SpawnGroupsNight {
-     "{D77BDED419E75367}Configs/Alife/mutants/nighstalker.conf"
+     "{D77BDED419E75367}Configs/GAME_SETTING/BOTS/ALIFE/mutants/nighstalker.conf"
     }
    }
   }
@@ -159,7 +159,7 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/monster_spawner.et" {
     m_CheckInterval 150
     m_RespawnDelayAfterDelete 800
     m_SpawnGroups {
-     "{AA31A2A6BD9679D4}Configs/Alife/mutants/zombie.conf"
+     "{AA31A2A6BD9679D4}Configs/GAME_SETTING/BOTS/ALIFE/mutants/zombie.conf"
     }
     m_fMonsterNight 1
    }
@@ -195,7 +195,7 @@ $grp DecalEntity : "{1DC3A792132D86CB}Prefabs/Decals/Blood/BloodStain_Large_02.e
   scale 1.5
  }
 }
-GenericEntity : "{22CAE0A2F3DFF712}Prefabs/Characters/Deads/armst_dead_coat.et" {
+GameEntity : "{22CAE0A2F3DFF712}Prefabs/Characters/Deads/armst_dead_coat.et" {
  components {
   BaseItemAnimationComponent "{6712E82B4C0E57EA}" {
    StartNode "dead_7"
@@ -312,7 +312,7 @@ $grp DecalEntity : "{4E2502622DA0DB28}Prefabs/Decals/Miscellaneous/Decal_Damage_
   scale 10
  }
 }
-$grp GenericEntity : "{50B45AE7FE6F7CD8}Prefabs/Characters/Deads/armst_dead_gorka.et" {
+$grp GameEntity : "{50B45AE7FE6F7CD8}Prefabs/Characters/Deads/armst_dead_gorka.et" {
  {
   components {
    BaseItemAnimationComponent "{6712E82B4C0E57EA}" {
@@ -396,7 +396,7 @@ $grp GenericEntity : "{6D66A35ABDA08197}Prefabs/Props/Garbage/Military/Ammo/Garb
   coords 6266.554 318.921 2330.609
  }
 }
-GenericEntity : "{6F0C071AD20DCF4A}Prefabs/Characters/Deads/armst_dead_newbie.et" {
+GameEntity : "{6F0C071AD20DCF4A}Prefabs/Characters/Deads/armst_dead_newbie.et" {
  components {
   BaseItemAnimationComponent "{6712E82B4C0E57EA}" {
    StartNode "dead_7"
@@ -422,7 +422,7 @@ $grp DecalEntity : "{71979372AFE909E5}Prefabs/Decals/Blood/BloodStain_Large_01.e
   scale 0.645
  }
 }
-GenericEntity : "{96D641FB0679BCD9}Prefabs/Characters/Deads/armst_dead_science.et" {
+GameEntity : "{96D641FB0679BCD9}Prefabs/Characters/Deads/armst_dead_science.et" {
  components {
   BaseItemAnimationComponent "{6712E82B4C0E57EA}" {
    StartNode "dead_4"
@@ -498,7 +498,7 @@ $grp DecalEntity : "{CCE57C4C9C0E5009}Prefabs/Decals/Blood/BloodStain_Small_01.e
   scale 0.8
  }
 }
-$grp GenericEntity : "{DA0B2CD369CC00F4}Prefabs/Characters/Deads/armst_dead_sweater.et" {
+$grp GameEntity : "{DA0B2CD369CC00F4}Prefabs/Characters/Deads/armst_dead_sweater.et" {
  {
   components {
    BaseItemAnimationComponent "{6712E82B4C0E57EA}" {

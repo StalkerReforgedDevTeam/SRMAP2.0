@@ -1,3 +1,35 @@
+$grp DecalEntity {
+ {
+  coords 4435.774 8.394 2045.821
+  angles -40.563 -90 90
+  scale 0.8
+ }
+ {
+  coords 4436.099 9.363 2047.888
+  angles 16.94 -90 90
+  scale 0.8
+ }
+ {
+  coords 4436.58 8.332 2046.441
+  angles -89.98 -126.924 -180
+  scale 1.04
+ }
+ {
+  coords 4436.716 8.342 2047.456
+  angles -90 84.684 0
+  scale 1.5
+ }
+ {
+  coords 4433.628 8.332 2020.66
+  angles -90 -180 -180
+  scale 1.5
+ }
+ {
+  coords 4461.597 15.322 2021.254
+  angles -90 31.849 0
+  scale 1.5
+ }
+}
 $grp GenericEntity : "{0011A3CBD1B1212A}Prefabs/Props/Garbage/Military/Ammo/GarbageAmmunition_US_01.et" {
  {
   coords 4445.545 316.19 2037.43
@@ -29,11 +61,6 @@ GenericEntity : "{0958E6B949501D00}Prefabs/Props/Military/Generators/GeneratorPo
 GenericEntity : "{1359D393ED1D1A3F}Prefabs/Props/Garbage/Medical/GarbageMedicalUSSR_01.et" {
  coords 4436.687 316.19 2048.116
 }
-DecalEntity : "{19855E1BFBC4ABEE}Prefabs/Method/Decals/Blood/Blood_Small_01.et" {
- coords 4435.774 8.394 2045.821
- angles -40.563 -90 90
- scale 0.8
-}
 GenericEntity : "{1B0EF617897326C3}Prefabs/Props/Military/Sandbags/Dst/Sandbag_01_single_dst_base.et" {
  coords 4435.188 316.192 2044.947
  angles 0 96.746 0
@@ -61,11 +88,6 @@ GenericEntity : "{31F69EA0C0143F1D}Prefabs/Compositions/Misc/SubCompositions/Fur
  coords 4450.762 316.182 2036.873
  angles 0 -151.471 0
 }
-DecalEntity : "{44BEF7B5E19C402B}Prefabs/Method/Decals/Blood/Blood_Wall_01.et" {
- coords 4436.099 9.363 2047.888
- angles 16.94 -90 90
- scale 0.8
-}
 $grp GenericEntity : "{457331BE1519B200}Prefabs/Props/Furniture/BunkBed_01.et" {
  {
   coords 4450.877 316.109 2038.294
@@ -76,7 +98,7 @@ $grp GenericEntity : "{457331BE1519B200}Prefabs/Props/Furniture/BunkBed_01.et" {
   angles 0 -165.399 0
  }
 }
-GenericEntity : "{48D88E385C227340}Prefabs/LOOT_BOX/base/backpacks/Barrel_Filled_01.et" {
+GenericEntity : "{48D88E385C227340}Prefabs/Compositions/Misc/SubCompositions/Barrel_Filled_01.et" {
  coords 4452.542 316.19 2035.993
  angles 0 0 0
 }
@@ -245,11 +267,6 @@ GenericEntity : "{A5E64994411BA6A0}Prefabs/Props/Civilian/Pen_01/Pen_01_base.et"
  coords 4447.729 317.135 2036.808
  angles 0 -37.088 0
 }
-DecalEntity : "{A7E35F889C0C7D4B}Prefabs/Method/Decals/Blood/Blood_Drops_01.et" {
- coords 4436.58 8.332 2046.441
- angles -89.98 -126.924 -180
- scale 1.04
-}
 GenericEntity : "{A9DC69EC1CE466A0}Prefabs/Props/Civilian/Computer_E_01/Computer_E_01_on.et" {
  coords 4446.976 317.086 2036.705
  {
@@ -285,23 +302,6 @@ GenericEntity : "{C58BDB4D22E0A5A7}Prefabs/Props/Garbage/Generic/Litter_01_large
  coords 4449.122 316.19 2040.328
  angles 0 -92.504 0
 }
-$grp DecalEntity : "{C8A385C574E77D2C}Prefabs/Method/Decals/Blood/Blood_Large_02.et" {
- {
-  coords 4436.716 8.342 2047.456
-  angles -90 84.684 0
-  scale 1.5
- }
- {
-  coords 4433.628 8.332 2020.66
-  angles -90 -180 -180
-  scale 1.5
- }
- {
-  coords 4461.597 15.322 2021.254
-  angles -90 31.849 0
-  scale 1.5
- }
-}
 GenericEntity : "{D8ABE2DE630F577E}Prefabs/Compositions/Misc/SubCompositions/CrateStacked_01.et" {
  coords 4434.901 316.196 2020.13
  angles 0 -83.995 0
@@ -321,9 +321,6 @@ GenericEntity : "{DACF7DE206313E97}Prefabs/Props/Garbage/Cardboard/Cardboard_Pil
 }
 GenericEntity : "{DCC37079C56CF13D}Prefabs/LOOT_BOX/base/clothes/Loot_clothes_ground_3_black.et" {
  components {
-  ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
-   m_bSpawnInLowTier 1
-  }
   ActionsManagerComponent "{6190D137C5926215}" {
    additionalActions {
     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {

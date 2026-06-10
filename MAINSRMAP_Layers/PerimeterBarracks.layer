@@ -175,6 +175,10 @@ $grp GenericEntity {
   coords 2857.486 300.561 1138.789
   angles 0 -59.549 0
  }
+ {
+  coords 6635.535 304.403 1826.566
+  angles -0.015 -16.512 -90.052
+ }
 }
 SCR_DestructibleBuildingEntity {
  components {
@@ -779,10 +783,6 @@ $grp DecalEntity : "{1DC3A792132D86CB}Prefabs/Decals/Blood/BloodStain_Large_02.e
   scale 1.5
  }
 }
-GenericEntity : "{1DEEC400DED93B6D}Prefabs/DONT_USE/TrashBin_02_d.et" {
- coords 6635.535 304.403 1826.566
- angles -0.015 -16.512 -90.052
-}
 GenericEntity : "{20C6CD91EBCF3AD5}Prefabs/Structures/BuildingParts/Industrial/ToolRack_01.et" {
  coords 6615.471 305.191 1845.536
  angles 0 161.257 0
@@ -924,6 +924,10 @@ GenericEntity : "{3619812B192CCAE9}Prefabs/Props/Core/Wreck_Base.et" {
  coords 6610.449 305.587 1832.088
  angles 0 0 -67.82
  {
+  GenericEntity {
+   coords -1.208 0.302 -0.232
+   angles 0 91.236 0
+  }
   $grp GenericEntity : "{0235862B6AF1413E}Prefabs/Vehicles/gaz53/parts/PARTS_gaz_wheel.et" {
    {
     coords -1.239 -0.334 -1.418
@@ -945,10 +949,6 @@ GenericEntity : "{3619812B192CCAE9}Prefabs/Props/Core/Wreck_Base.et" {
   }
   GenericEntity : "{D1B599FC26A50B2A}Prefabs/Vehicles/zil131/parts/PARTS_zil_box_open.et" {
    coords 0 0.543 2.403
-  }
-  GenericEntity : "{FA7EB973926021A8}Prefabs/LOOT_BOX/OLD/Loot_randomize_tools.et" {
-   coords -1.208 0.302 -0.232
-   angles 0 91.236 0
   }
  }
 }
@@ -1024,7 +1024,7 @@ GenericEntity : "{590D0CC992E8AC25}Prefabs/Compositions/Misc/SubCompositions/Dec
  coords 2849.253 299.681 1139.805
  angles 0 -23.25 0
 }
-GenericEntity : "{5987E1DF837BA755}Prefabs/Vehicles/btr70/armst_btr70.et" {
+SCR_DestructibleBuildingEntity : "{5987E1DF837BA755}Prefabs/Vehicles/btr70/armst_btr70.et" {
  coords 6639.083 306.84 1815.207
  angles -60.876 155.466 -180
 }
@@ -1067,7 +1067,7 @@ GenericEntity : "{6D83404953816F23}Prefabs/Structures/BuildingParts/Doors/DoorSe
  angles 0 174.651 0
  scale 0.98
 }
-$grp GenericEntity : "{6F0C071AD20DCF4A}Prefabs/Characters/Deads/armst_dead_newbie.et" {
+$grp GameEntity : "{6F0C071AD20DCF4A}Prefabs/Characters/Deads/armst_dead_newbie.et" {
  {
   components {
    BaseItemAnimationComponent "{6712E82B4C0E57EA}" {
@@ -1953,7 +1953,7 @@ GenericEntity : "{B088F5F8EA2ADEF6}Prefabs/Structures/BuildingParts/Doors/Doorse
   }
  }
 }
-GenericEntity : "{B09D999506CDF092}Prefabs/Vehicles/dz-76/armst_veh_dz_76.et" {
+SCR_DestructibleBuildingEntity : "{B09D999506CDF092}Prefabs/Vehicles/dz-76/armst_veh_dz_76.et" {
  coords 6625.126 303.128 1809.618
 }
 Tree : "{B1B7D4FC059630B0}Prefabs/Vegetation/Plant/Hedera_Helix/p_hedera_helix_corner_01.et" {

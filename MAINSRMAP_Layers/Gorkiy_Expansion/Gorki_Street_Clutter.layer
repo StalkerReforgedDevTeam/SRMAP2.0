@@ -33,7 +33,7 @@ $grp DecalEntity : "{3BD66CDD309673DB}Prefabs/Decals/Blood/BloodStain_Drops_01.e
   scale 2
  }
 }
-GenericEntity : "{50B45AE7FE6F7CD8}Prefabs/Characters/Deads/armst_dead_gorka.et" {
+GameEntity : "{50B45AE7FE6F7CD8}Prefabs/Characters/Deads/armst_dead_gorka.et" {
  components {
   BaseItemAnimationComponent "{6712E82B4C0E57EA}" {
    StartNode "dead_3"

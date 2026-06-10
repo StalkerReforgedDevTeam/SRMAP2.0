@@ -1,3 +1,7 @@
+GameEntity {
+ coords 3604.686 300.467 1715.038
+ angles 0 -42.159 0
+}
 GenericEntity {
  components {
   MeshObject "{68780AE4207D7A03}" {
@@ -350,7 +354,7 @@ GenericEntity : "{262222CE328B0DAD}Prefabs/Vehicles/liaz2/base/BASE_liaz677_wrec
  coords 3596.406 300.255 1728.59
  angles 2.146 -128.815 -1.406
 }
-GenericEntity : "{267F0561BD2A8A64}Prefabs/Vehicles/azlk412/armst_azlk412_2_wreck.et" {
+SCR_DestructibleBuildingEntity : "{267F0561BD2A8A64}Prefabs/Vehicles/azlk412/armst_azlk412_2_wreck.et" {
  coords 3592.413 300.932 1781.727
  angles -1.003 157.366 0
  {
@@ -488,10 +492,6 @@ $grp GenericEntity : "{47A2F2F3C8FAACD5}Prefabs/Props/Military/Camps/PalletAmmo_
  {
   coords 3596.011 300.486 1706.422
  }
-}
-GameEntity : "{48AF6DFD28B9E01B}Prefabs/DONT_USE/GeneratorMilitary_01.et" {
- coords 3604.686 300.467 1715.038
- angles 0 -42.159 0
 }
 $grp GenericEntity : "{48D88E385C227341}Prefabs/Compositions/Misc/SubCompositions/Decorations/Barrel_Filled_01.et" {
  {
@@ -678,7 +678,7 @@ GenericEntity : "{58F0C4BE4655101A}Prefabs/Compositions/Misc/SubCompositions/Veh
  coords 3611.12 300.254 1595.323
  angles 0 -17.73 0
 }
-GenericEntity : "{5987E1DF837BA755}Prefabs/Vehicles/btr70/armst_btr70.et" {
+SCR_DestructibleBuildingEntity : "{5987E1DF837BA755}Prefabs/Vehicles/btr70/armst_btr70.et" {
  coords 3597.861 300.411 1700.881
  angles 0 11.584 0
  {
@@ -1238,7 +1238,7 @@ $grp GenericEntity : "{C1B7AB00FF7C1424}Prefabs/Props/Industrial/ConcretePanel_0
   coords 3603.527 302.187 1614.463
   angles 0.253 -93.399 -80.934
   {
-   GenericEntity : "{1B007604E1C2EDDC}Prefabs/Structures/BuildingParts/Graffiti/Graffiti_BOAR.et" {
+   GenericEntity {
     coords 3.765 5.236 -4.62
     angles 82.308 -89.705 0.067
     scale 1.44
@@ -1427,7 +1427,7 @@ $grp GenericEntity : "{D042CEA90B8CB14D}Prefabs/Props/Military/MilitaryCrates/Cr
   angles 0 -149.728 0
  }
 }
-GenericEntity : "{D3C9D19837B99FDF}Prefabs/Vehicles/eo_4121/armst_veh_eo_4121.et" {
+SCR_DestructibleBuildingEntity : "{D3C9D19837B99FDF}Prefabs/Vehicles/eo_4121/armst_veh_eo_4121.et" {
  coords 3616.892 309.384 1739.821
  angles 42.811 175.259 34.072
  scale 1.08
@@ -1626,7 +1626,7 @@ $grp LightEntity : "{F22FA87C97B69FEC}Prefabs/Structures/BuildingParts/Lights/Li
   DistanceAttenuation 0.65
  }
 }
-GenericEntity : "{F4E08FE7DD7264EB}Prefabs/Vehicles/azlk412/armst_azlk412_1.et" {
+SCR_DestructibleBuildingEntity : "{F4E08FE7DD7264EB}Prefabs/Vehicles/azlk412/armst_azlk412_1.et" {
  coords 3611.425 302.85 1573.918
  angles 1.121 174.696 0.85
  {

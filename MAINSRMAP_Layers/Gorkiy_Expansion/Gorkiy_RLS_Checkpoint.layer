@@ -1,3 +1,125 @@
+$grp DecalEntity {
+ {
+  coords 3440.518 1.014 2674.137
+  angles -90 -180 -180
+  scale 0.8
+ }
+ {
+  coords 3437.713 0.122 2674.017
+  angles -90 -180 -180
+  scale 0.8
+ }
+ {
+  coords 3438.02 0 2670.756
+  angles -90 -180 -180
+  scale 0.8
+ }
+ {
+  coords 3437.883 0.155 2678.815
+  angles -90 -180 -180
+  scale 0.8
+ }
+ {
+  coords 3437.619 0.619 2679.852
+  angles -90 -180 -180
+  scale 0.505
+ }
+ {
+  coords 3437.531 0.468 2679.1
+  angles -30 -64.35 90
+  scale 0.8
+ }
+ {
+  coords 3440.372 0.951 2673.723
+  angles -90 -180 -180
+  scale 0.8
+ }
+ {
+  coords 3434.732 0.364 2651.536
+  angles -90 -180 -180
+  scale 0.8
+ }
+ {
+  coords 3433.12 0.837 2661.188
+  angles 0 90 -90
+  scale 0.8
+ }
+ {
+  coords 3433.564 0.777 2661.249
+  angles -44.348 0 0
+  scale 0.8
+ }
+ {
+  coords 3432.805 0 2661.104
+  angles -90 -180 -180
+  scale 0.8
+ }
+ {
+  coords 3416.703 0.625 2664.374
+  angles -30 -90 90
+  scale 0.8
+ }
+ {
+  coords 3436.435 0.642 2675.701
+  angles 0 -51.34 90
+  scale 0.8
+ }
+ {
+  coords 3435.066 0.687 2651.124
+  angles -15 180 -180
+  scale 0.8
+ }
+ {
+  coords 3438.003 0.122 2677.432
+  angles -90 -180 -180
+  scale 1.5
+ }
+ {
+  coords 3434.155 0.12 2651.219
+  angles -90 -180 -180
+  scale 1.5
+ }
+ {
+  coords 3437.734 0.109 2674.863
+  angles -90 -14.059 0
+  scale 2
+ }
+ {
+  coords 3437.805 0.137 2672.279
+  angles -90 -180 -180
+  scale 2
+ }
+ {
+  coords 3437.971 0.137 2672.794
+  angles -90 -180 -180
+  scale 2
+ }
+ {
+  coords 3437.689 0.137 2673.277
+  angles -90 -180 -180
+  scale 2
+ }
+ {
+  coords 3438.399 0.609 2680.001
+  angles -90 -18.971 0
+  scale 2
+ }
+ {
+  coords 3438.565 0.627 2679.858
+  angles -90 -180 -180
+  scale 1.1
+ }
+ {
+  coords 3419.547 0.624 2665.877
+  angles -75 180 -180
+  scale 2
+ }
+ {
+  coords 3437.873 0.603 2676.539
+  angles -90 -180 -180
+  scale 1.5
+ }
+}
 $grp GenericEntity {
  {
   components {
@@ -1159,6 +1281,14 @@ $grp GenericEntity {
   Flags 0x3 0
   coords 3681.457 308.419 2711.978
  }
+ {
+  coords 3438.033 304.079 2680.03
+  angles 0 99.274 0
+ }
+ {
+  coords 3437.667 304.079 2676.557
+  angles 0 99.274 0
+ }
 }
 GenericEntity : "{00077C48CB739B8E}Prefabs/Props/Garbage/Generic/LitterInterior_01/Piles/LitterInterior_USSR_01_pile_V3.et" {
  coords 3444.755 304.021 2656.29
@@ -1336,68 +1466,6 @@ $grp GenericEntity : "{1359D393ED1D1A3F}Prefabs/Props/Garbage/Medical/GarbageMed
 GenericEntity : "{1592EC23A583FB04}Prefabs/Props/Garbage/Generic/LitterInterior_01/Single/LitterInterior_01_vodka_V2.et" {
  coords 3446.195 305.139 2657.414
  angles 0 -33.889 90
-}
-$grp DecalEntity : "{19855E1BFBC4ABEE}Prefabs/Method/Decals/Blood/Blood_Small_01.et" {
- {
-  coords 3440.518 1.014 2674.137
-  angles -90 -180 -180
-  scale 0.8
- }
- {
-  coords 3437.713 0.122 2674.017
-  angles -90 -180 -180
-  scale 0.8
- }
- {
-  coords 3438.02 0 2670.756
-  angles -90 -180 -180
-  scale 0.8
- }
- {
-  coords 3437.883 0.155 2678.815
-  angles -90 -180 -180
-  scale 0.8
- }
- {
-  coords 3437.619 0.619 2679.852
-  angles -90 -180 -180
-  scale 0.505
- }
- {
-  coords 3437.531 0.468 2679.1
-  angles -30 -64.35 90
-  scale 0.8
- }
- {
-  coords 3440.372 0.951 2673.723
-  angles -90 -180 -180
-  scale 0.8
- }
- {
-  coords 3434.732 0.364 2651.536
-  angles -90 -180 -180
-  scale 0.8
- }
- {
-  coords 3433.12 0.837 2661.188
-  angles 0 90 -90
-  scale 0.8
- }
- {
-  coords 3433.564 0.777 2661.249
-  angles -44.348 0 0
-  scale 0.8
- }
- {
-  coords 3432.805 0 2661.104
-  angles -90 -180 -180
-  scale 0.8
- }
- {
-  coords 3416.703 0.625 2664.374
-  angles -30 -90 90
-  scale 0.8
- }
 }
 GenericEntity : "{1A1020205E2B1710}Prefabs/Props/Military/Furniture/TableMilitary_USSR_01.et" {
  components {
@@ -1830,18 +1898,6 @@ $grp GenericEntity : "{3CA1282D826C04CB}Prefabs/Props/Medical/ToolsSurgical_01_k
 GenericEntity : "{3D335970BE1F12B9}Prefabs/Props/Garbage/Generic/LitterInterior_01/Piles/LitterInterior_USSR_01_pile_V4.et" {
  coords 3445.385 303.964 2653.528
 }
-$grp DecalEntity : "{44BEF7B5E19C402B}Prefabs/Method/Decals/Blood/Blood_Wall_01.et" {
- {
-  coords 3436.435 0.642 2675.701
-  angles 0 -51.34 90
-  scale 0.8
- }
- {
-  coords 3435.066 0.687 2651.124
-  angles -15 180 -180
-  scale 0.8
- }
-}
 GenericEntity : "{47A2F2F3C8FAACD5}Prefabs/Props/Military/Camps/PalletAmmo_01_Soviet.et" {
  coords 3432.943 304.092 2651.963
  angles 0 8.261 0
@@ -1918,7 +1974,7 @@ GenericEntity : "{4BE795374BE3D67E}Prefabs/Props/Industrial/BarrelFuel_01_closed
   }
  }
 }
-$grp GenericEntity : "{50B45AE7FE6F7CD8}Prefabs/Characters/Deads/armst_dead_gorka.et" {
+$grp GameEntity : "{50B45AE7FE6F7CD8}Prefabs/Characters/Deads/armst_dead_gorka.et" {
  {
   components {
    BaseItemAnimationComponent "{6712E82B4C0E57EA}" {
@@ -2221,7 +2277,7 @@ GenericEntity : "{8F6C71B091CBC056}Prefabs/Props/PersonalBelongings/Dogtags/Dogt
 GenericEntity : "{9641BF196556466E}Prefabs/Compositions/Misc/SubCompositions/Decorations/CardboardBox_Ashtray_01.et" {
  coords 3442.015 304.493 2680.096
 }
-GenericEntity : "{96D641FB0679BCD9}Prefabs/Characters/Deads/armst_dead_science.et" {
+GameEntity : "{96D641FB0679BCD9}Prefabs/Characters/Deads/armst_dead_science.et" {
  components {
   BaseItemAnimationComponent "{6712E82B4C0E57EA}" {
    StartNode "dead_3"
@@ -2278,55 +2334,6 @@ GenericEntity : "{A2578CB8165600A9}Prefabs/Method/Props/Interior/shelves_2_int_3
 GenericEntity : "{A3D6C359F11873BA}Prefabs/Props/Medical/TableMedical_01/TableMedical_01_base.et" {
  coords 3437.081 304.078 2679.136
  angles 0 -11.744 0
-}
-$grp DecalEntity : "{A4F7B125C823F202}Prefabs/Method/Decals/Blood/Blood_Large_01.et" {
- {
-  coords 3438.003 0.122 2677.432
-  angles -90 -180 -180
-  scale 1.5
- }
- {
-  coords 3434.155 0.12 2651.219
-  angles -90 -180 -180
-  scale 1.5
- }
-}
-$grp DecalEntity : "{A7E35F889C0C7D4B}Prefabs/Method/Decals/Blood/Blood_Drops_01.et" {
- {
-  coords 3437.734 0.109 2674.863
-  angles -90 -14.059 0
-  scale 2
- }
- {
-  coords 3437.805 0.137 2672.279
-  angles -90 -180 -180
-  scale 2
- }
- {
-  coords 3437.971 0.137 2672.794
-  angles -90 -180 -180
-  scale 2
- }
- {
-  coords 3437.689 0.137 2673.277
-  angles -90 -180 -180
-  scale 2
- }
- {
-  coords 3438.399 0.609 2680.001
-  angles -90 -18.971 0
-  scale 2
- }
- {
-  coords 3438.565 0.627 2679.858
-  angles -90 -180 -180
-  scale 1.1
- }
- {
-  coords 3419.547 0.624 2665.877
-  angles -75 180 -180
-  scale 2
- }
 }
 GenericEntity : "{A871BDDC9C0AC8C5}Prefabs/Props/Commercial/CabinetCardFile_01/Dst/CabinetCardFile_01_dst_grey.et" {
  coords 3440.488 304.07 2671.654
@@ -2405,16 +2412,6 @@ $grp StaticModelEntity : "{AE28D47CF26E91EA}Prefabs/Props/Military/Fortification
 GenericEntity : "{B082D9F68862F5DF}Prefabs/chairs/chair_wooden.et" {
  coords 3421.008 304.192 2661.953
  angles 0 -156.116 0
-}
-$grp GenericEntity : "{B30F943532565EDE}Prefabs/DONT_USE/BedMed_01.et" {
- {
-  coords 3438.033 304.079 2680.03
-  angles 0 99.274 0
- }
- {
-  coords 3437.667 304.079 2676.557
-  angles 0 99.274 0
- }
 }
 GenericEntity : "{B3283803059E2750}Prefabs/Props/Crates/CrateWooden_01_plain.et" {
  components {
@@ -2794,11 +2791,6 @@ $grp GenericEntity : "{C6BFE324CCCFE6C4}Prefabs/Props/Military/Furniture/CotMili
    }
   }
  }
-}
-DecalEntity : "{C8A385C574E77D2C}Prefabs/Method/Decals/Blood/Blood_Large_02.et" {
- coords 3437.873 0.603 2676.539
- angles -90 -180 -180
- scale 1.5
 }
 $grp GenericEntity : "{C99D1B2E817E12D9}Prefabs/Props/Military/Furniture/TableMilitary_USSR_02_cabinet.et" {
  {

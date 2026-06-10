@@ -15,7 +15,7 @@ $grp GenericEntity : "{6220F5D951A6F92B}Prefabs/Staff/box_wooden_small.et" {
   scale 3.34
  }
 }
-GenericEntity : "{7030822F7A54F479}Prefabs/LOOT_BOX/base/backpacks/CrateWooden_01_base.et" {
+GenericEntity : "{7030822F7A54F479}Prefabs/Props/Crates/CrateWooden_01_base.et" {
  coords 2605.543 291.028 1083.859
 }
 GameEntity : "{92D3F8A8AE82E3E5}Prefabs/Method/Props/Camps/Fireplace_Loiters_01_temp.et" {
@@ -43,25 +43,6 @@ GenericEntity : "{BA78843368337269}Prefabs/Scientists/Bunker_Modul_Small/Bunk_Mi
      components {
       DoorComponent "{221C667A9F7D4B69}" {
        DoorAction SCR_DoorUserAction "{50888D3646A61640}" {
-        m_UseGuidWhitelist 1
-       }
-      }
-      SRZ_GuidWhitelistComponent "{684E2789D1EDBDD6}" {
-       m_AllowedGUIDs {
-        "07207c50-51e1-4c8e-a580-7000272fa9bb"
-        "53ab8ec5-6b6c-4c48-be22-9ee8d170fbf5"
-        "a8b24ba2-3a45-4676-adc4-8e2b66dfe05d"
-        "0b5051b8-e7e0-4cfc-bc96-b65e90e328f1"
-        "4889fd31-0248-4de1-96d9-8e94cf8d85c1"
-        "21649cad-7de6-4366-9454-07b81f5294b0"
-        "0dc0ef50-78d3-4c8e-9c67-2bf499b76efd"
-        "f902c771-5e18-4410-a742-03d2808653cb"
-        "92216920-0abc-4f70-9c19-084ba28e12b2"
-        "65992774-b6b9-4ff9-8664-dc900bfd90ef"
-        "15dbf073-7d52-4df2-bcb8-888cd8e58722"
-        "c41c4eb2-16de-4493-91af-17ca10b964ea"
-        "57ab7f60-675f-4af3-86e2-4019a2358f59"
-        "579b6fa9-cb38-41a1-8b30-bdb23be48fd4"
        }
       }
      }
