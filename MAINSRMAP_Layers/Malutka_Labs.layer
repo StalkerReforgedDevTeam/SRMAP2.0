@@ -1,0 +1,4498 @@
+$grp GenericEntity {
+ enter_perimetr12 {
+  coords 5342.194 305.151 582.986
+  angles 0 -38.128 0
+ }
+ enter_perimetr13 {
+  coords 5339.615 305.151 580.347
+  angles 0 43.858 0
+ }
+ enter_perimetr14 {
+  coords 5313.737 297.836 580.645
+  angles 0 -38.128 0
+ }
+ enter_perimetr17 {
+  coords 5310.985 297.836 577.991
+  angles 0 142.113 0
+ }
+ enter_perimetr19 {
+  coords 5375.701 290.521 565.276
+  angles 0 -42.292 0
+ }
+ enter_perimetr20 {
+  coords 5342.952 290.521 583.313
+  angles 0 -38.128 0
+ }
+ enter_perimetr21 {
+  coords 5339.464 290.521 580.152
+  angles 0 -38.128 0
+ }
+ {
+  coords 4866.769 312.184 1252.894
+  angles 0 166.906 0
+ }
+ {
+  coords 4866.86 312.184 1252.595
+ }
+ {
+  coords 4866.462 312.183 1251.828
+ }
+}
+$grp LightEntity {
+ LIGHT_FLUO_SPOT_61 {
+  coords 5357.25 308.267 571.941
+  angles -90 -41.184 0
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_POINT_6 {
+  coords 5357.208 308.224 571.873
+  angles -90 -41.184 0
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  CastShadow 0
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_SPOT_62 {
+  coords 5352.176 308.267 566.953
+  angles -90 -41.184 0
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_POINT_7 {
+  coords 5352.134 308.224 566.885
+  angles -90 -41.184 0
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  CastShadow 0
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_SPOT_63 {
+  coords 5360.713 308.267 562.332
+  angles -90 -41.184 0
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_POINT_8 {
+  coords 5360.671 308.224 562.264
+  angles -90 -41.184 0
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  CastShadow 0
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_SPOT_64 {
+  coords 5352.921 308.267 551.504
+  angles -90 -41.184 0
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_POINT_9 {
+  coords 5352.879 308.224 551.436
+  angles -90 -41.184 0
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  CastShadow 0
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_SPOT_65 {
+  coords 5338.3 308.267 553.68
+  angles -90 -41.184 0
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_POINT_10 {
+  coords 5338.258 308.224 553.612
+  angles -90 -41.184 0
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  CastShadow 0
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_POINT_11 {
+  coords 5364.848 308.224 576.308
+  angles -90 49.168 -180
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  CastShadow 0
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_SPOT_66 {
+  coords 5364.78 308.267 576.35
+  angles -90 49.168 -180
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_POINT_12 {
+  coords 5352.76 308.224 589.281
+  angles -90 52.923 -180
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  CastShadow 0
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_SPOT_67 {
+  coords 5352.695 308.267 589.328
+  angles -90 52.923 -180
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_POINT_13 {
+  coords 5349.296 308.224 593.253
+  angles -90 -126.892 0
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  CastShadow 0
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_SPOT_68 {
+  coords 5349.231 308.267 593.3
+  angles -90 -126.892 0
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_POINT_19 {
+  coords 5332.477 311.195 573.003
+  angles -90 -41.184 0
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  CastShadow 0
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_SPOT_69 {
+  coords 5332.519 309.043 573.071
+  angles -90 -41.184 0
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_POINT_20 {
+  coords 5337.418 311.195 578.006
+  angles -90 -41.184 0
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  CastShadow 0
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_SPOT_70 {
+  coords 5337.53 308.812 578.134
+  angles -90 -41.184 0
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_POINT_21 {
+  coords 5319.454 308.538 574.877
+  angles -90 -41.184 0
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  CastShadow 0
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_SPOT_71 {
+  coords 5319.496 308.581 574.945
+  angles -90 -41.184 0
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_POINT_22 {
+  coords 5319.715 308.538 579.526
+  angles -90 171.616 -180
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  CastShadow 0
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_SPOT_72 {
+  coords 5319.787 308.581 579.561
+  angles -90 171.616 -180
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_POINT_23 {
+  coords 5350.936 308.224 581.201
+  angles -90 -41.184 0
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  CastShadow 0
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_SPOT_73 {
+  coords 5350.978 308.267 581.269
+  angles -90 -41.184 0
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_POINT_24 {
+  coords 5364.206 300.908 577.899
+  angles -90 43.53 -180
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  CastShadow 0
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_SPOT_74 {
+  coords 5364.134 300.951 577.934
+  angles -90 43.53 -180
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_POINT_25 {
+  coords 5369.22 300.908 572.223
+  angles -90 46.643 -180
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  CastShadow 0
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_SPOT_75 {
+  coords 5369.151 300.951 572.262
+  angles -90 46.643 -180
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_POINT_26 {
+  coords 5345.409 300.908 596.43
+  angles -90 48.749 -180
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  CastShadow 0
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_SPOT_76 {
+  coords 5345.341 300.951 596.472
+  angles -90 48.749 -180
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_POINT_27 {
+  coords 5340.927 300.908 601.219
+  angles -90 44.236 -180
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  CastShadow 0
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_SPOT_77 {
+  coords 5340.856 300.951 601.255
+  angles -90 44.236 -180
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_POINT_28 {
+  coords 5333.929 300.908 608.177
+  angles -90 50.637 -180
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  CastShadow 0
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_SPOT_78 {
+  coords 5333.862 300.951 608.222
+  angles -90 50.637 -180
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_POINT_29 {
+  coords 5322.269 300.908 601.989
+  angles -90 -41.184 0
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  CastShadow 0
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_SPOT_79 {
+  coords 5322.311 300.951 602.057
+  angles -90 -41.184 0
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_POINT_30 {
+  coords 5326.201 300.908 605.591
+  angles -90 -41.184 0
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  CastShadow 0
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_SPOT_80 {
+  coords 5326.243 300.951 605.659
+  angles -90 -41.184 0
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_POINT_31 {
+  coords 5355.391 300.908 586.359
+  angles -90 -132.484 0
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  CastShadow 0
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_SPOT_81 {
+  coords 5355.322 300.951 586.4
+  angles -90 -132.484 0
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_POINT_32 {
+  coords 5355.341 293.593 586.282
+  angles -90 46.972 0
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  CastShadow 0
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_SPOT_82 {
+  coords 5355.411 293.636 586.242
+  angles -90 46.972 0
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_POINT_33 {
+  coords 5348.803 293.593 593.202
+  angles -90 50.33 -180
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  CastShadow 0
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_SPOT_83 {
+  coords 5348.736 293.636 593.246
+  angles -90 50.33 -180
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_POINT_34 {
+  coords 5344.558 293.593 597.368
+  angles -90 47.235 -180
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  CastShadow 0
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_SPOT_84 {
+  coords 5344.488 293.636 597.408
+  angles -90 47.235 -180
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_POINT_35 {
+  coords 5337.187 293.593 605.095
+  angles -90 49.765 -180
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  CastShadow 0
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_SPOT_85 {
+  coords 5337.12 293.636 605.138
+  angles -90 49.765 -180
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_POINT_36 {
+  coords 5362.622 293.593 578.635
+  angles -90 48.7 -180
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  CastShadow 0
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_SPOT_86 {
+  coords 5362.554 293.636 578.677
+  angles -90 48.7 -180
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_POINT_37 {
+  coords 5369.755 293.593 571.255
+  angles -90 49.265 -180
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  CastShadow 0
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_SPOT_87 {
+  coords 5369.687 293.636 571.298
+  angles -90 49.265 -180
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_POINT_38 {
+  coords 5379.909 295.879 566.649
+  angles -90 -41.184 0
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  CastShadow 0
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_SPOT_88 {
+  coords 5379.951 293.074 566.717
+  angles -90 -41.184 0
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_POINT_39 {
+  coords 5373.15 295.879 559.489
+  angles -90 -41.184 0
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  CastShadow 0
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_SPOT_89 {
+  coords 5373.192 293.842 559.557
+  angles -90 -41.184 0
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_POINT_40 {
+  coords 5370.256 295.876 556.806
+  angles -90 -41.184 0
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  CastShadow 0
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_SPOT_90 {
+  coords 5370.298 294.194 556.874
+  angles -90 -41.184 0
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_POINT_41 {
+  coords 5343.994 293.593 584.439
+  angles -90 -41.184 0
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  CastShadow 0
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_SPOT_91 {
+  coords 5344.036 293.636 584.507
+  angles -90 -41.184 0
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_POINT_42 {
+  coords 5331.792 296.565 572.793
+  angles -90 -41.184 0
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  CastShadow 0
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_SPOT_92 {
+  coords 5331.833 295.006 572.861
+  angles -90 -41.184 0
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_POINT_43 {
+  coords 5337.796 296.565 578.554
+  angles -90 -41.184 0
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  CastShadow 0
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_SPOT_93 {
+  coords 5337.838 295.006 578.622
+  angles -90 -41.184 0
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_POINT_44 {
+  coords 5329.389 296.565 575.449
+  angles -90 -41.184 0
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  CastShadow 0
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_SPOT_94 {
+  coords 5329.432 295.006 575.518
+  angles -90 -41.184 0
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_POINT_45 {
+  coords 5334.834 296.565 569.934
+  angles -90 -41.184 0
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  CastShadow 0
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_SPOT_107 {
+  coords 5334.876 295.006 570.003
+  angles -90 -41.184 0
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_POINT_46 {
+  coords 5340.004 296.565 576.161
+  angles -90 -41.184 0
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  CastShadow 0
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_SPOT_108 {
+  coords 5340.046 295.006 576.229
+  angles -90 -41.184 0
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_POINT_47 {
+  coords 5335.8 296.565 580.739
+  angles -90 -41.184 0
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  CastShadow 0
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_SPOT_109 {
+  coords 5335.842 295.006 580.807
+  angles -90 -41.184 0
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_POINT_48 {
+  coords 5325.223 300.916 592.159
+  angles -90 -129.363 83.29
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  CastShadow 0
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_SPOT_110 {
+  coords 5325.26 300.959 592.232
+  angles -90 -129.363 83.29
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_SPOT_111 {
+  coords 5340.27 309.174 580.147
+  angles -30.469 48.816 -90
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_SPOT_112 {
+  coords 5342.165 308.352 582.834
+  angles -20.969 -131.271 -90.071
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_SPOT_113 {
+  coords 5318.244 300.949 585.457
+  angles -90 -129.363 83.29
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_POINT_49 {
+  coords 5318.208 300.906 585.384
+  angles -90 -129.363 83.29
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  CastShadow 0
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_SPOT_114 {
+  coords 5307.558 303.956 576.982
+  angles -90 -129.363 83.29
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_POINT_51 {
+  coords 5307.521 301.027 576.909
+  angles -90 -129.363 83.29
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  CastShadow 0
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_SPOT_115 {
+  coords 5306.707 303.938 569.481
+  angles -90 -129.363 83.29
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_POINT_52 {
+  coords 5306.67 301.289 569.408
+  angles -90 -129.363 83.29
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  CastShadow 0
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_SPOT_116 {
+  coords 5309.659 303.939 571.793
+  angles -90 -129.363 83.29
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_POINT_50 {
+  coords 5309.622 301.29 571.72
+  angles -90 -129.363 83.29
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  CastShadow 0
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_SPOT_117 {
+  coords 5303.888 303.927 574.027
+  angles -90 -129.363 83.29
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+ LIGHT_FLUO_POINT_53 {
+  coords 5303.851 301.279 573.954
+  angles -90 -129.363 83.29
+  Color 0.1441 0 0 1
+  Temperature 4997.2
+  LV 4
+  CastShadow 0
+  ClipEV -10
+  Radius 4.09
+  SpotAngle 64.62
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  SourceSize 0
+  VolLightIntensity 0.5
+  LensFlareType Disabled
+ }
+}
+$grp GenericEntity : "{013297BA01640EB9}Prefabs/Props/Garbage/Military/Ammo/GarbageAmmunition_USSR_02.et" {
+ {
+  coords 5372.554 290.521 600.952
+ }
+ {
+  coords 5362.987 290.521 607.756
+ }
+ {
+  coords 5364.123 290.521 601.577
+ }
+ {
+  coords 5360.928 290.521 604.106
+ }
+}
+GenericEntity : "{0712799E7E8A0D56}Prefabs/Props/Industrial/GasTank_02_rusty.et" {
+ coords 5342.93 305.151 595.178
+}
+$grp GenericEntity : "{113DEDEA31F5EB1C}Prefabs/Props/Military/Sandbags/Dst/Sandbag_01_single_dst_02_burlap.et" {
+ {
+  coords 5366.426 297.836 575.659
+ }
+ {
+  coords 5369.62 290.521 607.909
+ }
+ {
+  coords 5334.277 290.521 585.399
+ }
+ {
+  coords 5340.622 290.521 601.063
+ }
+}
+GenericEntity : "{118F3279376A233C}Prefabs/deads/skeleton/dead_skeleton_4.et" {
+ coords 5359.353 297.933 589.112
+ angles 0 -132.366 0
+}
+$grp GenericEntity : "{142EBFC473EC0E30}Prefabs/monster_spawner.et" {
+ {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_CheckInterval 150
+    m_RespawnDelayAfterDelete 800
+    m_SpawnGroups {
+     "{D77BDED419E75367}Configs/Alife/mutants/nighstalker.conf"
+     ""
+     ""
+    }
+   }
+  }
+  coords 5340.56 297.934 600.816
+ }
+ {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_CheckInterval 150
+    m_RespawnDelayAfterDelete 800
+    m_SpawnGroups {
+     "{308C5744595D93B7}Configs/Alife/mutants/zombie_soldiers_mixed.conf"
+     "{D77BDED419E75367}Configs/Alife/mutants/nighstalker.conf"
+     "{308C5744595D93B7}Configs/Alife/mutants/zombie_soldiers_mixed.conf"
+    }
+   }
+  }
+  coords 5355.692 290.668 585.832
+  angles 0 -52.06 0
+ }
+ {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_CheckInterval 150
+    m_RespawnDelayAfterDelete 800
+    m_SpawnGroups {
+     "{308C5744595D93B7}Configs/Alife/mutants/zombie_soldiers_mixed.conf"
+     "{308C5744595D93B7}Configs/Alife/mutants/zombie_soldiers_mixed.conf"
+     ""
+    }
+   }
+  }
+  coords 5366.449 297.984 575.662
+  angles 0 -52.06 0
+ }
+ {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_CheckInterval 150
+    m_RespawnDelayAfterDelete 800
+    m_SpawnGroups {
+     "{D77BDED419E75367}Configs/Alife/mutants/nighstalker.conf"
+     "{D77BDED419E75367}Configs/Alife/mutants/nighstalker.conf"
+     "{D77BDED419E75367}Configs/Alife/mutants/nighstalker.conf"
+    }
+   }
+  }
+  coords 5371.769 290.615 557.565
+  angles 0 -52.06 0
+ }
+ {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_CheckInterval 150
+    m_RespawnDelayAfterDelete 800
+    m_SpawnGroups {
+     "{D77BDED419E75367}Configs/Alife/mutants/nighstalker.conf"
+     "{D77BDED419E75367}Configs/Alife/mutants/nighstalker.conf"
+     "{D77BDED419E75367}Configs/Alife/mutants/nighstalker.conf"
+    }
+   }
+  }
+  coords 5334.976 305.249 575.276
+ }
+ {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_CheckInterval 150
+    m_RespawnDelayAfterDelete 800
+    m_SpawnGroups {
+     "{D77BDED419E75367}Configs/Alife/mutants/nighstalker.conf"
+     "{D77BDED419E75367}Configs/Alife/mutants/nighstalker.conf"
+     "{D77BDED419E75367}Configs/Alife/mutants/nighstalker.conf"
+    }
+   }
+  }
+  coords 5369.664 290.669 607.891
+ }
+ {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_CheckInterval 150
+    m_RespawnDelayAfterDelete 800
+    m_SpawnGroups {
+     "{D77BDED419E75367}Configs/Alife/mutants/nighstalker.conf"
+     "{D77BDED419E75367}Configs/Alife/mutants/nighstalker.conf"
+     "{D77BDED419E75367}Configs/Alife/mutants/nighstalker.conf"
+    }
+   }
+  }
+  coords 5305.642 297.934 572.732
+ }
+ {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_CheckInterval 150
+    m_RespawnDelayAfterDelete 800
+    m_SpawnGroups {
+     "{D77BDED419E75367}Configs/Alife/mutants/nighstalker.conf"
+     "{D77BDED419E75367}Configs/Alife/mutants/nighstalker.conf"
+     "{D77BDED419E75367}Configs/Alife/mutants/nighstalker.conf"
+    }
+   }
+  }
+  coords 5334.233 290.679 585.379
+  angles 0 -52.06 0
+ }
+ {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_CheckInterval 150
+    m_RespawnDelayAfterDelete 800
+    m_SpawnGroups {
+     "{308C5744595D93B7}Configs/Alife/mutants/zombie_soldiers_mixed.conf"
+     "{D77BDED419E75367}Configs/Alife/mutants/nighstalker.conf"
+     "{308C5744595D93B7}Configs/Alife/mutants/zombie_soldiers_mixed.conf"
+    }
+   }
+  }
+  coords 5340.558 290.643 601.016
+  angles 0 -52.06 0
+ }
+ {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_CheckInterval 150
+    m_RespawnDelayAfterDelete 800
+    m_SpawnGroups {
+     "{308C5744595D93B7}Configs/Alife/mutants/zombie_soldiers_mixed.conf"
+     "{308C5744595D93B7}Configs/Alife/mutants/zombie_soldiers_mixed.conf"
+     "{308C5744595D93B7}Configs/Alife/mutants/zombie_soldiers_mixed.conf"
+    }
+   }
+  }
+  coords 5361.242 312.983 675.713
+ }
+ {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_CheckInterval 150
+    m_RespawnDelayAfterDelete 800
+    m_SpawnGroups {
+     "{D77BDED419E75367}Configs/Alife/mutants/nighstalker.conf"
+     ""
+     "{308C5744595D93B7}Configs/Alife/mutants/zombie_soldiers_mixed.conf"
+    }
+   }
+  }
+  coords 5345.953 297.92 595.82
+ }
+ {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_CheckInterval 150
+    m_RespawnDelayAfterDelete 800
+    m_SpawnGroups {
+     "{308C5744595D93B7}Configs/Alife/mutants/zombie_soldiers_mixed.conf"
+     "{308C5744595D93B7}Configs/Alife/mutants/zombie_soldiers_mixed.conf"
+     ""
+    }
+   }
+  }
+  coords 5333.618 297.836 608.51
+ }
+ {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_CheckInterval 150
+    m_RespawnDelayAfterDelete 800
+    m_SpawnGroups {
+     "{D77BDED419E75367}Configs/Alife/mutants/nighstalker.conf"
+     "{AA31A2A6BD9679D4}Configs/Alife/mutants/zombie.conf"
+     "{AA31A2A6BD9679D4}Configs/Alife/mutants/zombie.conf"
+    }
+   }
+  }
+  coords 5366.419 300.215 606.164
+ }
+ {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_CheckInterval 150
+    m_RespawnDelayAfterDelete 800
+    m_SpawnGroups {
+     ""
+     "{AA31A2A6BD9679D4}Configs/Alife/mutants/zombie.conf"
+     "{308C5744595D93B7}Configs/Alife/mutants/zombie_soldiers_mixed.conf"
+    }
+   }
+  }
+  coords 5351.316 305.238 589.85
+ }
+ {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_CheckInterval 150
+    m_RespawnDelayAfterDelete 800
+    m_SpawnGroups {
+     "{D77BDED419E75367}Configs/Alife/mutants/nighstalker.conf"
+     "{AA31A2A6BD9679D4}Configs/Alife/mutants/zombie.conf"
+     "{AA31A2A6BD9679D4}Configs/Alife/mutants/zombie.conf"
+    }
+   }
+  }
+  coords 5362.713 305.297 577.9
+ }
+ {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_CheckInterval 150
+    m_RespawnDelayAfterDelete 800
+    m_SpawnGroups {
+     ""
+     "{AA31A2A6BD9679D4}Configs/Alife/mutants/zombie.conf"
+     "{AA31A2A6BD9679D4}Configs/Alife/mutants/zombie.conf"
+    }
+   }
+  }
+  coords 5348.785 305.251 562.668
+ }
+ {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_CheckInterval 150
+    m_RespawnDelayAfterDelete 800
+    m_SpawnGroups {
+     ""
+     "{AA31A2A6BD9679D4}Configs/Alife/mutants/zombie.conf"
+     "{308C5744595D93B7}Configs/Alife/mutants/zombie_soldiers_mixed.conf"
+    }
+   }
+  }
+  coords 5335.265 305.248 550.361
+ }
+ {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_CheckInterval 150
+    m_RespawnDelayAfterDelete 800
+    m_SpawnGroups {
+     "{D77BDED419E75367}Configs/Alife/mutants/nighstalker.conf"
+     "{AA31A2A6BD9679D4}Configs/Alife/mutants/zombie.conf"
+     "{AA31A2A6BD9679D4}Configs/Alife/mutants/zombie.conf"
+    }
+   }
+  }
+  coords 5320.405 305.241 577.413
+ }
+}
+$grp GenericEntity : "{178B066B70D7BE99}Prefabs/Compositions/Misc/SubCompositions/Furniture/Table_Desk_US_04.et" {
+ {
+  coords 5356.982 305.151 555.406
+  angles 0 49.396 0
+ }
+ {
+  coords 5356.158 305.151 556.367
+  angles 0 49.396 0
+ }
+ {
+  coords 5355.333 305.151 557.33
+  angles 0 49.396 0
+ }
+ {
+  coords 5356.93 305.151 558.705
+  angles 0 49.396 0
+ }
+ {
+  coords 5357.78 305.151 557.713
+  angles 0 49.396 0
+ }
+ {
+  coords 5358.611 305.151 556.742
+  angles 0 49.396 0
+ }
+}
+$grp GenericEntity : "{17F3181D0DAC27FC}Prefabs/Props/Furniture/CabinetMetal_01_grey_V1.et" {
+ {
+  coords 5323.583 297.845 598.366
+  angles 0 -47.923 0
+ }
+ {
+  coords 5324.479 297.845 599.358
+  angles 0 -47.923 0
+ }
+ {
+  coords 5325.328 297.845 600.298
+  angles 0 -47.923 0
+ }
+}
+DecalEntity : "{19855E1BFBC4ABEE}Prefabs/Method/Decals/Blood/Blood_Small_01.et" {
+ coords 5347.698 1.538 588.655
+ angles -90 -180 -180
+ scale 0.8
+}
+$grp GenericEntity : "{1EDBE01AAD5EE137}Prefabs/Props/Industrial/GasTank_02_blue.et" {
+ {
+  coords 5357.005 290.521 610.741
+ }
+ {
+  coords 5357.38 290.521 611.347
+ }
+ {
+  coords 5343.282 305.151 595.499
+ }
+ {
+  coords 5343.4 305.151 595.065
+ }
+ {
+  coords 5337.401 305.154 557.237
+ }
+}
+$grp GenericEntity : "{2595F6426CDFDBBB}Prefabs/Props/Civilian/Computer_E_01/Computer_E_01_Monitor_on.et" {
+ {
+  coords 5337.444 291.739 571.008
+  angles 88.222 25.664 115.675
+ }
+ {
+  coords 5333.748 290.521 571.057
+  angles 88.374 0 0
+ }
+ {
+  coords 5329.767 291.643 572.327
+ }
+ {
+  coords 5331.594 291.643 579.983
+ }
+}
+GenericEntity : "{27832E7AD654F1A1}Prefabs/Vehicles/trains/train_diesel_2.et" {
+ coords 4936.048 311.221 1244.504
+}
+$grp GenericEntity : "{2A0F520584F7B112}Prefabs/Props/Industrial/CartSawmill_01_log.et" {
+ {
+  coords 5372.638 290.521 610.648
+  angles 0 84.253 0
+ }
+ {
+  coords 5347.066 305.151 598.27
+  angles 0 98.747 0
+ }
+ {
+  coords 5330.882 305.151 548.471
+ }
+}
+GenericEntity : "{2A91FC762EA62692}Prefabs/Props/Furniture/FlagDecorative_01/FlagDecorative_01_USSR.et" {
+ coords 6723.694 267.949 926.487
+ angles 0 -145.156 0
+}
+$grp GenericEntity : "{2CBB17414206AA0B}Prefabs/deads/skeleton/dead_skeleton_3.et" {
+ {
+  coords 5342.871 290.625 596.116
+  angles 0 0 0
+ }
+ {
+  coords 5368.207 300.261 609.06
+  angles 0 0 0
+ }
+ {
+  coords 5370.75 300.296 607.446
+  angles 0 0 0
+ }
+}
+$grp GenericEntity : "{2E2351CD5B452FD6}Prefabs/Teleport/TELEPORT_DOOR.et" {
+ {
+  components {
+   ActionsManagerComponent "{657E853A83CE2D0D}" {
+    ActionContexts {
+     UserActionContext "{66296A5664425E92}" {
+      UIInfo UIInfo "{66296A561B801DF2}" {
+      }
+      ContextName "Default"
+      Position PointInfo "{66296A5608BC9454}" {
+       Offset 0.4756 0.9199 0
+      }
+      Radius 0.81
+     }
+    }
+    additionalActions {
+     ARMST_TELEPORT_ACTIONS "{66296A569920C82F}" {
+      ParentContextList {
+       "Default"
+      }
+      m_sTeleportActionName "Facility"
+      m_sTeleportTarget "enter_perimetr12"
+      m_PrefabToSpawn "{CFBE5282A6098D90}Prefabs/Teleport/Teleport_light.et"
+      m_fTeleportDelay 2
+      m_fTeleportRadius 3
+     }
+    }
+   }
+   RplComponent "{66296A59D6BB86FC}" {
+   }
+  }
+  coords 5340.549 305.151 581.924
+  angles 0 46.063 0
+ }
+ {
+  components {
+   ActionsManagerComponent "{657E853A83CE2D0D}" {
+    ActionContexts {
+     UserActionContext "{66296A5664425E92}" {
+      UIInfo UIInfo "{66296A561B801DF2}" {
+      }
+      ContextName "Default"
+      Position PointInfo "{66296A5608BC9454}" {
+       Offset 0.4756 0.9199 0
+      }
+      Radius 0.81
+     }
+    }
+    additionalActions {
+     ARMST_TELEPORT_ACTIONS "{66296A569920C82F}" {
+      ParentContextList {
+       "Default"
+      }
+      m_sTeleportActionName "Level 1"
+      m_sTeleportTarget "enter_perimetr13"
+      m_PrefabToSpawn "{CFBE5282A6098D90}Prefabs/Teleport/Teleport_light.et"
+      m_fTeleportDelay 2
+      m_fTeleportRadius 3
+      m_sRequiredItem "{B021E3CF45D91224}Prefabs/Items/Keys/keycard1.et"
+     }
+    }
+   }
+   RplComponent "{66296A59D6BB86FC}" {
+   }
+  }
+  coords 5341.7 305.151 581.607
+  angles 0 -132.639 0
+ }
+ {
+  components {
+   ActionsManagerComponent "{657E853A83CE2D0D}" {
+    ActionContexts {
+     UserActionContext "{66296A5664425E92}" {
+      UIInfo UIInfo "{66296A561B801DF2}" {
+      }
+      ContextName "Default"
+      Position PointInfo "{66296A5608BC9454}" {
+       Offset 0.4756 0.9199 0
+      }
+      Radius 0.81
+     }
+    }
+    additionalActions {
+     ARMST_TELEPORT_ACTIONS "{66296A569920C82F}" {
+      ParentContextList {
+       "Default"
+      }
+      m_sTeleportActionName "Facility"
+      m_sTeleportTarget "enter_perimetr14"
+      m_PrefabToSpawn "{CFBE5282A6098D90}Prefabs/Teleport/Teleport_light.et"
+      m_fTeleportDelay 2
+      m_fTeleportRadius 3
+     }
+    }
+   }
+   RplComponent "{66296A59D6BB86FC}" {
+   }
+  }
+  coords 5311.981 297.851 579.672
+  angles 0 46.063 0
+ }
+ {
+  components {
+   ActionsManagerComponent "{657E853A83CE2D0D}" {
+    ActionContexts {
+     UserActionContext "{66296A5664425E92}" {
+      UIInfo UIInfo "{66296A561B801DF2}" {
+      }
+      ContextName "Default"
+      Position PointInfo "{66296A5608BC9454}" {
+       Offset 0.4756 0.9199 0
+      }
+      Radius 0.81
+     }
+    }
+    additionalActions {
+     ARMST_TELEPORT_ACTIONS "{66296A569920C82F}" {
+      ParentContextList {
+       "Default"
+      }
+      m_sTeleportActionName "Level 2"
+      m_sTeleportTarget "enter_perimetr17"
+      m_PrefabToSpawn "{CFBE5282A6098D90}Prefabs/Teleport/Teleport_light.et"
+      m_fTeleportDelay 2
+      m_fTeleportRadius 3
+      m_sRequiredItem "{DC75D72FF91D9D0A}Prefabs/Items/Keys/keycard2.et"
+     }
+    }
+   }
+   RplComponent "{66296A59D6BB86FC}" {
+   }
+  }
+  coords 5313.053 297.789 579.278
+  angles 0 -132.639 0
+ }
+ {
+  components {
+   ActionsManagerComponent "{657E853A83CE2D0D}" {
+    ActionContexts {
+     UserActionContext "{66296A5664425E92}" {
+      UIInfo UIInfo "{66296A561B801DF2}" {
+      }
+      ContextName "Default"
+      Position PointInfo "{66296A5608BC9454}" {
+       Offset 0.4756 0.9199 0
+      }
+      Radius 0.81
+     }
+    }
+    additionalActions {
+     ARMST_TELEPORT_ACTIONS "{66296A569920C82F}" {
+      ParentContextList {
+       "Default"
+      }
+      m_sTeleportActionName "Level 3"
+      m_sTeleportTarget "enter_perimetr21"
+      m_PrefabToSpawn "{CFBE5282A6098D90}Prefabs/Teleport/Teleport_light.et"
+      m_fTeleportDelay 2
+      m_fTeleportRadius 3
+      m_sRequiredItem "{39E99BD6F5F80A61}Prefabs/Items/Keys/keycard3.et"
+     }
+    }
+   }
+   RplComponent "{66296A59D6BB86FC}" {
+   }
+  }
+  coords 5341.628 290.47 581.457
+  angles 0 -132.639 0
+ }
+ {
+  components {
+   ActionsManagerComponent "{657E853A83CE2D0D}" {
+    ActionContexts {
+     UserActionContext "{66296A5664425E92}" {
+      UIInfo UIInfo "{66296A561B801DF2}" {
+      }
+      ContextName "Default"
+      Position PointInfo "{66296A5608BC9454}" {
+       Offset 0.4756 0.9199 0
+      }
+      Radius 0.81
+     }
+    }
+    additionalActions {
+     ARMST_TELEPORT_ACTIONS "{66296A569920C82F}" {
+      ParentContextList {
+       "Default"
+      }
+      m_sTeleportActionName "Facility"
+      m_sTeleportTarget "enter_perimetr20"
+      m_PrefabToSpawn "{CFBE5282A6098D90}Prefabs/Teleport/Teleport_light.et"
+      m_fTeleportDelay 2
+      m_fTeleportRadius 3
+     }
+    }
+   }
+   RplComponent "{66296A59D6BB86FC}" {
+   }
+  }
+  coords 5340.544 290.521 581.838
+  angles 0 46.063 0
+ }
+}
+$grp GenericEntity : "{335F55E7E294F9FC}Prefabs/Compositions/Misc/SubCompositions/Furniture/Cabinet_Books_USSR_01.et" {
+ {
+  coords 5317.767 297.836 601.703
+  angles 0 143.505 0
+ }
+ {
+  coords 5318.988 297.836 602.606
+  angles 0 143.505 0
+ }
+ {
+  coords 5320.137 297.836 603.456
+  angles 0 143.505 0
+ }
+}
+$grp GenericEntity : "{33C8C16C9503C5B1}Prefabs/Props/Industrial/BenchIndustrial_01/BenchIndustrial_01_base.et" {
+ {
+  coords 5316.498 305.151 576.975
+  angles 0 91.498 0
+ }
+ {
+  coords 5316.55 305.151 578.982
+  angles 0 91.498 0
+ }
+ {
+  coords 5316.445 305.151 574.981
+  angles 0 91.498 0
+ }
+}
+GenericEntity : "{3400F9491CED0567}Prefabs/Vehicles/trains/train_wagon_misc2.et" {
+ coords 4926.26 311.441 1245.415
+ angles 0 34.188 0
+}
+$grp GenericEntity : "{39C308BBB5945B85}Prefabs/Props/Military/Furniture/ChairMilitary_US_02.et" {
+ {
+  coords 5357.229 305.151 558.984
+  angles 0 -130.452 0
+ }
+ {
+  coords 5358.007 305.445 558.116
+  angles 87.888 -13.551 132.43
+ }
+ {
+  coords 5358.841 305.151 557.053
+  angles 0 -127.06 0
+ }
+ {
+  coords 5357.347 305.151 555.924
+  angles 0 -127.06 0
+ }
+ {
+  coords 5356.491 305.151 556.761
+  angles 0 -133.963 0
+ }
+ {
+  coords 5354.748 305.376 558.569
+  angles 0 -133.963 -89.561
+ }
+}
+$grp GenericEntity : "{3B9DD26E4C48A3D6}Prefabs/Trash/Ammo/GarbageAmmunition_US_01.et" {
+ {
+  coords 5332.981 290.521 574.518
+ }
+ {
+  coords 5330.275 290.521 574.039
+ }
+ {
+  coords 5342.085 290.521 584.523
+ }
+ {
+  coords 5348.662 290.521 588.643
+ }
+}
+$grp DecalEntity : "{44BEF7B5E19C402B}Prefabs/Method/Decals/Blood/Blood_Wall_01.et" {
+ {
+  coords 5342.587 3.931 579.38
+  angles -90 -180 -180
+  scale 0.8
+ }
+ {
+  coords 5339.453 1.994 574.217
+  angles -11.752 90 -90
+  scale 0.8
+ }
+ {
+  coords 5334.717 2.149 570.187
+  angles -5.38 180 -180
+  scale 0.8
+ }
+}
+$grp GenericEntity : "{47A2F2F3C8FAACD5}Prefabs/Props/Military/Camps/PalletAmmo_01_Soviet.et" {
+ {
+  coords 5342.264 290.521 596.268
+ }
+ {
+  coords 5376.105 290.521 602.617
+ }
+ {
+  coords 5374.28 290.521 600.878
+  angles 0 -55.055 0
+ }
+}
+$grp GameEntity : "{48AF6DFD28B9E01B}Prefabs/DONT_USE/GeneratorMilitary_01.et" {
+ {
+  coords 5345.369 305.151 563.902
+  angles 0 4.066 0
+ }
+ {
+  coords 5344.853 305.151 582.244
+  angles 0 61.406 0
+ }
+}
+$grp GenericEntity : "{49EEBE92EC835398}Prefabs/Props/Military/Sandbags/Dst/Sandbag_01_single_dst_04_green.et" {
+ {
+  coords 5355.688 290.521 585.853
+  angles 0 -105.067 0
+ }
+ {
+  coords 5362.763 305.151 577.913
+ }
+}
+$grp GenericEntity : "{4BE795374BE3D67E}Prefabs/Props/Industrial/BarrelFuel_01_closed.et" {
+ {
+  coords 5370.992 290.521 567.976
+ }
+ {
+  coords 5373.499 290.696 570.484
+  angles -88.378 0 0
+ }
+ {
+  coords 5345.315 290.812 589.686
+  angles 88.137 180 -180
+ }
+ {
+  coords 5381.539 290.774 568.818
+  angles -88.378 0 0
+ }
+ {
+  coords 5382.189 290.734 567.389
+  angles -88.378 0 78.7
+ }
+ {
+  coords 5330.569 297.836 607.444
+ }
+ {
+  coords 5324.935 297.836 588.071
+ }
+}
+$grp GenericEntity : "{4BF528DF7A469909}Prefabs/Props/Construction/PalletJack_01.et" {
+ {
+  coords 5356.4 305.432 569.254
+  angles 0 0 -75.945
+ }
+ {
+  coords 5344.042 305.151 557.14
+ }
+ {
+  coords 5344.428 297.836 595.441
+ }
+ {
+  coords 5334.704 297.836 600.185
+ }
+ {
+  coords 5343.859 297.836 610.153
+ }
+ {
+  coords 5362.321 297.836 573.621
+ }
+}
+$grp GenericEntity : "{4CB7D60EB23D4062}Prefabs/DONT_USE/Lampa_01.et" {
+ {
+  coords 5359.775 308.352 574.951
+  angles 0 -44.476 0
+ }
+ {
+  coords 5349.801 308.352 565.158
+  angles 0 -44.476 0
+ }
+ {
+  coords 5341.901 308.352 557.401
+  angles 0 -44.476 0
+ }
+ {
+  coords 5334.361 308.352 549.998
+  angles 0 -44.476 0
+ }
+ {
+  coords 5342.763 308.352 544.033
+  angles 0 -134.867 0
+ }
+ {
+  coords 5354.458 308.328 586.88
+  angles 0 50.567 0
+ }
+ {
+  coords 5366.553 308.328 573.989
+  angles 0 50.567 0
+ }
+ {
+  coords 5362.632 308.352 564.116
+  angles 0 -44.476 0
+ }
+ {
+  coords 5357.167 308.352 558.751
+  angles 0 -44.476 0
+ }
+ {
+  coords 5351.092 308.352 552.785
+  angles 0 -44.476 0
+ }
+ {
+  coords 5358.313 301.041 583.403
+  angles -0.101 41.966 -0.083
+ }
+ {
+  coords 5362.085 301.049 579.596
+  angles -0.101 41.966 -0.083
+ }
+ {
+  coords 5367.46 301.06 574.172
+  angles -0.101 41.966 -0.083
+ }
+ {
+  coords 5361.666 301.056 573.301
+  angles -0.101 41.966 -0.083
+ }
+ {
+  coords 5358.32 293.705 583.395
+  angles -0.101 41.966 -0.083
+ }
+}
+GenericEntity : "{4E44F4A32FC0C9E4}Prefabs/Structures/BuildingParts/Eletrical/SwitchboardPhone_01/SwitchboardPhone_01.et" {
+ coords 5314.388 297.836 567.468
+ angles 0 -47.272 0
+}
+GenericEntity : "{50A752B7D5E679A2}Prefabs/Props/Industrial/Repair/GasWelder_01.et" {
+ coords 5321.955 305.151 581.779
+}
+GenericEntity : "{530705FBB61026D2}Prefabs/Props/Garbage/Cardboard/Cardboard_Pile_03.et" {
+ coords 5370.255 290.521 604.502
+}
+$grp GenericEntity : "{53DE322CC9306A58}Prefabs/Perimetr/wall_invisible.et" {
+ {
+  coords 5342.836 297.302 597.663
+  angles 89.733 -97.365 -53.116
+  scale 0.73
+ }
+ {
+  coords 5363.679 297.37 577.317
+  angles 89.881 -169.057 -124.811
+  scale 0.73
+ }
+ {
+  coords 5369.39 290.057 560.377
+  angles 89.881 -169.057 -124.811
+  scale 0.73
+ }
+ {
+  coords 5353.547 290.054 588.21
+  angles 89.881 -169.057 -124.811
+  scale 0.73
+ }
+ {
+  coords 5338.332 290.036 603.582
+  angles 89.881 -169.057 -124.811
+  scale 0.73
+ }
+ {
+  coords 5334.132 290.054 575.604
+  angles 89.881 -169.057 -124.811
+  scale 0.73
+ }
+ {
+  coords 5331.694 290.038 588.569
+  angles 89.881 -169.057 -124.811
+  scale 0.73
+ }
+ {
+  coords 5346.773 290.048 593.798
+  angles 89.881 -169.057 -124.811
+  scale 0.73
+ }
+ {
+  coords 5367.307 290.054 609.963
+  angles 89.881 -169.057 -124.811
+  scale 0.73
+ }
+ {
+  coords 5339.518 297.349 602.943
+  angles 89.766 62.738 106.984
+  scale 0.73
+ }
+ {
+  coords 5331.729 297.365 611.152
+  angles 89.901 -125.053 -80.807
+  scale 0.73
+ }
+ {
+  coords 5349.044 304.684 591.882
+  angles 89.881 -169.057 -124.811
+  scale 0.73
+ }
+ {
+  coords 5333.404 304.681 577.246
+  angles 89.881 -169.057 -124.811
+  scale 0.73
+ }
+ {
+  coords 5317.358 304.686 579.142
+  angles 89.881 -169.057 -124.811
+  scale 0.73
+ }
+ {
+  coords 5360.513 304.605 579.998
+  angles 89.881 -169.057 -124.811
+  scale 0.73
+ }
+ {
+  coords 5346.479 304.662 564.59
+  angles 89.881 -169.057 -124.811
+  scale 0.73
+ }
+ {
+  coords 5332.573 304.68 551.63
+  angles 89.881 -169.057 -124.811
+  scale 0.73
+ }
+ {
+  coords 5365.535 299.638 610.111
+  angles 89.733 -97.365 -53.116
+  scale 0.73
+ }
+ {
+  coords 5302.884 297.35 574.532
+  angles 89.881 -169.057 -124.811
+  scale 0.73
+ }
+}
+GenericEntity : "{56168C119BAE6211}Prefabs/Structures/Military/Bunkers/ShelterMilitary_E_01/ShelterMilitary_E_01_furniture_01.et" {
+ coords 4865.196 312.159 1350.499
+ {
+  GenericEntity {
+   ID "59C27030859B4301"
+   coords -3.69 0.096 1.558
+   angles -2.132 100.74 -4.719
+  }
+  GenericEntity {
+   ID "59C27030859A80A6"
+   coords 0.31 -245.79 2.136
+  }
+  GenericEntity {
+   ID "59C27030859A8099"
+   coords -1.991 -246.079 -0.319
+  }
+  GenericEntity {
+   ID "59C27030859A80CC"
+   coords 2.328 -247.577 1.909
+  }
+  GenericEntity {
+   ID "59C27030859A80D4"
+   coords 2.084 -247.577 1.909
+  }
+  GenericEntity {
+   ID "59C27030859A80E3"
+   coords 2.589 -247.577 1.909
+  }
+  GenericEntity {
+   ID "59C27030859A8730"
+   coords -1.778 -16.878 -1.647
+  }
+  GenericEntity {
+   ID "59C27030859A80B1"
+   coords 2.674 -245.443 1.683
+  }
+ }
+}
+GenericEntity : "{56E05D014BD48942}Prefabs/Props/Industrial/CartSawmill_01_transport.et" {
+ coords 5356.242 297.836 581.035
+ angles 0 -52 0
+}
+GenericEntity : "{5B1AD6ADCCDB0B66}Prefabs/Trash/Newspapers/newspaper_2.et" {
+ coords 5336.075 290.521 572.564
+}
+GenericEntity : "{5D31850B326BA246}Prefabs/Props/Industrial/AirCompressor_01/AirCompressor_01.et" {
+ coords 5331.628 305.151 568.07
+ angles 0 22.257 0
+}
+GenericEntity : "{5DF32BDA2A8C5A3D}Prefabs/Props/Military/Camps/PalletAmmo_01_US_camo.et" {
+ coords 5333.49 290.521 605.632
+}
+$grp GameEntity : "{5E18F5832C69F8A9}Prefabs/Props/Military/Camps/Lamp_Interactive.et" {
+ {
+  coords 5344.413 291.539 586.673
+ }
+ {
+  coords 5336.542 291.742 570.309
+  angles 0 0 -88.619
+ }
+ {
+  coords 5329.723 291.643 577.263
+ }
+}
+$grp GenericEntity : "{5E6CA09D2F7DA714}Prefabs/Structures/BuildingParts/Eletrical/TransmitterControlPanel_02/TransmitterControlPanel_E_02_V3.et" {
+ {
+  coords 5339.808 290.521 566.889
+  angles 0 -45.503 0
+ }
+ {
+  coords 5344.623 290.521 571.958
+  angles 0 -45.503 0
+ }
+ {
+  coords 5329.527 290.521 583.697
+  angles 0 133.577 0
+ }
+ {
+  coords 5324.813 290.521 578.573
+  angles 0 133.577 0
+ }
+ {
+  coords 5367.413 290.521 558.203
+  angles 0 136.21 0
+ }
+ {
+  coords 5364.515 305.151 558.69
+  angles 0 -41.994 0
+ }
+ {
+  coords 5304.347 297.836 585.226
+  angles 0 138.991 0
+ }
+}
+$grp GenericEntity : "{60F052D43EEED112}Prefabs/Structures/BuildingParts/Eletrical/ControlPanel_01/ControlPanel_01.et" {
+ {
+  coords 5331.459 290.521 567.156
+  angles 0 43.944 0
+ }
+ {
+  coords 5330.169 290.521 568.377
+  angles 0 43.944 0
+ }
+ {
+  coords 5327.558 290.521 570.781
+  angles 0 43.944 0
+ }
+ {
+  coords 5326.281 290.521 571.98
+  angles 0 43.944 0
+ }
+ {
+  coords 5370.807 290.521 561.802
+  angles 0 136.059 0
+ }
+ {
+  coords 5377.829 290.521 568.405
+  angles 0 136.059 0
+ }
+ {
+  coords 5379.106 290.519 569.644
+  angles 0 136.215 0
+ }
+}
+$grp GenericEntity : "{625787D8FEB15355}Prefabs/Structures/BuildingParts/Lights/LightIndustrial_02_on_interior.et" {
+ {
+  coords 5348.841 298.075 579.129
+  angles 0 43.271 0
+  {
+   LightEntity {
+    ID "6512711B1DB82A9B"
+    Color 0.8563 0 0 1
+   }
+  }
+ }
+ {
+  coords 5348.856 304.491 579.094
+  angles 1.136 42.335 0
+ }
+ {
+  coords 5312.723 300.79 579.622
+  angles 0 43.271 0
+  {
+   LightEntity {
+    ID "6512711B1DB82A9B"
+    Color 0.8563 0 0 1
+    Radius 0
+    DistanceAttenuation 0.1
+   }
+  }
+ }
+ {
+  coords 5341.286 293.065 581.833
+  angles 0 43.271 0
+ }
+}
+GenericEntity : "{679B481179A99349}Prefabs/Props/Military/MilitaryCrates/ShellContainerstack_01/ShellContainerstack_01_single.et" {
+ coords 5371.28 290.58 603.574
+}
+GenericEntity : "{6BF847A5EB920F8A}Prefabs/Props/Industrial/OvenIndustrial_01/OvenIndustrial_01.et" {
+ coords 5316.012 305.151 572.716
+ angles 0 91.839 0
+}
+GenericEntity : "{6C971BB5B220D2C7}Prefabs/Props/Airport/GeneratorAirfield_USSR_01/GeneratorAirfield_USSR_01_base.et" {
+ coords 5359.461 297.836 570.575
+ angles 0 41.512 0
+}
+GenericEntity : "{6D66A35ABDA08198}Prefabs/Trash/Ammo/GarbageAmmunition_USSR_01.et" {
+ coords 5342.49 290.521 581.83
+}
+$grp GenericEntity : "{6FFD54071AD89DAC}Prefabs/Props/Military/Furniture/TableMilitary_US_02_cabinet.et" {
+ {
+  coords 5360.902 290.521 614.79
+  angles 0 137.527 0
+ }
+ {
+  coords 5361.858 290.521 615.665
+  angles 0 137.527 0
+ }
+ {
+  coords 5362.81 290.521 616.536
+  angles 0 137.527 0
+ }
+}
+GenericEntity : "{7030822F7A54F479}Prefabs/LOOT_BOX/base/backpacks/CrateWooden_01_base.et" {
+ coords 5364.86 290.521 617.292
+ angles 0 6.36 0
+}
+$grp GenericEntity : "{716F88F928ACC3EB}Prefabs/Props/Furniture/Toilet_01/Toilet_01_golden.et" {
+ {
+  coords 5340.942 297.836 589.893
+  angles 0 -46.876 0
+ }
+ {
+  coords 5339.668 297.836 588.629
+  angles 0 -43.832 0
+ }
+ {
+  coords 5338.327 297.836 587.331
+  angles 0 -43.832 0
+ }
+ {
+  coords 5336.975 297.836 586.033
+  angles 0 -43.832 0
+ }
+ {
+  coords 5335.686 297.836 584.794
+  angles 0 -43.832 0
+ }
+ {
+  coords 5334.375 297.836 583.535
+  angles 0 -43.832 0
+ }
+}
+GenericEntity : "{7623D8817F312691}Prefabs/DONT_USE/BenchIndustrial_01_d.et" {
+ coords 5346.603 297.836 599.518
+ angles 0 43.369 0
+}
+$grp SCR_DestructibleBuildingEntity : "{7720B78DED8FAB50}Prefabs/Perimetr/wall_perimetr.et" {
+ {
+  coords 5341.108 305.151 581.903
+  angles 0 48.824 0
+  scale 0.394
+ }
+ {
+  coords 5340.911 305.25 581.874
+  angles 0 47.312 0
+  scale 0.394
+ }
+ {
+  coords 5312.608 297.836 579.414
+  angles 0 -132.929 0
+  scale 0.386
+ }
+ {
+  coords 5341.167 290.521 581.576
+  angles 0 -132.929 0
+  scale 0.424
+ }
+}
+$grp GenericEntity : "{77D49455528ED5E6}Prefabs/Props/Military/MilitaryCrates/ShellContainerstack_01/ShellContainerstack_01_pile_small.et" {
+ {
+  coords 5364.316 290.521 599.104
+  angles 0 43.007 0
+ }
+ {
+  coords 5356.169 290.521 607.484
+ }
+}
+GenericEntity : "{795552B887CD50E7}Prefabs/Props/Industrial/ConcretePanel_01_stack.et" {
+ coords 5369.358 289.712 614.158
+ angles 0 62.09 0
+}
+$grp GenericEntity : "{7AF4B627D5C90235}Prefabs/Props/Military/Sandbags/Sandbag_01_round_high_burlap.et" {
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    Enabled 0
+   }
+  }
+  coords 5335.737 297.836 606.502
+  angles 0 163.768 0
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    Enabled 0
+   }
+  }
+  coords 5337.269 297.836 608.443
+  angles 0 92.512 0
+ }
+}
+$grp GenericEntity : "{7D52C517720EF2F6}Prefabs/Props/Industrial/BarrelMetal_01_grey.et" {
+ {
+  coords 5348.963 305.151 567.814
+ }
+ {
+  coords 5350.627 305.151 568.878
+ }
+ {
+  coords 5334.517 305.151 545.952
+  angles 0 -31.174 0
+ }
+}
+$grp GenericEntity : "{7DDB06998BAEAC12}Prefabs/deads/skeleton/dead_skeleton_7.et" {
+ {
+  coords 5330.66 290.521 572.094
+  angles 0 -140.634 0
+ }
+ {
+  coords 5339.409 290.521 575.318
+  angles 0 92.24 0
+ }
+ {
+  coords 5367.704 290.521 578.178
+  angles 0 34.576 0
+ }
+ {
+  coords 5377.798 290.521 561.268
+  angles 0 124.047 0
+ }
+ {
+  coords 5367.972 290.523 609.417
+  angles 0 5.663 0
+ }
+ {
+  coords 5349.151 297.836 597.311
+  angles 0 37.221 0
+ }
+ {
+  coords 5313.133 297.836 584.541
+  angles 0 -42.952 0
+ }
+ {
+  coords 5344.946 305.151 592.723
+  angles 0 -158.627 0
+ }
+ {
+  coords 5319.148 297.836 602.166
+  angles 0 -35.271 0
+ }
+}
+GenericEntity : "{7E5A4578657283E6}Prefabs/Props/Industrial/GasTank_02_red.et" {
+ coords 5358.249 290.521 611.95
+}
+GenericEntity : "{7F95D831CA586F06}Prefabs/Compositions/Misc/SubCompositions/CableReelWooden_Cluttered_USSR_01.et" {
+ coords 5329.084 297.836 604.236
+ angles 0 0 0
+}
+GameEntity : "{820839184AE86AC8}Prefabs/Method/Props/Camps/Fireplace_Loiters_01.et" {
+ coords 5363.063 290.521 609.209
+ angles 0 9.302 0
+}
+$grp GenericEntity : "{82DDDA574CB4F0D9}Prefabs/Props/Industrial/BarrelFuel_01_Base.et" {
+ {
+  coords 5336.28 290.521 601.952
+ }
+ {
+  coords 5337.033 290.521 600.879
+ }
+ {
+  coords 5337.5 290.521 601.57
+ }
+ {
+  coords 5337.999 290.521 600.733
+ }
+ {
+  coords 5336.69 290.521 609.408
+ }
+ {
+  coords 5336.298 290.521 608.754
+ }
+ {
+  coords 5337.14 290.521 608.304
+ }
+ {
+  coords 5363.539 290.521 581.845
+ }
+ {
+  coords 5356.674 290.674 581.386
+  angles -87.697 0 0
+ }
+ {
+  coords 5356.26 290.521 593.717
+ }
+ {
+  coords 5370.86 290.521 567.054
+ }
+ {
+  coords 5370.278 290.521 567.928
+ }
+ {
+  coords 5358.734 290.521 603.597
+ }
+ {
+  coords 5357.847 290.521 604.735
+ }
+ {
+  coords 5359.237 290.757 604.677
+  angles 0 0 -86.087
+ }
+ {
+  coords 5344.368 297.836 601.252
+ }
+ {
+  coords 5344.345 297.836 606.173
+ }
+ {
+  coords 5346 297.836 607.819
+ }
+ {
+  coords 5345.342 297.836 607.131
+ }
+ {
+  coords 5342.982 297.836 610.736
+ }
+ {
+  coords 5346.639 297.836 611.009
+ }
+ {
+  coords 5358.995 298.356 595.152
+ }
+}
+$grp GenericEntity : "{83B2BF6CB552153A}Prefabs/Trash/Newspapers/newspaper_4.et" {
+ {
+  coords 5331.74 290.521 576.18
+  angles 0 0 0
+ }
+ {
+  coords 5337.131 290.521 579.257
+  angles 0 0 0
+ }
+ {
+  coords 5339.886 290.521 577.913
+  angles 0 0 0
+ }
+}
+$grp GenericEntity : "{8751F77B1038FC72}Prefabs/Props/Industrial/Repair/VehicleGarbage_01_pile_large.et" {
+ {
+  coords 5325.057 305.151 572.769
+ }
+ {
+  coords 5321.66 305.151 572.769
+ }
+}
+$grp GenericEntity : "{8C82BBBDEE9CBA3A}Prefabs/Props/Military/Camps/WeaponRackStand_01.et" {
+ {
+  coords 5319.614 297.836 597.199
+  angles 0 47.252 0
+ }
+ {
+  coords 5317.836 297.836 599.122
+  angles 0 47.252 0
+ }
+}
+GenericEntity : "{8D9D91FDDF0055F3}Prefabs/deads/skeleton/dead_skeleton_head.et" {
+ coords 5380.271 290.521 569.204
+}
+$grp GenericEntity : "{8EF9A7BC7B9C732E}Prefabs/Props/Industrial/BenchDrill_01_table.et" {
+ {
+  coords 5352.984 290.521 596.682
+  angles 0 49.813 0
+ }
+ {
+  coords 5342.483 305.151 571.071
+  angles 0 -131.439 0
+ }
+ {
+  coords 5341.601 305.151 570.215
+  angles 0 -33.962 0
+ }
+ {
+  coords 5333.43 305.151 545.989
+ }
+}
+GenericEntity : "{90A74133C1DC6226}Prefabs/Props/Industrial/Repair/EngineCrane_01.et" {
+ coords 5320.652 305.151 580.006
+ angles 0 63.497 0
+}
+$grp GenericEntity : "{948748122F2C75B0}Prefabs/Structures/BuildingParts/Eletrical/TransmitterControlPanel_02/TransmitterControlPanel_02_base.et" {
+ {
+  coords 5340.641 290.521 567.47
+  angles 0 -46.47 0
+ }
+ {
+  coords 5345.456 290.521 572.539
+  angles 0 -46.47 0
+ }
+ {
+  coords 5328.705 290.521 583.103
+  angles 0 132.611 0
+ }
+ {
+  coords 5323.991 290.521 577.979
+  angles 0 132.611 0
+ }
+ {
+  coords 5363.822 305.151 557.904
+  angles 0 -42.978 0
+ }
+ {
+  coords 5311.773 297.836 565.02
+  angles 0 -44.045 0
+ }
+ {
+  coords 5311.042 297.836 564.312
+  angles 0 -44.045 0
+ }
+ {
+  coords 5310.255 297.836 563.551
+  angles 0 -44.045 0
+ }
+}
+$grp GenericEntity : "{95D947E744336F78}Prefabs/Props/Industrial/Workbench_01.et" {
+ {
+  coords 5344.013 290.521 587.352
+  angles 0 -132.999 0
+ }
+ {
+  coords 5346.824 290.521 584.337
+  angles 0 -132.999 0
+ }
+ {
+  coords 5344.966 305.151 597.129
+  angles 0 134.451 0
+ }
+}
+GenericEntity : "{963ACA78581E4E7B}Prefabs/Props/S2/S2_Body/S2_Body.et" {
+ coords 5336.183 290.521 580.637
+ angles 0 -81.294 0
+}
+GenericEntity : "{98079765627F6EA3}Prefabs/Props/Civilian/Computer_E_01/Computer_E_01_case.et" {
+ coords 5336.914 290.521 571.921
+}
+$grp GenericEntity : "{98474A60874B3B79}Prefabs/deads/skeleton/dead_skeleton_6.et" {
+ {
+  coords 5364.441 290.592 605.532
+  angles -10.775 -122.709 0
+ }
+ {
+  coords 5364.9 297.836 569.631
+  angles 0 -178.317 0
+ }
+ {
+  coords 5345.55 305.151 556.212
+  angles 0 154.474 0
+ }
+}
+GenericEntity : "{9D9312AA9984A5CE}Prefabs/Props/Garbage/Cardboard/Cardboard_Pile_08.et" {
+ coords 5370.43 290.521 609.479
+}
+GenericEntity : "{A285421E5231FF5A}Prefabs/Props/Garbage/Generic/GarbageGeneric_01_plentiful.et" {
+ coords 5372.698 290.58 604.877
+ angles 0 -14.591 0
+}
+$grp GenericEntity : "{A419F4547954DA05}Prefabs/Props/Construction/CableReel/CableReelWooden_01.et" {
+ {
+  coords 5370.087 290.521 575.505
+ }
+ {
+  coords 5369.113 290.521 576.558
+ }
+ {
+  coords 5366.127 290.521 571.378
+ }
+ {
+  coords 5344.286 290.521 601.714
+ }
+ {
+  coords 5369.544 297.836 575.687
+ }
+ {
+  coords 5366.455 300.122 608.879
+ }
+}
+$grp DecalEntity : "{A4F7B125C823F202}Prefabs/Method/Decals/Blood/Blood_Large_01.et" {
+ {
+  coords 5335.916 1.538 577.755
+  angles -90 -180 -180
+  scale 1.5
+ }
+ {
+  coords 5332.408 1.538 573.392
+  angles -90 -180 -180
+  scale 1.5
+ }
+ {
+  coords 5333.691 1.538 576.854
+  angles -90 -180 -180
+  scale 1.5
+ }
+ {
+  coords 5331.081 1.538 575.792
+  angles -90 -180 -180
+  scale 1.5
+ }
+ {
+  coords 5342.158 1.538 582.882
+  angles -90 -180 -180
+  scale 1.5
+ }
+ {
+  coords 5344.327 1.538 584.751
+  angles -90 -180 -180
+  scale 1.5
+ }
+ {
+  coords 5347.142 1.538 594.504
+  angles -90 -180 -180
+  scale 1.5
+ }
+ {
+  coords 5356.678 7.878 586.576
+  angles -90 -180 -180
+  scale 1.5
+ }
+ {
+  coords 5361.914 7.944 580.866
+  angles -90 -180 -180
+  scale 1.5
+ }
+ {
+  coords 5353.03 6.968 584.093
+  angles -90 -180 -180
+  scale 1.5
+ }
+ {
+  coords 5342.453 1.538 598.558
+  angles -90 -180 -180
+  scale 1.5
+ }
+ {
+  coords 5343.994 1.538 597.444
+  angles -90 -180 -180
+  scale 1.5
+ }
+ {
+  coords 5356.462 1.538 597.941
+  angles -90 -180 -180
+  scale 1.5
+ }
+ {
+  coords 5357.033 2.347 595.477
+  angles -90 -180 -180
+  scale 1.5
+ }
+ {
+  coords 5363.051 1.538 603.389
+  angles -90 -180 -180
+  scale 1.5
+ }
+ {
+  coords 5367.065 1.538 603.273
+  angles -90 -180 -180
+  scale 1.5
+ }
+ {
+  coords 5364.438 1.626 611.646
+  angles -90 -180 -180
+  scale 1.5
+ }
+ {
+  coords 5376.841 5.171 565.732
+  angles -90 -180 -180
+  scale 1.5
+ }
+ {
+  coords 5376.528 7.944 561.887
+  angles -90 -180 -180
+  scale 1.5
+ }
+ {
+  coords 5373.783 2.118 567.638
+  angles -90 -180 -180
+  scale 1.5
+ }
+}
+$grp DecalEntity : "{A7E35F889C0C7D4B}Prefabs/Method/Decals/Blood/Blood_Drops_01.et" {
+ {
+  coords 5333.903 1.538 578.172
+  angles -90 -180 -180
+  scale 2
+ }
+ {
+  coords 5353.447 5.927 588.923
+  angles -90 -180 -180
+  scale 2
+ }
+}
+GenericEntity : "{A91F6CA3A0ADB7EA}Prefabs/Trash/Newspapers/newspaper_1.et" {
+ coords 5330.827 290.521 572.81
+}
+GenericEntity : "{A96BFF27936E912E}Prefabs/Props/Services/Police/PoliceControlPanel_01.et" {
+ coords 5353.562 305.151 554.474
+ angles 0 -135.059 0
+}
+$grp GenericEntity : "{A99A323CB706AF22}Prefabs/Structures/BuildingParts/Eletrical/ElectricCabinetInterior_01.et" {
+ {
+  coords 5338.046 290.521 583.786
+  angles 0 -133.038 0
+ }
+ {
+  coords 5337.118 290.521 584.78
+  angles 0 -134.795 0
+ }
+ {
+  coords 5336.179 290.521 585.726
+  angles 0 -134.795 0
+ }
+ {
+  coords 5372.128 290.521 562.727
+  angles 0 -42.952 0
+ }
+}
+$grp GenericEntity : "{A9DC69EC1CE466A0}Prefabs/Props/Civilian/Computer_E_01/Computer_E_01_on.et" {
+ {
+  coords 5340.043 291.643 575.244
+  angles 0 107.297 0
+  {
+   GenericEntity {
+    ID "620AA4AC9B735F5F"
+    coords 0 0.116 -0.08
+    angles 0 4.3 0
+   }
+  }
+ }
+ {
+  coords 5339.117 291.664 572.732
+  angles 0 113.36 0
+  {
+   GenericEntity {
+    ID "620AA4AC9B735F5F"
+    coords 0 0.116 -0.08
+    angles 0 -1.906 0
+   }
+  }
+ }
+ {
+  coords 5329.175 291.638 575.336
+  angles -5.56 -87.679 -0.225
+ }
+ {
+  coords 5329.28 291.643 573.849
+  angles 0 -100.741 0
+ }
+ {
+  coords 5329.991 291.643 578.036
+  angles 0 -64.694 0
+ }
+}
+$grp GenericEntity : "{AC49D9D23A2BD1D8}Prefabs/Props/Furniture/BunkBed_01_Double.et" {
+ {
+  coords 5321.779 297.836 605.25
+  angles 0 42.376 0
+ }
+ {
+  coords 5324.964 297.836 608.565
+  angles 0 42.376 0
+ }
+}
+$grp GenericEntity : "{AE0FFC699F429214}Prefabs/Props/Military/Camps/PalletAmmo_01_US.et" {
+ {
+  coords 5361.34 290.521 583.785
+  angles 0 -44.969 0
+ }
+ {
+  coords 5360.274 290.521 597.194
+ }
+}
+$grp GenericEntity : "{B3283803059E2750}Prefabs/Props/Crates/CrateWooden_01_plain.et" {
+ {
+  coords 5366.525 290.521 617.203
+  angles 0 7.241 0
+ }
+ {
+  coords 5365.711 290.521 617.297
+  angles 0 6.232 0
+ }
+ {
+  coords 5366.149 290.521 616.238
+  angles 0 -85.395 0
+ }
+ {
+  coords 5366.27 291.326 617.07
+  angles 0 -21.691 0
+ }
+ {
+  coords 5364.969 291.327 617.148
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{6684B114DDC8D314}" {
+    Enabled 0
+   }
+  }
+  coords 5368.083 297.821 569.916
+  angles 0 -130.959 0
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{6684B114DDC8D314}" {
+    Enabled 0
+   }
+  }
+  coords 5371.88 297.836 569.264
+  angles 0 -134.144 0
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{6684B114DDC8D314}" {
+    Enabled 0
+   }
+  }
+  coords 5371.888 298.642 569.246
+  angles 0 -132.959 0
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{6684B114DDC8D314}" {
+    Enabled 0
+   }
+  }
+  coords 5326.857 297.836 615.452
+  angles 0 -135.376 0
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{6684B114DDC8D314}" {
+    Enabled 0
+   }
+  }
+  coords 5326.866 298.642 615.434
+  angles 0 -134.191 0
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{6684B114DDC8D314}" {
+    Enabled 0
+   }
+  }
+  coords 5371.378 297.836 573.851
+  angles 0 -41.448 0
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{6684B114DDC8D314}" {
+    Enabled 0
+   }
+  }
+  coords 5372.314 297.836 572.791
+  angles 0 -41.448 0
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{6684B114DDC8D314}" {
+    Enabled 0
+   }
+  }
+  coords 5371.738 298.603 573.443
+  angles 0 -41.448 0
+ }
+}
+$grp GenericEntity : "{B3CF0487BB36323B}Prefabs/Props/Furniture/LampFluorescent/LampFluorescent_01.et" {
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{61E304E1B7CB25FB}" {
+      SourceMaterial "LampFluorescent_01_cover"
+      AssignedMaterial "{5F670626AA5EE7AF}Assets/Props/Furniture/LampFluorescent_01/Data/LampFluorescent_01_cover.emat"
+     }
+    }
+   }
+  }
+  coords 5357.121 308.352 571.824
+  angles 0 -44.202 0
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{61E304E1B7CB25FB}" {
+      SourceMaterial "LampFluorescent_01_cover"
+      AssignedMaterial "{5F670626AA5EE7AF}Assets/Props/Furniture/LampFluorescent_01/Data/LampFluorescent_01_cover.emat"
+     }
+    }
+   }
+  }
+  coords 5352.085 308.352 566.872
+  angles 0 135.468 0
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{61E304E1B7CB25FB}" {
+      SourceMaterial "LampFluorescent_01_cover"
+      AssignedMaterial "{5F670626AA5EE7AF}Assets/Props/Furniture/LampFluorescent_01/Data/LampFluorescent_01_cover.emat"
+     }
+    }
+   }
+  }
+  coords 5338.094 308.352 553.488
+  angles 0 134.962 0
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{61E304E1B7CB25FB}" {
+      SourceMaterial "LampFluorescent_01_cover"
+      AssignedMaterial "{5F670626AA5EE7AF}Assets/Props/Furniture/LampFluorescent_01/Data/LampFluorescent_01_cover.emat"
+     }
+    }
+   }
+  }
+  coords 5360.623 308.352 562.251
+  angles 0 134.967 0
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{61E304E1B7CB25FB}" {
+      SourceMaterial "LampFluorescent_01_cover"
+      AssignedMaterial "{5F670626AA5EE7AF}Assets/Props/Furniture/LampFluorescent_01/Data/LampFluorescent_01_cover.emat"
+     }
+    }
+   }
+  }
+  coords 5352.741 308.352 551.328
+  angles 0 136.407 0
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{61E304E1B7CB25FB}" {
+      SourceMaterial "LampFluorescent_01_cover"
+      AssignedMaterial "{5F670626AA5EE7AF}Assets/Props/Furniture/LampFluorescent_01/Data/LampFluorescent_01_cover.emat"
+     }
+    }
+   }
+  }
+  coords 5364.97 308.352 576.143
+  angles 0 45.313 0
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{61E304E1B7CB25FB}" {
+      SourceMaterial "LampFluorescent_01_cover"
+      AssignedMaterial "{5F670626AA5EE7AF}Assets/Props/Furniture/LampFluorescent_01/Data/LampFluorescent_01_cover.emat"
+     }
+    }
+   }
+  }
+  coords 5352.871 308.352 589.109
+  angles 0 49.069 0
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{61E304E1B7CB25FB}" {
+      SourceMaterial "LampFluorescent_01_cover"
+      AssignedMaterial "{5F670626AA5EE7AF}Assets/Props/Furniture/LampFluorescent_01/Data/LampFluorescent_01_cover.emat"
+     }
+    }
+   }
+  }
+  coords 5349.405 308.352 593.081
+  angles 0 49.254 0
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{61E304E1B7CB25FB}" {
+      SourceMaterial "LampFluorescent_01_cover"
+      AssignedMaterial "{5F670626AA5EE7AF}Assets/Props/Furniture/LampFluorescent_01/Data/LampFluorescent_01_cover.emat"
+     }
+    }
+   }
+  }
+  coords 5332.313 311.324 572.88
+  angles 0 134.962 0
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{61E304E1B7CB25FB}" {
+      SourceMaterial "LampFluorescent_01_cover"
+      AssignedMaterial "{5F670626AA5EE7AF}Assets/Props/Furniture/LampFluorescent_01/Data/LampFluorescent_01_cover.emat"
+     }
+    }
+   }
+  }
+  coords 5337.324 311.324 577.943
+  angles 0 134.962 0
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{61E304E1B7CB25FB}" {
+      SourceMaterial "LampFluorescent_01_cover"
+      AssignedMaterial "{5F670626AA5EE7AF}Assets/Props/Furniture/LampFluorescent_01/Data/LampFluorescent_01_cover.emat"
+     }
+    }
+   }
+  }
+  coords 5319.29 308.666 574.754
+  angles 0 134.962 0
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{61E304E1B7CB25FB}" {
+      SourceMaterial "LampFluorescent_01_cover"
+      AssignedMaterial "{5F670626AA5EE7AF}Assets/Props/Furniture/LampFluorescent_01/Data/LampFluorescent_01_cover.emat"
+     }
+    }
+   }
+  }
+  coords 5319.51 308.666 579.511
+  angles 0 167.762 0
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{61E304E1B7CB25FB}" {
+      SourceMaterial "LampFluorescent_01_cover"
+      AssignedMaterial "{5F670626AA5EE7AF}Assets/Props/Furniture/LampFluorescent_01/Data/LampFluorescent_01_cover.emat"
+     }
+    }
+   }
+  }
+  coords 5350.772 308.352 581.077
+  angles 0 134.962 0
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{61E304E1B7CB25FB}" {
+      SourceMaterial "LampFluorescent_01_cover"
+      AssignedMaterial "{5F670626AA5EE7AF}Assets/Props/Furniture/LampFluorescent_01/Data/LampFluorescent_01_cover.emat"
+     }
+    }
+   }
+  }
+  coords 5364.344 301.036 577.747
+  angles 0 39.676 0
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{61E304E1B7CB25FB}" {
+      SourceMaterial "LampFluorescent_01_cover"
+      AssignedMaterial "{5F670626AA5EE7AF}Assets/Props/Furniture/LampFluorescent_01/Data/LampFluorescent_01_cover.emat"
+     }
+    }
+   }
+  }
+  coords 5369.35 301.036 572.064
+  angles 0 42.789 0
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{61E304E1B7CB25FB}" {
+      SourceMaterial "LampFluorescent_01_cover"
+      AssignedMaterial "{5F670626AA5EE7AF}Assets/Props/Furniture/LampFluorescent_01/Data/LampFluorescent_01_cover.emat"
+     }
+    }
+   }
+  }
+  coords 5345.533 301.036 596.267
+  angles 0 44.895 0
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{61E304E1B7CB25FB}" {
+      SourceMaterial "LampFluorescent_01_cover"
+      AssignedMaterial "{5F670626AA5EE7AF}Assets/Props/Furniture/LampFluorescent_01/Data/LampFluorescent_01_cover.emat"
+     }
+    }
+   }
+  }
+  coords 5341.063 301.036 601.066
+  angles 0 40.381 0
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{61E304E1B7CB25FB}" {
+      SourceMaterial "LampFluorescent_01_cover"
+      AssignedMaterial "{5F670626AA5EE7AF}Assets/Props/Furniture/LampFluorescent_01/Data/LampFluorescent_01_cover.emat"
+     }
+    }
+   }
+  }
+  coords 5334.047 301.036 608.01
+  angles 0 46.783 0
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{61E304E1B7CB25FB}" {
+      SourceMaterial "LampFluorescent_01_cover"
+      AssignedMaterial "{5F670626AA5EE7AF}Assets/Props/Furniture/LampFluorescent_01/Data/LampFluorescent_01_cover.emat"
+     }
+    }
+   }
+  }
+  coords 5322.105 301.037 601.866
+  angles 0 134.962 0
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{61E304E1B7CB25FB}" {
+      SourceMaterial "LampFluorescent_01_cover"
+      AssignedMaterial "{5F670626AA5EE7AF}Assets/Props/Furniture/LampFluorescent_01/Data/LampFluorescent_01_cover.emat"
+     }
+    }
+   }
+  }
+  coords 5326.038 301.037 605.468
+  angles 0 134.962 0
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{61E304E1B7CB25FB}" {
+      SourceMaterial "LampFluorescent_01_cover"
+      AssignedMaterial "{5F670626AA5EE7AF}Assets/Props/Furniture/LampFluorescent_01/Data/LampFluorescent_01_cover.emat"
+     }
+    }
+   }
+  }
+  coords 5355.519 301.036 586.198
+  angles 0 43.662 0
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{61E304E1B7CB25FB}" {
+      SourceMaterial "LampFluorescent_01_cover"
+      AssignedMaterial "{5F670626AA5EE7AF}Assets/Props/Furniture/LampFluorescent_01/Data/LampFluorescent_01_cover.emat"
+     }
+    }
+   }
+  }
+  coords 5355.212 293.721 586.442
+  angles 0 -136.882 0
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{61E304E1B7CB25FB}" {
+      SourceMaterial "LampFluorescent_01_cover"
+      AssignedMaterial "{5F670626AA5EE7AF}Assets/Props/Furniture/LampFluorescent_01/Data/LampFluorescent_01_cover.emat"
+     }
+    }
+   }
+  }
+  coords 5348.922 293.721 593.035
+  angles 0 46.475 0
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{61E304E1B7CB25FB}" {
+      SourceMaterial "LampFluorescent_01_cover"
+      AssignedMaterial "{5F670626AA5EE7AF}Assets/Props/Furniture/LampFluorescent_01/Data/LampFluorescent_01_cover.emat"
+     }
+    }
+   }
+  }
+  coords 5344.686 293.721 597.207
+  angles 0 43.381 0
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{61E304E1B7CB25FB}" {
+      SourceMaterial "LampFluorescent_01_cover"
+      AssignedMaterial "{5F670626AA5EE7AF}Assets/Props/Furniture/LampFluorescent_01/Data/LampFluorescent_01_cover.emat"
+     }
+    }
+   }
+  }
+  coords 5337.308 293.721 604.929
+  angles 0 45.911 0
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{61E304E1B7CB25FB}" {
+      SourceMaterial "LampFluorescent_01_cover"
+      AssignedMaterial "{5F670626AA5EE7AF}Assets/Props/Furniture/LampFluorescent_01/Data/LampFluorescent_01_cover.emat"
+     }
+    }
+   }
+  }
+  coords 5362.746 293.721 578.471
+  angles 0 44.846 0
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{61E304E1B7CB25FB}" {
+      SourceMaterial "LampFluorescent_01_cover"
+      AssignedMaterial "{5F670626AA5EE7AF}Assets/Props/Furniture/LampFluorescent_01/Data/LampFluorescent_01_cover.emat"
+     }
+    }
+   }
+  }
+  coords 5369.877 293.721 571.091
+  angles 0 45.41 0
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{61E304E1B7CB25FB}" {
+      SourceMaterial "LampFluorescent_01_cover"
+      AssignedMaterial "{5F670626AA5EE7AF}Assets/Props/Furniture/LampFluorescent_01/Data/LampFluorescent_01_cover.emat"
+     }
+    }
+   }
+  }
+  coords 5379.746 296.007 566.526
+  angles 0 134.962 0
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{61E304E1B7CB25FB}" {
+      SourceMaterial "LampFluorescent_01_cover"
+      AssignedMaterial "{5F670626AA5EE7AF}Assets/Props/Furniture/LampFluorescent_01/Data/LampFluorescent_01_cover.emat"
+     }
+    }
+   }
+  }
+  coords 5372.986 296.007 559.366
+  angles 0 134.962 0
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{61E304E1B7CB25FB}" {
+      SourceMaterial "LampFluorescent_01_cover"
+      AssignedMaterial "{5F670626AA5EE7AF}Assets/Props/Furniture/LampFluorescent_01/Data/LampFluorescent_01_cover.emat"
+     }
+    }
+   }
+  }
+  coords 5370.092 296.007 556.682
+  angles 0 134.962 0
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{61E304E1B7CB25FB}" {
+      SourceMaterial "LampFluorescent_01_cover"
+      AssignedMaterial "{5F670626AA5EE7AF}Assets/Props/Furniture/LampFluorescent_01/Data/LampFluorescent_01_cover.emat"
+     }
+    }
+   }
+  }
+  coords 5343.83 293.721 584.316
+  angles 0 134.962 0
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{61E304E1B7CB25FB}" {
+      SourceMaterial "LampFluorescent_01_cover"
+      AssignedMaterial "{5F670626AA5EE7AF}Assets/Props/Furniture/LampFluorescent_01/Data/LampFluorescent_01_cover.emat"
+     }
+    }
+   }
+  }
+  coords 5331.627 296.693 572.67
+  angles 0 134.962 0
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{61E304E1B7CB25FB}" {
+      SourceMaterial "LampFluorescent_01_cover"
+      AssignedMaterial "{5F670626AA5EE7AF}Assets/Props/Furniture/LampFluorescent_01/Data/LampFluorescent_01_cover.emat"
+     }
+    }
+   }
+  }
+  coords 5337.632 296.693 578.431
+  angles 0 134.962 0
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{61E304E1B7CB25FB}" {
+      SourceMaterial "LampFluorescent_01_cover"
+      AssignedMaterial "{5F670626AA5EE7AF}Assets/Props/Furniture/LampFluorescent_01/Data/LampFluorescent_01_cover.emat"
+     }
+    }
+   }
+  }
+  coords 5329.226 296.693 575.326
+  angles 0 134.962 0
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{61E304E1B7CB25FB}" {
+      SourceMaterial "LampFluorescent_01_cover"
+      AssignedMaterial "{5F670626AA5EE7AF}Assets/Props/Furniture/LampFluorescent_01/Data/LampFluorescent_01_cover.emat"
+     }
+    }
+   }
+  }
+  coords 5334.671 296.693 569.811
+  angles 0 134.962 0
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{61E304E1B7CB25FB}" {
+      SourceMaterial "LampFluorescent_01_cover"
+      AssignedMaterial "{5F670626AA5EE7AF}Assets/Props/Furniture/LampFluorescent_01/Data/LampFluorescent_01_cover.emat"
+     }
+    }
+   }
+  }
+  coords 5339.841 296.693 576.037
+  angles 0 134.962 0
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{61E304E1B7CB25FB}" {
+      SourceMaterial "LampFluorescent_01_cover"
+      AssignedMaterial "{5F670626AA5EE7AF}Assets/Props/Furniture/LampFluorescent_01/Data/LampFluorescent_01_cover.emat"
+     }
+    }
+   }
+  }
+  coords 5335.636 296.693 580.615
+  angles 0 134.962 0
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{61E304E1B7CB25FB}" {
+      SourceMaterial "LampFluorescent_01_cover"
+      AssignedMaterial "{5F670626AA5EE7AF}Assets/Props/Furniture/LampFluorescent_01/Data/LampFluorescent_01_cover.emat"
+     }
+    }
+   }
+  }
+  coords 5325.071 301.044 592.023
+  angles 0 130.073 0
+ }
+}
+GenericEntity : "{B47EB5AC921214EE}Prefabs/Props/Construction/CableReel/CableReelMetal_01.et" {
+ coords 5342.607 290.521 602.487
+}
+GenericEntity : "{B557358F8F64AE31}Prefabs/Props/Industrial/Repair/HydraulicCarJack_01.et" {
+ coords 5324.149 305.151 580.678
+}
+$grp GenericEntity : "{B898D2A1F45058F6}Prefabs/Props/Garbage/Military/Food/GarbageFoodMilitaryUSSR_01.et" {
+ {
+  coords 5361.305 290.521 606.662
+ }
+ {
+  coords 5363.567 290.521 607.393
+ }
+}
+GenericEntity : "{BB7BC5E4B18C594E}Prefabs/Props/Civilian/Computer_E_01/Computer_E_01_off.et" {
+ coords 5334.701 291.643 581.077
+ angles 0 -3.778 0
+}
+$grp GenericEntity : "{BBF0EC642398307F}Prefabs/Structures/BuildingParts/Eletrical/TransmitterControlPanel_02/TransmitterControlPanel_E_02_V2.et" {
+ {
+  coords 5337.442 290.521 564.23
+  angles 0 -44.542 0
+ }
+ {
+  coords 5338.334 290.521 565.098
+  angles 0 -44.542 0
+ }
+ {
+  coords 5339.183 290.521 565.934
+  angles 0 -44.542 0
+ }
+ {
+  coords 5342.256 290.521 569.299
+  angles 0 -44.542 0
+ }
+ {
+  coords 5343.148 290.521 570.167
+  angles 0 -44.542 0
+ }
+ {
+  coords 5343.998 290.521 571.003
+  angles 0 -44.542 0
+ }
+ {
+  coords 5331.852 290.521 586.393
+  angles 0 134.539 0
+ }
+ {
+  coords 5330.974 290.521 585.511
+  angles 0 134.539 0
+ }
+ {
+  coords 5330.138 290.521 584.662
+  angles 0 134.539 0
+ }
+ {
+  coords 5327.138 290.521 581.269
+  angles 0 134.539 0
+ }
+ {
+  coords 5326.26 290.521 580.387
+  angles 0 134.539 0
+ }
+ {
+  coords 5325.424 290.521 579.538
+  angles 0 134.539 0
+ }
+ {
+  coords 5368.246 290.521 559.04
+  angles 0 136.6 0
+ }
+ {
+  coords 5369.192 290.521 559.92
+  angles 0 135.775 0
+ }
+ {
+  coords 5348.167 305.151 551.542
+  angles 0 40.805 0
+ }
+ {
+  coords 5349.128 305.151 550.712
+  angles 0 40.805 0
+ }
+ {
+  coords 5350.064 305.151 549.904
+  angles 0 40.805 0
+ }
+ {
+  coords 5350.998 305.151 549.098
+  angles 0 40.805 0
+ }
+ {
+  coords 5365.271 305.151 567.213
+  angles 0 -134.921 0
+ }
+ {
+  coords 5366.171 305.151 566.31
+  angles 0 -134.921 0
+ }
+ {
+  coords 5367.073 305.151 565.406
+  angles 0 -134.921 0
+ }
+ {
+  coords 5315.525 297.836 568.879
+  angles 0 -50.411 0
+ }
+ {
+  coords 5297.545 297.836 578.177
+  angles 0 136.841 0
+ }
+ {
+  coords 5301.307 297.836 581.704
+  angles 0 136.841 0
+ }
+}
+$grp GenericEntity : "{BE7B5BAFE1A16A50}Prefabs/Props/Military/Fortification/BarbedTape_Coil.et" {
+ {
+  coords 5365.659 1.538 609.099
+ }
+ {
+  coords 5323.372 8.45 606.724
+ }
+}
+GenericEntity : "{BE869A54C03E9C0D}Prefabs/Trash/Newspapers/newspaper_3.et" {
+ coords 5334.436 290.521 573.992
+ angles 0 0 0
+}
+$grp GenericEntity : "{C0B432254088B2D4}Prefabs/Structures/BuildingParts/Eletrical/ControlPanel_01/ControlPanel_01_base.et" {
+ {
+  coords 5328.891 290.521 569.54
+  angles 0 42.617 0
+ }
+ {
+  coords 5347.682 305.151 556.921
+  angles 0 135.874 0
+ }
+}
+$grp GenericEntity : "{C58BDB4D22E0A5A7}Prefabs/Props/Garbage/Generic/Litter_01_large.et" {
+ {
+  coords 5370.84 290.521 608.572
+ }
+ {
+  coords 5366.26 290.521 612.965
+ }
+}
+GenericEntity : "{C7A49C5B54C86903}Prefabs/Props/Military/Sandbags/Sandbag_01_single_burlap.et" {
+ coords 5337.644 297.836 607.368
+ angles 0 -73.94 0
+}
+$grp DecalEntity : "{C8A385C574E77D2C}Prefabs/Method/Decals/Blood/Blood_Large_02.et" {
+ {
+  coords 5338.409 1.538 575.878
+  angles -90 -180 -180
+  scale 1.5
+ }
+ {
+  coords 5359.031 7.936 582.254
+  angles -90 -180 -180
+  scale 1.5
+ }
+}
+$grp GenericEntity : "{C9275BB84EE33D60}Prefabs/deads/skeleton/dead_skeleton_2.et" {
+ {
+  coords 5347.499 290.648 586.689
+  angles 0 -159.1 19.956
+ }
+ {
+  coords 5337.589 297.964 602.16
+  angles 0 0 0
+ }
+ {
+  coords 5324.894 298.48 608.487
+  angles 0 58.076 0
+ }
+}
+$grp GenericEntity : "{C971AFD204F62488}Prefabs/Props/Military/Sandbags/Dst/Sandbag_01_single_dst_03_burlap.et" {
+ {
+  coords 5340.525 297.836 600.866
+ }
+ {
+  coords 5345.936 297.819 595.857
+ }
+ {
+  coords 5371.668 290.521 557.621
+ }
+ {
+  coords 5351.259 305.151 589.96
+ }
+ {
+  coords 5333.583 297.836 608.51
+ }
+ {
+  coords 5305.607 297.836 572.782
+ }
+ {
+  coords 5335.295 305.151 550.409
+ }
+ {
+  coords 5348.776 305.151 562.699
+ }
+ {
+  coords 5320.359 305.15 577.406
+ }
+ {
+  coords 5335.13 305.151 575.272
+ }
+ {
+  coords 5366.481 300.122 606.148
+ }
+}
+$grp GenericEntity : "{CAE986C2BF5D5859}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/CargoContainer_01_10ft_Base.et" {
+ {
+  coords 5330.232 305.151 582.426
+  angles 0 -42.053 0
+ }
+ {
+  coords 5334.175 305.151 584.753
+  angles 0 -26.876 0
+ }
+}
+GenericEntity : "{D6EA45FE51108ADC}Prefabs/Structures/BuildingParts/Eletrical/ElectricCabinetInterior_02.et" {
+ coords 5344.136 290.563 577.796
+ angles 0 -136.136 0
+}
+GenericEntity : "{D74AF3B338ED494C}Prefabs/Props/Industrial/Lathe_01.et" {
+ coords 5340.389 305.152 559.348
+ angles 0 -44.706 0
+}
+GenericEntity : "{D7A4D8849F5CBF51}Prefabs/Structures/BuildingParts/Eletrical/TransmitterControlPanel_02/TransmitterControlPanel_E_02_V1.et" {
+ coords 5369.962 290.521 560.717
+ angles 0 135.413 0
+}
+$grp GenericEntity : "{DB4F61D5F37432F7}Prefabs/Props/Military/Camps/PalletFuel_01.et" {
+ {
+  coords 5360.693 290.521 577.219
+  angles 0 -57.85 0
+ }
+ {
+  coords 5370.87 290.521 597.734
+  angles 0 47.711 0
+ }
+ {
+  coords 5365.357 297.836 568.894
+  angles 0 71.677 0
+ }
+ {
+  coords 5363.585 297.836 581.455
+  angles 0 -38.151 0
+ }
+ {
+  coords 5347.528 297.836 591.058
+  angles 0 -28.989 0
+ }
+ {
+  coords 5364.564 300.122 607.945
+  angles 0 48.199 0
+ }
+ {
+  coords 5330.281 297.836 600.18
+  angles 0 38.754 0
+ }
+ {
+  coords 5330.904 297.836 614.645
+  angles 0 -37.944 0
+ }
+}
+$grp GenericEntity : "{DF3EF41CE4D441DE}Prefabs/Props/Industrial/BarrelMetal_01_rust.et" {
+ {
+  coords 5354.78 290.521 598.564
+ }
+ {
+  coords 5354.047 290.521 597.848
+ }
+ {
+  coords 5345.491 290.703 593.523
+  angles 0 0 -82.896
+ }
+}
+GenericEntity : "{DF4B249BE5C403E2}Prefabs/Props/Civilian/Computer_E_01/Computer_E_01_Monitor_off.et" {
+ coords 5331.536 291.643 570.662
+}
+$grp GenericEntity : "{E105D2F87098E1D9}Prefabs/Method/Props/Camps/PatrolPoint_LoiterPoint.et" {
+ {
+  components {
+   SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+    m_eLoiterAnimation SIT
+    m_bHolsterWeapon 1
+   }
+  }
+  coords 4130.545 321.331 1652.122
+  angles 0 0 0
+ }
+ {
+  components {
+   SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+    m_eLoiterAnimation SIT
+    m_bHolsterWeapon 1
+   }
+  }
+  coords 4132.828 321.249 1649.938
+  angles 0 -87 0
+ }
+ {
+  components {
+   SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+    m_iCharacterStance CROUCH
+    m_eLoiterAnimation SIT
+    m_bHolsterWeapon 1
+   }
+  }
+  coords 4134.874 321.009 1652.014
+  angles 0 178 0
+ }
+ {
+  components {
+   SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+    m_eLoiterAnimation SIT
+    m_bHolsterWeapon 1
+   }
+  }
+  coords 4948.332 311.673 1247.792
+  angles 0 0 0
+ }
+ {
+  components {
+   SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+    m_eLoiterAnimation SIT
+    m_bHolsterWeapon 1
+   }
+  }
+  coords 4950.614 311.673 1245.608
+  angles 0 -87 0
+ }
+ {
+  components {
+   SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+    m_iCharacterStance CROUCH
+    m_eLoiterAnimation SIT
+    m_bHolsterWeapon 1
+   }
+  }
+  coords 4952.66 311.751 1247.684
+  angles 0 178 0
+ }
+ {
+  components {
+   SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+    m_eLoiterAnimation SIT
+    m_bHolsterWeapon 1
+   }
+  }
+  coords 4948.945 311.673 1240.206
+  angles 0 0 0
+ }
+ {
+  components {
+   SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+    m_eLoiterAnimation SIT
+    m_bHolsterWeapon 1
+   }
+  }
+  coords 4951.227 311.673 1238.022
+  angles 0 -87 0
+ }
+ {
+  components {
+   SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+    m_iCharacterStance CROUCH
+    m_eLoiterAnimation SIT
+    m_bHolsterWeapon 1
+   }
+  }
+  coords 4953.273 311.751 1240.098
+  angles 0 178 0
+ }
+ {
+  components {
+   SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+    m_eLoiterAnimation SIT
+    m_bHolsterWeapon 1
+   }
+  }
+  coords 4273.615 310.348 936.916
+  angles 0 -87 0
+ }
+ {
+  components {
+   SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+    m_eLoiterAnimation SIT
+    m_bHolsterWeapon 1
+   }
+  }
+  coords 4274.56 310.422 940.28
+  angles 0 139.032 0
+ }
+ {
+  components {
+   SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+    m_eLoiterAnimation SIT
+    m_bHolsterWeapon 1
+   }
+  }
+  coords 4274.875 310.522 938.125
+  angles 0 -148.51 0
+ }
+ {
+  components {
+   SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+    m_eLoiterAnimation SIT
+    m_bHolsterWeapon 1
+   }
+  }
+  coords 4271.821 310.557 940.072
+  angles 0 20.884 0
+ }
+ {
+  components {
+   SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+    m_eLoiterAnimation SIT
+    m_bHolsterWeapon 1
+   }
+  }
+  coords 4271.976 310.297 938.228
+  angles 0 -23.522 0
+ }
+ {
+  components {
+   SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+    m_eLoiterAnimation SIT
+    m_bHolsterWeapon 1
+   }
+  }
+  coords 4859.928 311.283 1237.334
+  angles 0 -87 0
+ }
+ {
+  components {
+   SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+    m_eLoiterAnimation SIT
+    m_bHolsterWeapon 1
+   }
+  }
+  coords 4860.873 311.324 1240.697
+  angles 0 139.032 0
+ }
+ {
+  components {
+   SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+    m_eLoiterAnimation SIT
+    m_bHolsterWeapon 1
+   }
+  }
+  coords 4861.188 311.309 1238.543
+  angles 0 -148.51 0
+ }
+ {
+  components {
+   SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+    m_eLoiterAnimation SIT
+    m_bHolsterWeapon 1
+   }
+  }
+  coords 4858.133 311.387 1240.49
+  angles 0 20.884 0
+ }
+ {
+  components {
+   SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+    m_eLoiterAnimation SIT
+    m_bHolsterWeapon 1
+   }
+  }
+  coords 4858.288 311.291 1238.646
+  angles 0 -23.522 0
+ }
+ {
+  components {
+   SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+    m_eLoiterAnimation SIT
+    m_bHolsterWeapon 1
+   }
+  }
+  coords 3761.395 299.916 1007.878
+  angles 0 -87 0
+ }
+ {
+  components {
+   SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+    m_eLoiterAnimation SIT
+    m_bHolsterWeapon 1
+   }
+  }
+  coords 3759.951 299.645 1010.684
+  angles 0 20.884 0
+ }
+ {
+  components {
+   SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+    m_eLoiterAnimation SIT
+    m_bHolsterWeapon 1
+   }
+  }
+  coords 3762.741 299.9 1008.838
+  angles 0 -148.51 0
+ }
+ {
+  components {
+   SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+    m_eLoiterAnimation SIT
+    m_bHolsterWeapon 1
+   }
+  }
+  coords 3762.309 299.732 1010.89
+  angles 0 139.032 0
+ }
+ {
+  components {
+   SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+    m_eLoiterAnimation SIT
+    m_bHolsterWeapon 1
+   }
+  }
+  coords 3760.103 299.781 1009.055
+  angles 0 -23.522 0
+ }
+ {
+  components {
+   SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+    m_eLoiterAnimation SIT
+    m_bHolsterWeapon 1
+   }
+  }
+  coords 4079.911 312.379 987.805
+  angles 0 -87 0
+ }
+ {
+  components {
+   SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+    m_eLoiterAnimation SIT
+    m_bHolsterWeapon 1
+   }
+  }
+  coords 4078.467 312.701 990.611
+  angles 0 20.884 0
+ }
+ {
+  components {
+   SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+    m_eLoiterAnimation SIT
+    m_bHolsterWeapon 1
+   }
+  }
+  coords 4081.258 312.128 988.765
+  angles 0 -148.51 0
+ }
+ {
+  components {
+   SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+    m_eLoiterAnimation SIT
+    m_bHolsterWeapon 1
+   }
+  }
+  coords 4080.825 312.225 990.817
+  angles 0 139.032 0
+ }
+ {
+  components {
+   SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+    m_eLoiterAnimation SIT
+    m_bHolsterWeapon 1
+   }
+  }
+  coords 4078.619 312.661 988.982
+  angles 0 -23.522 0
+ }
+}
+GenericEntity : "{E432A2B14E69DA5E}Prefabs/Compositions/Misc/SubCompositions/CableReelWooden_Cluttered_01.et" {
+ coords 5326.897 297.836 602.407
+ angles 0 0 0
+}
+$grp GenericEntity : "{E4416C4C6938BEEE}Prefabs/Props/Crates/CrateWooden_02/CrateWooden_02_1x1x1.et" {
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    EnableDamage 0
+   }
+  }
+  coords 5331.122 305.151 546.51
+  angles 0 -59.917 0
+ }
+ {
+  coords 5349.473 305.151 560.74
+ }
+ {
+  coords 5355.31 305.151 573.551
+ }
+}
+$grp GenericEntity : "{E546356D4797342F}Prefabs/Props/Garbage/Medical/GarbageMedicalUS_01.et" {
+ {
+  coords 5367 290.521 607.394
+  angles 0 0 0.812
+ }
+ {
+  coords 5366.184 290.521 607.714
+ }
+}
+$grp GenericEntity : "{E5C8E180652682BC}Prefabs/Props/Industrial/GasTank_01_base.et" {
+ {
+  coords 5371.179 290.521 612.366
+ }
+ {
+  coords 5370.414 290.521 611.805
+ }
+}
+$grp GenericEntity : "{F4123D86F860B5E1}Prefabs/Props/Garbage/Medical/GarbageMedicalUSSR_02.et" {
+ {
+  coords 5368.404 290.521 606.404
+ }
+ {
+  coords 5359.954 290.521 606.958
+ }
+}
+$grp GenericEntity : "{F4137E803B8FB457}Prefabs/deads/skeleton/dead_skeleton_5.et" {
+ {
+  coords 5333.333 290.655 578.494
+  angles 0 0 0
+ }
+ {
+  coords 5374.44 290.663 569.077
+  angles 0.682 11.112 -0.405
+ }
+ {
+  coords 5351.33 291.377 582.849
+  angles -57.459 49.616 0
+ }
+ {
+  coords 5335.481 290.618 604.928
+  angles 0 0 0
+ }
+ {
+  coords 5370.635 290.711 553.687
+  angles -2.005 11.398 -2.037
+ }
+ {
+  coords 5369.115 290.649 605.836
+  angles 0 -107.499 0
+ }
+ {
+  coords 5312.109 298.06 574.271
+  angles 0 0 0
+ }
+ {
+  coords 5302.69 298.06 573.014
+  angles 0 0 0
+ }
+ {
+  coords 5365.59 305.305 575.642
+  angles 0 0 0
+ }
+ {
+  coords 5339.681 305.325 574.567
+  angles 0 88.713 0
+ }
+ {
+  coords 5324.093 297.913 603.576
+  angles 0 0 0
+ }
+}
+$grp GenericEntity : "{F4BB6B6A0486F797}Prefabs/Props/Industrial/BarrelMetal_01_military.et" {
+ {
+  coords 5366.802 305.151 571.527
+ }
+ {
+  coords 5367.679 305.151 571.293
+ }
+ {
+  coords 5367.191 305.151 572.147
+ }
+ {
+  coords 5352.535 305.151 585.838
+ }
+ {
+  coords 5355.29 305.151 589.877
+ }
+ {
+  coords 5353.721 305.151 591.497
+ }
+ {
+  coords 5358.14 305.151 579.496
+ }
+ {
+  coords 5357.919 305.151 580.555
+ }
+ {
+  coords 5359.606 305.151 580.479
+ }
+ {
+  coords 5344.203 305.151 574.761
+ }
+ {
+  coords 5344.181 305.151 573.531
+ }
+ {
+  coords 5343.092 305.151 574.316
+ }
+ {
+  coords 5343.338 305.151 575.917
+ }
+ {
+  coords 5343.203 305.151 575.133
+ }
+ {
+  coords 5355.988 305.151 567.454
+ }
+ {
+  coords 5355.646 305.151 566.41
+ }
+ {
+  coords 5355.375 305.151 567.084
+ }
+ {
+  coords 5340.311 305.151 551.186
+ }
+ {
+  coords 5341.066 305.151 552.125
+ }
+ {
+  coords 5340.306 305.151 552.113
+ }
+}
+GenericEntity : "{F4FE67404D23C81A}Prefabs/Props/Civilian/Computer_E_01/Computer_E_01_case_base.et" {
+ coords 5334.524 291.643 569.792
+}
+GenericEntity : "{F888D38CA33F2694}Prefabs/Structures/BuildingParts/Eletrical/ElectricityBox_02.et" {
+ coords 5343.093 292.004 578.859
+ angles 0 -138.001 0
+}
+$grp GenericEntity : "{F8AFAB93F4FC5A7D}Prefabs/destructible/door_hard/door_hard_1.et" {
+ {
+  coords 5363.989 289.704 582.435
+  angles 0 46.62 0
+ }
+ {
+  coords 5358.905 289.704 577.631
+  angles 0 46.62 0
+ }
+ {
+  coords 5369.494 290.521 551.478
+  angles 0 -44.776 0
+ }
+ {
+  coords 5368.922 300.122 611.68
+  angles 0 47.264 0
+ }
+}
+$grp GenericEntity : "{FA97F9752BA2BA83}Prefabs/deads/skeleton/dead_skeleton.et" {
+ {
+  coords 5342.497 290.608 584.577
+  angles 0 -29.28 0
+ }
+ {
+  coords 5361.453 290.611 604.508
+  angles 0 0 0
+ }
+ {
+  coords 5327.691 297.966 590.994
+  angles -6.126 0 0
+ }
+}

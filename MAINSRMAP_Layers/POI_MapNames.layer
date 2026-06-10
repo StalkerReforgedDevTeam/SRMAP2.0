@@ -1,0 +1,14 @@
+GenericEntity base_storm4 : "{FAB641538C993426}Prefabs/World/Locations/armst_location_big.et" {
+ components {
+  SCR_EditableCommentComponent "{529AB059519FE609}" {
+   m_UIInfo SCR_EditableLinkedContentBrowserUIInfo "{5298E609432D192D}" {
+    Name "Swamp Village"
+   }
+  }
+  SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+   DisplayName "Swamp Village"
+   MainType "Name Local"
+  }
+ }
+ coords 1474.624 302.37 1927.172
+}
