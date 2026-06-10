@@ -1,0 +1,275 @@
+GenericEntity {
+ components {
+  MeshObject "{685162E56EF28212}" {
+   Object "{BA5449C606206A19}Assets/Weapons/Rifles/AK74/AK74_body.xob"
+  }
+ }
+ coords 6056.379 301.088 2188.611
+ angles -0.673 -54.372 -97.791
+}
+GenericEntity : "{22325E7D9CC399D8}Prefabs/Trash/Cardboard/Cardboard_Pile_06.et" {
+ coords 6057.43 301.128 2188.833
+ angles 0 0 -0.695
+}
+$grp GenericEntity : "{22CAE0A2F3DFF712}Prefabs/Characters/Deads/armst_dead_coat.et" {
+ {
+  components {
+   BaseItemAnimationComponent "{6712E82B4C0E57EA}" {
+    StartNode "dead_1"
+   }
+  }
+  coords 6062.146 301.189 2165.548
+  angles 0 -143.538 0
+ }
+ {
+  components {
+   BaseLoadoutManagerComponent "{62D6F0039397DD7D}" {
+    Slots {
+     LoadoutSlotInfo Hat {
+     }
+     LoadoutSlotInfo Jacket {
+     }
+    }
+   }
+   BaseItemAnimationComponent "{6712E82B4C0E57EA}" {
+    StartNode "dead_6"
+   }
+  }
+  coords 6056.749 301.046 2177.455
+  angles 0 -112.286 0
+ }
+}
+GenericEntity : "{2424EBB806A690D5}Prefabs/Trash/Medical/GarbageMedicalUS_02.et" {
+ coords 6057.605 301.073 2187.011
+}
+GenericEntity : "{27832E7AD654F1A1}Prefabs/Vehicles/trains/train_diesel_2.et" {
+ coords 6043.401 318.648 2158.293
+ angles 0 57.218 0
+}
+$grp GenericEntity : "{2A27606856B8A914}Prefabs/Compositions/Slotted/SlotRoadLarge/Barricade_L_USSR_01.et" {
+ {
+  coords 6037.105 300.952 2194.822
+  angles 0 -23.036 0
+ }
+ {
+  coords 6068.446 301.611 2130.175
+  angles 0 176.044 0
+ }
+ {
+  coords 6058.309 301.789 2206.789
+  angles 0 -6.922 0
+ }
+ {
+  coords 6029.2 319.688 2154.902
+  angles 0 -107.423 0
+  {
+   GenericEntity {
+    ID "5CC6B48215782EDE"
+    coords -0.038 -0.198 -1.405
+   }
+   GenericEntity {
+    ID "5CC6B48215782EF3"
+    coords -1.431 -0.289 -1.551
+   }
+   GenericEntity {
+    ID "5CC6B48215783114"
+    coords -2.608 -0.451 -1.516
+    angles 0 -177.801 14.368
+   }
+  }
+ }
+}
+GenericEntity : "{2E6B80DDE879F33D}Prefabs/Vehicles/trains/train_cistern.et" {
+ coords 6065.415 319.249 2168.036
+ angles 0 62.254 0
+}
+GenericEntity : "{32654927F2657E8A}Prefabs/Props/Forest/WoodPile/WoodLog_01_A.et" {
+ components {
+  Hierarchy "{5CB0D990A4107532}" {
+   Enabled 1
+  }
+ }
+ coords 6060.259 302.125 2130.138
+ angles -10.074 -77.999 0
+}
+$grp GenericEntity : "{4870DF58BA621FFA}Prefabs/Trash/Medical/GarbageMedicalUS_01.et" {
+ {
+  coords 6059.428 301.068 2177.148
+ }
+ {
+  coords 6056.816 301.044 2186.116
+ }
+}
+GenericEntity : "{57FB5E487EC91D63}Prefabs/Compositions/Misc/SubCompositions/Barricade_Logs_02.et" {
+ coords 6086.173 319.475 2174.111
+ angles 0 -119.039 0
+ {
+  GenericEntity {
+   ID "59A297CBE3C270B1"
+   coords 0.603 0.21 -1.039
+   angles 20.159 -78.767 0
+  }
+  GenericEntity {
+   ID "59A297CBE3C21908"
+   coords 1.796 0.34 -0.28
+   angles -11.678 -120.547 0
+  }
+  GenericEntity {
+   ID "59A297CBE3C270B0"
+   coords -2.826 0.543 0.097
+   angles -11.219 -70.869 0
+  }
+  StaticModelEntity {
+   ID "59A297CBE3C19921"
+   coords -3.93 -0.563 0.363
+  }
+  StaticModelEntity {
+   ID "59A297CBE3C2190A"
+   coords 3.304 -0.302 0.467
+  }
+ }
+}
+GenericEntity : "{585A140D761A8BBA}Prefabs/Trash/Cardboard/Cardboard_Pile_08.et" {
+ coords 6056.326 301.018 2183.806
+}
+GenericEntity : "{6A346A8D0372FD3A}Prefabs/Props/Recreation/Camp/TentBig_02/TentBig_02_orange.et" {
+ coords 6057.14 301.092 2188.423
+ angles -0.943 168.063 2.028
+}
+GenericEntity : "{83B2BF6CB552153A}Prefabs/Trash/Newspapers/newspaper_4.et" {
+ coords 6061.334 300.958 2167.256
+ angles 0 0 0
+}
+$grp GenericEntity : "{869914063728EFF8}Prefabs/Props/Forest/WoodPile/WoodLog_01_D.et" {
+ {
+  coords 6059.057 319.445 2168.356
+  angles 0 77.533 0
+ }
+ {
+  coords 6059.119 319.445 2168.076
+  angles 0 77.533 0
+ }
+ {
+  coords 6059.188 319.445 2167.758
+  angles 0 77.533 0
+ }
+ {
+  coords 6059.157 319.693 2167.901
+  angles 0 77.533 0
+ }
+ {
+  coords 6059.093 319.693 2168.191
+  angles 0 77.533 0
+ }
+ {
+  coords 6059.145 319.935 2168.038
+  angles 0 77.432 0
+ }
+ {
+  coords 6045.708 319.935 2162.366
+  angles 0 51.009 0
+ }
+ {
+  coords 6045.882 319.445 2162.146
+  angles 0 51.009 0
+ }
+ {
+  coords 6045.678 319.445 2162.4
+  angles 0 51.009 0
+ }
+ {
+  coords 6045.5 319.445 2162.623
+  angles 0 51.009 0
+ }
+ {
+  coords 6045.604 319.693 2162.491
+  angles 0 51.009 0
+ }
+ {
+  coords 6045.792 319.693 2162.261
+  angles 0 51.009 0
+ }
+}
+$grp GenericEntity : "{93D7D0C0A52CD6A8}Prefabs/Trash/Food/GarbageFoodMilitaryUSSR_01.et" {
+ {
+  coords 6055.871 301.08 2170.608
+ }
+ {
+  coords 6055.071 301.187 2171.595
+ }
+ {
+  coords 6058.062 301.06 2178.181
+ }
+ {
+  coords 6057.851 301.04 2180.744
+ }
+ {
+  coords 6057.213 301.131 2188.756
+ }
+}
+GameEntity : "{9D922A33737B5C18}Prefabs/Method/Props/Camps/Fireplace_Loiters_Burned house_01.et" {
+ coords 6058.587 301.051 2179.346
+}
+GenericEntity : "{A91F6CA3A0ADB7EA}Prefabs/Trash/Newspapers/newspaper_1.et" {
+ coords 6062.423 300.963 2166.432
+}
+GenericEntity : "{A9CF5E8C5D91C476}Prefabs/Compositions/Misc/SubCompositions/Decorations/Barrel_Group_Crate_01.et" {
+ coords 6072.788 301.582 2134.727
+}
+GenericEntity : "{ABFA26642CE28193}Prefabs/Trash/Cardboard/Cardboard_Pile_04.et" {
+ coords 6059.655 301.067 2172.279
+ angles 0 0 -1.094
+}
+GenericEntity : "{BBAD313E424466CF}Prefabs/Props/Forest/WoodPile/WoodLog_01_C.et" {
+ components {
+  Hierarchy "{5CB0D990A41074C7}" {
+   Enabled 1
+  }
+ }
+ coords 6060.264 302.232 2129.862
+ angles 10.073 102.598 0.105
+}
+GenericEntity : "{C7AE128490260EBD}Prefabs/Trash/Cardboard/Cardboard_Pile_07.et" {
+ coords 6057.796 301.038 2175.423
+}
+GenericEntity : "{CC98E67AC15E257D}Prefabs/Props/Recreation/Camp/TentBig_01/TentBig_01_orange.et" {
+ coords 6055.392 301.136 2171.465
+ angles -9.909 79.885 -0.033
+}
+GenericEntity : "{DA0B2CD369CC00F4}Prefabs/Characters/Deads/armst_dead_sweater.et" {
+ components {
+  BaseItemAnimationComponent "{6712E82B4C0E57EA}" {
+   StartNode "dead_3"
+  }
+ }
+ coords 6055.546 301.259 2172.318
+ angles 0 -104.213 -8.504
+}
+GenericEntity : "{DE9E5354FA04C6B1}Prefabs/beds/matrass_2.et" {
+ coords 6061.872 301.115 2165.055
+ angles 0 37.332 0
+}
+GenericEntity : "{E28A1732DA84AD7A}Prefabs/Trash/Food/GarbageFoodMilitaryUS_01.et" {
+ coords 6057.659 301.058 2178.233
+}
+$grp GenericEntity : "{E3AA766C8F684F86}Prefabs/beds/matrass_5.et" {
+ {
+  coords 6056.8 301.118 2189.999
+  angles 0 37.775 0
+ }
+ {
+  coords 6054.813 301.197 2172.237
+  angles -5.803 75.91 0
+ }
+ {
+  coords 6059.897 301.06 2166.444
+  angles 0 -29.337 0
+ }
+}
+GenericEntity : "{F4123D86F860B5E2}Prefabs/Trash/Medical/GarbageMedicalUSSR_02.et" {
+ coords 6057.861 301.028 2171.82
+}
+GenericEntity : "{F9D55BAC4309FDB6}Prefabs/Vehicles/trains/train_wagon_misc.et" {
+ coords 6054.697 319.354 2163.907
+ angles 0 75.606 0
+}
