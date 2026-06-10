@@ -1,10 +1,10 @@
 $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST_RADIATIONS.et" {
  {
-  coords 2314.177 301.233 1518.254
-  SphereRadius 129.9
+  coords 2431.503 301.233 1519.181
+  SphereRadius 159.7
   DrawShape 0
   UpdatePeriod 3
-  m_DamageRadioLevel 92
+  m_DamageRadioLevel 76
  }
  {
   coords 2510.772 308.302 1358.718

@@ -3864,14 +3864,6 @@ $grp PolylineShapeEntity {
        coords 53.377 0 -46.49
        angles 0 -90.029 0
       }
-      {
-       coords 53.259 0 -25.667
-       angles 0 1.214 0
-      }
-      {
-       coords 59.181 0 -25.793
-       angles 0 1.214 0
-      }
      }
      $grp SCR_DestructibleEntity : "{595F29E55480E432}PrefabLibrary/DefaultLibrary/Walls/Concrete/ConcreteWall_01_6m_B.et" {
       {
@@ -3929,10 +3921,6 @@ $grp PolylineShapeEntity {
        angles 0 89.973 0
       }
       {
-       coords 53.369 0 -28.696
-       angles 0 -90.029 0
-      }
-      {
        coords 65.103 0 -25.918
        angles 0 1.214 0
       }
@@ -3981,10 +3969,6 @@ $grp PolylineShapeEntity {
        angles 0 -179.312 0
       }
       {
-       coords -11.551 0.552 11.945
-       angles 0 -179.312 0
-      }
-      {
        coords -26.524 0.007 17.95
        angles 0 -90.983 0
       }
@@ -4001,14 +3985,6 @@ $grp PolylineShapeEntity {
       {
        coords -5.62 0.768 11.874
        angles 0 -179.312 0
-      }
-      {
-       coords -17.469 0.335 12.016
-       angles 0 -179.312 0
-      }
-      {
-       coords -26.422 0.008 12.016
-       angles 0 -90.983 0
       }
       {
        coords -26.626 0.006 23.873
@@ -4030,10 +4006,6 @@ $grp PolylineShapeEntity {
      SCR_DestructibleEntity : "{95A1D31077D47BEA}PrefabLibrary/DefaultLibrary/Walls/Concrete/ConcreteWall_01_Pole.et" {
       coords -27.338 0 65.386
       angles 0 -90.983 0
-     }
-     SCR_DestructibleEntity : "{CAFF4B51059A0F81}PrefabLibrary/DefaultLibrary/Walls/Concrete/ConcreteWall_01_3m.et" {
-      coords -23.4 0.118 12.088
-      angles 0 -179.312 0
      }
     }
    }
@@ -4058,23 +4030,7 @@ $grp PolylineShapeEntity {
     Flags 0x100003 0
     coords 0 0 0
     {
-     SCR_DestructibleEntity : "{2BA5C7F599779832}PrefabLibrary/DefaultLibrary/Walls/Concrete/ConcreteWall_01_6m_D_A.et" {
-      coords -5.815 0 -0.002
-      angles 0 -180.022 0
-     }
      $grp SCR_DestructibleEntity : "{350B1D05E8446B1C}PrefabLibrary/DefaultLibrary/Walls/Concrete/ConcreteWall_01_6m_A.et" {
-      {
-       coords 0.108 0 0
-       angles 0 -180.022 0
-      }
-      {
-       coords -11.739 0 -0.005
-       angles 0 -180.022 0
-      }
-      {
-       coords -17.662 0 -0.007
-       angles 0 -180.022 0
-      }
       {
        coords -26.611 0 -0.118
        angles 0 -90.339 0
@@ -4106,15 +4062,9 @@ $grp PolylineShapeEntity {
       coords -26.873 -0.012 44.307
       angles 0 -90.339 0
      }
-     $grp SCR_DestructibleEntity : "{CAFF4B51059A0F81}PrefabLibrary/DefaultLibrary/Walls/Concrete/ConcreteWall_01_3m.et" {
-      {
-       coords -23.585 0 -0.009
-       angles 0 -180.022 0
-      }
-      {
-       coords -26.856 -0.011 41.38
-       angles 0 -90.339 0
-      }
+     SCR_DestructibleEntity : "{CAFF4B51059A0F81}PrefabLibrary/DefaultLibrary/Walls/Concrete/ConcreteWall_01_3m.et" {
+      coords -26.856 -0.011 41.38
+      angles 0 -90.339 0
      }
     }
    }

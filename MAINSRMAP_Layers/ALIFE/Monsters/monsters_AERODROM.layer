@@ -128,7 +128,7 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
     m_SpawnChance 15
     m_PlayerDetectionRadius 100
     m_SpawnGroups {
-     "{AA31A2A6BD9679D4}Configs/GAME_SETTING/BOTS/ALIFE/mutants/zombie.conf"
+     "{7A2CF51B0D2A9807}Configs/GAME_SETTING/BOTS/ALIFE/mutants/psy_destroyer.conf"
     }
    }
   }
