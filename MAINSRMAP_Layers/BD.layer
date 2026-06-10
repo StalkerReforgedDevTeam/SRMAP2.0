@@ -222,6 +222,9 @@ SCR_GameModeEditor Armst_GameMaster : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Editor
  m_bAutoInitEditor 0
  m_GameMasterTarget EVERYBODY
  {
+  ScriptedChatEntity {
+   ID "56E685E9EF952A67"
+  }
   SCR_FactionManager "65A4F0B0DAAA6EFF" {
    ID "56E685E92F1B7E7A"
    Factions {

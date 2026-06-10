@@ -1,6 +1,6 @@
 $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRIGGER_ANOMAL.et" {
  ELECTRO_ANOMALY16 {
-  coords 4877.332 304.114 1605.286
+  coords 4860.279 304.114 1547.993
   SphereRadius 70
   TriggerActivationType "Every query"
   UpdatePeriod 10
@@ -261,20 +261,6 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
  }
  JARKA_ANOMALY_9 {
   coords 4617.254 306.277 1972.469
-  SphereRadius 79.1
-  TriggerActivationType "Every query"
-  UpdatePeriod 10
-  m_ObjectPrefab "{764A0D38D69BA7F3}Prefabs/Anomals/Jarka/ARMST_JARKA_T2.et"
-  m_ObjectPrefab2 "{764A0D38D69BA7F3}Prefabs/Anomals/Jarka/ARMST_JARKA_T2.et"
-  m_ObjectPrefab3 "{642A15101599EB63}Prefabs/Anomals/Puziriks/ARMST_JARKA_PUZIRIKS.et"
-  m_ArtsPrefab {
-   "{EABCF33CC349E7C3}Prefabs/Items/artefacts_new/art_fire_1T_drop.et"
-  }
-  m_SpawnCount 15
-  m_CenterBias 0
- }
- JARKA_ANOMALY_10 {
-  coords 4884.744 307.702 1717.098
   SphereRadius 79.1
   TriggerActivationType "Every query"
   UpdatePeriod 10

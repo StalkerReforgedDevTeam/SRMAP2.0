@@ -308,22 +308,8 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
     }
    }
   }
-  coords 4997.928 300.452 1728.885
-  scale 50
- }
- toxic5 {
-  components {
-   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
-    m_InitialSpawnDelay 5
-    m_CheckInterval 300
-    m_SpawnChance 15
-    m_PlayerDetectionRadius 100
-    m_SpawnGroups {
-     "{DB596D48781B4C20}Configs/GAME_SETTING/BOTS/ALIFE/mutants/toxic.conf"
-    }
-   }
-  }
-  coords 4882.771 307.702 1671.857
+  coords 5052.7 308.189 1752.271
+  angles 1.659 -0.467 -15.715
   scale 50
  }
  zombie22 {

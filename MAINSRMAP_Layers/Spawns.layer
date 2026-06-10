@@ -1,0 +1,951 @@
+ARMST_SpawnPoint {
+ coords 1495.541 310.143 104.375
+ angles 0 38.069 0
+ m_sName "Stalker Spawn"
+ m_FactionKey FACTION_STALKER
+ m_FactionRequired FACTION_STALKER
+}
+SCR_DestructibleBuildingEntity {
+ components {
+  MeshObject "{699505F51C0FEEFD}" {
+   Object "{917F97CDA1DC67AE}Assets/Soviet_assets/new_objects/builds/kns.xob"
+   WetnessAdder 1
+   ClutterOccluder 1
+  }
+  RigidBody "{699505F51C0FEEB4}" {
+   ModelGeometry 1
+   Static 1
+  }
+ }
+ Flags 0x403 0
+ coords 2336.152 288.437 955.764
+ angles 0 66.527 0
+ {
+  $grp GenericEntity {
+   {
+    components {
+     MeshObject "{66704E5DC393419E}" {
+      Object "{CFC42B90A338D3A3}Assets/Structures/Walls/Metal/Dst/MetalWall_01_9m_10_dst.xob"
+     }
+    }
+    coords 20.027 -1.993 -6.487
+    angles -0.172 90 -90
+    scale 1.243
+   }
+   {
+    components {
+     MeshObject "{66704E5DD591A7F1}" {
+      Object "{C42FAC1F759D26CF}Assets/Structures/Walls/Metal/Dst/MetalWall_01_9m_12_dst.xob"
+     }
+    }
+    coords 11.925 -1.362 -7.874
+    angles -0.198 -4.272 -92.654
+    scale 1.27
+   }
+   {
+    coords 11.03 2.005 -9.513
+   }
+   {
+    coords 18.855 1.971 -6.269
+    angles 0 -11.741 0
+   }
+   {
+    components {
+     MeshObject "{66704E5DC393419E}" {
+      Object "{CFC42B90A338D3A3}Assets/Structures/Walls/Metal/Dst/MetalWall_01_9m_10_dst.xob"
+     }
+    }
+    coords 3.66 1.426 -2.283
+    angles -1.002 0 0
+    scale 1.243
+   }
+   {
+    components {
+     MeshObject "{66704E5DD591A7F1}" {
+      Object "{C42FAC1F759D26CF}Assets/Structures/Walls/Metal/Dst/MetalWall_01_9m_12_dst.xob"
+     }
+    }
+    coords 13.921 1.971 0.831
+    angles 0 90 0
+   }
+   {
+    components {
+     MeshObject "{66704E5A70CA4FA2}" {
+      Object "{E9386EBDF340466C}Assets/Structures/Walls/Metal/Dst/MetalWall_01_3m_07_dst.xob"
+     }
+    }
+    coords 7.732 2.894 -2.304
+    angles 0 89.207 90
+    scale 0.82
+   }
+   {
+    components {
+     MeshObject "{66704E5D422E67C9}" {
+      Object "{F620DFE2CE87B1AA}Assets/Props/Construction/PlankPile_01/Dst/PlankPile_01_Large_dst/PlankPile_01_Large_dst_01_debris01.xob"
+     }
+    }
+    coords 13.159 1.011 -3.527
+    angles 0 -20.624 0
+   }
+   {
+    components {
+     MeshObject "{66704E5DA7881075}" {
+      Object "{F620DFE2CE87B1AA}Assets/Props/Construction/PlankPile_01/Dst/PlankPile_01_Large_dst/PlankPile_01_Large_dst_01_debris01.xob"
+     }
+    }
+    coords 10.102 4.049 -3.471
+    angles -54.276 90 -90
+   }
+   {
+    components {
+     MeshObject "{66704E5D8B1CFCEC}" {
+      Object "{1E6A75EA0CFD6A5F}Assets/Structures/Walls/Metal/Dst/MetalWall_01_9m_08_dst.xob"
+     }
+    }
+    coords 7.701 4.178 -13.561
+    angles 0 -0.99 90
+   }
+   {
+    components {
+     MeshObject "{66704E5DF02C3535}" {
+      Object "{1B9FB62DE7AF90E9}Assets/Structures/Walls/Metal/Dst/MetalWall_01_9m_09_dst.xob"
+     }
+    }
+    coords 13.04 1.506 -2.773
+    angles 0 -171.005 0
+    scale 1.243
+   }
+   {
+    components {
+     MeshObject "{66704E5DE224FD64}" {
+      Object "{D813248F0E73397B}Assets/Structures/Walls/Metal/Dst/MetalWall_01_9m_14_dst.xob"
+     }
+    }
+    coords 0.224 1.512 -4.424
+    angles 0 -11.166 0
+    scale 1.243
+   }
+   {
+    components {
+     MeshObject "{66704E5A74DE6DE5}" {
+      Object "{DF5F3BD5396B76DE}Assets/Structures/Walls/Metal/Dst/MetalWall_01_3m_08_dst.xob"
+     }
+    }
+    coords 13.456 2.533 -13.798
+    angles -8.238 94.023 -90
+    scale 1.34
+   }
+   {
+    components {
+     MeshObject "{66704E5A6AD70D39}" {
+      Object "{DAAAF812D2398C68}Assets/Structures/Walls/Metal/Dst/MetalWall_01_3m_09_dst.xob"
+     }
+    }
+    coords 7.529 3.988 -4.024
+    angles -4.041 86.771 36.843
+    scale 1.26
+   }
+   {
+    components {
+     MeshObject "{6682F81F4CA5292C}" {
+      Object "{3A8F3AF807497CE2}Assets/Props/Construction/PlankPile_01/Dst/PlankPile_01_Medium_dst/PlankPile_01_Medium_dst01_debris01.xob"
+     }
+    }
+    coords 12.36 9.484 -14.112
+    angles 5.549 59.493 24.345
+    scale 0.68
+   }
+   {
+    components {
+     MeshObject "{6682F81F4CA5292C}" {
+      Object "{3A8F3AF807497CE2}Assets/Props/Construction/PlankPile_01/Dst/PlankPile_01_Medium_dst/PlankPile_01_Medium_dst01_debris01.xob"
+     }
+    }
+    coords 12.906 9.4 -14.485
+    angles 2.601 71.751 25.49
+    scale 0.68
+   }
+  }
+  SCR_DestructibleBuildingEntity {
+   coords 2.351 1.853 -9.103
+   scale 0.61
+  }
+  $grp SCR_DestructibleEntity : "{08403A2F4EFF76A4}Prefabs/Structures/Infrastructure/Piping/DieselPipe_01_curve_90_short.et" {
+   {
+    coords 5.897 8.111 -18.133
+    angles 0 90 90
+    scale 1.46
+   }
+   {
+    coords 6.117 2.303 -5.173
+    angles 0 -180 90
+    scale 1.46
+   }
+  }
+  $grp StaticModelEntity : "{1E0BC50E7000DEFD}Prefabs/Structures/Debris/Debris_HouseVillage/Debris_HouseVillage_Metal_Roof_v1.et" {
+   {
+    coords 15.097 4.683 -4.809
+    angles 0 0 1.988
+   }
+   {
+    coords 18.827 4.895 -4.142
+    angles 0 0 11.669
+   }
+  }
+  GenericEntity : "{26EA702845762443}Prefabs/Staff/box_wooden_big.et" {
+   coords 16.31 2.783 -6.957
+   angles 0 164.825 0
+   scale 1.33
+  }
+  $grp GenericEntity : "{2825111E407D2DAE}Prefabs/Staff/box_plastic_small.et" {
+   {
+    coords 18.515 2.133 -5.022
+    angles 0 5.504 0
+   }
+   {
+    coords 9.033 2.005 -4.371
+    angles 0 -13.995 0
+    scale 1.3
+   }
+  }
+  GenericEntity : "{2F5802243DC20620}Prefabs/wood_bridges/wood_bridges_small_pol_wall_half.et" {
+   coords 6.857 0.707 -5.059
+   angles 0 -91.756 0
+  }
+  $grp SCR_DestructibleBuildingEntity : "{3140009AA235E892}Prefabs/Industrial/crane_trash.et" {
+   {
+    coords 10.706 5.363 -12.247
+    angles 0 -76.229 0
+    scale 0.615
+   }
+   {
+    coords 7.886 5.363 -8.232
+    angles 0 96.256 0
+    scale 0.615
+   }
+   {
+    coords 10.859 5.363 -8.033
+    angles 0 178.349 0
+    scale 0.615
+   }
+   {
+    coords 8.426 5.363 -11.722
+    angles 0 178.349 0
+    scale 0.615
+   }
+  }
+  $grp GenericEntity : "{35AC8C84785CB8B1}Prefabs/Structures/Infrastructure/Naval/Piers/Pier_Wood_Long_01.et" {
+   {
+    coords 25.108 1.578 -2.595
+    angles 90 0 -2.975
+   }
+   {
+    coords 21.198 1.51 -1.439
+    angles 90 0 -2.975
+   }
+   {
+    coords 15.446 1.508 -12.4
+    angles 89.647 -6.143 -96.395
+   }
+   {
+    coords 14.309 1.595 -6.762
+    angles 89.296 180 90
+   }
+   {
+    coords 10.926 1.565 -14.377
+    angles 89.297 180 -174.485
+   }
+   {
+    coords 10.965 1.507 -1.791
+    angles 90 0 -2.975
+   }
+  }
+  GenericEntity : "{37FD663A110F1375}Prefabs/Structures/Infrastructure/Naval/Piers/Pier_Tires_02.et" {
+   coords 8.766 1.988 -0.115
+   angles 0 -3.155 0
+  }
+  $grp SCR_DestructibleEntity : "{3BDB53AF13D47912}Prefabs/Structures/Infrastructure/Piping/DieselPipe_01_straight_low_2m_cnc.et" {
+   {
+    coords 7.568 1.847 -5.173
+    angles 0 90 0
+    scale 1.46
+   }
+   {
+    coords 5.897 1.847 -9.753
+    scale 1.46
+   }
+  }
+  SCR_DestructibleEntity : "{46C94CC89A608559}Prefabs/Structures/Walls/Pole/PoleFence_01/PoleFence_01_3m.et" {
+   coords 14.028 7.844 -13.57
+   angles 0 88.643 1.735
+   scale 0.421
+  }
+  SCR_DestructibleEntity : "{4CD13B27E7769662}Prefabs/Structures/Infrastructure/Piping/DieselPipe_01_straight_low_3m_cnc.et" {
+   coords 8.291 7.651 -18.353
+   angles 0 90 0
+   scale 1.46
+  }
+  SCR_DestructibleBuildingEntity : "{4DAAB204EF317364}Prefabs/Industrial/stoyka.et" {
+   coords 8.18 5.363 -6.137
+   angles 0 -60.309 0
+  }
+  $grp SCR_DestructibleBuildingEntity : "{4E32735D38FB7328}Prefabs/Industrial/concrete_tower_01.et" {
+   {
+    coords 14.073 0.954 -16.326
+    angles 0 -11.707 0
+    scale 0.747
+   }
+   {
+    coords 9.596 0.954 -16.663
+    scale 0.747
+   }
+  }
+  GenericEntity : "{4EFE35748F199226}Prefabs/LOOT_BOX/2_TIER/2_TIER_Loot_randomize_clothes.et" {
+   coords 12.38 7.686 -13.717
+   angles 5.371 0 0
+  }
+  $grp SCR_DestructibleBuildingEntity : "{52DE6E29E8B236F9}Prefabs/Industrial/builds/vodonaporka.et" {
+   {
+    coords 19.1 -1.989 -15.338
+    scale 1.3
+   }
+   {
+    coords 20.92 -1.486 -10.064
+    angles 0 106.972 0
+    scale 1.3
+   }
+  }
+  $grp GenericEntity : "{550F8F2E909797FD}Prefabs/Structures/Infrastructure/Naval/Piers/PierCover_05.et" {
+   {
+    coords 10.051 2.028 -11.59
+    angles 87.484 0 44.793
+    scale 0.757
+   }
+   {
+    coords 6.72 2.083 -8.098
+    angles 87.484 -7.702 -6.007
+    scale 0.582
+   }
+   {
+    coords 7.15 2.14 -7.95
+    angles 87.952 -5.854 9.86
+    scale 0.582
+   }
+   {
+    coords 7.031 2.085 -9.607
+    angles 90 -180 -180
+   }
+   {
+    coords 12.588 1.971 -11.069
+    angles 88.713 -180 180
+   }
+   {
+    coords 7.544 2.041 -9.861
+    angles 90 0 2.207
+   }
+   {
+    coords 12.944 1.971 -9.291
+    angles 90 -180 -180
+   }
+   {
+    coords 13.315 2.022 -10.949
+    angles 89.217 0 0
+   }
+   {
+    coords 13.239 1.971 -5.369
+    angles 90 0 5.504
+   }
+   {
+    coords 12.642 1.971 -5.561
+    angles 90 -180 -180
+   }
+   {
+    coords 16.941 1.971 -6.577
+    angles 90 0 103.653
+    scale 0.57
+   }
+   {
+    coords 16.922 1.971 -6.212
+    angles 90 -180 -83.423
+    scale 0.57
+   }
+   {
+    coords 19.904 3.302 -4.412
+    angles -1.36 87.737 91.797
+    scale 0.688
+   }
+   {
+    coords 18.092 3.247 -6.984
+    angles -2.073 163.688 89.117
+    scale 0.717
+   }
+   {
+    coords 19.74 2.092 -3.528
+    angles 88.713 -180 180
+   }
+   {
+    coords 17.888 2 -6.74
+    angles 88.588 153.684 -101.679
+    scale 0.78
+   }
+   {
+    coords 18.035 2.092 -3.46
+    angles 88.713 180 156.102
+   }
+   {
+    coords 8.369 2.019 -1.679
+    angles 88.555 -12.189 -99.558
+    scale 0.582
+   }
+   {
+    coords 17.207 2.131 -3.383
+    angles 85.643 108.247 83.869
+   }
+   {
+    coords 6.558 2.033 -2.619
+    angles 88.555 -12.189 -12.387
+    scale 0.582
+   }
+   {
+    coords 6.728 2.063 -2.252
+    angles 89.527 -35.309 -33.61
+    scale 0.582
+   }
+   {
+    coords 7.304 2.041 -2.455
+    angles 88.554 -12.189 -10.493
+    scale 0.582
+   }
+   {
+    coords 6.986 2.031 -2.398
+    angles 88.554 -12.189 -7.47
+    scale 0.582
+   }
+  }
+  $grp GenericEntity : "{5BA952DAADCB9C5B}Prefabs/Structures/Infrastructure/Naval/Piers/Pier_Tires_01.et" {
+   {
+    coords 11.31 2.004 -0.113
+    angles 0 87.482 0
+    scale 0.91
+   }
+   {
+    coords 10.457 5.364 -13.272
+    angles 0 133.28 0
+   }
+   {
+    coords 9.486 5.363 -2.757
+    angles 0 133.28 0
+   }
+  }
+  $grp StaticModelEntity : "{5C290F8B9942A54E}Prefabs/Structures/Infrastructure/Culverts/DrainageChannelWood_01/DrainageChannelWood_01.et" {
+   {
+    coords 9.309 10.242 -8.427
+    angles 0.069 177.801 179.943
+    scale 0.75
+   }
+   {
+    coords 8.997 10.264 -12.289
+    angles 0.37 -177.608 -179.614
+    scale 0.75
+   }
+   {
+    coords 9.907 10.336 -10.346
+    angles 4.247 90.255 179.027
+   }
+   {
+    coords 7.367 10.342 -10.322
+    angles 4.263 91.25 179.101
+   }
+   {
+    coords 7.802 10.344 -10.32
+    angles 4.237 89.675 178.984
+   }
+   {
+    coords 8.695 10.367 -10.408
+    angles 4.263 91.25 179.101
+   }
+   {
+    coords 10.817 10.348 -10.336
+    angles 4.263 91.25 179.101
+   }
+  }
+  $grp GenericEntity : "{5E317DC74EA1F1A4}Prefabs/Props/Forest/WoodPile/WoodLog_01_B.et" {
+   {
+    coords 7.63 -0.33 -15.136
+    angles 90 -180 -180
+   }
+   {
+    coords 14.566 0.084 -15.611
+    angles 90 -180 -180
+   }
+   {
+    coords 6.31 -0.575 -9.78
+    angles 90 -180 -180
+   }
+   {
+    coords 18.331 -0.368 -0.376
+    angles 90 -180 -180
+   }
+   {
+    coords 16.711 -0.187 -7.397
+    angles 90 -180 -180
+   }
+   {
+    coords 11.317 -0.386 -0.022
+    angles 90 -180 -180
+   }
+   {
+    coords 16.473 2.786 -2.791
+    angles 90 -180 -180
+   }
+   {
+    coords 6.388 -0.392 -7.444
+    angles 90 -180 -180
+   }
+   {
+    coords 13.715 -0.544 -9.343
+    angles 90 -180 -180
+   }
+   {
+    coords 6.33 0.186 -0.359
+    angles 90 0 -44.184
+   }
+   {
+    coords 6.074 0.236 -4.393
+    angles 90 -180 -180
+   }
+   {
+    coords 7.874 -0.158 -12.796
+    angles 90 0 0
+   }
+   {
+    coords 12.32 7.9 -9.605
+    angles 90 -92.372 -90
+    scale 0.884
+   }
+   {
+    coords 11.341 8.249 -7.913
+    angles 46.734 87.628 90
+    scale 0.504
+   }
+   {
+    coords 10.376 7.643 -14.55
+    angles 90 -92.372 -90
+    scale 0.345
+   }
+   {
+    coords 12.216 7.889 -7.98
+    angles 90 -92.372 -90
+    scale 0.884
+   }
+   {
+    coords 13.976 7.356 -14.799
+    angles 85.617 166.551 -90
+    scale 0.94
+   }
+   {
+    coords 10.511 7.381 -15.348
+    angles 85.808 -13.449 90
+   }
+   {
+    coords 10.617 1.956 -15.741
+    angles 85.808 -13.449 90
+    scale 0.94
+   }
+   {
+    coords 13.889 2.07 -14.411
+    angles 85.617 166.551 -90
+    scale 0.94
+   }
+   {
+    coords 11.737 0.371 -15.322
+    angles 90 0 0
+   }
+   {
+    coords 10.369 7.764 -13.626
+    angles 57.954 -178.236 -84.861
+    scale 0.94
+   }
+   {
+    coords 7.76 -0.021 -16.058
+    angles 90 0 0
+    scale 0.94
+   }
+   {
+    coords 16.271 2.7 -7.297
+    angles 81.977 -90 -90
+   }
+   {
+    coords 19.711 2.868 -2.455
+    angles 90 0 0
+   }
+   {
+    coords 19.877 2.68 -6.24
+    angles 90 0 0
+   }
+   {
+    coords 16.116 3.169 -7.815
+    angles 74.97 -156.792 -179.63
+    scale 0.87
+   }
+  }
+  GenericEntity : "{6220F5D951A6F92B}Prefabs/Staff/box_wooden_small.et" {
+   coords 19.446 2.124 -3.076
+   angles 0 -32.395 0
+   scale 1.88
+  }
+  $grp SCR_DestructibleBuildingEntity : "{6CDAFB08D5F88533}Prefabs/Structures/Infrastructure/Naval/Piers/Pier_Stairs01.et" {
+   {
+    coords 6.944 2.653 -4.512
+    angles 0 -2.637 0
+    scale 0.53
+   }
+   {
+    coords 7.042 2.634 -6.054
+    angles 0 -180 0
+    scale 0.524
+   }
+   {
+    coords 5.538 2.914 -9.07
+    angles 0 90 0
+    scale 0.524
+   }
+  }
+  StaticModelEntity : "{725FF1EECCC451D3}Prefabs/Structures/Debris/Debris_HouseVillage/Debris_HouseVillage_Metal_Roof_v2.et" {
+   coords 17.663 5.078 -5.115
+   angles -1.956 79.813 0.352
+  }
+  $grp GenericEntity : "{76EEFD47C2837E60}Prefabs/Staff/box_wooden_small_2.et" {
+   {
+    coords 16.36 2.096 -16.631
+    angles 0 -106.45 0
+    scale 1.48
+   }
+   {
+    coords 18.736 2.915 -4.069
+    angles 0 -132.608 0
+    scale 1.98
+   }
+   {
+    coords 15.591 2.006 -6.881
+    angles 0 -158.234 0
+    scale 1.98
+   }
+   {
+    coords 18.558 2.129 -4.764
+    angles 0 -158.234 0
+    scale 1.98
+   }
+  }
+  $grp StaticModelEntity : "{7BF8E2A89831D1D6}Prefabs/Structures/Debris/Debris_HouseVillage/Debris_HouseVillage_Wood_Roof_v6.et" {
+   {
+    coords 17.852 1.75 -4.314
+    angles -1.58 0 0
+   }
+   {
+    coords 17.031 5.213 -3.839
+   }
+  }
+  GenericEntity : "{8DA7E6EFE91E89A1}Prefabs/Structures/Infrastructure/Naval/Piers/PierCover_03.et" {
+   coords 8.945 1.971 -2.145
+   angles 0 -180 0
+   scale 0.31
+  }
+  GenericEntity : "{9185FB6648FF6A17}Prefabs/Structures/Infrastructure/Bus/BusShed_E_01/Dst/BusShed_E_01_green_15_dst.et" {
+   coords 12.362 7.519 -14.293
+  }
+  SCR_DestructibleEntity : "{97706E5F109912CB}Prefabs/Structures/Infrastructure/Piping/DieselPipe_01_reel_bunker.et" {
+   coords 8.885 1.971 -3.679
+   angles 0 -101.698 0
+  }
+  StaticModelEntity : "{A58BD14925058D2C}Prefabs/Structures/Debris/Debris_HouseVillage/Debris_HouseVillage_01_Wall_V2.et" {
+   coords 11.88 5.363 -12.965
+   scale 0.83
+  }
+  SCR_DestructibleEntity : "{A5C7908C71CFD97C}Prefabs/Structures/Walls/Concrete/ConcreteWall_02/ConcreteWall_02_V1_2m.et" {
+   coords 5.232 -0.095 -12.749
+   angles 0 0 5.433
+   scale 1.26
+  }
+  GenericEntity : "{A8FAF8D8950BF74B}Prefabs/LOOT_BOX/2_TIER/2_TIER_Loot_randomize_tools.et" {
+   coords 11.261 2.015 -4.698
+   angles 0 -3.093 0
+  }
+  GenericEntity : "{AE469486BB0A603C}Prefabs/Staff/box_wooden_small_4.et" {
+   coords 17.396 1.941 -5.892
+   angles 0 -19.379 0
+   scale 2.07
+  }
+  $grp GenericEntity : "{C1F38F057250EE4E}Prefabs/Structures/Agriculture/Barn/Barn_E_03/Barn_E_03_Wall_01.et" {
+   {
+    coords 9.427 1.971 -13.372
+    angles 0 -180 0
+    scale 0.82
+   }
+   {
+    coords 7.976 1.971 -7.955
+    angles 0 -90 0
+   }
+   {
+    coords 13.762 1.717 -11.569
+    angles 0 90 0
+   }
+   {
+    coords 13.808 1.971 -4.296
+    angles 0 90 0
+   }
+   {
+    coords 7.912 1.971 -4.296
+    angles 0 90 0
+   }
+   {
+    coords 9.593 1.779 -9.819
+    angles 0 -178.369 0
+   }
+  }
+  $grp SCR_DestructibleEntity : "{C2C32F395D434FD6}Prefabs/Structures/Walls/Pole/PoleFence_01/PoleFence_01_6m_B.et" {
+   {
+    coords 10.789 11.217 -9.556
+    angles 0 90.178 0
+    scale 0.576
+   }
+   {
+    coords 10.464 8.505 -14.605
+    angles 0 3.52 0
+    scale 0.576
+   }
+  }
+  SCR_DestructibleBuildingEntity : "{C981197EA27CB72F}Prefabs/Industrial/naves_fabrika_naves.et" {
+   coords 10.857 1.971 -2.434
+   angles 0 -90 0
+   scale 0.723
+  }
+  $grp GenericEntity : "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et" {
+   {
+    coords 9.915 10.409 -10.898
+    angles 0.037 -2.272 0.735
+    scale 0.912
+   }
+   {
+    coords 9.115 10.505 -11.963
+    angles -0.736 88.9 0.022
+    scale 0.793
+   }
+   {
+    coords 8.224 10.395 -10.956
+    angles 0.037 -2.272 0.735
+    scale 0.912
+   }
+   {
+    coords 9.078 10.463 -10.828
+    angles -0.733 95.845 -0.067
+    scale 0.793
+   }
+   {
+    coords 9.031 10.508 -9.799
+    angles -0.729 98.641 -0.102
+    scale 0.793
+   }
+   {
+    coords 9.161 10.353 -8.513
+    angles 0.866 -88.094 -1.762
+    scale 0.912
+   }
+  }
+  $grp GenericEntity : "{D7F69BF7D2DCA0A8}Prefabs/Props/Industrial/Pallets/Pallet_01.et" {
+   {
+    coords 11.787 7.574 -14.055
+    angles 0 -176.503 0
+    scale 1.1
+   }
+   {
+    coords 12.685 7.574 -14.192
+    angles 0 -177.886 0
+    scale 1.1
+   }
+   {
+    coords 10.9 7.563 -14.006
+    angles 0 -173.706 0
+    scale 1.1
+   }
+   {
+    coords 11.692 10.254 -9.348
+    angles 0 90.061 0
+    scale 1.1
+   }
+   {
+    coords 13.573 7.585 -14.178
+    angles 0 179.317 0
+    scale 1.1
+   }
+   {
+    coords 14.674 5.423 -7.935
+    angles 0 -2.797 0
+   }
+   {
+    coords 11.645 10.265 -8.461
+    angles 0 87.264 0
+    scale 1.1
+   }
+   {
+    coords 15.498 5.412 -7.936
+    angles 0 0 0
+   }
+  }
+  GenericEntity : "{DD6362C580622F8A}Prefabs/Structures/Infrastructure/Bus/BusShed_E_01/Dst/BusShed_E_01_02_dst.et" {
+   coords 18.943 1.013 -1.798
+   angles 0 -53.733 0
+   scale 2.51
+  }
+  SCR_DestructibleBuildingEntity : "{DEE0A3B65FD12C81}Prefabs/Industrial/cilinder.et" {
+   coords 5.894 2.228 -15.392
+   angles 0 90 0
+   scale 3.553
+  }
+  SCR_DestructibleBuildingEntity : "{E1CA5BFACF81B265}Prefabs/Industrial/sushilka.et" {
+   coords 9.097 5.363 -4.008
+   angles 0 -81.494 0
+  }
+  SCR_DestructibleEntity : "{E38C2EEE61381A66}Prefabs/Structures/Infrastructure/Piping/DieselPipe_01_pump.et" {
+   coords 10.524 1.971 -5.442
+   angles 0 -90 0
+   scale 1.04
+  }
+  $grp StaticModelEntity : "{E5B343A1918DB525}Prefabs/Structures/BuildingParts/Entry/WoodenStairs_01.et" {
+   {
+    coords 15.153 5.539 -8.626
+    angles 0 -179.64 0
+    scale 0.67
+   }
+   {
+    coords 11.643 9.089 -11.47
+    angles 7.591 -179.824 0.023
+    scale 0.67
+   }
+   {
+    coords 13.26 7.733 -13.498
+    angles 0 -1.486 0
+    scale 0.67
+   }
+   {
+    coords 11.647 10.307 -9.766
+    angles 7.591 -179.824 0.023
+    scale 0.67
+   }
+   {
+    coords 15.111 3.843 -10.419
+    angles 0 -179.64 0
+    scale 0.67
+   }
+   {
+    coords 13.244 7.081 -12.815
+    angles 0 -1.486 0
+    scale 0.67
+   }
+  }
+  SCR_DestructibleEntity : "{E6C231BE778A880F}Prefabs/Structures/Walls/Pole/PoleFence_02/PoleFence_02_8m_B.et" {
+   coords 14.096 5.576 -10.479
+   angles -0.872 93.847 -39.814
+   scale 0.576
+  }
+  SCR_DestructibleBuildingEntity : "{E7D72F0E6837189F}Prefabs/Industrial/tent.et" {
+   coords 11.402 10.12 -7.753
+   angles 0 91.892 0
+  }
+  $grp GenericEntity : "{E9D97BDDDF10C95D}Prefabs/wood_bridges/wood_bridges_long_pol.et" {
+   {
+    coords 10.117 -0.513 -3.282
+    scale 1.317
+   }
+   {
+    coords 10.44 -0.513 -7.721
+    scale 1.317
+   }
+   {
+    coords 9.983 -0.513 -5.961
+    angles 0 -180 0
+    scale 1.317
+   }
+   {
+    coords 10.318 -0.513 -12.147
+    scale 1.317
+   }
+   {
+    coords 9.861 -0.513 -10.388
+    angles 0 -180 0
+    scale 1.317
+   }
+  }
+  $grp GenericEntity : "{EEB26CC2CCC336F8}Prefabs/Structures/Infrastructure/Naval/Piers/Pier_Wood_Short_01.et" {
+   {
+    coords 17.835 1.547 -2.108
+    angles 90 -180 0.074
+    scale 0.92
+   }
+   {
+    coords 16.636 1.663 -9.865
+    angles 90 180 92.606
+    scale 0.92
+   }
+   {
+    coords 7.03 1.556 -11.585
+    angles 87.993 175.893 90
+   }
+   {
+    coords 13.727 1.539 -0.806
+    angles 90 0 -2.419
+    scale 0.92
+   }
+   {
+    coords 14.558 1.599 -13.059
+    angles 90 -92.052 -180
+   }
+   {
+    coords 8.813 1.509 -0.433
+    angles 90 -180 -178.884
+   }
+   {
+    coords 27.872 1.558 -1.543
+    angles 90 -180 -179.819
+    scale 0.92
+   }
+   {
+    coords 10.222 1.561 -15.092
+    angles 89.972 180 6.61
+    scale 0.92
+   }
+   {
+    coords 10.289 1.589 -16.233
+    angles 89.98 180 6.272
+    scale 0.92
+   }
+   {
+    coords 15.728 1.552 -4.726
+    angles 90 180 92.606
+    scale 0.92
+   }
+   {
+    coords 16.714 1.659 -15.122
+    angles 90 -180 -86.981
+    scale 0.92
+   }
+  }
+  SCR_DestructibleBuildingEntity : "{F1C938C66A3C3B3C}Prefabs/Industrial/kozel_stroy.et" {
+   coords 9.878 5.363 -12.23
+   angles 0 -60.1 0
+  }
+  SCR_DestructibleEntity : "{F260C6128FD34953}Prefabs/Structures/Walls/Pole/PoleFence_02/PoleFence_02_Pole.et" {
+   coords 10.782 11.059 -12.762
+   scale 0.576
+  }
+  SCR_DestructibleEntity : "{F80E87795A543758}Prefabs/Structures/Infrastructure/Piping/DieselPipe_01_section_valve_cnc.et" {
+   coords 5.897 1.847 -6.842
+   scale 1.46
+  }
+  SCR_DestructibleEntity : "{FD30015A0617911F}Prefabs/Structures/Infrastructure/Piping/DieselPipe_01_connector_low_high_cnc.et" {
+   coords 5.896 1.845 -12.236
+   angles 0 -180 0
+   scale 1.46
+  }
+ }
+}
