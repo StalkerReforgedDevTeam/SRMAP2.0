@@ -1,3 +1,25 @@
+$grp DecalEntity {
+ {
+  coords 1471.848 2.327 1770.097
+  angles -90 -180 -180
+  scale 0.111
+ }
+ {
+  coords 1471.822 2.351 1770.091
+  angles -90 180 105.864
+  scale 0.1
+ }
+ {
+  coords 1471.845 2.352 1770.1
+  angles -90 0 -42.502
+  scale 0.1
+ }
+ {
+  coords 1471.844 2.353 1770.104
+  angles -90 180 179.849
+  scale 0.1
+ }
+}
 $grp GenericEntity {
  {
   components {
@@ -1744,7 +1766,7 @@ $grp GenericEntity {
     UseCapacityCoefficient 0
     CapacityCoefficient 27.09
     MaxCumulativeVolume 2001
-    VirtualInventoryPrefab "{09D6A1C9543E4A95}Prefabs/Items/Core/Backpack_Base.et"
+    VirtualInventoryPrefab "{09D6A1C9543E4A95}Prefabs/Equipments/backpack/Backpack_Base.et"
     MultiSlots {
      MultiSlotConfiguration "{68A449C6901A882D}" {
       SlotTemplate InventoryStorageSlot Box {
@@ -2141,6 +2163,60 @@ $grp GenericEntity {
   coords 1470.104 294.051 1770.316
   angles 0.045 -0.984 -8.41
  }
+ {
+  coords 1467.963 294.199 1791.009
+  angles 0 -49.922 0
+ }
+}
+$grp LightEntity {
+ {
+  components {
+   StreetLampComponent "{646E398A400ABBD5}" {
+    "Emissive Color" 1 0.7011 0.3613 1
+   }
+  }
+  coords 1465.346 293.728 1792.341
+  angles -66.665 -180 180
+  Color 1 0.7011 0.3613 1
+  LV 3
+  Type Point
+ }
+ {
+  components {
+   StreetLampComponent "{646E398A400ABBD5}" {
+    "Emissive Color" 1 0.7011 0.3613 1
+   }
+  }
+  coords 1466.428 293.712 1793.623
+  angles -66.665 -180 180
+  Color 1 0.7011 0.3613 1
+  LV 3
+  Type Point
+ }
+ {
+  components {
+   StreetLampComponent "{646E398A400ABBD5}" {
+    "Emissive Color" 1 0.7011 0.3613 1
+   }
+  }
+  coords 1472.913 294.16 1769.649
+  angles -66.665 137.374 180
+  Color 1 0.7011 0.3613 1
+  LV 3
+  Type Point
+ }
+ {
+  components {
+   StreetLampComponent "{646E398A400ABBD5}" {
+    "Emissive Color" 1 0.7011 0.3613 1
+   }
+  }
+  coords 1471.68 297.211 1770.136
+  angles -66.665 141.349 -180
+  Color 1 0.7011 0.3613 1
+  LV 3
+  Type Point
+ }
 }
 PolylineShapeEntity {
  coords 1503.464 291.089 1547.523
@@ -2526,11 +2602,6 @@ GenericEntity : "{190101E6E60E7C47}Prefabs/Props/Civilian/BeerBottle_01_empty_gr
  coords 1469.449 295.795 1768.36
  angles 0 -16.364 90
 }
-DecalEntity : "{19855E1BFBC4ABEE}Prefabs/Method/Decals/Blood/Blood_Small_01.et" {
- coords 1471.848 2.327 1770.097
- angles -90 -180 -180
- scale 0.111
-}
 $grp GenericEntity : "{1AB7A2C69A30391D}Prefabs/Props/Furniture/CoatRack_01.et" {
  {
   coords 1475.049 291.969 1770.473
@@ -2717,6 +2788,21 @@ GenericEntity : "{3619812B192CCAE9}Prefabs/Props/Core/Wreck_Base.et" {
     coords 2.286 1.64 6.406
     angles 0 -6.679 0
    }
+   {
+    coords -3.367 2.554 5.67
+    angles 0 91.053 0
+   }
+   {
+    coords 2.281 2.634 1.22
+    scale 0.8
+   }
+   {
+    coords -3.137 1.859 4.365
+    angles 0 43.725 0
+   }
+   {
+    coords -0.871 1.949 1.279
+   }
   }
   GenericEntity : "{0041BC7A996A7557}Prefabs/Posuda/posuda_9.et" {
    coords -2.428 1.577 6.567
@@ -2801,10 +2887,6 @@ GenericEntity : "{3619812B192CCAE9}Prefabs/Props/Core/Wreck_Base.et" {
     angles 0 -67.816 0
    }
   }
-  GenericEntity : "{4EDB6FB0719D9E72}Prefabs/DONT_USE/PaintingBig_01_V10_d.et" {
-   coords -3.367 2.554 5.67
-   angles 0 91.053 0
-  }
   GameEntity : "{5E18F5832C69F8A9}Prefabs/Props/Military/Camps/Lamp_Interactive.et" {
    coords -3.018 1.577 6.44
    angles 0 143.144 0
@@ -2869,11 +2951,6 @@ GenericEntity : "{3619812B192CCAE9}Prefabs/Props/Core/Wreck_Base.et" {
    coords -2.378 0.562 5.787
    angles 0 -72.024 0
   }
-  GenericEntity : "{C1A6ED8F74A982CD}Prefabs/DONT_USE/PaintingBig_01_V2_d.et" {
-   coords 2.281 2.634 1.22
-   angles 0 0 0
-   scale 0.8
-  }
   GenericEntity : "{C53B1C183021509D}Prefabs/Electric/radio_ON.et" {
    coords -3.142 1.577 4.944
    angles 0 52.73 0
@@ -2932,17 +3009,9 @@ GenericEntity : "{3619812B192CCAE9}Prefabs/Props/Core/Wreck_Base.et" {
    coords 1.39 0.562 1.451
    angles 0 -54.555 0
   }
-  GenericEntity : "{E69BE8E11A5FE6A1}Prefabs/DONT_USE/TikTak_01.et" {
-   coords -3.137 1.859 4.365
-   angles 0 43.725 0
-  }
   GenericEntity : "{E9D9FE7423C3C519}Prefabs/shelfs/shkaf_4.et" {
    coords -0.02 0.562 1.713
    angles 0 -90 0
-  }
-  GenericEntity : "{F32D63DF37DC1DE1}Prefabs/DONT_USE/Aptechka_01.et" {
-   coords -0.871 1.949 1.279
-   angles 0 0 0
   }
   GenericEntity : "{F737777FF0A566D5}Prefabs/Props/Commercial/CabinetCardFile_01/CabinetCardFile_01_Base.et" {
    coords -3.116 0.562 4.394
@@ -3200,7 +3269,7 @@ GenericEntity : "{6E3320C3C37CAFE5}Prefabs/Props/Garbage/Cardboard/Cardboard_Pil
  angles 0 -37.585 0
  scale 0.4
 }
-GenericEntity : "{7030822F7A54F479}Prefabs/LOOT_BOX/base/backpacks/CrateWooden_01_base.et" {
+GenericEntity : "{7030822F7A54F479}Prefabs/Props/Crates/CrateWooden_01_base.et" {
  coords 1467.41 290.898 1766.375
  angles -3.082 90.386 -7.135
  scale 0.818
@@ -3361,10 +3430,6 @@ GenericEntity : "{9FB5BAF37F56F052}Prefabs/Posuda/posuda_6.et" {
 GenericEntity : "{9FE49438E0414334}Prefabs/Props/Furniture/Sofa_01.et" {
  coords 1469.432 294.969 1770.341
  angles 0 85.445 0
-}
-GenericEntity : "{A01C264518B22417}Prefabs/Props/Civilian/Lamps/LampWall.et" {
- coords 1467.963 294.199 1791.009
- angles 0 -49.922 0
 }
 GenericEntity : "{A052E25F93E52CDB}Prefabs/Props/Civilian/Typewriter_01/Typewriter_01_orange.et" {
  coords 1473.882 295.842 1771.317
@@ -3769,23 +3834,6 @@ GenericEntity : "{A7440CFAE4CD495B}Prefabs/Props/Garbage/Cardboard/Cardboard_bas
  angles 0 67.196 0
  scale 0.39
 }
-$grp DecalEntity : "{A7E35F889C0C7D4B}Prefabs/Method/Decals/Blood/Blood_Drops_01.et" {
- {
-  coords 1471.822 2.351 1770.091
-  angles -90 180 105.864
-  scale 0.1
- }
- {
-  coords 1471.845 2.352 1770.1
-  angles -90 0 -42.502
-  scale 0.1
- }
- {
-  coords 1471.844 2.353 1770.104
-  angles -90 180 179.849
-  scale 0.1
- }
-}
 Tree : "{A9BA8D5D4BF4F0C4}Prefabs/Vegetation/Plant/Hedera_Helix/p_hedera_helix_corner_02_aut.et" {
  coords 1471.885 8.817 1766.836
  angles -44.007 91.7 -93.019
@@ -4024,56 +4072,6 @@ GenericEntity : "{E5DDF083958FE23C}Prefabs/Posuda/posuda_8.et" {
 GenericEntity : "{E7FB58DA735DB7A0}Prefabs/Props/Garbage/Cardboard/Cardboard_Pile_06.et" {
  coords 1467.421 291.717 1794.156
  angles 0 -52.552 0
-}
-$grp LightEntity : "{E9781E0F4024EC15}Prefabs/Props/Civilian/Lamps/Lamp Light Entity 5 LV.et" {
- {
-  components {
-   StreetLampComponent "{646E398A400ABBD5}" {
-    "Emissive Color" 1 0.7011 0.3613 1
-   }
-  }
-  coords 1465.346 293.728 1792.341
-  angles -66.665 -180 180
-  Color 1 0.7011 0.3613 1
-  LV 3
-  Type Point
- }
- {
-  components {
-   StreetLampComponent "{646E398A400ABBD5}" {
-    "Emissive Color" 1 0.7011 0.3613 1
-   }
-  }
-  coords 1466.428 293.712 1793.623
-  angles -66.665 -180 180
-  Color 1 0.7011 0.3613 1
-  LV 3
-  Type Point
- }
- {
-  components {
-   StreetLampComponent "{646E398A400ABBD5}" {
-    "Emissive Color" 1 0.7011 0.3613 1
-   }
-  }
-  coords 1472.913 294.16 1769.649
-  angles -66.665 137.374 180
-  Color 1 0.7011 0.3613 1
-  LV 3
-  Type Point
- }
- {
-  components {
-   StreetLampComponent "{646E398A400ABBD5}" {
-    "Emissive Color" 1 0.7011 0.3613 1
-   }
-  }
-  coords 1471.68 297.211 1770.136
-  angles -66.665 141.349 -180
-  Color 1 0.7011 0.3613 1
-  LV 3
-  Type Point
- }
 }
 GenericEntity : "{EA7DA9300CD08B21}Prefabs/Props/Military/DeskFlags_01/DeskFlags_01_USSR_SovietArmy.et" {
  coords 1467.231 292.623 1794.099

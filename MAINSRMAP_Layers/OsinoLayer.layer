@@ -1,3 +1,7 @@
+GenericEntity {
+ coords 5434.31 305.536 915.495
+ angles -19.941 171.18 84.56
+}
 GenericEntity : "{00437245037EE8E9}Prefabs/Posuda/posuda_10.et" {
  coords 5432.952 305.616 1005.313
  angles 0 0 0
@@ -251,10 +255,6 @@ GenericEntity : "{A2D73F8CCFB3FACF}Prefabs/Graffity/Graffiti_VIS_5.et" {
  coords 5430.217 305.975 916.473
  angles 0 -2.18 0
 }
-GenericEntity : "{A94046FA564AC8C4}Prefabs/Props/Civilian/AxeTool.et" {
- coords 5434.31 305.536 915.495
- angles -19.941 171.18 84.56
-}
 StaticModelEntity : "{AAF7982FB54D4F8F}Prefabs/Structures/Debris/Debris_HouseVillage/Debris_HouseVillage_Metal_Roof_v4.et" {
  coords 5440.873 304.454 997.629
 }
@@ -361,20 +361,17 @@ SCR_DestructibleBuildingEntity : "{D4EB34758DD68123}Prefabs/Industrial/builds/bi
  coords 5453.759 303.83 978.732
  angles 0 177.306 0
  {
-  GenericEntity armst_itm_bandage_68D54233CBAF789F {
-   ID "66607B73D028ADF1"
-  }
-  GenericEntity SP01_Radio_ANPRC68_68D54233CBAF7905 {
-   ID "66607B73D028AE14"
-  }
-  GenericEntity Compass_SY183_68D54233CBAF7F2B {
-   ID "66607B73D028ADC4"
-  }
-  GenericEntity PaperMap_01_folded_US_68D54233CBAF7C9C {
-   ID "66607B73D028ADEE"
-  }
-  GenericEntity Watch_Orlik38_Map_68D54233CBAF7DE9 {
-   ID "66607B73D028AE04"
+  $grp GenericEntity {
+   armst_itm_bandage_68D54233CBAF789F {
+   }
+   SP01_Radio_ANPRC68_68D54233CBAF7905 {
+   }
+   Compass_SY183_68D54233CBAF7F2B {
+   }
+   PaperMap_01_folded_US_68D54233CBAF7C9C {
+   }
+   Watch_Orlik38_Map_68D54233CBAF7DE9 {
+   }
   }
  }
 }

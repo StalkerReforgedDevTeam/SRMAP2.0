@@ -9168,22 +9168,6 @@ $grp GenericEntity : "{1112756E8A13445B}Prefabs/Props/Industrial/Pallets/Pallet_
   angles 0 -152.833 0
  }
  {
-  coords 4139.482 309.471 682.598
-  angles -0.919 40.147 0.396
- }
- {
-  coords 4138.815 309.49 681.469
-  angles 0.821 -151.41 -0.572
- }
- {
-  coords 4146.131 309.452 704.031
-  angles 0 8.289 0
- }
- {
-  coords 4146.161 309.452 702.721
-  angles 0 176.734 0
- }
- {
   coords 4197.016 311.069 669.665
   angles -1.276 18.185 -0.419
  }
@@ -11341,10 +11325,6 @@ $grp GenericEntity : "{15351F20511409FB}Prefabs/shelves/shelves_1.et" {
  }
 }
 $grp GenericEntity : "{157E18D526C3A7E6}Prefabs/Compositions/Misc/SubCompositions/CrateWooden_Stacked_02.et" {
- {
-  coords 4140.111 309.452 684.325
-  angles 0 -49.802 0
- }
  {
   coords 3310.952 308.577 1318.408
   angles 0 36.611 0
@@ -22284,57 +22264,18 @@ $grp GenericEntity : "{26EA702845762443}Prefabs/Staff/box_wooden_big.et" {
  {
   coords 4086.399 299.256 439.651
   angles 1.311 0.205 9.168
-  {
-   GenericEntity {
-    ID "62CEFCCE5069C27B"
-    coords -0.282 0.331 -0.012
-    angles -23.849 0 0
-   }
-  }
  }
  {
   coords 4086.864 299.155 438.417
   angles -8.946 93.638 0.763
-  {
-   GenericEntity {
-    ID "62CEFCCE5069C27B"
-    coords -0.282 0.331 -0.012
-    angles 44.072 -180 180
-   }
-  }
  }
  {
   coords 4086.584 299.309 440.209
   angles 7.452 46.16 19.735
-  {
-   GenericEntity {
-    ID "62CEFCCE5069C27B"
-    coords -0.282 0.331 -0.012
-    angles 48.867 180 180
-   }
-  }
  }
  {
   coords 4151.646 309.452 689.906
   angles 0 93.638 0
-  {
-   GenericEntity {
-    ID "62CEFCCE5069C27B"
-    coords -0.282 0.331 -0.012
-    angles 44.072 -180 180
-   }
-  }
- }
- {
-  coords 4152.334 309.452 689.899
-  angles 0 0.205 0
-  {
-   GenericEntity {
-    ID "62CEFCCE5069C27B"
-    coords -0.282 0.331 -0.012
-    angles -23.849 0 0
-   }
-  }
  }
  {
   coords 3658.642 300.916 1851.17
@@ -37771,10 +37712,6 @@ $grp GenericEntity : "{30C6F95E34930EA5}Prefabs/Industrial/undeground/basement_r
   angles 0 160.521 0
  }
  {
-  coords 4167.04 309.3 691.905
-  angles 0 -49.883 0
- }
- {
   coords 3957.814 300.796 2099.969
   angles 0 -2.908 0
  }
@@ -37852,13 +37789,6 @@ $grp GenericEntity : "{30C6F95E34930EA5}Prefabs/Industrial/undeground/basement_r
  {
   coords 5037.566 302.804 2257.569
   angles 0 -130.98 0
-  {
-   GenericEntity {
-    ID "632CADFB15DDEEEE"
-    coords 20.499 -3.8 1.496
-    angles 0 85.892 0
-   }
-  }
  }
 }
 GenericEntity : "{31151148C36F87DA}Prefabs/Structures/Signs/Directions/SignDirection_Cain_01/SignDirection_02_Cain_04_2.et" {
@@ -40473,10 +40403,6 @@ $grp GenericEntity : "{342E852E9A1847EA}Prefabs/Props/Industrial/Repair/VehicleG
   angles -0.362 35.958 -0.263
  }
  {
-  coords 4145.417 309.452 701.447
-  angles 0 -161.395 0
- }
- {
   coords 4141.147 309.452 699.861
   angles 0 127.765 0
  }
@@ -42194,10 +42120,6 @@ $grp GenericEntity : "{36E65E74067C13F1}Prefabs/Props/Industrial/Pallets/MarsBox
  {
   coords 3544.717 302.478 1548.955
   angles 0.447 -92.741 -0.021
- }
- {
-  coords 4144.83 309.452 705.08
-  angles 0 132.925 0
  }
  {
   coords 4287.915 300.758 549.149
@@ -44257,15 +44179,9 @@ $grp GenericEntity : "{3B19CA49C71B8D33}Prefabs/Props/Military/Sandbags/Dst/Sand
   angles 0 101.742 0
  }
 }
-$grp GenericEntity : "{3B2D8CB93F906062}Prefabs/Compositions/Misc/SubCompositions/Sandbag_round_Cluttered_USSR_01.et" {
- {
-  coords 4152.799 309.623 687.99
-  angles 0 -105.912 0
- }
- {
-  coords 4209.021 311.078 694.806
-  angles 0 47.797 0
- }
+GenericEntity : "{3B2D8CB93F906062}Prefabs/Compositions/Misc/SubCompositions/Sandbag_round_Cluttered_USSR_01.et" {
+ coords 4209.021 311.078 694.806
+ angles 0 47.797 0
 }
 $grp GenericEntity : "{3B6EFFC843EC9C0A}Prefabs/Vehicles/gaz66/armst_gaz66_wheels.et" {
  {
@@ -49385,10 +49301,6 @@ $grp GameEntity : "{44AF62DA8F5A8520}Prefabs/Method/Props/Camps/Fireplace_01_06.
   coords 3039.431 305.108 2806.525
   angles 0 -138.488 0
  }
-}
-SCR_DestructibleBuildingEntity : "{44B2776836744D69}Prefabs/Structures/Military/Bunkers/Bunker_01/Bunker_01_1fp.et" {
- coords 4135.633 0.105 684.667
- angles 0 -165.398 0
 }
 GenericEntity : "{44D06BE47D7E15C8}Prefabs/Compositions/Misc/SubCompositions/Furniture/Cabinet_Ashtray_US_01.et" {
  coords 4274.924 300.861 2361.939
@@ -77247,13 +77159,6 @@ $grp GameEntity : "{5EC10C92B8C82E69}Prefabs/Method/Props/Camps/Fireplace_Loiter
     ID "646CC3CB21B45C2E"
     coords 7.529 -0.034 -2.756
     angles -0.527 58.55 0.332
-    {
-     GenericEntity {
-      ID "62CEFCCE5069C27B"
-      coords -0.285 0 -0.012
-      angles 0 -151.185 0
-     }
-    }
    }
    GenericEntity {
     ID "646CC3CB84C53E1B"
@@ -77486,13 +77391,6 @@ $grp GameEntity : "{5EC10C92B8C82E69}Prefabs/Method/Props/Camps/Fireplace_Loiter
     ID "646CC3CB21B45C2E"
     coords 7.505 0.424 -2.709
     angles 2.477 58.483 -6.208
-    {
-     GenericEntity {
-      ID "62CEFCCE5069C27B"
-      coords -0.282 0 -0.012
-      angles 0 -177.791 0
-     }
-    }
    }
    GenericEntity {
     ID "646CC3CB84C53E1B"
@@ -109297,40 +109195,6 @@ $grp GameEntity : "{820839184AE86AC8}Prefabs/Method/Props/Camps/Fireplace_Loiter
  {
   coords 3466.838 300.115 1105.748
   angles -3.531 -115.365 -3.268
- }
- {
-  components {
-   BaseSlotComponent "{646B09B01EC3FD73}" {
-    Enabled 0
-   }
-   ActionsManagerComponent "{646B09B01EC3FD17}" {
-    Enabled 0
-   }
-  }
-  coords 4139.391 309.452 691.578
-  angles 0 87.413 0
-  {
-   GenericEntity {
-    ID "646CC3C1C1A13913"
-    coords 1.947 -0.951 3.312
-   }
-   GenericEntity {
-    ID "646CC3C1E995CAC5"
-    coords -8.404 0.012 4.909
-   }
-   GenericEntity {
-    ID "695EA1984F7138CF"
-    coords -0.913 -2.417 3.501
-   }
-   GenericEntity {
-    ID "695EA1984F7138FF"
-    coords 2.424 -1.775 4.855
-   }
-   GenericEntity {
-    ID "695EA1984F7138E8"
-    coords 1.815 -2.393 -1.514
-   }
-  }
  }
  {
   coords 3466.838 300.115 1105.748
@@ -141584,10 +141448,6 @@ $grp GenericEntity : "{B3283803059E2750}Prefabs/Props/Crates/CrateWooden_01_plai
   angles 2.457 -9.498 -8.775
  }
  {
-  coords 4154.531 309.452 690.492
-  angles 0 6.849 0
- }
- {
   coords 4351.611 309.938 513.895
   angles -7.943 -88.156 11.562
  }
@@ -147896,21 +147756,6 @@ $grp GenericEntity : "{BD302C3A6EBC19D9}Prefabs/Vehicles/zil131/armst_zil131_box
   angles 0 -96.637 0
  }
  {
-  coords 4169.42 309.75 704.838
-  angles 0 174.163 0
- }
- {
-  coords 4163.13 309.841 714.708
-  angles 0 -23.522 -2.175
-  {
-   GenericEntity {
-    ID "62CE6930B16402BA"
-    coords 0 0.765 3.553
-    angles 0 0 54.576
-   }
-  }
- }
- {
   coords 4187.571 311.192 675.786
   angles 1.003 113.548 0
  }
@@ -152998,10 +152843,6 @@ $grp GenericEntity : "{C7BE6D1395342D32}Prefabs/Props/Agriculture/WaterTank_01_v
  {
   coords 3815.853 306.702 403.564
   angles 0 170.941 0
- }
- {
-  coords 4146.858 309.452 706.133
-  angles 0 121.888 0
  }
  {
   coords 1256.532 297.733 1362.385
@@ -161331,10 +161172,6 @@ $grp GenericEntity : "{D697077FC4C48C24}Prefabs/Vehicles/zil131/armst_zil131_whe
   angles 0.15 109.596 -0.422
  }
  {
-  coords 4175.198 309.602 706.585
-  angles 1.703 103.209 -5.47
- }
- {
   coords 4199.649 311.183 677.438
   angles 0 71.225 0
  }
@@ -167127,10 +166964,6 @@ $grp GenericEntity : "{DA861447E6D426AE}Prefabs/Props/Industrial/Repair/VehicleG
   angles 0 -143.563 0
  }
  {
-  coords 4146.631 309.452 701.582
-  angles 0 -20.683 0
- }
- {
   coords 4201.955 310.998 680.234
   angles 0.444 97.119 0.056
  }
@@ -168797,14 +168630,6 @@ $grp GenericEntity : "{DB4F61D5F37432F7}Prefabs/Props/Military/Camps/PalletFuel_
  {
   coords 4166.495 309.424 687.269
   angles 0 33.665 0
- }
- {
-  coords 4140.389 309.476 680.511
-  angles -0.624 35.094 0.109
- }
- {
-  coords 4148.003 309.452 702.739
-  angles 0 3.249 0
  }
  {
   coords 4198.64 311.106 668.069
@@ -176035,10 +175860,6 @@ $grp GenericEntity : "{E4416C4C6938BEEE}Prefabs/Props/Crates/CrateWooden_02/Crat
 }
 $grp GenericEntity : "{E4A22C9C10769063}Prefabs/Vehicles/gaz71/BASE_gaz71.et" {
  {
-  coords 4159.54 309.452 697.435
-  angles 0 -2.471 0
- }
- {
   coords 3828.113 295.028 1461.412
   angles 24.35 140.953 -110.099
  }
@@ -176604,11 +176425,6 @@ $grp GenericEntity : "{E56F1B739B9792C4}Prefabs/Props/Civilian/Ashtray_01_Full_g
     }
     coords -1.205 -0.919 -1.146
     angles 0 -139.489 0
-    {
-     GenericEntity {
-      ID "59F6F571CE935301"
-     }
-    }
    }
    GenericEntity : "{172585DCA4F947FE}Prefabs/Props/Furniture/PhoneTable_01_khaki.et" {
     coords -0.916 -0.016 0.438
@@ -188233,10 +188049,6 @@ $grp SCR_DestructibleBuildingEntity : "{F63A37887670DEEE}Prefabs/Houses/villages
  }
 }
 $grp GenericEntity : "{F64448992B0D71C6}Prefabs/Compositions/Misc/SubCompositions/Sandbag_Cluttered_USSR_01.et" {
- {
-  coords 4152.865 309.452 690.319
-  angles 0 7.245 0
- }
  {
   coords 6127.939 307.998 1630.103
   angles 0 64.636 0

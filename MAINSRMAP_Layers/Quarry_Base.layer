@@ -1151,10 +1151,6 @@ GameEntity : "{92D3F8A8AE82E3E5}Prefabs/Method/Props/Camps/Fireplace_Loiters_01_
 $grp GenericEntity : "{935B1AB6F82CB88E}Prefabs/LOOT_BOX/base/garbarages/Loot_garbarages_barrel.et" {
  {
   components {
-   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
-    m_bSpawnInLowTier 1
-    m_bSpawnInMediumTier 1
-   }
    ActionsManagerComponent "{6190D137C5926215}" {
     additionalActions {
      ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
@@ -1167,10 +1163,6 @@ $grp GenericEntity : "{935B1AB6F82CB88E}Prefabs/LOOT_BOX/base/garbarages/Loot_ga
  }
  {
   components {
-   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
-    m_bSpawnInLowTier 1
-    m_bSpawnInMediumTier 1
-   }
    ActionsManagerComponent "{6190D137C5926215}" {
     additionalActions {
      ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
@@ -1196,7 +1188,7 @@ $grp SCR_DestructibleBuildingEntity : "{ACE8DF66DCD41EF5}Prefabs/Method/Structur
   angles 0 174.976 0
  }
 }
-$grp GenericEntity : "{B09D999506CDF092}Prefabs/Vehicles/dz-76/armst_veh_dz_76.et" {
+$grp SCR_DestructibleBuildingEntity : "{B09D999506CDF092}Prefabs/Vehicles/dz-76/armst_veh_dz_76.et" {
  {
   coords 4452.443 303.483 1742.185
   angles 0 117.221 0
@@ -1251,7 +1243,7 @@ $grp SCR_DestructibleBuildingEntity : "{CFFBF2762CF73C3C}Prefabs/Structures/Indu
   angles 0 160.4 0
  }
 }
-$grp GenericEntity : "{D3C9D19837B99FDF}Prefabs/Vehicles/eo_4121/armst_veh_eo_4121.et" {
+$grp SCR_DestructibleBuildingEntity : "{D3C9D19837B99FDF}Prefabs/Vehicles/eo_4121/armst_veh_eo_4121.et" {
  {
   coords 4549.458 312.47 1617.629
   angles -5.117 6.578 -2.383
@@ -1303,16 +1295,16 @@ SCR_DestructibleBuildingEntity : "{DA18BC3C9738C614}Prefabs/Industrial/builds/bi
  coords 4494.242 303.285 1775.188
  angles 0 -8.696 0
  {
-  GenericEntity armst_itm_key_gorkiy12_tonnel_667A834446647455 {
-   ID "6676605687639275"
-  }
-  GenericEntity {
-   ID "6676605687639242"
-   components {
-    ActionsManagerComponent "{6190D137C5926215}" {
-     additionalActions {
-      ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
-       m_iMaxItemsToSpawn 6
+  $grp GenericEntity {
+   armst_itm_key_gorkiy12_tonnel_667A834446647455 {
+   }
+   {
+    components {
+     ActionsManagerComponent "{6190D137C5926215}" {
+      additionalActions {
+       ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+        m_iMaxItemsToSpawn 6
+       }
       }
      }
     }

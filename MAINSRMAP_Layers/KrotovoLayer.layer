@@ -1,3 +1,35 @@
+$grp DecalEntity {
+ {
+  coords 6458.02 0.159 1228.224
+  angles -88.767 124.097 153.969
+  scale 3.7
+ }
+ {
+  coords 6458.791 0.186 1227.588
+  angles -88.767 124.097 -162.492
+  scale 3.7
+ }
+ {
+  coords 6459.694 0.164 1226.084
+  angles -87.477 -19.132 -11.876
+  scale 0.7
+ }
+ {
+  coords 6460.526 0.085 1223.781
+  angles -87.477 -19.132 42.845
+  scale 0.7
+ }
+ {
+  coords 6460.625 0.075 1223.073
+  angles -87.477 -19.132 -159.976
+  scale 1.8
+ }
+ {
+  coords 6446.881 -0.105 1211.92
+  angles -87.477 -19.132 -159.976
+  scale 2.8
+ }
+}
 $grp GenericEntity : "{013297BA01640EBA}Prefabs/Trash/Ammo/GarbageAmmunition_USSR_02.et" {
  {
   coords 6548.313 307.853 1265.08
@@ -101,43 +133,11 @@ $grp DecalEntity : "{3BD66CDD309673DB}Prefabs/Decals/Blood/BloodStain_Drops_01.e
 GenericEntity : "{3F0D0593590519DA}Prefabs/Props/Garbage/Tires/TirePile_01_medium.et" {
  coords 6551.845 308.879 1313.478
 }
-$grp DecalEntity : "{44BEF7B5E19C402B}Prefabs/Method/Decals/Blood/Blood_Wall_01.et" {
- {
-  coords 6458.02 0.159 1228.224
-  angles -88.767 124.097 153.969
-  scale 3.7
- }
- {
-  coords 6458.791 0.186 1227.588
-  angles -88.767 124.097 -162.492
-  scale 3.7
- }
- {
-  coords 6459.694 0.164 1226.084
-  angles -87.477 -19.132 -11.876
-  scale 0.7
- }
- {
-  coords 6460.526 0.085 1223.781
-  angles -87.477 -19.132 42.845
-  scale 0.7
- }
- {
-  coords 6460.625 0.075 1223.073
-  angles -87.477 -19.132 -159.976
-  scale 1.8
- }
- {
-  coords 6446.881 -0.105 1211.92
-  angles -87.477 -19.132 -159.976
-  scale 2.8
- }
-}
 GenericEntity : "{4BB4E6A204C93500}Prefabs/Vehicles/uaz452/armst_uaz452_open_wreck.et" {
  coords 6543.946 309.274 1324.365
  angles 0 8.64 0
 }
-GenericEntity : "{5987E1DF837BA755}Prefabs/Vehicles/btr70/armst_btr70.et" {
+SCR_DestructibleBuildingEntity : "{5987E1DF837BA755}Prefabs/Vehicles/btr70/armst_btr70.et" {
  coords 6528.676 308.647 1244.355
  angles 0 -145.262 0
 }
