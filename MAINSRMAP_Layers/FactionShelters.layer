@@ -127,6 +127,216 @@ $grp GenericEntity {
   angles -0.028 0.104 -15
   scale 5.168
  }
+ {
+  components {
+   MeshObject "{56F2C6D1431AD85A}" {
+    Materials {
+     MaterialAssignClass "{66D543544BFC550A}" {
+      SourceMaterial "ArsenalBox_01_Decal"
+      AssignedMaterial "{7D22666A955D5C03}Assets/Props/Military/AmmoBox/ArsenalBox_01/Data/ArsenalBox_01_Decal_USSR_general.emat"
+     }
+     MaterialAssignClass "{66D543544BFC550C}" {
+      SourceMaterial "ArsenalBox_01_MLOD"
+      AssignedMaterial "{65BCA117814EAB89}Assets/Props/Military/AmmoBox/ArsenalBox_01/Data/ArsenalBox_01_USSR_MLOD.emat"
+     }
+     MaterialAssignClass "{66D543544BFC550E}" {
+      SourceMaterial "explosive_0A0A9C1C7B189A8B"
+      AssignedMaterial "{8024926C8E4B04DA}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_Explosives_01_USSR.emat"
+     }
+     MaterialAssignClass "{66D543544BFDE78A}" {
+      SourceMaterial "tarp_EBFB69929B4DE0C6"
+      AssignedMaterial "{D52BEA62AA15AC65}Assets/Items/Equipment/Flashlights/Flashlight_Soviet_01/Data/Flashlight_Soviet_01_filters_red.emat"
+     }
+     MaterialAssignClass "{66D543544BFDE784}" {
+      SourceMaterial "weapon_box_6864083D30F4F63D"
+      AssignedMaterial "{7D2E831AFA5CF50D}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_Weapon_01_USSR.emat"
+     }
+    }
+   }
+   SCR_ArsenalComponent "{56F2C6D1431AD9AF}" {
+    m_eArsenalSaveType SAVING_DISABLED
+   }
+  }
+  coords 5639.861 302.225 34.823
+  angles 0 87.432 0
+  scale 0.7
+ }
+ {
+  coords 5615.641 302.222 42.051
+  angles 0 88.574 0
+ }
+ {
+  components {
+   MeshObject "{56F2C6D1431AD85A}" {
+    Materials {
+     MaterialAssignClass "{66D54357DDDA5F4A}" {
+      SourceMaterial "ArsenalBox_01_Decal"
+      AssignedMaterial "{7D22666A955D5C03}Assets/Props/Military/AmmoBox/ArsenalBox_01/Data/ArsenalBox_01_Decal_USSR_general.emat"
+     }
+     MaterialAssignClass "{66D54357DDDA5F44}" {
+      SourceMaterial "ArsenalBox_01_MLOD"
+      AssignedMaterial "{65BCA117814EAB89}Assets/Props/Military/AmmoBox/ArsenalBox_01/Data/ArsenalBox_01_USSR_MLOD.emat"
+     }
+     MaterialAssignClass "{66D54357DDDA5F45}" {
+      SourceMaterial "explosive_0A0A9C1C7B189A8B"
+      AssignedMaterial "{8024926C8E4B04DA}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_Explosives_01_USSR.emat"
+     }
+     MaterialAssignClass "{66D54357DDDA5F46}" {
+      SourceMaterial "tarp_EBFB69929B4DE0C6"
+      AssignedMaterial "{E66EF8E8FBE826DC}Assets/Props/Civilian/Notebook_01/Data/Notebook_01_MarbleBlack.emat"
+     }
+     MaterialAssignClass "{66D54357DDDA5F47}" {
+      SourceMaterial "weapon_box_6864083D30F4F63D"
+      AssignedMaterial "{7D2E831AFA5CF50D}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_Weapon_01_USSR.emat"
+     }
+    }
+   }
+   SCR_ArsenalComponent "{56F2C6D1431AD9AF}" {
+    m_eArsenalSaveType SAVING_DISABLED
+   }
+  }
+  coords 5639.586 302.221 37.229
+  angles 0 -92.535 0
+  scale 0.7
+ }
+ {
+  components {
+   MeshObject "{56F2C6D1431AD85A}" {
+    Materials {
+     MaterialAssignClass "{66D543550ED9CDB4}" {
+      SourceMaterial "ArsenalBox_01_Decal"
+      AssignedMaterial "{7D22666A955D5C03}Assets/Props/Military/AmmoBox/ArsenalBox_01/Data/ArsenalBox_01_Decal_USSR_general.emat"
+     }
+     MaterialAssignClass "{66D543550ED9CDAB}" {
+      SourceMaterial "ArsenalBox_01_MLOD"
+      AssignedMaterial "{65BCA117814EAB89}Assets/Props/Military/AmmoBox/ArsenalBox_01/Data/ArsenalBox_01_USSR_MLOD.emat"
+     }
+     MaterialAssignClass "{66D543550ED9CDAD}" {
+      SourceMaterial "explosive_0A0A9C1C7B189A8B"
+      AssignedMaterial "{8024926C8E4B04DA}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_Explosives_01_USSR.emat"
+     }
+     MaterialAssignClass "{66D543550ED9CDAE}" {
+      SourceMaterial "tarp_EBFB69929B4DE0C6"
+      AssignedMaterial "{DB18464A30F1D1D7}Assets/Characters/HeadGear/Hat_Hard_01/data/Hat_Hard_01_white.emat"
+     }
+     MaterialAssignClass "{66D543550ED9CDA0}" {
+      SourceMaterial "weapon_box_6864083D30F4F63D"
+      AssignedMaterial "{7D2E831AFA5CF50D}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_Weapon_01_USSR.emat"
+     }
+    }
+   }
+   SCR_ArsenalComponent "{56F2C6D1431AD9AF}" {
+    m_eArsenalSaveType SAVING_DISABLED
+   }
+   ActionsManagerComponent "{56F2C6D1431ADB12}" {
+    additionalActions {
+     SCR_SaveArsenalLoadout "{58EE8EA3E73F1F6A}" {
+      m_eFactionUsageCheck 3
+     }
+    }
+   }
+  }
+  coords 5636.566 302.193 34.958
+  angles 0 -93.617 0
+  scale 0.7
+ }
+ {
+  coords 5328.441 302.821 60.385
+  angles -1.581 160.518 -1.54
+ }
+ {
+  coords 5272.671 302.535 63.62
+  angles -1.726 154.826 -1.375
+ }
+ {
+  coords 5417.155 302.245 58.52
+  angles -2.028 -172.203 0.869
+ }
+ {
+  coords 5486.337 302.67 47.882
+  angles -1.939 177.931 1.054
+ }
+ {
+  coords 5076.587 302.606 58.743
+  angles 0.735 6.818 2.081
+ }
+ {
+  coords 5546.876 303.242 43.791
+  angles -1.939 179.775 1.054
+ }
+ {
+  coords 5615.525 302.222 38.727
+  angles 0 -93.065 0
+ }
+ {
+  components {
+   MeshObject "{56F2C6D1431AD85A}" {
+    Materials {
+     MaterialAssignClass "{66D543544F13D91F}" {
+      SourceMaterial "ArsenalBox_01_Decal"
+      AssignedMaterial "{7D22666A955D5C03}Assets/Props/Military/AmmoBox/ArsenalBox_01/Data/ArsenalBox_01_Decal_USSR_general.emat"
+     }
+     MaterialAssignClass "{66D543544F13D919}" {
+      SourceMaterial "ArsenalBox_01_MLOD"
+      AssignedMaterial "{65BCA117814EAB89}Assets/Props/Military/AmmoBox/ArsenalBox_01/Data/ArsenalBox_01_USSR_MLOD.emat"
+     }
+     MaterialAssignClass "{66D543544F13D91A}" {
+      SourceMaterial "explosive_0A0A9C1C7B189A8B"
+      AssignedMaterial "{8024926C8E4B04DA}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_Explosives_01_USSR.emat"
+     }
+     MaterialAssignClass "{66D543544F13D91B}" {
+      SourceMaterial "tarp_EBFB69929B4DE0C6"
+      AssignedMaterial "{0D3A8CFC142903DE}Assets/Items/Equipment/Flashlights/Flashlight_Soviet_01/Data/Flashlight_Soviet_01_filters_Green.emat"
+     }
+     MaterialAssignClass "{66D543544F13D914}" {
+      SourceMaterial "weapon_box_6864083D30F4F63D"
+      AssignedMaterial "{7D2E831AFA5CF50D}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_Weapon_01_USSR.emat"
+     }
+    }
+   }
+   SCR_ArsenalComponent "{56F2C6D1431AD9AF}" {
+    m_eArsenalSaveType SAVING_DISABLED
+   }
+  }
+  coords 5636.349 302.204 42.4
+  angles 0 -92.136 0
+  scale 0.7
+ }
+ {
+  components {
+   MeshObject "{56F2C6D1431AD85A}" {
+    Materials {
+     MaterialAssignClass "{66D54357DDDA5F4A}" {
+      SourceMaterial "ArsenalBox_01_Decal"
+      AssignedMaterial "{7D22666A955D5C03}Assets/Props/Military/AmmoBox/ArsenalBox_01/Data/ArsenalBox_01_Decal_USSR_general.emat"
+     }
+     MaterialAssignClass "{66D54357DDDA5F44}" {
+      SourceMaterial "ArsenalBox_01_MLOD"
+      AssignedMaterial "{65BCA117814EAB89}Assets/Props/Military/AmmoBox/ArsenalBox_01/Data/ArsenalBox_01_USSR_MLOD.emat"
+     }
+     MaterialAssignClass "{66D54357DDDA5F45}" {
+      SourceMaterial "explosive_0A0A9C1C7B189A8B"
+      AssignedMaterial "{8024926C8E4B04DA}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_Explosives_01_USSR.emat"
+     }
+     MaterialAssignClass "{66D54357DDDA5F46}" {
+      SourceMaterial "tarp_EBFB69929B4DE0C6"
+      AssignedMaterial "{F7E09898BB31287A}Assets/Props/Military/Furniture/USSR/Data/TableMilitary_USSR_02_cabinet.emat"
+     }
+     MaterialAssignClass "{66D54357DDDA5F47}" {
+      SourceMaterial "weapon_box_6864083D30F4F63D"
+      AssignedMaterial "{7D2E831AFA5CF50D}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_Weapon_01_USSR.emat"
+     }
+    }
+   }
+  }
+  coords 5639.808 302.194 39.784
+  angles 0 89.374 0
+  scale 0.7
+ }
+ {
+  coords 5615.655 302.222 35.714
+  angles 0 -93.769 0
+ }
 }
 $grp LightEntity {
  LIGHT_FLUO_SPOT_60 {
@@ -417,316 +627,6 @@ $grp SCR_DestructibleBuildingEntity : "{05AF4DA50A1ABC83}Prefabs/Structures/Mili
    }
   }
  }
- {
-  coords 4931.302 302.525 34.513
-  {
-   EnvironmentProbeEntity {
-    ID "5E6CB17BC9B37AA3"
-    coords 1.873 0.3 5.719
-   }
-   GenericEntity {
-    ID "5B0F0E3B51F834C2"
-    {
-     GenericEntity {
-      ID "59F6F571CE935301"
-      coords 0 -16.377 0
-     }
-    }
-   }
-   GenericEntity {
-    ID "5B0F0E3B51FA1056"
-    {
-     GenericEntity {
-      ID "59F6F571CF46EAA9"
-      coords 0 -4.633 0
-     }
-    }
-   }
-   GenericEntity {
-    ID "5B0F0E3B51F83AEE"
-    {
-     GenericEntity {
-      ID "59F6E1B5BF334341"
-      coords 2.607 0 0
-     }
-    }
-   }
-   GenericEntity {
-    ID "5B0F0E3B51F83424"
-    {
-     GenericEntity {
-      ID "59F6E1B5B2CE37CB"
-      coords 0 -96.38 0
-     }
-    }
-   }
-   GameEnvironmentProbeEntity : "{900726DB82FD2EAC}Prefabs/Structures/Military/Bunkers/AirfieldBunker_E_01/Probe_AirfieldBunker_E_01.et" {
-    coords 0 0 0
-   }
-  }
- }
- {
-  coords 4878.166 302.43 36.083
-  {
-   EnvironmentProbeEntity {
-    ID "5E6CB17BC9B37AA3"
-    coords 1.873 0.3 5.719
-   }
-   GenericEntity {
-    ID "5B0F0E3B51F834C2"
-    {
-     GenericEntity {
-      ID "59F6F571CE935301"
-      coords 0 -16.377 0
-     }
-    }
-   }
-   GenericEntity {
-    ID "5B0F0E3B51FA1056"
-    {
-     GenericEntity {
-      ID "59F6F571CF46EAA9"
-      coords 0 -4.633 0
-     }
-    }
-   }
-   GenericEntity {
-    ID "5B0F0E3B51F83AEE"
-    {
-     GenericEntity {
-      ID "59F6E1B5BF334341"
-      coords 2.607 0 0
-     }
-    }
-   }
-   GenericEntity {
-    ID "5B0F0E3B51F83424"
-    {
-     GenericEntity {
-      ID "59F6E1B5B2CE37CB"
-      coords 0 -96.38 0
-     }
-    }
-   }
-   GameEnvironmentProbeEntity : "{900726DB82FD2EAC}Prefabs/Structures/Military/Bunkers/AirfieldBunker_E_01/Probe_AirfieldBunker_E_01.et" {
-    coords 0 0 0
-   }
-  }
- }
- {
-  coords 4830.491 302.543 41.274
-  {
-   EnvironmentProbeEntity {
-    ID "5E6CB17BC9B37AA3"
-    coords 1.873 0.3 5.719
-   }
-   GenericEntity {
-    ID "5B0F0E3B51F834C2"
-    {
-     GenericEntity {
-      ID "59F6F571CE935301"
-      coords 0 -16.377 0
-     }
-    }
-   }
-   GenericEntity {
-    ID "5B0F0E3B51FA1056"
-    {
-     GenericEntity {
-      ID "59F6F571CF46EAA9"
-      coords 0 -4.633 0
-     }
-    }
-   }
-   GenericEntity {
-    ID "5B0F0E3B51F83AEE"
-    {
-     GenericEntity {
-      ID "59F6E1B5BF334341"
-      coords 2.607 0 0
-     }
-    }
-   }
-   GenericEntity {
-    ID "5B0F0E3B51F83424"
-    {
-     GenericEntity {
-      ID "59F6E1B5B2CE37CB"
-      coords 0 -96.38 0
-     }
-    }
-   }
-   GameEnvironmentProbeEntity : "{900726DB82FD2EAC}Prefabs/Structures/Military/Bunkers/AirfieldBunker_E_01/Probe_AirfieldBunker_E_01.et" {
-    coords 0 0 0
-   }
-  }
- }
- BunkerShard {
-  coords 4771.233 302.543 41.274
-  {
-   EnvironmentProbeEntity {
-    ID "5E6CB17BC9B37AA3"
-    coords 1.873 0.3 5.719
-   }
-   GenericEntity {
-    ID "5B0F0E3B51F834C2"
-    {
-     GenericEntity {
-      ID "59F6F571CE935301"
-      coords 0 -16.377 0
-     }
-    }
-   }
-   GenericEntity {
-    ID "5B0F0E3B51FA1056"
-    {
-     GenericEntity {
-      ID "59F6F571CF46EAA9"
-      coords 0 -4.633 0
-     }
-    }
-   }
-   GenericEntity {
-    ID "5B0F0E3B51F83AEE"
-    {
-     GenericEntity {
-      ID "59F6E1B5BF334341"
-      coords 2.607 0 0
-     }
-    }
-   }
-   GenericEntity {
-    ID "5B0F0E3B51F83424"
-    {
-     GenericEntity {
-      ID "59F6E1B5B2CE37CB"
-      coords 0 -96.38 0
-     }
-    }
-   }
-   GenericEntity ShardBunkerTeleportPoint {
-    coords 4.277 -1.02 5.356
-    angles 0 90 0
-   }
-   $grp LightEntity {
-    LIGHT_FLUO_SPOT_6 {
-     coords 2.426 2.538 5.48
-     angles -90 138.816 -180
-     Color 1 0.7255 0.3412 1
-     LV 6
-     ClipEV -10
-     Type Spot
-     Radius 5
-     NearPlane 0.7
-     SpotAngle 155
-     DistanceAttenuation 0.1
-     Visualization Disabled
-     LensFlareIndex 1
-     LensFlareScale 1.18
-    }
-    LIGHT_FLUO_SPOT_12 {
-     coords 4.752 2.538 5.488
-     angles -90 138.816 -180
-     Color 1 0.7255 0.3412 1
-     LV 6
-     ClipEV -10
-     Type Spot
-     Radius 5
-     NearPlane 0.7
-     SpotAngle 155
-     DistanceAttenuation 0.1
-     Visualization Disabled
-     LensFlareIndex 1
-     LensFlareScale 1.18
-    }
-    LIGHT_FLUO_SPOT_19 {
-     coords 7.142 2.54 5.489
-     angles -90 138.816 -180
-     Color 1 0.7255 0.3412 1
-     LV 6
-     ClipEV -10
-     Type Spot
-     Radius 5
-     NearPlane 0.7
-     SpotAngle 155
-     DistanceAttenuation 0.1
-     Visualization Disabled
-     LensFlareIndex 1
-     LensFlareScale 1.18
-    }
-   }
-   GenericEntity TPDoor : "{2E2351CD5B452FD6}Prefabs/Teleport/TELEPORT_DOOR.et" {
-    components {
-     ActionsManagerComponent "{657E853A83CE2D0D}" {
-      ActionContexts {
-       UserActionContext "{66296A5664425E92}" {
-        UIInfo UIInfo "{66296A561B801DF2}" {
-        }
-        ContextName "Default"
-        Position PointInfo "{66296A5608BC9454}" {
-         Offset 0.4756 0.9199 0
-        }
-        Radius 0.81
-       }
-      }
-      additionalActions {
-       ARMST_TELEPORT_ACTIONS "{66296A569920C82F}" {
-        ParentContextList {
-         "Default"
-        }
-        m_sTeleportActionName "Shard Base"
-        m_sTeleportTarget "ShardTeleportPoint"
-        m_PrefabToSpawn "{CFBE5282A6098D90}Prefabs/Teleport/Teleport_light.et"
-        m_fTeleportDelay 2
-        m_fTeleportRadius 3
-       }
-      }
-     }
-     RplComponent "{66296A59D6BB86FC}" {
-     }
-    }
-    coords 1.185 -1.02 4.969
-    angles 0 -90.562 0
-   }
-   GameEnvironmentProbeEntity : "{900726DB82FD2EAC}Prefabs/Structures/Military/Bunkers/AirfieldBunker_E_01/Probe_AirfieldBunker_E_01.et" {
-    coords 0 0 0
-   }
-  }
- }
-}
-GenericEntity : "{0B47366F8FBBAA29}Prefabs/Props/Military/Compositions/USSR/ArsenalBox_DUTY.et" {
- components {
-  MeshObject "{56F2C6D1431AD85A}" {
-   Materials {
-    MaterialAssignClass "{66D543544BFC550A}" {
-     SourceMaterial "ArsenalBox_01_Decal"
-     AssignedMaterial "{7D22666A955D5C03}Assets/Props/Military/AmmoBox/ArsenalBox_01/Data/ArsenalBox_01_Decal_USSR_general.emat"
-    }
-    MaterialAssignClass "{66D543544BFC550C}" {
-     SourceMaterial "ArsenalBox_01_MLOD"
-     AssignedMaterial "{65BCA117814EAB89}Assets/Props/Military/AmmoBox/ArsenalBox_01/Data/ArsenalBox_01_USSR_MLOD.emat"
-    }
-    MaterialAssignClass "{66D543544BFC550E}" {
-     SourceMaterial "explosive_0A0A9C1C7B189A8B"
-     AssignedMaterial "{8024926C8E4B04DA}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_Explosives_01_USSR.emat"
-    }
-    MaterialAssignClass "{66D543544BFDE78A}" {
-     SourceMaterial "tarp_EBFB69929B4DE0C6"
-     AssignedMaterial "{D52BEA62AA15AC65}Assets/Items/Equipment/Flashlights/Flashlight_Soviet_01/Data/Flashlight_Soviet_01_filters_red.emat"
-    }
-    MaterialAssignClass "{66D543544BFDE784}" {
-     SourceMaterial "weapon_box_6864083D30F4F63D"
-     AssignedMaterial "{7D2E831AFA5CF50D}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_Weapon_01_USSR.emat"
-    }
-   }
-  }
-  SCR_ArsenalComponent "{56F2C6D1431AD9AF}" {
-   m_eArsenalSaveType SAVING_DISABLED
-  }
- }
- coords 5639.861 302.225 34.823
- angles 0 87.432 0
- scale 0.7
 }
 $grp GenericEntity : "{1A1020205E2B1710}Prefabs/Props/Military/Furniture/TableMilitary_USSR_01.et" {
  {
@@ -750,44 +650,6 @@ $grp GenericEntity : "{1A1020205E2B1710}Prefabs/Props/Military/Furniture/TableMi
   angles 0 -179.163 0
  }
 }
-GenericEntity : "{1BBCB276FBEBCEC8}Prefabs/Props/Military/Compositions/USSR/ArsenalBox_SHARD.et" {
- coords 5615.641 302.222 42.051
- angles 0 88.574 0
-}
-GenericEntity : "{252BA65F8F02ACBF}Prefabs/Props/Military/Compositions/USSR/ArsenalBox_BANDIT.et" {
- components {
-  MeshObject "{56F2C6D1431AD85A}" {
-   Materials {
-    MaterialAssignClass "{66D54357DDDA5F4A}" {
-     SourceMaterial "ArsenalBox_01_Decal"
-     AssignedMaterial "{7D22666A955D5C03}Assets/Props/Military/AmmoBox/ArsenalBox_01/Data/ArsenalBox_01_Decal_USSR_general.emat"
-    }
-    MaterialAssignClass "{66D54357DDDA5F44}" {
-     SourceMaterial "ArsenalBox_01_MLOD"
-     AssignedMaterial "{65BCA117814EAB89}Assets/Props/Military/AmmoBox/ArsenalBox_01/Data/ArsenalBox_01_USSR_MLOD.emat"
-    }
-    MaterialAssignClass "{66D54357DDDA5F45}" {
-     SourceMaterial "explosive_0A0A9C1C7B189A8B"
-     AssignedMaterial "{8024926C8E4B04DA}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_Explosives_01_USSR.emat"
-    }
-    MaterialAssignClass "{66D54357DDDA5F46}" {
-     SourceMaterial "tarp_EBFB69929B4DE0C6"
-     AssignedMaterial "{E66EF8E8FBE826DC}Assets/Props/Civilian/Notebook_01/Data/Notebook_01_MarbleBlack.emat"
-    }
-    MaterialAssignClass "{66D54357DDDA5F47}" {
-     SourceMaterial "weapon_box_6864083D30F4F63D"
-     AssignedMaterial "{7D2E831AFA5CF50D}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_Weapon_01_USSR.emat"
-    }
-   }
-  }
-  SCR_ArsenalComponent "{56F2C6D1431AD9AF}" {
-   m_eArsenalSaveType SAVING_DISABLED
-  }
- }
- coords 5639.586 302.221 37.229
- angles 0 -92.535 0
- scale 0.7
-}
 GenericEntity : "{45C675ED3CFBBEC5}Prefabs/Props/Military/Compositions/US/ArsenalBox_US.et" {
  coords 5633.138 302.222 37.527
  angles 0 90 0
@@ -795,47 +657,6 @@ GenericEntity : "{45C675ED3CFBBEC5}Prefabs/Props/Military/Compositions/US/Arsena
 GenericEntity : "{511C041EFC7BAE60}Prefabs/Props/Arsenal/ArsenalBox_STALKEr.et" {
  coords 5636.284 302.254 38.861
  scale 0.5
-}
-GenericEntity : "{5677D44B6EDC058D}Prefabs/Props/Military/Compositions/USSR/ArsenalBox_MONO.et" {
- components {
-  MeshObject "{56F2C6D1431AD85A}" {
-   Materials {
-    MaterialAssignClass "{66D543550ED9CDB4}" {
-     SourceMaterial "ArsenalBox_01_Decal"
-     AssignedMaterial "{7D22666A955D5C03}Assets/Props/Military/AmmoBox/ArsenalBox_01/Data/ArsenalBox_01_Decal_USSR_general.emat"
-    }
-    MaterialAssignClass "{66D543550ED9CDAB}" {
-     SourceMaterial "ArsenalBox_01_MLOD"
-     AssignedMaterial "{65BCA117814EAB89}Assets/Props/Military/AmmoBox/ArsenalBox_01/Data/ArsenalBox_01_USSR_MLOD.emat"
-    }
-    MaterialAssignClass "{66D543550ED9CDAD}" {
-     SourceMaterial "explosive_0A0A9C1C7B189A8B"
-     AssignedMaterial "{8024926C8E4B04DA}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_Explosives_01_USSR.emat"
-    }
-    MaterialAssignClass "{66D543550ED9CDAE}" {
-     SourceMaterial "tarp_EBFB69929B4DE0C6"
-     AssignedMaterial "{DB18464A30F1D1D7}Assets/Characters/HeadGear/Hat_Hard_01/data/Hat_Hard_01_white.emat"
-    }
-    MaterialAssignClass "{66D543550ED9CDA0}" {
-     SourceMaterial "weapon_box_6864083D30F4F63D"
-     AssignedMaterial "{7D2E831AFA5CF50D}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_Weapon_01_USSR.emat"
-    }
-   }
-  }
-  SCR_ArsenalComponent "{56F2C6D1431AD9AF}" {
-   m_eArsenalSaveType SAVING_DISABLED
-  }
-  ActionsManagerComponent "{56F2C6D1431ADB12}" {
-   additionalActions {
-    SCR_SaveArsenalLoadout "{58EE8EA3E73F1F6A}" {
-     m_eFactionUsageCheck 3
-    }
-   }
-  }
- }
- coords 5636.566 302.193 34.958
- angles 0 -93.617 0
- scale 0.7
 }
 $grp SCR_DestructibleBuildingEntity : "{7720B78DED8FAB50}Prefabs/Perimetr/wall_perimetr.et" {
  {
@@ -870,36 +691,6 @@ $grp SCR_DestructibleBuildingEntity : "{7720B78DED8FAB50}Prefabs/Perimetr/wall_p
   coords 5627.389 300.302 33.211
   angles 0 -0.525 0
  }
-}
-$grp GenericEntity : "{8703D964AC15EA53}PrefabsEditable/E_Identity_Selector.et" {
- {
-  coords 5328.441 302.821 60.385
-  angles -1.581 160.518 -1.54
- }
- {
-  coords 5272.671 302.535 63.62
-  angles -1.726 154.826 -1.375
- }
- {
-  coords 5417.155 302.245 58.52
-  angles -2.028 -172.203 0.869
- }
- {
-  coords 5486.337 302.67 47.882
-  angles -1.939 177.931 1.054
- }
- {
-  coords 5076.587 302.606 58.743
-  angles 0.735 6.818 2.081
- }
- {
-  coords 5546.876 303.242 43.791
-  angles -1.939 179.775 1.054
- }
-}
-GenericEntity : "{9BC1680450B0739C}Prefabs/Props/Military/Compositions/USSR/ArsenalBox_RESERVE.et" {
- coords 5615.525 302.222 38.727
- angles 0 -93.065 0
 }
 SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Building_Base.et" {
  components {
@@ -1299,40 +1090,6 @@ SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Buil
   }
  }
 }
-GenericEntity : "{AB7C01A5B2F98281}Prefabs/Props/Military/Compositions/USSR/ArsenalBox_FREEDOM.et" {
- components {
-  MeshObject "{56F2C6D1431AD85A}" {
-   Materials {
-    MaterialAssignClass "{66D543544F13D91F}" {
-     SourceMaterial "ArsenalBox_01_Decal"
-     AssignedMaterial "{7D22666A955D5C03}Assets/Props/Military/AmmoBox/ArsenalBox_01/Data/ArsenalBox_01_Decal_USSR_general.emat"
-    }
-    MaterialAssignClass "{66D543544F13D919}" {
-     SourceMaterial "ArsenalBox_01_MLOD"
-     AssignedMaterial "{65BCA117814EAB89}Assets/Props/Military/AmmoBox/ArsenalBox_01/Data/ArsenalBox_01_USSR_MLOD.emat"
-    }
-    MaterialAssignClass "{66D543544F13D91A}" {
-     SourceMaterial "explosive_0A0A9C1C7B189A8B"
-     AssignedMaterial "{8024926C8E4B04DA}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_Explosives_01_USSR.emat"
-    }
-    MaterialAssignClass "{66D543544F13D91B}" {
-     SourceMaterial "tarp_EBFB69929B4DE0C6"
-     AssignedMaterial "{0D3A8CFC142903DE}Assets/Items/Equipment/Flashlights/Flashlight_Soviet_01/Data/Flashlight_Soviet_01_filters_Green.emat"
-    }
-    MaterialAssignClass "{66D543544F13D914}" {
-     SourceMaterial "weapon_box_6864083D30F4F63D"
-     AssignedMaterial "{7D2E831AFA5CF50D}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_Weapon_01_USSR.emat"
-    }
-   }
-  }
-  SCR_ArsenalComponent "{56F2C6D1431AD9AF}" {
-   m_eArsenalSaveType SAVING_DISABLED
-  }
- }
- coords 5636.349 302.204 42.4
- angles 0 -92.136 0
- scale 0.7
-}
 GenericEntity : "{AD59EDEAA26CE792}Prefabs/Props/Military/Compositions/USSR/ArsenalBox_USSR.et" {
  coords 5633.406 302.222 42.104
  angles 0 -90 0
@@ -1340,41 +1097,6 @@ GenericEntity : "{AD59EDEAA26CE792}Prefabs/Props/Military/Compositions/USSR/Arse
 GenericEntity : "{B53B98CEA2D72735}Prefabs/Props/Military/Compositions/FIA/ArsenalBox_FIA.et" {
  coords 5633.049 302.222 35.238
  angles 0 90 0
-}
-GenericEntity : "{D8AE29ACE1733592}Prefabs/Props/Military/Compositions/USSR/ArsenalBox_SBU.et" {
- components {
-  MeshObject "{56F2C6D1431AD85A}" {
-   Materials {
-    MaterialAssignClass "{66D54357DDDA5F4A}" {
-     SourceMaterial "ArsenalBox_01_Decal"
-     AssignedMaterial "{7D22666A955D5C03}Assets/Props/Military/AmmoBox/ArsenalBox_01/Data/ArsenalBox_01_Decal_USSR_general.emat"
-    }
-    MaterialAssignClass "{66D54357DDDA5F44}" {
-     SourceMaterial "ArsenalBox_01_MLOD"
-     AssignedMaterial "{65BCA117814EAB89}Assets/Props/Military/AmmoBox/ArsenalBox_01/Data/ArsenalBox_01_USSR_MLOD.emat"
-    }
-    MaterialAssignClass "{66D54357DDDA5F45}" {
-     SourceMaterial "explosive_0A0A9C1C7B189A8B"
-     AssignedMaterial "{8024926C8E4B04DA}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_Explosives_01_USSR.emat"
-    }
-    MaterialAssignClass "{66D54357DDDA5F46}" {
-     SourceMaterial "tarp_EBFB69929B4DE0C6"
-     AssignedMaterial "{F7E09898BB31287A}Assets/Props/Military/Furniture/USSR/Data/TableMilitary_USSR_02_cabinet.emat"
-    }
-    MaterialAssignClass "{66D54357DDDA5F47}" {
-     SourceMaterial "weapon_box_6864083D30F4F63D"
-     AssignedMaterial "{7D2E831AFA5CF50D}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_Weapon_01_USSR.emat"
-    }
-   }
-  }
- }
- coords 5639.808 302.194 39.784
- angles 0 89.374 0
- scale 0.7
-}
-GenericEntity : "{E3EDC169901E2F88}Prefabs/Props/Military/Compositions/USSR/ArsenalBox_DOGMEN.et" {
- coords 5615.655 302.222 35.714
- angles 0 -93.769 0
 }
 GenericEntity : "{F542F974956C255F}Prefabs/Props/Military/Compositions/CIV/ArsenalBox_CIV.et" {
  coords 5633.249 302.222 39.954

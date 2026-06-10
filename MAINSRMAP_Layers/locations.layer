@@ -142249,25 +142249,6 @@ $grp SCR_DestructibleBuildingEntity : "{B1F1B1BEB21102A7}Prefabs/Structures/Indu
    }
   }
  }
- {
-  coords 4899.833 307.824 1669.155
-  angles 0 87.971 0
-  {
-   GenericEntity {
-    ID "57132DCB5DE81741"
-    {
-     GenericEntity {
-      ID "55547DC596BFE31F"
-      coords 18.051 -15.823 -1.825
-     }
-     GenericEntity {
-      ID "55547DC596BFE330"
-      coords -0.43 -16.441 17.111
-     }
-    }
-   }
-  }
- }
 }
 StaticModelEntity : "{B1F2670ED7A3B79D}Prefabs/Structures/Military/Fortifications/CoastalBattery_USSR_01/CoastalBattery_USSR_01.et" {
  coords 5965.584 297.204 1064.07
