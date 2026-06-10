@@ -1,0 +1,714 @@
+$grp GenericEntity {
+ {
+  components {
+   MeshObject "{6876F03DF1AA0C6E}" {
+    Object "{37EC4FF483A12229}Assets/Props/Military/MilitaryCrates/CrateStack_01/Dst/CrateStack_01_dst_1_debris_02.xob"
+   }
+  }
+  coords 6320.65 301.023 2796.059
+  angles 0 26.902 0
+ }
+ {
+  components {
+   MeshObject "{687715D9F9505A04}" {
+    Object "{E1972FBA9F5D4BBB}Assets/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE.xob"
+   }
+  }
+  coords 6327.746 301.744 2788.899
+  angles 1.054 -41.475 0.148
+ }
+}
+$grp GenericEntity : "{013297BA01640EB9}Prefabs/Props/Garbage/Military/Ammo/GarbageAmmunition_USSR_02.et" {
+ {
+  coords 6328.076 302.745 2783.874
+ }
+ {
+  coords 6322.256 300.452 2793.392
+ }
+}
+GenericEntity : "{024F0876D483835E}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/Dst/CrateStack_01_Dst_3_grey.et" {
+ coords 6321.133 300.452 2796.226
+ angles 0 11.524 0
+}
+GenericEntity : "{026714237FB820CB}Prefabs/Props/Garbage/Cardboard/Cardboard_Pile_07.et" {
+ coords 6326.869 300.452 2788.827
+ angles 0 59.037 0
+}
+GenericEntity : "{06363A95838DD8ED}Prefabs/beds/matrass_4.et" {
+ coords 6327.875 300.412 2787.977
+ angles 0 -55.689 0
+}
+GenericEntity : "{080E381B512E1B01}Prefabs/Props/Crates/CrateWooden_02/CrateWooden_02_1x15x3.et" {
+ coords 6325.7 301.149 2792.223
+ angles 0 47.64 90
+}
+$grp GenericEntity : "{1592EC23A583FB04}Prefabs/Props/Garbage/Generic/LitterInterior_01/Single/LitterInterior_01_vodka_V2.et" {
+ {
+  coords 6317.906 300.452 2793.517
+  angles -90 -180 -180
+ }
+ {
+  coords 6312.458 301.142 2790.593
+ }
+}
+GenericEntity : "{18F813A340960F21}PrefabLibrary/CainLibrary/Props/Garbage/ConcreteDebris_01_V4.et" {
+ coords 6330.51 300.452 2764.607
+ angles 0 -76.127 0
+}
+$grp GenericEntity : "{190101E6E60E7C47}Prefabs/Props/Civilian/BeerBottle_01_empty_green.et" {
+ {
+  coords 6312.588 301.142 2791.05
+ }
+ {
+  coords 6312.575 301.142 2790.944
+ }
+ {
+  coords 6312.418 301.142 2791.034
+ }
+ {
+  coords 6312.606 301.142 2790.824
+ }
+}
+GenericEntity : "{1AB7A2C69A30391D}Prefabs/Props/Furniture/CoatRack_01.et" {
+ coords 6314.665 300.634 2791.157
+ angles -44.928 79.741 88.294
+}
+GenericEntity : "{1CA1A9D19D7C8445}Prefabs/Props/Furniture/Rack_01_Short.et" {
+ coords 6318.145 300.452 2792.738
+ angles 90 115.934 -33.782
+ scale 0.76
+}
+DecalEntity : "{1DC3A792132D86CB}Prefabs/Decals/Blood/BloodStain_Large_02.et" {
+ coords 6322.323 0 2793.627
+ angles -90 -180 -180
+ scale 1.5
+}
+GenericEntity : "{1ED9E780B8829B78}Prefabs/Props/Furniture/Cupboard_01/Cupboard_01_A.et" {
+ coords 6312.731 301.012 2791.197
+ angles 0 -90 0
+}
+$grp GenericEntity : "{20759E1CA7F808BE}Prefabs/Props/Garbage/Military/Food/GarbageFoodMilitaryUS_01.et" {
+ {
+  coords 6326.095 300.452 2784.271
+ }
+ {
+  coords 6322.881 300.452 2791.497
+ }
+ {
+  coords 6314.229 300.452 2792.62
+ }
+ {
+  coords 6316.148 300.459 2792.476
+ }
+}
+GenericEntity : "{208A9B6682B63E4F}Prefabs/Structures/BuildingParts/Windows/Win_Bars_A/Win_Bars_A_130x182_B.et" {
+ coords 6312.482 300.722 2792.219
+ angles -90 -180 -180
+ scale 0.67
+}
+GenericEntity : "{22CAE0A2F3DFF712}Prefabs/Characters/Deads/armst_dead_coat.et" {
+ components {
+  BaseItemAnimationComponent "{6712E82B4C0E57EA}" {
+   StartNode "dead_4"
+  }
+ }
+ coords 6321.626 300.452 2793.966
+ angles 0 99.933 0
+}
+GenericEntity : "{2424EBB806A690D4}Prefabs/Props/Garbage/Medical/GarbageMedicalUS_02.et" {
+ coords 6319.709 300.452 2791.248
+}
+$grp GenericEntity : "{24F9FA667DE0B56E}Prefabs/Props/Military/Camps/BoxMRE_01.et" {
+ {
+  coords 6322.055 300.511 2795.829
+  angles 0 28.98 0
+ }
+ {
+  coords 6322.055 300.694 2795.829
+  angles 0 -17.605 0
+ }
+}
+GameEntity : "{2521D0D11FB543C7}PrefabsEditable/Auto/Props/Civilian/E_Fireplace_01.et" {
+ coords 6312.581 300.452 2792.17
+ angles 0 18.797 0
+ scale 0.927
+}
+GenericEntity : "{2E13D01A2CB8C2E7}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/EquipmentBoxStack_01_V5_base.et" {
+ coords 6317.782 300.452 2796.787
+ angles 0 -170.707 0
+}
+GenericEntity : "{2FB8B9906B742173}Prefabs/wood_bridges/wood_bridges_ladder.et" {
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Materials {
+    MaterialAssignClass "{6876F03FF6B80425}" {
+     SourceMaterial "Wooden_bridge"
+     AssignedMaterial "{8B68E760EA8B39A3}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_Bridge_Wood_01.emat"
+    }
+   }
+  }
+ }
+ coords 6326.043 300.452 2789.632
+ angles 0 41.042 0
+}
+$grp GenericEntity : "{32654927F2657E8A}Prefabs/Props/Forest/WoodPile/WoodLog_01_A.et" {
+ {
+  coords 6328.518 299.62 2785.526
+  angles -90 -180 -180
+ }
+ {
+  coords 6328.573 299.486 2786.12
+  angles 89.024 90 90
+ }
+}
+GenericEntity : "{326E60F7A7358EDA}Prefabs/Props/Crates/CrateWooden_01_blue.et" {
+ coords 6326.195 301.873 2791.584
+ angles 0 -61.431 0
+}
+$grp DecalEntity : "{32D707B931FD52FE}Prefabs/Decals/Blood/BloodStain_Wall_01.et" {
+ {
+  coords 6324.521 0.488 2787.349
+  angles -15 0 0
+  scale 0.8
+ }
+ {
+  coords 6324.111 0.101 2786.835
+  angles 32.914 111.124 -90
+  scale 0.8
+ }
+ {
+  coords 6327.582 0.243 2782.919
+  angles -3.431 180 -180
+  scale 0.8
+ }
+}
+$grp GenericEntity : "{36DE0ED6901438B2}Prefabs/Props/Garbage/Generic/LitterInterior_01/Single/LitterInterior_USSR_01_cup.et" {
+ {
+  coords 6318.422 300.549 2794.334
+  angles 0 0 -171.457
+ }
+ {
+  coords 6312.268 301.142 2790.991
+ }
+}
+$grp DecalEntity : "{3BD66CDD309673DB}Prefabs/Decals/Blood/BloodStain_Drops_01.et" {
+ {
+  coords 6326.821 1.326 2783.319
+  angles 6.785 -151.314 -180
+  scale 2
+ }
+ {
+  coords 6322.718 1.159 2793.765
+  angles 3.506 43.644 0
+  scale 2
+ }
+}
+$grp GenericEntity : "{3F23DA7ACAC0ED90}Prefabs/Props/Civilian/GlassBeer_01/GlassBeer_01.et" {
+ {
+  coords 6312.282 301.142 2790.528
+ }
+ {
+  coords 6312.127 301.009 2791.409
+  angles 0 -53.242 0
+ }
+}
+GenericEntity : "{3F68BA500FF209E6}Prefabs/beds/podushka.et" {
+ coords 6328.656 300.472 2787.561
+ angles 0 0 10.299
+}
+GenericEntity : "{3FD26066E47DD5AE}PrefabLibrary/DefaultLibrary/Props/Commercial/CrateWooden_01_plain.et" {
+ coords 6329.083 301.85 2785.159
+ angles -90 6.131 104.902
+}
+GenericEntity : "{4A4B245D7CAC341B}Prefabs/Props/Furniture/ChairOld_02.et" {
+ coords 6322.547 300.645 2787.606
+ angles 0 122.152 -88.569
+}
+SCR_DestructibleBuildingEntity : "{4E68FA4CAE8833F8}Prefabs/Structures/Infrastructure/Naval/Piers/Pier02 PlankBridge.et" {
+ components {
+  MeshObject "{64917863C24EB26E}" {
+   Materials {
+    MaterialAssignClass "{6876F03E5D1A9566}" {
+     SourceMaterial "Pier02Plankbridge_mat"
+     AssignedMaterial "{F1B661A5230E8A60}Assets/Structures/Cultural/Church/Church_01/Data/Church_01_Wood.emat"
+    }
+   }
+  }
+ }
+ coords 6323.283 302.441 2793.771
+ angles -4.582 -50.953 -0.191
+ scale 0.268
+}
+GameEntity : "{50E6A3845C9F20FD}Prefabs/Props/Military/Camps/LanternMilitary_US_01.et" {
+ coords 6329.749 302.745 2785.055
+}
+GenericEntity : "{518503DD978F3BDA}Prefabs/Characters/Deads/armst_dead_srev.et" {
+ components {
+  BaseItemAnimationComponent "{6712E82B4C0E57EA}" {
+   StartNode "dead_6"
+  }
+ }
+ coords 6323.388 300.452 2787.494
+ angles 0 113.639 0
+}
+GenericEntity : "{52A12ECB132C3E1F}Prefabs/Props/Furniture/TableKitchen_02/TableKitchen_02.et" {
+ coords 6323.531 300.892 2787.419
+ angles 86.695 -10.19 50.477
+}
+GenericEntity : "{52F4C6F1D59655CA}Prefabs/Props/Garbage/Generic/Junk_01/Junk_01_single_bathtub.et" {
+ coords 6301.549 300.046 2792.305
+ angles 0 0 -15.012
+}
+GenericEntity : "{530705FBB61026D2}Prefabs/Props/Garbage/Cardboard/Cardboard_Pile_03.et" {
+ coords 6315.328 300.452 2792.055
+}
+GenericEntity : "{530C3C02C09C6B68}Prefabs/Props/Furniture/CabinetMetal_01_Base.et" {
+ coords 6312.948 301.377 2789.281
+ angles -0.393 91.162 -90.258
+}
+GenericEntity : "{5C394A7F7EFC9F71}Prefabs/beds/krovat.et" {
+ coords 6318.125 300.452 2791.506
+ angles 0 -17.66 0
+}
+GenericEntity : "{5D12784AFD6B64B2}Prefabs/Props/Furniture/CabinetMetal_02_Base.et" {
+ coords 6315.022 300.452 2795.972
+ angles 0 175.928 0
+}
+GenericEntity : "{6005A2E4F98DC66F}Prefabs/Props/Garbage/Generic/LitterInterior_01/Single/LitterInterior_USSR_01_tincan_V3.et" {
+ coords 6327.731 301.352 2788.842
+}
+GenericEntity : "{63DA21D3BBFFE518}Prefabs/Props/Military/AmmoBoxes/FIA/EquipmentBoxWooden_Launcher_01_FIA.et" {
+ coords 6319.662 300.948 2790.375
+ angles 0 -43.174 71.473
+}
+GenericEntity : "{64879DACD4FF924B}PrefabLibrary/DefaultLibrary/Props/Civilian/BarrelMetal_01/BarrelMetal_01_blue.et" {
+ coords 6327.95 301.45 2782.463
+ angles 0 33.235 0
+}
+GenericEntity : "{679047EDE08DFD48}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/Dst/EquipmentBoxStack_01_V6_dst_02_USSR.et" {
+ coords 6322.919 300.452 2795.293
+ angles 0 141.618 0
+}
+GenericEntity : "{6D66A35ABDA08197}Prefabs/Props/Garbage/Military/Ammo/GarbageAmmunition_USSR_01.et" {
+ coords 6315.458 300.466 2795.007
+}
+GenericEntity : "{6E4573A4C194631F}Prefabs/Props/Military/RoadBlocks/Roadblock ConcreteBlock.et" {
+ coords 6329.424 0 2785.836
+ angles 0 79.948 0
+}
+GenericEntity : "{7030822F7A54F479}Prefabs/LOOT_BOX/base/backpacks/CrateWooden_01_base.et" {
+ coords 6326.342 303.102 2790.859
+ angles 0 128.415 -90
+}
+$grp DecalEntity : "{71979372AFE909E5}Prefabs/Decals/Blood/BloodStain_Large_01.et" {
+ {
+  coords 6324.064 0 2786.886
+  angles -90 -180 -180
+  scale 1.5
+ }
+ {
+  coords 6322.959 1.261 2793.432
+  angles -90 -180 -180
+  scale 0.24
+ }
+ {
+  coords 6322.959 1.261 2793.432
+  angles -50.029 0 0
+  scale 0.24
+ }
+}
+GenericEntity : "{79AA43911CC6C3E8}Prefabs/Structures/Military/CamoNets/Soviet/CamoNet_Small_Soviet.et" {
+ coords 6319.651 300.507 2793.639
+ angles 0 -84.411 0
+}
+$grp GenericEntity : "{79C6D8C31947742A}Prefabs/Props/Garbage/Generic/LitterInterior_01/Single/LitterInterior_01_vodka_V1.et" {
+ {
+  coords 6327.535 300.636 2788.93
+  angles 0 0 90
+ }
+ {
+  coords 6312.38 301.142 2790.519
+ }
+}
+$grp GenericEntity : "{82DDDA574CB4F0D9}Prefabs/Props/Industrial/BarrelFuel_01_Base.et" {
+ {
+  coords 6328.24 300.452 2782.433
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{6876F038335964C2}" {
+      SourceMaterial "Barrel_01"
+      AssignedMaterial "{4A8694FF26DA3078}Assets/Props/Industrial/BarrelMetal_01/Data/BarrelMetal_01_rust.emat"
+     }
+    }
+   }
+  }
+  coords 6327.601 300.452 2782.59
+ }
+}
+GenericEntity : "{84A9E7290F5FABA4}Prefabs/Props/Garbage/Generic/LitterInterior_01/Single/LitterInterior_USSR_01_postcard_V2.et" {
+ coords 6327.819 300.606 2788.755
+}
+GenericEntity : "{8599EE1DF5685104}Prefabs/Props/Garbage/Generic/LitterInterior_01/Single/LitterInterior_USSR_01_tincan_V2.et" {
+ coords 6327.845 301.352 2788.831
+ angles 0 -84.832 0
+}
+GenericEntity : "{881558ACD5FC31C0}Prefabs/Props/Crates/CrateWooden_02/CrateWooden_02_1x1x2.et" {
+ coords 6323.176 300.452 2793.951
+ angles 0 -8.738 0
+}
+GenericEntity : "{8871B00C873DA8B7}Prefabs/Props/Civilian/Shelves/Shelf_Metal.et" {
+ coords 6327.713 0 2788.899
+ angles 0 -141.948 0
+}
+GenericEntity : "{88FAE04EF7115814}Prefabs/Props/Civilian/BeerBottle_01_green.et" {
+ coords 6312.127 301.023 2791.411
+ angles 0 -180 0
+}
+GenericEntity : "{8963CD1DC1CDB614}Prefabs/Props/Civilian/BeerBottle_01_brown.et" {
+ coords 6312.411 301.008 2793.629
+}
+$grp GenericEntity : "{985C3871D40C7F7B}Prefabs/Props/Garbage/Generic/Litter_01_small.et" {
+ {
+  coords 6327.609 300.452 2784.028
+ }
+ {
+  coords 6325.04 300.452 2788.312
+ }
+ {
+  coords 6318.39 300.452 2796.026
+ }
+ {
+  coords 6324.824 300.452 2786.844
+ }
+ {
+  coords 6318.452 300.452 2793.904
+ }
+ {
+  coords 6315.083 300.452 2792.396
+ }
+}
+GenericEntity : "{986F38072A8DD563}Prefabs/Props/Garbage/Generic/Junk_01/Junk_01_single_planks.et" {
+ coords 6324.942 300.38 2803.786
+ angles 0 -49.28 0
+}
+$grp GenericEntity : "{9D9312AA9984A5CE}Prefabs/Props/Garbage/Cardboard/Cardboard_Pile_08.et" {
+ {
+  coords 6324.227 300.452 2787.551
+ }
+ {
+  coords 6318.212 300.452 2792.248
+ }
+ {
+  coords 6315.163 300.452 2795.203
+ }
+}
+GenericEntity : "{9F2AA7588FBE77A6}Prefabs/Props/Garbage/Generic/LitterInterior_01/Single/LitterInterior_USSR_01_mug.et" {
+ coords 6327.521 301.352 2788.986
+ angles 0 108.489 0
+}
+GenericEntity : "{A13BCC98B8C380C7}Prefabs/Compositions/Misc/SubCompositions/Decorations/Crate_Firewood_01.et" {
+ coords 6327.625 302.73 2782.584
+}
+GenericEntity : "{A285421E5231FF5A}Prefabs/Props/Garbage/Generic/GarbageGeneric_01_plentiful.et" {
+ coords 6325.204 300.452 2784.876
+ angles 0 -175.641 0
+}
+GenericEntity : "{A31E5B2DD8FBA845}Prefabs/Props/Garbage/Generic/LitterInterior_01/Single/LitterInterior_USSR_01_ashtray.et" {
+ coords 6328.918 300.452 2787.981
+}
+GenericEntity : "{A8D8015D0E2B600A}Prefabs/Props/Garbage/Generic/Junk_01/Junk_01_single_mattress.et" {
+ coords 6345.912 300.452 2793.658
+}
+GenericEntity : "{AD92C45B56130D08}PrefabLibrary/DefaultLibrary/Props/Shop/Crate_01/Crate_01_brown.et" {
+ coords 6327.31 302.694 2790.539
+ angles 0 -56.705 0
+}
+$grp GenericEntity : "{B2DCC836439482A9}Prefabs/Props/Garbage/Generic/GarbageGeneric_01_sparse.et" {
+ {
+  coords 6325.453 300.452 2784.585
+ }
+ {
+  coords 6315.978 300.452 2795.165
+ }
+}
+GenericEntity : "{B3283803059E2750}Prefabs/Props/Crates/CrateWooden_01_plain.et" {
+ coords 6327.261 301.887 2790.582
+ angles 0 -41.898 0
+}
+GenericEntity : "{B3842E3305D18F10}PrefabLibrary/CainLibrary/Props/Garbage/MetalDebris_01_V7.et" {
+ coords 6307.208 300.428 2792.719
+ angles 29.501 109.795 -44.137
+}
+GenericEntity : "{B69B4902BAF5B1B9}Prefabs/Props/Garbage/Cardboard/Cardboard_Pile_02.et" {
+ coords 6328.114 300.45 2787.106
+ angles 0 41.928 0
+}
+$grp GenericEntity : "{B898D2A1F45058F6}Prefabs/Props/Garbage/Military/Food/GarbageFoodMilitaryUSSR_01.et" {
+ {
+  coords 6327.563 300.452 2787.294
+ }
+ {
+  coords 6312.599 301.009 2793.139
+ }
+}
+GenericEntity : "{B9E07EF787E3EB37}Prefabs/Props/Garbage/Generic/LitterInterior_01/Piles/LitterInterior_USSR_01_pile_V7.et" {
+ coords 6327.955 300.505 2786.94
+}
+GenericEntity : "{C1977A326F2AA011}Prefabs/Structures/Signs/Military/SignCheckpoint_01_stop.et" {
+ coords 6330.255 300.452 2785.149
+ angles 0 116.417 0
+}
+GenericEntity : "{C1B7AB00FF7C1424}Prefabs/Props/Industrial/ConcretePanel_01_A.et" {
+ coords 6328.127 302.641 2784.139
+ angles 0 -53.44 0
+}
+$grp GenericEntity : "{C1F38F057250EE4E}Prefabs/Structures/Agriculture/Barn/Barn_E_03/Barn_E_03_Wall_01.et" {
+ {
+  components {
+   MeshObject "{5111E74D5E891458}" {
+    Materials {
+     MaterialAssignClass "{672EADC521A64461}" {
+      SourceMaterial "Barn_E_03_EXT_wood_metal"
+      AssignedMaterial "{4723E6CEC1C9D827}Assets/Structures/Walls/Metal/Data/Tinwall_01.emat"
+     }
+     MaterialAssignClass "{672EADC521A64470}" {
+      SourceMaterial "Barn_E_03_INT"
+      AssignedMaterial "{4723E6CEC1C9D827}Assets/Structures/Walls/Metal/Data/Tinwall_01.emat"
+     }
+     MaterialAssignClass "{672EADC521A64475}" {
+      SourceMaterial "Barn_E_03_INT_MLOD"
+      AssignedMaterial "{42A098D107C471F4}Assets/_SharedData/Decals/ST_Decal_Bolts_01.emat"
+     }
+    }
+   }
+  }
+  coords 6327.635 300.452 2781.355
+  angles 9.257 142.343 0
+  scale 0.79
+ }
+ {
+  components {
+   MeshObject "{5111E74D5E891458}" {
+    Materials {
+     MaterialAssignClass "{672EADC521A64461}" {
+      SourceMaterial "Barn_E_03_EXT_wood_metal"
+      AssignedMaterial "{4723E6CEC1C9D827}Assets/Structures/Walls/Metal/Data/Tinwall_01.emat"
+     }
+     MaterialAssignClass "{672EADC521A64470}" {
+      SourceMaterial "Barn_E_03_INT"
+      AssignedMaterial "{4723E6CEC1C9D827}Assets/Structures/Walls/Metal/Data/Tinwall_01.emat"
+     }
+     MaterialAssignClass "{672EADC521A64475}" {
+      SourceMaterial "Barn_E_03_INT_MLOD"
+      AssignedMaterial "{42A098D107C471F4}Assets/_SharedData/Decals/ST_Decal_Bolts_01.emat"
+     }
+    }
+   }
+  }
+  coords 6328.575 300.471 2788.722
+  angles 6.382 38.626 -0.412
+  scale 0.79
+ }
+}
+GenericEntity : "{C58BDB4D22E0A5A7}Prefabs/Props/Garbage/Generic/Litter_01_large.et" {
+ coords 6322.125 300.452 2792.195
+ angles 0 -139.349 0
+}
+$grp GenericEntity : "{C7A49C5B54C86903}Prefabs/Props/Military/Sandbags/Sandbag_01_single_burlap.et" {
+ {
+  coords 6313.07 300.916 2793.416
+  angles 0 90 0
+ }
+ {
+  coords 6313.07 300.916 2792.52
+  angles 0 90 0
+ }
+ {
+  coords 6313.07 300.916 2792.923
+  angles 0 90 0
+ }
+ {
+  coords 6313.07 300.916 2792.177
+  angles 0 90 0
+ }
+ {
+  coords 6313.07 300.916 2791.673
+  angles 0 90 0
+ }
+ {
+  coords 6313.07 300.96 2791.973
+  angles 0 90 0
+ }
+ {
+  coords 6313.026 301.046 2791.996
+  angles -9.519 -87.826 0.484
+ }
+ {
+  coords 6313.043 301.042 2792.429
+  angles -9.519 -87.826 0.484
+ }
+ {
+  coords 6313.057 301.039 2792.794
+  angles -9.519 -87.826 0.484
+ }
+ {
+  coords 6313.074 301.035 2793.226
+  angles -9.519 -87.826 0.484
+ }
+ {
+  coords 6312.976 301.023 2793.562
+  angles -1.861 -6.06 -11.93
+ }
+}
+GenericEntity : "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et" {
+ coords 6327.888 302.544 2786.87
+ angles -7.7 -19.048 1.407
+}
+$grp DecalEntity : "{CCE57C4C9C0E5009}Prefabs/Decals/Blood/BloodStain_Small_01.et" {
+ {
+  coords 6322.869 0.841 2793.418
+  scale 0.32
+ }
+ {
+  coords 6322.892 0.92 2793.418
+  scale 0.32
+ }
+}
+GenericEntity : "{CE17FD1A54E65002}Prefabs/Props/Garbage/Generic/LitterInterior_01/Single/LitterInterior_USSR_01_matches_V1.et" {
+ coords 6317.707 300.452 2794.49
+}
+GenericEntity : "{CEA239D9E1899899}Prefabs/Props/Garbage/Tires/TirePile_01_small.et" {
+ coords 6328.586 300.452 2792.046
+ angles 0 -32.98 0
+}
+GenericEntity : "{D1D258E682DFC5E2}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/FIA/EquipmentBoxStack_FIA_01_V2_covered.et" {
+ coords 6319.804 300.452 2796.403
+ angles 0 97.895 0
+}
+GenericEntity : "{D5247F493225CA91}Prefabs/Props/Civilian/WateringCan_01.et" {
+ coords 6324.601 300.618 2785.285
+ angles -11.532 90 -90
+}
+GenericEntity : "{D7B12E34E5FCF490}PrefabLibrary/DefaultLibrary/Props/Industrial/Jerrycan_01.et" {
+ coords 6328.91 300.433 2785.107
+ angles 1.935 -6.719 15.989
+}
+GenericEntity : "{DE9E5354FA04C6B1}Prefabs/beds/matrass_2.et" {
+ coords 6318.023 300.807 2791.519
+ angles 0 -108.976 0
+}
+GameEntity : "{DFA342F3C523A97B}Prefabs/Method/Props/Camps/Fireplace_Loiters_Burned house_02.et" {
+ coords 6318.71 300.452 2777.609
+ angles 0 130.291 0
+}
+GenericEntity : "{E2E43FEBCC798909}PrefabLibrary/CainLibrary/Props/Garbage/MetalDebris_01_V3.et" {
+ coords 6307.022 300.452 2785.531
+ angles 0 6.779 26.671
+}
+GenericEntity : "{E521AEA6D14589B1}Prefabs/Props/Military/AmmoBoxes/AmmoBox_545x39_2160rnd.et" {
+ coords 6321.004 300.904 2795.973
+}
+GenericEntity : "{E546356D4797342F}Prefabs/Props/Garbage/Medical/GarbageMedicalUS_01.et" {
+ coords 6326.224 300.452 2783.874
+}
+GenericEntity : "{E7117284012B39A4}Prefabs/Props/Garbage/Bins/TrashBin_02_patched.et" {
+ coords 6316.551 300.452 2794.75
+}
+GenericEntity : "{E7A4AA1C549E2371}Prefabs/Structures/Military/Camps/Canvas_Covers/Soviet/CanvasCover_Folded_Soviet.et" {
+ coords 6317.64 300.864 2791.372
+}
+GenericEntity : "{E9D97BDDDF10C95D}Prefabs/wood_bridges/wood_bridges_long_pol.et" {
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Materials {
+    MaterialAssignClass "{6876F03FFD2448A6}" {
+     SourceMaterial "Wooden_bridge"
+     AssignedMaterial "{C63DF763A2731B61}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerWood_01.emat"
+    }
+   }
+  }
+ }
+ coords 6328 300.452 2788.078
+ angles 0 39.969 0
+}
+$grp StaticModelEntity : "{EF39F5715EF2323E}Prefabs/Structures/Walls/BarbedWire/BarbedTape_01/BarbedTape_01_Short.et" {
+ {
+  components {
+   MeshObject "{56DE7C8DCD0F4E0A}" {
+    Materials {
+     MaterialAssignClass "{687715D8B08A00FC}" {
+      SourceMaterial "BarbedTape_Set_01"
+      AssignedMaterial "{814B5720167A27F5}Assets/Structures/Walls/Agriculture/Cowfence/Data/Barbwire_Mat.emat"
+     }
+    }
+   }
+  }
+  coords 6331.623 0 2786.039
+  angles 0 -2.264 0
+ }
+ {
+  components {
+   MeshObject "{56DE7C8DCD0F4E0A}" {
+    Materials {
+     MaterialAssignClass "{687715D8B6115ADB}" {
+      SourceMaterial "BarbedTape_Set_01"
+      AssignedMaterial "{814B5720167A27F5}Assets/Structures/Walls/Agriculture/Cowfence/Data/Barbwire_Mat.emat"
+     }
+    }
+   }
+  }
+  coords 6331.346 0 2787.684
+  angles 0 -15.931 0
+ }
+ {
+  components {
+   MeshObject "{56DE7C8DCD0F4E0A}" {
+    Materials {
+     MaterialAssignClass "{687715D8A1AFF7BD}" {
+      SourceMaterial "BarbedTape_Set_01"
+      AssignedMaterial "{814B5720167A27F5}Assets/Structures/Walls/Agriculture/Cowfence/Data/Barbwire_Mat.emat"
+     }
+    }
+   }
+  }
+  coords 6330.64 0 2789.249
+  angles 0 -38.391 0
+ }
+}
+GenericEntity : "{F337792A8F2A669B}PrefabsEditable/Auto/Props/Civilian/E_BeerBottle_01_empty_brown.et" {
+ coords 6312.287 301.142 2791.125
+}
+GenericEntity : "{F392E73F4E513B77}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/FIA/EquipmentBoxStack_FIA_01_V6.et" {
+ coords 6320.773 300.452 2790.071
+ angles 0 156.915 0
+}
+$grp GenericEntity : "{F401D58CD490C872}Prefabs/Props/Civilian/BeerBottle_01_slava.et" {
+ {
+  coords 6312.643 301.142 2790.533
+ }
+ {
+  coords 6312.636 301.142 2790.664
+ }
+}
+GenericEntity : "{F4075426881F454D}PrefabLibrary/DefaultLibrary/Props/Construction/ConcretePipe_01_Long.et" {
+ coords 6326.285 300.56 2783.076
+ angles 0 0 90
+}
+$grp GenericEntity : "{F4123D86F860B5E1}Prefabs/Props/Garbage/Medical/GarbageMedicalUSSR_02.et" {
+ {
+  coords 6322.055 300.452 2793.258
+ }
+ {
+  coords 6316.698 300.452 2794.194
+ }
+}
+GenericEntity : "{F602E26A59D4C1AC}Prefabs/Props/Civilian/GlassBeer_01/GlassBeer_02_base.et" {
+ coords 6312.363 301.142 2790.885
+}
+GenericEntity : "{F78F7B2E98A95922}Prefabs/Structures/Debris/ConcreteDebris_01/ConcreteDebris_01_base.et" {
+ coords 6313.241 300.714 2791.137
+ angles -90 103.481 166.632
+}

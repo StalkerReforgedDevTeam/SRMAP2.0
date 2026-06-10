@@ -1,0 +1,56 @@
+GenericEntity : "{73314E7C8FFC5B1C}Prefabs/Vehicles/gaz24/armst_gaz24_1_wreck.et" {
+ coords 2992.001 300.192 1548.07
+ angles 0 -113.482 0
+ {
+  GenericEntity {
+   ID "662E8AF25F2CC297"
+   components {
+    ActionsManagerComponent "{6190D137C5926215}" {
+     additionalActions {
+      ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+       m_iMaxItemsToSpawn 6
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "662E8AF25F2CC28C"
+   components {
+    ActionsManagerComponent "{6190D137C5926215}" {
+     additionalActions {
+      ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+       m_iMaxItemsToSpawn 6
+      }
+     }
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{A8BDD705E8F811E6}Prefabs/Vehicles/kamaz/armst_kamaz_red_wreck.et" {
+ coords 2995.897 301.542 1548.474
+ angles -4.134 -149.059 -102.84
+}
+GenericEntity : "{BEFC8ED70BAD3F20}Prefabs/DONT_USE/CargoContainer_04_big.et" {
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Materials {
+    MaterialAssignClass "{66ED364134794E85}" {
+     SourceMaterial "Cargo_EXT"
+     AssignedMaterial "{1B59CB76A5093457}Assets/Structures/Military/Radar/ApproachRadar_01/data/ApproachRadar_TPN19_01_generator_wreck.emat"
+    }
+    MaterialAssignClass "{66ED364134794EA3}" {
+     SourceMaterial "Cargo_INT"
+     AssignedMaterial "{1B59CB76A5093457}Assets/Structures/Military/Radar/ApproachRadar_01/data/ApproachRadar_TPN19_01_generator_wreck.emat"
+    }
+    MaterialAssignClass "{66ED364134794EA0}" {
+     SourceMaterial "Cargo_Mlod"
+     AssignedMaterial "{1B59CB76A5093457}Assets/Structures/Military/Radar/ApproachRadar_01/data/ApproachRadar_TPN19_01_generator_wreck.emat"
+    }
+   }
+  }
+ }
+ coords 2996.437 301.264 1544.056
+ angles 3.759 -160.465 -100.468
+}
