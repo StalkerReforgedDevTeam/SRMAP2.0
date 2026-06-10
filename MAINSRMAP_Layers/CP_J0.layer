@@ -1,3 +1,46 @@
+$grp GenericEntity {
+ ZEL_Storage_Base_66C4CC636894352B2 {
+  coords 1265.692 298.128 1324.365
+  angles 0 5.316 0
+ }
+ ZEL_Storage_Base_66C4CC636894352B3 {
+  coords 1264.749 298.128 1324.452
+  angles 0 5.316 0
+ }
+ ZEL_Storage_Base_66C4CC636894352B4 {
+  coords 1263.794 298.128 1324.541
+  angles 0 5.316 0
+ }
+ ZEL_Storage_Base_66C4CC636894352B5 {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Object "{4CD9B977F230E7DF}Assets/Props/Furniture/Safe_01/Safe_01.xob"
+   }
+  }
+  coords 1263.7 298.128 1328.471
+  angles 0 95.316 0
+ }
+ ZEL_Storage_Base_66C4CC636894352B6 {
+  coords 1254.207 297.83 1314.099
+  angles 0 5.316 0
+ }
+ ZEL_Storage_Base_66C4CC636894352B7 {
+  coords 1252.797 297.83 1314.23
+  angles 0 5.316 0
+ }
+ ZEL_Storage_Base_66C4CC636894352B8 {
+  coords 1238.495 297.83 1315.637
+  angles 0 5.316 0
+ }
+ ZEL_Storage_Base_66C4CC636894352B9 {
+  coords 1236.667 297.83 1315.84
+  angles 0 5.316 0
+ }
+ {
+  coords 1267.107 298.128 1328.172
+  angles 0 -84.517 0
+ }
+}
 $grp SplineShapeEntity {
  {
   coords 1147.688 297.733 1303.497
@@ -832,26 +875,6 @@ GenericEntity : "{34747E0B21E50E31}Prefabs/Props/Military/AmmoBoxes/RocketContai
 }
 $grp SCR_DestructibleEntity : "{350B1D05E8446B1C}PrefabLibrary/DefaultLibrary/Walls/Concrete/ConcreteWall_01_6m_A.et" {
  {
-  coords 1162.88 0 1335.242
-  angles 0 95.483 0
- }
- {
-  coords 1162.328 0 1329.488
-  angles 0 95.483 0
- }
- {
-  coords 1161.764 0 1323.611
-  angles 0 95.483 0
- }
- {
-  coords 1161.195 0 1317.679
-  angles 0 95.483 0
- }
- {
-  coords 1164.644 0 1353.613
-  angles 0 95.483 0
- }
- {
   coords 1209.655 0 1361.811
   angles 0 -84.517 0
  }
@@ -866,10 +889,6 @@ $grp SCR_DestructibleEntity : "{350B1D05E8446B1C}PrefabLibrary/DefaultLibrary/Wa
  {
   coords 1236.405 0 1362.624
   angles 0 3.904 0
- }
- {
-  coords 1163.444 0 1341.121
-  angles 0 95.483 0
  }
  {
   coords 1248.184 0 1361.776
@@ -1029,45 +1048,6 @@ GenericEntity : "{5E7626D8E78566B4}Prefabs/Props/Furniture/Desk_01_long.et" {
 GenericEntity : "{6204943E9EC70EC2}Prefabs/Structures/Military/Camps/Canvas_Covers/US/CanvasCover_Medium_US.et" {
  coords 1222.211 297.733 1363.342
  angles 0 -113.986 0
-}
-$grp GenericEntity : "{64D4F1BCB3403343}Prefabs/Props/ZEL_Storage_Base.et" {
- ZEL_Storage_Base_66C4CC636894352B2 {
-  coords 1265.692 298.128 1324.365
-  angles 0 5.316 0
- }
- ZEL_Storage_Base_66C4CC636894352B3 {
-  coords 1264.749 298.128 1324.452
-  angles 0 5.316 0
- }
- ZEL_Storage_Base_66C4CC636894352B4 {
-  coords 1263.794 298.128 1324.541
-  angles 0 5.316 0
- }
- ZEL_Storage_Base_66C4CC636894352B5 {
-  components {
-   MeshObject "{5872F0EB7FA40561}" {
-    Object "{4CD9B977F230E7DF}Assets/Props/Furniture/Safe_01/Safe_01.xob"
-   }
-  }
-  coords 1263.7 298.128 1328.471
-  angles 0 95.316 0
- }
- ZEL_Storage_Base_66C4CC636894352B6 {
-  coords 1254.207 297.83 1314.099
-  angles 0 5.316 0
- }
- ZEL_Storage_Base_66C4CC636894352B7 {
-  coords 1252.797 297.83 1314.23
-  angles 0 5.316 0
- }
- ZEL_Storage_Base_66C4CC636894352B8 {
-  coords 1238.495 297.83 1315.637
-  angles 0 5.316 0
- }
- ZEL_Storage_Base_66C4CC636894352B9 {
-  coords 1236.667 297.83 1315.84
-  angles 0 5.316 0
- }
 }
 GenericEntity : "{65BD05D59E6B4F1D}Prefabs/Props/Military/PaperHolder_01/PaperHolder_01_MissionBriefing.et" {
  coords 1262.669 302.124 1364.579
@@ -1635,30 +1615,10 @@ GenericEntity : "{8C82BBBDEE9CBA3A}Prefabs/Props/Military/Camps/WeaponRackStand_
  coords 1266.444 298.128 1326.495
  angles 0 -84.517 0
 }
-SCR_ChimeraCharacter : "{8E99ACF4E7BD596B}Prefabs/QUESTS/SURVIVAL/SCIENCE/SCIENCE_MEDIC.et" {
+SCR_ChimeraCharacter : "{8E99ACF4E7BD596B}Prefabs/QUESTS/SCIENCE/SCIENCE_MEDIC.et" {
  components {
-  ARMST_BOT_INTERACTION_COMPONENT "{62F9175F2C408F7A}" {
-   m_bRecruitment 0
-  }
-  ARMST_PLAYER_ANIMATION "{66A0B319CD077DFF}" {
-   m_AnimationName SitTest
-   m_sCustomAnimASI "{FEE7022A2B2168C3}Anims/workspaces/CUSTOM/Anims/STAND/BarStand_1.asi"
-  }
   FactionAffiliationComponent "{520EC9618276DF23}" {
    "faction affiliation" "FACTION_KB"
-  }
-  ARMST_RANDOM_CLOTHES_COMPONENT "{520EA1D2DB11821E}" {
-   Slots {
-    LoadoutSlotInfo Jacket {
-     Prefab "{D20D992705A6ADBA}Prefabs/New_Equipment/Suits/Science/armst_suit_science_green.et"
-    }
-    LoadoutSlotInfo HandWear {
-     Prefab "{CDDA2A133111E1A6}Prefabs/Characters/Handwear/Gloves_Leather_01/Gloves_Leather_Black.et"
-    }
-    LoadoutSlotInfo Head {
-     Prefab "{00F7B4C95E47ADE3}Prefabs/New_Equipment/Gasmasks/armst_gasmask_s200.et"
-    }
-   }
   }
  }
  coords 1221.152 297.733 1363.928
@@ -6182,7 +6142,7 @@ $grp SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core
        angles 0 -76.323 0
       }
      }
-     $grp GenericEntity : "{D0BD7A55306FC46B}Prefabs/Props/Furniture/Faucet_01.et" {
+     $grp GenericEntity : "{D0BD7A55306FC46B}Prefabs/Props/Furniture/Faucet_01/Faucet_01.et" {
       {
        coords 19.765 8.828 4.467
        angles 0 90 0
@@ -8494,7 +8454,7 @@ $grp SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core
      }
     }
    }
-   GenericEntity : "{7030822F7A54F479}Prefabs/LOOT_BOX/base/backpacks/CrateWooden_01_base.et" {
+   GenericEntity : "{7030822F7A54F479}Prefabs/Props/Crates/CrateWooden_01_base.et" {
     coords 8.17 5.999 2.009
     angles -89.972 -97.573 -7.877
    }
@@ -11046,14 +11006,6 @@ GenericEntity : "{C971AFD204F62488}Prefabs/Props/Military/Sandbags/Dst/Sandbag_0
  coords 1267.076 298.955 1378.911
  angles 3.845 -78.871 -3.907
 }
-SCR_DestructibleEntity : "{CAFF4B51059A0F81}PrefabLibrary/DefaultLibrary/Walls/Concrete/ConcreteWall_01_3m.et" {
- coords 1236.813 0 1365.696
- angles 0 95.483 0
-}
-GenericEntity : "{CE73689C6429158D}Prefabs/Props/Structures/Doors/Garage02_Industrial/Back Door.et" {
- coords 1267.107 298.128 1328.172
- angles 0 -84.517 0
-}
 $grp GenericEntity : "{D042CEA90B8CB14D}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/CrateStack_01_decals_02.et" {
  {
   coords 1217.588 297.733 1315.726
@@ -11522,7 +11474,7 @@ SCR_DestructibleBuildingEntity : "{F50905235FBAA094}Prefabs/Structures/Military/
    Enabled 0
   }
  }
- coords 1235.567 0 1366.599
+ coords 1234.336 0 1366.512
  angles 0 -174.446 0
 }
 $grp StaticModelEntity : "{F5589597452FE918}PrefabLibrary/DefaultLibrary/Infrastructure/Stairs/ConcreteStairs_02_Narrow.et" {
