@@ -204,12 +204,6 @@ GenericEntity : "{17770AFEA059BE16}Prefabs/Vehicles/gaz24/armst_gaz24_1.et" {
 }
 $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST_RADIATIONS.et" {
  {
-  components {
-   ARMST_RADIATION_COMPONENT "{66A8CCA940DF6C13}" {
-    m_DamageRadioLevel 69
-    m_DamageRadioDistance 32
-   }
-  }
   coords 3215.697 309.713 1404.592
   scale 11.91
   SphereRadius 12.8
@@ -217,12 +211,6 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_DamageRadioLevel 96
  }
  {
-  components {
-   ARMST_RADIATION_COMPONENT "{66A8CCA940DF6C13}" {
-    m_DamageRadioLevel 69
-    m_DamageRadioDistance 32
-   }
-  }
   coords 3184.263 354.724 1452.895
   angles 1.242 46.109 0
   scale 74.734
@@ -417,7 +405,6 @@ GenericEntity : "{3619812B192CCAE9}Prefabs/Props/Core/Wreck_Base.et" {
    {
     components {
      ARMST_TieredLootSpawnerComponent "{68AB13D9E2E6962F}" {
-      m_bSpawnInLowTier 1
      }
      MeshObject "{68AB13D9E2E69655}" {
       Object "{F63FB77CF5C853D7}Assets/Items/Equipment/Backpacks/Backpack_Kolobok/Backpack_Kolobok_item.xob"
@@ -504,17 +491,6 @@ GenericEntity : "{3619812B192CCAE9}Prefabs/Props/Core/Wreck_Base.et" {
          Name "#Armst_search"
         }
         Duration 2
-        m_sConfigs {
-         "{56948909759C6E04}Configs/Loots/OLD/ATTACHMENT.conf"
-         "{DEEC84B8E0DA48DF}Configs/Loots/OLD/CIVIL_PROPS.conf"
-         "{F5040580A41733DA}Configs/Loots/OLD/ELECTRONICS.conf"
-         "{50857AAE6C1B247C}Configs/Loots/KEYS/KEYS.conf"
-         "{992259096BF64B9D}Configs/Loots/OLD/MAGAZINES.conf"
-         "{0109E6FB898CD78B}Configs/Loots/MONEYS.conf"
-         "{D512E3FD4D09672C}Configs/Loots/MUSOR.conf"
-         "{6D865E4C88B58D65}Configs/Loots/OLD/TOOLS.conf"
-         "{E23BEEF1EB758D3B}Configs/Loots/OLD/PHOTOS.conf"
-        }
         m_iMinItemsToSpawn 0
        }
       }
@@ -529,7 +505,6 @@ GenericEntity : "{3619812B192CCAE9}Prefabs/Props/Core/Wreck_Base.et" {
    {
     components {
      ARMST_TieredLootSpawnerComponent "{68AB13D9E2E17830}" {
-      m_bSpawnInLowTier 1
      }
      MeshObject "{68AB13D9E2E178B6}" {
       Object "{5424C2637479A43D}Assets/Props/Civilian/AlarmClock_01/AlarmClock_01.xob"
@@ -616,10 +591,6 @@ GenericEntity : "{3619812B192CCAE9}Prefabs/Props/Core/Wreck_Base.et" {
          Name "#Armst_search"
         }
         Duration 2
-        m_sConfigs {
-         "{D512E3FD4D09672C}Configs/Loots/MUSOR.conf"
-         "{C3E40FCD2F9F7A6D}Configs/Loots/TOOLS/1_TOOLS.conf"
-        }
         m_iMinItemsToSpawn 0
        }
       }
@@ -731,7 +702,7 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{533CDABD77C4C43E}Prefabs/Rocks/Gr
   scale 0.392
  }
 }
-$grp GenericEntity : "{5987E1DF837BA755}Prefabs/Vehicles/btr70/armst_btr70.et" {
+$grp SCR_DestructibleBuildingEntity : "{5987E1DF837BA755}Prefabs/Vehicles/btr70/armst_btr70.et" {
  {
   coords 3191.692 305.816 1450.599
   angles 1.182 -54.069 -1.789
@@ -741,7 +712,7 @@ $grp GenericEntity : "{5987E1DF837BA755}Prefabs/Vehicles/btr70/armst_btr70.et" {
   angles 20.264 125.717 -13.264
  }
 }
-GenericEntity : "{5B2777BA82B53DA6}Prefabs/Vehicles/azlk412/armst_azlk412_wreck4.et" {
+SCR_DestructibleBuildingEntity : "{5B2777BA82B53DA6}Prefabs/Vehicles/azlk412/armst_azlk412_wreck4.et" {
  coords 3217.239 306.05 1420.648
  angles 0 128.375 0
  {
@@ -803,26 +774,61 @@ GenericEntity : "{5FA92EF1E20FB49A}Prefabs/Compositions/Misc/SubCompositions/Gar
   }
  }
 }
-$grp ParticleEffectEntity : "{60D88B47635E7627}Prefabs/Anomals/Electro/ARMST_ELECTRO.et" {
+$grp ParticleEffectEntity : "{60D88B47635E7627}Prefabs/Anomals/Electro/ARMST_ELECTRO_T1.et" {
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3209.588 305.796 1423.888
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3205.133 305.796 1427.952
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3215.25 306.076 1433.105
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3210.099 306.151 1428.079
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3207.36 306.151 1429.714
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3213.787 306.151 1425.523
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3205.997 306.076 1434.805
   {
    ARMST_DamagingTriggerEntity {
@@ -833,138 +839,363 @@ $grp ParticleEffectEntity : "{60D88B47635E7627}Prefabs/Anomals/Electro/ARMST_ELE
   }
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3209.533 306.151 1440.582
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3214.399 305.796 1440.697
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3215.192 306.151 1436.104
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3211.732 305.984 1433.259
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3213.839 305.984 1428.427
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3201.431 305.796 1429.409
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3196.981 305.796 1431.916
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3199.188 306.076 1440.754
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3196.523 306.151 1438.092
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3194.004 305.796 1435.455
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3199.975 305.796 1433.101
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3196.142 305.796 1435.735
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3214.117 305.796 1447.109
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3210.543 305.796 1444.251
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3209.109 305.796 1450.713
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3205.783 305.796 1448.038
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3203.444 305.796 1453.647
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3201.532 305.796 1451.813
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3198.408 305.796 1456.981
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3195.425 305.796 1455.222
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3193.041 305.796 1460.459
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3191.577 305.796 1458.595
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3185.8 305.796 1465.841
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3184.23 305.796 1464.028
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3180.865 305.796 1468.982
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3179.353 305.796 1467.397
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3176.496 305.796 1473.681
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3174.367 305.796 1471.513
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3170.318 305.796 1477.63
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3168.114 305.796 1475.739
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3172.697 305.796 1476.768
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3170.611 305.796 1474.306
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3166.137 305.796 1480.936
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3164.677 305.796 1478.13
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3160.525 305.796 1480.116
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3166.598 305.796 1482.541
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3177.438 305.796 1470.235
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3185.079 305.796 1468.9
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3181.505 305.796 1466.036
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3189.529 305.796 1463.74
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3187.112 306.151 1456.8
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3182.679 306.151 1460.591
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3178.986 306.151 1462.67
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3176.977 306.076 1460.122
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3189.411 306.151 1455.597
   {
    ARMST_DamagingTriggerEntity {
@@ -974,144 +1205,379 @@ $grp ParticleEffectEntity : "{60D88B47635E7627}Prefabs/Anomals/Electro/ARMST_ELE
   }
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3196.628 306.151 1450.293
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3202.267 306.151 1446.289
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3207.563 306.151 1441.953
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3205.765 305.999 1437.126
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3195.837 305.796 1442.755
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3192.988 305.796 1446.737
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3186.887 305.805 1451.412
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3186.386 306.076 1446.873
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3188.558 306.151 1443.802
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3183.619 306.151 1447.517
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3180.09 306.151 1450.17
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3182.493 305.984 1452.997
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3179.17 306.076 1456.566
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3177.026 306.151 1452.58
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3179.511 306.076 1452.934
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3174.109 306.151 1454.9
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3171.379 306.151 1457.729
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3173.764 305.984 1462.124
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3173.341 306.076 1466.495
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3185.639 305.975 1452.371
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3189.661 305.796 1448.519
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3196.522 305.796 1445.129
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3183.876 305.796 1444.397
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3180.93 305.796 1444.689
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3177.782 305.796 1449.599
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3174.127 305.796 1450.008
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3189.008 305.796 1441.061
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3184.309 305.796 1441.697
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3190.014 305.796 1437.383
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3166.802 306.151 1460.543
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3167.744 305.925 1455.84
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3160.124 305.861 1461.441
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3162.495 306.076 1467.678
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3155.09 305.796 1465.263
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3151.121 305.996 1471.203
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3151.214 306.027 1471.375
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3161.333 306.151 1464.497
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3158.774 305.984 1474.708
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3153.102 305.984 1479.358
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3151.227 305.796 1467.506
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3160.318 306.076 1469.478
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3155.559 306.076 1476.03
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3157.422 305.796 1482.59
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3148.036 306.101 1474.708
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3146.549 305.796 1471.199
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3193.367 306.151 1441.794
  }
  {
+  components {
+   SCR_EditableEntityComponent "{61A67425FC1902C4}" {
+    m_bVisible 0
+   }
+  }
   coords 3198.798 305.975 1447.103
  }
 }
@@ -1290,7 +1756,7 @@ GenericEntity : "{719ADBF3843A0876}Prefabs/Vehicles/zil131/armst_zil131_gruz.et"
  coords 3181.201 306.341 1457.527
  angles 0.379 122.265 0.239
 }
-$grp ParticleEffectEntity : "{764A0D38D69BA7F3}Prefabs/Anomals/Jarka/ARMST_JARKA.et" {
+$grp ParticleEffectEntity : "{764A0D38D69BA7F3}Prefabs/Anomals/Jarka/ARMST_JARKA_T2.et" {
  {
   coords 3170.776 322.567 1446.669
  }
@@ -1376,7 +1842,7 @@ $grp GenericEntity : "{809272F7F0B65FCB}Prefabs/Props/VehicleParts/Tires/Tire_Ur
   angles -0.03 0.033 -0.085
  }
 }
-ParticleEffectEntity : "{809740F0D40DA5CD}Prefabs/Anomals/Zero_gravy/ARMST_ZERO_GRAVY_GAZ.et" {
+ParticleEffectEntity : "{809740F0D40DA5CC}Prefabs/Anomals/Zero_gravy/ARMST_ZERO_GRAVY_GAZ.et" {
  coords 3248.782 306.878 1407.951
 }
 GenericEntity : "{8158EFF339FE1F10}Prefabs/Vehicles/zil131/armst_zil131_gazoil.et" {
@@ -1417,10 +1883,6 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{926C09375D2DAA4D}PrefabLibrary/De
   angles -57.138 162.963 171.425
   scale 1.145
  }
-}
-GenericEntity : "{92CF60E92118F49B}Prefabs/Props/Civilian/Ladders/Wooden Ladder 258.et" {
- coords 3206.117 3.502 1446.13
- angles -90 -51.854 -4.968
 }
 $grp Tree : "{932E56F57F6F0C9A}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_salix_cinerea_1w.et" {
  {
@@ -1547,14 +2009,14 @@ ARMST_DamagingTriggerEntity : "{A3244C3C6848AE02}Prefabs/Anomals/anom_base/Anoma
   "ChimeraCharacter"
  }
  m_fBoltAction 0
- m_sParticle_Bolt "{A1292362DBE60921}Prefabs/Anomals/anom_base/anomal_bolt_actions.ptc"
+ m_sParticle_Bolt "{A1292362DBE60921}Prefabs/Anomals/anom_base/data/anomal_bolt_actions.ptc"
  m_AudioSourceConfiguration2 SCR_AudioSourceConfiguration "{65B67455EB16FFF7}" {
-  m_sSoundProject "{40E009B346B619C5}Prefabs/Anomals/anom_base/bolt_action.acp"
+  m_sSoundProject "{40E009B346B619C5}Prefabs/Anomals/anom_base/data/bolt_action.acp"
   m_sSoundEventName "SOUND_BOLT"
  }
  m_Attack_Timer 60
  m_sParticle_Attack "{35CEA3D36024DC1D}Prefabs/Anomals/Trampoline/data/trampoline_attack.ptc"
- m_sParticle_Attack2 "{52CF1B2D3E1DC41C}Prefabs/Anomals/anom_base/anomal_blast.ptc"
+ m_sParticle_Attack2 "{52CF1B2D3E1DC41C}Prefabs/Anomals/anom_base/data/anomal_blast.ptc"
  m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{65B67455EB16FFF1}" {
   m_sSoundProject "{B30A9CE9DDD7C56A}Prefabs/Anomals/Trampoline/data/trampline_attack.acp"
   m_sSoundEventName "SOUND_GRAVY"
@@ -1633,7 +2095,7 @@ GenericEntity : "{A6C183C3ACAAF08D}Prefabs/Anomals/Roots_anom.et" {
 GenericEntity : "{A6EF6AF651015F3B}Prefabs/Structures/Debris/ConcreteDebris_01/ConcreteDebris_01_V5.et" {
  coords 3188.591 305.796 1460.514
 }
-$grp GenericEntity : "{AB84E0DA61098F0F}Prefabs/Anomals/anom_base/refract_morphing.et" {
+$grp GenericEntity : "{AB84E0DA61098F0F}Prefabs/Anomals/anom_base/data/refract_morphing.et" {
  {
   coords 3164.188 307.433 1463.072
   angles 0 15.578 0
@@ -2130,7 +2592,7 @@ GenericEntity : "{EE66EFF091960191}Prefabs/Vehicles/ikarus256/armst_ikarus256.et
  coords 3166.861 306.076 1468.205
  angles 0 123.898 0
 }
-GenericEntity : "{F4E08FE7DD7264EB}Prefabs/Vehicles/azlk412/armst_azlk412_1.et" {
+SCR_DestructibleBuildingEntity : "{F4E08FE7DD7264EB}Prefabs/Vehicles/azlk412/armst_azlk412_1.et" {
  coords 3184.319 306.076 1449.881
  angles 0 -55.317 0
  {

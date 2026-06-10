@@ -7023,10 +7023,6 @@ $grp SCR_DestructibleBuildingEntity : "{09D982B92B22C142}Prefabs/Structures/Ruin
   angles 0 -129.591 0
  }
  {
-  coords 2773.885 0 1521.383
-  angles 0.113 91.451 -4.466
- }
- {
   coords 3716.956 0.571 2286.028
   angles -0.992 52.922 4.628
  }
@@ -11505,26 +11501,6 @@ $grp GenericEntity : "{157E18D526C3A7E6}Prefabs/Compositions/Misc/SubComposition
  {
   coords 3894.3 300.796 2086.869
   angles 0 -0.153 0
- }
- {
-  coords 2775.777 295.302 1493.655
-  angles -0.214 -5.534 -6.603
-  {
-   GenericEntity {
-    ID "5702F83C5422A009"
-    coords -0.028 -0.012 0.454
-    angles 0 96.729 0
-   }
-   GenericEntity {
-    ID "5702F83C5422A00B"
-    coords 0 0.806 0
-   }
-   GenericEntity {
-    ID "5702F83C5422A00D"
-    coords -0.065 0.01 -0.457
-    angles 0 91.111 0
-   }
-  }
  }
  {
   coords 2294.487 310.751 1319.23
@@ -39302,10 +39278,6 @@ $grp GenericEntity : "{326E60F7A7358EDA}Prefabs/Props/Crates/CrateWooden_01_blue
  {
   coords 1474.13 300.05 1926.42
   angles 0 78.428 0
- }
- {
-  coords 2772.325 294.446 1494.085
-  angles 5.171 47.691 -4.119
  }
  {
   components {
@@ -92148,24 +92120,10 @@ $grp StaticModelEntity : "{7022F1A36DC9510C}Prefabs/Structures/BuildingParts/Ent
   angles 0 -8.748 0
  }
 }
-$grp GenericEntity : "{7030822F7A54F479}Prefabs/Props/Crates/CrateWooden_01_base.et" {
- {
-  coords 2772.049 294.282 1492.577
-  angles -0.214 -5.534 -6.603
- }
- {
-  coords 2775.057 295.652 1499.528
-  angles -3.561 -36.192 -5.568
- }
- {
-  coords 2775.218 296.433 1498.672
-  angles -0.214 -5.534 -6.603
- }
- {
-  coords 2534.948 294.749 1238.097
-  angles -0.001 -174.34 1.48
-  scale 0.7
- }
+GenericEntity : "{7030822F7A54F479}Prefabs/Props/Crates/CrateWooden_01_base.et" {
+ coords 2534.948 294.749 1238.097
+ angles -0.001 -174.34 1.48
+ scale 0.7
 }
 $grp GenericEntity : "{70A8F4FD7BA0FE84}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/CargoContainer_01_20ft_blue_rusty.et" {
  {
@@ -107165,10 +107123,6 @@ $grp StaticModelEntity : "{7E2380494811A5FB}Prefabs/Structures/Infrastructure/To
   coords 6202.112 318.333 1653.723
  }
 }
-GenericEntity : "{7E2EC66747A3FBA3}Prefabs/Props/Crates/CrateWooden_02/CrateWooden_02_base.et" {
- coords 2771.134 294.833 1497.557
- angles -2.447 -18.342 80.296
-}
 $grp GenericEntity : "{7E3F6F5A6BAEC717}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/CargoContainer_01_20ft_olive.et" {
  {
   coords 2966.747 304.702 2673.806
@@ -112714,10 +112668,6 @@ $grp GenericEntity : "{8751F77B1038FC72}Prefabs/Props/Industrial/Repair/VehicleG
   angles 0 -139.384 0
  }
  {
-  coords 2775.383 295.402 1496.243
-  angles -0.214 -5.534 -6.603
- }
- {
   coords 3190.643 306.702 430.241
   angles -5.518 59.519 0.529
  }
@@ -113234,15 +113184,9 @@ $grp SCR_DestructibleBuildingEntity : "{88044D117268E628}Prefabs/Structures/Mili
   }
  }
 }
-$grp GenericEntity : "{881558ACD5FC31C0}Prefabs/Props/Crates/CrateWooden_02/CrateWooden_02_1x1x2.et" {
- {
-  coords 2771.87 294.524 1496.359
-  angles 1.796 12.023 -6.359
- }
- {
-  coords 2339.679 314.994 2546.938
-  angles 0 -16.658 -90
- }
+GenericEntity : "{881558ACD5FC31C0}Prefabs/Props/Crates/CrateWooden_02/CrateWooden_02_1x1x2.et" {
+ coords 2339.679 314.994 2546.938
+ angles 0 -16.658 -90
 }
 GenericEntity : "{881E9EBD4F7EA444}Prefabs/Structures/BuildingParts/Heating/StoveColumn_01_green.et" {
  coords 1594.208 293.304 1078.754
@@ -117646,10 +117590,6 @@ $grp SCR_DestructibleBuildingEntity : "{8F4638A94301B14D}Prefabs/Structures/Ruin
   coords 5027.147 0 2225.839
   angles 0 50.017 0
  }
- {
-  coords 2773.781 0 1507.467
-  angles 6.682 91.489 0.173
- }
 }
 $grp GenericEntity : "{8F71C70CFB73B505}Prefabs/Props/Military/WaterTanks/MobileWaterTank_USSR_01_base.et" {
  {
@@ -118729,10 +118669,6 @@ $grp GenericEntity : "{93737DC0B2AB7E62}Prefabs/Props/Naval/LobsterTrapWooden_01
  {
   coords 1000.809 -1.569 1600.112
   angles 0 33 0
- }
- {
-  coords 2775.715 295.387 1495.038
-  angles -0.214 -5.534 -6.603
  }
  {
   coords 2287.995 312.007 1325.098
@@ -143113,10 +143049,6 @@ $grp GenericEntity : "{B3283803059E2750}Prefabs/Props/Crates/CrateWooden_01_plai
   angles 30.422 -3.028 0
  }
  {
-  coords 2775.307 295.552 1497.901
-  angles 2.346 17.028 -6.178
- }
- {
   coords 4936.18 302.164 2239.827
   angles -1.364 113.996 0.862
  }
@@ -162912,10 +162844,6 @@ $grp SCR_DestructibleEntity : "{D7BDCA21659E98D8}Prefabs/Structures/Walls/Barbed
   angles 0 -3.788 0
  }
 }
-StaticModelEntity : "{D7F14EACF88AF25D}Prefabs/Structures/Houses/Wooden/House_Wooden_E_1I01/Dst/House_Wooden_E_1I01_Ruin_base.et" {
- coords 2774.324 293.341 1493.845
- angles -7.699 -97.383 0.249
-}
 $grp SCR_DestructibleBuildingEntity : "{D7F2AEB3DD1B38F1}Prefabs/Houses/churchs/church_2.et" {
  {
   coords 3830.015 314.959 1137.515
@@ -168612,10 +168540,6 @@ $grp GenericEntity : "{DA861447E6D426AE}Prefabs/Props/Industrial/Repair/VehicleG
  {
   coords 1554.903 300.421 1657.06
   angles 0 156.079 0
- }
- {
-  coords 2771.156 294.54 1498.528
-  angles -4.188 -144.478 5.115
  }
  {
   coords 2866.913 309.825 248.177
@@ -177471,10 +177395,6 @@ GenericEntity : "{E4136E2E0BD66FC6}Prefabs/Props/Construction/HookMetal_01.et" {
  angles 0 -112.538 0
 }
 $grp GenericEntity : "{E4416C4C6938BEEE}Prefabs/Props/Crates/CrateWooden_02/CrateWooden_02_1x1x1.et" {
- {
-  coords 2771.829 294.435 1495.191
-  angles 2.248 16.124 -6.214
- }
  {
   coords 2377.379 314.522 2542.917
   angles 0 -33.288 0
@@ -189426,25 +189346,6 @@ $grp GenericEntity : "{F58AEB566CB4369A}Prefabs/Compositions/Misc/SubComposition
  }
  {
   coords 5734.915 329.053 2027.077
- }
- {
-  coords 2775.475 295.157 1491.545
-  angles -2.931 -157.453 5.924
-  {
-   GenericEntity {
-    ID "552C739356970770"
-    coords -0.248 -0.077 0.872
-    angles 0 -178.835 0
-   }
-   GenericEntity {
-    ID "552C73935697077F"
-    coords 0.458 -0.098 0.032
-   }
-   GenericEntity {
-    ID "552C73935697077C"
-    coords -0.501 -0.1 -0.097
-   }
-  }
  }
  {
   coords 2664.013 300.274 1587.41

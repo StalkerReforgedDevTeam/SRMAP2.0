@@ -37,47 +37,33 @@ PolylineShapeEntity {
    m_iSeed 24748
    m_bRandomiseSeedOnUse 0
    m_bSnapOffsetShapeToTheGround 0
-   FirstObject "{C2C08AEE655E581A}Prefabs/Structures/Walls/Stone/StoneWall_02/StoneWall_02_end.et"
-   LastObject "{7F8BF3C7B377C09F}Prefabs/Structures/Walls/Stone/StoneWall_02/StoneWall_02_start.et"
+   FirstObject "{D84A36F4699A8743}Prefabs/Structures/Walls/Stone/StoneWall_02/StoneWall_02_end.et"
+   LastObject "{AA29DDBF1CD8EE47}Prefabs/Structures/Walls/Stone/StoneWall_02/StoneWall_02_start.et"
    m_aWallGroups {
     WallLengthGroup "{509C9D5921F0C5BC}" {
      m_aWallPrefabs {
       WallWeightPair "{509C9D591C10F505}" {
-       m_sWallAsset "{A20F29C2A16B2AC5}Prefabs/Structures/Walls/Stone/StoneWall_02/StoneWall_02_4m_v1.et"
+       m_sWallAsset "{6B08AEEC99A1CFE8}Prefabs/Structures/Walls/Stone/StoneWall_02/StoneWall_02_4m_v1.et"
       }
       WallWeightPair "{55692C080AAE538D}" {
-       m_sWallAsset "{CE5B1D221DAFA5EB}Prefabs/Structures/Walls/Stone/StoneWall_02/StoneWall_02_4m_v2.et"
+       m_sWallAsset "{1BF9335AB2008B33}Prefabs/Structures/Walls/Stone/StoneWall_02/StoneWall_02_4m_v2.et"
       }
       WallWeightPair "{5584F78A5738EC34}" {
-       m_sWallAsset "{2BC751DB114A3280}Prefabs/Structures/Walls/Stone/StoneWall_02/StoneWall_02_4m_v3.et"
+       m_sWallAsset "{FE657FA3BEE51C58}Prefabs/Structures/Walls/Stone/StoneWall_02/StoneWall_02_4m_v3.et"
       }
       WallWeightPair "{5584F78A7058669D}" {
-       m_sWallAsset "{C4A09C9625CA6078}Prefabs/Structures/Walls/Stone/StoneWall_02/StoneWall_02_d.et"
+       m_sWallAsset "{85D69C0818E79907}Prefabs/Structures/Walls/Stone/StoneWall_02/StoneWall_02_d.et"
       }
      }
     }
    }
    ExactPlacement 1
    {
-    $grp SCR_DestructibleEntity : "{2BC751DB114A3280}Prefabs/Structures/Walls/Stone/StoneWall_02/StoneWall_02_4m_v3.et" {
-     {
-      coords -3.853 -0.3 -12.015
-      angles 0 6.373 0
-     }
-     {
-      coords 3.704 -0.001 -12.859
-      angles 0 -80.836 0
-     }
-     {
-      coords 4.927 -0.764 -3.118
-      angles 0 -91.297 0
-     }
+    SCR_DestructibleEntity : "{1BF9335AB2008B33}Prefabs/Structures/Walls/Stone/StoneWall_02/StoneWall_02_4m_v2.et" {
+     coords 1.232 -0.898 0.948
+     angles 0 -175.504 0
     }
-    SCR_DestructibleEntity : "{7F8BF3C7B377C09F}Prefabs/Structures/Walls/Stone/StoneWall_02/StoneWall_02_start.et" {
-     coords -3.339 -0.554 -2.351
-     angles 0 -263.276 0
-    }
-    $grp SCR_DestructibleEntity : "{A20F29C2A16B2AC5}Prefabs/Structures/Walls/Stone/StoneWall_02/StoneWall_02_4m_v1.et" {
+    $grp SCR_DestructibleEntity : "{6B08AEEC99A1CFE8}Prefabs/Structures/Walls/Stone/StoneWall_02/StoneWall_02_4m_v1.et" {
      {
       coords -3.879 -0.438 -8.026
       angles 0 89.633 0
@@ -103,17 +89,35 @@ PolylineShapeEntity {
       angles 0 -263.276 0
      }
     }
-    SCR_DestructibleEntity : "{C2C08AEE655E581A}Prefabs/Structures/Walls/Stone/StoneWall_02/StoneWall_02_end.et" {
+    SCR_DestructibleEntity : "{AA29DDBF1CD8EE47}Prefabs/Structures/Walls/Stone/StoneWall_02/StoneWall_02_start.et" {
+     coords -3.339 -0.554 -2.351
+     angles 0 -263.276 0
+    }
+    SCR_DestructibleEntity : "{D84A36F4699A8743}Prefabs/Structures/Walls/Stone/StoneWall_02/StoneWall_02_end.et" {
      coords -3.879 -0.44 -7.961
      angles 0 89.633 0
     }
-    SCR_DestructibleEntity : "{CE5B1D221DAFA5EB}Prefabs/Structures/Walls/Stone/StoneWall_02/StoneWall_02_4m_v2.et" {
-     coords 1.232 -0.898 0.948
-     angles 0 -175.504 0
+    $grp SCR_DestructibleEntity : "{FE657FA3BEE51C58}Prefabs/Structures/Walls/Stone/StoneWall_02/StoneWall_02_4m_v3.et" {
+     {
+      coords -3.853 -0.3 -12.015
+      angles 0 6.373 0
+     }
+     {
+      coords 3.704 -0.001 -12.859
+      angles 0 -80.836 0
+     }
+     {
+      coords 4.927 -0.764 -3.118
+      angles 0 -91.297 0
+     }
     }
    }
   }
  }
+}
+SCR_DestructibleBuildingEntity {
+ coords 2751.695 301.185 1514.403
+ scale 0.4
 }
 $grp Tree : "{054B89DDC0DBA1C2}Prefabs/Vegetation/Plant/Hedera_Helix/p_hedera_helix_corner_04.et" {
  {
@@ -175,9 +179,13 @@ GenericEntity : "{190101E6E60E7C47}Prefabs/Props/Civilian/BeerBottle_01_empty_gr
  coords 2775.487 295.044 1522.438
  angles -5.354 -0.084 0.899
 }
+SCR_DestructibleEntity : "{1BF9335AB2008B33}Prefabs/Structures/Walls/Stone/StoneWall_02/StoneWall_02_4m_v2.et" {
+ coords 2774.371 -0.772 1527.535
+ angles 0 -179.432 0
+}
 GameEntity : "{24089D4BB9AA8913}Prefabs/Method/Props/Camps/Fireplace_Loiters_ground_1.et" {
- coords 2747.27 296.712 1507.501
- angles 0 0 2.584
+ coords 2747.275 296.817 1507.501
+ angles 0 0 3.35
  {
   GenericEntity {
    ID "6316A79DA55E8C9B"
@@ -227,15 +235,9 @@ GenericEntity : "{2BEFAC062FDA2F11}Prefabs/Structures/BuildingParts/Cultural/Pai
  coords 2752.376 301.126 1520.719
  angles 11.825 -105.132 -0.884
 }
-$grp StaticModelEntity : "{2D0FEDF121395411}Prefabs/Structures/Debris/DebrisPile_HouseVillage/DebrisPile_HouseVillage_01_Huge.et" {
- {
-  coords 2752.537 295.685 1524.287
-  angles 0 -173.513 0
- }
- {
-  coords 2753.673 296.181 1510.64
-  angles 0 -173.513 0
- }
+StaticModelEntity : "{2D0FEDF121395411}Prefabs/Structures/Debris/DebrisPile_HouseVillage/DebrisPile_HouseVillage_01_Huge.et" {
+ coords 2752.537 295.685 1524.287
+ angles 0 -173.513 0
 }
 $grp Tree : "{2ED50A8AD68FBA5E}PrefabLibrary/CainLibrary/Vegetation/Bushes/b_corylus_avellana_1l_aut.et" {
  {
@@ -272,10 +274,6 @@ GenericEntity : "{4A6CAB11852FD31C}Prefabs/Props/Furniture/Chair_01/Chair_01_yel
  coords 2751.025 302.966 1506.025
  angles 3.198 -92.679 -180
 }
-SCR_DestructibleBuildingEntity : "{4E68FA4CAE8833F8}Prefabs/Structures/Infrastructure/Naval/Piers/Pier02 PlankBridge.et" {
- coords 2751.695 301.185 1514.403
- scale 0.4
-}
 Tree : "{5D765B912A33A615}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_salix_fragilis_2s.et" {
  coords 2777.866 -0.266 1522.924
  angles 0.345 16.471 -0.098
@@ -307,9 +305,8 @@ $grp GenericEntity : "{678F3374CF4CC249}Prefabs/Props/Furniture/BenchChurch_02/B
   scale 0.9
  }
 }
-SCR_DestructibleEntity : "{7F8BF3C7B377C09F}Prefabs/Structures/Walls/Stone/StoneWall_02/StoneWall_02_start.et" {
- coords 2770.299 -1.029 1525.931
- angles -0.469 -87.587 -53.09
+SCR_DestructibleEntity : "{6B08AEEC99A1CFE8}Prefabs/Structures/Walls/Stone/StoneWall_02/StoneWall_02_4m_v1.et" {
+ coords 2770.536 -0.997 1517.576
 }
 $grp GenericEntity : "{81873AD73707B808}Prefabs/Props/Furniture/BenchChurch_02/BenchChurch_02_base.et" {
  {
@@ -400,9 +397,6 @@ $grp Tree : "{9CC816FDA9E08938}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_
   scale 0.82
  }
 }
-SCR_DestructibleEntity : "{A20F29C2A16B2AC5}Prefabs/Structures/Walls/Stone/StoneWall_02/StoneWall_02_4m_v1.et" {
- coords 2770.536 -0.997 1517.576
-}
 Tree : "{A35E15EBC6033C07}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_1.et" {
  coords 2752.715 2.249 1523.53
  angles -9.97 99.715 -0.584
@@ -416,6 +410,10 @@ Tree : "{A43BE7E364B5CD67}Prefabs/Vegetation/Bush/b_juniperus_communis_2w.et" {
 Tree : "{A8188E486B3DACC6}Prefabs/Vegetation/Plant/Chamerion_angustifolium/p_chamerion_angustifolium_0.et" {
  coords 2769.481 0.208 1526.992
  scale 0.74
+}
+SCR_DestructibleEntity : "{AA29DDBF1CD8EE47}Prefabs/Structures/Walls/Stone/StoneWall_02/StoneWall_02_start.et" {
+ coords 2770.299 -1.029 1525.931
+ angles -0.469 -87.587 -53.09
 }
 $grp Tree : "{B1B7D4FC059630B0}Prefabs/Vegetation/Plant/Hedera_Helix/p_hedera_helix_corner_01.et" {
  {
@@ -445,17 +443,13 @@ StaticModelEntity : "{C01F4E10982254F3}Prefabs/Structures/Cultural/Cemeteries/To
  coords 2775.791 -0.048 1522.756
  angles 2.603 -93.435 2.494
 }
-SCR_DestructibleEntity : "{C2C08AEE655E581A}Prefabs/Structures/Walls/Stone/StoneWall_02/StoneWall_02_end.et" {
- coords 2770.448 -1.003 1518.582
- angles 3.211 87.299 49.891
-}
-SCR_DestructibleEntity : "{CE5B1D221DAFA5EB}Prefabs/Structures/Walls/Stone/StoneWall_02/StoneWall_02_4m_v2.et" {
- coords 2774.371 -0.772 1527.535
- angles 0 -179.432 0
-}
 GenericEntity : "{D810B4BAE4442096}Prefabs/Structures/BuildingParts/Cultural/PaintingChurch_01/PaintingChurch_01_StationofCross_V12.et" {
  coords 2752.214 301.143 1520.331
  angles 16.565 -115.42 -1.478
+}
+SCR_DestructibleEntity : "{D84A36F4699A8743}Prefabs/Structures/Walls/Stone/StoneWall_02/StoneWall_02_end.et" {
+ coords 2770.448 -1.003 1518.582
+ angles 3.211 87.299 49.891
 }
 GenericEntity : "{D8ABE2DE630F577E}Prefabs/Compositions/Misc/SubCompositions/CrateStacked_01.et" {
  components {

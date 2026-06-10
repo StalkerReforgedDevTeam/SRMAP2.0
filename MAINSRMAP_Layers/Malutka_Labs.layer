@@ -454,6 +454,10 @@ $grp GenericEntity : "{3B9DD26E4C48A3D6}Prefabs/Trash/Ammo/GarbageAmmunition_US_
   coords 5348.662 290.521 588.643
  }
 }
+GenericEntity : "{3FD26066E47DD5AE}PrefabLibrary/DefaultLibrary/Props/Commercial/CrateWooden_01_plain.et" {
+ coords 6329.08 300.753 2785.15
+ angles 1.274 -158.967 -90
+}
 $grp GenericEntity : "{47A2F2F3C8FAACD5}Prefabs/Props/Military/Camps/PalletAmmo_01_Soviet.et" {
  {
   coords 5342.264 290.521 596.268

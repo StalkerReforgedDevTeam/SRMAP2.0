@@ -32,25 +32,3 @@ GenericEntity : "{A8BDD705E8F811E6}Prefabs/Vehicles/kamaz/armst_kamaz_red_wreck.
  coords 2995.897 301.542 1548.474
  angles -4.134 -149.059 -102.84
 }
-GenericEntity : "{BEFC8ED70BAD3F20}Prefabs/DONT_USE/CargoContainer_04_big.et" {
- components {
-  MeshObject "{5872F0EB7FA40561}" {
-   Materials {
-    MaterialAssignClass "{66ED364134794E85}" {
-     SourceMaterial "Cargo_EXT"
-     AssignedMaterial "{1B59CB76A5093457}Assets/Structures/Military/Radar/ApproachRadar_01/data/ApproachRadar_TPN19_01_generator_wreck.emat"
-    }
-    MaterialAssignClass "{66ED364134794EA3}" {
-     SourceMaterial "Cargo_INT"
-     AssignedMaterial "{1B59CB76A5093457}Assets/Structures/Military/Radar/ApproachRadar_01/data/ApproachRadar_TPN19_01_generator_wreck.emat"
-    }
-    MaterialAssignClass "{66ED364134794EA0}" {
-     SourceMaterial "Cargo_Mlod"
-     AssignedMaterial "{1B59CB76A5093457}Assets/Structures/Military/Radar/ApproachRadar_01/data/ApproachRadar_TPN19_01_generator_wreck.emat"
-    }
-   }
-  }
- }
- coords 2996.437 301.264 1544.056
- angles 3.759 -160.465 -100.468
-}

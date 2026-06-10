@@ -106,7 +106,7 @@ GenericEntity : "{208A9B6682B63E4F}Prefabs/Structures/BuildingParts/Windows/Win_
  angles -90 -180 -180
  scale 0.67
 }
-GenericEntity : "{22CAE0A2F3DFF712}Prefabs/Characters/Deads/armst_dead_coat.et" {
+GameEntity : "{22CAE0A2F3DFF712}Prefabs/Characters/Deads/armst_dead_coat.et" {
  components {
   BaseItemAnimationComponent "{6712E82B4C0E57EA}" {
    StartNode "dead_4"
@@ -224,25 +224,10 @@ GenericEntity : "{4A4B245D7CAC341B}Prefabs/Props/Furniture/ChairOld_02.et" {
  coords 6322.547 300.645 2787.606
  angles 0 122.152 -88.569
 }
-SCR_DestructibleBuildingEntity : "{4E68FA4CAE8833F8}Prefabs/Structures/Infrastructure/Naval/Piers/Pier02 PlankBridge.et" {
- components {
-  MeshObject "{64917863C24EB26E}" {
-   Materials {
-    MaterialAssignClass "{6876F03E5D1A9566}" {
-     SourceMaterial "Pier02Plankbridge_mat"
-     AssignedMaterial "{F1B661A5230E8A60}Assets/Structures/Cultural/Church/Church_01/Data/Church_01_Wood.emat"
-    }
-   }
-  }
- }
- coords 6323.283 302.441 2793.771
- angles -4.582 -50.953 -0.191
- scale 0.268
-}
 GameEntity : "{50E6A3845C9F20FD}Prefabs/Props/Military/Camps/LanternMilitary_US_01.et" {
  coords 6329.749 302.745 2785.055
 }
-GenericEntity : "{518503DD978F3BDA}Prefabs/Characters/Deads/armst_dead_srev.et" {
+GameEntity : "{518503DD978F3BDA}Prefabs/Characters/Deads/armst_dead_srev.et" {
  components {
   BaseItemAnimationComponent "{6712E82B4C0E57EA}" {
    StartNode "dead_6"
@@ -292,11 +277,7 @@ GenericEntity : "{679047EDE08DFD48}Prefabs/Props/Military/AmmoBoxes/EquipmentBox
 GenericEntity : "{6D66A35ABDA08197}Prefabs/Props/Garbage/Military/Ammo/GarbageAmmunition_USSR_01.et" {
  coords 6315.458 300.466 2795.007
 }
-GenericEntity : "{6E4573A4C194631F}Prefabs/Props/Military/RoadBlocks/Roadblock ConcreteBlock.et" {
- coords 6329.424 0 2785.836
- angles 0 79.948 0
-}
-GenericEntity : "{7030822F7A54F479}Prefabs/LOOT_BOX/base/backpacks/CrateWooden_01_base.et" {
+GenericEntity : "{7030822F7A54F479}Prefabs/Props/Crates/CrateWooden_01_base.et" {
  coords 6326.342 303.102 2790.859
  angles 0 128.415 -90
 }
@@ -358,10 +339,6 @@ GenericEntity : "{8599EE1DF5685104}Prefabs/Props/Garbage/Generic/LitterInterior_
 GenericEntity : "{881558ACD5FC31C0}Prefabs/Props/Crates/CrateWooden_02/CrateWooden_02_1x1x2.et" {
  coords 6323.176 300.452 2793.951
  angles 0 -8.738 0
-}
-GenericEntity : "{8871B00C873DA8B7}Prefabs/Props/Civilian/Shelves/Shelf_Metal.et" {
- coords 6327.713 0 2788.899
- angles 0 -141.948 0
 }
 GenericEntity : "{88FAE04EF7115814}Prefabs/Props/Civilian/BeerBottle_01_green.et" {
  coords 6312.127 301.023 2791.411
@@ -633,50 +610,6 @@ GenericEntity : "{E9D97BDDDF10C95D}Prefabs/wood_bridges/wood_bridges_long_pol.et
  }
  coords 6328 300.452 2788.078
  angles 0 39.969 0
-}
-$grp StaticModelEntity : "{EF39F5715EF2323E}Prefabs/Structures/Walls/BarbedWire/BarbedTape_01/BarbedTape_01_Short.et" {
- {
-  components {
-   MeshObject "{56DE7C8DCD0F4E0A}" {
-    Materials {
-     MaterialAssignClass "{687715D8B08A00FC}" {
-      SourceMaterial "BarbedTape_Set_01"
-      AssignedMaterial "{814B5720167A27F5}Assets/Structures/Walls/Agriculture/Cowfence/Data/Barbwire_Mat.emat"
-     }
-    }
-   }
-  }
-  coords 6331.623 0 2786.039
-  angles 0 -2.264 0
- }
- {
-  components {
-   MeshObject "{56DE7C8DCD0F4E0A}" {
-    Materials {
-     MaterialAssignClass "{687715D8B6115ADB}" {
-      SourceMaterial "BarbedTape_Set_01"
-      AssignedMaterial "{814B5720167A27F5}Assets/Structures/Walls/Agriculture/Cowfence/Data/Barbwire_Mat.emat"
-     }
-    }
-   }
-  }
-  coords 6331.346 0 2787.684
-  angles 0 -15.931 0
- }
- {
-  components {
-   MeshObject "{56DE7C8DCD0F4E0A}" {
-    Materials {
-     MaterialAssignClass "{687715D8A1AFF7BD}" {
-      SourceMaterial "BarbedTape_Set_01"
-      AssignedMaterial "{814B5720167A27F5}Assets/Structures/Walls/Agriculture/Cowfence/Data/Barbwire_Mat.emat"
-     }
-    }
-   }
-  }
-  coords 6330.64 0 2789.249
-  angles 0 -38.391 0
- }
 }
 GenericEntity : "{F337792A8F2A669B}PrefabsEditable/Auto/Props/Civilian/E_BeerBottle_01_empty_brown.et" {
  coords 6312.287 301.142 2791.125
