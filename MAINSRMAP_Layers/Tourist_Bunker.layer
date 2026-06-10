@@ -1,0 +1,401 @@
+SplineShapeEntity {
+ coords 3167.901 306.702 461.84
+ Points {
+  ShapePoint "{687548E9EE0C57F8}" {
+   Position -1.588 0.816 -2.13
+  }
+  ShapePoint "{687548E9EE0C5F40}" {
+   Position 26.55 0 15.276
+  }
+  ShapePoint "{687548EA05A614D5}" {
+   Position 44.661 -0.013 26.369
+  }
+  ShapePoint "{687548EA0605FD1E}" {
+   Position 56.678 -1.783 33.281
+  }
+  ShapePoint "{687548EA07054B73}" {
+   Position 63.438 -4.451 39.676
+  }
+  ShapePoint "{687548EA01144CF9}" {
+   Position 70.093 -5.125 43.941
+   Data {
+    SplinePointData SplinePointData {
+     InTangent 10.916 -0.447 1.703
+     OutTangent 10.916 -0.447 1.703
+    }
+   }
+  }
+  ShapePoint "{687548EA4F4E8548}" {
+   Position 78.615 -5.118 45.251
+  }
+ }
+ {
+  RoadGeneratorEntity : "{0032466D94C588E6}Prefabs/WEGenerators/Roads/Dirt/RG_Road_Forest_01.et" {
+   coords -1.124 0 -0.872
+   {
+    RoadEntity {
+     ID "55F85D16D1C7EB8E"
+     SplinePoints {
+      ShapePoint "{556C65561A62B78A}" {
+       Position -0.464 0.816 -1.258
+      }
+      ShapePoint "{556C65561A62EBA9}" {
+       Position 27.674 0 16.147
+      }
+      ShapePoint "{687548EA211F2B55}" {
+       Position 45.785 -0.013 27.241
+      }
+      ShapePoint "{687548EA211F2AAD}" {
+       Position 57.802 -1.783 34.153
+      }
+      ShapePoint "{687548EA211F2AEB}" {
+       Position 64.562 -4.451 40.548
+      }
+      ShapePoint "{687548EA211F2A1C}" {
+       Position 71.217 -5.125 44.813
+       Data {
+        SplinePointData "{00000000D8F1BA4F}" {
+         InTangent 10.916 -0.447 1.703
+         OutTangent 10.916 -0.447 1.703
+        }
+       }
+      }
+      ShapePoint "{687548EA4F4EAC50}" {
+       Position 79.739 -5.118 46.123
+      }
+     }
+     IsClosedSpline 0
+     Width 4.5
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{07787312C09C1E62}PrefabLibrary/CainLibrary/Props/Garbage/MetalDebris_01_V2.et" {
+ components {
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   m_fDamageThresholdMaximum 50000
+  }
+ }
+ coords 3250.458 301.577 507.595
+ angles 0 51.516 0
+}
+$grp SCR_IndestructibleEnvironmentalEntity : "{07FBB9A2F51332E4}Prefabs/Rocks/Granite/Granite_BeachStone_01.et" {
+ {
+  coords 3252.942 4.131 523.114
+  angles 0 -79.66 0
+  scale 0.26
+ }
+ {
+  coords 3250.049 0.749 526.374
+  angles 0 -115.417 0
+  scale 0.53
+ }
+}
+GenericEntity : "{190101E6E60E7C47}Prefabs/Props/Civilian/BeerBottle_01_empty_green.et" {
+ components {
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   m_fDamageThresholdMaximum 50000
+  }
+ }
+ coords 3252.959 305.426 518.391
+ angles 76.554 -82.989 -125.779
+}
+SCR_IndestructibleEnvironmentalEntity : "{28B3BD910DA69CD5}Prefabs/Rocks/Granite/Granite_ForestCluster_01.et" {
+ coords 3250.495 2.659 523.529
+ angles 29.446 124.783 29.864
+}
+GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/DestructibleMultiPhase_Props_Base.et" {
+ components {
+  SignalsManagerComponent "{62DEB6B66AB95AB0}" {
+  }
+  SoundComponent "{62DEB6B66AB95AB8}" {
+   Filenames {
+    "{ADF9249D6654328B}Sounds/Compositions/Misc/Campfire/Compositions_Campfire.acp"
+   }
+   IncludeInactive 1
+  }
+  BaseSlotComponent "{62DEB6B66AB95A40}" {
+   AttachType EntitySlotInfo fireplace {
+   }
+   EntityPrefab "{8243CC3B73B19449}Prefabs/Props/Civilian/Fireplace_01_hot_decal.et"
+  }
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{D81419CECB87E909}Assets/Fireplaces/fireplace_ground.xob"
+   ClutterOccluder 1
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "SmallDestructible"
+   Static 1
+  }
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" : "{76DA308CC9E2AB84}Prefabs/Props/Core/DestructionMultiPhase_Base.ct" {
+   m_fBaseHealth 500
+   m_aDamagePhases {
+    SCR_DamagePhaseData "{62DEB6B66AB95A52}" {
+     m_fPhaseHealth 700
+     m_PhaseModel "{EB9067FFF3AE351E}Assets/Props/Civilian/Fireplace_01/Dst/FirePlace_01_dst.xob"
+    }
+   }
+  }
+  SCR_FireplaceComponent "{62DEB6B66AB95A5E}" {
+   m_bGradualLightning 0
+   m_fLV 4
+   m_sParticle "{40FCA06B56510F73}Assets/Fireplaces/Data/fireplace.ptc"
+   m_eInitialLightState LIT_ON_SPAWN
+  }
+  ActionsManagerComponent "{62DEB6B66AB95A58}" {
+   ActionContexts {
+    UserActionContext "{62DEB6B66AB95A5B}" {
+     ContextName "fireplace"
+     Position PointInfo "{62DEB6B66AB95A65}" {
+     }
+     Radius 1
+    }
+   }
+   additionalActions {
+    SCR_LightFireplaceUserAction "{62DEB6B66AB95A61}" {
+     ParentContextList {
+      "fireplace"
+     }
+     VisibilityRange 2
+     Duration 1
+    }
+   }
+  }
+  RplComponent "{5624A88DC2D9928D}" {
+   Enabled 1
+  }
+ }
+ coords 3218.428 306.702 373.594
+ angles 0 -35.345 0
+ {
+  GenericEntity : "{1359D393ED1D1A3F}Prefabs/Props/Garbage/Medical/GarbageMedicalUSSR_01.et" {
+   coords 1.877 0.003 0.447
+   angles 0 -70.165 0
+  }
+  GenericEntity : "{18982CB5D0D29247}Prefabs/Props/Civilian/BeerBottle_01_empty_brown.et" {
+   coords 2.221 0.013 -0.037
+  }
+  GenericEntity : "{190101E6E60E7C47}Prefabs/Props/Civilian/BeerBottle_01_empty_green.et" {
+   coords 2.24 0.008 0.399
+  }
+  GenericEntity : "{3B021FADF6E151DA}Prefabs/beds/matrass_3.et" {
+   coords 2.293 -0.055 -0.177
+   angles 0 0 0
+  }
+  GenericEntity : "{985C3871D40C7F7B}Prefabs/Props/Garbage/Generic/Litter_01_small.et" {
+   coords 1.775 0.003 -0.7
+  }
+  GenericEntity : "{B898D2A1F45058F6}Prefabs/Props/Garbage/Military/Food/GarbageFoodMilitaryUSSR_01.et" {
+   coords 2.234 0.012 0.163
+  }
+  GenericEntity : "{D0B44EB8DBEDDA97}Prefabs/Props/Civilian/Bucket_02.et" {
+   coords -1.402 0.002 -1.119
+   angles 0 66.468 0
+  }
+  $grp GenericEntity : "{E105D2F87098E1D9}Prefabs/Method/Props/Camps/PatrolPoint_LoiterPoint.et" {
+   {
+    components {
+     SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+      m_eLoiterAnimation SIT
+      m_bHolsterWeapon 1
+     }
+    }
+    coords -1.653 0 0.021
+    angles 0 0 0
+   }
+   {
+    components {
+     SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+      m_eLoiterAnimation SIT
+      m_bHolsterWeapon 1
+     }
+    }
+    coords 0.146 0 -1.774
+    angles 0 -87 0
+   }
+   {
+    components {
+     SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+      m_iCharacterStance CROUCH
+      m_eLoiterAnimation SIT
+      m_bHolsterWeapon 1
+     }
+    }
+    coords 2.246 0.078 -0.27
+    angles 0 178 0
+   }
+  }
+  GenericEntity : "{F1C5AA461DC6ECCE}Prefabs/Props/Civilian/PotOld_01.et" {
+   coords 1.606 0.003 0.964
+   angles 0 105.444 0
+  }
+  GenericEntity : "{F4CA533A99B20DAE}Prefabs/Props/Civilian/SackUniversal_01.et" {
+   coords -2.428 -0.062 -0.359
+   angles 77.142 -118.032 59.921
+  }
+ }
+}
+GenericEntity : "{561862CA0934187B}PrefabLibrary/CainLibrary/Props/Garbage/MetalDebris_01_V6.et" {
+ components {
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   m_fDamageThresholdMaximum 50000
+  }
+ }
+ coords 3241.472 301.613 512.359
+ angles -3.764 130.376 4.415
+}
+StaticModelEntity : "{56DC80CF8932FC9A}Prefabs/Structures/Military/Fortifications/Trenches/TrenchOld_01/TrenchOld_01_6m_bare.et" {
+ components {
+  MeshObject "{5272E314F6439B95}" {
+   Materials {
+    MaterialAssignClass "{687548EE82C87D51}" {
+     SourceMaterial "Old_Trenches_MLOD_0DB2211C5052E546"
+     AssignedMaterial "{DFA24A47A03975F5}Assets/Terrain/Erosion/ErodedEmbankment_01/Data/ErodedEmbankment_01_dirt_roots.emat"
+    }
+    MaterialAssignClass "{687548EE82C87D63}" {
+     SourceMaterial "Old_Trenches_ground_47D78D9D8EAC2980"
+     AssignedMaterial "{003244BB00581E05}Common/Materials/default_MatTerrainObj_TerrShadows.emat"
+    }
+   }
+  }
+ }
+ coords 3249.761 0.615 525.072
+ angles 16.207 25.426 -11.218
+}
+GenericEntity : "{590D0CC992E8AC25}Prefabs/Compositions/Misc/SubCompositions/Decorations/Crate_Bottles_01.et" {
+ components {
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   m_fDamageThresholdMaximum 50000
+  }
+ }
+ coords 3253.516 305.338 517.352
+ angles 5.13 -0.26 -2.909
+}
+$grp SCR_IndestructibleEnvironmentalEntity : "{59D79F785D414D67}PrefabLibrary/DefaultLibrary/Rocks/Granite/Granite_Stone_01/Granite_ForestStone_01.et" {
+ {
+  coords 3248.331 -1.006 526.424
+  angles -19.368 -99.908 0.158
+  scale 1.183
+ }
+ {
+  coords 3266.87 3.207 512.418
+  angles -19.368 -99.908 0.158
+  scale 1.183
+ }
+ {
+  coords 3270.144 2.799 512.766
+  angles -5.565 6.64 -21.495
+  scale 1.183
+ }
+}
+GenericEntity : "{6E3320C3C37CAFE5}Prefabs/Props/Garbage/Cardboard/Cardboard_Pile_04.et" {
+ components {
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   m_fDamageThresholdMaximum 50000
+  }
+ }
+ coords 3252.735 305.343 517.84
+ angles 5.129 -0.304 -3.395
+}
+GenericEntity : "{70A8F4FD7BA0FE84}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/CargoContainer_01_20ft_blue_rusty.et" {
+ components {
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   m_fDamageThresholdMaximum 50000
+  }
+ }
+ coords 3240.962 302.662 506.091
+ angles 0.748 -106.338 -6.497
+}
+SCR_IndestructibleEnvironmentalEntity : "{735E970ACBB1B473}Prefabs/Rocks/Granite/Granite_Boulder_01.et" {
+ coords 3249.386 1.239 521.288
+ scale 0.52
+}
+$grp SCR_IndestructibleEnvironmentalEntity : "{76AF1688C649DC10}Prefabs/Rocks/Granite/Granite_ForestStone_03.et" {
+ {
+  coords 3250.928 2.928 523.65
+  angles 0 -62.117 0
+ }
+ {
+  coords 3252.044 3.693 523.997
+  angles 0 0 0
+  scale 0.5
+ }
+ {
+  coords 3248.924 2.206 520.723
+  angles -34.824 169.233 -144.688
+  scale 0.461
+ }
+ {
+  coords 3268.805 3.095 514.383
+  angles 21.949 -85.523 0
+ }
+}
+GenericEntity : "{88FAE04EF7115814}Prefabs/Props/Civilian/BeerBottle_01_green.et" {
+ components {
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   m_fDamageThresholdMaximum 50000
+  }
+ }
+ coords 3252.956 305.388 518.264
+}
+SCR_IndestructibleEnvironmentalEntity : "{93335A71CAAC4B7B}Prefabs/Rocks/Granite/Granite_ForestStone_02.et" {
+ coords 3250.903 2.01 525.247
+ angles 17.205 -47.489 -33.036
+ scale 0.69
+}
+GenericEntity : "{9C3194D015F3ED74}Prefabs/Vehicles/kamaz/base/BASE_kamaz_wreck.et" {
+ coords 3244.201 301.577 506.952
+ angles 0 -102.407 0
+}
+GameEntity : "{A0F4189518336A25}Prefabs/Method/Props/Camps/Fireplace_Loiters_base.et" {
+ components {
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   m_fDamageThresholdMaximum 50000
+  }
+ }
+ coords 3236.334 301.588 509.248
+}
+GenericEntity : "{AC044E8285DB9E53}PrefabLibrary/CainLibrary/Props/Garbage/ConcreteDebris_01_V1.et" {
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Materials {
+    MaterialAssignClass "{687548EBAAED72CF}" {
+     SourceMaterial "ConcreteDebris_01_MLOD"
+     AssignedMaterial "{814879D612EFB448}Assets/Structures/Military/Bunkers/ReinforcedFueltank_E_01/Data/ReinforcedFuelTank_E_01_EXT_MLOD.emat"
+    }
+    MaterialAssignClass "{687548EBAAED72DC}" {
+     SourceMaterial "ConcreteDebris_01_V1"
+     AssignedMaterial "{814879D612EFB448}Assets/Structures/Military/Bunkers/ReinforcedFueltank_E_01/Data/ReinforcedFuelTank_E_01_EXT_MLOD.emat"
+    }
+   }
+  }
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   m_fDamageThresholdMaximum 50000
+  }
+ }
+ coords 3253.998 299.691 511.84
+ angles 14.56 -69.351 29.353
+}
+GenericEntity : "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et" {
+ coords 3248.208 304.807 520.333
+ angles -14.019 -70.194 0
+}
+GenericEntity : "{DFD01AD3B915003E}PrefabLibrary/CainLibrary/Props/Garbage/MetalDebris_01_V4.et" {
+ components {
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   m_fDamageThresholdMaximum 50000
+  }
+ }
+ coords 3231.509 301.577 509.442
+ angles 0 135.4 0
+}
+GenericEntity : "{EE22BB8259C1A594}Prefabs/Props/Furniture/Armchair_03.et" {
+ components {
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   m_fDamageThresholdMaximum 50000
+  }
+ }
+ coords 3253.272 305.386 517.976
+ angles -5.062 -114.634 -3.924
+}

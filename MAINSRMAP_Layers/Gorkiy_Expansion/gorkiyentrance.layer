@@ -1,0 +1,366 @@
+$grp GenericEntity : "{0CA0F15A651DB0F7}Prefabs/LOOT_BOX/base/army/Loot_army_box_weapons.et" {
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_bSpawnInHardTier 1
+   }
+  }
+  coords 3244.755 304.625 2603.246
+  angles 0 -30.827 0
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_bSpawnInHardTier 1
+   }
+  }
+  coords 3237.271 304.663 2606.073
+  angles 0 56.034 0
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_bSpawnInHardTier 1
+   }
+  }
+  coords 3241.992 304.648 2602.714
+ }
+}
+GenericEntity : "{118F3279376A233C}Prefabs/deads/skeleton/dead_skeleton_4.et" {
+ coords 2699.933 298.437 2622.84
+ angles -15.139 -73.017 -1.965
+}
+$grp GenericEntity : "{2D75D58112D921E4}Prefabs/LOOT_BOX/base/backpacks/Loot_random_backpack_2.et" {
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_bSpawnInLowTier 0
+    m_bSpawnInMediumTier 0
+    m_bSpawnInHardTier 1
+   }
+  }
+  coords 3157.484 304.702 2621.474
+  angles 0 -53.298 0
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_bSpawnInLowTier 0
+    m_bSpawnInMediumTier 0
+    m_bSpawnInHardTier 1
+   }
+  }
+  coords 3241.628 304.702 2613.128
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_bSpawnInLowTier 0
+    m_bSpawnInMediumTier 0
+    m_bSpawnInHardTier 1
+   }
+  }
+  coords 3255.484 304.702 2708.938
+  angles 0 -33.779 0
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_bSpawnInLowTier 0
+    m_bSpawnInMediumTier 0
+    m_bSpawnInHardTier 1
+   }
+  }
+  coords 3238.072 304.537 2611.902
+  angles 0 11.362 0
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_bSpawnInLowTier 0
+    m_bSpawnInMediumTier 0
+    m_bSpawnInHardTier 1
+   }
+  }
+  coords 3341.836 303.944 2453.076
+  angles 0 88.071 0
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_bSpawnInLowTier 0
+    m_bSpawnInMediumTier 0
+    m_bSpawnInHardTier 1
+   }
+  }
+  coords 3151.397 304.64 2473.414
+  angles 0 76.811 0
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_bSpawnInLowTier 0
+    m_bSpawnInMediumTier 0
+    m_bSpawnInHardTier 1
+   }
+  }
+  coords 3199.044 304.606 2475.023
+  angles 0 -50.159 0
+ }
+}
+GenericEntity : "{37F956298DB37229}Prefabs/others/koliya.et" {
+ coords 2699.272 297.805 2620.537
+ angles 13.839 114.237 -1.366
+}
+GenericEntity : "{67A5A8E2A7BEB2F3}Prefabs/LOOT_BOX/base/army/Loot_army_box_Attachments.et" {
+ components {
+  ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+   m_bSpawnInMediumTier 1
+   m_bSpawnInHardTier 1
+  }
+ }
+ coords 3245.867 304.622 2605.157
+ angles 0 -57.907 0
+}
+$grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRIGGER_ANOMAL.et" {
+ {
+  coords 3318.038 304.287 2449.9
+  SphereRadius 72.6
+  UpdatePeriod 7
+  m_ObjectPrefab "{D8DA4E7A59B2F330}Prefabs/Anomals/Eye/ARMST_EYE.et"
+  m_ObjectPrefab3 "{D43F10276490CD14}Prefabs/Anomals/Lighting/Explosion_flash.et"
+  m_SpawnCount 10
+  m_MinDistanceBetweenAnomalies 10
+  m_MinDistanceToPlayer 25
+  m_SpawnChanceArtefacts 15
+ }
+ {
+  coords 3224.517 306.272 2510.606
+  SphereRadius 72.6
+  UpdatePeriod 7
+  m_ObjectPrefab "{D8DA4E7A59B2F330}Prefabs/Anomals/Eye/ARMST_EYE.et"
+  m_ObjectPrefab3 "{D43F10276490CD14}Prefabs/Anomals/Lighting/Explosion_flash.et"
+  m_SpawnCount 10
+  m_MinDistanceBetweenAnomalies 10
+  m_MinDistanceToPlayer 25
+  m_SpawnChanceArtefacts 15
+ }
+ {
+  coords 3050.908 304.702 2504.774
+  SphereRadius 72.6
+  UpdatePeriod 7
+  m_ObjectPrefab "{D8DA4E7A59B2F330}Prefabs/Anomals/Eye/ARMST_EYE.et"
+  m_ObjectPrefab3 "{D43F10276490CD14}Prefabs/Anomals/Lighting/Explosion_flash.et"
+  m_SpawnCount 10
+  m_MinDistanceBetweenAnomalies 10
+  m_MinDistanceToPlayer 25
+  m_SpawnChanceArtefacts 15
+ }
+ {
+  coords 3070.894 299.604 2232.553
+  SphereRadius 72.6
+  UpdatePeriod 7
+  m_ObjectPrefab "{D8DA4E7A59B2F330}Prefabs/Anomals/Eye/ARMST_EYE.et"
+  m_ObjectPrefab3 "{D43F10276490CD14}Prefabs/Anomals/Lighting/Explosion_flash.et"
+  m_SpawnCount 10
+  m_MinDistanceBetweenAnomalies 10
+  m_MinDistanceToPlayer 25
+  m_SpawnChanceArtefacts 15
+ }
+ {
+  coords 2842.473 305.358 2571.205
+  SphereRadius 72.6
+  UpdatePeriod 7
+  m_ObjectPrefab "{D8DA4E7A59B2F330}Prefabs/Anomals/Eye/ARMST_EYE.et"
+  m_ObjectPrefab3 "{D43F10276490CD14}Prefabs/Anomals/Lighting/Explosion_flash.et"
+  m_SpawnCount 10
+  m_MinDistanceBetweenAnomalies 10
+  m_MinDistanceToPlayer 25
+  m_SpawnChanceArtefacts 15
+ }
+ {
+  coords 2883.376 308.034 2685.955
+  SphereRadius 72.6
+  UpdatePeriod 7
+  m_ObjectPrefab "{D8DA4E7A59B2F330}Prefabs/Anomals/Eye/ARMST_EYE.et"
+  m_ObjectPrefab3 "{D43F10276490CD14}Prefabs/Anomals/Lighting/Explosion_flash.et"
+  m_SpawnCount 10
+  m_MinDistanceBetweenAnomalies 10
+  m_MinDistanceToPlayer 25
+  m_SpawnChanceArtefacts 15
+ }
+ {
+  coords 3077.917 306.656 2764.83
+  SphereRadius 72.6
+  UpdatePeriod 7
+  m_ObjectPrefab "{D8DA4E7A59B2F330}Prefabs/Anomals/Eye/ARMST_EYE.et"
+  m_ObjectPrefab3 "{D43F10276490CD14}Prefabs/Anomals/Lighting/Explosion_flash.et"
+  m_SpawnCount 10
+  m_MinDistanceBetweenAnomalies 10
+  m_MinDistanceToPlayer 25
+  m_SpawnChanceArtefacts 15
+ }
+ {
+  coords 3253.909 311.863 2792.248
+  SphereRadius 72.6
+  UpdatePeriod 7
+  m_ObjectPrefab "{D8DA4E7A59B2F330}Prefabs/Anomals/Eye/ARMST_EYE.et"
+  m_ObjectPrefab3 "{D43F10276490CD14}Prefabs/Anomals/Lighting/Explosion_flash.et"
+  m_SpawnCount 10
+  m_MinDistanceBetweenAnomalies 10
+  m_MinDistanceToPlayer 25
+  m_SpawnChanceArtefacts 15
+ }
+ {
+  coords 3140.417 305.484 2613.109
+  SphereRadius 72.6
+  UpdatePeriod 7
+  m_ObjectPrefab "{D8DA4E7A59B2F330}Prefabs/Anomals/Eye/ARMST_EYE.et"
+  m_ObjectPrefab3 "{D43F10276490CD14}Prefabs/Anomals/Lighting/Explosion_flash.et"
+  m_SpawnCount 10
+  m_MinDistanceBetweenAnomalies 10
+  m_MinDistanceToPlayer 25
+  m_SpawnChanceArtefacts 15
+ }
+ {
+  coords 3293.142 304.702 2616.161
+  SphereRadius 72.6
+  UpdatePeriod 7
+  m_ObjectPrefab "{D8DA4E7A59B2F330}Prefabs/Anomals/Eye/ARMST_EYE.et"
+  m_ObjectPrefab3 "{D43F10276490CD14}Prefabs/Anomals/Lighting/Explosion_flash.et"
+  m_SpawnCount 10
+  m_MinDistanceBetweenAnomalies 10
+  m_MinDistanceToPlayer 25
+  m_SpawnChanceArtefacts 15
+ }
+ {
+  coords 3211.8 304.702 2703.827
+  SphereRadius 72.6
+  UpdatePeriod 7
+  m_ObjectPrefab "{D8DA4E7A59B2F330}Prefabs/Anomals/Eye/ARMST_EYE.et"
+  m_ObjectPrefab3 "{D43F10276490CD14}Prefabs/Anomals/Lighting/Explosion_flash.et"
+  m_SpawnCount 10
+  m_MinDistanceBetweenAnomalies 10
+  m_MinDistanceToPlayer 25
+  m_SpawnChanceArtefacts 15
+ }
+ {
+  coords 2996.827 304.702 2651.462
+  SphereRadius 72.6
+  UpdatePeriod 7
+  m_ObjectPrefab "{D8DA4E7A59B2F330}Prefabs/Anomals/Eye/ARMST_EYE.et"
+  m_ObjectPrefab3 "{D43F10276490CD14}Prefabs/Anomals/Lighting/Explosion_flash.et"
+  m_SpawnCount 10
+  m_MinDistanceBetweenAnomalies 10
+  m_MinDistanceToPlayer 25
+  m_SpawnChanceArtefacts 15
+ }
+ {
+  coords 2937.52 306.178 2556.239
+  SphereRadius 72.6
+  UpdatePeriod 7
+  m_ObjectPrefab "{D8DA4E7A59B2F330}Prefabs/Anomals/Eye/ARMST_EYE.et"
+  m_ObjectPrefab3 "{D43F10276490CD14}Prefabs/Anomals/Lighting/Explosion_flash.et"
+  m_SpawnCount 10
+  m_MinDistanceBetweenAnomalies 10
+  m_MinDistanceToPlayer 25
+  m_SpawnChanceArtefacts 15
+ }
+ {
+  coords 2965.144 310.58 2787.437
+  SphereRadius 72.6
+  UpdatePeriod 7
+  m_ObjectPrefab "{D8DA4E7A59B2F330}Prefabs/Anomals/Eye/ARMST_EYE.et"
+  m_ObjectPrefab3 "{D43F10276490CD14}Prefabs/Anomals/Lighting/Explosion_flash.et"
+  m_SpawnCount 10
+  m_MinDistanceBetweenAnomalies 10
+  m_MinDistanceToPlayer 25
+  m_SpawnChanceArtefacts 15
+ }
+}
+GenericEntity : "{8C8516E96B5173D8}Prefabs/Vehicles/gaz66/armst_gaz66_wreck_box.et" {
+ coords 2711.928 298.726 2616.755
+ angles -5.961 -46.736 1.125
+}
+StaticModelEntity : "{AE28D47CF26E91EA}Prefabs/Props/Military/Fortification/CzechHedgehog_01_rusty.et" {
+ coords 2714.531 -0.051 2628.585
+ angles 8.642 0 0
+}
+$grp GenericEntity : "{BC78C382910BABBF}Prefabs/LOOT_BOX/base/backpacks/Loot_random_backpack.et" {
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_bSpawnInLowTier 0
+    m_bSpawnInMediumTier 1
+    m_bSpawnInHardTier 1
+   }
+  }
+  coords 3309.358 304.226 2489.779
+  angles 0 22.983 0
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_bSpawnInLowTier 0
+    m_bSpawnInMediumTier 1
+    m_bSpawnInHardTier 1
+   }
+  }
+  coords 3217.996 304.702 2539.769
+ }
+}
+GenericEntity : "{D46A6CCC86F60295}Prefabs/Vehicles/azlk412/armst_azlk412_2.et" {
+ coords 2721.041 298.6 2620.015
+ angles 2.971 71.342 0.412
+ {
+  GenericEntity {
+   ID "662E8AF297DAA858"
+   components {
+    ActionsManagerComponent "{6190D137C5926215}" {
+     additionalActions {
+      ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+       m_iMaxItemsToSpawn 6
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "662E8AF297DAA823"
+   components {
+    ActionsManagerComponent "{6190D137C5926215}" {
+     additionalActions {
+      ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+       m_iMaxItemsToSpawn 6
+      }
+     }
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{E4A22C9C10769063}Prefabs/Vehicles/gaz71/BASE_gaz71.et" {
+ coords 3111.228 305.108 2806.49
+ angles 0 -44.682 0
+}
+$grp GenericEntity : "{EFBF55038C9C22C3}Prefabs/LOOT_BOX/base/army/Loot_army_box_ammunitons.et" {
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_bSpawnInHardTier 1
+   }
+  }
+  coords 3239.821 304.702 2603.726
+  angles 0 32.01 0
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_bSpawnInMediumTier 1
+    m_bSpawnInHardTier 1
+   }
+  }
+  coords 3243.17 304.537 2613.189
+  angles 0 13.637 0
+ }
+}

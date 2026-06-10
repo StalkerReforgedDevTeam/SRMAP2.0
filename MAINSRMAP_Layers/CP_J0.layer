@@ -217,38 +217,6 @@ GenericEntity : "{094DA750D7E9A807}Prefabs/Props/Military/Training/Obstacles/Obs
   }
  }
 }
-$grp GameEntity : "{097F88BDCA8B3D89}Prefabs/Structures/BuildingParts/Lights/LampIndustrial_01_on_exterior.et" {
- {
-  coords 2108.64 313.552 2231.652
-  angles 0 180 0
-  {
-   LightEntity {
-    ID "65128E4DAD9A8FEE"
-    LV 0.58
-    CastShadow 1
-   }
-   LightEntity {
-    ID "65128E4DAD9A8FC4"
-    LV -8
-   }
-  }
- }
- {
-  coords 2121.267 313.618 2223.449
-  angles 0 -90 0
-  {
-   LightEntity {
-    ID "65128E4DAD9A8FEE"
-    LV 2.34
-    CastShadow 1
-   }
-   LightEntity {
-    ID "65128E4DAD9A8FC4"
-    LV -8
-   }
-  }
- }
-}
 $grp GenericEntity : "{0A4218ED97A10411}Prefabs/Props/Furniture/ShelfBarracks_01.et" {
  {
   coords 1263.663 299.617 1327.162
@@ -1624,34 +1592,6 @@ SCR_ChimeraCharacter : "{8E99ACF4E7BD596B}Prefabs/QUESTS/SCIENCE/SCIENCE_MEDIC.e
  coords 1221.152 297.733 1363.928
  angles 0 113.877 0
 }
-GenericEntity : "{8F17372BAB5A9CF8}Prefabs/Structures/BuildingParts/Lights/LightIndustrial_02.et" {
- components {
-  MeshObject "{5111E74D5E891458}" {
-   Materials {
-    MaterialAssignClass "{6514D9E8569D8EF6}" {
-     SourceMaterial "Glass"
-     AssignedMaterial "{FC236CB65AE3141F}Assets/Structures/BuildingsParts/Lights/LampIndustrial_01/Data/Glass_on_white.emat"
-    }
-   }
-  }
- }
- coords 2102.045 313.449 2226.938
- angles -88.674 0 -92.597
- {
-  LightEntity : "{37D194C189668A3C}Prefabs/Structures/BuildingParts/Lights/LightPrefabs/LightIndustrial_02_light_point_interior.et" {
-   coords 0.007 0.007 0.554
-   angles 0.283 -180 180
-   Color 1 0.9655 0.4382 1
-   LV -1
-   ClipEV -10
-   Type Point
-   Radius 26.4
-   SpotAngle 170
-   DistanceAttenuation 0.18
-   LensFlareType Disabled
-  }
- }
-}
 $grp GameEntity : "{8FF50E5D4B417196}Prefabs/Props/Furniture/LampFluorescent/LampFluorescent_01_glass.et" {
  {
   coords 1262.634 304.255 1363.161
@@ -1673,38 +1613,6 @@ $grp GameEntity : "{8FF50E5D4B417196}Prefabs/Props/Furniture/LampFluorescent/Lam
     LV 4
    }
   }
- }
- {
-  coords 2110.447 313.51 2215.585
-  {
-   LightEntity {
-    ID "58D69D7BA124BCB0"
-    LV 3.6
-   }
-  }
- }
- {
-  coords 2101.968 313.51 2215.585
-  {
-   LightEntity {
-    ID "58D69D7BA124BCB0"
-    LV 3.6
-   }
-  }
- }
- {
-  coords 2114.806 313.069 2226.942
-  angles 0 0 2.803
-  {
-   LightEntity {
-    ID "58D69D7BA124BCB0"
-    LV 3.6
-   }
-  }
- }
- {
-  coords 2109.505 313.332 2226.942
-  angles 0 0 2.285
  }
 }
 $grp GenericEntity : "{93B2511EFB2B6A51}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/CrateStack_01_grey.et" {

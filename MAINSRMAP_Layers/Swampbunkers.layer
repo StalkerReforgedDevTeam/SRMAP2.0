@@ -1,0 +1,168 @@
+$grp GenericEntity : "{6220F5D951A6F92B}Prefabs/Staff/box_wooden_small.et" {
+ {
+  coords 2108.755 299.464 1293.251
+  angles 0 0 0
+  scale 3.34
+ }
+ {
+  coords 2113.17 299.464 1295.094
+  angles 0 114.116 0
+  scale 3.34
+ }
+ {
+  coords 2113.17 299.464 1295.094
+  angles 0 114.116 0
+  scale 3.34
+ }
+}
+GenericEntity : "{7030822F7A54F479}Prefabs/LOOT_BOX/base/backpacks/CrateWooden_01_base.et" {
+ coords 2605.543 291.028 1083.859
+}
+GameEntity : "{92D3F8A8AE82E3E5}Prefabs/Method/Props/Camps/Fireplace_Loiters_01_temp.et" {
+ coords 2117.837 294.671 1304.726
+ angles 0 -106.088 0
+}
+GenericEntity : "{B3283803059E2750}Prefabs/Props/Crates/CrateWooden_01_plain.et" {
+ components {
+  Hierarchy "{54A6A39C75EAFE2C}" {
+   Enabled 1
+  }
+ }
+ coords 2117.588 294.302 1293.615
+ angles 30.422 -79.729 0
+}
+GenericEntity : "{BA78843368337269}Prefabs/Scientists/Bunker_Modul_Small/Bunk_Mid_base.et" {
+ coords 2110.34 292.302 1295.02
+ angles 0 -78.836 0
+ {
+  GenericEntity {
+   ID "66DAB6B3B8ECB008"
+   {
+    GenericEntity {
+     ID "6636B580FC9C6116"
+     components {
+      DoorComponent "{221C667A9F7D4B69}" {
+       DoorAction SCR_DoorUserAction "{50888D3646A61640}" {
+        m_UseGuidWhitelist 1
+       }
+      }
+      SRZ_GuidWhitelistComponent "{684E2789D1EDBDD6}" {
+       m_AllowedGUIDs {
+        "07207c50-51e1-4c8e-a580-7000272fa9bb"
+        "53ab8ec5-6b6c-4c48-be22-9ee8d170fbf5"
+        "a8b24ba2-3a45-4676-adc4-8e2b66dfe05d"
+        "0b5051b8-e7e0-4cfc-bc96-b65e90e328f1"
+        "4889fd31-0248-4de1-96d9-8e94cf8d85c1"
+        "21649cad-7de6-4366-9454-07b81f5294b0"
+        "0dc0ef50-78d3-4c8e-9c67-2bf499b76efd"
+        "f902c771-5e18-4410-a742-03d2808653cb"
+        "92216920-0abc-4f70-9c19-084ba28e12b2"
+        "65992774-b6b9-4ff9-8664-dc900bfd90ef"
+        "15dbf073-7d52-4df2-bcb8-888cd8e58722"
+        "c41c4eb2-16de-4493-91af-17ca10b964ea"
+        "57ab7f60-675f-4af3-86e2-4019a2358f59"
+        "579b6fa9-cb38-41a1-8b30-bdb23be48fd4"
+       }
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "66DB265F8DFE9582"
+   coords -3.441 -4.907 3.29
+  }
+  GenericEntity {
+   ID "66DB44B0A45B857B"
+   coords -0.503 -2.985 -1.279
+  }
+  GenericEntity {
+   ID "66DB265F8DFE9512"
+   coords -2.08 -31.062 3.391
+  }
+  GenericEntity {
+   ID "66DB44B396228E94"
+   coords -0.462 -33.877 0.818
+  }
+  GenericEntity {
+   ID "66DB265F8DFE95CE"
+   coords -14.738 -58.351 1.126
+  }
+  GenericEntity {
+   ID "66DB44B396228EC6"
+   coords -0.294 -34.471 3.664
+  }
+  GenericEntity {
+   ID "66DB265F8DFE9630"
+   coords -3.587 -1.461 -1.043
+  }
+  GenericEntity {
+   ID "66DB265F8DFE9625"
+   coords 1.398 -113.949 2.604
+   {
+    GenericEntity {
+     ID "6618D95DB404AECD"
+     coords 0 0 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "66DB265F8DFE95B5"
+   coords -3.576 -4.907 1.599
+  }
+  GenericEntity {
+   ID "66DB265F8DFE95C5"
+   coords -0.692 -34.471 2.475
+  }
+  GenericEntity {
+   ID "66DB44B396228F15"
+   coords -4.396 -2.228 -2.229
+  }
+  GenericEntity {
+   ID "66DB44B396228F1E"
+   coords 0.374 -54.775 -0.447
+  }
+ }
+}
+$grp DecalEntity : "{BAA55688399B3545}Prefabs/Decals/Dirt/Decal_Dirt_Patch_01.et" {
+ {
+  components {
+   Hierarchy "{56E0B29E5E5F7F36}" {
+   }
+  }
+  coords 2107.41 -0.148 1298.447
+  angles -89.98 0 2.127
+  scale 11
+  FarPlane 1.5
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E5E5F7F36}" {
+   }
+  }
+  coords 2112.094 0 1292.741
+  angles -89.98 0 2.127
+  scale 11
+  FarPlane 1.5
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E5E5F7F36}" {
+   }
+  }
+  coords 2113.329 0 1296.736
+  angles -89.98 0 2.127
+  scale 11
+  FarPlane 1.5
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E5E5F7F36}" {
+   }
+  }
+  coords 2109.342 0 1295.393
+  angles -90 0 0
+  scale 11
+  FarPlane 1.5
+ }
+}

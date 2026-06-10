@@ -7,13 +7,6 @@ $grp ARMST_ALIFE_InterestPoint {
   m_sNextInterestPoint3 "voronka_13"
   m_sNextInterestPoint4 "voronka_3"
  }
- voronka_2 {
-  coords 2189.862 300.489 2191.325
-  m_LocationKey VORONKA
-  m_sNextInterestPoint1 "voronka_3"
-  m_sNextInterestPoint2 "voronka_1"
-  m_sNextInterestPoint3 "voronka_13"
- }
  voronka_3 {
   coords 2105.647 310.508 2345.779
   m_LocationKey VORONKA

@@ -1,0 +1,69 @@
+GenericEntity {
+ components {
+  MeshObject "{68A76BEDEB309366}" {
+   Object "{6225F32E5CAC127C}Assets/Weapons/MachineGuns/PKM/PKM_body.xob"
+  }
+ }
+ coords 3113.419 305.191 2801.988
+ angles 5.604 84.905 -96.355
+}
+DecalEntity : "{1DC3A792132D86CB}Prefabs/Decals/Blood/BloodStain_Large_02.et" {
+ coords 3190.447 0 2812.489
+ angles -90 180 180
+ scale 1.5
+}
+StaticModelEntity : "{2CF6244D6C76F560}Prefabs/Terrain/Erosion/ErodedEmbankment_01/ErodedEmbankment_01_dirt_straight.et" {
+ coords 3189.041 304.669 2815.167
+ angles -12.945 -111.286 0
+}
+$grp DecalEntity : "{3BD66CDD309673DB}Prefabs/Decals/Blood/BloodStain_Drops_01.et" {
+ {
+  coords 3114.011 0 2802.611
+  angles -90 0 -76.765
+  scale 2
+ }
+ {
+  coords 3113.212 0 2802.386
+  angles -90 0 -92.746
+  scale 2
+ }
+ {
+  coords 3114.185 0.781 2799.452
+  angles -22.596 89.732 0
+  scale 2
+ }
+}
+GenericEntity : "{50B45AE7FE6F7CD8}Prefabs/Characters/Deads/armst_dead_gorka.et" {
+ components {
+  BaseItemAnimationComponent "{6712E82B4C0E57EA}" {
+   StartNode "dead_3"
+  }
+ }
+ coords 3112.409 305.108 2801.753
+ angles 0 48.833 0
+}
+$grp DecalEntity : "{71979372AFE909E5}Prefabs/Decals/Blood/BloodStain_Large_01.et" {
+ {
+  coords 3190.069 0.237 2812.494
+  angles -65.202 -90 90
+  scale 1.5
+ }
+ {
+  coords 3113.918 0 2799.442
+  angles -90 -180 -180
+  scale 1.5
+ }
+}
+GenericEntity : "{7AF4B627D5C90235}Prefabs/Props/Military/Sandbags/Sandbag_01_round_high_burlap.et" {
+ coords 3114.163 305.041 2798.706
+ angles 0 111.013 0
+}
+GenericEntity : "{9C9C4BED9E19C374}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_burlap.et" {
+ coords 3112.625 304.382 2797.693
+ scale 0.81
+}
+DecalEntity : "{CCE57C4C9C0E5009}Prefabs/Decals/Blood/BloodStain_Small_01.et" {
+ coords 3113.505 0 2802.371
+ angles -90 -180 -180
+ scale 0.8
+}

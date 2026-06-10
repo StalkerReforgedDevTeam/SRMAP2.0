@@ -1,0 +1,190 @@
+GenericEntity : "{0164749D6EAA4518}Prefabs/Props/Furniture/Bed_01.et" {
+ coords 6309.517 307.261 720.775
+}
+StaticModelEntity : "{17ACD64824F55EF8}Prefabs/Structures/Debris/Debris_HouseVillage/Debris_HouseVillage_Wood_Roof_v5.et" {
+ coords 6289.02 307.257 750.043
+ angles 0 56.939 0
+}
+GenericEntity : "{1DA51E26FB6F56BC}PrefabsEditable/Auto/Props/Furniture/E_Stove_01.et" {
+ coords 6329.816 307.094 762.996
+ angles 0 -0.15 0
+}
+GenericEntity : "{22325E7D9CC399D8}Prefabs/Trash/Cardboard/Cardboard_Pile_06.et" {
+ coords 6312.394 307.261 717.89
+}
+GenericEntity : "{24555AFCC128BF1C}Prefabs/Props/Ruins/Bookshelf_02_ruined/Bookshelf_02_ruined.et" {
+ coords 6326.409 307.089 765.293
+ angles 0 92.843 0
+}
+GenericEntity : "{26EA702845762443}Prefabs/Staff/box_wooden_big.et" {
+ coords 6332.118 307.175 768.096
+ angles 0 88.277 0
+}
+GenericEntity : "{4CDEC9B18CD7D921}PrefabsEditable/Auto/Props/Furniture/E_TableKitchen_01.et" {
+ coords 6264.01 308.489 725.016
+}
+GenericEntity : "{52A12ECB132C3E1F}Prefabs/Props/Furniture/TableKitchen_02/TableKitchen_02.et" {
+ coords 6321.091 308.512 812.591
+ angles 0 80.041 0
+}
+StaticModelEntity : "{72BEAAAFAAB49846}Prefabs/Structures/Debris/DebrisPile/DebrisPile_Wood_01_Debris_01.et" {
+ coords 6288.239 307.257 747.402
+}
+GenericEntity : "{73524FA5556B9FCF}Prefabs/Trash/Cardboard/Cardboard_Pile_02.et" {
+ coords 6329.218 307.154 768.182
+}
+$grp SCR_IndestructibleEnvironmentalEntity : "{7813FBBE77324674}Prefabs/Rocks/Granite/GraniteSurfaceStone_03.et" {
+ {
+  components {
+   MeshObject "{5130844EED1A5B10}" {
+    Materials {
+     MaterialAssignClass "{6638BB6F7F87F9B7}" {
+      SourceMaterial "Common/Materials/Game/stone"
+      AssignedMaterial "{003244BB00581E05}Common/Materials/default_MatTerrainObj_TerrShadows.emat"
+     }
+     MaterialAssignClass "{6638BB6F7F87F982}" {
+      SourceMaterial "MLOD"
+      AssignedMaterial "{003244BB00581E05}Common/Materials/default_MatTerrainObj_TerrShadows.emat"
+     }
+    }
+   }
+  }
+  coords 3320.643 303.064 882.163
+  angles 0 23.603 -2.12
+  scale 0.722
+ }
+ {
+  components {
+   MeshObject "{5130844EED1A5B10}" {
+    Materials {
+     MaterialAssignClass "{6638BB6F7F87F9B7}" {
+      SourceMaterial "Common/Materials/Game/stone"
+      AssignedMaterial "{003244BB00581E05}Common/Materials/default_MatTerrainObj_TerrShadows.emat"
+     }
+     MaterialAssignClass "{6638BB6F7F87F982}" {
+      SourceMaterial "MLOD"
+      AssignedMaterial "{003244BB00581E05}Common/Materials/default_MatTerrainObj_TerrShadows.emat"
+     }
+    }
+   }
+  }
+  coords 3339.666 302.781 916.257
+  angles -3.612 42.667 0.89
+  scale 0.722
+ }
+ {
+  components {
+   MeshObject "{5130844EED1A5B10}" {
+    Materials {
+     MaterialAssignClass "{6638BB6F7F87F9B7}" {
+      SourceMaterial "Common/Materials/Game/stone"
+      AssignedMaterial "{003244BB00581E05}Common/Materials/default_MatTerrainObj_TerrShadows.emat"
+     }
+     MaterialAssignClass "{6638BB6F7F87F982}" {
+      SourceMaterial "MLOD"
+      AssignedMaterial "{003244BB00581E05}Common/Materials/default_MatTerrainObj_TerrShadows.emat"
+     }
+    }
+   }
+  }
+  coords 3345.969 302.817 900.95
+  angles 3.185 113.175 -1.436
+  scale 0.722
+ }
+ {
+  components {
+   MeshObject "{5130844EED1A5B10}" {
+    Materials {
+     MaterialAssignClass "{6638BB6F7F87F9B7}" {
+      SourceMaterial "Common/Materials/Game/stone"
+      AssignedMaterial "{003244BB00581E05}Common/Materials/default_MatTerrainObj_TerrShadows.emat"
+     }
+     MaterialAssignClass "{6638BB6F7F87F982}" {
+      SourceMaterial "MLOD"
+      AssignedMaterial "{003244BB00581E05}Common/Materials/default_MatTerrainObj_TerrShadows.emat"
+     }
+    }
+   }
+  }
+  coords 3342.784 302.933 895.441
+  angles 3.185 113.175 -1.436
+  scale 0.722
+ }
+}
+GenericEntity : "{881E9EBD4F7EA444}Prefabs/Structures/BuildingParts/Heating/StoveColumn_01_green.et" {
+ coords 6326.384 307.113 768.156
+ angles 0 92.312 0
+}
+GenericEntity : "{89720F5F4F331029}Prefabs/Structures/BuildingParts/Heating/StoveTiled_01.et" {
+ coords 6308.149 307.261 716.615
+ angles 0 95.834 0
+}
+GenericEntity : "{8987B3EE79A24A44}Prefabs/Structures/BuildingParts/Heating/StoveColumn_01_brown.et" {
+ coords 6317.731 308.512 814.834
+ angles 0 168.299 0
+}
+GenericEntity : "{96CE035C598E08A6}Prefabs/Trash/Cardboard/Cardboard_Pile_03.et" {
+ coords 6311.827 307.261 719.642
+ angles 0 0 0
+}
+$grp GenericEntity : "{990827BD66BE9397}Prefabs/Props/Furniture/Bed_02.et" {
+ {
+  coords 6261.412 308.489 719.803
+  angles 0 -93.092 0
+ }
+ {
+  coords 6314.266 308.512 812.675
+  angles 0 -16.876 0
+ }
+}
+GenericEntity armst_furn_table_done_68A132705BA204AE : "{9E8F72C93043CFE8}Prefabs/Items/Deployable/furnitures/table/armst_furn_table_done.et" {
+ coords 6313.703 307.261 716.676
+ angles 0 -84.15 0
+}
+$grp GenericEntity : "{B082D9F68862F5DF}Prefabs/chairs/chair_wooden.et" {
+ {
+  coords 6262.942 308.489 725.31
+  angles 0 -57.952 0
+ }
+ {
+  coords 6265.492 308.489 725.064
+  angles 0 75.101 0
+ }
+ {
+  coords 6313.795 307.261 718.051
+  angles 0 10.762 0
+ }
+ {
+  coords 6313 307.261 716.383
+  angles 0 -96.317 0
+ }
+ {
+  coords 6320.945 308.512 814.003
+  angles 0 0 0
+ }
+ {
+  coords 6321.459 308.512 811.181
+  angles 0 144.416 0
+ }
+}
+GenericEntity : "{B538C88E57AE853D}Prefabs/Props/Civilian/Stove_02.et" {
+ coords 6316.987 308.512 814.438
+ angles 0 169.161 0
+}
+GenericEntity : "{C17CD853BD11F260}Prefabs/books/books_dropped.et" {
+ coords 6311.464 307.261 716.991
+ angles 0 0 0
+}
+$grp GenericEntity : "{E1D3E7F0A1833454}Prefabs/Props/Furniture/Kitchen_02.et" {
+ {
+  coords 6260.365 308.489 722.195
+  angles 0 100.318 0
+ }
+ {
+  coords 6319.525 308.512 809.298
+  angles 1.033 -11.584 0.047
+ }
+}
+GenericEntity : "{EE8D38A84C13EC49}Prefabs/beds/bed_wooden.et" {
+ coords 6330.906 307.203 771.799
+}

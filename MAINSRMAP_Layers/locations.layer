@@ -50772,10 +50772,6 @@ $grp GenericEntity : "{47E258BBC8968F11}Prefabs/Props/Industrial/GasTank_01_rust
   coords 3258.275 304.725 2622.251
   angles 0 -156.402 0
  }
- {
-  coords 3249.944 307.684 2631.497
-  angles 0 -156.402 0
- }
 }
 $grp GenericEntity : "{48004DBC0908F251}Prefabs/Vehicles/gaz24/base/BASE_gaz24_wreck.et" {
  {
@@ -134941,17 +134937,10 @@ $grp GenericEntity : "{A6EF6AF651015F3B}Prefabs/Structures/Debris/ConcreteDebris
   scale 0.46
  }
 }
-$grp SCR_IndestructibleEnvironmentalEntity : "{A7606C7E96A39B5D}Prefabs/Rocks/Granite/Granite_Boulder_02_V2.et" {
- {
-  coords 2164.343 -0.42 2088.393
-  angles 0 0 31.285
-  scale 5.13
- }
- {
-  coords 2154.067 0.001 2263.374
-  angles 17.241 -30.712 26.517
-  scale 5.13
- }
+SCR_IndestructibleEnvironmentalEntity : "{A7606C7E96A39B5D}Prefabs/Rocks/Granite/Granite_Boulder_02_V2.et" {
+ coords 2164.343 -0.42 2088.393
+ angles 0 0 31.285
+ scale 5.13
 }
 SCR_DestructibleBuildingEntity : "{A76A76EBBD55CAAC}Prefabs/Structures/Military/Houses/GuardHouse_06/Guardhouse_USSR_06.et" {
  coords 5201.631 0 2535.031
@@ -188432,14 +188421,9 @@ SCR_DestructibleBuildingEntity : "{F78C674F187E0DA5}Prefabs/Structures/Infrastru
  coords 4587.804 -12.944 1720.635
  angles -4.198 -113.637 7.535
 }
-$grp SCR_DestructibleBuildingEntity : "{F78E8A56BFA8D57C}Prefabs/Structures/Military/Bunkers/AirfieldBunker_E_01/AirfieldBunker_USSR_01_small_BARS.et" {
- {
-  coords 2185.47 300.545 2175.317
- }
- {
-  coords 2614.761 312.161 2125.535
-  angles 0 -144.902 0
- }
+SCR_DestructibleBuildingEntity : "{F78E8A56BFA8D57C}Prefabs/Structures/Military/Bunkers/AirfieldBunker_E_01/AirfieldBunker_USSR_01_small_BARS.et" {
+ coords 2614.761 312.161 2125.535
+ angles 0 -144.902 0
 }
 $grp GenericEntity : "{F78F7B2E98A95923}Prefabs/Structures/Debris/ConcreteDebris_01/ConcreteDebris_01_V1.et" {
  {
