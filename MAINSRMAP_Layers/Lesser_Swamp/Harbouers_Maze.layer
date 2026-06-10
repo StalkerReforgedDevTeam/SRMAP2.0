@@ -1,0 +1,616 @@
+$grp GenericEntity {
+ {
+  components {
+   MeshObject "{61190D7F15393344}" {
+    Materials {
+     MaterialAssignClass "{691141E786460C92}" {
+      SourceMaterial "FuelTankSmall"
+      AssignedMaterial "{D6693069B1ECF864}Assets/shelters/data/M_metal_rust.emat"
+     }
+    }
+   }
+  }
+  coords 885.674 -0.635 503.07
+  angles 10.706 57.325 -6.741
+ }
+ {
+  components {
+   MeshObject "{60B950B1F49DDEB0}" {
+    Materials {
+     MaterialAssignClass "{691141E7B2B12F93}" {
+      SourceMaterial "ShelfMetal"
+      AssignedMaterial "{FF98323ACD37CFC8}textures/metal/Metal_Rusty_2.emat"
+     }
+    }
+   }
+  }
+  coords 876.071 3.693 508.27
+  angles 1.184 16.153 -5.601
+ }
+}
+$grp SCR_DestructibleEntity {
+ {
+  coords 882.291 2.749 498.222
+  angles -4.078 -39.339 3.336
+ }
+ {
+  coords 882.779 2.637 497.39
+  angles 14.007 -40.706 0.851
+  scale 0.82
+ }
+}
+GenericEntity : "{026714237FB820CB}Prefabs/Props/Garbage/Cardboard/Cardboard_Pile_07.et" {
+ coords 872.791 306.415 495.097
+ angles 1.902 23.628 -5.43
+}
+SCR_DestructibleBuildingEntity : "{15EDAD60FDB3702B}Prefabs/Industrial/dinamik.et" {
+ coords 873 304.139 503.512
+ angles 0 12.322 -8.481
+}
+GenericEntity : "{17F3181D0DAC27FC}Prefabs/Props/Furniture/CabinetMetal_01_grey_V1.et" {
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Materials {
+    MaterialAssignClass "{52D485D9F95DCA5D}" {
+     SourceMaterial "CabinetMetal_01"
+     AssignedMaterial "{33B8E6007A2774E0}Assets/Props/Commercial/CabinetCardFile_01/Data/CabinetCardFile_01_grey.emat"
+    }
+    MaterialAssignClass "{691141E107A32AF6}" {
+     SourceMaterial "Color_palette"
+     AssignedMaterial "{33B8E6007A2774E0}Assets/Props/Commercial/CabinetCardFile_01/Data/CabinetCardFile_01_grey.emat"
+    }
+   }
+  }
+ }
+ coords 885.921 306.566 496.043
+ angles 6.641 50.202 2.897
+}
+GenericEntity : "{2B07A2B8170DF481}Prefabs/Props/Agriculture/CultivatorWreck_01_Damaged.et" {
+ coords 883.707 304.515 508.571
+ angles -83.948 -117.583 177.761
+}
+GenericEntity : "{2B1D0128ED660BE9}Prefabs/Props/Crates/BoxWooden_01.et" {
+ components {
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "TinyDestructible"
+  }
+  SCR_SlotCompositionComponent "{5CB0D990B6C742E4}" {
+   m_bOrientChildrenToTerrain 0
+   m_bEditableChildren 0
+  }
+  Hierarchy "{5CB0D990B6C742F2}" {
+   Enabled 1
+  }
+ }
+ coords 882.991 307.165 494.318
+ angles 4.215 42.16 2.366
+}
+SCR_DestructibleBuildingEntity : "{3140009AA235E892}Prefabs/Industrial/crane_trash.et" {
+ coords 878.027 303.23 498.963
+ angles 0 -34.441 0
+}
+GenericEntity : "{32654927F2657E8A}Prefabs/Props/Forest/WoodPile/WoodLog_01_A.et" {
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Materials {
+    MaterialAssignClass "{6912162FB2F5310B}" {
+     SourceMaterial "Assets/Props/Forest/WoodPile_01/Data/WoodPile_01"
+     AssignedMaterial "{B44C732BA35A66F2}Assets/Vegetation/Tree/Alnus_Glutinosa/Dst/Data/t_alnus_glutinosa_2f_bark_dst.emat"
+    }
+    MaterialAssignClass "{6912162FB2F53118}" {
+     SourceMaterial "Common/Materials/ColorPalette/Color_palette_01"
+     AssignedMaterial "{B44C732BA35A66F2}Assets/Vegetation/Tree/Alnus_Glutinosa/Dst/Data/t_alnus_glutinosa_2f_bark_dst.emat"
+    }
+   }
+  }
+ }
+ coords 877.665 312.032 500.457
+ angles 1.732 53.411 0
+ scale 0.391
+}
+GenericEntity : "{33D5102FA67E1B46}Prefabs/Props/Naval/FishingRope_01.et" {
+ coords 876.78 311.986 499.853
+ angles -5.525 11.931 -85.278
+ scale 0.271
+}
+GenericEntity : "{3E9EDDFC51BB3410}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/CargoContainer_01_10ft_olive.et" {
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Materials {
+    MaterialAssignClass "{56EEC65C37F05766}" {
+     SourceMaterial "Cargo_EXT"
+     AssignedMaterial "{1F43CD602B5B6302}Assets/Props/Industrial/CrawlerCraneWreck_01/Data/CrawlerCraneWreck_01_cabin_rusty_INT.emat"
+    }
+    MaterialAssignClass "{56EEC65C37F02882}" {
+     SourceMaterial "Cargo_Mlod"
+     AssignedMaterial "{1F43CD602B5B6302}Assets/Props/Industrial/CrawlerCraneWreck_01/Data/CrawlerCraneWreck_01_cabin_rusty_INT.emat"
+    }
+    MaterialAssignClass "{691141FD3117008C}" {
+     SourceMaterial "Cargo_INT"
+     AssignedMaterial "{1F43CD602B5B6302}Assets/Props/Industrial/CrawlerCraneWreck_01/Data/CrawlerCraneWreck_01_cabin_rusty_INT.emat"
+    }
+    MaterialAssignClass "{691141FD31170085}" {
+     SourceMaterial "Wood"
+     AssignedMaterial "{1F43CD602B5B6302}Assets/Props/Industrial/CrawlerCraneWreck_01/Data/CrawlerCraneWreck_01_cabin_rusty_INT.emat"
+    }
+   }
+  }
+ }
+ coords 875.46 303.768 495.982
+ angles -0.331 23.614 8.056
+}
+StaticModelEntity : "{41CCD40548A3F72E}Prefabs/Props/Wrecks/ShipWreckMetal_02/ShipWreckMetal_02_Ruin.et" {
+ coords 884.553 306.587 508.796
+ angles 1.403 144.591 121.218
+}
+GenericEntity : "{43957C1E3ECCDFE2}Prefabs/Props/Wrecks/ShipWreckWooden_01/ShipWreckWooden_01.et" {
+ coords 881.172 302.159 494.161
+ angles -3.81 -129.148 -2.976
+}
+$grp GenericEntity : "{550F8F2E909797FD}Prefabs/Structures/Infrastructure/Naval/Piers/PierCover_05.et" {
+ {
+  coords 882.635 307.775 497.813
+  angles -34.859 138.985 9.36
+  scale 0.52
+ }
+ {
+  coords 882.545 308.038 497.776
+  angles -4.266 57.243 118.231
+  scale 0.291
+ }
+ {
+  coords 885.945 307.736 495.355
+  angles 3.849 56.721 27.127
+  scale 0.477
+ }
+ {
+  components {
+   MeshObject "{5111E74D5E891458}" {
+    Materials {
+     MaterialAssignClass "{691141E4567D068E}" {
+      SourceMaterial "Piers_Clean"
+      AssignedMaterial "{7C9FF6F31E51A792}textures/wood/Wood_Plank_15.emat"
+     }
+    }
+   }
+  }
+  coords 885.722 307.96 502.367
+  angles 79.808 -7.524 1.792
+  scale 0.52
+ }
+ {
+  components {
+   MeshObject "{5111E74D5E891458}" {
+    Materials {
+     MaterialAssignClass "{691141E41A4617B0}" {
+      SourceMaterial "Piers_Clean"
+      AssignedMaterial "{A195F540B3AA40CD}Assets/Structures/Industrial/Cableways/CablewayWooden_01/Data/CablewayWooden_01_bullwheel_Wood.emat"
+     }
+    }
+   }
+  }
+  coords 885.932 307.994 502.439
+  angles 76.279 1.791 15.198
+  scale 0.52
+ }
+ {
+  components {
+   MeshObject "{5111E74D5E891458}" {
+    Materials {
+     MaterialAssignClass "{691141E54A0DA54D}" {
+      SourceMaterial "Piers_Clean"
+      AssignedMaterial "{A195F540B3AA40CD}Assets/Structures/Industrial/Cableways/CablewayWooden_01/Data/CablewayWooden_01_bullwheel_Wood.emat"
+     }
+    }
+   }
+  }
+  coords 879.491 307.414 512.604
+  angles 72.622 74.669 160.259
+  scale 0.52
+ }
+ {
+  coords 880.564 311.044 497.139
+  angles 85.928 148.365 -167.214
+  scale 1.27
+ }
+}
+$grp StaticModelEntity : "{5C290F8B9942A54E}Prefabs/Structures/Infrastructure/Culverts/DrainageChannelWood_01/DrainageChannelWood_01.et" {
+ {
+  components {
+   MeshObject "{5936E5AA56187F89}" {
+    Materials {
+     MaterialAssignClass "{6912162CE57EDD90}" {
+      SourceMaterial "Assets/Structures/Infrastructure/Culverts/DrainageChannelWood_01/Data/DrainageChannelWood_01"
+      AssignedMaterial "{B9F055FED9656D82}Assets/Structures/Infrastructure/Naval/Piers/Data/Piers_Clean.emat"
+     }
+     MaterialAssignClass "{6912162CE57EDDA3}" {
+      SourceMaterial "Common/Materials/ColorPalette/Color_palette"
+      AssignedMaterial "{B9F055FED9656D82}Assets/Structures/Infrastructure/Naval/Piers/Data/Piers_Clean.emat"
+     }
+    }
+   }
+  }
+  coords 877.889 7.117 500.226
+  angles 3.339 143.193 -179.386
+  scale 0.473
+ }
+ {
+  components {
+   MeshObject "{5936E5AA56187F89}" {
+    Materials {
+     MaterialAssignClass "{6912162CE57EDD90}" {
+      SourceMaterial "Assets/Structures/Infrastructure/Culverts/DrainageChannelWood_01/Data/DrainageChannelWood_01"
+      AssignedMaterial "{B9F055FED9656D82}Assets/Structures/Infrastructure/Naval/Piers/Data/Piers_Clean.emat"
+     }
+     MaterialAssignClass "{6912162CE57EDDA3}" {
+      SourceMaterial "Common/Materials/ColorPalette/Color_palette"
+      AssignedMaterial "{B9F055FED9656D82}Assets/Structures/Infrastructure/Naval/Piers/Data/Piers_Clean.emat"
+     }
+    }
+   }
+  }
+  coords 878.428 7.099 499.507
+  angles 3.339 143.193 179.69
+  scale 0.473
+ }
+}
+GenericEntity : "{6220F5D951A6F92B}Prefabs/Staff/box_wooden_small.et" {
+ coords 874.172 306.545 495.588
+ angles 5.308 111.94 1.721
+}
+$grp GenericEntity : "{869914063728EFF8}Prefabs/Props/Forest/WoodPile/WoodLog_01_D.et" {
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{6912162F80B467BB}" {
+      SourceMaterial "Assets/Props/Forest/WoodPile_01/Data/WoodPile_01"
+      AssignedMaterial "{B44C732BA35A66F2}Assets/Vegetation/Tree/Alnus_Glutinosa/Dst/Data/t_alnus_glutinosa_2f_bark_dst.emat"
+     }
+     MaterialAssignClass "{6912162F80B467C9}" {
+      SourceMaterial "Common/Materials/ColorPalette/Color_palette_01"
+      AssignedMaterial "{B44C732BA35A66F2}Assets/Vegetation/Tree/Alnus_Glutinosa/Dst/Data/t_alnus_glutinosa_2f_bark_dst.emat"
+     }
+    }
+   }
+  }
+  coords 876.84 312.366 499.767
+  angles -90 -180 -180
+  scale 0.354
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{6912162F86F60EC6}" {
+      SourceMaterial "Assets/Props/Forest/WoodPile_01/Data/WoodPile_01"
+      AssignedMaterial "{B44C732BA35A66F2}Assets/Vegetation/Tree/Alnus_Glutinosa/Dst/Data/t_alnus_glutinosa_2f_bark_dst.emat"
+     }
+     MaterialAssignClass "{6912162F86F60ECA}" {
+      SourceMaterial "Common/Materials/ColorPalette/Color_palette_01"
+      AssignedMaterial "{B44C732BA35A66F2}Assets/Vegetation/Tree/Alnus_Glutinosa/Dst/Data/t_alnus_glutinosa_2f_bark_dst.emat"
+     }
+    }
+   }
+  }
+  coords 877.591 312.351 498.795
+  angles -90 -180 -180
+  scale 0.354
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{6912162F86F61412}" {
+      SourceMaterial "Assets/Props/Forest/WoodPile_01/Data/WoodPile_01"
+      AssignedMaterial "{B44C732BA35A66F2}Assets/Vegetation/Tree/Alnus_Glutinosa/Dst/Data/t_alnus_glutinosa_2f_bark_dst.emat"
+     }
+     MaterialAssignClass "{6912162F86F61423}" {
+      SourceMaterial "Common/Materials/ColorPalette/Color_palette_01"
+      AssignedMaterial "{B44C732BA35A66F2}Assets/Vegetation/Tree/Alnus_Glutinosa/Dst/Data/t_alnus_glutinosa_2f_bark_dst.emat"
+     }
+    }
+   }
+  }
+  coords 881.115 304.191 501.964
+  angles 0 31.251 0
+  scale 0.252
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{6912162F814E3035}" {
+      SourceMaterial "Assets/Props/Forest/WoodPile_01/Data/WoodPile_01"
+      AssignedMaterial "{B44C732BA35A66F2}Assets/Vegetation/Tree/Alnus_Glutinosa/Dst/Data/t_alnus_glutinosa_2f_bark_dst.emat"
+     }
+     MaterialAssignClass "{6912162F814E3042}" {
+      SourceMaterial "Common/Materials/ColorPalette/Color_palette_01"
+      AssignedMaterial "{B44C732BA35A66F2}Assets/Vegetation/Tree/Alnus_Glutinosa/Dst/Data/t_alnus_glutinosa_2f_bark_dst.emat"
+     }
+    }
+   }
+  }
+  coords 877.199 311.873 499.303
+  angles 2.615 -36.924 -1.249
+  scale 0.247
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{6912162F80B467BB}" {
+      SourceMaterial "Assets/Props/Forest/WoodPile_01/Data/WoodPile_01"
+      AssignedMaterial "{B44C732BA35A66F2}Assets/Vegetation/Tree/Alnus_Glutinosa/Dst/Data/t_alnus_glutinosa_2f_bark_dst.emat"
+     }
+     MaterialAssignClass "{6912162F80B467C9}" {
+      SourceMaterial "Common/Materials/ColorPalette/Color_palette_01"
+      AssignedMaterial "{B44C732BA35A66F2}Assets/Vegetation/Tree/Alnus_Glutinosa/Dst/Data/t_alnus_glutinosa_2f_bark_dst.emat"
+     }
+    }
+   }
+  }
+  coords 878.549 312.338 501.023
+  angles -90 -180 -180
+  scale 0.333
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{6912162F814E3035}" {
+      SourceMaterial "Assets/Props/Forest/WoodPile_01/Data/WoodPile_01"
+      AssignedMaterial "{B44C732BA35A66F2}Assets/Vegetation/Tree/Alnus_Glutinosa/Dst/Data/t_alnus_glutinosa_2f_bark_dst.emat"
+     }
+     MaterialAssignClass "{6912162F814E3042}" {
+      SourceMaterial "Common/Materials/ColorPalette/Color_palette_01"
+      AssignedMaterial "{B44C732BA35A66F2}Assets/Vegetation/Tree/Alnus_Glutinosa/Dst/Data/t_alnus_glutinosa_2f_bark_dst.emat"
+     }
+    }
+   }
+  }
+  coords 878.944 311.595 500.745
+  angles 33.049 -43.735 1.856
+  scale 0.247
+ }
+}
+GenericEntity : "{8F08705D73A7C711}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/CargoContainer_01_20ft_red.et" {
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Materials {
+    MaterialAssignClass "{5466C2FA03270D6F}" {
+     SourceMaterial "Cargo_EXT"
+     AssignedMaterial "{E77F94ACBF04511A}Assets/Props/Industrial/Mining/Mine_01_train/Data/BND30_nuts_bolts_Rusted.emat"
+    }
+    MaterialAssignClass "{5466C2FA03270C95}" {
+     SourceMaterial "Cargo_Mlod"
+     AssignedMaterial "{E77F94ACBF04511A}Assets/Props/Industrial/Mining/Mine_01_train/Data/BND30_nuts_bolts_Rusted.emat"
+    }
+    MaterialAssignClass "{691141F8F7098B15}" {
+     SourceMaterial "Cargo_Decals"
+     AssignedMaterial "{E77F94ACBF04511A}Assets/Props/Industrial/Mining/Mine_01_train/Data/BND30_nuts_bolts_Rusted.emat"
+    }
+    MaterialAssignClass "{691141F8F7098B38}" {
+     SourceMaterial "Cargo_INT"
+     AssignedMaterial "{E77F94ACBF04511A}Assets/Props/Industrial/Mining/Mine_01_train/Data/BND30_nuts_bolts_Rusted.emat"
+    }
+    MaterialAssignClass "{691141F8F7098B3F}" {
+     SourceMaterial "Wood"
+     AssignedMaterial "{E77F94ACBF04511A}Assets/Props/Industrial/Mining/Mine_01_train/Data/BND30_nuts_bolts_Rusted.emat"
+    }
+   }
+  }
+ }
+ coords 879.161 303.822 509.722
+ angles 0 0 9.439
+}
+$grp GenericEntity : "{9185FB6648FF6A17}Prefabs/Structures/Infrastructure/Bus/BusShed_E_01/Dst/BusShed_E_01_green_15_dst.et" {
+ {
+  components {
+   MeshObject "{2492A7540C70C91A}" {
+    Materials {
+     MaterialAssignClass "{528ED82E2C0898C3}" {
+      SourceMaterial "Assets/Structures/Infrastructure/Bus/BusShed_E_01/Data/BusShed_E_01"
+      AssignedMaterial "{FC5BA0DAAFC39BD5}Assets/Props/Wrecks/ShipWreckMetal_02/Data/ShipWreckMetal_02_detail.emat"
+     }
+     MaterialAssignClass "{6912162CC90FCA0F}" {
+      SourceMaterial "Common/Materials/ColorPalette/Color_palette"
+      AssignedMaterial "{FC5BA0DAAFC39BD5}Assets/Props/Wrecks/ShipWreckMetal_02/Data/ShipWreckMetal_02_detail.emat"
+     }
+    }
+   }
+  }
+  coords 878.625 309.751 498.95
+  angles -5.924 50.863 3.251
+  scale 0.6
+ }
+ {
+  components {
+   MeshObject "{2492A7540C70C91A}" {
+    Materials {
+     MaterialAssignClass "{528ED82E2C0898C3}" {
+      SourceMaterial "Assets/Structures/Infrastructure/Bus/BusShed_E_01/Data/BusShed_E_01"
+      AssignedMaterial "{C5E9922BDC14E665}Assets/Props/Naval/Buoy_01/Data/Buoy_01_Grounded_rusty.emat"
+     }
+     MaterialAssignClass "{6912162F5AE285AA}" {
+      SourceMaterial "Common/Materials/ColorPalette/Color_palette"
+      AssignedMaterial "{C5E9922BDC14E665}Assets/Props/Naval/Buoy_01/Data/Buoy_01_Grounded_rusty.emat"
+     }
+    }
+   }
+  }
+  coords 878.148 311.874 499.737
+  angles -7.5 -35.095 2.511
+  scale 0.6
+ }
+}
+StaticModelEntity : "{9E6FBD09BCBE2CA0}Prefabs/Structures/Military/Camps/AirfieldMatting_01/AirfieldMatting_USSR_01_long.et" {
+ components {
+  MeshObject "{56ACD1C4DC78C87B}" {
+   Materials {
+    MaterialAssignClass "{691141E56CC95B6B}" {
+     SourceMaterial "Landing_01_MLOD"
+     AssignedMaterial "{40B969083489FB40}Assets/Structures/Military/Radar/ApproachRadar_01/data/ApproachRadar_RPL5_01_generator_wreck.emat"
+    }
+    MaterialAssignClass "{691141E56CC95B79}" {
+     SourceMaterial "Landing_01_Marsden"
+     AssignedMaterial "{40B969083489FB40}Assets/Structures/Military/Radar/ApproachRadar_01/data/ApproachRadar_RPL5_01_generator_wreck.emat"
+    }
+   }
+  }
+ }
+ coords 879.385 3.224 512.903
+ angles -11.613 -3.97 20.638
+}
+GenericEntity : "{A7BF5BFDD21FD360}Prefabs/Props/Crates/Crate_01_ivory.et" {
+ coords 882.508 306.493 494.911
+ angles 5.002 48.336 25.322
+}
+GenericEntity : "{A924939DC9CB318C}Prefabs/Props/Commercial/CabinetCardFile_01/CabinetCardFile_01_grey.et" {
+ coords 885.255 306.659 496.746
+ angles 8.112 49.947 18.089
+}
+StaticModelEntity : "{ACE17AAC3F65436B}Prefabs/Props/Wrecks/ShipWreckMetal_03/ShipWreckMetal_03_Ruin.et" {
+ coords 879.143 305.155 497.767
+ angles -33.006 57.098 -173.045
+ scale 0.24
+}
+GenericEntity : "{B3283803059E2750}Prefabs/Props/Crates/CrateWooden_01_plain.et" {
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Materials {
+    MaterialAssignClass "{691141E6A26E54ED}" {
+     SourceMaterial "CrateWooden_01"
+     AssignedMaterial "{99967C1347FE5B43}Assets/wood_bridges/Data/wood_bridge.emat"
+    }
+    MaterialAssignClass "{691141E6A26E54FD}" {
+     SourceMaterial "Palette"
+     AssignedMaterial "{99967C1347FE5B43}Assets/wood_bridges/Data/wood_bridge.emat"
+    }
+   }
+  }
+ }
+ coords 884.142 308.841 493.309
+ angles -1.802 124.633 4.478
+}
+$grp GenericEntity : "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et" {
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{691141E6A415C0E3}" {
+      SourceMaterial "Duckboard_01"
+      AssignedMaterial "{99967C1347FE5B43}Assets/wood_bridges/Data/wood_bridge.emat"
+     }
+    }
+   }
+  }
+  coords 875.54 306.485 497.146
+  angles 14.084 -52.439 2.268
+  scale 0.51
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{6912162CF14E0042}" {
+      SourceMaterial "Duckboard_01"
+      AssignedMaterial "{9A9009DA12EE84F1}Assets/Props/Wrecks/ShipWreckWooden_01/Data/ShipWreck_Wooden_01_hull_EXT.emat"
+     }
+    }
+   }
+  }
+  coords 878.242 311.241 499.721
+  angles 1.015 53.295 0.297
+  scale 0.621
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{6912162CF14E0042}" {
+      SourceMaterial "Duckboard_01"
+      AssignedMaterial "{9A9009DA12EE84F1}Assets/Props/Wrecks/ShipWreckWooden_01/Data/ShipWreck_Wooden_01_hull_EXT.emat"
+     }
+    }
+   }
+  }
+  coords 877.882 311.244 500.204
+  angles 1.015 53.295 0.297
+  scale 0.621
+ }
+}
+SCR_DestructibleBuildingEntity : "{CCAD9FCE9EC1D001}Prefabs/Industrial/balon_kislorod.et" {
+ coords 885.161 304.139 501.086
+ angles 0 64.181 0
+}
+SCR_DestructibleEntity : "{D57C604EA0AEEA16}Prefabs/Structures/Walls/Pipe/PipeRailing_01/PipeRailing_01_Pole_darkred.et" {
+ coords 882.389 3.851 498.519
+ angles 0 -130.606 23.694
+ scale 0.758
+}
+GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
+ coords 872.805 306.408 496.127
+ angles 1.631 -0.116 -7.169
+}
+GenericEntity : "{DD07AE4E1B3E5EE2}Prefabs/Props/Furniture/FirstAidBox_01.et" {
+ coords 885.963 306.394 494.426
+ angles 14.9 -46.278 -6.817
+}
+GenericEntity : "{DD6362C580622F8A}Prefabs/Structures/Infrastructure/Bus/BusShed_E_01/Dst/BusShed_E_01_02_dst.et" {
+ coords 877.976 310.129 497.934
+ angles -2.939 -135.206 -4.047
+ scale 2.51
+}
+SCR_DestructibleBuildingEntity : "{DEE0A3B65FD12C81}Prefabs/Industrial/cilinder.et" {
+ coords 872.92 307.284 500.272
+ angles 1.08 15.09 -5.622
+}
+GenericEntity : "{DF3EF41CE4D441DE}Prefabs/Props/Industrial/BarrelMetal_01_rust.et" {
+ coords 883.069 306.601 497.861
+ angles 6.754 -0.433 -3.681
+}
+$grp GenericEntity : "{E4136E2E0BD66FC6}Prefabs/Props/Construction/HookMetal_01.et" {
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{6912162FC9E08FA6}" {
+      SourceMaterial "MetalHook_01"
+      AssignedMaterial "{0EC350AE6F50116C}Assets/Props/Wrecks/ShipWreckWooden_01/Data/Shipwreck_Wooden_01_metal_EXT.emat"
+     }
+     MaterialAssignClass "{6912162FC9E08FBB}" {
+      SourceMaterial "palette"
+      AssignedMaterial "{0EC350AE6F50116C}Assets/Props/Wrecks/ShipWreckWooden_01/Data/Shipwreck_Wooden_01_metal_EXT.emat"
+     }
+    }
+   }
+  }
+  coords 878.536 312.011 501.09
+  angles 0.926 -127.176 16.778
+  scale 0.76
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{6912162FC9E08FA6}" {
+      SourceMaterial "MetalHook_01"
+      AssignedMaterial "{0EC350AE6F50116C}Assets/Props/Wrecks/ShipWreckWooden_01/Data/Shipwreck_Wooden_01_metal_EXT.emat"
+     }
+     MaterialAssignClass "{6912162FC9E08FBB}" {
+      SourceMaterial "palette"
+      AssignedMaterial "{0EC350AE6F50116C}Assets/Props/Wrecks/ShipWreckWooden_01/Data/Shipwreck_Wooden_01_metal_EXT.emat"
+     }
+    }
+   }
+  }
+  coords 877.575 311.882 498.852
+  angles 0.926 -127.176 -18.142
+  scale 0.76
+ }
+}
+SCR_DestructibleBuildingEntity : "{E8C49FFC3417C2F3}Prefabs/Props/Wrecks/ShipWreckMetal_02/ShipWreckMetal_02.et" {
+ coords 874.419 303.179 504.438
+ angles 1.08 15.09 -5.622
+}
