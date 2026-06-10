@@ -1,0 +1,1337 @@
+$grp StaticModelEntity : "{086E85DB687EA38F}Prefabs/Props/Construction/GravelPile_01/GravelPile_01_medium.et" {
+ {
+  coords 4459.408 303.433 1748.642
+  angles 0 -54.256 0
+  scale 1.703
+ }
+ {
+  coords 4514.51 290.39 1658.338
+  angles 0 -26.264 0
+ }
+}
+GenericEntity : "{0A4B42DD94487BFE}Prefabs/Props/Construction/ContainerMetal_01/ContainerMetal_01_low_green.et" {
+ coords 4494.518 303.483 1759.729
+ angles 0 14.002 0
+}
+$grp SCR_DestructibleBuildingEntity : "{0ACD5769BB42F2FB}Prefabs/Method/Props/Camps/PortableCabin_E_02_int_1.et" {
+ {
+  coords 4542.561 0.306 1598.599
+  angles 0 -69.037 0
+ }
+ {
+  coords 4505.325 0.091 1776.105
+  angles 0 162.697 0
+ }
+ {
+  coords 4542.417 0.285 1729.612
+  angles 0 93.921 0
+ }
+ {
+  coords 4544.362 0.548 1735.427
+  angles 0 120.278 0
+ }
+}
+SCR_DestructibleBuildingEntity : "{113C33E4F8E97E22}Prefabs/Industrial/sklades_soviet/Watchtower_4_soviets.et" {
+ coords 4438.176 314.596 1776.157
+ angles 0 -46.147 0
+}
+$grp GenericEntity : "{14225F5BB48F0C00}Prefabs/Props/Construction/ContainerMetal_01/ContainerMetal_01_base.et" {
+ {
+  coords 4490.657 303.483 1759.615
+  angles 0 -20.993 0
+ }
+ {
+  coords 4486.779 294.342 1673.258
+  angles -29.357 0 0
+ }
+}
+StaticModelEntity : "{19A3C48FC2665A3F}Prefabs/Props/Construction/GravelPile_01/GravelPile_01_large.et" {
+ coords 4527.556 290.389 1663.766
+}
+GameEntity : "{1B1B80B11EA3FBA0}Prefabs/Method/Props/Camps/Fireplace_Loiters_03_temp.et" {
+ coords 4599.303 303.483 1726.138
+ angles 0 43.259 0
+}
+GenericEntity : "{22E2462FA3AE0849}Prefabs/Props/Construction/ConcretePipe/ConcretePipe_01_Long_Pile.et" {
+ coords 4568.192 312.375 1637.481
+ angles 2.045 60.977 -3.687
+}
+GenericEntity : "{2424EBB806A690D5}Prefabs/Trash/Medical/GarbageMedicalUS_02.et" {
+ coords 4499.212 278.489 1678.075
+ angles -1.596 -0.207 -0.01
+}
+SCR_DestructibleBuildingEntity : "{2B165B5BF9FE270D}Prefabs/Structures/Infrastructure/Naval/Sheds/BoatShed_01/BoatShed_01.et" {
+ coords 4608.869 -0.422 1675.357
+ angles 7.031 127.587 7.596
+}
+$grp SCR_DestructibleBuildingEntity : "{3177788C81331648}Prefabs/Industrial/builds/bitovka_wheels2.et" {
+ {
+  coords 4518.025 312.039 1587.565
+  angles 0 -109.453 0
+ }
+ {
+  coords 4562.676 296.232 1732.596
+  angles -3.455 167.699 3.037
+ }
+}
+GenericEntity : "{3619812B192CCAE9}Prefabs/Props/Core/Wreck_Base.et" {
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{EDE3CCDBCBA6413E}Assets/Soviet_assets/new_objects/builds/bitovka_wheels.xob"
+   WetnessAdder 1
+   ClutterOccluder 1
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   Static 1
+  }
+ }
+ coords 4557.081 313.669 1604.933
+ angles 0 -115.818 0
+ {
+  GenericEntity : "{0133284E3BDEAEC4}Prefabs/Props/Civilian/Ashtray_01_Full_yellow.et" {
+   coords 1.445 1.631 -3.694
+   angles 0 0 0
+  }
+  GenericEntity : "{026714237FB820CB}Prefabs/Props/Garbage/Cardboard/Cardboard_Pile_07.et" {
+   coords 0.137 0.627 -3.936
+   angles 0 36.283 0
+  }
+  GenericEntity : "{0B49B43A41505E92}Prefabs/Structures/Military/CamoNets/US/CamoNet_Folded_US.et" {
+   coords 0.549 2.068 -3.217
+   angles 0 4.834 0
+   scale 0.71
+  }
+  GenericEntity : "{0BB4B21E4F560431}Prefabs/Props/Furniture/Chest_01.et" {
+   coords 1.196 0.627 3.98
+   angles 0 -137.037 0
+  }
+  StaticModelEntity : "{0C904BACB486FC2E}Prefabs/Structures/Debris/DebrisPile_HouseVillage/DebrisPile_HouseVillage_02_Small.et" {
+   coords 2.386 0.54 3.325
+   scale 0.5
+  }
+  GenericEntity : "{0ED7499549352351}Prefabs/Props/Civilian/LampKerosene_01/Dst/LampKerosene_01_DST_01_military.et" {
+   coords -1.33 1.487 3.609
+  }
+  GenericEntity : "{1AB7A2C69A30391D}Prefabs/Props/Furniture/CoatRack_01.et" {
+   coords -1.005 0.628 4.121
+  }
+  GenericEntity : "{2424EBB806A690D4}Prefabs/Props/Garbage/Medical/GarbageMedicalUS_02.et" {
+   coords 0.008 0.64 2.913
+  }
+  GenericEntity : "{25ED9C1A5F68A573}Prefabs/Props/Garbage/Bins/BinInterior_01_green.et" {
+   coords -1.274 0.627 0.15
+   angles 0 -19.338 0
+  }
+  GenericEntity : "{26EA702845762443}Prefabs/Staff/box_wooden_big.et" {
+   coords 1.563 0.627 2.465
+   angles 0 67.184 0
+  }
+  GenericEntity : "{2B1D0128ED660BE9}Prefabs/Props/Crates/BoxWooden_01.et" {
+   coords 1.31 0.627 1.357
+   angles 0 -11.731 0
+  }
+  GenericEntity : "{2F8BC4454FD8081B}Prefabs/Props/Commercial/Posters/PosterSingle_A3_Forest_V1.et" {
+   coords -1.042 1.984 4.414
+   angles 0 -180 0
+   scale 1.5
+  }
+  GenericEntity : "{3B3733845DE0144A}Prefabs/Props/Civilian/Chock_01/Chock_01_yellow.et" {
+   coords 1.275 0.627 2.648
+   angles 0 -41.044 0
+  }
+  SCR_DestructibleEntity : "{3E048B32C66C4E59}Prefabs/Props/Decorations/Flowerpots/FlowerpotStreet_01/FlowerpotStreet_01_octa_Empty.et" {
+   coords 2.181 0.192 1.175
+   angles 0 90 0
+  }
+  GenericEntity : "{43FCED8B842D63BA}Prefabs/Props/Furniture/ClockWall_02.et" {
+   coords 1.61 2.4 3.21
+   angles 0 -90 0
+  }
+  GenericEntity : "{4637B9AAAB2AAA5F}Prefabs/Props/Recreation/Beach/BlanketBeach_01/BlanketBeach_01_green.et" {
+   coords 0.232 0.631 0.803
+   angles 0 40.551 0
+  }
+  GenericEntity : "{4870DF58BA621FFA}Prefabs/Trash/Medical/GarbageMedicalUS_01.et" {
+   coords 0.953 1.001 -4.064
+  }
+  GenericEntity : "{4C5442EBE4BA1F63}Prefabs/posters/Poster_15.et" {
+   coords 0.742 0.627 -2.136
+   angles 90 0 -12.764
+   scale 1.5
+  }
+  $grp Tree : "{4FE3B631FA363978}Prefabs/Vegetation/Vegetables/CapsicumCrop_01.et" {
+   {
+    coords 2.311 0.693 0.956
+    angles 0 -24.629 0
+   }
+   {
+    coords 2.058 0.697 1.503
+   }
+  }
+  GenericEntity : "{5216BDD8E91B9EF5}Prefabs/Props/Civilian/BasketWicker_01_wood.et" {
+   coords 0.238 0.628 -2.456
+   angles 0 0 0
+  }
+  GenericEntity : "{5444982FED78FECE}Prefabs/Props/Furniture/BasketLaundry_01.et" {
+   coords -1.065 0.627 -1.32
+   angles 0 -77.237 0
+  }
+  GenericEntity : "{57C9E68EF08C2CF8}Prefabs/Trash/Ammo/GarbageAmmunition_US_02.et" {
+   coords -0.627 0.628 -2.517
+  }
+  StaticModelEntity : "{5C290F8B9942A54E}Prefabs/Structures/Infrastructure/Culverts/DrainageChannelWood_01/DrainageChannelWood_01.et" {
+   coords 1.536 0.663 -1.705
+   angles 0 87.986 0
+   scale 0.47
+  }
+  GenericEntity : "{5D31850B326BA246}Prefabs/Props/Industrial/AirCompressor_01/AirCompressor_01.et" {
+   coords -1.11 0.627 -3.965
+   angles 0 7.327 0
+  }
+  GameEntity : "{5E18F5832C69F8A9}Prefabs/Props/Military/Camps/Lamp_Interactive.et" {
+   coords 1.47 1.631 -3.892
+   angles 0 -105.556 0
+  }
+  GenericEntity : "{627F29E940C7A12A}Prefabs/Props/Civilian/CarrierFood_01/CarrierFood_01.et" {
+   coords -1.18 0.627 1.874
+   angles 0 -76.356 0
+  }
+  GenericEntity : "{6D66A35ABDA08197}Prefabs/Props/Garbage/Military/Ammo/GarbageAmmunition_USSR_01.et" {
+   coords 0.036 0.634 0.879
+  }
+  GenericEntity : "{6E3320C3C37CAFE5}Prefabs/Props/Garbage/Cardboard/Cardboard_Pile_04.et" {
+   coords -0.468 0.627 3.358
+   angles 0 34.573 0
+  }
+  GenericEntity : "{716067D391D69654}Prefabs/posters/Poster_12.et" {
+   coords -1.511 2.236 0.956
+   angles 0 90 0
+   scale 1.5
+  }
+  GenericEntity : "{728DD36004461456}Prefabs/Props/Furniture/Cupboard_01/Cupboard_01_B.et" {
+   coords -1.509 0.627 2.469
+   angles 0 90 0
+   scale 0.86
+  }
+  GenericEntity : "{746CDD62C52CD87D}Prefabs/Props/Civilian/BenchStreet/StreetBench_01/Dst/BenchStreet_01_dst_04_red.et" {
+   coords 1.042 0.434 -0.776
+   angles 0 120.263 0
+  }
+  GenericEntity : "{7B63139E79EDF177}Prefabs/chairs/chair_wooden_small.et" {
+   coords 1.22 0.627 1.936
+   angles 0 -31.419 0
+  }
+  GenericEntity : "{7BB30759D09C70B5}Prefabs/Props/Civilian/StepladderWooden_01.et" {
+   coords -1.024 0.679 -0.366
+   angles -89.276 59.158 57.275
+  }
+  GenericEntity : "{8BAF6C3ACF99388E}Prefabs/Props/Garbage/Cardboard/Cardboard_Pile_05.et" {
+   coords 0.691 0.628 2.355
+  }
+  GenericEntity : "{8EF9A7BC7B9C732E}Prefabs/Props/Industrial/BenchDrill_01_table.et" {
+   coords 1.154 0.628 -4.079
+  }
+  GenericEntity : "{9846096644A43ACF}Prefabs/Trash/Medical/GarbageMedicalUSSR_01.et" {
+   coords -1.209 1.487 2.799
+  }
+  GenericEntity : "{ABA40158860E5B6B}Prefabs/Props/Crates/Crate_01_brown.et" {
+   coords 0.989 0.997 -4.036
+   angles 0 -28.588 0
+  }
+  GenericEntity : "{B898D2A1F45058F6}Prefabs/Props/Garbage/Military/Food/GarbageFoodMilitaryUSSR_01.et" {
+   coords -0.978 0.628 1.37
+  }
+  GenericEntity : "{BE7BD882A7E3E5C9}Prefabs/Props/Civilian/Chock_02/Chock_02_yellow.et" {
+   coords 0.468 0.627 3.958
+   angles 0 -41.361 0
+  }
+  GenericEntity : "{C0CCCB68B7147DEC}Prefabs/Props/Furniture/Chair_02/Chair_02_Base.et" {
+   coords -0.893 0.631 2.079
+   angles 0 58.381 0
+  }
+  GenericEntity : "{CFB893B8084ECD2B}Prefabs/Props/Furniture/Armchair_01.et" {
+   coords 0.854 0.628 -2.189
+   angles 0 -32.679 0
+  }
+  GenericEntity : "{D0B44EB8DBEDDA97}Prefabs/Props/Civilian/Bucket_02.et" {
+   coords 1.326 0.628 -1.709
+  }
+  GenericEntity : "{E025DF13F897741D}Prefabs/Props/Civilian/Photos/CombatOps_Polaroid_11.et" {
+   coords 1.231 1.631 -4.042
+   angles 0 96.638 0
+  }
+  GenericEntity : "{E28A1732DA84AD7A}Prefabs/Trash/Food/GarbageFoodMilitaryUS_01.et" {
+   coords 1.397 1.631 -4.389
+  }
+  GenericEntity : "{F4123D86F860B5E2}Prefabs/Trash/Medical/GarbageMedicalUSSR_02.et" {
+   coords 0.128 0.628 -0.858
+  }
+  GenericEntity : "{F6981BC58E2B46C5}Prefabs/Compositions/Misc/SubCompositions/Decorations/Crate_Paint_01.et" {
+   coords -0.57 0.627 3.984
+   angles 0 -29.879 0
+  }
+  GenericEntity : "{F737777FF0A566D5}Prefabs/Props/Commercial/CabinetCardFile_01/CabinetCardFile_01_Base.et" {
+   coords 0.538 0.627 -3.283
+   angles 0 -11.768 0
+  }
+  GenericEntity : "{FBC8A28A5C908D2F}Prefabs/Props/Agriculture/Cartwheel_01.et" {
+   coords -1.337 0.641 1.022
+   angles 8.787 86.05 0
+  }
+  GenericEntity : "{FD5454C4D10D2466}Prefabs/Props/Civilian/BreadSlicer_01_blue.et" {
+   coords 1.084 2.479 -3.772
+   angles 0 -14.842 0
+  }
+  GenericEntity : "{FF181C2921B7A4F3}Prefabs/Props/Furniture/CabinetMetal_01_olive_V2.et" {
+   coords 1.231 0.628 -3.266
+  }
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{4A3D764C0D5E70BC}Prefabs/Method/Structures_int/Industrial/PortableCabin_E_01_int_1.et" {
+ {
+  coords 4535.312 0.536 1593.315
+  angles 0 -5.14 0
+ }
+ {
+  coords 4509.824 0.198 1780.012
+  angles 0 172.373 0
+ }
+}
+$grp StaticModelEntity : "{5255F7BE946E153F}Prefabs/Structures/Walls/Concrete/SilageWall_01/SilageWall_01_5m.et" {
+ {
+  coords 4544.214 1.174 1741.949
+  angles 12.755 -19.171 4.252
+ }
+ {
+  coords 4536.75 0.028 1735.782
+  angles 13.282 -46.561 -2.032
+ }
+ {
+  coords 4565.962 -0.033 1735.538
+  angles -6.314 83.33 -0.359
+ }
+ {
+  coords 4548.906 1.164 1743.664
+  angles 16.687 -18.866 4.33
+ }
+ {
+  coords 4533.455 0.536 1731.921
+  angles 6.869 -46.333 5.625
+ }
+ {
+  coords 4566.633 -0.168 1730.717
+  angles 3.025 83.271 -0.358
+ }
+ {
+  coords 4540.2 0.551 1739.359
+  angles 17.222 -46.707 -2.071
+ }
+ {
+  coords 4565.437 0.475 1740.5
+  angles -3.317 83.311 -0.358
+ }
+ {
+  coords 4505.896 0 1714.443
+  angles 0.654 -14.252 0.757
+ }
+ {
+  coords 4516.376 0 1716.528
+  angles 35.879 -4.833 -3.2
+ }
+ {
+  coords 4511.427 -0.864 1716.17
+  angles 28.514 -1.395 -14.69
+ }
+ {
+  coords 4456.74 -1.095 1686.756
+  angles 1.324 -53.719 -1.803
+ }
+ {
+  coords 4462.337 0.852 1694.765
+  angles 4.434 -56.487 12.908
+ }
+ {
+  coords 4459.851 -0.089 1690.594
+  angles 9.141 -54.094 19.309
+ }
+ {
+  coords 4476.369 0 1705.256
+  angles 2.112 -19.286 -0.739
+ }
+ {
+  coords 4485.504 0.068 1708.704
+  angles 5.271 -21.999 13.937
+ }
+ {
+  coords 4481.093 -0.121 1706.669
+  angles 9.934 -19.515 20.384
+ }
+}
+$grp SCR_IndestructibleEnvironmentalEntity : "{533CDABD77C4C43E}Prefabs/Rocks/Granite/GraniteCliff_02.et" {
+ {
+  coords 4428.951 287.411 1736.759
+  angles 2.815 96.92 -6.957
+  scale 1.15
+ }
+ {
+  coords 4459.853 290.788 1775.209
+  angles 8.583 148.491 -8.321
+  scale 1.15
+ }
+ {
+  coords 4448.069 292.861 1767.85
+  angles 8.583 148.491 -8.321
+  scale 1.15
+ }
+ {
+  coords 4440.55 291.706 1759.514
+  angles 6.565 135.91 -3.639
+  scale 1.15
+ }
+ {
+  coords 4431.584 288.304 1747.232
+  angles 5.706 124.342 -4.88
+  scale 1.15
+ }
+ {
+  coords 4473.329 287.481 1780.788
+  angles 10.487 164.068 -5.725
+  scale 1.15
+ }
+ {
+  coords 4583.042 288.562 1648.011
+  angles 2.064 -14.039 0.307
+  scale 1.15
+ }
+ {
+  coords 4622.574 292.53 1695.519
+  angles 1.656 -59.982 -1.27
+  scale 1.15
+ }
+ {
+  coords 4590.799 288.752 1656.875
+  angles 1.606 -62.185 -1.332
+  scale 1.15
+ }
+ {
+  coords 4571.926 286.686 1645.912
+  angles 1.975 -3.632 0.675
+  scale 1.15
+ }
+ {
+  coords 4557.193 286.771 1642.328
+  angles 2.087 -22.5 0
+  scale 1.15
+ }
+ {
+  coords 4516.665 286.768 1624.883
+  angles 0 -18.462 0
+  scale 1.15
+ }
+ {
+  coords 4596.896 289.161 1671.539
+  angles 1.324 -73.143 -1.613
+  scale 1.15
+ }
+ {
+  coords 4543.733 286.732 1635.586
+  angles 2.087 -22.5 0
+  scale 1.15
+ }
+ {
+  coords 4597.371 289.609 1685.035
+  angles 0.825 -89.212 -1.917
+  scale 1.15
+ }
+ {
+  coords 4603.281 289.653 1688.804
+  angles 1.74 11.007 1.152
+  scale 1.15
+ }
+ {
+  coords 4613.595 291.503 1688.536
+  angles 1.974 -3.573 0.677
+  scale 1.15
+ }
+ {
+  coords 4530.756 286.768 1629.588
+  angles 0 -18.462 0
+  scale 1.15
+ }
+ {
+  coords 4503.487 288.743 1620.483
+  angles 0 -18.462 0
+ }
+ {
+  coords 4492.49 288.743 1618.7
+  angles 0 -4.957 0
+ }
+ {
+  coords 4581.625 296.365 1798.416
+  angles 11.928 -168.726 -0.339
+  scale 1.15
+ }
+ {
+  coords 4569.779 297.193 1797.11
+  angles 10.151 160.825 -6.306
+  scale 1.15
+ }
+ {
+  coords 4556.124 293.237 1793.942
+  angles 11.82 -175.07 -1.645
+  scale 1.15
+ }
+ {
+  coords 4541.61 288.896 1792.909
+  angles 11.82 -175.07 -1.645
+  scale 1.15
+ }
+ {
+  coords 4608.954 297.518 1785.477
+  angles 6.488 -130.227 -6.841
+  scale 1.15
+ }
+ {
+  coords 4471.5 270.398 1681.648
+  angles 0 95.927 0
+  scale 1.15
+ }
+ {
+  coords 4597.043 296.525 1796.004
+  angles 4.12 -147.768 -5
+  scale 1.15
+ }
+ {
+  coords 4623.044 293.652 1720.297
+  angles 5.726 -77.918 -1.723
+  scale 1.15
+ }
+ {
+  coords 4467.686 271.849 1675.096
+  angles 4.462 86.016 1.943
+  scale 1.15
+ }
+ {
+  coords 4623.523 296.616 1757.6
+  angles 4.874 -96.619 -3.466
+  scale 1.15
+ }
+ {
+  coords 4618.93 296.768 1770.869
+  angles 8.118 -114.196 -4.79
+  scale 1.15
+ }
+ {
+  coords 4468.352 273.435 1663.752
+  angles 4.462 86.016 1.943
+  scale 1.15
+ }
+ {
+  coords 4479.978 279.452 1625.523
+  angles 4.866 62.455 0
+  scale 1.15
+ }
+ {
+  coords 4627.043 295.01 1732.206
+  angles 5.546 -83.147 -2.237
+  scale 1.15
+ }
+ {
+  coords 4473.853 277.512 1637.623
+  angles 4.866 62.455 0
+  scale 1.15
+ }
+ {
+  coords 4471.064 275.885 1650.227
+  angles 4.804 71.609 0.773
+  scale 1.15
+ }
+ {
+  coords 4626.976 295.657 1744.891
+  angles 4.874 -96.619 -3.466
+  scale 1.15
+ }
+ {
+  coords 4623.104 293.037 1708.248
+  angles 5.726 -77.918 -1.723
+  scale 1.15
+ }
+ {
+  coords 4489.352 267.23 1658.452
+  angles 0 13.197 0
+  scale 1.15
+ }
+ {
+  coords 4475.715 267.23 1667.427
+  angles 0 58.272 0
+  scale 1.15
+ }
+ {
+  coords 4483.417 267.254 1691.069
+  angles 12.521 138.127 0
+  scale 1.15
+ }
+ {
+  coords 4498.771 266.991 1660.686
+  angles 11.172 -15.784 3.965
+  scale 1.15
+ }
+ {
+  coords 4531.745 267.951 1684.617
+  angles 11.975 -87.224 -0.202
+  scale 1.15
+ }
+ {
+  coords 4493.978 265.959 1696.297
+  angles 17.298 155.485 -0.513
+  scale 1.15
+ }
+ {
+  coords 4504.883 266.312 1699.651
+  angles 17.254 161.79 1.361
+  scale 1.15
+ }
+ {
+  coords 4518.59 267.343 1701.82
+  angles 16.578 174.372 0.355
+  scale 1.15
+ }
+ {
+  coords 4528.584 266.418 1696.567
+  angles 17.904 -141.673 1.465
+  scale 1.15
+ }
+ {
+  coords 4476.54 265.432 1681.125
+  angles 4.398 95.927 0
+  scale 1.15
+ }
+ {
+  coords 4471.843 289.261 1716.96
+  angles 64.017 164.627 1.25
+  scale 1.15
+ }
+ {
+  coords 4509.81 290.365 1740.08
+  angles 64.017 164.627 1.25
+  scale 1.15
+ }
+ {
+  coords 4529.417 283.843 1721.169
+  angles 57.163 163.228 7.545
+  scale 1.15
+ }
+ {
+  coords 4459.36 283.063 1686.606
+  angles 40.301 128.776 5.673
+  scale 1.15
+ }
+ {
+  coords 4526.521 290.319 1744.576
+  angles 64.017 164.627 1.25
+  scale 1.15
+ }
+ {
+  coords 4495.864 289.955 1735.372
+  angles 64.017 164.627 1.25
+  scale 1.15
+ }
+ {
+  coords 4482.142 276.098 1707.912
+  angles 22.577 158.578 4.423
+  scale 1.15
+ }
+ {
+  coords 4484.164 289.607 1727.304
+  angles 64.017 164.627 1.25
+  scale 1.15
+ }
+ {
+  coords 4446.123 277.815 1681.005
+  angles 4.462 86.016 1.943
+  scale 1.15
+ }
+ {
+  coords 4498.124 283.367 1718.226
+  angles 48.34 161.479 6.149
+  scale 1.15
+ }
+ {
+  coords 4461.263 290.546 1706.745
+  angles 69.937 159.074 -3.974
+  scale 1.15
+ }
+ {
+  coords 4516.294 280.157 1758.115
+  angles -0.822 -176.452 -1.8
+  scale 1.15
+ }
+ {
+  coords 4514.988 284.086 1721.402
+  angles 57.163 163.228 7.545
+  scale 1.15
+ }
+ {
+  coords 4451.36 277.804 1670.679
+  angles 4.462 86.016 1.943
+  scale 1.15
+ }
+ {
+  coords 4465.282 283.651 1699.414
+  angles 40.301 128.776 5.673
+  scale 1.15
+ }
+}
+Tree : "{5CA1D12C1B27CAE2}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_picea_abies_stump_02.et" {
+ coords 4520.751 307.824 1800.186
+ angles -3.284 153.033 -3.781
+ scale 0.922
+}
+GenericEntity : "{70F32FEADB4D80F0}Prefabs/Props/Construction/ContainerMetal_01/ContainerMetal_01_low_base.et" {
+ coords 4571.683 303.483 1777.896
+ angles 0 -4.528 0
+}
+$grp GenericEntity : "{719ADBF3843A0876}Prefabs/Vehicles/zil131/armst_zil131_gruz.et" {
+ {
+  coords 4509.782 311.351 1603.474
+  angles 1.997 60.243 -3.713
+ }
+ {
+  coords 4518.526 311.437 1605.862
+  angles 5.014 111.915 -6.437
+ }
+ {
+  coords 4567.657 314.709 1615.216
+  angles -5.361 -112.49 2.215
+ }
+ {
+  coords 4504.387 303.86 1763.617
+  angles 0 -99.658 0
+ }
+ {
+  coords 4587.322 304 1763.689
+  angles 0 131.591 0
+ }
+ {
+  coords 4517.549 290.185 1712.994
+  angles 0.448 89.975 0
+ }
+ {
+  coords 4521.789 290.854 1656.291
+  angles 0 36.213 0
+ }
+}
+$grp Tree : "{779DF03FAB7A131E}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_picea_abies_stump_01.et" {
+ {
+  coords 4524.194 307.944 1802.786
+  angles 0 9.185 0
+  scale 0.813
+ }
+ {
+  coords 4532.118 308.886 1799.132
+  angles 0 70.875 0
+  scale 0.85
+ }
+}
+$grp SCR_IndestructibleEnvironmentalEntity : "{7813FBBE77324674}Prefabs/Rocks/Granite/GraniteSurfaceStone_03.et" {
+ {
+  components {
+   MeshObject "{5130844EED1A5B10}" {
+    Materials {
+     MaterialAssignClass "{667A8346D38A631D}" {
+      SourceMaterial "Common/Materials/Game/stone"
+      AssignedMaterial "{828C1D748E309126}Assets/Structures/Industrial/Houses/ConcretePlant_E_01/Data/ConcretePlant_E_01_GravelPile_01.emat"
+     }
+     MaterialAssignClass "{667A8346D38A60EF}" {
+      SourceMaterial "MLOD"
+      AssignedMaterial "{828C1D748E309126}Assets/Structures/Industrial/Houses/ConcretePlant_E_01/Data/ConcretePlant_E_01_GravelPile_01.emat"
+     }
+    }
+   }
+  }
+  coords 4478.467 299.539 1779.448
+  angles 0 7.665 0
+  scale 1.587
+ }
+ {
+  components {
+   MeshObject "{5130844EED1A5B10}" {
+    Materials {
+     MaterialAssignClass "{667A8346D38A631D}" {
+      SourceMaterial "Common/Materials/Game/stone"
+      AssignedMaterial "{828C1D748E309126}Assets/Structures/Industrial/Houses/ConcretePlant_E_01/Data/ConcretePlant_E_01_GravelPile_01.emat"
+     }
+     MaterialAssignClass "{667A8346D38A60EF}" {
+      SourceMaterial "MLOD"
+      AssignedMaterial "{828C1D748E309126}Assets/Structures/Industrial/Houses/ConcretePlant_E_01/Data/ConcretePlant_E_01_GravelPile_01.emat"
+     }
+    }
+   }
+  }
+  coords 4441.052 299.539 1754.037
+  angles 0 112.068 0
+  scale 1.888
+ }
+ {
+  components {
+   MeshObject "{5130844EED1A5B10}" {
+    Materials {
+     MaterialAssignClass "{667A8346D38A631D}" {
+      SourceMaterial "Common/Materials/Game/stone"
+      AssignedMaterial "{828C1D748E309126}Assets/Structures/Industrial/Houses/ConcretePlant_E_01/Data/ConcretePlant_E_01_GravelPile_01.emat"
+     }
+     MaterialAssignClass "{667A8346D38A60EF}" {
+      SourceMaterial "MLOD"
+      AssignedMaterial "{828C1D748E309126}Assets/Structures/Industrial/Houses/ConcretePlant_E_01/Data/ConcretePlant_E_01_GravelPile_01.emat"
+     }
+    }
+   }
+  }
+  coords 4446.852 301.825 1762.125
+  angles -24.395 137.63 -11.175
+  scale 1.888
+ }
+ {
+  components {
+   MeshObject "{5130844EED1A5B10}" {
+    Materials {
+     MaterialAssignClass "{667A8346D38A631D}" {
+      SourceMaterial "Common/Materials/Game/stone"
+      AssignedMaterial "{828C1D748E309126}Assets/Structures/Industrial/Houses/ConcretePlant_E_01/Data/ConcretePlant_E_01_GravelPile_01.emat"
+     }
+     MaterialAssignClass "{667A8346D38A60EF}" {
+      SourceMaterial "MLOD"
+      AssignedMaterial "{828C1D748E309126}Assets/Structures/Industrial/Houses/ConcretePlant_E_01/Data/ConcretePlant_E_01_GravelPile_01.emat"
+     }
+    }
+   }
+  }
+  coords 4457.452 299.539 1766.054
+  angles 0 7.665 0
+  scale 1.587
+ }
+ {
+  components {
+   MeshObject "{5130844EED1A5B10}" {
+    Materials {
+     MaterialAssignClass "{667A8346D38A631D}" {
+      SourceMaterial "Common/Materials/Game/stone"
+      AssignedMaterial "{828C1D748E309126}Assets/Structures/Industrial/Houses/ConcretePlant_E_01/Data/ConcretePlant_E_01_GravelPile_01.emat"
+     }
+     MaterialAssignClass "{667A8346D38A60EF}" {
+      SourceMaterial "MLOD"
+      AssignedMaterial "{828C1D748E309126}Assets/Structures/Industrial/Houses/ConcretePlant_E_01/Data/ConcretePlant_E_01_GravelPile_01.emat"
+     }
+    }
+   }
+  }
+  coords 4436.963 298.549 1733.032
+  angles 0 112.068 0
+  scale 1.888
+ }
+ {
+  components {
+   MeshObject "{5130844EED1A5B10}" {
+    Materials {
+     MaterialAssignClass "{667A8346D38A631D}" {
+      SourceMaterial "Common/Materials/Game/stone"
+      AssignedMaterial "{828C1D748E309126}Assets/Structures/Industrial/Houses/ConcretePlant_E_01/Data/ConcretePlant_E_01_GravelPile_01.emat"
+     }
+     MaterialAssignClass "{667A8346D38A60EF}" {
+      SourceMaterial "MLOD"
+      AssignedMaterial "{828C1D748E309126}Assets/Structures/Industrial/Houses/ConcretePlant_E_01/Data/ConcretePlant_E_01_GravelPile_01.emat"
+     }
+    }
+   }
+  }
+  coords 4569.726 299.478 1789.797
+  angles 0 7.665 0
+  scale 1.587
+ }
+ {
+  components {
+   MeshObject "{5130844EED1A5B10}" {
+    Materials {
+     MaterialAssignClass "{667A8346D38A631D}" {
+      SourceMaterial "Common/Materials/Game/stone"
+      AssignedMaterial "{828C1D748E309126}Assets/Structures/Industrial/Houses/ConcretePlant_E_01/Data/ConcretePlant_E_01_GravelPile_01.emat"
+     }
+     MaterialAssignClass "{667A8346D38A60EF}" {
+      SourceMaterial "MLOD"
+      AssignedMaterial "{828C1D748E309126}Assets/Structures/Industrial/Houses/ConcretePlant_E_01/Data/ConcretePlant_E_01_GravelPile_01.emat"
+     }
+    }
+   }
+  }
+  coords 4619.417 299.289 1769.131
+  angles 0 164.27 7.671
+  scale 3.221
+ }
+ {
+  components {
+   MeshObject "{5130844EED1A5B10}" {
+    Materials {
+     MaterialAssignClass "{667A8346D38A631D}" {
+      SourceMaterial "Common/Materials/Game/stone"
+      AssignedMaterial "{828C1D748E309126}Assets/Structures/Industrial/Houses/ConcretePlant_E_01/Data/ConcretePlant_E_01_GravelPile_01.emat"
+     }
+     MaterialAssignClass "{667A8346D38A60EF}" {
+      SourceMaterial "MLOD"
+      AssignedMaterial "{828C1D748E309126}Assets/Structures/Industrial/Houses/ConcretePlant_E_01/Data/ConcretePlant_E_01_GravelPile_01.emat"
+     }
+    }
+   }
+  }
+  coords 4614.11 299.811 1702.063
+  angles 0 86.782 0
+  scale 1.587
+ }
+ {
+  components {
+   MeshObject "{5130844EED1A5B10}" {
+    Materials {
+     MaterialAssignClass "{667A8346D38A631D}" {
+      SourceMaterial "Common/Materials/Game/stone"
+      AssignedMaterial "{828C1D748E309126}Assets/Structures/Industrial/Houses/ConcretePlant_E_01/Data/ConcretePlant_E_01_GravelPile_01.emat"
+     }
+     MaterialAssignClass "{667A8346D38A60EF}" {
+      SourceMaterial "MLOD"
+      AssignedMaterial "{828C1D748E309126}Assets/Structures/Industrial/Houses/ConcretePlant_E_01/Data/ConcretePlant_E_01_GravelPile_01.emat"
+     }
+    }
+   }
+  }
+  coords 4536.235 301.003 1787.422
+  angles 0 7.665 0
+  scale 1.587
+ }
+ {
+  components {
+   MeshObject "{5130844EED1A5B10}" {
+    Materials {
+     MaterialAssignClass "{667A8346D38A631D}" {
+      SourceMaterial "Common/Materials/Game/stone"
+      AssignedMaterial "{828C1D748E309126}Assets/Structures/Industrial/Houses/ConcretePlant_E_01/Data/ConcretePlant_E_01_GravelPile_01.emat"
+     }
+     MaterialAssignClass "{667A8346D38A60EF}" {
+      SourceMaterial "MLOD"
+      AssignedMaterial "{828C1D748E309126}Assets/Structures/Industrial/Houses/ConcretePlant_E_01/Data/ConcretePlant_E_01_GravelPile_01.emat"
+     }
+    }
+   }
+  }
+  coords 4551.09 299.478 1791.09
+  angles 0 7.665 0
+  scale 1.587
+ }
+ {
+  components {
+   MeshObject "{5130844EED1A5B10}" {
+    Materials {
+     MaterialAssignClass "{667A8346D38A631D}" {
+      SourceMaterial "Common/Materials/Game/stone"
+      AssignedMaterial "{828C1D748E309126}Assets/Structures/Industrial/Houses/ConcretePlant_E_01/Data/ConcretePlant_E_01_GravelPile_01.emat"
+     }
+     MaterialAssignClass "{667A8346D38A60EF}" {
+      SourceMaterial "MLOD"
+      AssignedMaterial "{828C1D748E309126}Assets/Structures/Industrial/Houses/ConcretePlant_E_01/Data/ConcretePlant_E_01_GravelPile_01.emat"
+     }
+    }
+   }
+  }
+  coords 4616.407 299.811 1718.49
+  angles 0 86.782 0
+  scale 1.587
+ }
+ {
+  components {
+   MeshObject "{5130844EED1A5B10}" {
+    Materials {
+     MaterialAssignClass "{667A8346D38A631D}" {
+      SourceMaterial "Common/Materials/Game/stone"
+      AssignedMaterial "{828C1D748E309126}Assets/Structures/Industrial/Houses/ConcretePlant_E_01/Data/ConcretePlant_E_01_GravelPile_01.emat"
+     }
+     MaterialAssignClass "{667A8346D38A60EF}" {
+      SourceMaterial "MLOD"
+      AssignedMaterial "{828C1D748E309126}Assets/Structures/Industrial/Houses/ConcretePlant_E_01/Data/ConcretePlant_E_01_GravelPile_01.emat"
+     }
+    }
+   }
+  }
+  coords 4615.749 299.811 1737.892
+  angles 0 86.782 0
+  scale 1.587
+ }
+ {
+  components {
+   MeshObject "{5130844EED1A5B10}" {
+    Materials {
+     MaterialAssignClass "{667A8346D38A631D}" {
+      SourceMaterial "Common/Materials/Game/stone"
+      AssignedMaterial "{828C1D748E309126}Assets/Structures/Industrial/Houses/ConcretePlant_E_01/Data/ConcretePlant_E_01_GravelPile_01.emat"
+     }
+     MaterialAssignClass "{667A8346D38A60EF}" {
+      SourceMaterial "MLOD"
+      AssignedMaterial "{828C1D748E309126}Assets/Structures/Industrial/Houses/ConcretePlant_E_01/Data/ConcretePlant_E_01_GravelPile_01.emat"
+     }
+    }
+   }
+  }
+  coords 4590.665 300.546 1785.415
+  angles 0 164.27 0
+  scale 1.587
+ }
+ {
+  components {
+   MeshObject "{5130844EED1A5B10}" {
+    Materials {
+     MaterialAssignClass "{667A8346D38A631D}" {
+      SourceMaterial "Common/Materials/Game/stone"
+      AssignedMaterial "{828C1D748E309126}Assets/Structures/Industrial/Houses/ConcretePlant_E_01/Data/ConcretePlant_E_01_GravelPile_01.emat"
+     }
+     MaterialAssignClass "{667A8346D38A60EF}" {
+      SourceMaterial "MLOD"
+      AssignedMaterial "{828C1D748E309126}Assets/Structures/Industrial/Houses/ConcretePlant_E_01/Data/ConcretePlant_E_01_GravelPile_01.emat"
+     }
+    }
+   }
+  }
+  coords 4513.406 274.439 1690.949
+  angles 5.001 -31.067 -0.335
+  scale 1.587
+ }
+ {
+  components {
+   MeshObject "{5130844EED1A5B10}" {
+    Materials {
+     MaterialAssignClass "{667A8346D38A631D}" {
+      SourceMaterial "Common/Materials/Game/stone"
+      AssignedMaterial "{828C1D748E309126}Assets/Structures/Industrial/Houses/ConcretePlant_E_01/Data/ConcretePlant_E_01_GravelPile_01.emat"
+     }
+     MaterialAssignClass "{667A8346D38A60EF}" {
+      SourceMaterial "MLOD"
+      AssignedMaterial "{828C1D748E309126}Assets/Structures/Industrial/Houses/ConcretePlant_E_01/Data/ConcretePlant_E_01_GravelPile_01.emat"
+     }
+    }
+   }
+  }
+  coords 4495.82 274.952 1688.474
+  angles 5.001 -31.067 -0.335
+  scale 1.587
+ }
+ {
+  components {
+   MeshObject "{5130844EED1A5B10}" {
+    Materials {
+     MaterialAssignClass "{667A8346D38A631D}" {
+      SourceMaterial "Common/Materials/Game/stone"
+      AssignedMaterial "{828C1D748E309126}Assets/Structures/Industrial/Houses/ConcretePlant_E_01/Data/ConcretePlant_E_01_GravelPile_01.emat"
+     }
+     MaterialAssignClass "{667A8346D38A60EF}" {
+      SourceMaterial "MLOD"
+      AssignedMaterial "{828C1D748E309126}Assets/Structures/Industrial/Houses/ConcretePlant_E_01/Data/ConcretePlant_E_01_GravelPile_01.emat"
+     }
+    }
+   }
+  }
+  coords 4485.423 274.376 1675.74
+  angles 5.001 -31.067 -0.335
+  scale 1.587
+ }
+ {
+  components {
+   MeshObject "{5130844EED1A5B10}" {
+    Materials {
+     MaterialAssignClass "{667A8346D38A631D}" {
+      SourceMaterial "Common/Materials/Game/stone"
+      AssignedMaterial "{828C1D748E309126}Assets/Structures/Industrial/Houses/ConcretePlant_E_01/Data/ConcretePlant_E_01_GravelPile_01.emat"
+     }
+     MaterialAssignClass "{667A8346D38A60EF}" {
+      SourceMaterial "MLOD"
+      AssignedMaterial "{828C1D748E309126}Assets/Structures/Industrial/Houses/ConcretePlant_E_01/Data/ConcretePlant_E_01_GravelPile_01.emat"
+     }
+    }
+   }
+  }
+  coords 4514.709 277.655 1673.564
+  angles -32.596 -30.825 -0.396
+  scale 2.253
+ }
+ {
+  components {
+   MeshObject "{5130844EED1A5B10}" {
+    Materials {
+     MaterialAssignClass "{667A8346D38A631D}" {
+      SourceMaterial "Common/Materials/Game/stone"
+      AssignedMaterial "{828C1D748E309126}Assets/Structures/Industrial/Houses/ConcretePlant_E_01/Data/ConcretePlant_E_01_GravelPile_01.emat"
+     }
+     MaterialAssignClass "{667A8346D38A60EF}" {
+      SourceMaterial "MLOD"
+      AssignedMaterial "{828C1D748E309126}Assets/Structures/Industrial/Houses/ConcretePlant_E_01/Data/ConcretePlant_E_01_GravelPile_01.emat"
+     }
+    }
+   }
+  }
+  coords 4501.161 285.441 1712.174
+  angles 13.381 -15.47 1.031
+  scale 1.587
+ }
+ {
+  components {
+   MeshObject "{5130844EED1A5B10}" {
+    Materials {
+     MaterialAssignClass "{667A8346D38A631D}" {
+      SourceMaterial "Common/Materials/Game/stone"
+      AssignedMaterial "{828C1D748E309126}Assets/Structures/Industrial/Houses/ConcretePlant_E_01/Data/ConcretePlant_E_01_GravelPile_01.emat"
+     }
+     MaterialAssignClass "{667A8346D38A60EF}" {
+      SourceMaterial "MLOD"
+      AssignedMaterial "{828C1D748E309126}Assets/Structures/Industrial/Houses/ConcretePlant_E_01/Data/ConcretePlant_E_01_GravelPile_01.emat"
+     }
+    }
+   }
+  }
+  coords 4542.692 291.291 1732.018
+  angles 0 86.782 0
+  scale 1.587
+ }
+ {
+  components {
+   MeshObject "{5130844EED1A5B10}" {
+    Materials {
+     MaterialAssignClass "{667A8346D38A631D}" {
+      SourceMaterial "Common/Materials/Game/stone"
+      AssignedMaterial "{828C1D748E309126}Assets/Structures/Industrial/Houses/ConcretePlant_E_01/Data/ConcretePlant_E_01_GravelPile_01.emat"
+     }
+     MaterialAssignClass "{667A8346D38A60EF}" {
+      SourceMaterial "MLOD"
+      AssignedMaterial "{828C1D748E309126}Assets/Structures/Industrial/Houses/ConcretePlant_E_01/Data/ConcretePlant_E_01_GravelPile_01.emat"
+     }
+    }
+   }
+  }
+  coords 4534.114 286.669 1725.727
+  angles 0 86.782 0
+  scale 1.587
+ }
+ {
+  components {
+   MeshObject "{5130844EED1A5B10}" {
+    Materials {
+     MaterialAssignClass "{667A8346D38A631D}" {
+      SourceMaterial "Common/Materials/Game/stone"
+      AssignedMaterial "{828C1D748E309126}Assets/Structures/Industrial/Houses/ConcretePlant_E_01/Data/ConcretePlant_E_01_GravelPile_01.emat"
+     }
+     MaterialAssignClass "{667A8346D38A60EF}" {
+      SourceMaterial "MLOD"
+      AssignedMaterial "{828C1D748E309126}Assets/Structures/Industrial/Houses/ConcretePlant_E_01/Data/ConcretePlant_E_01_GravelPile_01.emat"
+     }
+    }
+   }
+  }
+  coords 4534.425 292.789 1746.51
+  angles 0 86.782 0
+  scale 1.587
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{893BA4C3A6DBEF9D}Prefabs/Industrial/builds/vagon_beton.et" {
+ {
+  coords 4587.614 303.483 1770.66
+  angles 0 -177.615 0
+ }
+ {
+  coords 4494.721 290.389 1648.056
+  angles 0 -114.422 0
+ }
+}
+GameEntity : "{92D3F8A8AE82E3E5}Prefabs/Method/Props/Camps/Fireplace_Loiters_01_temp.et" {
+ coords 4558.112 296.765 1740.32
+ angles 0 -49.659 0
+}
+$grp GenericEntity : "{935B1AB6F82CB88E}Prefabs/LOOT_BOX/base/garbarages/Loot_garbarages_barrel.et" {
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_bSpawnInLowTier 1
+    m_bSpawnInMediumTier 1
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      m_iMaxItemsToSpawn 6
+     }
+    }
+   }
+  }
+  coords 4515.363 311.113 1604.871
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_bSpawnInLowTier 1
+    m_bSpawnInMediumTier 1
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      m_iMaxItemsToSpawn 6
+     }
+    }
+   }
+  }
+  coords 4569.384 303.483 1778.026
+ }
+}
+GenericEntity : "{A8BDD705E8F811E6}Prefabs/Vehicles/kamaz/armst_kamaz_red_wreck.et" {
+ coords 4481.983 291.612 1640.426
+ angles -4.77 -40.903 97.593
+}
+$grp SCR_DestructibleBuildingEntity : "{ACE8DF66DCD41EF5}Prefabs/Method/Structures_int/Industrial/PortableCabin_E_02_int_1.et" {
+ {
+  coords 4528.042 0.306 1590.545
+  angles 0 -18.132 0
+ }
+ {
+  coords 4516.021 0 1780.334
+  angles 0 174.976 0
+ }
+}
+$grp GenericEntity : "{B09D999506CDF092}Prefabs/Vehicles/dz-76/armst_veh_dz_76.et" {
+ {
+  coords 4452.443 303.483 1742.185
+  angles 0 117.221 0
+ }
+ {
+  coords 4516.738 303.483 1765.261
+  angles 0 -28.988 0
+ }
+ {
+  coords 4509.882 303.483 1763.206
+  angles 0 -179.695 0
+ }
+ {
+  coords 4595.137 303.483 1740.491
+  angles 0 71.685 0
+ }
+ {
+  coords 4490.724 289.619 1707.468
+  angles 15.467 -113.706 -8.069
+ }
+ {
+  coords 4530.375 290.39 1657.906
+  angles 0 155.144 0
+ }
+}
+$grp GenericEntity : "{C51A49ACBB2EF063}Prefabs/Props/Construction/ContainerMetal_01/ContainerMetal_01_blue.et" {
+ {
+  coords 4487.706 303.483 1758.231
+  angles 0 -34.465 0
+ }
+ {
+  coords 4574.967 303.483 1776.978
+  angles 0 -149.557 0
+ }
+}
+SCR_DestructibleBuildingEntity : "{CA58B5A4396F5FB5}Prefabs/Structures/Infrastructure/Naval/Cranes/HarborCrane_01_turret_green.et" {
+ coords 4479.853 -13.521 1656.177
+ angles 0 21.404 0
+}
+GenericEntity : "{CB033C658E372CED}Prefabs/Props/Construction/PlankPile/PlankPile_01_Large.et" {
+ coords 4574.387 315.284 1611.211
+ angles -0.422 60.414 -19.578
+ scale 1.62
+}
+$grp SCR_DestructibleBuildingEntity : "{CFFBF2762CF73C3C}Prefabs/Structures/Industrial/Cranes/CoalLoader_01/CoalLoader_01_tower.et" {
+ {
+  coords 4527.856 0.59 1610.909
+  angles 0 163.695 0
+ }
+ {
+  coords 4561.349 -0.3 1622.247
+  angles 0 160.4 0
+ }
+}
+$grp GenericEntity : "{D3C9D19837B99FDF}Prefabs/Vehicles/eo_4121/armst_veh_eo_4121.et" {
+ {
+  coords 4549.458 312.47 1617.629
+  angles -5.117 6.578 -2.383
+  scale 1.2
+ }
+ {
+  coords 4458.166 303.483 1756.899
+  angles 0 78.151 0
+  scale 1.2
+ }
+ {
+  coords 4601.737 304.987 1758.814
+  angles 17.69 68.469 9.472
+  scale 1.2
+ }
+ {
+  coords 4605.238 303.483 1710.321
+  angles 0 -52.615 0
+  scale 1.2
+ }
+ {
+  coords 4511.221 288.245 1669.289
+  angles 31.24 122.547 -114.722
+  scale 1.53
+ }
+ {
+  coords 4537.622 290.389 1692.885
+  angles 0 98.507 0
+  scale 1.2
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{D924650E9CDA2130}Prefabs/Structures/Industrial/Cranes/CoalLoader_01/CoalLoader_01_crane.et" {
+ {
+  coords 4523.971 -1.13 1620.318
+  angles 0 161.39 0
+  {
+   GameEntity {
+    ID "6660E507CCDDCBFA"
+    coords 5.017 10.585 6.981
+   }
+  }
+ }
+ {
+  coords 4556.93 -1.379 1631.417
+  angles 0 158.095 0
+ }
+}
+SCR_DestructibleBuildingEntity : "{DA18BC3C9738C614}Prefabs/Industrial/builds/bitovka_wheels.et" {
+ coords 4494.242 303.285 1775.188
+ angles 0 -8.696 0
+ {
+  GenericEntity armst_itm_key_gorkiy12_tonnel_667A834446647455 {
+   ID "6676605687639275"
+  }
+  GenericEntity {
+   ID "6676605687639242"
+   components {
+    ActionsManagerComponent "{6190D137C5926215}" {
+     additionalActions {
+      ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+       m_iMaxItemsToSpawn 6
+      }
+     }
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{DEB57429CD49782D}Prefabs/Props/Construction/GravelPile_01/SandPile_01.et" {
+ coords 4562.917 303.483 1778.506
+}
+GenericEntity : "{EB803C02E60E8CD6}Prefabs/Vehicles/zil131/armst_zil131_bigbox_yellow.et" {
+ coords 4555.725 296.715 1730.705
+ angles 4.277 -41.42 -2.577
+}
+SCR_DestructibleBuildingEntity : "{F5AF5AB228546C79}Prefabs/Method/Structures_int/IndHouse_01.et" {
+ coords 4604.958 1.048 1664.347
+ angles 0 -153.967 0
+}
+GenericEntity : "{FE6C4512461EEA44}Prefabs/Vehicles/zil131/parts/PARTS_zil131_box_yellow_door.et" {
+ coords 4522.181 303.299 1777.807
+ angles 0 -125.257 0
+}

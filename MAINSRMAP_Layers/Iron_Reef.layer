@@ -1,0 +1,490 @@
+GenericEntity : "{11AAC380569EC0EC}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/Dst/EquipmentBoxStack_01_V2_dst_03_USSR.et" {
+ coords 2546.182 297.763 2952.183
+ angles -3.123 0.147 -2.688
+}
+$grp GenericEntity : "{142EBFC473EC0E30}Prefabs/monster_spawner.et" {
+ wolfs44 {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_CheckInterval 150
+    m_PlayerDetectionRadius 159
+    m_RespawnDelayAfterDelete 800
+    m_SpawnGroups {
+     "{D77BDED419E75367}Configs/Alife/mutants/nighstalker.conf"
+    }
+    m_fMonsterNight 1
+    m_SpawnGroupsNight {
+     "{D77BDED419E75367}Configs/Alife/mutants/nighstalker.conf"
+    }
+   }
+  }
+  coords 2447.667 299.672 2790.234
+  scale 50
+ }
+ wolfs58 {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_CheckInterval 150
+    m_PlayerDetectionRadius 100
+    m_RespawnDelayAfterDelete 800
+    m_SpawnGroups {
+     "{D77BDED419E75367}Configs/Alife/mutants/nighstalker.conf"
+    }
+    m_fMonsterNight 1
+    m_SpawnGroupsNight {
+     "{D77BDED419E75367}Configs/Alife/mutants/nighstalker.conf"
+    }
+   }
+  }
+  coords 2542.604 298.715 2934.145
+  scale 50
+ }
+ wolfs59 {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_CheckInterval 150
+    m_PlayerDetectionRadius 132
+    m_RespawnDelayAfterDelete 800
+    m_SpawnGroups {
+     "{D77BDED419E75367}Configs/Alife/mutants/nighstalker.conf"
+    }
+    m_fMonsterNight 1
+    m_SpawnGroupsNight {
+     "{D77BDED419E75367}Configs/Alife/mutants/nighstalker.conf"
+    }
+   }
+  }
+  coords 2436.736 301.016 2944.69
+  scale 50
+ }
+ electro16 {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_CheckInterval 150
+    m_RespawnDelayAfterDelete 800
+    m_SpawnGroups {
+     "{640EF50B76CB86C9}Configs/Alife/mutants/electro_elements.conf"
+    }
+   }
+  }
+  coords 2495.151 307.485 2880.206
+  scale 50
+ }
+ wolfs60 {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_CheckInterval 150
+    m_PlayerDetectionRadius 132
+    m_RespawnDelayAfterDelete 800
+    m_SpawnGroups {
+     "{D77BDED419E75367}Configs/Alife/mutants/nighstalker.conf"
+    }
+    m_fMonsterNight 1
+    m_SpawnGroupsNight {
+     "{D77BDED419E75367}Configs/Alife/mutants/nighstalker.conf"
+    }
+   }
+  }
+  coords 2530.031 298.749 2988.65
+  scale 50
+ }
+ wolfs61 {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_CheckInterval 150
+    m_PlayerDetectionRadius 132
+    m_RespawnDelayAfterDelete 800
+    m_SpawnGroups {
+     "{D77BDED419E75367}Configs/Alife/mutants/nighstalker.conf"
+    }
+    m_fMonsterNight 1
+    m_SpawnGroupsNight {
+     "{D77BDED419E75367}Configs/Alife/mutants/nighstalker.conf"
+    }
+   }
+  }
+  coords 2606.501 299.098 2880.322
+  scale 50
+ }
+}
+$grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST_RADIATIONS.et" {
+ {
+  coords 2545.067 297.071 2951.842
+  SphereRadius 24.3
+  DrawShape 0
+  m_DamageRadioLevel 84
+ }
+ {
+  coords 2439.034 300.081 2821.389
+  SphereRadius 24.3
+  DrawShape 0
+  m_DamageRadioLevel 84
+ }
+ {
+  coords 2528.773 298.893 2786.99
+  SphereRadius 24.3
+  DrawShape 0
+  m_DamageRadioLevel 84
+ }
+ {
+  coords 2477.636 293.265 2921.71
+  SphereRadius 24.3
+  DrawShape 0
+  m_DamageRadioLevel 84
+ }
+ {
+  coords 2475.361 306.419 2762.351
+  SphereRadius 24.3
+  DrawShape 0
+  m_DamageRadioLevel 84
+ }
+ {
+  coords 2476.77 300.627 2845.826
+  SphereRadius 24.3
+  DrawShape 0
+  m_DamageRadioLevel 84
+ }
+ {
+  coords 2511.534 298.169 2956.922
+  SphereRadius 24.3
+  DrawShape 0
+  m_DamageRadioLevel 84
+ }
+ {
+  coords 2381.308 300.925 2736.726
+  SphereRadius 24.3
+  DrawShape 0
+  m_DamageRadioLevel 84
+ }
+ {
+  coords 2510.73 299.175 2839.34
+  SphereRadius 24.3
+  DrawShape 0
+  m_DamageRadioLevel 84
+ }
+ {
+  coords 2510.559 298.538 2757.999
+  SphereRadius 24.3
+  DrawShape 0
+  m_DamageRadioLevel 84
+ }
+ {
+  coords 2405.873 300.145 2941.226
+  SphereRadius 44.8
+  DrawShape 0
+  m_DamageRadioLevel 160
+ }
+ {
+  coords 2329.052 298.556 2735.66
+  SphereRadius 44.8
+  DrawShape 0
+  m_DamageRadioLevel 160
+ }
+ {
+  coords 2690.024 301.703 3026.043
+  SphereRadius 69.2
+  DrawShape 0
+  m_DamageRadioLevel 200
+ }
+ {
+  coords 2586.019 284.202 2732.376
+  SphereRadius 69.2
+  DrawShape 0
+  m_DamageRadioLevel 200
+ }
+ {
+  coords 2368.621 298.169 2839.514
+  SphereRadius 69.2
+  DrawShape 0
+  m_DamageRadioLevel 200
+ }
+}
+GameEntity : "{24089D4BB9AA8913}Prefabs/Method/Props/Camps/Fireplace_Loiters_ground_1.et" {
+ coords 2537.962 311.158 3125.028
+ angles 0 -32.497 0
+}
+StaticModelEntity : "{344AC61579021D72}Prefabs/Props/Wrecks/ShipWreckMetal_01/ShipWreckMetal_01_Ruin.et" {
+ coords 2511.003 299.03 2838.53
+ angles 1.493 0 -150.232
+}
+GenericEntity : "{3A91334C5569E834}Prefabs/Structures/BuildingParts/Eletrical/CabinetElectricalLargeSet_01/CabinetElectricalLargeSet_01_EndPanel.et" {
+ components {
+  MeshObject "{5111E74D5E891458}" {
+   Materials {
+    MaterialAssignClass "{6710EDCDA302D4B1}" {
+     SourceMaterial "CabinetElectricalLarge_01_8A1DE695910F5619"
+     AssignedMaterial "{DBDDDB8BE71DD400}Assets/Props/Wrecks/ShipWreckMetal_03/Data/ShipWreckMetal_03_MLOD.emat"
+    }
+    MaterialAssignClass "{6710EDCDA302D4AB}" {
+     SourceMaterial "CabinetElectricalLarge_01_MLOD_FBC1039E250537E3"
+     AssignedMaterial "{DBDDDB8BE71DD400}Assets/Props/Wrecks/ShipWreckMetal_03/Data/ShipWreckMetal_03_MLOD.emat"
+    }
+   }
+  }
+ }
+ coords 2445.109 299.082 2839.683
+ angles 0.329 -89.928 -99.187
+}
+$grp SCR_IndestructibleEnvironmentalEntity : "{3F68EE5DCB004B10}Prefabs/Rocks/Granite/GraniteCliff_01.et" {
+ {
+  coords 2535.044 296.735 3027.25
+  angles -13.231 78.701 -176.453
+  scale 1.34
+ }
+ {
+  coords 2531.203 298.226 3045.481
+  angles -10.666 -75.259 172.761
+  scale 1.34
+ }
+ {
+  coords 2533.147 295.003 3060.167
+  angles 65.016 168.56 -121.473
+  scale 1.34
+ }
+ {
+  coords 2535.382 296.883 3063.663
+  angles -50.57 124.124 158.79
+  scale 1.34
+ }
+ {
+  coords 2506.736 271.432 3040.277
+  angles 4.327 -173.759 -28.358
+  scale 1.34
+ }
+ {
+  coords 2494.438 295.974 3059.415
+  angles -68.05 -16.858 166.868
+  scale 1.34
+ }
+}
+$grp GenericEntity : "{43957C1E3ECCDFE2}Prefabs/Props/Wrecks/ShipWreckWooden_01/ShipWreckWooden_01.et" {
+ {
+  coords 2513.072 294.44 2959.054
+  angles 25.233 3.159 -17.285
+ }
+ {
+  coords 2528.267 296.164 2788.066
+  angles 2.056 17.356 -8.913
+ }
+}
+SCR_DestructibleBuildingEntity : "{684D4BFDA08661FB}Prefabs/Perimetr/wall_perimetr_big.et" {
+ coords 2532.514 280.835 3072.783
+ angles -8.584 98.916 -1.341
+}
+SCR_DestructibleBuildingEntity : "{6CDAFB08D5F88533}Prefabs/Structures/Infrastructure/Naval/Piers/Pier_Stairs01.et" {
+ coords 2533.471 0.66 3000.036
+ angles 0 -176.794 0
+ scale 0.5
+}
+SCR_DestructibleBuildingEntity : "{703E76F55690F375}Prefabs/Structures/Houses/Village/Single Floor Buildings/Small Cabin HouseV2.et" {
+ coords 2544.981 -0.44 3132.407
+ angles 0 175.495 0
+}
+SCR_DestructibleBuildingEntity : "{728B436837CAC3ED}Prefabs/Props/Wrecks/ShipWreckMetal_03/ShipWreckMetal_03_base.et" {
+ coords 2438.684 297.267 2822.931
+ angles 6.057 -148.248 -1.28
+}
+$grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRIGGER_ANOMAL.et" {
+ {
+  coords 2484.486 286.82 2813.49
+  SphereRadius 139.3
+  m_ObjectPrefab "{E696A918826666EB}Prefabs/Anomals/Studen/ARMST_STUDEN.et"
+  m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
+  m_MinDistanceBetweenAnomalies 10
+  m_MinDistanceToPlayer 14
+  m_SpawnChanceArtefacts 15
+ }
+ {
+  coords 2540.527 286.82 2918.821
+  SphereRadius 139.9
+  m_ObjectPrefab "{E696A918826666EB}Prefabs/Anomals/Studen/ARMST_STUDEN.et"
+  m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
+  m_MinDistanceBetweenAnomalies 10
+  m_MinDistanceToPlayer 14
+  m_SpawnChanceArtefacts 15
+ }
+}
+GameEntity : "{764D801CA90A48AD}Prefabs/Props/Military/AmmoBoxes/AmmoBox_M229_Hydra/AmmoBox_M229_Hydra.et" {
+ coords 2548.079 298.112 2948.239
+ angles -3.654 -53.697 10.03
+}
+SCR_DestructibleBuildingEntity : "{777E80AFDC98395B}Prefabs/Props/Wrecks/ShipWreckMetal_02/ShipWreckMetal_02_base.et" {
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Materials {
+    MaterialAssignClass "{6710EDCC6322CD3B}" {
+     SourceMaterial "ShipWreckMetal_02_EXT"
+     AssignedMaterial "{13768F29EEE8243B}Assets/Props/Wrecks/ShipWreckMetal_01/Data/ShipWreckMetal_01_EXT.emat"
+    }
+   }
+  }
+ }
+ coords 2381.885 294.883 2735.76
+ angles 0 -48.087 -8.885
+}
+$grp GenericEntity : "{82DDDA574CB4F0D9}Prefabs/Props/Industrial/BarrelFuel_01_Base.et" {
+ {
+  coords 2388.936 297.9 2832.781
+  angles 0 13.413 -90
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{6710EDCDFEE7DFB1}" {
+      SourceMaterial "Barrel_01"
+      AssignedMaterial "{4A8694FF26DA3078}Assets/Props/Industrial/BarrelMetal_01/Data/BarrelMetal_01_rust.emat"
+     }
+    }
+   }
+  }
+  coords 2389.355 297.9 2832.07
+  angles 0 -21.919 -90
+ }
+}
+GenericEntity : "{9688C1510F32278E}Prefabs/Props/Wrecks/ShipWreckWooden_01/ShipWreckWooden_01_sunk.et" {
+ coords 2510.009 293.891 2757.277
+ angles 6.632 -26.906 24.516
+}
+GenericEntity : "{9E2D46C5ED3EBC84}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/Dst/EquipmentBoxStack_01_V1_dst_01_USSR.et" {
+ coords 2546.423 297.946 2949.934
+ angles 0.686 66.589 -5.16
+}
+StaticModelEntity : "{9F3439895899B06A}Prefabs/Props/Wrecks/ShipWreckMetal_02/ShipWreckMetal_02_Ruin_base.et" {
+ coords 2559.383 296.924 2831.658
+}
+StaticModelEntity : "{B6595A6C0DECAD8F}Prefabs/Props/Wrecks/ShipWreckMetal_03/ShipWreckMetal_03_Ruin_base.et" {
+ coords 2563.913 296.772 2902.147
+ angles -17.334 126.41 0
+}
+$grp SCR_IndestructibleEnvironmentalEntity : "{B6A096447B215355}Prefabs/Rocks/Granite/GraniteCliff_03.et" {
+ {
+  coords 2558.197 287.935 3108.574
+  angles -85.4 145.12 73.547
+  scale 1.78
+ }
+ {
+  coords 2567.992 288.796 3063.762
+  angles -85.4 -48.079 73.547
+  scale 1.78
+ }
+}
+$grp GenericEntity : "{C7A49C5B54C86903}Prefabs/Props/Military/Sandbags/Sandbag_01_single_burlap.et" {
+ {
+  coords 2548.158 299.745 2943.519
+  angles 12.404 -90.856 -0.19
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{55642151E7FA714E}" {
+      SourceMaterial "Sandbags_01_End"
+      AssignedMaterial "{E3406C8D9F05055A}Assets/Vehicles/Wheeled/M998/Data/Base_Cloth.emat"
+     }
+     MaterialAssignClass "{55642151E7FA7161}" {
+      SourceMaterial "Sandbags_01_MLOD"
+      AssignedMaterial "{CB223DE6D1648409}Assets/Characters/Footwear/CombatBoots_Soviet_01/Data/CombatBoots_Soviet_01_Dirty.emat"
+     }
+    }
+   }
+   RigidBody "{5872F0EB7DFB5A9D}" {
+    ResponseIndex "TinyDestructible"
+    Static 1
+   }
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    m_DestroySpawnObjects {
+     SCR_DebrisSpawnable "{5D34CEFA3DA812B2}" {
+      m_ModelPrefabs +{
+      }
+     }
+    }
+   }
+  }
+  coords 2548.47 299.676 2943.536
+  angles 12.209 -100.344 -2.216
+ }
+ {
+  coords 2548.365 299.835 2943.512
+  angles 12.209 -100.344 -2.216
+ }
+}
+$grp GenericEntity : "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et" {
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{6710EDCC37F30FC1}" {
+      SourceMaterial "Duckboard_01"
+      AssignedMaterial "{FDE95DFC999C92CA}Assets/Props/Wrecks/ShipWreckWooden_01/Data/Shipwreck_wooden_01_MLOD_INT.emat"
+     }
+    }
+   }
+  }
+  coords 2524.416 300.087 2793.302
+  angles -36.461 -53.42 -2.108
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{6710EDCC37F30FC1}" {
+      SourceMaterial "Duckboard_01"
+      AssignedMaterial "{FDE95DFC999C92CA}Assets/Props/Wrecks/ShipWreckWooden_01/Data/Shipwreck_wooden_01_MLOD_INT.emat"
+     }
+    }
+   }
+  }
+  coords 2388.756 298.225 2832.43
+  angles -1.151 -6.272 0
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{6712D6AEE6200486}" {
+      SourceMaterial "Duckboard_01"
+      AssignedMaterial "{9A9009DA12EE84F1}Assets/Props/Wrecks/ShipWreckWooden_01/Data/ShipWreck_Wooden_01_hull_EXT.emat"
+     }
+    }
+   }
+  }
+  coords 2547.659 300.039 2943.366
+  angles 3.114 -100.853 -0.315
+  scale 0.72
+ }
+ {
+  coords 2566.771 298.169 3086.888
+  angles 14.42 22.503 0
+ }
+ {
+  coords 2566.018 301.375 3099.434
+  angles -24.634 -155.598 169.724
+ }
+}
+GenericEntity : "{E2B01D303DD412D7}Prefabs/Props/Military/AmmoBoxes/AmmoBox_P150_Hydra_Container_US/AmmoBox_P150_Hydra_Container_Pallet_US.et" {
+ coords 2548.921 297.909 2949.722
+ angles -4.466 0.07 -11.078
+}
+StaticModelEntity : "{E4839DA6A7069645}Prefabs/Props/Wrecks/ShipWreckMetal_01/ShipWreckMetal_01_Ruin_base.et" {
+ coords 2439.412 298.039 2883.883
+ angles 11.348 -91.833 19.983
+}
+$grp SCR_DestructibleBuildingEntity : "{E8C49FFC3417C2F3}Prefabs/Props/Wrecks/ShipWreckMetal_02/ShipWreckMetal_02.et" {
+ {
+  coords 2480.718 295.971 2923.452
+  angles -1.473 -35.964 -13.712
+ }
+ {
+  coords 2546.843 296.634 2954.658
+  angles 0 0 12.399
+ }
+}
+GenericEntity : "{E9D97BDDDF10C95D}Prefabs/wood_bridges/wood_bridges_long_pol.et" {
+ coords 2444.804 296.694 2835.813
+ angles -1.767 -84.793 0.277
+}
+SCR_DestructibleBuildingEntity : "{FF39390F2D826521}Prefabs/Structures/Infrastructure/Naval/Piers/PierWooden_01_25m.et" {
+ coords 2534.503 297.685 3011.881
+ angles 1.156 -175.291 2.166
+}

@@ -1,0 +1,38 @@
+GenericEntity : "{0147BF6DB432170D}Prefabs/Vehicles/zil131/armst_zil131_box_closed.et" {
+ coords 3558.488 302.736 1549.042
+}
+GenericEntity : "{04BDB60308826320}PrefabsEditable/Auto/Props/Industrial/CargoContainers/CargoContainer_01/E_CargoContainer_01_20ft_grey.et" {
+ coords 3552.058 302.452 1527.302
+ angles 0 42.923 0
+}
+GenericEntity : "{675320E2EC14EE5C}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/Dst/CargoContainer_02_20ft_Dst_01_dbr_02.et" {
+ coords 3543.456 303.96 1535.694
+ angles 4.106 -0.185 89.791
+}
+GenericEntity : "{8158EFF339FE1F11}Prefabs/Vehicles/zil131/armst_zil131_open.et" {
+ coords 3553.39 302.809 1549.593
+ angles 0 0 0
+}
+GenericEntity : "{816F3FD037EA2EFF}Prefabs/Vehicles/gaz53/armst_gaz53_box.et" {
+ coords 3585.24 303.38 1538.025
+ angles 1.164 -24.693 -93.11
+}
+GenericEntity : "{82CF6C1BE0F17937}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/Dst/CargoContainer_02_20ft_Dst_01_dbr_03.et" {
+ coords 3551.375 299.979 1542.323
+}
+GenericEntity : "{88D81D361D99C7E8}Prefabs/Props/Military/CargoContainers/Dst/CargoContainer_01_20ft_USSR_Ruin.et" {
+ coords 3545.042 302.506 1519.444
+}
+GenericEntity : "{A8E6670E3AC51126}Prefabs/Props/Industrial/CrawlerCraneWreck_01/CrawlerCraneWreck_01_yellow.et" {
+ coords 3567.753 302.332 1532.596
+ angles 0 80.272 0
+ scale 0.6
+}
+GenericEntity : "{BFFB4923959DF000}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/Dst/CargoContainer_02_20ft_Dst_01_dbr_04.et" {
+ coords 3543.453 303.729 1536.2
+ angles 0 0 -84.768
+}
+GenericEntity : "{C1D897ECF7613F69}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/Dst/CargoContainer_02_20ft_Ruin.et" {
+ coords 3546.648 302.468 1539.271
+ angles 0 -66.763 0
+}

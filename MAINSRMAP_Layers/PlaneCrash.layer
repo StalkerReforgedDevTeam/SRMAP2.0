@@ -1,0 +1,305 @@
+$grp GenericEntity {
+ {
+  components {
+   Persistence "{68AF3BC69DE01C26}" {
+   }
+   MeshObject "{68AF3BC69DE01BAF}" {
+    Object "{FE31750973EA92C7}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/EquipmentBoxWooden_Medical_01.xob"
+    Materials {
+     MaterialAssignClass "{68AF3BC69DE01BC5}" {
+      SourceMaterial "EquipmentBoxWooden_Medical_01"
+      AssignedMaterial "{F040F802F02B0D96}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_Medical_01_USSR.emat"
+     }
+     MaterialAssignClass "{68AF3BC69DE01BC0}" {
+      SourceMaterial "EquipmentBoxWooden_decal"
+      AssignedMaterial "{17332645A86C9BA6}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_decal_USSR.emat"
+     }
+    }
+    LODFactors {
+    }
+   }
+   RigidBody "{68AF3BC69DE01B75}" {
+    Mass 10
+    ResponseIndex "SmallDestructible"
+    ModelGeometry 1
+    Static 1
+   }
+  }
+  Flags 0x403 0
+  coords 3718.842 301.246 2184.227
+  angles 0 50.217 0
+ }
+ {
+  components {
+   Persistence "{68AF3BC69DE01C26}" {
+   }
+   MeshObject "{68AF3BC69DE01BAF}" {
+    Object "{FE31750973EA92C7}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/EquipmentBoxWooden_Medical_01.xob"
+    Materials {
+     MaterialAssignClass "{68AF3BC69DE01BC5}" {
+      SourceMaterial "EquipmentBoxWooden_Medical_01"
+      AssignedMaterial "{F040F802F02B0D96}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_Medical_01_USSR.emat"
+     }
+     MaterialAssignClass "{68AF3BC69DE01BC0}" {
+      SourceMaterial "EquipmentBoxWooden_decal"
+      AssignedMaterial "{17332645A86C9BA6}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_decal_USSR.emat"
+     }
+    }
+    LODFactors {
+    }
+   }
+   RigidBody "{68AF3BC69DE01B75}" {
+    Mass 10
+    ResponseIndex "SmallDestructible"
+    ModelGeometry 1
+    Static 1
+   }
+  }
+  Flags 0x403 0
+  coords 3718.481 300.759 2184.7
+  angles 0 26.475 0
+ }
+ {
+  components {
+   Persistence "{68AF3BC69DE01C26}" {
+   }
+   MeshObject "{68AF3BC69DE01BAF}" {
+    Object "{FE31750973EA92C7}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/EquipmentBoxWooden_Medical_01.xob"
+    Materials {
+     MaterialAssignClass "{68AF3BC69DE01BC5}" {
+      SourceMaterial "EquipmentBoxWooden_Medical_01"
+      AssignedMaterial "{F040F802F02B0D96}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_Medical_01_USSR.emat"
+     }
+     MaterialAssignClass "{68AF3BC69DE01BC0}" {
+      SourceMaterial "EquipmentBoxWooden_decal"
+      AssignedMaterial "{17332645A86C9BA6}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_decal_USSR.emat"
+     }
+    }
+    LODFactors {
+    }
+   }
+   RigidBody "{68AF3BC69DE01B75}" {
+    Mass 10
+    ResponseIndex "SmallDestructible"
+    ModelGeometry 1
+    Static 1
+   }
+  }
+  Flags 0x403 0
+  coords 3719.185 300.759 2183.931
+  angles 0 35.257 0
+ }
+}
+SCR_DestructibleBuildingEntity : "{184042D4EAE59FF5}Prefabs/Structures/Houses/Village/House_Village_E_1I02/Dst/House_Village_E_1I02_ruined.et" {
+ coords 3679.89 -2.434 2242.188
+ angles -1.119 -15.014 1.285
+}
+$grp DecalEntity : "{19855E1BFBC4ABEE}Prefabs/Method/Decals/Blood/Blood_Small_01.et" {
+ {
+  coords 3714.222 0.038 2180.508
+  angles -90 -180 -180
+  scale 0.8
+ }
+ {
+  coords 3709.351 0.535 2181.125
+  angles -90 -180 -180
+  scale 0.8
+ }
+ {
+  coords 3712.313 0.067 2179.319
+  angles -90 -180 -180
+  scale 0.8
+ }
+}
+$grp GenericEntity : "{27EA47994266D9DD}Prefabs/Props/Services/Healthcare/BinMedical_01.et" {
+ {
+  coords 3715.939 300.812 2186.35
+  angles 0 -129.859 0
+ }
+ {
+  coords 3713.254 300.891 2178.252
+  angles 0 -38.309 0
+ }
+}
+$grp GenericEntity : "{365D7AC29DC5BC3B}Prefabs/Vehicles/uaz452/armst_uaz452_police_open_wreck.et" {
+ {
+  coords 3697.823 301.026 2160.593
+  angles -0.455 41.806 0.675
+ }
+ {
+  coords 3758.938 300.838 2205.255
+  angles 0 -59.08 0
+ }
+}
+GenericEntity : "{452C9FF31AAF2B82}Prefabs/Props/Services/Healthcare/CabinetMedical_01.et" {
+ coords 3709.469 301.159 2179.635
+ angles -87.481 -134.016 -180
+}
+$grp GenericEntity : "{50801280D56B67A1}Prefabs/Props/Services/Healthcare/BedMedical_01.et" {
+ {
+  coords 3713.283 300.825 2179.907
+  angles 0.267 -40.269 1.525
+ }
+ {
+  coords 3714.874 300.829 2181.498
+  angles 0.343 -43.133 1.51
+ }
+ {
+  coords 3711.72 300.888 2178.345
+  angles -0.168 -46.312 1.27
+ }
+ {
+  coords 3716.398 300.833 2183.021
+  angles 0.432 -46.535 1.487
+ }
+ {
+  coords 3709.657 300.871 2181.435
+  angles -1.273 42.682 -0.146
+ }
+ {
+  coords 3712.72 301.8 2181.914
+  angles -16.294 -7.547 -173.277
+ }
+ {
+  coords 3714.459 300.834 2186.238
+  angles -1.263 45.774 -0.214
+ }
+}
+StaticModelEntity : "{5864442875E45538}Prefabs/Structures/Military/Camps/TentUS_01/TentUS_01_Assembled_base.et" {
+ coords 3714.363 300.796 2182.948
+ angles 0 -133.022 0
+ {
+  StaticModelEntity {
+   ID "5D466416345A60A8"
+   coords 0 -0.007 -2.422
+  }
+  StaticModelEntity {
+   ID "5D466416773DDFFA"
+   coords 0 0.049 4.855
+  }
+  StaticModelEntity {
+   ID "5D466416345A60C6"
+   coords 0 0.029 0.091
+  }
+ }
+}
+GenericEntity : "{6CE17D5A873920F1}Prefabs/Vehicles/raf2203/armst_raf2203_2_wheels.et" {
+ coords 3718.929 300.798 2179.881
+ angles 0 -138.359 0
+}
+GenericEntity : "{881FCB0BDCE4B89F}Prefabs/Compositions/Misc/SubCompositions/Furniture/Chair_Medical_USSR_02.et" {
+ coords 3718.154 300.829 2183.418
+ angles 0 -98.985 0
+}
+GenericEntity : "{9841B04CB7D10188}PrefabsEditable/Auto/Props/Garbage/Medical/E_GarbageMedicalUSSR_02.et" {
+ coords 3712.691 300.831 2182.152
+}
+DecalEntity : "{A4F7B125C823F202}Prefabs/Method/Decals/Blood/Blood_Large_01.et" {
+ coords 3714.954 0.538 2181.537
+ angles -90 -180 -180
+ scale 1.5
+}
+$grp DecalEntity : "{A7E35F889C0C7D4B}Prefabs/Method/Decals/Blood/Blood_Drops_01.et" {
+ {
+  coords 3713.818 0.063 2183.546
+  angles -90 0 47.364
+  scale 2
+ }
+ {
+  coords 3711.419 0.042 2180.871
+  angles -90 0 -4.442
+  scale 2
+ }
+}
+GenericEntity : "{AF87DF4E0C8C81C4}Prefabs/Props/Services/Healthcare/LampMedical_01.et" {
+ coords 3717.769 300.836 2183.857
+ angles 0 -145.277 0
+}
+GenericEntity : "{AF9F4A87FD9A01D6}Prefabs/Props/Medical/TableMedical_01/TableMedical_01_small_base.et" {
+ coords 3714.585 300.848 2184.88
+ angles 0 34.644 0
+}
+$grp GenericEntity : "{BCE07A58672955B9}Prefabs/Props/Civilian/Bucket_01.et" {
+ {
+  coords 3726.736 300.419 2258.587
+  angles -5.33 -0.376 78.976
+ }
+ {
+  coords 3725.755 300.268 2259.977
+  angles -2.608 -30.254 6.156
+ }
+}
+GenericEntity : "{BE50D8388C643EEF}PrefabsEditable/Auto/Props/Garbage/Medical/E_GarbageMedicalUS_01.et" {
+ coords 3712.636 300.87 2178.768
+}
+$grp GenericEntity : "{C26BDE4712F5A211}Prefabs/Vehicles/zil131/armst_zil131_fire.et" {
+ {
+  coords 3716.334 300.994 2244.266
+  angles 0 137.542 0
+ }
+ {
+  coords 3723.221 300.772 2254.521
+  angles 1.443 -177.835 -2.63
+ }
+ {
+  coords 3714.242 301.078 2218.807
+  angles 1.663 173.202 -0.889
+ }
+}
+$grp GenericEntity : "{D0B44EB8DBEDDA97}Prefabs/Props/Civilian/Bucket_02.et" {
+ {
+  coords 3726.114 300.192 2260.273
+  angles -8.207 -20.258 7.23
+ }
+ {
+  coords 3725.87 300.24 2260.891
+  angles -88.057 0 0
+ }
+ {
+  coords 3725.604 300.203 2260.408
+  angles -2.806 96.656 -10.559
+ }
+}
+GenericEntity : "{D204ECD830A0B1C1}PrefabsEditable/Auto/Props/Garbage/Medical/E_GarbageMedicalUS_02.et" {
+ coords 3715.649 300.832 2185.231
+ angles -0.336 -0.005 0.82
+}
+GenericEntity : "{DACF7DE206313E97}Prefabs/Props/Garbage/Cardboard/Cardboard_Pile_01.et" {
+ coords 3717.306 300.825 2183.883
+ angles -1.031 -0.009 0.472
+}
+GenericEntity : "{E44BFFEB602037B1}Prefabs/Compositions/Misc/SubCompositions/Furniture/Chair_Medical_USSR_01.et" {
+ coords 3710.203 300.893 2179.033
+ angles 0 -136.76 0
+}
+GenericEntity VehPart_UAZ452_redCross_68AF3BC5D74E734A : "{EB037DD5E1B605E7}Prefabs/Vehicles/Wheeled/UAZ452/VehParts/VehPart_UAZ452_redCross.et" {
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   LODFactors {
+    0
+    0
+   }
+   CastShadow 0
+   CastFarShadow 0
+  }
+ }
+ coords 3717.991 300.253 2178.44
+ angles 0 47.707 0
+}
+$grp GenericEntity : "{F06EAC6F2F97767F}Prefabs/Props/Medical/MedicalScreen_01.et" {
+ {
+  coords 3716.149 300.844 2182.114
+  angles 0 -133.975 0
+ }
+ {
+  coords 3714.58 300.837 2180.493
+  angles 0 38.09 0
+ }
+ {
+  coords 3712.709 300.856 2184.481
+  angles 65.154 -1.716 -16.515
+ }
+}
+GenericEntity : "{F41584AC0B158EA6}PrefabsEditable/Auto/Props/Garbage/Medical/E_GarbageMedicalUSSR_01.et" {
+ coords 3711.58 300.878 2179.589
+}

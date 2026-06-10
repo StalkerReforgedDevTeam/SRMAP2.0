@@ -1,0 +1,524 @@
+$grp GenericEntity {
+ {
+  components {
+   MeshObject "{6877413BEF984576}" {
+    Object "{A85D414EF4DCC2AC}Assets/Items/Medicine/Gauze_02/Gauze_02_bandage.xob"
+   }
+  }
+  coords 6226.469 318.932 2299.628
+ }
+ {
+  components {
+   MeshObject "{6877413BEBB1D87C}" {
+    Object "{DE5D401CECA15AC9}armst/items/bint/bandage.xob"
+   }
+  }
+  coords 6226.599 318.94 2299.747
+  angles 0 -36.242 0
+ }
+ {
+  components {
+   MeshObject "{6877413A745D5FC6}" {
+    Object "{E9853CE8B28EFA41}Assets/Vegetation/Tree/Betula_Pendula/Dst/t_betula_pendula_stump_01_dst_top.xob"
+    Materials {
+     MaterialAssignClass "{6877413A6C4C45A1}" {
+      SourceMaterial "t_betula_pendula_stump_01_DB8276C9EFFE92A8"
+      AssignedMaterial "{EC1CD07594285294}Assets/Vegetation/Tree/Sorbus_Aucuparia/Dst/Data/t_sorbus_aucuparia_bark_dst.emat"
+     }
+    }
+   }
+  }
+  coords 6244.463 319.08 2300.631
+  angles 38.554 176.719 -88.278
+ }
+ {
+  components {
+   MeshObject "{687759D1588BE530}" {
+    Object "{6C103C4319960F5C}Assets/VSS/vss_weapon.xob"
+   }
+  }
+  coords 6223.769 319.369 2299.526
+  angles 84.776 26.909 90
+ }
+ {
+  components {
+   MeshObject "{687759D16259E60A}" {
+    Object "{64435261DAB19940}Assets/VSS/vss_magazine.xob"
+   }
+  }
+  coords 6223.661 318.976 2299.287
+  angles 0 -179.229 90
+ }
+ {
+  components {
+   MeshObject "{687759D26235DA20}" {
+    Object "{8AE043F1A5E268F4}Assets/Weapons/Magazines/AK74/Magazine_30rnd_AK74_empty.xob"
+   }
+  }
+  coords 6196.746 318.921 2312.349
+  angles 0 98.956 -90
+ }
+ {
+  components {
+   MeshObject "{687759D2BBBE2C50}" {
+    Object "{46FA0F698917A89B}Assets/Remington870/Remington870.xob"
+   }
+  }
+  coords 6189.771 319.022 2308.927
+  angles -72.746 6.281 -58.662
+ }
+ {
+  components {
+   MeshObject "{687759D47F5D87E3}" {
+    Object "{8AE043F1A5E268F4}Assets/Weapons/Magazines/AK74/Magazine_30rnd_AK74_empty.xob"
+   }
+  }
+  coords 6237.526 318.928 2305.503
+  angles 0 0 90
+ }
+ {
+  components {
+   MeshObject "{687759D64181D802}" {
+    Object "{3142577B6CD35911}Assets/TT/TT_weapon.xob"
+   }
+  }
+  coords 6269.172 319.922 2305.781
+  angles 18.336 115.955 88.438
+ }
+ {
+  components {
+   MeshObject "{687759D678C8C0A8}" {
+    Object "{B19DEF098527ABD2}Assets/TT/TT_magazines.xob"
+   }
+  }
+  coords 6269.179 319.871 2305.974
+  angles 0 0 90
+ }
+ {
+  components {
+   MeshObject "{687759D678C8C0A8}" {
+    Object "{B19DEF098527ABD2}Assets/TT/TT_magazines.xob"
+   }
+  }
+  coords 6269.16 319.871 2306.121
+  angles 0 64.461 90
+ }
+ {
+  components {
+   MeshObject "{687759D678C8C0A8}" {
+    Object "{B19DEF098527ABD2}Assets/TT/TT_magazines.xob"
+   }
+  }
+  coords 6268.553 319.871 2305.821
+  angles 0 26.673 90
+ }
+}
+$grp GenericEntity : "{013297BA01640EB9}Prefabs/Props/Garbage/Military/Ammo/GarbageAmmunition_USSR_02.et" {
+ {
+  coords 6268.867 319.862 2306.991
+  scale 0.331
+ }
+ {
+  coords 6225.53 318.921 2300.995
+ }
+ {
+  coords 6197.603 318.921 2308.924
+ }
+ {
+  coords 6239.965 320.221 2302.59
+ }
+ {
+  coords 6237.737 318.921 2305.645
+ }
+ {
+  coords 6259.911 318.921 2332.207
+  scale 0.73
+ }
+}
+$grp GenericEntity : "{142EBFC473EC0E30}Prefabs/monster_spawner.et" {
+ zombie43 {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_CheckInterval 150
+    m_RespawnDelayAfterDelete 800
+    m_SpawnGroups {
+     "{AA31A2A6BD9679D4}Configs/Alife/mutants/zombie.conf"
+    }
+    m_fMonsterNight 1
+    m_SpawnGroupsNight {
+     "{D77BDED419E75367}Configs/Alife/mutants/nighstalker.conf"
+    }
+   }
+  }
+  coords 6284.748 318.921 2316.186
+  scale 50
+ }
+ zombie44 {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_CheckInterval 150
+    m_RespawnDelayAfterDelete 800
+    m_SpawnGroups {
+     "{AA31A2A6BD9679D4}Configs/Alife/mutants/zombie.conf"
+    }
+    m_fMonsterNight 1
+   }
+  }
+  coords 6245.107 318.921 2309.438
+  scale 50
+ }
+}
+$grp DecalEntity : "{1DC3A792132D86CB}Prefabs/Decals/Blood/BloodStain_Large_02.et" {
+ {
+  coords 6223.297 0.055 2299.191
+  angles -90 -180 -180
+  scale 1.5
+ }
+ {
+  coords 6226.113 0 2299.597
+  angles -90 -180 -180
+  scale 1.5
+ }
+ {
+  coords 6237.298 0 2304.791
+  angles -90 -180 -180
+  scale 1.5
+ }
+ {
+  coords 6261.204 0 2332.712
+  angles -90 -180 -180
+  scale 1.5
+ }
+ {
+  coords 6268.848 0.942 2306.168
+  angles -90 0 0
+  scale 1.5
+ }
+}
+GenericEntity : "{22CAE0A2F3DFF712}Prefabs/Characters/Deads/armst_dead_coat.et" {
+ components {
+  BaseItemAnimationComponent "{6712E82B4C0E57EA}" {
+   StartNode "dead_7"
+  }
+ }
+ coords 6196.545 318.921 2313.023
+ angles 0 -16.51 0
+}
+GenericEntity : "{2424EBB806A690D4}Prefabs/Props/Garbage/Medical/GarbageMedicalUS_02.et" {
+ coords 6261.033 318.921 2333.031
+}
+GenericEntity : "{305C405E88BD5870}Prefabs/Vehicles/vaz2105/armst_vaz2105_2.et" {
+ coords 6252.558 319.045 2328.249
+ angles 0 -54.352 0
+ {
+  GenericEntity {
+   ID "662E8AF33CB1A10F"
+   components {
+    ActionsManagerComponent "{6190D137C5926215}" {
+     additionalActions {
+      ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+       m_iMaxItemsToSpawn 6
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "662E8AF33CB1A6EF"
+   components {
+    ActionsManagerComponent "{6190D137C5926215}" {
+     additionalActions {
+      ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+       m_iMaxItemsToSpawn 6
+      }
+     }
+    }
+   }
+  }
+ }
+}
+$grp DecalEntity : "{32D707B931FD52FE}Prefabs/Decals/Blood/BloodStain_Wall_01.et" {
+ {
+  coords 6223.429 0.056 2297.986
+  angles -90 -180 -180
+  scale 0.8
+ }
+ {
+  coords 6236.841 0.708 2305.315
+  scale 0.8
+ }
+}
+$grp DecalEntity : "{3BD66CDD309673DB}Prefabs/Decals/Blood/BloodStain_Drops_01.et" {
+ {
+  coords 6224.133 0.056 2298.456
+  angles -90 -180 -180
+  scale 2
+ }
+ {
+  coords 6237.62 0 2304.951
+  angles -90 0 55.958
+  scale 2
+ }
+ {
+  coords 6236.853 0.093 2303.803
+  angles -90 0 11.362
+  scale 1.54
+ }
+ {
+  coords 6236.94 0.093 2303.865
+  angles -90 0 11.362
+  scale 1.54
+ }
+ {
+  coords 6252.667 0 2331.765
+  angles -90 0 22.015
+  scale 2
+ }
+ {
+  coords 6253.871 0 2333.186
+  angles -90 0 40.834
+  scale 2
+ }
+ {
+  coords 6254.073 0 2333.549
+  angles -90 0 28.587
+  scale 2
+ }
+ {
+  coords 6270.178 0.942 2306.647
+  angles -90 0 -104.043
+  scale 2
+ }
+ {
+  coords 6270.163 0.942 2306.6
+  angles -90 0 -104.043
+  scale 2
+ }
+ {
+  coords 6270.29 0.942 2306.692
+  angles -90 0 -104.043
+  scale 2
+ }
+}
+$grp DecalEntity : "{4E2502622DA0DB28}Prefabs/Decals/Miscellaneous/Decal_Damage_Burnt_01.et" {
+ {
+  coords 6225.64 318.921 2298.181
+  angles -90 -180 -180
+  scale 10
+ }
+ {
+  coords 6244.208 318.921 2301.001
+  angles -90 0 0
+  scale 10
+ }
+}
+$grp GenericEntity : "{50B45AE7FE6F7CD8}Prefabs/Characters/Deads/armst_dead_gorka.et" {
+ {
+  components {
+   BaseItemAnimationComponent "{6712E82B4C0E57EA}" {
+    StartNode "dead_6"
+   }
+  }
+  coords 6223.285 318.976 2298.944
+  angles 0 0 0
+ }
+ {
+  components {
+   BaseItemAnimationComponent "{6712E82B4C0E57EA}" {
+    StartNode "dead_2"
+   }
+  }
+  coords 6226.534 318.921 2299.942
+  angles 0 -90.444 0
+ }
+ {
+  coords 6224.022 318.977 2298.707
+  angles 0 116.41 0
+ }
+ {
+  components {
+   BaseItemAnimationComponent "{6712E82B4C0E57EA}" {
+    StartNode "dead_3"
+   }
+  }
+  coords 6238.155 318.921 2305.217
+  angles 0 -122.519 0
+ }
+}
+GenericEntity : "{620B107C6C933E4E}Prefabs/Vehicles/gaz53/armst_gaz53_box_open.et" {
+ coords 6241.737 319.341 2301.582
+ angles 0 -78.123 0
+}
+GenericEntity : "{6B0639EF05B39CEA}Prefabs/Vehicles/vaz2109/armst_vaz2109_1.et" {
+ coords 6188.172 319.031 2312.543
+ angles 0 -20.473 0
+ {
+  GenericEntity {
+   ID "662E8AF0D3661A8C"
+   components {
+    ActionsManagerComponent "{6190D137C5926215}" {
+     additionalActions {
+      ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+       m_iMaxItemsToSpawn 6
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "662E8AF0D3661AD2"
+   components {
+    ActionsManagerComponent "{6190D137C5926215}" {
+     additionalActions {
+      ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+       m_iMaxItemsToSpawn 6
+      }
+     }
+    }
+   }
+  }
+ }
+}
+$grp GenericEntity : "{6D66A35ABDA08197}Prefabs/Props/Garbage/Military/Ammo/GarbageAmmunition_USSR_01.et" {
+ {
+  coords 6196.854 318.921 2312.303
+ }
+ {
+  coords 6225.849 318.921 2300.589
+ }
+ {
+  coords 6255.559 318.921 2328.792
+ }
+ {
+  coords 6255.363 318.921 2329.433
+ }
+ {
+  coords 6266.554 318.921 2330.609
+ }
+}
+GenericEntity : "{6F0C071AD20DCF4A}Prefabs/Characters/Deads/armst_dead_newbie.et" {
+ components {
+  BaseItemAnimationComponent "{6712E82B4C0E57EA}" {
+   StartNode "dead_7"
+  }
+ }
+ coords 6269.635 319.862 2306.378
+ angles 0 -88.948 0
+}
+$grp DecalEntity : "{71979372AFE909E5}Prefabs/Decals/Blood/BloodStain_Large_01.et" {
+ {
+  coords 6224.071 2.656 2299.217
+  angles 45 0 0
+  scale 1.5
+ }
+ {
+  coords 6189.284 0 2308.934
+  angles -90 -180 -180
+  scale 1.5
+ }
+ {
+  coords 6253.511 0 2332.61
+  angles -90 -180 -180
+  scale 0.645
+ }
+}
+GenericEntity : "{96D641FB0679BCD9}Prefabs/Characters/Deads/armst_dead_science.et" {
+ components {
+  BaseItemAnimationComponent "{6712E82B4C0E57EA}" {
+   StartNode "dead_4"
+  }
+ }
+ coords 6223.621 318.977 2298.734
+ angles 0 148.477 0
+}
+SCR_TreeDebrisSmallEntity : "{9A0EF5597C73A8DC}Prefabs/Vegetation/Tree/Dst/t_sorbus_aucuparia/T_Sorbus_Aucuparia_2f_dst_stump.et" {
+ coords 6244.104 319.085 2300.858
+}
+GenericEntity : "{A04DC55EB7C367F8}Prefabs/Props/Garbage/Military/Ammo/GarbageAmmunition_US_02.et" {
+ coords 6175.924 318.921 2313.326
+}
+SCR_DestructibleEntity : "{A786DACFAA0BE670}Prefabs/Structures/Walls/BarbedWire/NetFence_USSR_01/NetFence_USSR_01_D_start.et" {
+ coords 5656.424 0 1928.618
+ angles 0 165 0
+}
+$grp DecalEntity : "{CCE57C4C9C0E5009}Prefabs/Decals/Blood/BloodStain_Small_01.et" {
+ {
+  coords 6225.311 0.587 2299.679
+  angles -45 180 -180
+  scale 0.8
+ }
+ {
+  coords 6196.192 0.556 2314.477
+  angles 15 0 0
+  scale 0.8
+ }
+ {
+  coords 6224.757 0.071 2298.025
+  angles -90 -180 -180
+  scale 0.8
+ }
+ {
+  coords 6195.875 0 2314.06
+  angles -90 -180 -180
+  scale 0.8
+ }
+ {
+  coords 6224.27 2.065 2299.339
+  angles 3.194 0 0
+  scale 0.8
+ }
+ {
+  coords 6224.999 0 2300.175
+  angles -90 -180 -180
+  scale 0.8
+ }
+ {
+  coords 6224.23 0.984 2299.346
+  angles -15 0 0
+  scale 0.8
+ }
+ {
+  coords 6236.982 0 2303.55
+  angles -90 -180 -180
+  scale 0.248
+ }
+ {
+  coords 6236.721 0.005 2303.187
+  angles -78.317 0 0
+  scale 0.268
+ }
+ {
+  coords 6253 0 2332.104
+  angles -90 -180 -180
+  scale 0.8
+ }
+ {
+  coords 6253.294 0 2332.483
+  angles -33.809 -130.193 -168.117
+  scale 0.8
+ }
+}
+$grp GenericEntity : "{DA0B2CD369CC00F4}Prefabs/Characters/Deads/armst_dead_sweater.et" {
+ {
+  components {
+   BaseItemAnimationComponent "{6712E82B4C0E57EA}" {
+    StartNode "dead_3"
+   }
+  }
+  coords 6189.045 318.921 2308.113
+  angles 0 29.403 0
+ }
+ {
+  components {
+   BaseItemAnimationComponent "{6712E82B4C0E57EA}" {
+    StartNode "dead_2"
+   }
+  }
+  coords 6252.861 318.921 2331.521
+  angles 0 20.264 0
+ }
+}
+GenericEntity : "{E7B9D08AA65270BE}Prefabs/Vehicles/gaz66/armst_gaz66_box.et" {
+ coords 6227.175 320.292 2298.945
+ angles 0 -61.965 -90
+}

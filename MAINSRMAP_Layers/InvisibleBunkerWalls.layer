@@ -1,0 +1,116 @@
+$grp GenericEntity : "{53DE322CC9306A58}Prefabs/Perimetr/wall_invisible.et" {
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{687F675D49A7C3D2}" {
+      SourceMaterial "Box_Geometry"
+      AssignedMaterial "{62B5F22E4EED5B6C}textures/hidden.emat"
+     }
+    }
+    CastShadow 0
+    CastFarShadow 0
+   }
+  }
+  coords 5086.242 144.214 124.459
+  scale 24.273
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{687F675D49A7C327}" {
+      SourceMaterial "Box_Geometry"
+      AssignedMaterial "{62B5F22E4EED5B6C}textures/hidden.emat"
+     }
+    }
+    CastShadow 0
+    CastFarShadow 0
+   }
+  }
+  coords 4852.835 145.312 124.459
+  scale 24.273
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{687F675D49A7C250}" {
+      SourceMaterial "Box_Geometry"
+      AssignedMaterial "{62B5F22E4EED5B6C}textures/hidden.emat"
+     }
+    }
+    CastShadow 0
+    CastFarShadow 0
+   }
+  }
+  coords 4552.736 145.312 17.518
+  angles 0 -90 0
+  scale 24.273
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{687F675D49A7C0D7}" {
+      SourceMaterial "Box_Geometry"
+      AssignedMaterial "{62B5F22E4EED5B6C}textures/hidden.emat"
+     }
+    }
+    CastShadow 0
+    CastFarShadow 0
+   }
+  }
+  coords 5317.466 143.562 124.459
+  scale 24.273
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{687F675D49A7DF0C}" {
+      SourceMaterial "Box_Geometry"
+      AssignedMaterial "{62B5F22E4EED5B6C}textures/hidden.emat"
+     }
+    }
+    CastShadow 0
+    CastFarShadow 0
+   }
+  }
+  coords 5690.106 142.76 27.668
+  angles 0 90 0
+  scale 24.273
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{687F675D49A7C1B9}" {
+      SourceMaterial "Box_Geometry"
+      AssignedMaterial "{62B5F22E4EED5B6C}textures/hidden.emat"
+     }
+    }
+    CastShadow 0
+    CastFarShadow 0
+   }
+  }
+  coords 5552.75 142.593 124.459
+  scale 24.273
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{687F675D49A7C6B2}" {
+      SourceMaterial "Box_Geometry"
+      AssignedMaterial "{62B5F22E4EED5B6C}textures/hidden.emat"
+     }
+    }
+    CastShadow 0
+    CastFarShadow 0
+   }
+  }
+  coords 4650.887 145.312 124.459
+  scale 24.273
+ }
+}

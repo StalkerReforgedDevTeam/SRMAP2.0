@@ -1,0 +1,1565 @@
+GameEntity {
+ components {
+  SignalsManagerComponent "{68C2EEC812C8C866}" {
+  }
+  SoundComponent "{68C2EEC812C8C83F}" {
+   Filenames {
+    "{ADF9249D6654328B}Sounds/Compositions/Misc/Campfire/Compositions_Campfire.acp"
+   }
+   IncludeInactive 1
+  }
+  BaseSlotComponent "{68C2EEC812C8C818}" {
+   AttachType EntitySlotInfo fireplace {
+   }
+   EntityPrefab "{8243CC3B73B19449}Prefabs/Props/Civilian/Fireplace_01_hot_decal.et"
+  }
+  MeshObject "{68C2EEC812C8C92E}" {
+   Object "{D81419CECB87E909}Assets/Fireplaces/fireplace_ground.xob"
+   LODFactors {
+    5
+    2
+    1.5
+    1
+    1
+    1
+   }
+   ClutterOccluder 1
+  }
+  RigidBody "{68C2EEC812C8C9EB}" {
+   ResponseIndex "SmallDestructible"
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_DestructionMultiPhaseComponent "{68C2EEC812C8C670}" {
+   Enabled 0
+   "Additional hit zones" {
+    SCR_HitZone Default {
+     HZDefault 1
+     "Melee multiplier" 1
+     "Kinetic multiplier" 1
+     "Explosive multiplier" 90
+     "Incendiary multiplier" 1
+    }
+   }
+   m_fBaseHealth 500
+   m_fForceToDamageScale 350
+   m_aDamagePhases {
+    SCR_DamagePhaseData "{68C2EEC812C8C9A8}" {
+     m_fPhaseHealth 700
+     m_PhaseModel "{EB9067FFF3AE351E}Assets/Props/Civilian/Fireplace_01/Dst/FirePlace_01_dst.xob"
+    }
+   }
+  }
+  SCR_FireplaceComponent "{68C2EEC812C8C66D}" {
+   m_bGradualLightning 0
+   m_fLV 4
+   m_sParticle "{40FCA06B56510F73}Assets/Fireplaces/Data/fireplace.ptc"
+   m_eInitialLightState LIT_ON_SPAWN
+  }
+  ActionsManagerComponent "{68C2EEC812C8C62C}" {
+   ActionContexts {
+    UserActionContext "{68C2EEC812C8C641}" {
+     ContextName "fireplace"
+     Position PointInfo "{68C2EEC812C8C643}" {
+     }
+     Radius 1
+    }
+   }
+   additionalActions {
+    SCR_LightFireplaceUserAction "{68C2EEC812C8C628}" {
+     ParentContextList {
+      "fireplace"
+     }
+     VisibilityRange 2
+     Duration 1
+    }
+   }
+  }
+  RplComponent "{68C2EEC812C8C616}" {
+   Enabled 1
+  }
+ }
+ Flags 0x403 0
+ coords 4538.569 325.823 1623.4
+ angles -1.554 -16.913 1.073
+ {
+  GenericEntity : "{03DE957D8161212B}Prefabs/Props/Civilian/Notebook_01_Open.et" {
+   coords -0.291 0.042 -2.149
+   angles -2.025 -66.759 -2.479
+  }
+  GenericEntity : "{1359D393ED1D1A3F}Prefabs/Props/Garbage/Medical/GarbageMedicalUSSR_01.et" {
+   coords 1.877 0.003 0.447
+   angles 0 -70.165 0
+  }
+  GenericEntity : "{18982CB5D0D29247}Prefabs/Props/Civilian/BeerBottle_01_empty_brown.et" {
+   coords -1.147 0.013 -0.849
+  }
+  GenericEntity : "{190101E6E60E7C47}Prefabs/Props/Civilian/BeerBottle_01_empty_green.et" {
+   coords -1.128 0.008 -0.413
+  }
+  GenericEntity : "{3B021FADF6E151DA}Prefabs/beds/matrass_3.et" {
+   coords 2.307 -0.055 -0.397
+   angles 0 100.633 0
+  }
+  GenericEntity : "{7E9186C892E9F07F}Prefabs/Props/Garbage/Cardboard/Cardboard_01.et" {
+   coords -0.104 0.039 -2.39
+   angles 4.424 51.789 -1.503
+  }
+  GenericEntity : "{83B2BF6CB552153A}Prefabs/Trash/Newspapers/newspaper_4.et" {
+   coords -0.984 -0.111 0.837
+   angles 0 74.895 0
+  }
+  $grp GenericEntity : "{985C3871D40C7F7B}Prefabs/Props/Garbage/Generic/Litter_01_small.et" {
+   {
+    coords 0.887 0.003 -0.952
+   }
+   {
+    coords 0.839 -0.011 0.809
+    angles 0 93.661 0
+   }
+  }
+  GenericEntity : "{B898D2A1F45058F6}Prefabs/Props/Garbage/Military/Food/GarbageFoodMilitaryUSSR_01.et" {
+   coords -1.134 0.012 -0.649
+  }
+  $grp GenericEntity : "{BA8BCF7C77F24A56}Prefabs/Props/Civilian/WoodKindling_01.et" {
+   {
+    coords 0.571 0.029 -0.841
+    angles 0 49.914 0
+   }
+   {
+    coords 0.311 0.028 -1.208
+    angles 0 130.688 0
+   }
+  }
+  GenericEntity : "{D0B44EB8DBEDDA97}Prefabs/Props/Civilian/Bucket_02.et" {
+   coords -1.402 0.002 -1.119
+   angles 0 66.468 0
+  }
+  $grp GenericEntity : "{E105D2F87098E1D9}Prefabs/Method/Props/Camps/PatrolPoint_LoiterPoint.et" {
+   {
+    components {
+     SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+      m_eLoiterAnimation SIT
+      m_bHolsterWeapon 1
+     }
+    }
+    coords -2.082 0 -0.162
+    angles 0 0 0
+   }
+   {
+    components {
+     SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+      m_eLoiterAnimation SIT
+      m_bHolsterWeapon 1
+     }
+    }
+    coords 0.2 0 -2.346
+    angles 0 -87 0
+   }
+   {
+    components {
+     SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+      m_iCharacterStance CROUCH
+      m_eLoiterAnimation SIT
+      m_bHolsterWeapon 1
+     }
+    }
+    coords 2.246 0.078 -0.27
+    angles 0 167.458 0
+   }
+  }
+  $grp GenericEntity : "{EF49B1F62D20ABD1}Prefabs/Props/Garbage/Cardboard/Cardboard_05.et" {
+   {
+    coords 0.11 0.002 -2.307
+    angles 0 -33.177 0
+   }
+   {
+    coords -1.056 0.003 -0.535
+    angles 0 38.718 0
+   }
+   {
+    coords -1.118 0.007 -0.759
+    angles 0 -33.177 0
+   }
+  }
+  GenericEntity : "{F1C5AA461DC6ECCE}Prefabs/Props/Civilian/PotOld_01.et" {
+   coords 1.21 0.003 0.478
+  }
+  GenericEntity : "{F4CA533A99B20DAE}Prefabs/Props/Civilian/SackUniversal_01.et" {
+   coords -2.977 -0.037 -0.748
+   angles 78.474 -71.538 105.477
+  }
+ }
+}
+$grp GenericEntity {
+ teleporter115 {
+  coords 7490.917 296.466 7460.847
+ }
+ {
+  components {
+   MeshObject "{68B5390272F821C1}" {
+    Object "{3E5EF7F0DC778941}Assets/Props/Garbage/Cardboard/Cardboard_Pile_02.xob"
+   }
+  }
+  coords 4546.72 326.849 1682.298
+  angles 0 30.55 0
+ }
+ {
+  components {
+   MeshObject "{68B53902340E25AA}" {
+    Object "{93805DF1EFA4F212}Assets/Props/Civilian/BeerBottle_01/BeerBottle_01_Empty.xob"
+   }
+  }
+  coords 4547.589 326.89 1681.67
+  angles -90 -180 -180
+ }
+ {
+  components {
+   MeshObject "{68B5390232A791D0}" {
+    Object "{240D853DBB045D05}Assets/Props/Civilian/BeerBottle_01/BeerBottle_01.xob"
+   }
+  }
+  coords 4547.484 326.854 1681.606
+ }
+ {
+  components {
+   MeshObject "{68B53902D76147BD}" {
+    Object "{250B64167B3A6475}Assets/Items/Food/MRE_01.xob"
+   }
+  }
+  coords 4547.695 326.85 1682.274
+ }
+ TeleporterQ1 {
+  coords 4511.5 326.393 1684.138
+ }
+ TeleporterQ3 {
+  coords 4514.711 364.373 1598.341
+ }
+ TeleporterQ4 {
+  coords 4610.29 306.736 1319.678
+ }
+ TeleporterQ5 {
+  coords 4522.829 336.161 1710.339
+ }
+ TeleporterQ6 {
+  coords 4442.764 311.841 1880.714
+ }
+ TeleporterQ7 {
+  coords 4490.888 281.408 1686.857
+ }
+ TeleporterQ8 {
+  coords 4609.342 315.153 1674.974
+ }
+ {
+  components {
+   MeshObject "{68B602877329F327}" {
+    Object "{56AFD7B6068634C3}Assets/Props/Remains/SkeletonRemains/SkeletonRemains_01.xob"
+   }
+  }
+  coords 4519.313 311.506 1601.967
+  angles -7.924 0 -1.419
+ }
+ {
+  components {
+   MeshObject "{68B602876D310611}" {
+    Object "{132B129D71A2D843}Assets/Props/Remains/SkeletonRemains/SkeletonRemains_06.xob"
+   }
+  }
+  coords 4514.921 311.582 1600.802
+  angles -8.549 0 -179.378
+ }
+ {
+  components {
+   MeshObject "{68B6573B44294C63}" {
+    Object "{240D853DBB045D05}Assets/Props/Civilian/BeerBottle_01/BeerBottle_01.xob"
+   }
+  }
+  coords 4521.587 334.239 1713.33
+  angles 45.13 0 -49.975
+ }
+ {
+  components {
+   MeshObject "{68C2EEC8E08658C1}" {
+    Object "{37EC4FF483A12229}Assets/Props/Military/MilitaryCrates/CrateStack_01/Dst/CrateStack_01_dst_1_debris_02.xob"
+   }
+  }
+  coords 4525.713 327.045 1606.72
+ }
+ {
+  components {
+   MeshObject "{68C2EEC8FB23313A}" {
+    Object "{40E6277C7703CD59}Assets/Props/Military/MilitaryCrates/CrateStack_01/Dst/CrateStack_01_dst_1_debris_03.xob"
+   }
+  }
+  coords 4526.509 327.007 1607.047
+  angles 0 0 -21.593
+ }
+ TeleporterQ2 {
+  coords 4428.812 327.429 1648.873
+ }
+}
+SCR_IndestructibleEnvironmentalEntity : "{038844285FEE0D7A}Prefabs/Rocks/Granite/GraniteStone_01.et" {
+ coords 4539.922 35.805 1686.436
+ angles -56.605 -85.438 -26.551
+}
+GenericEntity : "{0879933F4FDD2C2B}Prefabs/Props/Civilian/SackUniversal_01_Pile.et" {
+ coords 4530.827 326.807 1610.275
+ angles 0 -31.358 0
+}
+SCR_DestructibleBuildingEntity : "{0ACD5769BB42F2FB}Prefabs/Method/Props/Camps/PortableCabin_E_02_int_1.et" {
+ coords 4529.856 49.912 1689.129
+ angles 0 -89.789 -1.668
+}
+SCR_ChimeraCharacter : "{1185A403B6AF5212}Prefabs/QUESTS/SURVIVAL/STORM/SR_SWAMPTRADER.et" {
+ components {
+  SCR_CommunicationSoundComponent "{54FD05D0C92D071F}" {
+   Filenames +{
+   }
+  }
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab ""
+      }
+      SCR_EquipmentStorageSlot WristwatchSlot {
+       Prefab "{6FD6C96121905202}Prefabs/Items/Equipment/Watches/Watch_Vostok.et"
+      }
+     }
+    }
+   }
+   Attributes ItemAttributeCollection "{52BAC70D641B89B1}" {
+   }
+  }
+  ARMST_BOT_INTERACTION_COMPONENT "{62F9175F2C408F7A}" {
+   Enabled 0
+   m_bRecruitment 1
+   m_Chance_Recruitment 25
+   m_Chance_Story 35
+   m_Chance_Jokes 20
+   m_bActionCheck 1
+  }
+  ARMST_DEATH_COMPONENTS "{65FB0C29F2EE24DA}" {
+   Enabled 0
+  }
+  ARMST_DIALOGS_COMPONENT "{6686D3236158621E}" {
+   m_sFaction_Text "#Armst_faction_trader"
+   m_sDialog_2_Text "#armst_dialogs_trader"
+   m_sDialog_2_Scripts "Armst_dialog_trader"
+  }
+  ARMST_DeathHandlerComponent "{65891AD99A8DE826}" {
+   Enabled 0
+  }
+  ARMST_HUDCharacterComponent "{62F8B402505D4AE5}" {
+   Enabled 0
+  }
+  ARMST_HUD_Component "{62F8A3075397E503}" {
+   Enabled 0
+  }
+  ARMST_ITEMS_STATS_COMPONENTS "{626EA1DE349BFDE9}" {
+   Enabled 0
+  }
+  ARMST_MONEY_COMPONENTS "{6634B5230CEC9832}" {
+   Enabled 0
+  }
+  ARMST_PLAYER_ANIMATION "{66A0B319CD077DFF}" {
+   m_bInitStart 1
+   m_AnimationName LOITERING
+  }
+  ARMST_PLAYER_MAP_MARKERS "{66466BF8F18A06DB}" {
+   Enabled 0
+  }
+  ARMST_PLAYER_QUEST "{66488623DA5185BD}" {
+   Enabled 0
+  }
+  ARMST_PLAYER_REPUTATIONS_COMPONENT "{6646CB329EBE8680}" {
+   Enabled 0
+  }
+  ARMST_PLAYER_STATS_COMPONENT "{6275149C8E6B70D6}" {
+   Enabled 0
+  }
+  ARMST_TRADER_CAT_COMPONENT "{68C30C51A1CFDA4F}" {
+   m_sTraderCategory9 {
+    "{F69ACB5022A7837B}Configs/Trader/ALL/SR_ARTIFACTSSELL.conf"
+    "{D85A380D1ECE45C1}Configs/Trader/ALL/SR_MUTANTSSELL.conf"
+    "{44C48F36A0D5341A}Configs/Trader/ALL/SR_MISCSELL.conf"
+    "{D10B6C2A5925295F}Configs/Trader/ALL/SR_DOCSSELL.conf"
+    "{D39A81B7EF4AA3C0}Configs/Trader/ALL/SR_ELECTRONICSSELL.conf"
+    "{D6BCF51595CFFC25}Configs/Trader/ALL/armst_trader_cat_tools.conf"
+    "{16CDD7B85B3DC7BB}Configs/Trader/ALL/SR_KEYSsell.conf"
+    "{5EB142AAE24F1AA0}Configs/Trader/ALL/SR_PHOTOSELL.conf"
+    "{7B0AD09AB640064A}Configs/Trader/Swamp Trader/SR_SWAMPS_PATCH.conf"
+    "{26655F9BF7A5714E}Configs/SR_ALLAMMOSELL.conf"
+   }
+   m_fSellPercent 45
+   m_FactionTrader FACTION_ALL
+  }
+  ChimeraAIControlComponent "{520EA1D2DB109F34}" {
+   Enabled 1
+   components {
+    AICharacterAimingComponent "{520EA1D2DB109F0C}" {
+     Enabled 1
+    }
+    AICharacterHeadAimingComponent "{520EA1D2DB109F04}" {
+     Enabled 1
+    }
+    AICharacterMovementComponent "{520EA1D2DB109F01}" {
+     Enabled 1
+    }
+    AIPathfindingComponent "{56349A6F9C02E7A1}" {
+     Enabled 1
+    }
+    PerceptionComponent "{54A2CBC75F06064B}" {
+     Enabled 1
+     ForgetEnemyTime 10
+     SensorsList {
+      EyesSensor "{520EA1D2DB109AAD}" {
+       MaxRange 50
+      }
+      EarsSensor "{520EA1D2DB109AA9}" {
+       MaxRange 50
+      }
+     }
+    }
+    SCR_AICombatComponent "{55A2C9BE343B2EA1}" {
+     Enabled 1
+    }
+   }
+  }
+  EPF_PersistenceComponent "{5A12D8F4DFED6D84}" {
+   Enabled 0
+  }
+  FactionAffiliationComponent "{520EC9618276DF23}" {
+   "faction affiliation" "FACTION_STALKER"
+  }
+  SCR_CharacterDamageManagerComponent "{55872AD7B4E959F2}" {
+   Enabled 0
+  }
+  SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+   Enabled 1
+  }
+  SCR_CharacterRegistrationComponent "{5216D6E4AC68563B}" {
+   Enabled 1
+  }
+  SCR_CharacterStaminaComponent "{520EA1D2F659C824}" {
+   Enabled 1
+  }
+  SCR_CharacterVicinityComponent "{529A70D96D401B33}" {
+   Enabled 1
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   Enabled 0
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#Armst_neutral_character"
+    Icon "{9218EB59FC5028C7}Prefabs/Groups/STALKERS.edds"
+    m_Image "{9218EB59FC5028C7}Prefabs/Groups/STALKERS.edds"
+    m_sFaction "FACTION_STALKER"
+    m_aAuthoredLabels +{
+    }
+   }
+   m_bAutoRegister NEVER
+  }
+  SCR_GadgetManagerComponent "{520EA1D2DB118DF3}" {
+   Enabled 1
+  }
+  SCR_MeleeComponent "{520EA1D2F659C85E}" {
+   Enabled 1
+  }
+  SCR_VoNComponent "{520EA1D2F659C856}" {
+   Enabled 1
+  }
+  BaseFlattenGrassComponent "{520EA1D2F659CE26}" {
+   Enabled 1
+  }
+  SCR_CharacterPerceivableComponent "{566CCE2397E28600}" {
+   Enabled 1
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Override 1
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{32583C88222142FD}Prefabs/Characters/Heads/Head_White_04.et"
+    }
+    Name ""
+    Alias ""
+    Surname "#armst_stalker_new_name_51"
+   }
+   m_IdentityFormatFull "#AR-Idenity_Name_Format_Ful"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{F5D440573494C91B}Prefabs/Helmet/achhelmet_black.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{372598F2E3F58028}Prefabs/Characters/Uniforms/Jacket/Jacket_Casual.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{E0B0724589E2D73A}Prefabs/New_Equipment/Armory/ASG/armst_armory_asg_black.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{979542DE9B3F520F}Prefabs/Characters/Uniforms/Pants/Pants_Casual.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{5DF442DF18F312F3}Prefabs/New_Equipment/Boots/armst_boots_soviet.et"
+    }
+    LoadoutSlotInfo Back {
+    }
+    LoadoutSlotInfo Vest {
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{2D525E69ACF22F5E}Prefabs/New_Equipment/Gloves/armst_gloves_hard.et"
+    }
+    LoadoutSlotInfo Head {
+     Prefab "{00F7B4C95E47ADE3}Prefabs/New_Equipment/Gasmasks/armst_gasmask_s200.et"
+    }
+   }
+  }
+  ZEL_PlayerClaimComponent "{62D120DCE9ED7E8A}" {
+   Enabled 0
+  }
+  ZEL_PlayerUIDComponent "{62BC0E1BAAF353A1}" {
+   Enabled 0
+  }
+  ActionsManagerComponent "{520EA1D2F659CE02}" {
+   ActionContexts {
+    UserActionContext "{520EA1D2F659CE17}" {
+    }
+   }
+   additionalActions {
+    ARMST_USER_DIALOGS "{6686ECEDBBB7636F}" {
+     m_bEnableDialogs 1
+    }
+   }
+  }
+  SCR_CharacterCameraHandlerComponent "{520EA1D2F659C98D}" {
+   Enabled 1
+  }
+ }
+ coords 1457.35 292.699 1991.585
+ angles 0 -143.083 0
+}
+$grp GenericEntity : "{118F3279376A233C}Prefabs/deads/skeleton/dead_skeleton_4.et" {
+ {
+  coords 4520.497 292.847 1712.176
+  angles 0 0 0
+ }
+ {
+  coords 4512.261 314.135 1604.074
+  angles 0 -20.888 0
+ }
+}
+GenericEntity : "{15351F20511409FB}Prefabs/shelves/shelves_1.et" {
+ coords 4564.169 328.287 1622.791
+ angles 89.447 0 0
+}
+GenericEntity : "{21412366D258AC4C}Prefabs/Props/Forest/WoodPile/WoodPile_02_B.et" {
+ coords 4524.333 326.794 1611.271
+ angles 0 72.812 0
+}
+SCR_ChimeraCharacter : "{24938775FAE22744}Prefabs/QUESTS/SURVIVAL/SCIENCE/SCIENCE_TRADER.et" {
+ components {
+  ARMST_TRADER_CAT_COMPONENT "{66867E9CCFA3C090}" {
+   m_fSellPercent 35
+  }
+ }
+ coords 1954.693 302.178 1992.206
+ angles 0 177.68 0
+}
+GenericEntity : "{2887E99075B9C929}Prefabs/Trash/musor_plane/Litter_01_long.et" {
+ coords 4558.744 327.858 1622.559
+ angles 0 73.566 0
+}
+$grp SCR_IndestructibleEnvironmentalEntity : "{2973EA66BE9A406D}Prefabs/Rocks/Granite/GraniteSurfaceStone_07.et" {
+ {
+  coords 4529.945 325.877 1690.743
+  angles 0 -54.336 0
+ }
+ {
+  coords 4528.213 323.726 1691.781
+  angles 0 95.099 180
+ }
+}
+$grp SCR_IndestructibleEnvironmentalEntity : "{38EABAE970A94744}Prefabs/Rocks/Granite/GraniteStone_03_V2.et" {
+ {
+  coords 4540.173 52.968 1668.865
+ }
+ {
+  coords 4525.831 67.502 1677.94
+ }
+ {
+  coords 4524.675 52.54 1651.592
+ }
+ {
+  coords 4522.773 46.66 1659.311
+ }
+ {
+  coords 4529.546 43.113 1667.391
+ }
+}
+GenericEntity : "{39BCA4AB9352201C}Prefabs/chairs/divan.et" {
+ coords 4559.615 327.858 1618.392
+ angles 0 -162.533 0
+}
+GenericEntity : "{3B9DD26E4C48A3D6}Prefabs/Trash/Ammo/GarbageAmmunition_US_01.et" {
+ coords 4529.561 325.74 1623.386
+ angles -2.475 0.027 -0.617
+}
+$grp SCR_IndestructibleEnvironmentalEntity : "{4527DE86025ECF43}Prefabs/Rocks/Granite/GraniteSurfaceStone_04.et" {
+ {
+  coords 4519.278 325.884 1713.713
+  angles 0 0 -67.654
+ }
+ {
+  coords 4540.183 328.478 1683.204
+  angles 0 -116.705 25.711
+  scale 0.189
+ }
+}
+$grp GenericEntity : "{4870DF58BA621FFA}Prefabs/Trash/Medical/GarbageMedicalUS_01.et" {
+ {
+  coords 4565.548 328.781 1620.589
+ }
+ {
+  coords 4544.943 326.261 1629.613
+  angles -3.963 0 0
+ }
+}
+$grp ParticleEffectEntity : "{4A27BF45F31F9275}Prefabs/Anomals/Zero_gravy/ARMST_ZERO_GRAVY_ROCK_CLUSTER.et" {
+ {
+  coords 4541.782 326.817 1704.682
+ }
+ {
+  coords 4541.782 326.817 1704.682
+ }
+ {
+  coords 4541.782 326.817 1704.682
+ }
+ {
+  coords 4516.003 323.079 1695.236
+ }
+ {
+  coords 4516.003 323.079 1695.236
+ }
+ {
+  coords 4516.003 323.079 1695.236
+ }
+ {
+  coords 4534.784 324.493 1670.491
+ }
+ {
+  coords 4534.784 324.493 1670.491
+ }
+ {
+  coords 4534.784 324.493 1670.491
+ }
+}
+$grp ParticleEffectEntity : "{5274D527031AAA13}Prefabs/Anomals/Zero_gravy/ARMST_ZERO_GRAVY_BIG_ROCK.et" {
+ {
+  coords 4547.183 347.797 1717.783
+ }
+ {
+  coords 4528.016 322.437 1668.106
+ }
+ {
+  coords 4535.291 318.107 1675.139
+ }
+ {
+  coords 4535.193 329.285 1670.193
+ }
+ {
+  coords 4544.683 311.009 1712.862
+ }
+ {
+  coords 4523.087 317.892 1684.04
+ }
+}
+GenericEntity : "{585A140D761A8BBA}Prefabs/Trash/Cardboard/Cardboard_Pile_08.et" {
+ coords 4564.685 327.858 1620.437
+}
+ParticleEffectEntity : "{58CFA6A4A8101A1B}Prefabs/Anomals/Zero_gravy/ARMST_ZERO_GRAVY_CRANE.et" {
+ coords 4468.099 346.959 1699.111
+}
+$grp ParticleEffectEntity : "{58CFA6A4A8101A1C}Prefabs/Anomals/Zero_gravy/ARMST_ZERO_GRAVY_ROCK.et" {
+ {
+  coords 4524.894 340.647 1684.722
+ }
+ {
+  coords 4531.679 340.469 1684.242
+ }
+ {
+  coords 4529.117 330.755 1688.775
+ }
+ {
+  coords 4542.366 311.314 1713.533
+ }
+ {
+  coords 4547.176 314 1712.839
+ }
+}
+$grp GenericEntity : "{5E8A29DCCF68C5DD}Prefabs/destructible/wood_barricade_destr.et" {
+ {
+  coords 4531.707 325.688 1621.6
+  angles -87.742 -166.472 147.27
+  scale 7
+ }
+ {
+  coords 4533.165 325.836 1617.372
+  angles -87.742 -166.472 151.615
+  scale 7
+ }
+ {
+  coords 4539.958 325.844 1619.176
+  angles -87.742 -166.472 151.615
+  scale 7
+ }
+ {
+  coords 4546.691 325.772 1620.962
+  angles -87.742 -166.472 151.615
+  scale 7
+ }
+ {
+  coords 4551.148 325.861 1622.607
+  angles -86.734 -144.952 125.399
+  scale 5
+ }
+ {
+  coords 4538.97 325.751 1622.9
+  angles -86.197 -159.688 144.851
+  scale 7
+ }
+ {
+  coords 4545.972 325.676 1624.966
+  angles -85.746 179.747 165.376
+  scale 7
+ }
+ {
+  coords 4546.125 325.466 1627.851
+  angles -85.659 138.324 -67.806
+  scale 7
+ }
+}
+GenericEntity : "{6511EA5E7DD4C149}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/Dst/CrateStack_01_Dst_3_base.et" {
+ coords 4524.738 326.915 1609.922
+ angles 0 -100.285 0
+}
+GenericEntity : "{6D66A35ABDA08198}Prefabs/Trash/Ammo/GarbageAmmunition_USSR_01.et" {
+ coords 4538.523 325.803 1624.244
+ angles 2.391 -110.57 2.478
+}
+$grp GenericEntity : "{7030822F7A54F479}Prefabs/LOOT_BOX/base/backpacks/CrateWooden_01_base.et" {
+ {
+  coords 4545.125 325.46 1629.544
+  angles -1.1 72.375 -3.429
+ }
+ {
+  coords 4541.957 325.477 1628.45
+  angles 0 45.091 0
+ }
+ {
+  coords 4529.003 325.709 1625.286
+  angles 0 -20.912 0
+ }
+ {
+  coords 4529.045 326.513 1625.042
+  angles 0 22.69 0
+ }
+ {
+  coords 4531.922 325.639 1626.202
+  angles -1.164 70.705 -1.545
+ }
+ {
+  coords 4557.406 325.502 1625.838
+  angles 0 -24.195 0
+ }
+ {
+  coords 4556.542 325.502 1625.579
+  angles 0 -19.762 0
+ }
+ {
+  coords 4557.225 326.267 1625.488
+  angles 0 69.518 0
+ }
+}
+GenericEntity : "{73524FA5556B9FCF}Prefabs/Trash/Cardboard/Cardboard_Pile_02.et" {
+ coords 4563.353 327.858 1623.809
+}
+GenericEntity : "{79612BC0EDD086D5}Prefabs/shelves/shelves_2.et" {
+ coords 4565.697 327.858 1620.987
+ angles 0 76.419 0
+}
+GenericEntity : "{7B63139E79EDF177}Prefabs/chairs/chair_wooden_small.et" {
+ coords 4560.125 327.824 1620.63
+ angles 0 -13.7 0
+}
+GenericEntity : "{7DDB06998BAEAC12}Prefabs/deads/skeleton/dead_skeleton_7.et" {
+ coords 4536.271 292.871 1718.81
+ angles 0 0 0
+}
+$grp GenericEntity : "{7E9186C892E9F07F}Prefabs/Props/Garbage/Cardboard/Cardboard_01.et" {
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{68C2EECC211A3834}" {
+      SourceMaterial "Cardboard"
+      AssignedMaterial "{9F6F5B7C997F2335}textures/metal/Metal_Rusty_6.emat"
+     }
+    }
+   }
+  }
+  coords 4540.779 325.685 1626.003
+  angles -0.591 84.321 -3.949
+  scale 2
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{68C2EECC211A3834}" {
+      SourceMaterial "Cardboard"
+      AssignedMaterial "{9F6F5B7C997F2335}textures/metal/Metal_Rusty_6.emat"
+     }
+    }
+   }
+  }
+  coords 4533.733 325.764 1623.259
+  angles -0.591 84.321 -1.244
+  scale 2
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{68C2EECC211A3834}" {
+      SourceMaterial "Cardboard"
+      AssignedMaterial "{9F6F5B7C997F2335}textures/metal/Metal_Rusty_6.emat"
+     }
+    }
+   }
+  }
+  coords 4545.765 325.795 1623.635
+  angles 1.754 161.891 -0.845
+  scale 2
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{68C2EECC211A3834}" {
+      SourceMaterial "Cardboard"
+      AssignedMaterial "{9F6F5B7C997F2335}textures/metal/Metal_Rusty_6.emat"
+     }
+    }
+   }
+  }
+  coords 4534.479 325.809 1625.398
+  angles 10.411 68.997 -1.488
+  scale 2
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{68C2EECC211A3834}" {
+      SourceMaterial "Cardboard"
+      AssignedMaterial "{9F6F5B7C997F2335}textures/metal/Metal_Rusty_6.emat"
+     }
+    }
+   }
+  }
+  coords 4535.289 325.81 1625.703
+  angles -4.551 69.593 -0.426
+  scale 2
+ }
+}
+$grp GenericEntity : "{869914063728EFF8}Prefabs/Props/Forest/WoodPile/WoodLog_01_D.et" {
+ {
+  coords 4546.814 317.424 1630.259
+  angles 74.42 62.27 -82.782
+  scale 2.6
+ }
+ {
+  coords 4550.325 317.859 1623.783
+  angles 74.42 62.27 -82.782
+  scale 2.6
+ }
+ {
+  coords 4532.933 317.764 1619.238
+  angles 80.637 -125.599 31.452
+  scale 2.6
+ }
+ {
+  coords 4531.127 317.496 1624.505
+  angles 80.637 -125.599 65.543
+  scale 2.6
+ }
+}
+GenericEntity : "{91B8D41BE2DF1DB5}Prefabs/Props/TRADE/ARMST_TRADER.et" {
+ components {
+  ARMST_TRADER_CAT_COMPONENT "{65E06D1FFD7232FF}" {
+   m_sTraderCategoryName1 "Weapons"
+   m_sTraderCategory1 {
+    "{8DB39967BC882923}Configs/Trader/bandit trader/SR_BANDIT_WEAPONS.conf"
+   }
+   m_sTraderCategoryName2 "Ammo"
+   m_sTraderCategory2 {
+    "{35A230A59D81FBE4}Configs/Trader/bandit trader/SR_BANDIT_AMMO.conf"
+   }
+   m_sTraderCategoryName3 "Medicine"
+   m_sTraderCategory3 {
+    "{28AE635F368AFDF9}Configs/Trader/bandit trader/SR_BANDITS_MEDS.conf"
+   }
+   m_sTraderCategoryName4 "Food"
+   m_sTraderCategory4 {
+    "{62993F13D5F288FB}Configs/Trader/bandit trader/SR_BANDITS_FOOD.conf"
+   }
+   m_sTraderCategoryName5 "Clothes"
+   m_sTraderCategory5 {
+    "{BDB3E6FF0C0B3657}Configs/Trader/bandit trader/SR_BANDITS_CLOTHES.conf"
+   }
+   m_sTraderCategoryName6 "Armor"
+   m_sTraderCategory6 {
+    "{38BB9D806047C3E6}Configs/Trader/bandit trader/SR_BANDIT_ARMOR.conf"
+   }
+   m_sTraderCategoryName7 "Money"
+   m_sTraderCategory7 {
+    "{F7BF4167B5088B80}Configs/Trader/Savino Trader/SR_SAVINO_MONEY.conf"
+   }
+   m_sTraderCategory8 {
+    "{92E07579AB9230CB}Configs/Trader/bandit trader/SR_BANDITS_PATCHES.conf"
+    "{F69ACB5022A7837B}Configs/Trader/ALL/SR_ARTIFACTSSELL.conf"
+    "{D10B6C2A5925295F}Configs/Trader/ALL/SR_DOCSSELL.conf"
+    "{4CD5F39DA08F899F}Configs/Trader/ALL/SR_DOGTAGSSELL.conf"
+    "{D39A81B7EF4AA3C0}Configs/Trader/ALL/SR_ELECTRONICSSELL.conf"
+    "{16CDD7B85B3DC7BB}Configs/Trader/ALL/SR_KEYSsell.conf"
+    "{44C48F36A0D5341A}Configs/Trader/ALL/SR_MISCSELL.conf"
+    "{D85A380D1ECE45C1}Configs/Trader/ALL/SR_MUTANTSSELL.conf"
+    "{5EB142AAE24F1AA0}Configs/Trader/ALL/SR_PHOTOSELL.conf"
+   }
+   m_sTraderCategoryName9 ""
+   m_sTraderCategory9 {
+   }
+   m_fSellPercent 40
+   m_FactionTrader FACTION_BANDIT
+   m_OnlyForFaction 1
+  }
+ }
+ coords 4160.597 306.439 713.969
+ angles 0 40.731 0
+}
+GenericEntity : "{93D7D0C0A52CD6A8}Prefabs/Trash/Food/GarbageFoodMilitaryUSSR_01.et" {
+ coords 4565.053 327.858 1621.007
+}
+GenericEntity : "{98474A60874B3B79}Prefabs/deads/skeleton/dead_skeleton_6.et" {
+ coords 4521.909 334.33 1713.258
+ angles 0 174.561 -8.496
+}
+$grp GenericEntity : "{985C3871D40C7F7C}Prefabs/Trash/musor_plane/Litter_01_small.et" {
+ {
+  coords 4559.217 327.858 1619.944
+ }
+ {
+  coords 4553.189 325.488 1628.01
+ }
+ {
+  coords 4532.004 326.444 1626.231
+  angles -1.714 -9.961 0.897
+ }
+}
+SCR_ChimeraCharacter : "{A47C2F11F0455CC5}Prefabs/QUESTS/SURVIVAL/KB/SR_SAVINO_TRADER.et" {
+ components {
+  SCR_CommunicationSoundComponent "{54FD05D0C92D071F}" {
+   Filenames +{
+   }
+  }
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab ""
+      }
+      SCR_EquipmentStorageSlot WristwatchSlot {
+       Prefab "{6FD6C96121905202}Prefabs/Items/Equipment/Watches/Watch_Vostok.et"
+      }
+     }
+    }
+   }
+   Attributes ItemAttributeCollection "{52BAC70D641B89B1}" {
+   }
+  }
+  ARMST_BOT_INTERACTION_COMPONENT "{62F9175F2C408F7A}" {
+   Enabled 0
+   m_bRecruitment 1
+   m_Chance_Recruitment 25
+   m_Chance_Story 35
+   m_Chance_Jokes 20
+   m_bActionCheck 1
+  }
+  ARMST_DEATH_COMPONENTS "{65FB0C29F2EE24DA}" {
+   Enabled 0
+  }
+  ARMST_DIALOGS_COMPONENT "{6686D3236158621E}" {
+   components {
+    ARMST_DIALOGS_MISSION_1 "{68C30C53EC800B78}" {
+     m_sNameMission "#armst_dialogs_task_found_destroy"
+     m_RequestPrefab "{D1AC668756A426B5}Prefabs/Items/Mut_parts/armst_itm_mut_rat.et"
+     m_RequestPrefabCounts 5
+     m_RewardMoney 8000
+     m_RewardFactionIncrease FACTION_STALKER
+     m_ReputationIncrease 5
+    }
+    ARMST_DIALOGS_MISSION_2 "{68C30C53EC8005F4}" {
+     m_sNameMission "#armst_dialogs_task_found_delivery"
+     m_RequestPrefab "{A9AEABDCA860D252}Prefabs/Items/Tools/armst_itm_filters.et"
+     m_RequestPrefabCounts 4
+     m_RewardMoney 10000
+     m_RewardFactionIncrease FACTION_STALKER
+     m_ReputationIncrease 5
+    }
+    ARMST_DIALOGS_MISSION_3 "{68C30C53EC8005EE}" {
+     m_sNameMission "#armst_dialogs_task_found_delivery"
+     m_RequestPrefab "{5EA844008DB50D00}Prefabs/Items/Tools/armst_itm_kerosine.et"
+     m_RequestPrefabCounts 2
+     m_RewardMoney 8000
+     m_RewardFactionIncrease FACTION_STALKER
+     m_ReputationIncrease 5
+    }
+    ARMST_DIALOGS_MISSION_4 "{68C30C53EC8005EC}" {
+     m_sNameMission "#armst_dialogs_task_found_delivery"
+     m_RequestPrefab "{090C19D41CB268E1}Prefabs/Items/devices/armst_itm_voron_broken.et"
+     m_RequestPrefabCounts 2
+     m_RewardMoney 7500
+     m_RewardFactionIncrease FACTION_STALKER
+     m_ReputationIncrease 5
+    }
+   }
+   m_sName_Text "#armst_stalker_new_name_77"
+   m_sFaction_Text "#Armst_faction_trader"
+   m_sAbout_Text "#armst_dialogs_sam_about"
+   m_sNews_Texts +{
+   }
+   m_sDialog_1_Text "#armst_dialogs_about_me"
+   m_sDialog_1_Scripts "Armst_dialog_About"
+   m_sDialog_2_Text "#armst_dialogs_news"
+   m_sDialog_2_Scripts "Armst_dialog_news"
+   m_sDialog_3_Text "#armst_dialogs_trader"
+   m_sDialog_3_Scripts "Armst_dialog_trader"
+   m_sDialog_4_Text "#armst_dialogs_missions"
+   m_sDialog_4_Scripts "Armst_dialog_Missions"
+   m_sDialog_5_Text "#armst_dialogs_end"
+   m_sDialog_5_Scripts "Dialog_Exit"
+  }
+  ARMST_DeathHandlerComponent "{65891AD99A8DE826}" {
+   Enabled 0
+  }
+  ARMST_HUDCharacterComponent "{62F8B402505D4AE5}" {
+   Enabled 0
+  }
+  ARMST_HUD_Component "{62F8A3075397E503}" {
+   Enabled 0
+  }
+  ARMST_ITEMS_STATS_COMPONENTS "{626EA1DE349BFDE9}" {
+   Enabled 0
+  }
+  ARMST_MONEY_COMPONENTS "{6634B5230CEC9832}" {
+   Enabled 0
+  }
+  ARMST_PLAYER_ANIMATION "{66A0B319CD077DFF}" {
+   m_bInitStart 1
+   m_AnimationName CUSTOM
+   m_sCustomAnimASI "{0C9F09B0B4E4B894}Anims/workspaces/CUSTOM/Anims/STAND/STAND_5.asi"
+  }
+  ARMST_PLAYER_MAP_MARKERS "{66466BF8F18A06DB}" {
+   Enabled 0
+  }
+  ARMST_PLAYER_QUEST "{66488623DA5185BD}" {
+   Enabled 0
+  }
+  ARMST_PLAYER_REPUTATIONS_COMPONENT "{6646CB329EBE8680}" {
+   Enabled 0
+  }
+  ARMST_PLAYER_STATS_COMPONENT "{6275149C8E6B70D6}" {
+   Enabled 0
+  }
+  ARMST_TRADER_CAT_COMPONENT "{68C30C53EC8005D2}" {
+   m_sTraderCategory5 {
+    "{ADF3A252A5C6CE91}Configs/Trader/Savino Trader/SR_SAVINO_HATS.conf"
+    "{84EF7F0A1EB6BC9C}Configs/Trader/Savino Trader/SR_SAVINO_MISC.conf"
+    "{44557083CDE8D4F3}Configs/Trader/Savino Trader/SR_SAVINO_TOPS.conf"
+    "{83A2AC73A234F484}Configs/Trader/Savino Trader/SR_SAVINO_BOTTOMS.conf"
+   }
+   m_sTraderCategory9 +{
+    "{26655F9BF7A5714E}Configs/SR_ALLAMMOSELL.conf"
+   }
+   m_fSellPercent 30
+  }
+  ChimeraAIControlComponent "{520EA1D2DB109F34}" {
+   Enabled 1
+   components {
+    AICharacterAimingComponent "{520EA1D2DB109F0C}" {
+     Enabled 1
+    }
+    AICharacterHeadAimingComponent "{520EA1D2DB109F04}" {
+     Enabled 1
+    }
+    AICharacterMovementComponent "{520EA1D2DB109F01}" {
+     Enabled 1
+    }
+    AIPathfindingComponent "{56349A6F9C02E7A1}" {
+     Enabled 1
+    }
+    PerceptionComponent "{54A2CBC75F06064B}" {
+     Enabled 1
+     ForgetEnemyTime 10
+     SensorsList {
+      EyesSensor "{520EA1D2DB109AAD}" {
+       MaxRange 50
+      }
+      EarsSensor "{520EA1D2DB109AA9}" {
+       MaxRange 50
+      }
+     }
+    }
+    SCR_AICombatComponent "{55A2C9BE343B2EA1}" {
+     Enabled 1
+    }
+   }
+  }
+  EPF_PersistenceComponent "{5A12D8F4DFED6D84}" {
+   Enabled 0
+  }
+  FactionAffiliationComponent "{520EC9618276DF23}" {
+   "faction affiliation" "FACTION_STALKER"
+  }
+  SCR_CharacterDamageManagerComponent "{55872AD7B4E959F2}" {
+   Enabled 0
+  }
+  SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+   Enabled 1
+  }
+  SCR_CharacterRegistrationComponent "{5216D6E4AC68563B}" {
+   Enabled 1
+  }
+  SCR_CharacterStaminaComponent "{520EA1D2F659C824}" {
+   Enabled 1
+  }
+  SCR_CharacterVicinityComponent "{529A70D96D401B33}" {
+   Enabled 1
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   Enabled 0
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#Armst_neutral_character"
+    Icon "{9218EB59FC5028C7}Prefabs/Groups/STALKERS.edds"
+    m_Image "{9218EB59FC5028C7}Prefabs/Groups/STALKERS.edds"
+    m_sFaction "FACTION_STALKER"
+    m_aAuthoredLabels +{
+    }
+   }
+   m_bAutoRegister NEVER
+  }
+  SCR_GadgetManagerComponent "{520EA1D2DB118DF3}" {
+   Enabled 1
+  }
+  SCR_MeleeComponent "{520EA1D2F659C85E}" {
+   Enabled 1
+  }
+  SCR_VoNComponent "{520EA1D2F659C856}" {
+   Enabled 1
+  }
+  BaseFlattenGrassComponent "{520EA1D2F659CE26}" {
+   Enabled 1
+  }
+  SCR_CharacterPerceivableComponent "{566CCE2397E28600}" {
+   Enabled 1
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Override 1
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{32583C88222142FD}Prefabs/Characters/Heads/Head_White_04.et"
+    }
+    Name ""
+    Alias ""
+    Surname "#armst_stalker_new_name_77"
+   }
+   m_IdentityFormatFull "#AR-Idenity_Name_Format_Ful"
+  }
+  ARMST_RANDOM_CLOTHES_COMPONENT "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{8641D9A55FF7D049}Prefabs/New_Equipment/Jackets/armst_jacket_army_sviter_old.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{D2CAE9D24BA3823D}Prefabs/New_Equipment/Pants/gorka/armst_pants_gorka_kbs.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{5DF442DF18F312F3}Prefabs/New_Equipment/Boots/armst_boots_soviet.et"
+    }
+    LoadoutSlotInfo Back {
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{CC310166D0D41BF4}Prefabs/New_Equipment/Vests/Coats/jacket_old.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{1E177302D80DCF67}Prefabs/New_Equipment/Gloves/armst_gloves_naked.et"
+    }
+    LoadoutSlotInfo Head {
+     Prefab "{998A7E5FAF19361E}Prefabs/New_Equipment/Masks/armst_mask_balacl_low_2.et"
+    }
+   }
+   m_fClothesEnabled 0
+   m_fWeaponEnabled 0
+  }
+  ZEL_PlayerClaimComponent "{62D120DCE9ED7E8A}" {
+   Enabled 0
+  }
+  ZEL_PlayerUIDComponent "{62BC0E1BAAF353A1}" {
+   Enabled 0
+  }
+  ActionsManagerComponent "{520EA1D2F659CE02}" {
+   additionalActions {
+    ARMST_USER_DIALOGS "{6686ECEDBBB7636F}" {
+     m_bEnableDialogs 1
+    }
+   }
+  }
+  SCR_CharacterCameraHandlerComponent "{520EA1D2F659C98D}" {
+   Enabled 1
+  }
+ }
+ coords 3380.009 303.192 781.581
+ angles 0 159.603 0
+}
+DecalEntity : "{A4F7B125C823F202}Prefabs/Method/Decals/Blood/Blood_Large_01.et" {
+ coords 4514.775 -0.072 1600.731
+ angles -90 -180 -180
+ scale 1.5
+}
+$grp SCR_IndestructibleEnvironmentalEntity : "{A7606C7E96A39B5D}Prefabs/Rocks/Granite/Granite_Boulder_02_V2.et" {
+ {
+  coords 4550.565 34.189 1684.013
+  scale 1.35
+ }
+ {
+  coords 4553.84 35.806 1684.919
+  angles 0 71.854 0
+  scale 1.35
+ }
+}
+GenericEntity : "{B082D9F68862F5DF}Prefabs/chairs/chair_wooden.et" {
+ coords 4558.068 327.858 1621.438
+ angles 0 -67.204 0
+}
+$grp ParticleEffectEntity : "{B23DCABB97FC3314}Prefabs/QUESTS/SURVIVAL/SCIENCE/SCIENCE_CHISTIL/ARMST_TELEPORT_FIX_CHISTIL.et" {
+ {
+  coords 4517.405 336.758 1642.839
+  angles 0 -16.115 0
+  {
+   ARMST_DamagingTriggerEntity {
+    ID "66A87A8AAAE5196E"
+    coords 0 1.028 0
+    m_sTeleportPos "TeleporterQ1"
+   }
+  }
+ }
+ {
+  coords 4554.926 328.699 1686.671
+  angles 0 -16.115 0
+  {
+   ARMST_DamagingTriggerEntity {
+    ID "66A87A8AAAE5196E"
+    coords 0 1.028 0
+    m_sTeleportPos "TeleporterQ2"
+   }
+  }
+ }
+ {
+  coords 4513.417 332.534 1629.45
+  angles 0 -16.115 0
+  {
+   ARMST_DamagingTriggerEntity {
+    ID "66A87A8AAAE5196E"
+    coords 0 1.028 0
+    m_sTeleportPos "TeleporterQ5"
+   }
+  }
+ }
+ {
+  coords 4548.184 331.456 1639.948
+  angles 0 -16.115 0
+  {
+   ARMST_DamagingTriggerEntity {
+    ID "66A87A8AAAE5196E"
+    coords 0 1.028 0
+    m_sTeleportPos "TeleporterQ6"
+   }
+  }
+ }
+ {
+  coords 4528.521 312.098 1611.161
+  angles 0 -16.115 0
+  {
+   ARMST_DamagingTriggerEntity {
+    ID "66A87A8AAAE5196E"
+    coords 0 1.028 0
+    m_sTeleportPos "TeleporterQ3"
+   }
+  }
+ }
+ {
+  coords 4533.819 324.386 1609.893
+  angles 0 -16.115 0
+  {
+   ARMST_DamagingTriggerEntity {
+    ID "66A87A8AAAE5196E"
+    coords 0 1.028 0
+    m_sTeleportPos "TeleporterQ4"
+   }
+  }
+ }
+ {
+  coords 4562.112 327.881 1620.459
+  angles 0 -16.115 0
+  {
+   ARMST_DamagingTriggerEntity {
+    ID "66A87A8AAAE5196E"
+    coords 0 1.028 0
+    m_sTeleportPos "TeleporterQ7"
+   }
+  }
+ }
+ {
+  coords 4546.595 325.411 1631.427
+  angles 0 -16.115 0
+  {
+   ARMST_DamagingTriggerEntity {
+    ID "66A87A8AAAE5196E"
+    coords 0 1.028 0
+    m_sTeleportPos "TeleporterQ8"
+   }
+  }
+ }
+}
+GenericEntity : "{B26B30742A8E37A9}Prefabs/Electric/old_tv.et" {
+ coords 4560.275 328.394 1620.524
+ angles 0 -127.779 0
+}
+GenericEntity : "{B47EB5AC921214EE}Prefabs/Props/Construction/CableReel/CableReelMetal_01.et" {
+ coords 4515.49 332.926 1629.979
+ angles 5.78 61.191 -2.4
+ scale 0.84
+}
+GenericEntity : "{B962FB36864E29D4}Prefabs/tables/table_wooden_2.et" {
+ coords 4515.853 330.496 1627.625
+ angles 0 -97.556 0
+ scale 0.854
+}
+GenericEntity : "{C58BDB4D22E0A5A8}Prefabs/Trash/musor_plane/Litter_01_large.et" {
+ coords 4545.27 325.726 1625.848
+ angles -1.553 -0.015 0.557
+}
+$grp GenericEntity : "{C7A49C5B54C86903}Prefabs/Props/Military/Sandbags/Sandbag_01_single_burlap.et" {
+ {
+  coords 4547.972 311.892 1623.304
+  angles -0.17 78.744 -5.427
+ }
+ {
+  coords 4548.454 311.949 1622.807
+  angles -4.057 28.743 -3.746
+ }
+ {
+  coords 4548.389 311.846 1623.897
+  angles -5.519 -14.873 0.08
+ }
+ {
+  coords 4548.114 312.124 1623.64
+  angles -6.906 38.507 -47.412
+ }
+ {
+  coords 4548.463 312.426 1622.989
+  angles -10.222 -63.814 -52.996
+ }
+}
+SCR_DestructibleBuildingEntity : "{CAA7FBD992120B51}Prefabs/Structures/Industrial/Large Metal Barn.et" {
+ coords 4868.442 0.769 1373.605
+ angles 0 -2.714 0
+}
+GenericEntity armst_itm_medkit_ai2_68B6573B7C5EA437 : "{CB67A30D05AA4F29}Prefabs/Items/Medicine/armst_itm_medkit_ai2.et" {
+ coords 4520.92 333.683 1713.133
+ angles 38.755 -34.241 -47.395
+}
+$grp GenericEntity : "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et" {
+ {
+  coords 4516.055 332.789 1631.239
+  angles -1.766 13.73 0
+ }
+ {
+  coords 4516.442 331.721 1627.315
+  angles 41.563 -15.201 1.17
+ }
+ {
+  coords 4518.673 325.871 1690.481
+  angles 32.826 63.447 -1.242
+ }
+}
+$grp GenericEntity : "{D27D94CE584C22E6}Prefabs/Props/Garbage/Cardboard/Cardboard_02.et" {
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{68C2EECA53985EE4}" {
+      SourceMaterial "Cardboard"
+      AssignedMaterial "{FF98323ACD37CFC8}textures/metal/Metal_Rusty_2.emat"
+     }
+    }
+   }
+  }
+  coords 4543.409 326.051 1629.554
+  angles -82.484 -15.22 -0.476
+  scale 2
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{68C2EECBE7778B5E}" {
+      SourceMaterial "Cardboard"
+      AssignedMaterial "{7B182458E5F0DD79}textures/metal/Metal_Rusty_8.emat"
+     }
+    }
+   }
+  }
+  coords 4530.014 326.643 1626.194
+  angles -77.82 -16.128 2.693
+  scale 3
+ }
+}
+$grp SCR_IndestructibleEnvironmentalEntity : "{D52660D5BB19E3CA}Prefabs/Rocks/Granite/GraniteSurfaceStone_base.et" {
+ {
+  coords 4514.413 323.751 1686.322
+ }
+ {
+  coords 4514.628 322.044 1686.316
+  angles 0 43.19 -180
+ }
+}
+SCR_IndestructibleEnvironmentalEntity : "{D5CC7A5A32C640A3}Prefabs/Rocks/Granite/GraniteRock_02_V2.et" {
+ coords 4547.396 326.849 1687.75
+ angles 0 144.944 0
+}
+$grp GenericEntity : "{D6711114DE2407D8}Prefabs/Props/VehicleParts/Tires/Tire_BTR70_pile.et" {
+ {
+  coords 4530.938 326.915 1611.852
+ }
+ {
+  coords 4530.71 326.915 1612.935
+  {
+   GenericEntity {
+    ID "5226D510DF8F65A0"
+    coords -0.471 0.38 -0.66
+    angles -19.046 -11.097 -68.47
+   }
+  }
+ }
+}
+GenericEntity : "{D6A3CF75BE589A91}Prefabs/Trash/Kurtka/kurtka_groud_3_red.et" {
+ coords 4564.147 327.858 1620.902
+ angles 0 46.034 0
+}
+GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
+ coords 4546.643 326.849 1680.486
+}
+GenericEntity : "{DA861447E6D426AE}Prefabs/Props/Industrial/Repair/VehicleGarbage_01_pile_small.et" {
+ coords 4524.905 326.915 1608.83
+}
+GenericEntity : "{E214337C6E1931C5}Prefabs/Props/Commercial/CounterShop_01.et" {
+ coords 7495.932 295.452 7464.6
+ scale 3.21
+}
+GenericEntity : "{E28A1732DA84AD7A}Prefabs/Trash/Food/GarbageFoodMilitaryUS_01.et" {
+ coords 4563.35 327.858 1621.422
+}
+$grp GenericEntity : "{EF49B1F62D20ABD1}Prefabs/Props/Garbage/Cardboard/Cardboard_05.et" {
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{68C2EECDF96E65E5}" {
+      SourceMaterial "Cardboard"
+      AssignedMaterial "{FF98323ACD37CFC8}textures/metal/Metal_Rusty_2.emat"
+     }
+    }
+   }
+  }
+  coords 4532.453 325.76 1622.854
+  angles -1.969 -0.086 0.997
+  scale 3
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{68C2EECDF96E65E5}" {
+      SourceMaterial "Cardboard"
+      AssignedMaterial "{FF98323ACD37CFC8}textures/metal/Metal_Rusty_2.emat"
+     }
+    }
+   }
+  }
+  coords 4549.361 325.812 1627.178
+  angles -4.661 -12.003 0.315
+  scale 3
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{68C2EECDF96E65E5}" {
+      SourceMaterial "Cardboard"
+      AssignedMaterial "{FF98323ACD37CFC8}textures/metal/Metal_Rusty_2.emat"
+     }
+    }
+   }
+  }
+  coords 4531.943 324.78 1627.317
+  angles -73.062 52.556 -72.739
+  scale 3
+ }
+}
+GenericEntity : "{F3FB6B0DF3EC4214}Prefabs/Props/TRADE/ARMST_PLACE_SELL.et" {
+ components {
+  ActionsManagerComponent "{6326BD0954B02997}" {
+   additionalActions {
+    ARMST_TRADE_SELL_ACTIONS "{6328B049401FD77D}" {
+     m_fBuyAll 100
+    }
+   }
+  }
+ }
+ coords 3359.747 306.266 759.396
+ angles 0 -40.738 0
+}
+GenericEntity : "{F4137E803B8FB457}Prefabs/deads/skeleton/dead_skeleton_5.et" {
+ coords 4520.937 291.11 1712.907
+ angles 0 90.42 0
+}
+SCR_IndestructibleEnvironmentalEntity : "{F5837A3933EFF7CF}Prefabs/Rocks/Granite/GraniteStone_01_V2.et" {
+ coords 4548.176 36.46 1693.894
+ scale 1.37
+}
+SCR_IndestructibleEnvironmentalEntity : "{FA6727A124372434}Prefabs/Rocks/Granite/GraniteRock_02.et" {
+ coords 4547.358 326.197 1687.783
+ angles 0 -180 -180
+}
+GenericEntity : "{FA97F9752BA2BA83}Prefabs/deads/skeleton/dead_skeleton.et" {
+ coords 4491.736 291.502 1707.676
+ angles 17.148 -88.299 0
+}

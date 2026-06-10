@@ -1,0 +1,406 @@
+$grp GenericEntity : "{013297BA01640EBA}Prefabs/Trash/Ammo/GarbageAmmunition_USSR_02.et" {
+ {
+  coords 6548.313 307.853 1265.08
+  angles 0 0 4.765
+ }
+ {
+  coords 6542.898 308.294 1256.361
+  angles 0 0 4.484
+ }
+}
+GenericEntity : "{09A48FF902267632}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/Dst/CrateStack_01_Dst_1_grey.et" {
+ coords 6550.504 309.225 1329.387
+ angles 0 55.66 0
+}
+StaticModelEntity : "{130BED24711F375F}PrefabsEditable/Auto/Structures/Walls/BarbedWire/E_BarbedTape_Triple.et" {
+ coords 6588.653 0.014 1282.307
+ angles 0 -43.427 0
+}
+GenericEntity : "{24366EAD043C8459}Prefabs/shelfs/tumba_1.et" {
+ coords 6556.412 307.734 1250.826
+ angles -85.422 -69.68 0
+}
+GenericEntity : "{2887E99075B9C929}Prefabs/Trash/musor_plane/Litter_01_long.et" {
+ coords 6534.808 308.465 1242.333
+ angles 2.025 -38.659 3.762
+}
+GenericEntity : "{2C3A91FAD42CB072}Prefabs/Electric/holodos_2.et" {
+ coords 6444.998 308.237 1213.651
+ angles -0.111 47.935 90.669
+}
+GenericEntity : "{2F34D371EECEFCCD}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SandbagPosition_S_USSR_04.et" {
+ coords 6549.221 307.77 1264.078
+}
+GenericEntity : "{317197B55A4ADB45}Prefabs/shelfs/shkaf_2.et" {
+ coords 6553.878 307.41 1249.427
+ angles 37.746 -11.383 15.663
+}
+GenericEntity : "{35DF2CB913F0ADDD}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Sandbag_round_Cluttered_USSR_01.et" {
+ coords 6535.438 309.568 1328.914
+ angles 0 -69.794 0
+}
+StaticModelEntity : "{365E4BF1FFFD8B30}PrefabsEditable/Auto/Structures/Walls/BarbedWire/E_BarbedTape_Long.et" {
+ coords 6540.55 0.061 1262.34
+ angles 0 16.161 0
+}
+GenericEntity : "{36D873BC68DC0215}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/Dst/CrateStack_01_Dst_3_NoDecal.et" {
+ coords 6544.246 309.213 1318.199
+}
+$grp DecalEntity : "{3BD66CDD309673DB}Prefabs/Decals/Blood/BloodStain_Drops_01.et" {
+ {
+  coords 6457.473 0.199 1221.034
+  angles -90 0 -117.164
+  scale 2
+ }
+ {
+  coords 6459.044 0.227 1221.896
+  angles -90 0 -120.637
+  scale 2
+ }
+ {
+  coords 6460.257 0.225 1223.119
+  angles -90 0 -161.377
+  scale 2
+ }
+ {
+  coords 6460.096 0.237 1222.497
+  angles -90 -180 60.523
+  scale 2
+ }
+ {
+  coords 6460.444 0.224 1223.299
+  angles -90 -180 16.646
+  scale 2
+ }
+ {
+  coords 6457.379 0.182 1221.145
+  angles -90 0 -117.102
+  scale 2
+ }
+ {
+  coords 6460.138 0.193 1225.138
+  angles -89.98 0 -23.514
+  scale 2
+ }
+ {
+  coords 6459.23 0.172 1226.815
+  angles -90 0 -33.604
+  scale 2
+ }
+ {
+  coords 6453.924 0.032 1218.802
+  angles -90 0 -123.876
+  scale 4.6
+ }
+ {
+  coords 6450.393 0.077 1215.963
+  angles -89.98 180 46.139
+  scale 4.6
+ }
+}
+GenericEntity : "{3F0D0593590519DA}Prefabs/Props/Garbage/Tires/TirePile_01_medium.et" {
+ coords 6551.845 308.879 1313.478
+}
+$grp DecalEntity : "{44BEF7B5E19C402B}Prefabs/Method/Decals/Blood/Blood_Wall_01.et" {
+ {
+  coords 6458.02 0.159 1228.224
+  angles -88.767 124.097 153.969
+  scale 3.7
+ }
+ {
+  coords 6458.791 0.186 1227.588
+  angles -88.767 124.097 -162.492
+  scale 3.7
+ }
+ {
+  coords 6459.694 0.164 1226.084
+  angles -87.477 -19.132 -11.876
+  scale 0.7
+ }
+ {
+  coords 6460.526 0.085 1223.781
+  angles -87.477 -19.132 42.845
+  scale 0.7
+ }
+ {
+  coords 6460.625 0.075 1223.073
+  angles -87.477 -19.132 -159.976
+  scale 1.8
+ }
+ {
+  coords 6446.881 -0.105 1211.92
+  angles -87.477 -19.132 -159.976
+  scale 2.8
+ }
+}
+GenericEntity : "{4BB4E6A204C93500}Prefabs/Vehicles/uaz452/armst_uaz452_open_wreck.et" {
+ coords 6543.946 309.274 1324.365
+ angles 0 8.64 0
+}
+GenericEntity : "{5987E1DF837BA755}Prefabs/Vehicles/btr70/armst_btr70.et" {
+ coords 6528.676 308.647 1244.355
+ angles 0 -145.262 0
+}
+$grp GenericEntity : "{5C394A7F7EFC9F71}Prefabs/beds/krovat.et" {
+ {
+  coords 6552.88 307.621 1246.613
+  angles 0 129.53 0
+ }
+ {
+  coords 6446.334 308.236 1213.984
+  angles 0 -49.691 26.99
+ }
+}
+GenericEntity : "{5CFEB7CF8AABBEBF}Prefabs/tables/table_wooden_3.et" {
+ coords 6554.481 307.475 1247.595
+ angles -88.251 166.399 -180
+}
+GameEntity : "{5EC10C92B8C82E69}Prefabs/Method/Props/Camps/Fireplace_Loiters_03.et" {
+ coords 6593.077 307.695 1338.877
+}
+GenericEntity : "{668A15633B592FEB}Prefabs/shelfs/shelf_book_3.et" {
+ coords 6450.231 308.186 1213.302
+ angles 0 0 -89.203
+}
+$grp GenericEntity : "{6D66A35ABDA08198}Prefabs/Trash/Ammo/GarbageAmmunition_USSR_01.et" {
+ {
+  coords 6548.576 307.777 1252.903
+  angles 0 0 4.613
+ }
+ {
+  coords 6546.922 307.847 1245.013
+  angles 0 0 1.597
+ }
+}
+GenericEntity : "{70671971E5F1F263}PrefabsEditable/Auto/Props/Crates/E_CrateWooden_01_plain.et" {
+ coords 6549.532 309.285 1328.476
+}
+GenericEntity : "{79612BC0EDD086D5}Prefabs/shelves/shelves_2.et" {
+ coords 6556.149 307.341 1249.025
+ angles -67.329 12.35 1.748
+}
+GenericEntity : "{83A201E51CE826B7}Prefabs/tables/table_wooden.et" {
+ coords 6451.445 307.579 1213.364
+ angles 0 0 0
+}
+GenericEntity : "{8C30960EF8E50389}Prefabs/Vehicles/ural/armst_ural_wheels_tents.et" {
+ coords 6524.037 309.435 1234.905
+ angles 0 -93.971 -92.248
+}
+GenericEntity : "{93D7D0C0A52CD6A8}Prefabs/Trash/Food/GarbageFoodMilitaryUSSR_01.et" {
+ coords 6546.609 307.883 1246.031
+}
+GenericEntity : "{985C3871D40C7F7C}Prefabs/Trash/musor_plane/Litter_01_small.et" {
+ coords 6554.686 307.311 1250.968
+ angles 0 0 2.532
+}
+GenericEntity : "{9AA7840FE3C3F664}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Sandbag_Sign_USSR_01.et" {
+ coords 6548.687 309.401 1336.682
+ angles 0 -12.891 0
+}
+GenericEntity : "{9BC88E502B836DBF}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SandbagPosition_S_USSR_01.et" {
+ coords 6557.3 309.002 1322.147
+ angles 0 68.529 0
+}
+StaticModelEntity : "{A1932F99114451A7}PrefabsEditable/Auto/Structures/Walls/BarbedWire/E_BarbedTape_Short.et" {
+ coords 6544.284 -0.001 1267.964
+ angles 0 77.343 0
+}
+GenericEntity : "{AB1E83746BDF76D1}PrefabsEditable/Auto/Compositions/Misc/FreeRoamBuilding/E_BarbedTapeTriple_S_USSR_01.et" {
+ coords 6578.462 307.03 1282.081
+ angles 0 -42.736 0
+ {
+  StaticModelEntity {
+   ID "5E64B54F57833D69"
+   coords -0.329 0 1.496
+  }
+ }
+}
+$grp DecalEntity : "{AF4AA779A4546D51}Prefabs/Decals/Dirt/Decal_Dirt_Patch_02.et" {
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 6544.329 0.042 1256.167
+  angles -90 0 0
+  scale 5
+  FarPlane 1.5
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 6545.956 -0.027 1245.016
+  angles -90 0 0
+  scale 5
+  FarPlane 1.5
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 6555.898 0.067 1249.795
+  angles -90 0 0
+  scale 5
+  FarPlane 1.5
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 6552.726 0.013 1248.234
+  angles -90 0 0
+  scale 5
+  FarPlane 1.5
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 6593.527 0 1339.38
+  angles -90 0 0
+  scale 5
+  FarPlane 1.5
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 6597.573 0 1336.617
+  angles -90 0 0
+  scale 5
+  FarPlane 1.5
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 6445.635 -0.066 1213.124
+  angles -90 0 0
+  scale 5
+  FarPlane 1.5
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 6452.553 0 1213.198
+  angles -90 0 0
+  scale 5
+  FarPlane 1.5
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 6449.186 0.054 1212.897
+  angles -90 180 -125.93
+  scale 5
+  FarPlane 1.5
+ }
+ {
+  components {
+   Hierarchy "{56E0B29E66335D7C}" {
+   }
+  }
+  coords 6544.481 0.005 1318.351
+  angles -89.98 180 -164.882
+  scale 2.9
+  FarPlane 1.5
+ }
+}
+GenericEntity : "{B350840088390760}Prefabs/Compositions/Misc/SubCompositions/Decorations/Barrel_Group_Stack_01.et" {
+ coords 6554.28 309.23 1327.783
+ angles 0 -58.921 0
+}
+GenericEntity : "{B4FE2CA8ADB74E6D}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/Fortifications/E_SandBag_Tower_S_USSR_01.et" {
+ coords 6539.876 309.581 1332.062
+ angles 0 -13.192 0
+}
+$grp GenericEntity : "{C58BDB4D22E0A5A8}Prefabs/Trash/musor_plane/Litter_01_large.et" {
+ {
+  coords 6551.843 307.545 1248.425
+  angles 0 -54.89 1.345
+ }
+ {
+  coords 6540.728 308.241 1246.812
+  angles 3.362 -47.027 0
+ }
+}
+GenericEntity : "{C762BA61BAD5B536}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Sandbag_Corner_BarbedWire_USSR_01.et" {
+ coords 6541.32 309.214 1310.071
+ angles 0 -93.429 0
+}
+$grp GenericEntity : "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et" {
+ {
+  components {
+   Hierarchy "{59D87A55EAE3E20E}" {
+    Enabled 1
+   }
+  }
+  coords 6449.152 308.239 1212.606
+  angles 1.112 -89.783 -70.266
+ }
+ {
+  components {
+   Hierarchy "{59D87A55EAE3E20E}" {
+    Enabled 1
+   }
+  }
+  coords 6452.791 308.11 1212.887
+  angles 0.944 -123.676 -74.039
+ }
+ {
+  components {
+   Hierarchy "{59D87A55EAE3E20E}" {
+    Enabled 1
+   }
+  }
+  coords 6445.184 308.437 1212.635
+  angles 0.369 -38.612 -76.477
+ }
+}
+GenericEntity : "{D042CEA90B8CB14D}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/CrateStack_01_decals_02.et" {
+ coords 6551.5 309.253 1329.666
+ angles 0 69.118 0
+}
+GenericEntity : "{D61611B41BDB921B}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Sandbag_Barricade_USSR_04.et" {
+ coords 6542.072 308.191 1256.344
+ angles 0 -114.486 0
+}
+SCR_DestructibleBuildingEntity : "{DECE87E73A4C13C3}Prefabs/Houses/villages/fixed/fix_house_7.et" {
+ coords 6451.347 -0.145 1227.014
+ angles 0 -113.171 0
+}
+GenericEntity : "{DFAB2CF47A3CCD8F}Prefabs/chairs/kreslo.et" {
+ coords 6444.481 308.184 1214.242
+ angles 0 -168.504 0
+}
+ParticleEffectEntity : "{E1BE9FC3307E693F}Prefabs/Anomals/Zero_gravy/ARMST_ZERO_GRAVY_MI8.et" {
+ coords 6478.219 313.841 1349.68
+}
+GenericEntity : "{E4A22C9C10769063}Prefabs/Vehicles/gaz71/BASE_gaz71.et" {
+ coords 6574.031 307.202 1275.074
+ angles 0 -142.654 0
+}
+GenericEntity : "{EB803C02E60E8CD6}Prefabs/Vehicles/zil131/armst_zil131_bigbox_yellow.et" {
+ coords 6566.087 306.975 1257.794
+ angles 0 -95.066 -6.182
+}
+GenericEntity : "{EE8D38A84C13EC49}Prefabs/beds/bed_wooden.et" {
+ coords 6452.486 308.643 1214.456
+ angles 86.272 0 0
+}
+GenericEntity : "{F4123D86F860B5E2}Prefabs/Trash/Medical/GarbageMedicalUSSR_02.et" {
+ coords 6544.053 308.214 1255.162
+ angles 0.442 0.019 2.373
+}
