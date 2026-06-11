@@ -1,4 +1,4 @@
-  [ComponentEditorProps()]
+[ComponentEditorProps()]
 modded class ARMST_QUEST_TRIGGER : SCR_BaseTriggerEntity
 {
     //------------------------------------------------------------------------------------------------
@@ -23,7 +23,7 @@ modded class ARMST_QUEST_TRIGGER : SCR_BaseTriggerEntity
         if (!charController)
             return;
        
-        if (!charController.GetLifeState() != ECharacterLifeState.ALIVE)
+        if (charController.GetLifeState() != ECharacterLifeState.ALIVE)
             return;
         
         if(m_iStageStart > 0)
