@@ -1,0 +1,8 @@
+SCR_ChimeraCharacter : "{4B5327088B058360}Prefabs/Factions/ARMY/Character_ARMY_BOT_BASE.et" {
+ ID "0000000000000001"
+ components {
+  ARMST_RANDOM_CLOTHES_NEW "{66426E44C6498633}" {
+   Enabled 1
+  }
+ }
+}

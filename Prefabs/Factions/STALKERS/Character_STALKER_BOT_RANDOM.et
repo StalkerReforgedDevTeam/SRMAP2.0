@@ -1,0 +1,8 @@
+SCR_ChimeraCharacter : "{BC518ED1EB60541C}Prefabs/Factions/STALKERS/Character_STALKER_BOT_BASE.et" {
+ ID "520EC961A090BE1E"
+ components {
+  ARMST_RANDOM_CLOTHES_NEW "{66426E44C6498633}" {
+   Enabled 1
+  }
+ }
+}
