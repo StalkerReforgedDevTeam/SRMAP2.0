@@ -1,51 +1,10 @@
-$grp GenericEntity {
- {
-  components {
-   MeshObject "{61190D7F15393344}" {
-    Materials {
-     MaterialAssignClass "{691141E786460C92}" {
-      SourceMaterial "FuelTankSmall"
-      AssignedMaterial "{D6693069B1ECF864}Assets/shelters/data/M_metal_rust.emat"
-     }
-    }
-   }
-  }
-  coords 885.674 -0.635 503.07
-  angles 10.706 57.325 -6.741
- }
- {
-  components {
-   MeshObject "{60B950B1F49DDEB0}" {
-    Materials {
-     MaterialAssignClass "{691141E7B2B12F93}" {
-      SourceMaterial "ShelfMetal"
-      AssignedMaterial "{FF98323ACD37CFC8}textures/metal/Metal_Rusty_2.emat"
-     }
-    }
-   }
-  }
-  coords 876.071 3.693 508.27
-  angles 1.184 16.153 -5.601
- }
-}
-$grp SCR_DestructibleEntity {
- {
-  coords 882.291 2.749 498.222
-  angles -4.078 -39.339 3.336
- }
- {
-  coords 882.779 2.637 497.39
-  angles 14.007 -40.706 0.851
-  scale 0.82
- }
-}
 GenericEntity : "{026714237FB820CB}Prefabs/Props/Garbage/Cardboard/Cardboard_Pile_07.et" {
- coords 872.791 306.415 495.097
- angles 1.902 23.628 -5.43
+ coords 1644.458 292.294 617.825
+ angles -1.949 -42.395 -4.827
 }
 SCR_DestructibleBuildingEntity : "{15EDAD60FDB3702B}Prefabs/Industrial/dinamik.et" {
- coords 873 304.139 503.512
- angles 0 12.322 -8.481
+ coords 1636.947 289.531 621.292
+ angles -3.658 -53.743 -7.133
 }
 GenericEntity : "{17F3181D0DAC27FC}Prefabs/Props/Furniture/CabinetMetal_01_grey_V1.et" {
  components {
@@ -62,12 +21,12 @@ GenericEntity : "{17F3181D0DAC27FC}Prefabs/Props/Furniture/CabinetMetal_01_grey_
    }
   }
  }
- coords 885.921 306.566 496.043
- angles 6.641 50.202 2.897
+ coords 1648.933 291.909 630.2
+ angles 2.926 -15.919 1.713
 }
 GenericEntity : "{2B07A2B8170DF481}Prefabs/Props/Agriculture/CultivatorWreck_01_Damaged.et" {
- coords 883.707 304.515 508.571
- angles -83.948 -117.583 177.761
+ coords 1636.677 289.227 633.134
+ angles -80.371 164.811 -170.553
 }
 GenericEntity : "{2B1D0128ED660BE9}Prefabs/Props/Crates/BoxWooden_01.et" {
  components {
@@ -82,12 +41,12 @@ GenericEntity : "{2B1D0128ED660BE9}Prefabs/Props/Crates/BoxWooden_01.et" {
    Enabled 1
   }
  }
- coords 882.991 307.165 494.318
- angles 4.215 42.16 2.366
+ coords 1649.293 292.713 626.861
+ angles 0.372 -23.889 1.714
 }
 SCR_DestructibleBuildingEntity : "{3140009AA235E892}Prefabs/Industrial/crane_trash.et" {
- coords 878.027 303.23 498.963
- angles 0 -34.441 0
+ coords 1643.181 288.703 623.987
+ angles -1.524 -100.511 3.588
 }
 GenericEntity : "{32654927F2657E8A}Prefabs/Props/Forest/WoodPile/WoodLog_01_A.et" {
  components {
@@ -104,8 +63,8 @@ GenericEntity : "{32654927F2657E8A}Prefabs/Props/Forest/WoodPile/WoodLog_01_A.et
    }
   }
  }
- coords 877.665 312.032 500.457
- angles 1.732 53.411 0
+ coords 1641.34 297.412 624.762
+ angles -1.91 -12.609 -1.39
  scale 0.391
 }
 GenericEntity : "{33D5102FA67E1B46}Prefabs/Props/Naval/FishingRope_01.et" {
@@ -136,31 +95,31 @@ GenericEntity : "{3E9EDDFC51BB3410}Prefabs/Props/Industrial/CargoContainers/Carg
    }
   }
  }
- coords 875.46 303.768 495.982
- angles -0.331 23.614 8.056
+ coords 1644.835 289.505 620.468
+ angles -4.182 -42.432 8.661
 }
 StaticModelEntity : "{41CCD40548A3F72E}Prefabs/Props/Wrecks/ShipWreckMetal_02/ShipWreckMetal_02_Ruin.et" {
- coords 884.553 306.587 508.796
- angles 1.403 144.591 121.218
+ coords 1636.737 291.251 634.115
+ angles 2.864 78.434 117.601
 }
 GenericEntity : "{43957C1E3ECCDFE2}Prefabs/Props/Wrecks/ShipWreckWooden_01/ShipWreckWooden_01.et" {
- coords 881.172 302.159 494.161
- angles -3.81 -129.148 -2.976
+ coords 1648.883 287.795 624.854
+ angles -0.109 164.788 -1.751
 }
 $grp GenericEntity : "{550F8F2E909797FD}Prefabs/Structures/Infrastructure/Naval/Piers/PierCover_05.et" {
  {
-  coords 882.635 307.775 497.813
-  angles -34.859 138.985 9.36
+  coords 1645.936 293.135 627.986
+  angles -33.672 75.493 4.867
   scale 0.52
  }
  {
-  coords 882.545 308.038 497.776
-  angles -4.266 57.243 118.231
+  coords 1645.923 293.403 627.904
+  angles -7.805 -8.606 116.587
   scale 0.291
  }
  {
-  coords 885.945 307.736 495.355
-  angles 3.849 56.721 27.127
+  coords 1649.527 293.116 630.008
+  angles 0.292 -9.359 25.53
   scale 0.477
  }
  {
@@ -174,8 +133,8 @@ $grp GenericEntity : "{550F8F2E909797FD}Prefabs/Structures/Infrastructure/Naval/
     }
    }
   }
-  coords 885.722 307.96 502.367
-  angles 79.808 -7.524 1.792
+  coords 1643.029 292.946 632.657
+  angles 76.59 -62.899 12.664
   scale 0.52
  }
  {
@@ -189,8 +148,8 @@ $grp GenericEntity : "{550F8F2E909797FD}Prefabs/Structures/Infrastructure/Naval/
     }
    }
   }
-  coords 885.932 307.994 502.439
-  angles 76.279 1.791 15.198
+  coords 1643.046 292.967 632.879
+  angles 72.815 -57.719 21.951
   scale 0.52
  }
  {
@@ -204,13 +163,13 @@ $grp GenericEntity : "{550F8F2E909797FD}Prefabs/Structures/Infrastructure/Naval/
     }
    }
   }
-  coords 879.491 307.414 512.604
-  angles 72.622 74.669 160.259
+  coords 1631.171 292.041 631.082
+  angles 69.569 1.539 152.751
   scale 0.52
  }
  {
-  coords 880.564 311.044 497.139
-  angles 85.928 148.365 -167.214
+  coords 1645.585 296.511 626.007
+  angles 85.767 26.49 136.809
   scale 1.27
  }
 }
@@ -230,8 +189,8 @@ $grp StaticModelEntity : "{5C290F8B9942A54E}Prefabs/Structures/Infrastructure/Cu
     }
    }
   }
-  coords 877.889 7.117 500.226
-  angles 3.339 143.193 -179.386
+  coords 1642.008 2.006 624.318
+  angles 4.707 76.914 176.954
   scale 0.473
  }
  {
@@ -249,14 +208,20 @@ $grp StaticModelEntity : "{5C290F8B9942A54E}Prefabs/Structures/Infrastructure/Cu
     }
    }
   }
-  coords 878.428 7.099 499.507
-  angles 3.339 143.193 179.69
+  coords 1642.881 2.022 624.521
+  angles 4.707 76.914 176.031
   scale 0.473
  }
 }
 GenericEntity : "{6220F5D951A6F92B}Prefabs/Staff/box_wooden_small.et" {
- coords 874.172 306.545 495.588
- angles 5.308 111.94 1.721
+ coords 1644.568 292.344 619.291
+ angles 4.581 45.586 -2.123
+ {
+  GenericEntity {
+   ID "62CEFCCF06BC3AE5"
+   coords -0.375 0.401 -0.37
+  }
+ }
 }
 $grp GenericEntity : "{869914063728EFF8}Prefabs/Props/Forest/WoodPile/WoodLog_01_D.et" {
  {
@@ -274,8 +239,8 @@ $grp GenericEntity : "{869914063728EFF8}Prefabs/Props/Forest/WoodPile/WoodLog_01
     }
    }
   }
-  coords 876.84 312.366 499.767
-  angles -90 -180 -180
+  coords 1641.619 297.814 623.747
+  angles -86.102 146.503 147.474
   scale 0.354
  }
  {
@@ -293,8 +258,8 @@ $grp GenericEntity : "{869914063728EFF8}Prefabs/Props/Forest/WoodPile/WoodLog_01
     }
    }
   }
-  coords 877.591 312.351 498.795
-  angles -90 -180 -180
+  coords 1642.814 297.828 624.037
+  angles -86.102 146.503 147.474
   scale 0.354
  }
  {
@@ -312,8 +277,8 @@ $grp GenericEntity : "{869914063728EFF8}Prefabs/Props/Forest/WoodPile/WoodLog_01
     }
    }
   }
-  coords 881.115 304.191 501.964
-  angles 0 31.251 0
+  coords 1641.662 289.376 628.076
+  angles -3.897 -34.774 0.087
   scale 0.252
  }
  {
@@ -331,8 +296,8 @@ $grp GenericEntity : "{869914063728EFF8}Prefabs/Props/Forest/WoodPile/WoodLog_01
     }
    }
   }
-  coords 877.199 311.873 499.303
-  angles 2.615 -36.924 -1.249
+  coords 1642.209 297.336 623.859
+  angles 1.242 -102.824 2.402
   scale 0.247
  }
  {
@@ -350,8 +315,8 @@ $grp GenericEntity : "{869914063728EFF8}Prefabs/Props/Forest/WoodPile/WoodLog_01
     }
    }
   }
-  coords 878.549 312.338 501.023
-  angles -90 -180 -180
+  coords 1641.17 297.651 625.812
+  angles -86.102 146.503 147.475
   scale 0.333
  }
  {
@@ -369,8 +334,8 @@ $grp GenericEntity : "{869914063728EFF8}Prefabs/Props/Forest/WoodPile/WoodLog_01
     }
    }
   }
-  coords 878.944 311.595 500.745
-  angles 33.049 -43.735 1.856
+  coords 1641.613 296.913 626.019
+  angles 32.043 -107.353 6.324
   scale 0.247
  }
 }
@@ -401,8 +366,8 @@ GenericEntity : "{8F08705D73A7C711}Prefabs/Props/Industrial/CargoContainers/Carg
    }
   }
  }
- coords 879.161 303.822 509.722
- angles 0 0 9.439
+ coords 1633.801 288.635 629.411
+ angles -3.286 -66.083 11.537
 }
 $grp GenericEntity : "{9185FB6648FF6A17}Prefabs/Structures/Infrastructure/Bus/BusShed_E_01/Dst/BusShed_E_01_green_15_dst.et" {
  {
@@ -420,8 +385,8 @@ $grp GenericEntity : "{9185FB6648FF6A17}Prefabs/Structures/Infrastructure/Bus/Bu
     }
    }
   }
-  coords 878.625 309.751 498.95
-  angles -5.924 50.863 3.251
+  coords 1643.192 295.187 624.897
+  angles -9.623 -14.991 2.008
   scale 0.6
  }
  {
@@ -439,8 +404,8 @@ $grp GenericEntity : "{9185FB6648FF6A17}Prefabs/Structures/Infrastructure/Bus/Bu
     }
    }
   }
-  coords 878.148 311.874 499.737
-  angles -7.5 -35.095 2.511
+  coords 1642.199 297.279 624.902
+  angles -8.968 -101.64 6.16
   scale 0.6
  }
 }
@@ -459,20 +424,20 @@ StaticModelEntity : "{9E6FBD09BCBE2CA0}Prefabs/Structures/Military/Camps/Airfiel
    }
   }
  }
- coords 879.385 3.224 512.903
- angles -11.613 -3.97 20.638
+ coords 1631.25 -6.85 630.506
+ angles -14.736 -70.539 23.034
 }
 GenericEntity : "{A7BF5BFDD21FD360}Prefabs/Props/Crates/Crate_01_ivory.et" {
- coords 882.508 306.493 494.911
- angles 5.002 48.336 25.322
+ coords 1648.58 292.026 626.622
+ angles 1.251 -17.744 24.26
 }
 GenericEntity : "{A924939DC9CB318C}Prefabs/Props/Commercial/CabinetCardFile_01/CabinetCardFile_01_grey.et" {
- coords 885.255 306.659 496.746
- angles 8.112 49.947 18.089
+ coords 1648.015 291.987 629.883
+ angles 4.391 -16.203 16.919
 }
 StaticModelEntity : "{ACE17AAC3F65436B}Prefabs/Props/Wrecks/ShipWreckMetal_03/ShipWreckMetal_03_Ruin.et" {
- coords 879.143 305.155 497.767
- angles -33.006 57.098 -173.045
+ coords 1644.652 290.651 624.63
+ angles -36.535 -7.774 -175.061
  scale 0.24
 }
 GenericEntity : "{B3283803059E2750}Prefabs/Props/Crates/CrateWooden_01_plain.et" {
@@ -490,8 +455,8 @@ GenericEntity : "{B3283803059E2750}Prefabs/Props/Crates/CrateWooden_01_plain.et"
    }
   }
  }
- coords 884.142 308.841 493.309
- angles -1.802 124.633 4.478
+ coords 1650.617 294.401 627.598
+ angles -1.655 58.728 0.581
 }
 $grp GenericEntity : "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et" {
  {
@@ -505,8 +470,8 @@ $grp GenericEntity : "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_0
     }
    }
   }
-  coords 875.54 306.485 497.146
-  angles 14.084 -52.439 2.268
+  coords 1643.704 292.145 621.167
+  angles 13.709 -117.501 6.265
   scale 0.51
  }
  {
@@ -520,8 +485,8 @@ $grp GenericEntity : "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_0
     }
    }
   }
-  coords 878.242 311.241 499.721
-  angles 1.015 53.295 0.297
+  coords 1642.276 296.643 624.944
+  angles -2.63 -12.708 -1.086
   scale 0.621
  }
  {
@@ -535,40 +500,40 @@ $grp GenericEntity : "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_0
     }
    }
   }
-  coords 877.882 311.244 500.204
-  angles 1.015 53.295 0.297
+  coords 1641.688 296.633 624.811
+  angles -2.63 -12.708 -1.086
   scale 0.621
  }
 }
 SCR_DestructibleBuildingEntity : "{CCAD9FCE9EC1D001}Prefabs/Industrial/balon_kislorod.et" {
- coords 885.161 304.139 501.086
- angles 0 64.181 0
+ coords 1644.113 289.227 631.409
+ angles -3.317 -1.782 -2.048
 }
 SCR_DestructibleEntity : "{D57C604EA0AEEA16}Prefabs/Structures/Walls/Pipe/PipeRailing_01/PipeRailing_01_Pole_darkred.et" {
- coords 882.389 3.851 498.519
- angles 0 -130.606 23.694
+ coords 1645.541 -3.069 627.52
+ angles 3.73 163.408 24.827
  scale 0.758
 }
 GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
- coords 872.805 306.408 496.127
- angles 1.631 -0.116 -7.169
+ coords 1643.522 292.228 618.254
+ angles -1.652 -66.139 -5.067
 }
 GenericEntity : "{DD07AE4E1B3E5EE2}Prefabs/Props/Furniture/FirstAidBox_01.et" {
- coords 885.963 306.394 494.426
- angles 14.9 -46.278 -6.817
+ coords 1650.432 291.83 629.573
+ angles 14.11 -111.313 -2.874
 }
 GenericEntity : "{DD6362C580622F8A}Prefabs/Structures/Infrastructure/Bus/BusShed_E_01/Dst/BusShed_E_01_02_dst.et" {
- coords 877.976 310.129 497.934
- angles -2.939 -135.206 -4.047
+ coords 1643.839 295.647 623.915
+ angles 0.87 158.757 -3.219
  scale 2.51
 }
 SCR_DestructibleBuildingEntity : "{DEE0A3B65FD12C81}Prefabs/Industrial/cilinder.et" {
- coords 872.92 307.284 500.272
- angles 1.08 15.09 -5.622
+ coords 1639.754 292.859 620.088
+ angles -2.639 -50.948 -4.454
 }
 GenericEntity : "{DF3EF41CE4D441DE}Prefabs/Props/Industrial/BarrelMetal_01_rust.et" {
- coords 883.069 306.601 497.861
- angles 6.754 -0.433 -3.681
+ coords 1646.11 291.946 628.334
+ angles 3.479 -66.266 -1.558
 }
 $grp GenericEntity : "{E4136E2E0BD66FC6}Prefabs/Props/Construction/HookMetal_01.et" {
  {
@@ -611,6 +576,6 @@ $grp GenericEntity : "{E4136E2E0BD66FC6}Prefabs/Props/Construction/HookMetal_01.
  }
 }
 SCR_DestructibleBuildingEntity : "{E8C49FFC3417C2F3}Prefabs/Props/Wrecks/ShipWreckMetal_02/ShipWreckMetal_02.et" {
- coords 874.419 303.179 504.438
- angles 1.08 15.09 -5.622
+ coords 1636.716 288.471 622.908
+ angles -2.639 -50.948 -4.454
 }

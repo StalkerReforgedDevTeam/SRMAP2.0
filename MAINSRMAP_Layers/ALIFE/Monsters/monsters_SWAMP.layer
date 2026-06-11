@@ -4,8 +4,9 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
     m_InitialSpawnDelay 6
     m_CheckInterval 154
-    m_SpawnChance 50
-    m_PlayerDetectionRadius 100
+    m_CheckPlayerRadius 40
+    m_SpawnChance 71
+    m_PlayerDetectionRadius 229
     m_SpawnGroups {
      "{640EF50B76CB86C9}Configs/GAME_SETTING/BOTS/ALIFE/mutants/electro_elements.conf"
     }
@@ -19,8 +20,9 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
     m_InitialSpawnDelay 6
     m_CheckInterval 154
-    m_SpawnChance 50
-    m_PlayerDetectionRadius 100
+    m_CheckPlayerRadius 40
+    m_SpawnChance 71
+    m_PlayerDetectionRadius 229
     m_SpawnGroups {
      "{640EF50B76CB86C9}Configs/GAME_SETTING/BOTS/ALIFE/mutants/electro_elements.conf"
     }
@@ -34,8 +36,9 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
     m_InitialSpawnDelay 6
     m_CheckInterval 154
-    m_SpawnChance 50
-    m_PlayerDetectionRadius 100
+    m_CheckPlayerRadius 40
+    m_SpawnChance 71
+    m_PlayerDetectionRadius 229
     m_SpawnGroups +{
     }
     m_fMonsterNight 1
@@ -51,7 +54,9 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
     m_CheckInterval 154
-    m_SpawnChance 50
+    m_CheckPlayerRadius 40
+    m_SpawnChance 71
+    m_PlayerDetectionRadius 229
    }
   }
   coords 2319.856 292.481 508.465
@@ -61,8 +66,9 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
     m_InitialSpawnDelay 6
     m_CheckInterval 154
-    m_SpawnChance 50
-    m_PlayerDetectionRadius 100
+    m_CheckPlayerRadius 40
+    m_SpawnChance 71
+    m_PlayerDetectionRadius 229
     m_SpawnGroups +{
     }
    }
@@ -75,8 +81,9 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
     m_InitialSpawnDelay 6
     m_CheckInterval 154
-    m_SpawnChance 50
-    m_PlayerDetectionRadius 100
+    m_CheckPlayerRadius 40
+    m_SpawnChance 71
+    m_PlayerDetectionRadius 229
     m_SpawnGroups +{
     }
     m_fMonsterNight 1
@@ -93,8 +100,9 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
     m_InitialSpawnDelay 6
     m_CheckInterval 154
-    m_SpawnChance 50
-    m_PlayerDetectionRadius 100
+    m_CheckPlayerRadius 40
+    m_SpawnChance 71
+    m_PlayerDetectionRadius 229
     m_SpawnGroups +{
     }
    }
@@ -107,8 +115,9 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
     m_InitialSpawnDelay 6
     m_CheckInterval 154
-    m_SpawnChance 50
-    m_PlayerDetectionRadius 100
+    m_CheckPlayerRadius 40
+    m_SpawnChance 71
+    m_PlayerDetectionRadius 229
     m_SpawnGroups {
      "{D77BDED419E75366}Configs/GAME_SETTING/BOTS/ALIFE/mutants/erb.conf"
     }
@@ -126,8 +135,9 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
     m_InitialSpawnDelay 6
     m_CheckInterval 154
-    m_SpawnChance 50
-    m_PlayerDetectionRadius 100
+    m_CheckPlayerRadius 40
+    m_SpawnChance 71
+    m_PlayerDetectionRadius 229
     m_SpawnGroups {
      "{AA31A2A6BD9679D4}Configs/GAME_SETTING/BOTS/ALIFE/mutants/zombie.conf"
     }
@@ -141,8 +151,9 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
     m_InitialSpawnDelay 6
     m_CheckInterval 154
-    m_SpawnChance 50
-    m_PlayerDetectionRadius 100
+    m_CheckPlayerRadius 40
+    m_SpawnChance 71
+    m_PlayerDetectionRadius 229
     m_SpawnGroups {
      "{AA31A2A6BD9679D4}Configs/GAME_SETTING/BOTS/ALIFE/mutants/zombie.conf"
     }
@@ -156,8 +167,9 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
     m_InitialSpawnDelay 6
     m_CheckInterval 154
-    m_SpawnChance 50
-    m_PlayerDetectionRadius 100
+    m_CheckPlayerRadius 40
+    m_SpawnChance 71
+    m_PlayerDetectionRadius 229
    }
   }
   coords 1349.105 300.399 826.276
@@ -168,8 +180,9 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
     m_InitialSpawnDelay 6
     m_CheckInterval 154
-    m_SpawnChance 50
-    m_PlayerDetectionRadius 100
+    m_CheckPlayerRadius 40
+    m_SpawnChance 71
+    m_PlayerDetectionRadius 229
    }
   }
   coords 2174.538 291.057 583.238
@@ -180,8 +193,9 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
     m_InitialSpawnDelay 6
     m_CheckInterval 154
-    m_SpawnChance 50
-    m_PlayerDetectionRadius 100
+    m_CheckPlayerRadius 40
+    m_SpawnChance 71
+    m_PlayerDetectionRadius 229
     m_SpawnGroups {
      "{D77BDED419E75366}Configs/GAME_SETTING/BOTS/ALIFE/mutants/erb.conf"
     }
@@ -195,8 +209,9 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
     m_InitialSpawnDelay 6
     m_CheckInterval 154
-    m_SpawnChance 50
-    m_PlayerDetectionRadius 100
+    m_CheckPlayerRadius 40
+    m_SpawnChance 71
+    m_PlayerDetectionRadius 229
     m_SpawnGroups +{
     }
    }
@@ -209,14 +224,325 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
     m_InitialSpawnDelay 6
     m_CheckInterval 154
-    m_SpawnChance 50
-    m_PlayerDetectionRadius 100
+    m_CheckPlayerRadius 40
+    m_SpawnChance 71
+    m_PlayerDetectionRadius 229
     m_SpawnGroups {
      "{640EF50B76CB86C9}Configs/GAME_SETTING/BOTS/ALIFE/mutants/electro_elements.conf"
     }
    }
   }
   coords 1372.562 291.353 1051.038
+  scale 50
+ }
+ boar27 {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_InitialSpawnDelay 6
+    m_CheckInterval 154
+    m_CheckPlayerRadius 40
+    m_SpawnChance 71
+    m_PlayerDetectionRadius 229
+    m_SpawnGroups +{
+    }
+    m_fMonsterNight 1
+    m_SpawnGroupsNight {
+     "{D77BDED419E75367}Configs/GAME_SETTING/BOTS/ALIFE/mutants/nighstalker.conf"
+    }
+   }
+  }
+  coords 2340.33 292.069 708.424
+  scale 50
+ }
+ boar33 {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_InitialSpawnDelay 6
+    m_CheckInterval 154
+    m_CheckPlayerRadius 40
+    m_SpawnChance 71
+    m_PlayerDetectionRadius 229
+    m_SpawnGroups +{
+    }
+    m_fMonsterNight 1
+    m_SpawnGroupsNight {
+     "{D77BDED419E75367}Configs/GAME_SETTING/BOTS/ALIFE/mutants/nighstalker.conf"
+    }
+   }
+  }
+  coords 2498.33 292.069 914.424
+  scale 50
+ }
+ boar35 {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_InitialSpawnDelay 6
+    m_CheckInterval 154
+    m_CheckPlayerRadius 40
+    m_SpawnChance 71
+    m_PlayerDetectionRadius 229
+    m_SpawnGroups +{
+    }
+    m_fMonsterNight 1
+    m_SpawnGroupsNight {
+     "{D77BDED419E75367}Configs/GAME_SETTING/BOTS/ALIFE/mutants/nighstalker.conf"
+    }
+   }
+  }
+  coords 2664.695 292.069 908.215
+  scale 50
+ }
+ boar40 {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_InitialSpawnDelay 6
+    m_CheckInterval 154
+    m_CheckPlayerRadius 40
+    m_SpawnChance 71
+    m_PlayerDetectionRadius 229
+    m_SpawnGroups +{
+    }
+    m_fMonsterNight 1
+    m_SpawnGroupsNight {
+     "{D77BDED419E75367}Configs/GAME_SETTING/BOTS/ALIFE/mutants/nighstalker.conf"
+    }
+   }
+  }
+  coords 1982.754 295.094 747.999
+  scale 50
+ }
+ boar45 {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_InitialSpawnDelay 6
+    m_CheckInterval 154
+    m_CheckPlayerRadius 40
+    m_SpawnChance 71
+    m_PlayerDetectionRadius 229
+    m_SpawnGroups +{
+    }
+    m_fMonsterNight 1
+    m_SpawnGroupsNight {
+     "{D77BDED419E75367}Configs/GAME_SETTING/BOTS/ALIFE/mutants/nighstalker.conf"
+    }
+   }
+  }
+  coords 1574.811 295.094 900.33
+  scale 50
+ }
+ boar48 {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_InitialSpawnDelay 6
+    m_CheckInterval 154
+    m_CheckPlayerRadius 40
+    m_SpawnChance 71
+    m_PlayerDetectionRadius 229
+    m_SpawnGroups +{
+    }
+    m_fMonsterNight 1
+    m_SpawnGroupsNight {
+     "{D77BDED419E75367}Configs/GAME_SETTING/BOTS/ALIFE/mutants/nighstalker.conf"
+    }
+   }
+  }
+  coords 1632.965 295.094 743.943
+  scale 50
+ }
+ boar49 {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_InitialSpawnDelay 6
+    m_CheckInterval 154
+    m_CheckPlayerRadius 40
+    m_SpawnChance 71
+    m_PlayerDetectionRadius 229
+    m_SpawnGroups +{
+    }
+    m_fMonsterNight 1
+    m_SpawnGroupsNight {
+     "{D77BDED419E75367}Configs/GAME_SETTING/BOTS/ALIFE/mutants/nighstalker.conf"
+    }
+   }
+  }
+  coords 1972.653 295.094 853.489
+  scale 50
+ }
+ boar50 {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_InitialSpawnDelay 6
+    m_CheckInterval 154
+    m_CheckPlayerRadius 40
+    m_SpawnChance 71
+    m_PlayerDetectionRadius 229
+    m_SpawnGroups +{
+    }
+    m_fMonsterNight 1
+    m_SpawnGroupsNight {
+     "{D77BDED419E75367}Configs/GAME_SETTING/BOTS/ALIFE/mutants/nighstalker.conf"
+    }
+   }
+  }
+  coords 2002.921 295.094 1038.408
+  scale 50
+ }
+ boar51 {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_InitialSpawnDelay 6
+    m_CheckInterval 154
+    m_CheckPlayerRadius 40
+    m_SpawnChance 71
+    m_PlayerDetectionRadius 229
+    m_SpawnGroups +{
+    }
+    m_fMonsterNight 1
+    m_SpawnGroupsNight {
+     "{D77BDED419E75367}Configs/GAME_SETTING/BOTS/ALIFE/mutants/nighstalker.conf"
+    }
+   }
+  }
+  coords 2026.19 295.094 626.229
+  scale 50
+ }
+ boar52 {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_InitialSpawnDelay 6
+    m_CheckInterval 154
+    m_CheckPlayerRadius 40
+    m_SpawnChance 71
+    m_PlayerDetectionRadius 229
+    m_SpawnGroups +{
+    }
+    m_fMonsterNight 1
+    m_SpawnGroupsNight {
+     "{D77BDED419E75367}Configs/GAME_SETTING/BOTS/ALIFE/mutants/nighstalker.conf"
+    }
+   }
+  }
+  coords 2016.102 295.094 525.229
+  scale 50
+ }
+ erb30 {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_InitialSpawnDelay 5
+    m_CheckInterval 151
+    m_CheckPlayerRadius 40
+    m_SpawnChance 71
+    m_PlayerDetectionRadius 229
+    m_SpawnGroups {
+     "{D77BDED419E75366}Configs/GAME_SETTING/BOTS/ALIFE/mutants/erb.conf"
+    }
+    m_fMonsterNight 1
+    m_SpawnGroupsNight {
+     "{D77BDED419E75367}Configs/GAME_SETTING/BOTS/ALIFE/mutants/nighstalker.conf"
+    }
+   }
+  }
+  coords 6057.102 312.513 2208.741
+  scale 50
+ }
+ erb33 {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_InitialSpawnDelay 5
+    m_CheckInterval 151
+    m_CheckPlayerRadius 40
+    m_SpawnChance 71
+    m_PlayerDetectionRadius 229
+    m_SpawnGroups {
+     "{D77BDED419E75366}Configs/GAME_SETTING/BOTS/ALIFE/mutants/erb.conf"
+    }
+    m_fMonsterNight 1
+    m_SpawnGroupsNight {
+     "{D77BDED419E75367}Configs/GAME_SETTING/BOTS/ALIFE/mutants/nighstalker.conf"
+    }
+   }
+  }
+  coords 5851.503 312.513 2186.345
+  scale 50
+ }
+ erb34 {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_InitialSpawnDelay 5
+    m_CheckInterval 151
+    m_CheckPlayerRadius 40
+    m_SpawnChance 71
+    m_PlayerDetectionRadius 229
+    m_SpawnGroups {
+     "{D77BDED419E75366}Configs/GAME_SETTING/BOTS/ALIFE/mutants/erb.conf"
+    }
+    m_fMonsterNight 1
+    m_SpawnGroupsNight {
+     "{D77BDED419E75367}Configs/GAME_SETTING/BOTS/ALIFE/mutants/nighstalker.conf"
+    }
+   }
+  }
+  coords 5667.839 312.513 2245.614
+  scale 50
+ }
+ erb35 {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_InitialSpawnDelay 5
+    m_CheckInterval 151
+    m_CheckPlayerRadius 40
+    m_SpawnChance 71
+    m_PlayerDetectionRadius 229
+    m_SpawnGroups {
+     "{D77BDED419E75366}Configs/GAME_SETTING/BOTS/ALIFE/mutants/erb.conf"
+    }
+    m_fMonsterNight 1
+    m_SpawnGroupsNight {
+     "{D77BDED419E75367}Configs/GAME_SETTING/BOTS/ALIFE/mutants/nighstalker.conf"
+    }
+   }
+  }
+  coords 5486.061 312.513 2317.284
+  scale 50
+ }
+ erb36 {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_InitialSpawnDelay 5
+    m_CheckInterval 151
+    m_CheckPlayerRadius 40
+    m_SpawnChance 71
+    m_PlayerDetectionRadius 229
+    m_SpawnGroups {
+     "{D77BDED419E75366}Configs/GAME_SETTING/BOTS/ALIFE/mutants/erb.conf"
+    }
+    m_fMonsterNight 1
+    m_SpawnGroupsNight {
+     "{D77BDED419E75367}Configs/GAME_SETTING/BOTS/ALIFE/mutants/nighstalker.conf"
+    }
+   }
+  }
+  coords 5431.909 312.513 1942.793
+  scale 50
+ }
+ erb37 {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_InitialSpawnDelay 5
+    m_CheckInterval 151
+    m_CheckPlayerRadius 40
+    m_SpawnChance 71
+    m_PlayerDetectionRadius 229
+    m_SpawnGroups {
+     "{D77BDED419E75366}Configs/GAME_SETTING/BOTS/ALIFE/mutants/erb.conf"
+    }
+    m_fMonsterNight 1
+    m_SpawnGroupsNight {
+     "{D77BDED419E75367}Configs/GAME_SETTING/BOTS/ALIFE/mutants/nighstalker.conf"
+    }
+   }
+  }
+  coords 5743.119 312.513 1636.489
   scale 50
  }
 }
