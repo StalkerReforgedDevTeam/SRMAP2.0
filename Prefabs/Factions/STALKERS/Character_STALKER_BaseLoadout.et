@@ -1,3 +1,13 @@
 SCR_ChimeraCharacter : "{5346CF7E39A65A6B}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Base.et" {
  ID "520EC961A090BE1E"
+ components {
+  SCR_CharacterDamageManagerComponent "{55872AD7B4E959F2}" {
+   "Additional hit zones" {
+    SCR_CharacterHealthHitZone Health {
+     MaxHealth 200
+     DamageReduction 0.1
+    }
+   }
+  }
+ }
 }
