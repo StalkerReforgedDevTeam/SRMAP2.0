@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{3BD2513B1BAC429F}Prefabs/Factions/MERCENARIES/Character_MERCENARIES_BOT_MEDIUM.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

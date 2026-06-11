@@ -1,0 +1,16 @@
+SCR_ChimeraCharacter : "{AD2F49ED011D79D7}Prefabs/Factions/ARMY/Character_ARMY_BaseLoadout.et" {
+ ID "520EC961A090BE1E"
+ components {
+  ActionsManagerComponent "{520EA1D2F659CE02}" {
+   additionalActions {
+    SCR_LootDeadBodyAction_bots "{529A9D939CD27B4C}" {
+     CanAggregate 0
+    }
+    ARMST_USER_LOOT_BODY "{689EFA9EB9253D8B}" {
+     "Sort Priority" 999
+     m_ForMutants 1
+    }
+   }
+  }
+ }
+}

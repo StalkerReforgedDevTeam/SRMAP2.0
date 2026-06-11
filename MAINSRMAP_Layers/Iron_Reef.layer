@@ -11,7 +11,8 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
     m_CheckInterval 150
-    m_PlayerDetectionRadius 159
+    m_SpawnChance 50
+    m_PlayerDetectionRadius 156
     m_RespawnDelayAfterDelete 800
     m_SpawnGroups {
      "{D77BDED419E75367}Configs/GAME_SETTING/BOTS/ALIFE/mutants/nighstalker.conf"
@@ -29,7 +30,8 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
     m_CheckInterval 150
-    m_PlayerDetectionRadius 100
+    m_SpawnChance 50
+    m_PlayerDetectionRadius 156
     m_RespawnDelayAfterDelete 800
     m_SpawnGroups {
      "{D77BDED419E75367}Configs/GAME_SETTING/BOTS/ALIFE/mutants/nighstalker.conf"
@@ -47,7 +49,8 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
     m_CheckInterval 150
-    m_PlayerDetectionRadius 132
+    m_SpawnChance 50
+    m_PlayerDetectionRadius 156
     m_RespawnDelayAfterDelete 800
     m_SpawnGroups {
      "{D77BDED419E75367}Configs/GAME_SETTING/BOTS/ALIFE/mutants/nighstalker.conf"
@@ -65,6 +68,8 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
     m_CheckInterval 150
+    m_SpawnChance 50
+    m_PlayerDetectionRadius 156
     m_RespawnDelayAfterDelete 800
     m_SpawnGroups {
      "{640EF50B76CB86C9}Configs/GAME_SETTING/BOTS/ALIFE/mutants/electro_elements.conf"
@@ -78,7 +83,8 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
     m_CheckInterval 150
-    m_PlayerDetectionRadius 132
+    m_SpawnChance 50
+    m_PlayerDetectionRadius 156
     m_RespawnDelayAfterDelete 800
     m_SpawnGroups {
      "{D77BDED419E75367}Configs/GAME_SETTING/BOTS/ALIFE/mutants/nighstalker.conf"
@@ -96,7 +102,8 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
     m_CheckInterval 150
-    m_PlayerDetectionRadius 132
+    m_SpawnChance 50
+    m_PlayerDetectionRadius 156
     m_RespawnDelayAfterDelete 800
     m_SpawnGroups {
      "{D77BDED419E75367}Configs/GAME_SETTING/BOTS/ALIFE/mutants/nighstalker.conf"
@@ -152,7 +159,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   coords 2511.534 298.169 2956.922
   SphereRadius 24.3
   DrawShape 0
-  m_DamageRadioLevel 84
+  m_DamageRadioLevel 112
  }
  {
   coords 2381.308 300.925 2736.726

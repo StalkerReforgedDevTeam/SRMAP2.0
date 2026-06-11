@@ -1,3 +1,13 @@
 GenericEntity : "{2E48D4FB4D103DFD}Prefabs/LOOT_BOX/base/Body/base.et" {
  ID "F0DBA538AC2A0552"
+ components {
+  ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+   m_LootCategories {
+    "ELECTRONICS" "TOOLS" "MEDICINES" "FOODS" "DOCUMENTS"
+   }
+   m_LootTiersSpawn {
+    "TIER_1"
+   }
+  }
+ }
 }

@@ -204,20 +204,26 @@ GenericEntity : "{17770AFEA059BE16}Prefabs/Vehicles/gaz24/armst_gaz24_1.et" {
 }
 $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST_RADIATIONS.et" {
  {
+  editor EntityEditorProps "{697C60294729B20E}" {
+   Scale 41.4
+  }
   coords 3215.697 309.713 1404.592
   scale 11.91
   SphereRadius 12.8
   DrawShape 0
-  m_DamageRadioLevel 96
+  m_DamageRadioLevel 66
  }
  {
+  editor EntityEditorProps "{697C60294729B20E}" {
+   Scale 5.1
+  }
   coords 3184.263 354.724 1452.895
   angles 1.242 46.109 0
   scale 74.734
   TriggerShapeType "Oriented Bounding Box"
   SphereRadius 40.8
   DrawShape 0
-  m_DamageRadioLevel 81
+  m_DamageRadioLevel 66
  }
 }
 SCR_IndestructibleEnvironmentalEntity : "{1BA4712EED0CB208}PrefabLibrary/DefaultLibrary/Rocks/Granite/GraniteStone_03.et" {

@@ -417,6 +417,8 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
     m_CheckInterval 150
+    m_SpawnChance 50
+    m_PlayerDetectionRadius 156
     m_RespawnDelayAfterDelete 800
     m_SpawnGroups {
      "{308C5744595D93B7}Configs/Alife/mutants/zombie_soldiers_mixed.conf"
@@ -431,6 +433,8 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
     m_CheckInterval 150
+    m_SpawnChance 50
+    m_PlayerDetectionRadius 156
     m_RespawnDelayAfterDelete 800
     m_SpawnGroups {
      "{308C5744595D93B7}Configs/Alife/mutants/zombie_soldiers_mixed.conf"
@@ -445,6 +449,8 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
     m_CheckInterval 150
+    m_SpawnChance 50
+    m_PlayerDetectionRadius 156
     m_RespawnDelayAfterDelete 800
     m_SpawnGroups {
      "{308C5744595D93B7}Configs/Alife/mutants/zombie_soldiers_mixed.conf"
@@ -481,44 +487,6 @@ GenericEntity : "{2A27606856B8A914}Prefabs/Compositions/Slotted/SlotRoadLarge/Ba
 GenericEntity : "{2AC79A9F86429B85}Prefabs/Structures/Debris/MetalDebris_01/MetalDebris_01_V2.et" {
  coords 3238.206 304.638 2610.358
  angles 0 0 2.347
-}
-GenericEntity : "{2E2351CD5B452FD6}Prefabs/Props/Teleport/TELEPORT_DOOR.et" {
- components {
-  MeshObject "{5872F0EB7FA40561}" {
-   Object "{F6D90BF6B8A347B7}Assets/Props/Furniture/Wardrobe_01/Wardrobe_01.xob"
-  }
-  ActionsManagerComponent "{657E853A83CE2D0D}" {
-   ActionContexts {
-    UserActionContext "{66296A5664425E92}" {
-     UIInfo UIInfo "{66296A561B801DF2}" {
-     }
-     ContextName "Default"
-     Position PointInfo "{66296A5608BC9454}" {
-      Offset -0.6964 1.1784 0.8713
-     }
-     Radius 0.81
-     LineOfSightCheck 1
-    }
-   }
-   additionalActions {
-    ARMST_TELEPORT_ACTIONS "{66296A569920C82F}" {
-     ParentContextList {
-      "Default"
-     }
-     m_sTeleportActionName "Smuggler's Den"
-     m_sTeleportTarget "enter_perimetr22"
-     m_fTeleportDelay 2
-     m_fTeleportRadius 3
-     m_sRequiredItem "{B274446074F15684}Prefabs/Armbands/BanditArmband.et"
-     m_DeleteItem 0
-    }
-   }
-  }
-  RplComponent "{66296A59D6BB86FC}" {
-  }
- }
- coords 1699.46 294.933 697.107
- angles 0 179.359 0
 }
 $grp GenericEntity : "{3001B0C35F835714}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Wall_BarbedWire_USSR_01.et" {
  {

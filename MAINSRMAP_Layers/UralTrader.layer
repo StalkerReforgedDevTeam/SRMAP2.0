@@ -3163,11 +3163,6 @@ GameEntity : "{0DB214D91960B098}Prefabs/Structures/BuildingParts/Ladders/Ladder_
  coords 4907.05 18.771 3149.674
  angles 0 -83.224 0
 }
-SCR_IndestructibleEnvironmentalEntity : "{1FFB6B5828D2B35F}Prefabs/Rocks/Granite/GraniteRock_03.et" {
- coords 3607.722 301.372 1627.546
- angles 0 -2.466 0
- scale 1.2
-}
 GenericEntity : "{2424EBB806A690D5}Prefabs/Trash/Medical/GarbageMedicalUS_02.et" {
  coords 4936.228 321.461 3141.372
 }
@@ -3551,15 +3546,8 @@ GenericEntity : "{F9CB9DA4B0F808FF}Prefabs/Trash/Kurtka/kurtka_vesh_1_red.et" {
  coords 4936.303 322.98 3147.802
  angles 0 -160.263 0
 }
-$grp SCR_IndestructibleEnvironmentalEntity : "{FA6727A124372434}Prefabs/Rocks/Granite/GraniteRock_02.et" {
- {
-  coords 3614.928 290 1631.401
-  angles 0 113.871 0
-  scale 1.5
- }
- {
-  coords 3595.858 292.331 1635.587
-  angles 0 113.871 0
-  scale 1.5
- }
+SCR_IndestructibleEnvironmentalEntity : "{FA6727A124372434}Prefabs/Rocks/Granite/GraniteRock_02.et" {
+ coords 3614.928 290 1631.401
+ angles 0 113.871 0
+ scale 1.5
 }

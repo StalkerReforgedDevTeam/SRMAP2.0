@@ -1,0 +1,16 @@
+SCR_ChimeraCharacter : "{5346CF7E39A65A6B}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Base.et" {
+ ID "520EC961A090BE1E"
+ components {
+  ActionsManagerComponent "{520EA1D2F659CE02}" {
+   additionalActions {
+    SCR_LootDeadBodyAction_bots "{529A9D939CD27B4C}" {
+    }
+    ARMST_USER_LOOT_BODY "{689EFA9EB9253D8B}" {
+     m_bShowAction 1
+     m_ForMutants 1
+     m_bDeleteBody 1
+    }
+   }
+  }
+ }
+}

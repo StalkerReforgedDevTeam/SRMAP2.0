@@ -1,0 +1,14 @@
+SCR_ChimeraCharacter : "{57858014C16823BA}Prefabs/Factions/KB/Character_KB_BaseLoadout.et" {
+ ID "520EC961A090BE1E"
+ components {
+  ActionsManagerComponent "{520EA1D2F659CE02}" {
+   additionalActions {
+    SCR_LootDeadBodyAction_bots "{529A9D939CD27B4C}" {
+    }
+    ARMST_USER_LOOT_BODY "{689EFA9EB9253D8B}" {
+     m_ForMutants 1
+    }
+   }
+  }
+ }
+}

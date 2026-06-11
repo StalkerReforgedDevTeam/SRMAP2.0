@@ -1,0 +1,17 @@
+SCR_ChimeraCharacter : "{395ED4BE78A966CB}Prefabs/Factions/STALKERS/Character_STALKER_BaseLoadout.et" {
+ ID "520EC961A090BE1E"
+ components {
+  ActionsManagerComponent "{520EA1D2F659CE02}" {
+   additionalActions {
+    SCR_LootDeadBodyAction_bots "{529A9D939CD27B4C}" {
+    }
+    ARMST_USER_LOOT_BODY "{689EFA9EB9253D8B}" {
+     m_PrefabToSpawn "{71913752BE653457}Prefabs/LOOT_BOX/base/Body/Loot_random_stalker_low.et"
+     m_bShowAction 1
+     m_ForMutants 1
+     m_bDeleteBody 1
+    }
+   }
+  }
+ }
+}

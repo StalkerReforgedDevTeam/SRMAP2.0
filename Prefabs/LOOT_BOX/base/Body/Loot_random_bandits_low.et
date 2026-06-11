@@ -1,3 +1,22 @@
 GenericEntity : "{2E48D4FB4D103DFD}Prefabs/LOOT_BOX/base/Body/base.et" {
  ID "F0DBA538AC2A0552"
+ components {
+  ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+   m_LootCategories {
+    "KEYS" "MONEYS" "TRASH" "TOOLS" "ELECTRONICS" "MEDICINES" "FOODS" "AMMOS" "NONE"
+   }
+   m_LootTiersSpawn {
+    ""
+   }
+  }
+  ActionsManagerComponent "{6190D137C5926215}" {
+   additionalActions {
+    ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+     Duration 5
+     m_iMaxItemsToSpawn 4
+     m_iMinItemsToSpawn 1
+    }
+   }
+  }
+ }
 }

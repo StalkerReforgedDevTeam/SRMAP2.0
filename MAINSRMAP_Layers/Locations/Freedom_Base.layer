@@ -4403,10 +4403,6 @@ $grp GenericEntity : "{9E51BE88453B8DE1}Prefabs/Props/Civilian/Billiard_01/Billi
   coords 3552.632 302.151 1841.949
  }
 }
-SCR_ChimeraCharacter : "{9ED34AA8DE5B3999}Prefabs/QUESTS/TUFANS/TUFAN_BARMEN.et" {
- coords 1717.827 291.804 668.142
- angles 0 0 0
-}
 $grp GameEntity : "{9FA626D6505E54F1}Prefabs/Structures/BuildingParts/Lights/LightIndustrial_02_on_exterior.et" {
  {
   coords 3572.103 308.145 1847.492

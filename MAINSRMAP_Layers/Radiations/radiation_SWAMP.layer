@@ -1,143 +1,170 @@
 $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST_RADIATIONS.et" {
  {
   coords 3164.696 299.327 811.526
-  SphereRadius 65.9
+  SphereRadius 112.4
   DrawShape 0
   UpdatePeriod 3
+  m_DamageRadioLevel 27
  }
  {
   coords 2837.963 302.926 829.736
-  SphereRadius 65.9
+  SphereRadius 112.4
   DrawShape 0
   UpdatePeriod 3
+  m_DamageRadioLevel 27
  }
  {
   coords 2687.945 291.56 516.083
-  SphereRadius 65.9
+  SphereRadius 112.4
   DrawShape 0
   UpdatePeriod 3
+  m_DamageRadioLevel 27
  }
  {
   coords 2591.723 292.574 696.049
-  SphereRadius 65.9
+  SphereRadius 112.4
   DrawShape 0
   UpdatePeriod 3
+  m_DamageRadioLevel 27
  }
  {
   coords 2431.478 314.983 792.462
-  SphereRadius 65.9
+  SphereRadius 112.4
   DrawShape 0
   UpdatePeriod 3
+  m_DamageRadioLevel 27
  }
  {
   coords 2394.634 313.283 640.983
-  SphereRadius 65.9
+  SphereRadius 112.4
   DrawShape 0
   UpdatePeriod 3
+  m_DamageRadioLevel 27
  }
  {
   coords 2223.675 289.943 717.741
-  SphereRadius 129.9
+  SphereRadius 112.4
   DrawShape 0
   UpdatePeriod 3
-  m_DamageRadioLevel 92
+  m_DamageRadioLevel 27
  }
  {
   coords 1823.942 290.117 790.051
-  SphereRadius 65.9
+  SphereRadius 112.4
   DrawShape 0
   UpdatePeriod 3
+  m_DamageRadioLevel 27
  }
  {
   coords 1660.518 296.793 921.568
-  SphereRadius 65.9
+  SphereRadius 112.4
   DrawShape 0
   UpdatePeriod 3
+  m_DamageRadioLevel 27
  }
  {
   coords 1390.582 290.117 697.514
-  SphereRadius 65.9
+  SphereRadius 112.4
   DrawShape 0
   UpdatePeriod 3
+  m_DamageRadioLevel 27
  }
  {
   coords 1624.281 291.553 685.82
-  SphereRadius 65.9
+  SphereRadius 112.4
   DrawShape 0
   UpdatePeriod 3
+  m_DamageRadioLevel 27
  }
  {
   coords 1723.897 292.515 597.88
-  SphereRadius 65.9
+  SphereRadius 112.4
   DrawShape 0
   UpdatePeriod 3
+  m_DamageRadioLevel 27
  }
  {
   coords 2538.614 294.671 1119.978
-  SphereRadius 65.9
+  SphereRadius 112.4
   DrawShape 0
   UpdatePeriod 3
+  m_DamageRadioLevel 27
  }
  {
   coords 1614.998 296.508 1086.827
-  SphereRadius 65.9
+  SphereRadius 112.4
   DrawShape 0
   UpdatePeriod 3
+  m_DamageRadioLevel 27
  }
  {
   coords 1967.638 292.753 1276.8
-  SphereRadius 65.9
+  SphereRadius 112.4
   DrawShape 0
   UpdatePeriod 3
+  m_DamageRadioLevel 27
  }
  {
   coords 1443.84 296.793 803.303
-  SphereRadius 65.9
+  SphereRadius 112.4
   DrawShape 0
   UpdatePeriod 3
+  m_DamageRadioLevel 27
  }
  {
   coords 1903.844 292.515 621.045
-  SphereRadius 65.9
+  SphereRadius 112.4
   DrawShape 0
   UpdatePeriod 3
+  m_DamageRadioLevel 27
  }
  {
   coords 2036.827 292.515 488.466
-  SphereRadius 65.9
+  SphereRadius 112.4
   DrawShape 0
   UpdatePeriod 3
+  m_DamageRadioLevel 27
  }
  {
   coords 2418.219 292.515 447.266
-  SphereRadius 65.9
+  SphereRadius 112.4
   DrawShape 0
   UpdatePeriod 3
+  m_DamageRadioLevel 27
  }
  {
   coords 2896.039 292.515 1014.352
-  SphereRadius 65.9
+  SphereRadius 112.4
   DrawShape 0
   UpdatePeriod 3
+  m_DamageRadioLevel 27
  }
  {
   coords 2115.685 294.67 1143.604
-  SphereRadius 65.9
+  SphereRadius 112.4
   DrawShape 0
   UpdatePeriod 3
-  m_DamageRadioLevel 118
+  m_DamageRadioLevel 27
  }
  {
   coords 1799.246 302.408 1071.999
-  SphereRadius 88.3
+  SphereRadius 112.4
   DrawShape 0
   UpdatePeriod 3
-  m_DamageRadioLevel 210
+  m_DamageRadioLevel 27
  }
  {
   coords 2352.796 296.108 991.544
-  SphereRadius 65.9
+  SphereRadius 112.4
   DrawShape 0
   UpdatePeriod 3
+  m_DamageRadioLevel 27
+ }
+ {
+  coords 2017.762 290.117 751.178
+  SphereRadius 112.4
+  DrawShape 0
+  UpdatePeriod 3
+  m_DamageRadioLevel 27
  }
 }
