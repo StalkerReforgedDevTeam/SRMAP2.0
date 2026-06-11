@@ -1,0 +1,45 @@
+FrameWidgetClass {
+ {
+  ImageWidgetClass "{68F72126D15EC929}" {
+   Prefab "{68F72126D15EC929}"
+   Slot FrameWidgetSlot "{68F7212712C3131B}" {
+    PositionX -850.509
+    OffsetLeft -850.509
+    PositionY -482.198
+    OffsetTop -482.198
+    SizeX 431.96
+    OffsetRight 418.549
+    SizeY 351.912
+    OffsetBottom 130.286
+   }
+   Texture "{098CFE8C6B42E82C}SRlogoupdated.edds"
+  }
+  OverlayWidgetClass "{5DFF03E4AD9D1E88}" {
+   Prefab "{5DFF03E4AD9D1E88}"
+   {
+    ScaleWidgetClass "{5CFCF5E894AE6629}" {
+     Prefab "{5CFCF5E894AE6629}"
+     {
+      ImageWidgetClass "{5CFCF5E894AE6628}" {
+       Prefab "{5CFCF5E894AE6628}"
+       Texture "{3CD9248F9B1889CA}Use AI Image Jun 10, 2026, 17_22_15.edds"
+      }
+     }
+    }
+   }
+  }
+  FrameWidgetClass "{5E04A017BD489B2A}" {
+   Prefab "{5E04A017BD489B2A}"
+   Slot FrameWidgetSlot "{5E04A017BD489B79}" {
+    PositionX 0
+    OffsetLeft 0
+    PositionY 2.287
+    OffsetTop 2.287
+    SizeX 1920
+    OffsetRight -1920
+    SizeY 1080
+    OffsetBottom -1082.29
+   }
+  }
+ }
+}
