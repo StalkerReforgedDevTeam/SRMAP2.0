@@ -417,9 +417,9 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
     m_CheckInterval 152
-    m_CheckPlayerRadius 61
+    m_CheckPlayerRadius 30
     m_SpawnChance 82
-    m_PlayerDetectionRadius 524
+    m_PlayerDetectionRadius 173
     m_RespawnDelayAfterDelete 1682
     m_SpawnGroups {
      "{308C5744595D93B7}Configs/Alife/mutants/zombie_soldiers_mixed.conf"
@@ -434,9 +434,9 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
     m_CheckInterval 152
-    m_CheckPlayerRadius 61
+    m_CheckPlayerRadius 30
     m_SpawnChance 82
-    m_PlayerDetectionRadius 524
+    m_PlayerDetectionRadius 173
     m_RespawnDelayAfterDelete 1682
     m_SpawnGroups {
      "{308C5744595D93B7}Configs/Alife/mutants/zombie_soldiers_mixed.conf"
@@ -451,9 +451,9 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
     m_CheckInterval 152
-    m_CheckPlayerRadius 61
+    m_CheckPlayerRadius 30
     m_SpawnChance 82
-    m_PlayerDetectionRadius 524
+    m_PlayerDetectionRadius 173
     m_RespawnDelayAfterDelete 1682
     m_SpawnGroups {
      "{308C5744595D93B7}Configs/Alife/mutants/zombie_soldiers_mixed.conf"
