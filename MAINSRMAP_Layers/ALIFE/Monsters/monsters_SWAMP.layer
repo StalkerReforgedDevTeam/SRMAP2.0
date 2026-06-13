@@ -1,3 +1,2739 @@
+$grp SCR_DestructibleBuildingEntity {
+ {
+  components {
+   Persistence "{699B13A91E3D99C7}" {
+    Flags 0 0x1
+   }
+   MeshObject "{699B13A91E3D9609}" {
+    Object "{461D51185F60BCA9}Assets/Structures/Military/Bunkers/AirfieldBunker_E_01/AirfieldBunker_E_01_big.xob"
+    LODFactors {
+     20
+     15
+     10
+     1
+     1
+    }
+    ObjectHeightmapBias 1
+    ClutterOccluder 1
+    ClutterOccluderClipPlane -0.9
+   }
+   Occluder "{699B13A91E3D9601}" {
+   }
+   RigidBody "{699B13A91E3D96C6}" {
+    ResponseIndex "Normal"
+    ModelGeometry 1
+    Static 1
+   }
+   SCR_MapDescriptorComponent "{699B13A91E3D96BE}" {
+   }
+   WorldSubsceneComponent "{699B13A91E3D96B3}" {
+   }
+   RplComponent "{699B13A91E3D96A9}" {
+    Enabled 1
+   }
+   Hierarchy "{699B13A91E3D96AD}" {
+   }
+  }
+  Flags 0x403 0x80000
+  coords 5628.914 303.589 31.329
+  scale 1.34
+  HouseNumber -2
+  SlotBoneMappings {
+   SlotBoneMappingObject "{699B13A91E3D9695}" {
+    BonePrefix "socket_electricity_box"
+    Prefab "{90E386EDBB078521}Prefabs/Structures/BuildingParts/Eletrical/UtilityBoxInt_01/UtilityBoxInt_01_v6.et"
+   }
+   SlotBoneMappingObject "{699B13A91E3D968F}" {
+    BonePrefix "socket_electricity_b"
+    Prefab "{C1E195E625940F80}Prefabs/Structures/BuildingParts/Eletrical/LightSwitch_03.et"
+   }
+   SlotBoneMappingObject "{699B13A91E3D9683}" {
+    BonePrefix "socket_electricity_a"
+    Prefab "{C1E195E625940F80}Prefabs/Structures/BuildingParts/Eletrical/LightSwitch_03.et"
+   }
+   SlotBoneMappingObject "{699B13A91E3D9684}" {
+    BonePrefix "socket_electricity_c"
+    Prefab "{C1E195E625940F80}Prefabs/Structures/BuildingParts/Eletrical/LightSwitch_03.et"
+   }
+   SlotBoneMappingObject "{699B13A91E3D9779}" {
+    BonePrefix "socket_electricity_d"
+    Prefab "{C1E195E625940F80}Prefabs/Structures/BuildingParts/Eletrical/LightSwitch_03.et"
+   }
+   SlotBoneMappingObject "{699B13A91E3D9770}" {
+    BonePrefix "socket_electricity_e"
+    Prefab "{C1E195E625940F80}Prefabs/Structures/BuildingParts/Eletrical/LightSwitch_03.et"
+   }
+   SlotBoneMappingObject "{699B13A91E3D9775}" {
+    BonePrefix "socket_electricity_f"
+    Prefab "{C1E195E625940F80}Prefabs/Structures/BuildingParts/Eletrical/LightSwitch_03.et"
+   }
+   SlotBoneMappingObject "{699B13A91E3D976E}" {
+    BonePrefix "socket_latrine"
+    Prefab "{EC52B3BFFBB1FABD}Prefabs/Structures/BuildingParts/Bunker/BunkerLatrine_01/BunkerLatrine_01.et"
+   }
+   SlotBoneMappingObject "{699B13A91E3D9762}" {
+    BonePrefix "socket_filtration"
+    Prefab "{BCC3261E8F3B4CDD}Prefabs/Structures/BuildingParts/Bunker/BunkerAirFiltration_01/BunkerAirFiltration_01.et"
+   }
+   SlotBoneMappingObject "{699B13A91E3D9761}" {
+    BonePrefix "socket_door_bunker_E_A"
+    Prefab "{74A8427A65A5B423}Prefabs/Structures/BuildingParts/Doors/Door_Bunker_E_03/DoorSet_Bunker_E_03_A_R_EXT_COV_B.et"
+   }
+   SlotBoneMappingObject "{699B13A91E3D9759}" {
+    BonePrefix "socket_door_bunker_E_B_LEFT"
+    Prefab "{3F122C49BF0A1AB1}Prefabs/Structures/BuildingParts/Doors/Door_Bunker_E_03/DoorSet_Bunker_E_03_B_L_INT_COV_B.et"
+   }
+   SlotBoneMappingObject "{699B13A91E3D975C}" {
+    BonePrefix "socket_door_bunker_E_B_right"
+    Prefab "{BD60F148F0218BDB}Prefabs/Structures/BuildingParts/Doors/Door_Bunker_E_03/DoorSet_Bunker_E_03_B_R_INT_COV_B.et"
+   }
+   SlotBoneMappingObject "{699B13A91E3D9750}" {
+    BonePrefix "socket_door_Metal_B_LEFT"
+    Prefab "{EA47C7B9C65402F8}Prefabs/Structures/BuildingParts/Doors/DoorSet_Metal_02_L_INT_COV_B.et"
+   }
+   SlotBoneMappingObject "{699B13A91E3D9755}" {
+    BonePrefix "socket_door_Metal_B_RIGHT"
+    Prefab "{07848CA53FAD246B}Prefabs/Structures/BuildingParts/Doors/DoorSet_Metal_02_R_INT_COV_B.et"
+   }
+   SlotBoneMappingObject "{699B13A91E3D974A}" {
+    Prefab "{90E386EDBB078521}Prefabs/Structures/BuildingParts/Eletrical/UtilityBoxInt_01/UtilityBoxInt_01_v6.et"
+   }
+   SlotBoneMappingObject "{699B13A91E3D9748}" {
+    Prefab "{48C0E6A69460D2A4}Prefabs/Structures/BuildingParts/Eletrical/UtilityBoxInt_01/UtilityBoxInt_01_v2.et"
+   }
+   SlotBoneMappingObject "{699B13A91E3D974F}" {
+    Prefab "{8F0C763B613691A8}Prefabs/Structures/BuildingParts/Eletrical/UtilityBoxInt_01/UtilityBoxInt_01_v3.et"
+   }
+  }
+  {
+   $grp GenericEntity : "{07848CA53FAD246B}Prefabs/Structures/BuildingParts/Doors/DoorSet_Metal_02_R_INT_COV_B.et" {
+    {
+     components {
+      Hierarchy "{612AE78C85563E26}" {
+       PivotID "socket_Door_Metal_B_RIGHT_INT_COV_B_02"
+      }
+     }
+     coords 0 0 0
+    }
+    {
+     components {
+      Hierarchy "{612AE78C85563E26}" {
+       PivotID "socket_Door_Metal_B_RIGHT_INT_COV_B_01"
+      }
+     }
+     coords 0 0 -0.085
+    }
+   }
+   GenericEntity : "{4613948821749011}Prefabs/Structures/Military/Bunkers/AirfieldBunker_E_01/AirfieldBunker_E_01_big_furniture_02.et" {
+    coords 0 0 0
+   }
+   $grp GenericEntity : "{593C5C4530050392}Prefabs/Structures/BuildingParts/Eletrical/UtilityBoxInt_01/UtilityBoxInt_01_v1.et" {
+    {
+     coords -10.8 0.391 7.59
+     angles 0 -180 0
+    }
+    {
+     coords 8.403 0.302 3.359
+    }
+    {
+     coords 1.174 0.313 4.705
+     angles -1.783 180 0
+    }
+    {
+     coords -3.575 0.299 6.246
+     angles -1.733 0 0
+    }
+    {
+     coords -1.941 -0.224 4.428
+     angles 0 -180 0
+    }
+   }
+   GenericEntity : "{5D8A463DF84135AA}Prefabs/Structures/BuildingParts/Eletrical/UtilityBoxInt_01/UtilityBoxInt_01_v4.et" {
+    coords -1.932 0.302 10.335
+    angles 0 180 0
+   }
+   $grp GenericEntity : "{6401BFEA3B30EBF7}Prefabs/Structures/BuildingParts/Eletrical/ElectricityJunction_02/ElectricityJunction_02.et" {
+    {
+     coords 8.404 -0.276 7.487
+     angles -1.088 0 -90
+    }
+    {
+     coords -10.802 -0.266 3.463
+     angles 0 0 90
+    }
+   }
+   $grp GenericEntity : "{74A8427A65A5B423}Prefabs/Structures/BuildingParts/Doors/Door_Bunker_E_03/DoorSet_Bunker_E_03_A_R_EXT_COV_B.et" {
+    {
+     components {
+      Hierarchy "{612AE78C85563E26}" {
+       PivotID "socket_Door_Bunker_E_A_RIGHT_EXT_01"
+      }
+     }
+     coords 0 0 0
+    }
+    {
+     components {
+      Hierarchy "{612AE78C85563E26}" {
+       PivotID "socket_Door_Bunker_E_A_RIGHT_EXT_02"
+      }
+     }
+     coords 0 0 0
+    }
+   }
+   $grp GenericEntity : "{87CADB5ADC989993}Prefabs/Structures/BuildingParts/Doors/DoorSet_Base.et" {
+    {
+     components {
+      MeshObject "{61B367470698533A}" {
+       Object "{195091167CA42834}Assets/Structures/BuildingsParts/Doors/Door_Bunker_E/DoorFrame_Bunker_E_03_B_INT_COV_B.xob"
+      }
+      Hierarchy "{612AE78C85563E26}" {
+       PivotID "socket_Door_Bunker_E_B_RIGHT_INT_COV_B_01"
+      }
+     }
+     coords 0 0 0
+    }
+    {
+     components {
+      MeshObject "{61B367470698533A}" {
+       Object "{195091167CA42834}Assets/Structures/BuildingsParts/Doors/Door_Bunker_E/DoorFrame_Bunker_E_03_B_INT_COV_B.xob"
+      }
+      Hierarchy "{612AE78C85563E26}" {
+       PivotID "socket_Door_Bunker_E_B_LEFT_INT_COV_B_01"
+      }
+     }
+     coords 0 0 0
+     {
+      GenericEntity : "{9BBC3DF9F592D3AA}Prefabs/Structures/BuildingParts/Doors/Door_Bunker_E_03/Door_Bunker_E_03_B_LEFT_INT_COV_B.et" {
+       components {
+        Hierarchy "{7642683606C70747}" {
+         PivotID "socket_door_LEFT"
+        }
+       }
+       coords 0 -96.38 0
+      }
+     }
+    }
+   }
+   $grp GenericEntity : "{8F0C763B613691A8}Prefabs/Structures/BuildingParts/Eletrical/UtilityBoxInt_01/UtilityBoxInt_01_v3.et" {
+    {
+     coords 1.854 0.783 -3.764
+     angles 0 90 0
+    }
+    {
+     coords -1.94 0.815 4.505
+     angles 0 -180 0
+     scale 0.57
+    }
+   }
+   $grp GenericEntity : "{8F17372BAB5A9CF8}Prefabs/Structures/BuildingParts/Lights/LightIndustrial_02.et" {
+    {
+     coords -1.185 1.378 3.254
+     angles -90 0 180
+    }
+    {
+     coords -1.185 1.378 8.078
+     angles -90 0 180
+    }
+    {
+     coords 4.78 -0.451 8.607
+     angles -8.52 180 0
+    }
+    {
+     coords -10.88 1.287 6.727
+     angles 0 -90 0
+    }
+    {
+     coords 7.14 -0.451 8.607
+     angles -8.52 180 0
+    }
+    {
+     coords -4.836 -0.451 8.607
+     angles -8.52 180 0
+    }
+    {
+     coords 2.44 -0.451 8.607
+     angles -8.52 180 0
+    }
+    {
+     coords -10.879 1.284 4.198
+     angles 0 -90 0
+    }
+    {
+     coords 8.481 1.315 6.745
+     angles 0 90 0
+    }
+    {
+     coords 8.481 1.315 4.198
+     angles 0 90 0
+    }
+    {
+     coords 0.585 1.372 -3.048
+     angles -90 -90 0
+    }
+    {
+     coords -1.199 1.401 -1.586
+     angles -90 180 -180
+    }
+    {
+     coords 2.429 -0.451 2.335
+     angles -8.52 0 0
+    }
+    {
+     coords 7.129 -0.451 2.335
+     angles -8.52 0 0
+    }
+    {
+     coords -4.847 -0.451 2.335
+     angles -8.52 0 0
+    }
+    {
+     coords 4.789 -0.451 2.335
+     angles -8.52 0 0
+    }
+    {
+     coords -9.536 -0.451 8.607
+     angles -8.52 180 0
+    }
+    {
+     coords -7.196 -0.451 8.607
+     angles -8.52 180 0
+    }
+    {
+     coords -9.547 -0.451 2.335
+     angles -8.52 0 0
+    }
+    {
+     coords -7.187 -0.451 2.335
+     angles -8.52 0 0
+    }
+   }
+   $grp GameEnvironmentProbeEntity : "{900726DB82FD2EAC}Prefabs/Structures/Military/Bunkers/AirfieldBunker_E_01/Probe_AirfieldBunker_E_01.et" {
+    {
+     coords 1.873 0.3 5.719
+    }
+    {
+     coords 0 0 0
+    }
+   }
+   GenericEntity : "{90E386EDBB078521}Prefabs/Structures/BuildingParts/Eletrical/UtilityBoxInt_01/UtilityBoxInt_01_v6.et" {
+    coords 1.866 0.169 -3.764
+    angles 0 90 0
+   }
+   $grp GenericEntity : "{BCC3261E8F3B4CDD}Prefabs/Structures/BuildingParts/Bunker/BunkerAirFiltration_01/BunkerAirFiltration_01.et" {
+    {
+     components {
+      Hierarchy "{612AE78C95E98EEB}" {
+       PivotID "socket_filtration_b"
+      }
+     }
+     coords 0 0 0
+    }
+    {
+     components {
+      Hierarchy "{612AE78C95E98EEB}" {
+       PivotID "socket_filtration_a"
+      }
+     }
+     coords 0 0 0
+    }
+   }
+   $grp StaticModelEntity : "{CAF8666F26CEB7AD}Prefabs/Structures/BuildingParts/Entry/ConcreteStairs_02_Narrow.et" {
+    {
+     components {
+      Hierarchy "{5488F0388A297CDE}" {
+       PivotID "socket_Door_Bunker_E_A_RIGHT_EXT_01"
+      }
+     }
+     coords 0 -0.173 1.742
+    }
+    {
+     components {
+      Hierarchy "{5488F0388A297CDE}" {
+       PivotID "socket_Door_Bunker_E_A_RIGHT_EXT_02"
+      }
+     }
+     coords 0 -0.166 1.696
+    }
+   }
+   $grp GenericEntity : "{E34303CB179E13D6}Prefabs/Structures/BuildingParts/Lights/LightIndustrial_01.et" {
+    {
+     coords -7.195 2.684 5.492
+     angles -90 0 90
+    }
+    {
+     coords 7.129 2.684 5.492
+     angles -90 0 90
+    }
+    {
+     coords -9.549 2.684 5.492
+     angles -90 0 90
+    }
+    {
+     coords 2.416 2.684 5.492
+     angles -90 0 90
+    }
+    {
+     coords 4.77 2.684 5.492
+     angles -90 0 90
+    }
+    {
+     coords -4.836 2.684 5.492
+     angles -90 0 90
+    }
+   }
+   $grp GenericEntity : "{EA47C7B9C65402F8}Prefabs/Structures/BuildingParts/Doors/DoorSet_Metal_02_L_INT_COV_B.et" {
+    {
+     components {
+      Hierarchy "{612AE78C85563E26}" {
+       PivotID "socket_Door_Metal_B_LEFT_INT_COV_B_02"
+      }
+     }
+    }
+    {
+     components {
+      Hierarchy "{612AE78C85563E26}" {
+       PivotID "socket_Door_Metal_B_LEFT_INT_COV_B_01"
+      }
+     }
+     coords 0 0 -0.085
+    }
+   }
+   $grp GenericEntity : "{EC52B3BFFBB1FABD}Prefabs/Structures/BuildingParts/Bunker/BunkerLatrine_01/BunkerLatrine_01.et" {
+    {
+     components {
+      Hierarchy "{612AE78C95E98EEB}" {
+       PivotID "socket_latrine_b"
+      }
+     }
+     coords 0 0 0
+    }
+    {
+     components {
+      Hierarchy "{612AE78C95E98EEB}" {
+       PivotID "socket_latrine_a"
+      }
+     }
+     coords 0 0 0
+    }
+   }
+  }
+ }
+ {
+  components {
+   Persistence "{699B13A91D63EACE}" {
+    Flags 0 0x1
+   }
+   MeshObject "{699B13A91D63EB1E}" {
+    Object "{461D51185F60BCA9}Assets/Structures/Military/Bunkers/AirfieldBunker_E_01/AirfieldBunker_E_01_big.xob"
+    LODFactors {
+     20
+     15
+     10
+     1
+     1
+    }
+    ObjectHeightmapBias 1
+    ClutterOccluder 1
+    ClutterOccluderClipPlane -0.9
+   }
+   Occluder "{699B13A91D63EB13}" {
+   }
+   RigidBody "{699B13A91D63EBE6}" {
+    ResponseIndex "Normal"
+    ModelGeometry 1
+    Static 1
+   }
+   SCR_MapDescriptorComponent "{699B13A91D63EBDB}" {
+   }
+   WorldSubsceneComponent "{699B13A91D63EBDE}" {
+   }
+   RplComponent "{699B13A91D63EBD3}" {
+    Enabled 1
+   }
+   Hierarchy "{699B13A91D63EBD7}" {
+   }
+  }
+  Flags 0x403 0
+  coords 5266.161 302.651 60.669
+  HouseNumber -2
+  SlotBoneMappings {
+   SlotBoneMappingObject "{699B13A91D63EBBD}" {
+    BonePrefix "socket_electricity_box"
+    Prefab "{90E386EDBB078521}Prefabs/Structures/BuildingParts/Eletrical/UtilityBoxInt_01/UtilityBoxInt_01_v6.et"
+   }
+   SlotBoneMappingObject "{699B13A91D63EBB1}" {
+    BonePrefix "socket_electricity_b"
+    Prefab "{C1E195E625940F80}Prefabs/Structures/BuildingParts/Eletrical/LightSwitch_03.et"
+   }
+   SlotBoneMappingObject "{699B13A91D63EBB5}" {
+    BonePrefix "socket_electricity_a"
+    Prefab "{C1E195E625940F80}Prefabs/Structures/BuildingParts/Eletrical/LightSwitch_03.et"
+   }
+   SlotBoneMappingObject "{699B13A91D63EBA9}" {
+    BonePrefix "socket_electricity_c"
+    Prefab "{C1E195E625940F80}Prefabs/Structures/BuildingParts/Eletrical/LightSwitch_03.et"
+   }
+   SlotBoneMappingObject "{699B13A91D63EBAD}" {
+    BonePrefix "socket_electricity_d"
+    Prefab "{C1E195E625940F80}Prefabs/Structures/BuildingParts/Eletrical/LightSwitch_03.et"
+   }
+   SlotBoneMappingObject "{699B13A91D63EBA6}" {
+    BonePrefix "socket_electricity_e"
+    Prefab "{C1E195E625940F80}Prefabs/Structures/BuildingParts/Eletrical/LightSwitch_03.et"
+   }
+   SlotBoneMappingObject "{699B13A91D63EB9A}" {
+    BonePrefix "socket_electricity_f"
+    Prefab "{C1E195E625940F80}Prefabs/Structures/BuildingParts/Eletrical/LightSwitch_03.et"
+   }
+   SlotBoneMappingObject "{699B13A91D63EB99}" {
+    BonePrefix "socket_latrine"
+    Prefab "{EC52B3BFFBB1FABD}Prefabs/Structures/BuildingParts/Bunker/BunkerLatrine_01/BunkerLatrine_01.et"
+   }
+   SlotBoneMappingObject "{699B13A91D63EB9D}" {
+    BonePrefix "socket_filtration"
+    Prefab "{BCC3261E8F3B4CDD}Prefabs/Structures/BuildingParts/Bunker/BunkerAirFiltration_01/BunkerAirFiltration_01.et"
+   }
+   SlotBoneMappingObject "{699B13A91D63EB91}" {
+    BonePrefix "socket_door_bunker_E_A"
+    Prefab "{74A8427A65A5B423}Prefabs/Structures/BuildingParts/Doors/Door_Bunker_E_03/DoorSet_Bunker_E_03_A_R_EXT_COV_B.et"
+   }
+   SlotBoneMappingObject "{699B13A91D63EB95}" {
+    BonePrefix "socket_door_bunker_E_B_LEFT"
+    Prefab "{3F122C49BF0A1AB1}Prefabs/Structures/BuildingParts/Doors/Door_Bunker_E_03/DoorSet_Bunker_E_03_B_L_INT_COV_B.et"
+   }
+   SlotBoneMappingObject "{699B13A91D63EB88}" {
+    BonePrefix "socket_door_bunker_E_B_right"
+    Prefab "{BD60F148F0218BDB}Prefabs/Structures/BuildingParts/Doors/Door_Bunker_E_03/DoorSet_Bunker_E_03_B_R_INT_COV_B.et"
+   }
+   SlotBoneMappingObject "{699B13A91D63EB8C}" {
+    BonePrefix "socket_door_Metal_B_LEFT"
+    Prefab "{EA47C7B9C65402F8}Prefabs/Structures/BuildingParts/Doors/DoorSet_Metal_02_L_INT_COV_B.et"
+   }
+   SlotBoneMappingObject "{699B13A91D63EB82}" {
+    BonePrefix "socket_door_Metal_B_RIGHT"
+    Prefab "{07848CA53FAD246B}Prefabs/Structures/BuildingParts/Doors/DoorSet_Metal_02_R_INT_COV_B.et"
+   }
+   SlotBoneMappingObject "{699B13A91D63EB81}" {
+    Prefab "{90E386EDBB078521}Prefabs/Structures/BuildingParts/Eletrical/UtilityBoxInt_01/UtilityBoxInt_01_v6.et"
+   }
+   SlotBoneMappingObject "{699B13A91D63EB85}" {
+    Prefab "{48C0E6A69460D2A4}Prefabs/Structures/BuildingParts/Eletrical/UtilityBoxInt_01/UtilityBoxInt_01_v2.et"
+   }
+   SlotBoneMappingObject "{699B13A91D63E878}" {
+    Prefab "{8F0C763B613691A8}Prefabs/Structures/BuildingParts/Eletrical/UtilityBoxInt_01/UtilityBoxInt_01_v3.et"
+   }
+  }
+  {
+   $grp GenericEntity : "{07848CA53FAD246B}Prefabs/Structures/BuildingParts/Doors/DoorSet_Metal_02_R_INT_COV_B.et" {
+    {
+     components {
+      Hierarchy "{612AE78C85563E26}" {
+       PivotID "socket_Door_Metal_B_RIGHT_INT_COV_B_02"
+      }
+     }
+     coords 0 0 0
+    }
+    {
+     components {
+      Hierarchy "{612AE78C85563E26}" {
+       PivotID "socket_Door_Metal_B_RIGHT_INT_COV_B_01"
+      }
+     }
+     coords 0 0 -0.085
+    }
+   }
+   GenericEntity : "{3F122C49BF0A1AB1}Prefabs/Structures/BuildingParts/Doors/Door_Bunker_E_03/DoorSet_Bunker_E_03_B_L_INT_COV_B.et" {
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      PivotID "socket_Door_Bunker_E_B_LEFT_INT_COV_B_01"
+     }
+    }
+    coords 0 0 0
+   }
+   $grp GenericEntity : "{43816DF1021ABD72}Prefabs/LOOT_BOX/3_TIER/3_TIER_Loot_randomize_tools.et" {
+    {
+     coords 10.011 -1.021 4.538
+     angles 0 -172.955 0
+    }
+    {
+     coords 9.021 -1.018 5.604
+     angles 0 -172.955 0
+    }
+   }
+   GenericEntity : "{4613948821749011}Prefabs/Structures/Military/Bunkers/AirfieldBunker_E_01/AirfieldBunker_E_01_big_furniture_02.et" {
+    coords 0 0 0
+   }
+   $grp GenericEntity : "{4EFE35748F199226}Prefabs/LOOT_BOX/2_TIER/2_TIER_Loot_randomize_clothes.et" {
+    {
+     coords -1.524 -1.046 10.627
+     angles 5.371 0 0
+    }
+    {
+     coords -4.238 -1.13 3.026
+     angles 5.371 0 0
+    }
+   }
+   $grp GenericEntity : "{593C5C4530050392}Prefabs/Structures/BuildingParts/Eletrical/UtilityBoxInt_01/UtilityBoxInt_01_v1.et" {
+    {
+     coords -10.8 0.391 7.59
+     angles 0 -180 0
+    }
+    {
+     coords 8.403 0.302 3.359
+    }
+    {
+     coords 1.174 0.313 4.705
+     angles -1.783 180 0
+    }
+    {
+     coords -3.575 0.299 6.246
+     angles -1.733 0 0
+    }
+    {
+     coords -1.941 -0.224 4.428
+     angles 0 -180 0
+    }
+   }
+   GenericEntity : "{5B64B0F835B1A883}Prefabs/LOOT_BOX/3_TIER/3_TIER_Loot_randomize_clothes.et" {
+    coords -1.569 -1.06 5.616
+    angles 5.371 0 0
+   }
+   GenericEntity : "{5D8A463DF84135AA}Prefabs/Structures/BuildingParts/Eletrical/UtilityBoxInt_01/UtilityBoxInt_01_v4.et" {
+    coords -1.932 0.302 10.335
+    angles 0 180 0
+   }
+   GenericEntity : "{62F1771F599A48D2}Prefabs/LOOT_BOX/2_TIER/2_TIER_Loot_randomize_food.et" {
+    coords 1.624 -1.06 6.495
+    angles 0 -102.989 0
+   }
+   $grp GenericEntity : "{6401BFEA3B30EBF7}Prefabs/Structures/BuildingParts/Eletrical/ElectricityJunction_02/ElectricityJunction_02.et" {
+    {
+     coords 8.404 -0.276 7.487
+     angles -1.088 0 -90
+    }
+    {
+     coords -10.802 -0.266 3.463
+     angles 0 0 90
+    }
+   }
+   $grp GenericEntity : "{74A8427A65A5B423}Prefabs/Structures/BuildingParts/Doors/Door_Bunker_E_03/DoorSet_Bunker_E_03_A_R_EXT_COV_B.et" {
+    {
+     components {
+      Hierarchy "{612AE78C85563E26}" {
+       PivotID "socket_Door_Bunker_E_A_RIGHT_EXT_01"
+      }
+     }
+     coords 0 0 0
+    }
+    {
+     components {
+      Hierarchy "{612AE78C85563E26}" {
+       PivotID "socket_Door_Bunker_E_A_RIGHT_EXT_02"
+      }
+     }
+     coords 0 0 0
+    }
+   }
+   $grp GenericEntity : "{8F0C763B613691A8}Prefabs/Structures/BuildingParts/Eletrical/UtilityBoxInt_01/UtilityBoxInt_01_v3.et" {
+    {
+     coords 1.854 0.783 -3.764
+     angles 0 90 0
+    }
+    {
+     coords -1.94 0.815 4.505
+     angles 0 -180 0
+     scale 0.57
+    }
+   }
+   $grp GenericEntity : "{8F17372BAB5A9CF8}Prefabs/Structures/BuildingParts/Lights/LightIndustrial_02.et" {
+    {
+     coords -1.185 1.378 3.254
+     angles -90 0 180
+    }
+    {
+     coords -1.185 1.378 8.078
+     angles -90 0 180
+    }
+    {
+     coords 4.78 -0.451 8.607
+     angles -8.52 180 0
+    }
+    {
+     coords -10.88 1.287 6.727
+     angles 0 -90 0
+    }
+    {
+     coords 7.14 -0.451 8.607
+     angles -8.52 180 0
+    }
+    {
+     coords -4.836 -0.451 8.607
+     angles -8.52 180 0
+    }
+    {
+     coords 2.44 -0.451 8.607
+     angles -8.52 180 0
+    }
+    {
+     coords -10.879 1.284 4.198
+     angles 0 -90 0
+    }
+    {
+     coords 8.481 1.315 6.745
+     angles 0 90 0
+    }
+    {
+     coords 8.481 1.315 4.198
+     angles 0 90 0
+    }
+    {
+     coords 0.585 1.372 -3.048
+     angles -90 -90 0
+    }
+    {
+     coords -1.199 1.401 -1.586
+     angles -90 180 -180
+    }
+    {
+     coords 2.429 -0.451 2.335
+     angles -8.52 0 0
+    }
+    {
+     coords 7.129 -0.451 2.335
+     angles -8.52 0 0
+    }
+    {
+     coords -4.847 -0.451 2.335
+     angles -8.52 0 0
+    }
+    {
+     coords 4.789 -0.451 2.335
+     angles -8.52 0 0
+    }
+    {
+     coords -9.536 -0.451 8.607
+     angles -8.52 180 0
+    }
+    {
+     coords -7.196 -0.451 8.607
+     angles -8.52 180 0
+    }
+    {
+     coords -9.547 -0.451 2.335
+     angles -8.52 0 0
+    }
+    {
+     coords -7.187 -0.451 2.335
+     angles -8.52 0 0
+    }
+   }
+   $grp GameEnvironmentProbeEntity : "{900726DB82FD2EAC}Prefabs/Structures/Military/Bunkers/AirfieldBunker_E_01/Probe_AirfieldBunker_E_01.et" {
+    {
+     coords 1.873 0.3 5.719
+    }
+    {
+     coords 0 0 0
+    }
+   }
+   GenericEntity : "{90E386EDBB078521}Prefabs/Structures/BuildingParts/Eletrical/UtilityBoxInt_01/UtilityBoxInt_01_v6.et" {
+    coords 1.866 0.169 -3.764
+    angles 0 90 0
+   }
+   $grp GenericEntity : "{A8FAF8D8950BF74B}Prefabs/LOOT_BOX/2_TIER/2_TIER_Loot_randomize_tools.et" {
+    {
+     coords 7.497 -1.02 7.876
+     angles 0 -3.093 0
+    }
+    {
+     coords -1.608 -0.999 -3.36
+     angles 0 -3.093 0
+    }
+   }
+   $grp GenericEntity : "{BCC3261E8F3B4CDD}Prefabs/Structures/BuildingParts/Bunker/BunkerAirFiltration_01/BunkerAirFiltration_01.et" {
+    {
+     components {
+      Hierarchy "{612AE78C95E98EEB}" {
+       PivotID "socket_filtration_b"
+      }
+     }
+     coords 0 0 0
+    }
+    {
+     components {
+      Hierarchy "{612AE78C95E98EEB}" {
+       PivotID "socket_filtration_a"
+      }
+     }
+     coords 0 0 0
+    }
+   }
+   GenericEntity : "{BD60F148F0218BDB}Prefabs/Structures/BuildingParts/Doors/Door_Bunker_E_03/DoorSet_Bunker_E_03_B_R_INT_COV_B.et" {
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      PivotID "socket_Door_Bunker_E_B_RIGHT_INT_COV_B_01"
+     }
+    }
+    coords 0 0 0
+   }
+   $grp GenericEntity : "{BE58F8F552188F52}Prefabs/LOOT_BOX/2_TIER/2_TIER_Loot_randomize_medicine.et" {
+    {
+     coords 4.377 -1.045 7.718
+    }
+    {
+     coords 3.379 -1.08 2.986
+    }
+    {
+     coords -0.693 -1.004 0.709
+    }
+    {
+     coords -6.187 -1.044 7.653
+    }
+   }
+   $grp StaticModelEntity : "{CAF8666F26CEB7AD}Prefabs/Structures/BuildingParts/Entry/ConcreteStairs_02_Narrow.et" {
+    {
+     components {
+      Hierarchy "{5488F0388A297CDE}" {
+       PivotID "socket_Door_Bunker_E_A_RIGHT_EXT_01"
+      }
+     }
+     coords 0 -0.173 1.742
+    }
+    {
+     components {
+      Hierarchy "{5488F0388A297CDE}" {
+       PivotID "socket_Door_Bunker_E_A_RIGHT_EXT_02"
+      }
+     }
+     coords 0 -0.166 1.696
+    }
+   }
+   $grp GenericEntity : "{CDF1093C34EED8F1}Prefabs/LOOT_BOX/2_TIER/2_TIER_Loot_randomize_clothes2.et" {
+    {
+     coords 5.079 -1.087 3.146
+    }
+    {
+     coords 2.07 -1.114 3.249
+    }
+    {
+     coords -7.468 -1.065 5.379
+    }
+   }
+   $grp GenericEntity : "{E34303CB179E13D6}Prefabs/Structures/BuildingParts/Lights/LightIndustrial_01.et" {
+    {
+     coords -7.195 2.684 5.492
+     angles -90 0 90
+    }
+    {
+     coords 7.129 2.684 5.492
+     angles -90 0 90
+    }
+    {
+     coords -9.549 2.684 5.492
+     angles -90 0 90
+    }
+    {
+     coords 2.416 2.684 5.492
+     angles -90 0 90
+    }
+    {
+     coords 4.77 2.684 5.492
+     angles -90 0 90
+    }
+    {
+     coords -4.836 2.684 5.492
+     angles -90 0 90
+    }
+   }
+   $grp GenericEntity : "{EA47C7B9C65402F8}Prefabs/Structures/BuildingParts/Doors/DoorSet_Metal_02_L_INT_COV_B.et" {
+    {
+     components {
+      Hierarchy "{612AE78C85563E26}" {
+       PivotID "socket_Door_Metal_B_LEFT_INT_COV_B_02"
+      }
+     }
+    }
+    {
+     components {
+      Hierarchy "{612AE78C85563E26}" {
+       PivotID "socket_Door_Metal_B_LEFT_INT_COV_B_01"
+      }
+     }
+     coords 0 0 -0.085
+    }
+   }
+   $grp GenericEntity : "{EC52B3BFFBB1FABD}Prefabs/Structures/BuildingParts/Bunker/BunkerLatrine_01/BunkerLatrine_01.et" {
+    {
+     components {
+      Hierarchy "{612AE78C95E98EEB}" {
+       PivotID "socket_latrine_b"
+      }
+     }
+     coords 0 0 0
+    }
+    {
+     components {
+      Hierarchy "{612AE78C95E98EEB}" {
+       PivotID "socket_latrine_a"
+      }
+     }
+     coords 0 0 0
+    }
+   }
+  }
+ }
+ {
+  components {
+   Persistence "{699B13A91D63D9A4}" {
+    Flags 0 0x1
+   }
+   MeshObject "{699B13A91D63D656}" {
+    Object "{461D51185F60BCA9}Assets/Structures/Military/Bunkers/AirfieldBunker_E_01/AirfieldBunker_E_01_big.xob"
+    LODFactors {
+     20
+     15
+     10
+     1
+     1
+    }
+    ObjectHeightmapBias 1
+    ClutterOccluder 1
+    ClutterOccluderClipPlane -0.9
+   }
+   Occluder "{699B13A91D63D657}" {
+   }
+   RigidBody "{699B13A91D63D62F}" {
+    ResponseIndex "Normal"
+    ModelGeometry 1
+    Static 1
+   }
+   SCR_MapDescriptorComponent "{699B13A91D63D620}" {
+   }
+   WorldSubsceneComponent "{699B13A91D63D626}" {
+   }
+   RplComponent "{699B13A91D63D61A}" {
+    Enabled 1
+   }
+   Hierarchy "{699B13A91D63D619}" {
+   }
+  }
+  Flags 0x403 0
+  coords 5321.536 302.93 57.497
+  HouseNumber -2
+  SlotBoneMappings {
+   SlotBoneMappingObject "{699B13A91D63D617}" {
+    BonePrefix "socket_electricity_box"
+    Prefab "{90E386EDBB078521}Prefabs/Structures/BuildingParts/Eletrical/UtilityBoxInt_01/UtilityBoxInt_01_v6.et"
+   }
+   SlotBoneMappingObject "{699B13A91D63D60B}" {
+    BonePrefix "socket_electricity_b"
+    Prefab "{C1E195E625940F80}Prefabs/Structures/BuildingParts/Eletrical/LightSwitch_03.et"
+   }
+   SlotBoneMappingObject "{699B13A91D63D60C}" {
+    BonePrefix "socket_electricity_a"
+    Prefab "{C1E195E625940F80}Prefabs/Structures/BuildingParts/Eletrical/LightSwitch_03.et"
+   }
+   SlotBoneMappingObject "{699B13A91D63D603}" {
+    BonePrefix "socket_electricity_c"
+    Prefab "{C1E195E625940F80}Prefabs/Structures/BuildingParts/Eletrical/LightSwitch_03.et"
+   }
+   SlotBoneMappingObject "{699B13A91D63D601}" {
+    BonePrefix "socket_electricity_d"
+    Prefab "{C1E195E625940F80}Prefabs/Structures/BuildingParts/Eletrical/LightSwitch_03.et"
+   }
+   SlotBoneMappingObject "{699B13A91D63D607}" {
+    BonePrefix "socket_electricity_e"
+    Prefab "{C1E195E625940F80}Prefabs/Structures/BuildingParts/Eletrical/LightSwitch_03.et"
+   }
+   SlotBoneMappingObject "{699B13A91D63D6FB}" {
+    BonePrefix "socket_electricity_f"
+    Prefab "{C1E195E625940F80}Prefabs/Structures/BuildingParts/Eletrical/LightSwitch_03.et"
+   }
+   SlotBoneMappingObject "{699B13A91D63D6FE}" {
+    BonePrefix "socket_latrine"
+    Prefab "{EC52B3BFFBB1FABD}Prefabs/Structures/BuildingParts/Bunker/BunkerLatrine_01/BunkerLatrine_01.et"
+   }
+   SlotBoneMappingObject "{699B13A91D63D6FD}" {
+    BonePrefix "socket_filtration"
+    Prefab "{BCC3261E8F3B4CDD}Prefabs/Structures/BuildingParts/Bunker/BunkerAirFiltration_01/BunkerAirFiltration_01.et"
+   }
+   SlotBoneMappingObject "{699B13A91D63D6F0}" {
+    BonePrefix "socket_door_bunker_E_A"
+    Prefab "{74A8427A65A5B423}Prefabs/Structures/BuildingParts/Doors/Door_Bunker_E_03/DoorSet_Bunker_E_03_A_R_EXT_COV_B.et"
+   }
+   SlotBoneMappingObject "{699B13A91D63D6F7}" {
+    BonePrefix "socket_door_bunker_E_B_LEFT"
+    Prefab "{3F122C49BF0A1AB1}Prefabs/Structures/BuildingParts/Doors/Door_Bunker_E_03/DoorSet_Bunker_E_03_B_L_INT_COV_B.et"
+   }
+   SlotBoneMappingObject "{699B13A91D63D6F5}" {
+    BonePrefix "socket_door_bunker_E_B_right"
+    Prefab "{BD60F148F0218BDB}Prefabs/Structures/BuildingParts/Doors/Door_Bunker_E_03/DoorSet_Bunker_E_03_B_R_INT_COV_B.et"
+   }
+   SlotBoneMappingObject "{699B13A91D63D6E8}" {
+    BonePrefix "socket_door_Metal_B_LEFT"
+    Prefab "{EA47C7B9C65402F8}Prefabs/Structures/BuildingParts/Doors/DoorSet_Metal_02_L_INT_COV_B.et"
+   }
+   SlotBoneMappingObject "{699B13A91D63D6EF}" {
+    BonePrefix "socket_door_Metal_B_RIGHT"
+    Prefab "{07848CA53FAD246B}Prefabs/Structures/BuildingParts/Doors/DoorSet_Metal_02_R_INT_COV_B.et"
+   }
+   SlotBoneMappingObject "{699B13A91D63D6E3}" {
+    Prefab "{90E386EDBB078521}Prefabs/Structures/BuildingParts/Eletrical/UtilityBoxInt_01/UtilityBoxInt_01_v6.et"
+   }
+   SlotBoneMappingObject "{699B13A91D63D6E4}" {
+    Prefab "{48C0E6A69460D2A4}Prefabs/Structures/BuildingParts/Eletrical/UtilityBoxInt_01/UtilityBoxInt_01_v2.et"
+   }
+   SlotBoneMappingObject "{699B13A91D63D6DA}" {
+    Prefab "{8F0C763B613691A8}Prefabs/Structures/BuildingParts/Eletrical/UtilityBoxInt_01/UtilityBoxInt_01_v3.et"
+   }
+  }
+  {
+   $grp GenericEntity : "{07848CA53FAD246B}Prefabs/Structures/BuildingParts/Doors/DoorSet_Metal_02_R_INT_COV_B.et" {
+    {
+     components {
+      Hierarchy "{612AE78C85563E26}" {
+       PivotID "socket_Door_Metal_B_RIGHT_INT_COV_B_02"
+      }
+     }
+     coords 0 0 0
+    }
+    {
+     components {
+      Hierarchy "{612AE78C85563E26}" {
+       PivotID "socket_Door_Metal_B_RIGHT_INT_COV_B_01"
+      }
+     }
+     coords 0 0 -0.085
+    }
+   }
+   GenericEntity : "{3F122C49BF0A1AB1}Prefabs/Structures/BuildingParts/Doors/Door_Bunker_E_03/DoorSet_Bunker_E_03_B_L_INT_COV_B.et" {
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      PivotID "socket_Door_Bunker_E_B_LEFT_INT_COV_B_01"
+     }
+    }
+    coords 0 0 0
+   }
+   $grp GenericEntity : "{43816DF1021ABD72}Prefabs/LOOT_BOX/3_TIER/3_TIER_Loot_randomize_tools.et" {
+    {
+     coords 10.011 -1.021 4.538
+     angles 0 -172.955 0
+    }
+    {
+     coords 9.021 -1.018 5.604
+     angles 0 -172.955 0
+    }
+   }
+   GenericEntity : "{4613948821749011}Prefabs/Structures/Military/Bunkers/AirfieldBunker_E_01/AirfieldBunker_E_01_big_furniture_02.et" {
+    coords 0 0 0
+   }
+   $grp GenericEntity : "{4EFE35748F199226}Prefabs/LOOT_BOX/2_TIER/2_TIER_Loot_randomize_clothes.et" {
+    {
+     coords -1.524 -1.046 10.627
+     angles 5.371 0 0
+    }
+    {
+     coords -4.238 -1.13 3.026
+     angles 5.371 0 0
+    }
+   }
+   $grp GenericEntity : "{593C5C4530050392}Prefabs/Structures/BuildingParts/Eletrical/UtilityBoxInt_01/UtilityBoxInt_01_v1.et" {
+    {
+     coords -10.8 0.391 7.59
+     angles 0 -180 0
+    }
+    {
+     coords 8.403 0.302 3.359
+    }
+    {
+     coords 1.174 0.313 4.705
+     angles -1.783 180 0
+    }
+    {
+     coords -3.575 0.299 6.246
+     angles -1.733 0 0
+    }
+    {
+     coords -1.941 -0.224 4.428
+     angles 0 -180 0
+    }
+   }
+   GenericEntity : "{5B64B0F835B1A883}Prefabs/LOOT_BOX/3_TIER/3_TIER_Loot_randomize_clothes.et" {
+    coords -1.569 -1.06 5.616
+    angles 5.371 0 0
+   }
+   GenericEntity : "{5D8A463DF84135AA}Prefabs/Structures/BuildingParts/Eletrical/UtilityBoxInt_01/UtilityBoxInt_01_v4.et" {
+    coords -1.932 0.302 10.335
+    angles 0 180 0
+   }
+   GenericEntity : "{62F1771F599A48D2}Prefabs/LOOT_BOX/2_TIER/2_TIER_Loot_randomize_food.et" {
+    coords 1.624 -1.06 6.495
+    angles 0 -102.989 0
+   }
+   $grp GenericEntity : "{6401BFEA3B30EBF7}Prefabs/Structures/BuildingParts/Eletrical/ElectricityJunction_02/ElectricityJunction_02.et" {
+    {
+     coords 8.404 -0.276 7.487
+     angles -1.088 0 -90
+    }
+    {
+     coords -10.802 -0.266 3.463
+     angles 0 0 90
+    }
+   }
+   $grp GenericEntity : "{74A8427A65A5B423}Prefabs/Structures/BuildingParts/Doors/Door_Bunker_E_03/DoorSet_Bunker_E_03_A_R_EXT_COV_B.et" {
+    {
+     components {
+      Hierarchy "{612AE78C85563E26}" {
+       PivotID "socket_Door_Bunker_E_A_RIGHT_EXT_01"
+      }
+     }
+     coords 0 0 0
+    }
+    {
+     components {
+      Hierarchy "{612AE78C85563E26}" {
+       PivotID "socket_Door_Bunker_E_A_RIGHT_EXT_02"
+      }
+     }
+     coords 0 0 0
+    }
+   }
+   $grp GenericEntity : "{8F0C763B613691A8}Prefabs/Structures/BuildingParts/Eletrical/UtilityBoxInt_01/UtilityBoxInt_01_v3.et" {
+    {
+     coords 1.854 0.783 -3.764
+     angles 0 90 0
+    }
+    {
+     coords -1.94 0.815 4.505
+     angles 0 -180 0
+     scale 0.57
+    }
+   }
+   $grp GenericEntity : "{8F17372BAB5A9CF8}Prefabs/Structures/BuildingParts/Lights/LightIndustrial_02.et" {
+    {
+     coords -1.185 1.378 3.254
+     angles -90 0 180
+    }
+    {
+     coords -1.185 1.378 8.078
+     angles -90 0 180
+    }
+    {
+     coords 4.78 -0.451 8.607
+     angles -8.52 180 0
+    }
+    {
+     coords -10.88 1.287 6.727
+     angles 0 -90 0
+    }
+    {
+     coords 7.14 -0.451 8.607
+     angles -8.52 180 0
+    }
+    {
+     coords -4.836 -0.451 8.607
+     angles -8.52 180 0
+    }
+    {
+     coords 2.44 -0.451 8.607
+     angles -8.52 180 0
+    }
+    {
+     coords -10.879 1.284 4.198
+     angles 0 -90 0
+    }
+    {
+     coords 8.481 1.315 6.745
+     angles 0 90 0
+    }
+    {
+     coords 8.481 1.315 4.198
+     angles 0 90 0
+    }
+    {
+     coords 0.585 1.372 -3.048
+     angles -90 -90 0
+    }
+    {
+     coords -1.199 1.401 -1.586
+     angles -90 180 -180
+    }
+    {
+     coords 2.429 -0.451 2.335
+     angles -8.52 0 0
+    }
+    {
+     coords 7.129 -0.451 2.335
+     angles -8.52 0 0
+    }
+    {
+     coords -4.847 -0.451 2.335
+     angles -8.52 0 0
+    }
+    {
+     coords 4.789 -0.451 2.335
+     angles -8.52 0 0
+    }
+    {
+     coords -9.536 -0.451 8.607
+     angles -8.52 180 0
+    }
+    {
+     coords -7.196 -0.451 8.607
+     angles -8.52 180 0
+    }
+    {
+     coords -9.547 -0.451 2.335
+     angles -8.52 0 0
+    }
+    {
+     coords -7.187 -0.451 2.335
+     angles -8.52 0 0
+    }
+   }
+   $grp GameEnvironmentProbeEntity : "{900726DB82FD2EAC}Prefabs/Structures/Military/Bunkers/AirfieldBunker_E_01/Probe_AirfieldBunker_E_01.et" {
+    {
+     coords 1.873 0.3 5.719
+    }
+    {
+     coords 0 0 0
+    }
+   }
+   GenericEntity : "{90E386EDBB078521}Prefabs/Structures/BuildingParts/Eletrical/UtilityBoxInt_01/UtilityBoxInt_01_v6.et" {
+    coords 1.866 0.169 -3.764
+    angles 0 90 0
+   }
+   $grp GenericEntity : "{A8FAF8D8950BF74B}Prefabs/LOOT_BOX/2_TIER/2_TIER_Loot_randomize_tools.et" {
+    {
+     coords 7.497 -1.02 7.876
+     angles 0 -3.093 0
+    }
+    {
+     coords -1.608 -0.999 -3.36
+     angles 0 -3.093 0
+    }
+   }
+   $grp GenericEntity : "{BCC3261E8F3B4CDD}Prefabs/Structures/BuildingParts/Bunker/BunkerAirFiltration_01/BunkerAirFiltration_01.et" {
+    {
+     components {
+      Hierarchy "{612AE78C95E98EEB}" {
+       PivotID "socket_filtration_b"
+      }
+     }
+     coords 0 0 0
+    }
+    {
+     components {
+      Hierarchy "{612AE78C95E98EEB}" {
+       PivotID "socket_filtration_a"
+      }
+     }
+     coords 0 0 0
+    }
+   }
+   GenericEntity : "{BD60F148F0218BDB}Prefabs/Structures/BuildingParts/Doors/Door_Bunker_E_03/DoorSet_Bunker_E_03_B_R_INT_COV_B.et" {
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      PivotID "socket_Door_Bunker_E_B_RIGHT_INT_COV_B_01"
+     }
+    }
+    coords 0 0 0
+   }
+   $grp GenericEntity : "{BE58F8F552188F52}Prefabs/LOOT_BOX/2_TIER/2_TIER_Loot_randomize_medicine.et" {
+    {
+     coords 4.377 -1.045 7.718
+    }
+    {
+     coords 3.379 -1.08 2.986
+    }
+    {
+     coords -0.693 -1.004 0.709
+    }
+    {
+     coords -6.187 -1.044 7.653
+    }
+   }
+   $grp StaticModelEntity : "{CAF8666F26CEB7AD}Prefabs/Structures/BuildingParts/Entry/ConcreteStairs_02_Narrow.et" {
+    {
+     components {
+      Hierarchy "{5488F0388A297CDE}" {
+       PivotID "socket_Door_Bunker_E_A_RIGHT_EXT_01"
+      }
+     }
+     coords 0 -0.173 1.742
+    }
+    {
+     components {
+      Hierarchy "{5488F0388A297CDE}" {
+       PivotID "socket_Door_Bunker_E_A_RIGHT_EXT_02"
+      }
+     }
+     coords 0 -0.166 1.696
+    }
+   }
+   $grp GenericEntity : "{CDF1093C34EED8F1}Prefabs/LOOT_BOX/2_TIER/2_TIER_Loot_randomize_clothes2.et" {
+    {
+     coords 5.079 -1.087 3.146
+    }
+    {
+     coords 2.07 -1.114 3.249
+    }
+    {
+     coords -7.468 -1.065 5.379
+    }
+   }
+   $grp GenericEntity : "{E34303CB179E13D6}Prefabs/Structures/BuildingParts/Lights/LightIndustrial_01.et" {
+    {
+     coords -7.195 2.684 5.492
+     angles -90 0 90
+    }
+    {
+     coords 7.129 2.684 5.492
+     angles -90 0 90
+    }
+    {
+     coords -9.549 2.684 5.492
+     angles -90 0 90
+    }
+    {
+     coords 2.416 2.684 5.492
+     angles -90 0 90
+    }
+    {
+     coords 4.77 2.684 5.492
+     angles -90 0 90
+    }
+    {
+     coords -4.836 2.684 5.492
+     angles -90 0 90
+    }
+   }
+   $grp GenericEntity : "{EA47C7B9C65402F8}Prefabs/Structures/BuildingParts/Doors/DoorSet_Metal_02_L_INT_COV_B.et" {
+    {
+     components {
+      Hierarchy "{612AE78C85563E26}" {
+       PivotID "socket_Door_Metal_B_LEFT_INT_COV_B_02"
+      }
+     }
+    }
+    {
+     components {
+      Hierarchy "{612AE78C85563E26}" {
+       PivotID "socket_Door_Metal_B_LEFT_INT_COV_B_01"
+      }
+     }
+     coords 0 0 -0.085
+    }
+   }
+   $grp GenericEntity : "{EC52B3BFFBB1FABD}Prefabs/Structures/BuildingParts/Bunker/BunkerLatrine_01/BunkerLatrine_01.et" {
+    {
+     components {
+      Hierarchy "{612AE78C95E98EEB}" {
+       PivotID "socket_latrine_b"
+      }
+     }
+     coords 0 0 0
+    }
+    {
+     components {
+      Hierarchy "{612AE78C95E98EEB}" {
+       PivotID "socket_latrine_a"
+      }
+     }
+     coords 0 0 0
+    }
+   }
+  }
+ }
+ {
+  components {
+   Persistence "{699B13A91D63B7B2}" {
+    Flags 0 0x1
+   }
+   MeshObject "{699B13A91D63B477}" {
+    Object "{461D51185F60BCA9}Assets/Structures/Military/Bunkers/AirfieldBunker_E_01/AirfieldBunker_E_01_big.xob"
+    LODFactors {
+     20
+     15
+     10
+     1
+     1
+    }
+    ObjectHeightmapBias 1
+    ClutterOccluder 1
+    ClutterOccluderClipPlane -0.9
+   }
+   Occluder "{699B13A91D63B475}" {
+   }
+   RigidBody "{699B13A91D63B44F}" {
+    ResponseIndex "Normal"
+    ModelGeometry 1
+    Static 1
+   }
+   SCR_MapDescriptorComponent "{699B13A91D63B44D}" {
+   }
+   WorldSubsceneComponent "{699B13A91D63B442}" {
+   }
+   RplComponent "{699B13A91D63B440}" {
+    Enabled 1
+   }
+   Hierarchy "{699B13A91D63B441}" {
+   }
+  }
+  Flags 0x403 0
+  coords 5410.546 302.366 55.5
+  HouseNumber -2
+  SlotBoneMappings {
+   SlotBoneMappingObject "{699B13A91D63B438}" {
+    BonePrefix "socket_electricity_box"
+    Prefab "{90E386EDBB078521}Prefabs/Structures/BuildingParts/Eletrical/UtilityBoxInt_01/UtilityBoxInt_01_v6.et"
+   }
+   SlotBoneMappingObject "{699B13A91D63B43C}" {
+    BonePrefix "socket_electricity_b"
+    Prefab "{C1E195E625940F80}Prefabs/Structures/BuildingParts/Eletrical/LightSwitch_03.et"
+   }
+   SlotBoneMappingObject "{699B13A91D63B433}" {
+    BonePrefix "socket_electricity_a"
+    Prefab "{C1E195E625940F80}Prefabs/Structures/BuildingParts/Eletrical/LightSwitch_03.et"
+   }
+   SlotBoneMappingObject "{699B13A91D63B434}" {
+    BonePrefix "socket_electricity_c"
+    Prefab "{C1E195E625940F80}Prefabs/Structures/BuildingParts/Eletrical/LightSwitch_03.et"
+   }
+   SlotBoneMappingObject "{699B13A91D63B42A}" {
+    BonePrefix "socket_electricity_d"
+    Prefab "{C1E195E625940F80}Prefabs/Structures/BuildingParts/Eletrical/LightSwitch_03.et"
+   }
+   SlotBoneMappingObject "{699B13A91D63B42E}" {
+    BonePrefix "socket_electricity_e"
+    Prefab "{C1E195E625940F80}Prefabs/Structures/BuildingParts/Eletrical/LightSwitch_03.et"
+   }
+   SlotBoneMappingObject "{699B13A91D63B420}" {
+    BonePrefix "socket_electricity_f"
+    Prefab "{C1E195E625940F80}Prefabs/Structures/BuildingParts/Eletrical/LightSwitch_03.et"
+   }
+   SlotBoneMappingObject "{699B13A91D63B426}" {
+    BonePrefix "socket_latrine"
+    Prefab "{EC52B3BFFBB1FABD}Prefabs/Structures/BuildingParts/Bunker/BunkerLatrine_01/BunkerLatrine_01.et"
+   }
+   SlotBoneMappingObject "{699B13A91D63B425}" {
+    BonePrefix "socket_filtration"
+    Prefab "{BCC3261E8F3B4CDD}Prefabs/Structures/BuildingParts/Bunker/BunkerAirFiltration_01/BunkerAirFiltration_01.et"
+   }
+   SlotBoneMappingObject "{699B13A91D63B418}" {
+    BonePrefix "socket_door_bunker_E_A"
+    Prefab "{74A8427A65A5B423}Prefabs/Structures/BuildingParts/Doors/Door_Bunker_E_03/DoorSet_Bunker_E_03_A_R_EXT_COV_B.et"
+   }
+   SlotBoneMappingObject "{699B13A91D63B41E}" {
+    BonePrefix "socket_door_bunker_E_B_LEFT"
+    Prefab "{3F122C49BF0A1AB1}Prefabs/Structures/BuildingParts/Doors/Door_Bunker_E_03/DoorSet_Bunker_E_03_B_L_INT_COV_B.et"
+   }
+   SlotBoneMappingObject "{699B13A91D63B41C}" {
+    BonePrefix "socket_door_bunker_E_B_right"
+    Prefab "{BD60F148F0218BDB}Prefabs/Structures/BuildingParts/Doors/Door_Bunker_E_03/DoorSet_Bunker_E_03_B_R_INT_COV_B.et"
+   }
+   SlotBoneMappingObject "{699B13A91D63B412}" {
+    BonePrefix "socket_door_Metal_B_LEFT"
+    Prefab "{EA47C7B9C65402F8}Prefabs/Structures/BuildingParts/Doors/DoorSet_Metal_02_L_INT_COV_B.et"
+   }
+   SlotBoneMappingObject "{699B13A91D63B411}" {
+    BonePrefix "socket_door_Metal_B_RIGHT"
+    Prefab "{07848CA53FAD246B}Prefabs/Structures/BuildingParts/Doors/DoorSet_Metal_02_R_INT_COV_B.et"
+   }
+   SlotBoneMappingObject "{699B13A91D63B417}" {
+    Prefab "{90E386EDBB078521}Prefabs/Structures/BuildingParts/Eletrical/UtilityBoxInt_01/UtilityBoxInt_01_v6.et"
+   }
+   SlotBoneMappingObject "{699B13A91D63B415}" {
+    Prefab "{48C0E6A69460D2A4}Prefabs/Structures/BuildingParts/Eletrical/UtilityBoxInt_01/UtilityBoxInt_01_v2.et"
+   }
+   SlotBoneMappingObject "{699B13A91D63B40B}" {
+    Prefab "{8F0C763B613691A8}Prefabs/Structures/BuildingParts/Eletrical/UtilityBoxInt_01/UtilityBoxInt_01_v3.et"
+   }
+  }
+  {
+   $grp GenericEntity : "{07848CA53FAD246B}Prefabs/Structures/BuildingParts/Doors/DoorSet_Metal_02_R_INT_COV_B.et" {
+    {
+     components {
+      Hierarchy "{612AE78C85563E26}" {
+       PivotID "socket_Door_Metal_B_RIGHT_INT_COV_B_02"
+      }
+     }
+     coords 0 0 0
+    }
+    {
+     components {
+      Hierarchy "{612AE78C85563E26}" {
+       PivotID "socket_Door_Metal_B_RIGHT_INT_COV_B_01"
+      }
+     }
+     coords 0 0 -0.085
+    }
+   }
+   GenericEntity : "{3F122C49BF0A1AB1}Prefabs/Structures/BuildingParts/Doors/Door_Bunker_E_03/DoorSet_Bunker_E_03_B_L_INT_COV_B.et" {
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      PivotID "socket_Door_Bunker_E_B_LEFT_INT_COV_B_01"
+     }
+    }
+    coords 0 0 0
+   }
+   $grp GenericEntity : "{43816DF1021ABD72}Prefabs/LOOT_BOX/3_TIER/3_TIER_Loot_randomize_tools.et" {
+    {
+     coords 10.011 -1.021 4.538
+     angles 0 -172.955 0
+    }
+    {
+     coords 9.021 -1.018 5.604
+     angles 0 -172.955 0
+    }
+   }
+   GenericEntity : "{4613948821749011}Prefabs/Structures/Military/Bunkers/AirfieldBunker_E_01/AirfieldBunker_E_01_big_furniture_02.et" {
+    coords 0 0 0
+   }
+   $grp GenericEntity : "{4EFE35748F199226}Prefabs/LOOT_BOX/2_TIER/2_TIER_Loot_randomize_clothes.et" {
+    {
+     coords -1.524 -1.046 10.627
+     angles 5.371 0 0
+    }
+    {
+     coords -4.238 -1.13 3.026
+     angles 5.371 0 0
+    }
+   }
+   $grp GenericEntity : "{593C5C4530050392}Prefabs/Structures/BuildingParts/Eletrical/UtilityBoxInt_01/UtilityBoxInt_01_v1.et" {
+    {
+     coords -10.8 0.391 7.59
+     angles 0 -180 0
+    }
+    {
+     coords 8.403 0.302 3.359
+    }
+    {
+     coords 1.174 0.313 4.705
+     angles -1.783 180 0
+    }
+    {
+     coords -3.575 0.299 6.246
+     angles -1.733 0 0
+    }
+    {
+     coords -1.941 -0.224 4.428
+     angles 0 -180 0
+    }
+   }
+   GenericEntity : "{5B64B0F835B1A883}Prefabs/LOOT_BOX/3_TIER/3_TIER_Loot_randomize_clothes.et" {
+    coords -1.569 -1.06 5.616
+    angles 5.371 0 0
+   }
+   GenericEntity : "{5D8A463DF84135AA}Prefabs/Structures/BuildingParts/Eletrical/UtilityBoxInt_01/UtilityBoxInt_01_v4.et" {
+    coords -1.932 0.302 10.335
+    angles 0 180 0
+   }
+   GenericEntity : "{62F1771F599A48D2}Prefabs/LOOT_BOX/2_TIER/2_TIER_Loot_randomize_food.et" {
+    coords 1.624 -1.06 6.495
+    angles 0 -102.989 0
+   }
+   $grp GenericEntity : "{6401BFEA3B30EBF7}Prefabs/Structures/BuildingParts/Eletrical/ElectricityJunction_02/ElectricityJunction_02.et" {
+    {
+     coords 8.404 -0.276 7.487
+     angles -1.088 0 -90
+    }
+    {
+     coords -10.802 -0.266 3.463
+     angles 0 0 90
+    }
+   }
+   $grp GenericEntity : "{74A8427A65A5B423}Prefabs/Structures/BuildingParts/Doors/Door_Bunker_E_03/DoorSet_Bunker_E_03_A_R_EXT_COV_B.et" {
+    {
+     components {
+      Hierarchy "{612AE78C85563E26}" {
+       PivotID "socket_Door_Bunker_E_A_RIGHT_EXT_01"
+      }
+     }
+     coords 0 0 0
+    }
+    {
+     components {
+      Hierarchy "{612AE78C85563E26}" {
+       PivotID "socket_Door_Bunker_E_A_RIGHT_EXT_02"
+      }
+     }
+     coords 0 0 0
+    }
+   }
+   $grp GenericEntity : "{8F0C763B613691A8}Prefabs/Structures/BuildingParts/Eletrical/UtilityBoxInt_01/UtilityBoxInt_01_v3.et" {
+    {
+     coords 1.854 0.783 -3.764
+     angles 0 90 0
+    }
+    {
+     coords -1.94 0.815 4.505
+     angles 0 -180 0
+     scale 0.57
+    }
+   }
+   $grp GenericEntity : "{8F17372BAB5A9CF8}Prefabs/Structures/BuildingParts/Lights/LightIndustrial_02.et" {
+    {
+     coords -1.185 1.378 3.254
+     angles -90 0 180
+    }
+    {
+     coords -1.185 1.378 8.078
+     angles -90 0 180
+    }
+    {
+     coords 4.78 -0.451 8.607
+     angles -8.52 180 0
+    }
+    {
+     coords -10.88 1.287 6.727
+     angles 0 -90 0
+    }
+    {
+     coords 7.14 -0.451 8.607
+     angles -8.52 180 0
+    }
+    {
+     coords -4.836 -0.451 8.607
+     angles -8.52 180 0
+    }
+    {
+     coords 2.44 -0.451 8.607
+     angles -8.52 180 0
+    }
+    {
+     coords -10.879 1.284 4.198
+     angles 0 -90 0
+    }
+    {
+     coords 8.481 1.315 6.745
+     angles 0 90 0
+    }
+    {
+     coords 8.481 1.315 4.198
+     angles 0 90 0
+    }
+    {
+     coords 0.585 1.372 -3.048
+     angles -90 -90 0
+    }
+    {
+     coords -1.199 1.401 -1.586
+     angles -90 180 -180
+    }
+    {
+     coords 2.429 -0.451 2.335
+     angles -8.52 0 0
+    }
+    {
+     coords 7.129 -0.451 2.335
+     angles -8.52 0 0
+    }
+    {
+     coords -4.847 -0.451 2.335
+     angles -8.52 0 0
+    }
+    {
+     coords 4.789 -0.451 2.335
+     angles -8.52 0 0
+    }
+    {
+     coords -9.536 -0.451 8.607
+     angles -8.52 180 0
+    }
+    {
+     coords -7.196 -0.451 8.607
+     angles -8.52 180 0
+    }
+    {
+     coords -9.547 -0.451 2.335
+     angles -8.52 0 0
+    }
+    {
+     coords -7.187 -0.451 2.335
+     angles -8.52 0 0
+    }
+   }
+   $grp GameEnvironmentProbeEntity : "{900726DB82FD2EAC}Prefabs/Structures/Military/Bunkers/AirfieldBunker_E_01/Probe_AirfieldBunker_E_01.et" {
+    {
+     coords 1.873 0.3 5.719
+    }
+    {
+     coords 0 0 0
+    }
+   }
+   GenericEntity : "{90E386EDBB078521}Prefabs/Structures/BuildingParts/Eletrical/UtilityBoxInt_01/UtilityBoxInt_01_v6.et" {
+    coords 1.866 0.169 -3.764
+    angles 0 90 0
+   }
+   $grp GenericEntity : "{A8FAF8D8950BF74B}Prefabs/LOOT_BOX/2_TIER/2_TIER_Loot_randomize_tools.et" {
+    {
+     coords 7.497 -1.02 7.876
+     angles 0 -3.093 0
+    }
+    {
+     coords -1.608 -0.999 -3.36
+     angles 0 -3.093 0
+    }
+   }
+   $grp GenericEntity : "{BCC3261E8F3B4CDD}Prefabs/Structures/BuildingParts/Bunker/BunkerAirFiltration_01/BunkerAirFiltration_01.et" {
+    {
+     components {
+      Hierarchy "{612AE78C95E98EEB}" {
+       PivotID "socket_filtration_b"
+      }
+     }
+     coords 0 0 0
+    }
+    {
+     components {
+      Hierarchy "{612AE78C95E98EEB}" {
+       PivotID "socket_filtration_a"
+      }
+     }
+     coords 0 0 0
+    }
+   }
+   GenericEntity : "{BD60F148F0218BDB}Prefabs/Structures/BuildingParts/Doors/Door_Bunker_E_03/DoorSet_Bunker_E_03_B_R_INT_COV_B.et" {
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      PivotID "socket_Door_Bunker_E_B_RIGHT_INT_COV_B_01"
+     }
+    }
+    coords 0 0 0
+   }
+   $grp GenericEntity : "{BE58F8F552188F52}Prefabs/LOOT_BOX/2_TIER/2_TIER_Loot_randomize_medicine.et" {
+    {
+     coords 4.377 -1.045 7.718
+    }
+    {
+     coords 3.379 -1.08 2.986
+    }
+    {
+     coords -0.693 -1.004 0.709
+    }
+    {
+     coords -6.187 -1.044 7.653
+    }
+   }
+   $grp StaticModelEntity : "{CAF8666F26CEB7AD}Prefabs/Structures/BuildingParts/Entry/ConcreteStairs_02_Narrow.et" {
+    {
+     components {
+      Hierarchy "{5488F0388A297CDE}" {
+       PivotID "socket_Door_Bunker_E_A_RIGHT_EXT_01"
+      }
+     }
+     coords 0 -0.173 1.742
+    }
+    {
+     components {
+      Hierarchy "{5488F0388A297CDE}" {
+       PivotID "socket_Door_Bunker_E_A_RIGHT_EXT_02"
+      }
+     }
+     coords 0 -0.166 1.696
+    }
+   }
+   $grp GenericEntity : "{CDF1093C34EED8F1}Prefabs/LOOT_BOX/2_TIER/2_TIER_Loot_randomize_clothes2.et" {
+    {
+     coords 5.079 -1.087 3.146
+    }
+    {
+     coords 2.07 -1.114 3.249
+    }
+    {
+     coords -7.468 -1.065 5.379
+    }
+   }
+   $grp GenericEntity : "{E34303CB179E13D6}Prefabs/Structures/BuildingParts/Lights/LightIndustrial_01.et" {
+    {
+     coords -7.195 2.684 5.492
+     angles -90 0 90
+    }
+    {
+     coords 7.129 2.684 5.492
+     angles -90 0 90
+    }
+    {
+     coords -9.549 2.684 5.492
+     angles -90 0 90
+    }
+    {
+     coords 2.416 2.684 5.492
+     angles -90 0 90
+    }
+    {
+     coords 4.77 2.684 5.492
+     angles -90 0 90
+    }
+    {
+     coords -4.836 2.684 5.492
+     angles -90 0 90
+    }
+   }
+   $grp GenericEntity : "{EA47C7B9C65402F8}Prefabs/Structures/BuildingParts/Doors/DoorSet_Metal_02_L_INT_COV_B.et" {
+    {
+     components {
+      Hierarchy "{612AE78C85563E26}" {
+       PivotID "socket_Door_Metal_B_LEFT_INT_COV_B_02"
+      }
+     }
+    }
+    {
+     components {
+      Hierarchy "{612AE78C85563E26}" {
+       PivotID "socket_Door_Metal_B_LEFT_INT_COV_B_01"
+      }
+     }
+     coords 0 0 -0.085
+    }
+   }
+   $grp GenericEntity : "{EC52B3BFFBB1FABD}Prefabs/Structures/BuildingParts/Bunker/BunkerLatrine_01/BunkerLatrine_01.et" {
+    {
+     components {
+      Hierarchy "{612AE78C95E98EEB}" {
+       PivotID "socket_latrine_b"
+      }
+     }
+     coords 0 0 0
+    }
+    {
+     components {
+      Hierarchy "{612AE78C95E98EEB}" {
+       PivotID "socket_latrine_a"
+      }
+     }
+     coords 0 0 0
+    }
+   }
+  }
+ }
+ {
+  components {
+   Persistence "{699B13A91D6394F2}" {
+    Flags 0 0x1
+   }
+   MeshObject "{699B13A91D6394BF}" {
+    Object "{461D51185F60BCA9}Assets/Structures/Military/Bunkers/AirfieldBunker_E_01/AirfieldBunker_E_01_big.xob"
+    LODFactors {
+     20
+     15
+     10
+     1
+     1
+    }
+    ObjectHeightmapBias 1
+    ClutterOccluder 1
+    ClutterOccluderClipPlane -0.9
+   }
+   Occluder "{699B13A91D6394BD}" {
+   }
+   RigidBody "{699B13A91D639491}" {
+    ResponseIndex "Normal"
+    ModelGeometry 1
+    Static 1
+   }
+   SCR_MapDescriptorComponent "{699B13A91D639496}" {
+   }
+   WorldSubsceneComponent "{699B13A91D639497}" {
+   }
+   RplComponent "{699B13A91D63948A}" {
+    Enabled 1
+   }
+   Hierarchy "{699B13A91D63948B}" {
+   }
+  }
+  Flags 0x403 0
+  coords 5480.009 302.791 45.024
+  HouseNumber -2
+  SlotBoneMappings {
+   SlotBoneMappingObject "{699B13A91D639483}" {
+    BonePrefix "socket_electricity_box"
+    Prefab "{90E386EDBB078521}Prefabs/Structures/BuildingParts/Eletrical/UtilityBoxInt_01/UtilityBoxInt_01_v6.et"
+   }
+   SlotBoneMappingObject "{699B13A91D639486}" {
+    BonePrefix "socket_electricity_b"
+    Prefab "{C1E195E625940F80}Prefabs/Structures/BuildingParts/Eletrical/LightSwitch_03.et"
+   }
+   SlotBoneMappingObject "{699B13A91D639484}" {
+    BonePrefix "socket_electricity_a"
+    Prefab "{C1E195E625940F80}Prefabs/Structures/BuildingParts/Eletrical/LightSwitch_03.et"
+   }
+   SlotBoneMappingObject "{699B13A91D63957B}" {
+    BonePrefix "socket_electricity_c"
+    Prefab "{C1E195E625940F80}Prefabs/Structures/BuildingParts/Eletrical/LightSwitch_03.et"
+   }
+   SlotBoneMappingObject "{699B13A91D63957F}" {
+    BonePrefix "socket_electricity_d"
+    Prefab "{C1E195E625940F80}Prefabs/Structures/BuildingParts/Eletrical/LightSwitch_03.et"
+   }
+   SlotBoneMappingObject "{699B13A91D63957D}" {
+    BonePrefix "socket_electricity_e"
+    Prefab "{C1E195E625940F80}Prefabs/Structures/BuildingParts/Eletrical/LightSwitch_03.et"
+   }
+   SlotBoneMappingObject "{699B13A91D639570}" {
+    BonePrefix "socket_electricity_f"
+    Prefab "{C1E195E625940F80}Prefabs/Structures/BuildingParts/Eletrical/LightSwitch_03.et"
+   }
+   SlotBoneMappingObject "{699B13A91D639574}" {
+    BonePrefix "socket_latrine"
+    Prefab "{EC52B3BFFBB1FABD}Prefabs/Structures/BuildingParts/Bunker/BunkerLatrine_01/BunkerLatrine_01.et"
+   }
+   SlotBoneMappingObject "{699B13A91D63956B}" {
+    BonePrefix "socket_filtration"
+    Prefab "{BCC3261E8F3B4CDD}Prefabs/Structures/BuildingParts/Bunker/BunkerAirFiltration_01/BunkerAirFiltration_01.et"
+   }
+   SlotBoneMappingObject "{699B13A91D63956F}" {
+    BonePrefix "socket_door_bunker_E_A"
+    Prefab "{74A8427A65A5B423}Prefabs/Structures/BuildingParts/Doors/Door_Bunker_E_03/DoorSet_Bunker_E_03_A_R_EXT_COV_B.et"
+   }
+   SlotBoneMappingObject "{699B13A91D639562}" {
+    BonePrefix "socket_door_bunker_E_B_LEFT"
+    Prefab "{3F122C49BF0A1AB1}Prefabs/Structures/BuildingParts/Doors/Door_Bunker_E_03/DoorSet_Bunker_E_03_B_L_INT_COV_B.et"
+   }
+   SlotBoneMappingObject "{699B13A91D639560}" {
+    BonePrefix "socket_door_bunker_E_B_right"
+    Prefab "{BD60F148F0218BDB}Prefabs/Structures/BuildingParts/Doors/Door_Bunker_E_03/DoorSet_Bunker_E_03_B_R_INT_COV_B.et"
+   }
+   SlotBoneMappingObject "{699B13A91D639564}" {
+    BonePrefix "socket_door_Metal_B_LEFT"
+    Prefab "{EA47C7B9C65402F8}Prefabs/Structures/BuildingParts/Doors/DoorSet_Metal_02_L_INT_COV_B.et"
+   }
+   SlotBoneMappingObject "{699B13A91D639565}" {
+    BonePrefix "socket_door_Metal_B_RIGHT"
+    Prefab "{07848CA53FAD246B}Prefabs/Structures/BuildingParts/Doors/DoorSet_Metal_02_R_INT_COV_B.et"
+   }
+   SlotBoneMappingObject "{699B13A91D63955F}" {
+    Prefab "{90E386EDBB078521}Prefabs/Structures/BuildingParts/Eletrical/UtilityBoxInt_01/UtilityBoxInt_01_v6.et"
+   }
+   SlotBoneMappingObject "{699B13A91D639553}" {
+    Prefab "{48C0E6A69460D2A4}Prefabs/Structures/BuildingParts/Eletrical/UtilityBoxInt_01/UtilityBoxInt_01_v2.et"
+   }
+   SlotBoneMappingObject "{699B13A91D639556}" {
+    Prefab "{8F0C763B613691A8}Prefabs/Structures/BuildingParts/Eletrical/UtilityBoxInt_01/UtilityBoxInt_01_v3.et"
+   }
+  }
+  {
+   $grp GenericEntity : "{07848CA53FAD246B}Prefabs/Structures/BuildingParts/Doors/DoorSet_Metal_02_R_INT_COV_B.et" {
+    {
+     components {
+      Hierarchy "{612AE78C85563E26}" {
+       PivotID "socket_Door_Metal_B_RIGHT_INT_COV_B_02"
+      }
+     }
+     coords 0 0 0
+    }
+    {
+     components {
+      Hierarchy "{612AE78C85563E26}" {
+       PivotID "socket_Door_Metal_B_RIGHT_INT_COV_B_01"
+      }
+     }
+     coords 0 0 -0.085
+    }
+   }
+   GenericEntity : "{3F122C49BF0A1AB1}Prefabs/Structures/BuildingParts/Doors/Door_Bunker_E_03/DoorSet_Bunker_E_03_B_L_INT_COV_B.et" {
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      PivotID "socket_Door_Bunker_E_B_LEFT_INT_COV_B_01"
+     }
+    }
+    coords 0 0 0
+   }
+   $grp GenericEntity : "{43816DF1021ABD72}Prefabs/LOOT_BOX/3_TIER/3_TIER_Loot_randomize_tools.et" {
+    {
+     coords 10.011 -1.021 4.538
+     angles 0 -172.955 0
+    }
+    {
+     coords 9.021 -1.018 5.604
+     angles 0 -172.955 0
+    }
+   }
+   GenericEntity : "{4613948821749011}Prefabs/Structures/Military/Bunkers/AirfieldBunker_E_01/AirfieldBunker_E_01_big_furniture_02.et" {
+    coords 0 0 0
+   }
+   $grp GenericEntity : "{4EFE35748F199226}Prefabs/LOOT_BOX/2_TIER/2_TIER_Loot_randomize_clothes.et" {
+    {
+     coords -1.524 -1.046 10.627
+     angles 5.371 0 0
+    }
+    {
+     coords -4.238 -1.13 3.026
+     angles 5.371 0 0
+    }
+   }
+   $grp GenericEntity : "{593C5C4530050392}Prefabs/Structures/BuildingParts/Eletrical/UtilityBoxInt_01/UtilityBoxInt_01_v1.et" {
+    {
+     coords -10.8 0.391 7.59
+     angles 0 -180 0
+    }
+    {
+     coords 8.403 0.302 3.359
+    }
+    {
+     coords 1.174 0.313 4.705
+     angles -1.783 180 0
+    }
+    {
+     coords -3.575 0.299 6.246
+     angles -1.733 0 0
+    }
+    {
+     coords -1.941 -0.224 4.428
+     angles 0 -180 0
+    }
+   }
+   GenericEntity : "{5B64B0F835B1A883}Prefabs/LOOT_BOX/3_TIER/3_TIER_Loot_randomize_clothes.et" {
+    coords -1.569 -1.06 5.616
+    angles 5.371 0 0
+   }
+   GenericEntity : "{5D8A463DF84135AA}Prefabs/Structures/BuildingParts/Eletrical/UtilityBoxInt_01/UtilityBoxInt_01_v4.et" {
+    coords -1.932 0.302 10.335
+    angles 0 180 0
+   }
+   GenericEntity : "{62F1771F599A48D2}Prefabs/LOOT_BOX/2_TIER/2_TIER_Loot_randomize_food.et" {
+    coords 1.624 -1.06 6.495
+    angles 0 -102.989 0
+   }
+   $grp GenericEntity : "{6401BFEA3B30EBF7}Prefabs/Structures/BuildingParts/Eletrical/ElectricityJunction_02/ElectricityJunction_02.et" {
+    {
+     coords 8.404 -0.276 7.487
+     angles -1.088 0 -90
+    }
+    {
+     coords -10.802 -0.266 3.463
+     angles 0 0 90
+    }
+   }
+   $grp GenericEntity : "{74A8427A65A5B423}Prefabs/Structures/BuildingParts/Doors/Door_Bunker_E_03/DoorSet_Bunker_E_03_A_R_EXT_COV_B.et" {
+    {
+     components {
+      Hierarchy "{612AE78C85563E26}" {
+       PivotID "socket_Door_Bunker_E_A_RIGHT_EXT_01"
+      }
+     }
+     coords 0 0 0
+    }
+    {
+     components {
+      Hierarchy "{612AE78C85563E26}" {
+       PivotID "socket_Door_Bunker_E_A_RIGHT_EXT_02"
+      }
+     }
+     coords 0 0 0
+    }
+   }
+   $grp GenericEntity : "{8F0C763B613691A8}Prefabs/Structures/BuildingParts/Eletrical/UtilityBoxInt_01/UtilityBoxInt_01_v3.et" {
+    {
+     coords 1.854 0.783 -3.764
+     angles 0 90 0
+    }
+    {
+     coords -1.94 0.815 4.505
+     angles 0 -180 0
+     scale 0.57
+    }
+   }
+   $grp GenericEntity : "{8F17372BAB5A9CF8}Prefabs/Structures/BuildingParts/Lights/LightIndustrial_02.et" {
+    {
+     coords -1.185 1.378 3.254
+     angles -90 0 180
+    }
+    {
+     coords -1.185 1.378 8.078
+     angles -90 0 180
+    }
+    {
+     coords 4.78 -0.451 8.607
+     angles -8.52 180 0
+    }
+    {
+     coords -10.88 1.287 6.727
+     angles 0 -90 0
+    }
+    {
+     coords 7.14 -0.451 8.607
+     angles -8.52 180 0
+    }
+    {
+     coords -4.836 -0.451 8.607
+     angles -8.52 180 0
+    }
+    {
+     coords 2.44 -0.451 8.607
+     angles -8.52 180 0
+    }
+    {
+     coords -10.879 1.284 4.198
+     angles 0 -90 0
+    }
+    {
+     coords 8.481 1.315 6.745
+     angles 0 90 0
+    }
+    {
+     coords 8.481 1.315 4.198
+     angles 0 90 0
+    }
+    {
+     coords 0.585 1.372 -3.048
+     angles -90 -90 0
+    }
+    {
+     coords -1.199 1.401 -1.586
+     angles -90 180 -180
+    }
+    {
+     coords 2.429 -0.451 2.335
+     angles -8.52 0 0
+    }
+    {
+     coords 7.129 -0.451 2.335
+     angles -8.52 0 0
+    }
+    {
+     coords -4.847 -0.451 2.335
+     angles -8.52 0 0
+    }
+    {
+     coords 4.789 -0.451 2.335
+     angles -8.52 0 0
+    }
+    {
+     coords -9.536 -0.451 8.607
+     angles -8.52 180 0
+    }
+    {
+     coords -7.196 -0.451 8.607
+     angles -8.52 180 0
+    }
+    {
+     coords -9.547 -0.451 2.335
+     angles -8.52 0 0
+    }
+    {
+     coords -7.187 -0.451 2.335
+     angles -8.52 0 0
+    }
+   }
+   $grp GameEnvironmentProbeEntity : "{900726DB82FD2EAC}Prefabs/Structures/Military/Bunkers/AirfieldBunker_E_01/Probe_AirfieldBunker_E_01.et" {
+    {
+     coords 1.873 0.3 5.719
+    }
+    {
+     coords 0 0 0
+    }
+   }
+   GenericEntity : "{90E386EDBB078521}Prefabs/Structures/BuildingParts/Eletrical/UtilityBoxInt_01/UtilityBoxInt_01_v6.et" {
+    coords 1.866 0.169 -3.764
+    angles 0 90 0
+   }
+   $grp GenericEntity : "{A8FAF8D8950BF74B}Prefabs/LOOT_BOX/2_TIER/2_TIER_Loot_randomize_tools.et" {
+    {
+     coords 7.497 -1.02 7.876
+     angles 0 -3.093 0
+    }
+    {
+     coords -1.608 -0.999 -3.36
+     angles 0 -3.093 0
+    }
+   }
+   $grp GenericEntity : "{BCC3261E8F3B4CDD}Prefabs/Structures/BuildingParts/Bunker/BunkerAirFiltration_01/BunkerAirFiltration_01.et" {
+    {
+     components {
+      Hierarchy "{612AE78C95E98EEB}" {
+       PivotID "socket_filtration_b"
+      }
+     }
+     coords 0 0 0
+    }
+    {
+     components {
+      Hierarchy "{612AE78C95E98EEB}" {
+       PivotID "socket_filtration_a"
+      }
+     }
+     coords 0 0 0
+    }
+   }
+   GenericEntity : "{BD60F148F0218BDB}Prefabs/Structures/BuildingParts/Doors/Door_Bunker_E_03/DoorSet_Bunker_E_03_B_R_INT_COV_B.et" {
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      PivotID "socket_Door_Bunker_E_B_RIGHT_INT_COV_B_01"
+     }
+    }
+    coords 0 0 0
+   }
+   $grp GenericEntity : "{BE58F8F552188F52}Prefabs/LOOT_BOX/2_TIER/2_TIER_Loot_randomize_medicine.et" {
+    {
+     coords 4.377 -1.045 7.718
+    }
+    {
+     coords 3.379 -1.08 2.986
+    }
+    {
+     coords -0.693 -1.004 0.709
+    }
+    {
+     coords -6.187 -1.044 7.653
+    }
+   }
+   $grp StaticModelEntity : "{CAF8666F26CEB7AD}Prefabs/Structures/BuildingParts/Entry/ConcreteStairs_02_Narrow.et" {
+    {
+     components {
+      Hierarchy "{5488F0388A297CDE}" {
+       PivotID "socket_Door_Bunker_E_A_RIGHT_EXT_01"
+      }
+     }
+     coords 0 -0.173 1.742
+    }
+    {
+     components {
+      Hierarchy "{5488F0388A297CDE}" {
+       PivotID "socket_Door_Bunker_E_A_RIGHT_EXT_02"
+      }
+     }
+     coords 0 -0.166 1.696
+    }
+   }
+   $grp GenericEntity : "{CDF1093C34EED8F1}Prefabs/LOOT_BOX/2_TIER/2_TIER_Loot_randomize_clothes2.et" {
+    {
+     coords 5.079 -1.087 3.146
+    }
+    {
+     coords 2.07 -1.114 3.249
+    }
+    {
+     coords -7.468 -1.065 5.379
+    }
+   }
+   $grp GenericEntity : "{E34303CB179E13D6}Prefabs/Structures/BuildingParts/Lights/LightIndustrial_01.et" {
+    {
+     coords -7.195 2.684 5.492
+     angles -90 0 90
+    }
+    {
+     coords 7.129 2.684 5.492
+     angles -90 0 90
+    }
+    {
+     coords -9.549 2.684 5.492
+     angles -90 0 90
+    }
+    {
+     coords 2.416 2.684 5.492
+     angles -90 0 90
+    }
+    {
+     coords 4.77 2.684 5.492
+     angles -90 0 90
+    }
+    {
+     coords -4.836 2.684 5.492
+     angles -90 0 90
+    }
+   }
+   $grp GenericEntity : "{EA47C7B9C65402F8}Prefabs/Structures/BuildingParts/Doors/DoorSet_Metal_02_L_INT_COV_B.et" {
+    {
+     components {
+      Hierarchy "{612AE78C85563E26}" {
+       PivotID "socket_Door_Metal_B_LEFT_INT_COV_B_02"
+      }
+     }
+    }
+    {
+     components {
+      Hierarchy "{612AE78C85563E26}" {
+       PivotID "socket_Door_Metal_B_LEFT_INT_COV_B_01"
+      }
+     }
+     coords 0 0 -0.085
+    }
+   }
+   $grp GenericEntity : "{EC52B3BFFBB1FABD}Prefabs/Structures/BuildingParts/Bunker/BunkerLatrine_01/BunkerLatrine_01.et" {
+    {
+     components {
+      Hierarchy "{612AE78C95E98EEB}" {
+       PivotID "socket_latrine_b"
+      }
+     }
+     coords 0 0 0
+    }
+    {
+     components {
+      Hierarchy "{612AE78C95E98EEB}" {
+       PivotID "socket_latrine_a"
+      }
+     }
+     coords 0 0 0
+    }
+   }
+  }
+ }
+ {
+  components {
+   Persistence "{699B13A91D6270EA}" {
+    Flags 0 0x1
+   }
+   MeshObject "{699B13A91D6270A9}" {
+    Object "{461D51185F60BCA9}Assets/Structures/Military/Bunkers/AirfieldBunker_E_01/AirfieldBunker_E_01_big.xob"
+    LODFactors {
+     20
+     15
+     10
+     1
+     1
+    }
+    ObjectHeightmapBias 1
+    ClutterOccluder 1
+    ClutterOccluderClipPlane -0.9
+   }
+   Occluder "{699B13A91D62709D}" {
+   }
+   RigidBody "{699B13A91D627153}" {
+    ResponseIndex "Normal"
+    ModelGeometry 1
+    Static 1
+   }
+   SCR_MapDescriptorComponent "{699B13A91D627151}" {
+   }
+   WorldSubsceneComponent "{699B13A91D627156}" {
+   }
+   RplComponent "{699B13A91D627154}" {
+    Enabled 1
+   }
+   Hierarchy "{699B13A91D62714B}" {
+   }
+  }
+  Flags 0x403 0
+  coords 5540.807 303.357 40.766
+  HouseNumber -2
+  SlotBoneMappings {
+   SlotBoneMappingObject "{699B13A91D627140}" {
+    BonePrefix "socket_electricity_box"
+    Prefab "{90E386EDBB078521}Prefabs/Structures/BuildingParts/Eletrical/UtilityBoxInt_01/UtilityBoxInt_01_v6.et"
+   }
+   SlotBoneMappingObject "{699B13A91D627147}" {
+    BonePrefix "socket_electricity_b"
+    Prefab "{C1E195E625940F80}Prefabs/Structures/BuildingParts/Eletrical/LightSwitch_03.et"
+   }
+   SlotBoneMappingObject "{699B13A91D627132}" {
+    BonePrefix "socket_electricity_a"
+    Prefab "{C1E195E625940F80}Prefabs/Structures/BuildingParts/Eletrical/LightSwitch_03.et"
+   }
+   SlotBoneMappingObject "{699B13A91D627131}" {
+    BonePrefix "socket_electricity_c"
+    Prefab "{C1E195E625940F80}Prefabs/Structures/BuildingParts/Eletrical/LightSwitch_03.et"
+   }
+   SlotBoneMappingObject "{699B13A91D627135}" {
+    BonePrefix "socket_electricity_d"
+    Prefab "{C1E195E625940F80}Prefabs/Structures/BuildingParts/Eletrical/LightSwitch_03.et"
+   }
+   SlotBoneMappingObject "{699B13A91D627128}" {
+    BonePrefix "socket_electricity_e"
+    Prefab "{C1E195E625940F80}Prefabs/Structures/BuildingParts/Eletrical/LightSwitch_03.et"
+   }
+   SlotBoneMappingObject "{699B13A91D627122}" {
+    BonePrefix "socket_electricity_f"
+    Prefab "{C1E195E625940F80}Prefabs/Structures/BuildingParts/Eletrical/LightSwitch_03.et"
+   }
+   SlotBoneMappingObject "{699B13A91D627120}" {
+    BonePrefix "socket_latrine"
+    Prefab "{EC52B3BFFBB1FABD}Prefabs/Structures/BuildingParts/Bunker/BunkerLatrine_01/BunkerLatrine_01.et"
+   }
+   SlotBoneMappingObject "{699B13A91D62711A}" {
+    BonePrefix "socket_filtration"
+    Prefab "{BCC3261E8F3B4CDD}Prefabs/Structures/BuildingParts/Bunker/BunkerAirFiltration_01/BunkerAirFiltration_01.et"
+   }
+   SlotBoneMappingObject "{699B13A91D62711D}" {
+    BonePrefix "socket_door_bunker_E_A"
+    Prefab "{74A8427A65A5B423}Prefabs/Structures/BuildingParts/Doors/Door_Bunker_E_03/DoorSet_Bunker_E_03_A_R_EXT_COV_B.et"
+   }
+   SlotBoneMappingObject "{699B13A91D627111}" {
+    BonePrefix "socket_door_bunker_E_B_LEFT"
+    Prefab "{3F122C49BF0A1AB1}Prefabs/Structures/BuildingParts/Doors/Door_Bunker_E_03/DoorSet_Bunker_E_03_B_L_INT_COV_B.et"
+   }
+   SlotBoneMappingObject "{699B13A91D627114}" {
+    BonePrefix "socket_door_bunker_E_B_right"
+    Prefab "{BD60F148F0218BDB}Prefabs/Structures/BuildingParts/Doors/Door_Bunker_E_03/DoorSet_Bunker_E_03_B_R_INT_COV_B.et"
+   }
+   SlotBoneMappingObject "{699B13A91D627108}" {
+    BonePrefix "socket_door_Metal_B_LEFT"
+    Prefab "{EA47C7B9C65402F8}Prefabs/Structures/BuildingParts/Doors/DoorSet_Metal_02_L_INT_COV_B.et"
+   }
+   SlotBoneMappingObject "{699B13A91D62710E}" {
+    BonePrefix "socket_door_Metal_B_RIGHT"
+    Prefab "{07848CA53FAD246B}Prefabs/Structures/BuildingParts/Doors/DoorSet_Metal_02_R_INT_COV_B.et"
+   }
+   SlotBoneMappingObject "{699B13A91D627102}" {
+    Prefab "{90E386EDBB078521}Prefabs/Structures/BuildingParts/Eletrical/UtilityBoxInt_01/UtilityBoxInt_01_v6.et"
+   }
+   SlotBoneMappingObject "{699B13A91D627101}" {
+    Prefab "{48C0E6A69460D2A4}Prefabs/Structures/BuildingParts/Eletrical/UtilityBoxInt_01/UtilityBoxInt_01_v2.et"
+   }
+   SlotBoneMappingObject "{699B13A91D627104}" {
+    Prefab "{8F0C763B613691A8}Prefabs/Structures/BuildingParts/Eletrical/UtilityBoxInt_01/UtilityBoxInt_01_v3.et"
+   }
+  }
+  {
+   $grp GenericEntity : "{07848CA53FAD246B}Prefabs/Structures/BuildingParts/Doors/DoorSet_Metal_02_R_INT_COV_B.et" {
+    {
+     components {
+      Hierarchy "{612AE78C85563E26}" {
+       PivotID "socket_Door_Metal_B_RIGHT_INT_COV_B_02"
+      }
+     }
+     coords 0 0 0
+    }
+    {
+     components {
+      Hierarchy "{612AE78C85563E26}" {
+       PivotID "socket_Door_Metal_B_RIGHT_INT_COV_B_01"
+      }
+     }
+     coords 0 0 -0.085
+    }
+   }
+   GenericEntity : "{3F122C49BF0A1AB1}Prefabs/Structures/BuildingParts/Doors/Door_Bunker_E_03/DoorSet_Bunker_E_03_B_L_INT_COV_B.et" {
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      PivotID "socket_Door_Bunker_E_B_LEFT_INT_COV_B_01"
+     }
+    }
+    coords 0 0 0
+   }
+   $grp GenericEntity : "{43816DF1021ABD72}Prefabs/LOOT_BOX/3_TIER/3_TIER_Loot_randomize_tools.et" {
+    {
+     coords 10.011 -1.021 4.538
+     angles 0 -172.955 0
+    }
+    {
+     coords 9.021 -1.018 5.604
+     angles 0 -172.955 0
+    }
+   }
+   GenericEntity : "{4613948821749011}Prefabs/Structures/Military/Bunkers/AirfieldBunker_E_01/AirfieldBunker_E_01_big_furniture_02.et" {
+    coords 0 0 0
+   }
+   $grp GenericEntity : "{4EFE35748F199226}Prefabs/LOOT_BOX/2_TIER/2_TIER_Loot_randomize_clothes.et" {
+    {
+     coords -1.524 -1.046 10.627
+     angles 5.371 0 0
+    }
+    {
+     coords -4.238 -1.13 3.026
+     angles 5.371 0 0
+    }
+   }
+   $grp GenericEntity : "{593C5C4530050392}Prefabs/Structures/BuildingParts/Eletrical/UtilityBoxInt_01/UtilityBoxInt_01_v1.et" {
+    {
+     coords -10.8 0.391 7.59
+     angles 0 -180 0
+    }
+    {
+     coords 8.403 0.302 3.359
+    }
+    {
+     coords 1.174 0.313 4.705
+     angles -1.783 180 0
+    }
+    {
+     coords -3.575 0.299 6.246
+     angles -1.733 0 0
+    }
+    {
+     coords -1.941 -0.224 4.428
+     angles 0 -180 0
+    }
+   }
+   GenericEntity : "{5B64B0F835B1A883}Prefabs/LOOT_BOX/3_TIER/3_TIER_Loot_randomize_clothes.et" {
+    coords -1.569 -1.06 5.616
+    angles 5.371 0 0
+   }
+   GenericEntity : "{5D8A463DF84135AA}Prefabs/Structures/BuildingParts/Eletrical/UtilityBoxInt_01/UtilityBoxInt_01_v4.et" {
+    coords -1.932 0.302 10.335
+    angles 0 180 0
+   }
+   GenericEntity : "{62F1771F599A48D2}Prefabs/LOOT_BOX/2_TIER/2_TIER_Loot_randomize_food.et" {
+    coords 1.624 -1.06 6.495
+    angles 0 -102.989 0
+   }
+   $grp GenericEntity : "{6401BFEA3B30EBF7}Prefabs/Structures/BuildingParts/Eletrical/ElectricityJunction_02/ElectricityJunction_02.et" {
+    {
+     coords 8.404 -0.276 7.487
+     angles -1.088 0 -90
+    }
+    {
+     coords -10.802 -0.266 3.463
+     angles 0 0 90
+    }
+   }
+   $grp GenericEntity : "{74A8427A65A5B423}Prefabs/Structures/BuildingParts/Doors/Door_Bunker_E_03/DoorSet_Bunker_E_03_A_R_EXT_COV_B.et" {
+    {
+     components {
+      Hierarchy "{612AE78C85563E26}" {
+       PivotID "socket_Door_Bunker_E_A_RIGHT_EXT_01"
+      }
+     }
+     coords 0 0 0
+    }
+    {
+     components {
+      Hierarchy "{612AE78C85563E26}" {
+       PivotID "socket_Door_Bunker_E_A_RIGHT_EXT_02"
+      }
+     }
+     coords 0 0 0
+    }
+   }
+   $grp GenericEntity : "{8F0C763B613691A8}Prefabs/Structures/BuildingParts/Eletrical/UtilityBoxInt_01/UtilityBoxInt_01_v3.et" {
+    {
+     coords 1.854 0.783 -3.764
+     angles 0 90 0
+    }
+    {
+     coords -1.94 0.815 4.505
+     angles 0 -180 0
+     scale 0.57
+    }
+   }
+   $grp GenericEntity : "{8F17372BAB5A9CF8}Prefabs/Structures/BuildingParts/Lights/LightIndustrial_02.et" {
+    {
+     coords -1.185 1.378 3.254
+     angles -90 0 180
+    }
+    {
+     coords -1.185 1.378 8.078
+     angles -90 0 180
+    }
+    {
+     coords 4.78 -0.451 8.607
+     angles -8.52 180 0
+    }
+    {
+     coords -10.88 1.287 6.727
+     angles 0 -90 0
+    }
+    {
+     coords 7.14 -0.451 8.607
+     angles -8.52 180 0
+    }
+    {
+     coords -4.836 -0.451 8.607
+     angles -8.52 180 0
+    }
+    {
+     coords 2.44 -0.451 8.607
+     angles -8.52 180 0
+    }
+    {
+     coords -10.879 1.284 4.198
+     angles 0 -90 0
+    }
+    {
+     coords 8.481 1.315 6.745
+     angles 0 90 0
+    }
+    {
+     coords 8.481 1.315 4.198
+     angles 0 90 0
+    }
+    {
+     coords 0.585 1.372 -3.048
+     angles -90 -90 0
+    }
+    {
+     coords -1.199 1.401 -1.586
+     angles -90 180 -180
+    }
+    {
+     coords 2.429 -0.451 2.335
+     angles -8.52 0 0
+    }
+    {
+     coords 7.129 -0.451 2.335
+     angles -8.52 0 0
+    }
+    {
+     coords -4.847 -0.451 2.335
+     angles -8.52 0 0
+    }
+    {
+     coords 4.789 -0.451 2.335
+     angles -8.52 0 0
+    }
+    {
+     coords -9.536 -0.451 8.607
+     angles -8.52 180 0
+    }
+    {
+     coords -7.196 -0.451 8.607
+     angles -8.52 180 0
+    }
+    {
+     coords -9.547 -0.451 2.335
+     angles -8.52 0 0
+    }
+    {
+     coords -7.187 -0.451 2.335
+     angles -8.52 0 0
+    }
+   }
+   $grp GameEnvironmentProbeEntity : "{900726DB82FD2EAC}Prefabs/Structures/Military/Bunkers/AirfieldBunker_E_01/Probe_AirfieldBunker_E_01.et" {
+    {
+     coords 1.873 0.3 5.719
+    }
+    {
+     coords 0 0 0
+    }
+   }
+   GenericEntity : "{90E386EDBB078521}Prefabs/Structures/BuildingParts/Eletrical/UtilityBoxInt_01/UtilityBoxInt_01_v6.et" {
+    coords 1.866 0.169 -3.764
+    angles 0 90 0
+   }
+   $grp GenericEntity : "{A8FAF8D8950BF74B}Prefabs/LOOT_BOX/2_TIER/2_TIER_Loot_randomize_tools.et" {
+    {
+     coords 7.497 -1.02 7.876
+     angles 0 -3.093 0
+    }
+    {
+     coords -1.608 -0.999 -3.36
+     angles 0 -3.093 0
+    }
+   }
+   $grp GenericEntity : "{BCC3261E8F3B4CDD}Prefabs/Structures/BuildingParts/Bunker/BunkerAirFiltration_01/BunkerAirFiltration_01.et" {
+    {
+     components {
+      Hierarchy "{612AE78C95E98EEB}" {
+       PivotID "socket_filtration_b"
+      }
+     }
+     coords 0 0 0
+    }
+    {
+     components {
+      Hierarchy "{612AE78C95E98EEB}" {
+       PivotID "socket_filtration_a"
+      }
+     }
+     coords 0 0 0
+    }
+   }
+   GenericEntity : "{BD60F148F0218BDB}Prefabs/Structures/BuildingParts/Doors/Door_Bunker_E_03/DoorSet_Bunker_E_03_B_R_INT_COV_B.et" {
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      PivotID "socket_Door_Bunker_E_B_RIGHT_INT_COV_B_01"
+     }
+    }
+    coords 0 0 0
+   }
+   $grp GenericEntity : "{BE58F8F552188F52}Prefabs/LOOT_BOX/2_TIER/2_TIER_Loot_randomize_medicine.et" {
+    {
+     coords 4.377 -1.045 7.718
+    }
+    {
+     coords 3.379 -1.08 2.986
+    }
+    {
+     coords -0.693 -1.004 0.709
+    }
+    {
+     coords -6.187 -1.044 7.653
+    }
+   }
+   $grp StaticModelEntity : "{CAF8666F26CEB7AD}Prefabs/Structures/BuildingParts/Entry/ConcreteStairs_02_Narrow.et" {
+    {
+     components {
+      Hierarchy "{5488F0388A297CDE}" {
+       PivotID "socket_Door_Bunker_E_A_RIGHT_EXT_01"
+      }
+     }
+     coords 0 -0.173 1.742
+    }
+    {
+     components {
+      Hierarchy "{5488F0388A297CDE}" {
+       PivotID "socket_Door_Bunker_E_A_RIGHT_EXT_02"
+      }
+     }
+     coords 0 -0.166 1.696
+    }
+   }
+   $grp GenericEntity : "{CDF1093C34EED8F1}Prefabs/LOOT_BOX/2_TIER/2_TIER_Loot_randomize_clothes2.et" {
+    {
+     coords 5.079 -1.087 3.146
+    }
+    {
+     coords 2.07 -1.114 3.249
+    }
+    {
+     coords -7.468 -1.065 5.379
+    }
+   }
+   $grp GenericEntity : "{E34303CB179E13D6}Prefabs/Structures/BuildingParts/Lights/LightIndustrial_01.et" {
+    {
+     coords -7.195 2.684 5.492
+     angles -90 0 90
+    }
+    {
+     coords 7.129 2.684 5.492
+     angles -90 0 90
+    }
+    {
+     coords -9.549 2.684 5.492
+     angles -90 0 90
+    }
+    {
+     coords 2.416 2.684 5.492
+     angles -90 0 90
+    }
+    {
+     coords 4.77 2.684 5.492
+     angles -90 0 90
+    }
+    {
+     coords -4.836 2.684 5.492
+     angles -90 0 90
+    }
+   }
+   $grp GenericEntity : "{EA47C7B9C65402F8}Prefabs/Structures/BuildingParts/Doors/DoorSet_Metal_02_L_INT_COV_B.et" {
+    {
+     components {
+      Hierarchy "{612AE78C85563E26}" {
+       PivotID "socket_Door_Metal_B_LEFT_INT_COV_B_02"
+      }
+     }
+    }
+    {
+     components {
+      Hierarchy "{612AE78C85563E26}" {
+       PivotID "socket_Door_Metal_B_LEFT_INT_COV_B_01"
+      }
+     }
+     coords 0 0 -0.085
+    }
+   }
+   $grp GenericEntity : "{EC52B3BFFBB1FABD}Prefabs/Structures/BuildingParts/Bunker/BunkerLatrine_01/BunkerLatrine_01.et" {
+    {
+     components {
+      Hierarchy "{612AE78C95E98EEB}" {
+       PivotID "socket_latrine_b"
+      }
+     }
+     coords 0 0 0
+    }
+    {
+     components {
+      Hierarchy "{612AE78C95E98EEB}" {
+       PivotID "socket_latrine_a"
+      }
+     }
+     coords 0 0 0
+    }
+   }
+  }
+ }
+}
 $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawner.et" {
  electro6 {
   components {

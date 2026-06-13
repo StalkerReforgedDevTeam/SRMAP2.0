@@ -1178,6 +1178,33 @@ $grp GenericEntity : "{8C30960EF8E50389}Prefabs/Vehicles/ural/armst_ural_wheels_
 GenericEntity : "{8C8516E96B5173D8}Prefabs/Vehicles/gaz66/armst_gaz66_wreck_box.et" {
  coords 3356.011 300.923 2424.589
  angles 0 -63.076 0
+ {
+  GenericEntity {
+   ID "62CE6901CD359D83"
+   {
+    GenericEntity {
+     ID "695EA19AF4ED2274"
+     components {
+      ARMST_RANDOM_LOOTS_POINT "{669E6408BB576032}" {
+       m_LootTiersSpawn {
+        "TIER_3"
+       }
+      }
+     }
+    }
+    GenericEntity {
+     ID "695EA19AF4ED22A6"
+     components {
+      ARMST_RANDOM_LOOTS_POINT "{669E6408BB576032}" {
+       m_LootTiersSpawn {
+        "TIER_3"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
 }
 GenericEntity : "{942E7C75FD9B848C}Prefabs/Vehicles/vaz2109/base/BASE_vaz2109_wreck.et" {
  coords 3054.029 304.702 2507.457
@@ -1370,6 +1397,31 @@ $grp GenericEntity : "{D70B514EAEF45E49}Prefabs/Vehicles/gaz53/armst_gaz53_box_o
      }
     }
    }
+   GenericEntity {
+    ID "666C84406FA17EA7"
+    {
+     GenericEntity {
+      ID "695EA19AC623112A"
+      components {
+       ARMST_RANDOM_LOOTS_POINT "{669E6408BB576032}" {
+        m_LootTiersSpawn {
+         "TIER_3"
+        }
+       }
+      }
+     }
+     GenericEntity {
+      ID "695EA19AC6231174"
+      components {
+       ARMST_RANDOM_LOOTS_POINT "{669E6408BB576032}" {
+        m_LootTiersSpawn {
+         "TIER_3"
+        }
+       }
+      }
+     }
+    }
+   }
   }
  }
  {
@@ -1386,6 +1438,31 @@ $grp GenericEntity : "{D70B514EAEF45E49}Prefabs/Vehicles/gaz53/armst_gaz53_box_o
     {
      components {
       ARMST_RANDOM_LOOTS_POINT "{65A4C21432607623}" {
+      }
+     }
+    }
+   }
+   GenericEntity {
+    ID "666C84406FA17EA7"
+    {
+     GenericEntity {
+      ID "695EA19AC623112A"
+      components {
+       ARMST_RANDOM_LOOTS_POINT "{669E6408BB576032}" {
+        m_LootTiersSpawn {
+         "TIER_3"
+        }
+       }
+      }
+     }
+     GenericEntity {
+      ID "695EA19AC6231174"
+      components {
+       ARMST_RANDOM_LOOTS_POINT "{669E6408BB576032}" {
+        m_LootTiersSpawn {
+         "TIER_3"
+        }
+       }
       }
      }
     }

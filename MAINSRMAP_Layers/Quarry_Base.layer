@@ -17,23 +17,173 @@ $grp SCR_DestructibleBuildingEntity : "{0ACD5769BB42F2FB}Prefabs/Method/Props/Ca
  {
   coords 4542.561 0.306 1598.599
   angles 0 -69.037 0
+  {
+   GenericEntity {
+    ID "695EA19AB703B13C"
+    components {
+     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+      m_LootTiersSpawn +{
+       "TIER_2"
+      }
+     }
+    }
+   }
+   GenericEntity {
+    ID "695EA19AB703B155"
+    components {
+     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+      m_LootTiersSpawn +{
+       "TIER_2"
+      }
+     }
+    }
+   }
+   GenericEntity {
+    ID "695EA19AB703B15A"
+    components {
+     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+      m_LootTiersSpawn +{
+       "TIER_2"
+      }
+     }
+    }
+   }
+  }
  }
  {
   coords 4505.325 0.091 1776.105
   angles 0 162.697 0
+  {
+   GenericEntity {
+    ID "695EA19AB703B13C"
+    components {
+     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+      m_LootTiersSpawn +{
+       "TIER_2"
+      }
+     }
+    }
+   }
+   GenericEntity {
+    ID "695EA19AB703B155"
+    components {
+     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+      m_LootTiersSpawn +{
+       "TIER_2"
+      }
+     }
+    }
+   }
+   GenericEntity {
+    ID "695EA19AB703B15A"
+    components {
+     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+      m_LootTiersSpawn +{
+       "TIER_2"
+      }
+     }
+    }
+   }
+  }
  }
  {
   coords 4542.417 0.285 1729.612
   angles 0 93.921 0
+  {
+   GenericEntity {
+    ID "695EA19AB703B13C"
+    components {
+     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+      m_LootTiersSpawn +{
+       "TIER_2"
+      }
+     }
+    }
+   }
+   GenericEntity {
+    ID "695EA19AB703B155"
+    components {
+     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+      m_LootTiersSpawn +{
+       "TIER_2"
+      }
+     }
+    }
+   }
+   GenericEntity {
+    ID "695EA19AB703B15A"
+    components {
+     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+      m_LootTiersSpawn +{
+       "TIER_2"
+      }
+     }
+    }
+   }
+  }
  }
  {
   coords 4544.362 0.548 1735.427
   angles 0 120.278 0
+  {
+   GenericEntity {
+    ID "695EA19AB703B13C"
+    components {
+     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+      m_LootTiersSpawn +{
+       "TIER_2"
+      }
+     }
+    }
+   }
+   GenericEntity {
+    ID "695EA19AB703B155"
+    components {
+     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+      m_LootTiersSpawn +{
+       "TIER_2"
+      }
+     }
+    }
+   }
+   GenericEntity {
+    ID "695EA19AB703B15A"
+    components {
+     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+      m_LootTiersSpawn +{
+       "TIER_2"
+      }
+     }
+    }
+   }
+  }
  }
 }
 SCR_DestructibleBuildingEntity : "{113C33E4F8E97E22}Prefabs/Industrial/sklades_soviet/Watchtower_4_soviets.et" {
  coords 4438.176 314.596 1776.157
  angles 0 -46.147 0
+ {
+  GenericEntity {
+   ID "695EA1965AD50369"
+   components {
+    ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+     m_LootTiersSpawn +{
+      "TIER_2"
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "695EA1965AD5037C"
+   components {
+    ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+     m_LootTiersSpawn +{
+      "TIER_2"
+     }
+    }
+   }
+  }
+ }
 }
 $grp GenericEntity : "{14225F5BB48F0C00}Prefabs/Props/Construction/ContainerMetal_01/ContainerMetal_01_base.et" {
  {
@@ -51,6 +201,38 @@ StaticModelEntity : "{19A3C48FC2665A3F}Prefabs/Props/Construction/GravelPile_01/
 GameEntity : "{1B1B80B11EA3FBA0}Prefabs/Method/Props/Camps/Fireplace_Loiters_03_temp.et" {
  coords 4599.303 303.483 1726.138
  angles 0 43.259 0
+ {
+  GenericEntity {
+   ID "695EA19B169BBAFD"
+   components {
+    ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+     m_LootTiersSpawn +{
+      "TIER_2"
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "695EA19B169BBB35"
+   components {
+    ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+     m_LootTiersSpawn +{
+      "TIER_2"
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "695EA19B169BBB3F"
+   components {
+    ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+     m_LootTiersSpawn +{
+      "TIER_2"
+     }
+    }
+   }
+  }
+ }
 }
 GenericEntity : "{22E2462FA3AE0849}Prefabs/Props/Construction/ConcretePipe/ConcretePipe_01_Long_Pile.et" {
  coords 4568.192 312.375 1637.481
@@ -68,10 +250,74 @@ $grp SCR_DestructibleBuildingEntity : "{3177788C81331648}Prefabs/Industrial/buil
  {
   coords 4518.025 312.039 1587.565
   angles 0 -109.453 0
+  {
+   GenericEntity {
+    ID "695EA199D4FFD62E"
+    components {
+     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+      m_LootTiersSpawn +{
+       "TIER_2"
+      }
+     }
+    }
+   }
+   GenericEntity {
+    ID "695EA199D4FFD658"
+    components {
+     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+      m_LootTiersSpawn +{
+       "TIER_2"
+      }
+     }
+    }
+   }
+   GenericEntity {
+    ID "695EA199D97FE1A4"
+    components {
+     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+      m_LootTiersSpawn +{
+       "TIER_2"
+      }
+     }
+    }
+   }
+  }
  }
  {
   coords 4562.676 296.232 1732.596
   angles -3.455 167.699 3.037
+  {
+   GenericEntity {
+    ID "695EA199D4FFD62E"
+    components {
+     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+      m_LootTiersSpawn +{
+       "TIER_2"
+      }
+     }
+    }
+   }
+   GenericEntity {
+    ID "695EA199D4FFD658"
+    components {
+     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+      m_LootTiersSpawn +{
+       "TIER_2"
+      }
+     }
+    }
+   }
+   GenericEntity {
+    ID "695EA199D97FE1A4"
+    components {
+     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+      m_LootTiersSpawn +{
+       "TIER_2"
+      }
+     }
+    }
+   }
+  }
  }
 }
 GenericEntity : "{3619812B192CCAE9}Prefabs/Props/Core/Wreck_Base.et" {
@@ -291,10 +537,54 @@ $grp SCR_DestructibleBuildingEntity : "{4A3D764C0D5E70BC}Prefabs/Method/Structur
  {
   coords 4535.312 0.536 1593.315
   angles 0 -5.14 0
+  {
+   GenericEntity {
+    ID "695EA185D0F8D2EC"
+    components {
+     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+      m_LootTiersSpawn +{
+       "TIER_2"
+      }
+     }
+    }
+   }
+   GenericEntity {
+    ID "695EA185D0F8D31A"
+    components {
+     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+      m_LootTiersSpawn +{
+       "TIER_2"
+      }
+     }
+    }
+   }
+  }
  }
  {
   coords 4509.824 0.198 1780.012
   angles 0 172.373 0
+  {
+   GenericEntity {
+    ID "695EA185D0F8D2EC"
+    components {
+     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+      m_LootTiersSpawn +{
+       "TIER_2"
+      }
+     }
+    }
+   }
+   GenericEntity {
+    ID "695EA185D0F8D31A"
+    components {
+     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+      m_LootTiersSpawn +{
+       "TIER_2"
+      }
+     }
+    }
+   }
+  }
  }
 }
 $grp StaticModelEntity : "{5255F7BE946E153F}Prefabs/Structures/Walls/Concrete/SilageWall_01/SilageWall_01_5m.et" {
@@ -1182,10 +1472,34 @@ $grp SCR_DestructibleBuildingEntity : "{ACE8DF66DCD41EF5}Prefabs/Method/Structur
  {
   coords 4528.042 0.306 1590.545
   angles 0 -18.132 0
+  {
+   GenericEntity {
+    ID "695EA185DD2E1FE8"
+    components {
+     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+      m_LootTiersSpawn +{
+       "TIER_2"
+      }
+     }
+    }
+   }
+  }
  }
  {
   coords 4516.021 0 1780.334
   angles 0 174.976 0
+  {
+   GenericEntity {
+    ID "695EA185DD2E1FE8"
+    components {
+     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+      m_LootTiersSpawn +{
+       "TIER_2"
+      }
+     }
+    }
+   }
+  }
  }
 }
 $grp SCR_DestructibleBuildingEntity : "{B09D999506CDF092}Prefabs/Vehicles/dz-76/armst_veh_dz_76.et" {
@@ -1237,10 +1551,36 @@ $grp SCR_DestructibleBuildingEntity : "{CFFBF2762CF73C3C}Prefabs/Structures/Indu
  {
   coords 4527.856 0.59 1610.909
   angles 0 163.695 0
+  {
+   GenericEntity {
+    ID "6976727EC311500F"
+    components {
+     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+      m_LootTiersSpawn {
+       ""
+       "TIER_2"
+      }
+     }
+    }
+   }
+  }
  }
  {
   coords 4561.349 -0.3 1622.247
   angles 0 160.4 0
+  {
+   GenericEntity {
+    ID "6976727EC311500F"
+    components {
+     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+      m_LootTiersSpawn {
+       ""
+       "TIER_2"
+      }
+     }
+    }
+   }
+  }
  }
 }
 $grp SCR_DestructibleBuildingEntity : "{D3C9D19837B99FDF}Prefabs/Vehicles/eo_4121/armst_veh_eo_4121.et" {
@@ -1306,6 +1646,46 @@ SCR_DestructibleBuildingEntity : "{DA18BC3C9738C614}Prefabs/Industrial/builds/bi
         m_iMaxItemsToSpawn 6
        }
       }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "6976726E3EC7332D"
+   components {
+    ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+     m_LootTiersSpawn +{
+      "TIER_2"
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "6976726E3EC73330"
+   components {
+    ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+     m_LootTiersSpawn +{
+      "TIER_2"
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "6976726E3EC73337"
+   components {
+    ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+     m_LootTiersSpawn +{
+      "TIER_2"
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "6976726E3EC73339"
+   components {
+    ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+     m_LootTiersSpawn +{
+      "TIER_2"
      }
     }
    }

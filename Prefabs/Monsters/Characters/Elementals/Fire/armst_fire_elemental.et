@@ -1,0 +1,12 @@
+Armst_Monster_Character : "{84862F078179934E}622120A5448725E3/Prefabs/Characters/Variants/Variant_Exploder1.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterDamageManagerComponent "{55872AD7B4E959F2}" {
+   "Additional hit zones" {
+    SCR_CharacterHealthHitZone Health {
+     MaxHealth 80
+    }
+   }
+  }
+ }
+}

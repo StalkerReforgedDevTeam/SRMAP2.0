@@ -6670,6 +6670,35 @@ GenericEntity : "{E59B30B1C7960CE5}Prefabs/Props/Garbage/Generic/LitterInterior_
 GenericEntity : "{E7B9D08AA65270BE}Prefabs/Vehicles/gaz66/armst_gaz66_box.et" {
  coords 3679.344 307.89 2716.428
  angles 0 -128.864 0
+ {
+  GenericEntity {
+   ID "62CE690207652DF8"
+   {
+    GenericEntity {
+     ID "695EA1893636FC9D"
+     components {
+      ARMST_RANDOM_LOOTS_POINT "{669E640B5529F967}" {
+       m_LootTiersSpawn {
+        "TIER_3"
+        "TIER_2"
+       }
+      }
+     }
+    }
+    GenericEntity {
+     ID "695EA1893636FCA2"
+     components {
+      ARMST_RANDOM_LOOTS_POINT "{669E640B5529F967}" {
+       m_LootTiersSpawn {
+        "TIER_3"
+        "TIER_2"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
 }
 GenericEntity : "{E7C790A8BF892C2A}Prefabs/Particles/Metal/Vehicle/Dbr_Helicopter_Blade_03.et" {
  coords 3804.821 307.666 2685.766

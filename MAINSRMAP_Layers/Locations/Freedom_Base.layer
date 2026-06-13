@@ -1762,6 +1762,15 @@ $grp GenericEntity : "{0C51EDCEEC144BC1}Prefabs/Compositions/Misc/SubComposition
 }
 GenericEntity : "{0CA0F15A651DB0F7}Prefabs/LOOT_BOX/base/army/Loot_army_box_weapons.et" {
  components {
+  ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+   m_LootCategories {
+    "AMMOS"
+    "ATTACHMENT"
+   }
+   m_LootTiersSpawn {
+    "TIER_1"
+   }
+  }
   ActionsManagerComponent "{6190D137C5926215}" {
    additionalActions {
     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
@@ -6317,6 +6326,15 @@ GenericEntity : "{E432A2B14E69DA5E}Prefabs/Compositions/Misc/SubCompositions/Cab
 $grp GenericEntity : "{E46AA9A6176088CD}Prefabs/LOOT_BOX/base/army/Loot_army_box_grenades.et" {
  {
   components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "AMMOS"
+     "ATTACHMENT"
+    }
+    m_LootTiersSpawn {
+     "TIER_1"
+    }
+   }
    ActionsManagerComponent "{6190D137C5926215}" {
     additionalActions {
      ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
@@ -6328,6 +6346,15 @@ $grp GenericEntity : "{E46AA9A6176088CD}Prefabs/LOOT_BOX/base/army/Loot_army_box
  }
  {
   components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "AMMOS"
+     "ATTACHMENT"
+    }
+    m_LootTiersSpawn {
+     "TIER_1"
+    }
+   }
    ActionsManagerComponent "{6190D137C5926215}" {
     additionalActions {
      ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
@@ -6339,6 +6366,15 @@ $grp GenericEntity : "{E46AA9A6176088CD}Prefabs/LOOT_BOX/base/army/Loot_army_box
  }
  {
   components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "AMMOS"
+     "ATTACHMENT"
+    }
+    m_LootTiersSpawn {
+     "TIER_1"
+    }
+   }
    ActionsManagerComponent "{6190D137C5926215}" {
     additionalActions {
      ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {

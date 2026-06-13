@@ -16853,6 +16853,107 @@ $grp SCR_DestructibleBuildingEntity : "{A1343A72CEB5867A}Prefabs/Industrial/unde
  {
   coords 2278.918 2.36 2290.412
   angles 0 112.76 0
+  {
+   GenericEntity {
+    ID "6976727646BA1415"
+    components {
+     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+      m_LootTiersSpawn {
+       ""
+       "TIER_2"
+      }
+     }
+    }
+   }
+   GenericEntity {
+    ID "6976727646BA144A"
+    components {
+     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+      m_LootTiersSpawn {
+       ""
+       "TIER_2"
+      }
+     }
+    }
+   }
+   GenericEntity {
+    ID "6976727646BA147C"
+    components {
+     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+      m_LootTiersSpawn {
+       ""
+       "TIER_2"
+      }
+     }
+    }
+   }
+   GenericEntity {
+    ID "6976727646BA14E7"
+    components {
+     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+      m_LootTiersSpawn {
+       ""
+       "TIER_2"
+      }
+     }
+    }
+   }
+   GenericEntity {
+    ID "6976727646BA150E"
+    components {
+     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+      m_LootTiersSpawn {
+       ""
+       "TIER_2"
+      }
+     }
+    }
+   }
+   GenericEntity {
+    ID "6976727646BA151C"
+    components {
+     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+      m_LootTiersSpawn {
+       ""
+       "TIER_2"
+      }
+     }
+    }
+   }
+   GenericEntity {
+    ID "6976727646BA153D"
+    components {
+     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+      m_LootTiersSpawn {
+       ""
+       "TIER_2"
+      }
+     }
+    }
+   }
+   GenericEntity {
+    ID "6976727646BA1627"
+    components {
+     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+      m_LootTiersSpawn {
+       ""
+       "TIER_2"
+      }
+     }
+    }
+   }
+   GenericEntity {
+    ID "6976727646BA162E"
+    components {
+     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+      m_LootTiersSpawn {
+       ""
+       "TIER_2"
+      }
+     }
+    }
+   }
+  }
  }
  {
   coords 2513.684 -26.255 2350.528
@@ -16873,11 +16974,211 @@ $grp SCR_DestructibleBuildingEntity : "{A1343A72CEB5867A}Prefabs/Industrial/unde
      }
     }
    }
+   GenericEntity {
+    ID "6976727646BA1415"
+    components {
+     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+      m_LootTiersSpawn {
+       ""
+       "TIER_2"
+      }
+     }
+    }
+   }
+   GenericEntity {
+    ID "6976727646BA144A"
+    components {
+     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+      m_LootTiersSpawn {
+       ""
+       "TIER_2"
+      }
+     }
+    }
+   }
+   GenericEntity {
+    ID "6976727646BA147C"
+    components {
+     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+      m_LootTiersSpawn {
+       ""
+       "TIER_2"
+      }
+     }
+    }
+   }
+   GenericEntity {
+    ID "6976727646BA14E7"
+    components {
+     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+      m_LootTiersSpawn {
+       ""
+       "TIER_2"
+      }
+     }
+    }
+   }
+   GenericEntity {
+    ID "6976727646BA150E"
+    components {
+     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+      m_LootTiersSpawn {
+       ""
+       "TIER_2"
+      }
+     }
+    }
+   }
+   GenericEntity {
+    ID "6976727646BA151C"
+    components {
+     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+      m_LootTiersSpawn {
+       ""
+       "TIER_2"
+      }
+     }
+    }
+   }
+   GenericEntity {
+    ID "6976727646BA153D"
+    components {
+     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+      m_LootTiersSpawn {
+       ""
+       "TIER_2"
+      }
+     }
+    }
+   }
+   GenericEntity {
+    ID "6976727646BA1627"
+    components {
+     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+      m_LootTiersSpawn {
+       ""
+       "TIER_2"
+      }
+     }
+    }
+   }
+   GenericEntity {
+    ID "6976727646BA162E"
+    components {
+     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+      m_LootTiersSpawn {
+       ""
+       "TIER_2"
+      }
+     }
+    }
+   }
   }
  }
  {
   coords 2607.197 0.599 2077.523
   angles 0 -56.31 0
+  {
+   GenericEntity {
+    ID "6976727646BA1415"
+    components {
+     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+      m_LootTiersSpawn {
+       ""
+       "TIER_2"
+      }
+     }
+    }
+   }
+   GenericEntity {
+    ID "6976727646BA144A"
+    components {
+     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+      m_LootTiersSpawn {
+       ""
+       "TIER_2"
+      }
+     }
+    }
+   }
+   GenericEntity {
+    ID "6976727646BA147C"
+    components {
+     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+      m_LootTiersSpawn {
+       ""
+       "TIER_2"
+      }
+     }
+    }
+   }
+   GenericEntity {
+    ID "6976727646BA14E7"
+    components {
+     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+      m_LootTiersSpawn {
+       ""
+       "TIER_2"
+      }
+     }
+    }
+   }
+   GenericEntity {
+    ID "6976727646BA150E"
+    components {
+     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+      m_LootTiersSpawn {
+       ""
+       "TIER_2"
+      }
+     }
+    }
+   }
+   GenericEntity {
+    ID "6976727646BA151C"
+    components {
+     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+      m_LootTiersSpawn {
+       ""
+       "TIER_2"
+      }
+     }
+    }
+   }
+   GenericEntity {
+    ID "6976727646BA153D"
+    components {
+     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+      m_LootTiersSpawn {
+       ""
+       "TIER_2"
+      }
+     }
+    }
+   }
+   GenericEntity {
+    ID "6976727646BA1627"
+    components {
+     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+      m_LootTiersSpawn {
+       ""
+       "TIER_2"
+      }
+     }
+    }
+   }
+   GenericEntity {
+    ID "6976727646BA162E"
+    components {
+     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+      m_LootTiersSpawn {
+       ""
+       "TIER_2"
+      }
+     }
+    }
+   }
+  }
  }
  {
   coords 2216.267 -27.509 2106.216
@@ -16909,6 +17210,105 @@ $grp SCR_DestructibleBuildingEntity : "{A1343A72CEB5867A}Prefabs/Industrial/unde
          m_FactionKey FACTION_MUTANTS
         }
        }
+      }
+     }
+    }
+   }
+   GenericEntity {
+    ID "6976727646BA1415"
+    components {
+     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+      m_LootTiersSpawn {
+       ""
+       "TIER_2"
+      }
+     }
+    }
+   }
+   GenericEntity {
+    ID "6976727646BA144A"
+    components {
+     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+      m_LootTiersSpawn {
+       ""
+       "TIER_2"
+      }
+     }
+    }
+   }
+   GenericEntity {
+    ID "6976727646BA147C"
+    components {
+     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+      m_LootTiersSpawn {
+       ""
+       "TIER_2"
+      }
+     }
+    }
+   }
+   GenericEntity {
+    ID "6976727646BA14E7"
+    components {
+     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+      m_LootTiersSpawn {
+       ""
+       "TIER_2"
+      }
+     }
+    }
+   }
+   GenericEntity {
+    ID "6976727646BA150E"
+    components {
+     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+      m_LootTiersSpawn {
+       ""
+       "TIER_2"
+      }
+     }
+    }
+   }
+   GenericEntity {
+    ID "6976727646BA151C"
+    components {
+     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+      m_LootTiersSpawn {
+       ""
+       "TIER_2"
+      }
+     }
+    }
+   }
+   GenericEntity {
+    ID "6976727646BA153D"
+    components {
+     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+      m_LootTiersSpawn {
+       ""
+       "TIER_2"
+      }
+     }
+    }
+   }
+   GenericEntity {
+    ID "6976727646BA1627"
+    components {
+     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+      m_LootTiersSpawn {
+       ""
+       "TIER_2"
+      }
+     }
+    }
+   }
+   GenericEntity {
+    ID "6976727646BA162E"
+    components {
+     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+      m_LootTiersSpawn {
+       ""
+       "TIER_2"
       }
      }
     }

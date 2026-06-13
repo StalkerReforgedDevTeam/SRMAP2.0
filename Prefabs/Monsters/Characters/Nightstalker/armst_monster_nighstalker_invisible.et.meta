@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{2DF464EFB80C1E54}Prefabs/Monsters/Characters/Nightstalker/armst_monster_nighstalker_invisible.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

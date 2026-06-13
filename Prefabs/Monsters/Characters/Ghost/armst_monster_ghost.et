@@ -1,0 +1,15 @@
+Armst_Monster_Character : "{FAF1350A99D893E7}622120A5448725E3/Prefabs/Characters/Variants/Variant_USSR_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  ARMST_Monster_MeleeComponent "{520EA1D2F659C85E}" {
+   m_fMonsterDamage 45
+  }
+  SCR_CharacterDamageManagerComponent "{55872AD7B4E959F2}" {
+   "Additional hit zones" {
+    SCR_CharacterHealthHitZone Health {
+     MaxHealth 250
+    }
+   }
+  }
+ }
+}

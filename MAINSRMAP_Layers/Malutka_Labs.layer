@@ -253,10 +253,26 @@ $grp GenericEntity {
    }
    $grp GenericEntity : "{16655C954EE01ADC}Prefabs/LOOT_BOX/2_TIER/2_TIER_Loot_randomize_random.et" {
     {
+     components {
+      ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+       m_LootTiersSpawn {
+        ""
+        "TIER_2"
+       }
+      }
+     }
      coords 15.087 -3.8 3.331
      angles 0 -136.74 0
     }
     {
+     components {
+      ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+       m_LootTiersSpawn {
+        ""
+        "TIER_2"
+       }
+      }
+     }
      coords 13.814 -3.894 -0.621
      angles 0 -136.74 0
     }
@@ -350,10 +366,24 @@ $grp GenericEntity {
    }
    $grp GenericEntity : "{CE2DD3731313BBA1}Prefabs/LOOT_BOX/1_TIER/1_TIER_Loot_randomize_random.et" {
     {
+     components {
+      ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+       m_LootTiersSpawn +{
+        "TIER_2"
+       }
+      }
+     }
      coords 19.238 -3.8 2.588
      angles 0 -100.751 0
     }
     {
+     components {
+      ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+       m_LootTiersSpawn +{
+        "TIER_2"
+       }
+      }
+     }
      coords 18.082 -3.751 -0.601
      angles 0 -100.751 0
     }
@@ -3333,6 +3363,28 @@ GenericEntity : "{7F95D831CA586F06}Prefabs/Compositions/Misc/SubCompositions/Cab
 GameEntity : "{820839184AE86AC8}Prefabs/Method/Props/Camps/Fireplace_Loiters_01.et" {
  coords 5363.063 290.521 609.209
  angles 0 9.302 0
+ {
+  GenericEntity {
+   ID "695EA1984F713886"
+   components {
+    ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+     m_LootTiersSpawn +{
+      "TIER_2"
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "695EA1984F7138E2"
+   components {
+    ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+     m_LootTiersSpawn +{
+      "TIER_2"
+     }
+    }
+   }
+  }
+ }
 }
 $grp GenericEntity : "{82DDDA574CB4F0D9}Prefabs/Props/Industrial/BarrelFuel_01_Base.et" {
  {

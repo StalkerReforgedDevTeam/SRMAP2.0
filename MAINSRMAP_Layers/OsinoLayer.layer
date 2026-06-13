@@ -62,6 +62,38 @@ GenericEntity : "{262222CE328B0DAD}Prefabs/Vehicles/liaz2/base/BASE_liaz677_wrec
 SCR_DestructibleBuildingEntity : "{3177788C81331648}Prefabs/Industrial/builds/bitovka_wheels2.et" {
  coords 5437.813 304.524 978.398
  angles 0 -45.258 0
+ {
+  GenericEntity {
+   ID "695EA199D4FFD62E"
+   components {
+    ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+     m_LootTiersSpawn +{
+      "TIER_2"
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "695EA199D4FFD658"
+   components {
+    ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+     m_LootTiersSpawn +{
+      "TIER_2"
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "695EA199D97FE1A4"
+   components {
+    ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+     m_LootTiersSpawn +{
+      "TIER_2"
+     }
+    }
+   }
+  }
+ }
 }
 GenericEntity : "{36E7545823F30B65}Prefabs/graves/grave_2.et" {
  coords 5457.712 306.859 1033.756
@@ -371,6 +403,26 @@ SCR_DestructibleBuildingEntity : "{D4EB34758DD68123}Prefabs/Industrial/builds/bi
    PaperMap_01_folded_US_68D54233CBAF7C9C {
    }
    Watch_Orlik38_Map_68D54233CBAF7DE9 {
+   }
+  }
+  GenericEntity {
+   ID "695EA199FFFE9963"
+   components {
+    ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+     m_LootTiersSpawn +{
+      "TIER_2"
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "695EA199FFFE9975"
+   components {
+    ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+     m_LootTiersSpawn +{
+      "TIER_2"
+     }
+    }
    }
   }
  }

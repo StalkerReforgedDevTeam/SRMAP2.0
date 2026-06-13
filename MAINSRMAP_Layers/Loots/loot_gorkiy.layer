@@ -127,20 +127,60 @@ GenericEntity : "{1CE252AD28BD0C6F}Prefabs/LOOT_BOX/Loot_randomize_garbarages.et
 }
 $grp GenericEntity : "{2C819C7F1CECED07}Prefabs/LOOT_BOX/1_TIER/1_TIER_Loot_randomize_army.et" {
  {
+  components {
+   ARMST_RANDOM_LOOTS_POINT "{669E640B5529F967}" {
+    m_LootTiersSpawn {
+     "TIER_3"
+     "TIER_2"
+    }
+   }
+  }
   coords 3117.453 305.062 2734.21
   angles 0 93.661 0
  }
  {
+  components {
+   ARMST_RANDOM_LOOTS_POINT "{669E640B5529F967}" {
+    m_LootTiersSpawn {
+     "TIER_3"
+     "TIER_2"
+    }
+   }
+  }
   coords 3104.919 305.311 2726.943
  }
  {
+  components {
+   ARMST_RANDOM_LOOTS_POINT "{669E640B5529F967}" {
+    m_LootTiersSpawn {
+     "TIER_3"
+     "TIER_2"
+    }
+   }
+  }
   coords 3077.729 304.702 2696.521
  }
  {
+  components {
+   ARMST_RANDOM_LOOTS_POINT "{669E640B5529F967}" {
+    m_LootTiersSpawn {
+     "TIER_3"
+     "TIER_2"
+    }
+   }
+  }
   coords 3212.151 304.702 2657.858
   angles 0 0 0
  }
  {
+  components {
+   ARMST_RANDOM_LOOTS_POINT "{669E640B5529F967}" {
+    m_LootTiersSpawn {
+     "TIER_3"
+     "TIER_2"
+    }
+   }
+  }
   coords 3318.95 309.276 2705.048
   angles 0 0 0
  }
@@ -164,63 +204,191 @@ $grp GenericEntity : "{4430B9A494F2C7F0}Prefabs/LOOT_BOX/base/garbarages/Loot_ga
 }
 $grp GenericEntity : "{4EFE35748F199226}Prefabs/LOOT_BOX/2_TIER/2_TIER_Loot_randomize_clothes.et" {
  {
+  components {
+   ARMST_RANDOM_LOOTS_POINT "{669E640B5FA509DB}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+  }
   coords 3036.456 312.572 2540.438
   angles 0 -60.427 0
  }
  {
+  components {
+   ARMST_RANDOM_LOOTS_POINT "{669E640B5FA509DB}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+  }
   coords 3127.68 304.702 2570.551
  }
  {
+  components {
+   ARMST_RANDOM_LOOTS_POINT "{669E640B5FA509DB}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+  }
   coords 3127.252 305.062 2743.655
  }
  {
+  components {
+   ARMST_RANDOM_LOOTS_POINT "{669E640B5FA509DB}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+  }
   coords 3088.628 305.311 2731.072
  }
  {
+  components {
+   ARMST_RANDOM_LOOTS_POINT "{669E640B5FA509DB}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+  }
   coords 3095.545 305.311 2719.414
   angles 0 -75.114 0
  }
  {
+  components {
+   ARMST_RANDOM_LOOTS_POINT "{669E640B5FA509DB}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+  }
   coords 3094.339 305.311 2730.147
  }
  {
+  components {
+   ARMST_RANDOM_LOOTS_POINT "{669E640B5FA509DB}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+  }
   coords 3090.518 305.091 2747.512
   angles 0 156.372 0
  }
  {
+  components {
+   ARMST_RANDOM_LOOTS_POINT "{669E640B5FA509DB}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+  }
   coords 3071.923 305.15 2713.815
   angles 0 -75.593 0
  }
  {
+  components {
+   ARMST_RANDOM_LOOTS_POINT "{669E640B5FA509DB}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+  }
   coords 3189.19 304.902 2777.105
   angles 0 -104.808 0
  }
  {
+  components {
+   ARMST_RANDOM_LOOTS_POINT "{669E640B5FA509DB}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+  }
   coords 3183.116 304.902 2777.472
   angles 0 17.294 0
  }
  {
+  components {
+   ARMST_RANDOM_LOOTS_POINT "{669E640B5FA509DB}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+  }
   coords 3307.591 304.702 2670.01
   angles 0 0 0
  }
  {
+  components {
+   ARMST_RANDOM_LOOTS_POINT "{669E640B5FA509DB}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+  }
   coords 3294.904 304.649 2709.169
   angles 0 20.515 9.486
  }
  {
+  components {
+   ARMST_RANDOM_LOOTS_POINT "{669E640B5FA509DB}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+  }
   coords 3206.525 304.702 2753.347
   angles 0 0 0
  }
  {
+  components {
+   ARMST_RANDOM_LOOTS_POINT "{669E640B5FA509DB}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+  }
   coords 3310.176 309.352 2709.187
   angles 0 16.507 0
  }
  {
+  components {
+   ARMST_RANDOM_LOOTS_POINT "{669E640B5FA509DB}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+  }
   coords 3310.902 309.082 2711.286
   angles 0 0 0
  }
 }
 GenericEntity : "{5B64B0F835B1A883}Prefabs/LOOT_BOX/3_TIER/3_TIER_Loot_randomize_clothes.et" {
+ components {
+  ARMST_RANDOM_LOOTS_POINT "{669E640B5FA509DB}" {
+   m_LootTiersSpawn {
+    "TIER_2"
+    "TIER_3"
+   }
+  }
+ }
  coords 3091.889 305.07 2875.616
  angles 3.554 56.387 -4.906
 }
@@ -452,13 +620,37 @@ $grp GenericEntity : "{768369EB42499AD3}Prefabs/LOOT_BOX/1_TIER/1_TIER_Loot_rand
 }
 $grp GenericEntity : "{882C2D54CE6104A7}Prefabs/LOOT_BOX/3_TIER/3_TIER_Loot_randomize_army.et" {
  {
+  components {
+   ARMST_RANDOM_LOOTS_POINT "{669E640B5529F967}" {
+    m_LootTiersSpawn {
+     "TIER_3"
+     "TIER_2"
+    }
+   }
+  }
   coords 3075.253 304.69 2585.454
  }
  {
+  components {
+   ARMST_RANDOM_LOOTS_POINT "{669E640B5529F967}" {
+    m_LootTiersSpawn {
+     "TIER_3"
+     "TIER_2"
+    }
+   }
+  }
   coords 3212.677 304.702 2613.516
   angles 0 131.371 0
  }
  {
+  components {
+   ARMST_RANDOM_LOOTS_POINT "{669E640B5529F967}" {
+    m_LootTiersSpawn {
+     "TIER_3"
+     "TIER_2"
+    }
+   }
+  }
   coords 3321.808 309.086 2694.649
   angles 0 0 0
  }
@@ -837,118 +1029,358 @@ GenericEntity : "{D8028D9E0F8CFFEB}Prefabs/LOOT_BOX/3_TIER/3_TIER_Loot_randomize
 }
 $grp GenericEntity : "{DEB7BC1E9FD10EC8}Prefabs/LOOT_BOX/2_TIER/2_TIER_Loot_randomize_army.et" {
  {
+  components {
+   ARMST_RANDOM_LOOTS_POINT "{669E640B5529F967}" {
+    m_LootTiersSpawn {
+     "TIER_3"
+     "TIER_2"
+    }
+   }
+  }
   coords 3079.692 304.756 2521.919
   angles 0 -82.636 0
  }
  {
+  components {
+   ARMST_RANDOM_LOOTS_POINT "{669E640B5529F967}" {
+    m_LootTiersSpawn {
+     "TIER_3"
+     "TIER_2"
+    }
+   }
+  }
   coords 3114.897 305.006 2707.081
   angles -0.694 33.669 2.887
  }
  {
+  components {
+   ARMST_RANDOM_LOOTS_POINT "{669E640B5529F967}" {
+    m_LootTiersSpawn {
+     "TIER_3"
+     "TIER_2"
+    }
+   }
+  }
   coords 3214.318 304.69 2569.07
   angles 0 36.075 2.485
  }
  {
+  components {
+   ARMST_RANDOM_LOOTS_POINT "{669E640B5529F967}" {
+    m_LootTiersSpawn {
+     "TIER_3"
+     "TIER_2"
+    }
+   }
+  }
   coords 2958.616 304.797 2721.328
   angles 0 89.847 0
  }
 }
 $grp GenericEntity : "{DED580896782E695}Prefabs/LOOT_BOX/1_TIER/1_TIER_Loot_randomize_clothes.et" {
  {
+  components {
+   ARMST_RANDOM_LOOTS_POINT "{669E640B5FA509DB}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+  }
   coords 2996.392 318.917 2500.895
   angles 0 61.825 0
  }
  {
+  components {
+   ARMST_RANDOM_LOOTS_POINT "{669E640B5FA509DB}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+  }
   coords 3033.234 305.792 2552.713
   angles 0 26.387 0
  }
  {
+  components {
+   ARMST_RANDOM_LOOTS_POINT "{669E640B5FA509DB}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+  }
   coords 3039.558 306.288 2537.984
   angles 0 -24.299 0
  }
  {
+  components {
+   ARMST_RANDOM_LOOTS_POINT "{669E640B5FA509DB}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+  }
   coords 3027.269 309.192 2536.014
  }
  {
+  components {
+   ARMST_RANDOM_LOOTS_POINT "{669E640B5FA509DB}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+  }
   coords 3040.051 309.192 2546.417
   angles 0 155.168 0
  }
  {
+  components {
+   ARMST_RANDOM_LOOTS_POINT "{669E640B5FA509DB}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+  }
   coords 3029.876 309.659 2548.413
  }
  {
+  components {
+   ARMST_RANDOM_LOOTS_POINT "{669E640B5FA509DB}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+  }
   coords 3127.067 305.533 2741.587
   angles 0 -27.382 0
  }
  {
+  components {
+   ARMST_RANDOM_LOOTS_POINT "{669E640B5FA509DB}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+  }
   coords 3123.842 305.062 2734.874
   angles 0 -35.04 0
  }
  {
+  components {
+   ARMST_RANDOM_LOOTS_POINT "{669E640B5FA509DB}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+  }
   coords 3105.495 305.311 2725.348
  }
  {
+  components {
+   ARMST_RANDOM_LOOTS_POINT "{669E640B5FA509DB}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+  }
   coords 3092.565 305.311 2719.05
  }
  {
+  components {
+   ARMST_RANDOM_LOOTS_POINT "{669E640B5FA509DB}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+  }
   coords 3108.952 305.311 2729.265
   angles 0 -56.878 0
  }
  {
+  components {
+   ARMST_RANDOM_LOOTS_POINT "{669E640B5FA509DB}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+  }
   coords 3093.256 305.202 2770.335
   angles 0 76.247 0
  }
  {
+  components {
+   ARMST_RANDOM_LOOTS_POINT "{669E640B5FA509DB}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+  }
   coords 3079.248 304.82 2784.903
   angles 0 -43.138 0
  }
  {
+  components {
+   ARMST_RANDOM_LOOTS_POINT "{669E640B5FA509DB}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+  }
   coords 3068.17 305.932 2732.67
  }
  {
+  components {
+   ARMST_RANDOM_LOOTS_POINT "{669E640B5FA509DB}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+  }
   coords 3180.416 304.902 2768.464
   angles 0 179.458 0
  }
  {
+  components {
+   ARMST_RANDOM_LOOTS_POINT "{669E640B5FA509DB}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+  }
   coords 3180.705 304.902 2773.057
  }
  {
+  components {
+   ARMST_RANDOM_LOOTS_POINT "{669E640B5FA509DB}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+  }
   coords 3178.909 304.902 2778.498
   angles 0 -175.304 0
  }
  {
+  components {
+   ARMST_RANDOM_LOOTS_POINT "{669E640B5FA509DB}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+  }
   coords 3187.027 304.902 2770.428
   angles 0 -40.421 0
  }
  {
+  components {
+   ARMST_RANDOM_LOOTS_POINT "{669E640B5FA509DB}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+  }
   coords 3135.939 304.702 2636.429
   angles 0 -123.975 0
  }
  {
+  components {
+   ARMST_RANDOM_LOOTS_POINT "{669E640B5FA509DB}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+  }
   coords 3137.016 304.702 2674.483
   angles 0 13.411 0
  }
  {
+  components {
+   ARMST_RANDOM_LOOTS_POINT "{669E640B5FA509DB}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+  }
   coords 3105.995 304.702 2685.833
   angles 0 142.162 0
  }
  {
+  components {
+   ARMST_RANDOM_LOOTS_POINT "{669E640B5FA509DB}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+  }
   coords 3082.855 304.765 2700.725
   angles 0 15.469 0
  }
  {
+  components {
+   ARMST_RANDOM_LOOTS_POINT "{669E640B5FA509DB}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+  }
   coords 3012.707 309.755 2711.86
   angles 0 16.011 0
  }
  {
+  components {
+   ARMST_RANDOM_LOOTS_POINT "{669E640B5FA509DB}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+  }
   coords 3289.188 304.702 2612.838
   angles 0 0 0
  }
  {
+  components {
+   ARMST_RANDOM_LOOTS_POINT "{669E640B5FA509DB}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+  }
   coords 3291.228 304.702 2710.505
   angles 0 20.515 0
  }
  {
+  components {
+   ARMST_RANDOM_LOOTS_POINT "{669E640B5FA509DB}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+  }
   coords 3134.756 305.108 2868.681
   angles 0 0 0
  }

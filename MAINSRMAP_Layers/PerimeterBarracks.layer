@@ -1132,6 +1132,18 @@ $grp GameEntity : "{6F0C071AD20DCF4A}Prefabs/Characters/Deads/armst_dead_newbie.
 SCR_DestructibleBuildingEntity : "{6FA58B435F69B179}Prefabs/Structures/Houses/Shed/Shed_02/Shed_02_big_V1.et" {
  coords 6614.498 0.373 1843.569
  angles 0 164.05 0
+ {
+  GenericEntity {
+   ID "695EA194653B1AFC"
+   components {
+    ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+     m_LootTiersSpawn +{
+      "TIER_2"
+     }
+    }
+   }
+  }
+ }
 }
 GenericEntity : "{6FC9E85153AE41B1}Prefabs/Props/Civilian/WoodKindling_Crate_01.et" {
  coords 2856.972 300.321 1135.403

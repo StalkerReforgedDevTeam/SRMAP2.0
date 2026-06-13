@@ -268,6 +268,12 @@ GenericEntity : "{17770AFEA059BE16}Prefabs/Vehicles/gaz24/armst_gaz24_1.et" {
   GenericEntity {
    ID "662E8AF24CFD5C56"
    components {
+    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+     m_LootTiersSpawn {
+      ""
+      "TIER_2"
+     }
+    }
     ActionsManagerComponent "{6190D137C5926215}" {
      additionalActions {
       ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
@@ -280,6 +286,11 @@ GenericEntity : "{17770AFEA059BE16}Prefabs/Vehicles/gaz24/armst_gaz24_1.et" {
   GenericEntity {
    ID "662E8AF24CFD5C73"
    components {
+    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+     m_LootTiersSpawn +{
+      "TIER_2"
+     }
+    }
     ActionsManagerComponent "{6190D137C5926215}" {
      additionalActions {
       ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
@@ -361,6 +372,12 @@ SCR_DestructibleBuildingEntity : "{267F0561BD2A8A64}Prefabs/Vehicles/azlk412/arm
   GenericEntity {
    ID "662E8AF2AC24CDBE"
    components {
+    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+     m_LootTiersSpawn {
+      ""
+      "TIER_2"
+     }
+    }
     ActionsManagerComponent "{6190D137C5926215}" {
      additionalActions {
       ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
@@ -373,6 +390,11 @@ SCR_DestructibleBuildingEntity : "{267F0561BD2A8A64}Prefabs/Vehicles/azlk412/arm
   GenericEntity {
    ID "662E8AF2AC24CD87"
    components {
+    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+     m_LootTiersSpawn +{
+      "TIER_2"
+     }
+    }
     ActionsManagerComponent "{6190D137C5926215}" {
      additionalActions {
       ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
@@ -395,6 +417,12 @@ GenericEntity : "{28C4CBADCD6EF576}Prefabs/Vehicles/vaz2109/armst_vaz2109_red_wr
   GenericEntity {
    ID "662E8AF0F8E6017F"
    components {
+    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+     m_LootTiersSpawn {
+      ""
+      "TIER_2"
+     }
+    }
     ActionsManagerComponent "{6190D137C5926215}" {
      additionalActions {
       ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
@@ -407,6 +435,11 @@ GenericEntity : "{28C4CBADCD6EF576}Prefabs/Vehicles/vaz2109/armst_vaz2109_red_wr
   GenericEntity {
    ID "662E8AF0F8E60143"
    components {
+    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+     m_LootTiersSpawn +{
+      "TIER_2"
+     }
+    }
     ActionsManagerComponent "{6190D137C5926215}" {
      additionalActions {
       ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
@@ -440,6 +473,12 @@ GenericEntity : "{305C405E88BD5870}Prefabs/Vehicles/vaz2105/armst_vaz2105_2.et" 
   GenericEntity {
    ID "662E8AF33CB1A10F"
    components {
+    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+     m_LootTiersSpawn {
+      ""
+      "TIER_2"
+     }
+    }
     ActionsManagerComponent "{6190D137C5926215}" {
      additionalActions {
       ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
@@ -452,6 +491,11 @@ GenericEntity : "{305C405E88BD5870}Prefabs/Vehicles/vaz2105/armst_vaz2105_2.et" 
   GenericEntity {
    ID "662E8AF33CB1A6EF"
    components {
+    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+     m_LootTiersSpawn +{
+      "TIER_2"
+     }
+    }
     ActionsManagerComponent "{6190D137C5926215}" {
      additionalActions {
       ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
@@ -900,6 +944,12 @@ $grp GenericEntity : "{73314E7C8FFC5B1C}Prefabs/Vehicles/gaz24/armst_gaz24_1_wre
    GenericEntity {
     ID "662E8AF25F2CC297"
     components {
+     ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+      m_LootTiersSpawn {
+       ""
+       "TIER_2"
+      }
+     }
      ActionsManagerComponent "{6190D137C5926215}" {
       additionalActions {
        ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
@@ -912,6 +962,11 @@ $grp GenericEntity : "{73314E7C8FFC5B1C}Prefabs/Vehicles/gaz24/armst_gaz24_1_wre
    GenericEntity {
     ID "662E8AF25F2CC28C"
     components {
+     ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+      m_LootTiersSpawn +{
+       "TIER_2"
+      }
+     }
      ActionsManagerComponent "{6190D137C5926215}" {
       additionalActions {
        ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
@@ -930,6 +985,12 @@ $grp GenericEntity : "{73314E7C8FFC5B1C}Prefabs/Vehicles/gaz24/armst_gaz24_1_wre
    GenericEntity {
     ID "662E8AF25F2CC297"
     components {
+     ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+      m_LootTiersSpawn {
+       ""
+       "TIER_2"
+      }
+     }
      ActionsManagerComponent "{6190D137C5926215}" {
       additionalActions {
        ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
@@ -942,6 +1003,11 @@ $grp GenericEntity : "{73314E7C8FFC5B1C}Prefabs/Vehicles/gaz24/armst_gaz24_1_wre
    GenericEntity {
     ID "662E8AF25F2CC28C"
     components {
+     ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+      m_LootTiersSpawn +{
+       "TIER_2"
+      }
+     }
      ActionsManagerComponent "{6190D137C5926215}" {
       additionalActions {
        ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
@@ -1290,6 +1356,12 @@ $grp GenericEntity : "{C69E1B9B00A341B1}Prefabs/Vehicles/gaz24/armst_gaz24_2.et"
    GenericEntity {
     ID "662E8AF27CCCACCE"
     components {
+     ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+      m_LootTiersSpawn {
+       ""
+       "TIER_2"
+      }
+     }
      ActionsManagerComponent "{6190D137C5926215}" {
       additionalActions {
        ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
@@ -1302,6 +1374,11 @@ $grp GenericEntity : "{C69E1B9B00A341B1}Prefabs/Vehicles/gaz24/armst_gaz24_2.et"
    GenericEntity {
     ID "662E8AF27CCCACD2"
     components {
+     ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+      m_LootTiersSpawn +{
+       "TIER_2"
+      }
+     }
      ActionsManagerComponent "{6190D137C5926215}" {
       additionalActions {
        ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
@@ -1320,6 +1397,12 @@ $grp GenericEntity : "{C69E1B9B00A341B1}Prefabs/Vehicles/gaz24/armst_gaz24_2.et"
    GenericEntity {
     ID "662E8AF27CCCACCE"
     components {
+     ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+      m_LootTiersSpawn {
+       ""
+       "TIER_2"
+      }
+     }
      ActionsManagerComponent "{6190D137C5926215}" {
       additionalActions {
        ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
@@ -1332,6 +1415,11 @@ $grp GenericEntity : "{C69E1B9B00A341B1}Prefabs/Vehicles/gaz24/armst_gaz24_2.et"
    GenericEntity {
     ID "662E8AF27CCCACD2"
     components {
+     ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+      m_LootTiersSpawn +{
+       "TIER_2"
+      }
+     }
      ActionsManagerComponent "{6190D137C5926215}" {
       additionalActions {
        ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
@@ -1633,6 +1721,12 @@ SCR_DestructibleBuildingEntity : "{F4E08FE7DD7264EB}Prefabs/Vehicles/azlk412/arm
   GenericEntity {
    ID "662E8AFD36B317CF"
    components {
+    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+     m_LootTiersSpawn {
+      ""
+      "TIER_2"
+     }
+    }
     ActionsManagerComponent "{6190D137C5926215}" {
      additionalActions {
       ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
@@ -1645,6 +1739,11 @@ SCR_DestructibleBuildingEntity : "{F4E08FE7DD7264EB}Prefabs/Vehicles/azlk412/arm
   GenericEntity {
    ID "662E8AFD36B317E4"
    components {
+    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+     m_LootTiersSpawn +{
+      "TIER_2"
+     }
+    }
     ActionsManagerComponent "{6190D137C5926215}" {
      additionalActions {
       ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {

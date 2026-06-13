@@ -2588,6 +2588,19 @@ GenericEntity : "{E1E014913F5433DF}Prefabs/Structures/BuildingParts/Doors/DoorSe
 GenericEntity : "{E7B9D08AA65270BE}Prefabs/Vehicles/gaz66/armst_gaz66_box.et" {
  coords 3201.569 306.354 1442.692
  angles -0.334 116.486 3.395
+ {
+  GenericEntity {
+   ID "62CE690207652DF8"
+   {
+    GenericEntity {
+     ID "695EA1893636FC9D"
+    }
+    GenericEntity {
+     ID "695EA1893636FCA2"
+    }
+   }
+  }
+ }
 }
 GenericEntity : "{EB95AF3BFAF210E4}Prefabs/Vehicles/zil131/parts/PARTS_zil_tank.et" {
  coords 3219.423 309.406 1409.578

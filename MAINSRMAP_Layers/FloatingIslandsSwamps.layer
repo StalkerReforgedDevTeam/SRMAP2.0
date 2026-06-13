@@ -430,6 +430,78 @@ SCR_DestructibleBuildingEntity : "{4FDDE496DACE1BA9}Prefabs/Houses/House_Individ
   }
   GenericEntity TankerBoots_US_01_6718761FA9F3 {
   }
+  GenericEntity {
+   ID "695EA1907AF942E5"
+   components {
+    ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+     m_LootTiersSpawn {
+      ""
+      "TIER_2"
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "695EA1907AF9431E"
+   components {
+    ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+     m_LootTiersSpawn {
+      ""
+      "TIER_2"
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "695EA1907AF94287"
+   components {
+    ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+     m_LootTiersSpawn +{
+      "TIER_2"
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "695EA1907AF94295"
+   components {
+    ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+     m_LootTiersSpawn +{
+      "TIER_2"
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "695EA1907AF94298"
+   components {
+    ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+     m_LootTiersSpawn +{
+      "TIER_2"
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "695EA1907AF942A8"
+   components {
+    ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+     m_LootTiersSpawn +{
+      "TIER_2"
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "695EA1907AF942DB"
+   components {
+    ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+     m_LootTiersSpawn +{
+      "TIER_2"
+     }
+    }
+   }
+  }
  }
 }
 GameEntity : "{56F6CAB6A63C1D52}Prefabs/Structures/BuildingParts/Ladders/Ladder_Silo_02_1472_B.et" {
@@ -493,6 +565,26 @@ GameEntity : "{820839184AE86AC8}Prefabs/Method/Props/Camps/Fireplace_Loiters_01.
   GenericEntity {
    ID "646CC3C1E995CAC5"
    coords -0.993 -0.079 2.961
+  }
+  GenericEntity {
+   ID "695EA1984F713886"
+   components {
+    ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+     m_LootTiersSpawn +{
+      "TIER_2"
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "695EA1984F7138E2"
+   components {
+    ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+     m_LootTiersSpawn +{
+      "TIER_2"
+     }
+    }
+   }
   }
  }
 }

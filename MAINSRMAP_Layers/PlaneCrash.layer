@@ -125,6 +125,91 @@ $grp GenericEntity {
 SCR_DestructibleBuildingEntity : "{184042D4EAE59FF5}Prefabs/Structures/Houses/Village/House_Village_E_1I02/Dst/House_Village_E_1I02_ruined.et" {
  coords 3679.89 -2.434 2242.188
  angles -1.119 -15.014 1.285
+ {
+  GenericEntity {
+   ID "695EA19C3C75AD6B"
+   components {
+    ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+     m_LootTiersSpawn {
+      ""
+      "TIER_2"
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "695EA19C3C75AD99"
+   components {
+    ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+     m_LootTiersSpawn {
+      ""
+      "TIER_2"
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "695EA19C3C75AD9E"
+   components {
+    ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+     m_LootTiersSpawn {
+      ""
+      "TIER_2"
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "695EA19C3C75ADA0"
+   components {
+    ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+     m_LootTiersSpawn +{
+      "TIER_2"
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "695EA19C3C75ADDD"
+   components {
+    ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+     m_LootTiersSpawn +{
+      "TIER_2"
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "695EA19C3C75AE05"
+   components {
+    ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+     m_LootTiersSpawn +{
+      "TIER_2"
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "695EA19C3C75AE09"
+   components {
+    ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+     m_LootTiersSpawn +{
+      "TIER_2"
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "695EA19C3C75AE13"
+   components {
+    ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+     m_LootTiersSpawn +{
+      "TIER_2"
+     }
+    }
+   }
+  }
+ }
 }
 $grp GenericEntity : "{27EA47994266D9DD}Prefabs/Props/Services/Healthcare/BinMedical_01.et" {
  {

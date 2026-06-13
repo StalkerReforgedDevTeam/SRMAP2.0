@@ -840,6 +840,30 @@ GenericEntity : "{0879933F4FDD2C2B}Prefabs/Props/Civilian/SackUniversal_01_Pile.
 SCR_DestructibleBuildingEntity : "{0ACD5769BB42F2FB}Prefabs/Method/Props/Camps/PortableCabin_E_02_int_1.et" {
  coords 4529.856 49.912 1689.129
  angles 0 -89.789 -1.668
+ {
+  GenericEntity {
+   ID "695EA19AB703B12F"
+   components {
+    ARMST_RANDOM_LOOTS_POINT "{669E640B5FA509DB}" {
+     m_LootTiersSpawn {
+      "TIER_2"
+      "TIER_3"
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "695EA19AB703B14C"
+   components {
+    ARMST_RANDOM_LOOTS_POINT "{669E640B5FA509DB}" {
+     m_LootTiersSpawn {
+      "TIER_2"
+      "TIER_3"
+     }
+    }
+   }
+  }
+ }
 }
 $grp GenericEntity : "{118F3279376A233C}Prefabs/deads/skeleton/dead_skeleton_4.et" {
  {

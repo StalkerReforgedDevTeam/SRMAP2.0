@@ -157,6 +157,41 @@ GenericEntity : "{5CFEB7CF8AABBEBF}Prefabs/tables/table_wooden_3.et" {
 }
 GameEntity : "{5EC10C92B8C82E69}Prefabs/Method/Props/Camps/Fireplace_Loiters_03.et" {
  coords 6593.077 307.695 1338.877
+ {
+  GenericEntity {
+   ID "695EA19BCEEED351"
+   components {
+    ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+     m_LootTiersSpawn {
+      "TIER_2"
+      "TIER_1"
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "695EA19BCEEED36F"
+   components {
+    ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+     m_LootTiersSpawn {
+      "TIER_2"
+      "TIER_1"
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "695EA19BCEEED394"
+   components {
+    ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+     m_LootTiersSpawn {
+      "TIER_2"
+      "TIER_1"
+     }
+    }
+   }
+  }
+ }
 }
 GenericEntity : "{668A15633B592FEB}Prefabs/shelfs/shelf_book_3.et" {
  coords 6450.231 308.186 1213.302

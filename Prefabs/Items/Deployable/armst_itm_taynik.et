@@ -1,0 +1,13 @@
+GenericEntity : "{80EC4CF63D16F9A9}Prefabs/Items/Deployable/base_itm.et" {
+ ID "5968D2B6A82C6019"
+ components {
+  EPF_PersistenceComponent "{5D74D249B67E7115}" {
+   m_pSaveData EPF_ItemSaveDataClass "{5D74D249B46BAB7E}" {
+    m_aComponents {
+     EPF_BaseInventoryStorageComponentSaveDataClass "{699B13ABF3C66466}" {
+     }
+    }
+   }
+  }
+ }
+}

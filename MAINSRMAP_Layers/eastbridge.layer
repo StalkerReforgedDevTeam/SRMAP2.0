@@ -209,6 +209,28 @@ $grp GenericEntity : "{93D7D0C0A52CD6A8}Prefabs/Trash/Food/GarbageFoodMilitaryUS
 }
 GameEntity : "{9D922A33737B5C18}Prefabs/Method/Props/Camps/Fireplace_Loiters_Burned house_01.et" {
  coords 6058.587 301.051 2179.346
+ {
+  GenericEntity {
+   ID "695EA19B31CAD991"
+   components {
+    ARMST_RANDOM_LOOTS_POINT "{65A4C21424064B9B}" {
+     m_LootTiersSpawn {
+      "TIER_2"
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "695EA19B31CAD9E0"
+   components {
+    ARMST_RANDOM_LOOTS_POINT "{65A4C21424064B9B}" {
+     m_LootTiersSpawn {
+      "TIER_2"
+     }
+    }
+   }
+  }
+ }
 }
 GenericEntity : "{A91F6CA3A0ADB7EA}Prefabs/Trash/Newspapers/newspaper_1.et" {
  coords 6062.423 300.963 2166.432
@@ -272,4 +294,26 @@ GenericEntity : "{F4123D86F860B5E2}Prefabs/Trash/Medical/GarbageMedicalUSSR_02.e
 GenericEntity : "{F9D55BAC4309FDB6}Prefabs/Vehicles/trains/train_wagon_misc.et" {
  coords 6054.697 319.354 2163.907
  angles 0 75.606 0
+ {
+  GenericEntity {
+   ID "662E8AF379D182BF"
+   components {
+    ARMST_RANDOM_LOOTS_POINT "{65A4C21424064B9B}" {
+     m_LootTiersSpawn {
+      "TIER_2"
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "662E8AF379D1FD14"
+   components {
+    ARMST_RANDOM_LOOTS_POINT "{65A4C21424064B9B}" {
+     m_LootTiersSpawn {
+      "TIER_2"
+     }
+    }
+   }
+  }
+ }
 }

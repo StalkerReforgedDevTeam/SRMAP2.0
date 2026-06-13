@@ -8,14 +8,44 @@ GenericEntity {
 }
 $grp GenericEntity : "{0CA0F15A651DB0F7}Prefabs/LOOT_BOX/base/army/Loot_army_box_weapons.et" {
  {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "WEAPONS"
+    }
+    m_LootTiersSpawn {
+     "TIER_3"
+    }
+   }
+  }
   coords 3244.755 304.625 2603.246
   angles 0 -30.827 0
  }
  {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "WEAPONS"
+    }
+    m_LootTiersSpawn {
+     "TIER_3"
+    }
+   }
+  }
   coords 3237.271 304.663 2606.073
   angles 0 56.034 0
  }
  {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "WEAPONS"
+    }
+    m_LootTiersSpawn {
+     "TIER_3"
+    }
+   }
+  }
   coords 3241.992 304.648 2602.714
  }
 }
@@ -279,10 +309,30 @@ GenericEntity : "{E4A22C9C10769063}Prefabs/Vehicles/gaz71/BASE_gaz71.et" {
 }
 $grp GenericEntity : "{EFBF55038C9C22C3}Prefabs/LOOT_BOX/base/army/Loot_army_box_ammunitons.et" {
  {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "AMMOS"
+    }
+    m_LootTiersSpawn {
+     "TIER_3"
+    }
+   }
+  }
   coords 3239.821 304.702 2603.726
   angles 0 32.01 0
  }
  {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "AMMOS"
+    }
+    m_LootTiersSpawn {
+     "TIER_3"
+    }
+   }
+  }
   coords 3243.17 304.537 2613.189
   angles 0 13.637 0
  }

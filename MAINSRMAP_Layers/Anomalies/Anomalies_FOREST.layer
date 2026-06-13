@@ -2213,4 +2213,26 @@ SCR_DestructibleBuildingEntity : "{CE440ECE685FEC2C}Prefabs/agroprom/sarai_1.et"
 SCR_DestructibleBuildingEntity : "{D0947E26A8A39ECF}Prefabs/Structures/Forest/DeerStands/DeerStand_01.et" {
  coords 1725.366 0 182.768
  angles 0 42.677 0
+ {
+  GenericEntity {
+   ID "695EA1898DA84CF7"
+   components {
+    ARMST_RANDOM_LOOTS_POINT "{669E640B5529F967}" {
+     m_LootTiersSpawn +{
+      "TIER_2"
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "695EA1898DA84CC4"
+   components {
+    ARMST_RANDOM_LOOTS_POINT "{669E640B5FA509DB}" {
+     m_LootTiersSpawn +{
+      "TIER_2"
+     }
+    }
+   }
+  }
+ }
 }
