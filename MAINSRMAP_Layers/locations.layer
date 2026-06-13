@@ -85746,7 +85746,6 @@ SCR_DestructibleBuildingEntity : "{6C54C04A8C567370}Prefabs/Structures/Infrastru
      components {
       DoorComponent "{221C667A9F7D4B69}" {
        DoorAction SCR_DoorUserAction "{50888D3646A61640}" {
-        m_FactionKey FACTION_MUTANTS
        }
       }
      }
@@ -92470,7 +92469,6 @@ SCR_DestructibleBuildingEntity : "{748640C90A664E29}Prefabs/Structures/Houses/Wo
      components {
       DoorComponent "{221C667A9F7D4B69}" {
        DoorAction SCR_DoorUserAction "{50888D3646A61640}" {
-        m_FactionKey FACTION_MUTANTS
        }
       }
      }
@@ -143402,7 +143400,6 @@ $grp GenericEntity : "{B6072C47E3447985}Prefabs/Structures/BuildingParts/Doors/D
     components {
      DoorComponent "{221C667A9F7D4B69}" {
       DoorAction SCR_DoorUserAction "{50888D3646A61640}" {
-       m_FactionKey FACTION_MUTANTS
       }
      }
     }
@@ -143424,7 +143421,6 @@ $grp GenericEntity : "{B6072C47E3447985}Prefabs/Structures/BuildingParts/Doors/D
     components {
      DoorComponent "{221C667A9F7D4B69}" {
       DoorAction SCR_DoorUserAction "{50888D3646A61640}" {
-       m_FactionKey FACTION_MUTANTS
       }
      }
     }
@@ -149701,7 +149697,6 @@ SCR_DestructibleBuildingEntity : "{C212C8AC6001F002}Prefabs/Structures/Houses/Wo
      components {
       DoorComponent "{221C667A9F7D4B69}" {
        DoorAction SCR_DoorUserAction "{50888D3646A61640}" {
-        m_FactionKey FACTION_MUTANTS
        }
       }
      }
