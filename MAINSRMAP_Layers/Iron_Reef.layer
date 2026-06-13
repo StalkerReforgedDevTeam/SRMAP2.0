@@ -303,18 +303,22 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   SphereRadius 139.3
   m_ObjectPrefab "{E696A918826666EB}Prefabs/Anomals/Studen/ARMST_STUDEN.et"
   m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
+  m_SpawnCount 4
   m_MinDistanceBetweenAnomalies 10
   m_MinDistanceToPlayer 14
-  m_SpawnChanceArtefacts 15
+  m_SpawnChanceArtefactsRestart 9.84
+  m_SpawnChanceArtefacts 9.84
  }
  {
   coords 2540.527 286.82 2918.821
   SphereRadius 139.9
   m_ObjectPrefab "{E696A918826666EB}Prefabs/Anomals/Studen/ARMST_STUDEN.et"
   m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
+  m_SpawnCount 4
   m_MinDistanceBetweenAnomalies 10
   m_MinDistanceToPlayer 14
-  m_SpawnChanceArtefacts 15
+  m_SpawnChanceArtefactsRestart 9.84
+  m_SpawnChanceArtefacts 9.84
  }
 }
 GameEntity : "{764D801CA90A48AD}Prefabs/Props/Military/AmmoBoxes/AmmoBox_M229_Hydra/AmmoBox_M229_Hydra.et" {

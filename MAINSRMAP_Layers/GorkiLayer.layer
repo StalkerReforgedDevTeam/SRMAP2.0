@@ -1067,11 +1067,12 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab "{60D88B47635E7627}Prefabs/Anomals/Electro/ARMST_ELECTRO_T1.et"
   m_ObjectPrefab2 "{60D88B47635E7627}Prefabs/Anomals/Electro/ARMST_ELECTRO_T1.et"
   m_ObjectPrefab3 "{60D88B47635E7627}Prefabs/Anomals/Electro/ARMST_ELECTRO_T1.et"
-  m_SpawnCount 10
+  m_SpawnCount 4
   m_MinDistanceBetweenAnomalies 10
   m_CenterBias 0.5
   m_MinDistanceToPlayer 25
-  m_SpawnChanceArtefacts 15
+  m_SpawnChanceArtefactsRestart 9.84
+  m_SpawnChanceArtefacts 9.84
  }
  ELECTRO_ANOMALY30 {
   coords 2949.195 304.702 2665.001
@@ -1081,11 +1082,12 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab "{60D88B47635E7627}Prefabs/Anomals/Electro/ARMST_ELECTRO_T1.et"
   m_ObjectPrefab2 "{60D88B47635E7627}Prefabs/Anomals/Electro/ARMST_ELECTRO_T1.et"
   m_ObjectPrefab3 "{60D88B47635E7627}Prefabs/Anomals/Electro/ARMST_ELECTRO_T1.et"
-  m_SpawnCount 10
+  m_SpawnCount 4
   m_MinDistanceBetweenAnomalies 10
   m_CenterBias 0.5
   m_MinDistanceToPlayer 25
-  m_SpawnChanceArtefacts 15
+  m_SpawnChanceArtefactsRestart 9.84
+  m_SpawnChanceArtefacts 9.84
  }
  ELECTRO_ANOMALY31 {
   coords 2971.467 304.702 2677.166
@@ -1095,11 +1097,12 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab "{60D88B47635E7627}Prefabs/Anomals/Electro/ARMST_ELECTRO_T1.et"
   m_ObjectPrefab2 "{60D88B47635E7627}Prefabs/Anomals/Electro/ARMST_ELECTRO_T1.et"
   m_ObjectPrefab3 "{60D88B47635E7627}Prefabs/Anomals/Electro/ARMST_ELECTRO_T1.et"
-  m_SpawnCount 10
+  m_SpawnCount 4
   m_MinDistanceBetweenAnomalies 10
   m_CenterBias 0.5
   m_MinDistanceToPlayer 25
-  m_SpawnChanceArtefacts 15
+  m_SpawnChanceArtefactsRestart 9.84
+  m_SpawnChanceArtefacts 9.84
  }
  ELECTRO_ANOMALY32 {
   coords 2992.219 304.702 2670.162
@@ -1109,11 +1112,12 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab "{60D88B47635E7627}Prefabs/Anomals/Electro/ARMST_ELECTRO_T1.et"
   m_ObjectPrefab2 "{60D88B47635E7627}Prefabs/Anomals/Electro/ARMST_ELECTRO_T1.et"
   m_ObjectPrefab3 "{60D88B47635E7627}Prefabs/Anomals/Electro/ARMST_ELECTRO_T1.et"
-  m_SpawnCount 10
+  m_SpawnCount 4
   m_MinDistanceBetweenAnomalies 10
   m_CenterBias 0.5
   m_MinDistanceToPlayer 25
-  m_SpawnChanceArtefacts 15
+  m_SpawnChanceArtefactsRestart 9.84
+  m_SpawnChanceArtefacts 9.84
  }
 }
 SCR_DestructibleBuildingEntity : "{777E80AFDC98395B}Prefabs/Props/Wrecks/ShipWreckMetal_02/ShipWreckMetal_02_base.et" {

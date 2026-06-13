@@ -10,8 +10,10 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ArtsPrefab {
    "{00DDB16A5A775F47}Prefabs/Items/artefacts_new/art_electro_1T_drop.et"
   }
-  m_SpawnCount 8
+  m_SpawnCount 4
   m_CenterBias 0.5
+  m_SpawnChanceArtefactsRestart 9.84
+  m_SpawnChanceArtefacts 9.84
  }
  ELECTRO_ANOMALY17 {
   coords 5003.791 300.452 1735.468
@@ -24,6 +26,9 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ArtsPrefab {
    "{00DDB16A5A775F47}Prefabs/Items/artefacts_new/art_electro_1T_drop.et"
   }
+  m_SpawnCount 4
+  m_SpawnChanceArtefactsRestart 9.84
+  m_SpawnChanceArtefacts 9.84
  }
  ELECTRO_ANOMALY18 {
   coords 4373.309 306.045 2036.78
@@ -36,6 +41,9 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ArtsPrefab {
    "{00DDB16A5A775F47}Prefabs/Items/artefacts_new/art_electro_1T_drop.et"
   }
+  m_SpawnCount 4
+  m_SpawnChanceArtefactsRestart 9.84
+  m_SpawnChanceArtefacts 9.84
  }
  ELECTRO_ANOMALY19 {
   coords 4489.986 306.859 2151.847
@@ -48,6 +56,9 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ArtsPrefab {
    "{00DDB16A5A775F47}Prefabs/Items/artefacts_new/art_electro_1T_drop.et"
   }
+  m_SpawnCount 4
+  m_SpawnChanceArtefactsRestart 9.84
+  m_SpawnChanceArtefacts 9.84
  }
  {
   coords 4719.869 316.976 1703.342
@@ -60,8 +71,10 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
   }
-  m_SpawnCount 12
+  m_SpawnCount 4
   m_SpawnChance 60
+  m_SpawnChanceArtefactsRestart 9.84
+  m_SpawnChanceArtefacts 9.84
  }
  {
   coords 4467.689 313.25 1869.031
@@ -74,8 +87,10 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
   }
-  m_SpawnCount 12
+  m_SpawnCount 4
   m_SpawnChance 60
+  m_SpawnChanceArtefactsRestart 9.84
+  m_SpawnChanceArtefacts 9.84
  }
  {
   coords 4878.059 314.561 1918.163
@@ -88,8 +103,10 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
   }
-  m_SpawnCount 12
+  m_SpawnCount 4
   m_SpawnChance 60
+  m_SpawnChanceArtefactsRestart 9.84
+  m_SpawnChanceArtefacts 9.84
  }
  {
   coords 5144.342 304.51 2062.509
@@ -102,8 +119,10 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
   }
-  m_SpawnCount 12
+  m_SpawnCount 4
   m_SpawnChance 60
+  m_SpawnChanceArtefactsRestart 9.84
+  m_SpawnChanceArtefacts 9.84
  }
  {
   coords 4728.17 311.531 2050.937
@@ -116,8 +135,10 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
   }
-  m_SpawnCount 12
+  m_SpawnCount 4
   m_SpawnChance 60
+  m_SpawnChanceArtefactsRestart 9.84
+  m_SpawnChanceArtefacts 9.84
  }
  {
   coords 4724.524 312.455 2404.076
@@ -130,8 +151,10 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
   }
-  m_SpawnCount 12
+  m_SpawnCount 4
   m_SpawnChance 60
+  m_SpawnChanceArtefactsRestart 9.84
+  m_SpawnChanceArtefacts 9.84
  }
  {
   coords 4355.356 313.517 2194.203
@@ -144,8 +167,10 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
   }
-  m_SpawnCount 12
+  m_SpawnCount 4
   m_SpawnChance 60
+  m_SpawnChanceArtefactsRestart 9.84
+  m_SpawnChanceArtefacts 9.84
  }
  {
   coords 5191.826 312.529 2456.642
@@ -158,8 +183,10 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
   }
-  m_SpawnCount 12
+  m_SpawnCount 4
   m_SpawnChance 60
+  m_SpawnChanceArtefactsRestart 9.84
+  m_SpawnChanceArtefacts 9.84
  }
  {
   coords 5187.198 315.764 2272.571
@@ -172,8 +199,10 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
   }
-  m_SpawnCount 12
+  m_SpawnCount 4
   m_SpawnChance 60
+  m_SpawnChanceArtefactsRestart 9.84
+  m_SpawnChanceArtefacts 9.84
  }
  {
   coords 4964.071 313.364 2450.878
@@ -186,8 +215,10 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
   }
-  m_SpawnCount 12
+  m_SpawnCount 4
   m_SpawnChance 60
+  m_SpawnChanceArtefactsRestart 9.84
+  m_SpawnChanceArtefacts 9.84
  }
  {
   coords 4919.762 317.323 2675.226
@@ -200,8 +231,10 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
   }
-  m_SpawnCount 12
+  m_SpawnCount 4
   m_SpawnChance 60
+  m_SpawnChanceArtefactsRestart 9.84
+  m_SpawnChanceArtefacts 9.84
  }
  {
   coords 4706.17 309.899 2821.875
@@ -214,8 +247,10 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
   }
-  m_SpawnCount 12
+  m_SpawnCount 4
   m_SpawnChance 60
+  m_SpawnChanceArtefactsRestart 9.84
+  m_SpawnChanceArtefacts 9.84
  }
  {
   coords 4955.817 315.519 2906.257
@@ -228,8 +263,10 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
   }
-  m_SpawnCount 12
+  m_SpawnCount 4
   m_SpawnChance 60
+  m_SpawnChanceArtefactsRestart 9.84
+  m_SpawnChanceArtefacts 9.84
  }
  TOXIC_ANOMALY_7 {
   coords 5235.875 319.996 1880.363
@@ -242,8 +279,10 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ArtsPrefab {
    "{5BA31E48F7933CA9}Prefabs/Items/artefacts_new/art_toxys_1T_drop.et"
   }
-  m_SpawnCount 15
+  m_SpawnCount 4
   m_CenterBias 0.2
+  m_SpawnChanceArtefactsRestart 9.84
+  m_SpawnChanceArtefacts 9.84
  }
  JARKA_ANOMALY_8 {
   coords 4601.14 303.827 2149.971
@@ -256,8 +295,10 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ArtsPrefab {
    "{EABCF33CC349E7C3}Prefabs/Items/artefacts_new/art_fire_1T_drop.et"
   }
-  m_SpawnCount 15
+  m_SpawnCount 4
   m_CenterBias 0
+  m_SpawnChanceArtefactsRestart 9.84
+  m_SpawnChanceArtefacts 9.84
  }
  JARKA_ANOMALY_9 {
   coords 4617.254 306.277 1972.469
@@ -270,8 +311,10 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ArtsPrefab {
    "{EABCF33CC349E7C3}Prefabs/Items/artefacts_new/art_fire_1T_drop.et"
   }
-  m_SpawnCount 15
+  m_SpawnCount 4
   m_CenterBias 0
+  m_SpawnChanceArtefactsRestart 9.84
+  m_SpawnChanceArtefacts 9.84
  }
  JARKA_ANOMALY_12 {
   coords 4872.497 308.208 2627.461
@@ -284,8 +327,10 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ArtsPrefab {
    "{EABCF33CC349E7C3}Prefabs/Items/artefacts_new/art_fire_1T_drop.et"
   }
-  m_SpawnCount 15
+  m_SpawnCount 4
   m_CenterBias 0
+  m_SpawnChanceArtefactsRestart 9.84
+  m_SpawnChanceArtefacts 9.84
  }
  EYE_ANOMALY9 {
   coords 4832.177 300.607 2229.056
@@ -295,8 +340,10 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab "{1918FCF94E1DC74D}Prefabs/Anomals/Eye/ARMST_EYE.et"
   m_ObjectPrefab2 "{9E0D254D4ECD2C1D}Prefabs/Anomals/Miracle/ARMST_MIRACLE.et"
   m_ObjectPrefab3 "{1918FCF94E1DC74D}Prefabs/Anomals/Eye/ARMST_EYE.et"
-  m_SpawnCount 5
+  m_SpawnCount 4
   m_CenterBias 0.5
+  m_SpawnChanceArtefactsRestart 9.84
+  m_SpawnChanceArtefacts 9.84
  }
  EYE_ANOMALY10 {
   coords 4576.919 309.548 2480.313
@@ -306,8 +353,10 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab "{1918FCF94E1DC74D}Prefabs/Anomals/Eye/ARMST_EYE.et"
   m_ObjectPrefab2 "{9E0D254D4ECD2C1D}Prefabs/Anomals/Miracle/ARMST_MIRACLE.et"
   m_ObjectPrefab3 "{1918FCF94E1DC74D}Prefabs/Anomals/Eye/ARMST_EYE.et"
-  m_SpawnCount 5
+  m_SpawnCount 4
   m_CenterBias 0.5
+  m_SpawnChanceArtefactsRestart 9.84
+  m_SpawnChanceArtefacts 9.84
  }
  EYE_ANOMALY11 {
   coords 4737.435 310.89 1913.042
@@ -317,8 +366,10 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab "{1918FCF94E1DC74D}Prefabs/Anomals/Eye/ARMST_EYE.et"
   m_ObjectPrefab2 "{9E0D254D4ECD2C1D}Prefabs/Anomals/Miracle/ARMST_MIRACLE.et"
   m_ObjectPrefab3 "{1918FCF94E1DC74D}Prefabs/Anomals/Eye/ARMST_EYE.et"
-  m_SpawnCount 5
+  m_SpawnCount 4
   m_CenterBias 0.5
+  m_SpawnChanceArtefactsRestart 9.84
+  m_SpawnChanceArtefacts 9.84
  }
  {
   coords 4512.514 300.001 1630.679
@@ -331,8 +382,10 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
   }
-  m_SpawnCount 12
+  m_SpawnCount 4
   m_SpawnChance 60
+  m_SpawnChanceArtefactsRestart 9.84
+  m_SpawnChanceArtefacts 9.84
  }
  {
   coords 4579.51 303.486 1764.598
@@ -345,8 +398,10 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
   }
-  m_SpawnCount 12
+  m_SpawnCount 4
   m_SpawnChance 60
+  m_SpawnChanceArtefactsRestart 9.84
+  m_SpawnChanceArtefacts 9.84
  }
  {
   coords 4535.348 288.979 1705.332
@@ -359,8 +414,10 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
   }
-  m_SpawnCount 12
+  m_SpawnCount 4
   m_SpawnChance 60
+  m_SpawnChanceArtefactsRestart 9.84
+  m_SpawnChanceArtefacts 9.84
  }
  {
   coords 5074.356 318.215 2737.106
@@ -373,8 +430,10 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
   }
-  m_SpawnCount 12
+  m_SpawnCount 4
   m_SpawnChance 60
+  m_SpawnChanceArtefactsRestart 9.84
+  m_SpawnChanceArtefacts 9.84
  }
  ELECTRO_ANOMALY27 {
   coords 4789.126 346.998 3079.718
@@ -387,6 +446,9 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ArtsPrefab {
    "{00DDB16A5A775F47}Prefabs/Items/artefacts_new/art_electro_1T_drop.et"
   }
+  m_SpawnCount 4
+  m_SpawnChanceArtefactsRestart 9.84
+  m_SpawnChanceArtefacts 9.84
  }
  JARKA_ANOMALY_11 {
   coords 4914.767 301.109 3086.563
@@ -399,8 +461,10 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ArtsPrefab {
    "{EABCF33CC349E7C3}Prefabs/Items/artefacts_new/art_fire_1T_drop.et"
   }
-  m_SpawnCount 15
+  m_SpawnCount 4
   m_CenterBias 0
+  m_SpawnChanceArtefactsRestart 9.84
+  m_SpawnChanceArtefacts 9.84
  }
  JARKA_ANOMALY_13 {
   coords 5117.011 301.109 3099.89
@@ -413,8 +477,10 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ArtsPrefab {
    "{EABCF33CC349E7C3}Prefabs/Items/artefacts_new/art_fire_1T_drop.et"
   }
-  m_SpawnCount 15
+  m_SpawnCount 4
   m_CenterBias 0
+  m_SpawnChanceArtefactsRestart 9.84
+  m_SpawnChanceArtefacts 9.84
  }
  {
   coords 5042.095 301.108 3081.212
@@ -427,8 +493,10 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
   }
-  m_SpawnCount 12
+  m_SpawnCount 4
   m_SpawnChance 60
+  m_SpawnChanceArtefactsRestart 9.84
+  m_SpawnChanceArtefacts 9.84
  }
  {
   coords 4861.873 302.824 3088.494
@@ -441,8 +509,10 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
   }
-  m_SpawnCount 12
+  m_SpawnCount 4
   m_SpawnChance 60
+  m_SpawnChanceArtefactsRestart 9.84
+  m_SpawnChanceArtefacts 9.84
  }
  {
   coords 5176.679 301.108 3024.069
@@ -455,8 +525,10 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
   }
-  m_SpawnCount 12
+  m_SpawnCount 4
   m_SpawnChance 60
+  m_SpawnChanceArtefactsRestart 9.84
+  m_SpawnChanceArtefacts 9.84
  }
  {
   coords 4659.13 310.199 2952.754
@@ -469,8 +541,10 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
   }
-  m_SpawnCount 12
+  m_SpawnCount 4
   m_SpawnChance 60
+  m_SpawnChanceArtefactsRestart 9.84
+  m_SpawnChanceArtefacts 9.84
  }
  ELECTRO_ANOMALY28 {
   coords 4861.286 310.983 2443.668
@@ -483,6 +557,9 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ArtsPrefab {
    "{00DDB16A5A775F47}Prefabs/Items/artefacts_new/art_electro_1T_drop.et"
   }
+  m_SpawnCount 4
+  m_SpawnChanceArtefactsRestart 9.84
+  m_SpawnChanceArtefacts 9.84
  }
  ELECTRO_ANOMALY29 {
   coords 4990.028 310.983 2560.614
@@ -495,6 +572,9 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ArtsPrefab {
    "{00DDB16A5A775F47}Prefabs/Items/artefacts_new/art_electro_1T_drop.et"
   }
+  m_SpawnCount 4
+  m_SpawnChanceArtefactsRestart 9.84
+  m_SpawnChanceArtefacts 9.84
  }
  {
   coords 5082.08 312.135 1864.903
@@ -507,8 +587,10 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
   }
-  m_SpawnCount 12
+  m_SpawnCount 4
   m_SpawnChance 60
+  m_SpawnChanceArtefactsRestart 9.84
+  m_SpawnChanceArtefacts 9.84
  }
  {
   coords 5353.79 320.452 1996.313
@@ -521,8 +603,10 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
   }
-  m_SpawnCount 12
+  m_SpawnCount 4
   m_SpawnChance 60
+  m_SpawnChanceArtefactsRestart 9.84
+  m_SpawnChanceArtefacts 9.84
  }
  {
   coords 4930.542 316.211 2087.635
@@ -535,8 +619,10 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
   }
-  m_SpawnCount 12
+  m_SpawnCount 4
   m_SpawnChance 60
+  m_SpawnChanceArtefactsRestart 9.84
+  m_SpawnChanceArtefacts 9.84
  }
  {
   coords 4516.259 306.858 2049.518
@@ -549,8 +635,10 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
   }
-  m_SpawnCount 12
+  m_SpawnCount 4
   m_SpawnChance 60
+  m_SpawnChanceArtefactsRestart 9.84
+  m_SpawnChanceArtefacts 9.84
  }
  ART_ANOMAL_12 {
   coords 5256.873 299.89 1893.854
@@ -564,11 +652,11 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ArtsPrefab {
    "{5BA31E48F7933CA9}Prefabs/Items/artefacts_new/art_toxys_1T_drop.et"
   }
-  m_SpawnCount 10
+  m_SpawnCount 4
   m_MinDistanceBetweenAnomalies 8
   m_CenterBias 0.9
-  m_SpawnChanceArtefactsRestart 100
-  m_SpawnChanceArtefacts 10
+  m_SpawnChanceArtefactsRestart 9.84
+  m_SpawnChanceArtefacts 9.84
  }
  ART_ANOMAL_13 {
   coords 5229.647 299.869 1842.263
@@ -582,11 +670,11 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ArtsPrefab {
    "{5BA31E48F7933CA9}Prefabs/Items/artefacts_new/art_toxys_1T_drop.et"
   }
-  m_SpawnCount 10
+  m_SpawnCount 4
   m_MinDistanceBetweenAnomalies 8
   m_CenterBias 0.9
-  m_SpawnChanceArtefactsRestart 100
-  m_SpawnChanceArtefacts 10
+  m_SpawnChanceArtefactsRestart 9.84
+  m_SpawnChanceArtefacts 9.84
  }
  ART_ANOMAL_14 {
   coords 4602.008 303.827 2144.898
@@ -600,11 +688,11 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ArtsPrefab {
    "{5BA31E48F7933CA9}Prefabs/Items/artefacts_new/art_toxys_1T_drop.et"
   }
-  m_SpawnCount 10
+  m_SpawnCount 4
   m_MinDistanceBetweenAnomalies 8
   m_CenterBias 0.9
-  m_SpawnChanceArtefactsRestart 100
-  m_SpawnChanceArtefacts 10
+  m_SpawnChanceArtefactsRestart 9.84
+  m_SpawnChanceArtefacts 9.84
  }
  ART_ANOMAL_15 {
   coords 4892.279 301.109 3008.365
@@ -618,11 +706,11 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ArtsPrefab {
    "{5BA31E48F7933CA9}Prefabs/Items/artefacts_new/art_toxys_1T_drop.et"
   }
-  m_SpawnCount 10
+  m_SpawnCount 4
   m_MinDistanceBetweenAnomalies 8
   m_CenterBias 0.9
-  m_SpawnChanceArtefactsRestart 100
-  m_SpawnChanceArtefacts 10
+  m_SpawnChanceArtefactsRestart 9.84
+  m_SpawnChanceArtefacts 9.84
  }
  ART_ANOMAL_16 {
   coords 4508.671 279.222 1686.774
@@ -636,11 +724,11 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
   }
-  m_SpawnCount 10
+  m_SpawnCount 4
   m_MinDistanceBetweenAnomalies 8
   m_CenterBias 0.8
-  m_SpawnChanceArtefactsRestart 100
-  m_SpawnChanceArtefacts 10
+  m_SpawnChanceArtefactsRestart 9.84
+  m_SpawnChanceArtefacts 9.84
  }
  ART_ANOMAL_17 {
   coords 4988.422 303.619 2230.939
@@ -654,11 +742,11 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ArtsPrefab {
    "{00DDB16A5A775F47}Prefabs/Items/artefacts_new/art_electro_1T_drop.et"
   }
-  m_SpawnCount 10
+  m_SpawnCount 4
   m_MinDistanceBetweenAnomalies 8
   m_CenterBias 0.9
-  m_SpawnChanceArtefactsRestart 100
-  m_SpawnChanceArtefacts 10
+  m_SpawnChanceArtefactsRestart 9.84
+  m_SpawnChanceArtefacts 9.84
  }
 }
 $grp ARMST_TRIGGER_ANOMALY : "{AA2861A1D8917395}Prefabs/Anomals/TRIGGERS/ARMST_TRIGGER_LIGHTING.et" {

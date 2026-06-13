@@ -63,9 +63,10 @@ ARMST_TRIGGER_SPAWN ELECTRO_ANOMALY20 : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGG
  m_ObjectPrefab "{60D88B47635E7627}Prefabs/Anomals/Electro/ARMST_ELECTRO_T1.et"
  m_ObjectPrefab2 "{60D88B47635E7627}Prefabs/Anomals/Electro/ARMST_ELECTRO_T1.et"
  m_ObjectPrefab3 "{60D88B47635E7627}Prefabs/Anomals/Electro/ARMST_ELECTRO_T1.et"
- m_SpawnCount 2
+ m_SpawnCount 4
  m_CenterBias 0.9
- m_SpawnChanceArtefacts 0
+ m_SpawnChanceArtefactsRestart 9.84
+ m_SpawnChanceArtefacts 9.84
 }
 $grp GenericEntity : "{9B5E54AE53A664C4}Prefabs/QUESTS/BASE_QUEST_STAGE_CHANGE.et" {
  {

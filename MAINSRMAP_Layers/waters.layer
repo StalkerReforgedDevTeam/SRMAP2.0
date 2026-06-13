@@ -8023,7 +8023,7 @@ $grp GenericEntity : "{A19A22F731C8C3E6}Prefabs/Systems/DamageAreas/DamageArea_K
       "Area shape" SCR_ConvexPolygonDamageAreaShape "{6650CBAB7081F0F4}" {
        m_aBounds {
         SCR_BoundsPosition "{6650CBAB76F8AE9F}" {
-         Offset 39.79 -7.5 -91.668
+         Offset 40.341 -7.5 -77.946
         }
         SCR_BoundsPosition "{6650CBAB0C484DA0}" {
          Offset 38.875 -7.5 -32.037
@@ -8035,22 +8035,22 @@ $grp GenericEntity : "{A19A22F731C8C3E6}Prefabs/Systems/DamageAreas/DamageArea_K
          Offset 60.787 -7.5 85.356
         }
         SCR_BoundsPosition "{6650CBAB247C3FB1}" {
-         Offset 23.035 -7.5 119.782
+         Offset 27.564 -7.5 113.503
         }
         SCR_BoundsPosition "{6650CBAB3983D33B}" {
-         Offset -64.825 -7.5 70.093
+         Offset -54.762 -7.5 67.671
         }
         SCR_BoundsPosition "{6650CBAB37D729CB}" {
          Offset -76.191 -7.5 14.555
         }
         SCR_BoundsPosition "{6650CBAAC89DBBE0}" {
-         Offset -58.208 -7.5 -34.642
+         Offset -48.553 -7.5 -20.668
         }
         SCR_BoundsPosition "{6650CBAACD535EDF}" {
-         Offset -28.394 -7.5 -66.876
+         Offset -10.194 -7.5 -48.871
         }
         SCR_BoundsPosition "{6650CBAD834B7E36}" {
-         Offset 10.124 -7.5 -94.667
+         Offset 17.431 -7.5 -75.974
         }
        }
        m_fHeight 15
@@ -8071,34 +8071,34 @@ $grp GenericEntity : "{A19A22F731C8C3E6}Prefabs/Systems/DamageAreas/DamageArea_K
       "Area shape" SCR_ConvexPolygonDamageAreaShape "{6650CBAB7081F0F4}" {
        m_aBounds {
         SCR_BoundsPosition "{6650CBAB76F8AE9F}" {
-         Offset 51.388 -7.5 -71.464
+         Offset 46.655 -7.5 -68.92
         }
         SCR_BoundsPosition "{6650CBAB0C484DA0}" {
-         Offset 42.709 -7.5 -18.141
+         Offset 38.794 -7.5 -18.141
         }
         SCR_BoundsPosition "{6650CBAB00465D0A}" {
          Offset 40.275 -7.5 24.41
         }
         SCR_BoundsPosition "{6650CBAB05580D4B}" {
-         Offset 24.124 -7.5 35.867
+         Offset 19.705 -7.5 35.387
         }
         SCR_BoundsPosition "{6650CBAB247C3FB1}" {
-         Offset 4.388 -7.5 65.032
+         Offset -4.915 -7.5 53.216
         }
         SCR_BoundsPosition "{6650CBAB3983D33B}" {
-         Offset -35.503 -7.5 89.92
+         Offset -24.835 -1.6 64.421
         }
         SCR_BoundsPosition "{6650CBAB37D729CB}" {
-         Offset -51.613 -7.5 45.5
+         Offset -38.162 -7.5 32.733
         }
         SCR_BoundsPosition "{6650CBAAC89DBBE0}" {
-         Offset -40.429 -7.5 -34.407
+         Offset -43.463 -7.5 -26.499
         }
         SCR_BoundsPosition "{6650CBAACD535EDF}" {
          Offset -40.775 -7.5 -69.174
         }
         SCR_BoundsPosition "{6650CBAD834B7E36}" {
-         Offset 16.198 -7.5 -71.722
+         Offset 5.614 -7.5 -69.617
         }
        }
        m_fHeight 15
@@ -8109,8 +8109,8 @@ $grp GenericEntity : "{A19A22F731C8C3E6}Prefabs/Systems/DamageAreas/DamageArea_K
     }
    }
   }
-  coords 4436.46 307.771 1231.177
-  angles 0 -28.258 0
+  coords 4436.925 307.771 1237.947
+  angles 0 -25.736 0
  }
  {
   components {
@@ -8120,10 +8120,10 @@ $grp GenericEntity : "{A19A22F731C8C3E6}Prefabs/Systems/DamageAreas/DamageArea_K
       "Area shape" SCR_ConvexPolygonDamageAreaShape "{6650CBAB7081F0F4}" {
        m_aBounds {
         SCR_BoundsPosition "{6650CBAB76F8AE9F}" {
-         Offset 22.706 -7.5 -19.575
+         Offset 20.454 -7.5 -16.571
         }
         SCR_BoundsPosition "{6650CBAB0C484DA0}" {
-         Offset 27.402 -7.5 -4.343
+         Offset 26.742 -7.5 -3.926
         }
         SCR_BoundsPosition "{6650CBAB00465D0A}" {
          Offset 22.079 -7.5 13.514
@@ -8135,19 +8135,19 @@ $grp GenericEntity : "{A19A22F731C8C3E6}Prefabs/Systems/DamageAreas/DamageArea_K
          Offset -6.398 -7.5 29.752
         }
         SCR_BoundsPosition "{6650CBAB3983D33B}" {
-         Offset -24.681 -7.5 14.12
+         Offset -23.385 -7.5 14.126
         }
         SCR_BoundsPosition "{6650CBAB37D729CB}" {
-         Offset -31.874 -7.5 -0.967
+         Offset -24.581 -7.5 2.633
         }
         SCR_BoundsPosition "{6650CBAAC89DBBE0}" {
-         Offset -22.431 -7.5 -17.013
+         Offset -19.062 -7.5 -11.142
         }
         SCR_BoundsPosition "{6650CBAACD535EDF}" {
-         Offset -10.046 -7.5 -20.75
+         Offset -9.196 -7.5 -14.041
         }
         SCR_BoundsPosition "{6650CBAD834B7E36}" {
-         Offset 9.057 -7.5 -20.687
+         Offset 9.669 -7.5 -16.616
         }
        }
        m_fHeight 15
@@ -8168,19 +8168,19 @@ $grp GenericEntity : "{A19A22F731C8C3E6}Prefabs/Systems/DamageAreas/DamageArea_K
       "Area shape" SCR_ConvexPolygonDamageAreaShape "{6650CBAB7081F0F4}" {
        m_aBounds {
         SCR_BoundsPosition "{6650CBAB76F8AE9F}" {
-         Offset -49.509 -3.65 -71.366
+         Offset -51.162 -3.65 -57.45
         }
         SCR_BoundsPosition "{6650CBAB0C484DA0}" {
-         Offset 78.877 -3.65 11.179
+         Offset 73.335 -3.65 17.664
         }
         SCR_BoundsPosition "{6650CBAB00465D0A}" {
-         Offset 58.059 -3.65 74.062
+         Offset 65.401 -3.65 44.151
         }
         SCR_BoundsPosition "{6650CBAB05580D4B}" {
-         Offset -13.451 -3.65 29.337
+         Offset -3.665 -3.65 18.903
         }
         SCR_BoundsPosition "{6650CBAB247C3FB1}" {
-         Offset -73.976 -3.65 -43.212
+         Offset -65.593 -3.65 -45.304
         }
        }
        m_fHeight 7.3
@@ -8201,19 +8201,19 @@ $grp GenericEntity : "{A19A22F731C8C3E6}Prefabs/Systems/DamageAreas/DamageArea_K
       "Area shape" SCR_ConvexPolygonDamageAreaShape "{6650CBAB7081F0F4}" {
        m_aBounds {
         SCR_BoundsPosition "{6650CBAB76F8AE9F}" {
-         Offset -55.3 -3.8 -71.945
+         Offset -46.639 -3.8 -56.034
         }
         SCR_BoundsPosition "{6650CBAB0C484DA0}" {
-         Offset 17.063 -3.8 -34.935
+         Offset 9.746 -3.8 -27.681
         }
         SCR_BoundsPosition "{6650CBAB00465D0A}" {
-         Offset 70.889 -3.8 53.176
+         Offset 61.196 -3.8 54.858
         }
         SCR_BoundsPosition "{6650CBAB05580D4B}" {
-         Offset 37.814 -3.8 69.723
+         Offset 52.765 -3.8 62.209
         }
         SCR_BoundsPosition "{6650CBAB247C3FB1}" {
-         Offset -70.466 -3.8 -16.019
+         Offset -52.891 -3.8 -32.312
         }
        }
        m_fHeight 7.6

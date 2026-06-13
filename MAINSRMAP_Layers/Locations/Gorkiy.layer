@@ -610,11 +610,12 @@ ARMST_TRIGGER_SPAWN EYE_ANOMALY14 : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/
  m_ObjectPrefab "{1918FCF94E1DC74D}Prefabs/Anomals/Eye/ARMST_EYE.et"
  m_ObjectPrefab2 "{9E0D254D4ECD2C1D}Prefabs/Anomals/Miracle/ARMST_MIRACLE.et"
  m_ObjectPrefab3 "{1918FCF94E1DC74D}Prefabs/Anomals/Eye/ARMST_EYE.et"
- m_SpawnCount 10
+ m_SpawnCount 4
  m_MinDistanceBetweenAnomalies 10
  m_CenterBias 0.5
  m_MinDistanceToPlayer 25
- m_SpawnChanceArtefacts 15
+ m_SpawnChanceArtefactsRestart 9.84
+ m_SpawnChanceArtefacts 9.84
 }
 GenericEntity : "{816F3FD037EA2EFF}Prefabs/Vehicles/gaz53/armst_gaz53_box.et" {
  coords 3154.52 305.351 2551.674
