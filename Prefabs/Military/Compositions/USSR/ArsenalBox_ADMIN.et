@@ -1,0 +1,13 @@
+GenericEntity : "{252BA65F8F02ACBF}Prefabs/Props/Military/Compositions/USSR/ArsenalBox_BANDIT.et" {
+ ID "56F2C6D6F7C6DAFA"
+ components {
+  SCR_ArsenalComponent "{56F2C6D1431AD9AF}" {
+   m_eArsenalSaveType SAVING_DISABLED
+  }
+  SCR_FactionAffiliationComponent "{5A50E7655452A21D}" {
+   "faction affiliation" "ADMIN"
+  }
+ }
+ coords 5636.465 302.342 38.383
+ angles 0 80.865 0
+}

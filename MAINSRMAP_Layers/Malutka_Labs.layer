@@ -3368,7 +3368,7 @@ GameEntity : "{820839184AE86AC8}Prefabs/Method/Props/Camps/Fireplace_Loiters_01.
    ID "695EA1984F713886"
    components {
     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-     m_LootTiersSpawn +{
+     m_LootTiersSpawn {
       "TIER_2"
      }
     }
@@ -3378,7 +3378,7 @@ GameEntity : "{820839184AE86AC8}Prefabs/Method/Props/Camps/Fireplace_Loiters_01.
    ID "695EA1984F7138E2"
    components {
     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-     m_LootTiersSpawn +{
+     m_LootTiersSpawn {
       "TIER_2"
      }
     }

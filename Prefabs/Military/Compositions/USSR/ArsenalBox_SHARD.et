@@ -1,0 +1,10 @@
+GenericEntity : "{B6AA777817A5AABE}Prefabs/Props/Military/Compositions/USSR/ArsenalBox_ECLIPSE.et" {
+ ID "68471AEADE3A604C"
+ components {
+  SCR_FactionAffiliationComponent "{68471AEB220A5F22}" {
+   "faction affiliation" "SHARD"
+  }
+ }
+ coords 8.023 -1.02 5.367
+ angles 0 84.674 0
+}
