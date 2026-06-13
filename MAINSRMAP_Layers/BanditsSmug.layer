@@ -188,15 +188,9 @@ SCR_DestructibleBuildingEntity : "{2EAD1F3D3495751E}Prefabs/Industrial/builds/bi
  coords 4137.931 309.452 687.054
  angles 0 38.538 0
 }
-$grp GenericEntity : "{317197B55A4ADB45}Prefabs/shelfs/shkaf_2.et" {
- {
-  coords 4145.528 310.663 676.529
-  angles -51.716 125.026 0
- }
- {
-  coords 4015.734 309.781 612.838
-  angles 0 56.347 106.567
- }
+GenericEntity : "{317197B55A4ADB45}Prefabs/shelfs/shkaf_2.et" {
+ coords 4145.528 310.663 676.529
+ angles -51.716 125.026 0
 }
 $grp LightEntity : "{37D194C189668A3C}Prefabs/Structures/BuildingParts/Lights/LightPrefabs/LightIndustrial_02_light_point_interior.et" {
  {
@@ -642,10 +636,6 @@ GenericEntity : "{8FE6D62204173656}Prefabs/Props/Civilian/BeerBottle_01_group.et
  coords 4171.598 306.801 702.319
  angles 0 33.56 0
 }
-SCR_DestructibleBuildingEntity : "{90DA909C205FB07D}Prefabs/Industrial/garage_zavodskaia.et" {
- coords 4021.695 309.751 618.783
- angles 5.715 57.651 0
-}
 GenericEntity : "{9372B1BECE66E90B}Prefabs/Staff/box_wooden_small_3.et" {
  coords 4138.276 309.6 686.555
 }
@@ -1033,25 +1023,6 @@ $grp GenericEntity : "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_0
   angles 0.381 -52.114 -138.426
   scale 0.6
  }
- {
-  components {
-   Hierarchy "{59D87A55EAE3E20E}" {
-    Enabled 1
-   }
-  }
-  coords 4024.743 310.407 616.471
-  angles 26.595 -120.041 0.805
- }
- {
-  components {
-   Hierarchy "{59D87A55EAE3E20E}" {
-    Enabled 1
-   }
-  }
-  coords 4016.827 310.958 612.623
-  angles 0.589 150.725 -51.033
-  scale 0.95
- }
 }
 GenericEntity : "{CC98E67AC15E257D}Prefabs/Props/Recreation/Camp/TentBig_01/TentBig_01_orange.et" {
  coords 4144.74 309.452 697.207
@@ -1079,14 +1050,6 @@ $grp GenericEntity : "{D6985C2C05881054}Prefabs/Trash/sapogi.et" {
   coords 4144.93 309.915 685.839
   angles 0 0 0
  }
- {
-  coords 4018.555 310.531 612.292
-  angles 0 0 0
- }
-}
-GenericEntity : "{D97E09EF5618942D}Prefabs/shelfs/shelf_wood_old.et" {
- coords 4022.185 311.448 614.347
- angles 84.595 -118.607 -174.842
 }
 SCR_DestructibleBuildingEntity : "{DA18BC3C9738C614}Prefabs/Industrial/builds/bitovka_wheels.et" {
  coords 4156.216 309.057 689.417
@@ -1181,9 +1144,6 @@ $grp GenericEntity : "{E56F1B739B9792C4}Prefabs/Props/Civilian/Ashtray_01_Full_g
   coords 4164.117 310.183 689.009
   angles 0 162.661 0
  }
-}
-GenericEntity : "{F3E18E13C3927F7C}Prefabs/Posuda/posuda_5.et" {
- coords 4019.256 310.611 612.557
 }
 $grp GenericEntity : "{F401D58CD490C872}Prefabs/Props/Civilian/BeerBottle_01_slava.et" {
  {
