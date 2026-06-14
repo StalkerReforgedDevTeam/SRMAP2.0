@@ -2751,6 +2751,15 @@ $grp SCR_DestructibleBuildingEntity {
   }
  }
 }
+GenericEntity : "{09710A2D892B56D1}Prefabs/Props/TRADE/bandit_trader.et" {
+ components {
+  ARMST_DIALOGS_COMPONENT "{699C03F1A91FF97B}" {
+   m_DialogConfig "{427CA30DC86A0438}Configs/GAME_SETTING/DIALOGS/ACTORS/Bandit_patch.conf"
+  }
+ }
+ coords 5272.707 302.532 63.693
+ angles 0 84.345 0
+}
 $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawner.et" {
  electro6 {
   components {
@@ -3329,23 +3338,6 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
   coords 5743.119 312.513 1636.489
   scale 50
  }
-}
-SCR_ChimeraCharacter : "{907A4079BF015EB2}Prefabs/QUESTS/TUFANS/TUFAN_STATIC_2.et" {
- components {
-  ARMST_DIALOGS_COMPONENT "{6686D3236158621E}" {
-   Enabled 1
-   m_DialogConfig "{A3CEC7AC3A176A62}Configs/GAME_SETTING/DIALOGS/ACTORS/ACTOR_BANDITPATCH.conf"
-  }
-  ActionsManagerComponent "{520EA1D2F659CE02}" {
-   additionalActions {
-    ARMST_USER_DIALOGS "{6686ECEDBBB7636F}" {
-     m_bEnableDialogs 1
-    }
-   }
-  }
- }
- coords 5271.17 301.631 63.805
- angles 0 0 0
 }
 $grp GenericEntity : "{C9AA399693301771}Prefabs/Monsters/Spawners/armst_spawner_spider.et" {
  {
