@@ -1,19 +1,2 @@
 FrameWidgetClass {
- {
-  VerticalLayoutWidgetClass "{68E72B9C04320745}" : "{DD351442646BBF77}UI/PDA_NOTIFICATIONS_UI/PDA_Notifications_Container.layout" {
-   Name "PDA_Notifications_Container0"
-   Slot FrameWidgetSlot "{68E72B9C0432074F}" {
-    Anchor 0 1 0 1
-    PositionX 6.641
-    OffsetLeft 6.641
-    PositionY -433.146
-    OffsetTop -433.146
-    SizeX 750
-    OffsetRight -756.641
-    SizeY 354.434
-    OffsetBottom 78.712
-   }
-   Clipping True
-  }
- }
 }
