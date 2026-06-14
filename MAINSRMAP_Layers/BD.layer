@@ -245,6 +245,99 @@ SCR_GameModeEditor Armst_GameMaster : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Editor
     SCR_Faction "{6592C1055289779F}" {
      m_bIsPlayable 0
     }
+    SCR_Faction "{699B44FAB52934D1}" {
+     FactionKey "FACTION_DUTY"
+     FactionColor 1 0.0207 0.0207 0
+     UIInfo SCR_FactionUIInfo "{699B44FA5DC97954}" {
+      Name "Duty"
+     }
+     "Identity of soldiers" FactionIdentity "{699B44FA584CDE3E}" : "{29D3E80C0F60DBA5}Configs/Identities/FactionIdentity_STALKER_NEW.conf" {
+      VisualIdentityArray {
+       VisualIdentity "{570CE64C790A3C7D}" {
+       }
+       VisualIdentity "{570EDB835A380222}" {
+       }
+       VisualIdentity "{570EDB8350DB33B8}" {
+       }
+       VisualIdentity "{570EDB8357A47107}" {
+       }
+       VisualIdentity "{570EDB8327826007}" {
+       }
+       VisualIdentity "{570EDB83254045EE}" {
+       }
+       VisualIdentity "{570EDB832452CCD8}" {
+       }
+       VisualIdentity "{588503EEE1FF7EEB}" {
+       }
+       VisualIdentity "{588503EECF36003C}" {
+       }
+      }
+      SoundIdentityArray {
+       SoundIdentity "{658907E1D2411297}" {
+       }
+       SoundIdentity "{658907E1D241126D}" {
+       }
+       SoundIdentity "{658907E1D241126E}" {
+       }
+       SoundIdentity "{658907E1D241126F}" {
+       }
+       SoundIdentity "{658907E1D2411268}" {
+       }
+       SoundIdentity "{658907E1D2411269}" {
+       }
+      }
+     }
+     "Radio encryption key" "DUTYCOMS"
+     m_iOrder 1000
+     m_OutlineFactionColor 0.95 0.014 0.014 0
+     m_NotificationFactionColor 1 0.043 0.043 0
+     m_NotificationTextFactionColor 0.983 0.027 0.027 0
+     m_bIsPlayable 0
+     m_FactionLabel FACTION_DUTY
+     m_aFriendlyFactionsIds {
+      "FACTION_STALKER"
+      "FACTION_SCIENCES"
+     }
+     m_CallsignInfo SCR_FactionCallsignInfo "{699B44FD58DF1029}" {
+     }
+     m_aEntityCatalogs {
+      SCR_EntityCatalogMultiList "{699B44FD0056CB82}" : "{B6245BD0211B34E4}Configs/Factions/ARSENALS/DutyArsenal.conf" {
+      }
+      SCR_EntityCatalogMultiList "{699B44FC394B90C9}" : "{15EBC185D9A38D59}Configs/Factions/InventoryItems_EntityCatalog_DUTY.conf" {
+      }
+     }
+    }
+    SCR_Faction "{699B5A39B4B4F85B}" : "{1AE757FB34F0B875}Configs/Factions/SrFactions/FREEDOM.conf" {
+     "Radio encryption key" "FREEDOMCOMS"
+     m_aEntityCatalogs {
+      SCR_EntityCatalog "{5C9EDDD378BA3298}" {
+      }
+      SCR_EntityCatalogMultiList "{699B5A3AC838CC26}" : "{51BBAE029EC7FF8C}Configs/Factions/InventoryItems_EntityCatalog_FREEDOM.conf" {
+      }
+     }
+    }
+    SCR_Faction "{699B5A3D90784EEB}" : "{70F12E86D4A5B1C8}Configs/Factions/SrFactions/BANDITS.conf" {
+     FactionKey "FACTION_BANDITS"
+     FactionColor 0.1195 0.0548 0.0054 1
+     "Radio encryption key" "BANDITCOMS"
+     m_aEntityCatalogs {
+      SCR_EntityCatalogMultiList "{699B5A3D47A81BA3}" : "{3BADD77F7E92F631}Configs/Factions/InventoryItems_EntityCatalog_BANDITS.conf" {
+      }
+     }
+    }
+    SCR_Faction "{699B5A3D512BBE5B}" : "{8E3801AD9605F9B9}Configs/Factions/SrFactions/SBU.conf" {
+     "Radio encryption key" "SBUCOMS"
+     m_aEntityCatalogs {
+      SCR_EntityCatalogMultiList "{699B5A3D77E38F3B}" : "{6B102777DD788BAD}Configs/Factions/InventoryItems_EntityCatalog_SBU.conf" {
+      }
+     }
+    }
+    SCR_Faction "{699B5A3D0310C715}" : "{2A3C380A8CDE6C27}Configs/Factions/SrFactions/MONOLITH.conf" {
+     m_aEntityCatalogs {
+      SCR_EntityCatalogMultiList "{699B5A3D1309E899}" : "{F9B72D03B74E3603}Configs/Factions/InventoryItems_EntityCatalog_MONOLITH.conf" {
+      }
+     }
+    }
    }
   }
  }

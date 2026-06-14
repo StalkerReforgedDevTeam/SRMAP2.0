@@ -1,3 +1,66 @@
+ARMST_SpawnPoint {
+ coords 5270.47 301.924 66.157
+ m_FactionKey FACTION_BANDIT
+ m_fMinimalReputation -100
+}
+$grp GenericEntity {
+ {
+  components {
+   MeshObject "{699B5A3114C5D76B}" {
+    Object "{34BA5CF1F425BEAD}Assets/Structures/BuildingsParts/Doors/Door_Bunker_01/Door_Bunker_01_A_RIGHT_EXT_COV_B.xob"
+   }
+   ActionsManagerComponent "{699B5A3114C5D7E7}" {
+    ActionContexts {
+     UserActionContext "{699B5A3114C5D714}" {
+      UIInfo UIInfo "{699B5A3114C5D726}" {
+      }
+      ContextName "Default"
+      Position PointInfo "{699B5A3114C5D711}" {
+       Offset 0.4756 0.9199 0
+      }
+      Radius 0.81
+     }
+    }
+    additionalActions {
+     ARMST_TELEPORT_ACTIONS "{699B5A3114C5D7E6}" {
+      ParentContextList {
+       "Default"
+      }
+      Duration 5
+      m_sTeleportActionName "Shant City"
+      m_sTeleportTarget "enter_perimetr3"
+      m_fTeleportDelay 1
+      m_fTeleportRadius 3
+      m_sRequiredItem ""
+     }
+     ARMST_TELEPORT_ACTIONS "{699B5A32AD1E7839}" {
+      ParentContextList {
+       "Default"
+      }
+      Duration 5
+      m_sTeleportActionName "Sultans Church"
+      m_sTeleportTarget "enter_perimetr4"
+      m_fTeleportDelay 1
+      m_fTeleportRadius 3
+      m_sRequiredItem ""
+     }
+    }
+   }
+   RplComponent "{699B5A3114C5D7DE}" {
+   }
+  }
+  coords 5267.349 301.65 66.69
+  angles 0 90.481 0
+ }
+ enter_perimetr3 {
+  coords 2624.837 292.136 1022.578
+  angles 0 -57.322 0
+ }
+ enter_perimetr4 {
+  coords 2747.27 297.075 1516.936
+  angles 0 -57.322 0
+ }
+}
 $grp SCR_DestructibleBuildingEntity {
  {
   components {
@@ -549,6 +612,13 @@ $grp SCR_DestructibleBuildingEntity {
      }
     }
     coords 0 0 0
+    {
+     GenericEntity {
+      ID "59F6E1B5B2CE37CB"
+      coords 0 0 0
+      angles 0 174.949 0
+     }
+    }
    }
    $grp GenericEntity : "{43816DF1021ABD72}Prefabs/LOOT_BOX/3_TIER/3_TIER_Loot_randomize_tools.et" {
     {
@@ -562,16 +632,6 @@ $grp SCR_DestructibleBuildingEntity {
    }
    GenericEntity : "{4613948821749011}Prefabs/Structures/Military/Bunkers/AirfieldBunker_E_01/AirfieldBunker_E_01_big_furniture_02.et" {
     coords 0 0 0
-   }
-   $grp GenericEntity : "{4EFE35748F199226}Prefabs/LOOT_BOX/2_TIER/2_TIER_Loot_randomize_clothes.et" {
-    {
-     coords -1.524 -1.046 10.627
-     angles 5.371 0 0
-    }
-    {
-     coords -4.238 -1.13 3.026
-     angles 5.371 0 0
-    }
    }
    $grp GenericEntity : "{593C5C4530050392}Prefabs/Structures/BuildingParts/Eletrical/UtilityBoxInt_01/UtilityBoxInt_01_v1.et" {
     {
@@ -594,17 +654,9 @@ $grp SCR_DestructibleBuildingEntity {
      angles 0 -180 0
     }
    }
-   GenericEntity : "{5B64B0F835B1A883}Prefabs/LOOT_BOX/3_TIER/3_TIER_Loot_randomize_clothes.et" {
-    coords -1.569 -1.06 5.616
-    angles 5.371 0 0
-   }
    GenericEntity : "{5D8A463DF84135AA}Prefabs/Structures/BuildingParts/Eletrical/UtilityBoxInt_01/UtilityBoxInt_01_v4.et" {
     coords -1.932 0.302 10.335
     angles 0 180 0
-   }
-   GenericEntity : "{62F1771F599A48D2}Prefabs/LOOT_BOX/2_TIER/2_TIER_Loot_randomize_food.et" {
-    coords 1.624 -1.06 6.495
-    angles 0 -102.989 0
    }
    $grp GenericEntity : "{6401BFEA3B30EBF7}Prefabs/Structures/BuildingParts/Eletrical/ElectricityJunction_02/ElectricityJunction_02.et" {
     {
@@ -739,16 +791,6 @@ $grp SCR_DestructibleBuildingEntity {
     coords 1.866 0.169 -3.764
     angles 0 90 0
    }
-   $grp GenericEntity : "{A8FAF8D8950BF74B}Prefabs/LOOT_BOX/2_TIER/2_TIER_Loot_randomize_tools.et" {
-    {
-     coords 7.497 -1.02 7.876
-     angles 0 -3.093 0
-    }
-    {
-     coords -1.608 -0.999 -3.36
-     angles 0 -3.093 0
-    }
-   }
    $grp GenericEntity : "{BCC3261E8F3B4CDD}Prefabs/Structures/BuildingParts/Bunker/BunkerAirFiltration_01/BunkerAirFiltration_01.et" {
     {
      components {
@@ -775,20 +817,6 @@ $grp SCR_DestructibleBuildingEntity {
     }
     coords 0 0 0
    }
-   $grp GenericEntity : "{BE58F8F552188F52}Prefabs/LOOT_BOX/2_TIER/2_TIER_Loot_randomize_medicine.et" {
-    {
-     coords 4.377 -1.045 7.718
-    }
-    {
-     coords 3.379 -1.08 2.986
-    }
-    {
-     coords -0.693 -1.004 0.709
-    }
-    {
-     coords -6.187 -1.044 7.653
-    }
-   }
    $grp StaticModelEntity : "{CAF8666F26CEB7AD}Prefabs/Structures/BuildingParts/Entry/ConcreteStairs_02_Narrow.et" {
     {
      components {
@@ -805,17 +833,6 @@ $grp SCR_DestructibleBuildingEntity {
       }
      }
      coords 0 -0.166 1.696
-    }
-   }
-   $grp GenericEntity : "{CDF1093C34EED8F1}Prefabs/LOOT_BOX/2_TIER/2_TIER_Loot_randomize_clothes2.et" {
-    {
-     coords 5.079 -1.087 3.146
-    }
-    {
-     coords 2.07 -1.114 3.249
-    }
-    {
-     coords -7.468 -1.065 5.379
     }
    }
    $grp GenericEntity : "{E34303CB179E13D6}Prefabs/Structures/BuildingParts/Lights/LightIndustrial_01.et" {
@@ -3312,6 +3329,15 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
   coords 5743.119 312.513 1636.489
   scale 50
  }
+}
+GenericEntity : "{AD59EDEAA26CE792}Prefabs/Props/Military/Compositions/USSR/ArsenalBox_USSR.et" {
+ components {
+  SCR_FactionAffiliationComponent "{5A50E7655452A21D}" {
+   "faction affiliation" "FACTION_BANDITS"
+  }
+ }
+ coords 5274.18 301.631 66.21
+ angles 0 -94.382 0
 }
 $grp GenericEntity : "{C9AA399693301771}Prefabs/Monsters/Spawners/armst_spawner_spider.et" {
  {

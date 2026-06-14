@@ -1,0 +1,103 @@
+SCR_FactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/FactionManager_Base.et" {
+ ID "56B2B4776E6E4499"
+ Factions {
+  SCR_Faction "{699B5558AEAA60BB}" {
+   FactionKey "FACTION_DUTY"
+   FactionColor 1 0.0207 0.0207 0
+   UIInfo SCR_FactionUIInfo "{699B44FA5DC97954}" {
+    Name "Duty"
+   }
+   "Identity of soldiers" FactionIdentity "{699B44FA584CDE3E}" {
+    VisualIdentityArray {
+     VisualIdentity "{570CE64C790A3C7D}" {
+      Head "{24D28E910BF9F648}Prefabs/Characters/Heads/Head_Asian_02.et"
+      Body "{32B5FE236D152368}Prefabs/Characters/Basebody/CharacterBasebody_Asian_02.et"
+     }
+     VisualIdentity "{570EDB835A380222}" {
+      Head "{EAF055495BA85CA1}Prefabs/Characters/Heads/Head_White_02.et"
+      Body "{0023F898C0FF18AA}Prefabs/Characters/Basebody/CharacterBasebody.et"
+     }
+     VisualIdentity "{570EDB8350DB33B8}" {
+      Head "{0F6C19B0574DCBCA}Prefabs/Characters/Heads/Head_White_03.et"
+      Body "{0023F898C0FF18AA}Prefabs/Characters/Basebody/CharacterBasebody.et"
+     }
+     VisualIdentity "{570EDB8357A47107}" {
+      Head "{32583C88222142FD}Prefabs/Characters/Heads/Head_White_04.et"
+      Body "{0023F898C0FF18AA}Prefabs/Characters/Basebody/CharacterBasebody.et"
+     }
+     VisualIdentity "{570EDB8327826007}" {
+      Head "{D7C470712EC4D596}Prefabs/Characters/Heads/Head_White_05.et"
+      Body "{0023F898C0FF18AA}Prefabs/Characters/Basebody/CharacterBasebody.et"
+     }
+     VisualIdentity "{570EDB83254045EE}" {
+      Head "{BB90449192005AB8}Prefabs/Characters/Heads/Head_White_06.et"
+      Body "{0023F898C0FF18AA}Prefabs/Characters/Basebody/CharacterBasebody.et"
+     }
+     VisualIdentity "{570EDB832452CCD8}" {
+      Head "{C1F80EE178D948D6}Prefabs/Characters/Heads/Head_White_08.et"
+      Body "{0023F898C0FF18AA}Prefabs/Characters/Basebody/CharacterBasebody.et"
+     }
+     VisualIdentity "{588503EEE1FF7EEB}" {
+      Head "{24644218743CDFBD}Prefabs/Characters/Heads/Head_White_09.et"
+      Body "{0023F898C0FF18AA}Prefabs/Characters/Basebody/CharacterBasebody.et"
+     }
+     VisualIdentity "{588503EECF36003C}" {
+      Head "{143245D81F2BAB94}Prefabs/Characters/Heads/Head_White_10.et"
+      Body "{0023F898C0FF18AA}Prefabs/Characters/Basebody/CharacterBasebody.et"
+     }
+    }
+    SoundIdentityArray {
+     SoundIdentity "{658907E1D2411297}" {
+      VoiceID 101
+     }
+     SoundIdentity "{658907E1D241126D}" {
+      VoiceID 101
+      VoicePitch 0.8
+     }
+     SoundIdentity "{658907E1D241126E}" {
+      VoiceID 101
+      VoicePitch -1
+     }
+     SoundIdentity "{658907E1D241126F}" {
+      VoiceID 102
+     }
+     SoundIdentity "{658907E1D2411268}" {
+      VoiceID 102
+      VoicePitch 0.9
+     }
+     SoundIdentity "{658907E1D2411269}" {
+      VoiceID 102
+      VoicePitch -1
+     }
+    }
+   }
+   "Radio encryption key" "DUTYCOMS"
+   m_iOrder 1000
+   m_OutlineFactionColor 0.95 0.014 0.014 0
+   m_NotificationFactionColor 1 0.043 0.043 0
+   m_NotificationTextFactionColor 0.983 0.027 0.027 0
+   m_FactionLabel FACTION_STORM
+   m_aFriendlyFactionsIds {
+    "FACTION_STALKER" "FACTION_SCIENCES"
+   }
+   m_CallsignInfo SCR_FactionCallsignInfo "{699B44FD58DF1029}" {
+   }
+   m_aEntityCatalogs {
+    SCR_EntityCatalogMultiList "{699B44FD0056CB82}" {
+     m_eEntityCatalogType ITEM
+     m_aMultiLists {
+      SCR_EntityCatalogMultiListEntry "{699B31D54FE8937E}" {
+      }
+     }
+    }
+    SCR_EntityCatalogMultiList "{699B44FC394B90C9}" {
+     m_eEntityCatalogType ITEM
+     m_aMultiLists {
+      SCR_EntityCatalogMultiListEntry "{66D4D42338EA09A6}" {
+      }
+     }
+    }
+   }
+  }
+ }
+}

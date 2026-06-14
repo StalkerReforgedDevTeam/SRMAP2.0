@@ -1,0 +1,46 @@
+GenericEntity : "{10C26F96EF7A8CF5}Prefabs/Props/Core/Props_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{0DB551192790257B}Assets/Props/Commercial/ScaleShop_01/ScaleShop_01.xob"
+   Materials {
+    MaterialAssignClass "{699C03F1901A88E6}" {
+    }
+    MaterialAssignClass "{699C03F1901A82D0}" {
+    }
+   }
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "SmallDestructible"
+   ModelGeometry 1
+   Static 1
+  }
+  ActionsManagerComponent "{699C03F1901A82CD}" {
+   ActionContexts {
+    UserActionContext "{699C03F1901A82C1}" {
+     UIInfo UIInfo "{699C03F1901A82C7}" {
+      Name "default"
+     }
+     ContextName "default"
+     Position PointInfo "{699C03F1901A82BB}" {
+      Offset 0 0.0818 0
+     }
+     Radius 1.27
+    }
+   }
+   additionalActions {
+    ARMST_TRADER_OPEN "{699C03F1901A82BC}" {
+     ParentContextList {
+      "default"
+     }
+     Duration 0
+    }
+   }
+  }
+  RplComponent "{699C03F1901A82B6}" {
+  }
+ }
+ coords 4185.742 311.886 727.921
+ angles 0 -136.109 0
+ scale 0.53
+}

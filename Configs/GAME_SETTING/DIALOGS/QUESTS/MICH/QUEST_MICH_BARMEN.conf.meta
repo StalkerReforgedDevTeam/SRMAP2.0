@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{2B5A8604D7AB4A5B}Configs/GAME_SETTING/DIALOGS/QUESTS/MICH/QUEST_MICH_BARMEN.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

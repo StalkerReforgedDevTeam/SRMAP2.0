@@ -1,0 +1,22 @@
+VerticalLayoutWidgetClass {
+ Name "PDA_Notifications_Container"
+ "Is Visible" 0
+ "Fill Origin" Bottom
+ {
+  HorizontalLayoutWidgetClass "{68E6F275DC6493B1}" : "{A5D4247B8BD78D2F}UI/PDA_NOTIFICATIONS_UI/PDA_Messages_UI.layout" {
+   Name "PDA_Messages_Frame0"
+   Slot LayoutSlot "{68E6F275DC649344}" {
+   }
+  }
+  HorizontalLayoutWidgetClass "{68E6F275C06224B9}" : "{A5D4247B8BD78D2F}UI/PDA_NOTIFICATIONS_UI/PDA_Messages_UI.layout" {
+   Name "PDA_Messages_Frame1"
+   Slot LayoutSlot "{68E6F275C0622457}" {
+   }
+  }
+  HorizontalLayoutWidgetClass "{68E6F275C36D874A}" : "{A5D4247B8BD78D2F}UI/PDA_NOTIFICATIONS_UI/PDA_Messages_UI.layout" {
+   Name "PDA_Messages_Frame2"
+   Slot LayoutSlot "{68E6F275C36D8765}" {
+   }
+  }
+ }
+}
