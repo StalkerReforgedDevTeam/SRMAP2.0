@@ -317,6 +317,7 @@ SCR_GameModeEditor Armst_GameMaster : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Editor
      }
     }
     SCR_Faction "{699B5A3D90784EEB}" : "{70F12E86D4A5B1C8}Configs/Factions/SrFactions/BANDITS.conf" {
+     FactionKey "FACTION_BANDITS"
      FactionColor 0.1195 0.0548 0.0054 1
      "Radio encryption key" "BANDITCOMS"
      m_aEntityCatalogs {

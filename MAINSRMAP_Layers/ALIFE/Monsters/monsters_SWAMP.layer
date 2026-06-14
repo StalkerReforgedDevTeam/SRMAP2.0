@@ -2751,15 +2751,6 @@ $grp SCR_DestructibleBuildingEntity {
   }
  }
 }
-GenericEntity : "{09710A2D892B56D1}Prefabs/Props/TRADE/bandit_trader.et" {
- components {
-  ARMST_DIALOGS_COMPONENT "{699C03F1A91FF97B}" {
-   m_DialogConfig "{427CA30DC86A0438}Configs/GAME_SETTING/DIALOGS/ACTORS/Bandit_patch.conf"
-  }
- }
- coords 5272.707 302.532 63.693
- angles 0 84.345 0
-}
 $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawner.et" {
  electro6 {
   components {
@@ -3339,6 +3330,15 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
   scale 50
  }
 }
+GenericEntity : "{252BA65F8F02ACBF}Prefabs/Military/Compositions/USSR/ArsenalBox_BANDIT.et" {
+ components {
+  SCR_FactionAffiliationComponent "{5A50E7655452A21D}" {
+   "faction affiliation" "FACTION_BANDITS"
+  }
+ }
+ coords 5274.097 301.631 66.303
+ angles 0 -95.428 0
+}
 $grp GenericEntity : "{C9AA399693301771}Prefabs/Monsters/Spawners/armst_spawner_spider.et" {
  {
   components {
@@ -3475,13 +3475,4 @@ $grp GenericEntity : "{C9AA399693301771}Prefabs/Monsters/Spawners/armst_spawner_
   coords 2776.683 306.457 1003.344
   angles 5.029 -43.555 -180
  }
-}
-GenericEntity : "{E3EDC169901E2F88}Prefabs/Military/Compositions/USSR/ArsenalBox_DAWN.et" {
- components {
-  SCR_FactionAffiliationComponent "{684F7D0136D77A2C}" {
-   "faction affiliation" "BANDITS"
-  }
- }
- coords 5274.124 301.589 66.162
- angles 0 85.151 0
 }
