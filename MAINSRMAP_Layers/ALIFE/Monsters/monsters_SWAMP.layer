@@ -3330,23 +3330,14 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
   scale 50
  }
 }
-<<<<<<< HEAD
 GenericEntity : "{AD59EDEAA26CE792}Prefabs/Props/Military/Compositions/USSR/ArsenalBox_USSR.et" {
-=======
-GenericEntity : "{252BA65F8F02ACBF}Prefabs/Military/Compositions/USSR/ArsenalBox_BANDIT.et" {
->>>>>>> parent of a2b32c6 (working on getting scripts to work)
  components {
   SCR_FactionAffiliationComponent "{5A50E7655452A21D}" {
    "faction affiliation" "FACTION_BANDITS"
   }
  }
-<<<<<<< HEAD
  coords 5274.18 301.631 66.21
  angles 0 -94.382 0
-=======
- coords 5274.097 301.631 66.303
- angles 0 -95.428 0
->>>>>>> parent of a2b32c6 (working on getting scripts to work)
 }
 $grp GenericEntity : "{C9AA399693301771}Prefabs/Monsters/Spawners/armst_spawner_spider.et" {
  {
