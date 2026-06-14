@@ -1,0 +1,440 @@
+// Merged SCR_PlayerController mod - handles both RPC messages and commands
+modded class SCR_PlayerController
+{
+	// ==================== MESSAGE RPC (from SRZ_RPNet) ====================
+	
+	// Server calls this to send a message to this specific client
+	void SRZ_SendChatMessage(string message)
+	{
+		if (!Replication.IsServer())
+			return;
+
+		Print(string.Format("[SRZ_RP SERVER] Sending message to player: %1", message), LogLevel.NORMAL);
+		Rpc(SRZ_RpcAsk_ShowMessage, message);
+	}
+	
+	// Server calls this to send a message directly to chat (for .names command)
+	void SRZ_SendToChatOnly(string message)
+	{
+		if (!Replication.IsServer())
+			return;
+
+		Print(string.Format("[SRZ_RP SERVER] Sending to chat: %1", message), LogLevel.NORMAL);
+		Rpc(SRZ_RpcAsk_ShowInChat, message);
+	}
+
+	// Client receives and displays the message
+	[RplRpc(RplChannel.Reliable, RplRcver.Owner)]
+	protected void SRZ_RpcAsk_ShowMessage(string message)
+	{
+		Print(string.Format("[SRZ_RP CLIENT RPC] Received message: %1", message), LogLevel.NORMAL);
+		
+		// Use notification handler if available
+		SRZ_RPNotificationHandler handler = SRZ_RPNotificationHandler.GetInstance();
+		if (handler)
+		{
+			handler.QueueMessage(message);
+		}
+		else
+		{
+			// Fallback to direct display
+			Print("[SRZ_RP CLIENT] Notification handler not found, using fallback", LogLevel.WARNING);
+			GetGame().GetCallqueue().CallLater(ShowNotificationFallback, 50, false, message);
+		}
+	}
+	
+	// Client receives and displays message in chat only
+	[RplRpc(RplChannel.Reliable, RplRcver.Owner)]
+	protected void SRZ_RpcAsk_ShowInChat(string message)
+	{
+		Print(string.Format("[SRZ_RP CLIENT RPC] Received chat message: %1", message), LogLevel.NORMAL);
+		
+		// Send directly to chat using the chat component
+		SCR_ChatComponent chatComp = SCR_ChatComponent.Cast(GetGame().GetPlayerController().FindComponent(SCR_ChatComponent));
+		if (chatComp)
+		{
+			chatComp.ShowMessage(message);
+		}
+		else
+		{
+			Print(string.Format("[SRZ_RP] Chat component not available: %1", message), LogLevel.NORMAL);
+		}
+	}
+	
+	// Fallback notification display if handler not available
+	protected void ShowNotificationFallback(string message)
+	{
+		SCR_PopUpNotification popup = SCR_PopUpNotification.GetInstance();
+		if (popup)
+		{
+			popup.PopupMsg(message, 5.0);
+			return;
+		}
+		
+		SCR_HintManagerComponent hintMgr = SCR_HintManagerComponent.GetInstance();
+		if (hintMgr)
+		{
+			hintMgr.ShowCustomHint(message, "RP Name", 5);
+			return;
+		}
+		
+		Print(string.Format("[SRZ_RP] >>> %1 <<<", message), LogLevel.NORMAL);
+	}
+	
+	// ==================== COMMAND RPC (from SRZ_RPServerCommands) ====================
+	
+	// Client sends command to server
+	void SRZ_SendRPCommand(string command)
+	{
+		if (Replication.IsServer())
+		{
+			// Already on server, process directly
+			SRZ_ProcessRPCommand(command);
+		}
+		else
+		{
+			// Send to server
+			Rpc(SRZ_RpcAsk_ProcessRPCommand, command);
+		}
+	}
+	
+	[RplRpc(RplChannel.Reliable, RplRcver.Server)]
+	protected void SRZ_RpcAsk_ProcessRPCommand(string command)
+	{
+		SRZ_ProcessRPCommand(command);
+	}
+	
+	protected void SRZ_ProcessRPCommand(string text)
+	{
+		if (!Replication.IsServer())
+			return;
+		
+		int playerId = GetPlayerId();
+		
+		// Get player info
+		PlayerManager pm = GetGame().GetPlayerManager();
+		if (!pm)
+			return;
+		
+		if (playerId <= 0)
+			return;
+		
+		// Check admin status
+		bool isAdmin = pm.HasPlayerRole(playerId, EPlayerRole.ADMINISTRATOR);
+		
+		// Get name manager
+		SRZ_RPNameManager mgr = SRZ_RPNameManager.GetInstance();
+		if (!mgr)
+			return;
+		
+		// Trim and lowercase for command matching
+		string trimmed = text;
+		trimmed.Trim();
+		string lower = trimmed;
+		lower.ToLower();
+		
+		// Check if this is one of our commands
+		bool isOurCommand =
+			lower == ".myname" ||
+			lower == ".namehelp" ||
+			lower.StartsWith(".setname ") ||
+			lower.StartsWith(".clearname ") ||
+			lower.StartsWith(".setmyname ") ||
+			lower == ".names";
+		
+		if (!isOurCommand)
+			return;
+		
+		// .namehelp command
+		if (lower == ".namehelp")
+		{
+			SRZ_RPNet.SendToPlayer(playerId, "=== SRZ RP Name Commands ===");
+			SRZ_RPNet.SendToPlayer(playerId, ".myname - View your RP name");
+			SRZ_RPNet.SendToPlayer(playerId, ".setmyname <n> - Set your own RP name (1-2 words)");
+			SRZ_RPNet.SendToPlayer(playerId, ".namehelp - Show this help");
+			
+			if (isAdmin)
+			{
+				SRZ_RPNet.SendToPlayer(playerId, "--- Admin Only ---");
+				SRZ_RPNet.SendToPlayer(playerId, ".setname <player> <n> - Set player's RP name");
+				SRZ_RPNet.SendToPlayer(playerId, ".clearname <player> - Regenerate player's name");
+				SRZ_RPNet.SendToPlayer(playerId, ".names - List all online players (shows in chat)");
+			}
+			return;
+		}
+
+		// .myname command
+		if (lower == ".myname")
+		{
+			IEntity entity = GetMainEntity();
+			if (!entity)
+			{
+				SRZ_RPNet.SendToPlayer(playerId, "[SRZ_RP] You need to be spawned.");
+				return;
+			}
+			
+			SRZ_RPNameCharacterComponent nameComp = SRZ_RPNameCharacterComponent.Cast(
+				entity.FindComponent(SRZ_RPNameCharacterComponent)
+			);
+			
+			if (!nameComp)
+			{
+				SRZ_RPNet.SendToPlayer(playerId, "[SRZ_RP] Name component not found.");
+				return;
+			}
+			
+			string rpName = nameComp.GetCurrentRPName();
+			if (rpName.IsEmpty())
+				rpName = "<not set>";
+			
+			SRZ_RPNet.SendToPlayer(playerId, string.Format("Your RP name: %1", rpName));
+			return;
+		}
+
+		// .setmyname command
+		if (lower.StartsWith(".setmyname "))
+		{
+			string newName = trimmed.Substring(11, trimmed.Length() - 11);
+			newName.Trim();
+
+			if (newName.IsEmpty())
+			{
+				SRZ_RPNet.SendToPlayer(playerId, "Usage: .setmyname <n>");
+				SRZ_RPNet.SendToPlayer(playerId, "Examples: .setmyname Ghost OR .setmyname Viktor Reznov");
+				return;
+			}
+
+			string validationError = "";
+			if (!mgr.ValidatePlayerName(newName, validationError))
+			{
+				SRZ_RPNet.SendToPlayer(playerId, string.Format("[SRZ_RP] %1", validationError));
+				return;
+			}
+
+			mgr.ForceApplyToCharacter(playerId, newName);
+			SRZ_RPNet.SendToPlayer(playerId, string.Format("Your RP name: %1", newName));
+			return;
+		}
+
+		// Admin commands
+		if (!isAdmin)
+		{
+			SRZ_RPNet.SendToPlayer(playerId, "[SRZ_RP] Admin access required.");
+			return;
+		}
+
+		// .names (admin only, displays in chat)
+		if (lower == ".names")
+		{
+			array<int> playerIds = new array<int>();
+			pm.GetPlayers(playerIds);
+			
+			SRZ_RPNameProfileManager profileMgr = SRZ_RPNameProfileManager.GetInstance();
+			
+			// Send header to chat
+			SRZ_RPNet.SendToChatOnly(playerId, string.Format("=== Online Players (%1) ===", playerIds.Count()));
+			
+			// Send each player entry to chat
+			foreach (int pid : playerIds)
+			{
+				string playerName = pm.GetPlayerName(pid);
+				
+				// Get name from profile manager
+				string rpName = "";
+				if (profileMgr)
+					rpName = profileMgr.GetNameForPlayer(pid);
+				
+				if (rpName.IsEmpty())
+					rpName = "<not set>";
+				
+				SRZ_RPNet.SendToChatOnly(playerId, string.Format("%1 -> %2", playerName, rpName));
+			}
+			
+			SRZ_RPNet.SendToChatOnly(playerId, "=== End of List ===");
+			return;
+		}
+
+		// .clearname
+		if (lower.StartsWith(".clearname "))
+		{
+			string targetName = trimmed.Substring(11, trimmed.Length() - 11);
+			targetName.Trim();
+
+			if (targetName.IsEmpty())
+			{
+				SRZ_RPNet.SendToPlayer(playerId, "Usage: .clearname <player>");
+				return;
+			}
+
+			int targetId = FindPlayerByName(pm, targetName);
+			if (targetId <= 0)
+			{
+				SRZ_RPNet.SendToPlayer(playerId, string.Format("Player not found: %1", targetName));
+				return;
+			}
+
+			string newName = mgr.GenerateRandomName(targetId);
+			mgr.ForceApplyToCharacter(targetId, newName);
+
+			SRZ_RPNet.SendToPlayer(playerId, string.Format("[Admin] Regenerated: %1 -> %2", pm.GetPlayerName(targetId), newName));
+			SRZ_RPNet.SendToPlayer(targetId, string.Format("Your RP name: %1", newName));
+			return;
+		}
+
+		// .setname
+		if (lower.StartsWith(".setname "))
+		{
+			string args = trimmed.Substring(9, trimmed.Length() - 9);
+			args.Trim();
+			
+			int spaceIdx = args.IndexOf(" ");
+			if (spaceIdx < 0)
+			{
+				SRZ_RPNet.SendToPlayer(playerId, "Usage: .setname <player> <n>");
+				return;
+			}
+
+			string targetName = args.Substring(0, spaceIdx);
+			string newName = args.Substring(spaceIdx + 1, args.Length() - spaceIdx - 1);
+			newName.Trim();
+
+			string validationError = "";
+			if (!mgr.ValidatePlayerName(newName, validationError))
+			{
+				SRZ_RPNet.SendToPlayer(playerId, string.Format("[SRZ_RP] %1", validationError));
+				return;
+			}
+
+			int targetId = FindPlayerByName(pm, targetName);
+			if (targetId <= 0)
+			{
+				SRZ_RPNet.SendToPlayer(playerId, string.Format("Player not found: %1", targetName));
+				return;
+			}
+
+			mgr.ForceApplyToCharacter(targetId, newName);
+			SRZ_RPNet.SendToPlayer(playerId, string.Format("[Admin] Set %1's name: %2", pm.GetPlayerName(targetId), newName));
+			SRZ_RPNet.SendToPlayer(targetId, string.Format("Your RP name: %1", newName));
+			return;
+		}
+	}
+	
+	protected int FindPlayerByName(PlayerManager pm, string searchName)
+	{
+		if (!pm) return -1;
+		
+		searchName.ToLower();
+		array<int> playerIds = new array<int>();
+		pm.GetPlayers(playerIds);
+		
+		foreach (int pid : playerIds)
+		{
+			string playerName = pm.GetPlayerName(pid);
+			string lowerName = playerName;
+			lowerName.ToLower();
+			
+			if (lowerName == searchName || lowerName.Contains(searchName))
+				return pid;
+		}
+		
+		return -1;
+	}
+}
+
+// Helper class for network operations
+class SRZ_RPNet
+{
+	// Server sends a message to a specific client (notification)
+	static void SendToPlayer(int playerId, string message)
+	{
+		if (!Replication.IsServer())
+		{
+			Print("[SRZ_RP] SendToPlayer called on client - this should not happen!", LogLevel.WARNING);
+			return;
+		}
+
+		if (!message || message.IsEmpty())
+		{
+			Print("[SRZ_RP] Empty message attempted to send", LogLevel.WARNING);
+			return;
+		}
+
+		PlayerManager pm = GetGame().GetPlayerManager();
+		if (!pm)
+		{
+			Print("[SRZ_RP] PlayerManager not found", LogLevel.ERROR);
+			return;
+		}
+
+		SCR_PlayerController pc = SCR_PlayerController.Cast(pm.GetPlayerController(playerId));
+		if (!pc)
+		{
+			Print(string.Format("[SRZ_RP] PlayerController not found for player ID: %1", playerId), LogLevel.ERROR);
+			return;
+		}
+
+		Print(string.Format("[SRZ_RP] Sending to player %1: %2", playerId, message), LogLevel.NORMAL);
+		
+		// Call our custom method that handles the RPC
+		pc.SRZ_SendChatMessage(message);
+	}
+	
+	// Server sends a message to a specific client (chat only, no notification)
+	static void SendToChatOnly(int playerId, string message)
+	{
+		if (!Replication.IsServer())
+		{
+			Print("[SRZ_RP] SendToChatOnly called on client - this should not happen!", LogLevel.WARNING);
+			return;
+		}
+
+		if (!message || message.IsEmpty())
+		{
+			Print("[SRZ_RP] Empty message attempted to send", LogLevel.WARNING);
+			return;
+		}
+
+		PlayerManager pm = GetGame().GetPlayerManager();
+		if (!pm)
+		{
+			Print("[SRZ_RP] PlayerManager not found", LogLevel.ERROR);
+			return;
+		}
+
+		SCR_PlayerController pc = SCR_PlayerController.Cast(pm.GetPlayerController(playerId));
+		if (!pc)
+		{
+			Print(string.Format("[SRZ_RP] PlayerController not found for player ID: %1", playerId), LogLevel.ERROR);
+			return;
+		}
+
+		Print(string.Format("[SRZ_RP] Sending to chat for player %1: %2", playerId, message), LogLevel.NORMAL);
+		
+		// Call chat-only method
+		pc.SRZ_SendToChatOnly(message);
+	}
+
+	// Broadcasts a message to all players
+	static void BroadcastToAll(string message)
+	{
+		if (!Replication.IsServer())
+			return;
+
+		if (!message || message.IsEmpty())
+			return;
+
+		PlayerManager pm = GetGame().GetPlayerManager();
+		if (!pm)
+			return;
+
+		array<int> playerIds = new array<int>();
+		pm.GetPlayers(playerIds);
+
+		Print(string.Format("[SRZ_RP] Broadcasting to %1 players: %2", playerIds.Count(), message), LogLevel.NORMAL);
+
+		foreach (int pid : playerIds)
+		{
+			SendToPlayer(pid, message);
+		}
+	}
+}
