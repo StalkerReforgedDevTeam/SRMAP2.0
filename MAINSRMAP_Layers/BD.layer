@@ -216,6 +216,8 @@ SCR_GameModeEditor Armst_GameMaster : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Editor
     }
    }
   }
+  SRZ_KillfeedNotifierComponent "{69A1446BF91EE56C}" {
+  }
  }
  coords 4176.283 311.046 720.867
  m_bAllowFactionChange 0
