@@ -30,9 +30,7 @@ class SRZ_PDALoggerComponent : SCR_BaseGameModeComponent
         if (!gameMode)
             return;
 
-        SRZ_PDALoggerComponent logger = SRZ_PDALoggerComponent.Cast(
-            gameMode.FindComponent(SRZ_PDALoggerComponent)
-        );
+        SRZ_PDALoggerComponent logger = SRZ_PDALoggerComponent.Cast(gameMode.FindComponent(SRZ_PDALoggerComponent));
         if (!logger)
             return;
 
@@ -107,7 +105,7 @@ class SRZ_PDALoggerComponent : SCR_BaseGameModeComponent
             return;
         }
 
-        RestContext ctx = api.GetContext("[discord.com](https://discord.com)");
+        RestContext ctx = api.GetContext("https://discord.com");
         if (!ctx)
         {
             Print("[SRZ_PDALogger] Could not create RestContext for Discord.", LogLevel.ERROR);

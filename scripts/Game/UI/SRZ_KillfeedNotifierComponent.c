@@ -55,11 +55,13 @@ class SRZ_KillfeedNotifierComponent : SCR_BaseGameModeComponent
         if (prefabData)
         {
             string prefabName = FilePath.StripExtension(FilePath.StripPath(prefabData.GetPrefabName()));
+            
             prefabName.Replace("armst_monster_", "");
             prefabName.Replace("armst_mutant_", "");
             prefabName.Replace("armst_anomaly_", "");
             prefabName.Replace("armst_", "");
             prefabName.Replace("_", " ");
+            
             return prefabName;
         }
 
@@ -72,17 +74,15 @@ class SRZ_KillfeedNotifierComponent : SCR_BaseGameModeComponent
         if (!victimEntity)
             return "";
 
-        ARMST_PLAYER_STATS_COMPONENT stats = ARMST_PLAYER_STATS_COMPONENT.Cast(
-            victimEntity.FindComponent(ARMST_PLAYER_STATS_COMPONENT)
-        );
+        ARMST_PLAYER_STATS_COMPONENT stats = ARMST_PLAYER_STATS_COMPONENT.Cast(victimEntity.FindComponent(ARMST_PLAYER_STATS_COMPONENT));
         if (!stats)
             return "";
 
         if (stats.ArmstPlayerStatGetToxic() >= 99)  return "Toxic Poisoning";
-        if (stats.ArmstPlayerStatGetRadio() >= 99)   return "Radiation Poisoning";
-        if (stats.ArmstPlayerStatGetPsy() <= 1)      return "Psy Breakdown";
-        if (stats.ArmstPlayerStatGetWater() <= 1)    return "Dehydration";
-        if (stats.ArmstPlayerStatGetEat() <= 1)      return "Starvation";
+        if (stats.ArmstPlayerStatGetRadio() >= 99)  return "Radiation Poisoning";
+        if (stats.ArmstPlayerStatGetPsy() <= 1)     return "Psy Breakdown";
+        if (stats.ArmstPlayerStatGetWater() <= 1)   return "Dehydration";
+        if (stats.ArmstPlayerStatGetEat() <= 1)     return "Starvation";
 
         return "";
     }
@@ -109,8 +109,7 @@ class SRZ_KillfeedNotifierComponent : SCR_BaseGameModeComponent
             if (!entry.weaponName.IsEmpty())
                 weapon = " (" + entry.weaponName + ")";
 
-            result += "\n  " + entry.killerName + weapon + " -> " + entry.damagePart +
-                      " (" + entry.damageAmount + " dmg) [" + GetDamageTypeName(entry.damageType) + "]" + headshot;
+            result += "\n  " + entry.killerName + weapon + " -> " + entry.damagePart + " (" + entry.damageAmount + " dmg) [" + GetDamageTypeName(entry.damageType) + "]" + headshot;
         }
 
         result += "\n```";
@@ -132,67 +131,91 @@ class SRZ_KillfeedNotifierComponent : SCR_BaseGameModeComponent
         if (!pm)
             return;
 
-        // Victim
         int victimId = instigatorContextData.GetVictimPlayerID();
-        string victimName = "<unknown>";
+        string victimName = "These"; 
         IEntity victimEntity = null;
         if (victimId > 0)
         {
-            victimName = pm.GetPlayerName(victimId);
+            string lookupName = pm.GetPlayerName(victimId);
+            if (!lookupName.IsEmpty())
+                victimName = lookupName;
+                
             victimEntity = pm.GetPlayerControlledEntity(victimId);
         }
 
-        // Killer
         int killerId        = instigatorContextData.GetKillerPlayerID();
         bool killerIsPlayer = instigatorContextData.HasAnyKillerCharacterControlType(SCR_ECharacterControlType.PLAYER);
         bool killerIsAI     = instigatorContextData.HasAnyKillerCharacterControlType(SCR_ECharacterControlType.AI);
         IEntity killerEntity = instigatorContextData.GetKillerEntity();
+        
+        Instigator killerInstigator = instigatorContextData.GetInstigator();
+        
+        // Bypassed EGMPInstigatorType to prevent compiler undeclared identifier error
+        bool isGMKill = false; 
 
-        // Get damage log first
         array<ref SRZ_DamageEntry> damageLog = SRZ_KillfeedDamageTracker.GetAndClearLog(victimId);
 
-        // Cause of death from damage log
         string cause = "Unknown";
+        string extractedWeapon = "";
+        bool wasHeadshotKill = false;
+
         if (damageLog && !damageLog.IsEmpty())
         {
             SRZ_DamageEntry lastEntry = damageLog[damageLog.Count() - 1];
             if (lastEntry)
+            {
                 cause = GetDamageTypeName(lastEntry.damageType);
+                extractedWeapon = lastEntry.weaponName;
+                wasHeadshotKill = lastEntry.isHeadshot;
+            }
         }
 
-        // Override with ARMST stat cause if applicable
         string armstCause = GetARMSTCauseOfDeath(victimEntity);
         if (!armstCause.IsEmpty())
             cause = armstCause;
 
-        // Distance
         string distanceStr = "";
-        if (victimEntity && killerEntity)
+        if (victimEntity && killerEntity && !isGMKill)
         {
             float distance = vector.Distance(victimEntity.GetOrigin(), killerEntity.GetOrigin());
             distanceStr = " | " + Math.Round(distance) + "m";
         }
 
-        // Damage log string
-        string damageLogStr = BuildDamageLog(damageLog);
+        string headshotTag = "";
+        if (wasHeadshotKill)
+            headshotTag = " 🎯 [HEADSHOT]";
 
+        string damageLogStr = BuildDamageLog(damageLog);
         string content;
 
-        if (killerIsPlayer && killerId > 0)
+        if (isGMKill)
+        {
+            content = "⚡ **" + victimName + "** was terminated by the **Game Master**";
+        }
+        else if (killerIsPlayer && killerId > 0)
         {
             string killerName = pm.GetPlayerName(killerId);
             if (killerName.IsEmpty())
-                killerName = "<unknown>";
-            content = "**" + killerName + "** killed **" + victimName + "** [" + cause + distanceStr + "]" + damageLogStr;
+                killerName = "Unknown Player";
+                
+            string weaponContext = "";
+            if (!extractedWeapon.IsEmpty())
+                weaponContext = " with **" + extractedWeapon + "**";
+
+            content = "⚔️ **" + killerName + "** killed **" + victimName + "**" + weaponContext + " [" + cause + distanceStr + "]" + headshotTag + damageLogStr;
         }
-        else if (killerIsAI)
+        else if (killerIsAI || killerEntity)
         {
             string killerName = GetKillerName(killerEntity);
-            content = "**" + victimName + "** was killed by **" + killerName + "** [" + cause + distanceStr + "]" + damageLogStr;
+            string weaponContext = "";
+            if (!extractedWeapon.IsEmpty())
+                weaponContext = " with **" + extractedWeapon + "**";
+
+            content = "🤖 **" + victimName + "** was killed by **" + killerName + "**" + weaponContext + " [" + cause + distanceStr + "]" + headshotTag + damageLogStr;
         }
         else
         {
-            content = "**" + victimName + "** died [" + cause + "]" + damageLogStr;
+            content = "💀 **" + victimName + "** died [" + cause + "]" + damageLogStr;
         }
 
         content.Replace("\"", "");

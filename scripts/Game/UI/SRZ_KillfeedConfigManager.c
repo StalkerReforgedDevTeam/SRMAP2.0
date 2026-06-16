@@ -1,5 +1,4 @@
 const string SRZ_KILLFEED_LOG_PREFIX = "[SRZ_Killfeed]";
-
 class SRZ_KillfeedConfigManager
 {
     static const string CONFIG_DIR_PATH  = "$profile:/SR_Killfeed/";
@@ -20,8 +19,8 @@ class SRZ_KillfeedConfigManager
 
         if (s_bDefaultsEnsured)
             return;
-        s_bDefaultsEnsured = true;
 
+        s_bDefaultsEnsured = true;
         Print(string.Format("%1 Ensuring SR_Killfeed config & README...", SRZ_KILLFEED_LOG_PREFIX), LogLevel.NORMAL);
 
         if (!EnsureDirectoryExists(CONFIG_DIR_PATH))
