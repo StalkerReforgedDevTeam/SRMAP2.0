@@ -40,14 +40,25 @@ modded class SCR_ChatComponent
                     }
 
                     // Route all other . commands to RP name system
-                    // (.myname, .setmyname, .setname, .clearname, .names, .namehelp)
                     pc.SRZ_SendRPCommand(msg);
                     return;
                 }
             }
         }
 
-        // Not a command, display normally
+        // Block all chat channels for non-admins
+        // Admins can still chat normally
+        PlayerManager playerManager = GetGame().GetPlayerManager();
+        if (playerManager)
+        {
+            bool isAdmin = playerManager.HasPlayerRole(senderId, EPlayerRole.ADMINISTRATOR);
+            bool isGM = playerManager.HasPlayerRole(senderId, EPlayerRole.GAME_MASTER);
+
+            if (!isAdmin && !isGM)
+                return; // Block global, faction and local chat for regular players
+        }
+
+        // Allow message through for admins and GMs
         super.OnNewMessage(msg, channelId, senderId);
     }
 }
