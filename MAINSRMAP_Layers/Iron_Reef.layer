@@ -10,10 +10,11 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
  wolfs44 {
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
-    m_CheckInterval 212
-    m_CheckPlayerRadius 30
+    m_InitialSpawnDelay 30
+    m_CheckInterval 249
+    m_CheckPlayerRadius 29
     m_SpawnChance 52
-    m_PlayerDetectionRadius 173
+    m_PlayerDetectionRadius 197
     m_RespawnDelayAfterDelete 1682
     m_SpawnGroups {
      "{D77BDED419E75367}Configs/GAME_SETTING/BOTS/ALIFE/mutants/nighstalker.conf"
@@ -30,10 +31,11 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
  wolfs58 {
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
-    m_CheckInterval 212
-    m_CheckPlayerRadius 30
+    m_InitialSpawnDelay 30
+    m_CheckInterval 249
+    m_CheckPlayerRadius 29
     m_SpawnChance 52
-    m_PlayerDetectionRadius 173
+    m_PlayerDetectionRadius 197
     m_RespawnDelayAfterDelete 1682
     m_SpawnGroups {
      "{D77BDED419E75367}Configs/GAME_SETTING/BOTS/ALIFE/mutants/nighstalker.conf"
@@ -50,10 +52,11 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
  wolfs59 {
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
-    m_CheckInterval 212
-    m_CheckPlayerRadius 30
+    m_InitialSpawnDelay 30
+    m_CheckInterval 249
+    m_CheckPlayerRadius 29
     m_SpawnChance 52
-    m_PlayerDetectionRadius 173
+    m_PlayerDetectionRadius 197
     m_RespawnDelayAfterDelete 1682
     m_SpawnGroups {
      "{D77BDED419E75367}Configs/GAME_SETTING/BOTS/ALIFE/mutants/nighstalker.conf"
@@ -70,10 +73,11 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
  electro16 {
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
-    m_CheckInterval 212
-    m_CheckPlayerRadius 30
+    m_InitialSpawnDelay 30
+    m_CheckInterval 249
+    m_CheckPlayerRadius 29
     m_SpawnChance 52
-    m_PlayerDetectionRadius 173
+    m_PlayerDetectionRadius 197
     m_RespawnDelayAfterDelete 1682
     m_SpawnGroups {
      "{640EF50B76CB86C9}Configs/GAME_SETTING/BOTS/ALIFE/mutants/electro_elements.conf"
@@ -86,10 +90,11 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
  wolfs60 {
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
-    m_CheckInterval 212
-    m_CheckPlayerRadius 30
+    m_InitialSpawnDelay 30
+    m_CheckInterval 249
+    m_CheckPlayerRadius 29
     m_SpawnChance 52
-    m_PlayerDetectionRadius 173
+    m_PlayerDetectionRadius 197
     m_RespawnDelayAfterDelete 1682
     m_SpawnGroups {
      "{D77BDED419E75367}Configs/GAME_SETTING/BOTS/ALIFE/mutants/nighstalker.conf"
@@ -106,10 +111,11 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
  wolfs61 {
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
-    m_CheckInterval 212
-    m_CheckPlayerRadius 30
+    m_InitialSpawnDelay 30
+    m_CheckInterval 249
+    m_CheckPlayerRadius 29
     m_SpawnChance 52
-    m_PlayerDetectionRadius 173
+    m_PlayerDetectionRadius 197
     m_RespawnDelayAfterDelete 1682
     m_SpawnGroups {
      "{D77BDED419E75367}Configs/GAME_SETTING/BOTS/ALIFE/mutants/nighstalker.conf"
