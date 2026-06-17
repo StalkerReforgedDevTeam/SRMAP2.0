@@ -14611,6 +14611,11 @@ SCR_DestructibleBuildingEntity : "{0F5AC772A49226AD}Prefabs/Houses/churchs/churc
    coords 3.889 0.111 0.042
    angles 0 -26.456 16.821
   }
+  StaticModelEntity {
+   ID "69931AF0AEC95F78"
+   coords -0.739 0.871 -6.031
+   angles 0 0 1.274
+  }
  }
 }
 $grp GenericEntity : "{0FB6C20679095D14}PrefabLibrary/DefaultLibrary/Props/Garbage/Junk_01_single_bricks.et" {
@@ -160685,7 +160690,7 @@ $grp SCR_DestructibleBuildingEntity : "{B1D7DA05DE5D73F4}Prefabs/Structures/Wall
   scale 2.19
  }
  {
-  coords 3904.892 306.702 364.493
+  coords 3904.89 306.702 364.746
   angles 0 179.499 0
   scale 2.19
  }
