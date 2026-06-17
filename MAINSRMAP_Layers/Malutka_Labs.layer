@@ -3637,24 +3637,10 @@ $grp GenericEntity : "{A9DC69EC1CE466A0}Prefabs/Props/Civilian/Computer_E_01/Com
  {
   coords 5340.043 291.643 575.244
   angles 0 107.297 0
-  {
-   GenericEntity {
-    ID "620AA4AC9B735F5F"
-    coords 0 0.116 -0.08
-    angles 0 4.3 0
-   }
-  }
  }
  {
   coords 5339.117 291.664 572.732
   angles 0 113.36 0
-  {
-   GenericEntity {
-    ID "620AA4AC9B735F5F"
-    coords 0 0.116 -0.08
-    angles 0 -1.906 0
-   }
-  }
  }
  {
   coords 5329.175 291.638 575.336
