@@ -9817,13 +9817,6 @@ $grp StaticModelEntity : "{A83906FE9900AD25}Prefabs/Structures/Military/Houses/G
 GenericEntity : "{A9DC69EC1CE466A0}Prefabs/Props/Civilian/Computer_E_01/Computer_E_01_on.et" {
  coords 1263.037 302.117 1364.858
  angles 0 -113.822 0
- {
-  GenericEntity {
-   ID "620AA4AC9B735F5F"
-   coords -0.138 0.116 -0.003
-   angles 0 -13.797 0
-  }
- }
 }
 $grp GenericEntity : "{AA1E1DD1D69055EC}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/CrateStack_01_green.et" {
  {
