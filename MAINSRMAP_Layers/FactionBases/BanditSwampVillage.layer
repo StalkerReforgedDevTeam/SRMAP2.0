@@ -1197,6 +1197,46 @@ $grp GenericEntity : "{C9DE18E34AEADA31}Prefabs/Structures/BuildingParts/Doors/D
   angles 0 85.708 0
   scale 0.562
  }
+ {
+  components {
+   Hierarchy "{612AE78C85563E26}" {
+    PivotID "Socket_door_001"
+   }
+  }
+  coords 1454.697 296.036 1931.899
+  angles 0 85.859 0
+  scale 0.562
+ }
+ {
+  components {
+   Hierarchy "{612AE78C85563E26}" {
+    PivotID "Socket_door_001"
+   }
+  }
+  coords 1454.44 296.036 1935.443
+  angles 0 85.859 0
+  scale 0.562
+ }
+ {
+  components {
+   Hierarchy "{612AE78C85563E26}" {
+    PivotID "Socket_door_001"
+   }
+  }
+  coords 1457.316 295.994 1928.331
+  angles 0 -4.216 0
+  scale 0.562
+ }
+ {
+  components {
+   Hierarchy "{612AE78C85563E26}" {
+    PivotID "Socket_door_001"
+   }
+  }
+  coords 1459.976 295.994 1928.527
+  angles 0 -4.216 0
+  scale 0.562
+ }
 }
 GenericEntity : "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et" {
  coords 1474.782 291.553 1932.143
