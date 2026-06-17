@@ -14628,42 +14628,6 @@ $grp SCR_DestructibleBuildingEntity : "{1081F61ADA9778FD}Prefabs/Industrial/buil
   }
  }
  {
-  coords 1480.694 291.215 1799.637
-  angles 0 -83.271 -1.401
-  {
-   $grp GenericEntity {
-    armst_itm_cards_6670A0F984B83094 {
-    }
-    armst_itm_lampa_6670A0F984B832B1 {
-    }
-    armst_itm_food_bottle_beer_6670A0F984B83354 {
-    }
-    armst_itm_food_bottle_vodka_6670A0F984B83EB1 {
-    }
-   }
-   GenericEntity {
-    ID "695EA19D7F7B7BCD"
-    components {
-     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-      m_LootTiersSpawn {
-       "TIER_2"
-      }
-     }
-    }
-   }
-   GenericEntity {
-    ID "695EA19D7F7B7BF0"
-    components {
-     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-      m_LootTiersSpawn {
-       "TIER_2"
-      }
-     }
-    }
-   }
-  }
- }
- {
   coords 3276.887 305.022 2814.565
   angles 0 -52.558 -0.1
   {
@@ -220270,15 +220234,6 @@ $grp SCR_DestructibleBuildingEntity : "{FF6F5211131F41C8}Prefabs/Structures/Infr
  {
   coords 2043.338 1.489 546.897
   angles 0 72.371 0
- }
- {
-  coords 1460.007 0.348 1788.625
-  angles 0 103.889 0
-  {
-   GenericEntity {
-    coords 0.328 0.502 -0.845
-   }
-  }
  }
 }
 GenericEntity : "{FF71D129B9088846}Prefabs/Compositions/Misc/SubCompositions/Furniture/Bed_Blankets_US_02.et" {

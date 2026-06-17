@@ -1842,31 +1842,6 @@ $grp GenericEntity : "{A6C183C3ACAAF08D}Prefabs/Anomals/Roots_anom.et" {
   scale 2.145
  }
  {
-  coords 1477.1 294.254 1797.585
-  angles 0 0 0
-  scale 2.145
- }
- {
-  coords 1477.413 294.39 1803.13
-  angles 0 0 0
-  scale 2.145
- }
- {
-  coords 1460.03 294.668 1787.079
-  angles 0 0 0
-  scale 2.145
- }
- {
-  coords 1458.587 294.668 1788.587
-  angles 0 0 0
-  scale 2.145
- }
- {
-  coords 1459.805 297.643 1789.569
-  angles 0 0 0
-  scale 2.145
- }
- {
   coords 1508.835 299.627 1811.41
   angles 0 0 0
   scale 2.145
@@ -2218,7 +2193,7 @@ SCR_DestructibleBuildingEntity : "{D0947E26A8A39ECF}Prefabs/Structures/Forest/De
    ID "695EA1898DA84CF7"
    components {
     ARMST_RANDOM_LOOTS_POINT "{669E640B5529F967}" {
-     m_LootTiersSpawn +{
+     m_LootTiersSpawn {
       "TIER_2"
      }
     }
@@ -2228,7 +2203,7 @@ SCR_DestructibleBuildingEntity : "{D0947E26A8A39ECF}Prefabs/Structures/Forest/De
    ID "695EA1898DA84CC4"
    components {
     ARMST_RANDOM_LOOTS_POINT "{669E640B5FA509DB}" {
-     m_LootTiersSpawn +{
+     m_LootTiersSpawn {
       "TIER_2"
      }
     }
