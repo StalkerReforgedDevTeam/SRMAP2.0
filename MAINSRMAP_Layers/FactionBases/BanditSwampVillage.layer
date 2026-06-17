@@ -1066,6 +1066,38 @@ StaticModelEntity : "{1E0BC50E7000DEFD}Prefabs/Structures/Debris/Debris_HouseVil
  coords 1487.316 291.33 1949.102
  angles 1.827 -97.086 94.105
 }
+GenericEntity : "{21281E39D3B69394}Prefabs/Structures/BuildingParts/Doors/DoorSet_Hayloft_01_woodgate_Base.et" {
+ coords 1461.383 291.108 1935.04
+ angles 0 86.876 0
+ {
+  GenericEntity {
+   ID "568C838039DBC4B1"
+   components {
+    DoorComponent "{221C667A9F7D4B69}" {
+     DoorAction SCR_DoorUserAction "{50888D3646A61640}" {
+      m_FactionKey FACTION_MUTANTS
+     }
+    }
+   }
+   coords 0 0 0
+   angles 0 -0.448 0
+  }
+  GenericEntity {
+   ID "568C838039DBC49B"
+   components {
+    DoorComponent "{221C667A9F7D4B69}" {
+     DoorAction SCR_DoorUserAction "{50888D3646A61640}" {
+     }
+    }
+   }
+   coords 0 0 0
+   angles 0 -0.343 0
+  }
+ }
+}
+GameEntity : "{24089D4BB9AA8913}Prefabs/Method/Props/Camps/Fireplace_Loiters_ground_1.et" {
+ coords 1466.79 291.149 1938.076
+}
 GenericEntity : "{2F5802243DC20620}Prefabs/wood_bridges/wood_bridges_small_pol_wall_half.et" {
  coords 1478.079 290.264 1929.833
  angles 0 176.08 0
@@ -1117,6 +1149,11 @@ StaticModelEntity : "{7D66BF1C82421DD9}Prefabs/Structures/Ruins/ShedMetal_Ruin_0
  angles 0 85.525 0
  {
   StaticModelEntity {
+   ID "66AADAF392E23A09"
+   coords 1.898 0.063 7.604
+   angles -0.541 88.218 -91.981
+  }
+  StaticModelEntity {
    ID "66AADAF392E23A73"
    coords -3.332 0.129 2.765
    angles -0.472 0.223 -90.948
@@ -1128,13 +1165,41 @@ StaticModelEntity : "{7D66BF1C82421DD9}Prefabs/Structures/Ruins/ShedMetal_Ruin_0
   }
  }
 }
-GenericEntity : "{B6B2AD00E71AD0B5}Prefabs/Props/Industrial/BarrelMetal_01_Base.et" {
- coords 1477.053 290.673 1946.142
- angles 0.253 -4.42 89.061
+$grp GenericEntity : "{B6B2AD00E71AD0B5}Prefabs/Props/Industrial/BarrelMetal_01_Base.et" {
+ {
+  coords 1475.788 290.597 1946.045
+  angles 0.671 -7.327 83.375
+ }
+ {
+  coords 1477.053 290.673 1946.142
+  angles 0.253 -4.42 89.061
+ }
 }
 SCR_DestructibleBuildingEntity : "{C6BCBDF038902509}Prefabs/Industrial/moped_blue.et" {
  coords 1458.712 295.013 1933.101
  angles -2.5 -0.31 -172.929
+}
+$grp GenericEntity : "{C9DE18E34AEADA31}Prefabs/Structures/BuildingParts/Doors/DoorBoarded_PierShed_01_A.et" {
+ {
+  components {
+   Hierarchy "{612AE78C85563E26}" {
+    PivotID "Socket_door_001"
+   }
+  }
+  coords 1461.625 296.036 1932.303
+  angles 0 85.859 0
+  scale 0.562
+ }
+ {
+  components {
+   Hierarchy "{612AE78C85563E26}" {
+    PivotID "Socket_door_001"
+   }
+  }
+  coords 1461.356 296.036 1936.042
+  angles 0 85.708 0
+  scale 0.562
+ }
 }
 $grp GenericEntity : "{E2B42E634BC002F4}worlds/ScenarioFramework/CustomPrefabs/Barrel.et" {
  {
