@@ -369,8 +369,3 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
   scale 50
  }
 }
-SCR_DestructibleBuildingEntity : "{FD1CE2903D41D4A7}Prefabs/Structures/Walls/Concrete/ConcreteRetainingWall_01/ConcreteRetainingWall_01_8m.et" {
- coords 5769.469 307.729 1005.271
- angles 0 142.027 0
- scale 3.32
-}
