@@ -20964,10 +20964,6 @@ $grp GenericEntity : "{1A8791C2BC2B8B75}Prefabs/Structures/Military/Flags/FlagPo
   angles 0 -45.142 0
  }
  {
-  coords 3856.94 306.702 359.281
-  angles 0 171.609 0
- }
- {
   coords 477.721 304.577 1350.875
   angles 0 -37.876 0
  }
@@ -35024,8 +35020,8 @@ $grp StaticModelEntity : "{2CF6244D6C76F560}Prefabs/Terrain/Erosion/ErodedEmbank
   scale 3.671
  }
  {
-  coords 3770.411 304.31 432.027
-  angles 2.667 -179.455 1.813
+  coords 3770.498 301.497 431.791
+  angles -2.46 -179.617 1.813
   scale 3.671
  }
  {
@@ -208793,8 +208789,8 @@ $grp SCR_DestructibleBuildingEntity : "{EF96889E35217E1E}Prefabs/Structures/Hous
   angles 0 -96.216 0
  }
  {
-  coords 3788.643 0 311.424
-  angles 0 0.078 0
+  coords 3791.13 0 312.301
+  angles 0 -88.377 0
  }
  {
   coords 3961.977 0 876.266
@@ -213094,10 +213090,6 @@ $grp SCR_DestructibleBuildingEntity : "{F50905235FBAA094}Prefabs/Structures/Mili
  {
   coords 3811.887 0 384.884
   angles 0 -1.006 0
- }
- {
-  coords 3811.745 0 392.972
-  angles 0 -178.689 0
  }
  {
   coords 3043.103 -0.001 1006.658
