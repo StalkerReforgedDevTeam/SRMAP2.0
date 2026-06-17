@@ -14,21 +14,6 @@ ParticleEffectEntity : "{466085B5B3C3DF03}Prefabs/Anomals/puzir/ARMST_PUZIR.et" 
  }
  coords 3419.161 305.358 1253.843
 }
-$grp GenericEntity : "{51E2713E025BB924}Prefabs/Anomals/Cometes/ELECTRO/ARMST_COMETA_ELECTRO.et" {
- {
-  coords 4256.007 312.396 434.94
-  angles 0 25.011 0
- }
- {
-  components {
-   AnimationPlayerComponent "{669ECE7884A94844}" {
-    Animation "{A67AB74619D41F7A}armst/anims/anims/Anim_Give_High.anm"
-   }
-  }
-  coords 4242.816 312.295 436.488
-  angles 0 -138.903 0
- }
-}
 $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRIGGER_ANOMAL.et" {
  {
   coords 3932.715 311.716 584.972
