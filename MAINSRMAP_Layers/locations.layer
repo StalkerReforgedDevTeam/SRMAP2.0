@@ -90731,10 +90731,6 @@ $grp GenericEntity : "{5E317DC74EA1F1A4}Prefabs/Props/Forest/WoodPile/WoodLog_01
   coords 1474.183 289.185 1947.839
   angles 90 -180 -180
  }
- {
-  coords 1473.069 289.761 1937.867
-  angles 90 -180 -180
- }
 }
 $grp SCR_DestructibleBuildingEntity : "{5E37989A2615F13F}Prefabs/Structures/Infrastructure/Power/Utility/ElectricCabinet_01/ElectricCabinet_01.et" {
  {
@@ -127406,20 +127402,9 @@ $grp Tree : "{8276BD47FD46680D}Prefabs/Vegetation/Tree/t_betula_pendula/t_betula
   scale 0.79
  }
 }
-$grp SCR_DestructibleBuildingEntity : "{827703C309F8B538}Prefabs/Industrial/kns.et" {
- {
-  coords 3642.285 300.833 1910.302
-  scale 0.85
- }
- {
-  coords 1483.503 289.481 1937.471
-  angles 0 85.156 0
-  {
-   SCR_DestructibleBuildingEntity {
-    scale 0.966
-   }
-  }
- }
+SCR_DestructibleBuildingEntity : "{827703C309F8B538}Prefabs/Industrial/kns.et" {
+ coords 3642.285 300.833 1910.302
+ scale 0.85
 }
 $grp SCR_DestructibleEntity : "{8296A47E98E36752}Prefabs/Structures/Industrial/Pipelines/ProductPipeline_01/ProductPipeline_USSR_01_underpass_wide.et" {
  {
@@ -201580,74 +201565,6 @@ $grp SCR_DestructibleEntity : "{E660190EC6E26D0D}Prefabs/Props/Decorations/Flowe
  {
   coords 424.716 304.577 1488.031
   angles 0 50.838 0
- }
-}
-SCR_DestructibleBuildingEntity : "{E673BF7F817F413B}Prefabs/Industrial/kns2.et" {
- coords 1483.442 289.557 1937.513
- angles 0 84.214 0
- {
-  GenericEntity {
-   ID "66706BBC9B384467"
-   coords 25.105 1.466 -2.595
-   angles 88.474 89.819 86.844
-  }
-  GenericEntity {
-   ID "66706BBC9B39BE56"
-   coords 27.867 1.372 -1.543
-   angles 82.437 89.819 90
-  }
-  GenericEntity {
-   ID "695EA19CD120986E"
-   components {
-    ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-     m_LootTiersSpawn {
-      ""
-      "TIER_2"
-     }
-    }
-   }
-  }
-  GenericEntity {
-   ID "695EA19CD12098D6"
-   components {
-    ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-     m_LootTiersSpawn {
-      ""
-      "TIER_2"
-     }
-    }
-   }
-  }
-  GenericEntity {
-   ID "695EA19CD12098D8"
-   components {
-    ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-     m_LootTiersSpawn {
-      ""
-      "TIER_2"
-     }
-    }
-   }
-  }
-  GenericEntity {
-   ID "695EA19CD12098DE"
-   components {
-    ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-     m_LootTiersSpawn {
-      ""
-      "TIER_2"
-     }
-    }
-   }
-  }
-  SCR_DestructibleBuildingEntity {
-   ID "66706BBC9B3844E4"
-   coords 19.1 -11.747 -15.338
-  }
-  SCR_DestructibleBuildingEntity {
-   ID "6682F81F199E62C6"
-   coords 20.871 -7.05 -10.049
-  }
  }
 }
 $grp SCR_DestructibleEntity : "{E6C231BE778A880F}Prefabs/Structures/Walls/Pole/PoleFence_02/PoleFence_02_8m_B.et" {
