@@ -736,11 +736,6 @@ $grp GenericEntity : "{A6C183C3ACAAF08D}Prefabs/Anomals/Roots_anom.et" {
   coords 1502.074 301.046 726.605
   angles 0 87.648 0
   scale 2.145
-  {
-   StaticModelEntity {
-    ID "65F7099B9679DE03"
-   }
-  }
  }
  {
   coords 1491.481 301.223 720.557

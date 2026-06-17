@@ -663,11 +663,6 @@ SCR_DestructibleBuildingEntity {
     angles 0 -178.919 0
     scale 0.524
    }
-   {
-    coords 5.538 2.914 -9.07
-    angles 0 90 0
-    scale 0.524
-   }
   }
   StaticModelEntity : "{725FF1EECCC451D3}Prefabs/Structures/Debris/Debris_HouseVillage/Debris_HouseVillage_Metal_Roof_v2.et" {
    coords 17.663 5.078 -5.115
@@ -1062,9 +1057,15 @@ SCR_DestructibleBuildingEntity : "{15D9B3D855451AE1}Prefabs/Structures/Ruins/She
  coords 1455.967 3.233 1938.861
  angles 0 175.892 0
 }
-StaticModelEntity : "{1E0BC50E7000DEFD}Prefabs/Structures/Debris/Debris_HouseVillage/Debris_HouseVillage_Metal_Roof_v1.et" {
- coords 1487.316 291.33 1949.102
- angles 1.827 -97.086 94.105
+$grp StaticModelEntity : "{1E0BC50E7000DEFD}Prefabs/Structures/Debris/Debris_HouseVillage/Debris_HouseVillage_Metal_Roof_v1.et" {
+ {
+  coords 1487.316 291.33 1949.102
+  angles 1.827 -97.086 94.105
+ }
+ {
+  coords 1463.635 291.01 1931.045
+  angles 0 -89.902 -88.659
+ }
 }
 GenericEntity : "{21281E39D3B69394}Prefabs/Structures/BuildingParts/Doors/DoorSet_Hayloft_01_woodgate_Base.et" {
  coords 1461.383 291.108 1935.04
@@ -1132,17 +1133,9 @@ $grp SCR_DestructibleBuildingEntity : "{5E56D1602958C610}Prefabs/Industrial/buil
   angles 0 -3.169 0
  }
 }
-$grp SCR_DestructibleBuildingEntity : "{6CDAFB08D5F88533}Prefabs/Structures/Infrastructure/Naval/Piers/Pier_Stairs01.et" {
- {
-  coords 1474.977 2.994 1931.089
-  angles 0 -6.833 0
-  scale 0.524
- }
- {
-  coords 1474.861 2.32 1932.056
-  angles 0 -6.833 0
-  scale 0.524
- }
+StaticModelEntity : "{7BF8E2A89831D1D6}Prefabs/Structures/Debris/Debris_HouseVillage/Debris_HouseVillage_Wood_Roof_v6.et" {
+ coords 1472.741 291.159 1941.32
+ angles -1.479 -54.012 -2.25
 }
 StaticModelEntity : "{7D66BF1C82421DD9}Prefabs/Structures/Ruins/ShedMetal_Ruin_02/Dst/ShedMetal_Ruin_02_Ruin.et" {
  coords 1481.688 290.841 1945.142
@@ -1164,6 +1157,10 @@ StaticModelEntity : "{7D66BF1C82421DD9}Prefabs/Structures/Ruins/ShedMetal_Ruin_0
    angles 87.933 19.915 -162.989
   }
  }
+}
+StaticModelEntity : "{7F9B0D02E266D369}Prefabs/Structures/Debris/Debris_HouseVillage/Debris_HouseVillage_01_Corner_V1.et" {
+ coords 1475.779 291.149 1932.295
+ angles 0 -10.52 0
 }
 $grp GenericEntity : "{B6B2AD00E71AD0B5}Prefabs/Props/Industrial/BarrelMetal_01_Base.et" {
  {
@@ -1200,6 +1197,10 @@ $grp GenericEntity : "{C9DE18E34AEADA31}Prefabs/Structures/BuildingParts/Doors/D
   angles 0 85.708 0
   scale 0.562
  }
+}
+GenericEntity : "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et" {
+ coords 1474.782 291.553 1932.143
+ angles -12.997 -7.021 -0.478
 }
 $grp GenericEntity : "{E2B42E634BC002F4}worlds/ScenarioFramework/CustomPrefabs/Barrel.et" {
  {
