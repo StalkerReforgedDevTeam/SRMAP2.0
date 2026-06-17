@@ -1098,116 +1098,6 @@ $grp SplineShapeEntity {
    }
   }
  }
- {
-  coords 3816.817 306.702 367.211
-  Points {
-   ShapePoint "{691C255010D253B3}" {
-    Position 0 0 0
-   }
-   ShapePoint "{691C255010D3B115}" {
-    Position -0.798 0 -53.757
-   }
-   ShapePoint "{691C255012CBFB80}" {
-    Position 15.338 0 -60.927
-   }
-  }
-  LineColor 0 0 0 0
-  {
-   PrefabGeneratorEntity : "{5622EEF89F020410}Prefabs/WEGenerators/Bushline/PG_Treeline_Birch_02.et" {
-    Flags 0x100003 0
-    m_iSeed 6887
-    {
-     $grp Tree : "{0A56ED2CC73ABB23}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_sambucus_nigra_2.et" {
-      {
-       coords 2.034 0.021 -4.216
-       angles 359.653 -176.028 0.986
-       scale 1.04
-      }
-      {
-       coords 2.092 0 -59.129
-       angles 358.349 142.674 1.425
-       scale 1.04
-      }
-     }
-     Tree : "{425761285F36BF16}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_1s.et" {
-      coords 1.239 -0.093 -52.501
-      angles 1.876 179.992 -0.958
-      scale 1.119
-     }
-     $grp Tree : "{6602D9CC7BFE340D}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_sambucus_nigra_1.et" {
-      {
-       coords 7.904 0 -61.119
-       angles 359.113 107.601 0.691
-       scale 1.15
-      }
-      {
-       coords 15.964 0.001 -60.406
-       angles -0.086 14.294 -0.049
-       scale 1.15
-      }
-     }
-     $grp Tree : "{A35E15EBC6033C07}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_1.et" {
-      {
-       coords 3.466 0.015 -0.494
-       angles 358.97 -176.028 0.283
-       scale 0.7
-      }
-      {
-       coords 1.58 0.041 -23.052
-       angles 359.584 -176.99 1.352
-       scale 0.7
-      }
-     }
-     $grp Tree : "{B48B7DD4E1C5FE40}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_0.et" {
-      {
-       coords 2.866 0 -24.182
-       angles 0 -95.693 0
-       scale 0.602
-      }
-      {
-       coords 0.878 0 -24.429
-       angles 0 -177.351 0
-       scale 0.602
-      }
-      {
-       coords 10.847 0 -61.728
-       angles 0 96.898 0
-       scale 0.602
-      }
-     }
-     $grp Tree : "{CF0A210B7AC7B329}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_2.et" {
-      {
-       coords 1.08 -0.111 -48.257
-       angles 1.893 -171.429 -0.437
-       scale 0.72
-      }
-      {
-       coords 1.807 0.013 -55.625
-       angles 359.454 157.186 0.257
-       scale 0.72
-      }
-     }
-     $grp Tree : "{DA7492F3E6B63251}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_1l.et" {
-      {
-       coords 4.945 0 -60.454
-       angles 358.775 122.873 358.02
-       scale 1.15
-      }
-      {
-       coords 11.325 0.04 -59.618
-       angles 358.76 88.74 358.909
-       scale 1.15
-      }
-     }
-     Tree : "{F1DB9A8115310093}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_1f.et" {
-      coords 1.559 -0.233 -7.968
-      angles 356.74 -176.028 356.92
-      scale 1.2
-     }
-    }
-   }
-  }
- }
 }
 $grp GenericEntity : "{036A2332E131AE05}Prefabs/Props/Military/AmmoBoxes/AmmoBox_762x54_440rnd.et" {
  {
@@ -11595,17 +11485,7 @@ $grp SCR_DestructibleBuildingEntity : "{B1D7DA05DE5D73F4}Prefabs/Structures/Wall
   scale 2.19
  }
  {
-  coords 3900.723 306.702 360.083
-  angles 0 -90.489 0
-  scale 2.19
- }
- {
-  coords 3900.869 306.702 342.96
-  angles 0 -90.489 0
-  scale 2.19
- }
- {
-  coords 3901.014 306.702 325.93
+  coords 3900.65 306.702 368.617
   angles 0 -90.489 0
   scale 2.19
  }
@@ -12570,16 +12450,6 @@ $grp SCR_DestructibleEntity : "{D50A0255E3EB8CCF}Prefabs/Structures/Walls/Concre
   scale 4.108
  }
  {
-  coords 3895.545 1.148 327.615
-  angles 0 89.511 0
-  scale 4.108
- }
- {
-  coords 3895.497 1.21 337.204
-  angles 0 89.511 0
-  scale 4.108
- }
- {
   coords 3862.452 1.109 278.062
   angles 0 1.24 0
   scale 4.108
@@ -12587,11 +12457,6 @@ $grp SCR_DestructibleEntity : "{D50A0255E3EB8CCF}Prefabs/Structures/Walls/Concre
  {
   coords 3786.028 0.755 280.285
   angles 0 91.24 0
-  scale 4.108
- }
- {
-  coords 3895.331 1.148 352.639
-  angles 0 89.511 0
   scale 4.108
  }
  {
