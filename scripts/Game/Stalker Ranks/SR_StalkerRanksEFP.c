@@ -17,7 +17,7 @@ modded class EPF_ArmstPlayerStatsComponentSaveData : EPF_ComponentSaveData
 			// 2. Safely grab your injected rank variable
 			m_eSRSavedRank = statsComponent.SR_GetRank();
 		}
-        PrintFormat("[GLA ARMST] Player rank ReadFrom is: %1", m_eSRSavedRank, LogLevel.NORMAL);
+        PrintFormat("[SR Ranks] Player rank ReadFrom is: %1", m_eSRSavedRank, LogLevel.NORMAL);
         return EPF_EReadResult.OK;
     }
 
@@ -35,7 +35,7 @@ modded class EPF_ArmstPlayerStatsComponentSaveData : EPF_ComponentSaveData
 			// 2. Safely push your saved rank back into the live session
 			statsComponent.SR_SetRank(m_eSRSavedRank);
 		}
-	    PrintFormat("[GLA ARMST] Player rank ApplyTo is: %1", m_eSRSavedRank, LogLevel.NORMAL);
+	    PrintFormat("[SR Ranks] Player rank ApplyTo is: %1", m_eSRSavedRank, LogLevel.NORMAL);
 	    return EPF_EApplyResult.OK;
 	}
 
@@ -51,7 +51,7 @@ modded class EPF_ArmstPlayerStatsComponentSaveData : EPF_ComponentSaveData
             return false;
         
 		// 2. Add your custom rank comparison to the check loop
-		PrintFormat("[GLA ARMST] Player rank Equals is: %1 | Player rank otherData is %2", m_eSRSavedRank, otherData.m_eSRSavedRank, LogLevel.NORMAL);
+		PrintFormat("[SR Ranks] Player rank Equals is: %1 | Player rank otherData is %2", m_eSRSavedRank, otherData.m_eSRSavedRank, LogLevel.NORMAL);
         return m_eSRSavedRank == otherData.m_eSRSavedRank; 
     }
 }

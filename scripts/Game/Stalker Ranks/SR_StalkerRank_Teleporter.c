@@ -21,20 +21,20 @@ modded class ARMST_TELEPORT_ACTIONS : ScriptedUserAction
 	{
 		if(!ent)
 		{
-			Print("[SR] Ent not found");
+			Print("[SR Ranks] Ent not found");
 			return false;
 		}
 		ARMST_PLAYER_STATS_COMPONENT SR_APSC = ARMST_PLAYER_STATS_COMPONENT.Cast(ent.FindComponent(ARMST_PLAYER_STATS_COMPONENT));
 		if(!SR_APSC)
 		{
-			Print("[SR] ARMST_PLAYER_STATS_COMPONENT NOT FOUND!", LogLevel.ERROR);
+			Print("[SR Ranks] ARMST_PLAYER_STATS_COMPONENT NOT FOUND!", LogLevel.ERROR);
 			return false;
 		}
 		SR_STALKER_RANK playerRank = SR_APSC.SR_GetRank();
 		
 		if(!playerRank)
 		{
-			Print("[SR] playerRank not found");
+			Print("[SR Ranks] playerRank not found");
 			playerRank = SR_STALKER_RANK.ROOKIE;
 		}
 		
@@ -46,7 +46,7 @@ modded class ARMST_TELEPORT_ACTIONS : ScriptedUserAction
 		else 
 		{ 	
 			SCR_PlayerController.ShowNotificationPDA(ent, "Stalker Rank System", "Not correct rank", true);
-			PrintFormat("[SR] playerRank is %1 | m_eNeededRank is %2", playerRank, m_eNeededRank);
+			PrintFormat("[SR Ranks] playerRank is %1 | m_eNeededRank is %2", playerRank, m_eNeededRank);
 			return false;
 		}
 		

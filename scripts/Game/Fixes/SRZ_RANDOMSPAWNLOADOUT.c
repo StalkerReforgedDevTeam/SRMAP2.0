@@ -12,7 +12,7 @@ modded class ARMST_BasicSpawnLogic : EPF_BasicSpawnLogic
         {
             m_mPlayerFactions.Set(playerId, statsComponent.GetFactionKey());
 			m_mPlayerRanks.Set(playerId, statsComponent.SR_GetRank());
-            Print(string.Format("[SR] Player %1 died, saved faction: %2 and rank %3", playerId, statsComponent.GetFactionKey(), statsComponent.SR_GetRank() ), LogLevel.NORMAL);
+            Print(string.Format("[SR Respawn] Player %1 died, saved faction: %2 and rank %3", playerId, statsComponent.GetFactionKey(), statsComponent.SR_GetRank() ), LogLevel.NORMAL);
         }
 
         super.OnPlayerKilled_S(playerId, playerEntity, killerEntity, killer);
@@ -25,12 +25,12 @@ modded class ARMST_BasicSpawnLogic : EPF_BasicSpawnLogic
         {
             playerFaction = m_mPlayerFactions.Get(playerId);
             m_mPlayerFactions.Remove(playerId);
-            Print(string.Format("[SR] Player %1 respawning with saved faction: %2", playerId, playerFaction), LogLevel.NORMAL);
+            Print(string.Format("[SR Respawn] Player %1 respawning with saved faction: %2", playerId, playerFaction), LogLevel.NORMAL);
         }
         else
         {
             playerFaction = ARMST_FACTION_LABEL.FACTION_STALKER;
-            Print(string.Format("[SR] Player %1 is new, defaulting to FACTION_STALKER", playerId), LogLevel.NORMAL);
+            Print(string.Format("[SR Respawn] Player %1 is new, defaulting to FACTION_STALKER", playerId), LogLevel.NORMAL);
         }
 		
         super.CreateCharacter(playerId, characterPersistenceId);
@@ -54,12 +54,12 @@ modded class ARMST_BasicSpawnLogic : EPF_BasicSpawnLogic
                 SR_STALKER_RANK savedRank = m_mPlayerRanks.Get(playerId);
                 newStatsComp.SR_SetRank(savedRank); // Inject the rank into the component
                 m_mPlayerRanks.Remove(playerId);   // Clear the map slot to save memory
-                Print(string.Format("[SR] Player %1 respawning with saved rank: %2", playerId, savedRank), LogLevel.NORMAL);
+                Print(string.Format("[SR Respawn] Player %1 respawning with saved rank: %2", playerId, savedRank), LogLevel.NORMAL);
             }
             else
             {
                 newStatsComp.SR_SetRank(SR_STALKER_RANK.ROOKIE); // New player fallback
-                Print(string.Format("[SR] Player %1 is new, defaulting rank to ROOKIE", playerId), LogLevel.NORMAL);
+                Print(string.Format("[SR Respawn] Player %1 is new, defaulting rank to ROOKIE", playerId), LogLevel.NORMAL);
             }
         }
 
@@ -68,13 +68,17 @@ modded class ARMST_BasicSpawnLogic : EPF_BasicSpawnLogic
     //------------------------------------------------------------------------------------------------
     override void LoadStartingLoot(IEntity character, int playerId, ARMST_FACTION_LABEL factionKey)
     {
+		if (playerFaction != factionKey)
+		{
+			factionKey = playerFaction;
+		}
 		
-		if (!factionKey == ARMST_FACTION_LABEL.FACTION_STALKER) {
+		if (factionKey != ARMST_FACTION_LABEL.FACTION_STALKER) {
 		
         array<ref ResourceName> lootConfigs = GetLootConfigForFaction(factionKey, playerId);
         if (!lootConfigs || lootConfigs.IsEmpty())
         {
-            Print(string.Format("[SR] No loot configs found for faction %1, player %2.", factionKey, playerId), LogLevel.WARNING);
+            Print(string.Format("[SR Respawn] No loot configs found for faction %1, player %2.", factionKey, playerId), LogLevel.WARNING);
             return;
         }
 
@@ -83,18 +87,18 @@ modded class ARMST_BasicSpawnLogic : EPF_BasicSpawnLogic
 
         if (selected.IsEmpty())
         {
-            Print(string.Format("[SR] Selected loot config is empty for faction %1, player %2.", factionKey, playerId), LogLevel.WARNING);
+            Print(string.Format("[SR Respawn] Selected loot config is empty for faction %1, player %2.", factionKey, playerId), LogLevel.WARNING);
             return;
         }
 
-        Print(string.Format("[SR] Loadout variant %1 of %2 selected for faction %3, player %4.",
+        Print(string.Format("[SR Respawn] Loadout variant %1 of %2 selected for faction %3, player %4.",
             randomIndex + 1, lootConfigs.Count(), factionKey, playerId), LogLevel.NORMAL);
 
         Helpers.GiveLoot(character, selected);
 		}
 		else 
 		{
-            Print(string.Format("[SR] Player %1 is a Stalker! Fetching rank-based loadout...", playerId), LogLevel.NORMAL);
+            Print(string.Format("[SR Respawn] Player %1 is a Stalker! Fetching rank-based loadout...", playerId), LogLevel.NORMAL);
 
             // Get the player's current rank from our saved map
             SR_STALKER_RANK playerRank = SR_STALKER_RANK.ROOKIE;
@@ -124,7 +128,7 @@ modded class ARMST_BasicSpawnLogic : EPF_BasicSpawnLogic
 
                                 if (!selectedRankLoot.IsEmpty())
                                 {
-                                    Print(string.Format("[SR] Stalker Rank %1 loot selected for Player %2.", playerRank, playerId), LogLevel.NORMAL);
+                                    Print(string.Format("[SR Respawn] Stalker Rank %1 loot selected for Player %2.", playerRank, playerId), LogLevel.NORMAL);
                                     Helpers.GiveLoot(character, selectedRankLoot);
                                     return; 
                                 }
@@ -132,11 +136,10 @@ modded class ARMST_BasicSpawnLogic : EPF_BasicSpawnLogic
                             break;
                         }
                     }
+				
                 }
             }
 
-            
-            Print(string.Format("[SR] Warning: Rank config failed for Stalker Player %1. Falling back to default Stalker faction loot.", playerId), LogLevel.WARNING);
         }
 		
 		

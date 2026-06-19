@@ -18,7 +18,7 @@ modded class ARMST_PLAYER_STATS_COMPONENT : ScriptComponent
 	//------------------------------------------------------------------------------------------------
 	SR_STALKER_RANK SR_GetRank()
 	{
-		PrintFormat("[GLA ARMST] Player rank SR_GetRank is: %1", m_eSRCurrentRank, LogLevel.NORMAL);
+		PrintFormat("[SR Ranks] Player rank SR_GetRank is: %1", m_eSRCurrentRank, LogLevel.NORMAL);
 		return m_eSRCurrentRank;
 	}
 
@@ -33,14 +33,14 @@ modded class ARMST_PLAYER_STATS_COMPONENT : ScriptComponent
 		
 		// Tells Enfusion to replicate this component immediately
 		Replication.BumpMe();
-		PrintFormat("[GLA ARMST] Player rank SR_SetRank is: %1 | newRank is %2", m_eSRCurrentRank, newRank, LogLevel.NORMAL);	
+		PrintFormat("[SR Ranks] Player rank SR_SetRank is: %1 | newRank is %2", m_eSRCurrentRank, newRank, LogLevel.NORMAL);	
 		SR_OnRankChanged();
 	}
 
 	//------------------------------------------------------------------------------------------------
 	protected void SR_OnRankChanged()
 	{
-		Print(string.Format("[SR Rank] Player rank synchronized: %1", m_eSRCurrentRank.ToString()));
+		Print(string.Format("[SR Ranks] Player rank synchronized: %1", m_eSRCurrentRank.ToString()));
 	}
 	
 	
