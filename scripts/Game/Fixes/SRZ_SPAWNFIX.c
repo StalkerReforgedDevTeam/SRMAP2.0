@@ -1,3 +1,4 @@
+
 [BaseContainerProps(category: "Respawn")]
 modded class ARMST_BasicSpawnLogic: EPF_BasicSpawnLogic
 {
@@ -40,9 +41,17 @@ modded class ARMST_BasicSpawnLogic: EPF_BasicSpawnLogic
 			if(!faction) {
             	faction = ARMST_FACTION_LABEL.FACTION_STALKER;
 			}
-
-            if (m_mPlayerNames.Contains(playerId))
-                name = m_mPlayerNames.Get(playerId);
+			
+			
+			
+			SRZ_RPNameProfileManager profileMgr = SRZ_RPNameProfileManager.GetInstance();
+	        if (!profileMgr)
+	            return;
+	
+	        string SRplayerName = profileMgr.GetNameForPlayer(playerId);
+				
+            if (SRplayerName)
+                name = SRplayerName;
             
             if (m_mPlayerBiographies.Contains(playerId))
                 bio = m_mPlayerBiographies.Get(playerId);
