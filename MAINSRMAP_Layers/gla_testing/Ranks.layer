@@ -1,0 +1,70 @@
+$grp GenericEntity {
+ SR_Spawn1 {
+  coords 1998.59 291.735 940.178
+ }
+ SR_Spawn2 {
+  coords 4178.59 305.635 703.591
+ }
+ SR_Spawn3 {
+  coords 4262.466 302.08 2331.718
+ }
+ SR_Spawn4 {
+  coords 2326.938 312.702 2540.776
+ }
+}
+GenericEntity : "{0F795690BDE2B737}Prefabs/Props/Teleporter/SR_Rank_Teleporter.et" {
+ components {
+  ActionsManagerComponent "{69A53528FCD6C87F}" {
+   ActionContexts {
+    UserActionContext "{69A5352925F82761}" {
+     Position PointInfo "{69A535292828E107}" {
+      Offset 0 0.1282 -0.0415
+     }
+    }
+   }
+   additionalActions {
+    ARMST_TELEPORT_ACTIONS "{69A54C237778E3B8}" {
+     ParentContextList {
+      "Default"
+     }
+     ActionTitle "Veteran"
+     Duration 0.5
+     "Sort Priority" 1
+     m_sTeleportActionName "Veteran Stalker"
+     m_sTeleportTarget "SR_Spawn2"
+     m_fTeleportDelay 3
+     m_fTeleportRadius 3
+     m_eNeededRank VETERAN
+    }
+    ARMST_TELEPORT_ACTIONS "{69A54C237BDB3A81}" {
+     ParentContextList {
+      "Default"
+     }
+     ActionTitle "Expert"
+     Duration 0.5
+     "Sort Priority" 2
+     m_sTeleportActionName "Expert Stalker"
+     m_sTeleportTarget "SR_Spawn3"
+     m_fTeleportDelay 3
+     m_fTeleportRadius 3
+     m_eNeededRank EXPERT
+    }
+    ARMST_TELEPORT_ACTIONS "{69A54C236C5ECC4C}" {
+     ParentContextList {
+      "Default"
+     }
+     ActionTitle "Master"
+     Duration 0.5
+     "Sort Priority" 3
+     m_sTeleportActionName "Master Stalker"
+     m_sTeleportTarget "SR_Spawn4"
+     m_fTeleportDelay 3
+     m_fTeleportRadius 3
+     m_eNeededRank MASTER
+    }
+   }
+  }
+ }
+ coords 5090.489 302.606 56.779
+ angles 0 -105 0
+}

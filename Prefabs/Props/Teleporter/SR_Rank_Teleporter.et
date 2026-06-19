@@ -1,0 +1,58 @@
+GenericEntity {
+ ID "69A5352D0CD0A664"
+ components {
+  MeshObject "{69A535283BAA37A9}" {
+   Object "{8709DD4724365C41}Assets/Props/Furniture/PhoneTable_01/PhoneTable_01.xob"
+   Materials {
+    MaterialAssignClass "{69A53528038BC997}" {
+     SourceMaterial "Color_palette"
+     AssignedMaterial "{B18025C25A0E9748}Common/Materials/ColorPalette/Color_palette_01_YELLOW_15_S2_R3.emat"
+    }
+    MaterialAssignClass "{69A53528038BC861}" {
+     SourceMaterial "PhoneTable_01"
+     AssignedMaterial "{34327F674A467063}Assets/Props/Furniture/PhoneTable_01/Data/PhoneTable_01_khaki.emat"
+    }
+   }
+   LODFactors {
+    5 2 1.5 1 1 1
+   }
+  }
+  RigidBody "{69A5352A33B51A56}" {
+   ResponseIndex "TinyDestructible"
+   ModelGeometry 1
+   Static 1
+  }
+  ActionsManagerComponent "{69A53528FCD6C87F}" {
+   ActionContexts {
+    UserActionContext "{69A5352925F82761}" {
+     UIInfo UIInfo "{657E8538A2BE1CCB}" {
+     }
+     ContextName "Default"
+     Position PointInfo "{69A535292828E107}" {
+      Offset 0 0.1208 -0.0591
+     }
+     Radius 1
+    }
+   }
+   additionalActions {
+    ARMST_TELEPORT_ACTIONS "{69A53528E7F0594A}" {
+     ParentContextList {
+      "Default"
+     }
+     ActionTitle "Experienced"
+     Duration 0.5
+     m_sTeleportActionName "Experienced Stalker"
+     m_sTeleportTarget "SR_Spawn1"
+     m_fTeleportDelay 3
+     m_fTeleportRadius 3
+     m_eNeededRank EXPERIENCED
+    }
+   }
+  }
+  RplComponent "{69A53528081E1B6B}" {
+   "Rpl State Override" Runtime
+  }
+ }
+ coords 5090.387 302.606 57.051
+ angles 0 -105 0
+}

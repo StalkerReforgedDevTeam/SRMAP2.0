@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{032FD7902BA3FCA1}Configs/Stalker_Ranks/SR_RankLoadoutsConfig.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}
