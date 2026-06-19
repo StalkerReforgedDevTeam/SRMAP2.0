@@ -7,7 +7,7 @@ Armst_Monster_Character : "{FAF1350A99D893E7}622120A5448725E3/Prefabs/Characters
   SCR_CharacterDamageManagerComponent "{55872AD7B4E959F2}" {
    "Additional hit zones" {
     SCR_CharacterHealthHitZone Health {
-     MaxHealth 300
+     MaxHealth 200
     }
     SCR_CharacterHeadHitZone Head {
      MaxHealth 20

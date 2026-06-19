@@ -2759,8 +2759,9 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
     m_CheckInterval 249
     m_CheckPlayerRadius 29
     m_SpawnChance 52
+    m_FailedSpawnDelay 1091
     m_PlayerDetectionRadius 197
-    m_RespawnDelayAfterDelete 1682
+    m_RespawnDelayAfterDelete 3152
     m_SpawnGroups {
      "{640EF50B76CB86C9}Configs/GAME_SETTING/BOTS/ALIFE/mutants/electro_elements.conf"
     }
@@ -2776,8 +2777,9 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
     m_CheckInterval 249
     m_CheckPlayerRadius 29
     m_SpawnChance 52
+    m_FailedSpawnDelay 1091
     m_PlayerDetectionRadius 197
-    m_RespawnDelayAfterDelete 1682
+    m_RespawnDelayAfterDelete 3152
     m_SpawnGroups {
      "{640EF50B76CB86C9}Configs/GAME_SETTING/BOTS/ALIFE/mutants/electro_elements.conf"
     }
@@ -2793,8 +2795,9 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
     m_CheckInterval 249
     m_CheckPlayerRadius 29
     m_SpawnChance 52
+    m_FailedSpawnDelay 1091
     m_PlayerDetectionRadius 197
-    m_RespawnDelayAfterDelete 1682
+    m_RespawnDelayAfterDelete 3152
     m_SpawnGroups +{
     }
     m_fMonsterNight 1
@@ -2813,8 +2816,9 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
     m_CheckInterval 249
     m_CheckPlayerRadius 29
     m_SpawnChance 52
+    m_FailedSpawnDelay 1091
     m_PlayerDetectionRadius 197
-    m_RespawnDelayAfterDelete 1682
+    m_RespawnDelayAfterDelete 3152
    }
   }
   coords 2319.856 292.481 508.465
@@ -2826,8 +2830,9 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
     m_CheckInterval 249
     m_CheckPlayerRadius 29
     m_SpawnChance 52
+    m_FailedSpawnDelay 1091
     m_PlayerDetectionRadius 197
-    m_RespawnDelayAfterDelete 1682
+    m_RespawnDelayAfterDelete 3152
     m_SpawnGroups +{
     }
    }
@@ -2842,8 +2847,9 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
     m_CheckInterval 249
     m_CheckPlayerRadius 29
     m_SpawnChance 52
+    m_FailedSpawnDelay 1091
     m_PlayerDetectionRadius 197
-    m_RespawnDelayAfterDelete 1682
+    m_RespawnDelayAfterDelete 3152
     m_SpawnGroups +{
     }
     m_fMonsterNight 1
@@ -2862,8 +2868,9 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
     m_CheckInterval 249
     m_CheckPlayerRadius 29
     m_SpawnChance 52
+    m_FailedSpawnDelay 1091
     m_PlayerDetectionRadius 197
-    m_RespawnDelayAfterDelete 1682
+    m_RespawnDelayAfterDelete 3152
     m_SpawnGroups +{
     }
    }
@@ -2878,8 +2885,9 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
     m_CheckInterval 249
     m_CheckPlayerRadius 29
     m_SpawnChance 52
+    m_FailedSpawnDelay 1091
     m_PlayerDetectionRadius 197
-    m_RespawnDelayAfterDelete 1682
+    m_RespawnDelayAfterDelete 3152
     m_SpawnGroups {
      "{D77BDED419E75366}Configs/GAME_SETTING/BOTS/ALIFE/mutants/erb.conf"
     }
@@ -2899,8 +2907,9 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
     m_CheckInterval 249
     m_CheckPlayerRadius 29
     m_SpawnChance 52
+    m_FailedSpawnDelay 1091
     m_PlayerDetectionRadius 197
-    m_RespawnDelayAfterDelete 1682
+    m_RespawnDelayAfterDelete 3152
     m_SpawnGroups {
      "{AA31A2A6BD9679D4}Configs/GAME_SETTING/BOTS/ALIFE/mutants/zombie.conf"
     }
@@ -2916,8 +2925,9 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
     m_CheckInterval 249
     m_CheckPlayerRadius 29
     m_SpawnChance 52
+    m_FailedSpawnDelay 1091
     m_PlayerDetectionRadius 197
-    m_RespawnDelayAfterDelete 1682
+    m_RespawnDelayAfterDelete 3152
     m_SpawnGroups {
      "{AA31A2A6BD9679D4}Configs/GAME_SETTING/BOTS/ALIFE/mutants/zombie.conf"
     }
@@ -2933,8 +2943,9 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
     m_CheckInterval 249
     m_CheckPlayerRadius 29
     m_SpawnChance 52
+    m_FailedSpawnDelay 1091
     m_PlayerDetectionRadius 197
-    m_RespawnDelayAfterDelete 1682
+    m_RespawnDelayAfterDelete 3152
    }
   }
   coords 1349.105 300.399 826.276
@@ -2947,8 +2958,9 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
     m_CheckInterval 249
     m_CheckPlayerRadius 29
     m_SpawnChance 52
+    m_FailedSpawnDelay 1091
     m_PlayerDetectionRadius 197
-    m_RespawnDelayAfterDelete 1682
+    m_RespawnDelayAfterDelete 3152
    }
   }
   coords 2174.538 291.057 583.238
@@ -2961,8 +2973,9 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
     m_CheckInterval 249
     m_CheckPlayerRadius 29
     m_SpawnChance 52
+    m_FailedSpawnDelay 1091
     m_PlayerDetectionRadius 197
-    m_RespawnDelayAfterDelete 1682
+    m_RespawnDelayAfterDelete 3152
     m_SpawnGroups {
      "{D77BDED419E75366}Configs/GAME_SETTING/BOTS/ALIFE/mutants/erb.conf"
     }
@@ -2978,8 +2991,9 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
     m_CheckInterval 249
     m_CheckPlayerRadius 29
     m_SpawnChance 52
+    m_FailedSpawnDelay 1091
     m_PlayerDetectionRadius 197
-    m_RespawnDelayAfterDelete 1682
+    m_RespawnDelayAfterDelete 3152
     m_SpawnGroups +{
     }
    }
@@ -2994,8 +3008,9 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
     m_CheckInterval 249
     m_CheckPlayerRadius 29
     m_SpawnChance 52
+    m_FailedSpawnDelay 1091
     m_PlayerDetectionRadius 197
-    m_RespawnDelayAfterDelete 1682
+    m_RespawnDelayAfterDelete 3152
     m_SpawnGroups {
      "{640EF50B76CB86C9}Configs/GAME_SETTING/BOTS/ALIFE/mutants/electro_elements.conf"
     }
@@ -3011,8 +3026,9 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
     m_CheckInterval 249
     m_CheckPlayerRadius 29
     m_SpawnChance 52
+    m_FailedSpawnDelay 1091
     m_PlayerDetectionRadius 197
-    m_RespawnDelayAfterDelete 1682
+    m_RespawnDelayAfterDelete 3152
     m_SpawnGroups +{
     }
     m_fMonsterNight 1
@@ -3031,8 +3047,9 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
     m_CheckInterval 249
     m_CheckPlayerRadius 29
     m_SpawnChance 52
+    m_FailedSpawnDelay 1091
     m_PlayerDetectionRadius 197
-    m_RespawnDelayAfterDelete 1682
+    m_RespawnDelayAfterDelete 3152
     m_SpawnGroups +{
     }
     m_fMonsterNight 1
@@ -3051,8 +3068,9 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
     m_CheckInterval 249
     m_CheckPlayerRadius 29
     m_SpawnChance 52
+    m_FailedSpawnDelay 1091
     m_PlayerDetectionRadius 197
-    m_RespawnDelayAfterDelete 1682
+    m_RespawnDelayAfterDelete 3152
     m_SpawnGroups +{
     }
     m_fMonsterNight 1
@@ -3071,8 +3089,9 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
     m_CheckInterval 249
     m_CheckPlayerRadius 29
     m_SpawnChance 52
+    m_FailedSpawnDelay 1091
     m_PlayerDetectionRadius 197
-    m_RespawnDelayAfterDelete 1682
+    m_RespawnDelayAfterDelete 3152
     m_SpawnGroups +{
     }
     m_fMonsterNight 1
@@ -3091,8 +3110,9 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
     m_CheckInterval 249
     m_CheckPlayerRadius 29
     m_SpawnChance 52
+    m_FailedSpawnDelay 1091
     m_PlayerDetectionRadius 197
-    m_RespawnDelayAfterDelete 1682
+    m_RespawnDelayAfterDelete 3152
     m_SpawnGroups +{
     }
     m_fMonsterNight 1
@@ -3111,8 +3131,9 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
     m_CheckInterval 249
     m_CheckPlayerRadius 29
     m_SpawnChance 52
+    m_FailedSpawnDelay 1091
     m_PlayerDetectionRadius 197
-    m_RespawnDelayAfterDelete 1682
+    m_RespawnDelayAfterDelete 3152
     m_SpawnGroups +{
     }
     m_fMonsterNight 1
@@ -3131,8 +3152,9 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
     m_CheckInterval 249
     m_CheckPlayerRadius 29
     m_SpawnChance 52
+    m_FailedSpawnDelay 1091
     m_PlayerDetectionRadius 197
-    m_RespawnDelayAfterDelete 1682
+    m_RespawnDelayAfterDelete 3152
     m_SpawnGroups +{
     }
     m_fMonsterNight 1
@@ -3151,8 +3173,9 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
     m_CheckInterval 249
     m_CheckPlayerRadius 29
     m_SpawnChance 52
+    m_FailedSpawnDelay 1091
     m_PlayerDetectionRadius 197
-    m_RespawnDelayAfterDelete 1682
+    m_RespawnDelayAfterDelete 3152
     m_SpawnGroups +{
     }
     m_fMonsterNight 1
@@ -3171,8 +3194,9 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
     m_CheckInterval 249
     m_CheckPlayerRadius 29
     m_SpawnChance 52
+    m_FailedSpawnDelay 1091
     m_PlayerDetectionRadius 197
-    m_RespawnDelayAfterDelete 1682
+    m_RespawnDelayAfterDelete 3152
     m_SpawnGroups +{
     }
     m_fMonsterNight 1
@@ -3191,8 +3215,9 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
     m_CheckInterval 249
     m_CheckPlayerRadius 29
     m_SpawnChance 52
+    m_FailedSpawnDelay 1091
     m_PlayerDetectionRadius 197
-    m_RespawnDelayAfterDelete 1682
+    m_RespawnDelayAfterDelete 3152
     m_SpawnGroups +{
     }
     m_fMonsterNight 1
@@ -3211,8 +3236,9 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
     m_CheckInterval 249
     m_CheckPlayerRadius 29
     m_SpawnChance 52
+    m_FailedSpawnDelay 1091
     m_PlayerDetectionRadius 197
-    m_RespawnDelayAfterDelete 1682
+    m_RespawnDelayAfterDelete 3152
     m_SpawnGroups {
      "{D77BDED419E75366}Configs/GAME_SETTING/BOTS/ALIFE/mutants/erb.conf"
     }
@@ -3232,8 +3258,9 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
     m_CheckInterval 249
     m_CheckPlayerRadius 29
     m_SpawnChance 52
+    m_FailedSpawnDelay 1091
     m_PlayerDetectionRadius 197
-    m_RespawnDelayAfterDelete 1682
+    m_RespawnDelayAfterDelete 3152
     m_SpawnGroups {
      "{D77BDED419E75366}Configs/GAME_SETTING/BOTS/ALIFE/mutants/erb.conf"
     }
@@ -3253,8 +3280,9 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
     m_CheckInterval 249
     m_CheckPlayerRadius 29
     m_SpawnChance 52
+    m_FailedSpawnDelay 1091
     m_PlayerDetectionRadius 197
-    m_RespawnDelayAfterDelete 1682
+    m_RespawnDelayAfterDelete 3152
     m_SpawnGroups {
      "{D77BDED419E75366}Configs/GAME_SETTING/BOTS/ALIFE/mutants/erb.conf"
     }
@@ -3274,8 +3302,9 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
     m_CheckInterval 249
     m_CheckPlayerRadius 29
     m_SpawnChance 52
+    m_FailedSpawnDelay 1091
     m_PlayerDetectionRadius 197
-    m_RespawnDelayAfterDelete 1682
+    m_RespawnDelayAfterDelete 3152
     m_SpawnGroups {
      "{D77BDED419E75366}Configs/GAME_SETTING/BOTS/ALIFE/mutants/erb.conf"
     }
@@ -3295,8 +3324,9 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
     m_CheckInterval 249
     m_CheckPlayerRadius 29
     m_SpawnChance 52
+    m_FailedSpawnDelay 1091
     m_PlayerDetectionRadius 197
-    m_RespawnDelayAfterDelete 1682
+    m_RespawnDelayAfterDelete 3152
     m_SpawnGroups {
      "{D77BDED419E75366}Configs/GAME_SETTING/BOTS/ALIFE/mutants/erb.conf"
     }
@@ -3316,8 +3346,9 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
     m_CheckInterval 249
     m_CheckPlayerRadius 29
     m_SpawnChance 52
+    m_FailedSpawnDelay 1091
     m_PlayerDetectionRadius 197
-    m_RespawnDelayAfterDelete 1682
+    m_RespawnDelayAfterDelete 3152
     m_SpawnGroups {
      "{D77BDED419E75366}Configs/GAME_SETTING/BOTS/ALIFE/mutants/erb.conf"
     }
