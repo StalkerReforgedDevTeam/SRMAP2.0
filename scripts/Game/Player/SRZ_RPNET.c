@@ -81,6 +81,33 @@ modded class SCR_PlayerController
 		Print(string.Format("[SRZ_RP] >>> %1 <<<", message), LogLevel.NORMAL);
 	}
 	
+	// ==================== ARMST NAME SYNC ====================
+	
+	// Pushes a name set through the SRZ RP name system into ARMST_PLAYER_STATS_COMPONENT,
+	// since the PDA and other UI screens read m_statistik_player_name, not the SRZ component.
+	protected void SRZ_SyncNameToArmstStats(int playerId, string newName)
+	{
+		if (!Replication.IsServer())
+			return;
+
+		PlayerManager pm = GetGame().GetPlayerManager();
+		if (!pm)
+			return;
+
+		IEntity targetEntity = pm.GetPlayerControlledEntity(playerId);
+		if (!targetEntity)
+			return;
+
+		ARMST_PLAYER_STATS_COMPONENT statsComp = ARMST_PLAYER_STATS_COMPONENT.Cast(targetEntity.FindComponent(ARMST_PLAYER_STATS_COMPONENT));
+		if (!statsComp)
+		{
+			Print(string.Format("[SRZ_RP] ARMST_PLAYER_STATS_COMPONENT not found for player ID %1, name sync skipped", playerId), LogLevel.WARNING);
+			return;
+		}
+
+		statsComp.ArmstPlayerSetName(newName);
+	}
+	
 	// ==================== COMMAND RPC (from SRZ_RPServerCommands) ====================
 	
 	// Client sends command to server
@@ -212,6 +239,7 @@ modded class SCR_PlayerController
 			}
 
 			mgr.ForceApplyToCharacter(playerId, newName);
+			SRZ_SyncNameToArmstStats(playerId, newName);
 			SRZ_RPNet.SendToPlayer(playerId, string.Format("Your RP name: %1", newName));
 			return;
 		}
@@ -275,6 +303,7 @@ modded class SCR_PlayerController
 
 			string newName = mgr.GenerateRandomName(targetId);
 			mgr.ForceApplyToCharacter(targetId, newName);
+			SRZ_SyncNameToArmstStats(targetId, newName);
 
 			SRZ_RPNet.SendToPlayer(playerId, string.Format("[Admin] Regenerated: %1 -> %2", pm.GetPlayerName(targetId), newName));
 			SRZ_RPNet.SendToPlayer(targetId, string.Format("Your RP name: %1", newName));
@@ -313,6 +342,7 @@ modded class SCR_PlayerController
 			}
 
 			mgr.ForceApplyToCharacter(targetId, newName);
+			SRZ_SyncNameToArmstStats(targetId, newName);
 			SRZ_RPNet.SendToPlayer(playerId, string.Format("[Admin] Set %1's name: %2", pm.GetPlayerName(targetId), newName));
 			SRZ_RPNet.SendToPlayer(targetId, string.Format("Your RP name: %1", newName));
 			return;
