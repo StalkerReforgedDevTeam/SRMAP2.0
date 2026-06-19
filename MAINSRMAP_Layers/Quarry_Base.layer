@@ -22,7 +22,7 @@ $grp SCR_DestructibleBuildingEntity : "{0ACD5769BB42F2FB}Prefabs/Method/Props/Ca
     ID "695EA19AB703B13C"
     components {
      ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-      m_LootTiersSpawn +{
+      m_LootTiersSpawn {
        "TIER_2"
       }
      }
@@ -32,7 +32,7 @@ $grp SCR_DestructibleBuildingEntity : "{0ACD5769BB42F2FB}Prefabs/Method/Props/Ca
     ID "695EA19AB703B155"
     components {
      ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-      m_LootTiersSpawn +{
+      m_LootTiersSpawn {
        "TIER_2"
       }
      }
@@ -42,7 +42,7 @@ $grp SCR_DestructibleBuildingEntity : "{0ACD5769BB42F2FB}Prefabs/Method/Props/Ca
     ID "695EA19AB703B15A"
     components {
      ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-      m_LootTiersSpawn +{
+      m_LootTiersSpawn {
        "TIER_2"
       }
      }
@@ -58,7 +58,7 @@ $grp SCR_DestructibleBuildingEntity : "{0ACD5769BB42F2FB}Prefabs/Method/Props/Ca
     ID "695EA19AB703B13C"
     components {
      ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-      m_LootTiersSpawn +{
+      m_LootTiersSpawn {
        "TIER_2"
       }
      }
@@ -68,7 +68,7 @@ $grp SCR_DestructibleBuildingEntity : "{0ACD5769BB42F2FB}Prefabs/Method/Props/Ca
     ID "695EA19AB703B155"
     components {
      ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-      m_LootTiersSpawn +{
+      m_LootTiersSpawn {
        "TIER_2"
       }
      }
@@ -78,7 +78,7 @@ $grp SCR_DestructibleBuildingEntity : "{0ACD5769BB42F2FB}Prefabs/Method/Props/Ca
     ID "695EA19AB703B15A"
     components {
      ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-      m_LootTiersSpawn +{
+      m_LootTiersSpawn {
        "TIER_2"
       }
      }
@@ -94,7 +94,7 @@ $grp SCR_DestructibleBuildingEntity : "{0ACD5769BB42F2FB}Prefabs/Method/Props/Ca
     ID "695EA19AB703B13C"
     components {
      ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-      m_LootTiersSpawn +{
+      m_LootTiersSpawn {
        "TIER_2"
       }
      }
@@ -104,7 +104,7 @@ $grp SCR_DestructibleBuildingEntity : "{0ACD5769BB42F2FB}Prefabs/Method/Props/Ca
     ID "695EA19AB703B155"
     components {
      ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-      m_LootTiersSpawn +{
+      m_LootTiersSpawn {
        "TIER_2"
       }
      }
@@ -114,7 +114,7 @@ $grp SCR_DestructibleBuildingEntity : "{0ACD5769BB42F2FB}Prefabs/Method/Props/Ca
     ID "695EA19AB703B15A"
     components {
      ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-      m_LootTiersSpawn +{
+      m_LootTiersSpawn {
        "TIER_2"
       }
      }
@@ -130,7 +130,7 @@ $grp SCR_DestructibleBuildingEntity : "{0ACD5769BB42F2FB}Prefabs/Method/Props/Ca
     ID "695EA19AB703B13C"
     components {
      ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-      m_LootTiersSpawn +{
+      m_LootTiersSpawn {
        "TIER_2"
       }
      }
@@ -140,7 +140,7 @@ $grp SCR_DestructibleBuildingEntity : "{0ACD5769BB42F2FB}Prefabs/Method/Props/Ca
     ID "695EA19AB703B155"
     components {
      ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-      m_LootTiersSpawn +{
+      m_LootTiersSpawn {
        "TIER_2"
       }
      }
@@ -150,7 +150,7 @@ $grp SCR_DestructibleBuildingEntity : "{0ACD5769BB42F2FB}Prefabs/Method/Props/Ca
     ID "695EA19AB703B15A"
     components {
      ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-      m_LootTiersSpawn +{
+      m_LootTiersSpawn {
        "TIER_2"
       }
      }
@@ -167,7 +167,7 @@ SCR_DestructibleBuildingEntity : "{113C33E4F8E97E22}Prefabs/Industrial/sklades_s
    ID "695EA1965AD50369"
    components {
     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-     m_LootTiersSpawn +{
+     m_LootTiersSpawn {
       "TIER_2"
      }
     }
@@ -177,7 +177,7 @@ SCR_DestructibleBuildingEntity : "{113C33E4F8E97E22}Prefabs/Industrial/sklades_s
    ID "695EA1965AD5037C"
    components {
     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-     m_LootTiersSpawn +{
+     m_LootTiersSpawn {
       "TIER_2"
      }
     }
@@ -206,7 +206,7 @@ GameEntity : "{1B1B80B11EA3FBA0}Prefabs/Method/Props/Camps/Fireplace_Loiters_03_
    ID "695EA19B169BBAFD"
    components {
     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-     m_LootTiersSpawn +{
+     m_LootTiersSpawn {
       "TIER_2"
      }
     }
@@ -216,7 +216,7 @@ GameEntity : "{1B1B80B11EA3FBA0}Prefabs/Method/Props/Camps/Fireplace_Loiters_03_
    ID "695EA19B169BBB35"
    components {
     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-     m_LootTiersSpawn +{
+     m_LootTiersSpawn {
       "TIER_2"
      }
     }
@@ -226,7 +226,7 @@ GameEntity : "{1B1B80B11EA3FBA0}Prefabs/Method/Props/Camps/Fireplace_Loiters_03_
    ID "695EA19B169BBB3F"
    components {
     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-     m_LootTiersSpawn +{
+     m_LootTiersSpawn {
       "TIER_2"
      }
     }
@@ -255,7 +255,7 @@ $grp SCR_DestructibleBuildingEntity : "{3177788C81331648}Prefabs/Industrial/buil
     ID "695EA199D4FFD62E"
     components {
      ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-      m_LootTiersSpawn +{
+      m_LootTiersSpawn {
        "TIER_2"
       }
      }
@@ -265,7 +265,7 @@ $grp SCR_DestructibleBuildingEntity : "{3177788C81331648}Prefabs/Industrial/buil
     ID "695EA199D4FFD658"
     components {
      ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-      m_LootTiersSpawn +{
+      m_LootTiersSpawn {
        "TIER_2"
       }
      }
@@ -275,7 +275,7 @@ $grp SCR_DestructibleBuildingEntity : "{3177788C81331648}Prefabs/Industrial/buil
     ID "695EA199D97FE1A4"
     components {
      ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-      m_LootTiersSpawn +{
+      m_LootTiersSpawn {
        "TIER_2"
       }
      }
@@ -291,7 +291,7 @@ $grp SCR_DestructibleBuildingEntity : "{3177788C81331648}Prefabs/Industrial/buil
     ID "695EA199D4FFD62E"
     components {
      ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-      m_LootTiersSpawn +{
+      m_LootTiersSpawn {
        "TIER_2"
       }
      }
@@ -301,7 +301,7 @@ $grp SCR_DestructibleBuildingEntity : "{3177788C81331648}Prefabs/Industrial/buil
     ID "695EA199D4FFD658"
     components {
      ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-      m_LootTiersSpawn +{
+      m_LootTiersSpawn {
        "TIER_2"
       }
      }
@@ -311,7 +311,7 @@ $grp SCR_DestructibleBuildingEntity : "{3177788C81331648}Prefabs/Industrial/buil
     ID "695EA199D97FE1A4"
     components {
      ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-      m_LootTiersSpawn +{
+      m_LootTiersSpawn {
        "TIER_2"
       }
      }
@@ -542,7 +542,7 @@ $grp SCR_DestructibleBuildingEntity : "{4A3D764C0D5E70BC}Prefabs/Method/Structur
     ID "695EA185D0F8D2EC"
     components {
      ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-      m_LootTiersSpawn +{
+      m_LootTiersSpawn {
        "TIER_2"
       }
      }
@@ -552,7 +552,7 @@ $grp SCR_DestructibleBuildingEntity : "{4A3D764C0D5E70BC}Prefabs/Method/Structur
     ID "695EA185D0F8D31A"
     components {
      ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-      m_LootTiersSpawn +{
+      m_LootTiersSpawn {
        "TIER_2"
       }
      }
@@ -568,7 +568,7 @@ $grp SCR_DestructibleBuildingEntity : "{4A3D764C0D5E70BC}Prefabs/Method/Structur
     ID "695EA185D0F8D2EC"
     components {
      ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-      m_LootTiersSpawn +{
+      m_LootTiersSpawn {
        "TIER_2"
       }
      }
@@ -578,7 +578,7 @@ $grp SCR_DestructibleBuildingEntity : "{4A3D764C0D5E70BC}Prefabs/Method/Structur
     ID "695EA185D0F8D31A"
     components {
      ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-      m_LootTiersSpawn +{
+      m_LootTiersSpawn {
        "TIER_2"
       }
      }
@@ -972,11 +972,6 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{533CDABD77C4C43E}Prefabs/Rocks/Gr
   scale 1.15
  }
 }
-Tree : "{5CA1D12C1B27CAE2}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_picea_abies_stump_02.et" {
- coords 4520.751 307.824 1800.186
- angles -3.284 153.033 -3.781
- scale 0.922
-}
 GenericEntity : "{70F32FEADB4D80F0}Prefabs/Props/Construction/ContainerMetal_01/ContainerMetal_01_low_base.et" {
  coords 4571.683 303.483 1777.896
  angles 0 -4.528 0
@@ -1009,18 +1004,6 @@ $grp GenericEntity : "{719ADBF3843A0876}Prefabs/Vehicles/zil131/armst_zil131_gru
  {
   coords 4521.789 290.854 1656.291
   angles 0 36.213 0
- }
-}
-$grp Tree : "{779DF03FAB7A131E}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_picea_abies_stump_01.et" {
- {
-  coords 4524.194 307.944 1802.786
-  angles 0 9.185 0
-  scale 0.813
- }
- {
-  coords 4532.118 308.886 1799.132
-  angles 0 70.875 0
-  scale 0.85
  }
 }
 $grp SCR_IndestructibleEnvironmentalEntity : "{7813FBBE77324674}Prefabs/Rocks/Granite/GraniteSurfaceStone_03.et" {
@@ -1477,7 +1460,7 @@ $grp SCR_DestructibleBuildingEntity : "{ACE8DF66DCD41EF5}Prefabs/Method/Structur
     ID "695EA185DD2E1FE8"
     components {
      ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-      m_LootTiersSpawn +{
+      m_LootTiersSpawn {
        "TIER_2"
       }
      }
@@ -1493,7 +1476,7 @@ $grp SCR_DestructibleBuildingEntity : "{ACE8DF66DCD41EF5}Prefabs/Method/Structur
     ID "695EA185DD2E1FE8"
     components {
      ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-      m_LootTiersSpawn +{
+      m_LootTiersSpawn {
        "TIER_2"
       }
      }
@@ -1654,7 +1637,7 @@ SCR_DestructibleBuildingEntity : "{DA18BC3C9738C614}Prefabs/Industrial/builds/bi
    ID "6976726E3EC7332D"
    components {
     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-     m_LootTiersSpawn +{
+     m_LootTiersSpawn {
       "TIER_2"
      }
     }
@@ -1664,7 +1647,7 @@ SCR_DestructibleBuildingEntity : "{DA18BC3C9738C614}Prefabs/Industrial/builds/bi
    ID "6976726E3EC73330"
    components {
     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-     m_LootTiersSpawn +{
+     m_LootTiersSpawn {
       "TIER_2"
      }
     }
@@ -1674,7 +1657,7 @@ SCR_DestructibleBuildingEntity : "{DA18BC3C9738C614}Prefabs/Industrial/builds/bi
    ID "6976726E3EC73337"
    components {
     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-     m_LootTiersSpawn +{
+     m_LootTiersSpawn {
       "TIER_2"
      }
     }
@@ -1684,7 +1667,7 @@ SCR_DestructibleBuildingEntity : "{DA18BC3C9738C614}Prefabs/Industrial/builds/bi
    ID "6976726E3EC73339"
    components {
     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-     m_LootTiersSpawn +{
+     m_LootTiersSpawn {
       "TIER_2"
      }
     }
