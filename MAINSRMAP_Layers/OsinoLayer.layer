@@ -67,7 +67,7 @@ SCR_DestructibleBuildingEntity : "{3177788C81331648}Prefabs/Industrial/builds/bi
    ID "695EA199D4FFD62E"
    components {
     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-     m_LootTiersSpawn +{
+     m_LootTiersSpawn {
       "TIER_2"
      }
     }
@@ -77,7 +77,7 @@ SCR_DestructibleBuildingEntity : "{3177788C81331648}Prefabs/Industrial/builds/bi
    ID "695EA199D4FFD658"
    components {
     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-     m_LootTiersSpawn +{
+     m_LootTiersSpawn {
       "TIER_2"
      }
     }
@@ -87,7 +87,7 @@ SCR_DestructibleBuildingEntity : "{3177788C81331648}Prefabs/Industrial/builds/bi
    ID "695EA199D97FE1A4"
    components {
     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-     m_LootTiersSpawn +{
+     m_LootTiersSpawn {
       "TIER_2"
      }
     }
@@ -409,7 +409,7 @@ SCR_DestructibleBuildingEntity : "{D4EB34758DD68123}Prefabs/Industrial/builds/bi
    ID "695EA199FFFE9963"
    components {
     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-     m_LootTiersSpawn +{
+     m_LootTiersSpawn {
       "TIER_2"
      }
     }
@@ -419,7 +419,7 @@ SCR_DestructibleBuildingEntity : "{D4EB34758DD68123}Prefabs/Industrial/builds/bi
    ID "695EA199FFFE9975"
    components {
     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-     m_LootTiersSpawn +{
+     m_LootTiersSpawn {
       "TIER_2"
      }
     }
