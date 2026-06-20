@@ -1,0 +1,10 @@
+GenericEntity : "{10C26F96EF7A8CF5}Prefabs/Props/Core/Props_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  SCR_UniversalInventoryStorageComponent "{658F779C6CCE136E}" {
+   Attributes SCR_ItemAttributeCollection "{658F779C6CCE136F}" {
+   }
+   m_iGridRows 10
+  }
+ }
+}
