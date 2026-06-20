@@ -883,24 +883,6 @@ GenericEntity : "{B350840088390760}Prefabs/Compositions/Misc/SubCompositions/Dec
 GenericEntity : "{B423187F6C8DEFFD}Prefabs/Compositions/Misc/SubCompositions/Decorations/Barrel_Group_Tire_01.et" {
  coords 4146.464 309.5 699.043
  angles 0 81.657 0
- {
-  GenericEntity {
-   ID "5CB0D990CB813AA7"
-   coords 0.354 -0.1 0.047
-  }
-  GenericEntity {
-   ID "5CB0D990CB813A99"
-   coords -0.317 -0.099 -0.041
-  }
-  GenericEntity {
-   ID "5CB0D990CB813A9D"
-   coords 0.044 0.864 0.051
-  }
-  GenericEntity {
-   ID "5CB0D990CB813AA2"
-   coords 0.512 0.077 0.578
-  }
- }
 }
 $grp GenericEntity : "{B547CF929FCC6BB7}Prefabs/Props/Military/Sandbags/Sandbag_01_end_high_burlap.et" {
  {
