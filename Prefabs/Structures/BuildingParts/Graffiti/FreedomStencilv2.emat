@@ -1,0 +1,16 @@
+MatPBRDecal {
+ Color 0 1 0.1 1
+ Specular 0.371 0.371 0.371 1
+ SpecularMul 0.19
+ AlphaMul 0.988
+ BlendMode AlphaBlend
+ RoughnessScale 1.222
+ MetalnessScale 0
+ BCRMap "{DDC17361B4CF1C87}Prefabs/Structures/BuildingParts/Graffiti/Freedomgrafmatv2.edds"
+ OpacityMap "{DDC17361B4CF1C87}Prefabs/Structures/BuildingParts/Graffiti/Freedomgrafmatv2.edds"
+ NMOMap "{0B5DD121C7527391}Assets/_SharedData/Metal/ST_MetalRough_02_NMO.edds"
+ GBufferNormal 1
+ NormalCombinePower 0.304
+ GBufferRoughness 1
+ GBufferAO 1
+}
