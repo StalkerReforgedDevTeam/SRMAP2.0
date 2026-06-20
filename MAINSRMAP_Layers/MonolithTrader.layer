@@ -98,353 +98,6 @@ $grp GenericEntity {
   coords 3317.826 304.409 2921.205
   angles 0 35.268 -90
  }
- Rifle_SVD_PSO_68DB2EE118C9B558 {
-  components {
-   Persistence "{68DB2EE105FCD587}" {
-   }
-   SignalsManagerComponent "{68DB2EE105FCD58D}" {
-   }
-   EPF_PersistenceComponent "{68DB2EE105FCD541}" {
-    m_pSaveData EPF_ItemSaveDataClass "{68DB2EE105FCD532}" {
-     m_aComponents {
-      EPF_WeaponAttachmentsStorageComponentSaveDataClass "{68DB2EE105FCD522}" {
-      }
-      EPF_MuzzleComponentSaveDataClass "{68DB2EE105FCD529}" {
-      }
-      EPF_ARMST_ITEMS_STATS_COMPONENTS_SaveDataClass "{68DB2EE105FCD52C}" {
-      }
-     }
-    }
-   }
-   MeshObject "{68DB2EE105FCD4B2}" {
-    Object "{DBB4CBF206BDFB3C}Assets/Weapons/Rifles/SVD/SVD_body.xob"
-    LODFactors {
-     1
-     1
-     1
-     1
-     1
-     1
-    }
-    InheritVisibility 1
-   }
-   RigidBody "{68DB2EE105FCD4BA}" {
-    SimState None
-    ModelGeometry 1
-   }
-   WeaponComponent "{68DB2EE105F590D4}" {
-    components {
-     AttachmentSlotComponent "{68DB2EE105FCD122}" {
-      AttachmentSlot InventoryStorageSlot Dovetail {
-       PivotID "slot_optics"
-       MergePhysics 1
-       ChildPivotID "snap_weapon"
-       Prefab "{C850A33226B8F9C1}Prefabs/Weapons/Attachments/Optics/Optic_PSO1.et"
-       InspectionWidgetOffset 0 0.1323 0.0889
-      }
-      AttachmentType AttachmentOpticsDovetailAK "{68DB2EE105FCD11A}" {
-      }
-      ShowInInspection 1
-     }
-     SightsComponent "{68DB2EE105F237C0}" {
-      SightsPosition PointInfo "{68DB2EE105FCD142}" {
-       PivotID "eye"
-       Offset 0 0 0
-      }
-      SightsRanges {
-       SightRangeInfo "{68DB2EE105FCD14E}" {
-        Range 0.465 100
-        WeaponPosition PointInfo "{68DB2EE105FCD14F}" {
-         Offset 0 -0.0016 0
-         Angles 0.09 0 0
-        }
-       }
-       SightRangeInfo "{68DB2EE105FC50FC}" {
-        Range 0.555 200
-        WeaponPosition PointInfo "{68DB2EE105FCD155}" {
-         Offset 0 -0.0022 0
-         Angles 0.12 0 0
-        }
-       }
-       SightRangeInfo "{68DB2EE105FC50F4}" {
-        Range 0.619 300
-        WeaponPosition PointInfo "{68DB2EE105FC50F2}" {
-         Offset 0 -0.003 0
-         Angles 0.18 0 0
-        }
-       }
-       SightRangeInfo "{68DB2EE105FC50C8}" {
-        Range 0.731 400
-        WeaponPosition PointInfo "{68DB2EE105FC50F7}" {
-         Offset 0 -0.0043 0
-         Angles 0.25 0 0
-        }
-       }
-       SightRangeInfo "{68DB2EE105F3AA3F}" {
-        Range 0.802 500
-        WeaponPosition PointInfo "{68DB2EE105FC50CC}" {
-         Offset 0 -0.0053 0
-         Angles 0.32 0 0
-        }
-       }
-       SightRangeInfo "{68DB2EE105F308F4}" {
-        Range 0.903 600
-        WeaponPosition PointInfo "{68DB2EE105F3AA3C}" {
-         Offset 0 -0.007 0
-         Angles 0.42 0 0
-        }
-       }
-       SightRangeInfo "{68DB2EE105F308FF}" {
-        Range 0.984 700
-        WeaponPosition PointInfo "{68DB2EE105F308F8}" {
-         Offset 0 -0.0086 0
-         Angles 0.52 0 0
-        }
-       }
-       SightRangeInfo "{68DB2EE105F33E01}" {
-        Range 1 800
-        WeaponPosition PointInfo "{68DB2EE105F308FC}" {
-         Offset 0 -0.0106 0
-         Angles 0.64 0 0
-        }
-       }
-       SightRangeInfo "{68DB2EE105F29149}" {
-        Range 1 900
-        WeaponPosition PointInfo "{68DB2EE105F33E18}" {
-         Offset 0 -0.0128 0
-         Angles 0.78 0 0
-        }
-       }
-       SightRangeInfo "{68DB2EE105F29144}" {
-        Range 1 1000
-        WeaponPosition PointInfo "{68DB2EE105F29145}" {
-         Offset 0 -0.0158 0
-         Angles 0.96 0 0
-        }
-       }
-       SightRangeInfo "{68DB2EE105F2D43E}" {
-        Range 1 1100
-        WeaponPosition PointInfo "{68DB2EE105F29140}" {
-         Offset 0 -0.0186 0
-         Angles 1.14 0 0
-        }
-       }
-       SightRangeInfo "{68DB2EE105F237E4}" {
-        Range 1 1200
-        WeaponPosition PointInfo "{68DB2EE105F2D5C3}" {
-         Offset 0 -0.0223 0
-         Angles 1.36 0 0
-        }
-       }
-      }
-      SightsPointFront PointInfo "{68DB2EE105F237E0}" {
-       PivotID "barrel_muzzle"
-       Offset 0 0.04155 -0.05275
-      }
-      SightsPointRear PointInfo "{68DB2EE105F237EF}" {
-       PivotID "w_sight"
-       Offset 0 0.002 -0.0618
-      }
-      ADSTime 0.35
-      m_iOpticDOFDistanceScale 120
-     }
-     MuzzleComponent "{68DB2EE105F59FA2}" {
-      MuzzleEndPositions {
-       PointInfo "{68DB2EE105F2377A}" {
-        PivotID "barrel_muzzle"
-       }
-      }
-      ProjectileSpawnPositions {
-       PointInfo "{68DB2EE105F23744}" {
-        PivotID "barrel_chamber"
-       }
-      }
-      ChamberedAmmo 1
-      FireModes {
-       BaseFireMode "{68DB2EE105F59DFB}" {
-        MaxBurst 0
-        MaxSalvo 0
-        RoundsPerMinute 0
-        UIName "Safe"
-        "Gamepad Trigger effect" GamepadTriggerEffect "{68DB2EE105F59C2E}" {
-         Name "SafetyLight"
-         ContextName "Weapon"
-         Priority 20
-         TriggerEffectCurve {
-          0.444 0
-          0.556 1
-         }
-        }
-        "Empty Trigger effect" GamepadTriggerEffect "{68DB2EE105F59DED}" {
-         Name "SafetyLight"
-         ContextName "Weapon"
-         Priority 20
-         TriggerEffectCurve {
-          0.444 0
-          0.556 1
-         }
-        }
-       }
-       BaseFireMode "{68DB2EE105F59DC9}" {
-        UIName "Single"
-       }
-      }
-      MagazineWell MagazineWellSVD "{68DB2EE105F59DA6}" {
-      }
-      DispersionDiameter 0.4
-      DispersionRange 680
-      WeaponAimModifiers {
-       SwayWeaponAimModifier "{68DB2EE105F59D3A}" {
-        Name "SWAY"
-        "Linear Damping" 0.85 0.5 0.825
-        "Linear Magnitude" 1
-        "Angular Damping" 0.95 0.3 0.4
-        "Angular Magnitude" 1
-        "ADS Multiplier" 0.3
-        "Focus Multiplier" 0.2
-        "Stamina Magnitude Curve" {
-         0 1
-         0.491 0.961
-         0.722 0.867
-         0.828 0.727
-         0.947 0.518
-         1 0.087
-        }
-        "Stamina Scale Mins" 0.4 0.5 0
-        "Stamina Scale Maxs" 1.4 1.4 0
-        "Linear Inertia Magnitude" 0.0015 0.02 0
-        "Angular Inertia Magnitude" 5 4 14
-        "Angular Inertia Magnitude ADS" 4 2 12
-        "Linear Inertia Decay Speed" 10
-        "Angular Inertia Decay Speed" 12
-        DamageToSway 2
-       }
-       SCRO_LensAlphaAimModifier "{68DB2EE105F59D05}" {
-       }
-       OnHitAimModifier "{68DB2EE105F59D0D}" {
-        IsEnabled 0
-       }
-       RecoilWeaponAimModifier "{68DB2EE105F59E6E}" {
-        LinearData RecoilData "{68DB2EE105F59E9E}" {
-         "Curve X" {
-          0 0.5
-          1 0.5
-         }
-         "Curve Y" {
-          0 0.5
-          0.012 0.663
-          0.038 0.68
-          0.056 0.617
-          0.095 0.5
-          0.25 0.45
-          0.45 0.52
-          0.7 0.495
-          1 0.5
-         }
-         "Curve Z" {
-          0.005 1
-          0.042 0.939
-          0.099 0.785
-          0.139 0.579
-          0.178 0.482
-          0.237 0.455
-          0.313 0.5
-          1 0.5
-         }
-         "Curve Magnitudes" 1 1 1
-         "Curve Mins" -0.001 -0.006 -0.033
-         "Curve Maxs" 0 -0.005 -0.027
-        }
-        AngularData RecoilData "{68DB2EE105F59E98}" {
-         "Curve Y" {
-          0 0.421
-          0.033 1
-          0.059 0.789
-          0.113 0.54
-          0.155 0.405
-          0.202 0.516
-          0.272 0.5
-          0.529 0.508
-          1 0.5
-         }
-         "Curve Time Scale" 1.1
-         "Curve Magnitudes" 0 1 0
-         "Curve Mins" 0 3 0
-         "Curve Maxs" 0 3 0
-        }
-        TurnOffsetData RecoilData "{68DB2EE105F59E62}" {
-         "Curve Y" {
-          0 1
-          0.027 1
-          0.105 0.576
-          0.236 0.5
-          1 0.5
-         }
-         "Curve Time Scale" 1
-         "Curve Magnitudes" 0 1 0
-         "Curve Mins" 0 9.3 0
-         "Curve Maxs" 0 9.75 0
-        }
-       }
-       ZeroingWeaponAimModifier "{68DB2EE105F59E6B}" {
-       }
-      }
-      UIInfo MuzzleUIInfo "{68DB2EE105F59E14}" {
-       m_MagIndicator SCR_MagazineIndicatorConfiguration "{68DB2EE105F59E32}" {
-        m_sOutline "magazine-svd_10rnd-outline"
-        m_sBackground "magazine-svd_10rnd-background"
-        m_sProgress "magazine-svd_10rnd-fill"
-        m_sProgressAlphaMask "magazine-svd_10rnd-alpha"
-       }
-      }
-      "LEFT HAND TARGET" DeploymentPointInfo LeftHandTarget {
-       PivotID "snap_hand_left"
-       Offset 0 0 -0.0337
-      }
-      RIGHT_HAND_TARGET DeploymentPointInfo RightHandTarget {
-       PivotID "snap_hand_right"
-      }
-      BUTSTOCK_TRANSFORMATION DeploymentPointInfo ButstockTransformation {
-       PivotID "Scene_Root"
-       Offset 0 0.02 -0.27
-      }
-      GamepadEffectContext "Weapon"
-      MagazinePosition InventoryStorageSlot "{B80A64F4C834E9CB}" {
-       PivotID "slot_magazine"
-       ChildPivotID "snap_weapon"
-       InspectionWidgetOffset 0 0.0051 0.1543
-      }
-      MagazineTemplate "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et"
-     }
-    }
-    SignalsSourceAccess SignalsSourceAccessClass "{68DB2EE105F59F41}" {
-    }
-    WeaponType SniperRifle
-    shouldHandleObstruction 0
-    signObstrWeaponConstantOffset 0.079 -0.163 0
-    signiObstrWeaponMaxZOffset 0.15
-    sightsCameraRollScaler -1
-    SoundInt 1030100
-    UIInfo WeaponUIInfo "{68DB2EE105F59F28}" {
-     Name "#AR-Weapon_SVD_Name"
-     Description "#AR-Weapon_SVD_Description"
-     m_MagIndicator SCR_MagazineIndicatorConfiguration "{68DB2EE105F59F2C}" {
-     }
-    }
-    WeaponSlotType "primary"
-    CanBeOnSling 1
-   }
-   RplComponent "{68DB2EE105F65B30}" {
-    "Rpl State Override" Runtime
-    "Parent Node From Parent Entity" 0
-   }
-   Hierarchy "{68DB2EE105F65B3F}" {
-   }
-  }
-  Flags 0x400003 0
-  coords 3293.763 327.304 2936.173
-  angles 0 -111.056 90
- }
  {
   coords 3295.901 303.705 2967.29
   angles 0 -106.509 0
@@ -684,179 +337,6 @@ $grp SCR_DestructibleBuildingEntity {
    }
    $grp GenericEntity {
     {
-     coords 0 0 0
-     {
-      $grp GameEntity {
-       {
-        coords -0.799 22.672 -3.62
-        angles 0 -180 0
-       }
-       {
-        coords 1.343 22.672 11.888
-        angles 0 90 0
-       }
-       {
-        coords 4.948 9.507 14.972
-        angles 0 90 0
-       }
-       {
-        coords -4.161 9.495 -4.236
-        angles 0 -90 0
-       }
-      }
-      $grp GenericEntity {
-       {
-        coords -13.548 -0.275 -13.181
-       }
-       {
-        coords -13.568 -0.255 -21.066
-       }
-       {
-        coords -13.63 -0.255 -19.588
-       }
-       {
-        coords -13.63 -0.255 -18.863
-       }
-       {
-        coords -13.63 -0.255 -17.425
-       }
-       {
-        coords -13.63 -0.255 -18.15
-       }
-       {
-        coords -13.63 -0.255 -20.367
-       }
-       {
-        coords -13.545 -0.255 -21.822
-       }
-      }
-      GenericEntity : "{0712799E7E8A0D56}Prefabs/Props/Industrial/GasTank_02_rusty.et" {
-       coords 0.506 -0.133 -25.278
-       angles 0 -14.837 90
-      }
-      GenericEntity : "{10C5A45290A9EEED}Prefabs/Props/Industrial/GasTank_01_blue.et" {
-       coords -13.489 -0.269 -6.879
-      }
-      GenericEntity : "{342E852E9A1847EA}Prefabs/Props/Industrial/Repair/VehicleGarbage_01_pile_medium.et" {
-       coords -12.968 -0.263 -8.252
-       angles 0 -17.05 0
-      }
-      GenericEntity : "{47F8D83F71EB2B74}Prefabs/Structures/Infrastructure/Lamps/LampStreet_E_02/LampStreet_E_02_addon.et" {
-       coords -14.298 9.986 -25.873
-       angles 0 180 0
-      }
-      $grp GenericEntity : "{4BE795374BE3D67E}Prefabs/Props/Industrial/BarrelFuel_01_closed.et" {
-       {
-        coords 2.614 -0.267 -23.871
-        angles 0 -78.596 0
-       }
-       {
-        coords 2.53 -0.267 -24.653
-        angles 0 -30.128 0
-       }
-       {
-        coords 3.239 -0.267 -24.181
-        angles 0 28.878 0
-       }
-       {
-        coords 3.123 -0.267 -23.182
-        angles 0 -143.021 0
-       }
-       {
-        coords 3.792 -0.267 -23.596
-        angles 0 -94.552 0
-       }
-       {
-        coords 3.673 -0.267 -22.753
-        angles 0 -35.547 0
-       }
-      }
-      GenericEntity : "{50A752B7D5E679A2}Prefabs/Props/Industrial/Repair/GasWelder_01.et" {
-       coords -12.374 -0.258 -9.81
-       angles 0 -60.337 0
-      }
-      $grp GenericEntity : "{5EF5C5129B116115}Prefabs/Structures/BuildingParts/Lights/LampIndustrial_02.et" {
-       {
-        coords -7.261 7.36 -16.323
-       }
-       {
-        coords -7.261 7.36 -10.583
-       }
-       {
-        coords -7.261 7.36 -21.391
-       }
-      }
-      GenericEntity : "{90A74133C1DC6226}Prefabs/Props/Industrial/Repair/EngineCrane_01.et" {
-       coords -10.737 -0.252 -7.457
-       angles 0 -147.276 0
-      }
-      GenericEntity : "{A52C57FE8549A13E}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/CargoContainer_01_10ft_red.et" {
-       coords 2.939 -0.262 -10.878
-       angles 0 86.487 0
-      }
-      GenericEntity : "{B557358F8F64AE31}Prefabs/Props/Industrial/Repair/HydraulicCarJack_01.et" {
-       coords -8.698 -0.256 -6.832
-       angles 0 180 0
-      }
-      $grp StaticModelEntity : "{BB64FBA6986C62F7}Prefabs/Structures/BuildingParts/Entry/ConcreteSlope_02_MediumVehicle.et" {
-       {
-        coords -8.407 -0.277 -25.93
-        angles 0 180 0
-       }
-       {
-        coords -7.127 -0.274 -25.93
-        angles 0 180 0
-       }
-      }
-      $grp GenericEntity : "{BB6989EB97F4F67E}Prefabs/Structures/BuildingParts/Lights/LampIndustrial_03.et" {
-       {
-        coords 10.028 7.127 -17.84
-       }
-       {
-        coords 10.028 7.127 -23.021
-       }
-      }
-      GenericEntity : "{BC2FDA7C84AB753B}Prefabs/Compositions/Misc/SubCompositions/Workbench_Cluttered_US_01.et" {
-       coords 14.137 -0.263 -21.743
-       angles 0 -90 0
-       {
-        GenericEntity {
-         ID "552C7391D9C750E9"
-         coords -0.458 1.02 0.227
-         angles 0 -142.962 0
-        }
-        GenericEntity {
-         ID "552C7391D9C75090"
-         coords 0.433 1.014 0.257
-         angles 0 178.177 0
-        }
-       }
-      }
-      GenericEntity : "{C94927591FBC6B54}Prefabs/Props/Industrial/BenchDrill_01_set.et" {
-       coords 14.028 -0.264 -23.527
-       angles 0 -89.177 0
-       {
-        GenericEntity {
-         ID "551C7973A671B69B"
-         coords 0.001 1.003 0.141
-        }
-       }
-      }
-      $grp StaticModelEntity : "{CAF8666F26CEB7AD}Prefabs/Structures/BuildingParts/Entry/ConcreteStairs_02_Narrow.et" {
-       {
-        coords 0.101 -0.272 -4.721
-       }
-       {
-        coords -3.718 -0.267 -25.918
-        angles 0 180 0
-       }
-      }
-      GenericEntity : "{DA861447E6D426AE}Prefabs/Props/Industrial/Repair/VehicleGarbage_01_pile_small.et" {
-       coords -13.241 -0.253 -9.825
-      }
-     }
-    }
-    {
      components {
       Hierarchy "{60B8E41E4AA22B33}" {
        Enabled 1
@@ -951,9 +431,6 @@ $grp SCR_DestructibleBuildingEntity {
       }
      }
     }
-   }
-   GameEnvironmentProbeEntity : "{6F46BA45228BFA0B}Prefabs/Structures/Infrastructure/Power/DieselPowerPlant_01/HouseAddons/Probe_DieselPowerPlant_01.et" {
-    coords -6.007 4.516 -17.685
    }
   }
  }
@@ -2004,9 +1481,6 @@ SplineShapeEntity {
   }
  }
 }
-GenericEntity : "{013297BA01640EB9}Prefabs/Props/Garbage/Military/Ammo/GarbageAmmunition_USSR_02.et" {
- coords 3293.585 327.19 2936.952
-}
 $grp SCR_DestructibleEntity : "{08403A2F4EFF76A4}Prefabs/Structures/Infrastructure/Piping/DieselPipe_01_curve_90_short.et" {
  {
   coords 3293.805 304.174 2949.752
@@ -2042,10 +1516,6 @@ $grp SCR_DestructibleEntity : "{08403A2F4EFF76A4}Prefabs/Structures/Infrastructu
 GenericEntity : "{0A4218ED97A10411}Prefabs/Props/Furniture/ShelfBarracks_01.et" {
  coords 3317.403 305.474 2920.707
  angles 0 -31.213 0
-}
-GenericEntity : "{11AAC380569EC0EC}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/Dst/EquipmentBoxStack_01_V2_dst_03_USSR.et" {
- coords 3305.953 303.952 2933.011
- angles 0 -23.81 0
 }
 $grp SCR_DestructibleEntity : "{20CB0AF236DCC8B6}Prefabs/Structures/Walls/Metal/MetalFenceDecorative_E_01/MetalFenceDecorative_E_01_Pole_Orange.et" {
  {
@@ -2086,20 +1556,6 @@ $grp SCR_DestructibleEntity : "{20CB0AF236DCC8B6}Prefabs/Structures/Walls/Metal/
   angles 0.186 58.844 -91.419
   scale 0.495
  }
- {
-  coords 3286.447 10.401 2924.936
-  angles 0.078 54.657 -21.034
-  scale 0.934
- }
- {
-  coords 3288.608 10.383 2926.266
-  angles -0.109 46.972 -23.452
-  scale 0.934
- }
-}
-GameEntity : "{24089D4BB9AA8913}Prefabs/Method/Props/Camps/Fireplace_Loiters_ground_1.et" {
- coords 3305.5 314.022 2921.455
- angles 0 -120.989 0
 }
 GenericEntity : "{25D05A17E3C163F7}Prefabs/Compositions/Misc/CustomEntities/DestructionEntities/BarrelFuel_01_closed_old_CompositionDestruction.et" {
  components {
@@ -2147,11 +1603,6 @@ GenericEntity : "{2E2351CD5B452FD6}Prefabs/Props/Teleport/TELEPORT_DOOR.et" {
  coords 2866.981 301.079 2602.279
  angles 0 171.503 0
 }
-GenericEntity : "{31A455F7FD8DCE84}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_plastic.et" {
- coords 3288.984 314.005 2921.123
- angles 0.062 59.251 0.001
- scale 0.86
-}
 GenericEntity : "{34AD2F398FDFE5B3}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/USSR/EquipmentBoxStack_USSR_01_V5.et" {
  coords 3312.363 303.982 2931.563
  angles -1.758 -29.75 2.264
@@ -2182,10 +1633,6 @@ SCR_DestructibleEntity : "{3C1CA9FE7552C3D2}Prefabs/Structures/Infrastructure/Pi
  angles 0 58.555 0
  scale 2
 }
-GenericEntity : "{47A2F2F3C8FAACD5}Prefabs/Props/Military/Camps/PalletAmmo_01_Soviet.et" {
- coords 3320.359 305.136 2923.027
- angles 0 -106.819 0
-}
 GenericEntity : "{4BE795374BE3D67E}Prefabs/Props/Industrial/BarrelFuel_01_closed.et" {
  components {
   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
@@ -2201,25 +1648,6 @@ GenericEntity : "{4BE795374BE3D67E}Prefabs/Props/Industrial/BarrelFuel_01_closed
 GenericEntity : "{4BF528DF7A469909}Prefabs/Props/Construction/PalletJack_01.et" {
  coords 3309.239 303.974 2929.893
  angles -0.182 10.086 1.519
-}
-StaticModelEntity : "{5255F7BE946E153F}Prefabs/Structures/Walls/Concrete/SilageWall_01/SilageWall_01_5m.et" {
- components {
-  MeshObject "{56DE7C8DCD0F4E0A}" {
-   Materials {
-    MaterialAssignClass "{66EEEEB4B3F83CFB}" {
-     SourceMaterial "Assets/Structures/Walls/Concrete/Data/SilageWall_01_EXT"
-     AssignedMaterial "{84315D0C34C19D88}Assets/Structures/Debris/Debris_HouseVillage/Data/DebrisLarge_pieces_metal.emat"
-    }
-    MaterialAssignClass "{66EEEEB4B3F83CE4}" {
-     SourceMaterial "Assets/Structures/Walls/Concrete/Data/SilageWall_01_MLOD"
-     AssignedMaterial "{84315D0C34C19D88}Assets/Structures/Debris/Debris_HouseVillage/Data/DebrisLarge_pieces_metal.emat"
-    }
-   }
-  }
- }
- coords 3287.911 10.78 2922.135
- angles 10.763 -121.408 0
- scale 0.648
 }
 $grp GenericEntity : "{5D54B7840F14178E}Prefabs/Props/VehicleParts/Tires/Tire_M998.et" {
  {
@@ -2241,54 +1669,14 @@ $grp GenericEntity : "{5D54B7840F14178E}Prefabs/Props/VehicleParts/Tires/Tire_M9
   angles -46.951 -133.691 -0.035
  }
 }
-GenericEntity : "{5DD9020BE477CB9C}Prefabs/Props/Military/AmmoBoxes/AmmoBox_545x39_1080rnd.et" {
- coords 3304.515 305.191 2934.873
- angles 0 28.137 0
-}
 GenericEntity : "{5E8A29DCCF68C5DD}Prefabs/destructible/wood_barricade_destr.et" {
  coords 3224.285 308.979 2936.939
  angles 0 -119.94 2.772
  scale 1.19
 }
-GenericEntity : "{64A3A595C0A833AC}Prefabs/Props/Military/Sandbags/Sandbag_01_round_plastic.et" {
- coords 3290.876 327.19 2940.863
- angles 0 -125.33 0
-}
 GenericEntity : "{7030822F7A54F479}Prefabs/Props/Crates/CrateWooden_01_base.et" {
  coords 3313.259 304.243 2918.504
  angles 0 -121.421 0
-}
-$grp StaticModelEntity : "{7155445537D403E7}Prefabs/Structures/Military/Camps/TentUS_01/Parts/TentUS_01_Floor02.et" {
- {
-  coords 3309.725 303.952 2931.122
-  angles 0 -28.478 0
-  scale 1.048
- }
- {
-  coords 3308.426 303.952 2933.519
-  angles 0 151.522 0
-  scale 1.048
- }
- {
-  coords 3307.15 303.952 2935.87
-  angles 0 151.522 0
-  scale 1.048
- }
-}
-$grp GenericEntity : "{79612BC0EDD086D5}Prefabs/shelves/shelves_2.et" {
- {
-  coords 3314.267 304.276 2924.092
-  angles 0 -31.073 0
- }
- {
-  coords 3312.538 304.276 2923.05
-  angles 0 -31.073 0
- }
-}
-GenericEntity : "{7AF4B627D5C90235}Prefabs/Props/Military/Sandbags/Sandbag_01_round_high_burlap.et" {
- coords 3285.266 314.017 2948.016
- angles -0.037 -67.681 -0.05
- scale 0.713
 }
 GenericEntity : "{881558ACD5FC31C0}Prefabs/Props/Crates/CrateWooden_02/CrateWooden_02_1x1x2.et" {
  coords 3314.229 304.243 2919.27
@@ -2341,67 +1729,57 @@ $grp SCR_DestructibleEntity : "{8B0095EBF31B0C3C}Prefabs/Structures/Infrastructu
   scale 2
  }
 }
-GenericEntity : "{90C62D3DBDEB0758}Prefabs/Props/Military/Camps/ConstructionMaterialPacked_Base.et" {
- coords 3296.497 314.007 2909.478
- angles 0.062 60.01 0.001
-}
-$grp GenericEntity : "{91B8D41BE2DF1DB5}Prefabs/Props/TRADE/ARMST_TRADER.et" {
- {
-  components {
-   MeshObject "{5872F0EB7FA40561}" {
-    Materials {
-     MaterialAssignClass "{65E06D1FF49FE613}" {
-      SourceMaterial "MLOD"
-      AssignedMaterial "{564BF5C68F409414}Assets/Props/Civilian/RadioSmall_01/Data/RadioSmall_01_Black_MLOD.emat"
-     }
-     MaterialAssignClass "{65E06D1FF49FE604}" {
-      SourceMaterial "main"
-      AssignedMaterial "{C7EA82CC7F146C1E}Assets/Props/Civilian/RadioSmall_01/Data/RadioSmall_01_Black.emat"
-     }
-     MaterialAssignClass "{65E0C6933C17BCF7}" {
-      SourceMaterial "lambert1"
-      AssignedMaterial "{D7B43961BD89AD43}armst/new_clothes/vest/Plash/Data/Plash_cup_hidden.emat"
-     }
+GenericEntity : "{91B8D41BE2DF1DB5}Prefabs/Props/TRADE/ARMST_TRADER.et" {
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Materials {
+    MaterialAssignClass "{65E06D1FF49FE613}" {
+     SourceMaterial "MLOD"
+     AssignedMaterial "{564BF5C68F409414}Assets/Props/Civilian/RadioSmall_01/Data/RadioSmall_01_Black_MLOD.emat"
     }
-   }
-   RigidBody "{5872F0EB7DFB5A9D}" {
-    ResponseIndex "SmallDestructible"
-    ModelGeometry 1
-    Static 1
-   }
-   ActionsManagerComponent "{65E06D1FF49FE603}" {
-    ActionContexts {
-     UserActionContext "{65E06D1FF49FE601}" {
-      UIInfo UIInfo "{65E06D1FF49FE60F}" {
-       Name "default"
-      }
-      ContextName "default"
-      Position PointInfo "{65E06D1FF49FE60D}" {
-       Offset 0 0.0818 0
-      }
-      Radius 1.27
-     }
+    MaterialAssignClass "{65E06D1FF49FE604}" {
+     SourceMaterial "main"
+     AssignedMaterial "{C7EA82CC7F146C1E}Assets/Props/Civilian/RadioSmall_01/Data/RadioSmall_01_Black.emat"
     }
-    additionalActions {
-     ARMST_TRADER_OPEN "{65E06D1FF49FE60B}" {
-      ParentContextList +{
-      }
-      Duration 0
-     }
-     ARMST_USER_DIALOGS "{68B31B4A607D86EA}" {
-      ActionTitle "Exchange"
-      m_bEnableDialogs 1
-     }
+    MaterialAssignClass "{65E0C6933C17BCF7}" {
+     SourceMaterial "lambert1"
+     AssignedMaterial "{D7B43961BD89AD43}armst/new_clothes/vest/Plash/Data/Plash_cup_hidden.emat"
     }
    }
   }
-  coords 3882.848 337.952 5883.036
-  angles 0 87.738 0
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "SmallDestructible"
+   ModelGeometry 1
+   Static 1
+  }
+  ActionsManagerComponent "{65E06D1FF49FE603}" {
+   ActionContexts {
+    UserActionContext "{65E06D1FF49FE601}" {
+     UIInfo UIInfo "{65E06D1FF49FE60F}" {
+      Name "default"
+     }
+     ContextName "default"
+     Position PointInfo "{65E06D1FF49FE60D}" {
+      Offset 0 0.0818 0
+     }
+     Radius 1.27
+    }
+   }
+   additionalActions {
+    ARMST_TRADER_OPEN "{65E06D1FF49FE60B}" {
+     ParentContextList +{
+     }
+     Duration 0
+    }
+    ARMST_USER_DIALOGS "{68B31B4A607D86EA}" {
+     ActionTitle "Exchange"
+     m_bEnableDialogs 1
+    }
+   }
+  }
  }
- {
-  coords 3318.555 305.274 2925.469
-  angles 0 -31.549 0
- }
+ coords 3882.848 337.952 5883.036
+ angles 0 87.738 0
 }
 $grp GenericEntity : "{985C3871D40C7F7B}Prefabs/Props/Garbage/Generic/Litter_01_small.et" {
  {
@@ -2414,29 +1792,9 @@ $grp GenericEntity : "{985C3871D40C7F7B}Prefabs/Props/Garbage/Generic/Litter_01_
   coords 3232.369 307.534 2924.705
  }
 }
-GenericEntity : "{9D9312AA9984A5CE}Prefabs/Props/Garbage/Cardboard/Cardboard_Pile_08.et" {
- coords 3294.333 327.19 2936.612
-}
 GenericEntity : "{9E2D46C5ED3EBC84}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/Dst/EquipmentBoxStack_01_V1_dst_01_USSR.et" {
  coords 3315.328 304.276 2919.874
  angles 0 -35.922 0
-}
-GenericEntity : "{9EC2DF04F7713A63}Prefabs/Structures/BuildingParts/Doors/DoorSet_Bars_L_EXT_B.et" {
- coords 3316.754 304.124 2925.922
- angles 0 148.705 0
- scale 1.112
- {
-  GenericEntity {
-   ID "567CCED33CF82223"
-   components {
-    DoorComponent "{221C667A9F7D4B69}" {
-     DoorAction SCR_DoorUserAction "{50888D3646A61640}" {
-      m_FactionKey FACTION_MUTANTS
-     }
-    }
-   }
-  }
- }
 }
 GenericEntity : "{A7DA7AC6FEF7B643}Prefabs/Props/Military/Camps/WeaponRackCabinet_01.et" {
  coords 3317.552 304.276 2920.66
@@ -2454,56 +1812,9 @@ $grp SCR_DestructibleEntity : "{ACB768474825B24B}Prefabs/Structures/Infrastructu
   scale 2
  }
 }
-StaticModelEntity : "{AD5D1A7FF5FB5FA2}Prefabs/Structures/Military/Fortifications/Trenches/TrenchOld_01/TrenchOld_01_pole_metal.et" {
- components {
-  MeshObject "{5272E314F6439B95}" {
-   Materials {
-    MaterialAssignClass "{68DB2EEC82C3762F}" {
-     SourceMaterial "Old_Trenches_MLOD"
-     AssignedMaterial "{84315D0C34C19D88}Assets/Structures/Debris/Debris_HouseVillage/Data/DebrisLarge_pieces_metal.emat"
-    }
-    MaterialAssignClass "{68DB2EEC82C3763E}" {
-     SourceMaterial "Old_Trenches_metal_poles"
-     AssignedMaterial "{84315D0C34C19D88}Assets/Structures/Debris/Debris_HouseVillage/Data/DebrisLarge_pieces_metal.emat"
-    }
-   }
-  }
- }
- coords 3285.984 11.249 2925.067
- angles 15.962 -34.144 18.633
-}
-$grp GenericEntity : "{AE0FFC699F429214}Prefabs/Props/Military/Camps/PalletAmmo_01_US.et" {
- {
-  coords 3306.569 303.963 2934.538
-  angles 0 65.046 0
- }
- {
-  coords 3320.37 304.253 2923.032
-  angles 0 -28.425 0
- }
-}
-GenericEntity : "{B547CF929FCC6BB7}Prefabs/Props/Military/Sandbags/Sandbag_01_end_high_burlap.et" {
- coords 3286.293 313.934 2949.078
- angles -0.001 -32.478 -0.062
- scale 0.566
-}
 GenericEntity : "{B5E829C885874F63}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/Dst/EquipmentBoxStack_01_V3_dst_04_USSR.et" {
  coords 3316.892 303.649 2920.807
  angles 0 145.702 0
-}
-$grp GenericEntity : "{B6307C189CCCA0B9}Prefabs/Props/Military/Sandbags/Sandbag_01_round_high_plastic.et" {
- {
-  coords 3288.305 327.148 2947.676
-  angles 0 -22.754 0
- }
- {
-  coords 3287.728 327.148 2946.045
-  angles 0 -120.728 0
- }
-}
-GenericEntity : "{B898D2A1F45058F6}Prefabs/Props/Garbage/Military/Food/GarbageFoodMilitaryUSSR_01.et" {
- coords 3287.439 328.315 2946.354
- angles -18.97 -4.902 14.78
 }
 GenericEntity : "{C58BDB4D22E0A5A7}Prefabs/Props/Garbage/Generic/Litter_01_large.et" {
  coords 3305.906 304.276 2927.162
@@ -2572,21 +1883,6 @@ DecalEntity : "{CCE57C4C9C0E5009}Prefabs/Decals/Blood/BloodStain_Small_01.et" {
  angles -14.614 114.703 180
  scale 0.8
 }
-GenericEntity : "{D27D94CE584C22E6}Prefabs/Props/Garbage/Cardboard/Cardboard_02.et" {
- components {
-  MeshObject "{5872F0EB7FA40561}" {
-   Materials {
-    MaterialAssignClass "{68D96BB6EE0E6DAA}" {
-     SourceMaterial "Cardboard"
-     AssignedMaterial "{06ECAC72E7B2A999}Assets/Structures/Military/Fortifications/Bunker_SPS/Data/Bunker_SPS2M_Metal_INT.emat"
-    }
-   }
-  }
- }
- coords 3287.409 314.512 2925.785
- angles 78.815 148.587 0.107
- scale 1.688
-}
 $grp GenericEntity : "{D7F69BF7D2DCA0A8}Prefabs/Props/Industrial/Pallets/Pallet_01.et" {
  {
   coords 3308.071 303.984 2929.373
@@ -2601,25 +1897,9 @@ $grp GenericEntity : "{D7F69BF7D2DCA0A8}Prefabs/Props/Industrial/Pallets/Pallet_
   angles 0 19.975 0
  }
 }
-GenericEntity : "{DB4F61D5F37432F7}Prefabs/Props/Military/Camps/PalletFuel_01.et" {
- coords 3305.196 303.964 2934.514
- angles 0 -26.704 0
-}
-GenericEntity : "{E3AA766C8F684F86}Prefabs/beds/matrass_5.et" {
- coords 3293.916 327.19 2936.077
- angles 0 -96.337 0
-}
 GenericEntity : "{E521AEA6D14589B1}Prefabs/Props/Military/AmmoBoxes/AmmoBox_545x39_2160rnd.et" {
  coords 3313.345 305.047 2918.474
  angles 0 170.808 0
-}
-GenericEntity : "{ED4996370C8C7518}Prefabs/Compositions/Misc/SubCompositions/PalletFuel_Camo_Cluttered_US_01.et" {
- coords 3307.175 303.952 2931.256
- angles 0 -24.167 0
-}
-GenericEntity : "{FCCB91AC2A242FE5}Prefabs/Structures/Military/Camps/Canvas_Covers/Soviet/CanvasCover_Large_Soviet.et" {
- coords 3308.459 303.952 2933.394
- angles 0 -30.918 0
 }
 $grp SCR_DestructibleEntity : "{FD30015A0617911F}Prefabs/Structures/Infrastructure/Piping/DieselPipe_01_connector_low_high_cnc.et" {
  {
