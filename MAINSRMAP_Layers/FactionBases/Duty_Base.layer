@@ -5155,6 +5155,18 @@ GenericEntity : "{67C2A2742A183D89}Prefabs/Props/Furniture/PhoneTable_01_red.et"
  coords 4907.951 308.926 1673.304
  angles -0.083 -140.098 -0.084
 }
+$grp GenericEntity : "{6B2B28482D9C5B2E}Prefabs/Structures/BuildingParts/Graffiti/DutyStencil.et" {
+ {
+  coords 4895.459 315.429 1662.01
+  angles 0 -179.482 0
+  scale 7.5
+ }
+ {
+  coords 4898.88 309.05 1699.87
+  angles 13.516 -27.33 0.403
+  scale 3
+ }
+}
 GenericEntity : "{6CD34D6526429EEC}Prefabs/Props/Furniture/BarTable_01.et" {
  coords 4905.514 307.913 1673.498
  angles 0.118 0.096 0.011
