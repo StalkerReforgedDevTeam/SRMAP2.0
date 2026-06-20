@@ -3171,6 +3171,11 @@ GenericEntity : "{3619812B192CCAE9}Prefabs/Props/Core/Wreck_Base.et" {
   }
  }
 }
+GenericEntity : "{36EE3AB6BEA9862E}Prefabs/Structures/BuildingParts/Graffiti/FreedomStencilmatv2.et" {
+ coords 3557.463 303.523 1839.503
+ angles 0 86.929 0
+ scale 3.1
+}
 GenericEntity : "{370A5186462E0B62}Prefabs/Props/Civilian/Billiard_01/Billiard_01_ball_blue.et" {
  coords 3552.857 302.146 1841.329
 }
