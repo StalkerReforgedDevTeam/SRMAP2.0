@@ -43,6 +43,10 @@ modded class ARMST_PLAYER_STATS_COMPONENT : ScriptComponent
 		Print(string.Format("[SR Ranks] Player rank synchronized: %1", m_eSRCurrentRank.ToString()));
 	}
 	
-	
-	// HI cherry if youre watching lol i cant speak
-}
+	// Replicate the rank across the network
+	[RplRpc(RplChannel.Reliable, RplRcver.Server)]
+	void Rpc_SR_SetRank(SR_STALKER_RANK value)
+	{
+		SR_SetRank(value);
+	}
+} 	

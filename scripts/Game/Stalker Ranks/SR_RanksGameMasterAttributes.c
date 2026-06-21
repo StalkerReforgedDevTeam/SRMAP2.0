@@ -65,6 +65,6 @@ class SR_PlayerRankAttribute : SCR_BaseFloatValueHolderEditorAttribute // Inheri
 			return;
 
 		SR_STALKER_RANK UIChosenRank = var.GetInt();
-		statsComp.SR_SetRank(UIChosenRank);
+		statsComp.Rpc_SR_SetRank(UIChosenRank);
 	}
 }

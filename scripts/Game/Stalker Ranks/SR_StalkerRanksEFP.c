@@ -33,7 +33,7 @@ modded class EPF_ArmstPlayerStatsComponentSaveData : EPF_ComponentSaveData
 	    if (statsComponent)
 	    {
 			// 2. Safely push your saved rank back into the live session
-			statsComponent.SR_SetRank(m_eSRSavedRank);
+			statsComponent.Rpc_SR_SetRank(m_eSRSavedRank);
 		}
 	    PrintFormat("[SR Ranks] Player rank ApplyTo is: %1", m_eSRSavedRank, LogLevel.NORMAL);
 	    return EPF_EApplyResult.OK;
