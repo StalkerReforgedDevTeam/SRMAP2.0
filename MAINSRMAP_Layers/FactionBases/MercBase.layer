@@ -10,6 +10,28 @@ GenericEntity : "{1BFCA9525E528626}Prefabs/Compositions/Misc/SubCompositions/Tab
  coords 5796.175 320.58 2092.606
  angles 0 82.592 0
 }
+$grp GenericEntity : "{21D83950DF36F250}Prefabs/Props/Military/Sandbags/Sandbag_01_long_burlap.et" {
+ {
+  coords 5810.986 345.78 2087.45
+  angles 0 -9.716 0
+ }
+ {
+  coords 5807.757 345.78 2086.897
+  angles 0 -9.716 0
+ }
+ {
+  coords 5816.099 346.004 2101.476
+  angles 0 170.263 0
+ }
+ {
+  coords 5819.328 346.004 2102.03
+  angles 0 170.263 0
+ }
+ {
+  coords 5811.922 342.26 2095.687
+  angles 0 83.231 0
+ }
+}
 GenericEntity : "{2BE613DDC7EA3851}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/EquipmentBoxStack_01_V4_base.et" {
  coords 5799.934 342.259 2096.498
  angles 0 -8.586 0
@@ -163,6 +185,20 @@ GenericEntity : "{7A4A0A8283210784}Prefabs/Compositions/Misc/SubCompositions/Tab
 GenericEntity : "{7A5A9F26FE702332}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/FIA/EquipmentBoxStack_FIA_01_V4.et" {
  coords 5800.289 342.259 2094.218
  angles 0 -5.071 0
+}
+$grp GenericEntity : "{7AF4B627D5C90235}Prefabs/Props/Military/Sandbags/Sandbag_01_round_high_burlap.et" {
+ {
+  coords 5793.872 345.771 2085.845
+  angles 0 -144.032 -1.406
+ }
+ {
+  coords 5800.557 347.163 2098.971
+  angles 0 -54.016 -1.406
+ }
+ {
+  coords 5836.146 345.75 2092.622
+  angles 0 134.664 -1.406
+ }
 }
 $grp StaticModelEntity : "{94021BCA593A8CFF}Prefabs/Structures/BuildingParts/Entry/ConcreteStairs_02_Wide.et" {
  {
@@ -1296,6 +1332,44 @@ SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Buil
   }
  }
 }
+$grp GenericEntity : "{B31A14BC1A0E7776}Prefabs/Props/Military/Sandbags/Sandbag_01_round_burlap.et" {
+ {
+  coords 5796.23 345.793 2085.936
+  angles 0 134.75 0
+ }
+ {
+  coords 5793.297 345.841 2088.241
+  angles 0 -69.971 0
+ }
+ {
+  coords 5816.769 345.793 2089.263
+  angles 0 125.451 0
+ }
+ {
+  coords 5810.316 346.017 2099.661
+  angles 0 -54.57 0
+ }
+ {
+  coords 5802.953 347.233 2099.545
+  angles 0 20.045 0
+ }
+ {
+  coords 5800.647 347.184 2096.613
+  angles 0 -135.234 0
+ }
+ {
+  coords 5833.69 345.821 2092.416
+  angles 0 -151.275 0
+ }
+ {
+  coords 5836.412 345.772 2094.967
+  angles 0 53.446 0
+ }
+ {
+  coords 5821.682 342.259 2097.354
+  angles 0 -100.519 0
+ }
+}
 GenericEntity : "{B3283803059E2750}Prefabs/Props/Crates/CrateWooden_01_plain.et" {
  components {
   SCR_DestructionMultiPhaseComponent "{6684B114DDC8D314}" {
@@ -1318,6 +1392,24 @@ GenericEntity : "{BCB7F6999ACCFCC0}Prefabs/Compositions/Misc/SubCompositions/Fur
   GenericEntity Magazine_762x54_SVD_10rnd_7BZ3API_69AF590AD892F051 {
    ID "65C483306770D67B"
   }
+ }
+}
+$grp GenericEntity : "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et" {
+ {
+  coords 5814.131 345.779 2087.977
+  angles 0 -9.273 0
+ }
+ {
+  coords 5804.488 345.779 2086.403
+  angles 0 -9.273 0
+ }
+ {
+  coords 5822.596 346.003 2102.525
+  angles 0 170.705 0
+ }
+ {
+  coords 5812.954 346.003 2100.948
+  angles 0 170.705 0
  }
 }
 $grp GenericEntity : "{C9DE18E34AEADA31}Prefabs/Structures/BuildingParts/Doors/DoorBoarded_PierShed_01_A.et" {
