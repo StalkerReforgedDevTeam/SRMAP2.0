@@ -1,38 +1,38 @@
 GenericEntity : "{1A08789B13DFBAB5}Prefabs/Props/Civilian/TablePhotoFrame_01/TablePhotoFrame_01_base.et" {
- coords 5796.383 321.15 2092.137
+ coords 5796.383 321.48 2092.137
  angles 0 162.473 0
 }
 GenericEntity : "{1BFCA9525E528626}Prefabs/Compositions/Misc/SubCompositions/TableMilitary_Cluttered_US_02.et" {
- coords 5796.175 320.25 2092.606
+ coords 5796.175 320.58 2092.606
  angles 0 82.592 0
 }
 $grp SCR_DestructibleBuildingEntity : "{5388DCDED41DBEEC}Prefabs/Structures/Infrastructure/Bridges/BridgeConcrete_E_01_small/BridgeConcrete_E_01_small_base.et" {
  {
-  coords 5791.736 -4.673 2093.799
+  coords 5792.068 -4.669 2093.851
   angles 0 -8.818 -90.657
  }
  {
-  coords 5792.426 -4.673 2089.347
+  coords 5792.758 -4.669 2089.398
   angles 0 -8.818 -90.657
  }
  {
-  coords 5793.111 -4.673 2084.93
+  coords 5793.517 -4.668 2084.993
   angles 0 -8.818 -90.657
  }
  {
-  coords 5792.902 -4.653 2097.839
+  coords 5792.966 -4.653 2097.448
   angles -0.657 -99.268 -89.995
  }
  {
-  coords 5797.295 -4.602 2098.556
+  coords 5797.359 -4.602 2098.165
   angles -0.657 -99.268 -89.995
  }
  {
-  coords 5792.865 0.698 2097.643
+  coords 5792.865 1.009 2097.643
   angles -0.661 -98.567 -179.693
  }
  {
-  coords 5797.232 0.749 2098.301
+  coords 5797.232 1.06 2098.301
   angles -0.661 -98.567 -179.693
  }
  {
@@ -48,28 +48,114 @@ $grp SCR_DestructibleBuildingEntity : "{5388DCDED41DBEEC}Prefabs/Structures/Infr
   angles 0.004 170.839 -89.343
  }
  {
-  coords 5799.032 -7.784 2086.935
+  coords 5799.42 -7.78 2086.998
   angles 0.657 80.804 -90.004
  }
  {
-  coords 5797.128 -7.806 2086.627
+  coords 5797.515 -7.802 2086.689
   angles 0.657 80.804 -90.004
  }
  {
   coords 5799.693 -7.673 2084.889
   angles -0.657 -99.021 -89.998
  }
+ {
+  coords 5802.199 0.889 2083.249
+  angles -1.633 172.048 0.622
+  scale 0.7
+ }
+ {
+  coords 5802.61 0.804 2080.303
+  angles -1.633 172.048 0.622
+  scale 0.7
+ }
+ {
+  coords 5793.251 -7.539 2082.914
+  angles 0 -8.818 -90.657
+ }
+ {
+  coords 5793.929 -9.039 2078.667
+  angles 0 -8.818 -90.657
+ }
+ {
+  coords 5801.776 -7.65 2084.367
+  angles 0.004 170.839 -89.343
+ }
+ {
+  coords 5802.478 -9.08 2080.117
+  angles 0.004 170.839 -89.343
+ }
+ {
+  coords 5793.562 3.57 2078.876
+  angles -0.03 -8.988 0.156
+  scale 0.7
+ }
+ {
+  coords 5795.278 -6.601 2080.178
+  angles 0.192 -100.139 -88.062
+  scale 0.8
+ }
+ {
+  coords 5800.745 -6.62 2081.156
+  angles 0.192 -100.139 -88.062
+  scale 0.8
+ }
+ {
+  coords 5793.557 4.63 2080.764
+  angles 88.396 -3.399 5.59
+  scale 0.3
+ }
+ {
+  coords 5797.402 4.619 2081.371
+  angles 88.396 -3.399 5.59
+  scale 0.3
+ }
+ {
+  coords 5798.003 4.617 2081.466
+  angles 88.396 -3.399 5.59
+  scale 0.3
+ }
+ {
+  coords 5799.3 5.245 2082.079
+  angles 1.876 -8.983 0.156
+  scale 0.2
+ }
+ {
+  coords 5796.74 5.252 2081.674
+  angles 1.876 -8.983 0.156
+  scale 0.2
+ }
+ {
+  coords 5794.172 5.259 2081.268
+  angles 1.876 -8.983 0.156
+  scale 0.2
+ }
+ {
+  coords 5793.448 5.261 2081.154
+  angles 1.876 -8.983 0.156
+  scale 0.2
+ }
 }
 GenericEntity : "{5F41F44FF4723B83}Prefabs/Structures/BuildingParts/Doors/DoorFrame_FactoryHall_E_01_Elevator_UNI_B.et" {
- coords 5793.96 321.959 2086.088
- angles 0 -9.174 0
+ coords 5794.277 321.959 2086.125
+ angles 0 -8.397 0
 }
 GenericEntity : "{7A4A0A8283210784}Prefabs/Compositions/Misc/SubCompositions/TableMilitary_Cluttered_US_01.et" {
- coords 5795.385 320.241 2092.507
+ coords 5795.385 320.571 2092.507
  angles 0 83.174 0
 }
+$grp StaticModelEntity : "{94021BCA593A8CFF}Prefabs/Structures/BuildingParts/Entry/ConcreteStairs_02_Wide.et" {
+ {
+  coords 5796.446 320.509 2078.057
+  angles 0 171.657 0
+ }
+ {
+  coords 5800.104 320.509 2078.594
+  angles 0 171.657 0
+ }
+}
 GenericEntity Map_Paper_01_unfolded_table_USSR_69A8101B0145CAC8 : "{942A96E02BC7AFA6}Prefabs/Items/Equipment/Maps/Map_Paper_01/Map_Paper_01_unfolded_table_USSR.et" {
- coords 5796.018 321.15 2092.603
+ coords 5796.018 321.48 2092.603
  angles 0 17.865 0
 }
 GenericEntity : "{9ABCFA281B9742E1}Prefabs/Structures/BuildingParts/Doors/Door_FactoryHall_E_01_Elevator_Right_COV_B.et" {
@@ -78,8 +164,8 @@ GenericEntity : "{9ABCFA281B9742E1}Prefabs/Structures/BuildingParts/Doors/Door_F
    Enabled 1
   }
  }
- coords 5794.882 321.959 2086.22
- angles 0 171.148 0
+ coords 5795.2 321.959 2086.244
+ angles 0 171.925 0
 }
 SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Building_Base.et" {
  components {
@@ -1364,20 +1450,46 @@ GenericEntity : "{CBFB6247D7EBE1DE}Prefabs/Structures/BuildingParts/Doors/Door_F
    Enabled 1
   }
  }
- coords 5793.072 321.953 2085.93
- angles 0 -8.866 0
+ coords 5793.386 321.953 2085.979
+ angles 0 -8.089 0
+}
+GenericEntity : "{E59D9776A5169843}Prefabs/Structures/BuildingParts/Doors/DoorSet_FactoryHall_E_01_Elevator_COV_B.et" {
+ components {
+  DoorComponent "{69AF5901C1DBB430}" {
+  }
+ }
+ coords 5797.928 320.569 2080.883
+ angles 0 -8.059 0
+ {
+  GenericEntity {
+   ID "568C838F54E32476"
+   components {
+    DoorComponent "{221C667A9F7D4B69}" {
+     Enabled 1
+    }
+   }
+  }
+  GenericEntity {
+   ID "568C838F54E3245F"
+   components {
+    DoorComponent "{221C667A9F7D4B69}" {
+     Enabled 1
+    }
+   }
+  }
+ }
 }
 $grp GenericEntity : "{F6CF869062E6EDB0}Prefabs/Props/Furniture/Rack_01_Long.et" {
  {
-  coords 5794.215 320.219 2096.787
+  coords 5794.323 320.53 2096.403
   angles 0 -9.462 0
  }
  {
-  coords 5797.937 320.219 2097.407
+  coords 5799.035 320.53 2097.188
   angles 0 -9.462 0
  }
 }
 GenericEntity : "{FE60E5AB52B7114D}Prefabs/Compositions/Misc/SubCompositions/TableMilitary_Cluttered_US_03.et" {
- coords 5795.648 320.243 2093.598
+ coords 5795.648 320.573 2093.598
  angles 0 172.281 0
 }
