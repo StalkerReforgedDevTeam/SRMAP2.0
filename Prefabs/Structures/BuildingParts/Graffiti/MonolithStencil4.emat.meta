@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{49EF4742DADC4012}Prefabs/Structures/BuildingParts/Graffiti/MonolithStencil4.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}
