@@ -1,0 +1,14 @@
+GenericEntity : "{41075B2F5D8FAD5D}Prefabs/Structures/BuildingParts/Graffiti/Graffiti_base.et" {
+ ID "5E047E6807CD4EE2"
+ components {
+  MeshObject "{5E047E6807CD4ED7}" {
+   Object "{E7ED50F46990D1EF}Assets/Structures/BuildingsParts/Graffiti/Graffiti_01/Graffiti_Anarchy_V1.xob"
+   Materials {
+    MaterialAssignClass "{69AF7E0505B3926E}" {
+     SourceMaterial "Graffiti_01"
+     AssignedMaterial "{0037525DA81A3478}Prefabs/Structures/BuildingParts/Graffiti/MonolithStencil3.emat"
+    }
+   }
+  }
+ }
+}
