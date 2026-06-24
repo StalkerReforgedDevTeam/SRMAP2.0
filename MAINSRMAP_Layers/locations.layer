@@ -18216,26 +18216,20 @@ GenericEntity : "{145F0047BDCC3A5A}Prefabs/Props/Military/AmmoBoxes/EquipmentBox
  angles 0 138.107 0
  scale 2
 }
-$grp SCR_DestructibleBuildingEntity : "{14E317F859842B3C}Prefabs/Structures/Houses/Prefabricated/ApartmentBuilding_5I01/ApartmentBuilding_USSR_5I01.et" {
+SCR_DestructibleBuildingEntity : "{14E317F859842B3C}Prefabs/Structures/Houses/Prefabricated/ApartmentBuilding_5I01/ApartmentBuilding_USSR_5I01.et" {
+ Flags 0x403 0x80000
+ coords 443.422 304.577 1484.779
+ angles 0 -38.87 0
  {
-  coords 3089.118 0 2642.99
-  angles 0 -43.547 0
- }
- {
-  Flags 0x403 0x80000
-  coords 443.422 304.577 1484.779
-  angles 0 -38.87 0
-  {
-   GenericEntity {
-    ID "665EB1B43FEAFFF2"
-    coords -0.204 0 -0.142
-   }
-   GenericEntity : "{609DD293D6E4C6A6}Prefabs/Structures/Houses/Prefabricated/ApartmentBuilding_5I01/BuildingAddons/ApartmentBuilding_USSR_5I01_Addon_Walls.et" {
-    coords 0 0 -0.001
-   }
-   GenericEntity : "{CD29C6CA0F88250A}Prefabs/Structures/Houses/Prefabricated/ApartmentBuilding_5I01/BuildingAddons/ApartmentBuilding_USSR_5I01_Addon_Roof.et" {
-    coords 0 0 -0.001
-   }
+  GenericEntity {
+   ID "665EB1B43FEAFFF2"
+   coords -0.204 0 -0.142
+  }
+  GenericEntity : "{609DD293D6E4C6A6}Prefabs/Structures/Houses/Prefabricated/ApartmentBuilding_5I01/BuildingAddons/ApartmentBuilding_USSR_5I01_Addon_Walls.et" {
+   coords 0 0 -0.001
+  }
+  GenericEntity : "{CD29C6CA0F88250A}Prefabs/Structures/Houses/Prefabricated/ApartmentBuilding_5I01/BuildingAddons/ApartmentBuilding_USSR_5I01_Addon_Roof.et" {
+   coords 0 0 -0.001
   }
  }
 }
