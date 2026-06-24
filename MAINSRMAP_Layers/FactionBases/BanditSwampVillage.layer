@@ -1516,6 +1516,10 @@ $grp GenericEntity : "{757FCCE8E756175C}Prefabs/Props/Furniture/MeetingTable_01.
   coords 1452.563 291.259 1943.531
   angles -1.01 174.958 0.084
  }
+ {
+  coords 1456.687 294.333 1947.152
+  angles -0.106 -96.285 -1.008
+ }
 }
 GenericEntity : "{799E5AAAB698E210}Prefabs/Props/Garbage/Generic/LitterInterior_01/Single/LitterInterior_USSR_01_bowl.et" {
  coords 1455.665 292.241 1931.778
@@ -1756,6 +1760,10 @@ $grp Tree : "{AD801168E8BF9AD2}Prefabs/Vegetation/Plant/Hedera_Helix/p_hedera_he
  }
  {
   coords 1454.085 4.746 1936.433
+  angles 0 -3.699 0
+ }
+ {
+  coords 1447.19 5.423 1948.972
   angles 0 -3.699 0
  }
 }
@@ -2029,6 +2037,66 @@ $grp GenericEntity : "{C9DE18E34AEADA31}Prefabs/Structures/BuildingParts/Doors/D
   coords 1459.201 292.168 1939.08
   angles 0 -3.489 0
   scale 0.7
+ }
+ {
+  components {
+   Hierarchy "{612AE78C85563E26}" {
+    PivotID "Socket_door_001"
+   }
+  }
+  coords 1454.438 294.345 1957.03
+  angles 0 176.682 0
+  scale 0.3
+ }
+ {
+  components {
+   Hierarchy "{612AE78C85563E26}" {
+    PivotID "Socket_door_001"
+   }
+  }
+  coords 1454.438 295.143 1957.03
+  angles 0 176.682 0
+  scale 0.3
+ }
+ {
+  components {
+   Hierarchy "{612AE78C85563E26}" {
+    PivotID "Socket_door_001"
+   }
+  }
+  coords 1454.438 295.917 1957.03
+  angles 0 176.682 0
+  scale 0.3
+ }
+ {
+  components {
+   Hierarchy "{612AE78C85563E26}" {
+    PivotID "Socket_door_001"
+   }
+  }
+  coords 1451.158 295.216 1956.84
+  angles 0 176.682 0
+  scale 0.3
+ }
+ {
+  components {
+   Hierarchy "{612AE78C85563E26}" {
+    PivotID "Socket_door_001"
+   }
+  }
+  coords 1451.158 294.455 1956.84
+  angles 0 176.682 0
+  scale 0.3
+ }
+ {
+  components {
+   Hierarchy "{612AE78C85563E26}" {
+    PivotID "Socket_door_001"
+   }
+  }
+  coords 1451.158 296.02 1956.84
+  angles 0 176.682 0
+  scale 0.3
  }
 }
 GenericEntity : "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et" {
