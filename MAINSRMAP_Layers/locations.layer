@@ -945,10 +945,6 @@ $grp StaticModelEntity {
   angles 0 -64.202 0
  }
  {
-  coords 4084.282 4.416 403.273
-  angles 0 7.291 0
- }
- {
   coords 1299.464 2.62 789.844
   angles 0 79.384 0
  }
@@ -154046,28 +154042,6 @@ $grp SCR_DestructibleBuildingEntity : "{A964BB3CC1B5FF28}Prefabs/Structures/Mili
    }
   }
  }
- {
-  coords 3816.553 -1.915 414.301
-  angles 0 -2.369 0
-  {
-   StaticModelEntity {
-    ID "65C6BBCF460B6675"
-    coords 0 0 0
-    angles 0 -57.399 0
-   }
-  }
- }
- {
-  coords 3788.428 -2.026 413.138
-  angles 0 -2.369 0
-  {
-   StaticModelEntity {
-    ID "65C6BBCF460B6675"
-    coords 0 0 0
-    angles 0 -57.399 0
-   }
-  }
- }
 }
 SCR_DestructibleBuildingEntity : "{A9A13246F2F9F1F6}Prefabs/Houses/villages/village_stone_house_base_3.et" {
  coords 2617.141 290.605 996.118
@@ -209702,7 +209676,7 @@ $grp SCR_DestructibleBuildingEntity : "{F5052C6CDD432BA7}Prefabs/Structures/Ruin
 $grp SCR_DestructibleBuildingEntity : "{F50905235FBAA094}Prefabs/Structures/Military/Houses/GuardBox_01/GuardBox_01_beige.et" {
  {
   coords 3811.887 0 384.884
-  angles 0 -1.006 0
+  angles 0 -178.844 0
  }
  {
   coords 3043.103 -0.001 1006.658
