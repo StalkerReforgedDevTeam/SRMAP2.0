@@ -139,7 +139,7 @@ SCR_ChimeraCharacter : "{5346CF7E39A65A6B}Prefabs/Characters/Factions/OPFOR/USSR
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{5ED6283D18D92E1C}Prefabs/Helmet/FreedomPASGT.et"
+     Prefab "{F723BDF891EFECAE}Prefabs/Items/Smokeables/Smokeable_Joint.et"
     }
     LoadoutSlotInfo Jacket {
      Prefab "{4298DB55F62FE755}Prefabs/Characters/Uniforms/Sunrise/STALKER_Sunrise_Suit_HoodDown_FREEDOM.et"
@@ -159,7 +159,11 @@ SCR_ChimeraCharacter : "{5346CF7E39A65A6B}Prefabs/Characters/Factions/OPFOR/USSR
      Prefab "{CB8FFB7554E7D0F0}Prefabs/Equipments/Gloves/armst_gloves_leather.et"
     }
     LoadoutSlotInfo FaceGas {
-     Prefab "{998A7E5FAF19361E}Prefabs/Equipments/Masks/armst_mask_balacl_low_2.et"
+     Offset -0.5 -4.9 -2.3
+     Prefab ""
+    }
+    LoadoutSlotInfo Head {
+     Prefab "{EA7EC921B5D50B49}Prefabs/Equipments/Hats/armst_cap_green.et"
     }
    }
   }
