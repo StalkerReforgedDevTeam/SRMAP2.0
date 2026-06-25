@@ -1111,6 +1111,20 @@ $grp GenericEntity : "{036A2332E131AE05}Prefabs/Props/Military/AmmoBoxes/AmmoBox
   angles -1.011 175.461 0.076
  }
 }
+$grp Tree : "{054B89DDC0DBA1C2}Prefabs/Vegetation/Plant/Hedera_Helix/p_hedera_helix_corner_04.et" {
+ {
+  coords 1457.55 3.549 1940.664
+  angles 0.359 -5.221 93.923
+ }
+ {
+  coords 1457.496 3.588 1941.321
+  angles 0.312 177.061 -178.946
+ }
+ {
+  coords 1453.821 3.71 1940.718
+  angles -0.605 -5.557 90.324
+ }
+}
 GenericEntity : "{07D5C7C755C719BE}Prefabs/Props/Garbage/Generic/Junk_01/Junk_01_pile_medium.et" {
  coords 1449.54 291.291 1958.396
  angles 0 4.08 0
@@ -1342,9 +1356,45 @@ GenericEntity : "{2887E99075B9C928}Prefabs/Props/Garbage/Generic/Litter_01_long.
  coords 1457.137 291.328 1940.33
  angles 0 -95.235 0
 }
-Tree : "{2E09EDC2298B28CB}Prefabs/Vegetation/Plant/Hedera_Helix/p_hedera_helix_wall_02.et" {
- coords 1454.155 3.855 1936.29
- angles 83.628 -8.714 -5.448
+$grp Tree : "{2E09EDC2298B28CB}Prefabs/Vegetation/Plant/Hedera_Helix/p_hedera_helix_wall_02.et" {
+ {
+  coords 1454.155 3.855 1936.29
+  angles 83.628 -8.714 -5.448
+ }
+ {
+  coords 1451.743 9.155 1951.267
+  angles 0 0 65.101
+ }
+ {
+  coords 1451.985 9.546 1949.864
+  angles -24.755 -96.576 90.723
+ }
+ {
+  coords 1451.436 7.887 1955.408
+  angles -24.755 -96.576 92.764
+ }
+ {
+  coords 1451.681 8.686 1952.823
+  angles -24.755 -96.576 92.764
+ }
+ {
+  coords 1455.532 8.057 1942.965
+  angles 29.907 82.723 -1.42
+  scale 0.9
+ }
+ {
+  coords 1457.506 4.932 1940.525
+  angles -14.38 -2.125 0.528
+ }
+ {
+  coords 1455.088 7.436 1942.898
+  angles 88.945 45.14 -38.104
+  scale 0.9
+ }
+ {
+  coords 1453.761 4.711 1941.915
+  angles 0 -4.83 0
+ }
 }
 GenericEntity : "{2F5802243DC20620}Prefabs/wood_bridges/wood_bridges_small_pol_wall_half.et" {
  coords 1478.079 290.264 1929.833
@@ -1606,6 +1656,36 @@ $grp Tree : "{8EE4E9605D5AA167}Prefabs/Vegetation/Plant/Hedera_Helix/p_hedera_he
  {
   coords 1459.84 4.935 1943.41
   angles 89.318 46.523 47.464
+ }
+ {
+  coords 1454.999 3.379 1928.363
+  angles 89.4 61.13 -20.517
+ }
+ {
+  coords 1457.783 6.293 1934.784
+  angles -0.666 -92.809 0.345
+ }
+ {
+  coords 1459.457 6.241 1934.876
+  angles -0.666 -92.809 0.345
+ }
+ {
+  coords 1456.444 6.328 1934.718
+  angles -0.666 -92.809 0.345
+ }
+ {
+  coords 1455.923 4.751 1953.145
+  angles 0 -5.907 0
+  scale 0.9
+ }
+ {
+  coords 1456.626 8.752 1942.789
+  angles -23.771 82.236 0
+  scale 0.8
+ }
+ {
+  coords 1459.351 2.828 1947.547
+  angles -0.743 -5.6 82.468
  }
 }
 GenericEntity : "{8FB2845D48F4E02A}Prefabs/Props/Furniture/TableOld_01/TableOld_01_white.et" {
@@ -1974,7 +2054,7 @@ $grp GenericEntity : "{C9DE18E34AEADA31}Prefabs/Structures/BuildingParts/Doors/D
     PivotID "Socket_door_001"
    }
   }
-  coords 1455.515 294.45 1942.987
+  coords 1455.515 294.19 1942.987
   angles 0 173.05 0
   scale 0.3
  }
@@ -1984,7 +2064,7 @@ $grp GenericEntity : "{C9DE18E34AEADA31}Prefabs/Structures/BuildingParts/Doors/D
     PivotID "Socket_door_001"
    }
   }
-  coords 1455.515 295.535 1942.987
+  coords 1455.515 295.046 1942.987
   angles 0 173.05 0
   scale 0.3
  }
@@ -2098,10 +2178,34 @@ $grp GenericEntity : "{C9DE18E34AEADA31}Prefabs/Structures/BuildingParts/Doors/D
   angles 0 176.682 0
   scale 0.3
  }
+ {
+  components {
+   Hierarchy "{612AE78C85563E26}" {
+    PivotID "Socket_door_001"
+   }
+  }
+  coords 1455.515 295.843 1942.987
+  angles 0 173.05 0
+  scale 0.3
+ }
 }
-GenericEntity : "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et" {
- coords 1474.782 291.553 1932.143
- angles -12.997 -7.021 -0.478
+$grp GenericEntity : "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et" {
+ {
+  coords 1474.782 291.553 1932.143
+  angles -12.997 -7.021 -0.478
+ }
+ {
+  coords 1479.818 291.006 1947.782
+  angles -0.593 -89.514 0.919
+ }
+ {
+  coords 1483.727 290.979 1944.737
+  angles -0.437 -106.616 0.392
+ }
+ {
+  coords 1487.796 291.011 1942.861
+  angles 0.539 85.725 -0.34
+ }
 }
 GenericEntity : "{CDD5AD484A5FE98E}Prefabs/Props/Garbage/Cardboard/Cardboard_Pile_base.et" {
  coords 1455.232 291.326 1937.197
