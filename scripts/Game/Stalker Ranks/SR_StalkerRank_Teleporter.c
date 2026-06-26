@@ -40,12 +40,12 @@ modded class ARMST_TELEPORT_ACTIONS : ScriptedUserAction
 		
 		if(playerRank >= m_eNeededRank) 
 		{
-			SCR_PlayerController.ShowNotificationPDA(ent, "Stalker Rank System", "Teleporting in 3...", true);
+			SCR_PlayerController.ShowNotificationPDA(ent, "Stalker Rank System", "Teleporting in 3...", false);
 			return true;
 		}
 		else 
 		{ 	
-			SCR_PlayerController.ShowNotificationPDA(ent, "Stalker Rank System", "Not correct rank", true);
+			SCR_PlayerController.ShowNotificationPDA(ent, "Stalker Rank System", "Not correct rank", false);
 			PrintFormat("[SR Ranks] playerRank is %1 | m_eNeededRank is %2", playerRank, m_eNeededRank);
 			return false;
 		}
