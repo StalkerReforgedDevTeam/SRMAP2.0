@@ -2230,35 +2230,75 @@ SCR_DestructibleBuildingEntity {
      }
      $grp GenericEntity : "{0686BBADD62096B1}Prefabs/Props/Furniture/CoatRack_05/CoatRack_05.et" {
       {
+       components {
+        SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+         Enabled 0
+        }
+       }
        coords -15.783 0.1 2.101
       }
       {
+       components {
+        SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+         Enabled 0
+        }
+       }
        coords -17.337 0.1 2.044
        angles 0 3 0
       }
      }
      $grp GenericEntity : "{0C7319383777A107}Prefabs/Props/Furniture/CabinetMetal_01_grey_V3.et" {
       {
+       components {
+        SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+         Enabled 0
+        }
+       }
        coords -11.243 0.1 -1.423
        angles 0 -1 0
       }
       {
+       components {
+        SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+         Enabled 0
+        }
+       }
        coords -11.223 0.1 2.309
        angles 0 179 0
       }
       {
+       components {
+        SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+         Enabled 0
+        }
+       }
        coords -9.678 0.1 -1.975
        angles 0 179 0
       }
       {
+       components {
+        SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+         Enabled 0
+        }
+       }
        coords -14.283 0.1 -2.029
        angles 0 179 0
       }
       {
+       components {
+        SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+         Enabled 0
+        }
+       }
        coords -11.979 0.1 -1.988
        angles 0 179 0
       }
       {
+       components {
+        SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+         Enabled 0
+        }
+       }
        coords -13.544 0.1 -1.436
        angles 0 -1 0
       }
@@ -2283,26 +2323,56 @@ SCR_DestructibleBuildingEntity {
      }
      $grp GenericEntity : "{1112756E8A13445B}Prefabs/Props/Industrial/Pallets/Pallet_01_Pile.et" {
       {
+       components {
+        SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+         Enabled 0
+        }
+       }
        coords 8.5 0.1 15.874
        angles 0 90 0
       }
       {
+       components {
+        SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+         Enabled 0
+        }
+       }
        coords -5.918 1.25 6.792
        angles 0 180 0
       }
       {
+       components {
+        SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+         Enabled 0
+        }
+       }
        coords -4.995 1.25 6.757
        angles 0 0 0
       }
       {
+       components {
+        SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+         Enabled 0
+        }
+       }
        coords 8.819 1.065 15.414
        angles 0 -180 0
       }
       {
+       components {
+        SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+         Enabled 0
+        }
+       }
        coords 8.819 0.1 14.801
        angles 0 -180 0
       }
       {
+       components {
+        SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+         Enabled 0
+        }
+       }
        coords -1.12 1.25 3.969
        angles 0 -87 0
       }
@@ -2319,26 +2389,56 @@ SCR_DestructibleBuildingEntity {
      }
      $grp GenericEntity : "{17F3181D0DAC27FC}Prefabs/Props/Furniture/CabinetMetal_01_grey_V1.et" {
       {
+       components {
+        SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+         Enabled 0
+        }
+       }
        coords -11.995 0.1 2.306
        angles 0 -177 0
       }
       {
+       components {
+        SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+         Enabled 0
+        }
+       }
        coords -10.45 0.1 -1.978
        angles 0 -177 0
       }
       {
+       components {
+        SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+         Enabled 0
+        }
+       }
        coords -10.471 0.1 -1.421
        angles 0 3 0
       }
       {
+       components {
+        SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+         Enabled 0
+        }
+       }
        coords -9.693 0.1 2.319
        angles 0 -177 0
       }
       {
+       components {
+        SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+         Enabled 0
+        }
+       }
        coords -12.751 0.1 -1.99
        angles 0 -177 0
       }
       {
+       components {
+        SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+         Enabled 0
+        }
+       }
        coords -12.772 0.1 -1.434
        angles 0 3 0
       }
@@ -2407,10 +2507,20 @@ SCR_DestructibleBuildingEntity {
       }
      }
      GenericEntity : "{4BF528DF7A469909}Prefabs/Props/Construction/PalletJack_01.et" {
+      components {
+       SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+        Enabled 0
+       }
+      }
       coords -4.891 1.25 1.027
       angles 0 87 0
      }
      GenericEntity : "{51B08BDA20AF8FF7}Prefabs/Props/Industrial/Pallets/WoodenPalletBox_01.et" {
+      components {
+       SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+        Enabled 0
+       }
+      }
       coords 7.141 0.1 15.985
       angles 0 90 0
      }
@@ -2462,9 +2572,19 @@ SCR_DestructibleBuildingEntity {
      }
      $grp GenericEntity : "{67B5336A6D63CCA4}Prefabs/Props/Construction/PlankPile/PlankPile_01_Medium.et" {
       {
+       components {
+        SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+         Enabled 0
+        }
+       }
        coords 10.511 0.1 14.285
       }
       {
+       components {
+        SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+         Enabled 0
+        }
+       }
        coords -2.239 0.1 -5.011
        angles 0 90 0
       }
@@ -2488,30 +2608,65 @@ SCR_DestructibleBuildingEntity {
      }
      $grp GenericEntity : "{7BA72CFDB168A8D2}Prefabs/Props/Furniture/CabinetMetal_01_grey_V2.et" {
       {
+       components {
+        SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+         Enabled 0
+        }
+       }
        coords -13.531 0.1 -1.985
        angles 0 179 0
       }
       {
+       components {
+        SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+         Enabled 0
+        }
+       }
        coords -11.992 0.1 -1.439
        angles 0 -1 0
       }
       {
+       components {
+        SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+         Enabled 0
+        }
+       }
        coords -11.23 0.1 -1.972
        angles 0 179 0
       }
       {
+       components {
+        SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+         Enabled 0
+        }
+       }
        coords -14.296 0.1 -1.479
        angles 0 -1 0
       }
       {
+       components {
+        SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+         Enabled 0
+        }
+       }
        coords -10.473 0.1 2.324
        angles 0 179 0
       }
       {
+       components {
+        SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+         Enabled 0
+        }
+       }
        coords -12.775 0.1 2.311
        angles 0 179 0
       }
       {
+       components {
+        SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+         Enabled 0
+        }
+       }
        coords -9.691 0.1 -1.426
        angles 0 -1 0
       }
@@ -2525,6 +2680,11 @@ SCR_DestructibleBuildingEntity {
       angles 0 -120 0
      }
      GenericEntity : "{9ABAFFCBC76D824B}Prefabs/Props/Civilian/NoticeBoardCork_01.et" {
+      components {
+       SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+        Enabled 0
+       }
+      }
       coords -15.183 0.879 -6.482
      }
      GenericEntity : "{9DBA8179AFD4FF9F}Prefabs/Props/Furniture/LightTable_02.et" {
@@ -2545,10 +2705,20 @@ SCR_DestructibleBuildingEntity {
      }
      $grp GenericEntity : "{A8CAAA833D839FEA}Prefabs/Props/Civilian/ClockPunch_01_board.et" {
       {
+       components {
+        SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+         Enabled 0
+        }
+       }
        coords -11.108 -0.057 -6.501
        angles 0 0 0
       }
       {
+       components {
+        SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+         Enabled 0
+        }
+       }
        coords -12.739 -0.052 -6.501
        angles 0 0 0
       }
@@ -2678,6 +2848,11 @@ SCR_DestructibleBuildingEntity {
       }
      }
      GenericEntity : "{CB033C658E372CED}Prefabs/Props/Construction/PlankPile/PlankPile_01_Large.et" {
+      components {
+       SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+        Enabled 0
+       }
+      }
       coords -6.487 0.1 -5.083
       angles 0 90 0
      }
@@ -2704,15 +2879,30 @@ SCR_DestructibleBuildingEntity {
       angles 0 -96.437 0
      }
      GenericEntity : "{D8AF9F8C7035D7F9}Prefabs/Props/Civilian/TableSaw_01.et" {
+      components {
+       SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+        Enabled 0
+       }
+      }
       coords 7.902 0.1 14.619
       angles 0 4 0
      }
      $grp GenericEntity : "{DEE73EC3DF43A836}Prefabs/Props/Furniture/Shower_01_addon.et" {
       {
+       components {
+        SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+         Enabled 0
+        }
+       }
        coords -10.318 1.066 7.294
        angles 0 -180 0
       }
       {
+       components {
+        SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+         Enabled 0
+        }
+       }
        coords -11.621 1.066 7.294
        angles 0 -180 0
       }
@@ -2777,6 +2967,11 @@ SCR_DestructibleBuildingEntity {
       }
      }
      GenericEntity : "{F4CA533A99B20DAE}Prefabs/Props/Civilian/SackUniversal_01.et" {
+      components {
+       SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+        Enabled 0
+       }
+      }
       coords -1.9 1.25 1.857
       angles 0 84 0
      }
@@ -2807,14 +3002,29 @@ SCR_DestructibleBuildingEntity {
      }
      $grp GenericEntity : "{0C7319383777A107}Prefabs/Props/Furniture/CabinetMetal_01_grey_V3.et" {
       {
+       components {
+        SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+         Enabled 0
+        }
+       }
        coords 12.399 6.19 -1.937
        angles 0 -88.757 0
       }
       {
+       components {
+        SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+         Enabled 0
+        }
+       }
        coords 12.425 6.19 -1.173
        angles 0 -91.638 0
       }
       {
+       components {
+        SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+         Enabled 0
+        }
+       }
        coords 12.401 6.19 -2.743
        angles 0 -94 0
       }
@@ -2831,53 +3041,113 @@ SCR_DestructibleBuildingEntity {
      }
      $grp GenericEntity : "{1112756E8A13445B}Prefabs/Props/Industrial/Pallets/Pallet_01_Pile.et" {
       {
+       components {
+        SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+         Enabled 0
+        }
+       }
        coords -5.531 6.19 -0.177
        angles 0 -1 0
       }
       {
+       components {
+        SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+         Enabled 0
+        }
+       }
        coords -8.397 6.19 12.375
        angles 0 -2.478 0
       }
       {
+       components {
+        SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+         Enabled 0
+        }
+       }
        coords -8.447 6.19 13.812
        angles 0 -178.62 0
       }
       {
+       components {
+        SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+         Enabled 0
+        }
+       }
        coords -8.397 7.158 11.745
        angles 0 180 0
       }
       {
+       components {
+        SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+         Enabled 0
+        }
+       }
        coords -8.397 6.19 11.079
        angles 0 -175.397 0
       }
       {
+       components {
+        SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+         Enabled 0
+        }
+       }
        coords 6.832 6.19 1.295
        angles 0 24.667 0
       }
      }
      $grp GenericEntity : "{17F3181D0DAC27FC}Prefabs/Props/Furniture/CabinetMetal_01_grey_V1.et" {
       {
+       components {
+        SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+         Enabled 0
+        }
+       }
        coords -8.796 6.19 0.906
        angles 0 93.162 0
       }
       {
+       components {
+        SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+         Enabled 0
+        }
+       }
        coords -8.776 6.19 1.696
        angles 0 90 0
       }
       {
+       components {
+        SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+         Enabled 0
+        }
+       }
        coords -8.642 6.19 6.933
        angles 0 -180 0
       }
       {
+       components {
+        SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+         Enabled 0
+        }
+       }
        coords -7.106 6.19 6.928
        angles 0 -179.055 0
       }
      }
      GenericEntity : "{1AB7A2C69A30391D}Prefabs/Props/Furniture/CoatRack_01.et" {
+      components {
+       SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+        Enabled 0
+       }
+      }
       coords 16.807 6.19 1.686
       angles 0 17 0
      }
      GenericEntity : "{1CA1A9D19D7C8445}Prefabs/Props/Furniture/Rack_01_Short.et" {
+      components {
+       SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+        Enabled 0
+       }
+      }
       coords -6.339 6.19 10.775
       angles 0 90 0
      }
@@ -2944,6 +3214,11 @@ SCR_DestructibleBuildingEntity {
       angles 0 -90 0
      }
      GenericEntity : "{4359114EC07F90A9}Prefabs/Props/Civilian/FanCeiling_01.et" {
+      components {
+       SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+        Enabled 0
+       }
+      }
       coords 14.168 11.298 0.397
      }
      $grp GenericEntity : "{464938975B4955D0}Prefabs/Props/Signs/Industrial/SignIndustrial_30x20_1_Gloves.et" {
@@ -2993,6 +3268,11 @@ SCR_DestructibleBuildingEntity {
      }
      $grp GenericEntity : "{49012FE1DEF653EE}Prefabs/Props/Furniture/Sink_01.et" {
       {
+       components {
+        SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+         Enabled 0
+        }
+       }
        coords -9.785 6.161 2.55
        angles 0 -180 0
       }
@@ -3001,6 +3281,11 @@ SCR_DestructibleBuildingEntity {
        angles 0 -90 0
       }
       {
+       components {
+        SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+         Enabled 0
+        }
+       }
        coords 12.998 6.161 15.479
        angles 0 -90 0
       }
@@ -3011,10 +3296,20 @@ SCR_DestructibleBuildingEntity {
      }
      $grp GenericEntity : "{4BF528DF7A469909}Prefabs/Props/Construction/PalletJack_01.et" {
       {
+       components {
+        SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+         Enabled 0
+        }
+       }
        coords -1.764 6.19 15.998
        angles 0 92 0
       }
       {
+       components {
+        SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+         Enabled 0
+        }
+       }
        coords -7.742 6.19 8.065
        angles 0 -89.801 0
       }
@@ -3031,10 +3326,20 @@ SCR_DestructibleBuildingEntity {
      }
      $grp GenericEntity : "{51B08BDA20AF8FF7}Prefabs/Props/Industrial/Pallets/WoodenPalletBox_01.et" {
       {
+       components {
+        SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+         Enabled 0
+        }
+       }
        coords -8.257 6.19 8.097
        angles 0 91 0
       }
       {
+       components {
+        SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+         Enabled 0
+        }
+       }
        coords -8.219 6.19 9.342
        angles 0 -87 0
       }
@@ -3092,6 +3397,11 @@ SCR_DestructibleBuildingEntity {
       angles 0 -90 0
      }
      GenericEntity : "{67B5336A6D63CCA4}Prefabs/Props/Construction/PlankPile/PlankPile_01_Medium.et" {
+      components {
+       SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+        Enabled 0
+       }
+      }
       coords -3.973 6.19 -4.561
       scale 0.89
      }
@@ -3138,6 +3448,11 @@ SCR_DestructibleBuildingEntity {
       }
      }
      GenericEntity : "{76E3962626F4B633}Prefabs/Props/Furniture/CoatRack_02.et" {
+      components {
+       SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+        Enabled 0
+       }
+      }
       coords 12.89 6.577 0.018
       angles 0 90 0
      }
@@ -3151,6 +3466,11 @@ SCR_DestructibleBuildingEntity {
       }
      }
      GenericEntity : "{7BA72CFDB168A8D2}Prefabs/Props/Furniture/CabinetMetal_01_grey_V2.et" {
+      components {
+       SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+        Enabled 0
+       }
+      }
       coords -7.881 6.19 6.939
       angles 0 177.594 0
      }
@@ -3193,28 +3513,58 @@ SCR_DestructibleBuildingEntity {
       coords -17.388 7.249 2.75
      }
      GenericEntity : "{937FDADF2A112158}Prefabs/Props/Furniture/CoatRack_03.et" {
+      components {
+       SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+        Enabled 0
+       }
+      }
       coords -17.341 6.639 2.55
       angles 0 180 0
      }
      $grp GenericEntity : "{95D947E744336F78}Prefabs/Props/Industrial/Workbench_01.et" {
       {
+       components {
+        SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+         Enabled 0
+        }
+       }
        coords -4.441 6.19 -1.051
        angles 0 90 0
       }
       {
+       components {
+        SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+         Enabled 0
+        }
+       }
        coords 0.228 6.19 10.084
        angles 0 90 0
       }
      }
      $grp GenericEntity : "{9ABAFFCBC76D824B}Prefabs/Props/Civilian/NoticeBoardCork_01.et" {
       {
+       components {
+        SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+         Enabled 0
+        }
+       }
        coords 10.27 7.108 5.234
        angles 0 -90 0
       }
       {
+       components {
+        SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+         Enabled 0
+        }
+       }
        coords -10.753 7.035 2.761
       }
       {
+       components {
+        SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+         Enabled 0
+        }
+       }
        coords 14.017 7.268 2.407
        angles 0 -180 -11.83
       }
@@ -3239,6 +3589,11 @@ SCR_DestructibleBuildingEntity {
       scale 0.89
      }
      GenericEntity : "{AD31622B73944B43}Prefabs/Props/Furniture/DeskSchool_01.et" {
+      components {
+       SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+        Enabled 0
+       }
+      }
       coords -5.479 6.19 -4.801
       angles 0 90 0
      }
@@ -3270,10 +3625,20 @@ SCR_DestructibleBuildingEntity {
      }
      $grp GenericEntity : "{B8BBA7227B4433B6}Prefabs/Props/Furniture/TableWorkshop_01.et" {
       {
+       components {
+        SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+         Enabled 0
+        }
+       }
        coords -5.874 6.19 -6.014
        angles 0 1.552 0
       }
       {
+       components {
+        SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+         Enabled 0
+        }
+       }
        coords -7.204 6.19 -6.046
        angles 0 -1.636 0
       }
@@ -3324,6 +3689,11 @@ SCR_DestructibleBuildingEntity {
       }
      }
      GenericEntity : "{D349CAB0A6544C59}Prefabs/Props/Furniture/TableWorkshop_01_short.et" {
+      components {
+       SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+        Enabled 0
+       }
+      }
       coords 1.297 6.19 6.528
       angles 0 2 0
      }
@@ -3377,10 +3747,20 @@ SCR_DestructibleBuildingEntity {
      }
      $grp GenericEntity : "{E4A70CC501E12507}Prefabs/Props/Furniture/BenchOffice_01/BenchOffice_01_Brown.et" {
       {
+       components {
+        SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+         Enabled 0
+        }
+       }
        coords -10.341 6.19 6.834
        angles 0 -175.4 0
       }
       {
+       components {
+        SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+         Enabled 0
+        }
+       }
        coords -12.516 6.19 6.834
        angles 0 -180 0
       }
@@ -3391,33 +3771,68 @@ SCR_DestructibleBuildingEntity {
      }
      $grp GenericEntity : "{EB66EE2298D16D18}Prefabs/Props/Civilian/SackTruck_01.et" {
       {
+       components {
+        SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+         Enabled 0
+        }
+       }
        coords -7.402 6.19 16.277
        angles 0 -5 0
       }
       {
+       components {
+        SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+         Enabled 0
+        }
+       }
        coords 12.451 6.387 -0.393
        angles 85.986 85 0
       }
      }
      $grp GenericEntity : "{F6CF869062E6EDB0}Prefabs/Props/Furniture/Rack_01_Long.et" {
       {
+       components {
+        SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+         Enabled 0
+        }
+       }
        coords 4.221 6.19 6.406
       }
       {
+       components {
+        SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+         Enabled 0
+        }
+       }
        coords -6.383 6.19 7.094
        angles 0 180 0
       }
       {
+       components {
+        SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+         Enabled 0
+        }
+       }
        coords -6.351 6.19 12.577
        angles 0 90 0
       }
      }
      $grp GenericEntity : "{F737777FF0A566D5}Prefabs/Props/Commercial/CabinetCardFile_01/CabinetCardFile_01_Base.et" {
       {
+       components {
+        SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+         Enabled 0
+        }
+       }
        coords 14.487 6.19 -6.182
        angles 0 1.517 0
       }
       {
+       components {
+        SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+         Enabled 0
+        }
+       }
        coords 14.004 6.19 -6.166
        angles 0 -0.219 0
       }
@@ -3853,17 +4268,37 @@ SCR_DestructibleBuildingEntity {
   }
   $grp GenericEntity : "{C58BDB4D22E0A5A7}Prefabs/Props/Garbage/Generic/Litter_01_large.et" {
    {
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
     coords 2.102 0.1 3.108
     angles 0 107.532 0
    }
    {
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
     coords -14.496 0.1 -4.937
     angles 0 2.203 0
    }
    {
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
     coords 1.487 6.19 5.467
    }
    {
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
     coords 8.571 6.19 -3.295
     angles 0 -21.443 0
    }
@@ -3917,6 +4352,11 @@ SCR_DestructibleBuildingEntity {
   $grp GenericEntity : "{D7CCA0F6B198601E}Prefabs/Structures/BuildingParts/Doors/Door_FactoryHall_E_01_Sliding_Right_INT_B.et" {
    {
     components {
+     DoorComponent "{221C667A9F7D4B69}" {
+      DoorAction SCR_DoorUserAction "{50888D3646A61640}" {
+       m_FactionKey FACTION_STORM
+      }
+     }
      Hierarchy "{7642683606C70747}" {
       Enabled 1
       PivotID "Socket_Door_int_sliding_01"
@@ -4099,9 +4539,19 @@ $grp GenericEntity : "{06363A95838DD8ED}Prefabs/beds/matrass_4.et" {
 }
 $grp GenericEntity : "{07BACBB13FD179E8}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/Dst/CrateStack_01_Dst_2_grey.et" {
  {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    Enabled 0
+   }
+  }
   coords 4899.442 314.079 1670.523
  }
  {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    Enabled 0
+   }
+  }
   coords 4893.885 308.053 1676.681
   angles 0 -86.159 0
  }
@@ -4115,6 +4565,11 @@ $grp GenericEntity : "{07BACBB13FD179E8}Prefabs/Props/Military/MilitaryCrates/Cr
  }
 }
 GenericEntity : "{07D5C7C755C719BE}Prefabs/Props/Garbage/Generic/Junk_01/Junk_01_pile_medium.et" {
+ components {
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   Enabled 0
+  }
+ }
  coords 4873.663 307.775 1677.179
  angles -0.014 -17.483 -0.117
 }
@@ -4179,13 +4634,39 @@ GenericEntity : "{1AC1F28A21804631}Prefabs/Compositions/Misc/SubCompositions/For
    ID "5CB0D996E74F360B"
    coords 0 -1.052 0.001
   }
+  GenericEntity {
+   ID "5CB0D996E74F360C"
+   components {
+    SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+     Enabled 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "5CB0D996E74F360F"
+   components {
+    SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+     Enabled 0
+    }
+   }
+  }
  }
 }
 GenericEntity : "{1C571A35EF9F2217}Prefabs/Props/Furniture/BarTap_01.et" {
+ components {
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   Enabled 0
+  }
+ }
  coords 4905.472 307.885 1673.529
  angles 0.118 0.096 0.011
 }
 GenericEntity : "{1D2F578D059DEF0A}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/CargoContainer_01_20ft_green_rusty.et" {
+ components {
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   Enabled 0
+  }
+ }
  coords 4895.436 307.816 1689.211
  angles -0.117 -179.374 -0.012
 }
@@ -4233,19 +4714,39 @@ GenericEntity : "{1E6236712330B010}Prefabs/Props/Military/MilitaryCrates/CrateSt
 }
 $grp GenericEntity : "{22E2462FA3AE0849}Prefabs/Props/Construction/ConcretePipe/ConcretePipe_01_Long_Pile.et" {
  {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    Enabled 0
+   }
+  }
   coords 4868.847 307.706 1683.62
   angles 0.049 -70.553 -0.107
  }
  {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    Enabled 0
+   }
+  }
   coords 4887.084 307.702 1650.615
   angles 0 89.014 0
  }
 }
 GameEntity : "{24089D4BB9AA8913}Prefabs/Method/Props/Camps/Fireplace_Loiters_ground_1.et" {
+ components {
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   Enabled 0
+  }
+ }
  coords 4904.064 319.93 1675.455
  {
   GenericEntity {
    ID "62DEB6B66AB95AAA"
+   components {
+    SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+     Enabled 0
+    }
+   }
    coords -2.943 -0.029 -0.73
    angles 77.142 -118.032 59.921
   }
@@ -4269,6 +4770,112 @@ $grp GenericEntity : "{2ED35833269EE139}Prefabs/Compositions/Misc/SubComposition
  {
   coords 4917.056 307.816 1690.974
   angles 0 95.874 0
+  {
+   GenericEntity {
+    ID "65E0A0A9C6121C36"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "65E0A0A9C612C638"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "65E0A0A9C612C639"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "65E0A0A9C612C63A"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "65E0A0A9C612C63B"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "65E0A0A9C611B613"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "65E0A0A9C611B6EC"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "65E0A0A9C612C63F"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "65E0A0A9C6128B81"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "65E0A0A9C6124170"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "65E0A0A9C6124173"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "65E0A0A9C6128B8F"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "65E0A0A9C612C63E"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
+   }
+  }
  }
  {
   coords 4916.64 307.83 1693.655
@@ -4281,41 +4888,86 @@ $grp GenericEntity : "{2ED35833269EE139}Prefabs/Compositions/Misc/SubComposition
    }
    GenericEntity {
     ID "65E0A0A9C6121C36"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
     coords -0.042 0.328 3.25
    }
    GenericEntity {
     ID "65E0A0A9C612C638"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
     coords 1.576 1.187 4.918
    }
    GenericEntity {
     ID "65E0A0A9C612C639"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
     coords 1.576 0.14 4.918
    }
    GenericEntity {
     ID "65E0A0A9C612C63A"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
     coords -1.446 0.14 4.918
    }
    GenericEntity {
     ID "65E0A0A9C612C63B"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
     coords -1.446 1.187 4.918
    }
    GenericEntity {
     ID "65E0A0A9C611B613"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
     coords -1.144 0.279 1.486
     angles 0 0.864 0
    }
    GenericEntity {
     ID "65E0A0A9C611B6EC"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
     coords 2.042 0.244 1.069
     angles 0 88.123 0
    }
    GenericEntity {
     ID "65E0A0A9C612C63F"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
     coords 2.085 -0.38 1.133
     angles 0 89.082 0
    }
    GenericEntity {
     ID "65E0A0A9C6128B81"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
     coords 1.051 -0.359 0.888
     angles 0 88.793 0
    }
@@ -4333,18 +4985,41 @@ $grp GenericEntity : "{2ED35833269EE139}Prefabs/Compositions/Misc/SubComposition
    }
    GenericEntity {
     ID "65E0A0A9C6124170"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
     coords 2.004 0.318 3.143
     angles 0 -90.383 0
    }
    GenericEntity {
     ID "65E0A0A9C6124173"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
     coords -1.963 0.318 3.265
     angles 0 -90.383 0
    }
    GenericEntity {
     ID "65E0A0A9C6128B8F"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
     coords -0.122 0.318 4.895
     angles 0 -0.117 0
+   }
+   GenericEntity {
+    ID "65E0A0A9C612C63E"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
    }
    StaticModelEntity {
     ID "65E0A0A9C612C621"
@@ -4372,38 +5047,83 @@ $grp GenericEntity : "{2ED35833269EE139}Prefabs/Compositions/Misc/SubComposition
    }
    GenericEntity {
     ID "65E0A0A9C6121C36"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
     coords -0.042 0.328 3.25
    }
    GenericEntity {
     ID "65E0A0A9C612C638"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
     coords 1.576 1.187 4.918
    }
    GenericEntity {
     ID "65E0A0A9C612C639"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
     coords 1.576 0.14 4.918
    }
    GenericEntity {
     ID "65E0A0A9C612C63A"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
     coords -1.444 0.14 4.917
    }
    GenericEntity {
     ID "65E0A0A9C612C63B"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
     coords -1.444 1.187 4.917
    }
    GenericEntity {
     ID "65E0A0A9C611B613"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
     coords -1.145 0.279 1.486
    }
    GenericEntity {
     ID "65E0A0A9C611B6EC"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
     coords 2.042 0.244 1.068
    }
    GenericEntity {
     ID "65E0A0A9C612C63F"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
     coords 2.085 -0.38 1.132
    }
    GenericEntity {
     ID "65E0A0A9C6128B81"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
     coords 1.051 -0.359 0.888
    }
    GenericEntity {
@@ -4420,18 +5140,38 @@ $grp GenericEntity : "{2ED35833269EE139}Prefabs/Compositions/Misc/SubComposition
    }
    GenericEntity {
     ID "65E0A0A9C6124170"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
     coords 2.003 0.318 3.141
    }
    GenericEntity {
     ID "65E0A0A9C6124173"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
     coords -1.962 0.318 3.263
    }
    GenericEntity {
     ID "65E0A0A9C6128B8F"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
     coords -0.124 0.318 4.893
    }
    GenericEntity {
     ID "65E0A0A9C612C63E"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
     coords 0 2.472 3.066
    }
    StaticModelEntity {
@@ -4456,18 +5196,89 @@ $grp GenericEntity : "{3001B0C35F835714}Prefabs/Compositions/Misc/SubComposition
   {
    GenericEntity {
     ID "5CB0D991B00CC650"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
     coords 2.696 0 0.227
     angles 0 9.83 0
    }
    GenericEntity {
     ID "5CB0D991B00CC656"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
     coords 2.771 0.951 0.266
     angles 0 11.818 0
    }
    GenericEntity {
     ID "5CB0D991B00CC655"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
     coords 1.958 0 0.529
     angles 0 11.72 0
+   }
+   GenericEntity {
+    ID "5CB0D991B00CC652"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "5CB0D991B00CC653"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "5CB0D991B00CC65E"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "5CB0D991B00D09E9"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "5CB0D991B00D09EE"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "5CB0D991B00CC66A"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "5CB0D991B00CC66C"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
    }
    StaticModelEntity {
     ID "5CB0D991B00CC654"
@@ -4491,42 +5302,87 @@ $grp GenericEntity : "{3001B0C35F835714}Prefabs/Compositions/Misc/SubComposition
   {
    GenericEntity {
     ID "5CB0D991B00CC650"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
     coords 2.028 0 -0.045
     angles 0 56.735 0
    }
    GenericEntity {
     ID "5CB0D991B00CC652"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
     coords 1.224 0.959 0.505
    }
    GenericEntity {
     ID "5CB0D991B00CC653"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
     coords -1.803 0.959 0.471
    }
    GenericEntity {
     ID "5CB0D991B00CC65E"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
     coords -1.845 0 0.497
    }
    GenericEntity {
     ID "5CB0D991B00D09E9"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
     coords 1.02 0 0.531
    }
    GenericEntity {
     ID "5CB0D991B00D09EE"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
     coords -2.833 0 0.52
     angles 0 -175.063 0
    }
    GenericEntity {
     ID "5CB0D991B00CC656"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
     coords 2.104 0.95 -0.073
     angles 0 58.723 0
    }
    GenericEntity {
     ID "5CB0D991B00CC655"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
     coords 1.986 0 0.677
     angles 0 -30 0
    }
    GenericEntity {
     ID "5CB0D991B00CC66A"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
     coords -2.946 1.095 0.533
     angles 0 -174.46 0
    }
@@ -4537,6 +5393,11 @@ $grp GenericEntity : "{3001B0C35F835714}Prefabs/Compositions/Misc/SubComposition
    }
    GenericEntity {
     ID "5CB0D991B00CC66C"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
     coords -0.141 0 0.551
    }
    StaticModelEntity {
@@ -4572,7 +5433,84 @@ $grp GenericEntity : "{3001B0C35F835714}Prefabs/Compositions/Misc/SubComposition
   {
    GenericEntity {
     ID "5CB0D991B00CC65E"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
     coords -1.846 0 0.495
+   }
+   GenericEntity {
+    ID "5CB0D991B00CC650"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "5CB0D991B00CC652"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "5CB0D991B00CC653"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "5CB0D991B00D09E9"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "5CB0D991B00D09EE"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "5CB0D991B00CC656"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "5CB0D991B00CC655"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "5CB0D991B00CC66A"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "5CB0D991B00CC66C"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
    }
    StaticModelEntity {
     ID "5CB0D991B00D09ED"
@@ -4615,6 +5553,88 @@ $grp GenericEntity : "{3001B0C35F835714}Prefabs/Compositions/Misc/SubComposition
  {
   coords 4891.185 307.759 1660.73
   angles 0.117 -10.82 -0.011
+  {
+   GenericEntity {
+    ID "5CB0D991B00CC650"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "5CB0D991B00CC652"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "5CB0D991B00CC653"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "5CB0D991B00CC65E"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "5CB0D991B00D09E9"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "5CB0D991B00D09EE"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "5CB0D991B00CC656"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "5CB0D991B00CC655"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "5CB0D991B00CC66A"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "5CB0D991B00CC66C"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
+   }
+  }
  }
 }
 GenericEntity : "{34C2F623958FCACE}Prefabs/Props/Civilian/Ashtray_01_Full_clear.et" {
@@ -4646,6 +5666,11 @@ GenericEntity : "{362783B6B604C0B3}Prefabs/Compositions/Misc/CustomEntities/Dest
  angles -0.117 -178.392 -0.014
 }
 GenericEntity : "{36D873BC68DC0215}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/Dst/CrateStack_01_Dst_3_NoDecal.et" {
+ components {
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   Enabled 0
+  }
+ }
  coords 4897.907 314.09 1670.425
  angles 0 -11.038 0
 }
@@ -4663,9 +5688,19 @@ GenericEntity : "{3B021FADF6E151DA}Prefabs/beds/matrass_3.et" {
 }
 $grp GenericEntity : "{3B80684A790E7356}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/Dst/CrateStack_01_Dst_1_green.et" {
  {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    Enabled 0
+   }
+  }
   coords 4901.233 307.969 1671.851
  }
  {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    Enabled 0
+   }
+  }
   coords 4899.03 307.969 1671.851
  }
 }
@@ -4954,14 +5989,29 @@ $grp GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/DestructibleMultiPhas
     angles 0 -173.019 0
    }
    GenericEntity : "{1112756E8A13445B}Prefabs/Props/Industrial/Pallets/Pallet_01_Pile.et" {
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
     coords 1.555 0.014 -3.878
     angles 0 114.367 0
    }
    GenericEntity : "{74D1DB7828061BD7}Prefabs/Props/Garbage/Generic/Junk_01/Junk_01_pile_small.et" {
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
     coords -2.142 0.012 9.676
     angles 0 -118.664 0
    }
    GenericEntity : "{795552B887CD50E7}Prefabs/Props/Industrial/ConcretePanel_01_stack.et" {
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
     coords -5.308 -0.132 12.807
     angles 0 -22.806 0
    }
@@ -4974,6 +6024,11 @@ $grp GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/DestructibleMultiPhas
     angles 0 -70.682 0
    }
    GenericEntity : "{A8D8015D0E2B600A}Prefabs/Props/Garbage/Generic/Junk_01/Junk_01_single_mattress.et" {
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
     coords -2.917 0.008 1.521
     angles 0 -139.838 0
    }
@@ -5058,12 +6113,32 @@ $grp GenericEntity : "{4E666A9D200716FA}Prefabs/Trash/Cardboard/Cardboard_Pile_0
 GenericEntity : "{53D74CD446A87F13}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagLongHighBurlap_S_USSR_01.et" {
  coords 4915.545 307.821 1684.679
  angles 0.009 -90.787 -0.118
+ {
+  GenericEntity {
+   ID "5D6CFDF279517B23"
+   components {
+    SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+     Enabled 0
+    }
+   }
+  }
+ }
 }
 $grp GenericEntity : "{585A140D761A8BBA}Prefabs/Trash/Cardboard/Cardboard_Pile_08.et" {
  {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    Enabled 0
+   }
+  }
   coords 4899.892 314.074 1676.91
  }
  {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    Enabled 0
+   }
+  }
   coords 4895.922 314.127 1668.016
  }
 }
@@ -5127,6 +6202,11 @@ $grp GenericEntity : "{5CFEB7CF8AABBEBF}Prefabs/tables/table_wooden_3.et" {
  }
 }
 GenericEntity : "{5D31850B326BA246}Prefabs/Props/Industrial/AirCompressor_01/AirCompressor_01.et" {
+ components {
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   Enabled 0
+  }
+ }
  coords 4893.788 314.14 1668.103
  angles 0 -15.721 0
 }
@@ -5141,9 +6221,19 @@ $grp GenericEntity : "{5DA11A95EEB02443}Prefabs/Compositions/Misc/SubComposition
  }
 }
 GenericEntity : "{5FEE9C860F1EB2D1}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Sandbag_Cluttered_USSR_01.et" {
+ components {
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   Enabled 0
+  }
+ }
  coords 4898.001 319.925 1677.052
 }
 GenericEntity : "{67B5336A6D63CCA4}Prefabs/Props/Construction/PlankPile/PlankPile_01_Medium.et" {
+ components {
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   Enabled 0
+  }
+ }
  coords 4914.867 308.793 1664.953
  angles 0.371 -177.836 -1.361
 }
@@ -5168,6 +6258,11 @@ $grp GenericEntity : "{6B2B28482D9C5B2E}Prefabs/Structures/BuildingParts/Graffit
  }
 }
 GenericEntity : "{6CD34D6526429EEC}Prefabs/Props/Furniture/BarTable_01.et" {
+ components {
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   Enabled 0
+  }
+ }
  coords 4905.514 307.913 1673.498
  angles 0.118 0.096 0.011
 }
@@ -5180,6 +6275,11 @@ $grp GenericEntity : "{6D66A35ABDA08198}Prefabs/Trash/Ammo/GarbageAmmunition_USS
  }
 }
 GenericEntity : "{6E7187A213F65A60}PrefabsEditable/Auto/Props/Military/Sandbags/Deployable/E_Sandbag_01_round_burlap_Deployable.et" {
+ components {
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   Enabled 0
+  }
+ }
  coords 4915.83 319.447 1687.585
  angles 0 47.274 0
 }
@@ -5201,22 +6301,55 @@ $grp GenericEntity : "{7030822F7A54F479}Prefabs/Props/Crates/CrateWooden_01_base
  }
 }
 GenericEntity : "{70A8F4FD7BA0FE84}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/CargoContainer_01_20ft_blue_rusty.et" {
+ components {
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   Enabled 0
+  }
+ }
  coords 4869.526 307.755 1657.145
  angles -0.117 168.452 0.013
 }
 StaticModelEntity : "{732A335C72D8ADE2}Prefabs/Props/Military/Sandbags/Sandbag_01_bunker_burlap_foundation.et" {
  coords 4909.938 320.807 1686.421
  angles 0 -0.417 0
+ {
+  GenericEntity {
+   ID "5A532DCF487275B2"
+   components {
+    SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+     Enabled 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "5A532DCF78E7126A"
+   components {
+    SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+     Enabled 0
+    }
+   }
+  }
+ }
 }
 GenericEntity : "{73524FA5556B9FCF}Prefabs/Trash/Cardboard/Cardboard_Pile_02.et" {
  coords 4904.63 314.022 1660.744
 }
 $grp GenericEntity : "{795552B887CD50E7}Prefabs/Props/Industrial/ConcretePanel_01_stack.et" {
  {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    Enabled 0
+   }
+  }
   coords 4879.454 308.142 1679.05
   angles -0.606 98.02 1.704
  }
  {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    Enabled 0
+   }
+  }
   coords 4877.246 307.177 1679.188
   angles 0.576 -83.016 -1.714
  }
@@ -5245,23 +6378,48 @@ $grp GenericEntity : "{79612BC0EDD086D5}Prefabs/shelves/shelves_2.et" {
 }
 $grp GenericEntity : "{7AF4B627D5C90235}Prefabs/Props/Military/Sandbags/Sandbag_01_round_high_burlap.et" {
  {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    Enabled 0
+   }
+  }
   coords 4908.751 307.852 1680.128
   angles 0.112 14.026 0.039
  }
  {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    Enabled 0
+   }
+  }
   coords 4912.422 307.847 1684.797
   angles 0.044 -73.668 -0.11
  }
  {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    Enabled 0
+   }
+  }
   coords 4897.671 308.007 1672.686
   angles 0.038 -76.505 -0.112
  }
 }
 $grp GenericEntity : "{7E2EC66747A3FBA3}Prefabs/Props/Crates/CrateWooden_02/CrateWooden_02_base.et" {
  {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    Enabled 0
+   }
+  }
   coords 4893.621 314.141 1663.247
  }
  {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    Enabled 0
+   }
+  }
   coords 4894.636 314.141 1663.247
  }
 }
@@ -5319,6 +6477,11 @@ $grp LightEntity : "{94E574957C0BA1FD}Prefabs/lights/LampStreet_E_03_light.et" {
  }
 }
 GenericEntity : "{96CE035C598E08A6}Prefabs/Trash/Cardboard/Cardboard_Pile_03.et" {
+ components {
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   Enabled 0
+  }
+ }
  coords 4913.118 313.929 1657.366
  angles 0 0 0
 }
@@ -5331,6 +6494,11 @@ $grp GenericEntity : "{985C3871D40C7F7C}Prefabs/Trash/musor_plane/Litter_01_smal
  }
 }
 GenericEntity : "{9E6BB1D7AA5D0FEB}Prefabs/Props/Furniture/Stove_01.et" {
+ components {
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   Enabled 0
+  }
+ }
  coords 4905.835 307.922 1670.979
  angles 0.118 0.046 0.011
 }
@@ -5340,14 +6508,29 @@ GenericEntity : "{9F44202F88F19A46}Prefabs/Props/Industrial/PotIndustrialSet_01/
 }
 $grp GenericEntity : "{A2E2C5AF96789143}PrefabsEditable/Auto/Props/Military/Sandbags/Deployable/E_Sandbag_01_long_burlap_Deployable.et" {
  {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    Enabled 0
+   }
+  }
   coords 4916.339 319.498 1684.68
   angles 0 89.518 0
  }
  {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    Enabled 0
+   }
+  }
   coords 4916.383 319.498 1681.398
   angles 0 89.518 0
  }
  {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    Enabled 0
+   }
+  }
   coords 4893.885 319.829 1666.546
   angles 0 91.998 2.137
  }
@@ -5896,6 +7079,11 @@ GenericEntity : "{ABFA26642CE28193}Prefabs/Trash/Cardboard/Cardboard_Pile_04.et"
  coords 4911.464 313.947 1654.586
 }
 GenericEntity : "{AC5172F00941C060}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_wall_burlap.et" {
+ components {
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   Enabled 0
+  }
+ }
  coords 4897.292 319.631 1663.142
 }
 StaticModelEntity : "{ACEB4878584F65E5}Prefabs/Structures/Debris/Debris_HouseVillage/Debris_HouseVillage_01_Pile_V1.et" {
@@ -5903,6 +7091,11 @@ StaticModelEntity : "{ACEB4878584F65E5}Prefabs/Structures/Debris/Debris_HouseVil
  angles 0.117 -10.82 -0.011
 }
 GenericEntity : "{ADB764EA160A1A4E}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/CargoContainer_01_10ft_grey.et" {
+ components {
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   Enabled 0
+  }
+ }
  coords 4876.657 307.746 1687.269
  angles 0.117 -10.82 -0.011
 }
@@ -5924,23 +7117,48 @@ GenericEntity : "{B538C88E57AE853D}Prefabs/Props/Civilian/Stove_02.et" {
 }
 $grp GenericEntity : "{B547CF929FCC6BB7}Prefabs/Props/Military/Sandbags/Sandbag_01_end_high_burlap.et" {
  {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    Enabled 0
+   }
+  }
   coords 4897.589 319.779 1677.787
   angles -0.013 90.804 0.117
  }
  {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    Enabled 0
+   }
+  }
   coords 4899.055 319.773 1681.453
   angles 0.117 1.315 0.014
  }
 }
 GenericEntity : "{BC16FA49B7483E63}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/CrateStack_01_decals_01.et" {
+ components {
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   Enabled 0
+  }
+ }
  coords 4893.796 314.145 1665.793
  angles 0 -7.948 0
 }
 GenericEntity : "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et" {
+ components {
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   Enabled 0
+  }
+ }
  coords 4897.649 319.817 1680.278
  angles 0.013 -88.913 -0.117
 }
 GenericEntity : "{BE7B5BAFE1A16A50}Prefabs/Props/Military/Fortification/BarbedTape_Coil.et" {
+ components {
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   Enabled 0
+  }
+ }
  coords 4899.943 6.376 1665.198
  angles 0 37.978 0
 }
@@ -5976,8 +7194,188 @@ GenericEntity : "{C3263DF0A15E1BFE}Prefabs/posters/Poster_1.et" {
 SCR_DestructibleBuildingEntity : "{C3DF5FB2EAB299CB}Prefabs/Industrial/sklades_soviet/Watchtower_4_soviets_2.et" {
  coords 4861.519 306.996 1630.191
  angles 0.026 -82.643 -0.115
+ {
+  GenericEntity {
+   ID "66751AB1F9EF389D"
+   {
+    GenericEntity {
+     ID "552A7733B8B30470"
+     components {
+      SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+       Enabled 0
+      }
+     }
+    }
+    GenericEntity {
+     ID "552A7733B8B30471"
+     components {
+      SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+       Enabled 0
+      }
+     }
+    }
+    GenericEntity {
+     ID "552A7733B8B30474"
+     components {
+      SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+       Enabled 0
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "66751AB1F9EF025D"
+   components {
+    SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+     Enabled 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "66751AB1F9EF025E"
+   components {
+    SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+     Enabled 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "66751AB1F9EF025F"
+   components {
+    SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+     Enabled 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "66751AB1F9EF3898"
+   components {
+    SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+     Enabled 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "66751AB1F9EF5D7D"
+   components {
+    SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+     Enabled 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "66751AB1F9EA209E"
+   components {
+    SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+     Enabled 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "66751AB1F9EA209F"
+   components {
+    SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+     Enabled 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "66751AB1F9EAA1B7"
+   components {
+    SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+     Enabled 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "66751AB1F9EADA81"
+   components {
+    SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+     Enabled 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "66751AB1F9EA6132"
+   components {
+    SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+     Enabled 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "66751AB1F9EB90EC"
+   components {
+    SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+     Enabled 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "66751AB1F9EB90EF"
+   components {
+    SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+     Enabled 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "66751AB1F9EBCCDA"
+   components {
+    SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+     Enabled 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "66751AB1F9EBFBDF"
+   components {
+    SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+     Enabled 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "66751AB1F9EB6A2F"
+   components {
+    SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+     Enabled 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "66751AB1F9EBD27B"
+   components {
+    SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+     Enabled 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "66751AB1F9E48DF0"
+   components {
+    SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+     Enabled 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "66751AB1F9EB59B1"
+   components {
+    SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+     Enabled 0
+    }
+   }
+  }
+ }
 }
 GenericEntity : "{C51A49ACBB2EF063}Prefabs/Props/Construction/ContainerMetal_01/ContainerMetal_01_blue.et" {
+ components {
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   Enabled 0
+  }
+ }
  coords 4879.952 307.785 1672.627
  angles -0.117 -176.337 -0.018
 }
@@ -5999,64 +7397,134 @@ GenericEntity : "{C7A49C5B54C86903}Prefabs/Props/Military/Sandbags/Sandbag_01_si
  angles 0 87.485 0
  {
   GenericEntity : "{21D83950DF36F250}Prefabs/Props/Military/Sandbags/Sandbag_01_long_burlap.et" {
+   components {
+    SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+     Enabled 0
+    }
+   }
    coords 3.439 0.009 2.909
    angles 0 -84.423 0
   }
   $grp GenericEntity : "{937999008F178E82}Prefabs/Props/Military/Sandbags/Sandbag_01_short_high_burlap.et" {
    {
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
     coords 15.697 0.009 2.18
     angles 0 -24.901 0
    }
    {
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
     coords 7.892 -0.062 -2.708
     angles 0 4.225 0
    }
   }
   $grp GenericEntity : "{9C9C4BED9E19C374}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_burlap.et" {
    {
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
     coords 2.974 0.055 -3.033
     angles 0 -84.548 0
    }
    {
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
     coords 3.233 0.055 -0.304
     angles 0 -84.548 0
    }
    {
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
     coords 14.984 0.009 0.103
     angles 0 -85.092 0
    }
    {
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
     coords 14.71 -1.13 -2.684
     angles 0 95.893 0
    }
    {
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
     coords 14.425 0.009 -5.461
     angles 0 -81.97 0
    }
   }
   $grp GenericEntity : "{B31A14BC1A0E7776}Prefabs/Props/Military/Sandbags/Sandbag_01_round_burlap.et" {
    {
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
     coords 5.121 -0.06 -11.171
     angles 0 -144.736 0
    }
    {
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
     coords 13.337 -0.06 -11.217
     angles 0 98.598 0
    }
    {
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
     coords 4.286 -0.021 5.864
     angles 0 -61.423 0
    }
   }
   GenericEntity : "{B547CF929FCC6BB7}Prefabs/Props/Military/Sandbags/Sandbag_01_end_high_burlap.et" {
+   components {
+    SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+     Enabled 0
+    }
+   }
    coords 7.397 0.076 -11.82
    angles 0 -173.568 0
   }
   GenericEntity : "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et" {
+   components {
+    SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+     Enabled 0
+    }
+   }
    coords 2.697 0.083 -6.131
    angles 0 -84.349 0
   }
   GenericEntity : "{BE7B5BAFE1A16A50}Prefabs/Props/Military/Fortification/BarbedTape_Coil.et" {
+   components {
+    SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+     Enabled 0
+    }
+   }
    coords 9.693 0.08 -2.782
    angles 0 -24.901 0
   }
@@ -6067,10 +7535,20 @@ GenericEntity : "{C7AE128490260EBD}Prefabs/Trash/Cardboard/Cardboard_Pile_07.et"
 }
 $grp GenericEntity : "{C8A95738F4ED0644}PrefabsEditable/Auto/Props/Military/Sandbags/Deployable/E_Sandbag_01_round_high_burlap_Deployable.et" {
  {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    Enabled 0
+   }
+  }
   coords 4894.746 319.68 1663.609
   angles 0 -141.968 0
  }
  {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    Enabled 0
+   }
+  }
   coords 4910.557 307.863 1670.407
   angles 0 170.728 0
  }
@@ -6328,6 +7806,9 @@ GenericEntity : "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et"
 }
 GenericEntity : "{CD67070EFAFC28C7}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_burlap.et" {
  components {
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   Enabled 0
+  }
   Hierarchy "{5CB0D991B00CC7CA}" {
    Enabled 1
   }
@@ -6336,6 +7817,11 @@ GenericEntity : "{CD67070EFAFC28C7}Prefabs/Props/Military/Sandbags/Sandbag_01_wa
  angles 0.118 -0.391 0.01
 }
 GenericEntity : "{D349CAB0A6544C59}Prefabs/Props/Furniture/TableWorkshop_01_short.et" {
+ components {
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   Enabled 0
+  }
+ }
  coords 4903.144 314.038 1671.648
  angles 0 2 0
 }
@@ -6344,6 +7830,11 @@ GenericEntity : "{D6985C2C05881054}Prefabs/Trash/sapogi.et" {
  angles 0 0 0
 }
 GenericEntity : "{D6E93EF9D3232D16}Prefabs/Props/Commercial/ShelfUniversal_01_wide.et" {
+ components {
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   Enabled 0
+  }
+ }
  coords 4909.008 307.879 1671.002
  angles 0.117 2.003 0.015
  scale 0.903
@@ -6390,6 +7881,11 @@ $grp GenericEntity : "{D7F69BF7D2DCA0A8}Prefabs/Props/Industrial/Pallets/Pallet_
   angles 0 0 89.521
  }
  {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    Enabled 0
+   }
+  }
   coords 4892.844 311.319 1676.76
   angles 0 0 89.521
  }
@@ -6707,6 +8203,11 @@ GenericEntity : "{F401D58CD490C872}Prefabs/Props/Civilian/BeerBottle_01_slava.et
 }
 $grp GenericEntity : "{F4123D86F860B5E2}Prefabs/Trash/Medical/GarbageMedicalUSSR_02.et" {
  {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    Enabled 0
+   }
+  }
   coords 4899.894 314.084 1668.29
  }
  {
@@ -6718,6 +8219,11 @@ GenericEntity : "{FEA1209A47459341}Prefabs/Trash/Kurtka/kurtka_vesh_1_black.et" 
  angles 0 150.485 0
 }
 GenericEntity : "{FF8BD8E8A95DB3D2}Prefabs/Props/Furniture/Fridge_01.et" {
+ components {
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   Enabled 0
+  }
+ }
  coords 4907.635 307.909 1671.041
  angles 0.01 -90.375 -0.118
 }

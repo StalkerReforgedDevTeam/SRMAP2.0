@@ -218,6 +218,9 @@ GenericEntity : "{9ABCFA281B9742E1}Prefabs/Structures/BuildingParts/Doors/Door_F
  components {
   DoorComponent "{221C667A9F7D4B69}" {
    Enabled 1
+   DoorAction SCR_DoorUserAction "{50888D3646A61640}" {
+    m_FactionKey FACTION_MERCENARIES
+   }
   }
  }
  coords 5794.941 321.959 2086.207
@@ -402,6 +405,18 @@ SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Buil
      }
     }
     coords 0 0 0
+    {
+     GenericEntity {
+      ID "568AF714C5A34E88"
+      components {
+       DoorComponent "{221C667A9F7D4B69}" {
+        DoorAction SCR_DoorUserAction "{50888D3646A61640}" {
+         m_FactionKey FACTION_MERCENARIES
+        }
+       }
+      }
+     }
+    }
    }
   }
   $grp GenericEntity : "{1CE252AD28BD0C6F}Prefabs/LOOT_BOX/Loot_randomize_garbarages.et" {
@@ -812,6 +827,18 @@ SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Buil
      }
      Hierarchy "{612AE78C85563E26}" {
       PivotID "socket_door_Doorset_lighthouse_right_176FDCEC3698D11E_7"
+     }
+    }
+    {
+     GenericEntity {
+      ID "6638758AB9AC4D6C"
+      components {
+       DoorComponent "{221C667A9F7D4B69}" {
+        DoorAction SCR_DoorUserAction "{50888D3646A61640}" {
+         m_FactionKey FACTION_MERCENARIES
+        }
+       }
+      }
      }
     }
    }
@@ -1598,6 +1625,9 @@ GenericEntity : "{CBFB6247D7EBE1DE}Prefabs/Structures/BuildingParts/Doors/Door_F
  components {
   DoorComponent "{221C667A9F7D4B69}" {
    Enabled 1
+   DoorAction SCR_DoorUserAction "{50888D3646A61640}" {
+    m_FactionKey FACTION_MERCENARIES
+   }
   }
  }
  coords 5793.127 321.953 2085.942
@@ -1616,6 +1646,9 @@ GenericEntity : "{E59D9776A5169843}Prefabs/Structures/BuildingParts/Doors/DoorSe
    components {
     DoorComponent "{221C667A9F7D4B69}" {
      Enabled 1
+     DoorAction SCR_DoorUserAction "{50888D3646A61640}" {
+      m_FactionKey FACTION_MERCENARIES
+     }
     }
    }
   }
@@ -1624,6 +1657,9 @@ GenericEntity : "{E59D9776A5169843}Prefabs/Structures/BuildingParts/Doors/DoorSe
    components {
     DoorComponent "{221C667A9F7D4B69}" {
      Enabled 1
+     DoorAction SCR_DoorUserAction "{50888D3646A61640}" {
+      m_FactionKey FACTION_MERCENARIES
+     }
     }
    }
   }

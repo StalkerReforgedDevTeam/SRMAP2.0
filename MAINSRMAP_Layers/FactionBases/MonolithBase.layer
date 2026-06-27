@@ -2639,6 +2639,18 @@ SCR_DestructibleBuildingEntity {
       PivotID "socket_DoorSet_Cowshed_R_EXT_B_05"
      }
     }
+    {
+     GenericEntity {
+      ID "568C83951A8094F3"
+      components {
+       DoorComponent "{221C667A9F7D4B69}" {
+        DoorAction SCR_DoorUserAction "{50888D3646A61640}" {
+         m_FactionKey FACTION_MUTANTS
+        }
+       }
+      }
+     }
+    }
    }
   }
   $grp GenericEntity : "{C7565CC91C6555C4}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_01_L_INT_ST_M1.et" {
@@ -3894,11 +3906,25 @@ GenericEntity : "{F4BB6B6A0486F797}Prefabs/Props/Industrial/BarrelMetal_01_milit
 }
 $grp GenericEntity : "{FD4C5C7C87B9EF36}Prefabs/Structures/BuildingParts/Doors/Door_GantryCrane_01/Door_Gantry_Crane_01_EXT_COV_B.et" {
  {
+  components {
+   DoorComponent "{221C667A9F7D4B69}" {
+    DoorAction SCR_DoorUserAction "{50888D3646A61640}" {
+     m_FactionKey FACTION_MUTANTS
+    }
+   }
+  }
   coords 3081.766 318.25 2633.928
   angles 0 -43.123 0
   scale 1.4
  }
  {
+  components {
+   DoorComponent "{221C667A9F7D4B69}" {
+    DoorAction SCR_DoorUserAction "{50888D3646A61640}" {
+     m_FactionKey FACTION_MUTANTS
+    }
+   }
+  }
   coords 3107.218 318.193 2661.065
   angles 0 47.121 0
   scale 1.4
@@ -3909,16 +3935,37 @@ $grp GenericEntity : "{FD4C5C7C87B9EF36}Prefabs/Structures/BuildingParts/Doors/D
   scale 1.4
  }
  {
+  components {
+   DoorComponent "{221C667A9F7D4B69}" {
+    DoorAction SCR_DoorUserAction "{50888D3646A61640}" {
+     m_FactionKey FACTION_MUTANTS
+    }
+   }
+  }
   coords 3074.689 318.169 2631.314
   angles 0 -44.151 0
   scale 1.4
  }
  {
+  components {
+   DoorComponent "{221C667A9F7D4B69}" {
+    DoorAction SCR_DoorUserAction "{50888D3646A61640}" {
+     m_FactionKey FACTION_MUTANTS
+    }
+   }
+  }
   coords 3102.599 318.195 2653.813
   angles 0 -43.787 0
   scale 1.4
  }
  {
+  components {
+   DoorComponent "{221C667A9F7D4B69}" {
+    DoorAction SCR_DoorUserAction "{50888D3646A61640}" {
+     m_FactionKey FACTION_MUTANTS
+    }
+   }
+  }
   coords 3098.521 318.203 2649.875
   angles 0 137.056 0
   scale 1.4

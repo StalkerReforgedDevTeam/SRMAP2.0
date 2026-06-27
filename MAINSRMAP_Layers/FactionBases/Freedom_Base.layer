@@ -4191,6 +4191,7 @@ GenericEntity : "{8824707BF58B3A22}Prefabs/Structures/BuildingParts/Doors/DoorSe
    components {
     DoorComponent "{221C667A9F7D4B69}" {
      DoorAction SCR_DoorUserAction "{50888D3646A61640}" {
+      m_FactionKey FACTION_KB
      }
     }
    }
@@ -5031,6 +5032,7 @@ SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Buil
       components {
        DoorComponent "{221C667A9F7D4B69}" {
         DoorAction SCR_DoorUserAction "{50888D3646A61640}" {
+         m_FactionKey FACTION_KB
         }
        }
       }
@@ -5073,6 +5075,7 @@ SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Buil
       components {
        DoorComponent "{221C667A9F7D4B69}" {
         DoorAction SCR_DoorUserAction "{50888D3646A61640}" {
+         m_FactionKey FACTION_KB
         }
        }
       }
@@ -5091,6 +5094,7 @@ SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Buil
       components {
        DoorComponent "{221C667A9F7D4B69}" {
         DoorAction SCR_DoorUserAction "{50888D3646A61640}" {
+         m_FactionKey FACTION_KB
         }
        }
       }
@@ -5167,6 +5171,18 @@ SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Buil
    components {
     Hierarchy "{612AE78C85563E26}" {
      PivotID "socket_door_int_right_03"
+    }
+   }
+   {
+    GenericEntity {
+     ID "5668D20503330112"
+     components {
+      DoorComponent "{221C667A9F7D4B69}" {
+       DoorAction SCR_DoorUserAction "{50888D3646A61640}" {
+        m_FactionKey FACTION_KB
+       }
+      }
+     }
     }
    }
   }
@@ -5312,7 +5328,6 @@ SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Buil
       components {
        DoorComponent "{221C667A9F7D4B69}" {
         DoorAction SCR_DoorUserAction "{50888D3646A61640}" {
-         m_FactionKey FACTION_KB
         }
         AngleRange -90
        }
@@ -5348,6 +5363,7 @@ SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Buil
       components {
        DoorComponent "{221C667A9F7D4B69}" {
         DoorAction SCR_DoorUserAction "{50888D3646A61640}" {
+         m_FactionKey FACTION_KB
         }
         AngleRange -90
        }
@@ -5380,6 +5396,7 @@ SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Buil
       components {
        DoorComponent "{221C667A9F7D4B69}" {
         DoorAction SCR_DoorUserAction "{50888D3646A61640}" {
+         m_FactionKey FACTION_KB
         }
         AngleRange -90
        }
@@ -6223,7 +6240,6 @@ GenericEntity : "{D86958F19333AA7B}Prefabs/Structures/BuildingParts/Doors/Door_V
  components {
   DoorComponent "{221C667A9F7D4B69}" {
    DoorAction SCR_DoorUserAction "{50888D3646A61640}" {
-    m_FactionKey FACTION_KB
    }
   }
  }

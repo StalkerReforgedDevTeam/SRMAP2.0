@@ -134262,6 +134262,48 @@ $grp GameEntity : "{92D3F8A8AE82E3E5}Prefabs/Method/Props/Camps/Fireplace_Loiter
  {
   coords 4870.27 307.702 1672.285
   angles 0 58.707 0
+  {
+   GenericEntity {
+    ID "64B4FE1918AF73E8"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "64B4FE1918AF73EE"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "64B4FE1918AF1972"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "64B4FE1918AF1973"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "64B4FE1918AF9482"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
+   }
+  }
  }
  {
   coords 4558.112 296.765 1740.32
@@ -176125,6 +176167,59 @@ $grp SCR_DestructibleBuildingEntity : "{CCE6A451A226AF4E}Prefabs/Structures/Mili
      }
     }
    }
+   GenericEntity {
+    ID "59CEDBA3F6AFEF50"
+    {
+     GenericEntity {
+      ID "588EF057331EF185"
+      components {
+       SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+        Enabled 0
+       }
+      }
+     }
+     GenericEntity {
+      ID "58B07B023AF869E3"
+      components {
+       SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+        Enabled 0
+       }
+      }
+     }
+     GenericEntity {
+      ID "588EF057331EF1F4"
+      components {
+       SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+        Enabled 0
+       }
+      }
+     }
+     GenericEntity {
+      ID "58B07B02413AEE2B"
+      components {
+       SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+        Enabled 0
+       }
+      }
+     }
+     GenericEntity {
+      ID "58B07B02413AEEFE"
+      components {
+       SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+        Enabled 0
+       }
+      }
+     }
+     GenericEntity {
+      ID "58B07B02413B4BED"
+      components {
+       SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+        Enabled 0
+       }
+      }
+     }
+    }
+   }
   }
  }
  {
@@ -183377,6 +183472,86 @@ $grp SCR_DestructibleBuildingEntity : "{D759D2AD4C336907}Prefabs/Method/Structur
       m_LootTiersSpawn {
        "TIER_2"
       }
+     }
+    }
+   }
+   GenericEntity {
+    ID "64B527450BCC4489"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "64B5274714DBCD91"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "64B527452489FD30"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "64B5274466206D4A"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "64B52744670A800D"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "64B527446A5D06F9"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "64B52742038D428E"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "64B52745F504446F"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "64B5274789D9F118"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "64B527454ACB8D2A"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
      }
     }
    }
@@ -208942,6 +209117,88 @@ $grp SCR_DestructibleBuildingEntity : "{F4A5F904C0BDB1C0}Prefabs/Method/Structur
      }
     }
    }
+   GenericEntity {
+    ID "64CD638CD6E0749C"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "64CD638CE26E6128"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "64CD63895940BB20"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "64CD6389AA8ACEAA"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "64CD638D10F7EFFC"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "64CD638C808B36F0"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "64CD638C57B39D1D"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "64CD638935B336EE"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "64CD638D4AD43BC4"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
+    {
+     GenericEntity {
+      ID "551C7973A671B69B"
+      components {
+       SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+        Enabled 0
+       }
+      }
+     }
+    }
+   }
   }
  }
  {
@@ -212136,6 +212393,38 @@ $grp SCR_DestructibleBuildingEntity : "{F7ED56754863E0D6}Prefabs/Method/Structur
       m_LootTiersSpawn {
        "TIER_2"
       }
+     }
+    }
+   }
+   GenericEntity {
+    ID "64CCA413EEDA9F2E"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "64CCA413F62973E8"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "64CCA413E266F673"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "64CCA413E60E1BF7"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
      }
     }
    }
