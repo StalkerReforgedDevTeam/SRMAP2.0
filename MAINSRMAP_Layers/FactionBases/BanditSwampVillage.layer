@@ -1,3 +1,33 @@
+$grp ARMST_SpawnPoint {
+ {
+  coords 5326.928 302.155 63.114
+  angles 0 83.92 0
+  m_FactionKey FACTION_KB
+  m_FactionRequired FACTION_KB
+  m_fMinimalReputation -100
+ }
+ {
+  coords 5415.124 301.604 61.31
+  angles 0 96.977 0
+  m_FactionKey FACTION_STORM
+  m_FactionRequired FACTION_STORM
+  m_fMinimalReputation -100
+ }
+ {
+  coords 5485.284 302.01 50.388
+  angles 0 89.01 0
+  m_FactionKey FACTION_ARMY
+  m_FactionRequired FACTION_ARMY
+  m_fMinimalReputation -100
+ }
+ {
+  coords 5545.1 302.559 46.212
+  angles 0 89.01 0
+  m_FactionKey FACTION_MUTANTS
+  m_FactionRequired FACTION_MUTANTS
+  m_fMinimalReputation -100
+ }
+}
 $grp GenericEntity {
  {
   components {
@@ -16,6 +46,189 @@ $grp GenericEntity {
   }
   coords 1455.041 291.324 1933.637
   angles -0.099 -95.838 -1.009
+ }
+ {
+  components {
+   MeshObject "{699B5A3114C5D76B}" {
+    Object "{34BA5CF1F425BEAD}Assets/Structures/BuildingsParts/Doors/Door_Bunker_01/Door_Bunker_01_A_RIGHT_EXT_COV_B.xob"
+   }
+   ActionsManagerComponent "{699B5A3114C5D7E7}" {
+    ActionContexts {
+     UserActionContext "{699B5A3114C5D714}" {
+      UIInfo UIInfo "{699B5A3114C5D726}" {
+      }
+      ContextName "Default"
+      Position PointInfo "{699B5A3114C5D711}" {
+       Offset 0.4756 0.9199 0
+      }
+      Radius 0.81
+     }
+    }
+    additionalActions {
+     ARMST_TELEPORT_ACTIONS "{699B5A32AD1E7839}" {
+      ParentContextList {
+       "Default"
+      }
+      Duration 5
+      m_sTeleportActionName "Cool dude spot"
+      m_sTeleportTarget "enter_perimetr5"
+      m_fTeleportDelay 1
+      m_fTeleportRadius 3
+      m_FactionNeed FACTION_KB
+      m_sRequiredItem ""
+     }
+    }
+   }
+   RplComponent "{699B5A3114C5D7DE}" {
+   }
+  }
+  coords 5322.869 301.966 63.543
+  angles 0 90.481 0
+ }
+ enter_perimetr5 {
+  coords 3555.166 306.103 1841.555
+  angles 0 -57.322 0
+ }
+ {
+  components {
+   MeshObject "{699B5A3114C5D76B}" {
+    Object "{34BA5CF1F425BEAD}Assets/Structures/BuildingsParts/Doors/Door_Bunker_01/Door_Bunker_01_A_RIGHT_EXT_COV_B.xob"
+   }
+   ActionsManagerComponent "{699B5A3114C5D7E7}" {
+    ActionContexts {
+     UserActionContext "{699B5A3114C5D714}" {
+      UIInfo UIInfo "{699B5A3114C5D726}" {
+      }
+      ContextName "Default"
+      Position PointInfo "{699B5A3114C5D711}" {
+       Offset 0.4756 0.9199 0
+      }
+      Radius 0.81
+     }
+    }
+    additionalActions {
+     ARMST_TELEPORT_ACTIONS "{699B5A32AD1E7839}" {
+      ParentContextList {
+       "Default"
+      }
+      Duration 5
+      m_sTeleportActionName "DOLG"
+      m_sTeleportTarget "enter_perimetr6"
+      m_fTeleportDelay 1
+      m_fTeleportRadius 3
+      m_FactionNeed FACTION_STORM
+      m_sRequiredItem ""
+     }
+    }
+   }
+   RplComponent "{699B5A3114C5D7DE}" {
+   }
+  }
+  coords 5411.901 301.346 61.594
+  angles 0 90.481 0
+ }
+ enter_perimetr6 {
+  coords 4906.201 314.317 1672.966
+  angles 0 -57.322 0
+ }
+ {
+  components {
+   MeshObject "{699B5A3114C5D76B}" {
+    Object "{34BA5CF1F425BEAD}Assets/Structures/BuildingsParts/Doors/Door_Bunker_01/Door_Bunker_01_A_RIGHT_EXT_COV_B.xob"
+   }
+   ActionsManagerComponent "{699B5A3114C5D7E7}" {
+    ActionContexts {
+     UserActionContext "{699B5A3114C5D714}" {
+      UIInfo UIInfo "{699B5A3114C5D726}" {
+      }
+      ContextName "Default"
+      Position PointInfo "{699B5A3114C5D711}" {
+       Offset 0.4756 0.9199 0
+      }
+      Radius 0.81
+     }
+    }
+    additionalActions {
+     ARMST_TELEPORT_ACTIONS "{699B5A3114C5D7E6}" {
+      ParentContextList {
+       "Default"
+      }
+      Duration 5
+      m_sTeleportActionName "x014"
+      m_sTeleportTarget "enter_perimetr8"
+      m_fTeleportDelay 1
+      m_fTeleportRadius 3
+      m_sRequiredItem ""
+     }
+     ARMST_TELEPORT_ACTIONS "{699B5A32AD1E7839}" {
+      ParentContextList {
+       "Default"
+      }
+      Duration 5
+      m_sTeleportActionName "jO14"
+      m_sTeleportTarget "enter_perimetr7"
+      m_fTeleportDelay 1
+      m_fTeleportRadius 3
+      m_FactionNeed FACTION_ARMY
+      m_sRequiredItem ""
+     }
+    }
+   }
+   RplComponent "{699B5A3114C5D7DE}" {
+   }
+  }
+  coords 5481.345 301.771 51.091
+  angles 0 90.481 0
+ }
+ enter_perimetr7 {
+  coords 1235.969 298.275 1343.731
+  angles 0 -57.322 0
+ }
+ enter_perimetr8 {
+  coords 3816.169 307.08 339.42
+  angles 0 -57.322 0
+ }
+ {
+  components {
+   MeshObject "{699B5A3114C5D76B}" {
+    Object "{34BA5CF1F425BEAD}Assets/Structures/BuildingsParts/Doors/Door_Bunker_01/Door_Bunker_01_A_RIGHT_EXT_COV_B.xob"
+   }
+   ActionsManagerComponent "{699B5A3114C5D7E7}" {
+    ActionContexts {
+     UserActionContext "{699B5A3114C5D714}" {
+      UIInfo UIInfo "{699B5A3114C5D726}" {
+      }
+      ContextName "Default"
+      Position PointInfo "{699B5A3114C5D711}" {
+       Offset 0.4756 0.9199 0
+      }
+      Radius 0.81
+     }
+    }
+    additionalActions {
+     ARMST_TELEPORT_ACTIONS "{699B5A32AD1E7839}" {
+      ParentContextList {
+       "Default"
+      }
+      Duration 5
+      m_sTeleportActionName "Monobase"
+      m_sTeleportTarget "enter_perimetr9"
+      m_fTeleportDelay 1
+      m_fTeleportRadius 3
+      m_FactionNeed FACTION_ARMY
+      m_sRequiredItem ""
+     }
+    }
+   }
+   RplComponent "{699B5A3114C5D7DE}" {
+   }
+  }
+  coords 5542.185 302.337 46.836
+  angles 0 90.481 0
+ }
+ enter_perimetr9 {
+  coords 3103.614 319.031 2650.69
+  angles 0 -57.322 0
  }
 }
 SCR_DestructibleBuildingEntity {
@@ -1319,8 +1532,11 @@ GenericEntity : "{21281E39D3B69394}Prefabs/Structures/BuildingParts/Doors/DoorSe
    components {
     DoorComponent "{221C667A9F7D4B69}" {
      DoorAction SCR_DoorUserAction "{50888D3646A61640}" {
-      m_FactionKey FACTION_MUTANTS
+      m_FactionKey FACTION_BANDIT
      }
+    }
+    SCR_DestructionMultiPhaseComponent "{5534CAAEC8B69AB4}" {
+     m_bDeleteAfterFinalPhase 0
     }
    }
    coords 0 0 0
@@ -1331,7 +1547,11 @@ GenericEntity : "{21281E39D3B69394}Prefabs/Structures/BuildingParts/Doors/DoorSe
    components {
     DoorComponent "{221C667A9F7D4B69}" {
      DoorAction SCR_DoorUserAction "{50888D3646A61640}" {
+      m_FactionKey FACTION_BANDIT
      }
+    }
+    SCR_DestructionMultiPhaseComponent "{5534CAAECFC2F1C7}" {
+     Enabled 0
     }
    }
    coords 0 0 0
@@ -1351,6 +1571,48 @@ GenericEntity : "{24F9FA667DE0B56E}Prefabs/Props/Military/Camps/BoxMRE_01.et" {
  }
  coords 1454.872 292.289 1936.138
  angles -1.013 178.106 0.029
+}
+$grp GenericEntity : "{252BA65F8F02ACBF}Prefabs/Military/Compositions/USSR/ArsenalBox_BANDIT.et" {
+ {
+  coords 5274.139 301.631 66.128
+  angles 0 -96.427 0
+ }
+ {
+  components {
+   SCR_FactionAffiliationComponent "{5A50E7655452A21D}" {
+    "faction affiliation" "FREEDOM"
+   }
+  }
+  coords 5329.471 301.91 63.083
+  angles 0 -96.427 0
+ }
+ {
+  components {
+   SCR_FactionAffiliationComponent "{5A50E7655452A21D}" {
+    "faction affiliation" "FACTION_DUTY"
+   }
+  }
+  coords 5418.422 301.346 61.011
+  angles 0 -96.427 0
+ }
+ {
+  components {
+   SCR_FactionAffiliationComponent "{5A50E7655452A21D}" {
+    "faction affiliation" "SBU"
+   }
+  }
+  coords 5487.908 301.771 50.475
+  angles 0 -96.427 0
+ }
+ {
+  components {
+   SCR_FactionAffiliationComponent "{5A50E7655452A21D}" {
+    "faction affiliation" "MONOLITH"
+   }
+  }
+  coords 5548.887 302.337 46.226
+  angles 0 -96.427 0
+ }
 }
 GenericEntity : "{2887E99075B9C928}Prefabs/Props/Garbage/Generic/Litter_01_long.et" {
  coords 1457.137 291.328 1940.33
@@ -1496,11 +1758,22 @@ GenericEntity : "{5444982FED78FECE}Prefabs/Props/Furniture/BasketLaundry_01.et" 
  coords 1455.187 291.321 1934.337
  angles -0.344 -110.058 -0.954
 }
+SCR_ChimeraCharacter : "{54DA4703A3A7248F}Prefabs/QUESTS/SRFACTIONS/BANDIT_VENDOR.et" {
+ coords 1456.674 291.33 1930.734
+ angles 0 21.542 0
+}
 GenericEntity : "{56FB185A7697E02A}Prefabs/Props/Furniture/Carpet_03_base.et" {
  coords 1458.292 291.369 1936.054
  angles 0.49 -0.003 -0.348
 }
 GenericEntity : "{58F5C1172F9816C8}Prefabs/Structures/BuildingParts/Doors/Door_ConcretePlant_E_01_RIGHT_EXT_ST_B.et" {
+ components {
+  DoorComponent "{221C667A9F7D4B69}" {
+   DoorAction SCR_DoorUserAction "{50888D3646A61640}" {
+    m_FactionKey FACTION_BANDIT
+   }
+  }
+ }
  coords 1454.385 291.173 1942.856
  angles 0 -5.924 0
  scale 1.5
@@ -1541,6 +1814,56 @@ GenericEntity : "{5EFCA47FCA67A55F}Prefabs/Props/Decorations/Paintings/PaintingB
 }
 GenericEntity : "{6005A2E4F98DC66F}Prefabs/Props/Garbage/Generic/LitterInterior_01/Single/LitterInterior_USSR_01_tincan_V3.et" {
  coords 1455.407 292.24 1931.664
+}
+$grp GenericEntity : "{625787D8FEB15355}Prefabs/Structures/BuildingParts/Lights/LightIndustrial_02_on_interior.et" {
+ {
+  coords 3554.224 308.677 1848.866
+  angles -88.674 -89.33 88.453
+  {
+   LightEntity {
+    ID "6512711B1DB82A9B"
+    coords 0.007 0.007 0.554
+    angles 0.283 -180 180
+    Color 0 0.3372 0.0881 1
+    LV -3.12
+    Radius 26.4
+    SpotAngle 170
+    DistanceAttenuation 0.18
+   }
+  }
+ }
+ {
+  coords 3554.836 308.662 1842.955
+  angles -88.674 -89.33 88.453
+  {
+   LightEntity {
+    ID "6512711B1DB82A9B"
+    coords 0.007 0.007 0.554
+    angles 0.283 -180 180
+    Color 0 0.3372 0.0881 1
+    LV -3.12
+    Radius 26.4
+    SpotAngle 170
+    DistanceAttenuation 0.18
+   }
+  }
+ }
+ {
+  coords 3547.696 308.678 1842.846
+  angles -88.674 -89.33 88.453
+  {
+   LightEntity {
+    ID "6512711B1DB82A9B"
+    coords 0.007 0.007 0.554
+    angles 0.283 -180 180
+    Color 0 0.3372 0.0881 1
+    LV -3.12
+    Radius 26.4
+    SpotAngle 170
+    DistanceAttenuation 0.18
+   }
+  }
+ }
 }
 GenericEntity : "{6BE5346DC96E4C96}Prefabs/Props/Civilian/PaperHolder_01/PaperHolder_01_base.et" {
  coords 1452.553 292.176 1943.751
@@ -1806,6 +2129,9 @@ SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Buil
   $grp GenericEntity : "{C9DE18E34AEADA31}Prefabs/Structures/BuildingParts/Doors/DoorBoarded_PierShed_01_A.et" {
    {
     components {
+     DoorComponent "{5D62D4AB54C9F344}" {
+      Enabled 0
+     }
      Hierarchy "{612AE78C85563E26}" {
       PivotID "Socket_door_001"
      }
@@ -1814,6 +2140,9 @@ SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Buil
    }
    {
     components {
+     DoorComponent "{5D62D4AB54C9F344}" {
+      Enabled 0
+     }
      Hierarchy "{612AE78C85563E26}" {
       PivotID "Socket_door_005"
      }
@@ -1846,6 +2175,10 @@ $grp Tree : "{AD801168E8BF9AD2}Prefabs/Vegetation/Plant/Hedera_Helix/p_hedera_he
   coords 1447.19 5.423 1948.972
   angles 0 -3.699 0
  }
+}
+SCR_ChimeraCharacter : "{B6019397E912FEE4}Prefabs/QUESTS/SRFACTIONS/DUTY_VENDOR.et" {
+ coords 4913.74 313.922 1664.806
+ angles 0 -123.369 0
 }
 GenericEntity : "{B69B4902BAF5B1B9}Prefabs/Props/Garbage/Cardboard/Cardboard_Pile_02.et" {
  coords 1460.01 291.361 1932.185
@@ -1940,6 +2273,9 @@ $grp GenericEntity : "{C9DE18E34AEADA31}Prefabs/Structures/BuildingParts/Doors/D
  }
  {
   components {
+   DoorComponent "{5D62D4AB54C9F344}" {
+    Enabled 0
+   }
    Hierarchy "{612AE78C85563E26}" {
     PivotID "Socket_door_001"
    }
@@ -1950,6 +2286,9 @@ $grp GenericEntity : "{C9DE18E34AEADA31}Prefabs/Structures/BuildingParts/Doors/D
  }
  {
   components {
+   DoorComponent "{5D62D4AB54C9F344}" {
+    Enabled 0
+   }
    Hierarchy "{612AE78C85563E26}" {
     PivotID "Socket_door_001"
    }
@@ -1960,6 +2299,11 @@ $grp GenericEntity : "{C9DE18E34AEADA31}Prefabs/Structures/BuildingParts/Doors/D
  }
  {
   components {
+   DoorComponent "{5D62D4AB54C9F344}" {
+    DoorAction SCR_DoorUserAction "{5D62D4AB76051F33}" {
+     m_FactionKey FACTION_BANDIT
+    }
+   }
    Hierarchy "{612AE78C85563E26}" {
     PivotID "Socket_door_005"
    }
@@ -1970,6 +2314,11 @@ $grp GenericEntity : "{C9DE18E34AEADA31}Prefabs/Structures/BuildingParts/Doors/D
  }
  {
   components {
+   DoorComponent "{5D62D4AB54C9F344}" {
+    DoorAction SCR_DoorUserAction "{5D62D4AB76051F33}" {
+     m_FactionKey FACTION_BANDIT
+    }
+   }
    Hierarchy "{612AE78C85563E26}" {
     PivotID "Socket_door_005"
    }
@@ -2000,6 +2349,9 @@ $grp GenericEntity : "{C9DE18E34AEADA31}Prefabs/Structures/BuildingParts/Doors/D
  }
  {
   components {
+   DoorComponent "{5D62D4AB54C9F344}" {
+    Enabled 0
+   }
    Hierarchy "{612AE78C85563E26}" {
     PivotID "Socket_door_005"
    }
@@ -2010,6 +2362,9 @@ $grp GenericEntity : "{C9DE18E34AEADA31}Prefabs/Structures/BuildingParts/Doors/D
  }
  {
   components {
+   DoorComponent "{5D62D4AB54C9F344}" {
+    Enabled 0
+   }
    Hierarchy "{612AE78C85563E26}" {
     PivotID "Socket_door_005"
    }
@@ -2020,6 +2375,9 @@ $grp GenericEntity : "{C9DE18E34AEADA31}Prefabs/Structures/BuildingParts/Doors/D
  }
  {
   components {
+   DoorComponent "{5D62D4AB54C9F344}" {
+    Enabled 0
+   }
    Hierarchy "{612AE78C85563E26}" {
     PivotID "Socket_door_005"
    }
@@ -2030,6 +2388,9 @@ $grp GenericEntity : "{C9DE18E34AEADA31}Prefabs/Structures/BuildingParts/Doors/D
  }
  {
   components {
+   DoorComponent "{5D62D4AB54C9F344}" {
+    Enabled 0
+   }
    Hierarchy "{612AE78C85563E26}" {
     PivotID "Socket_door_001"
    }
@@ -2040,6 +2401,9 @@ $grp GenericEntity : "{C9DE18E34AEADA31}Prefabs/Structures/BuildingParts/Doors/D
  }
  {
   components {
+   DoorComponent "{5D62D4AB54C9F344}" {
+    Enabled 0
+   }
    Hierarchy "{612AE78C85563E26}" {
     PivotID "Socket_door_001"
    }
@@ -2050,6 +2414,9 @@ $grp GenericEntity : "{C9DE18E34AEADA31}Prefabs/Structures/BuildingParts/Doors/D
  }
  {
   components {
+   DoorComponent "{5D62D4AB54C9F344}" {
+    Enabled 0
+   }
    Hierarchy "{612AE78C85563E26}" {
     PivotID "Socket_door_001"
    }
@@ -2060,6 +2427,9 @@ $grp GenericEntity : "{C9DE18E34AEADA31}Prefabs/Structures/BuildingParts/Doors/D
  }
  {
   components {
+   DoorComponent "{5D62D4AB54C9F344}" {
+    Enabled 0
+   }
    Hierarchy "{612AE78C85563E26}" {
     PivotID "Socket_door_001"
    }
@@ -2070,6 +2440,9 @@ $grp GenericEntity : "{C9DE18E34AEADA31}Prefabs/Structures/BuildingParts/Doors/D
  }
  {
   components {
+   DoorComponent "{5D62D4AB54C9F344}" {
+    Enabled 0
+   }
    Hierarchy "{612AE78C85563E26}" {
     PivotID "Socket_door_005"
    }
@@ -2090,6 +2463,9 @@ $grp GenericEntity : "{C9DE18E34AEADA31}Prefabs/Structures/BuildingParts/Doors/D
  }
  {
   components {
+   DoorComponent "{5D62D4AB54C9F344}" {
+    Enabled 0
+   }
    Hierarchy "{612AE78C85563E26}" {
     PivotID "Socket_door_001"
    }
@@ -2100,6 +2476,9 @@ $grp GenericEntity : "{C9DE18E34AEADA31}Prefabs/Structures/BuildingParts/Doors/D
  }
  {
   components {
+   DoorComponent "{5D62D4AB54C9F344}" {
+    Enabled 0
+   }
    Hierarchy "{612AE78C85563E26}" {
     PivotID "Socket_door_001"
    }
@@ -2110,6 +2489,9 @@ $grp GenericEntity : "{C9DE18E34AEADA31}Prefabs/Structures/BuildingParts/Doors/D
  }
  {
   components {
+   DoorComponent "{5D62D4AB54C9F344}" {
+    Enabled 0
+   }
    Hierarchy "{612AE78C85563E26}" {
     PivotID "Socket_door_001"
    }
@@ -2180,6 +2562,9 @@ $grp GenericEntity : "{C9DE18E34AEADA31}Prefabs/Structures/BuildingParts/Doors/D
  }
  {
   components {
+   DoorComponent "{5D62D4AB54C9F344}" {
+    Enabled 0
+   }
    Hierarchy "{612AE78C85563E26}" {
     PivotID "Socket_door_001"
    }
@@ -2219,10 +2604,18 @@ GenericEntity : "{D51E223FD6EDB039}Prefabs/Props/Furniture/ClockWall_01.et" {
  coords 1457.7 293.293 1938.859
  angles 0 175.279 0
 }
+SCR_ChimeraCharacter : "{D52972B0FD9EDD1A}Prefabs/QUESTS/SRFACTIONS/UKM_VENDOR.et" {
+ coords 3840.975 306.796 401.326
+ angles 0 -159.682 0
+}
 GenericEntity : "{D6E93EF9D3232D16}Prefabs/Props/Commercial/ShelfUniversal_01_wide.et" {
  coords 1455.272 294.971 1934.459
  angles -1.011 175.461 0.076
  scale 0.903
+}
+SCR_ChimeraCharacter : "{DBA851D751AA40A4}Prefabs/QUESTS/SRFACTIONS/MONOLITH_VENDOR.et" {
+ coords 3101.478 318.712 2650.605
+ angles 0 92.146 0
 }
 GenericEntity : "{DE658AC78172D02E}Prefabs/Props/Construction/GarbageStack_01/GarbageStack_01_Short.et" {
  coords 1468.274 291.149 1934.097
@@ -2257,6 +2650,10 @@ GenericEntity : "{E521AEA6D14589B1}Prefabs/Props/Military/AmmoBoxes/AmmoBox_545x
  }
  coords 1455.69 295.941 1934.261
  angles 0.992 -12.292 -0.212
+}
+SCR_ChimeraCharacter : "{EC0F8FDB1F5AB7C5}Prefabs/QUESTS/SRFACTIONS/FREEDOM_VENDOR.et" {
+ coords 3556.31 305.774 1839.245
+ angles 0 -33.968 0
 }
 GenericEntity : "{EEB26CC2CCC336F8}Prefabs/Structures/Infrastructure/Naval/Piers/Pier_Wood_Short_01.et" {
  coords 1455.511 290.813 1942.718
