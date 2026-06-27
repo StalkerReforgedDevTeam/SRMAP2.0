@@ -24,7 +24,6 @@ modded class ARMST_BasicSpawnLogic : EPF_BasicSpawnLogic
         if (m_mPlayerFactions.Contains(playerId))
         {
             playerFaction = m_mPlayerFactions.Get(playerId);
-            m_mPlayerFactions.Remove(playerId);
             Print(string.Format("[SR Respawn] Player %1 respawning with saved faction: %2", playerId, playerFaction), LogLevel.NORMAL);
         }
         else
@@ -143,8 +142,7 @@ modded class ARMST_BasicSpawnLogic : EPF_BasicSpawnLogic
         }
 		
 		
-		}
-		
+	}
 		
     }
 }
