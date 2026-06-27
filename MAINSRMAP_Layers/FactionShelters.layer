@@ -372,6 +372,10 @@ $grp LightEntity {
   LensFlareScale 1.18
  }
 }
+GenericEntity : "{0B47366F8FBBAA29}Prefabs/Military/Compositions/USSR/ArsenalBox_DUTY.et" {
+ coords 5639.645 302.23 35.821
+ angles 0 -90 0
+}
 $grp GenericEntity : "{1A1020205E2B1710}Prefabs/Props/Military/Furniture/TableMilitary_USSR_01.et" {
  {
   coords 5272.589 301.64 63.534
@@ -394,6 +398,10 @@ $grp GenericEntity : "{1A1020205E2B1710}Prefabs/Props/Military/Furniture/TableMi
   angles 0 -179.163 0
  }
 }
+GenericEntity : "{252BA65F8F02ACBF}Prefabs/Military/Compositions/USSR/ArsenalBox_BANDIT.et" {
+ coords 5639.655 302.222 38.059
+ angles 0 -90 0
+}
 GenericEntity : "{45C675ED3CFBBEC5}Prefabs/Props/Military/Compositions/US/ArsenalBox_US.et" {
  coords 5633.138 302.222 37.527
  angles 0 90 0
@@ -401,6 +409,9 @@ GenericEntity : "{45C675ED3CFBBEC5}Prefabs/Props/Military/Compositions/US/Arsena
 GenericEntity : "{511C041EFC7BAE60}Prefabs/Props/Arsenal/ArsenalBox_STALKEr.et" {
  coords 5636.284 302.254 38.861
  scale 0.5
+}
+GenericEntity : "{5677D44B6EDC058D}Prefabs/Military/Compositions/USSR/ArsenalBox_MONO.et" {
+ coords 5637.422 302.23 34.819
 }
 $grp SCR_DestructibleBuildingEntity : "{7720B78DED8FAB50}Prefabs/Perimetr/wall_perimetr.et" {
  {
@@ -436,6 +447,9 @@ $grp SCR_DestructibleBuildingEntity : "{7720B78DED8FAB50}Prefabs/Perimetr/wall_p
   angles 0 -0.525 0
  }
 }
+GenericEntity : "{AB7C01A5B2F98281}Prefabs/Military/Compositions/USSR/ArsenalBox_FREEDOM.et" {
+ coords 5637.396 302.222 42.381
+}
 GenericEntity : "{AD59EDEAA26CE792}Prefabs/Props/Military/Compositions/USSR/ArsenalBox_USSR.et" {
  coords 5633.406 302.222 42.104
  angles 0 -90 0
@@ -443,6 +457,14 @@ GenericEntity : "{AD59EDEAA26CE792}Prefabs/Props/Military/Compositions/USSR/Arse
 GenericEntity : "{B53B98CEA2D72735}Prefabs/Props/Military/Compositions/FIA/ArsenalBox_FIA.et" {
  coords 5633.049 302.222 35.238
  angles 0 90 0
+}
+GenericEntity : "{CF32C3AACAD2FFAA}Prefabs/Military/Compositions/USSR/ArsenalBox_ADMIN.et" {
+ coords 5617.017 302.223 38.775
+ angles 0 90 0
+}
+GenericEntity : "{D8AE29ACE1733592}Prefabs/Military/Compositions/USSR/ArsenalBox_SBU.et" {
+ coords 5639.747 302.222 40.791
+ angles 0 -96.631 0
 }
 GenericEntity : "{F542F974956C255F}Prefabs/Props/Military/Compositions/CIV/ArsenalBox_CIV.et" {
  coords 5633.249 302.222 39.954
