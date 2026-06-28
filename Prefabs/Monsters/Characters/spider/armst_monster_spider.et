@@ -2,7 +2,7 @@ Armst_Monster_Character : "{3D72793360D42623}622120A5448725E3/Prefabs/Characters
  ID "520EC961A090B1EE"
  components {
   ARMST_Monster_MeleeComponent "{520EA1D2F659C85E}" {
-   m_fMonsterDamage 15
+   m_fMonsterDamage 10
   }
   SCR_CharacterDamageManagerComponent "{55872AD7B4E959F2}" {
    "Additional hit zones" {

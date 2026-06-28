@@ -22,6 +22,7 @@ SCR_DestructibleBuildingEntity {
    Static 1
   }
   SCR_DestructibleBuildingComponent "{69AF7E048BDC0401}" {
+   Enabled 0
    "Additional hit zones" {
     SCR_HitZone Default {
      HZDefault 1
@@ -268,6 +269,7 @@ SCR_DestructibleBuildingEntity {
    Prefab "{5BEE500C74285F9B}Prefabs/Structures/BuildingParts/Windows/Win_Soviet_E_A/Win_Soviet_A_195x142_3_B.et"
   }
  }
+ m_fMinUndamagedThreshold 1000000
  {
   StaticModelEntity : "{05385E02D9695254}Prefabs/Decals/Miscellaneous/Texts/Decal_SovietWarnings_01/Decal_SovietWarnings_01_guardpost.et" {
    coords -12.2 4.001 3.123
