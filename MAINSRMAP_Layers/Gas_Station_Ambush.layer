@@ -139,13 +139,12 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
  zombie43 {
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
-    m_InitialSpawnDelay 30
-    m_CheckInterval 249
+    m_InitialSpawnDelay 50
     m_CheckPlayerRadius 29
-    m_SpawnChance 52
-    m_FailedSpawnDelay 1091
-    m_PlayerDetectionRadius 197
-    m_RespawnDelayAfterDelete 3152
+    m_SpawnChance 40
+    m_FailedSpawnDelay 1277
+    m_PlayerDetectionRadius 152
+    m_RespawnDelayAfterDelete 4426
     m_SpawnGroups {
      "{AA31A2A6BD9679D4}Configs/GAME_SETTING/BOTS/ALIFE/mutants/zombie.conf"
     }
@@ -161,13 +160,12 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
  zombie44 {
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
-    m_InitialSpawnDelay 30
-    m_CheckInterval 249
+    m_InitialSpawnDelay 50
     m_CheckPlayerRadius 29
-    m_SpawnChance 52
-    m_FailedSpawnDelay 1091
-    m_PlayerDetectionRadius 197
-    m_RespawnDelayAfterDelete 3152
+    m_SpawnChance 40
+    m_FailedSpawnDelay 1277
+    m_PlayerDetectionRadius 152
+    m_RespawnDelayAfterDelete 4426
     m_SpawnGroups {
      "{AA31A2A6BD9679D4}Configs/GAME_SETTING/BOTS/ALIFE/mutants/zombie.conf"
     }
