@@ -6,7 +6,7 @@ GenericEntity : "{2E48D4FB4D103DFD}Prefabs/LOOT_BOX/base/Body/base.et" {
     "AMMOS" "FOODS" "MEDICINES" "TOOLS" "ELECTRONICS" "TRASH" "KEYS" "NONE" "OTHERS"
    }
    m_LootTiersSpawn {
-    ""
+    "" "TIER_2"
    }
   }
  }

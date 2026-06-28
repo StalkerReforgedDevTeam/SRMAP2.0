@@ -686,17 +686,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   m_DamagePsyLevel 6
  }
  {
-  coords 3298.66 312.522 2928.937
-  scale 1.08
-  SphereRadius 24.9
-  m_DamagePsyLevel 7
- }
- {
-  coords 3154.95 304.702 2654.53
-  SphereRadius 378.4
-  m_DamagePsyLevel 6
- }
- {
   coords 2105.479 294.21 3427.97
   SphereRadius 223.9
   m_DamagePsyLevel 6
