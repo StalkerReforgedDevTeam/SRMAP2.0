@@ -1934,6 +1934,24 @@ StaticModelEntity : "{7F9B0D02E266D369}Prefabs/Structures/Debris/Debris_HouseVil
  coords 1475.779 291.149 1932.295
  angles 0 -10.52 0
 }
+$grp GenericEntity : "{8703D964AC15EA53}PrefabsEditable/E_Identity_Selector.et" {
+ {
+  coords 5272.542 302.543 63.636
+  angles 0 115.691 -0.952
+ }
+ {
+  coords 5328.073 302.837 60.469
+ }
+ {
+  coords 5417.391 302.245 58.519
+ }
+ {
+  coords 5486.413 302.67 48.037
+ }
+ {
+  coords 5546.622 303.242 43.874
+ }
+}
 GenericEntity : "{89B5E4FFF711EBEC}Prefabs/Compositions/Misc/SubCompositions/EquipmentBoxStacked_Cluttered_US_01.et" {
  coords 1458.739 291.358 1938.512
  angles 1.01 -5.403 -0.091
