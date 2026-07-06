@@ -2928,6 +2928,16 @@ GenericEntity : "{78AAA6575E980AE4}Prefabs/Structures/BuildingParts/Doors/DoorSe
  }
  coords 3830.511 311.43 342.266
  angles 0 1.661 0
+ {
+  GenericEntity {
+   ID "568ABA5656ABBD13"
+   components {
+    DoorComponent "{221C667A9F7D4B69}" {
+     Enabled 1
+    }
+   }
+  }
+ }
 }
 $grp GenericEntity : "{7AF4B627D5C90235}Prefabs/Props/Military/Sandbags/Sandbag_01_round_high_burlap.et" {
  {
@@ -3287,11 +3297,11 @@ GenericEntity : "{937999008F178E82}Prefabs/Props/Military/Sandbags/Sandbag_01_sh
 }
 $grp GenericEntity : "{942A96E02BC7AFA6}Prefabs/Items/Equipment/Maps/Map_Paper_01/Map_Paper_01_unfolded_table_USSR.et" {
  Map_Paper_01_unfolded_table_USSR_69B2C4713D433F9F {
-  coords 3825.442 311.605 337.254
+  coords 3825.442 311.627 337.254
   angles 0 176.265 0
  }
  Map_Paper_01_unfolded_table_USSR_69B2C470B9B52D7E {
-  coords 3824.662 311.605 334.841
+  coords 3824.662 311.623 334.841
   angles 0 -3.905 0
  }
 }
