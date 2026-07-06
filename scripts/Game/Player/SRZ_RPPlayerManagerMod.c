@@ -1,23 +1,30 @@
 modded class SCR_EditableCharacterComponent
 {
-    //------------------------------------------------------------------------------------------------
-    override string GetDisplayName()
-    {
-        string baseName = super.GetDisplayName();
+	//------------------------------------------------------------------------------------------------
+	override string GetDisplayName()
+	{
+		int playerId = GetPlayerID();
+		if (playerId <= 0)
+			return super.GetDisplayName();
 
-        int playerId = GetPlayerID();
-        if (playerId <= 0)
-            return baseName;
+		PlayerManager pm = GetGame().GetPlayerManager();
+		if (!pm)
+			return super.GetDisplayName();
 
-        SRZ_RPNameProfileManager profileMgr = SRZ_RPNameProfileManager.GetInstance();
-        if (!profileMgr)
-            return baseName;
+		// Pull the real Gamertag directly, bypassing the ARMST-modded
+		// GetPlayerDisplayName (which returns the RP name instead of the Gamertag)
+		string gamertag = pm.GetPlayerName(playerId);
+		if (gamertag.IsEmpty())
+			return super.GetDisplayName();
 
-        string rpName = profileMgr.GetNameForPlayer(playerId);
+		SRZ_RPNameProfileManager profileMgr = SRZ_RPNameProfileManager.GetInstance();
+		if (!profileMgr)
+			return gamertag;
 
-        if (rpName.IsEmpty())
-            return baseName;
+		string rpName = profileMgr.GetNameForPlayer(playerId);
+		if (rpName.IsEmpty())
+			return gamertag;
 
-        return string.Format("%1 (%2)", baseName, rpName);
-    }
+		return string.Format("%1 (%2)", gamertag, rpName);
+	}
 }

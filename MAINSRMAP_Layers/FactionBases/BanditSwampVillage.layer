@@ -154,10 +154,11 @@ $grp GenericEntity {
        "Default"
       }
       Duration 5
-      m_sTeleportActionName "x014"
+      m_sTeleportActionName "XZ-01"
       m_sTeleportTarget "enter_perimetr8"
       m_fTeleportDelay 1
       m_fTeleportRadius 3
+      m_FactionNeed FACTION_ARMY
       m_sRequiredItem ""
      }
      ARMST_TELEPORT_ACTIONS "{699B5A32AD1E7839}" {
@@ -215,7 +216,7 @@ $grp GenericEntity {
       m_sTeleportTarget "enter_perimetr9"
       m_fTeleportDelay 1
       m_fTeleportRadius 3
-      m_FactionNeed FACTION_ARMY
+      m_FactionNeed FACTION_MUTANTS
       m_sRequiredItem ""
      }
     }
