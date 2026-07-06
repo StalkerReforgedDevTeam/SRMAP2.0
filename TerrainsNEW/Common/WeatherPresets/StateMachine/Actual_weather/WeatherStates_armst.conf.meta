@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{5BDC4BDAE66B7581}TerrainsNEW/Common/WeatherPresets/StateMachine/Actual_weather/WeatherStates_armst.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}
