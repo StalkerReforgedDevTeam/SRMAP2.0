@@ -198711,11 +198711,11 @@ $grp GameEntity : "{E7FD0B8019E96F73}Prefabs/Structures/BuildingParts/Lights/Lam
   }
  }
  {
-  coords 4134.938 313.593 682.244
+  coords 4135.948 312.176 683.775
   angles 0 -170.612 0
   {
    LightEntity : "{94E574957C0BA1FD}Prefabs/lights/LampStreet_E_03_light.et" {
-    coords 0.005 0.026 0.598
+    coords 0.004 0.026 0.598
     angles -27.154 3.672 2.27
    }
   }
