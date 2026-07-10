@@ -121975,6 +121975,11 @@ $grp GenericEntity : "{801E1CA69F368C44}Prefabs/Structures/Civilian/ClotheslineF
 }
 $grp GenericEntity : "{8024E18420C2E39F}Prefabs/Industrial/undeground/basement_trades.et" {
  {
+  components {
+   SCR_DestructionDamageManagerComponent "{69D427C517F55265}" {
+    Enabled 0
+   }
+  }
   coords 4152.388 309.3 704.74
   angles 0 -49.883 0
   {
