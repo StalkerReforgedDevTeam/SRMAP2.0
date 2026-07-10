@@ -2,7 +2,7 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
  boar43 {
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
-    m_InitialSpawnDelay 50
+    m_InitialSpawnDelay 15
     m_CheckPlayerRadius 29
     m_SpawnChance 40
     m_FailedSpawnDelay 1277
@@ -18,9 +18,9 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
  psy_destroyer13 {
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
-    m_InitialSpawnDelay 50
+    m_InitialSpawnDelay 15
     m_CheckPlayerRadius 29
-    m_SpawnChance 40
+    m_SpawnChance 100
     m_FailedSpawnDelay 1277
     m_PlayerDetectionRadius 152
     m_RespawnDelayAfterDelete 4426
@@ -36,9 +36,9 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
  zombie9 {
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
-    m_InitialSpawnDelay 50
+    m_InitialSpawnDelay 15
     m_CheckPlayerRadius 29
-    m_SpawnChance 40
+    m_SpawnChance 100
     m_FailedSpawnDelay 1277
     m_PlayerDetectionRadius 152
     m_RespawnDelayAfterDelete 4426
@@ -53,9 +53,9 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
  zombie42 {
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
-    m_InitialSpawnDelay 50
+    m_InitialSpawnDelay 15
     m_CheckPlayerRadius 29
-    m_SpawnChance 40
+    m_SpawnChance 100
     m_FailedSpawnDelay 1277
     m_PlayerDetectionRadius 152
     m_RespawnDelayAfterDelete 4426
@@ -70,9 +70,9 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
  erb27 {
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
-    m_InitialSpawnDelay 50
+    m_InitialSpawnDelay 15
     m_CheckPlayerRadius 29
-    m_SpawnChance 40
+    m_SpawnChance 75
     m_FailedSpawnDelay 1277
     m_PlayerDetectionRadius 152
     m_RespawnDelayAfterDelete 4426
@@ -91,9 +91,9 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
  erb28 {
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
-    m_InitialSpawnDelay 50
+    m_InitialSpawnDelay 15
     m_CheckPlayerRadius 29
-    m_SpawnChance 40
+    m_SpawnChance 75
     m_FailedSpawnDelay 1277
     m_PlayerDetectionRadius 152
     m_RespawnDelayAfterDelete 4426
@@ -146,7 +146,7 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
  wolfs46 {
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
-    m_InitialSpawnDelay 50
+    m_InitialSpawnDelay 15
     m_CheckPlayerRadius 29
     m_SpawnChance 40
     m_FailedSpawnDelay 1277
@@ -163,9 +163,9 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
  erb29 {
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
-    m_InitialSpawnDelay 50
+    m_InitialSpawnDelay 15
     m_CheckPlayerRadius 29
-    m_SpawnChance 40
+    m_SpawnChance 100
     m_FailedSpawnDelay 1277
     m_PlayerDetectionRadius 152
     m_RespawnDelayAfterDelete 4426
@@ -221,9 +221,9 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
  boar46 {
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
-    m_InitialSpawnDelay 50
+    m_InitialSpawnDelay 15
     m_CheckPlayerRadius 29
-    m_SpawnChance 40
+    m_SpawnChance 50
     m_FailedSpawnDelay 1277
     m_PlayerDetectionRadius 152
     m_RespawnDelayAfterDelete 4426
@@ -237,9 +237,9 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
  boar47 {
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
-    m_InitialSpawnDelay 50
+    m_InitialSpawnDelay 15
     m_CheckPlayerRadius 29
-    m_SpawnChance 40
+    m_SpawnChance 50
     m_FailedSpawnDelay 1277
     m_PlayerDetectionRadius 152
     m_RespawnDelayAfterDelete 4426
@@ -276,7 +276,7 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
     m_InitialSpawnDelay 50
     m_CheckPlayerRadius 29
-    m_SpawnChance 40
+    m_SpawnChance 50
     m_FailedSpawnDelay 1277
     m_PlayerDetectionRadius 152
     m_RespawnDelayAfterDelete 4426
@@ -295,9 +295,9 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
  erb22 {
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
-    m_InitialSpawnDelay 50
+    m_InitialSpawnDelay 15
     m_CheckPlayerRadius 29
-    m_SpawnChance 40
+    m_SpawnChance 50
     m_FailedSpawnDelay 1277
     m_PlayerDetectionRadius 152
     m_RespawnDelayAfterDelete 4426
@@ -337,9 +337,9 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
  boar28 {
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
-    m_InitialSpawnDelay 50
+    m_InitialSpawnDelay 15
     m_CheckPlayerRadius 29
-    m_SpawnChance 40
+    m_SpawnChance 50
     m_FailedSpawnDelay 1277
     m_PlayerDetectionRadius 152
     m_RespawnDelayAfterDelete 4426
@@ -354,7 +354,7 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
  boar30 {
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
-    m_InitialSpawnDelay 50
+    m_InitialSpawnDelay 15
     m_CheckPlayerRadius 29
     m_SpawnChance 40
     m_FailedSpawnDelay 1277
