@@ -130429,27 +130429,6 @@ $grp GenericEntity : "{8D00B5D8C8113FCD}Prefabs/Vehicles/zil131/armst_zil131_big
   }
  }
  {
-  coords 4031.685 306.772 568.68
-  angles -0.537 66.428 -1.231
-  {
-   GenericEntity {
-    ID "62CE6933EBA27D59"
-    {
-     GenericEntity {
-      ID "695EA189FF2990DE"
-      components {
-       ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-        m_LootTiersSpawn {
-         "TIER_2"
-        }
-       }
-      }
-     }
-    }
-   }
-  }
- }
- {
   coords 4111.449 303.454 2582.007
   angles -2.664 45.953 125.472
   {
@@ -166997,27 +166976,6 @@ $grp GenericEntity : "{BD302C3A6EBC19D9}Prefabs/Vehicles/zil131/armst_zil131_box
  {
   coords 3243.317 308.936 1010.282
   angles -3.075 -107.642 0.271
-  {
-   GenericEntity {
-    ID "62CE6930B16402BA"
-    {
-     GenericEntity {
-      ID "695EA189EA47F72B"
-      components {
-       ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-        m_LootTiersSpawn {
-         "TIER_2"
-        }
-       }
-      }
-     }
-    }
-   }
-  }
- }
- {
-  coords 1967.931 292.173 764.017
-  angles 0 -54.462 -100.141
   {
    GenericEntity {
     ID "62CE6930B16402BA"

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{C3CB1EBA3CA36327}Configs/GAME_SETTING/DIALOGS/QUESTS/QUEST_INSERT_FACTION.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

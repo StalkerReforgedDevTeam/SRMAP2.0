@@ -29,8 +29,9 @@ $grp GenericEntity {
       Duration 5
       m_sTeleportActionName "Shant City"
       m_sTeleportTarget "enter_perimetr3"
-      m_fTeleportDelay 1
+      m_fTeleportDelay 3
       m_fTeleportRadius 3
+      m_FactionNeed FACTION_BANDIT
       m_sRequiredItem ""
      }
      ARMST_TELEPORT_ACTIONS "{699B5A32AD1E7839}" {
