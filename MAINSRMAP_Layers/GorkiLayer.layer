@@ -1071,8 +1071,8 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_MinDistanceBetweenAnomalies 10
   m_CenterBias 0.5
   m_MinDistanceToPlayer 25
-  m_SpawnChanceArtefactsRestart 9.84
-  m_SpawnChanceArtefacts 9.84
+  m_SpawnChanceArtefactsRestart 20.22
+  m_SpawnChanceArtefacts 20.77
  }
  ELECTRO_ANOMALY30 {
   coords 2949.195 304.702 2665.001
@@ -1086,8 +1086,8 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_MinDistanceBetweenAnomalies 10
   m_CenterBias 0.5
   m_MinDistanceToPlayer 25
-  m_SpawnChanceArtefactsRestart 9.84
-  m_SpawnChanceArtefacts 9.84
+  m_SpawnChanceArtefactsRestart 20.22
+  m_SpawnChanceArtefacts 20.77
  }
  ELECTRO_ANOMALY31 {
   coords 2971.467 304.702 2677.166
@@ -1101,8 +1101,8 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_MinDistanceBetweenAnomalies 10
   m_CenterBias 0.5
   m_MinDistanceToPlayer 25
-  m_SpawnChanceArtefactsRestart 9.84
-  m_SpawnChanceArtefacts 9.84
+  m_SpawnChanceArtefactsRestart 20.22
+  m_SpawnChanceArtefacts 20.77
  }
  ELECTRO_ANOMALY32 {
   coords 2992.219 304.702 2670.162
@@ -1116,8 +1116,8 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_MinDistanceBetweenAnomalies 10
   m_CenterBias 0.5
   m_MinDistanceToPlayer 25
-  m_SpawnChanceArtefactsRestart 9.84
-  m_SpawnChanceArtefacts 9.84
+  m_SpawnChanceArtefactsRestart 20.22
+  m_SpawnChanceArtefacts 20.77
  }
 }
 SCR_DestructibleBuildingEntity : "{777E80AFDC98395B}Prefabs/Props/Wrecks/ShipWreckMetal_02/ShipWreckMetal_02_base.et" {
