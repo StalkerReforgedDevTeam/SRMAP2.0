@@ -34815,7 +34815,7 @@ $grp StaticModelEntity : "{2CF6244D6C76F560}Prefabs/Terrain/Erosion/ErodedEmbank
   scale 3.671
  }
  {
-  coords 3833.823 303.919 433.737
+  coords 3833.774 301.542 436.296
   angles 2.667 -179.455 1.813
   scale 3.671
  }
@@ -108687,10 +108687,6 @@ $grp SCR_DestructibleBuildingEntity : "{7720B78DED8FAB50}Prefabs/Perimetr/wall_p
   angles 0 -92.913 0
  }
  {
-  coords 3817.234 307.146 419.012
-  angles 0 1.408 0
- }
- {
   coords 2951.818 305.535 785.945
   angles 0 -172.488 0
  }
@@ -128811,38 +128807,21 @@ GenericEntity : "{8B2C4E871E57D6A4}Prefabs/Props/Commercial/ShelfShop_02/ShelfSh
  angles 0.574 -55.728 -0.835
  scale 1.14
 }
-$grp GenericEntity : "{8B3C689CC50F4825}Prefabs/Structures/BuildingParts/Doors/Door_MetalGate_04_LEFT_EXT_ST_B.et" {
- {
-  components {
-   DoorComponent "{221C667A9F7D4B69}" {
-    DoorAction SCR_DoorUserAction "{50888D3646A61640}" {
-     m_FactionKey FACTION_ARMY
-    }
-    OpenTime 8
-    AngleRange -80
+GenericEntity : "{8B3C689CC50F4825}Prefabs/Structures/BuildingParts/Doors/Door_MetalGate_04_LEFT_EXT_ST_B.et" {
+ components {
+  DoorComponent "{221C667A9F7D4B69}" {
+   DoorAction SCR_DoorUserAction "{50888D3646A61640}" {
+    m_FactionKey FACTION_ARMY
    }
-   SCR_DestructionMultiPhaseComponent "{5A6A8DFD1C32303C}" {
-    Enabled 0
-   }
+   OpenTime 8
+   AngleRange -80
   }
-  coords 1206.413 307.574 555.289
-  angles 0 -52.123 0
- }
- {
-  components {
-   DoorComponent "{221C667A9F7D4B69}" {
-    DoorAction SCR_DoorUserAction "{50888D3646A61640}" {
-     m_FactionKey FACTION_ARMY
-    }
-    OpenTime 8
-    AngleRange -80
-   }
-   SCR_DestructionMultiPhaseComponent "{5A6A8DFD1C32303C}" {
-    Enabled 0
-   }
+  SCR_DestructionMultiPhaseComponent "{5A6A8DFD1C32303C}" {
+   Enabled 0
   }
-  coords 3799.81 306.785 418.55
  }
+ coords 1206.413 307.574 555.289
+ angles 0 -52.123 0
 }
 $grp SCR_DestructibleEntity : "{8B4B7B5842D5C255}Prefabs/Structures/Walls/Net/NetFence_05/NetFence_05_short_6m_V1.et" {
  {
@@ -160069,6 +160048,24 @@ $grp GenericEntity : "{B423187F6C8DEFFD}Prefabs/Compositions/Misc/SubComposition
  }
  {
   coords 5796.409 319.452 2087.023
+  {
+   GenericEntity {
+    ID "5CB0D990CB813AA7"
+    coords 0.466 1.155 0.41
+   }
+   GenericEntity {
+    ID "5CB0D990CB813A99"
+    coords -0.204 1.156 0.322
+   }
+   GenericEntity {
+    ID "5CB0D990CB813A9D"
+    coords 0.156 2.12 0.414
+   }
+   GenericEntity {
+    ID "5CB0D990CB813AA2"
+    coords 0.626 1.332 0.941
+   }
+  }
  }
  {
   coords 2318.187 312.786 2528.723
@@ -166664,39 +166661,21 @@ GenericEntity : "{BD04CAACD8066E52}Prefabs/posters/Poster_6.et" {
  coords 6142.919 309.359 1630.206
  angles 0 63.114 0
 }
-$grp GenericEntity : "{BD160EAFE18E1D89}Prefabs/Structures/BuildingParts/Doors/Door_MetalGate_04_RIGHT_EXT_ST_B.et" {
- {
-  components {
-   DoorComponent "{221C667A9F7D4B69}" {
-    DoorAction SCR_DoorUserAction "{50888D3646A61640}" {
-     m_FactionKey FACTION_ARMY
-    }
-    OpenTime 8
-    AngleRange 80
+GenericEntity : "{BD160EAFE18E1D89}Prefabs/Structures/BuildingParts/Doors/Door_MetalGate_04_RIGHT_EXT_ST_B.et" {
+ components {
+  DoorComponent "{221C667A9F7D4B69}" {
+   DoorAction SCR_DoorUserAction "{50888D3646A61640}" {
+    m_FactionKey FACTION_ARMY
    }
-   SCR_DestructionMultiPhaseComponent "{5A6A8DFD7543291D}" {
-    Enabled 0
-   }
+   OpenTime 8
+   AngleRange 80
   }
-  coords 1211.209 307.574 561.454
-  angles 0 127.877 0
- }
- {
-  components {
-   DoorComponent "{221C667A9F7D4B69}" {
-    DoorAction SCR_DoorUserAction "{50888D3646A61640}" {
-     m_FactionKey FACTION_ARMY
-    }
-    OpenTime 8
-    AngleRange 80
-   }
-   SCR_DestructionMultiPhaseComponent "{5A6A8DFD7543291D}" {
-    Enabled 0
-   }
+  SCR_DestructionMultiPhaseComponent "{5A6A8DFD7543291D}" {
+   Enabled 0
   }
-  coords 3807.702 306.785 418.55
-  angles 0 -180 0
  }
+ coords 1211.209 307.574 561.454
+ angles 0 127.877 0
 }
 $grp StaticModelEntity : "{BD1C008EC2D79A2F}Prefabs/Structures/BuildingParts/Doors/DoorSet_MetalGate_01_Short.et" {
  {

@@ -3769,11 +3769,6 @@ $grp GenericEntity : "{AE0FFC699F429214}Prefabs/Props/Military/Camps/PalletAmmo_
 }
 $grp SCR_DestructibleBuildingEntity : "{B1D7DA05DE5D73F4}Prefabs/Structures/Walls/Concrete/ConcreteRetainingWall_02/ConcreteRetainingWall_02_V1_8m_grass.et" {
  {
-  coords 3818.101 306.702 413.899
-  angles 0 -0.489 0
-  scale 2.19
- }
- {
   coords 3783.428 306.702 410.924
   angles 0 -88.76 0
   scale 2.19
@@ -4626,14 +4621,9 @@ $grp GenericEntity : "{CAE986C2BF5D5859}Prefabs/Props/Industrial/CargoContainers
  }
 }
 GenericEntity : "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et" {
- coords 3786.025 317.006 407.047
- angles 41.022 15.46 -15.75
+ coords 3786.025 315.676 407.047
+ angles 0.101 25.221 -5.503
  scale 1.2
-}
-SCR_DestructibleEntity : "{D50A0255E3EB8CCF}Prefabs/Structures/Walls/Concrete/ConcreteWall_02/ConcreteWall_02_V1_4m.et" {
- coords 3817.522 1.262 408.502
- angles 0 -0.489 0
- scale 4.108
 }
 GenericEntity : "{D6EA45FE51108ADC}Prefabs/Structures/BuildingParts/Eletrical/ElectricCabinetInterior_02.et" {
  coords 5344.136 290.563 577.796
