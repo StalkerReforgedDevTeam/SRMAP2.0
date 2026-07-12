@@ -1854,6 +1854,11 @@ GenericEntity : "{4AD721AB942C260A}Prefabs/Props/Decorations/Paintings/PaintingO
  coords 1466.106 292.345 1937.947
  angles 87.906 -155.469 -155.528
 }
+GenericEntity : "{4E4475A7D8DABCD5}Prefabs/Structures/BuildingParts/Doors/Door_Barracks_E_01/Door_Barracks_RIGHT_EXT_ST_M2.et" {
+ coords 1454.831 294.976 1930.302
+ angles 0 85.723 0
+ scale 1.1
+}
 GenericEntity : "{4FB7D30973792E06}Prefabs/Props/Recreation/Beach/PedalBoat_01/Dst/PedalBoat_01_Dst_01_blue.et" {
  coords 1454.599 290.841 1951.444
  angles -20.637 0 0
@@ -2729,6 +2734,18 @@ $grp GenericEntity : "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_0
  {
   coords 1487.796 291.011 1942.861
   angles 0.539 85.725 -0.34
+ }
+ {
+  coords 1458.741 298.515 1931.461
+  angles 0 0 12.387
+ }
+ {
+  coords 1458.203 298.557 1934.823
+  angles 9.449 -94.273 -0.917
+ }
+ {
+  coords 1455.222 299.017 1936.244
+  angles 0.624 -2.437 9.018
  }
 }
 GenericEntity : "{CDD5AD484A5FE98E}Prefabs/Props/Garbage/Cardboard/Cardboard_Pile_base.et" {
