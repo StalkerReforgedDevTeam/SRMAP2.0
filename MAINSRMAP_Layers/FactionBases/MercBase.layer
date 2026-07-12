@@ -339,6 +339,7 @@ SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Buil
    CastFarShadow 0
   }
   SCR_DestructibleBuildingComponent "{6686C04FF97C0D34}" : "{809BE3CAD3BB1141}Prefabs/Structures/Core/Destruction/DestructibleBuildingComponent_Brick_Huge.ct" {
+   Enabled 0
    m_aEffects {
     SCR_TimedPrefab Prefab_Ruins_01 {
      m_sRuinsPrefab "{5C7CEAFDFC51355A}Prefabs/Structures/Industrial/Silos/CoalSilo_01/Dst/CoalSilo_01_Ruin.et"
