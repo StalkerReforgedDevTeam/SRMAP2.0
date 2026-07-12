@@ -3038,7 +3038,7 @@ $grp GenericEntity : "{53DE322CC9306A58}Prefabs/Perimetr/wall_invisible.et" {
  }
 }
 GenericEntity : "{56168C119BAE6211}Prefabs/Structures/Military/Bunkers/ShelterMilitary_E_01/ShelterMilitary_E_01_furniture_01.et" {
- coords 4865.196 312.159 1350.499
+ coords 4865.196 311.39 1350.499
  {
   GenericEntity {
    ID "59C27030859B4301"
@@ -3072,6 +3072,96 @@ GenericEntity : "{56168C119BAE6211}Prefabs/Structures/Military/Bunkers/ShelterMi
   GenericEntity {
    ID "59C27030859A80B1"
    coords 2.674 -245.443 1.683
+  }
+  GenericEntity {
+   ID "59C27030859B4341"
+   coords 1.68 0 -2.404
+   angles 0 77 0
+  }
+  GenericEntity {
+   ID "59C27030859B434E"
+   coords 4.599 0 -3.274
+   angles 0 177 0
+  }
+  GenericEntity {
+   ID "59C27030859BC9AE"
+   coords 3.715 0 -3.303
+   angles 0 -4.886 0
+   {
+    GenericEntity {
+     ID "59C27030859B40A8"
+     coords 0.15 0 0.272
+     angles 0 47.886 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "59C27030859B436C"
+   coords 2.194 -0.769 1.435
+   angles 0 -179 0
+  }
+  GenericEntity {
+   ID "59C27030859A804C"
+   coords 3.726 -0.769 1.19
+   angles 0 180 0
+   {
+    GenericEntity {
+     ID "59C27030859A804D"
+     coords 0.874 0.988 0.352
+     angles 0 0 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "59C27030859A802C"
+   coords -1.045 0 -2.487
+  }
+  GenericEntity {
+   ID "59C27030859A81F3"
+   coords 1.3 0 -3.508
+   angles 0 180 0
+  }
+  GenericEntity {
+   ID "59C27030859A803A"
+   coords -2.434 -0.03 -3.199
+  }
+  GenericEntity {
+   ID "59C27030859A8061"
+   coords -2.449 -0.008 -1.842
+   angles 0 90 0
+  }
+  GenericEntity {
+   ID "59C27030859A8015"
+   coords -1.136 0 -3.505
+  }
+  GenericEntity {
+   ID "59C27030859A81E3"
+   coords 2.597 0 -3.423
+   angles 0 175 0
+  }
+  GenericEntity {
+   ID "59C27030859B431D"
+   coords -2.143 0 -1.394
+   angles 0 80 0
+  }
+  GenericEntity {
+   ID "59C27030859A8007"
+   coords 0.114 0 -3.498
+   angles 0 180 0
+  }
+  GenericEntity {
+   ID "59C27030859BC9BD"
+   coords 4.843 0 -2.047
+   angles 0 -1 0
+  }
+  GenericEntity {
+   ID "59C27030859BC98A"
+   coords -3.228 -0.031 -3.609
+  }
+  GenericEntity {
+   ID "59C27030859A81C3"
+   coords 0.333 0 -2.492
+   angles 0 180 0
   }
  }
 }
