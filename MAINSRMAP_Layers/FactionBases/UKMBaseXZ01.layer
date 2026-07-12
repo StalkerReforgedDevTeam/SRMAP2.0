@@ -2117,12 +2117,12 @@ GenericEntity : "{550F8F2E909797FD}Prefabs/Structures/Infrastructure/Naval/Piers
 }
 $grp SCR_DestructibleEntity : "{559D2FB1A54441E7}Prefabs/Structures/Walls/Pipe/PipeRailing_02/PipeRailing_02_base.et" {
  {
-  coords 3816.617 9.049 416.261
+  coords 3817.658 8.986 412.946
   angles 0 -88.76 0
   scale 0.631
  }
  {
-  coords 3816.653 9.089 417.911
+  coords 3817.694 9.009 414.596
   angles 0 91.24 0
   scale 0.631
  }
@@ -2155,9 +2155,15 @@ GenericEntity : "{5E317DC74EA1F1A4}Prefabs/Props/Forest/WoodPile/WoodLog_01_B.et
  coords 3878.792 306.711 368.707
  angles 90 -180 -180
 }
-SCR_DestructibleBuildingEntity : "{684D4BFDA08661FB}Prefabs/Perimetr/wall_perimetr_big.et" {
- coords 3822.406 301.486 419.573
- angles 0 -0.489 0
+$grp SCR_DestructibleBuildingEntity : "{684D4BFDA08661FB}Prefabs/Perimetr/wall_perimetr_big.et" {
+ {
+  coords 3822.406 301.486 419.573
+  angles 0 -0.489 0
+ }
+ {
+  coords 3820.986 301.486 419.561
+  angles 0 -0.489 0
+ }
 }
 $grp GenericEntity : "{6C935C56DF9F168C}Prefabs/Structures/BuildingParts/Doors/Door_MetalGate_05/DoorFrame_MetalGate_05.et" {
  {
@@ -2974,37 +2980,20 @@ GenericEntity : "{866B1E9D6EBC9DEE}Prefabs/Props/Signs/Industrial/SignIndustrial
  coords 3800.241 307.154 439.406
  angles 0 163.983 0
 }
-$grp SCR_DestructibleEntity : "{879865F07EA907B0}Prefabs/Structures/Walls/Concrete/ConcreteWall_02/ConcreteWall_02_4m.et" {
- {
-  components {
-   MeshObject "{56DE7C8DCD0F4E0A}" {
-    Materials {
-     MaterialAssignClass "{68C90893326E45F7}" {
-      SourceMaterial "ConcreteRetainingWall_02"
-      AssignedMaterial "{D4D99729940B0FA3}Assets/Structures/Walls/Concrete/Data/ConcreteRetainingWall_02_01.emat"
-     }
+SCR_DestructibleEntity : "{879865F07EA907B0}Prefabs/Structures/Walls/Concrete/ConcreteWall_02/ConcreteWall_02_4m.et" {
+ components {
+  MeshObject "{56DE7C8DCD0F4E0A}" {
+   Materials {
+    MaterialAssignClass "{68C90893326E45F7}" {
+     SourceMaterial "ConcreteRetainingWall_02"
+     AssignedMaterial "{D4D99729940B0FA3}Assets/Structures/Walls/Concrete/Data/ConcreteRetainingWall_02_01.emat"
     }
    }
   }
-  coords 3789.987 8.427 417.211
-  angles 89.966 0 -91.272
-  scale 0.52
  }
- {
-  components {
-   MeshObject "{56DE7C8DCD0F4E0A}" {
-    Materials {
-     MaterialAssignClass "{68C90893326E45F7}" {
-      SourceMaterial "ConcreteRetainingWall_02"
-      AssignedMaterial "{D4D99729940B0FA3}Assets/Structures/Walls/Concrete/Data/ConcreteRetainingWall_02_01.emat"
-     }
-    }
-   }
-  }
-  coords 3817.633 8.789 417.126
-  angles 89.96 30.243 -151.272
-  scale 0.52
- }
+ coords 3789.987 8.427 417.211
+ angles 89.966 0 -91.272
+ scale 0.52
 }
 GenericEntity : "{890EE5FB23BA713E}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/USSR/EquipmentBoxStack_USSR_01_V2_covered.et" {
  coords 3784.17 315.696 405.931
@@ -6046,116 +6035,6 @@ GenericEntity : "{A48EDE9CBA71B5A3}Prefabs/Props/Military/AmmoBoxes/USSR/Equipme
  coords 3814.809 308.076 279.558
  angles 0 88.01 0
 }
-$grp StaticModelEntity : "{A83906FE9900AD25}Prefabs/Structures/Military/Houses/GuardTower_USSR_01/BuildingAddons/GuardTower_USSR_01_stairs_base.et" {
- {
-  components {
-   MeshObject "{547A8804AA50F719}" {
-    Materials {
-     MaterialAssignClass "{68C908932417DBB8}" {
-      SourceMaterial "Guardtower_S_01"
-      AssignedMaterial "{54FBE15EB9A6BF4F}Assets/Structures/Walls/Pipe/Data/PipeRailing_02.emat"
-     }
-     MaterialAssignClass "{68C908932417DBC8}" {
-      SourceMaterial "Guardtower_S_01_MLOD"
-      AssignedMaterial "{54FBE15EB9A6BF4F}Assets/Structures/Walls/Pipe/Data/PipeRailing_02.emat"
-     }
-    }
-   }
-  }
-  coords 3808.759 315.522 418.069
-  angles 0 179.627 0
- }
- {
-  components {
-   MeshObject "{547A8804AA50F719}" {
-    Materials {
-     MaterialAssignClass "{68C908932417DBB8}" {
-      SourceMaterial "Guardtower_S_01"
-      AssignedMaterial "{54FBE15EB9A6BF4F}Assets/Structures/Walls/Pipe/Data/PipeRailing_02.emat"
-     }
-     MaterialAssignClass "{68C908932417DBC8}" {
-      SourceMaterial "Guardtower_S_01_MLOD"
-      AssignedMaterial "{54FBE15EB9A6BF4F}Assets/Structures/Walls/Pipe/Data/PipeRailing_02.emat"
-     }
-    }
-   }
-  }
-  coords 3808.837 311.413 415.652
-  angles 0 -178.76 0
- }
- {
-  components {
-   MeshObject "{547A8804AA50F719}" {
-    Materials {
-     MaterialAssignClass "{68C908932417DBB8}" {
-      SourceMaterial "Guardtower_S_01"
-      AssignedMaterial "{54FBE15EB9A6BF4F}Assets/Structures/Walls/Pipe/Data/PipeRailing_02.emat"
-     }
-     MaterialAssignClass "{68C908932417DBC8}" {
-      SourceMaterial "Guardtower_S_01_MLOD"
-      AssignedMaterial "{54FBE15EB9A6BF4F}Assets/Structures/Walls/Pipe/Data/PipeRailing_02.emat"
-     }
-    }
-   }
-  }
-  coords 3817.101 315.497 416.265
-  angles 0 -178.76 0
- }
- {
-  components {
-   MeshObject "{547A8804AA50F719}" {
-    Materials {
-     MaterialAssignClass "{68C908932417DBB8}" {
-      SourceMaterial "Guardtower_S_01"
-      AssignedMaterial "{54FBE15EB9A6BF4F}Assets/Structures/Walls/Pipe/Data/PipeRailing_02.emat"
-     }
-     MaterialAssignClass "{68C908932417DBC8}" {
-      SourceMaterial "Guardtower_S_01_MLOD"
-      AssignedMaterial "{54FBE15EB9A6BF4F}Assets/Structures/Walls/Pipe/Data/PipeRailing_02.emat"
-     }
-    }
-   }
-  }
-  coords 3817.024 308.829 412.34
-  angles 0 -178.76 0
- }
- {
-  components {
-   MeshObject "{547A8804AA50F719}" {
-    Materials {
-     MaterialAssignClass "{68C908932417DBB8}" {
-      SourceMaterial "Guardtower_S_01"
-      AssignedMaterial "{54FBE15EB9A6BF4F}Assets/Structures/Walls/Pipe/Data/PipeRailing_02.emat"
-     }
-     MaterialAssignClass "{68C908932417DBC8}" {
-      SourceMaterial "Guardtower_S_01_MLOD"
-      AssignedMaterial "{54FBE15EB9A6BF4F}Assets/Structures/Walls/Pipe/Data/PipeRailing_02.emat"
-     }
-    }
-   }
-  }
-  coords 3817.068 312.166 414.298
-  angles 0 -178.76 0
- }
- {
-  components {
-   MeshObject "{547A8804AA50F719}" {
-    Materials {
-     MaterialAssignClass "{68C908932417DBB8}" {
-      SourceMaterial "Guardtower_S_01"
-      AssignedMaterial "{54FBE15EB9A6BF4F}Assets/Structures/Walls/Pipe/Data/PipeRailing_02.emat"
-     }
-     MaterialAssignClass "{68C908932417DBC8}" {
-      SourceMaterial "Guardtower_S_01_MLOD"
-      AssignedMaterial "{54FBE15EB9A6BF4F}Assets/Structures/Walls/Pipe/Data/PipeRailing_02.emat"
-     }
-    }
-   }
-  }
-  coords 3808.781 312.191 416.102
-  angles 0 179.627 0
- }
-}
 GameEntity : "{AC0FC88DBE628086}Prefabs/Props/Military/AmmoBoxes/AmmoBox_S5_Rocket_USSR/AmmoBox_S5_Rocket_USSR.et" {
  components {
   SignalsManagerComponent "{62B06A3BB20B0A60}" {
@@ -6174,16 +6053,6 @@ $grp StaticModelEntity : "{AD5D1A7FF5FB5FA2}Prefabs/Structures/Military/Fortific
  {
   coords 3790.919 8.352 416.448
   angles -51.957 91.604 -90.114
-  scale 1.409
- }
- {
-  coords 3816.871 8.652 416.194
-  angles -51.903 -178.416 -90.088
-  scale 1.409
- }
- {
-  coords 3816.591 8.683 417.985
-  angles -45.876 -89.979 -89.663
   scale 1.409
  }
 }
@@ -7368,6 +7237,10 @@ $grp SCR_DestructibleEntity : "{E06B2F4B00343A36}Prefabs/Structures/Walls/Barbed
   angles 0 -90 0
  }
 }
+SCR_DestructibleBuildingEntity : "{E1B1FAB63D65EF46}Prefabs/Perimetr/wall_perimetr_gate.et" {
+ coords 3803.738 306.818 419.467
+ scale 0.891
+}
 GenericEntity : "{E4A22C9C10769063}Prefabs/Vehicles/gaz71/BASE_gaz71.et" {
  coords 3813.993 307.141 282.47
  angles 0 180 0
@@ -7554,7 +7427,7 @@ GenericEntity : "{F78F7B2E98A95923}Prefabs/Structures/Debris/ConcreteDebris_01/C
 }
 $grp GameEntity : "{FCC9A062B697948E}Prefabs/Structures/BuildingParts/Ladders/Ladder_Pier_520_B.et" {
  {
-  coords 3817.826 12.87 419.027
+  coords 3816.337 12.844 419.027
   angles 0 -90 0
  }
  {
@@ -7564,10 +7437,6 @@ $grp GameEntity : "{FCC9A062B697948E}Prefabs/Structures/BuildingParts/Ladders/La
  {
   coords 3801.101 3.889 369.016
   angles -1.123 89.988 0.612
- }
- {
-  coords 3780.241 16.296 418.997
-  angles 0.054 90 -0.066
  }
 }
 GenericEntity : "{FD645F5A4C73984A}PrefabLibrary/CainLibrary/Props/Garbage/ConcreteDebris_01_V5.et" {
