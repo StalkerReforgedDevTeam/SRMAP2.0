@@ -1284,8 +1284,8 @@ GameEntity : "{1807CFEB6C458DF1}Prefabs/Structures/BuildingParts/Ladders/Ladder_
    ClutterOccluder 1
   }
  }
- coords 3789.846 8.851 406.387
- angles 0 90 0
+ coords 3793.572 8.781 409.272
+ angles 3.969 90 0
 }
 GenericEntity : "{1AC31E2AF0C54F8A}Prefabs/Props/Military/Camps/PalletAmmo_01_Soviet_camo.et" {
  coords 3835.665 307.526 276.99
@@ -1651,11 +1651,13 @@ GenericEntity : "{36D422D0E5DB68DD}Prefabs/Compositions/Misc/SubCompositions/Sto
   }
   GenericEntity {
    ID "5E3A731BE7B04DA3"
-   coords -6.425 0 -1.638
+   coords -3.826 0 -1.464
+   angles 0 85.063 0
   }
   GenericEntity {
    ID "5E3A731BE7B04DC6"
-   coords -7.472 0 -2.415
+   coords -4.633 0 -0.439
+   angles 0 -94.938 0
   }
   GenericEntity {
    ID "5E3A731BE7B04DD4"
@@ -1679,11 +1681,13 @@ GenericEntity : "{36D422D0E5DB68DD}Prefabs/Compositions/Misc/SubCompositions/Sto
   }
   GenericEntity {
    ID "5E3A731BE7B04255"
-   coords -5.224 0 -1.597
+   coords -3.75 0 -2.663
+   angles 0 176.063 0
   }
   GenericEntity {
    ID "5E3A731BE7B04264"
-   coords -6.438 -0.001 -2.706
+   coords -4.894 -0.001 -1.481
+   angles 0 176.063 0
   }
   GenericEntity {
    ID "5E3A731BE7B0426B"
@@ -1719,7 +1723,8 @@ GenericEntity : "{36D422D0E5DB68DD}Prefabs/Compositions/Misc/SubCompositions/Sto
   }
   GenericEntity {
    ID "5E3A731BE7B0420A"
-   coords -5.451 0 -2.671
+   coords -4.831 0 -2.467
+   angles 0 -93.937 0
   }
   GenericEntity {
    ID "5E3A731BE7B04219"
