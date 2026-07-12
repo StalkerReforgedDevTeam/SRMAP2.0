@@ -1,0 +1,180 @@
+SCR_ChimeraCharacter : "{5346CF7E39A65A6B}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Base.et" {
+ ID "520EC961A090BE1E"
+ components {
+  SCR_CommunicationSoundComponent "{54FD05D0C92D071F}" {
+   Filenames {
+    "{0B10D6DAF5AB2767}Sounds/neutrals_sounds/NEUTRAL_REPORT.acp" "" "" "" "{30C6D89341B1EA1A}Sounds/Character/Character_Voice_Code.acp" "{C9BE186498C3B447}Sounds/Character/Character_Voice_Animations.acp" "" ""
+   }
+  }
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab ""
+      }
+      SCR_EquipmentStorageSlot WristwatchSlot {
+       Prefab "{6FD6C96121905202}Prefabs/Items/Equipment/Watches/Watch_Vostok.et"
+      }
+     }
+    }
+   }
+   Attributes ItemAttributeCollection "{52BAC70D641B89B1}" {
+   }
+  }
+  ARMST_DEATH_COMPONENTS "{65FB0C29F2EE24DA}" {
+   Enabled 0
+  }
+  ARMST_DIALOGS_COMPONENT "{6686D3236158621E}" {
+   m_DialogConfig "{9C1ED920C926F080}Configs/GAME_SETTING/DIALOGS/ACTORS/SRFACTIONS/ADMIN/ADMIN_VENDOR.conf"
+  }
+  ARMST_ITEMS_STATS_COMPONENTS "{626EA1DE349BFDE9}" {
+   Enabled 0
+  }
+  ARMST_PLAYER_ANIMATION "{66A0B319CD077DFF}" {
+   m_sAnim_Name "Stand_7"
+   m_bInitStart 1
+  }
+  ARMST_PLAYER_QUEST "{66488623DA5185BD}" {
+   Enabled 0
+  }
+  ARMST_PLAYER_REPUTATIONS_COMPONENT "{6646CB329EBE8680}" {
+   Enabled 0
+  }
+  ARMST_PLAYER_STATS_COMPONENT "{6275149C8E6B70D6}" {
+   m_FactionKey FACTION_ALL
+  }
+  ChimeraAIControlComponent "{520EA1D2DB109F34}" {
+   Enabled 1
+   components {
+    AICharacterAimingComponent "{520EA1D2DB109F0C}" {
+     Enabled 1
+    }
+    AICharacterHeadAimingComponent "{520EA1D2DB109F04}" {
+     Enabled 1
+    }
+    AICharacterMovementComponent "{520EA1D2DB109F01}" {
+     Enabled 1
+    }
+    AIPathfindingComponent "{56349A6F9C02E7A1}" {
+     Enabled 1
+    }
+    PerceptionComponent "{54A2CBC75F06064B}" {
+     Enabled 1
+     ForgetEnemyTime 10
+     SensorsList {
+      EyesSensor "{520EA1D2DB109AAD}" {
+       MaxRange 50
+      }
+      EarsSensor "{520EA1D2DB109AA9}" {
+       MaxRange 50
+      }
+     }
+    }
+    SCR_AICombatComponent "{55A2C9BE343B2EA1}" {
+     Enabled 1
+    }
+   }
+  }
+  EPF_PersistenceComponent "{5A12D8F4DFED6D84}" {
+   Enabled 0
+  }
+  FactionAffiliationComponent "{520EC9618276DF23}" {
+   "faction affiliation" "FACTION_STALKER"
+  }
+  SCR_CharacterDamageManagerComponent "{55872AD7B4E959F2}" {
+   Enabled 0
+  }
+  SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+   Enabled 1
+  }
+  SCR_CharacterRegistrationComponent "{5216D6E4AC68563B}" {
+   Enabled 1
+  }
+  SCR_CharacterStaminaComponent "{520EA1D2F659C824}" {
+   Enabled 1
+  }
+  SCR_CharacterVicinityComponent "{529A70D96D401B33}" {
+   Enabled 1
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   Enabled 0
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#Armst_neutral_character"
+    Icon "{9218EB59FC5028C7}Prefabs/Factions/Groups/STALKERS.edds"
+    m_Image "{9218EB59FC5028C7}Prefabs/Factions/Groups/STALKERS.edds"
+    m_sFaction "FACTION_STALKER"
+    m_aAuthoredLabels {
+     GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_STALKER
+    }
+   }
+   m_bAutoRegister NEVER
+  }
+  SCR_GadgetManagerComponent "{520EA1D2DB118DF3}" {
+   Enabled 1
+  }
+  SCR_MeleeComponent "{520EA1D2F659C85E}" {
+   Enabled 1
+  }
+  SCR_VoNComponent "{520EA1D2F659C856}" {
+   Enabled 1
+  }
+  BaseFlattenGrassComponent "{520EA1D2F659CE26}" {
+   Enabled 1
+  }
+  SCR_CharacterPerceivableComponent "{566CCE2397E28600}" {
+   Enabled 1
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Override 1
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{EAF055495BA85CA1}Prefabs/Characters/Heads/Head_White_02.et"
+    }
+    Name ""
+    Alias ""
+    Surname " "
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{200D967D2612147C}Prefabs/Characters/HeadGear/Hat_RadiovkaBeret_01/Hat_RadiovkaBeret_01_black.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{AE93D885FDF713D4}Prefabs/Characters/Uniforms/Jacket_Suit_01/Jacket_Suit_01_black_V1.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{401072A652DD9849}Prefabs/Characters/Uniforms/Pants_Suit_01/Pants_Suit_01_grey_V1.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{5DF442DF18F312F3}Prefabs/New_Equipment/Boots/armst_boots_soviet.et"
+    }
+    LoadoutSlotInfo Back {
+    }
+    LoadoutSlotInfo Vest {
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{D19C474FA0F42CC4}Prefabs/Characters/Handwear/Gloves_Pilot_US_01/Gloves_Pilot_US_01.et"
+    }
+    LoadoutSlotInfo FaceGas {
+     Prefab "{E513AC48A65855AA}Prefabs/Items/Smokeables/Smokeable_Cigar.et"
+    }
+   }
+  }
+  ActionsManagerComponent "{520EA1D2F659CE02}" {
+   additionalActions {
+    ARMST_USER_DIALOGS "{6686ECEDBBB7636F}" {
+     m_bEnableDialogs 1
+    }
+   }
+  }
+  SCR_CharacterCameraHandlerComponent "{520EA1D2F659C98D}" {
+   Enabled 1
+  }
+ }
+ coords 4185.412 311.048 726.836
+ angles 0 -79.307 0
+}
