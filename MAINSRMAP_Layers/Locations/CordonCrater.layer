@@ -1,0 +1,146 @@
+GameEntity : "{1B1B80B11EA3FBA0}Prefabs/Method/Props/Camps/Fireplace_Loiters_03_temp.et" {
+ coords 4010.225 309.462 1248.75
+ angles 0 -107.109 0
+ {
+  GameEntity {
+   ID "64B4F66116401F82"
+   coords 1.167 -0.156 -5.004
+  }
+  GenericEntity {
+   ID "64B4F6611640AC9E"
+   coords 3.661 -0.05 -4.446
+   angles 0 -49.783 0
+  }
+  GenericEntity {
+   ID "64B4F66004CEF567"
+   coords 6.764 0.184 -2.687
+   angles 88.398 -151.058 71.107
+  }
+  GenericEntity {
+   ID "64B4F6611643145A"
+   coords 0.957 -0.156 -5.043
+  }
+  GenericEntity {
+   ID "64B4F6611643CA27"
+   coords -0.31 -0.257 -4.018
+   angles 0 154.102 0
+  }
+  GenericEntity {
+   ID "64B4F6611643DE4D"
+   coords 0.195 -0.246 -4.419
+  }
+  GenericEntity {
+   ID "64B4F6611643CA20"
+   coords 1.558 0.808 -5.62
+   angles 0 -46.77 0
+  }
+  GenericEntity {
+   ID "695EA19B169BBB06"
+   coords 4.406 -0.009 -5.316
+  }
+  GenericEntity {
+   ID "64B4F661164381B1"
+   coords 2.513 -0.392 -5.015
+   angles 0 -46.669 0
+  }
+  GenericEntity {
+   ID "695EA19B169BBB16"
+   coords 1.591 0.811 -5.653
+   angles 0 -135.265 0
+  }
+  GenericEntity {
+   ID "695EA19B169BBB1F"
+   coords -0.372 0.738 -3.94
+   angles 0 -122.141 0
+  }
+  GenericEntity {
+   ID "64B4F661167D7E85"
+   coords 1.057 -0.176 -3.233
+   angles 2.036 -0.164 -3.617
+  }
+  GenericEntity {
+   ID "64B4F661167DA7EE"
+   coords -1.904 -0.082 -0.338
+   angles 5.214 -10.368 0
+  }
+  GenericEntity {
+   ID "695EA19B169BBB3F"
+   coords 2.645 -0.079 -3.449
+   angles 0 -107.824 0
+  }
+  GenericEntity {
+   ID "64B4F661167CC0D1"
+   coords 0.223 -0.261 -4.888
+   angles 0 -47.165 -86.405
+  }
+  GenericEntity {
+   ID "64B4F661167CFD75"
+   coords -0.52 -0.28 -4.417
+   angles 77.849 42.847 0
+  }
+  GenericEntity {
+   ID "64B4F661167F7EBB"
+   coords 2.794 -0.105 -6.713
+   angles 0 132.592 0
+  }
+  GenericEntity {
+   ID "695EA19B169BBB0F"
+   coords 2.095 -0.156 -4.985
+   angles 5.371 0 0
+  }
+  GenericEntity {
+   ID "64B4F661167E0C77"
+   coords 4.37 -0.001 -5.878
+   angles 0 41.181 0
+  }
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{5987E1DF837BA755}Prefabs/Vehicles/btr70/armst_btr70.et" {
+ {
+  coords 4042.428 314.032 1242.016
+  angles 0 0 167.837
+ }
+ {
+  coords 4025.305 310.104 1256.917
+  angles 7.326 0.68 -8.309
+ }
+}
+GenericEntity : "{6C57BFFFA642C60C}Prefabs/Compositions/Misc/SubCompositions/CrateStacked_04.et" {
+ coords 4011.366 309.377 1243.93
+ angles 0 48.378 0
+}
+GenericEntity : "{7F59A8D992FBF5CA}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/CrateStack_01_base.et" {
+ coords 4016.893 308.971 1246.505
+ angles 0 39.671 0
+}
+GenericEntity : "{8158EFF339FE1F11}Prefabs/Vehicles/zil131/armst_zil131_open.et" {
+ coords 3992.277 310.716 1253.25
+ angles 0 -171.23 -11.052
+}
+GenericEntity : "{88A852ECC057C96C}Prefabs/Vehicles/btr70/base/BASE_btr70.et" {
+ coords 4020.818 309.033 1254.377
+ angles 6.118 38.347 4.82
+}
+GenericEntity : "{8DFAE025A4EE2A3A}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/Dst/CrateStack_01_Dst_2_decal_02.et" {
+ coords 4016.374 308.975 1245.699
+ angles 0 -147.228 0
+}
+GenericEntity : "{93F2E0C43450EE44}Prefabs/Vehicles/ural/armst_ural_new_wheels_tents.et" {
+ coords 4015.703 309.901 1232.035
+ angles -11.257 0 7.032
+}
+GenericEntity : "{A9CF5E8C5D91C476}Prefabs/Compositions/Misc/SubCompositions/Decorations/Barrel_Group_Crate_01.et" {
+ coords 4014.578 309.141 1248.617
+}
+GameEntity : "{E3F157551B0501FE}Prefabs/Props/Military/Generators/GeneratorMilitary_USSR_01/GeneratorMilitary_USSR_01_open.et" {
+ coords 4036.501 311.335 1220.96
+ angles 0 0 9.376
+}
+GenericEntity : "{E4A22C9C10769063}Prefabs/Vehicles/gaz71/BASE_gaz71.et" {
+ coords 4006.08 310.142 1259.667
+ angles 0 -133.672 -7.301
+}
+GenericEntity : "{F971B612CD2CA718}Prefabs/Vehicles/mi8/armst_mi6_wreck.et" {
+ coords 4025.922 311.124 1233.093
+ angles 22.807 -165.517 29.719
+}
