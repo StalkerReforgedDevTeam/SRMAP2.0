@@ -600,13 +600,13 @@ $grp SCR_ChimeraCharacter {
       Prefab "{372598F2E3F58028}Prefabs/Characters/Uniforms/Jacket/Jacket_Casual.et"
      }
      LoadoutSlotInfo ArmoredVest {
-      Prefab "{E0B0724589E2D73A}Prefabs/Equipments/Armory/ASG/armst_armory_asg_black.et"
+      Prefab "{E0B0724589E2D73A}Prefabs/New_Equipment/Armory/ASG/armst_armory_asg_black.et"
      }
      LoadoutSlotInfo Pants {
       Prefab "{979542DE9B3F520F}Prefabs/Characters/Uniforms/Pants/Pants_Casual.et"
      }
      LoadoutSlotInfo Boots {
-      Prefab "{5DF442DF18F312F3}Prefabs/Equipments/Boots/armst_boots_soviet.et"
+      Prefab "{5DF442DF18F312F3}Prefabs/New_Equipment/Boots/armst_boots_soviet.et"
      }
      LoadoutSlotInfo Back {
      }
@@ -616,7 +616,7 @@ $grp SCR_ChimeraCharacter {
       Prefab "{2D525E69ACF22F5E}Prefabs/Equipments/Gloves/armst_gloves_hard.et"
      }
      LoadoutSlotInfo Head {
-      Prefab "{00F7B4C95E47ADE3}Prefabs/Equipments/Gasmasks/armst_gasmask_s200.et"
+      Prefab "{00F7B4C95E47ADE3}Prefabs/New_Equipment/Gasmasks/armst_gasmask_s200.et"
      }
     }
    }
@@ -826,7 +826,7 @@ $grp SCR_ChimeraCharacter {
  }
 }
 SCR_DestructibleBuildingEntity {
- coords 4868.442 0.769 1373.605
+ coords 4868.442 320.501 1373.605
  angles 0 -2.714 0
 }
 SCR_IndestructibleEnvironmentalEntity : "{038844285FEE0D7A}Prefabs/Rocks/Granite/GraniteStone_01.et" {
