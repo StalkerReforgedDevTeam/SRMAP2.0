@@ -337,6 +337,22 @@ $grp GenericEntity {
   coords 5615.655 302.222 35.714
   angles 0 -93.769 0
  }
+ {
+  components {
+   MeshObject "{69210B5FDD92F760}" {
+    Object "{C3A3F29DF371697D}Assets/Models/ArmPatch/ArmPatch.xob"
+    Materials {
+     MaterialAssignClass "{69E0F943EB380F1C}" {
+      SourceMaterial "BanditArmband_bc"
+      AssignedMaterial "{E2AEF3ABFFB4CF0D}Assets/Models/ArmPatch/Data/MERCArmband.emat"
+     }
+    }
+   }
+  }
+  coords 5637.798 296.726 35.267
+  angles -0.028 0.104 -15
+  scale 5.168
+ }
 }
 $grp LightEntity {
  LIGHT_FLUO_SPOT_60 {
@@ -465,6 +481,9 @@ GenericEntity : "{CF32C3AACAD2FFAA}Prefabs/Military/Compositions/USSR/ArsenalBox
 GenericEntity : "{D8AE29ACE1733592}Prefabs/Military/Compositions/USSR/ArsenalBox_SBU.et" {
  coords 5639.747 302.222 40.791
  angles 0 -96.631 0
+}
+GenericEntity : "{E42D5D871E203268}Prefabs/Military/Compositions/USSR/ArsenalBox_MERC.et" {
+ coords 5635.177 302.225 34.889
 }
 GenericEntity : "{F542F974956C255F}Prefabs/Props/Military/Compositions/CIV/ArsenalBox_CIV.et" {
  coords 5633.249 302.222 39.954
