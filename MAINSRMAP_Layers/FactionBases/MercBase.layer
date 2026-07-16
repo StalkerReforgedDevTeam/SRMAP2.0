@@ -1721,6 +1721,10 @@ GenericEntity : "{CCB14E0E5C278B73}Prefabs/MP/Campaign/Assets/CampaignHQRadioWes
  coords 5810.579 343.136 2091.268
  angles 0 110.72 0
 }
+GenericEntity : "{E42D5D871E203268}Prefabs/Military/Compositions/USSR/ArsenalBox_MERC.et" {
+ coords 5599.608 303.861 83.748
+ angles 0 -95.108 0
+}
 GenericEntity : "{E59D9776A5169843}Prefabs/Structures/BuildingParts/Doors/DoorSet_FactoryHall_E_01_Elevator_COV_B.et" {
  components {
   DoorComponent "{69AF5901C1DBB430}" {
