@@ -226,6 +226,9 @@ SCR_GameModeEditor Armst_GameMaster : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Editor
  m_bAutoInitEditor 0
  m_GameMasterTarget EVERYBODY
  {
+  ScriptedChatEntity {
+   ID "56E685E9EF952A67"
+  }
   SCR_FactionManager "65A4F0B0DAAA6EFF" {
    ID "56E685E92F1B7E7A"
    coords 3445.898 308.439 1319.019
@@ -249,6 +252,8 @@ SCR_GameModeEditor Armst_GameMaster : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Editor
     }
     SCR_Faction "{699B5558AEAA60BB}" : "{D68B8A4AB5E41D29}Configs/Factions/SrFactions/DUTY.conf" {
     }
+    SCR_Faction "{69E0FBC5980B1E83}" : "{529E8DC37D213059}Configs/Factions/SrFactions/MERCS.conf" {
+    }
     SCR_Faction "{69B72B9C14FB438C}" : "{1AE757FB34F0B875}Configs/Factions/SrFactions/FREEDOM.conf" {
     }
     SCR_Faction "{69B72B9C19EA28DB}" : "{2A3C380A8CDE6C27}Configs/Factions/SrFactions/MONOLITH.conf" {
@@ -260,9 +265,6 @@ SCR_GameModeEditor Armst_GameMaster : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Editor
     SCR_Faction "{69B72B9C93A70383}" : "{27E4F3C3165476B6}Configs/Factions/SrFactions/BANDITIS.conf" {
     }
    }
-  }
-  ScriptedChatEntity {
-   ID "56E685E9EF952A67"
   }
  }
 }
