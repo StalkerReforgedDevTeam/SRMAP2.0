@@ -1,0 +1,15 @@
+GenericEntity : "{383DAC6B9F56F3BA}Prefabs/Items/Others/bijuteria/armst_itm_ring_med.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  InventoryItemComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 1
+    }
+    m_Size SLOT_1x1
+    m_iCustomGridWidth 1
+    m_iCustomGridHeight 1
+   }
+  }
+ }
+}

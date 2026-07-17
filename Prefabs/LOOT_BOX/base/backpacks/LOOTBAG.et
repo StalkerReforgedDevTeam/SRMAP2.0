@@ -1,0 +1,13 @@
+GenericEntity : "{BC78C382910BABBF}Prefabs/LOOT_BOX/base/backpacks/Loot_random_backpack.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+   m_LootCategories {
+    "KEYS" "AMMOS" "ATTACHMENT" "GASMASKS" "FOODS" "MEDICINES" "TOOLS" "ELECTRONICS" "DOCUMENTS" "OTHERS"
+   }
+  }
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{F651B4830A784732}Assets/Props/S2/S2_Backpack/S2_Backpack.xob"
+  }
+ }
+}
