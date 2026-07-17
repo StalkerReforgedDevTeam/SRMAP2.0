@@ -2319,6 +2319,1855 @@ GenericEntity : "{4923E218F59644B9}Prefabs/Props/Wrecks/BoatWreck_01/BoatWreck_0
  angles -10.641 -6.208 177.001
  scale 0.7
 }
+$grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.et" {
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      m_iMinItemsToSpawn 0
+     }
+    }
+   }
+  }
+  coords 3127.603 304.702 2565.122
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      m_iMinItemsToSpawn 0
+     }
+    }
+   }
+  }
+  coords 3066.251 304.702 2550.616
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      m_iMinItemsToSpawn 0
+     }
+    }
+   }
+  }
+  coords 3048.322 304.702 2536.993
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      m_iMinItemsToSpawn 0
+     }
+    }
+   }
+  }
+  coords 3035.846 305.792 2541.571
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      m_iMinItemsToSpawn 0
+     }
+    }
+   }
+  }
+  coords 3050.937 304.702 2600.471
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      m_iMinItemsToSpawn 0
+     }
+    }
+   }
+  }
+  coords 3116.408 304.702 2638.999
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      m_iMinItemsToSpawn 0
+     }
+    }
+   }
+  }
+  coords 3119.244 304.702 2678.452
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      m_iMinItemsToSpawn 0
+     }
+    }
+   }
+  }
+  coords 3104.159 304.702 2698.117
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      m_iMinItemsToSpawn 0
+     }
+    }
+   }
+  }
+  coords 3044.326 304.702 2707.861
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      m_iMinItemsToSpawn 0
+     }
+    }
+   }
+  }
+  coords 3018.623 304.702 2649.694
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      m_iMinItemsToSpawn 0
+     }
+    }
+   }
+  }
+  coords 3014.089 304.702 2614.257
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      m_iMinItemsToSpawn 0
+     }
+    }
+   }
+  }
+  coords 2970.41 304.702 2572.446
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      m_iMinItemsToSpawn 0
+     }
+    }
+   }
+  }
+  coords 2913.601 305.108 2584.385
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      m_iMinItemsToSpawn 0
+     }
+    }
+   }
+  }
+  coords 2890.822 306.077 2690.299
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      m_iMinItemsToSpawn 0
+     }
+    }
+   }
+  }
+  coords 2862.658 306.077 2787.092
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      m_iMinItemsToSpawn 0
+     }
+    }
+   }
+  }
+  coords 2960.101 305.108 2821.745
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      m_iMinItemsToSpawn 0
+     }
+    }
+   }
+  }
+  coords 3047.558 305.108 2820.357
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      m_iMinItemsToSpawn 0
+     }
+    }
+   }
+  }
+  coords 3068.615 305.108 2877.156
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      m_iMinItemsToSpawn 0
+     }
+    }
+   }
+  }
+  coords 3211.054 305.108 2863.262
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      m_iMinItemsToSpawn 0
+     }
+    }
+   }
+  }
+  coords 3183.411 304.902 2768.85
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      m_iMinItemsToSpawn 0
+     }
+    }
+   }
+  }
+  coords 3048.467 304.702 2586.261
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      m_iMinItemsToSpawn 0
+     }
+    }
+   }
+  }
+  coords 2984.574 304.702 2521.522
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      m_iMinItemsToSpawn 0
+     }
+    }
+   }
+  }
+  coords 3065.449 304.702 2481.737
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      m_iMinItemsToSpawn 0
+     }
+    }
+   }
+  }
+  coords 3090.151 318.924 2487.614
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      m_iMinItemsToSpawn 0
+     }
+    }
+   }
+  }
+  coords 3105.059 312.524 2489.713
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      m_iMinItemsToSpawn 0
+     }
+    }
+   }
+  }
+  coords 3167.635 309.192 2510.887
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      m_iMinItemsToSpawn 0
+     }
+    }
+   }
+  }
+  coords 3243.59 305.792 2475.932
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      m_iMinItemsToSpawn 0
+     }
+    }
+   }
+  }
+  coords 3315.094 323.097 2500.191
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      m_iMinItemsToSpawn 0
+     }
+    }
+   }
+  }
+  coords 3319.771 323.09 2627.826
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      m_iMinItemsToSpawn 0
+     }
+    }
+   }
+  }
+  coords 3289.033 304.702 2677.656
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      m_iMinItemsToSpawn 0
+     }
+    }
+   }
+  }
+  coords 3208.959 304.702 2736.321
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      m_iMinItemsToSpawn 0
+     }
+    }
+   }
+  }
+  coords 3129.452 304.702 2782.294
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      m_iMinItemsToSpawn 0
+     }
+    }
+   }
+  }
+  coords 3111.432 323.781 2824.092
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      m_iMinItemsToSpawn 0
+     }
+    }
+   }
+  }
+  coords 3085.744 309.598 2865.122
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      m_iMinItemsToSpawn 0
+     }
+    }
+   }
+  }
+  coords 3115.342 312.978 2893.868
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      m_iMinItemsToSpawn 0
+     }
+    }
+   }
+  }
+  coords 3211.252 305.108 2871.341
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      m_iMinItemsToSpawn 0
+     }
+    }
+   }
+  }
+  coords 3243.384 304.702 2767.387
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      m_iMinItemsToSpawn 0
+     }
+    }
+   }
+  }
+  coords 3210.633 315.717 2668.392
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      m_iMinItemsToSpawn 0
+     }
+    }
+   }
+  }
+  coords 3207.857 315.717 2672.183
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      m_iMinItemsToSpawn 0
+     }
+    }
+   }
+  }
+  coords 2992.133 304.702 2591.823
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      m_iMinItemsToSpawn 0
+     }
+    }
+   }
+  }
+  coords 2945.396 304.702 2620.219
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      m_iMinItemsToSpawn 0
+     }
+    }
+   }
+  }
+  coords 3023.917 304.702 2720.55
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      m_iMinItemsToSpawn 0
+     }
+    }
+   }
+  }
+  coords 3035.667 304.702 2739.413
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      m_iMinItemsToSpawn 0
+     }
+    }
+   }
+  }
+  coords 3104.845 304.702 2765.928
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      m_iMinItemsToSpawn 0
+     }
+    }
+   }
+  }
+  coords 3194.346 304.702 2668.388
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      m_iMinItemsToSpawn 0
+     }
+    }
+   }
+  }
+  coords 3251.854 304.702 2612.875
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      m_iMinItemsToSpawn 0
+     }
+    }
+   }
+  }
+  coords 3245.825 304.702 2601.926
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     "TIER_1"
+     "TIER_2"
+    }
+   }
+  }
+  coords 3294.2 308.577 1326.078
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     "TIER_1"
+     "TIER_2"
+    }
+   }
+  }
+  coords 3391.625 308.577 1315.796
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     "TIER_1"
+     "TIER_2"
+    }
+   }
+  }
+  coords 3387.083 308.577 1347.968
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     "TIER_1"
+     "TIER_2"
+    }
+   }
+  }
+  coords 3548.565 304.983 1011.508
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     "TIER_1"
+     "TIER_2"
+    }
+   }
+  }
+  coords 3563.411 305.69 993.806
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     "TIER_1"
+     "TIER_2"
+    }
+   }
+  }
+  coords 3696.94 306.369 793.664
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     "TIER_1"
+     "TIER_2"
+    }
+   }
+  }
+  coords 3723.315 306.188 784.601
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     "TIER_1"
+     "TIER_2"
+    }
+   }
+  }
+  coords 3773.87 310.187 606.562
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     "TIER_1"
+     "TIER_2"
+    }
+   }
+  }
+  coords 4024.003 308.728 608.946
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     "TIER_1"
+     "TIER_2"
+    }
+   }
+  }
+  coords 3917.462 305.481 884.221
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     "TIER_1"
+     "TIER_2"
+    }
+   }
+  }
+  coords 3911.448 306.813 852.06
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     "TIER_1"
+     "TIER_2"
+    }
+   }
+  }
+  coords 3969.705 307.6 905.617
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     "TIER_1"
+     "TIER_2"
+    }
+   }
+  }
+  coords 4074.617 308.944 870.938
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     "TIER_1"
+     "TIER_2"
+    }
+   }
+  }
+  coords 4067.783 309.722 864.366
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     "TIER_1"
+     "TIER_2"
+    }
+   }
+  }
+  coords 4641.425 307.711 981.558
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     "TIER_1"
+     "TIER_2"
+    }
+   }
+  }
+  coords 4641.425 307.711 981.558
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 4596.292 308.406 971.763
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 4621.829 307.228 1009.624
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 4830.019 311.233 1220.115
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 4853.172 311.673 1230.48
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 4960.03 312.083 1300.982
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 4902.569 311.39 1390.497
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 5297.097 312.983 787.096
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 5365.297 312.983 721.576
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 5360.337 312.924 656.064
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 5486.066 306.017 936.598
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 5473.17 305.288 979.088
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 5469.316 309.776 1025.857
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 5797.976 321.288 1000.139
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 5899.979 293.656 1007.571
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 5912.244 293.392 1028.221
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 5973.677 296.768 1063.415
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 6015.317 293.421 1047.234
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 5864.405 301.474 1097.342
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 6006.693 303.493 1963.648
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 5979.221 303.358 1797.884
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 5982.618 304.278 1866.38
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 6061.282 301.224 2159.663
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 6056.374 301.218 2189.45
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 6052.741 320.44 2163.018
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 6045.913 306.41 2293.991
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 6156.144 318.921 2298.677
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 6190.2 318.921 2301.695
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 5961.937 311.358 2327.914
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 5916.878 314.602 2305.434
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 5888.872 311.398 2322.468
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 5834.076 311.358 2332.413
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 5815.562 311.921 2361.745
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 5801.045 311.921 2374.177
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 5771.76 319.234 2372.377
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 5733.854 312.835 2373.555
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 5739.05 312.302 2391.922
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 5726.64 311.358 2435.977
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 5743.268 312.727 2426.332
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 5746.833 319.154 2460.211
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 5749.676 329.657 2435.766
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 5806.521 328.983 2447.405
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 5826.197 310.907 2443.422
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 5805.995 318.757 2439.309
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 5798.997 319.079 2406.195
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 5843.593 311.358 2367.82
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 5878.75 310.741 2382.353
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 5917.818 310.463 2368.661
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 5934.873 310.452 2461.256
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 5942.844 310.452 2507.285
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 5911.944 312.105 2486.818
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 5876.873 315.41 2479.816
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 5857.337 310.452 2527.067
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 5847.707 329.062 2483.573
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 5911.019 310.966 2459.555
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 4540.833 306.858 2201.727
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 4490.292 306.859 2111.956
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 4385.19 317.963 2048.638
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 4438.505 310.921 1908.635
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 4427.865 311.469 1898.173
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 4527.33 330.484 1618.198
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 4531.642 326.879 1609.285
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 4529.149 311.189 1617.906
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 4604.479 313.222 1673.786
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 4603.706 304.872 1757.891
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 4494.935 303.682 1775.708
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 4518.192 289.799 1711.92
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 3936.724 300.796 2100.666
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 3836.082 300.796 2192.485
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 3750.084 300.789 2228.217
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 3784.303 300.951 2234.295
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 3677.799 301.019 2233.188
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 3813.634 300.87 2316.93
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 3099.329 323.085 2489.17
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 3247.142 304.702 2543.037
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     ""
+     "TIER_2"
+    }
+   }
+  }
+  coords 3330.75 304.702 2626.882
+ }
+}
 GenericEntity : "{4AD721AB942C260A}Prefabs/Props/Decorations/Paintings/PaintingOval_02_V3.et" {
  coords 1466.106 292.345 1937.947
  angles 87.906 -155.469 -155.528
