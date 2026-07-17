@@ -139,7 +139,7 @@ SCR_ChimeraCharacter : "{5346CF7E39A65A6B}Prefabs/Characters/Factions/OPFOR/USSR
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{0735CCE485D1517A}Prefabs/Hoods/MilitaryBeret.et"
+     Prefab "{8CAADB591098944A}Prefabs/UKM/BERET/NEWUKMBERET.et"
     }
     LoadoutSlotInfo Jacket {
      Prefab "{9D33F6B7F3752638}Prefabs/Characters/Uniforms/Sunrise/STALKER_Sunrise_Suit_HoodDown_MILITARY.et"
@@ -159,13 +159,13 @@ SCR_ChimeraCharacter : "{5346CF7E39A65A6B}Prefabs/Characters/Factions/OPFOR/USSR
     LoadoutSlotInfo HandWear {
      Prefab "{CB8FFB7554E7D0F0}Prefabs/Equipments/Gloves/armst_gloves_leather.et"
     }
-    LoadoutSlotInfo FaceGas {
-     Prefab "{E513AC48A65855AA}Prefabs/Items/Smokeables/Smokeable_Cigar.et"
-    }
     LoadoutSlotInfo Extra {
      Prefab "{17847701551176B4}Prefabs/Armbands/UKMPatch.et"
     }
     LoadoutSlotInfo Extra2 {
+    }
+    LoadoutSlotInfo FaceGas {
+     Prefab "{E513AC48A65855AA}Prefabs/Items/Smokeables/Smokeable_Cigar.et"
     }
    }
   }
