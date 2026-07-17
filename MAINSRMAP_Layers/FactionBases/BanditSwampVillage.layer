@@ -27,6 +27,12 @@ $grp ARMST_SpawnPoint {
   m_FactionRequired FACTION_MUTANTS
   m_fMinimalReputation -100
  }
+ {
+  coords 5595.873 304.193 83.228
+  angles 0 4.249 0
+  m_FactionKey FACTION_MERCENARIES
+  m_FactionRequired FACTION_MERCENARIES
+ }
 }
 $grp GenericEntity {
  {
