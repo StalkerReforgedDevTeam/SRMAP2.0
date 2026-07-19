@@ -1,6 +1,7 @@
 GenericEntity KB_SPAWNER6 : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawner.et" {
  components {
   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+   Enabled 0
    m_InitialSpawnDelay 5
    m_CheckInterval 60
    m_CheckPlayerRadius 5

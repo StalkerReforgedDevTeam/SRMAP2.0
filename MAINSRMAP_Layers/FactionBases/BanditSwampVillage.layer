@@ -1944,6 +1944,10 @@ GenericEntity : "{092FE092D6DF1EB3}Prefabs/Props/Military/AmmoBoxes/AmmoBox_556x
  coords 1455.595 296.383 1934.259
  angles 0.141 81.753 1.004
 }
+SCR_ChimeraCharacter : "{0A4A6D3C626CB7C7}Prefabs/QUESTS/SRFACTIONS/Admin/FENCE_VENDOR.et" {
+ coords 2986.685 305.259 2911.723
+ angles 0 48.102 0
+}
 GenericEntity : "{0E43D5546330841F}Prefabs/Structures/BuildingParts/Industrial/ToolRack_01_tool_01.et" {
  coords 1461.394 291.341 1932.239
  angles 1.614 -93.723 0.322
