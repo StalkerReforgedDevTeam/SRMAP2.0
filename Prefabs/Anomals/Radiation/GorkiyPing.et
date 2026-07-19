@@ -1,0 +1,34 @@
+SRZ_DiscordPingTriggerEntity {
+ ID "69E71BF32AC78FB4"
+ components {
+  SoundComponent "{69E71BF32AC78F89}" {
+   Enabled 0
+   Filenames {
+    "{3D84A20462331717}Prefabs/Anomals/anom_base/data/anomal_plesh.acp"
+   }
+  }
+  RplComponent "{69E71BF32AC78503}" {
+  }
+  Hierarchy "{69E71BF32AC785FA}" {
+  }
+ }
+ editor EntityEditorProps "{69E71BF32AC785FE}" {
+  Style icon
+  Color 0.946 1 0 1
+  Icon "{2CABD9E556CD695B}system/wbdata/WorldEditor/EntityIcons/Decal/Decal_rad.et"
+  Billboard 0
+  Scale 50
+  Elevation 5
+ }
+ coords 3654.69 304.836 481.856
+ TriggerShapeType Sphere
+ SphereRadius 45
+ DrawShape 1
+ ShapeColor 0.17 1 0 1
+ TriggerActivationType "Every query"
+ PeriodicQueries 1
+ UpdatePeriod 1
+ ClassesFilter {
+  "ChimeraCharacter"
+ }
+}

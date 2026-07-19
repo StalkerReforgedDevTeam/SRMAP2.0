@@ -40,9 +40,11 @@ $grp GenericEntity : "{0CA0F15A651DB0F7}Prefabs/LOOT_BOX/base/army/Loot_army_box
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
     m_LootCategories {
      "WEAPONS"
+     "WEAPONS"
     }
     m_LootTiersSpawn {
      "TIER_3"
+     "TIER_2"
     }
    }
   }
@@ -313,13 +315,14 @@ $grp GenericEntity : "{EFBF55038C9C22C3}Prefabs/LOOT_BOX/base/army/Loot_army_box
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
     m_LootCategories {
      "AMMOS"
+     "WEAPONS"
     }
     m_LootTiersSpawn {
      "TIER_3"
     }
    }
   }
-  coords 3239.821 304.702 2603.726
+  coords 3238.98 304.702 2604.153
   angles 0 32.01 0
  }
  {

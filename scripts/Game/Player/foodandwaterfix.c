@@ -3,12 +3,12 @@
 modded class ARMST_PLAYER_STATS_COMPONENT
 {
 	// --- Tunables ---
-	protected const float SRZ_VITALS_TICK_INTERVAL = 5000;   // ms between checks
-	protected const float SRZ_LOW_WATER_THRESHOLD = 20;      // below this, water damage applies
-	protected const float SRZ_LOW_FOOD_THRESHOLD = 20;       // below this, food damage applies
-	protected const float SRZ_WATER_DAMAGE_PER_TICK = 1.0;   // health lost per tick when dehydrated
-	protected const float SRZ_FOOD_DAMAGE_PER_TICK = 1.0;    // health lost per tick when starving
-	protected const float SRZ_VITALS_MIN_HEALTH = 1;         // starvation/dehydration alone won't kill, stops here
+	protected const float SRZ_VITALS_TICK_INTERVAL = 5000; // ms between checks
+	protected const float SRZ_LOW_WATER_THRESHOLD = 20; // below this, water damage applies
+	protected const float SRZ_LOW_FOOD_THRESHOLD = 20; // below this, food damage applies
+	protected const float SRZ_WATER_DAMAGE_PER_TICK = 1.0; // health lost per tick when dehydrated
+	protected const float SRZ_FOOD_DAMAGE_PER_TICK = 1.0; // health lost per tick when starving
+	protected const float SRZ_VITALS_MIN_HEALTH = 1; // starvation/dehydration alone won't kill, stops here
 
 	override void OnPostInit(IEntity owner)
 	{

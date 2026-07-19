@@ -1948,6 +1948,78 @@ SCR_ChimeraCharacter : "{0A4A6D3C626CB7C7}Prefabs/QUESTS/SRFACTIONS/Admin/FENCE_
  coords 2986.685 305.259 2911.723
  angles 0 48.102 0
 }
+$grp GenericEntity : "{0CA0F15A651DB0F7}Prefabs/LOOT_BOX/base/army/Loot_army_box_weapons.et" {
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "WEAPONS"
+    }
+    m_LootTiersSpawn {
+     "TIER_3"
+    }
+   }
+  }
+  coords 3248.482 304.702 2618.69
+  angles 0 -93.094 0
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "WEAPONS"
+    }
+    m_LootTiersSpawn {
+     "TIER_3"
+    }
+   }
+  }
+  coords 3248.37 304.702 2620.295
+  angles 0 -93.094 0
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "WEAPONS"
+    }
+    m_LootTiersSpawn {
+     "TIER_3"
+    }
+   }
+  }
+  coords 3261.99 304.702 2615.733
+  angles 0 -93.094 0
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "WEAPONS"
+    }
+    m_LootTiersSpawn {
+     "TIER_3"
+    }
+   }
+  }
+  coords 3267.198 304.678 2612.847
+  angles 0 175.564 0
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "WEAPONS"
+    }
+    m_LootTiersSpawn {
+     "TIER_3"
+    }
+   }
+  }
+  coords 3259.966 304.678 2604.557
+  angles 0 175.564 0
+ }
+}
 GenericEntity : "{0E43D5546330841F}Prefabs/Structures/BuildingParts/Industrial/ToolRack_01_tool_01.et" {
  coords 1461.394 291.341 1932.239
  angles 1.614 -93.723 0.322
@@ -4205,6 +4277,10 @@ GenericEntity : "{53506DCB398C7EBE}Prefabs/Props/Furniture/Table_01.et" {
 GenericEntity : "{5444982FED78FECE}Prefabs/Props/Furniture/BasketLaundry_01.et" {
  coords 1455.187 291.321 1934.337
  angles -0.344 -110.058 -0.954
+}
+SRZ_DiscordPingTriggerEntity : "{54B7B298920BFB6C}Prefabs/Anomals/Radiation/GorkiyPing.et" {
+ coords 3108.474 275.733 2673.035
+ SphereRadius 323
 }
 SCR_ChimeraCharacter : "{54DA4703A3A7248F}Prefabs/QUESTS/SRFACTIONS/BANDIT_VENDOR.et" {
  coords 1456.674 291.33 1930.734
