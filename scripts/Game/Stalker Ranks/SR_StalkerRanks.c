@@ -25,13 +25,8 @@ modded class ARMST_PLAYER_STATS_COMPONENT : ScriptComponent
 	//------------------------------------------------------------------------------------------------
 	void SR_SetRank(SR_STALKER_RANK newRank)
 	{
-		RplComponent rpl = RplComponent.Cast(GetOwner().FindComponent(RplComponent));
-		if (rpl && !rpl.IsMaster())
-			return;
-		
+
 		m_eSRCurrentRank = newRank;
-		
-		// Tells Enfusion to replicate this component immediately
 		Replication.BumpMe();
 		PrintFormat("[SR Ranks] Player rank SR_SetRank is: %1 | newRank is %2", m_eSRCurrentRank, newRank, LogLevel.NORMAL);	
 		SR_OnRankChanged();
