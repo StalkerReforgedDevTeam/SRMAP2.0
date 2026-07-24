@@ -413,6 +413,10 @@ $grp GenericEntity : "{1A1020205E2B1710}Prefabs/Props/Military/Furniture/TableMi
   coords 5546.831 302.343 43.764
   angles 0 -179.163 0
  }
+ {
+  coords 5596.777 303.857 80.287
+  angles 0 -179.163 0
+ }
 }
 GenericEntity : "{252BA65F8F02ACBF}Prefabs/Military/Compositions/USSR/ArsenalBox_BANDIT.et" {
  coords 5639.655 302.222 38.059
@@ -462,6 +466,9 @@ $grp SCR_DestructibleBuildingEntity : "{7720B78DED8FAB50}Prefabs/Perimetr/wall_p
   coords 5627.389 300.302 33.211
   angles 0 -0.525 0
  }
+}
+GenericEntity : "{8703D964AC15EA53}PrefabsEditable/E_Identity_Selector.et" {
+ coords 5596.606 304.756 80.301
 }
 GenericEntity : "{AB7C01A5B2F98281}Prefabs/Military/Compositions/USSR/ArsenalBox_FREEDOM.et" {
  coords 5637.396 302.222 42.381
