@@ -356,7 +356,7 @@ $grp GenericEntity {
 }
 $grp LightEntity {
  LIGHT_FLUO_SPOT_60 {
-  coords 5635.008 305.903 38.427
+  coords 5635.327 307 38.703
   angles -90 -41.184 0
   Color 0.3148 0.3148 0.3148 1
   LV 7.95
@@ -372,7 +372,103 @@ $grp LightEntity {
   LensFlareScale 1.18
  }
  LIGHT_FLUO_SPOT_101 {
-  coords 5618.89 305.929 38.626
+  coords 5619.245 307 38.681
+  angles -90 -41.184 0
+  Color 1 0.7255 0.3412 1
+  LV 8
+  CastShadow 0
+  ClipEV -10
+  Type Spot
+  Radius 8
+  NearPlane 0.7
+  SpotAngle 155
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  LensFlareIndex 1
+  LensFlareScale 1.18
+ }
+ LIGHT_FLUO_SPOT_79 {
+  coords 5545.566 305.877 46.259
+  angles -90 -41.184 0
+  Color 1 0.7255 0.3412 1
+  LV 8
+  CastShadow 0
+  ClipEV -10
+  Type Spot
+  Radius 8
+  NearPlane 0.7
+  SpotAngle 155
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  LensFlareIndex 1
+  LensFlareScale 1.18
+ }
+ LIGHT_FLUO_SPOT_80 {
+  coords 5484.779 305.328 50.507
+  angles -90 -41.184 0
+  Color 1 0.7255 0.3412 1
+  LV 8
+  CastShadow 0
+  ClipEV -10
+  Type Spot
+  Radius 8
+  NearPlane 0.7
+  SpotAngle 155
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  LensFlareIndex 1
+  LensFlareScale 1.18
+ }
+ LIGHT_FLUO_SPOT_81 {
+  coords 5326.297 305.554 62.979
+  angles -90 -41.184 0
+  Color 1 0.7255 0.3412 1
+  LV 8
+  CastShadow 0
+  ClipEV -10
+  Type Spot
+  Radius 8
+  NearPlane 0.7
+  SpotAngle 155
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  LensFlareIndex 1
+  LensFlareScale 1.18
+ }
+ LIGHT_FLUO_SPOT_82 {
+  coords 5270.931 305.185 66.14
+  angles -90 -41.184 0
+  Color 1 0.7255 0.3412 1
+  LV 8
+  CastShadow 0
+  ClipEV -10
+  Type Spot
+  Radius 8
+  NearPlane 0.7
+  SpotAngle 155
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  LensFlareIndex 1
+  LensFlareScale 1.18
+ }
+ LIGHT_FLUO_SPOT_83 {
+  coords 5415.317 304.896 60.984
+  angles -90 -41.184 0
+  Color 1 0.7255 0.3412 1
+  LV 8
+  CastShadow 0
+  ClipEV -10
+  Type Spot
+  Radius 8
+  NearPlane 0.7
+  SpotAngle 155
+  DistanceAttenuation 0.1
+  Visualization Disabled
+  LensFlareIndex 1
+  LensFlareScale 1.18
+ }
+ LIGHT_FLUO_SPOT_84 {
+  coords 5595.583 308.622 83.718
   angles -90 -41.184 0
   Color 1 0.7255 0.3412 1
   LV 8
