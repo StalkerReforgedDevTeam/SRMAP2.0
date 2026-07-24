@@ -1948,6 +1948,131 @@ SCR_ChimeraCharacter : "{0A4A6D3C626CB7C7}Prefabs/QUESTS/SRFACTIONS/Admin/FENCE_
  coords 2986.685 305.259 2911.723
  angles 0 48.102 0
 }
+$grp GenericEntity : "{0CA0F15A651DB0F7}Prefabs/LOOT_BOX/base/army/Loot_army_box_weapons.et" {
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "WEAPONS"
+    }
+    m_LootTiersSpawn {
+     "TIER_3"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      m_iMinItemsToSpawn 1
+     }
+    }
+   }
+  }
+  coords 3248.482 304.702 2618.69
+  angles 0 -93.094 0
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "WEAPONS"
+    }
+    m_LootTiersSpawn {
+     "TIER_3"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      m_iMinItemsToSpawn 1
+     }
+    }
+   }
+  }
+  coords 3248.37 304.702 2620.295
+  angles 0 -93.094 0
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "WEAPONS"
+    }
+    m_LootTiersSpawn {
+     "TIER_3"
+     "TIER_2"
+    }
+   }
+  }
+  coords 3261.99 304.702 2615.733
+  angles 0 -93.094 0
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "WEAPONS"
+    }
+    m_LootTiersSpawn {
+     "TIER_3"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      m_iMaxItemsToSpawn 2
+      m_iMinItemsToSpawn 1
+     }
+    }
+   }
+  }
+  coords 3267.198 304.678 2612.847
+  angles 0 175.564 0
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "WEAPONS"
+    }
+    m_LootTiersSpawn {
+     "TIER_3"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      m_iMaxItemsToSpawn 2
+      m_iMinItemsToSpawn 1
+     }
+    }
+   }
+  }
+  coords 3259.966 304.678 2604.557
+  angles 0 175.564 0
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "WEAPONS"
+    }
+    m_LootTiersSpawn {
+     "TIER_3"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      m_iMaxItemsToSpawn 2
+      m_iMinItemsToSpawn 1
+     }
+    }
+   }
+  }
+  coords 3236.069 304.547 2608.453
+  angles 0 83.729 0
+ }
+}
 GenericEntity : "{0E43D5546330841F}Prefabs/Structures/BuildingParts/Industrial/ToolRack_01_tool_01.et" {
  coords 1461.394 291.341 1932.239
  angles 1.614 -93.723 0.322
@@ -2327,6 +2452,16 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "AMMOS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      "TIER_2"
      "TIER_3"
@@ -2335,7 +2470,9 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
    ActionsManagerComponent "{6190D137C5926215}" {
     additionalActions {
      ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
-      m_iMinItemsToSpawn 0
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
      }
     }
    }
@@ -2345,6 +2482,16 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "AMMOS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      "TIER_2"
      "TIER_3"
@@ -2353,7 +2500,9 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
    ActionsManagerComponent "{6190D137C5926215}" {
     additionalActions {
      ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
-      m_iMinItemsToSpawn 0
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
      }
     }
    }
@@ -2363,6 +2512,16 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "AMMOS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      "TIER_2"
      "TIER_3"
@@ -2371,7 +2530,9 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
    ActionsManagerComponent "{6190D137C5926215}" {
     additionalActions {
      ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
-      m_iMinItemsToSpawn 0
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
      }
     }
    }
@@ -2381,6 +2542,16 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "AMMOS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      "TIER_2"
      "TIER_3"
@@ -2389,7 +2560,9 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
    ActionsManagerComponent "{6190D137C5926215}" {
     additionalActions {
      ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
-      m_iMinItemsToSpawn 0
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
      }
     }
    }
@@ -2399,6 +2572,16 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "AMMOS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      "TIER_2"
      "TIER_3"
@@ -2407,7 +2590,9 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
    ActionsManagerComponent "{6190D137C5926215}" {
     additionalActions {
      ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
-      m_iMinItemsToSpawn 0
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
      }
     }
    }
@@ -2417,6 +2602,16 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "AMMOS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      "TIER_2"
      "TIER_3"
@@ -2425,7 +2620,9 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
    ActionsManagerComponent "{6190D137C5926215}" {
     additionalActions {
      ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
-      m_iMinItemsToSpawn 0
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
      }
     }
    }
@@ -2435,6 +2632,16 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "AMMOS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      "TIER_2"
      "TIER_3"
@@ -2443,7 +2650,9 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
    ActionsManagerComponent "{6190D137C5926215}" {
     additionalActions {
      ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
-      m_iMinItemsToSpawn 0
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
      }
     }
    }
@@ -2453,6 +2662,16 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "AMMOS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      "TIER_2"
      "TIER_3"
@@ -2461,7 +2680,9 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
    ActionsManagerComponent "{6190D137C5926215}" {
     additionalActions {
      ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
-      m_iMinItemsToSpawn 0
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
      }
     }
    }
@@ -2471,6 +2692,16 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "AMMOS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      "TIER_2"
      "TIER_3"
@@ -2479,7 +2710,9 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
    ActionsManagerComponent "{6190D137C5926215}" {
     additionalActions {
      ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
-      m_iMinItemsToSpawn 0
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
      }
     }
    }
@@ -2489,6 +2722,16 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "AMMOS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      "TIER_2"
      "TIER_3"
@@ -2497,7 +2740,9 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
    ActionsManagerComponent "{6190D137C5926215}" {
     additionalActions {
      ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
-      m_iMinItemsToSpawn 0
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
      }
     }
    }
@@ -2507,6 +2752,16 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "AMMOS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      "TIER_2"
      "TIER_3"
@@ -2515,7 +2770,9 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
    ActionsManagerComponent "{6190D137C5926215}" {
     additionalActions {
      ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
-      m_iMinItemsToSpawn 0
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
      }
     }
    }
@@ -2525,6 +2782,16 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "AMMOS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      "TIER_2"
      "TIER_3"
@@ -2533,7 +2800,9 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
    ActionsManagerComponent "{6190D137C5926215}" {
     additionalActions {
      ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
-      m_iMinItemsToSpawn 0
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
      }
     }
    }
@@ -2543,6 +2812,16 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "AMMOS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      "TIER_2"
      "TIER_3"
@@ -2551,7 +2830,9 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
    ActionsManagerComponent "{6190D137C5926215}" {
     additionalActions {
      ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
-      m_iMinItemsToSpawn 0
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
      }
     }
    }
@@ -2561,6 +2842,16 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "AMMOS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      "TIER_2"
      "TIER_3"
@@ -2569,7 +2860,9 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
    ActionsManagerComponent "{6190D137C5926215}" {
     additionalActions {
      ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
-      m_iMinItemsToSpawn 0
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
      }
     }
    }
@@ -2579,6 +2872,16 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "AMMOS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      "TIER_2"
      "TIER_3"
@@ -2587,7 +2890,9 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
    ActionsManagerComponent "{6190D137C5926215}" {
     additionalActions {
      ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
-      m_iMinItemsToSpawn 0
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
      }
     }
    }
@@ -2597,6 +2902,16 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "AMMOS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      "TIER_2"
      "TIER_3"
@@ -2605,7 +2920,9 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
    ActionsManagerComponent "{6190D137C5926215}" {
     additionalActions {
      ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
-      m_iMinItemsToSpawn 0
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
      }
     }
    }
@@ -2615,6 +2932,16 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "AMMOS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      "TIER_2"
      "TIER_3"
@@ -2623,7 +2950,9 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
    ActionsManagerComponent "{6190D137C5926215}" {
     additionalActions {
      ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
-      m_iMinItemsToSpawn 0
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
      }
     }
    }
@@ -2633,6 +2962,16 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "AMMOS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      "TIER_2"
      "TIER_3"
@@ -2641,7 +2980,9 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
    ActionsManagerComponent "{6190D137C5926215}" {
     additionalActions {
      ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
-      m_iMinItemsToSpawn 0
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
      }
     }
    }
@@ -2651,6 +2992,16 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "AMMOS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      "TIER_2"
      "TIER_3"
@@ -2659,7 +3010,9 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
    ActionsManagerComponent "{6190D137C5926215}" {
     additionalActions {
      ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
-      m_iMinItemsToSpawn 0
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
      }
     }
    }
@@ -2669,6 +3022,16 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "AMMOS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      "TIER_2"
      "TIER_3"
@@ -2677,7 +3040,9 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
    ActionsManagerComponent "{6190D137C5926215}" {
     additionalActions {
      ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
-      m_iMinItemsToSpawn 0
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
      }
     }
    }
@@ -2687,6 +3052,16 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "AMMOS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      "TIER_2"
      "TIER_3"
@@ -2695,7 +3070,9 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
    ActionsManagerComponent "{6190D137C5926215}" {
     additionalActions {
      ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
-      m_iMinItemsToSpawn 0
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
      }
     }
    }
@@ -2705,6 +3082,16 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "AMMOS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      "TIER_2"
      "TIER_3"
@@ -2713,7 +3100,9 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
    ActionsManagerComponent "{6190D137C5926215}" {
     additionalActions {
      ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
-      m_iMinItemsToSpawn 0
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
      }
     }
    }
@@ -2723,6 +3112,16 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "AMMOS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      "TIER_2"
      "TIER_3"
@@ -2731,7 +3130,9 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
    ActionsManagerComponent "{6190D137C5926215}" {
     additionalActions {
      ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
-      m_iMinItemsToSpawn 0
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
      }
     }
    }
@@ -2741,6 +3142,16 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "AMMOS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      "TIER_2"
      "TIER_3"
@@ -2749,7 +3160,9 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
    ActionsManagerComponent "{6190D137C5926215}" {
     additionalActions {
      ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
-      m_iMinItemsToSpawn 0
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
      }
     }
    }
@@ -2759,6 +3172,16 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "AMMOS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      "TIER_2"
      "TIER_3"
@@ -2767,7 +3190,9 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
    ActionsManagerComponent "{6190D137C5926215}" {
     additionalActions {
      ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
-      m_iMinItemsToSpawn 0
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
      }
     }
    }
@@ -2777,6 +3202,16 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "AMMOS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      "TIER_2"
      "TIER_3"
@@ -2785,7 +3220,9 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
    ActionsManagerComponent "{6190D137C5926215}" {
     additionalActions {
      ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
-      m_iMinItemsToSpawn 0
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
      }
     }
    }
@@ -2795,6 +3232,16 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "AMMOS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      "TIER_2"
      "TIER_3"
@@ -2803,7 +3250,9 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
    ActionsManagerComponent "{6190D137C5926215}" {
     additionalActions {
      ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
-      m_iMinItemsToSpawn 0
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
      }
     }
    }
@@ -2813,6 +3262,16 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "AMMOS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      "TIER_2"
      "TIER_3"
@@ -2821,7 +3280,9 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
    ActionsManagerComponent "{6190D137C5926215}" {
     additionalActions {
      ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
-      m_iMinItemsToSpawn 0
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
      }
     }
    }
@@ -2831,6 +3292,16 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "AMMOS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      "TIER_2"
      "TIER_3"
@@ -2839,7 +3310,9 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
    ActionsManagerComponent "{6190D137C5926215}" {
     additionalActions {
      ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
-      m_iMinItemsToSpawn 0
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
      }
     }
    }
@@ -2849,6 +3322,16 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "AMMOS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      "TIER_2"
      "TIER_3"
@@ -2857,7 +3340,9 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
    ActionsManagerComponent "{6190D137C5926215}" {
     additionalActions {
      ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
-      m_iMinItemsToSpawn 0
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
      }
     }
    }
@@ -2867,6 +3352,16 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "AMMOS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      "TIER_2"
      "TIER_3"
@@ -2875,7 +3370,9 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
    ActionsManagerComponent "{6190D137C5926215}" {
     additionalActions {
      ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
-      m_iMinItemsToSpawn 0
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
      }
     }
    }
@@ -2885,6 +3382,16 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "AMMOS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      "TIER_2"
      "TIER_3"
@@ -2893,7 +3400,9 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
    ActionsManagerComponent "{6190D137C5926215}" {
     additionalActions {
      ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
-      m_iMinItemsToSpawn 0
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
      }
     }
    }
@@ -2903,6 +3412,16 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "AMMOS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      "TIER_2"
      "TIER_3"
@@ -2911,7 +3430,9 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
    ActionsManagerComponent "{6190D137C5926215}" {
     additionalActions {
      ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
-      m_iMinItemsToSpawn 0
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
      }
     }
    }
@@ -2921,6 +3442,16 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "AMMOS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      "TIER_2"
      "TIER_3"
@@ -2929,7 +3460,9 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
    ActionsManagerComponent "{6190D137C5926215}" {
     additionalActions {
      ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
-      m_iMinItemsToSpawn 0
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
      }
     }
    }
@@ -2939,6 +3472,16 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "AMMOS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      "TIER_2"
      "TIER_3"
@@ -2947,7 +3490,9 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
    ActionsManagerComponent "{6190D137C5926215}" {
     additionalActions {
      ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
-      m_iMinItemsToSpawn 0
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
      }
     }
    }
@@ -2957,6 +3502,16 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "AMMOS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      "TIER_2"
      "TIER_3"
@@ -2965,7 +3520,9 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
    ActionsManagerComponent "{6190D137C5926215}" {
     additionalActions {
      ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
-      m_iMinItemsToSpawn 0
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
      }
     }
    }
@@ -2975,6 +3532,16 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "AMMOS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      "TIER_2"
      "TIER_3"
@@ -2983,7 +3550,9 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
    ActionsManagerComponent "{6190D137C5926215}" {
     additionalActions {
      ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
-      m_iMinItemsToSpawn 0
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
      }
     }
    }
@@ -2993,6 +3562,16 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "AMMOS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      "TIER_2"
      "TIER_3"
@@ -3001,7 +3580,9 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
    ActionsManagerComponent "{6190D137C5926215}" {
     additionalActions {
      ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
-      m_iMinItemsToSpawn 0
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
      }
     }
    }
@@ -3011,6 +3592,16 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "AMMOS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      "TIER_2"
      "TIER_3"
@@ -3019,7 +3610,9 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
    ActionsManagerComponent "{6190D137C5926215}" {
     additionalActions {
      ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
-      m_iMinItemsToSpawn 0
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
      }
     }
    }
@@ -3029,6 +3622,16 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "AMMOS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      "TIER_2"
      "TIER_3"
@@ -3037,7 +3640,9 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
    ActionsManagerComponent "{6190D137C5926215}" {
     additionalActions {
      ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
-      m_iMinItemsToSpawn 0
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
      }
     }
    }
@@ -3047,6 +3652,16 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "AMMOS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      "TIER_2"
      "TIER_3"
@@ -3055,7 +3670,9 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
    ActionsManagerComponent "{6190D137C5926215}" {
     additionalActions {
      ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
-      m_iMinItemsToSpawn 0
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
      }
     }
    }
@@ -3065,6 +3682,16 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "AMMOS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      "TIER_2"
      "TIER_3"
@@ -3073,7 +3700,9 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
    ActionsManagerComponent "{6190D137C5926215}" {
     additionalActions {
      ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
-      m_iMinItemsToSpawn 0
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
      }
     }
    }
@@ -3083,6 +3712,16 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "AMMOS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      "TIER_2"
      "TIER_3"
@@ -3091,7 +3730,9 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
    ActionsManagerComponent "{6190D137C5926215}" {
     additionalActions {
      ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
-      m_iMinItemsToSpawn 0
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
      }
     }
    }
@@ -3101,6 +3742,16 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "AMMOS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      "TIER_2"
      "TIER_3"
@@ -3109,7 +3760,9 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
    ActionsManagerComponent "{6190D137C5926215}" {
     additionalActions {
      ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
-      m_iMinItemsToSpawn 0
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
      }
     }
    }
@@ -3119,6 +3772,16 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "AMMOS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      "TIER_2"
      "TIER_3"
@@ -3127,7 +3790,9 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
    ActionsManagerComponent "{6190D137C5926215}" {
     additionalActions {
      ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
-      m_iMinItemsToSpawn 0
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
      }
     }
    }
@@ -3137,6 +3802,16 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "AMMOS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      "TIER_2"
      "TIER_3"
@@ -3145,7 +3820,9 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
    ActionsManagerComponent "{6190D137C5926215}" {
     additionalActions {
      ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
-      m_iMinItemsToSpawn 0
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
      }
     }
    }
@@ -3155,6 +3832,16 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "AMMOS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      "TIER_2"
      "TIER_3"
@@ -3163,7 +3850,9 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
    ActionsManagerComponent "{6190D137C5926215}" {
     additionalActions {
      ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
-      m_iMinItemsToSpawn 0
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
      }
     }
    }
@@ -3173,9 +3862,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      "TIER_1"
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3184,9 +3891,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      "TIER_1"
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3195,9 +3920,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      "TIER_1"
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3206,9 +3949,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      "TIER_1"
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3217,9 +3978,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      "TIER_1"
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3228,9 +4007,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      "TIER_1"
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3239,9 +4036,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      "TIER_1"
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3250,9 +4065,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      "TIER_1"
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3261,9 +4094,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      "TIER_1"
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3272,9 +4123,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      "TIER_1"
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3283,9 +4152,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      "TIER_1"
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3294,9 +4181,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      "TIER_1"
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3305,9 +4210,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      "TIER_1"
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3316,9 +4239,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      "TIER_1"
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3327,9 +4268,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      "TIER_1"
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3338,9 +4297,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      "TIER_1"
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3349,9 +4326,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3360,9 +4355,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3371,9 +4384,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3382,9 +4413,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3393,9 +4442,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3404,9 +4471,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3415,9 +4500,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3426,9 +4529,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3437,9 +4558,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3448,9 +4587,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3459,9 +4616,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3470,9 +4645,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3481,9 +4674,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3492,9 +4703,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3503,9 +4732,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3514,9 +4761,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3525,9 +4790,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3536,9 +4819,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3547,9 +4848,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3558,9 +4877,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3569,9 +4906,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3580,9 +4935,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3591,9 +4964,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3602,9 +4993,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3613,9 +5022,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3624,9 +5051,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3635,9 +5080,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3646,9 +5109,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3657,9 +5138,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3668,9 +5167,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3679,9 +5196,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3690,9 +5225,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3701,9 +5254,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3712,9 +5283,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3723,9 +5312,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3734,9 +5341,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3745,9 +5370,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3756,9 +5399,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3767,9 +5428,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3778,9 +5457,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3789,9 +5486,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3800,9 +5515,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3811,9 +5544,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3822,9 +5573,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3833,9 +5602,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3844,9 +5631,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3855,9 +5660,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3866,9 +5689,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3877,9 +5718,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3888,9 +5747,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3899,9 +5776,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3910,9 +5805,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3921,9 +5834,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3932,9 +5863,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3943,9 +5892,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3954,9 +5921,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3965,9 +5950,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3976,9 +5979,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3987,9 +6008,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -3998,9 +6037,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -4009,9 +6066,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -4020,9 +6095,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -4031,9 +6124,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -4042,9 +6153,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -4053,9 +6182,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -4064,9 +6211,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -4075,9 +6240,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -4086,9 +6269,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -4097,9 +6298,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -4108,9 +6327,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -4119,9 +6356,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -4130,9 +6385,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -4141,9 +6414,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -4152,9 +6443,27 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
     }
    }
   }
@@ -4163,13 +6472,151 @@ $grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.
  {
   components {
    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
     m_LootTiersSpawn {
      ""
      "TIER_2"
     }
    }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
+    }
+   }
   }
   coords 3330.75 304.702 2626.882
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "AMMOS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
+    }
+   }
+  }
+  coords 3243.271 304.702 2603.178
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "AMMOS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
+    }
+   }
+  }
+  coords 3237.459 304.702 2604.649
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "AMMOS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
+    }
+   }
+  }
+  coords 3235.682 304.702 2609.248
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootCategories {
+     "KEYS"
+     "AMMOS"
+     "ATTACHMENT"
+     "GASMASKS"
+     "TOOLS"
+     "ELECTRONICS"
+     "DOCUMENTS"
+     "OTHERS"
+    }
+    m_LootTiersSpawn {
+     "TIER_2"
+     "TIER_3"
+    }
+   }
+   ActionsManagerComponent "{6190D137C5926215}" {
+    additionalActions {
+     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+      Duration 4
+      m_iMaxItemsToSpawn 4
+      m_iMinItemsToSpawn 1
+     }
+    }
+   }
+  }
+  coords 3240.345 304.702 2612.225
  }
 }
 GenericEntity : "{4AD721AB942C260A}Prefabs/Props/Decorations/Paintings/PaintingOval_02_V3.et" {
@@ -4205,6 +6652,10 @@ GenericEntity : "{53506DCB398C7EBE}Prefabs/Props/Furniture/Table_01.et" {
 GenericEntity : "{5444982FED78FECE}Prefabs/Props/Furniture/BasketLaundry_01.et" {
  coords 1455.187 291.321 1934.337
  angles -0.344 -110.058 -0.954
+}
+SRZ_DiscordPingTriggerEntity : "{54B7B298920BFB6C}Prefabs/Anomals/Radiation/GorkiyPing.et" {
+ coords 3108.474 275.733 2673.035
+ SphereRadius 323
 }
 SCR_ChimeraCharacter : "{54DA4703A3A7248F}Prefabs/QUESTS/SRFACTIONS/BANDIT_VENDOR.et" {
  coords 1456.674 291.33 1930.734
