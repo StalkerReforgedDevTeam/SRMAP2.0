@@ -407,7 +407,7 @@ $grp LightEntity {
   coords 5484.779 305.328 50.507
   angles -90 -41.184 0
   Color 1 0.7255 0.3412 1
-  LV 8
+  LV 2.71
   CastShadow 0
   ClipEV -10
   Type Spot
@@ -423,7 +423,7 @@ $grp LightEntity {
   coords 5326.297 305.554 62.979
   angles -90 -41.184 0
   Color 1 0.7255 0.3412 1
-  LV 8
+  LV 1.71
   CastShadow 0
   ClipEV -10
   Type Spot
@@ -439,7 +439,7 @@ $grp LightEntity {
   coords 5270.931 305.185 66.14
   angles -90 -41.184 0
   Color 1 0.7255 0.3412 1
-  LV 8
+  LV 0.86
   CastShadow 0
   ClipEV -10
   Type Spot
@@ -455,7 +455,7 @@ $grp LightEntity {
   coords 5415.317 304.896 60.984
   angles -90 -41.184 0
   Color 1 0.7255 0.3412 1
-  LV 8
+  LV 3
   CastShadow 0
   ClipEV -10
   Type Spot
@@ -471,7 +471,7 @@ $grp LightEntity {
   coords 5595.583 308.622 83.718
   angles -90 -41.184 0
   Color 1 0.7255 0.3412 1
-  LV 8
+  LV 3.14
   CastShadow 0
   ClipEV -10
   Type Spot

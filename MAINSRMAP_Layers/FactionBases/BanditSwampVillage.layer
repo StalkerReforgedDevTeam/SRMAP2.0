@@ -6653,10 +6653,6 @@ GenericEntity : "{5444982FED78FECE}Prefabs/Props/Furniture/BasketLaundry_01.et" 
  coords 1455.187 291.321 1934.337
  angles -0.344 -110.058 -0.954
 }
-SRZ_DiscordPingTriggerEntity : "{54B7B298920BFB6C}Prefabs/Anomals/Radiation/GorkiyPing.et" {
- coords 3108.474 275.733 2673.035
- SphereRadius 323
-}
 SCR_ChimeraCharacter : "{54DA4703A3A7248F}Prefabs/QUESTS/SRFACTIONS/BANDIT_VENDOR.et" {
  coords 1456.674 291.33 1930.734
  angles 0 21.542 0

@@ -369,6 +369,217 @@ modded class SCR_PlayerController
 		
 		return -1;
 	}
+
+	// ==================== DICE ROLL + GAMBLE COMMANDS ====================
+	// Step 1: ".diceroll" - rolls 1-100 and shows the player their current number
+	// Step 2: ".gamble <amount> <higher|lower>" - rolls 1-100 again and compares
+	// against the stored roll from step 1. A tie always loses. Must .diceroll
+	// again before gambling a second time.
+
+	protected float m_fSRZ_GambleCooldownUntil = 0;
+	protected int m_iSRZ_CurrentDiceRoll = -1; // -1 = no roll yet
+
+	protected ref array<string> m_aSRZ_GambleWinMessages = {
+		"Lucky roll! You cleaned house.",
+		"The dice favored you this time.",
+		"Nice bet - you called it right.",
+		"Winner! The house pays out.",
+		"You read the dice perfectly."
+	};
+
+	protected ref array<string> m_aSRZ_GambleLoseMessages = {
+		"Tough luck - the dice didn't cooperate.",
+		"The house wins this round.",
+		"Not this time, better luck next roll.",
+		"You called it wrong. Dice giveth, dice taketh.",
+		"Close, but no payout this round."
+	};
+
+	void SRZ_SendDiceRollCommand(string msg)
+	{
+		if (Replication.IsServer())
+		{
+			SRZ_ProcessDiceRollCommand(msg);
+		}
+		else
+		{
+			Rpc(SRZ_RpcAsk_ProcessDiceRollCommand, msg);
+		}
+	}
+
+	[RplRpc(RplChannel.Reliable, RplRcver.Server)]
+	protected void SRZ_RpcAsk_ProcessDiceRollCommand(string msg)
+	{
+		SRZ_ProcessDiceRollCommand(msg);
+	}
+
+	protected void SRZ_ProcessDiceRollCommand(string msg)
+	{
+		if (!Replication.IsServer())
+			return;
+
+		int playerId = GetPlayerId();
+		if (playerId <= 0)
+			return;
+
+		int total = Math.RandomInt(1, 101); // 1-100
+
+		m_iSRZ_CurrentDiceRoll = total;
+
+		SRZ_RPNet.SendToPlayer(playerId, string.Format("You rolled %1. Now type .gamble with a amount and higher or lower", total));
+	}
+
+	void SRZ_SendGambleCommand(string msg)
+	{
+		if (Replication.IsServer())
+		{
+			SRZ_ProcessGambleCommand(msg);
+		}
+		else
+		{
+			Rpc(SRZ_RpcAsk_ProcessGambleCommand, msg);
+		}
+	}
+
+	[RplRpc(RplChannel.Reliable, RplRcver.Server)]
+	protected void SRZ_RpcAsk_ProcessGambleCommand(string msg)
+	{
+		SRZ_ProcessGambleCommand(msg);
+	}
+
+	protected void SRZ_ProcessGambleCommand(string msg)
+	{
+		if (!Replication.IsServer())
+			return;
+
+		int playerId = GetPlayerId();
+		if (playerId <= 0)
+			return;
+
+		array<string> parts = {};
+		msg.Split(" ", parts, true);
+
+		if (parts.Count() < 3)
+		{
+			SRZ_RPNet.SendToPlayer(playerId, "Usage: .gamble <amount> <higher|lower>");
+			return;
+		}
+
+		int betAmount = parts[1].ToInt();
+		string prediction = parts[2];
+		prediction.ToLower();
+
+		if (prediction != "higher" && prediction != "lower")
+		{
+			SRZ_RPNet.SendToPlayer(playerId, "Usage: .gamble <amount> <higher|lower>");
+			return;
+		}
+
+		if (betAmount <= 0)
+		{
+			SRZ_RPNet.SendToPlayer(playerId, "Bet amount must be a positive number.");
+			return;
+		}
+
+		if (m_iSRZ_CurrentDiceRoll < 0)
+		{
+			SRZ_RPNet.SendToPlayer(playerId, "Roll first with .diceroll before you gamble.");
+			return;
+		}
+
+		float now = GetGame().GetWorld().GetWorldTime();
+		if (now < m_fSRZ_GambleCooldownUntil)
+		{
+			SRZ_RPNet.SendToPlayer(playerId, "Slow down - wait before gambling again.");
+			return;
+		}
+
+		IEntity playerEntity = GetMainEntity();
+		if (!playerEntity)
+		{
+			SRZ_RPNet.SendToPlayer(playerId, "[SRZ] You need to be spawned.");
+			return;
+		}
+
+		ARMST_PLAYER_STATS_COMPONENT statsComp = ARMST_PLAYER_STATS_COMPONENT.Cast(playerEntity.FindComponent(ARMST_PLAYER_STATS_COMPONENT));
+		if (!statsComp)
+			return;
+
+		int currentMoney = statsComp.GetValue();
+		if (currentMoney < betAmount)
+		{
+			SRZ_RPNet.SendToPlayer(playerId, string.Format("You need %1 roubles to place this bet.", betAmount));
+			return;
+		}
+
+		m_fSRZ_GambleCooldownUntil = now + 180000; // 3 minute cooldown, ms
+
+		int firstRoll = m_iSRZ_CurrentDiceRoll;
+		int secondRoll = Math.RandomInt(1, 101); // 1-100
+
+		m_iSRZ_CurrentDiceRoll = -1; // must .diceroll again before next gamble
+
+		bool won;
+		string predictionName;
+		if (prediction == "higher")
+		{
+			won = secondRoll > firstRoll;
+			predictionName = "Higher";
+		}
+		else
+		{
+			won = secondRoll < firstRoll;
+			predictionName = "Lower";
+		}
+
+		string flavor;
+		string message;
+
+		if (won)
+		{
+			flavor = m_aSRZ_GambleWinMessages.GetRandomElement();
+			statsComp.SetValue(currentMoney + betAmount);
+			message = string.Format("Rolled %1, then %2 - you bet %3. %4 (+%5 roubles)", firstRoll, secondRoll, predictionName, flavor, betAmount);
+		}
+		else
+		{
+			flavor = m_aSRZ_GambleLoseMessages.GetRandomElement();
+			statsComp.SetValue(currentMoney - betAmount);
+			SRZ_ApplyGambleLossPenalty(playerEntity, statsComp);
+			message = string.Format("Rolled %1, then %2 - you bet %3. %4 (-%5 roubles)", firstRoll, secondRoll, predictionName, flavor, betAmount);
+		}
+
+		SRZ_RPNet.SendToPlayer(playerId, message);
+	}
+
+	// Applies -20 health and -20 psy on a lost gamble. Health floors at 1 so a
+	// loss can't kill the player outright, same floor pattern as the vitals system.
+	protected void SRZ_ApplyGambleLossPenalty(IEntity playerEntity, ARMST_PLAYER_STATS_COMPONENT statsComp)
+	{
+		// Health
+		DamageManagerComponent damageManager = DamageManagerComponent.Cast(playerEntity.FindComponent(DamageManagerComponent));
+		if (damageManager)
+		{
+			HitZone defaultHitZone = damageManager.GetDefaultHitZone();
+			if (defaultHitZone)
+			{
+				float currentHealth = defaultHitZone.GetHealth();
+				float newHealth = currentHealth - 20;
+				if (newHealth < 1)
+					newHealth = 1;
+
+				defaultHitZone.SetHealth(newHealth);
+			}
+		}
+
+		// Psy
+		int currentPsy = statsComp.ArmstPlayerStatGetPsy();
+		int newPsy = currentPsy - 20;
+		if (newPsy < 0)
+			newPsy = 0;
+
+		statsComp.ArmstPlayerStatSetPsyDirect(newPsy);
+	}
 }
 
 // Helper class for network operations
