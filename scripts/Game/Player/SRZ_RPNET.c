@@ -372,9 +372,10 @@ modded class SCR_PlayerController
 
 	// ==================== DICE ROLL + GAMBLE COMMANDS ====================
 	// Step 1: ".diceroll" - rolls 1-100 and shows the player their current number
-	// Step 2: ".gamble <amount> <higher|lower>" - rolls 1-100 again and compares
-	// against the stored roll from step 1. A tie always loses. Must .diceroll
-	// again before gambling a second time.
+	// Step 2: ".gamble <amount> <higher|lower>" - rolls 1-100 again for flavor and
+	// display only. The actual win/loss is a fixed 10% chance regardless of the
+	// higher/lower call or the roll values. Must .diceroll again before gambling
+	// a second time (roll is locked/consumed on use).
 
 	protected float m_fSRZ_GambleCooldownUntil = 0;
 	protected int m_iSRZ_CurrentDiceRoll = -1; // -1 = no roll yet
@@ -413,6 +414,9 @@ modded class SCR_PlayerController
 		SRZ_ProcessDiceRollCommand(msg);
 	}
 
+	// Prevents spamming .diceroll to fish for a favorable number before committing
+	// to .gamble. Once a roll is active, it's locked permanently - the player must
+	// .gamble that exact roll before they're allowed to roll again. No timeout.
 	protected void SRZ_ProcessDiceRollCommand(string msg)
 	{
 		if (!Replication.IsServer())
@@ -421,6 +425,13 @@ modded class SCR_PlayerController
 		int playerId = GetPlayerId();
 		if (playerId <= 0)
 			return;
+
+		// Already have a live, unspent roll - refuse to reroll until it's used.
+		if (m_iSRZ_CurrentDiceRoll != -1)
+		{
+			SRZ_RPNet.SendToPlayer(playerId, string.Format("You already rolled %1. Type .gamble with an amount and higher or lower to use it.", m_iSRZ_CurrentDiceRoll));
+			return;
+		}
 
 		int total = Math.RandomInt(1, 101); // 1-100
 
@@ -515,21 +526,44 @@ modded class SCR_PlayerController
 		m_fSRZ_GambleCooldownUntil = now + 180000; // 3 minute cooldown, ms
 
 		int firstRoll = m_iSRZ_CurrentDiceRoll;
-		int secondRoll = Math.RandomInt(1, 101); // 1-100
 
 		m_iSRZ_CurrentDiceRoll = -1; // must .diceroll again before next gamble
 
-		bool won;
 		string predictionName;
 		if (prediction == "higher")
-		{
-			won = secondRoll > firstRoll;
 			predictionName = "Higher";
-		}
 		else
-		{
-			won = secondRoll < firstRoll;
 			predictionName = "Lower";
+
+		// Fixed 10% win rate, but the second roll is generated to actually match
+		// the outcome - a win always shows a genuinely correct roll, a loss
+		// always shows a genuinely incorrect one.
+		bool won = Math.RandomFloat(0, 100) < 10;
+		int secondRoll;
+
+		if (prediction == "higher")
+		{
+			if (won)
+			{
+				if (firstRoll >= 100)
+					won = false; // no number is higher than 100, can't win this roll
+				else
+					secondRoll = Math.RandomInt(firstRoll + 1, 101); // firstRoll+1 .. 100
+			}
+			if (!won)
+				secondRoll = Math.RandomInt(1, firstRoll + 1); // 1 .. firstRoll (tie counts as loss)
+		}
+		else // "lower"
+		{
+			if (won)
+			{
+				if (firstRoll <= 1)
+					won = false; // no number is lower than 1, can't win this roll
+				else
+					secondRoll = Math.RandomInt(1, firstRoll); // 1 .. firstRoll-1
+			}
+			if (!won)
+				secondRoll = Math.RandomInt(firstRoll, 101); // firstRoll .. 100 (tie counts as loss)
 		}
 
 		string flavor;
