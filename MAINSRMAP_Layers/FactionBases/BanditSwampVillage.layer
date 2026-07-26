@@ -1881,6 +1881,14 @@ $grp SCR_DestructibleBuildingEntity {
   }
  }
 }
+SRZ_DiscordPingTriggerEntity {
+ coords 3127.375 285.265 2689.898
+ TriggerShapeType Sphere
+ SphereRadius 297.7
+ DrawShape 1
+ TriggerActivationType "Every query"
+ PeriodicQueries 1
+}
 Armst_Monster_Character : "{02CB07CF03B77AAF}Prefabs/Monsters/Characters/Elementals/Electro/armst_electro_elemental.et" {
  coords 1951.495 294.343 828.349
 }
