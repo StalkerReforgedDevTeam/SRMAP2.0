@@ -10,9 +10,9 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
  wolfs44 {
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
-    m_InitialSpawnDelay 50
+    m_InitialSpawnDelay 30
     m_CheckPlayerRadius 29
-    m_SpawnChance 40
+    m_SpawnChance 34
     m_FailedSpawnDelay 1277
     m_PlayerDetectionRadius 152
     m_RespawnDelayAfterDelete 4426
@@ -31,9 +31,9 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
  wolfs58 {
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
-    m_InitialSpawnDelay 50
+    m_InitialSpawnDelay 30
     m_CheckPlayerRadius 29
-    m_SpawnChance 40
+    m_SpawnChance 34
     m_FailedSpawnDelay 1277
     m_PlayerDetectionRadius 152
     m_RespawnDelayAfterDelete 4426
@@ -52,9 +52,9 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
  wolfs59 {
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
-    m_InitialSpawnDelay 50
+    m_InitialSpawnDelay 30
     m_CheckPlayerRadius 29
-    m_SpawnChance 40
+    m_SpawnChance 34
     m_FailedSpawnDelay 1277
     m_PlayerDetectionRadius 152
     m_RespawnDelayAfterDelete 4426
@@ -73,9 +73,9 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
  electro16 {
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
-    m_InitialSpawnDelay 50
+    m_InitialSpawnDelay 30
     m_CheckPlayerRadius 29
-    m_SpawnChance 40
+    m_SpawnChance 34
     m_FailedSpawnDelay 1277
     m_PlayerDetectionRadius 152
     m_RespawnDelayAfterDelete 4426
@@ -90,9 +90,9 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
  wolfs60 {
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
-    m_InitialSpawnDelay 50
+    m_InitialSpawnDelay 30
     m_CheckPlayerRadius 29
-    m_SpawnChance 40
+    m_SpawnChance 34
     m_FailedSpawnDelay 1277
     m_PlayerDetectionRadius 152
     m_RespawnDelayAfterDelete 4426
@@ -111,9 +111,9 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
  wolfs61 {
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
-    m_InitialSpawnDelay 50
+    m_InitialSpawnDelay 30
     m_CheckPlayerRadius 29
-    m_SpawnChance 40
+    m_SpawnChance 34
     m_FailedSpawnDelay 1277
     m_PlayerDetectionRadius 152
     m_RespawnDelayAfterDelete 4426
@@ -135,90 +135,105 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   coords 2545.067 297.071 2951.842
   SphereRadius 24.3
   DrawShape 0
+  UpdatePeriod 5
   m_DamageRadioLevel 84
  }
  {
   coords 2439.034 300.081 2821.389
   SphereRadius 24.3
   DrawShape 0
+  UpdatePeriod 5
   m_DamageRadioLevel 84
  }
  {
   coords 2528.773 298.893 2786.99
   SphereRadius 24.3
   DrawShape 0
+  UpdatePeriod 5
   m_DamageRadioLevel 84
  }
  {
   coords 2477.636 293.265 2921.71
   SphereRadius 24.3
   DrawShape 0
+  UpdatePeriod 5
   m_DamageRadioLevel 84
  }
  {
   coords 2475.361 306.419 2762.351
   SphereRadius 24.3
   DrawShape 0
+  UpdatePeriod 5
   m_DamageRadioLevel 84
  }
  {
   coords 2476.77 300.627 2845.826
   SphereRadius 24.3
   DrawShape 0
+  UpdatePeriod 5
   m_DamageRadioLevel 84
  }
  {
   coords 2511.534 298.169 2956.922
   SphereRadius 24.3
   DrawShape 0
+  UpdatePeriod 5
   m_DamageRadioLevel 112
  }
  {
   coords 2381.308 300.925 2736.726
   SphereRadius 24.3
   DrawShape 0
+  UpdatePeriod 5
   m_DamageRadioLevel 84
  }
  {
   coords 2510.73 299.175 2839.34
   SphereRadius 24.3
   DrawShape 0
+  UpdatePeriod 5
   m_DamageRadioLevel 84
  }
  {
   coords 2510.559 298.538 2757.999
   SphereRadius 24.3
   DrawShape 0
+  UpdatePeriod 5
   m_DamageRadioLevel 84
  }
  {
   coords 2405.873 300.145 2941.226
   SphereRadius 44.8
   DrawShape 0
+  UpdatePeriod 5
   m_DamageRadioLevel 160
  }
  {
   coords 2329.052 298.556 2735.66
   SphereRadius 44.8
   DrawShape 0
+  UpdatePeriod 5
   m_DamageRadioLevel 160
  }
  {
   coords 2690.024 301.703 3026.043
   SphereRadius 69.2
   DrawShape 0
+  UpdatePeriod 5
   m_DamageRadioLevel 200
  }
  {
   coords 2586.019 284.202 2732.376
   SphereRadius 69.2
   DrawShape 0
+  UpdatePeriod 5
   m_DamageRadioLevel 200
  }
  {
   coords 2368.621 298.169 2839.514
   SphereRadius 69.2
   DrawShape 0
+  UpdatePeriod 5
   m_DamageRadioLevel 200
  }
 }

@@ -2440,6 +2440,9 @@ GenericEntity : "{12C9F97F9D38F68D}Prefabs/Props/Teleport/ARMST_ACTION_TELEPORT.
      Duration 1
      m_sTeleportActionName "Enter The Zone"
      m_sTeleportTarget "enter_perimetr2"
+     m_bRandomizeDestination 1
+     m_sTeleportTarget2 "enter_perimetr11"
+     m_sTeleportTarget3 "enter_perimetr15"
     }
    }
   }
@@ -2494,7 +2497,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   coords 2031.333 305.95 284.212
   SphereRadius 119.8
   DrawShape 0
-  UpdatePeriod 3
+  UpdatePeriod 5
   m_DamageRadioLevel 15
  }
  {
@@ -2503,21 +2506,21 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   coords 1310.669 321.478 497.336
   SphereRadius 119.8
   DrawShape 0
-  UpdatePeriod 3
+  UpdatePeriod 5
   m_DamageRadioLevel 15
  }
  {
   coords 4892.631 309.678 1351.978
   SphereRadius 87.4
   DrawShape 0
-  UpdatePeriod 3
+  UpdatePeriod 5
   m_DamageRadioLevel 60
  }
  {
   coords 3724.807 321.568 1844.583
   SphereRadius 127.1
   DrawShape 0
-  UpdatePeriod 3
+  UpdatePeriod 5
   m_DamageRadioLevel 70
  }
 }

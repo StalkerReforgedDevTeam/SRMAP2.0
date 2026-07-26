@@ -396,6 +396,14 @@ $grp GenericEntity {
   coords 5827.713 342.582 2098.239
   angles 0 -57.322 0
  }
+ enter_perimetr11 {
+  coords 6630.524 307.024 1326.859
+  angles 0 -57.322 0
+ }
+ enter_perimetr15 {
+  coords 5058.532 310.657 433.855
+  angles 0 -57.322 0
+ }
 }
 $grp SCR_DestructibleBuildingEntity {
  {
@@ -2205,6 +2213,197 @@ $grp LightEntity : "{19E6C75FF73F5899}Prefabs/Structures/BuildingParts/Lights/La
   SpotAngle 120.52
   SpotAngleAttenuation 0
   DistanceAttenuation 0.1
+ }
+}
+$grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST_RADIATIONS.et" {
+ {
+  coords 5706.769 310.59 2317.46
+  SphereRadius 118.2
+  DrawShape 0
+  UpdatePeriod 5
+  m_DamageRadioLevel 60
+ }
+ {
+  coords 6136.929 310.59 2147.938
+  SphereRadius 118.2
+  DrawShape 0
+  UpdatePeriod 5
+  m_DamageRadioLevel 60
+ }
+ {
+  coords 5790.508 310.59 1770.45
+  SphereRadius 118.2
+  DrawShape 0
+  UpdatePeriod 5
+  m_DamageRadioLevel 60
+ }
+ {
+  coords 5889.333 310.59 2135.365
+  SphereRadius 118.2
+  DrawShape 0
+  UpdatePeriod 5
+  m_DamageRadioLevel 60
+ }
+ {
+  coords 6115.564 310.59 2476.358
+  SphereRadius 118.2
+  DrawShape 0
+  UpdatePeriod 5
+  m_DamageRadioLevel 60
+ }
+ {
+  coords 6329.047 310.59 2447.381
+  SphereRadius 118.2
+  DrawShape 0
+  UpdatePeriod 5
+  m_DamageRadioLevel 60
+ }
+ {
+  coords 6438.218 310.59 2170.357
+  SphereRadius 118.2
+  DrawShape 0
+  UpdatePeriod 5
+  m_DamageRadioLevel 60
+ }
+ {
+  coords 6298.151 310.59 1943.822
+  SphereRadius 118.2
+  DrawShape 0
+  UpdatePeriod 5
+  m_DamageRadioLevel 60
+ }
+ {
+  coords 6536.696 310.59 1884.528
+  SphereRadius 118.2
+  DrawShape 0
+  UpdatePeriod 5
+  m_DamageRadioLevel 60
+ }
+ {
+  coords 6549.333 310.59 1586.623
+  SphereRadius 118.2
+  DrawShape 0
+  UpdatePeriod 5
+  m_DamageRadioLevel 60
+ }
+ {
+  coords 6270.496 310.59 1474.519
+  SphereRadius 118.2
+  DrawShape 0
+  UpdatePeriod 5
+  m_DamageRadioLevel 60
+ }
+ {
+  coords 6119.647 310.59 1739.476
+  SphereRadius 118.2
+  DrawShape 0
+  UpdatePeriod 5
+  m_DamageRadioLevel 60
+ }
+ {
+  coords 6007.921 310.59 1406.669
+  SphereRadius 118.2
+  DrawShape 0
+  UpdatePeriod 5
+  m_DamageRadioLevel 60
+ }
+ {
+  coords 5970.292 310.59 1924.486
+  SphereRadius 118.2
+  DrawShape 0
+  UpdatePeriod 5
+  m_DamageRadioLevel 60
+ }
+ {
+  coords 5689.09 310.59 1988.053
+  SphereRadius 118.2
+  DrawShape 0
+  UpdatePeriod 5
+  m_DamageRadioLevel 60
+ }
+ {
+  coords 5523.45 310.59 2168.885
+  SphereRadius 118.2
+  DrawShape 0
+  UpdatePeriod 5
+  m_DamageRadioLevel 60
+ }
+ {
+  coords 5764.744 310.59 1530.137
+  SphereRadius 118.2
+  DrawShape 0
+  UpdatePeriod 5
+  m_DamageRadioLevel 60
+ }
+ {
+  coords 5698.535 310.59 1219.772
+  SphereRadius 118.2
+  DrawShape 0
+  UpdatePeriod 5
+  m_DamageRadioLevel 60
+ }
+ {
+  coords 5932.508 310.59 1059.306
+  SphereRadius 118.2
+  DrawShape 0
+  UpdatePeriod 5
+  m_DamageRadioLevel 60
+ }
+ {
+  coords 6198.207 310.59 759.3
+  SphereRadius 118.2
+  DrawShape 0
+  UpdatePeriod 5
+  m_DamageRadioLevel 60
+ }
+ {
+  coords 6383.284 310.59 1716.837
+  SphereRadius 118.2
+  DrawShape 0
+  UpdatePeriod 5
+  m_DamageRadioLevel 60
+ }
+ {
+  coords 6380.769 310.59 1477.859
+  SphereRadius 118.2
+  DrawShape 0
+  UpdatePeriod 5
+  m_DamageRadioLevel 60
+ }
+ {
+  coords 6684.892 310.59 1565.242
+  SphereRadius 118.2
+  DrawShape 0
+  UpdatePeriod 5
+  m_DamageRadioLevel 60
+ }
+ {
+  coords 6839.066 310.59 1643.274
+  SphereRadius 118.2
+  DrawShape 0
+  UpdatePeriod 5
+  m_DamageRadioLevel 60
+ }
+ {
+  coords 6175.948 310.59 1136.7
+  SphereRadius 118.2
+  DrawShape 0
+  UpdatePeriod 5
+  m_DamageRadioLevel 60
+ }
+ {
+  coords 5913.822 310.59 783.801
+  SphereRadius 118.2
+  DrawShape 0
+  UpdatePeriod 5
+  m_DamageRadioLevel 60
+ }
+ {
+  coords 5604.839 310.59 994.073
+  SphereRadius 118.2
+  DrawShape 0
+  UpdatePeriod 5
+  m_DamageRadioLevel 60
  }
 }
 GenericEntity : "{1B9105B9ADB513CB}Prefabs/Props/Signs/Industrial/SignIndustrial_USSR_02_warnings_entryforbidden.et" {
@@ -6973,6 +7172,10 @@ $grp GameEntity : "{91F1FAFB2D7CA8AA}Prefabs/Structures/BuildingParts/Lights/Lam
 GenericEntity : "{986F38072A8DD563}Prefabs/Props/Garbage/Generic/Junk_01/Junk_01_single_planks.et" {
  coords 1458.673 291.281 1945.679
 }
+SCR_ChimeraCharacter : "{9DED35EC3B12E4C1}Prefabs/QUESTS/MICH/MICH_MEDIC.et" {
+ coords 6628.264 306.744 1332.297
+ angles 0 -123.211 0
+}
 GenericEntity : "{9FE49438E0414334}Prefabs/Props/Furniture/Sofa_01.et" {
  coords 1456.806 291.337 1929.107
 }
@@ -7071,6 +7274,12 @@ GenericEntity : "{A84A73E9D9D4B20E}Prefabs/Props/Furniture/Shelf_01.et" {
  coords 1461.583 292.863 1931.949
  angles 0 -94.218 0
 }
+ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
+ coords 3756.091 307.045 2665.523
+ SphereRadius 159.4
+ DrawShape 1
+ m_DamagePsyLevel 41
+}
 $grp Tree : "{AD801168E8BF9AD2}Prefabs/Vegetation/Plant/Hedera_Helix/p_hedera_helix_wall_01_aut.et" {
  {
   coords 1461.557 7.671 1933.943
@@ -7118,6 +7327,10 @@ GenericEntity : "{B9B923210CF2325D}Prefabs/Props/Commercial/ShelfUniversal_01_Ba
 GenericEntity : "{C2C1CEA73A4D8779}Prefabs/Props/Civilian/Notebook_01_Stack.et" {
  coords 1459.771 296.317 1934.434
  angles 1.012 -3.122 -0.051
+}
+SCR_ChimeraCharacter : "{C2D484B9E903CCAB}Prefabs/QUESTS/MICH/MICH_MITAY.et" {
+ coords 6627.042 306.758 1333.666
+ angles 0 -169.775 0
 }
 SCR_DestructibleBuildingEntity : "{C6BCBDF038902509}Prefabs/Industrial/moped_blue.et" {
  coords 1458.712 295.013 1933.101
@@ -7591,6 +7804,14 @@ GenericEntity : "{F1C5AA461DC6ECCE}Prefabs/Props/Civilian/PotOld_01.et" {
 SCR_ChimeraCharacter : "{F4ED288351A63690}Prefabs/QUESTS/SRFACTIONS/MERC_VENDOR.et" {
  coords 5825.271 342.259 2093.431
  angles 0 175.382 0
+}
+SCR_ChimeraCharacter : "{F66E613CDF1C27AE}Prefabs/QUESTS/MICH/MICH_BARMAN.et" {
+ coords 6633.13 306.709 1324.723
+ angles 0 164.884 0
+}
+SCR_ChimeraCharacter : "{F66E613CDF1C27AF}Prefabs/QUESTS/MICH/MICH_TRADER.et" {
+ coords 6629.467 306.939 1317.412
+ angles 0 0.735 0
 }
 $grp SCR_DestructibleBuildingEntity : "{F6AA92F7B23D8A71}Prefabs/Structures/Infrastructure/Naval/Piers/Pier_01.et" {
  {
