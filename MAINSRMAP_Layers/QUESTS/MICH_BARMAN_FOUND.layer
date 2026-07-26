@@ -22,9 +22,9 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
  wolfs30 {
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
-    m_InitialSpawnDelay 50
+    m_InitialSpawnDelay 30
     m_CheckPlayerRadius 29
-    m_SpawnChance 40
+    m_SpawnChance 34
     m_FailedSpawnDelay 1277
     m_PlayerDetectionRadius 152
     m_RespawnDelayAfterDelete 4426
@@ -39,9 +39,9 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
  wolfs40 {
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
-    m_InitialSpawnDelay 50
+    m_InitialSpawnDelay 30
     m_CheckPlayerRadius 29
-    m_SpawnChance 40
+    m_SpawnChance 34
     m_FailedSpawnDelay 1277
     m_PlayerDetectionRadius 152
     m_RespawnDelayAfterDelete 4426
@@ -56,9 +56,9 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
  wolfs41 {
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
-    m_InitialSpawnDelay 50
+    m_InitialSpawnDelay 30
     m_CheckPlayerRadius 29
-    m_SpawnChance 40
+    m_SpawnChance 34
     m_FailedSpawnDelay 1277
     m_PlayerDetectionRadius 152
     m_RespawnDelayAfterDelete 4426
@@ -106,7 +106,7 @@ GenericEntity : "{9B5E54AE53A664C4}Prefabs/QUESTS/BASE_QUEST_STAGE_CHANGE.et" {
      m_sQuestNameDB "barm_found"
      m_iStageStart 3
      m_iStageSet 4
-     m_PrefabQuestFinish "{923B067A74826419}Prefabs/Weapons/Rifles/Shotgun/armst_toz66.et"
+     m_PrefabQuestFinish "{923B067A74826419}Prefabs/Weapons/Rifles/Shotgun/armst_toz_66.et"
     }
    }
   }

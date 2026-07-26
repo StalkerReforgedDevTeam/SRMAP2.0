@@ -211,6 +211,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   scale 11.91
   SphereRadius 12.8
   DrawShape 0
+  UpdatePeriod 5
   m_DamageRadioLevel 66
  }
  {
@@ -223,6 +224,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   TriggerShapeType "Oriented Bounding Box"
   SphereRadius 40.8
   DrawShape 0
+  UpdatePeriod 5
   m_DamageRadioLevel 66
  }
 }
@@ -718,29 +720,29 @@ $grp SCR_DestructibleBuildingEntity : "{5987E1DF837BA755}Prefabs/Vehicles/btr70/
   angles 20.264 125.717 -13.264
  }
 }
-SCR_DestructibleBuildingEntity : "{5B2777BA82B53DA6}Prefabs/Vehicles/azlk412/armst_azlk412_wreck4.et" {
+GenericEntity : "{5B2777BA82B53DA6}Prefabs/Vehicles/azlk412/armst_azlk412_wreck4.et" {
  coords 3217.239 306.05 1420.648
  angles 0 128.375 0
  {
-  GenericEntity {
-   ID "663473501529DE22"
-   components {
-    ActionsManagerComponent "{6190D137C5926215}" {
-     additionalActions {
-      ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
-       m_iMaxItemsToSpawn 6
+  $grp GenericEntity {
+   {
+    components {
+     ActionsManagerComponent "{6190D137C5926215}" {
+      additionalActions {
+       ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+        m_iMaxItemsToSpawn 6
+       }
       }
      }
     }
    }
-  }
-  GenericEntity {
-   ID "6634735015294FB9"
-   components {
-    ActionsManagerComponent "{6190D137C5926215}" {
-     additionalActions {
-      ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
-       m_iMaxItemsToSpawn 6
+   {
+    components {
+     ActionsManagerComponent "{6190D137C5926215}" {
+      additionalActions {
+       ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+        m_iMaxItemsToSpawn 6
+       }
       }
      }
     }
