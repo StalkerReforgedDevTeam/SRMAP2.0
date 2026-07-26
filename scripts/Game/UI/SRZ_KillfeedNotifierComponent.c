@@ -24,6 +24,37 @@ class SRZ_KillfeedNotifierComponent : SCR_BaseGameModeComponent
     }
 
     //------------------------------------------------------------------------------------------------
+    // Builds "Gamertag (RPName)" for a given playerId. Falls back to just the
+    // gamertag if no RP name is on file, and to fallbackName if the gamertag
+    // lookup itself comes back empty (e.g. player already disconnected).
+    protected string BuildKillfeedName(int playerId, string fallbackName)
+    {
+        if (playerId <= 0)
+            return fallbackName;
+
+        PlayerManager pm = GetGame().GetPlayerManager();
+        if (!pm)
+            return fallbackName;
+
+        string gamertag = pm.GetPlayerName(playerId);
+        if (gamertag.IsEmpty())
+            gamertag = fallbackName;
+
+        if (gamertag.IsEmpty())
+            return "Unknown";
+
+        SRZ_RPNameProfileManager profileMgr = SRZ_RPNameProfileManager.GetInstance();
+        if (!profileMgr)
+            return gamertag;
+
+        string rpName = profileMgr.GetNameForPlayer(playerId);
+        if (rpName.IsEmpty())
+            return gamertag;
+
+        return string.Format("%1 (%2)", gamertag, rpName);
+    }
+
+    //------------------------------------------------------------------------------------------------
     protected string GetDamageTypeName(EDamageType dmgType)
     {
         if (dmgType == EDamageType.KINETIC)                 return "Gunshot";
@@ -137,9 +168,8 @@ class SRZ_KillfeedNotifierComponent : SCR_BaseGameModeComponent
         if (victimId > 0)
         {
             string lookupName = pm.GetPlayerName(victimId);
-            if (!lookupName.IsEmpty())
-                victimName = lookupName;
-                
+            victimName = BuildKillfeedName(victimId, lookupName);
+
             victimEntity = pm.GetPlayerControlledEntity(victimId);
         }
 
@@ -150,8 +180,18 @@ class SRZ_KillfeedNotifierComponent : SCR_BaseGameModeComponent
         
         Instigator killerInstigator = instigatorContextData.GetInstigator();
         
-        // Bypassed EGMPInstigatorType to prevent compiler undeclared identifier error
-        bool isGMKill = false; 
+        // GM kill detection: a GM issuing a kill/damage action from the editor
+        // usually isn't possessing a character, so killerIsPlayer/killerIsAI
+        // both come back false even though we have a valid killerId. If that
+        // killerId belongs to an admin, treat it as a GM kill. This replaces
+        // the old permanently-false isGMKill flag that made this branch dead
+        // code (the previous approach relied on an enum that doesn't compile
+        // in this codebase).
+        bool isGMKill = false;
+        if (killerId > 0 && !killerIsPlayer && !killerIsAI)
+        {
+            isGMKill = pm.HasPlayerRole(killerId, EPlayerRole.ADMINISTRATOR);
+        }
 
         array<ref SRZ_DamageEntry> damageLog = SRZ_KillfeedDamageTracker.GetAndClearLog(victimId);
 
@@ -190,14 +230,13 @@ class SRZ_KillfeedNotifierComponent : SCR_BaseGameModeComponent
 
         if (isGMKill)
         {
-            content = "⚡ **" + victimName + "** was terminated by the **Game Master**";
+            string gmName = BuildKillfeedName(killerId, pm.GetPlayerName(killerId));
+            content = "⚡ **" + victimName + "** was terminated by **" + gmName + "** [Game Master]";
         }
         else if (killerIsPlayer && killerId > 0)
         {
-            string killerName = pm.GetPlayerName(killerId);
-            if (killerName.IsEmpty())
-                killerName = "Unknown Player";
-                
+            string killerName = BuildKillfeedName(killerId, pm.GetPlayerName(killerId));
+
             string weaponContext = "";
             if (!extractedWeapon.IsEmpty())
                 weaponContext = " with **" + extractedWeapon + "**";
