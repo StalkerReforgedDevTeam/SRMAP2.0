@@ -1,4 +1,3 @@
-
 [BaseContainerProps(category: "Respawn")]
 modded class ARMST_BasicSpawnLogic: EPF_BasicSpawnLogic
 {
@@ -8,7 +7,14 @@ modded class ARMST_BasicSpawnLogic: EPF_BasicSpawnLogic
     {
 		
 		PrintFormat("HandoverToPlayer(%1, %2)", playerId, character);
+
 		SCR_PlayerController playerController = SCR_PlayerController.Cast(GetGame().GetPlayerManager().GetPlayerController(playerId));
+		if (!playerController)
+		{
+			Print(string.Format("[SRZ_SPAWNFIX] HandoverToPlayer aborted - no PlayerController for player %1 (likely disconnected during spawn).", playerId), LogLevel.WARNING);
+			return;
+		}
+
 		EDF_ScriptInvokerCallback2<IEntity, IEntity> callback(this, "OnHandoverComplete", new Tuple1<int>(playerId));
 		playerController.m_OnControlledEntityChanged.Insert(callback.Invoke);
 
@@ -16,11 +22,23 @@ modded class ARMST_BasicSpawnLogic: EPF_BasicSpawnLogic
 
 		
 		const SCR_BaseGameMode gamemode = SCR_BaseGameMode.Cast(GetGame().GetGameMode());
+		if (!gamemode)
+		{
+			Print(string.Format("[SRZ_SPAWNFIX] HandoverToPlayer aborted - no GameMode found for player %1.", playerId), LogLevel.WARNING);
+			return;
+		}
 		gamemode.OnPlayerEntityChanged_S(playerId, null, character);
 
 		
 		SCR_RespawnComponent respawn = SCR_RespawnComponent.Cast(playerController.GetRespawnComponent());
-		respawn.NotifySpawn(character);
+		if (respawn)
+		{
+			respawn.NotifySpawn(character);
+		}
+		else
+		{
+			Print(string.Format("[SRZ_SPAWNFIX] Warning - no RespawnComponent found for player %1, skipping NotifySpawn.", playerId), LogLevel.WARNING);
+		}
 
         // Проверка и запуск UI создания персонажа
         ARMST_PLAYER_STATS_COMPONENT statsComponent = ARMST_PLAYER_STATS_COMPONENT.Cast(character.FindComponent(ARMST_PLAYER_STATS_COMPONENT));

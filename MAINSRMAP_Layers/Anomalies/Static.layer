@@ -27,20 +27,6 @@ $grp LightEntity {
   VolLightIntensity 0.1
   LensFlareScale 5.03
  }
- LIGHT_FLUO_SPOT_29 {
-  coords 2406.364 273.854 2228.521
-  Color 0.8213 0.1082 0.0025 1
-  LV 11.77
-  ClipEV -10
-  Radius 41.95
-  NearPlane 1.28
-  SpotAngle 155
-  DistanceAttenuation 2.18
-  Visualization Disabled
-  VolLightScale 1
-  VolLightIntensity 0.1
-  LensFlareScale 5.03
- }
  LIGHT_FLUO_SPOT_30 {
   coords 2424.213 273.437 2223.907
   Color 0.8213 0.1082 0.0025 1

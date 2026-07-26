@@ -1,3 +1,8 @@
+GameEntity BallisticTable_USSR_6718761FA9F1FD3 {
+ coords 0 -0.097 0
+}
+GenericEntity TankerBoots_US_01_6718761FA9F3 {
+}
 SCR_DestructibleBuildingEntity {
  components {
   Persistence "{68C2DBE1D59679DA}" {
@@ -426,10 +431,6 @@ SCR_DestructibleBuildingEntity : "{4FDDE496DACE1BA9}Prefabs/Houses/House_Individ
  coords 2569.826 37.985 520.229
  angles -4.453 -88.394 -0.571
  {
-  GameEntity BallisticTable_USSR_6718761FA9F1FD3 {
-  }
-  GenericEntity TankerBoots_US_01_6718761FA9F3 {
-  }
   GenericEntity {
    ID "695EA1907AF942E5"
    components {
@@ -456,7 +457,7 @@ SCR_DestructibleBuildingEntity : "{4FDDE496DACE1BA9}Prefabs/Houses/House_Individ
    ID "695EA1907AF94287"
    components {
     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-     m_LootTiersSpawn +{
+     m_LootTiersSpawn {
       "TIER_2"
      }
     }
@@ -466,7 +467,7 @@ SCR_DestructibleBuildingEntity : "{4FDDE496DACE1BA9}Prefabs/Houses/House_Individ
    ID "695EA1907AF94295"
    components {
     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-     m_LootTiersSpawn +{
+     m_LootTiersSpawn {
       "TIER_2"
      }
     }
@@ -476,7 +477,7 @@ SCR_DestructibleBuildingEntity : "{4FDDE496DACE1BA9}Prefabs/Houses/House_Individ
    ID "695EA1907AF94298"
    components {
     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-     m_LootTiersSpawn +{
+     m_LootTiersSpawn {
       "TIER_2"
      }
     }
@@ -486,7 +487,7 @@ SCR_DestructibleBuildingEntity : "{4FDDE496DACE1BA9}Prefabs/Houses/House_Individ
    ID "695EA1907AF942A8"
    components {
     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-     m_LootTiersSpawn +{
+     m_LootTiersSpawn {
       "TIER_2"
      }
     }
@@ -496,7 +497,7 @@ SCR_DestructibleBuildingEntity : "{4FDDE496DACE1BA9}Prefabs/Houses/House_Individ
    ID "695EA1907AF942DB"
    components {
     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-     m_LootTiersSpawn +{
+     m_LootTiersSpawn {
       "TIER_2"
      }
     }
@@ -570,7 +571,7 @@ GameEntity : "{820839184AE86AC8}Prefabs/Method/Props/Camps/Fireplace_Loiters_01.
    ID "695EA1984F713886"
    components {
     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-     m_LootTiersSpawn +{
+     m_LootTiersSpawn {
       "TIER_2"
      }
     }
@@ -580,7 +581,7 @@ GameEntity : "{820839184AE86AC8}Prefabs/Method/Props/Camps/Fireplace_Loiters_01.
    ID "695EA1984F7138E2"
    components {
     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-     m_LootTiersSpawn +{
+     m_LootTiersSpawn {
       "TIER_2"
      }
     }

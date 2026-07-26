@@ -249,21 +249,6 @@ $grp LightEntity {
   VolLightIntensity 0.2
   LensFlareScale 3.52
  }
- LIGHT_FLUO_SPOT_51 {
-  coords 3096.768 302.589 1221.871
-  angles 86.365 24.812 25.094
-  Color 0.1903 1 0.0034 1
-  LV 4.05
-  ClipEV -10
-  Radius 23.04
-  NearPlane 0.2
-  SpotAngle 170
-  DistanceAttenuation 3
-  Visualization Disabled
-  VolLightScale 0.8
-  VolLightIntensity 0.4
-  LensFlareScale 0
- }
 }
 ARMST_QUEST_TRIGGER : "{372F4469FF5293C9}Prefabs/QUESTS/ARMST_TRIGGER_QUEST.et" {
  coords 3101.008 302.734 1223.427

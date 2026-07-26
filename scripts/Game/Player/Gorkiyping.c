@@ -76,8 +76,11 @@ class SRZ_DiscordPingTriggerEntity : ScriptedGameTriggerEntity
 			return;
 
 		int playerId = pm.GetPlayerIdFromControlledEntity(character);
-		if (playerId > 0)
-			m_aPingedPlayerIds.RemoveItem(playerId);
+		if (playerId <= 0)
+			return;
+
+		// clear so they ping again if they leave and re-enter
+		m_aPingedPlayerIds.RemoveItem(playerId);
 	}
 
 	//------------------------------------------------------------------------------------------------
@@ -90,7 +93,7 @@ class SRZ_DiscordPingTriggerEntity : ScriptedGameTriggerEntity
 	}
 
 	//------------------------------------------------------------------------------------------------
-	protected void SendDiscordWebhook(string playerName)
+	protected void SendDiscordWebhook(string rpName)
 	{
 		RestApi api = GetGame().GetRestApi();
 		if (!api)
@@ -111,7 +114,7 @@ class SRZ_DiscordPingTriggerEntity : ScriptedGameTriggerEntity
 
 		ctx.SetHeaders("Content-Type,application/json");
 
-		string content = BuildMonolithMessage(playerName);
+		string content = BuildMonolithMessage(rpName);
 		content.Replace("\"", "");
 
 		string body = "{ \"content\": \"" + content + "\" }";

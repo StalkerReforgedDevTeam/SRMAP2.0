@@ -562,6 +562,8 @@ $grp GenericEntity {
   coords 3850.973 305.065 1335.33
   angles 35.506 176.925 0
  }
+ armst_itm_key_gorkiy12_tonnel_667A834446647455 {
+ }
 }
 SCR_DestructibleBuildingEntity {
  coords 1546.053 0.392 1641.96
@@ -30292,7 +30294,7 @@ $grp Tree : "{26303B00ADCC126A}Prefabs/Vegetation/Tree/t_sorbus_aucuparia/t_sorb
   scale 0.899
  }
 }
-$grp SCR_DestructibleBuildingEntity : "{267F0561BD2A8A64}Prefabs/Vehicles/azlk412/armst_azlk412_2_wreck.et" {
+$grp GenericEntity : "{267F0561BD2A8A64}Prefabs/Vehicles/azlk412/armst_azlk412_2_wreck.et" {
  {
   coords 3576.144 304.94 1047.299
   angles 16.225 -56.195 176.655
@@ -60624,7 +60626,7 @@ GenericEntity : "{45D056CC11985141}Prefabs/Props/Wrecks/S1203_wreck/S1203_wreck.
  coords 5778.729 311.104 2305.626
  angles -0.363 -136.69 -1.572
 }
-$grp SCR_DestructibleBuildingEntity : "{45E53C8D7E30FB5F}Prefabs/Vehicles/azlk412/armst_azlk412_wreck.et" {
+$grp GenericEntity : "{45E53C8D7E30FB5F}Prefabs/Vehicles/azlk412/armst_azlk412_wreck.et" {
  {
   coords 4660.657 310.162 1979.659
   angles -3.623 -20.679 -5.776
@@ -69888,8 +69890,6 @@ $grp SCR_DestructibleBuildingEntity : "{4FDDE496DACE1BA9}Prefabs/Houses/House_In
   {
    GameEntity BalisticTable_USSR_668345C7C601E283 {
    }
-   GenericEntity TankerBoots_US_01_668345C7C601E4FD {
-   }
    GenericEntity {
     ID "695EA1907AF942E5"
     components {
@@ -69968,10 +69968,6 @@ $grp SCR_DestructibleBuildingEntity : "{4FDDE496DACE1BA9}Prefabs/Houses/House_In
   coords 6296.74 0.2 795.746
   angles 0 -11.6 0
   {
-   GameEntity BallisticTable_USSR_66C710DEEFF8DDF9 {
-   }
-   GenericEntity TankerBoots_US_01_66C710DEEFF8DE24 {
-   }
    GenericEntity {
     ID "695EA1907AF942E5"
     components {
@@ -70050,10 +70046,6 @@ $grp SCR_DestructibleBuildingEntity : "{4FDDE496DACE1BA9}Prefabs/Houses/House_In
   coords 2657.198 0.073 992.982
   angles 1.754 142.773 -5.807
   {
-   GameEntity BallisticTable_USSR_6718761FA9F1FD32 {
-   }
-   GenericEntity TankerBoots_US_01_6718761FA9F18395 {
-   }
    GenericEntity {
     ID "695EA1907AF942E5"
     components {
@@ -70132,10 +70124,6 @@ $grp SCR_DestructibleBuildingEntity : "{4FDDE496DACE1BA9}Prefabs/Houses/House_In
   coords 2044.076 0 618.313
   angles -4.465 -89.752 -0.465
   {
-   GameEntity BallisticTable_USSR_6718761FA9F1FD2 {
-   }
-   GenericEntity TankerBoots_US_01_6718761FA9F2 {
-   }
    GenericEntity {
     ID "695EA1907AF942E5"
     components {
@@ -70214,10 +70202,6 @@ $grp SCR_DestructibleBuildingEntity : "{4FDDE496DACE1BA9}Prefabs/Houses/House_In
   coords 5412.126 0.001 1024.25
   angles -0.465 -101.987 -2.188
   {
-   GameEntity BallisticTable_USSR_6718761F057D2B3D {
-   }
-   GenericEntity TankerBoots_US_01_6718761F057D29EC {
-   }
    GenericEntity {
     ID "695EA1907AF942E5"
     components {
@@ -70296,10 +70280,6 @@ $grp SCR_DestructibleBuildingEntity : "{4FDDE496DACE1BA9}Prefabs/Houses/House_In
   coords 4076.241 0 1356.525
   angles 0 -140.914 0
   {
-   GameEntity BallisticTable_USSR_6718761EE1197444 {
-   }
-   GenericEntity TankerBoots_US_01_6718761EE1197558 {
-   }
    GenericEntity {
     ID "695EA1907AF942E5"
     components {
@@ -70378,10 +70358,6 @@ $grp SCR_DestructibleBuildingEntity : "{4FDDE496DACE1BA9}Prefabs/Houses/House_In
   coords 3442.855 -0.115 786.529
   angles 0 -92.629 0
   {
-   GameEntity BallisticTable_USSR_6718761E84C558D2 {
-   }
-   GenericEntity TankerBoots_US_01_6718761E84C559A2 {
-   }
    GenericEntity {
     ID "695EA1907AF942E5"
     components {
@@ -70469,10 +70445,6 @@ $grp SCR_DestructibleBuildingEntity : "{4FDDE496DACE1BA9}Prefabs/Houses/House_In
   coords 1462.638 0 694.649
   angles -1.325 -129.012 0.497
   {
-   GameEntity BallisticTable_USSR_6718761FA9F1FD3 {
-   }
-   GenericEntity TankerBoots_US_01_6718761FA9F3 {
-   }
    GenericEntity {
     ID "695EA1907AF942E5"
     components {
@@ -70551,10 +70523,6 @@ $grp SCR_DestructibleBuildingEntity : "{4FDDE496DACE1BA9}Prefabs/Houses/House_In
   coords 1431.568 0 438.797
   angles 0.635 -135.049 1.898
   {
-   GameEntity BallisticTable_USSR_6718761FA9F1FD4 {
-   }
-   GenericEntity TankerBoots_US_01_6718761FA9F4 {
-   }
    GenericEntity {
     ID "695EA1907AF942E5"
     components {
@@ -87765,7 +87733,7 @@ $grp GenericEntity : "{5B17515707F080E0}Prefabs/Props/Industrial/CargoContainers
   angles 0 179.467 0
  }
 }
-$grp SCR_DestructibleBuildingEntity : "{5B2777BA82B53DA6}Prefabs/Vehicles/azlk412/armst_azlk412_wreck4.et" {
+$grp GenericEntity : "{5B2777BA82B53DA6}Prefabs/Vehicles/azlk412/armst_azlk412_wreck4.et" {
  {
   coords 3754.367 301.214 2234.136
   angles 0 -124.55 0
@@ -95477,7 +95445,7 @@ $grp SCR_DestructibleEntity : "{66123ED9CAB934D8}Prefabs/Structures/Infrastructu
   angles 0 -86.527 0
  }
 }
-$grp SCR_DestructibleBuildingEntity : "{66135282F7D9B491}Prefabs/Vehicles/azlk412/armst_azlk412_wreck3.et" {
+$grp GenericEntity : "{66135282F7D9B491}Prefabs/Vehicles/azlk412/armst_azlk412_wreck3.et" {
  {
   coords 1618.638 305.877 343.622
   angles 9.43 72.515 16.035
@@ -125772,7 +125740,7 @@ $grp GenericEntity : "{835CFAD8AF023440}Prefabs/Compositions/Misc/SubComposition
   angles 0 -50.586 0
  }
 }
-SCR_DestructibleBuildingEntity : "{838F1E7BFB3C23FA}Prefabs/Vehicles/azlk412/armst_azlk412_wreck2.et" {
+GenericEntity : "{838F1E7BFB3C23FA}Prefabs/Vehicles/azlk412/armst_azlk412_wreck2.et" {
  coords 3400.43 306.601 2018.774
  angles -4.675 -80.751 6.444
 }
@@ -129402,7 +129370,7 @@ $grp GenericEntity : "{8BE153775299BA55}Prefabs/Compositions/Misc/SubComposition
   angles 0 -114.563 0
  }
 }
-$grp SCR_DestructibleBuildingEntity : "{8C060E332CFDBF79}Prefabs/Vehicles/azlk412/armst_azlk412_1_wreck.et" {
+$grp GenericEntity : "{8C060E332CFDBF79}Prefabs/Vehicles/azlk412/armst_azlk412_1_wreck.et" {
  {
   coords 3467.559 302.48 802.464
   angles 0 -80.656 0
@@ -129411,13 +129379,13 @@ $grp SCR_DestructibleBuildingEntity : "{8C060E332CFDBF79}Prefabs/Vehicles/azlk41
   coords 3339.675 308.858 1335.047
   angles -14.147 -85.704 0
   {
-   GenericEntity {
-    ID "628F4218CFA7BCD0"
-    coords -0.657 -0.021 1.125
-   }
-   GenericEntity {
-    ID "628F4218CFA7BCF5"
-    coords 0.66 -0.081 1.568
+   $grp GenericEntity {
+    {
+     coords -0.657 -0.021 1.125
+    }
+    {
+     coords 0.66 -0.081 1.568
+    }
    }
   }
  }
@@ -187670,8 +187638,6 @@ $grp SCR_DestructibleBuildingEntity : "{DA18BC3C9738C614}Prefabs/Industrial/buil
   coords 3691.131 300.462 1838.323
   angles -5.055 177.538 0.217
   {
-   GenericEntity armst_itm_key_gorkiy12_tonnel_66766ACF6E3043F2 {
-   }
    GenericEntity {
     ID "6976726E3EC7332D"
     components {
@@ -187718,8 +187684,6 @@ $grp SCR_DestructibleBuildingEntity : "{DA18BC3C9738C614}Prefabs/Industrial/buil
   coords 3070.278 304.522 2713.992
   angles 0 -89.771 0
   {
-   GenericEntity armst_itm_key_gorkiy12_tonnel_66766ACF6E2FCB75 {
-   }
    GenericEntity {
     ID "6976726E3EC7332D"
     components {
@@ -187766,8 +187730,6 @@ $grp SCR_DestructibleBuildingEntity : "{DA18BC3C9738C614}Prefabs/Industrial/buil
   coords 4494.242 303.285 1775.188
   angles 0 -8.696 0
   {
-   GenericEntity armst_itm_key_gorkiy12_tonnel_667A834446647455 {
-   }
    GenericEntity {
     ID "6976726E3EC7332D"
     components {
@@ -187814,8 +187776,6 @@ $grp SCR_DestructibleBuildingEntity : "{DA18BC3C9738C614}Prefabs/Industrial/buil
   coords 4592.309 306.231 1943.979
   angles 0.763 166.25 -0.647
   {
-   GenericEntity armst_itm_key_gorkiy12_tonnel_667AD25DAEB8E4C3 {
-   }
    GenericEntity {
     ID "6976726E3EC7332D"
     components {
@@ -187862,8 +187822,6 @@ $grp SCR_DestructibleBuildingEntity : "{DA18BC3C9738C614}Prefabs/Industrial/buil
   coords 1766.314 290.771 1880.89
   angles -1.821 178.661 0
   {
-   GenericEntity armst_itm_key_gorkiy12_tonnel_667B4B55C81F0853 {
-   }
    GenericEntity {
     ID "6976726E3EC7332D"
     components {
@@ -187910,12 +187868,8 @@ $grp SCR_DestructibleBuildingEntity : "{DA18BC3C9738C614}Prefabs/Industrial/buil
   coords 1548.627 300.153 1663.36
   angles 0.319 44.78 -0.099
   {
-   $grp GenericEntity {
-    {
-     coords 1.071 -34.891 3.013
-    }
-    armst_itm_key_gorkiy12_tonnel_667B4B55C81F31DE {
-    }
+   GenericEntity {
+    coords 1.071 -34.891 3.013
    }
    GenericEntity {
     ID "6976726E3EC7332D"
@@ -187963,8 +187917,6 @@ $grp SCR_DestructibleBuildingEntity : "{DA18BC3C9738C614}Prefabs/Industrial/buil
   coords 1576.824 299.386 1679.749
   angles -0.365 97.296 3.552
   {
-   GenericEntity armst_itm_key_gorkiy12_tonnel_667B4B55C81F3DFE {
-   }
    GenericEntity {
     ID "6976726E3EC7332D"
     components {
@@ -188011,8 +187963,6 @@ $grp SCR_DestructibleBuildingEntity : "{DA18BC3C9738C614}Prefabs/Industrial/buil
   coords 2365.648 304.483 1895.543
   angles 0 68.362 0
   {
-   GenericEntity armst_itm_key_gorkiy12_tonnel_66DA6A4BE05B3365 {
-   }
    GenericEntity {
     ID "6976726E3EC7332D"
     components {
@@ -205625,10 +205575,8 @@ SCR_DestructibleBuildingEntity : "{EFE49212769E45CC}Prefabs/Houses/villages/Shed
    angles 1.235 -146.334 -1.087
   }
   SCR_DestructibleBuildingEntity {
-   ID "6926B5F79869A149"
    {
     GenericEntity {
-     ID "695EA194653B1AFC"
      components {
       ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
        m_LootTiersSpawn {
