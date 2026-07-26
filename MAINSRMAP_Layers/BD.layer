@@ -11,9 +11,8 @@ SCR_GameModeEditor Armst_GameMaster : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Editor
    m_SurgeTimer 15
   }
   EPF_PersistenceManagerComponent "{658301C3AC02188D}" {
-   m_fAutosaveInterval 1200
-   m_iAutosaveIterations 10
-   m_fUpdateRate 0.55
+   m_fAutosaveInterval 2600
+   m_fUpdateRate 1
    m_pConnectionInfo EDF_JsonFileDbConnectionInfo "{658301C3451DE3D2}" {
     m_sDatabaseName "Survival_2_0"
    }
