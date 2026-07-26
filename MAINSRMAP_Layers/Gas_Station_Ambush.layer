@@ -135,47 +135,6 @@ $grp GenericEntity : "{013297BA01640EB9}Prefabs/Props/Garbage/Military/Ammo/Garb
   scale 0.73
  }
 }
-$grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawner.et" {
- zombie43 {
-  components {
-   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
-    m_InitialSpawnDelay 30
-    m_CheckPlayerRadius 29
-    m_SpawnChance 34
-    m_FailedSpawnDelay 1277
-    m_PlayerDetectionRadius 152
-    m_RespawnDelayAfterDelete 4426
-    m_SpawnGroups {
-     "{AA31A2A6BD9679D4}Configs/GAME_SETTING/BOTS/ALIFE/mutants/zombie.conf"
-    }
-    m_fMonsterNight 1
-    m_SpawnGroupsNight {
-     "{D77BDED419E75367}Configs/GAME_SETTING/BOTS/ALIFE/mutants/nighstalker.conf"
-    }
-   }
-  }
-  coords 6284.748 318.921 2316.186
-  scale 50
- }
- zombie44 {
-  components {
-   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
-    m_InitialSpawnDelay 30
-    m_CheckPlayerRadius 29
-    m_SpawnChance 34
-    m_FailedSpawnDelay 1277
-    m_PlayerDetectionRadius 152
-    m_RespawnDelayAfterDelete 4426
-    m_SpawnGroups {
-     "{AA31A2A6BD9679D4}Configs/GAME_SETTING/BOTS/ALIFE/mutants/zombie.conf"
-    }
-    m_fMonsterNight 1
-   }
-  }
-  coords 6245.107 318.921 2309.438
-  scale 50
- }
-}
 $grp DecalEntity : "{1DC3A792132D86CB}Prefabs/Decals/Blood/BloodStain_Large_02.et" {
  {
   coords 6223.297 0.055 2299.191

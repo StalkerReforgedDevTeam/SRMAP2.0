@@ -12,7 +12,7 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
     m_InitialSpawnDelay 30
     m_CheckPlayerRadius 29
-    m_SpawnChance 34
+    m_SpawnChance 30
     m_FailedSpawnDelay 1277
     m_PlayerDetectionRadius 152
     m_RespawnDelayAfterDelete 4426
@@ -33,7 +33,7 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
     m_InitialSpawnDelay 30
     m_CheckPlayerRadius 29
-    m_SpawnChance 34
+    m_SpawnChance 30
     m_FailedSpawnDelay 1277
     m_PlayerDetectionRadius 152
     m_RespawnDelayAfterDelete 4426
@@ -54,7 +54,7 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
     m_InitialSpawnDelay 30
     m_CheckPlayerRadius 29
-    m_SpawnChance 34
+    m_SpawnChance 30
     m_FailedSpawnDelay 1277
     m_PlayerDetectionRadius 152
     m_RespawnDelayAfterDelete 4426
@@ -70,29 +70,12 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
   coords 2436.736 301.016 2944.69
   scale 50
  }
- electro16 {
-  components {
-   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
-    m_InitialSpawnDelay 30
-    m_CheckPlayerRadius 29
-    m_SpawnChance 34
-    m_FailedSpawnDelay 1277
-    m_PlayerDetectionRadius 152
-    m_RespawnDelayAfterDelete 4426
-    m_SpawnGroups {
-     "{640EF50B76CB86C9}Configs/GAME_SETTING/BOTS/ALIFE/mutants/electro_elements.conf"
-    }
-   }
-  }
-  coords 2495.151 307.485 2880.206
-  scale 50
- }
  wolfs60 {
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
     m_InitialSpawnDelay 30
     m_CheckPlayerRadius 29
-    m_SpawnChance 34
+    m_SpawnChance 30
     m_FailedSpawnDelay 1277
     m_PlayerDetectionRadius 152
     m_RespawnDelayAfterDelete 4426
@@ -113,7 +96,7 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
     m_InitialSpawnDelay 30
     m_CheckPlayerRadius 29
-    m_SpawnChance 34
+    m_SpawnChance 30
     m_FailedSpawnDelay 1277
     m_PlayerDetectionRadius 152
     m_RespawnDelayAfterDelete 4426
@@ -327,7 +310,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_SpawnCount 3
   m_MinDistanceBetweenAnomalies 10
   m_MinDistanceToPlayer 14
-  m_SpawnChance 69
+  m_SpawnChance 59
   m_SpawnChanceArtefactsRestart 15.31
   m_SpawnChanceArtefacts 15.82
  }
@@ -339,7 +322,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_SpawnCount 3
   m_MinDistanceBetweenAnomalies 10
   m_MinDistanceToPlayer 14
-  m_SpawnChance 69
+  m_SpawnChance 59
   m_SpawnChanceArtefactsRestart 15.31
   m_SpawnChanceArtefacts 15.82
  }

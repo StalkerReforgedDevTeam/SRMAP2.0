@@ -18,21 +18,6 @@ $grp GenericEntity {
  }
 }
 $grp LightEntity {
- LIGHT_FLUO_SPOT_20 {
-  coords 1456.816 296.746 1991.213
-  angles -87.511 0 -45.553
-  Color 1 0.7255 0.3412 1
-  LV 6
-  ClipEV -10
-  Type Spot
-  Radius 5
-  NearPlane 0.7
-  SpotAngle 155
-  DistanceAttenuation 0.1
-  Visualization Disabled
-  LensFlareIndex 1
-  LensFlareScale 1.18
- }
  LIGHT_FLUO_SPOT_32 {
   coords 1444.228 295.449 1984.501
   angles -87.511 0 -45.553
@@ -50,21 +35,6 @@ $grp LightEntity {
  }
  LIGHT_FLUO_SPOT_51 {
   coords 1447.446 295.459 1981.956
-  angles -87.511 0 -45.553
-  Color 1 0.7255 0.3412 1
-  LV 6
-  ClipEV -10
-  Type Spot
-  Radius 5
-  NearPlane 0.7
-  SpotAngle 155
-  DistanceAttenuation 0.1
-  Visualization Disabled
-  LensFlareIndex 1
-  LensFlareScale 1.18
- }
- LIGHT_FLUO_SPOT_52 {
-  coords 1460.744 296.687 1987.745
   angles -87.511 0 -45.553
   Color 1 0.7255 0.3412 1
   LV 6

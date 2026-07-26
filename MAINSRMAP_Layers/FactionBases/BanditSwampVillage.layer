@@ -1882,12 +1882,12 @@ $grp SCR_DestructibleBuildingEntity {
  }
 }
 SRZ_DiscordPingTriggerEntity {
- coords 3127.375 285.265 2689.898
+ coords 3154.043 258.44 2689.898
  TriggerShapeType Sphere
- SphereRadius 297.7
- DrawShape 1
+ SphereRadius 248.5
  TriggerActivationType "Every query"
  PeriodicQueries 1
+ UpdatePeriod 10
 }
 Armst_Monster_Character : "{02CB07CF03B77AAF}Prefabs/Monsters/Characters/Elementals/Electro/armst_electro_elemental.et" {
  coords 1951.495 294.343 828.349
@@ -7180,9 +7180,15 @@ $grp GameEntity : "{91F1FAFB2D7CA8AA}Prefabs/Structures/BuildingParts/Lights/Lam
 GenericEntity : "{986F38072A8DD563}Prefabs/Props/Garbage/Generic/Junk_01/Junk_01_single_planks.et" {
  coords 1458.673 291.281 1945.679
 }
-SCR_ChimeraCharacter : "{9DED35EC3B12E4C1}Prefabs/QUESTS/MICH/MICH_MEDIC.et" {
- coords 6628.264 306.744 1332.297
- angles 0 -123.211 0
+$grp SCR_ChimeraCharacter : "{9DED35EC3B12E4C1}Prefabs/QUESTS/MICH/MICH_MEDIC.et" {
+ {
+  coords 6628.264 306.744 1332.297
+  angles 0 -123.211 0
+ }
+ {
+  coords 5049.479 312.301 426.342
+  angles 0 -68.694 0
+ }
 }
 GenericEntity : "{9FE49438E0414334}Prefabs/Props/Furniture/Sofa_01.et" {
  coords 1456.806 291.337 1929.107
@@ -7285,7 +7291,6 @@ GenericEntity : "{A84A73E9D9D4B20E}Prefabs/Props/Furniture/Shelf_01.et" {
 ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
  coords 3756.091 307.045 2665.523
  SphereRadius 159.4
- DrawShape 1
  m_DamagePsyLevel 41
 }
 $grp Tree : "{AD801168E8BF9AD2}Prefabs/Vegetation/Plant/Hedera_Helix/p_hedera_helix_wall_01_aut.et" {
@@ -7336,9 +7341,15 @@ GenericEntity : "{C2C1CEA73A4D8779}Prefabs/Props/Civilian/Notebook_01_Stack.et" 
  coords 1459.771 296.317 1934.434
  angles 1.012 -3.122 -0.051
 }
-SCR_ChimeraCharacter : "{C2D484B9E903CCAB}Prefabs/QUESTS/MICH/MICH_MITAY.et" {
- coords 6627.042 306.758 1333.666
- angles 0 -169.775 0
+$grp SCR_ChimeraCharacter : "{C2D484B9E903CCAB}Prefabs/QUESTS/MICH/MICH_MITAY.et" {
+ {
+  coords 6627.042 306.758 1333.666
+  angles 0 -169.775 0
+ }
+ {
+  coords 5045.468 312.297 426.64
+  angles 0 74.705 0
+ }
 }
 SCR_DestructibleBuildingEntity : "{C6BCBDF038902509}Prefabs/Industrial/moped_blue.et" {
  coords 1458.712 295.013 1933.101
@@ -7813,13 +7824,25 @@ SCR_ChimeraCharacter : "{F4ED288351A63690}Prefabs/QUESTS/SRFACTIONS/MERC_VENDOR.
  coords 5825.271 342.259 2093.431
  angles 0 175.382 0
 }
-SCR_ChimeraCharacter : "{F66E613CDF1C27AE}Prefabs/QUESTS/MICH/MICH_BARMAN.et" {
- coords 6633.13 306.709 1324.723
- angles 0 164.884 0
+$grp SCR_ChimeraCharacter : "{F66E613CDF1C27AE}Prefabs/QUESTS/MICH/MICH_BARMAN.et" {
+ {
+  coords 6633.13 306.709 1324.723
+  angles 0 164.884 0
+ }
+ {
+  coords 5040.541 309.102 446.112
+  angles 0 164.884 0
+ }
 }
-SCR_ChimeraCharacter : "{F66E613CDF1C27AF}Prefabs/QUESTS/MICH/MICH_TRADER.et" {
- coords 6629.467 306.939 1317.412
- angles 0 0.735 0
+$grp SCR_ChimeraCharacter : "{F66E613CDF1C27AF}Prefabs/QUESTS/MICH/MICH_TRADER.et" {
+ {
+  coords 6629.467 306.939 1317.412
+  angles 0 0.735 0
+ }
+ {
+  coords 5059.63 309.93 435.511
+  angles 0 -56.367 0
+ }
 }
 $grp SCR_DestructibleBuildingEntity : "{F6AA92F7B23D8A71}Prefabs/Structures/Infrastructure/Naval/Piers/Pier_01.et" {
  {

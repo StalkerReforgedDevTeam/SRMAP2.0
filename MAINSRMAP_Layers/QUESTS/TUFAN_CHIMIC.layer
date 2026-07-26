@@ -12,7 +12,7 @@ ARMST_TRIGGER_SPAWN train_anomal : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/A
  m_SpawnCount 3
  m_MinDistanceBetweenAnomalies 4
  m_CenterBias 0.7
- m_SpawnChance 69
+ m_SpawnChance 59
  m_SpawnChanceArtefactsRestart 15.31
  m_SpawnChanceArtefacts 15.82
 }

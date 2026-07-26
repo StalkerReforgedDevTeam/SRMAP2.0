@@ -785,18 +785,6 @@ $grp LightEntity {
   DistanceAttenuation 2.26
   Visualization Disabled
  }
- LIGHT_FLUO_SPOT_60 {
-  coords 1549.576 312.98 264.181
-  angles -35.304 0.297 102.118
-  Color 1 0.8398 0.2467 1
-  LV 1.93
-  ClipEV -10
-  Radius 17.8
-  NearPlane 0.06
-  SpotAngle 107.23
-  DistanceAttenuation 2.26
-  Visualization Disabled
- }
  LIGHT_FLUO_SPOT_62 {
   coords 1544.293 313.345 259.328
   angles -35.304 0.297 102.118

@@ -1618,16 +1618,12 @@ SCR_DestructibleBuildingEntity : "{DA18BC3C9738C614}Prefabs/Industrial/builds/bi
  coords 4494.242 303.285 1775.188
  angles 0 -8.696 0
  {
-  $grp GenericEntity {
-   armst_itm_key_gorkiy12_tonnel_667A834446647455 {
-   }
-   {
-    components {
-     ActionsManagerComponent "{6190D137C5926215}" {
-      additionalActions {
-       ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
-        m_iMaxItemsToSpawn 6
-       }
+  GenericEntity {
+   components {
+    ActionsManagerComponent "{6190D137C5926215}" {
+     additionalActions {
+      ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+       m_iMaxItemsToSpawn 6
       }
      }
     }
