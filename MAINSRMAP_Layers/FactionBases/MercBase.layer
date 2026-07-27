@@ -178,9 +178,9 @@ $grp SCR_DestructibleBuildingEntity : "{5388DCDED41DBEEC}Prefabs/Structures/Infr
   angles 0.004 170.839 -89.343
  }
  {
-  coords 5793.562 3.57 2078.876
+  coords 5793.223 3.571 2078.789
   angles -0.03 -8.988 0.156
-  scale 0.7
+  scale 0.75
  }
  {
   coords 5795.278 -6.601 2080.178
@@ -241,6 +241,11 @@ $grp SCR_DestructibleBuildingEntity : "{5388DCDED41DBEEC}Prefabs/Structures/Infr
   coords 5793.676 4.996 2086.093
   angles -89.819 79.925 91.762
   scale 0.05
+ }
+ {
+  coords 5793.495 3.572 2077.072
+  angles -0.03 -8.988 0.156
+  scale 0.75
  }
 }
 GenericEntity : "{56A2385928155F81}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/US/EquipmentBoxStack_US_01_V4.et" {
