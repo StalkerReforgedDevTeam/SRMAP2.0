@@ -4969,24 +4969,6 @@ SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Buil
     coords -3.993 0 5.333
    }
   }
-  GenericEntity : "{13EA797E9145BFE3}Prefabs/Structures/BuildingParts/Doors/DoorSet_Services_E_A_Left_UNI_B_INT.et" {
-   components {
-    Hierarchy "{612AE78C85563E26}" {
-     PivotID "socket_door_int_right_05"
-    }
-   }
-   {
-    GenericEntity {
-     ID "5A1894A114F74514"
-     components {
-      DoorComponent "{221C667A9F7D4B69}" {
-       DoorAction SCR_DoorUserAction "{50888D3646A61640}" {
-       }
-      }
-     }
-    }
-   }
-  }
   GenericEntity : "{19C2C1662CA961CA}Prefabs/Structures/BuildingParts/Doors/HatchDoor_Lightbeacon_L_EXT_COV_M1.et" {
    components {
     DoorComponent "{221C667A9F7D4B69}" {
@@ -5328,6 +5310,7 @@ SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Buil
       components {
        DoorComponent "{221C667A9F7D4B69}" {
         DoorAction SCR_DoorUserAction "{50888D3646A61640}" {
+         m_FactionKey FACTION_KB
         }
         AngleRange -90
        }
@@ -5402,6 +5385,46 @@ SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Buil
        }
        Hierarchy "{7642683606C70747}" {
         PivotID "socket_door_right"
+       }
+      }
+     }
+    }
+   }
+   {
+    components {
+     DoorSlotComponent "{5A1877AED34E0A0D}" {
+      Enabled 0
+      AttachType RegisteringComponentSlotInfo "{6E2BA747A4B840B6}" {
+       PivotID "socket_door_left"
+      }
+      EntityPrefab "{D4361465E546A366}Prefabs/Structures/BuildingParts/Doors/Door_Services_E_A_EXT_LEFT_ST_B.et"
+     }
+     MeshObject "{61B367470698533A}" {
+      Object "{D8D7149785E33225}Assets/Structures/BuildingsParts/Doors/Door_Services_E/DoorFrame_Services_E_A_Left_UNI_B.xob"
+      Materials {
+       MaterialAssignClass "{5A1894A09B32EB40}" {
+        SourceMaterial "Painted_Aluminum_Window"
+        AssignedMaterial "{45B2ACEC39855F29}Assets/Structures/BuildingsParts/Doors/Data/DoorFrame_Door_Win_Services_E_A_UNI_INT.emat"
+       }
+      }
+     }
+     Hierarchy "{612AE78C85563E26}" {
+      PivotID "socket_door_int_right_05"
+     }
+    }
+    {
+     GenericEntity : "{C431B168F03F6347}Prefabs/Structures/BuildingParts/Windows/Glass_122x42/Glass_122x42.et" {
+      components {
+       MeshObject "{51C4DA208DB0E200}" {
+        Materials {
+         MaterialAssignClass "{5A18D0E06241F772}" {
+          SourceMaterial "Assets/Structures/BuildingsParts/Windows/Data/window_glass"
+          AssignedMaterial "{95C204D12167FDDE}Assets/Structures/BuildingsParts/Windows/Data/window_glass_INT.emat"
+         }
+        }
+       }
+       Hierarchy "{51C4DA20F011E284}" {
+        PivotID "socket_glass_122x42_01"
        }
       }
      }
@@ -6236,15 +6259,42 @@ $grp GenericEntity : "{D7F69BF7D2DCA0A8}Prefabs/Props/Industrial/Pallets/Pallet_
   angles 77.812 45.487 -4.193
  }
 }
-GenericEntity : "{D86958F19333AA7B}Prefabs/Structures/BuildingParts/Doors/Door_Village_E_A_LEFT_INT_COV_B.et" {
- components {
-  DoorComponent "{221C667A9F7D4B69}" {
-   DoorAction SCR_DoorUserAction "{50888D3646A61640}" {
+$grp GenericEntity : "{D86958F19333AA7B}Prefabs/Structures/BuildingParts/Doors/Door_Village_E_A_LEFT_INT_COV_B.et" {
+ {
+  components {
+   DoorComponent "{221C667A9F7D4B69}" {
+    DoorAction SCR_DoorUserAction "{50888D3646A61640}" {
+    }
+   }
+   ActionsManagerComponent "{F32B667C3C823800}" {
+    additionalActions {
+     SCR_KeyLockDoorUserAction "{69DCF293DD5DB9AA}" {
+      m_FactionKey FACTION_KB
+     }
+    }
    }
   }
+  coords 3545.671 302.574 1849.32
+  angles 0 88.592 0
  }
- coords 3545.671 302.574 1849.32
- angles 0 88.592 0
+ {
+  components {
+   DoorComponent "{221C667A9F7D4B69}" {
+    DoorAction SCR_DoorUserAction "{50888D3646A61640}" {
+     m_FactionKey FACTION_KB
+    }
+   }
+   ActionsManagerComponent "{F32B667C3C823800}" {
+    additionalActions {
+     SCR_KeyLockDoorUserAction "{69DCF293DD5DB9AA}" {
+      m_FactionKey FACTION_KB
+     }
+    }
+   }
+  }
+  coords 3551.658 302.574 1850.532
+  angles 0 87.959 0
+ }
 }
 GenericEntity : "{D8ABE2DE630F577E}Prefabs/Compositions/Misc/SubCompositions/CrateStacked_01.et" {
  coords 3554.488 302.574 1853.091
