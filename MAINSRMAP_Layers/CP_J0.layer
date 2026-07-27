@@ -843,14 +843,6 @@ GenericEntity : "{34747E0B21E50E31}Prefabs/Props/Military/AmmoBoxes/RocketContai
 }
 $grp SCR_DestructibleEntity : "{350B1D05E8446B1C}PrefabLibrary/DefaultLibrary/Walls/Concrete/ConcreteWall_01_6m_A.et" {
  {
-  coords 1209.655 0 1361.811
-  angles 0 -84.517 0
- }
- {
-  coords 1210.157 0 1367.832
-  angles 0 5.483 0
- }
- {
   coords 1242.214 0 1362.228
   angles 0 3.904 0
  }
@@ -3099,7 +3091,7 @@ $grp SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core
     {
      components {
       MeshObject "{68CF063B92E35AB8}" {
-       Object "{A5A18A2300E96D75}Assets/Weapon/Rifle/Scar/Scar.xob"
+       Object "{A5A18A2300E96D75}Assets/Weapons/Rifle/Scar/Scar.xob"
       }
      }
      coords 9.716 5.135 4.559
@@ -3108,7 +3100,7 @@ $grp SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core
     {
      components {
       MeshObject "{68CF063BBD99BD6C}" {
-       Object "{4B8565702C783C3B}Assets/Weapon/Magazine/Scar_magazine/Scar mag.xob"
+       Object "{4B8565702C783C3B}Assets/Weapons/Magazine/Scar_magazine/Scar mag.xob"
       }
      }
      coords 9.244 5.123 4.505
