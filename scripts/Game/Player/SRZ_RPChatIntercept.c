@@ -53,6 +53,13 @@ modded class SCR_ChatComponent
 						return;
 					}
 
+					// Route paytransfer command
+					if (lower.StartsWith(".paytransfer "))
+					{
+						pc.SRZ_SendPayTransferCommand(msg);
+						return;
+					}
+
 					// Route all other . commands to RP name system
 					pc.SRZ_SendRPCommand(msg);
 					return;
