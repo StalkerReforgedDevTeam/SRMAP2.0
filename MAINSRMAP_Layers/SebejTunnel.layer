@@ -287,7 +287,7 @@ GenericEntity : "{17770AFEA059BE16}Prefabs/Vehicles/gaz24/armst_gaz24_1.et" {
    ID "662E8AF24CFD5C73"
    components {
     ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
-     m_LootTiersSpawn +{
+     m_LootTiersSpawn {
       "TIER_2"
      }
     }
@@ -365,40 +365,40 @@ GenericEntity : "{262222CE328B0DAD}Prefabs/Vehicles/liaz2/base/BASE_liaz677_wrec
  coords 3596.406 300.255 1728.59
  angles 2.146 -128.815 -1.406
 }
-SCR_DestructibleBuildingEntity : "{267F0561BD2A8A64}Prefabs/Vehicles/azlk412/armst_azlk412_2_wreck.et" {
+GenericEntity : "{267F0561BD2A8A64}Prefabs/Vehicles/azlk412/armst_azlk412_2_wreck.et" {
  coords 3592.413 300.932 1781.727
  angles -1.003 157.366 0
  {
-  GenericEntity {
-   ID "662E8AF2AC24CDBE"
-   components {
-    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
-     m_LootTiersSpawn {
-      ""
-      "TIER_2"
+  $grp GenericEntity {
+   {
+    components {
+     ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+      m_LootTiersSpawn {
+       ""
+       "TIER_2"
+      }
      }
-    }
-    ActionsManagerComponent "{6190D137C5926215}" {
-     additionalActions {
-      ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
-       m_iMaxItemsToSpawn 6
+     ActionsManagerComponent "{6190D137C5926215}" {
+      additionalActions {
+       ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+        m_iMaxItemsToSpawn 6
+       }
       }
      }
     }
    }
-  }
-  GenericEntity {
-   ID "662E8AF2AC24CD87"
-   components {
-    ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
-     m_LootTiersSpawn +{
-      "TIER_2"
+   {
+    components {
+     ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+      m_LootTiersSpawn {
+       "TIER_2"
+      }
      }
-    }
-    ActionsManagerComponent "{6190D137C5926215}" {
-     additionalActions {
-      ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
-       m_iMaxItemsToSpawn 6
+     ActionsManagerComponent "{6190D137C5926215}" {
+      additionalActions {
+       ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+        m_iMaxItemsToSpawn 6
+       }
       }
      }
     }
@@ -436,7 +436,7 @@ GenericEntity : "{28C4CBADCD6EF576}Prefabs/Vehicles/vaz2109/armst_vaz2109_red_wr
    ID "662E8AF0F8E60143"
    components {
     ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
-     m_LootTiersSpawn +{
+     m_LootTiersSpawn {
       "TIER_2"
      }
     }
@@ -492,7 +492,7 @@ GenericEntity : "{305C405E88BD5870}Prefabs/Vehicles/vaz2105/armst_vaz2105_2.et" 
    ID "662E8AF33CB1A6EF"
    components {
     ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
-     m_LootTiersSpawn +{
+     m_LootTiersSpawn {
       "TIER_2"
      }
     }
@@ -963,7 +963,7 @@ $grp GenericEntity : "{73314E7C8FFC5B1C}Prefabs/Vehicles/gaz24/armst_gaz24_1_wre
     ID "662E8AF25F2CC28C"
     components {
      ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
-      m_LootTiersSpawn +{
+      m_LootTiersSpawn {
        "TIER_2"
       }
      }
@@ -1004,7 +1004,7 @@ $grp GenericEntity : "{73314E7C8FFC5B1C}Prefabs/Vehicles/gaz24/armst_gaz24_1_wre
     ID "662E8AF25F2CC28C"
     components {
      ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
-      m_LootTiersSpawn +{
+      m_LootTiersSpawn {
        "TIER_2"
       }
      }
@@ -1375,7 +1375,7 @@ $grp GenericEntity : "{C69E1B9B00A341B1}Prefabs/Vehicles/gaz24/armst_gaz24_2.et"
     ID "662E8AF27CCCACD2"
     components {
      ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
-      m_LootTiersSpawn +{
+      m_LootTiersSpawn {
        "TIER_2"
       }
      }
@@ -1416,7 +1416,7 @@ $grp GenericEntity : "{C69E1B9B00A341B1}Prefabs/Vehicles/gaz24/armst_gaz24_2.et"
     ID "662E8AF27CCCACD2"
     components {
      ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
-      m_LootTiersSpawn +{
+      m_LootTiersSpawn {
        "TIER_2"
       }
      }
@@ -1526,10 +1526,6 @@ GenericEntity : "{D6D2170EF91BDE4C}Prefabs/Compositions/Misc/SubCompositions/Pal
 }
 GenericEntity : "{D8ABE2DE630F577E}Prefabs/Compositions/Misc/SubCompositions/CrateStacked_01.et" {
  coords 3614.938 300.248 1614.189
-}
-GenericEntity : "{D93EF3E97E06D435}Prefabs/Compositions/Misc/SubCompositions/BarrelClutter_04.et" {
- coords 3614.378 300.264 1606.195
- angles 0 -168.191 0
 }
 GenericEntity : "{DA34DC311BF6D0CB}Prefabs/Structures/Signs/Military/SignRectangle_01_140x100/Sign_Warzone_USSR_01.et" {
  components {
@@ -1740,7 +1736,7 @@ SCR_DestructibleBuildingEntity : "{F4E08FE7DD7264EB}Prefabs/Vehicles/azlk412/arm
    ID "662E8AFD36B317E4"
    components {
     ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
-     m_LootTiersSpawn +{
+     m_LootTiersSpawn {
       "TIER_2"
      }
     }

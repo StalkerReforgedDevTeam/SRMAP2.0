@@ -1562,74 +1562,6 @@ StaticModelEntity : "{016437193E3E8B4D}Prefabs/Structures/BuildingParts/Doors/Do
  coords 4755.962 0 3014.7
  angles -2.041 172.17 -1.085
 }
-$grp GenericEntity : "{01969A28078FCA69}Prefabs/Compositions/Misc/SubCompositions/BarrelClutter_02.et" {
- {
-  coords 3307.956 301.529 1196.939
- }
- {
-  coords 1947.878 301.422 1988.223
-  angles 0 72.74 0
- }
- {
-  coords 2467.958 306.555 1304.563
-  angles 0 0 3.61
- }
- {
-  coords 2307.015 301.233 1553.172
- }
- {
-  coords 6138.067 307.874 1648.041
-  angles -0.014 43.741 -0.633
- }
- {
-  coords 6150.004 308.509 1624.43
-  angles -3.405 -27.013 -0.773
- }
- {
-  coords 5808.364 342.261 2099.184
-  angles 0 -5.923 0
- }
- {
-  coords 5042.079 312.174 427.861
- }
- {
-  coords 1543.679 309.827 269.11
-  {
-   GenericEntity {
-    ID "5712BD04A4D9CDAD"
-    coords 0.006 0.928 0.119
-   }
-   GenericEntity {
-    ID "552A7733B8B30470"
-    coords 0.069 -0.062 -0.381
-   }
-   GenericEntity {
-    ID "552A7733B8B30471"
-    coords 0.3 -0.062 0.225
-   }
-   GenericEntity {
-    ID "552A7733B8B30474"
-    coords -0.346 -0.062 0.158
-   }
-  }
- }
- {
-  coords 2315.989 312.71 2535.375
-  angles 4.382 -4.024 0
- }
- {
-  coords 3258.227 304.702 2626.518
-  angles 0 -16.63 0
- }
- {
-  coords 3255.205 304.702 2615.722
-  angles 0 -4.024 0
- }
- {
-  coords 3271.973 304.702 2612.758
-  angles 0 -25.423 0
- }
-}
 SCR_IndestructibleEnvironmentalEntity : "{019E4E540652B141}Prefabs/Rocks/Granite/GraniteRock_02_Forest.et" {
  coords 923.315 303.525 3900.792
  scale 2.2
@@ -184344,99 +184276,6 @@ $grp SCR_DestructibleBuildingEntity : "{D924650E9CDA2130}Prefabs/Structures/Indu
   angles 0 158.095 0
  }
 }
-$grp GenericEntity : "{D93EF3E97E06D435}Prefabs/Compositions/Misc/SubCompositions/BarrelClutter_04.et" {
- {
-  coords 3293.469 308.577 1304.69
- }
- {
-  coords 3905.76 300.796 2055.939
-  angles 0 -158.26 0
- }
- {
-  coords 3661.153 300.813 1841.995
-  angles 0 158.19 0
- }
- {
-  coords 1951.712 300.855 1969.182
-  angles -1.935 -175.146 1.631
- }
- {
-  coords 2470.314 306.34 1307.61
-  angles 3.124 -172.718 -2.103
- }
- {
-  coords 2309.753 301.233 1560.348
-  angles 0 -95.855 0
- }
- {
-  coords 6136.958 308.527 1614.646
-  angles 0 -99.995 0
- }
- {
-  coords 6151.725 308.824 1621.746
-  angles -3.361 -17.372 -1.758
- }
- {
-  coords 5041.124 312.107 428.524
-  angles 0 152.475 0
- }
- {
-  coords 4294.927 305.613 2322.704
-  angles 0 176.003 0
-  {
-   GenericEntity {
-    ID "552C7390253853C9"
-    coords -6.971 -0.099 -0.037
-    angles 0 14.643 0
-   }
-   GenericEntity {
-    ID "552C7390253853CA"
-    coords -6.601 0.864 0.016
-    angles -0.058 23.148 0.055
-   }
-   GenericEntity {
-    ID "552C7390253853F6"
-    coords -6.081 0.077 0.491
-    angles -47.082 19.056 0.081
-   }
-   GenericEntity {
-    ID "552C7390253853CB"
-    coords -6.765 -0.1 0.404
-    angles 0 -91.628 0
-   }
-   GenericEntity {
-    ID "552C7390253853C8"
-    coords -6.293 -0.1 -0.02
-    angles 0 -40.522 0
-   }
-  }
- }
- {
-  coords 4301.935 309.551 2329.118
-  angles 0 96.066 0
-  {
-   GenericEntity {
-    ID "552C7390253853CB"
-    coords -1.394 -0.1 7.615
-    angles 0 -91.628 0
-   }
-  }
- }
- {
-  coords 4284.662 300.878 2358.207
-  angles 3.02 -27.353 -0.01
- }
- {
-  coords 3212.433 304.818 2581.085
-  angles 0 -109.406 0
-  {
-   GenericEntity {
-    ID "552C7390253853F6"
-    coords 0.512 0.129 0.578
-   }
-  }
- }
-}
 $grp Tree : "{D95C607C0C67572B}Prefabs/Vegetation/Bush/b_rosa_canina_1s_aut.et" {
  {
   Flags 0 0x80000
@@ -185070,10 +184909,6 @@ GameEntity : "{D9842C11742C00D0}Prefabs/Props/Civilian/Fireplace_01.et" {
     coords 3.926 0.22 -5.741
     angles -69.181 42.059 16.487
    }
-  }
-  GenericEntity : "{D93EF3E97E06D435}Prefabs/Compositions/Misc/SubCompositions/BarrelClutter_04.et" {
-   coords -3.399 -0.309 -4.935
-   angles 0 7.051 -1.548
   }
   GenericEntity : "{DA242761FD59A978}Prefabs/Compositions/Misc/SubCompositions/Furniture/Bed_Blankets_USSR_01.et" {
    coords -6.386 -0.466 -4.005

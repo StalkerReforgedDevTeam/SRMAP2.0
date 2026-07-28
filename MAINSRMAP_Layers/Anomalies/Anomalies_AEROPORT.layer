@@ -523,11 +523,3 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_SpawnChanceArtefacts 15.82
  }
 }
-ARMST_TRIGGER_ANOMALY : "{AA2861A1D8917395}Prefabs/Anomals/TRIGGERS/ARMST_TRIGGER_LIGHTING.et" {
- coords 2437.359 305.893 2151.03
- SphereRadius 125.2
- UpdatePeriod 10.3
- m_ObjectPrefab "{D43F10276490CD14}Prefabs/Anomals/Explosions/Lighting/Explosion_flash.et"
- m_CenterBias 0.3
- m_TimerSpawn 3
-}

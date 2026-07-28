@@ -25,10 +25,6 @@ GenericEntity : "{00437245037EE8E9}Prefabs/Posuda/posuda_10.et" {
  coords 4145.061 310.375 685.97
  angles 0 0 0
 }
-GenericEntity : "{01969A28078FCA69}Prefabs/Compositions/Misc/SubCompositions/BarrelClutter_02.et" {
- coords 4139.997 312.679 681.349
- angles 0 -15.093 0
-}
 $grp GenericEntity : "{06363A95838DD8ED}Prefabs/beds/matrass_4.et" {
  {
   coords 4144.556 309.452 698.163

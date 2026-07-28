@@ -6510,10 +6510,6 @@ $grp GenericEntity : "{D7F69BF7D2DCA0A8}Prefabs/Props/Industrial/Pallets/Pallet_
 GenericEntity : "{D82CAD862D4C9ABF}Prefabs/Props/Garbage/Generic/LitterInterior_01/Single/LitterInterior_USSR_01_newspaper_V4.et" {
  coords 3694.551 313.236 2636.446
 }
-GenericEntity : "{D93EF3E97E06D435}Prefabs/Compositions/Misc/SubCompositions/BarrelClutter_04.et" {
- coords 3672.277 307.485 2699.624
- angles 0 -149.337 0
-}
 GenericEntity : "{D954244B27D81C6A}Prefabs/Props/Crates/CardboardBox/CardboardBox_base.et" {
  coords 3716.437 314.223 2645.152
  angles 0 21.374 0
