@@ -266,6 +266,57 @@ $grp GenericEntity {
   angles 0 90.481 0
   scale 1.2
  }
+ {
+  components {
+   MeshObject "{699B5A3114C5D76B}" {
+    Object "{34BA5CF1F425BEAD}Assets/Structures/BuildingsParts/Doors/Door_Bunker_01/Door_Bunker_01_A_RIGHT_EXT_COV_B.xob"
+   }
+   ActionsManagerComponent "{699B5A3114C5D7E7}" {
+    ActionContexts {
+     UserActionContext "{699B5A3114C5D714}" {
+      UIInfo UIInfo "{699B5A3114C5D726}" {
+      }
+      ContextName "Default"
+      Position PointInfo "{699B5A3114C5D711}" {
+       Offset 0.4756 0.9199 0
+      }
+      Radius 0.81
+     }
+    }
+    additionalActions {
+     ARMST_TELEPORT_ACTIONS "{699B5A3114C5D7E6}" {
+      ParentContextList {
+       "Default"
+      }
+      Duration 5
+      m_sTeleportActionName "XZ-01"
+      m_sTeleportTarget "enter_perimetr8"
+      m_fTeleportDelay 1
+      m_fTeleportRadius 3
+      m_FactionNeed FACTION_ARMY
+      m_sRequiredItem ""
+     }
+     ARMST_TELEPORT_ACTIONS "{699B5A32AD1E7839}" {
+      ParentContextList {
+       "Default"
+      }
+      Duration 5
+      m_sTeleportActionName "jO14"
+      m_sTeleportTarget "enter_perimetr7"
+      m_fTeleportDelay 1
+      m_fTeleportRadius 3
+      m_FactionNeed FACTION_ARMY
+      m_sRequiredItem ""
+     }
+    }
+   }
+   RplComponent "{699B5A3114C5D7DE}" {
+   }
+  }
+  coords 1212.153 298.659 1354.24
+  angles 0 94.109 0
+  scale 1.2
+ }
 }
 ParticleEffectEntity {
  coords 3875.828 306.739 377.211
@@ -1485,48 +1536,6 @@ GameEntity : "{24089D4BB9AA8913}Prefabs/Method/Props/Camps/Fireplace_Loiters_gro
 SCR_DestructibleBuildingEntity : "{2D92D7E09B3424BC}Prefabs/Structures/Industrial/Containers/FuelTanks/FuelTank_02/FuelTank_02_green.et" {
  coords 3849.306 0.5 281.139
  angles 0 1.24 0
-}
-GenericEntity : "{2E2351CD5B452FD6}Prefabs/Props/Teleport/TELEPORT_DOOR.et" {
- components {
-  ActionsManagerComponent "{657E853A83CE2D0D}" {
-   ActionContexts {
-    UserActionContext "{66296A5664425E92}" {
-     UIInfo UIInfo "{66296A561B801DF2}" {
-     }
-     ContextName "Default"
-     Position PointInfo "{66296A5608BC9454}" {
-      Offset 0.4756 0.9199 0
-     }
-     Radius 0.81
-    }
-   }
-   additionalActions {
-    ARMST_TELEPORT_ACTIONS "{66296A569920C82F}" {
-     ParentContextList {
-      "Default"
-     }
-     m_sTeleportActionName "Checkpoint XZ-01"
-     m_sTeleportTarget "enter_perimetr3"
-     m_fTeleportDelay 2
-     m_fTeleportRadius 3
-     m_DeleteItem 0
-    }
-    ARMST_TELEPORT_ACTIONS "{66D370354AFA1D2C}" {
-     m_sTeleportActionName ""
-     m_sTeleportTarget ""
-     m_fTeleportDelay 2
-     m_fTeleportRadius 3
-     m_sRequiredItem "{B31E1C14FCC87D7C}Prefabs/Armbands/SBUPatch.et"
-     m_DeleteItem 0
-    }
-   }
-  }
-  RplComponent "{66296A59D6BB86FC}" {
-  }
- }
- coords 1212.232 298.629 1354.234
- angles 0 95.382 0
- scale 1.25
 }
 $grp GenericEntity : "{2F2BBFDA3A2C73D4}Prefabs/Props/Civilian/RadioSmall_01_black.et" {
  {
