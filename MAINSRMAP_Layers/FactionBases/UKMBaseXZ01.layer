@@ -4543,6 +4543,7 @@ $grp SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core
     Static 1
    }
    SCR_DestructibleBuildingComponent "{5DA867E2A76ADC8B}" : "{CBF503591C054345}Prefabs/Structures/Core/Destruction/DestructibleBuildingComponent_Brick_Large.ct" {
+    Enabled 0
     m_aEffects {
      SCR_TimedPrefab Prefab_Ruins_01 {
       m_bPersistent 1
