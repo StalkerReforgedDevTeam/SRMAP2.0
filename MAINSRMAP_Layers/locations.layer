@@ -149920,12 +149920,12 @@ $grp GenericEntity : "{A3EC188209D0FE12}Prefabs/wood_bridges/wood_bridges_small_
 }
 $grp GenericEntity : "{A4068A65FAD1778F}Prefabs/Props/Military/Training/Obstacles/ObstacleRunAround_01.et" {
  {
-  coords 3777.327 306.702 318.631
+  coords 3770.373 306.702 320.003
   angles 0 -93.935 0
  }
  {
-  coords 3775.599 306.702 340.878
-  angles 0 -93.935 0
+  coords 3770.999 306.702 341.27
+  angles 0 -90.262 0
  }
  {
   coords 1196.996 297.733 1407.166
@@ -158427,7 +158427,7 @@ $grp SCR_DestructibleBuildingEntity : "{B1D7DA05DE5D73F4}Prefabs/Structures/Wall
   scale 2.19
  }
  {
-  coords 3786.458 304.883 327.688
+  coords 3786.458 306.698 327.688
   angles 0 -88.76 0
   scale 2.19
  }
