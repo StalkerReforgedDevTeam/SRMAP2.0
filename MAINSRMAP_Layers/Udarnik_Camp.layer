@@ -1,6 +1,6 @@
 $grp GenericEntity : "{6D66A35ABDA08197}Prefabs/Props/Garbage/Military/Ammo/GarbageAmmunition_USSR_01.et" {
  {
-  coords 4433.668 316.19 2021.155
+  coords 4433.668 307.858 2021.155
  }
  {
   coords 4462.5 323.181 2021
@@ -10,7 +10,7 @@ $grp GenericEntity : "{6D66A35ABDA08197}Prefabs/Props/Garbage/Military/Ammo/Garb
  }
 }
 GenericEntity : "{A04DC55EB7C367F8}Prefabs/Props/Garbage/Military/Ammo/GarbageAmmunition_US_02.et" {
- coords 4433.24 316.19 2021.513
+ coords 4433.24 307.858 2021.513
 }
 GenericEntity : "{A5E64994411BA6A0}Prefabs/Props/Civilian/Pen_01/Pen_01_base.et" {
  coords 4447.729 317.135 2036.808
@@ -19,4 +19,15 @@ GenericEntity : "{A5E64994411BA6A0}Prefabs/Props/Civilian/Pen_01/Pen_01_base.et"
 GenericEntity : "{D8ABE2DE630F577E}Prefabs/Compositions/Misc/SubCompositions/CrateStacked_01.et" {
  coords 4434.901 316.196 2020.13
  angles 0 -83.995 0
+ {
+  GenericEntity {
+   ID "5528CD7A6CD9646B"
+   coords 0 -8.392 0
+   angles 0 0.902 0
+  }
+  GenericEntity {
+   ID "5528CD7A6CD9646D"
+   coords 0 -7.572 0
+  }
+ }
 }
