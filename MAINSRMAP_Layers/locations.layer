@@ -96086,6 +96086,36 @@ GenericEntity : "{67D7CBB65AB1988E}Prefabs/Structures/Cultural/Churches/Church_0
   }
  }
 }
+$grp GenericEntity : "{67F17696FF278AE0}Prefabs/Structures/BuildingParts/Doors/Door_Metal_A_RIGHT_EXT_COV_B.et" {
+ {
+  components {
+   DoorComponent "{221C667A9F7D4B69}" {
+    DoorAction SCR_DoorUserAction "{50888D3646A61640}" {
+     m_FactionKey FACTION_BANDIT
+    }
+   }
+   Hierarchy "{7642683606C70747}" {
+    PivotID "socket_door"
+   }
+  }
+  coords 2750.612 296.714 1505.796
+  angles 2.486 -88.144 0
+ }
+ {
+  components {
+   DoorComponent "{221C667A9F7D4B69}" {
+    DoorAction SCR_DoorUserAction "{50888D3646A61640}" {
+     m_FactionKey FACTION_BANDIT
+    }
+   }
+   Hierarchy "{7642683606C70747}" {
+    PivotID "socket_door"
+   }
+  }
+  coords 2748.193 296.821 1522.004
+  angles -0.065 -179.639 -3.186
+ }
+}
 $grp GenericEntity : "{683BAA16E5FB1ECA}Prefabs/Structures/Infrastructure/Naval/Piers/PierCover_02.et" {
  {
   coords 5222.976 303.58 1796.885
