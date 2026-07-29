@@ -5553,24 +5553,6 @@ SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Buil
    }
    coords 0 -0.23 0
   }
-  GameEntity : "{CCBFEA66D534BC9C}Prefabs/Structures/BuildingParts/Ladders/Ladder_Metal_900_B.et" {
-   components {
-    ActionsManagerComponent "{5916A63C9331DAB0}" {
-     ActionContexts {
-      UserActionContext "{5916A63C9D2ABA4A}" {
-       Position PointInfo "{5916A63C9B51DDAE}" {
-        Offset 0 0.7207 0.019
-        Angles 0 0 0
-       }
-      }
-     }
-    }
-    Hierarchy "{557E8CF8B87AB6F6}" {
-     PivotID "socket_ladder_01"
-    }
-   }
-   coords 0 -0.745 0
-  }
   GenericEntity : "{D4361465E546A366}Prefabs/Structures/BuildingParts/Doors/Door_Services_E_A_EXT_LEFT_ST_B.et" {
    components {
     Hierarchy "{7642683606C70747}" {
