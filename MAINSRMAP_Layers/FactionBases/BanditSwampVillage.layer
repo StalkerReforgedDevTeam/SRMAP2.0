@@ -155,6 +155,18 @@ $grp GenericEntity {
      }
     }
     additionalActions {
+     ARMST_TELEPORT_ACTIONS "{699B5A32AD1E7839}" {
+      ParentContextList {
+       "Default"
+      }
+      Duration 5
+      m_sTeleportActionName "JO14"
+      m_sTeleportTarget "enter_perimetr7"
+      m_fTeleportDelay 1
+      m_fTeleportRadius 3
+      m_FactionNeed FACTION_ARMY
+      m_sRequiredItem ""
+     }
      ARMST_TELEPORT_ACTIONS "{699B5A3114C5D7E6}" {
       ParentContextList {
        "Default"
@@ -167,24 +179,12 @@ $grp GenericEntity {
       m_FactionNeed FACTION_ARMY
       m_sRequiredItem ""
      }
-     ARMST_TELEPORT_ACTIONS "{699B5A32AD1E7839}" {
-      ParentContextList {
-       "Default"
-      }
-      Duration 5
-      m_sTeleportActionName "jO14"
-      m_sTeleportTarget "enter_perimetr7"
-      m_fTeleportDelay 1
-      m_fTeleportRadius 3
-      m_FactionNeed FACTION_ARMY
-      m_sRequiredItem ""
-     }
     }
    }
    RplComponent "{699B5A3114C5D7DE}" {
    }
   }
-  coords 5481.345 301.771 51.091
+  coords 5481.132 301.771 51.041
   angles 0 90.481 0
  }
  enter_perimetr8 {
