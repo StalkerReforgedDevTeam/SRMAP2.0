@@ -1913,14 +1913,6 @@ $grp SCR_DestructibleBuildingEntity {
      coords 0 0 -0.085
     }
    }
-   GenericEntity : "{3F122C49BF0A1AB1}Prefabs/Structures/BuildingParts/Doors/Door_Bunker_E_03/DoorSet_Bunker_E_03_B_L_INT_COV_B.et" {
-    components {
-     Hierarchy "{612AE78C85563E26}" {
-      PivotID "socket_Door_Bunker_E_B_LEFT_INT_COV_B_01"
-     }
-    }
-    coords 0 0 0
-   }
    $grp GenericEntity : "{43816DF1021ABD72}Prefabs/LOOT_BOX/3_TIER/3_TIER_Loot_randomize_tools.et" {
     {
      coords 10.011 -1.021 4.538
@@ -2000,6 +1992,17 @@ $grp SCR_DestructibleBuildingEntity {
      }
      coords 0 0 0
     }
+   }
+   GenericEntity : "{87CADB5ADC989993}Prefabs/Structures/BuildingParts/Doors/DoorSet_Base.et" {
+    components {
+     MeshObject "{61B367470698533A}" {
+      Object "{195091167CA42834}Assets/Structures/BuildingsParts/Doors/Door_Bunker_E/DoorFrame_Bunker_E_03_B_INT_COV_B.xob"
+     }
+     Hierarchy "{612AE78C85563E26}" {
+      PivotID "socket_Door_Bunker_E_B_LEFT_INT_COV_B_01"
+     }
+    }
+    coords 0 0 0
    }
    $grp GenericEntity : "{8F0C763B613691A8}Prefabs/Structures/BuildingParts/Eletrical/UtilityBoxInt_01/UtilityBoxInt_01_v3.et" {
     {
