@@ -173607,6 +173607,16 @@ $grp GenericEntity : "{C9DE18E34AEADA31}Prefabs/Structures/BuildingParts/Doors/D
   angles 0 31.242 0
   scale 0.78
  }
+ {
+  components {
+   Hierarchy "{612AE78C85563E26}" {
+    PivotID "Socket_door_001"
+   }
+  }
+  coords 4545.916 307.321 2170.472
+  angles 0 -51.3 0
+  scale 1.1
+ }
 }
 StaticModelEntity : "{C9DFE5A999C10202}Prefabs/Structures/Debris/Debris_HouseVillage/Debris_HouseVillage_01_Wall_V1.et" {
  coords 2845.93 305.99 2786.27
