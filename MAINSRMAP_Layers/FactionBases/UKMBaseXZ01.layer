@@ -6217,8 +6217,8 @@ $grp GenericEntity : "{B31A14BC1A0E7776}Prefabs/Props/Military/Sandbags/Sandbag_
 }
 $grp GenericEntity : "{B3283803059E2750}Prefabs/Props/Crates/CrateWooden_01_plain.et" {
  {
-  coords 3891.49 306.702 407.336
-  angles 0 -178.634 0
+  coords 3885.855 306.702 407.578
+  angles 0 90.04 0
   {
    GenericEntity : "{B3283803059E2750}Prefabs/Props/Crates/CrateWooden_01_plain.et" {
     coords 0.002 0.821 -0.001
@@ -6226,8 +6226,8 @@ $grp GenericEntity : "{B3283803059E2750}Prefabs/Props/Crates/CrateWooden_01_plai
   }
  }
  {
-  coords 3891.47 306.702 405.851
-  angles 0 0.751 0
+  coords 3887.34 306.702 407.592
+  angles 0 -90.575 0
   {
    GenericEntity : "{B3283803059E2750}Prefabs/Props/Crates/CrateWooden_01_plain.et" {
     coords 0 0.822 0
@@ -7370,61 +7370,122 @@ GenericEntity : "{EDB539C08A95005B}Prefabs/Compositions/Misc/FreeRoamBuilding/Em
   }
  }
 }
-StaticModelEntity : "{F5589597452FE918}PrefabLibrary/DefaultLibrary/Infrastructure/Stairs/ConcreteStairs_02_Narrow.et" {
- components {
-  MeshObject "{547A8804AA50F719}" {
-   Materials {
-    MaterialAssignClass "{68C9089D787A1376}" {
-     SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Narrow"
-     AssignedMaterial "{D4D99729940B0FA3}Assets/Structures/Walls/Concrete/Data/ConcreteRetainingWall_02_01.emat"
+$grp StaticModelEntity : "{F5589597452FE918}PrefabLibrary/DefaultLibrary/Infrastructure/Stairs/ConcreteStairs_02_Narrow.et" {
+ {
+  components {
+   MeshObject "{547A8804AA50F719}" {
+    Materials {
+     MaterialAssignClass "{68C9089D787A1376}" {
+      SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Narrow"
+      AssignedMaterial "{D4D99729940B0FA3}Assets/Structures/Walls/Concrete/Data/ConcreteRetainingWall_02_01.emat"
+     }
+    }
+   }
+  }
+  coords 3892.974 315.397 408.071
+  angles 0 179.511 0
+  {
+   StaticModelEntity : "{E30CE01FF01AE490}PrefabLibrary/DefaultLibrary/Infrastructure/Stairs/ConcreteStairs_02_SideSquareNarrow.et" {
+    components {
+     MeshObject "{547A8804AA50F719}" {
+      Materials {
+       MaterialAssignClass "{68C9089D8A822399}" {
+        SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Sides"
+        AssignedMaterial "{D4D99729940B0FA3}Assets/Structures/Walls/Concrete/Data/ConcreteRetainingWall_02_01.emat"
+       }
+      }
+     }
+    }
+    coords 0.583 -7.67 7.757
+    angles -90 96.782 -96.782
+    scale 2.388
+   }
+   $grp StaticModelEntity : "{F5589597452FE918}PrefabLibrary/DefaultLibrary/Infrastructure/Stairs/ConcreteStairs_02_Narrow.et" {
+    {
+     components {
+      MeshObject "{547A8804AA50F719}" {
+       Materials {
+        MaterialAssignClass "{68C9089D844D60BE}" {
+         SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Narrow"
+         AssignedMaterial "{D4D99729940B0FA3}Assets/Structures/Walls/Concrete/Data/ConcreteRetainingWall_02_01.emat"
+        }
+       }
+      }
+     }
+     coords -0.008 -3.238 5.071
+    }
+    {
+     components {
+      MeshObject "{547A8804AA50F719}" {
+       Materials {
+        MaterialAssignClass "{68C9089D6E943A45}" {
+         SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Narrow"
+         AssignedMaterial "{D4D99729940B0FA3}Assets/Structures/Walls/Concrete/Data/ConcreteRetainingWall_02_01.emat"
+        }
+       }
+      }
+     }
+     coords -0.034 -6.472 10.106
     }
    }
   }
  }
- coords 3892.974 315.397 408.071
- angles 0 179.511 0
  {
-  StaticModelEntity : "{E30CE01FF01AE490}PrefabLibrary/DefaultLibrary/Infrastructure/Stairs/ConcreteStairs_02_SideSquareNarrow.et" {
-   components {
-    MeshObject "{547A8804AA50F719}" {
-     Materials {
-      MaterialAssignClass "{68C9089D8A822399}" {
-       SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Sides"
-       AssignedMaterial "{D4D99729940B0FA3}Assets/Structures/Walls/Concrete/Data/ConcreteRetainingWall_02_01.emat"
-      }
+  components {
+   MeshObject "{547A8804AA50F719}" {
+    Materials {
+     MaterialAssignClass "{68C9089D787A1376}" {
+      SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Narrow"
+      AssignedMaterial "{D4D99729940B0FA3}Assets/Structures/Walls/Concrete/Data/ConcreteRetainingWall_02_01.emat"
      }
     }
    }
-   coords 0.583 -7.67 7.757
-   angles -90 96.782 -96.782
-   scale 2.388
   }
-  $grp StaticModelEntity : "{F5589597452FE918}PrefabLibrary/DefaultLibrary/Infrastructure/Stairs/ConcreteStairs_02_Narrow.et" {
-   {
+  coords 3891.176 315.397 408.056
+  angles 0 179.511 0
+  {
+   StaticModelEntity : "{E30CE01FF01AE490}PrefabLibrary/DefaultLibrary/Infrastructure/Stairs/ConcreteStairs_02_SideSquareNarrow.et" {
     components {
      MeshObject "{547A8804AA50F719}" {
       Materials {
-       MaterialAssignClass "{68C9089D844D60BE}" {
-        SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Narrow"
+       MaterialAssignClass "{68C9089D8A822399}" {
+        SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Sides"
         AssignedMaterial "{D4D99729940B0FA3}Assets/Structures/Walls/Concrete/Data/ConcreteRetainingWall_02_01.emat"
        }
       }
      }
     }
-    coords -0.008 -3.238 5.071
+    coords 0.583 -7.67 7.757
+    angles -90 96.782 -96.782
+    scale 2.388
    }
-   {
-    components {
-     MeshObject "{547A8804AA50F719}" {
-      Materials {
-       MaterialAssignClass "{68C9089D6E943A45}" {
-        SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Narrow"
-        AssignedMaterial "{D4D99729940B0FA3}Assets/Structures/Walls/Concrete/Data/ConcreteRetainingWall_02_01.emat"
+   $grp StaticModelEntity : "{F5589597452FE918}PrefabLibrary/DefaultLibrary/Infrastructure/Stairs/ConcreteStairs_02_Narrow.et" {
+    {
+     components {
+      MeshObject "{547A8804AA50F719}" {
+       Materials {
+        MaterialAssignClass "{68C9089D844D60BE}" {
+         SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Narrow"
+         AssignedMaterial "{D4D99729940B0FA3}Assets/Structures/Walls/Concrete/Data/ConcreteRetainingWall_02_01.emat"
+        }
        }
       }
      }
+     coords -0.008 -3.238 5.071
     }
-    coords -0.034 -6.472 10.106
+    {
+     components {
+      MeshObject "{547A8804AA50F719}" {
+       Materials {
+        MaterialAssignClass "{68C9089D6E943A45}" {
+         SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Narrow"
+         AssignedMaterial "{D4D99729940B0FA3}Assets/Structures/Walls/Concrete/Data/ConcreteRetainingWall_02_01.emat"
+        }
+       }
+      }
+     }
+     coords -0.034 -6.472 10.106
+    }
    }
   }
  }
