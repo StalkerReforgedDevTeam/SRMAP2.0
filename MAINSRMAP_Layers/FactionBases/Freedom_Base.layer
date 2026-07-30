@@ -3269,7 +3269,7 @@ $grp GenericEntity : "{464938975B4955D0}Prefabs/Props/Signs/Industrial/SignIndus
  }
 }
 GenericEntity : "{48D88E385C227341}Prefabs/Compositions/Misc/SubCompositions/Decorations/Barrel_Filled_01.et" {
- coords 3529.752 300.846 1842.442
+ coords 3529.752 300.846 1842.43
  angles 0 0 0
 }
 GenericEntity : "{4A8F2BF3F25C846B}Prefabs/books/books_line_6r.et" {
@@ -3619,40 +3619,6 @@ $grp GenericEntity : "{60DE3D0B58E8C7A0}Prefabs/Compositions/Misc/SubComposition
    GameEntity {
     ID "58ECBDCC1E239648"
     coords -0.274 -1.427 0.003
-   }
-  }
- }
-}
-$grp GenericEntity : "{625787D8FEB15355}Prefabs/Structures/BuildingParts/Lights/LightIndustrial_02_on_interior.et" {
- {
-  coords 3550.416 305.451 1851.13
-  angles -88.674 -89.33 88.453
-  {
-   LightEntity {
-    ID "6512711B1DB82A9B"
-    coords 0.007 0.007 0.554
-    angles 0.283 -180 180
-    Color 0 0.3372 0.0881 1
-    LV -3.12
-    Radius 26.4
-    SpotAngle 170
-    DistanceAttenuation 0.18
-   }
-  }
- }
- {
-  coords 3550.157 308.569 1850.356
-  angles -88.674 -89.33 88.453
-  {
-   LightEntity {
-    ID "6512711B1DB82A9B"
-    coords 0.007 0.007 0.554
-    angles 0.283 -180 180
-    Color 0 0.3372 0.0881 1
-    LV -3.12
-    Radius 26.4
-    SpotAngle 170
-    DistanceAttenuation 0.18
    }
   }
  }
@@ -4448,45 +4414,6 @@ $grp GameEntity : "{9FA626D6505E54F1}Prefabs/Structures/BuildingParts/Lights/Lig
     Radius 100
     SpotAngle 137.19
     DistanceAttenuation 0.1
-   }
-  }
- }
- {
-  components {
-   MeshObject "{5111E74D5E891458}" {
-    Materials {
-     MaterialAssignClass "{651C73C66D2E488B}" {
-      SourceMaterial "Glass"
-      AssignedMaterial "{D82B09F425E06153}Assets/Structures/BuildingsParts/Lights/LampIndustrial_01/Data/LampIndustrial_01_glass_on_orange.emat"
-     }
-    }
-   }
-  }
-  coords 3551.985 309.3 1838
-  angles -0.062 176.972 -0.05
-  {
-   LightEntity {
-    ID "651C73C7FC686AAB"
-    coords -0.006 -0.066 0.148
-    angles -52.387 -1.837 -89.632
-    Color 0 0.2384 0.0638 1
-    Temperature 2100
-    LV 1.6
-    Radius 69.66
-    SpotAngle 107.37
-    SpotAngleAttenuation 0.55
-    DistanceAttenuation 0.65
-   }
-   LightEntity {
-    ID "651C73C7FC686B4F"
-    coords -0.005 -0.246 0.735
-    angles 0 0 -0.347
-    Color 0 0.2384 0.0638 1
-    Temperature 2100
-    LV -1.71
-    Radius 42.69
-    SpotAngle 160.45
-    DistanceAttenuation 0.69
    }
   }
  }
@@ -6313,10 +6240,6 @@ $grp SCR_DestructibleEntity : "{DA04A1007A31B550}PrefabLibrary/DefaultLibrary/Wa
   coords 3533.495 0 1833.423
   angles 0 -95.705 0
  }
-}
-GenericEntity : "{DF3EF41CE4D441DE}Prefabs/Props/Industrial/BarrelMetal_01_rust.et" {
- coords 3529.751 300.837 1842.434
- scale 1.04
 }
 GenericEntity : "{DFBF655559915333}Prefabs/Compositions/Slotted/SlotFlatSmall/GuardTower_S_USSR_01.et" {
  coords 3541.173 300.796 1857.058

@@ -319,30 +319,6 @@ $grp GenericEntity : "{6220F5D951A6F92B}Prefabs/Staff/box_wooden_small.et" {
 }
 $grp GenericEntity : "{625787D8FEB15355}Prefabs/Structures/BuildingParts/Lights/LightIndustrial_02_on_interior.et" {
  {
-  coords 4166.22 312.263 692.927
-  angles -15.751 38.278 -89.981
-  {
-   LightEntity {
-    ID "6512711B1DB82A9B"
-    coords 0.006 -0.013 1.013
-    Color 1 0.2841 0.0033 1
-    LV 0.02
-    Radius 8.43
-    SpotAngle 170
-    DistanceAttenuation 2.58
-   }
-   LightEntity {
-    ID "6512711B5DAC4F23"
-    coords -0.008 -0.007 0.102
-    Color 1 0.2782 0.0024 1
-    LV 1.12
-    Radius 35.39
-    SpotAngle 127.98
-    DistanceAttenuation 0.62
-   }
-  }
- }
- {
   coords 4172.825 308.226 700.758
   angles -15.751 38.278 -89.981
   {
@@ -745,40 +721,12 @@ $grp GameEntity : "{9FA626D6505E54F1}Prefabs/Structures/BuildingParts/Lights/Lig
    LightEntity {
     ID "651C73C7FC686AAB"
     Color 1 0.281 0 1
-    LV 5.37
-    Radius 25
-    SpotAngle 117.47
-    SpotAngleAttenuation 0.55
-    DistanceAttenuation 1.48
+    LV 1.29
    }
    LightEntity {
     ID "651C73C7FC686B4F"
     Color 1 0.281 0 1
-    LV -0.29
-    Type Spot
-    Radius 100
-    SpotAngle 160.45
-    DistanceAttenuation 0.38
-   }
-  }
- }
- {
-  coords 4193.476 316.973 698.952
-  angles -26.681 -146.571 -87.371
-  {
-   LightEntity {
-    ID "651C73C7FC686AAB"
-    Color 1 0.281 0 1
-    LV 5.37
-    Radius 25
-    SpotAngle 117.47
-    SpotAngleAttenuation 0.55
-    DistanceAttenuation 1.48
-   }
-   LightEntity {
-    ID "651C73C7FC686B4F"
-    Color 1 0.281 0 1
-    LV -0.29
+    LV 0.71
     Type Spot
     Radius 100
     SpotAngle 160.45
@@ -804,30 +752,6 @@ $grp GameEntity : "{9FA626D6505E54F1}Prefabs/Structures/BuildingParts/Lights/Lig
     Color 1 0.281 0 1
     LV -0.29
     Type Spot
-    Radius 100
-    SpotAngle 160.45
-    DistanceAttenuation 0.38
-   }
-  }
- }
- {
-  coords 4165.995 321.927 723.445
-  angles 1.536 -138.312 -90.108
-  {
-   LightEntity {
-    ID "651C73C7FC686AAB"
-    Color 1 0.281 0 1
-    LV 5.37
-    Radius 25
-    SpotAngle 117.47
-    SpotAngleAttenuation 0.55
-    DistanceAttenuation 1.48
-   }
-   LightEntity {
-    ID "651C73C7FC686B4F"
-    coords -0.008 18.069 19.253
-    Color 1 0.281 0 1
-    LV -2.49
     Radius 100
     SpotAngle 160.45
     DistanceAttenuation 0.38

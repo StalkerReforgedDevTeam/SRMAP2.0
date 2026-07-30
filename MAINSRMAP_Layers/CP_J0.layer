@@ -2331,7 +2331,7 @@ $grp SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core
       LightEntity : "{5BF23CDF9B8FB366}Prefabs/Structures/Industrial/Towers/LightTower_01/LightTower_01_light.et" {
        coords -0.011 0.26 0.18
        angles -53.806 126.088 44.38
-       LV 8
+       LV 3.57
        Radius 30
        VolLightOffset -0.085
        VolLightIntensity 0.1
@@ -2350,7 +2350,7 @@ $grp SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core
       LightEntity : "{5BF23CDF9B8FB366}Prefabs/Structures/Industrial/Towers/LightTower_01/LightTower_01_light.et" {
        coords -0.003 0.203 0.195
        angles -26.64 0 0
-       LV 8
+       LV 4.43
        Radius 30
        VolLightOffset -0.085
        VolLightIntensity 0.1
@@ -2369,7 +2369,7 @@ $grp SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core
       LightEntity : "{5BF23CDF9B8FB366}Prefabs/Structures/Industrial/Towers/LightTower_01/LightTower_01_light.et" {
        coords -0.016 0.203 0.196
        angles -26.696 0 0
-       LV 8
+       LV 6
        Radius 30
        VolLightOffset -0.085
        VolLightIntensity 0.1
@@ -9607,7 +9607,7 @@ $grp SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core
       LightEntity : "{5BF23CDF9B8FB366}Prefabs/Structures/Industrial/Towers/LightTower_01/LightTower_01_light.et" {
        coords -0.003 0.203 0.195
        angles -26.64 0 0
-       LV 9
+       LV 6.43
        VolLightOffset -0.085
        VolLightIntensity 0.1
        LensFlareOffset -0.178
@@ -9625,7 +9625,7 @@ $grp SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core
       LightEntity : "{5BF23CDF9B8FB366}Prefabs/Structures/Industrial/Towers/LightTower_01/LightTower_01_light.et" {
        coords -0.003 0.203 0.195
        angles -26.64 0 0
-       LV 9
+       LV 3.14
        VolLightOffset -0.085
        VolLightIntensity 0.1
        LensFlareOffset -0.178
@@ -9643,7 +9643,7 @@ $grp SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core
       LightEntity : "{5BF23CDF9B8FB366}Prefabs/Structures/Industrial/Towers/LightTower_01/LightTower_01_light.et" {
        coords -0.003 0.203 0.195
        angles -26.64 0 0
-       LV 9
+       LV 6.43
        VolLightOffset -0.085
        VolLightIntensity 0.1
        LensFlareOffset -0.178
@@ -9661,7 +9661,7 @@ $grp SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core
       LightEntity : "{5BF23CDF9B8FB366}Prefabs/Structures/Industrial/Towers/LightTower_01/LightTower_01_light.et" {
        coords -0.003 0.203 0.195
        angles -26.64 0 0
-       LV 9
+       LV 5.29
        VolLightOffset -0.085
        VolLightIntensity 0.1
        LensFlareOffset -0.178

@@ -58536,6 +58536,27 @@ $grp StaticModelEntity : "{40179DB029E01A47}Prefabs/Structures/Debris/Debris_Hou
 SCR_DestructibleBuildingEntity : "{405D52096F6F6DA2}Prefabs/Structures/Industrial/Houses/FactoryHall_E_01/FactoryHall_USSR_01.et" {
  coords 5690.696 330.464 1950.014
  angles 0 -0.005 0
+ {
+  GenericEntity {
+   ID "66165E667E7D6208"
+   {
+    GenericEntity {
+     ID "66165E667553204C"
+     {
+      GameEntity {
+       ID "5A42D80F564F3E8B"
+       {
+        LightEntity {
+         ID "5990CE56D1255F77"
+         LV 6.71
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
 }
 StaticModelEntity : "{40F16A79339AACC7}Prefabs/Structures/Cultural/Statues/StatueCharacter_02/StatueCharacter_02_pedestal_base.et" {
  coords 5848.216 -0.041 2335.04
@@ -93557,6 +93578,22 @@ $grp SCR_DestructibleBuildingEntity : "{613369532419BCDA}Prefabs/Structures/Hous
  {
   coords 5774.218 0.06 2372.651
   angles 0 -173.193 0
+  {
+   GenericEntity {
+    ID "673C896A15AFD186"
+    {
+     GameEntity {
+      ID "651C73D22BFA20C7"
+      {
+       LightEntity {
+        ID "6516686A28C530B6"
+        LV -0.29
+       }
+      }
+     }
+    }
+   }
+  }
  }
  {
   coords 5800.641 0 2416.802
@@ -94118,6 +94155,16 @@ $grp GenericEntity : "{625787D8FEB15355}Prefabs/Structures/BuildingParts/Lights/
  {
   coords 2354.318 317.103 2497.367
   angles -90 90 101.879
+  {
+   LightEntity {
+    ID "6512711B1DB82A9B"
+    LV 0.57
+   }
+   LightEntity {
+    ID "6512711B5DAC4F23"
+    LV 4.14
+   }
+  }
  }
  {
   coords 2338.097 316.653 2537.005
@@ -122497,21 +122544,6 @@ $grp StaticModelEntity : "{80DF3BD810D032AF}Prefabs/Structures/Industrial/Towers
   }
  }
  {
-  coords 2421.002 312.936 2482.895
-  angles 0 5.828 0
-  {
-   GameEntity {
-    ID "555A8BAA49E0B771"
-    {
-     LightEntity {
-      ID "555A8BABD34F40C8"
-      LV -8
-     }
-    }
-   }
-  }
- }
- {
   coords 2441.796 312.843 2529.625
   angles 0 -156.869 0
   {
@@ -122521,6 +122553,33 @@ $grp StaticModelEntity : "{80DF3BD810D032AF}Prefabs/Structures/Industrial/Towers
      LightEntity {
       ID "555A8BABCBCDEBE1"
       LV -8
+     }
+    }
+   }
+   GameEntity {
+    ID "555A8BAA49E0B691"
+    {
+     LightEntity {
+      ID "555A8BABCE654642"
+      LV 7
+     }
+    }
+   }
+   GameEntity {
+    ID "555A8BAA49E0B752"
+    {
+     LightEntity {
+      ID "555A8BAB9D399186"
+      LV 8.29
+     }
+    }
+   }
+   GameEntity {
+    ID "555A8BAA49E0B771"
+    {
+     LightEntity {
+      ID "555A8BABD34F40C8"
+      LV 8.86
      }
     }
    }
@@ -122539,18 +122598,21 @@ $grp StaticModelEntity : "{80DF3BD810D032AF}Prefabs/Structures/Industrial/Towers
      }
     }
    }
-  }
- }
- {
-  coords 2360.486 312.808 2489.072
-  angles 0 5.828 0
-  {
    GameEntity {
-    ID "555A8BAA49E0B760"
+    ID "555A8BAA49E0B691"
     {
      LightEntity {
-      ID "555A8BABCBCDEBE1"
-      LV -8
+      ID "555A8BABCE654642"
+      LV 7
+     }
+    }
+   }
+   GameEntity {
+    ID "555A8BAA49E0B752"
+    {
+     LightEntity {
+      ID "555A8BAB9D399186"
+      LV 7.29
      }
     }
    }
@@ -122559,7 +122621,7 @@ $grp StaticModelEntity : "{80DF3BD810D032AF}Prefabs/Structures/Industrial/Towers
     {
      LightEntity {
       ID "555A8BABD34F40C8"
-      LV -8
+      LV 8.71
      }
     }
    }
@@ -122578,6 +122640,33 @@ $grp StaticModelEntity : "{80DF3BD810D032AF}Prefabs/Structures/Industrial/Towers
      }
     }
    }
+   GameEntity {
+    ID "555A8BAA49E0B752"
+    {
+     LightEntity {
+      ID "555A8BAB9D399186"
+      LV 7.14
+     }
+    }
+   }
+   GameEntity {
+    ID "555A8BAA49E0B760"
+    {
+     LightEntity {
+      ID "555A8BABCBCDEBE1"
+      LV 7.71
+     }
+    }
+   }
+   GameEntity {
+    ID "555A8BAA49E0B771"
+    {
+     LightEntity {
+      ID "555A8BABD34F40C8"
+      LV 6.43
+     }
+    }
+   }
   }
  }
  {
@@ -122590,6 +122679,33 @@ $grp StaticModelEntity : "{80DF3BD810D032AF}Prefabs/Structures/Industrial/Towers
      LightEntity {
       ID "555A8BAB9D399186"
       LV -8
+     }
+    }
+   }
+   GameEntity {
+    ID "555A8BAA49E0B691"
+    {
+     LightEntity {
+      ID "555A8BABCE654642"
+      LV 7.71
+     }
+    }
+   }
+   GameEntity {
+    ID "555A8BAA49E0B760"
+    {
+     LightEntity {
+      ID "555A8BABCBCDEBE1"
+      LV 8.86
+     }
+    }
+   }
+   GameEntity {
+    ID "555A8BAA49E0B771"
+    {
+     LightEntity {
+      ID "555A8BABD34F40C8"
+      LV 8.43
      }
     }
    }
@@ -152476,57 +152592,16 @@ GenericEntity : "{A7CAE510C39E5F0D}Prefabs/Props/Military/AmmoBoxes/EquipmentBox
  coords 3262.25 300.874 2257.197
  angles 0 108.546 0
 }
-$grp GenericEntity : "{A80F0848BFF11327}Prefabs/Structures/Infrastructure/Lamps/LampStreet_E_02/LampStreet_E_02_doubleAngled.et" {
+GenericEntity : "{A80F0848BFF11327}Prefabs/Structures/Infrastructure/Lamps/LampStreet_E_02/LampStreet_E_02_doubleAngled.et" {
+ coords 2352.925 0.003 2512.976
+ angles 0 96.374 -0.703
  {
-  coords 2334.822 0.281 2515.247
-  angles 0.294 -108.334 0.639
-  {
-   GameEntity {
-    ID "5A42D80F6BF048CC"
-    {
-     LightEntity {
-      ID "5A42D21E6C98C5BF"
-      LV -8
-     }
-    }
-   }
-  }
- }
- {
-  coords 2352.925 0.003 2512.976
-  angles 0 96.374 -0.703
-  {
-   GameEntity {
-    ID "5A42D80F681D979D"
-    {
-     LightEntity {
-      ID "5A42D21E6C98C5BF"
-      LV -8
-     }
-    }
-   }
-  }
- }
- {
-  coords 2326.415 0.042 2526.996
-  angles 0.49 -127.753 0.505
-  {
-   GameEntity {
-    ID "5A42D80F681D979D"
-    {
-     LightEntity {
-      ID "5A42D21E6C98C5BF"
-      LV 6.74
-     }
-    }
-   }
-   GameEntity {
-    ID "5A42D80F6BF048CC"
-    {
-     LightEntity {
-      ID "5A42D21E6C98C5BF"
-      LV -8
-     }
+  GameEntity {
+   ID "5A42D80F681D979D"
+   {
+    LightEntity {
+     ID "5A42D21E6C98C5BF"
+     LV -8
     }
    }
   }
@@ -167477,11 +167552,10 @@ $grp SCR_DestructibleBuildingEntity : "{BE248D0B31D3B097}Prefabs/Structures/Mili
     }
    }
    LightEntity LIGHT_FLUO_SPOT_44 {
-    coords 0.01 2.923 -8.182
+    coords -0.008 3.082 -8.18
     angles -90 -83.271 179.65
-    Color 1 0.8398 0.2467 1
-    LV 1.66
-    ClipEV -10
+    Color 0.8745 0.8196 0.6549 1
+    LV 0.43
     Radius 17.8
     NearPlane 0.2
     SpotAngle 107.23
@@ -198477,6 +198551,7 @@ $grp GameEntity : "{E7FD0B8019E96F73}Prefabs/Structures/BuildingParts/Lights/Lam
    LightEntity : "{94E574957C0BA1FD}Prefabs/lights/LampStreet_E_03_light.et" {
     coords 0.005 0.026 0.598
     angles -27.154 3.672 2.27
+    LV 5.86
     NearPlane 0.01
    }
   }
@@ -198488,6 +198563,7 @@ $grp GameEntity : "{E7FD0B8019E96F73}Prefabs/Structures/BuildingParts/Lights/Lam
    LightEntity : "{94E574957C0BA1FD}Prefabs/lights/LampStreet_E_03_light.et" {
     coords 0.005 0.026 0.598
     angles -27.154 3.672 2.27
+    LV 7
    }
   }
  }
@@ -198498,6 +198574,7 @@ $grp GameEntity : "{E7FD0B8019E96F73}Prefabs/Structures/BuildingParts/Lights/Lam
    LightEntity : "{94E574957C0BA1FD}Prefabs/lights/LampStreet_E_03_light.et" {
     coords 0.004 0.026 0.598
     angles -27.154 3.672 2.27
+    LV 5.29
    }
   }
  }
@@ -198581,7 +198658,7 @@ $grp GameEntity : "{E7FD0B8019E96F73}Prefabs/Structures/BuildingParts/Lights/Lam
     coords -0.016 -0.002 0.57
     angles -29.119 19.832 -9.954
     Color 0.823 0.5047 0.2176 0
-    LV 8.39
+    LV 3.71
     Radius 48.86
     NearPlane 2
     SpotAngle 107.22
@@ -198597,7 +198674,7 @@ $grp GameEntity : "{E7FD0B8019E96F73}Prefabs/Structures/BuildingParts/Lights/Lam
     coords -0.016 -0.002 0.57
     angles -30.632 0 0
     Color 0.823 0.5047 0.2176 0
-    LV 8.39
+    LV 4.86
     Radius 48.86
     NearPlane 2
     SpotAngle 107.22
@@ -198613,7 +198690,7 @@ $grp GameEntity : "{E7FD0B8019E96F73}Prefabs/Structures/BuildingParts/Lights/Lam
     coords -0.016 -0.002 0.57
     angles -30.632 0 0
     Color 0.823 0.5047 0.2176 0
-    LV 5.49
+    LV 1.29
     Radius 48.86
     NearPlane 2
     SpotAngle 107.22
@@ -198641,6 +198718,7 @@ $grp GameEntity : "{E7FD0B8019E96F73}Prefabs/Structures/BuildingParts/Lights/Lam
     coords 0 0.196 0.178
     angles -30 0 0
     Color 0.7854 0.5674 0.2991 1
+    LV 7.43
     Radius 12.63
     NearPlane 0.21
     SpotAngle 47.42

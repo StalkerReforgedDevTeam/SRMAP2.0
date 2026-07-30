@@ -1924,10 +1924,8 @@ $grp GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/DestructibleMultiPhas
      LightEntity {
       ID "58D69D7BA124BCB0"
       coords 0 -0.095 0
-      LV 4.56
-      SpotAngle 170
-      SpotAngleAttenuation 0.51
-      DistanceAttenuation 2.3
+      LV 1.57
+      SpotAngle 108.42
      }
     }
    }
@@ -1958,11 +1956,10 @@ $grp GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/DestructibleMultiPhas
     {
      LightEntity {
       ID "58D69D7BA124BCB0"
-      coords 0 -0.095 0
-      LV 4.56
-      SpotAngle 170
-      SpotAngleAttenuation 0.51
-      DistanceAttenuation 2.3
+      coords 0.074 -0.095 0
+      LV 1.14
+      CastShadow 0
+      SpotAngle 120.56
      }
     }
    }
@@ -2537,7 +2534,7 @@ $grp GenericEntity : "{6C935C56DF9F168C}Prefabs/Structures/BuildingParts/Doors/D
       LightEntity : "{5BF23CDF9B8FB366}Prefabs/Structures/Industrial/Towers/LightTower_01/LightTower_01_light.et" {
        coords -0.003 0.203 0.195
        angles -26.64 0 0
-       LV 9
+       LV 4.71
        VolLightOffset -0.085
        VolLightIntensity 0.1
        LensFlareOffset -0.178
@@ -2556,7 +2553,7 @@ $grp GenericEntity : "{6C935C56DF9F168C}Prefabs/Structures/BuildingParts/Doors/D
       LightEntity : "{5BF23CDF9B8FB366}Prefabs/Structures/Industrial/Towers/LightTower_01/LightTower_01_light.et" {
        coords -0.003 0.203 0.195
        angles -26.64 0 0
-       LV 9
+       LV 4.57
        VolLightOffset -0.085
        VolLightIntensity 0.1
        LensFlareOffset -0.178
@@ -3131,7 +3128,7 @@ $grp GameEntity : "{8FF50E5D4B417196}Prefabs/Props/Furniture/LampFluorescent/Lam
    LightEntity {
     ID "58D69D7BA124BCB0"
     coords 0 -0.095 0
-    LV 6.21
+    LV 2.43
     SpotAngle 82.46
     DistanceAttenuation 3
    }
@@ -3144,8 +3141,8 @@ $grp GameEntity : "{8FF50E5D4B417196}Prefabs/Props/Furniture/LampFluorescent/Lam
    LightEntity {
     ID "58D69D7BA124BCB0"
     coords 0 -0.095 0
-    LV 4.56
-    SpotAngle 170
+    LV -1
+    SpotAngle 124.9
     SpotAngleAttenuation 0.51
     DistanceAttenuation 2.3
    }
@@ -3158,8 +3155,8 @@ $grp GameEntity : "{8FF50E5D4B417196}Prefabs/Props/Furniture/LampFluorescent/Lam
    LightEntity {
     ID "58D69D7BA124BCB0"
     coords 0 -0.095 0
-    LV 4.56
-    SpotAngle 170
+    LV 0.86
+    SpotAngle 111.89
     SpotAngleAttenuation 0.51
     DistanceAttenuation 2.3
    }
@@ -3172,8 +3169,8 @@ $grp GameEntity : "{8FF50E5D4B417196}Prefabs/Props/Furniture/LampFluorescent/Lam
    LightEntity {
     ID "58D69D7BA124BCB0"
     coords 0 -0.095 0
-    LV 4.56
-    SpotAngle 170
+    LV 2.14
+    SpotAngle 115.36
     SpotAngleAttenuation 0.51
     DistanceAttenuation 2.3
    }
@@ -3186,10 +3183,8 @@ $grp GameEntity : "{8FF50E5D4B417196}Prefabs/Props/Furniture/LampFluorescent/Lam
    LightEntity {
     ID "58D69D7BA124BCB0"
     coords 0 -0.095 0
-    LV 4.56
-    SpotAngle 170
-    SpotAngleAttenuation 0.51
-    DistanceAttenuation 2.3
+    LV 1.29
+    SpotAngle 108.42
    }
   }
  }
@@ -3200,7 +3195,7 @@ $grp GameEntity : "{8FF50E5D4B417196}Prefabs/Props/Furniture/LampFluorescent/Lam
    LightEntity {
     ID "58D69D7BA124BCB0"
     coords 0 -0.095 0
-    LV 4.56
+    LV 1.86
     SpotAngle 170
     SpotAngleAttenuation 0.51
     DistanceAttenuation 2.3
@@ -3214,10 +3209,7 @@ $grp GameEntity : "{8FF50E5D4B417196}Prefabs/Props/Furniture/LampFluorescent/Lam
    LightEntity {
     ID "58D69D7BA124BCB0"
     coords 0 -0.095 0
-    LV 4.56
-    SpotAngle 170
-    SpotAngleAttenuation 0.51
-    DistanceAttenuation 2.3
+    LV 1.86
    }
   }
  }
@@ -3228,7 +3220,7 @@ $grp GameEntity : "{8FF50E5D4B417196}Prefabs/Props/Furniture/LampFluorescent/Lam
    LightEntity {
     ID "58D69D7BA124BCB0"
     coords 0 -0.095 0
-    LV 4.56
+    LV 2.14
     SpotAngle 170
     SpotAngleAttenuation 0.51
     DistanceAttenuation 2.3
@@ -3242,7 +3234,7 @@ $grp GameEntity : "{8FF50E5D4B417196}Prefabs/Props/Furniture/LampFluorescent/Lam
    LightEntity {
     ID "58D69D7BA124BCB0"
     coords 0 -0.095 0
-    LV 4.56
+    LV 2.57
     SpotAngle 170
     SpotAngleAttenuation 0.51
     DistanceAttenuation 2.3
@@ -3256,8 +3248,7 @@ $grp GameEntity : "{8FF50E5D4B417196}Prefabs/Props/Furniture/LampFluorescent/Lam
    LightEntity {
     ID "58D69D7BA124BCB0"
     coords 0 -0.095 0
-    LV 4.56
-    SpotAngle 170
+    LV 1.14
     SpotAngleAttenuation 0.51
     DistanceAttenuation 2.3
    }
@@ -3270,8 +3261,7 @@ $grp GameEntity : "{8FF50E5D4B417196}Prefabs/Props/Furniture/LampFluorescent/Lam
    LightEntity {
     ID "58D69D7BA124BCB0"
     coords 0 -0.095 0
-    LV 4.56
-    SpotAngle 170
+    LV 1.57
     SpotAngleAttenuation 0.51
     DistanceAttenuation 2.3
    }
@@ -3284,8 +3274,7 @@ $grp GameEntity : "{8FF50E5D4B417196}Prefabs/Props/Furniture/LampFluorescent/Lam
    LightEntity {
     ID "58D69D7BA124BCB0"
     coords 0 -0.095 0
-    LV 4.56
-    SpotAngle 170
+    LV 1.57
     SpotAngleAttenuation 0.51
     DistanceAttenuation 2.3
    }
@@ -6720,6 +6709,7 @@ $grp GenericEntity : "{B61A08FB644D2050}Prefabs/Props/Furniture/LampFluorescent/
       ID "58D69D7BA124BCB0"
       coords 0 -0.095 0
       angles -90 180 -180
+      LV 2.43
      }
     }
    }
@@ -6737,6 +6727,7 @@ $grp GenericEntity : "{B61A08FB644D2050}Prefabs/Props/Furniture/LampFluorescent/
       ID "58D69D7BA124BCB0"
       coords 0 -0.095 0
       angles -90 180 -180
+      LV 3.43
      }
     }
    }
@@ -7311,7 +7302,7 @@ $grp GameEntity : "{E7FD0B8019E96F73}Prefabs/Structures/BuildingParts/Lights/Lam
     coords -0.003 0.203 0.195
     angles -36.294 0 0
     Color 0.823 0.414 0.106 0
-    LV 10
+    LV 7.14
     SpotAngle 80
     SpotAngleAttenuation 0.41
     VolLightOffset -0.085
@@ -7331,7 +7322,7 @@ $grp GameEntity : "{E7FD0B8019E96F73}Prefabs/Structures/BuildingParts/Lights/Lam
    LightEntity : "{5BF23CDF9B8FB366}Prefabs/Structures/Industrial/Towers/LightTower_01/LightTower_01_light.et" {
     coords -0.003 0.203 0.195
     angles -26.64 0 0
-    LV 9
+    LV 5.14
     VolLightOffset -0.085
     VolLightIntensity 0.1
     LensFlareOffset -0.178
@@ -7349,7 +7340,7 @@ $grp GameEntity : "{E7FD0B8019E96F73}Prefabs/Structures/BuildingParts/Lights/Lam
    LightEntity : "{5BF23CDF9B8FB366}Prefabs/Structures/Industrial/Towers/LightTower_01/LightTower_01_light.et" {
     coords -0.003 0.203 0.195
     angles -26.64 0 0
-    LV 9
+    LV 5.14
     VolLightOffset -0.085
     VolLightIntensity 0.1
     LensFlareOffset -0.178

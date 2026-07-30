@@ -554,10 +554,6 @@ $grp GenericEntity : "{48D88E385C227341}Prefabs/Compositions/Misc/SubComposition
   coords 3595.909 300.257 1733.003
   angles 0 0 0.592
  }
- {
-  coords 3604.45 300.31 1733.261
-  angles 0 0 -2.773
- }
 }
 $grp GenericEntity : "{4EF68238FE2FC26B}Prefabs/Compositions/Misc/SubCompositions/CanvasCover_Cluttered_USSR_04.et" {
  {
@@ -769,163 +765,31 @@ GenericEntity : "{620B107C6C933E4E}Prefabs/Vehicles/gaz53/armst_gaz53_box_open.e
  coords 3602.885 299.945 1680.154
  angles 0 169.513 0
 }
-$grp GenericEntity : "{625787D8FEB15355}Prefabs/Structures/BuildingParts/Lights/LightIndustrial_02_on_interior.et" {
+GenericEntity : "{625787D8FEB15355}Prefabs/Structures/BuildingParts/Lights/LightIndustrial_02_on_interior.et" {
+ coords 3604.635 306.92 1657.17
+ angles -89.966 -4.405 0
  {
-  coords 3603.097 306.954 1680.467
-  angles -89.96 0 0
-  {
-   LightEntity {
-    ID "6512711B1DB82A9B"
-    coords 0.006 -0.013 0.521
-    ColorType Temperature
-    Color 1 0.2633 0 1
-    Temperature 2200
-    LV 3.48
-    Type Spot
-    Radius 100
-    SpotAngle 170
-    DistanceAttenuation 1.7
-   }
-   LightEntity {
-    ID "6512711B5DAC4F23"
-    ColorType Temperature
-    Color 1 0.2633 0 1
-    Temperature 2200
-    LV 5.37
-    Radius 100
-    SpotAngle 104.1
-    DistanceAttenuation 1.76
-   }
+  LightEntity {
+   ID "6512711B1DB82A9B"
+   coords 0.006 -0.013 0.521
+   ColorType Temperature
+   Color 1 0.2633 0 1
+   Temperature 2200
+   LV 3.48
+   Type Spot
+   Radius 100
+   SpotAngle 170
+   DistanceAttenuation 1.7
   }
- }
- {
-  coords 3601.572 306.92 1700.779
-  angles -89.966 -6.241 0
-  {
-   LightEntity {
-    ID "6512711B1DB82A9B"
-    coords 0.006 -0.013 0.521
-    ColorType Temperature
-    Color 1 0.2633 0 1
-    Temperature 2200
-    LV 3.48
-    Type Spot
-    Radius 100
-    SpotAngle 170
-    DistanceAttenuation 1.7
-   }
-   LightEntity {
-    ID "6512711B5DAC4F23"
-    ColorType Temperature
-    Color 1 0.2633 0 1
-    Temperature 2200
-    LV 5.37
-    Radius 100
-    SpotAngle 104.1
-    DistanceAttenuation 1.76
-   }
-  }
- }
- {
-  coords 3604.635 306.92 1657.17
-  angles -89.966 -4.405 0
-  {
-   LightEntity {
-    ID "6512711B1DB82A9B"
-    coords 0.006 -0.013 0.521
-    ColorType Temperature
-    Color 1 0.2633 0 1
-    Temperature 2200
-    LV 3.48
-    Type Spot
-    Radius 100
-    SpotAngle 170
-    DistanceAttenuation 1.7
-   }
-   LightEntity {
-    ID "6512711B5DAC4F23"
-    ColorType Temperature
-    Color 1 0.2633 0 1
-    Temperature 2200
-    LV 5.37
-    Radius 100
-    SpotAngle 104.1
-    DistanceAttenuation 1.76
-   }
-  }
- }
- {
-  coords 3608.278 306.103 1611.756
-  angles -89.96 -5.044 0
-  {
-   LightEntity {
-    ID "6512711B1DB82A9B"
-    coords 0.006 -0.013 0.238
-    Color 0 0.3372 0.0881 1
-    LV -0.76
-    Radius 30.34
-    SpotAngle 170
-    DistanceAttenuation 0.1
-   }
-   LightEntity {
-    ID "6512711B5DAC4F23"
-    Color 0 0.3324 0.0869 1
-    LV 2.54
-    Radius 100
-    SpotAngle 120.34
-    DistanceAttenuation 1.7
-   }
-  }
- }
- {
-  coords 3606.62 306.92 1631.926
-  angles -89.96 -2.882 0
-  {
-   LightEntity {
-    ID "6512711B1DB82A9B"
-    coords 0.006 -0.013 0.521
-    ColorType Temperature
-    Color 1 0.2633 0 1
-    Temperature 2200
-    LV 3.48
-    Type Spot
-    Radius 100
-    SpotAngle 170
-    DistanceAttenuation 1.7
-   }
-   LightEntity {
-    ID "6512711B5DAC4F23"
-    ColorType Temperature
-    Color 1 0.2633 0 1
-    Temperature 2200
-    LV 5.37
-    Radius 100
-    SpotAngle 104.1
-    DistanceAttenuation 1.76
-   }
-  }
- }
- {
-  coords 3600.089 306.103 1722.529
-  angles -89.96 -5.044 0
-  {
-   LightEntity {
-    ID "6512711B1DB82A9B"
-    coords 0.006 -0.013 0.238
-    Color 0 0.3372 0.0881 1
-    LV -0.76
-    Radius 31.46
-    SpotAngle 170
-    DistanceAttenuation 0.1
-   }
-   LightEntity {
-    ID "6512711B5DAC4F23"
-    Color 0 0.3324 0.0869 1
-    LV 2.54
-    Radius 100
-    SpotAngle 120.34
-    DistanceAttenuation 1.7
-   }
+  LightEntity {
+   ID "6512711B5DAC4F23"
+   ColorType Temperature
+   Color 1 0.2633 0 1
+   Temperature 2200
+   LV 5.37
+   Radius 100
+   SpotAngle 104.1
+   DistanceAttenuation 1.76
   }
  }
 }
@@ -1599,22 +1463,6 @@ GenericEntity : "{E4DA6CFFCE8E5940}Prefabs/Props/Construction/ContainerMetal_01/
 }
 $grp GameEntity : "{E7FD0B8019E96F73}Prefabs/Structures/BuildingParts/Lights/LampTower_01.et" {
  {
-  coords 3608.469 307.388 1610.337
-  angles 24.857 171.18 0.017
-  {
-   LightEntity : "{94E574957C0BA1FD}Prefabs/lights/LampStreet_E_03_light.et" {
-    coords 0.005 0.026 0.598
-    angles -27.154 3.672 2.27
-    ColorType Temperature
-    LV 5.69
-    Radius 71.91
-    NearPlane 0.01
-    SpotAngle 57.3
-    DistanceAttenuation 1.13
-   }
-  }
- }
- {
   coords 3602.997 306.047 1599.583
   angles 35.748 107.982 -22.201
   {
@@ -1627,22 +1475,6 @@ $grp GameEntity : "{E7FD0B8019E96F73}Prefabs/Structures/BuildingParts/Lights/Lam
     NearPlane 0.01
     SpotAngle 70.67
     DistanceAttenuation 0.91
-   }
-  }
- }
- {
-  coords 3599.952 307.441 1723.271
-  angles 20.233 -9.624 -0.603
-  {
-   LightEntity : "{94E574957C0BA1FD}Prefabs/lights/LampStreet_E_03_light.et" {
-    coords 0.005 0.026 0.598
-    angles -27.154 3.672 2.27
-    ColorType Temperature
-    LV 9.3
-    Radius 100
-    NearPlane 0.01
-    SpotAngle 40.11
-    DistanceAttenuation 1.83
    }
   }
  }
@@ -1680,35 +1512,19 @@ GenericEntity : "{F2174A927C3229F2}Prefabs/Compositions/Misc/SubCompositions/Fur
  coords 3597.669 300.411 1714.001
  angles 0 65.075 0
 }
-$grp LightEntity : "{F22FA87C97B69FEC}Prefabs/Structures/BuildingParts/Lights/LightPrefabs/LightIndustrial_02_light_point_exterior.et" {
- {
-  components {
-   RplComponent "{585699AC653DD54C}" {
-    Enabled 1
-   }
+LightEntity : "{F22FA87C97B69FEC}Prefabs/Structures/BuildingParts/Lights/LightPrefabs/LightIndustrial_02_light_point_exterior.et" {
+ components {
+  RplComponent "{585699AC653DD54C}" {
+   Enabled 1
   }
-  coords 3598.162 306.541 1730.227
-  ColorType Temperature
-  Color 1 0.296 0.0024 1
-  Temperature 2500
-  LV -1.87
-  Radius 49.44
-  DistanceAttenuation 0.65
  }
- {
-  components {
-   RplComponent "{585699AC653DD54C}" {
-    Enabled 1
-   }
-  }
-  coords 3608.819 307.975 1601.105
-  ColorType Temperature
-  Color 1 0.296 0.0024 1
-  Temperature 2500
-  LV -1.87
-  Radius 49.44
-  DistanceAttenuation 0.65
- }
+ coords 3598.162 306.541 1730.227
+ ColorType Temperature
+ Color 1 0.296 0.0024 1
+ Temperature 2500
+ LV -1.87
+ Radius 49.44
+ DistanceAttenuation 0.65
 }
 SCR_DestructibleBuildingEntity : "{F4E08FE7DD7264EB}Prefabs/Vehicles/azlk412/armst_azlk412_1.et" {
  coords 3611.425 302.85 1573.918

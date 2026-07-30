@@ -665,6 +665,12 @@ modded class SCR_PlayerController
 			return;
 		}
 
+		if (amount > 100000)
+		{
+			SRZ_RPNet.SendToPlayer(playerId, "You can't transfer more than 100000 roubles at once.");
+			return;
+		}
+
 		PlayerManager pm = GetGame().GetPlayerManager();
 		if (!pm)
 			return;
@@ -717,6 +723,7 @@ modded class SCR_PlayerController
 		SRZ_RPNet.SendToPlayer(targetId, string.Format("You received %1 roubles from %2. New balance: %3", amount, pm.GetPlayerName(playerId), targetMoney + amount));
 	}
 }
+
 
 // Helper class for network operations
 class SRZ_RPNet

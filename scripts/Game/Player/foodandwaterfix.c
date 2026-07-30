@@ -1,15 +1,18 @@
-// scripts/Game/Fixes/SRZ_PlayerVitalsEffects.c
+// scripts/Game/Player/foodandwaterfix.c
 
 modded class ARMST_PLAYER_STATS_COMPONENT
 {
 	// --- Tunables ---
-	protected const float SRZ_VITALS_TICK_INTERVAL = 5000; // ms between checks
-	protected const float SRZ_LOW_WATER_THRESHOLD = 20; // below this, water damage applies
-	protected const float SRZ_LOW_FOOD_THRESHOLD = 20; // below this, food damage applies
-	protected const float SRZ_WATER_DAMAGE_PER_TICK = 1.0; // health lost per tick when dehydrated
-	protected const float SRZ_FOOD_DAMAGE_PER_TICK = 1.0; // health lost per tick when starving
-	protected const float SRZ_VITALS_MIN_HEALTH = 1; // starvation/dehydration alone won't kill, stops here
+	protected const float SRZ_VITALS_TICK_INTERVAL = 5000;  // ms between checks
+	protected const float SRZ_LOW_WATER_THRESHOLD = 20;     // below this, water damage applies
+	protected const float SRZ_LOW_FOOD_THRESHOLD = 20;      // below this, food damage applies
+	protected const float SRZ_WATER_DAMAGE_PER_TICK = 1.0;  // health lost per tick when dehydrated
+	protected const float SRZ_FOOD_DAMAGE_PER_TICK = 1.0;   // health lost per tick when starving
+	protected const float SRZ_VITALS_MIN_HEALTH = 1;        // starvation/dehydration alone won't kill, stops here
 
+	protected bool m_bSRZ_VitalsTickRegistered;
+
+	//------------------------------------------------------------------------------------------------
 	override void OnPostInit(IEntity owner)
 	{
 		super.OnPostInit(owner);
@@ -20,14 +23,32 @@ modded class ARMST_PLAYER_STATS_COMPONENT
 		if (!Replication.IsServer())
 			return;
 
+		if (m_bSRZ_VitalsTickRegistered)
+			return;
+
+		m_bSRZ_VitalsTickRegistered = true;
 		GetGame().GetCallqueue().CallLater(SRZ_VitalsTick, SRZ_VITALS_TICK_INTERVAL, true);
 	}
 
+	//------------------------------------------------------------------------------------------------
+	void SRZ_StopVitalsTick()
+	{
+		if (!m_bSRZ_VitalsTickRegistered)
+			return;
+
+		GetGame().GetCallqueue().Remove(SRZ_VitalsTick);
+		m_bSRZ_VitalsTickRegistered = false;
+	}
+
+	//------------------------------------------------------------------------------------------------
 	void SRZ_VitalsTick()
 	{
 		IEntity owner = GetOwner();
 		if (!owner)
+		{
+			SRZ_StopVitalsTick();
 			return;
+		}
 
 		float water = ArmstPlayerStatGetWater();
 		float food = ArmstPlayerStatGetEat();
@@ -45,7 +66,7 @@ modded class ARMST_PLAYER_STATS_COMPONENT
 
 		float currentHealth = defaultHitZone.GetHealth();
 		if (currentHealth <= SRZ_VITALS_MIN_HEALTH)
-			return;
+			return; // already at floor - also covers dead/dying bodies, since health won't be above this
 
 		float totalDamage = 0;
 

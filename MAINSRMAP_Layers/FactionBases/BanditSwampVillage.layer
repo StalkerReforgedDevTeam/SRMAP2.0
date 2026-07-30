@@ -400,6 +400,140 @@ $grp GenericEntity {
   coords 5058.532 310.657 433.855
   angles 0 -57.322 0
  }
+ {
+  components {
+   MeshObject "{69F96AC4581ED6A8}" {
+    Object "{9374FFE7DE10E9E5}Assets/Structures/BuildingsParts/Lights/LightIndustrial_02.xob"
+    Materials {
+     MaterialAssignClass "{69F96AC4581EF590}" {
+      SourceMaterial "Glass"
+      AssignedMaterial "{FC236CB65AE3141F}Assets/Structures/BuildingsParts/Lights/LampIndustrial_01/Data/Glass_on_white.emat"
+     }
+    }
+    LODFactors {
+     20
+     5
+     1
+     1
+     1
+     1
+     1
+     1
+    }
+   }
+   RigidBody "{69F96AC4581ED7DB}" {
+    ResponseIndex "TinyDestructible"
+    ModelGeometry 1
+    Static 1
+   }
+   SCR_DestructionMultiPhaseComponent "{69F96AC4581ED4CB}" {
+    Enabled 1
+    "Additional hit zones" {
+     SCR_HitZone Default {
+      HZDefault 1
+      "Melee multiplier" 1
+      "Kinetic multiplier" 1
+      "Explosive multiplier" 90
+      "Incendiary multiplier" 1
+     }
+    }
+    m_fBaseHealth 200
+    m_fForceToDamageScale 350
+    m_fDamageThresholdMaximum 10000
+    m_bDestroyChildrenWhenDestroyed 1
+   }
+   RplComponent "{69F96AC4581ED486}" {
+    Enabled 1
+   }
+   Hierarchy "{69F96AC4581ED562}" {
+   }
+  }
+  Flags 0x403 0
+  coords 3554.224 308.677 1848.866
+  angles -88.674 -89.33 88.453
+  {
+   LightEntity : "{3E3419B86DE31E3B}Prefabs/Structures/BuildingParts/Lights/LightPrefabs/LightIndustrial_02_light_spot_interior.et" {
+    coords -0.008 -0.052 0.12
+    LV 3.71
+    ProjectionMap "{A67B65819074C16F}Common/Textures/Light_profiles/LightIndustrial_02_Mask.edds"
+    ClipEV -10
+    Radius 6
+    SpotAngle 140
+    ShowSource 1
+    SourceSize 0.6
+    VolLightOffset 0.07
+    VolLightOffsetUp 0.03
+    VolLightIntensity 0.05
+   }
+  }
+ }
+ {
+  components {
+   MeshObject "{69F96AC47E34DB27}" {
+    Object "{9374FFE7DE10E9E5}Assets/Structures/BuildingsParts/Lights/LightIndustrial_02.xob"
+    Materials {
+     MaterialAssignClass "{69F96AC47E34C093}" {
+      SourceMaterial "Glass"
+      AssignedMaterial "{FC236CB65AE3141F}Assets/Structures/BuildingsParts/Lights/LampIndustrial_01/Data/Glass_on_white.emat"
+     }
+    }
+    LODFactors {
+     20
+     5
+     1
+     1
+     1
+     1
+     1
+     1
+    }
+   }
+   RigidBody "{69F96AC47E34DBB6}" {
+    ResponseIndex "TinyDestructible"
+    ModelGeometry 1
+    Static 1
+   }
+   SCR_DestructionMultiPhaseComponent "{69F96AC47E34D807}" {
+    Enabled 1
+    "Additional hit zones" {
+     SCR_HitZone Default {
+      HZDefault 1
+      "Melee multiplier" 1
+      "Kinetic multiplier" 1
+      "Explosive multiplier" 90
+      "Incendiary multiplier" 1
+     }
+    }
+    m_fBaseHealth 200
+    m_fForceToDamageScale 350
+    m_fDamageThresholdMaximum 10000
+    m_bDestroyChildrenWhenDestroyed 1
+   }
+   RplComponent "{69F96AC47E34D9A2}" {
+    Enabled 1
+   }
+   Hierarchy "{69F96AC47E34D998}" {
+   }
+  }
+  Flags 0x403 0
+  coords 3554.836 308.662 1842.955
+  angles -88.674 -89.33 88.453
+  {
+   LightEntity : "{3E3419B86DE31E3B}Prefabs/Structures/BuildingParts/Lights/LightPrefabs/LightIndustrial_02_light_spot_interior.et" {
+    coords -0.008 -0.052 0.12
+    LV -0.29
+    ProjectionMap "{A67B65819074C16F}Common/Textures/Light_profiles/LightIndustrial_02_Mask.edds"
+    ClipEV -10
+    Radius 6
+    SpotAngle 140
+    ShowSource 1
+    SourceSize 0.6
+    VolLightOffset 0.07
+    VolLightOffsetUp 0.03
+    VolLightIntensity 0.05
+   }
+  }
+ }
 }
 $grp SCR_DestructibleBuildingEntity {
  {
@@ -1876,14 +2010,6 @@ $grp SCR_DestructibleBuildingEntity {
    }
   }
  }
-}
-SRZ_DiscordPingTriggerEntity {
- coords 3154.043 258.44 2689.898
- TriggerShapeType Sphere
- SphereRadius 248.5
- TriggerActivationType "Every query"
- PeriodicQueries 1
- UpdatePeriod 10
 }
 Armst_Monster_Character : "{02CB07CF03B77AAF}Prefabs/Monsters/Characters/Elementals/Electro/armst_electro_elemental.et" {
  coords 1951.495 294.343 828.349
@@ -6913,56 +7039,6 @@ GenericEntity : "{5EFCA47FCA67A55F}Prefabs/Props/Decorations/Paintings/PaintingB
 GenericEntity : "{6005A2E4F98DC66F}Prefabs/Props/Garbage/Generic/LitterInterior_01/Single/LitterInterior_USSR_01_tincan_V3.et" {
  coords 1455.407 292.24 1931.664
 }
-$grp GenericEntity : "{625787D8FEB15355}Prefabs/Structures/BuildingParts/Lights/LightIndustrial_02_on_interior.et" {
- {
-  coords 3554.224 308.677 1848.866
-  angles -88.674 -89.33 88.453
-  {
-   LightEntity {
-    ID "6512711B1DB82A9B"
-    coords 0.007 0.007 0.554
-    angles 0.283 -180 180
-    Color 0 0.3372 0.0881 1
-    LV -3.12
-    Radius 26.4
-    SpotAngle 170
-    DistanceAttenuation 0.18
-   }
-  }
- }
- {
-  coords 3554.836 308.662 1842.955
-  angles -88.674 -89.33 88.453
-  {
-   LightEntity {
-    ID "6512711B1DB82A9B"
-    coords 0.007 0.007 0.554
-    angles 0.283 -180 180
-    Color 0 0.3372 0.0881 1
-    LV -3.12
-    Radius 26.4
-    SpotAngle 170
-    DistanceAttenuation 0.18
-   }
-  }
- }
- {
-  coords 3547.696 308.678 1842.846
-  angles -88.674 -89.33 88.453
-  {
-   LightEntity {
-    ID "6512711B1DB82A9B"
-    coords 0.007 0.007 0.554
-    angles 0.283 -180 180
-    Color 0 0.3372 0.0881 1
-    LV -3.12
-    Radius 26.4
-    SpotAngle 170
-    DistanceAttenuation 0.18
-   }
-  }
- }
-}
 GenericEntity : "{6BE5346DC96E4C96}Prefabs/Props/Civilian/PaperHolder_01/PaperHolder_01_base.et" {
  coords 1452.553 292.176 1943.751
  angles 1.008 5.703 0.105
@@ -7125,6 +7201,283 @@ $grp Tree : "{8EE4E9605D5AA167}Prefabs/Vegetation/Plant/Hedera_Helix/p_hedera_he
  {
   coords 1459.351 2.828 1947.547
   angles -0.743 -5.6 82.468
+ }
+}
+$grp GenericEntity : "{8F17372BAB5A9CF8}Prefabs/Structures/BuildingParts/Lights/LightIndustrial_02.et" {
+ {
+  components {
+   MeshObject "{5111E74D5E891458}" {
+    Materials {
+     MaterialAssignClass "{6514D9E8569D8EF6}" {
+      SourceMaterial "Glass"
+      AssignedMaterial "{FC236CB65AE3141F}Assets/Structures/BuildingsParts/Lights/LampIndustrial_01/Data/Glass_on_white.emat"
+     }
+    }
+   }
+  }
+  coords 3547.696 308.678 1842.846
+  angles -88.674 -89.33 88.453
+  {
+   LightEntity : "{3E3419B86DE31E3B}Prefabs/Structures/BuildingParts/Lights/LightPrefabs/LightIndustrial_02_light_spot_interior.et" {
+    coords -0.008 -0.052 0.12
+    LV 1.71
+    ProjectionMap "{A67B65819074C16F}Common/Textures/Light_profiles/LightIndustrial_02_Mask.edds"
+    ClipEV -10
+    Radius 6
+    SpotAngle 140
+    ShowSource 1
+    SourceSize 0.6
+    VolLightOffset 0.07
+    VolLightOffsetUp 0.03
+    VolLightIntensity 0.05
+   }
+  }
+ }
+ {
+  components {
+   MeshObject "{5111E74D5E891458}" {
+    Materials {
+     MaterialAssignClass "{6514D9E8569D8EF6}" {
+      SourceMaterial "Glass"
+      AssignedMaterial "{FC236CB65AE3141F}Assets/Structures/BuildingsParts/Lights/LampIndustrial_01/Data/Glass_on_white.emat"
+     }
+    }
+   }
+  }
+  coords 3550.239 308.566 1844.986
+  angles -88.674 -89.33 88.453
+  {
+   LightEntity : "{3E3419B86DE31E3B}Prefabs/Structures/BuildingParts/Lights/LightPrefabs/LightIndustrial_02_light_spot_interior.et" {
+    coords -0.008 -0.052 0.12
+    ProjectionMap "{A67B65819074C16F}Common/Textures/Light_profiles/LightIndustrial_02_Mask.edds"
+    ClipEV -10
+    Radius 6
+    SpotAngle 140
+    ShowSource 1
+    SourceSize 0.6
+    VolLightOffset 0.07
+    VolLightOffsetUp 0.03
+    VolLightIntensity 0.05
+   }
+  }
+ }
+ {
+  components {
+   MeshObject "{5111E74D5E891458}" {
+    Materials {
+     MaterialAssignClass "{6514D9E8569D8EF6}" {
+      SourceMaterial "Glass"
+      AssignedMaterial "{FC236CB65AE3141F}Assets/Structures/BuildingsParts/Lights/LampIndustrial_01/Data/Glass_on_white.emat"
+     }
+    }
+   }
+  }
+  coords 3550.148 308.57 1850.929
+  angles -88.674 -89.33 88.453
+  {
+   LightEntity : "{3E3419B86DE31E3B}Prefabs/Structures/BuildingParts/Lights/LightPrefabs/LightIndustrial_02_light_spot_interior.et" {
+    coords -0.008 -0.052 0.12
+    ProjectionMap "{A67B65819074C16F}Common/Textures/Light_profiles/LightIndustrial_02_Mask.edds"
+    ClipEV -10
+    Radius 6
+    SpotAngle 140
+    ShowSource 1
+    SourceSize 0.6
+    VolLightOffset 0.07
+    VolLightOffsetUp 0.03
+    VolLightIntensity 0.05
+   }
+  }
+ }
+ {
+  components {
+   MeshObject "{5111E74D5E891458}" {
+    Materials {
+     MaterialAssignClass "{6514D9E8569D8EF6}" {
+      SourceMaterial "Glass"
+      AssignedMaterial "{FC236CB65AE3141F}Assets/Structures/BuildingsParts/Lights/LampIndustrial_01/Data/Glass_on_white.emat"
+     }
+    }
+   }
+  }
+  coords 3550.416 305.451 1851.13
+  angles -88.674 -89.33 88.453
+  {
+   LightEntity : "{3E3419B86DE31E3B}Prefabs/Structures/BuildingParts/Lights/LightPrefabs/LightIndustrial_02_light_spot_interior.et" {
+    coords -0.008 -0.052 0.12
+    LV 1.86
+    ProjectionMap "{A67B65819074C16F}Common/Textures/Light_profiles/LightIndustrial_02_Mask.edds"
+    ClipEV -10
+    Radius 6
+    SpotAngle 140
+    ShowSource 1
+    SourceSize 0.6
+    VolLightOffset 0.07
+    VolLightOffsetUp 0.03
+    VolLightIntensity 0.05
+   }
+  }
+ }
+ {
+  components {
+   MeshObject "{5111E74D5E891458}" {
+    Materials {
+     MaterialAssignClass "{6514D9E8569D8EF6}" {
+      SourceMaterial "Glass"
+      AssignedMaterial "{FC236CB65AE3141F}Assets/Structures/BuildingsParts/Lights/LampIndustrial_01/Data/Glass_on_white.emat"
+     }
+    }
+   }
+  }
+  coords 3600.089 306.103 1722.529
+  angles -89.96 -5.044 0
+  {
+   LightEntity : "{3E3419B86DE31E3B}Prefabs/Structures/BuildingParts/Lights/LightPrefabs/LightIndustrial_02_light_spot_interior.et" {
+    coords -0.008 -0.052 0.12
+    Color 0 0.3324 0.0869 1
+    LV -0.86
+    ProjectionMap "{A67B65819074C16F}Common/Textures/Light_profiles/LightIndustrial_02_Mask.edds"
+    ClipEV -10
+    Radius 100
+    SpotAngle 120.34
+    DistanceAttenuation 1.7
+    ShowSource 1
+    SourceSize 0.6
+    VolLightOffset 0.07
+    VolLightOffsetUp 0.03
+    VolLightIntensity 0.05
+   }
+  }
+ }
+ {
+  components {
+   MeshObject "{5111E74D5E891458}" {
+    Materials {
+     MaterialAssignClass "{6514D9E8569D8EF6}" {
+      SourceMaterial "Glass"
+      AssignedMaterial "{FC236CB65AE3141F}Assets/Structures/BuildingsParts/Lights/LampIndustrial_01/Data/Glass_on_white.emat"
+     }
+    }
+   }
+  }
+  coords 3601.572 306.92 1700.779
+  angles -89.966 -6.241 0
+  {
+   LightEntity : "{3E3419B86DE31E3B}Prefabs/Structures/BuildingParts/Lights/LightPrefabs/LightIndustrial_02_light_spot_interior.et" {
+    coords -0.008 -0.052 0.12
+    ColorType Temperature
+    Color 1 0.2633 0 1
+    Temperature 2200
+    LV 3.71
+    ProjectionMap "{A67B65819074C16F}Common/Textures/Light_profiles/LightIndustrial_02_Mask.edds"
+    ClipEV -10
+    Radius 100
+    SpotAngle 104.1
+    DistanceAttenuation 1.76
+    ShowSource 1
+    SourceSize 0.6
+    VolLightOffset 0.07
+    VolLightOffsetUp 0.03
+    VolLightIntensity 0.05
+   }
+  }
+ }
+ {
+  components {
+   MeshObject "{5111E74D5E891458}" {
+    Materials {
+     MaterialAssignClass "{6514D9E8569D8EF6}" {
+      SourceMaterial "Glass"
+      AssignedMaterial "{FC236CB65AE3141F}Assets/Structures/BuildingsParts/Lights/LampIndustrial_01/Data/Glass_on_white.emat"
+     }
+    }
+   }
+  }
+  coords 3603.097 306.954 1680.467
+  angles -89.96 0 0
+  {
+   LightEntity : "{3E3419B86DE31E3B}Prefabs/Structures/BuildingParts/Lights/LightPrefabs/LightIndustrial_02_light_spot_interior.et" {
+    coords -0.008 -0.052 0.12
+    ColorType Temperature
+    Color 1 0.2633 0 1
+    Temperature 2200
+    LV 2.86
+    ProjectionMap "{A67B65819074C16F}Common/Textures/Light_profiles/LightIndustrial_02_Mask.edds"
+    ClipEV -10
+    Radius 100
+    SpotAngle 104.1
+    DistanceAttenuation 1.76
+    ShowSource 1
+    SourceSize 0.6
+    VolLightOffset 0.07
+    VolLightOffsetUp 0.03
+    VolLightIntensity 0.05
+   }
+  }
+ }
+ {
+  components {
+   MeshObject "{5111E74D5E891458}" {
+    Materials {
+     MaterialAssignClass "{6514D9E8569D8EF6}" {
+      SourceMaterial "Glass"
+      AssignedMaterial "{FC236CB65AE3141F}Assets/Structures/BuildingsParts/Lights/LampIndustrial_01/Data/Glass_on_white.emat"
+     }
+    }
+   }
+  }
+  coords 3608.278 306.103 1611.756
+  angles -89.96 -5.044 0
+  {
+   LightEntity : "{3E3419B86DE31E3B}Prefabs/Structures/BuildingParts/Lights/LightPrefabs/LightIndustrial_02_light_spot_interior.et" {
+    coords -0.008 -0.052 0.12
+    Color 0 0.3324 0.0869 1
+    LV 2.54
+    ProjectionMap "{A67B65819074C16F}Common/Textures/Light_profiles/LightIndustrial_02_Mask.edds"
+    ClipEV -10
+    Radius 100
+    SpotAngle 120.34
+    DistanceAttenuation 1.7
+    ShowSource 1
+    SourceSize 0.6
+    VolLightOffset 0.07
+    VolLightOffsetUp 0.03
+    VolLightIntensity 0.05
+   }
+  }
+ }
+ {
+  components {
+   MeshObject "{5111E74D5E891458}" {
+    Materials {
+     MaterialAssignClass "{6514D9E8569D8EF6}" {
+      SourceMaterial "Glass"
+      AssignedMaterial "{FC236CB65AE3141F}Assets/Structures/BuildingsParts/Lights/LampIndustrial_01/Data/Glass_on_white.emat"
+     }
+    }
+   }
+  }
+  coords 3606.62 306.92 1631.926
+  angles -89.96 -2.882 0
+  {
+   LightEntity : "{3E3419B86DE31E3B}Prefabs/Structures/BuildingParts/Lights/LightPrefabs/LightIndustrial_02_light_spot_interior.et" {
+    coords -0.008 -0.052 0.12
+    ColorType Temperature
+    Color 1 0.2633 0 1
+    Temperature 2200
+    LV 5.37
+    ProjectionMap "{A67B65819074C16F}Common/Textures/Light_profiles/LightIndustrial_02_Mask.edds"
+    ClipEV -10
+    Radius 100
+    SpotAngle 104.1
+    DistanceAttenuation 1.76
+    ShowSource 1
+    SourceSize 0.6
+    VolLightOffset 0.07
+    VolLightOffsetUp 0.03
+    VolLightIntensity 0.05
+   }
+  }
  }
 }
 GenericEntity : "{8FB2845D48F4E02A}Prefabs/Props/Furniture/TableOld_01/TableOld_01_white.et" {

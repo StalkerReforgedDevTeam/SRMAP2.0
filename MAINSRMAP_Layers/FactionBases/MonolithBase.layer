@@ -2028,6 +2028,10 @@ SCR_DestructibleBuildingEntity {
       ID "6660B1F08DB2BC1C"
       coords 22.127 2.85 0.03
      }
+     GenericEntity {
+      ID "6660B1F08DB2BC14"
+      coords -22.089 2.85 0.03
+     }
     }
    }
    {
@@ -3301,24 +3305,8 @@ $grp LightEntity : "{19E6C75FF73F5899}Prefabs/Structures/BuildingParts/Lights/La
   angles -86.687 -90 90
   ColorType Temperature
   Temperature 10000
-  LV 1.82
-  ProjectionMapMip0 10
-  ProjectionMapMipMax 10
+  LV -0.14
   Radius 14.18
-  SpotAngle 170
-  SpotAngleAttenuation 0
-  DistanceAttenuation 0.1
- }
- {
-  coords 3077.769 321.47 2632.237
-  angles -86.687 -90 90
-  ColorType Temperature
-  Temperature 10000
-  LV 1.82
-  ProjectionMapMip0 10
-  ProjectionMapMipMax 10
-  Radius 14.18
-  SpotAngle 170
   SpotAngleAttenuation 0
   DistanceAttenuation 0.1
  }
@@ -3327,11 +3315,10 @@ $grp LightEntity : "{19E6C75FF73F5899}Prefabs/Structures/BuildingParts/Lights/La
   angles -86.687 -90 90
   ColorType Temperature
   Temperature 10000
-  LV 1.82
+  LV 1
   ProjectionMapMip0 10
   ProjectionMapMipMax 10
   Radius 14.18
-  SpotAngle 170
   SpotAngleAttenuation 0
   DistanceAttenuation 0.1
  }
@@ -3367,10 +3354,7 @@ $grp LightEntity : "{19E6C75FF73F5899}Prefabs/Structures/BuildingParts/Lights/La
   ColorType Temperature
   Temperature 10000
   LV 1.82
-  ProjectionMapMip0 10
-  ProjectionMapMipMax 10
-  Radius 14.18
-  SpotAngle 120.52
+  SpotAngle 107.55
   SpotAngleAttenuation 0
   DistanceAttenuation 0.1
  }
@@ -3379,11 +3363,8 @@ $grp LightEntity : "{19E6C75FF73F5899}Prefabs/Structures/BuildingParts/Lights/La
   angles -86.687 -90 90
   ColorType Temperature
   Temperature 10000
-  LV 2.24
-  ProjectionMapMip0 10
-  ProjectionMapMipMax 10
+  LV 0.14
   NearPlane 0.01
-  SpotAngle 170
   SpotAngleAttenuation 0
   DistanceAttenuation 0.1
  }
@@ -3392,11 +3373,8 @@ $grp LightEntity : "{19E6C75FF73F5899}Prefabs/Structures/BuildingParts/Lights/La
   angles -86.687 -90 90
   ColorType Temperature
   Temperature 10000
-  LV 1.82
-  ProjectionMapMip0 10
-  ProjectionMapMipMax 10
+  LV 1
   Radius 14.18
-  SpotAngle 170
   SpotAngleAttenuation 0
   DistanceAttenuation 0.1
  }
@@ -3405,11 +3383,8 @@ $grp LightEntity : "{19E6C75FF73F5899}Prefabs/Structures/BuildingParts/Lights/La
   angles -86.687 -90 90
   ColorType Temperature
   Temperature 10000
-  LV 1.82
-  ProjectionMapMip0 10
-  ProjectionMapMipMax 10
+  LV 0.86
   Radius 14.18
-  SpotAngle 170
   SpotAngleAttenuation 0
   DistanceAttenuation 0.1
  }
@@ -3418,11 +3393,8 @@ $grp LightEntity : "{19E6C75FF73F5899}Prefabs/Structures/BuildingParts/Lights/La
   angles -86.687 -90 90
   ColorType Temperature
   Temperature 10000
-  LV 1.82
-  ProjectionMapMip0 10
-  ProjectionMapMipMax 10
+  LV 0.14
   Radius 14.18
-  SpotAngle 170
   SpotAngleAttenuation 0
   DistanceAttenuation 0.1
  }
@@ -3431,7 +3403,7 @@ $grp LightEntity : "{19E6C75FF73F5899}Prefabs/Structures/BuildingParts/Lights/La
   angles -86.687 -90 90
   ColorType Temperature
   Temperature 10000
-  LV 1.82
+  LV 0.71
   ProjectionMapMip0 10
   ProjectionMapMipMax 10
   Radius 14.18
@@ -3444,7 +3416,7 @@ $grp LightEntity : "{19E6C75FF73F5899}Prefabs/Structures/BuildingParts/Lights/La
   angles -86.687 -90 90
   ColorType Temperature
   Temperature 10000
-  LV 1.82
+  LV 0.43
   ProjectionMapMip0 10
   ProjectionMapMipMax 10
   Radius 14.18

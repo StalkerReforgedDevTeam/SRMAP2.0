@@ -359,7 +359,7 @@ $grp LightEntity {
   coords 5635.327 307 38.703
   angles -90 -41.184 0
   Color 0.3148 0.3148 0.3148 1
-  LV 7.95
+  LV 0.43
   CastShadow 0
   ClipEV -10
   Type Spot
@@ -375,7 +375,7 @@ $grp LightEntity {
   coords 5619.245 307 38.681
   angles -90 -41.184 0
   Color 1 0.7255 0.3412 1
-  LV 8
+  LV 1.29
   CastShadow 0
   ClipEV -10
   Type Spot

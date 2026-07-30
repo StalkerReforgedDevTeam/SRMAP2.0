@@ -1102,14 +1102,15 @@ $grp LightEntity {
   coords 4911.818 317.843 1672.625
   angles 89.881 174.718 -174.462
   Color 1 0.8659 0.702 1
-  LV 2
+  LV 0.29
   CastShadow 0
   ProjectionMap "{59428DD8C9FF6997}Assets/Props/Furniture/LightCeiling_01/data/LightCeiling_01_Mask.edds"
   ClipEV -10
   Type Spot
   Radius 8
   NearPlane 0.35
-  SpotAngle 150
+  SpotAngle 75.46
+  DistanceAttenuation 1.64
   Dynamic 1
   Visualization Disabled
   LensFlareType Disabled
@@ -1131,14 +1132,13 @@ $grp LightEntity {
   coords 4911.868 317.837 1678.371
   angles 89.881 174.718 -174.462
   Color 1 0.8659 0.702 1
-  LV 2
+  LV -1
   CastShadow 0
   ProjectionMap "{59428DD8C9FF6997}Assets/Props/Furniture/LightCeiling_01/data/LightCeiling_01_Mask.edds"
-  ClipEV -10
   Type Spot
   Radius 8
   NearPlane 0.35
-  SpotAngle 150
+  SpotAngle 126.63
   Dynamic 1
   Visualization Disabled
   LensFlareType Disabled
@@ -1167,7 +1167,7 @@ $grp LightEntity {
   Type Spot
   Radius 8
   NearPlane 0.35
-  SpotAngle 150
+  SpotAngle 134.44
   Dynamic 1
   Visualization Disabled
   LensFlareType Disabled
@@ -1218,7 +1218,7 @@ $grp LightEntity {
   coords 4901.348 312.565 1675.583
   angles 89.881 174.718 -174.462
   Color 1 0.8659 0.702 1
-  LV 2
+  LV 0.29
   CastShadow 0
   ProjectionMap "{59428DD8C9FF6997}Assets/Props/Furniture/LightCeiling_01/data/LightCeiling_01_Mask.edds"
   ClipEV -10
@@ -1276,7 +1276,7 @@ $grp LightEntity {
   coords 4913.238 312.434 1666.703
   angles 89.881 174.718 -174.462
   Color 1 0.8659 0.702 1
-  LV 2
+  LV 0.57
   CastShadow 0
   ProjectionMap "{59428DD8C9FF6997}Assets/Props/Furniture/LightCeiling_01/data/LightCeiling_01_Mask.edds"
   ClipEV -10
@@ -1305,7 +1305,7 @@ $grp LightEntity {
   coords 4913.558 312.43 1675.445
   angles 89.881 174.718 -174.462
   Color 1 0.8659 0.702 1
-  LV 2
+  LV 0.14
   CastShadow 0
   ProjectionMap "{59428DD8C9FF6997}Assets/Props/Furniture/LightCeiling_01/data/LightCeiling_01_Mask.edds"
   ClipEV -10
@@ -1334,7 +1334,7 @@ $grp LightEntity {
   coords 4909.32 312.477 1675.486
   angles 89.881 174.718 -174.462
   Color 1 0.8659 0.702 1
-  LV 2
+  LV -0.29
   CastShadow 0
   ProjectionMap "{59428DD8C9FF6997}Assets/Props/Furniture/LightCeiling_01/data/LightCeiling_01_Mask.edds"
   ClipEV -10
@@ -1350,7 +1350,7 @@ $grp LightEntity {
   coords 4909.321 312.477 1675.481
   angles 0.117 -10.82 -0.011
   Color 1 0.8659 0.702 1
-  LV 0.25
+  LV -1
   CastShadow 0
   ClipEV -10
   Radius 10
@@ -1363,7 +1363,7 @@ $grp LightEntity {
   coords 4897.948 317.707 1669.042
   angles 89.881 174.718 -174.462
   Color 1 0.8659 0.702 1
-  LV 2
+  LV 0.86
   CastShadow 0
   ProjectionMap "{59428DD8C9FF6997}Assets/Props/Furniture/LightCeiling_01/data/LightCeiling_01_Mask.edds"
   ClipEV -10
@@ -1392,7 +1392,7 @@ $grp LightEntity {
   coords 4897.878 317.407 1664.536
   angles 89.881 174.718 -174.462
   Color 1 0.8659 0.702 1
-  LV 2
+  LV 0.43
   CastShadow 0
   ProjectionMap "{59428DD8C9FF6997}Assets/Props/Furniture/LightCeiling_01/data/LightCeiling_01_Mask.edds"
   ClipEV -10
@@ -1421,7 +1421,7 @@ $grp LightEntity {
   coords 4900.034 317.583 1682.849
   angles 89.881 174.718 -174.462
   Color 1 0.8659 0.702 1
-  LV 2
+  LV -1.43
   CastShadow 0
   ProjectionMap "{59428DD8C9FF6997}Assets/Props/Furniture/LightCeiling_01/data/LightCeiling_01_Mask.edds"
   ClipEV -10
@@ -1435,14 +1435,11 @@ $grp LightEntity {
  }
  LightAmbient14 {
   coords 4900.035 317.583 1682.848
-  angles 0.117 -10.82 -0.011
+  angles 0.117 -10.82 31.912
   Color 1 0.8659 0.702 1
-  LV 0.25
+  LV 1.86
   CastShadow 0
-  ClipEV -10
-  Radius 10
-  NearPlane 0.45
-  DistanceAttenuation 0.8
+  Radius 21.94
   Dynamic 1
   Visualization Disabled
  }
@@ -1450,7 +1447,7 @@ $grp LightEntity {
   coords 4899.963 317.897 1676.707
   angles 89.881 174.718 -174.462
   Color 1 0.8659 0.702 1
-  LV 2
+  LV 0.29
   CastShadow 0
   ProjectionMap "{59428DD8C9FF6997}Assets/Props/Furniture/LightCeiling_01/data/LightCeiling_01_Mask.edds"
   ClipEV -10
@@ -1479,15 +1476,10 @@ $grp LightEntity {
   coords 4899.923 317.967 1673.705
   angles 89.881 174.718 -174.462
   Color 1 0.8659 0.702 1
-  LV 2
+  LV 0.29
   CastShadow 0
   ProjectionMap "{59428DD8C9FF6997}Assets/Props/Furniture/LightCeiling_01/data/LightCeiling_01_Mask.edds"
-  ClipEV -10
   Type Spot
-  Radius 8
-  NearPlane 0.35
-  SpotAngle 150
-  Dynamic 1
   Visualization Disabled
   LensFlareType Disabled
  }
@@ -1505,10 +1497,10 @@ $grp LightEntity {
   Visualization Disabled
  }
  LightUp17 {
-  coords 4904.117 312.534 1666.758
+  coords 4904.184 312.534 1666.771
   angles 89.881 174.718 -174.462
   Color 1 0.8659 0.702 1
-  LV 2
+  LV 0.71
   CastShadow 0
   ProjectionMap "{59428DD8C9FF6997}Assets/Props/Furniture/LightCeiling_01/data/LightCeiling_01_Mask.edds"
   ClipEV -10
@@ -1537,7 +1529,7 @@ $grp LightEntity {
   coords 4911.998 319.137 1686.56
   angles 89.881 174.718 -174.462
   Color 1 0.8659 0.702 1
-  LV 2
+  LV 0.14
   CastShadow 0
   ProjectionMap "{59428DD8C9FF6997}Assets/Props/Furniture/LightCeiling_01/data/LightCeiling_01_Mask.edds"
   ClipEV -10
@@ -3256,7 +3248,7 @@ SCR_DestructibleBuildingEntity {
            ID "5990CE56D1255F77"
            ColorType Temperature
            Temperature 2100
-           LV 2.89
+           LV 1.43
            Radius 18.69
            SpotAngle 146.82
            DistanceAttenuation 0.73
@@ -6458,9 +6450,8 @@ $grp LightEntity : "{94E574957C0BA1FD}Prefabs/lights/LampStreet_E_03_light.et" {
  {
   coords 4906.49 322.911 1681.203
   angles -40.252 -176.35 178.73
-  ColorType Temperature
   Temperature 1000
-  LV 3.14
+  LV 0.86
   NearPlane 0.01
   SpotAngle 153.52
   DistanceAttenuation 1.27
@@ -6468,11 +6459,9 @@ $grp LightEntity : "{94E574957C0BA1FD}Prefabs/lights/LampStreet_E_03_light.et" {
  {
   coords 4902.551 317.494 1682.55
   angles -46.376 1.812 1.405
-  ColorType Temperature
   Temperature 1000
-  LV 3.14
+  LV 0.57
   NearPlane 0.01
-  SpotAngle 153.52
   DistanceAttenuation 1.27
  }
 }
@@ -8109,7 +8098,7 @@ $grp GameEntity : "{E7FD0B8019E96F73}Prefabs/Structures/BuildingParts/Lights/Lam
     angles -27.154 3.672 2.27
     ColorType Temperature
     Temperature 2200
-    LV 8.36
+    LV 6.29
     Radius 76.97
     NearPlane 0.01
     DistanceAttenuation 2.01
@@ -8125,7 +8114,7 @@ $grp GameEntity : "{E7FD0B8019E96F73}Prefabs/Structures/BuildingParts/Lights/Lam
     angles -27.154 3.672 2.27
     ColorType Temperature
     Temperature 2100
-    LV 8.2
+    LV 6.71
     Radius 80.34
     NearPlane 0.01
     SpotAngle 120.34
@@ -8158,7 +8147,7 @@ $grp GameEntity : "{E7FD0B8019E96F73}Prefabs/Structures/BuildingParts/Lights/Lam
     angles -27.154 3.672 2.27
     ColorType Temperature
     Temperature 2100
-    LV 9.3
+    LV 6.29
     Radius 70.79
     NearPlane 0.01
     DistanceAttenuation 2.3
@@ -8172,9 +8161,8 @@ $grp GameEntity : "{E7FD0B8019E96F73}Prefabs/Structures/BuildingParts/Lights/Lam
    LightEntity : "{94E574957C0BA1FD}Prefabs/lights/LampStreet_E_03_light.et" {
     coords 0.004 0.026 0.604
     angles -27.154 3.672 2.27
-    ColorType Temperature
     Temperature 1000
-    LV 8.2
+    LV 4.57
     Radius 80.34
     NearPlane 0.01
     SpotAngle 120.34
