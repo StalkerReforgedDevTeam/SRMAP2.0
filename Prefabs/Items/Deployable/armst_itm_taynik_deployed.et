@@ -3,11 +3,16 @@ GenericEntity : "{10C26F96EF7A8CF5}Prefabs/Props/Core/Props_Base.et" {
  components {
   SCR_UniversalInventoryStorageComponent "{658F779C6CCE136E}" {
    Attributes SCR_ItemAttributeCollection "{658F779C6CCE136F}" {
+    ItemDisplayName UIInfo "{658F779C6CCE1368}" {
+     Name "Stash Bag"
+    }
     m_Size SLOT_2x2
-    m_iCustomGridHeight 100
+    m_iCustomGridWidth 15
+    m_iCustomGridHeight 200
    }
    UseVirtualInventoryReplication 0
-   m_iGridRows 100
+   m_iGridColumns 15
+   m_iGridRows 200
   }
  }
 }
