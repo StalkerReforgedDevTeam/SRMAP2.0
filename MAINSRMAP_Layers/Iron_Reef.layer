@@ -327,10 +327,6 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_SpawnChanceArtefacts 15.82
  }
 }
-GameEntity : "{764D801CA90A48AD}Prefabs/Props/Military/AmmoBoxes/AmmoBox_M229_Hydra/AmmoBox_M229_Hydra.et" {
- coords 2548.079 298.112 2948.239
- angles -3.654 -53.697 10.03
-}
 SCR_DestructibleBuildingEntity : "{777E80AFDC98395B}Prefabs/Props/Wrecks/ShipWreckMetal_02/ShipWreckMetal_02_base.et" {
  components {
   MeshObject "{5872F0EB7FA40561}" {
@@ -484,10 +480,6 @@ $grp GenericEntity : "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_0
   coords 2566.018 301.375 3099.434
   angles -24.634 -155.598 169.724
  }
-}
-GenericEntity : "{E2B01D303DD412D7}Prefabs/Props/Military/AmmoBoxes/AmmoBox_P150_Hydra_Container_US/AmmoBox_P150_Hydra_Container_Pallet_US.et" {
- coords 2548.921 297.909 2949.722
- angles -4.466 0.07 -11.078
 }
 StaticModelEntity : "{E4839DA6A7069645}Prefabs/Props/Wrecks/ShipWreckMetal_01/ShipWreckMetal_01_Ruin_base.et" {
  coords 2439.412 298.039 2883.883

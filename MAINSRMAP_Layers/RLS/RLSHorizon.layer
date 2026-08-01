@@ -404,23 +404,6 @@ $grp GenericEntity : "{026714237FB820CB}Prefabs/Props/Garbage/Cardboard/Cardboar
   coords 3729.101 308.225 2683.849
  }
 }
-$grp GenericEntity : "{036A2332E131AE05}Prefabs/Props/Military/AmmoBoxes/AmmoBox_762x54_440rnd.et" {
- {
-  coords 3670.059 307.606 2702.958
-  angles 0 -45.375 0
- }
- {
-  coords 3670.171 307.606 2703.12
-  angles 0 -61.204 0
- }
- {
-  coords 3679.639 309.549 2700.154
- }
- {
-  coords 3679.605 309.549 2699.739
-  angles 0 80.388 0
- }
-}
 GenericEntity : "{073BE164ACAF1585}Prefabs/Method/Props/Interior/shelves_1_int_2.et" {
  coords 3702.631 307.146 2645.438
  angles 0 -77.826 0
@@ -546,10 +529,6 @@ $grp GenericEntity : "{109298CF4D0BBA2F}Prefabs/books/book_6.et" {
   angles 0.116 91.217 127.222
  }
 }
-GenericEntity : "{124DC29CA359557C}Prefabs/Props/Military/CargoContainers/CargoContainer_01_10ft_USSR_ammo.et" {
- coords 3679.473 307.485 2693.548
- angles 0 105 0
-}
 GenericEntity : "{1284F9C5D25E263E}Prefabs/Props/Crates/CardboardBox/CardboardBox_01.et" {
  coords 3682.726 307.869 2704.596
  angles 0 -75 0
@@ -609,10 +588,6 @@ GenericEntity : "{18F813A340960F21}PrefabLibrary/CainLibrary/Props/Garbage/Concr
 GenericEntity : "{1B0EF617897326C3}Prefabs/Props/Military/Sandbags/Dst/Sandbag_01_single_dst_base.et" {
  coords 3681.101 310.061 2713.255
  angles 0 -116.181 0
-}
-GenericEntity : "{1BBC135B17B2FEB3}Prefabs/Props/Military/CargoContainers/CargoContainer_01_20ft_US_ammo.et" {
- coords 3677.299 307.485 2691.579
- angles 0 -75 0
 }
 $grp DecalEntity : "{1DC3A792132D86CB}Prefabs/Decals/Blood/BloodStain_Large_02.et" {
  {
@@ -959,35 +934,6 @@ $grp GenericEntity : "{2887E99075B9C928}Prefabs/Props/Garbage/Generic/Litter_01_
   coords 3697.583 313.236 2628.892
  }
 }
-$grp GameEntity : "{2B9AACC23536D1DA}Prefabs/Props/Military/AmmoBoxes/AmmoBox_S8_Rocket_USSR/AmmoBox_S8_Rocket_USSR_base.et" {
- {
-  components {
-   SignalsManagerComponent "{62B06A39A6AC50EF}" {
-    Enabled 0
-   }
-  }
-  coords 3667.484 307.485 2691.793
-  angles 0 13.667 0
- }
- {
-  components {
-   SignalsManagerComponent "{62B06A39A6AC50EF}" {
-    Enabled 0
-   }
-  }
-  coords 3667.527 307.485 2692.217
-  angles 0 11.021 0
- }
- {
-  components {
-   SignalsManagerComponent "{62B06A39A6AC50EF}" {
-    Enabled 0
-   }
-  }
-  coords 3667.468 307.819 2691.795
-  angles 0 10.248 0
- }
-}
 GenericEntity : "{2B9FF4A1A67718EC}Prefabs/Method/Props/Interior/shelves_2_int_1.et" {
  coords 3676.281 307.435 2693.588
  angles 0 16.536 0
@@ -1047,10 +993,6 @@ $grp GenericEntity : "{326E60F7A7358EDA}Prefabs/Props/Crates/CrateWooden_01_blue
   coords 3695.616 307.146 2632.892
   angles 0 64.556 0
  }
-}
-GenericEntity : "{327D78BF4BE961CD}Prefabs/Props/Military/AmmoBoxes/AmmoBox_P150_Hydra_Container_US/AmmoBox_P150_Hydra_Container_US_base.et" {
- coords 3667.77 308.573 2693.301
- angles 0 -90.766 0
 }
 $grp DecalEntity : "{32D707B931FD52FE}Prefabs/Decals/Blood/BloodStain_Wall_01.et" {
  {
@@ -1134,10 +1076,6 @@ GenericEntity : "{3619812B192CCAE9}Prefabs/Props/Core/Wreck_Base.et" {
 GenericEntity : "{37E1D83754A9B58D}Prefabs/Props/Garbage/Cardboard/Cardboard_03.et" {
  coords 3713.754 313.236 2647.286
  angles 0 -91.582 0
-}
-GameEntity : "{381BE1AB407447DC}Prefabs/Props/Military/AmmoBoxes/AmmoBox_M229_Hydra/AmmoBox_M229_Hydra_base.et" {
- coords 3680.259 307.485 2701.968
- angles 0 -75.362 0
 }
 GenericEntity : "{38B9806645C36B9E}Prefabs/Vehicles/kamaz/armst_kamaz_green_wreck.et" {
  coords 3690.891 307.046 2642.548
@@ -1294,20 +1232,6 @@ GenericEntity : "{3DB0E17F21A90DD4}Prefabs/Props/Garbage/Generic/LitterInterior_
 GenericEntity : "{476EBA1E8B1CAA05}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/FIA/EquipmentBoxStack_FIA_01_V3.et" {
  coords 3697.611 307.146 2641.102
  angles 0 12.325 0
-}
-$grp GenericEntity : "{47A2F2F3C8FAACD5}Prefabs/Props/Military/Camps/PalletAmmo_01_Soviet.et" {
- {
-  coords 3670.399 307.485 2704.526
-  angles 0 19.527 0
- }
- {
-  coords 3670.377 308.41 2704.534
-  angles 0 13.566 0
- }
- {
-  coords 3669.828 308.368 2690.507
-  angles 0 -61.596 0
- }
 }
 GenericEntity : "{47CBC0411AB397C2}Prefabs/Method/Props/Interior/shelves_2_int_2.et" {
  coords 3669.581 307.485 2701.166
@@ -2269,10 +2193,6 @@ GenericEntity : "{890EE5FB23BA713E}Prefabs/Props/Military/AmmoBoxes/EquipmentBox
  coords 3716.297 313.236 2646.835
  angles 0 -169.898 0
 }
-GenericEntity : "{892D59073561FCA6}Prefabs/Props/Military/CargoContainers/CargoContainer_01_10ft_US_ammo.et" {
- coords 3683.065 307.485 2733.254
- angles 0 -165 0
-}
 GenericEntity : "{89C8FE8EFA6BD72D}Prefabs/Props/VehicleParts/Doors/Door_Ural4320_Camo_R1.et" {
  coords 3680.507 307.481 2702.78
  angles 4.262 -76.855 0
@@ -2329,20 +2249,6 @@ GenericEntity : "{944594496FA41CBD}Prefabs/Props/Commercial/Posters/Notice_A4_Ve
 GenericEntity : "{96CE035C598E08A6}Prefabs/Trash/Cardboard/Cardboard_Pile_03.et" {
  coords 3675.118 310.052 2689.839
  angles 0 -52.345 0
-}
-$grp GenericEntity : "{9767C0C18394F4DB}Prefabs/Props/Military/AmmoBoxes/AmmoBox_P150_Hydra_Container_US/AmmoBox_P150_Hydra_Container_US.et" {
- {
-  coords 3682.01 309.066 2703.399
-  angles 0 5.605 0
- }
- {
-  coords 3681.54 309.066 2703.49
-  angles 0 12.804 0
- }
- {
-  coords 3681.204 309.066 2703.58
-  angles 0 12.804 0
- }
 }
 $grp GenericEntity : "{97F66B80110534BD}Prefabs/Props/Furniture/Rack_02_base.et" {
  {
@@ -6141,10 +6047,6 @@ GenericEntity : "{AD92C45B56130D08}PrefabLibrary/DefaultLibrary/Props/Shop/Crate
  coords 3719.294 307.755 2691.295
  angles 0 -103.812 0
 }
-GenericEntity : "{AE0FFC699F429214}Prefabs/Props/Military/Camps/PalletAmmo_01_US.et" {
- coords 3669.839 307.485 2690.503
- angles 0 16.798 0
-}
 GenericEntity : "{B2ACD1E4F87BC9B0}Prefabs/Structures/Signs/Military/SignCheckpoint_01_base.et" {
  components {
   MeshObject "{54969A6AAAADA251}" {
@@ -6590,16 +6492,6 @@ $grp GenericEntity : "{DF3EF41CE4D441DE}Prefabs/Props/Industrial/BarrelMetal_01_
 GenericEntity : "{E28A1732DA84AD7A}Prefabs/Trash/Food/GarbageFoodMilitaryUS_01.et" {
  coords 3675.319 308.251 2713.36
 }
-$grp GenericEntity : "{E2B01D303DD412D7}Prefabs/Props/Military/AmmoBoxes/AmmoBox_P150_Hydra_Container_US/AmmoBox_P150_Hydra_Container_Pallet_US.et" {
- {
-  coords 3667.313 307.485 2691.108
-  angles 0 -79.719 0
- }
- {
-  coords 3667.767 307.485 2693.333
-  angles 0 -72.881 0
- }
-}
 $grp GenericEntity : "{E4416C4C6938BEEE}Prefabs/Props/Crates/CrateWooden_02/CrateWooden_02_1x1x1.et" {
  {
   coords 3680.424 310.05 2693.6
@@ -6633,24 +6525,6 @@ $grp GenericEntity : "{E4416C4C6938BEEE}Prefabs/Props/Crates/CrateWooden_02/Crat
 GenericEntity : "{E4A22C9C10769063}Prefabs/Vehicles/gaz71/BASE_gaz71.et" {
  coords 3636.499 307.116 2601.239
  angles -0.272 -163.355 4.072
-}
-$grp GenericEntity : "{E521AEA6D14589B1}Prefabs/Props/Military/AmmoBoxes/AmmoBox_545x39_2160rnd.et" {
- {
-  coords 3670.378 307.606 2703.442
-  angles 0 -21.482 0
- }
- {
-  coords 3681.555 307.87 2701.997
-  angles 0 90 0
- }
- {
-  coords 3681.543 307.87 2701.356
-  angles 0 90 0
- }
- {
-  coords 3681.555 308.02 2701.684
-  angles 0 90 0
- }
 }
 $grp GenericEntity : "{E546356D4797342F}Prefabs/Props/Garbage/Medical/GarbageMedicalUS_01.et" {
  {

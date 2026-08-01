@@ -3776,44 +3776,6 @@ GenericEntity : "{6E9190BC2713551D}Prefabs/Compositions/Slotted/BuildableComposi
    coords -1.762 0 2.203
    angles 0 -26.345 0
   }
-  $grp GenericEntity : "{036A2332E131AE05}Prefabs/Props/Military/AmmoBoxes/AmmoBox_762x54_440rnd.et" {
-   {
-    components {
-     Hierarchy "{5CCCBEF31A4BF109}" {
-      Enabled 1
-     }
-    }
-    coords -1.494 0 2.243
-    angles 0 177.43 0
-   }
-   {
-    components {
-     Hierarchy "{5CCCBEF31A4FD040}" {
-      Enabled 1
-     }
-    }
-    coords -3.598 0 2.299
-    angles 0 -91.692 0
-   }
-   {
-    components {
-     Hierarchy "{5CCCBEF31A53A9CE}" {
-      Enabled 1
-     }
-    }
-    coords -3.663 0 2.05
-    angles 0 -58.646 0
-   }
-   {
-    components {
-     Hierarchy "{5CCCBEF31A57847F}" {
-      Enabled 1
-     }
-    }
-    coords -3.318 0 2.508
-    angles 0 -17.784 0
-   }
-  }
   GenericEntity : "{1AC1F28A21804631}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Wall_Sign_USSR_01.et" {
    coords 2.893 0 -4.117
    angles 0 -180 0
