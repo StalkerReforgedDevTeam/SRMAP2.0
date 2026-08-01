@@ -1,4 +1,4 @@
-enum SR_STALKER_RANK 
+enum SR_STALKER_RANK
 {
 	ROOKIE,
 	EXPERIENCED,
@@ -18,30 +18,27 @@ modded class ARMST_PLAYER_STATS_COMPONENT : ScriptComponent
 	//------------------------------------------------------------------------------------------------
 	SR_STALKER_RANK SR_GetRank()
 	{
-		PrintFormat("[SR Ranks] Player rank SR_GetRank is: %1", m_eSRCurrentRank, LogLevel.NORMAL);
 		return m_eSRCurrentRank;
 	}
 
 	//------------------------------------------------------------------------------------------------
 	void SR_SetRank(SR_STALKER_RANK newRank)
 	{
-
 		m_eSRCurrentRank = newRank;
 		Replication.BumpMe();
-		PrintFormat("[SR Ranks] Player rank SR_SetRank is: %1 | newRank is %2", m_eSRCurrentRank, newRank, LogLevel.NORMAL);	
 		SR_OnRankChanged();
 	}
 
 	//------------------------------------------------------------------------------------------------
 	protected void SR_OnRankChanged()
 	{
-		Print(string.Format("[SR Ranks] Player rank synchronized: %1", m_eSRCurrentRank.ToString()));
+		// Intentionally silent - was spamming logs on every replication update
 	}
-	
+
 	// Replicate the rank across the network
 	[RplRpc(RplChannel.Reliable, RplRcver.Server)]
 	void Rpc_SR_SetRank(SR_STALKER_RANK value)
 	{
 		SR_SetRank(value);
 	}
-} 	
+}
