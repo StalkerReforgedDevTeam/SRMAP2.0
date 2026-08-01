@@ -1897,10 +1897,6 @@ $grp GenericEntity : "{D7F69BF7D2DCA0A8}Prefabs/Props/Industrial/Pallets/Pallet_
   angles 0 19.975 0
  }
 }
-GenericEntity : "{E521AEA6D14589B1}Prefabs/Props/Military/AmmoBoxes/AmmoBox_545x39_2160rnd.et" {
- coords 3313.345 305.047 2918.474
- angles 0 170.808 0
-}
 $grp SCR_DestructibleEntity : "{FD30015A0617911F}Prefabs/Structures/Infrastructure/Piping/DieselPipe_01_connector_low_high_cnc.et" {
  {
   coords 3293.427 301.02 2949.52

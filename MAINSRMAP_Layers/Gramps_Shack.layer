@@ -2520,16 +2520,6 @@ GenericEntity : "{0313F66EF980717A}Prefabs/Trash/Kurtka/kurtka_vesh_2_black.et" 
  coords 1472.83 296.244 1771.9
  angles -1.377 -165.34 -0.363
 }
-$grp GenericEntity : "{036A2332E131AE05}Prefabs/Props/Military/AmmoBoxes/AmmoBox_762x54_440rnd.et" {
- {
-  coords 1469.835 292.857 1769.492
-  angles 0 -147.101 0
- }
- {
-  coords 1470.236 293.004 1769.544
-  angles 0 -0.438 0
- }
-}
 GenericEntity : "{03DE957D8161212B}Prefabs/Props/Civilian/Notebook_01_Open.et" {
  coords 1471.699 292.871 1770.244
  angles 0 180 0
@@ -3182,10 +3172,6 @@ $grp Tree : "{5D765B912A33A615}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_s
   angles 1.132 -49.451 -0.843
   scale 0.613
  }
-}
-GenericEntity : "{5DD9020BE477CB9C}Prefabs/Props/Military/AmmoBoxes/AmmoBox_545x39_1080rnd.et" {
- coords 1469.46 292.389 1769.28
- angles 0 -95.456 0
 }
 GenericEntity : "{5E7626D8E78566B4}Prefabs/Props/Furniture/Desk_01_long.et" {
  coords 1467.294 291.717 1793.598
@@ -4054,16 +4040,6 @@ GenericEntity : "{DD276F73BF101155}Prefabs/Props/Civilian/Heater_01/Heater_01_or
 Tree : "{DDE3E01CB952BF9E}Prefabs/Vegetation/Plant/Hedera_Helix/p_hedera_helix_corner_02.et" {
  coords 1475.886 1.204 1767.54
  angles 0 -1.174 0
-}
-$grp GenericEntity : "{E521AEA6D14589B1}Prefabs/Props/Military/AmmoBoxes/AmmoBox_545x39_2160rnd.et" {
- {
-  coords 1469.178 292.573 1769.513
-  angles -0.002 -16.907 -0.01
- }
- {
-  coords 1470.249 292.85 1769.55
-  angles 0 18.363 0
- }
 }
 GenericEntity : "{E5DDF083958FE23C}Prefabs/Posuda/posuda_8.et" {
  coords 1475.008 292.893 1768.547

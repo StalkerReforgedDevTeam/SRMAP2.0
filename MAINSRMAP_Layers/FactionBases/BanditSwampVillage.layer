@@ -2014,44 +2014,6 @@ $grp SCR_DestructibleBuildingEntity {
 Armst_Monster_Character : "{02CB07CF03B77AAF}Prefabs/Monsters/Characters/Elementals/Electro/armst_electro_elemental.et" {
  coords 1951.495 294.343 828.349
 }
-$grp GenericEntity : "{036A2332E131AE05}Prefabs/Props/Military/AmmoBoxes/AmmoBox_762x54_440rnd.et" {
- {
-  components {
-   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
-    Enabled 0
-   }
-   ActionsManagerComponent "{5476B36C403D4CC0}" {
-    Enabled 0
-   }
-  }
-  coords 1455.604 295.597 1934.215
-  angles 0.188 -79.535 -0.996
- }
- {
-  components {
-   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
-    Enabled 0
-   }
-   ActionsManagerComponent "{5476B36C403D4CC0}" {
-    Enabled 0
-   }
-  }
-  coords 1455.494 295.497 1934.254
-  angles -0.919 -155.226 -0.429
- }
- {
-  components {
-   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
-    Enabled 0
-   }
-   ActionsManagerComponent "{5476B36C403D4CC0}" {
-    Enabled 0
-   }
-  }
-  coords 1455.722 295.497 1934.286
-  angles -1.011 175.461 0.076
- }
-}
 $grp Tree : "{054B89DDC0DBA1C2}Prefabs/Vegetation/Plant/Hedera_Helix/p_hedera_helix_corner_04.et" {
  {
   coords 1457.55 3.549 1940.664
@@ -2069,18 +2031,6 @@ $grp Tree : "{054B89DDC0DBA1C2}Prefabs/Vegetation/Plant/Hedera_Helix/p_hedera_he
 GenericEntity : "{07D5C7C755C719BE}Prefabs/Props/Garbage/Generic/Junk_01/Junk_01_pile_medium.et" {
  coords 1449.54 291.291 1958.396
  angles 0 4.08 0
-}
-GenericEntity : "{092FE092D6DF1EB3}Prefabs/Props/Military/AmmoBoxes/AmmoBox_556x45_1680rnd.et" {
- components {
-  SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
-   Enabled 0
-  }
-  ActionsManagerComponent "{5476B36C403D4CC0}" {
-   Enabled 0
-  }
- }
- coords 1455.595 296.383 1934.259
- angles 0.141 81.753 1.004
 }
 SCR_ChimeraCharacter : "{0A4A6D3C626CB7C7}Prefabs/QUESTS/SRFACTIONS/Admin/FENCE_VENDOR.et" {
  coords 2986.685 305.259 2911.723
@@ -8144,18 +8094,6 @@ $grp GenericEntity : "{E2B42E634BC002F4}worlds/ScenarioFramework/CustomPrefabs/B
 GenericEntity : "{E3AA766C8F684F86}Prefabs/beds/matrass_5.et" {
  coords 1458.29 295.529 1930.956
  angles 1.568 84.879 -1.222
-}
-GenericEntity : "{E521AEA6D14589B1}Prefabs/Props/Military/AmmoBoxes/AmmoBox_545x39_2160rnd.et" {
- components {
-  SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
-   Enabled 0
-  }
-  ActionsManagerComponent "{5476B36C403D4CC0}" {
-   Enabled 0
-  }
- }
- coords 1455.69 295.941 1934.261
- angles 0.992 -12.292 -0.212
 }
 SCR_ChimeraCharacter : "{EC0F8FDB1F5AB7C5}Prefabs/QUESTS/SRFACTIONS/FREEDOM_VENDOR.et" {
  coords 3556.31 305.774 1839.245

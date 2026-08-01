@@ -3215,10 +3215,6 @@ $grp SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core
      angles -2.961 -47.537 1.946
     }
    }
-   GenericEntity : "{036A2332E131AE05}Prefabs/Props/Military/AmmoBoxes/AmmoBox_762x54_440rnd.et" {
-    coords 9.563 4.636 4.084
-    angles -0.023 -47.836 -0.02
-   }
    GenericEntity : "{07848CA53FAD246B}Prefabs/Structures/BuildingParts/Doors/DoorSet_Metal_02_R_INT_COV_B.et" {
     components {
      Hierarchy "{612AE78C85563E26}" {
@@ -8411,10 +8407,6 @@ $grp SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core
      coords 0 0 0
     }
    }
-   GameEntity : "{764D801CA90A48AD}Prefabs/Props/Military/AmmoBoxes/AmmoBox_M229_Hydra/AmmoBox_M229_Hydra.et" {
-    coords 12.619 4.323 4.022
-    angles 0 7.059 0
-   }
    $grp GenericEntity : "{81629CC060EFF293}Prefabs/Structures/BuildingParts/Heating/RadiatorCastIron_01/RadiatorCastIron_01_130.et" {
     {
      components {
@@ -9590,10 +9582,6 @@ $grp SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core
    GenericEntity : "{E4416C4C6938BEEE}Prefabs/Props/Crates/CrateWooden_02/CrateWooden_02_1x1x1.et" {
     coords 7.796 4.323 1.789
     angles 0 9.215 0
-   }
-   GenericEntity : "{E521AEA6D14589B1}Prefabs/Props/Military/AmmoBoxes/AmmoBox_545x39_2160rnd.et" {
-    coords 9.926 5.323 1.854
-    angles 0 -131.882 0
    }
    $grp GameEntity : "{E7FD0B8019E96F73}Prefabs/Structures/BuildingParts/Lights/LampTower_01.et" {
     {

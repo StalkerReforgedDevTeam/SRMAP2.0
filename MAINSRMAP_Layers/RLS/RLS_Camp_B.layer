@@ -5323,11 +5323,6 @@ StaticModelEntity : "{5255F7BE946E153F}Prefabs/Structures/Walls/Concrete/SilageW
  angles 6.161 -81.169 0.218
  scale 0.648
 }
-GenericEntity : "{542995995488B456}Prefabs/Structures/Military/CamoNets/Soviet/CamoNet_AmmoCache_Soviet.et" {
- coords 3862.782 324.386 2607.042
- angles 0 -75.361 0
- scale 2.78
-}
 $grp GenericEntity : "{550F8F2E909797FD}Prefabs/Structures/Infrastructure/Naval/Piers/PierCover_05.et" {
  {
   coords 3867.735 320.142 2605.075
@@ -5343,10 +5338,6 @@ $grp GenericEntity : "{550F8F2E909797FD}Prefabs/Structures/Infrastructure/Naval/
 GenericEntity : "{58195412A5EB24B0}Prefabs/Props/Signs/Industrial/SignIndustrial_30x20_1_NoEntry.et" {
  coords 3866.372 307.058 2612.541
  angles 87.12 -37.882 0
-}
-GenericEntity : "{5DD9020BE477CB9C}Prefabs/Props/Military/AmmoBoxes/AmmoBox_545x39_1080rnd.et" {
- coords 3860.79 323.436 2605.308
- angles -7.989 160.452 -8.552
 }
 GenericEntity : "{6220F5D951A6F92B}Prefabs/Staff/box_wooden_small.et" {
  coords 3860.33 319.169 2605.932
@@ -5381,10 +5372,6 @@ GenericEntity : "{7E47033728884167}Prefabs/Structures/Debris/ConcreteDebris_01/C
 GenericEntity : "{7E9186C892E9F07F}Prefabs/Props/Garbage/Cardboard/Cardboard_01.et" {
  coords 3864.871 319.013 2595.383
  angles 0 -77.354 0
-}
-GenericEntity : "{7F9923063FBB628B}Prefabs/Props/Military/AmmoBoxes/AmmoBox_762x51_200rnd.et" {
- coords 3860.842 323.418 2606.939
- angles 6.208 7.555 -2.809
 }
 GenericEntity : "{8599EE1DF5685104}Prefabs/Props/Garbage/Generic/LitterInterior_01/Single/LitterInterior_USSR_01_tincan_V2.et" {
  coords 3862.119 319.485 2602.271

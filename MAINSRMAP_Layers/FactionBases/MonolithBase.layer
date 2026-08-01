@@ -3561,16 +3561,6 @@ GenericEntity : "{59A5AEA081FA2BD0}Prefabs/Trash/ground_plane/clothes/plane_tras
  angles 0 48.343 0
  scale 0.4
 }
-$grp GenericEntity : "{5DD9020BE477CB9C}Prefabs/Props/Military/AmmoBoxes/AmmoBox_545x39_1080rnd.et" {
- {
-  coords 3092.841 320.374 2644.183
-  angles 0 49.382 0
- }
- {
-  coords 3093.569 320.374 2638.594
-  angles 0 -40.409 0
- }
-}
 GenericEntity : "{6511EA5E7DD4C149}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/Dst/CrateStack_01_Dst_3_base.et" {
  coords 3081.219 318.712 2640.962
  angles 0 46.963 0
@@ -3611,16 +3601,6 @@ GenericEntity Watch_SandY184A_Map_69AF590FD777C735 : "{6ECDF523E1035A0F}Prefabs/
 GenericEntity : "{70079E77310CA07C}Prefabs/Trash/ground_plane/clothes/plane_trash_3_clothes.et" {
  coords 3077.807 318.712 2634.194
  angles 0 -44.288 0
-}
-$grp GenericEntity : "{7007B975BEC018D9}Prefabs/Props/Military/AmmoBoxes/AmmoBox_50cal_100rnd.et" {
- {
-  coords 3092.584 320.374 2643.92
-  angles 0 -42.606 0
- }
- {
-  coords 3093.831 320.374 2638.336
-  angles 0 -132.397 0
- }
 }
 GenericEntity : "{716067D391D69654}Prefabs/posters/Poster_12.et" {
  coords 3089.237 319.949 2645.035

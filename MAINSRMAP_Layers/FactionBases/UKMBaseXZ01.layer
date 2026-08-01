@@ -1124,16 +1124,6 @@ SplineShapeEntity {
   }
  }
 }
-$grp GenericEntity : "{036A2332E131AE05}Prefabs/Props/Military/AmmoBoxes/AmmoBox_762x54_440rnd.et" {
- {
-  coords 3784.524 316.459 404.306
-  angles -2.681 60.414 3.091
- }
- {
-  coords 3784.626 316.461 404.622
-  angles -3.23 143.641 -1.967
- }
-}
 GenericEntity : "{071022744E1B01BB}Prefabs/Props/Signs/Industrial/SignIndustrial_USSR_02_warnings_unstableground.et" {
  coords 3881.012 308.185 305.499
  angles 0 90 0
@@ -1153,10 +1143,6 @@ GameEntity : "{103CBF9E0B0BC124}Prefabs/Props/Military/Generators/GeneratorMilit
 GenericEntity : "{1112756E8A13445B}Prefabs/Props/Industrial/Pallets/Pallet_01_Pile.et" {
  coords 3821.332 306.702 369.104
  angles 0 -93.571 0
-}
-GenericEntity : "{124DC29CA359557C}Prefabs/Props/Military/CargoContainers/CargoContainer_01_10ft_USSR_ammo.et" {
- coords 3868.934 306.702 314.319
- angles 0 -90.333 0
 }
 $grp StaticModelEntity : "{1718E28BE8D121A9}Prefabs/Structures/BuildingParts/Doors/DoorSet_MetalGate_04_Big.et" {
  {
@@ -1392,9 +1378,6 @@ GameEntity : "{1807CFEB6C458DF1}Prefabs/Structures/BuildingParts/Ladders/Ladder_
  }
  coords 3793.572 8.781 409.272
  angles 3.969 90 0
-}
-GenericEntity : "{1AC31E2AF0C54F8A}Prefabs/Props/Military/Camps/PalletAmmo_01_Soviet_camo.et" {
- coords 3835.665 307.526 276.99
 }
 $grp DecalEntity : "{1DC3A792132D86CB}Prefabs/Decals/Blood/BloodStain_Large_02.et" {
  {
@@ -1817,23 +1800,6 @@ $grp GenericEntity : "{44F62429569B0AD0}Prefabs/Structures/BuildingParts/Windows
 GenericEntity : "{4575A2ADDC292742}Prefabs/Props/Military/Sandbags/Dst/Sandbag_01_single_dst_04_burlap.et" {
  coords 3779.519 316.65 401.202
  angles 0 -28.41 0
-}
-$grp GenericEntity : "{47A2F2F3C8FAACD5}Prefabs/Props/Military/Camps/PalletAmmo_01_Soviet.et" {
- {
-  coords 3835.624 308.727 272.622
- }
- {
-  coords 3835.624 308.727 270.747
- }
- {
-  coords 3835.624 309.909 270.378
- }
- {
-  coords 3835.624 309.909 271.702
- }
- {
-  coords 3835.624 309.909 273.029
- }
 }
 $grp GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/DestructibleMultiPhase_Props_Base.et" {
  {
@@ -3289,9 +3255,6 @@ $grp GameEntity : "{8FF50E5D4B417196}Prefabs/Props/Furniture/LampFluorescent/Lam
    }
   }
  }
-}
-GenericEntity : "{92713263041A4756}Prefabs/Props/Military/AmmoBoxes/AmmoBox_P150_Hydra_Container_US/AmmoBox_P150_Hydra_Container_Pallet_Empty_US.et" {
- coords 3829.474 307.141 270.948
 }
 GenericEntity : "{937999008F178E82}Prefabs/Props/Military/Sandbags/Sandbag_01_short_high_burlap.et" {
  coords 3782.683 315.758 409.734
@@ -6054,15 +6017,6 @@ GenericEntity : "{A48EDE9CBA71B5A3}Prefabs/Props/Military/AmmoBoxes/USSR/Equipme
  coords 3814.809 308.076 279.558
  angles 0 88.01 0
 }
-GameEntity : "{AC0FC88DBE628086}Prefabs/Props/Military/AmmoBoxes/AmmoBox_S5_Rocket_USSR/AmmoBox_S5_Rocket_USSR.et" {
- components {
-  SignalsManagerComponent "{62B06A3BB20B0A60}" {
-   Enabled 0
-  }
- }
- coords 3813.187 308.079 279.622
- angles 0 -87.922 0
-}
 $grp StaticModelEntity : "{AD5D1A7FF5FB5FA2}Prefabs/Structures/Military/Fortifications/Trenches/TrenchOld_01/TrenchOld_01_pole_metal.et" {
  {
   coords 3789.128 8.425 416.169
@@ -6074,9 +6028,6 @@ $grp StaticModelEntity : "{AD5D1A7FF5FB5FA2}Prefabs/Structures/Military/Fortific
   angles -51.957 91.604 -90.114
   scale 1.409
  }
-}
-GenericEntity : "{AE0FFC699F429214}Prefabs/Props/Military/Camps/PalletAmmo_01_US.et" {
- coords 3831.034 307.141 277.124
 }
 $grp StaticModelEntity : "{AE28D47CF26E91EA}Prefabs/Props/Military/Fortification/CzechHedgehog_01_rusty.et" {
  {
@@ -7265,16 +7216,6 @@ SCR_DestructibleBuildingEntity : "{E1B1FAB63D65EF46}Prefabs/Perimetr/wall_perime
 GenericEntity : "{E4A22C9C10769063}Prefabs/Vehicles/gaz71/BASE_gaz71.et" {
  coords 3813.993 307.141 282.47
  angles 0 180 0
-}
-$grp GenericEntity : "{E521AEA6D14589B1}Prefabs/Props/Military/AmmoBoxes/AmmoBox_545x39_2160rnd.et" {
- {
-  coords 3780.496 315.708 399.505
-  angles 1.644 -120.189 -2.76
- }
- {
-  coords 3813.224 307.655 279.697
-  angles 0 -32.511 0
- }
 }
 $grp GameEntity : "{E7FD0B8019E96F73}Prefabs/Structures/BuildingParts/Lights/LampTower_01.et" {
  {
