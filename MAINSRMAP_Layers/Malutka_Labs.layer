@@ -854,10 +854,6 @@ SCR_DestructibleBuildingEntity {
   }
   $grp GenericEntity : "{3512A349ABF321F1}Prefabs/Trash/ground_plane/stroy_musor/plane_trash_1_musor.et" {
    {
-    coords -3.447 -1.02 7.014
-    angles 0 86.234 0
-   }
-   {
     coords -0.31 -1.005 0.857
     angles 0 92.147 0
    }
@@ -1474,10 +1470,6 @@ SCR_DestructibleBuildingEntity {
    {
     coords -7.468 -1.065 5.379
    }
-  }
-  GenericEntity : "{D3A5AAE7FC1B36BA}Prefabs/Trash/ground_plane/stroy_musor/plane_trash_6_musor.et" {
-   coords -1.434 0 13.553
-   angles 0 0 0
   }
   GenericEntity : "{D4EDDB4C56AF4C2E}Prefabs/shelfs/shkaf_3.et" {
    coords 1.805 -0.986 3.905
