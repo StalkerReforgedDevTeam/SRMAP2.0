@@ -667,7 +667,8 @@ $grp GenericEntity : "{FAB641538C993426}Prefabs/World/Locations/armst_location_b
     DisplayName "#armst_map_checkpointXZ"
    }
   }
-  coords 3886.556 306.702 383.833
+  coords 3884.111 306.702 381.587
+  angles 0 180 0
  }
  base_kb {
   components {
