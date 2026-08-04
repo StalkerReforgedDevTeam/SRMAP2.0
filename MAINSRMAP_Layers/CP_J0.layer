@@ -10651,6 +10651,11 @@ GenericEntity : "{BD160EAFE18E1D89}Prefabs/Structures/BuildingParts/Doors/Door_M
  scale 1.07
 }
 SCR_DestructibleBuildingEntity : "{BD909A0417AF0D76}Prefabs/Structures/Military/Houses/Cafeteria_E_01/Cafeteria_USSR_01_soviet.et" {
+ components {
+  SCR_DestructibleBuildingComponent "{65B30806D22F1AA3}" {
+   Enabled 0
+  }
+ }
  coords 1187.558 0 1320.443
  angles 0 5.483 0
 }
