@@ -65422,6 +65422,11 @@ SCR_DestructibleBuildingEntity : "{4A5274B5B598E08D}Prefabs/Structures/Walls/Con
 }
 $grp SCR_DestructibleBuildingEntity : "{4A862A8A65503FFC}Prefabs/Structures/Military/Houses/GarageMilitary_E_01/GarageMilitary_E_01_V2.et" {
  {
+  components {
+   SCR_DestructibleBuildingComponent "{5D7E937C4BC5C812}" {
+    Enabled 0
+   }
+  }
   coords 3817.211 0 278.17
  }
  {
