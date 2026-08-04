@@ -1117,8 +1117,8 @@ GenericEntity : "{0F866B72D473D8C4}Prefabs/Props/Industrial/ToolBox_01/ToolBox_0
  angles 0 33.155 0
 }
 GameEntity : "{103CBF9E0B0BC124}Prefabs/Props/Military/Generators/GeneratorMilitary_USSR_01/GeneratorMilitary_USSR_01_base.et" {
- coords 3792.216 306.702 372.442
- angles 0 180 0
+ coords 3798.194 306.702 365.244
+ angles 0 87.825 0
 }
 GenericEntity : "{1112756E8A13445B}Prefabs/Props/Industrial/Pallets/Pallet_01_Pile.et" {
  coords 3821.332 306.702 369.104
@@ -1626,16 +1626,8 @@ GenericEntity : "{36D422D0E5DB68DD}Prefabs/Compositions/Misc/SubCompositions/Sto
    coords -2.743 0 0.2
   }
   GenericEntity {
-   ID "5E3A731BE7B04D2F"
-   coords -10.532 0 1.038
-  }
-  GenericEntity {
    ID "5E3A731BE7B0429C"
    coords -20.977 0 2.513
-  }
-  GenericEntity {
-   ID "5E3A731BE7B042D6"
-   coords -4.644 0 3.338
   }
   GenericEntity {
    ID "5E3A731BE7B04360"
@@ -1668,10 +1660,6 @@ GenericEntity : "{36D422D0E5DB68DD}Prefabs/Compositions/Misc/SubCompositions/Sto
    coords -12.343 0 -1.685
   }
   GenericEntity {
-   ID "5E3A731BE7B04246"
-   coords -1.318 0 2.237
-  }
-  GenericEntity {
    ID "5E3A731BE7B04255"
    coords -3.75 0 -2.663
    angles 0 176.063 0
@@ -1692,14 +1680,6 @@ GenericEntity : "{36D422D0E5DB68DD}Prefabs/Compositions/Misc/SubCompositions/Sto
   GenericEntity {
    ID "5E3A731BE7B042A3"
    coords -19.775 0 2.555
-  }
-  GenericEntity {
-   ID "5E3A731BE7B042C3"
-   coords -5.713 0 3.37
-  }
-  GenericEntity {
-   ID "5E3A731BE7B042E4"
-   coords -4.624 0 2.136
   }
   GenericEntity {
    ID "5E3A731BE7B0435D"
@@ -1729,14 +1709,6 @@ GenericEntity : "{36D422D0E5DB68DD}Prefabs/Compositions/Misc/SubCompositions/Sto
   GenericEntity {
    ID "5E3A731BE7B042B1"
    coords -20.003 0 1.48
-  }
-  GenericEntity {
-   ID "5E3A731BE7B042EA"
-   coords -5.695 0 2.382
-  }
-  GenericEntity {
-   ID "5E3A731BE7B04342"
-   coords -1.365 0 3.296
   }
  }
 }
