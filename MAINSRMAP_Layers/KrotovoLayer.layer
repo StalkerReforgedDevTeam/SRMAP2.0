@@ -44,10 +44,6 @@ GenericEntity : "{09A48FF902267632}Prefabs/Props/Military/MilitaryCrates/CrateSt
  coords 6550.504 309.225 1329.387
  angles 0 55.66 0
 }
-StaticModelEntity : "{130BED24711F375F}PrefabsEditable/Auto/Structures/Walls/BarbedWire/E_BarbedTape_Triple.et" {
- coords 6588.653 0.014 1282.307
- angles 0 -43.427 0
-}
 GenericEntity : "{24366EAD043C8459}Prefabs/shelfs/tumba_1.et" {
  coords 6556.412 307.734 1250.826
  angles -85.422 -69.68 0
@@ -60,20 +56,9 @@ GenericEntity : "{2C3A91FAD42CB072}Prefabs/Electric/holodos_2.et" {
  coords 6444.998 308.237 1213.651
  angles -0.111 47.935 90.669
 }
-GenericEntity : "{2F34D371EECEFCCD}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SandbagPosition_S_USSR_04.et" {
- coords 6549.221 307.77 1264.078
-}
 GenericEntity : "{317197B55A4ADB45}Prefabs/shelfs/shkaf_2.et" {
  coords 6553.878 307.41 1249.427
  angles 37.746 -11.383 15.663
-}
-GenericEntity : "{35DF2CB913F0ADDD}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Sandbag_round_Cluttered_USSR_01.et" {
- coords 6535.438 309.568 1328.914
- angles 0 -69.794 0
-}
-StaticModelEntity : "{365E4BF1FFFD8B30}PrefabsEditable/Auto/Structures/Walls/BarbedWire/E_BarbedTape_Long.et" {
- coords 6540.55 0.061 1262.34
- angles 0 16.161 0
 }
 GenericEntity : "{36D873BC68DC0215}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/Dst/CrateStack_01_Dst_3_NoDecal.et" {
  coords 6544.246 309.213 1318.199
@@ -229,49 +214,7 @@ GenericEntity : "{985C3871D40C7F7C}Prefabs/Trash/musor_plane/Litter_01_small.et"
  coords 6554.686 307.311 1250.968
  angles 0 0 2.532
 }
-GenericEntity : "{9AA7840FE3C3F664}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Sandbag_Sign_USSR_01.et" {
- coords 6548.687 309.401 1336.682
- angles 0 -12.891 0
-}
-GenericEntity : "{9BC88E502B836DBF}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SandbagPosition_S_USSR_01.et" {
- coords 6557.3 309.002 1322.147
- angles 0 68.529 0
-}
-StaticModelEntity : "{A1932F99114451A7}PrefabsEditable/Auto/Structures/Walls/BarbedWire/E_BarbedTape_Short.et" {
- coords 6544.284 -0.001 1267.964
- angles 0 77.343 0
-}
-GenericEntity : "{AB1E83746BDF76D1}PrefabsEditable/Auto/Compositions/Misc/FreeRoamBuilding/E_BarbedTapeTriple_S_USSR_01.et" {
- coords 6578.462 307.03 1282.081
- angles 0 -42.736 0
- {
-  StaticModelEntity {
-   ID "5E64B54F57833D69"
-   coords -0.329 0 1.496
-  }
- }
-}
 $grp DecalEntity : "{AF4AA779A4546D51}Prefabs/Decals/Dirt/Decal_Dirt_Patch_02.et" {
- {
-  components {
-   Hierarchy "{56E0B29E66335D7C}" {
-   }
-  }
-  coords 6544.329 0.042 1256.167
-  angles -90 0 0
-  scale 5
-  FarPlane 1.5
- }
- {
-  components {
-   Hierarchy "{56E0B29E66335D7C}" {
-   }
-  }
-  coords 6545.956 -0.027 1245.016
-  angles -90 0 0
-  scale 5
-  FarPlane 1.5
- }
  {
   components {
    Hierarchy "{56E0B29E66335D7C}" {
@@ -357,10 +300,6 @@ GenericEntity : "{B350840088390760}Prefabs/Compositions/Misc/SubCompositions/Dec
  coords 6554.28 309.23 1327.783
  angles 0 -58.921 0
 }
-GenericEntity : "{B4FE2CA8ADB74E6D}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/Fortifications/E_SandBag_Tower_S_USSR_01.et" {
- coords 6539.876 309.581 1332.062
- angles 0 -13.192 0
-}
 $grp GenericEntity : "{C58BDB4D22E0A5A8}Prefabs/Trash/musor_plane/Litter_01_large.et" {
  {
   coords 6551.843 307.545 1248.425
@@ -370,10 +309,6 @@ $grp GenericEntity : "{C58BDB4D22E0A5A8}Prefabs/Trash/musor_plane/Litter_01_larg
   coords 6540.728 308.241 1246.812
   angles 3.362 -47.027 0
  }
-}
-GenericEntity : "{C762BA61BAD5B536}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Sandbag_Corner_BarbedWire_USSR_01.et" {
- coords 6541.32 309.214 1310.071
- angles 0 -93.429 0
 }
 $grp GenericEntity : "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et" {
  {
@@ -407,10 +342,6 @@ $grp GenericEntity : "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_0
 GenericEntity : "{D042CEA90B8CB14D}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/CrateStack_01_decals_02.et" {
  coords 6551.5 309.253 1329.666
  angles 0 69.118 0
-}
-GenericEntity : "{D61611B41BDB921B}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Sandbag_Barricade_USSR_04.et" {
- coords 6542.072 308.191 1256.344
- angles 0 -114.486 0
 }
 SCR_DestructibleBuildingEntity : "{DECE87E73A4C13C3}Prefabs/Houses/villages/fixed/fix_house_7.et" {
  coords 6451.347 -0.145 1227.014
