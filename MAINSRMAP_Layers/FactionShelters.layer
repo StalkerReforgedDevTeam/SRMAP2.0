@@ -1113,6 +1113,21 @@ $grp SCR_DestructibleBuildingEntity : "{B1D7DA05DE5D73F4}Prefabs/Structures/Wall
   coords 3896.223 306.702 390.132
   scale 2.19
  }
+ {
+  coords 1296.694 301.692 1292.7
+  angles 0 5.483 0
+  scale 2.19
+ }
+ {
+  coords 1290.306 301.718 1293.313
+  angles 0 5.483 0
+  scale 2.19
+ }
+ {
+  coords 1273.194 301.706 1294.954
+  angles 0 5.483 0
+  scale 2.19
+ }
 }
 GenericEntity : "{B53B98CEA2D72735}Prefabs/Props/Military/Compositions/FIA/ArsenalBox_FIA.et" {
  coords 5633.049 302.222 35.238
