@@ -85936,12 +85936,12 @@ $grp GenericEntity : "{5A7463ADF587C4EE}Prefabs/Vehicles/zil131/armst_zil131_box
   angles 0 47.213 0
  }
  {
-  coords 4856.936 308.071 1687.319
+  coords 4858.923 308.071 1691.046
   angles 0 -74.187 0
  }
  {
-  coords 4858.252 308.161 1678.954
-  angles 0 -99.981 0
+  coords 4857.819 308.161 1676.92
+  angles 0 -142.348 0
  }
  {
   coords 4871.794 308.085 1684.508
@@ -129946,10 +129946,6 @@ $grp GenericEntity : "{8C8516E96B5173D8}Prefabs/Vehicles/gaz66/armst_gaz66_wreck
  {
   coords 4606.698 307.282 1992.741
   angles -4.45 0.279 -3.587
- }
- {
-  coords 4851.348 308.118 1667.438
-  angles 0 -75.794 0
  }
  {
   coords 4996.881 300.727 1734.377
@@ -209406,32 +209402,6 @@ $grp SCR_DestructibleBuildingEntity : "{F5900E0A2F115DA6}Prefabs/Method/Structur
    Building {
     ID "64CA901C3AC92E9B"
    }
-   GenericEntity {
-    ID "695EA18540F4CD40"
-    components {
-     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-      m_LootTiersSpawn {
-       "TIER_2"
-      }
-     }
-    }
-   }
-   GenericEntity {
-    ID "695EA18540F4CD7A"
-    components {
-     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-      m_LootTiersSpawn {
-       "TIER_2"
-      }
-     }
-    }
-   }
-  }
- }
- {
-  coords 4842.247 0 1673.416
-  angles 0 91.111 0
-  {
    GenericEntity {
     ID "695EA18540F4CD40"
     components {
