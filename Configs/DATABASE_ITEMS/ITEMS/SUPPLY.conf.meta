@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{6C66C769EC6DF16B}Configs/DATABASE_ITEMS/ITEMS/SUPPLY.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}
