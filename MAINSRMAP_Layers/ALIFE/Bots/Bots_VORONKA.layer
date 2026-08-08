@@ -2,13 +2,12 @@ GenericEntity KB_SPAWNER6 : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster
  components {
   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
    Enabled 0
-   m_InitialSpawnDelay 5
+   m_InitialSpawnDelay 15
    m_CheckInterval 60
-   m_CheckPlayerRadius 5
+   m_CheckPlayerRadius 32
    m_RadiusPatrol 10
-   m_SpawnChance 40
-   m_FailedSpawnDelay 300
-   m_PlayerDetectionRadius 100
+   m_SpawnChance 36
+   m_RespawnDelayAfterDelete 1098
    m_SpawnGroups {
     "{864B9CDB604BC86F}Configs/GAME_SETTING/BOTS/ALIFE/alife_groups_stalker.conf"
    }

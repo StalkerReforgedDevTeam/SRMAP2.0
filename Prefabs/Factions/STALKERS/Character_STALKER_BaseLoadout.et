@@ -1,10 +1,26 @@
 SCR_ChimeraCharacter : "{5346CF7E39A65A6B}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Base.et" {
  ID "520EC961A090BE1E"
  components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   m_fMaxWeight 70
+  }
+  SCR_CharacterControllerComponent "{520EA1D2F659CEA5}" {
+   JumpUpVelocity 2
+   AimingSpeed 70
+   LegsDamageCanMoveThreshold 0.4
+   LeanSpeed 3
+  }
   ARMST_RANDOM_CLOTHES_NEW "{66426E44C6498633}" {
    m_Category {
    }
    m_TiersSpawn {
+   }
+  }
+  SCR_BaseHUDComponent "{520EA1D2DB118134}" {
+   InfoDisplays {
+    ARMST_FACTION_DETECTOR "{69B0EE16F21C1B06}" {
+     m_bIsEnabled 0
+    }
    }
   }
   SCR_CharacterDamageManagerComponent "{55872AD7B4E959F2}" {
@@ -32,14 +48,13 @@ SCR_ChimeraCharacter : "{5346CF7E39A65A6B}Prefabs/Characters/Factions/OPFOR/USSR
     SCR_CharacterHeadHitZone Head {
      ParentHZs {
       ParentHitZone "{60F48ADCA47D7F72}" {
-       DamageMultiplier 0.6
+       DamageMultiplier 1
        HealingMultiplier 1
       }
       ParentHitZone "{60F48ADCA47D7F6C}" {
-       DamageMultiplier 0.7
+       DamageMultiplier 1
       }
      }
-     BaseDamageMultiplier 0.7
      MaxHealth 300
      CriticalDamage 0.7
      DamageReduction 1.1
@@ -72,9 +87,28 @@ SCR_ChimeraCharacter : "{5346CF7E39A65A6B}Prefabs/Characters/Factions/OPFOR/USSR
     }
    }
   }
+  SCR_CharacterStaminaComponent "{520EA1D2F659C824}" {
+   StaminaRegainPerS 0.06
+   StaminaDrainRun -0.01
+   StaminaDrainSprint -0.02
+   EncumbranceMassMax 150
+  }
+  SCR_CharacterVicinityComponent "{529A70D96D401B33}" {
+   DiscoveryRadius 1.5
+  }
   SRZ_RPNameCharacterComponent "{699F42C1E87B935F}" {
   }
   SRZ_RPNotificationHandler "{699F42C195F98011}" {
+  }
+  ActionsManagerComponent "{520EA1D2F659CE02}" {
+   additionalActions {
+    SCR_BandageUserAction "{520EA1D2F659CE03}" {
+    }
+    SCR_BandageUserAction "{5A26F8E67741AC1E}" {
+    }
+    SCR_BandageUserAction "{5A26F8E460F2D5F7}" {
+    }
+   }
   }
  }
 }
