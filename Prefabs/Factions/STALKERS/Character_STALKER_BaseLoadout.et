@@ -94,7 +94,7 @@ SCR_ChimeraCharacter : "{5346CF7E39A65A6B}Prefabs/Characters/Factions/OPFOR/USSR
    EncumbranceMassMax 150
   }
   SCR_CharacterVicinityComponent "{529A70D96D401B33}" {
-   DiscoveryRadius 0.5
+   DiscoveryRadius 1.5
   }
   SRZ_RPNameCharacterComponent "{699F42C1E87B935F}" {
   }
