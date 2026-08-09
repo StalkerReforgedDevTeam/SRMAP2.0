@@ -1735,179 +1735,146 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 3764.027 334.02 1624.63
   SphereRadius 53.3
-  DrawShape 1
  }
  {
   coords 3931.251 333.194 1550.247
   SphereRadius 53.3
-  DrawShape 1
  }
  {
   coords 3528.77 327.986 1647.214
   SphereRadius 53.3
-  DrawShape 1
  }
  {
   coords 3437.375 327.986 1623.855
   SphereRadius 53.3
-  DrawShape 1
  }
  {
   coords 3341.139 327.986 1613.348
   SphereRadius 53.3
-  DrawShape 1
  }
  {
   coords 3248.367 327.986 1624.699
   SphereRadius 53.3
-  DrawShape 1
  }
  {
   coords 3151.327 327.986 1637.023
   SphereRadius 53.3
-  DrawShape 1
  }
  {
   coords 3063.564 327.986 1652.828
   SphereRadius 53.3
-  DrawShape 1
  }
  {
   coords 2980.892 332.292 1692.978
   SphereRadius 53.3
-  DrawShape 1
  }
  {
   coords 2907.797 327.671 1757.254
   SphereRadius 53.3
-  DrawShape 1
  }
  {
   coords 2880.42 334.464 1846.748
   SphereRadius 53.3
-  DrawShape 1
  }
  {
   coords 2924.786 340.463 1898.195
   SphereRadius 53.3
-  DrawShape 1
  }
  {
   coords 2906.989 332.604 2126.042
   SphereRadius 53.3
-  DrawShape 1
  }
  {
   coords 2854.918 328.441 2202.088
   angles 0 -37.419 0
   SphereRadius 53.3
-  DrawShape 1
  }
  {
   coords 3943.809 342.243 1737.745
   SphereRadius 53.3
-  DrawShape 1
  }
  {
   coords 4167.18 321.347 789.206
   SphereRadius 46.7
-  DrawShape 1
  }
  {
   coords 4103.268 321.108 614.636
   angles 0 -30.83 0
   SphereRadius 14.6
-  DrawShape 1
  }
  {
   coords 4137.105 317.56 621.482
   SphereRadius 16.3
-  DrawShape 1
  }
  {
   coords 4186.168 344.445 945.824
   SphereRadius 46.7
-  DrawShape 1
  }
  {
   coords 2797.026 328.441 2277.754
   angles 0 -37.419 0
   SphereRadius 53.3
-  DrawShape 1
  }
  {
   coords 2756.845 328.441 2349.732
   angles 0 -37.419 0
   SphereRadius 53.3
-  DrawShape 1
  }
  {
   coords 2733.794 328.441 2427.733
   angles 0 -37.419 0
   SphereRadius 53.3
-  DrawShape 1
  }
  {
   coords 2693.557 328.441 2500.175
   angles 0 -37.419 0
   SphereRadius 53.3
-  DrawShape 1
  }
  {
   coords 2665.584 328.441 2546.43
   angles 0 -2.174 0
   SphereRadius 53.3
-  DrawShape 1
  }
  {
   coords 2671.339 320.924 2709.129
   angles 0 -2.174 0
   SphereRadius 53.3
-  DrawShape 1
  }
  {
   coords 4155.207 317.559 649.588
   SphereRadius 13.5
-  DrawShape 1
  }
  {
   coords 4079.819 321.108 600.641
   angles 0 -30.83 0
   SphereRadius 14.6
-  DrawShape 1
  }
  {
   coords 4060.322 321.108 595.281
   angles 0 -30.83 0
   SphereRadius 14.6
-  DrawShape 1
  }
  {
   coords 4100.893 321.108 697.157
   angles 0 -30.83 0
   SphereRadius 14.6
-  DrawShape 1
  }
  {
   coords 4066.215 321.108 676.46
   angles 0 -30.83 0
   SphereRadius 14.6
-  DrawShape 1
  }
  {
   coords 4167.18 321.347 789.206
   SphereRadius 40.2
-  DrawShape 1
  }
  {
   coords 3605.578 361.106 1678.687
   SphereRadius 53.3
-  DrawShape 1
  }
  {
   coords 3558.666 320.603 1344.29
@@ -1915,7 +1882,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 3607.192 320.603 1318.326
@@ -1923,7 +1889,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 3670.763 320.603 1360.116
@@ -1931,7 +1896,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 3601.498 320.603 1416.192
@@ -1939,7 +1903,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 3443.805 320.603 1435.21
@@ -1947,7 +1910,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 3445.889 312.34 1159.343
@@ -1955,7 +1917,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 3470.12 305.504 1202.421
@@ -1963,7 +1924,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 3450.673 319.471 680.812
@@ -1971,7 +1931,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 3472.628 319.471 650.332
@@ -1979,7 +1938,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 3499.757 319.471 619.216
@@ -1987,7 +1945,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 3523.896 319.471 593.129
@@ -1995,7 +1952,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 3484.482 319.471 595.906
@@ -2003,7 +1959,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 3437.501 319.471 617.401
@@ -2011,7 +1966,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 3426.889 319.471 644.409
@@ -2019,7 +1973,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 3330.095 311.126 642.817
@@ -2027,7 +1980,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 3306.839 311.126 669.966
@@ -2035,7 +1987,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 3256.034 311.126 660.32
@@ -2043,7 +1994,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 3205.359 311.126 635.896
@@ -2051,7 +2001,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 3262.396 311.126 623.908
@@ -2059,7 +2008,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 3854.503 317.059 642.658
@@ -2067,7 +2015,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 3833.489 317.059 668.406
@@ -2075,7 +2022,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 3844.53 317.059 686.238
@@ -2083,7 +2029,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 3895.681 317.059 751.002
@@ -2091,7 +2036,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 3919.417 317.059 781.018
@@ -2099,7 +2043,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 3943.103 317.059 785.694
@@ -2107,7 +2050,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 3965.342 317.059 761.704
@@ -2115,7 +2057,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 3972.398 317.059 733.044
@@ -2123,7 +2064,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 3953.287 317.059 695.085
@@ -2131,7 +2071,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 3931.949 317.059 719.932
@@ -2139,7 +2078,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 4045.949 315.472 655.659
@@ -2147,7 +2085,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 4078.63 320.745 710.092
@@ -2155,7 +2092,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 4108.229 320.745 735.464
@@ -2163,7 +2099,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 4125.564 320.745 752.398
@@ -2171,7 +2106,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 4134.866 320.745 737.439
@@ -2179,7 +2113,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 4116.022 320.745 716.553
@@ -2187,7 +2120,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 4104.859 320.745 687.733
@@ -2195,7 +2127,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 4086.417 320.745 668.469
@@ -2203,7 +2134,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 4064.822 320.745 663.233
@@ -2211,7 +2141,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 4066.261 315.375 588.182
@@ -2219,7 +2148,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 4203.856 324.932 775.385
@@ -2227,7 +2155,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 4200.758 324.932 748.802
@@ -2235,7 +2162,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 4218.281 316.727 817.349
@@ -2243,7 +2169,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 4190.165 316.727 841.264
@@ -2251,7 +2176,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 4165.665 316.727 839.764
@@ -2259,7 +2183,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 4288.859 323.89 1170.067
@@ -2267,7 +2190,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 4321.541 316.25 1222.041
@@ -2275,7 +2197,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 4314.825 316.25 1284.44
@@ -2283,7 +2204,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 4329.459 316.25 1357.859
@@ -2291,7 +2211,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 4284.816 316.25 1364.571
@@ -2299,7 +2218,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 4269.606 316.25 1296.627
@@ -2307,7 +2225,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 4272.498 316.25 1240.156
@@ -2315,7 +2232,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 4155.5 316.25 1380.898
@@ -2323,7 +2239,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 4142.135 316.25 1436.959
@@ -2331,7 +2246,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 4087.652 316.25 1464.161
@@ -2339,7 +2253,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 4018.449 316.25 1509.953
@@ -2347,7 +2260,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 4808.977 322.781 1387.971
@@ -2355,7 +2267,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 4783.244 322.781 1435.589
@@ -2363,7 +2274,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 4761.766 322.781 1476.872
@@ -2371,7 +2281,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 4790.377 311.359 1590.323
@@ -2379,7 +2288,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 4748.372 311.359 1604.487
@@ -2387,7 +2295,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 4696.535 311.359 1597.708
@@ -2395,7 +2302,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 4694.684 311.359 1540.527
@@ -2403,7 +2309,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 4704.583 311.359 1495.947
@@ -2411,7 +2316,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 4183.212 320.416 2293.825
@@ -2419,7 +2323,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 4155.059 320.416 2294.494
@@ -2427,7 +2330,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 4193.97 320.416 2344.078
@@ -2435,7 +2337,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 4209.448 320.416 2398.832
@@ -2443,7 +2344,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 4227.609 320.416 2439.748
@@ -2451,7 +2351,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 4242.668 320.416 2477.62
@@ -2459,7 +2358,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 4272.691 320.416 2521.004
@@ -2467,7 +2365,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 4245.423 327.44 2177.056
@@ -2475,7 +2372,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 4194.287 327.44 2188.439
@@ -2483,7 +2379,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 4147.304 327.44 2199.683
@@ -2491,7 +2386,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 4179.336 327.44 2153.736
@@ -2499,7 +2393,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 4225.514 327.44 2115.042
@@ -2507,7 +2400,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 4270.152 327.44 2077.055
@@ -2515,7 +2407,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 4283.997 327.44 2135.097
@@ -2523,7 +2414,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 4277.422 321.639 2023.309
@@ -2531,7 +2421,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 2680.99 300.815 836.396
@@ -2539,7 +2428,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 2237.937 296.141 1059.282
@@ -2547,7 +2435,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 2199.082 296.141 1076.195
@@ -2555,7 +2442,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 2161.377 296.141 1092.922
@@ -2563,7 +2449,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 2168.42 296.141 1139.674
@@ -2571,7 +2456,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 2176.316 296.141 1167.63
@@ -2579,7 +2463,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 2223.928 296.141 1154.453
@@ -2587,7 +2470,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 2277.617 296.141 1151.447
@@ -2595,7 +2477,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 2331.298 296.141 1165.673
@@ -2603,7 +2484,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 2368.687 296.141 1200.859
@@ -2611,7 +2491,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 2394.781 296.141 1227.459
@@ -2619,7 +2498,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 2382.213 296.141 1180.406
@@ -2627,7 +2505,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 2362.439 296.141 1162.631
@@ -2635,7 +2512,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 2305.097 296.141 1131.6
@@ -2643,7 +2519,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 2273.524 296.141 1070.801
@@ -2651,7 +2526,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 2243.345 296.141 1102.745
@@ -2659,7 +2533,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 2050.178 301.337 1133.806
@@ -2667,7 +2540,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 2005.986 301.337 1154.361
@@ -2675,7 +2547,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 1964.539 301.337 1180.177
@@ -2683,7 +2554,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 1935.526 301.337 1183.957
@@ -2691,7 +2561,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 1973.676 301.337 1216.145
@@ -2699,7 +2568,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 2016.694 301.337 1246.273
@@ -2707,7 +2575,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 2030.774 301.337 1287.216
@@ -2715,7 +2582,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 2047.393 301.337 1338.3
@@ -2723,7 +2589,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 2067.028 301.337 1387.661
@@ -2731,7 +2596,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 2052.631 301.337 1439.003
@@ -2739,7 +2603,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 2081.056 301.337 1442.225
@@ -2747,7 +2610,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 2114.474 301.337 1413.939
@@ -2755,7 +2617,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 2137.988 301.337 1378.534
@@ -2763,7 +2624,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 2102.538 301.337 1357.868
@@ -2771,7 +2631,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 2061.981 301.337 1317.136
@@ -2779,7 +2638,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 2059.314 301.337 1280.705
@@ -2787,7 +2645,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 2058.095 301.337 1225.3
@@ -2795,7 +2652,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 2069.258 301.337 1189.71
@@ -2803,7 +2659,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 2019.313 301.337 1198.663
@@ -2811,7 +2666,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 1784.205 301.337 1050.234
@@ -2819,7 +2673,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 1819.17 301.337 1117.592
@@ -2827,7 +2680,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 1751.621 301.337 1091.316
@@ -2835,7 +2687,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 1697.57 301.337 1092.581
@@ -2843,7 +2694,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 1681.279 302.491 533.503
@@ -2851,7 +2701,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 1642.043 299.923 529.585
@@ -2859,7 +2708,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 1613.158 299.923 540.2
@@ -2867,7 +2715,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 1595.258 299.923 548.572
@@ -2875,7 +2722,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 1575.661 299.923 559.451
@@ -2883,7 +2729,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 1552.717 299.923 564.684
@@ -2891,7 +2736,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 1530.341 299.923 575.076
@@ -2899,7 +2743,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 1505.362 299.923 580.8
@@ -2907,7 +2750,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 1478.867 299.923 585.379
@@ -2915,7 +2757,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 1448.798 299.923 597.84
@@ -2923,7 +2764,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 2161.762 299.622 433.208
@@ -2931,7 +2771,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 2235.749 299.622 417.903
@@ -2939,7 +2778,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 2217.322 299.622 466.538
@@ -2947,7 +2785,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 2041.361 317.514 1954.91
@@ -2955,7 +2792,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 2045.739 317.514 1903.013
@@ -2963,7 +2799,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 2072.841 317.514 1915.447
@@ -2971,7 +2806,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 2083.121 317.514 1959.071
@@ -2979,7 +2813,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 2086.64 317.514 1991.237
@@ -2987,7 +2820,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 2069.191 317.514 2019.076
@@ -2995,7 +2827,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 2033.939 317.514 2007.006
@@ -3003,7 +2834,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 1964.515 317.514 2110.388
@@ -3011,7 +2841,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 1918.055 317.514 2098.077
@@ -3019,7 +2848,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 1873.374 317.514 2101.483
@@ -3027,7 +2855,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 2009.477 317.514 2128.354
@@ -3035,7 +2862,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 1966.422 317.514 2177.658
@@ -3043,7 +2869,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 1937.618 317.514 2220.226
@@ -3051,7 +2876,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 1899.438 317.514 2186.441
@@ -3059,7 +2883,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 1880.665 317.514 2154.821
@@ -3067,7 +2890,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 1923.385 317.514 2149.332
@@ -3075,7 +2897,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 2213.637 319.144 1954.688
@@ -3083,7 +2904,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 2194.9 319.144 1912.962
@@ -3091,7 +2911,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 2262.941 319.144 1972.016
@@ -3099,7 +2918,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 2308.954 319.144 1972.452
@@ -3107,7 +2925,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
  }
  {
   coords 2805.66 319.701 2443.392
@@ -3115,7 +2932,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
   m_DamagePsyLevel 57
  }
  {
@@ -3124,7 +2940,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
   m_DamagePsyLevel 57
  }
  {
@@ -3133,7 +2948,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
   m_DamagePsyLevel 57
  }
  {
@@ -3142,7 +2956,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
   m_DamagePsyLevel 57
  }
  {
@@ -3151,7 +2964,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
   m_DamagePsyLevel 57
  }
  {
@@ -3160,7 +2972,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
   m_DamagePsyLevel 57
  }
  {
@@ -3169,7 +2980,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
   m_DamagePsyLevel 57
  }
  {
@@ -3178,7 +2988,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
   m_DamagePsyLevel 57
  }
  {
@@ -3187,7 +2996,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
   m_DamagePsyLevel 57
  }
  {
@@ -3196,7 +3004,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
   m_DamagePsyLevel 57
  }
  {
@@ -3205,7 +3012,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
   m_DamagePsyLevel 57
  }
  {
@@ -3214,7 +3020,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
   m_DamagePsyLevel 57
  }
  {
@@ -3223,7 +3028,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
   m_DamagePsyLevel 57
  }
  {
@@ -3232,7 +3036,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
   m_DamagePsyLevel 57
  }
  {
@@ -3241,7 +3044,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
   m_DamagePsyLevel 57
  }
  {
@@ -3250,7 +3052,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
   m_DamagePsyLevel 57
  }
  {
@@ -3259,7 +3060,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
   m_DamagePsyLevel 57
  }
  {
@@ -3268,7 +3068,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
   m_DamagePsyLevel 57
  }
  {
@@ -3277,7 +3076,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
   m_DamagePsyLevel 57
  }
  {
@@ -3286,7 +3084,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
   m_DamagePsyLevel 57
  }
  {
@@ -3295,7 +3092,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
   m_DamagePsyLevel 57
  }
  {
@@ -3304,7 +3100,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
   m_DamagePsyLevel 57
  }
  {
@@ -3313,7 +3108,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
   m_DamagePsyLevel 57
  }
  {
@@ -3322,7 +3116,6 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
-  DrawShape 1
   m_DamagePsyLevel 57
  }
 }
