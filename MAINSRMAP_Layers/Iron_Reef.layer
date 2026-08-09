@@ -12,7 +12,7 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
     m_InitialSpawnDelay 15
     m_CheckPlayerRadius 32
-    m_SpawnChance 36
+    m_SpawnChance 60
     m_RespawnDelayAfterDelete 1098
     m_SpawnGroups {
      "{D77BDED419E75367}Configs/GAME_SETTING/BOTS/ALIFE/mutants/nighstalker.conf"
@@ -31,7 +31,7 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
     m_InitialSpawnDelay 15
     m_CheckPlayerRadius 32
-    m_SpawnChance 36
+    m_SpawnChance 60
     m_RespawnDelayAfterDelete 1098
     m_SpawnGroups {
      "{D77BDED419E75367}Configs/GAME_SETTING/BOTS/ALIFE/mutants/nighstalker.conf"
@@ -50,7 +50,7 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
     m_InitialSpawnDelay 15
     m_CheckPlayerRadius 32
-    m_SpawnChance 36
+    m_SpawnChance 60
     m_RespawnDelayAfterDelete 1098
     m_SpawnGroups {
      "{D77BDED419E75367}Configs/GAME_SETTING/BOTS/ALIFE/mutants/nighstalker.conf"
@@ -69,7 +69,7 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
     m_InitialSpawnDelay 15
     m_CheckPlayerRadius 32
-    m_SpawnChance 36
+    m_SpawnChance 60
     m_RespawnDelayAfterDelete 1098
     m_SpawnGroups {
      "{D77BDED419E75367}Configs/GAME_SETTING/BOTS/ALIFE/mutants/nighstalker.conf"
@@ -88,7 +88,7 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
     m_InitialSpawnDelay 15
     m_CheckPlayerRadius 32
-    m_SpawnChance 36
+    m_SpawnChance 60
     m_RespawnDelayAfterDelete 1098
     m_SpawnGroups {
      "{D77BDED419E75367}Configs/GAME_SETTING/BOTS/ALIFE/mutants/nighstalker.conf"
@@ -300,9 +300,9 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_SpawnCount 3
   m_MinDistanceBetweenAnomalies 10
   m_MinDistanceToPlayer 14
-  m_SpawnChance 59
+  m_SpawnChance 60
   m_SpawnChanceArtefactsRestart 15.31
-  m_SpawnChanceArtefacts 15.82
+  m_SpawnChanceArtefacts 20
  }
  {
   coords 2540.527 286.82 2918.821
@@ -312,9 +312,9 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_SpawnCount 3
   m_MinDistanceBetweenAnomalies 10
   m_MinDistanceToPlayer 14
-  m_SpawnChance 59
+  m_SpawnChance 60
   m_SpawnChanceArtefactsRestart 15.31
-  m_SpawnChanceArtefacts 15.82
+  m_SpawnChanceArtefacts 20
  }
 }
 SCR_DestructibleBuildingEntity : "{777E80AFDC98395B}Prefabs/Props/Wrecks/ShipWreckMetal_02/ShipWreckMetal_02_base.et" {

@@ -24,7 +24,7 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
     m_InitialSpawnDelay 15
     m_CheckPlayerRadius 32
-    m_SpawnChance 36
+    m_SpawnChance 60
     m_RespawnDelayAfterDelete 1098
     m_SpawnGroups {
      "{349CF4EBE29EFFA2}Configs/GAME_SETTING/BOTS/ALIFE/mutants/wolfs.conf"
@@ -39,7 +39,7 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
     m_InitialSpawnDelay 15
     m_CheckPlayerRadius 32
-    m_SpawnChance 36
+    m_SpawnChance 60
     m_RespawnDelayAfterDelete 1098
     m_SpawnGroups {
      "{349CF4EBE29EFFA2}Configs/GAME_SETTING/BOTS/ALIFE/mutants/wolfs.conf"
@@ -54,7 +54,7 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
     m_InitialSpawnDelay 15
     m_CheckPlayerRadius 32
-    m_SpawnChance 36
+    m_SpawnChance 60
     m_RespawnDelayAfterDelete 1098
     m_SpawnGroups {
      "{349CF4EBE29EFFA2}Configs/GAME_SETTING/BOTS/ALIFE/mutants/wolfs.conf"

@@ -1,3 +1,15 @@
+GenericEntity armst_itm_cards_69D80DA57395AEDC2 : "{0826AC41D0926A51}Prefabs/Items/Others/armst_itm_cards.et" {
+ coords 4931.878 327.025 3059.319
+ angles 0 -163.733 0
+}
+GenericEntity : "{0C51EDCEEC144BC1}Prefabs/Compositions/Misc/SubCompositions/CrateWooden_Cluttered_US_03.et" {
+ coords 4964.084 328.017 3047.191
+ angles 0 -163.733 0
+}
+GenericEntity : "{1A08789B13DFBAB5}Prefabs/Props/Civilian/TablePhotoFrame_01/TablePhotoFrame_01_base.et" {
+ coords 4968.808 305.601 3050.01
+ angles 0 -1.26 0
+}
 $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST_RADIATIONS.et" {
  {
   coords 3926.406 318.17 1695.745
@@ -1728,6 +1740,1431 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_DamageRadioLevel 300
  }
 }
+GenericEntity : "{1BFCA9525E528626}Prefabs/Compositions/Misc/SubCompositions/TableMilitary_Cluttered_US_02.et" {
+ coords 4968.876 304.701 3049.502
+ angles 0 -81.141 0
+}
+GenericEntity : "{1E98A2EEC901FCE4}Prefabs/Props/Commercial/Posters/PosterSet_E_04_Eden_V1.et" {
+ coords 4939.78 328.357 3060.483
+ angles -2.441 -172.325 4.247
+}
+$grp GenericEntity : "{21D83950DF36F250}Prefabs/Props/Military/Sandbags/Sandbag_01_long_burlap.et" {
+ {
+  coords 4956.102 329.901 3058.6
+  angles 0 -173.449 0
+ }
+ {
+  coords 4959.357 329.901 3058.227
+  angles 0 -173.449 0
+ }
+ {
+  coords 4947.265 330.125 3046.568
+  angles 0 6.53 0
+ }
+ {
+  coords 4944.01 330.125 3046.94
+  angles 0 6.53 0
+ }
+ {
+  coords 4952.896 326.381 3050.955
+  angles 0 -80.502 0
+ }
+ {
+  coords 4970.859 304.434 3064.61
+  angles 0 -174.714 0
+ }
+ {
+  coords 4970.884 304.201 3064.868
+  angles 0 -174.714 0
+ }
+ {
+  coords 4970.912 304.032 3065.174
+  angles 0 -174.714 0
+ }
+ {
+  coords 4970.941 303.809 3065.477
+  angles 0 -174.714 0
+ }
+ {
+  coords 4970.968 303.58 3065.771
+  angles 0 -174.714 0
+ }
+ {
+  coords 4970.858 304.434 3064.584
+  angles 0 -174.714 0
+ }
+ {
+  coords 4970.863 304.946 3064.629
+  angles 0 -172.46 0
+ }
+ {
+  coords 4971.021 303.28 3066.338
+  angles 0 -174.714 0
+ }
+}
+GenericEntity : "{235F2A4AA0858813}Prefabs/Props/Garbage/Generic/LitterInterior_01/Single/LitterInterior_USSR_01_cigarettes_V3.et" {
+ coords 4931.992 327.025 3059.335
+ angles 0 -63.696 0
+}
+GenericEntity : "{2887E99075B9C928}Prefabs/Props/Garbage/Generic/Litter_01_long.et" {
+ coords 4939.582 326.38 3055.057
+ angles 0 -172.707 0
+}
+GenericEntity : "{2BE613DDC7EA3851}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/EquipmentBoxStack_01_V4_base.et" {
+ coords 4964.177 326.38 3046.819
+ angles 0 -172.319 0
+}
+GenericEntity : "{33918FEBFD531C52}Prefabs/Props/Commercial/Posters/PosterSet_Montfort_01.et" {
+ coords 4940.723 327.98 3060.411
+ angles 0 -173.246 0
+}
+GenericEntity : "{3F6B9C6E835A3D75}Prefabs/Compositions/Misc/SubCompositions/EquipmentBoxStacked_Cluttered_USSR_06.et" {
+ coords 4949.9 326.381 3050.549
+ angles 0 -81.891 0
+ {
+  GenericEntity {
+   ID "59D87A521521CADA"
+   coords -0.254 0.587 0.243
+   angles 0 126.81 0
+  }
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{5388DCDED41DBEEC}Prefabs/Structures/Infrastructure/Bridges/BridgeConcrete_E_01_small/BridgeConcrete_E_01_small_base.et" {
+ {
+  coords 4973.077 -2.211 3047.077
+  angles 0 -172.551 -90.657
+ }
+ {
+  coords 4973.662 -2.211 3051.545
+  angles 0 -172.551 -90.657
+ }
+ {
+  coords 4974.167 -2.21 3055.986
+  angles 0 -172.551 -90.657
+ }
+ {
+  coords 4970.601 -2.188 3043.955
+  angles -0.657 96.999 -89.995
+ }
+ {
+  coords 4966.183 -2.137 3044.497
+  angles -0.657 96.999 -89.995
+ }
+ {
+  coords 4970.643 3.474 3043.739
+  angles -0.661 97.7 -179.693
+ }
+ {
+  coords 4966.266 3.525 3044.331
+  angles -0.661 97.7 -179.693
+ }
+ {
+  coords 4964.434 -2.112 3047.999
+  angles 0.004 7.106 -89.343
+ }
+ {
+  coords 4964.972 -2.112 3052.314
+  angles 0.004 7.106 -89.343
+ }
+ {
+  coords 4965.496 -2.112 3056.523
+  angles 0.004 7.106 -89.343
+ }
+ {
+  coords 4967.586 -5.318 3055.763
+  angles 0.657 -82.929 -90.004
+ }
+ {
+  coords 4969.501 -5.34 3055.526
+  angles 0.657 -82.929 -90.004
+ }
+ {
+  coords 4967.66 -5.208 3057.895
+  angles -0.657 97.246 -89.998
+ }
+ {
+  coords 4965.692 3.359 3059.993
+  angles -1.617 6.946 0.66
+  scale 0.7
+ }
+ {
+  coords 4966.145 3.269 3063.115
+  angles -1.633 8.315 0.622
+  scale 0.7
+ }
+ {
+  coords 4974.398 -5.074 3057.987
+  angles 0 -172.551 -90.657
+ }
+ {
+  coords 4974.937 -6.574 3062.254
+  angles 0 -172.551 -90.657
+ }
+ {
+  coords 4965.807 -5.185 3058.98
+  angles 0.004 7.106 -89.343
+ }
+ {
+  coords 4966.312 -6.615 3063.157
+  angles 0.004 7.106 -89.343
+ }
+ {
+  coords 4975.581 6.036 3061.939
+  angles -0.03 -172.721 0.156
+  scale 0.75
+ }
+ {
+  coords 4973.219 -4.136 3061.181
+  angles 0.192 96.128 -88.062
+  scale 0.8
+ }
+ {
+  coords 4967.697 -4.155 3061.773
+  angles 0.192 96.128 -88.062
+  scale 0.8
+ }
+ {
+  coords 4974.707 7.095 3060.136
+  angles 88.396 -167.132 5.59
+  scale 0.3
+ }
+ {
+  coords 4970.845 7.084 3060.631
+  angles 88.396 -167.132 5.59
+  scale 0.3
+ }
+ {
+  coords 4970.194 7.082 3060.713
+  angles 88.396 -167.132 5.59
+  scale 0.3
+ }
+ {
+  coords 4968.825 7.71 3060.483
+  angles 1.876 -172.716 0.156
+  scale 0.2
+ }
+ {
+  coords 4971.396 7.717 3060.155
+  angles 1.876 -172.716 0.156
+  scale 0.2
+ }
+ {
+  coords 4973.975 7.724 3059.825
+  angles 1.876 -172.716 0.156
+  scale 0.2
+ }
+ {
+  coords 4974.702 7.726 3059.731
+  angles 1.876 -172.716 0.156
+  scale 0.2
+ }
+ {
+  coords 4971.819 7.465 3055.233
+  angles -89.822 -83.808 91.762
+  scale 0.05
+ }
+ {
+  coords 4972.454 7.463 3055.145
+  angles -89.822 -83.808 91.762
+  scale 0.05
+ }
+ {
+  coords 4973.1 7.461 3055.054
+  angles -89.822 -83.808 91.762
+  scale 0.05
+ }
+ {
+  coords 4975.8 6.037 3063.663
+  angles -0.03 -172.721 0.156
+  scale 0.75
+ }
+}
+GenericEntity : "{56A2385928155F81}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/US/EquipmentBoxStack_US_01_V4.et" {
+ coords 4964.348 326.38 3047.928
+ angles 0 175.353 0
+}
+GenericEntity : "{5AE5E70D803BD389}Prefabs/Method/Props/Interior/TableOld_01_white_int_1.et" {
+ coords 4939.044 326.38 3056.918
+ angles 0 8.127 0
+}
+GenericEntity : "{5F41F44FF4723B83}Prefabs/Structures/BuildingParts/Doors/DoorFrame_FactoryHall_E_01_Elevator_UNI_B.et" {
+ coords 4972.774 306.08 3055.154
+ angles 0 -172.13 0
+}
+GenericEntity : "{7030822F7A54F479}Prefabs/Props/Crates/CrateWooden_01_base.et" {
+ coords 4932.102 326.38 3059.301
+ angles 0 145.238 0
+ scale 0.8
+}
+GenericEntity : "{75A4942F5100F111}Prefabs/Props/Commercial/Posters/PosterSet_E_06_Eden_V1.et" {
+ coords 4944.792 328.374 3059.911
+ angles 0 -172.236 -6.857
+}
+GenericEntity : "{7A4A0A8283210784}Prefabs/Compositions/Misc/SubCompositions/TableMilitary_Cluttered_US_01.et" {
+ coords 4969.662 304.692 3049.376
+ angles 0 -80.559 0
+}
+GenericEntity : "{7A5A9F26FE702332}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/FIA/EquipmentBoxStack_FIA_01_V4.et" {
+ coords 4964.475 326.38 3049.107
+ angles 0 -168.804 0
+}
+$grp GenericEntity : "{7AF4B627D5C90235}Prefabs/Props/Military/Sandbags/Sandbag_01_round_high_burlap.et" {
+ {
+  coords 4972.981 329.892 3055.347
+  angles 0 52.235 -1.406
+ }
+ {
+  coords 4962.887 331.284 3044.619
+  angles 0 142.251 -1.406
+ }
+ {
+  coords 4930.501 329.871 3060.683
+  angles 0 -29.069 -1.406
+ }
+}
+$grp GenericEntity : "{8963CD1DC1CDB614}Prefabs/Props/Civilian/BeerBottle_01_brown.et" {
+ {
+  coords 4932.311 327.024 3059.265
+  angles 0 -163.733 0
+ }
+ {
+  coords 4932.135 327.056 3059.426
+  angles -89.103 16.267 -180
+ }
+}
+GenericEntity : "{8FE6D62204173656}Prefabs/Props/Civilian/BeerBottle_01_group.et" {
+ coords 4932.735 326.38 3059.096
+ angles 0 -119.662 0
+}
+$grp StaticModelEntity : "{94021BCA593A8CFF}Prefabs/Structures/BuildingParts/Entry/ConcreteStairs_02_Wide.et" {
+ {
+  coords 4972.691 304.63 3063.544
+  angles 0 7.924 0
+ }
+ {
+  coords 4969.029 304.63 3064.053
+  angles 0 7.924 0
+ }
+}
+GenericEntity Map_Paper_01_unfolded_table_USSR_69A8101B0145CAC2 : "{942A96E02BC7AFA6}Prefabs/Items/Equipment/Maps/Map_Paper_01/Map_Paper_01_unfolded_table_USSR.et" {
+ coords 4969.028 305.601 3049.461
+ angles 0 -145.868 0
+}
+GenericEntity : "{985C3871D40C7F7B}Prefabs/Props/Garbage/Generic/Litter_01_small.et" {
+ coords 4934.3 326.38 3060.576
+ angles 0 -163.733 0
+}
+GenericEntity : "{9ABCFA281B9742E1}Prefabs/Structures/BuildingParts/Doors/Door_FactoryHall_E_01_Elevator_Right_COV_B.et" {
+ components {
+  DoorComponent "{221C667A9F7D4B69}" {
+   Enabled 1
+   DoorAction SCR_DoorUserAction "{50888D3646A61640}" {
+    m_FactionKey FACTION_MERCENARIES
+   }
+  }
+ }
+ coords 4971.853 306.08 3055.299
+ angles 0 8.192 0
+}
+SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Building_Base.et" {
+ components {
+  MeshObject "{506EDA9D46FC6C06}" {
+   Object "{96DC19608C7A7FB0}Assets/Structures/Industrial/Silos/CoalSilo_01/CoalSilo_01.xob"
+   CastFarShadow 0
+  }
+  SCR_DestructibleBuildingComponent "{6686C04FF97C0D34}" : "{809BE3CAD3BB1141}Prefabs/Structures/Core/Destruction/DestructibleBuildingComponent_Brick_Huge.ct" {
+   Enabled 0
+   m_aEffects {
+    SCR_TimedPrefab Prefab_Ruins_01 {
+     m_sRuinsPrefab "{5C7CEAFDFC51355A}Prefabs/Structures/Industrial/Silos/CoalSilo_01/Dst/CoalSilo_01_Ruin.et"
+    }
+   }
+   m_aInteriorQueryBoundingBoxes {
+    SCR_InteriorBoundingBox "{6686C04FC5F09D3E}" {
+     m_vCenter PointInfo "{6686C04FC0F59ED2}" {
+      Offset 0 9.5665 0
+     }
+     m_vScale 47 32 15
+    }
+    SCR_InteriorBoundingBox "{6686C04F9D2DE7FA}" {
+     m_vCenter PointInfo "{6686C04F99A6CC50}" {
+      Offset 18.473 7.4245 7.4693
+     }
+     m_vScale 8.5 9 4
+    }
+   }
+  }
+ }
+ coords 4950.874 4.682 3052.649
+ angles 0 7.173 0
+ SlotBoneMappings {
+  SlotBoneMappingObject "{65B4C207B65DD24C}" {
+   BonePrefix "socket_Win_CoalMine_01_275x160_44"
+   Prefab "{AA1744FBA4C28B28}Prefabs/Structures/BuildingParts/Windows/Win_CoalSilo_01/Win_CoalSilo_01_275x160_44.et"
+  }
+  SlotBoneMappingObject "{65B4C207D082248E}" {
+   BonePrefix "socket_Win_CoalMine_01_275x245_41_A"
+   Prefab "{D380D1F6EC8ADC19}Prefabs/Structures/BuildingParts/Windows/Win_CoalSilo_01/Win_CoalSilo_01_275x245_41.et"
+  }
+  SlotBoneMappingObject "{65B4C20727727C6C}" {
+   BonePrefix "socket_Win_CoalMine_01_345x85_5x1"
+   Prefab "{956B6A8CE7A13377}Prefabs/Structures/BuildingParts/Windows/Win_CoalSilo_01/Win_CoalMine_01_345x85_5x1.et"
+  }
+  SlotBoneMappingObject "{65B4C2077E2F176A}" {
+   BonePrefix "socket_Win_CoalSilo_01_340x210_555"
+   Prefab "{416B4177BA0C65DF}Prefabs/Structures/BuildingParts/Windows/Win_CoalSilo_01/Win_CoalSilo_01_340x210_555.et"
+  }
+  SlotBoneMappingObject "{65B4C20689C95450}" {
+   BonePrefix "socket_Win_CoalSilo_01_340x210_U"
+   Prefab "{B095A213D22631D0}Prefabs/Structures/BuildingParts/Windows/Win_CoalSilo_01/Win_CoalSilo_01_340x210_U.et"
+  }
+  SlotBoneMappingObject "{65B4C206C5A9FF63}" {
+   BonePrefix "socket_Win_FactoryHall_E_340x140_5x2"
+   Prefab "{B38D4CAC6D93DD6D}Prefabs/Structures/BuildingParts/Windows/Win_FactoryHall_E/Win_FactoryHall_E_340x140_55_B.et"
+  }
+  SlotBoneMappingObject "{65B4C206C9542470}" {
+   BonePrefix "socket_Win_Office_E_170x142_1_M1"
+   Prefab "{5F0FC29978CC1884}Prefabs/Structures/BuildingParts/Windows/Win_Office_E_A/Win_Office_E_170x142_1_M1.et"
+  }
+  SlotBoneMappingObject "{6624BD04DB331C94}" {
+   BonePrefix "socket_Door_Garage_E_01_A_LEFT_EXT_COV_B"
+   Prefab "{83D0D6400E94237D}Prefabs/Structures/BuildingParts/Doors/Door_Garage_E_01_A_LEFT_EXT_COV_B.et"
+  }
+  SlotBoneMappingObject "{6624BD04C23A72BF}" {
+   BonePrefix "socket_Door_Garage_E_01_A_RIGHT_EXT_COV_B"
+   Prefab "{EF84E2A0B250AC53}Prefabs/Structures/BuildingParts/Doors/Door_Garage_E_01_A_RIGHT_EXT_COV_B.et"
+  }
+  SlotBoneMappingObject "{6624BD04BF21860F}" {
+   BonePrefix "socket_HatchRoof"
+   Prefab "{2CF0D32718E0FDF7}Prefabs/Structures/BuildingParts/Doors/HatchSet_Lightbeacon.et"
+  }
+  SlotBoneMappingObject "{6624BD04BF0AC296}" {
+   BonePrefix "socket_Win_Office_E_90x142_1_M1"
+   Prefab "{2837ACC9E5EB18DF}Prefabs/Structures/BuildingParts/Windows/Win_Office_E_A/Win_Office_E_90x142_1_M1.et"
+  }
+  SlotBoneMappingObject "{6624BD04BF73593A}" {
+   BonePrefix "socket_door_Doorset_lighthouse_right"
+   Prefab "{176FDCEC3698D11E}Prefabs/Structures/BuildingParts/Doors/DoorSet_Lighthouse_main_01_RIGHT_INT_M1_grey.et"
+  }
+  SlotBoneMappingObject "{6624BD04BF5EE9E0}" {
+   BonePrefix "socket_ladder_CoalSilo_01"
+   Prefab "{F21F12BF163D66F7}Prefabs/Structures/BuildingParts/Ladders/Ladder_CoalSilo_01/Ladder_CoalSilo_01_358.et"
+  }
+ }
+ {
+  GenericEntity : "{032F4682B1E988AB}Prefabs/Structures/Industrial/Silos/CoalSilo_01/BuildingAddons/CoalSilo_01_LoadingMechanism.et" {
+  }
+  GenericEntity : "{16655C954EE01ADC}Prefabs/LOOT_BOX/2_TIER/2_TIER_Loot_randomize_random.et" {
+   components {
+    ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+     m_LootTiersSpawn {
+      ""
+      "TIER_2"
+     }
+    }
+   }
+   coords 21.698 17.791 6.271
+   angles 0 173.377 0
+  }
+  $grp GenericEntity : "{176FDCEC3698D11E}Prefabs/Structures/BuildingParts/Doors/DoorSet_Lighthouse_main_01_RIGHT_INT_M1_grey.et" {
+   {
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      Enabled 1
+      PivotID "socket_door_Doorset_lighthouse_right_176FDCEC3698D11E_9"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      Enabled 1
+      PivotID "socket_door_Doorset_lighthouse_right_176FDCEC3698D11E_8"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      Enabled 1
+      PivotID "socket_door_Doorset_lighthouse_right_176FDCEC3698D11E_2"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0.024
+   }
+   {
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      Enabled 1
+      PivotID "socket_door_Doorset_lighthouse_right_176FDCEC3698D11E_11"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      Enabled 1
+      PivotID "socket_door_Doorset_lighthouse_right_176FDCEC3698D11E_10"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      Enabled 1
+      PivotID "socket_door_Doorset_lighthouse_right_176FDCEC3698D11E_6"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      Enabled 1
+      PivotID "socket_door_Doorset_lighthouse_right_176FDCEC3698D11E_5"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      Enabled 1
+      PivotID "socket_door_Doorset_lighthouse_right_176FDCEC3698D11E_4"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+    {
+     GenericEntity {
+      ID "568AF714C5A34E88"
+      components {
+       DoorComponent "{221C667A9F7D4B69}" {
+        DoorAction SCR_DoorUserAction "{50888D3646A61640}" {
+         m_FactionKey FACTION_MERCENARIES
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  $grp GenericEntity : "{1CE252AD28BD0C6F}Prefabs/LOOT_BOX/Loot_randomize_garbarages.et" {
+   {
+    coords 16.262 0.206 6.206
+   }
+   {
+    coords 12.441 -2.217 -0.875
+   }
+  }
+  GenericEntity : "{255EBF0A141C7313}Prefabs/Structures/Industrial/Silos/CoalSilo_01/Furniture/CoalSilo_USSR_01_furniture_01.et" {
+   coords 0 0 0
+  }
+  $grp Building : "{2837ACC9E5EB18DF}Prefabs/Structures/BuildingParts/Windows/Win_Office_E_A/Win_Office_E_90x142_1_M1.et" {
+   {
+    components {
+     Hierarchy "{6624BD0BFAEF772B}" {
+      Enabled 1
+      PivotID "socket_Win_Office_E_90x142_1_M1_3"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{6624BD0BFAEF7BE2}" {
+      Enabled 1
+      PivotID "socket_Win_Office_E_90x142_1_M1_2"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     MeshObject "{5104B6C51D848E87}" {
+      Materials {
+       MaterialAssignClass "{663899CE5F8EA62C}" {
+        SourceMaterial "win_office_white"
+        AssignedMaterial "{86DD5E38D3531FA5}Assets/Structures/BuildingsParts/Windows/Data/win_office_white_INT.emat"
+       }
+      }
+     }
+     Hierarchy "{6624BD0BFAEF6FB1}" {
+      Enabled 1
+      PivotID "socket_Win_Office_E_90x142_1_M1_1.001"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{6624BD0BFAEF5E45}" {
+      Enabled 1
+      PivotID "socket_Win_Office_E_90x142_1_M1_5"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{6624BD0BFAEF4221}" {
+      Enabled 1
+      PivotID "socket_Win_Office_E_90x142_1_M1_4"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{6624BD0BFAEF1F9C}" {
+      Enabled 1
+      PivotID "socket_Win_Office_E_90x142_1_M1_1"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  GenericEntity : "{2CF0D32718E0FDF7}Prefabs/Structures/BuildingParts/Doors/HatchSet_Lightbeacon.et" {
+   components {
+    Hierarchy "{612AE78C85563E26}" {
+     Enabled 1
+     PivotID "socket_HatchRoof_2CF0D32718E0FDF7"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  $grp Building : "{416B4177BA0C65DF}Prefabs/Structures/BuildingParts/Windows/Win_CoalSilo_01/Win_CoalSilo_01_340x210_555.et" {
+   {
+    components {
+     Hierarchy "{6624BD0BFAF25CD7}" {
+      Enabled 1
+      PivotID "socket_Win_CoalSilo_01_340x210_555_6"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{6624BD0BFAF21FAA}" {
+      Enabled 1
+      PivotID "socket_Win_CoalSilo_01_340x210_555_5"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{6624BD0BFAF290E2}" {
+      Enabled 1
+      PivotID "socket_Win_CoalSilo_01_340x210_555_7"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{6624BD0BFAF3DB7F}" {
+      Enabled 1
+      PivotID "socket_Win_CoalSilo_01_340x210_555_4.001"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{6624BD0BFAF3862E}" {
+      Enabled 1
+      PivotID "socket_Win_CoalSilo_01_340x210_555_4"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{6624BD0BFAF30F18}" {
+      Enabled 1
+      PivotID "socket_Win_CoalSilo_01_340x210_555_21"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{6624BD0BFAF34334}" {
+      Enabled 1
+      PivotID "socket_Win_CoalSilo_01_340x210_555_3"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{6624BD0BFAF4B2DC}" {
+      Enabled 1
+      PivotID "socket_Win_CoalSilo_01_340x210_555_2"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{6624BD0BFAF4F7C5}" {
+      Enabled 1
+      PivotID "socket_Win_CoalSilo_01_340x210_555_20"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{6624BD0BFAF43875}" {
+      Enabled 1
+      PivotID "socket_Win_CoalSilo_01_340x210_555_18"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{6624BD0BFAF47D8E}" {
+      Enabled 1
+      PivotID "socket_Win_CoalSilo_01_340x210_555_19"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{6624BD0BFAF5A4CD}" {
+      Enabled 1
+      PivotID "socket_Win_CoalSilo_01_340x210_555_16"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{6624BD0BFAF5FAF7}" {
+      Enabled 1
+      PivotID "socket_Win_CoalSilo_01_340x210_555_17"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{6624BD0BFAF521BC}" {
+      Enabled 1
+      PivotID "socket_Win_CoalSilo_01_340x210_555_13"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{6624BD0BFAF5672B}" {
+      Enabled 1
+      PivotID "socket_Win_CoalSilo_01_340x210_555_15"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{6624BD0BFAF650D6}" {
+      Enabled 1
+      PivotID "socket_Win_CoalSilo_01_340x210_555_11"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{6624BD0BFAF6ECA3}" {
+      Enabled 1
+      PivotID "socket_Win_CoalSilo_01_340x210_555_12"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{6624BD0BFAF2D40F}" {
+      Enabled 1
+      PivotID "socket_Win_CoalSilo_01_340x210_555_8"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{6624BD0BFAF16868}" {
+      Enabled 1
+      PivotID "socket_Win_CoalSilo_01_340x210_555_9"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{6624BD0BFAF611BB}" {
+      Enabled 1
+      PivotID "socket_Win_CoalSilo_01_340x210_555_10"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{6624BD0BFAF7C899}" {
+      Enabled 1
+      PivotID "socket_Win_CoalSilo_01_340x210_555_1"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  $grp GenericEntity : "{43816DF1021ABD72}Prefabs/LOOT_BOX/3_TIER/3_TIER_Loot_randomize_tools.et" {
+   {
+    coords -10.116 21.611 -6.295
+    angles 0 -172.955 0
+   }
+   {
+    coords 13.43 21.47 5.171
+    angles 0 -172.955 0
+   }
+   {
+    coords 13.319 21.042 4.269
+    angles 0 -172.955 0
+   }
+   {
+    coords 13.313 22.013 4.221
+    angles 0 -172.955 0
+   }
+  }
+  GenericEntity : "{5B64B0F835B1A883}Prefabs/LOOT_BOX/3_TIER/3_TIER_Loot_randomize_clothes.et" {
+   coords 10.311 20.506 5.226
+   angles 5.371 0 0
+  }
+  Building : "{5F0FC29978CC1884}Prefabs/Structures/BuildingParts/Windows/Win_Office_E_A/Win_Office_E_170x142_1_M1.et" {
+   components {
+    Hierarchy "{6624BD0BFAF0CF3B}" {
+     Enabled 1
+     PivotID "socket_Win_Office_E_170x142_1_M1_1"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  $grp GenericEntity : "{62F1771F599A48D2}Prefabs/LOOT_BOX/2_TIER/2_TIER_Loot_randomize_food.et" {
+   {
+    coords 21.336 6.049 0.57
+    angles 0 -102.989 0
+   }
+   {
+    coords 22.051 18.513 3.29
+    angles 0 -102.989 0
+   }
+  }
+  GameEnvironmentProbeEntity : "{77A1FA799359AB25}Prefabs/Structures/Industrial/Houses/FactoryHall_E_01/Probe_FactoryHall_E_01.et" {
+   coords 20.444 7.143 2.589
+  }
+  GenericEntity : "{83D0D6400E94237D}Prefabs/Structures/BuildingParts/Doors/Door_Garage_E_01_A_LEFT_EXT_COV_B.et" {
+   components {
+    MeshObject "{309366462BDAFB24}" {
+     Materials {
+      MaterialAssignClass "{6624BD0BA9705F81}" {
+       SourceMaterial "door"
+       AssignedMaterial "{A7BBE3C8316DBA72}Assets/Structures/Houses/Garage/Garage_E_01/Data/Garage_E_01_multi03_INT.emat"
+      }
+     }
+    }
+    Hierarchy "{7642683606C70747}" {
+     Enabled 1
+     PivotID "socket_Door_Garage_E_01_A_LEFT_EXT_COV_B_83D0D6400E94237D"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  GenericEntity : "{882C2D54CE6104A7}Prefabs/LOOT_BOX/3_TIER/3_TIER_Loot_randomize_army.et" {
+   coords 13.15 20.577 -5.277
+   angles 0 -88.859 0
+  }
+  $grp GenericEntity : "{8BDBC683D236AE60}Prefabs/Structures/BuildingParts/Doors/DoorSet_Lighthouse_main_01_LEFT_INT_M1_grey.et" {
+   {
+    components {
+     MeshObject "{61B367470698533A}" {
+      Materials {
+       MaterialAssignClass "{6638758BFD558FE0}" {
+        SourceMaterial "Lighthouse_Small_01_mat2"
+        AssignedMaterial "{ECD58C168AA8B8E0}Assets/Structures/BuildingsParts/Doors/Data/Lighthouse_Small_01_mat3.emat"
+       }
+       MaterialAssignClass "{6638758BFD558FCE}" {
+        SourceMaterial "Lighthouse_Small_01_mat2_INT"
+        AssignedMaterial "{C96066A0C1A64C02}Assets/Structures/BuildingsParts/Doors/Data/Lighthouse_Small_01_mat3_INT.emat"
+       }
+      }
+     }
+     Hierarchy "{612AE78C85563E26}" {
+      PivotID "socket_door_Doorset_lighthouse_right_176FDCEC3698D11E_7"
+     }
+    }
+    {
+     GenericEntity {
+      ID "6638758AB9AC4D6C"
+      components {
+       DoorComponent "{221C667A9F7D4B69}" {
+        DoorAction SCR_DoorUserAction "{50888D3646A61640}" {
+         m_FactionKey FACTION_MERCENARIES
+        }
+       }
+      }
+     }
+    }
+   }
+   {
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      PivotID "socket_door_Doorset_lighthouse_right_176FDCEC3698D11E_1"
+     }
+    }
+   }
+   {
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      PivotID "socket_door_Doorset_lighthouse_right_176FDCEC3698D11E_3"
+     }
+    }
+   }
+  }
+  $grp Building : "{956B6A8CE7A13377}Prefabs/Structures/BuildingParts/Windows/Win_CoalSilo_01/Win_CoalMine_01_345x85_5x1.et" {
+   {
+    components {
+     MeshObject "{5104B6C51D848E87}" {
+      Materials {
+       MaterialAssignClass "{6624BD0BA3B7B2E4}" {
+        SourceMaterial "FactoryHall_E_Windows_Metal_01_9AA6014811AFD597"
+        AssignedMaterial "{E2D76E50424DC959}Assets/Structures/BuildingsParts/Windows/Win_FactoryHall_E_01/data/FactoryHall_E_Windows_Metal_01_INT.emat"
+       }
+      }
+     }
+     Hierarchy "{6624BD0BFAF78C81}" {
+      Enabled 1
+      PivotID "socket_Win_CoalMine_01_345x85_5x1_8"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{6624BD0BFAF7A3AE}" {
+      Enabled 1
+      PivotID "socket_Win_CoalMine_01_345x85_5x1_7"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{6624BD0BFAF76267}" {
+      Enabled 1
+      PivotID "socket_Win_CoalMine_01_345x85_5x1_5"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{6624BD0BFAF700E1}" {
+      Enabled 1
+      PivotID "socket_Win_CoalMine_01_345x85_5x1_4"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{6624BD0BFAF742E0}" {
+      Enabled 1
+      PivotID "socket_Win_CoalMine_01_345x85_5x1_6"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{6624BD0BFAF8C7EE}" {
+      Enabled 1
+      PivotID "socket_Win_CoalMine_01_345x85_5x1_2"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{6624BD0BFAF72095}" {
+      Enabled 1
+      PivotID "socket_Win_CoalMine_01_345x85_5x1_3"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{6624BD0BFAF8E93A}" {
+      Enabled 1
+      PivotID "socket_Win_CoalMine_01_345x85_5x1_1"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  $grp GenericEntity : "{A8FAF8D8950BF74B}Prefabs/LOOT_BOX/2_TIER/2_TIER_Loot_randomize_tools.et" {
+   {
+    coords 21.404 3.218 4.256
+    angles 0 -3.093 0
+   }
+   {
+    coords 17.966 6.095 7.466
+    angles 0 -3.093 0
+   }
+   {
+    coords 17.905 12.393 2.503
+    angles 0 -3.093 0
+   }
+   {
+    coords 21.066 12.791 6.365
+    angles 0 -3.093 0
+   }
+   {
+    coords 21.899 12.315 6.091
+    angles 0 -3.093 0
+   }
+   {
+    coords 18.709 17.672 1.76
+    angles 0 -3.093 0
+   }
+  }
+  $grp Building : "{AA1744FBA4C28B28}Prefabs/Structures/BuildingParts/Windows/Win_CoalSilo_01/Win_CoalSilo_01_275x160_44.et" {
+   {
+    components {
+     Hierarchy "{6624BD0BFAFAD4AD}" {
+      Enabled 1
+      PivotID "socket_Win_CoalMine_01_275x160_44_05"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{6624BD0BFAFAFD95}" {
+      Enabled 1
+      PivotID "socket_Win_CoalMine_01_275x160_44_04"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{6624BD0BFAF90C55}" {
+      Enabled 1
+      PivotID "socket_Win_CoalMine_01_275x160_44_06"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{6624BD0BFAFAA848}" {
+      Enabled 1
+      PivotID "socket_Win_CoalMine_01_275x160_44_02"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     MeshObject "{5104B6C51D848E87}" {
+      Materials {
+       MaterialAssignClass "{663899CCDF91D83A}" {
+        SourceMaterial "FactoryHall_E_Windows_Metal_01_9AA6014811AFD597"
+        AssignedMaterial "{E2D76E50424DC959}Assets/Structures/BuildingsParts/Windows/Win_FactoryHall_E_01/data/FactoryHall_E_Windows_Metal_01_INT.emat"
+       }
+      }
+     }
+     Hierarchy "{6624BD0BFAFA7011}" {
+      Enabled 1
+      PivotID "socket_Win_CoalMine_01_275x160_44_01.004"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{6624BD0BFAFA8040}" {
+      Enabled 1
+      PivotID "socket_Win_CoalMine_01_275x160_44_03"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     MeshObject "{5104B6C51D848E87}" {
+      Materials {
+       MaterialAssignClass "{663899CCE81F7533}" {
+        SourceMaterial "FactoryHall_E_Windows_Metal_01_9AA6014811AFD597"
+        AssignedMaterial "{E2D76E50424DC959}Assets/Structures/BuildingsParts/Windows/Win_FactoryHall_E_01/data/FactoryHall_E_Windows_Metal_01_INT.emat"
+       }
+      }
+     }
+     Hierarchy "{6624BD0BFAFA21EA}" {
+      Enabled 1
+      PivotID "socket_Win_CoalMine_01_275x160_44_01.002"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     MeshObject "{5104B6C51D848E87}" {
+      Materials {
+       MaterialAssignClass "{663899CCD96087ED}" {
+        SourceMaterial "FactoryHall_E_Windows_Metal_01_9AA6014811AFD597"
+        AssignedMaterial "{E2D76E50424DC959}Assets/Structures/BuildingsParts/Windows/Win_FactoryHall_E_01/data/FactoryHall_E_Windows_Metal_01_INT.emat"
+       }
+      }
+     }
+     Hierarchy "{6624BD0BFAFBF342}" {
+      Enabled 1
+      PivotID "socket_Win_CoalMine_01_275x160_44_01.001"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     MeshObject "{5104B6C51D848E87}" {
+      Materials {
+       MaterialAssignClass "{663899CCD4141E23}" {
+        SourceMaterial "FactoryHall_E_Windows_Metal_01_9AA6014811AFD597"
+        AssignedMaterial "{E2D76E50424DC959}Assets/Structures/BuildingsParts/Windows/Win_FactoryHall_E_01/data/FactoryHall_E_Windows_Metal_01_INT.emat"
+       }
+      }
+     }
+     Hierarchy "{6624BD0BFAFA1976}" {
+      Enabled 1
+      PivotID "socket_Win_CoalMine_01_275x160_44_01.003"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{6624BD0BFAFB888E}" {
+      Enabled 1
+      PivotID "socket_Win_CoalMine_01_275x160_44_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{6624BD0BFAF83080}" {
+      Enabled 1
+      PivotID "socket_Win_CoalMine_01_275x160_44_12"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{6624BD0BFAF86858}" {
+      Enabled 1
+      PivotID "socket_Win_CoalMine_01_275x160_44_13"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{6624BD0BFAF9E104}" {
+      Enabled 1
+      PivotID "socket_Win_CoalMine_01_275x160_44_10"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{6624BD0BFAF989D8}" {
+      Enabled 1
+      PivotID "socket_Win_CoalMine_01_275x160_44_09"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{6624BD0BFAF9D94F}" {
+      Enabled 1
+      PivotID "socket_Win_CoalMine_01_275x160_44_11"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{6624BD0BFAF97B07}" {
+      Enabled 1
+      PivotID "socket_Win_CoalMine_01_275x160_44_07"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{6624BD0BFAF95273}" {
+      Enabled 1
+      PivotID "socket_Win_CoalMine_01_275x160_44_08"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  Building : "{B095A213D22631D0}Prefabs/Structures/BuildingParts/Windows/Win_CoalSilo_01/Win_CoalSilo_01_340x210_U.et" {
+   components {
+    Hierarchy "{6624BD0BFAF1B8A9}" {
+     Enabled 1
+     PivotID "socket_Win_CoalSilo_01_340x210_U"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  $grp Building : "{B38D4CAC6D93DD6D}Prefabs/Structures/BuildingParts/Windows/Win_FactoryHall_E/Win_FactoryHall_E_340x140_55_B.et" {
+   {
+    components {
+     MeshObject "{5104B6C51D848E87}" {
+      Materials {
+       MaterialAssignClass "{6624BD0A4E15DD47}" {
+        SourceMaterial "FactoryHall_E_Windows_Metal_01"
+        AssignedMaterial "{E2D76E50424DC959}Assets/Structures/BuildingsParts/Windows/Win_FactoryHall_E_01/data/FactoryHall_E_Windows_Metal_01_INT.emat"
+       }
+      }
+     }
+     Hierarchy "{6624BD0BFAF09E16}" {
+      Enabled 1
+      PivotID "socket_Win_FactoryHall_E_340x140_5x2_5"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{6624BD0BFAF07AE4}" {
+      Enabled 1
+      PivotID "socket_Win_FactoryHall_E_340x140_5x2_3"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{6624BD0BFAF034D2}" {
+      Enabled 1
+      PivotID "socket_Win_FactoryHall_E_340x140_5x2_2"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{6624BD0BFAF0A818}" {
+      Enabled 1
+      PivotID "socket_Win_FactoryHall_E_340x140_5x2_4"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{6624BD0BFAF1F672}" {
+      Enabled 1
+      PivotID "socket_Win_FactoryHall_E_340x140_5x2_1"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  $grp GenericEntity : "{BE58F8F552188F52}Prefabs/LOOT_BOX/2_TIER/2_TIER_Loot_randomize_medicine.et" {
+   {
+    coords 14.943 8.959 8.698
+   }
+   {
+    coords 19.385 8.938 -0.815
+   }
+  }
+  GenericEntity : "{CDF1093C34EED8F1}Prefabs/LOOT_BOX/2_TIER/2_TIER_Loot_randomize_clothes2.et" {
+   coords 21.378 8.909 -0.456
+  }
+  $grp Building : "{D380D1F6EC8ADC19}Prefabs/Structures/BuildingParts/Windows/Win_CoalSilo_01/Win_CoalSilo_01_275x245_41.et" {
+   {
+    components {
+     Hierarchy "{6624BD0BFAF8BEC1}" {
+      Enabled 1
+      PivotID "socket_Win_CoalMine_01_275x245_41_A_2"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{6624BD0BFAF853F8}" {
+      Enabled 1
+      PivotID "socket_Win_CoalMine_01_275x245_41_A_1"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  $grp GenericEntity : "{D8028D9E0F8CFFEB}Prefabs/LOOT_BOX/3_TIER/3_TIER_Loot_randomize_random.et" {
+   {
+    components {
+     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+      m_LootTiersSpawn {
+       ""
+       "TIER_2"
+      }
+     }
+    }
+    coords 15.042 20.571 -5.224
+    angles 0 -150.634 0
+   }
+   {
+    components {
+     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+      m_LootTiersSpawn {
+       ""
+       "TIER_2"
+      }
+     }
+    }
+    coords -1.992 20.596 6.334
+    angles 0 -150.634 0
+   }
+  }
+  GenericEntity : "{EF84E2A0B250AC53}Prefabs/Structures/BuildingParts/Doors/Door_Garage_E_01_A_RIGHT_EXT_COV_B.et" {
+   components {
+    MeshObject "{309366462BDAFB24}" {
+     Materials {
+      MaterialAssignClass "{6624BD0BACE09A76}" {
+       SourceMaterial "door"
+       AssignedMaterial "{A7BBE3C8316DBA72}Assets/Structures/Houses/Garage/Garage_E_01/Data/Garage_E_01_multi03_INT.emat"
+      }
+     }
+    }
+    Hierarchy "{7642683606C70747}" {
+     Enabled 1
+     PivotID "socket_Door_Garage_E_01_A_RIGHT_EXT_COV_B_EF84E2A0B250AC53"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  GameEntity : "{F21F12BF163D66F7}Prefabs/Structures/BuildingParts/Ladders/Ladder_CoalSilo_01/Ladder_CoalSilo_01_358.et" {
+   components {
+    Hierarchy "{557E8CF8B87AB6F6}" {
+     Enabled 1
+     PivotID "socket_ladder_CoalSilo_01_473D02AD2238F505"
+     AutoTransform 1
+    }
+   }
+  }
+ }
+}
+$grp GenericEntity : "{AC49D9D23A2BD1D8}Prefabs/Props/Furniture/BunkBed_01_Double.et" {
+ {
+  coords 4929.778 326.38 3059.955
+  angles 0 -172.916 0
+ }
+ {
+  coords 4930.074 326.38 3057.108
+  angles 0 97.885 0
+ }
+}
 $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
  {
   coords 3685.099 328.911 1647.469
@@ -3118,4 +4555,336 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxAngles 26 25 25
   m_DamagePsyLevel 57
  }
+}
+$grp GenericEntity : "{B31A14BC1A0E7776}Prefabs/Props/Military/Sandbags/Sandbag_01_round_burlap.et" {
+ {
+  coords 4970.692 329.914 3055.92
+  angles 0 -28.983 0
+ }
+ {
+  coords 4972.861 329.962 3052.886
+  angles 0 126.296 0
+ }
+ {
+  coords 4950.043 329.914 3058.479
+  angles 0 -38.282 0
+ }
+ {
+  coords 4953.325 330.138 3046.69
+  angles 0 141.697 0
+ }
+ {
+  coords 4960.426 331.354 3044.739
+  angles 0 -143.688 0
+ }
+ {
+  coords 4963.461 331.305 3046.908
+  angles 0 61.033 0
+ }
+ {
+  coords 4932.916 329.942 3060.193
+  angles 0 44.992 0
+ }
+ {
+  coords 4929.589 329.893 3058.506
+  angles 0 -110.287 0
+ }
+ {
+  coords 4943.061 326.38 3052.089
+  angles 0 95.748 0
+ }
+}
+GenericEntity : "{B3283803059E2750}Prefabs/Props/Crates/CrateWooden_01_plain.et" {
+ components {
+  SCR_DestructionMultiPhaseComponent "{6684B114DDC8D314}" {
+   m_bDestroyParentWhenDestroyed 1
+   m_bDestroyChildrenWhenDestroyed 0
+  }
+  Hierarchy "{569E7A0B064DAFB0}" {
+  }
+ }
+ coords 4964.352 327.983 3048.732
+ angles 0 -11.252 0
+}
+GenericEntity : "{BCB7F6999ACCFCC0}Prefabs/Compositions/Misc/SubCompositions/Furniture/Table_Desk_USSR_06_Logistics.et" {
+ coords 4948.526 326.38 3055.533
+ angles 0 8.049 0
+ {
+  GameEntity Bayonet_6Kh4_69AF590AD892FD2 {
+   ID "65C48331D1F65939"
+  }
+  GenericEntity Magazine_762x54_SVD_10rnd_7BZ3API_69AF590AD892F2 {
+   ID "65C483306770D67B"
+  }
+ }
+}
+$grp GenericEntity : "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et" {
+ {
+  coords 4952.936 329.9 3058.975
+  angles 0 -173.006 0
+ }
+ {
+  coords 4962.633 329.9 3057.785
+  angles 0 -173.006 0
+ }
+ {
+  coords 4940.734 330.124 3047.381
+  angles 0 6.972 0
+ }
+ {
+  coords 4950.432 330.124 3046.194
+  angles 0 6.972 0
+ }
+}
+GenericEntity : "{C58BDB4D22E0A5A7}Prefabs/Props/Garbage/Generic/Litter_01_large.et" {
+ coords 4931.651 326.38 3058.356
+ angles 0 -123.299 0
+}
+GenericEntity : "{C8A9F7FDDF3CE851}Prefabs/Compositions/Misc/SubCompositions/Decorations/Barrel_Radio_01.et" {
+ coords 4955.114 326.38 3053.923
+ angles 0 65.985 0
+}
+$grp GenericEntity : "{C9DE18E34AEADA31}Prefabs/Structures/BuildingParts/Doors/DoorBoarded_PierShed_01_A.et" {
+ {
+  components {
+   Hierarchy "{612AE78C85563E26}" {
+    PivotID "Socket_door_001"
+   }
+  }
+  coords 4949.59 326.901 3059.34
+  angles 0 7.455 0
+  scale 1.1
+ }
+ {
+  components {
+   Hierarchy "{612AE78C85563E26}" {
+    PivotID "Socket_door_001"
+   }
+  }
+  coords 4944.592 326.752 3059.976
+  angles 0 7.455 0
+  scale 1.1
+ }
+ {
+  components {
+   Hierarchy "{612AE78C85563E26}" {
+    PivotID "Socket_door_001"
+   }
+  }
+  coords 4940.432 326.752 3060.477
+  angles 0 7.455 0
+  scale 1.1
+ }
+ {
+  components {
+   Hierarchy "{612AE78C85563E26}" {
+    PivotID "Socket_door_001"
+   }
+  }
+  coords 4953.818 326.901 3058.786
+  angles 0 7.455 0
+  scale 1.1
+ }
+ {
+  components {
+   Hierarchy "{612AE78C85563E26}" {
+    PivotID "Socket_door_001"
+   }
+  }
+  coords 4958.726 327.553 3058.202
+  angles 0 7.455 0
+  scale 1.1
+ }
+ {
+  components {
+   Hierarchy "{612AE78C85563E26}" {
+    PivotID "Socket_door_001"
+   }
+  }
+  coords 4962.858 326.901 3057.662
+  angles 0 7.455 0
+  scale 1.1
+ }
+ {
+  components {
+   Hierarchy "{612AE78C85563E26}" {
+    PivotID "Socket_door_001"
+   }
+  }
+  coords 4935.417 327.122 3061.133
+  angles 0 6.965 0
+  scale 1.1
+ }
+ {
+  components {
+   Hierarchy "{612AE78C85563E26}" {
+    PivotID "Socket_door_001"
+   }
+  }
+  coords 4931.333 327.122 3061.627
+  angles 0 6.943 0
+  scale 1.1
+ }
+ {
+  components {
+   Hierarchy "{612AE78C85563E26}" {
+    PivotID "Socket_door_001"
+   }
+  }
+  coords 4928.479 326.676 3057.687
+  angles 0 96.744 0
+  scale 1.1
+ }
+ {
+  components {
+   Hierarchy "{612AE78C85563E26}" {
+    PivotID "Socket_door_001"
+   }
+  }
+  coords 4927.924 326.72 3053.368
+  angles 0 96.491 0
+  scale 1.1
+ }
+ {
+  components {
+   Hierarchy "{612AE78C85563E26}" {
+    PivotID "Socket_door_001"
+   }
+  }
+  coords 4929.68 326.67 3048.792
+  angles 0 -172.522 0
+  scale 1.1
+ }
+ {
+  components {
+   Hierarchy "{612AE78C85563E26}" {
+    PivotID "Socket_door_001"
+   }
+  }
+  coords 4933.983 326.67 3048.227
+  angles 0 -172.522 0
+  scale 1.1
+ }
+ {
+  components {
+   Hierarchy "{612AE78C85563E26}" {
+    PivotID "Socket_door_001"
+   }
+  }
+  coords 4938.79 326.67 3047.632
+  angles 0 -172.522 0
+  scale 1.1
+ }
+ {
+  components {
+   Hierarchy "{612AE78C85563E26}" {
+    PivotID "Socket_door_001"
+   }
+  }
+  coords 4943.025 326.67 3047.104
+  angles 0 -172.522 0
+  scale 1.1
+ }
+ {
+  components {
+   Hierarchy "{612AE78C85563E26}" {
+    PivotID "Socket_door_001"
+   }
+  }
+  coords 4948.037 326.67 3046.484
+  angles 0 -172.522 0
+  scale 1.1
+ }
+ {
+  components {
+   Hierarchy "{612AE78C85563E26}" {
+    PivotID "Socket_door_001"
+   }
+  }
+  coords 4952.156 326.67 3045.944
+  angles 0 -172.522 0
+  scale 1.1
+ }
+ {
+  components {
+   Hierarchy "{612AE78C85563E26}" {
+    PivotID "Socket_door_001"
+   }
+  }
+  coords 4957.503 326.67 3045.242
+  angles 0 -172.522 0
+  scale 1.1
+ }
+ {
+  components {
+   Hierarchy "{612AE78C85563E26}" {
+    PivotID "Socket_door_001"
+   }
+  }
+  coords 4961.181 326.67 3044.759
+  angles 0 -172.522 0
+  scale 1.1
+ }
+}
+GenericEntity : "{CBFB6247D7EBE1DE}Prefabs/Structures/BuildingParts/Doors/Door_FactoryHall_E_01_Elevator_Left_COV_B.et" {
+ components {
+  DoorComponent "{221C667A9F7D4B69}" {
+   Enabled 1
+   DoorAction SCR_DoorUserAction "{50888D3646A61640}" {
+    m_FactionKey FACTION_MERCENARIES
+   }
+  }
+ }
+ coords 4973.668 306.074 3055.045
+ angles 0 -171.822 0
+}
+GenericEntity : "{E59D9776A5169843}Prefabs/Structures/BuildingParts/Doors/DoorSet_FactoryHall_E_01_Elevator_COV_B.et" {
+ components {
+  DoorComponent "{69AF5901C1DBB430}" {
+  }
+ }
+ coords 4970.477 304.69 3061.247
+ angles 0 -171.792 0
+ {
+  GenericEntity {
+   ID "568C838F54E32476"
+   components {
+    DoorComponent "{221C667A9F7D4B69}" {
+     Enabled 1
+     DoorAction SCR_DoorUserAction "{50888D3646A61640}" {
+      m_FactionKey FACTION_MERCENARIES
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "568C838F54E3245F"
+   components {
+    DoorComponent "{221C667A9F7D4B69}" {
+     Enabled 1
+     DoorAction SCR_DoorUserAction "{50888D3646A61640}" {
+      m_FactionKey FACTION_MERCENARIES
+     }
+    }
+   }
+  }
+ }
+}
+$grp GenericEntity : "{F6CF869062E6EDB0}Prefabs/Props/Furniture/Rack_01_Long.et" {
+ {
+  coords 4969.59 304.651 3045.338
+  angles 0 -173.195 0
+ }
+ {
+  coords 4964.847 304.651 3045.904
+  angles 0 -173.195 0
+ }
+}
+GenericEntity : "{F7CFDAC4BDDB42F3}Prefabs/Compositions/Misc/SubCompositions/Furniture/Table_Desk_FIA_01_Logistics.et" {
+ coords 4957.848 326.409 3050.34
+ angles 0 -82.38 0
+}
+GenericEntity : "{FE60E5AB52B7114D}Prefabs/Compositions/Misc/SubCompositions/TableMilitary_Cluttered_US_03.et" {
+ coords 4969.104 304.694 3048.402
+ angles 0 8.548 0
 }
