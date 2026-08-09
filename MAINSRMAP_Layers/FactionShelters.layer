@@ -533,9 +533,6 @@ $grp GenericEntity : "{1A1020205E2B1710}Prefabs/Props/Military/Furniture/TableMi
 GenericEntity : "{1A8791C2BC2B8B75}Prefabs/Structures/Military/Flags/FlagPole_01/FlagPole_01_empty.et" {
  coords 1189.468 297.733 1483.988
 }
-GenericEntity : "{1DE88E6E3B4FEC8D}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/USSR/EquipmentBoxStack_USSR_01_V3_covered.et" {
- coords 1265.718 298.128 1338.942
-}
 $grp GenericEntity : "{23E67B7C2DADBEFE}Prefabs/Props/Furniture/Rack_02_blue.et" {
  {
   coords 1268.837 298.128 1342.961
@@ -682,6 +679,10 @@ GenericEntity : "{65CD3EE14677E3AA}Prefabs/Props/Military/AmmoBoxes/EquipmentBox
 GenericEntity : "{6E84387991C01C6D}Prefabs/Props/Military/Training/Obstacles/ObstacleClimb_01.et" {
  coords 1188.559 297.733 1454.259
  angles 0 4.81 0
+}
+GenericEntity : "{70837F44CD03FD05}Prefabs/Props/Military/AmmoBoxes/USSR/EquipmentBoxWooden_Medical_01_USSR.et" {
+ coords 1269.324 298.512 1338.211
+ angles 0 -171.447 0
 }
 $grp SCR_DestructibleBuildingEntity : "{7720B78DED8FAB50}Prefabs/Perimetr/wall_perimetr.et" {
  {
@@ -1451,6 +1452,9 @@ $grp GameEntity : "{E7FD0B8019E96F73}Prefabs/Structures/BuildingParts/Lights/Lam
    }
   }
  }
+}
+GenericEntity : "{EC0546F8F656FBEF}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/USSR/EquipmentBoxStack_USSR_01_V3.et" {
+ coords 1265.642 298.128 1338.97
 }
 GenericEntity : "{F542F974956C255F}Prefabs/Props/Military/Compositions/CIV/ArsenalBox_CIV.et" {
  coords 5633.249 302.222 39.954
