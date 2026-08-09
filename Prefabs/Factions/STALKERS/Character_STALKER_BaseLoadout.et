@@ -26,12 +26,12 @@ SCR_ChimeraCharacter : "{5346CF7E39A65A6B}Prefabs/Characters/Factions/OPFOR/USSR
   SCR_CharacterDamageManagerComponent "{55872AD7B4E959F2}" {
    "Additional hit zones" {
     SCR_CharacterHealthHitZone Health {
-     BaseDamageMultiplier 0.8
+     BaseDamageMultiplier 0.85
      MaxHealth 1000
-     DamageReduction 0.2
+     DamageReduction 0.15
      "Collision multiplier" 0.9
      "Melee multiplier" 0.7
-     "Kinetic multiplier" 0.8
+     "Kinetic multiplier" 0.7
     }
     SCR_CharacterBloodHitZone Blood {
      BaseDamageMultiplier 0.8
@@ -48,7 +48,7 @@ SCR_ChimeraCharacter : "{5346CF7E39A65A6B}Prefabs/Characters/Factions/OPFOR/USSR
     SCR_CharacterHeadHitZone Head {
      ParentHZs {
       ParentHitZone "{60F48ADCA47D7F72}" {
-       DamageMultiplier 1
+       DamageMultiplier 2.5
        HealingMultiplier 1
       }
       ParentHitZone "{60F48ADCA47D7F6C}" {
