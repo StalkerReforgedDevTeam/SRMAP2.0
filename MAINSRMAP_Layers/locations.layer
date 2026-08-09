@@ -20427,7 +20427,7 @@ $grp GenericEntity : "{1A1CE09F7BCA6650}Prefabs/Props/Wrecks/S105_wreck/S105_wre
   angles -5.478 118.883 -8.361
  }
  {
-  coords 4973.656 301.108 3044.182
+  coords 4975.381 301.071 3043.927
   angles -2.027 8.371 1.468
  }
  {
@@ -49196,7 +49196,7 @@ $grp GenericEntity : "{3386EAA823BE462E}Prefabs/Props/Wrecks/UAZ469_wreck/UAZ469
   angles 0 -107.857 0
  }
  {
-  coords 4977.104 301.108 3043.8
+  coords 4978.83 301.071 3043.545
   angles -2.882 8.358 1.219
  }
  {
@@ -50010,7 +50010,7 @@ $grp GenericEntity : "{342E852E9A1847EA}Prefabs/Props/Industrial/Repair/VehicleG
   angles -0.809 8.312 3.687
  }
  {
-  coords 4973.527 301.108 3048.416
+  coords 4975.7 301.032 3048.735
   angles -1.977 81.66 0.267
  }
  {
@@ -62734,10 +62734,6 @@ $grp GenericEntity : "{48625A4DB8F80B77}Prefabs/shelfs/tumba_2.et" {
  {
   coords 4829.9 301.108 3128.874
   angles 0 80.433 0
- }
- {
-  coords 4926.101 322.819 3060.478
-  angles 0 -89.088 0
  }
 }
 $grp GameEntity : "{4864F258E90E998F}Prefabs/Method/Props/Camps/Fireplace_Sawmill_03.et" {
@@ -91669,144 +91665,6 @@ $grp SCR_DestructibleBuildingEntity : "{5F6FFBA678676161}Prefabs/Structures/Indu
  {
   coords 4977.425 2.294 2402.289
   angles 0 2.431 0
-  {
-   GenericEntity {
-    ID "697672715F8B2ED2"
-    components {
-     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-      m_LootTiersSpawn {
-       ""
-       "TIER_2"
-      }
-     }
-    }
-   }
-   GenericEntity {
-    ID "697672715F8B2F31"
-    components {
-     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-      m_LootTiersSpawn {
-       ""
-       "TIER_2"
-      }
-     }
-    }
-   }
-   GenericEntity {
-    ID "697672715F8B2F7A"
-    components {
-     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-      m_LootTiersSpawn {
-       ""
-       "TIER_2"
-      }
-     }
-    }
-   }
-   GenericEntity {
-    ID "697672715F8B2821"
-    components {
-     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-      m_LootTiersSpawn {
-       ""
-       "TIER_2"
-      }
-     }
-    }
-   }
-   GenericEntity {
-    ID "697672715F8B2827"
-    components {
-     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-      m_LootTiersSpawn {
-       ""
-       "TIER_2"
-      }
-     }
-    }
-   }
-   GenericEntity {
-    ID "697672715F8B282B"
-    components {
-     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-      m_LootTiersSpawn {
-       ""
-       "TIER_2"
-      }
-     }
-    }
-   }
-   GenericEntity {
-    ID "697672715F8B2835"
-    components {
-     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-      m_LootTiersSpawn {
-       ""
-       "TIER_2"
-      }
-     }
-    }
-   }
-   GenericEntity {
-    ID "697672715F8B283B"
-    components {
-     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-      m_LootTiersSpawn {
-       ""
-       "TIER_2"
-      }
-     }
-    }
-   }
-   GenericEntity {
-    ID "697672715F8B2841"
-    components {
-     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-      m_LootTiersSpawn {
-       ""
-       "TIER_2"
-      }
-     }
-    }
-   }
-   GenericEntity {
-    ID "697672715F8B2848"
-    components {
-     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-      m_LootTiersSpawn {
-       ""
-       "TIER_2"
-      }
-     }
-    }
-   }
-   GenericEntity {
-    ID "697672715F8B2852"
-    components {
-     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-      m_LootTiersSpawn {
-       ""
-       "TIER_2"
-      }
-     }
-    }
-   }
-   GenericEntity {
-    ID "697672715F8B285C"
-    components {
-     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-      m_LootTiersSpawn {
-       ""
-       "TIER_2"
-      }
-     }
-    }
-   }
-  }
- }
- {
-  coords 4947.788 1.121 3054.49
-  angles 0 6.992 0
   {
    GenericEntity {
     ID "697672715F8B2ED2"
@@ -137242,10 +137100,6 @@ $grp GenericEntity : "{98474A60874B3B79}Prefabs/deads/skeleton/dead_skeleton_6.e
   angles 0 -179.801 0
  }
  {
-  coords 4925.109 322.989 3054.988
-  angles 0 -65.218 0
- }
- {
   coords 2742.868 297.196 1516.441
   angles 0.465 -77.391 -4.648
  }
@@ -181807,7 +181661,7 @@ $grp GenericEntity : "{D5062960B7211EB4}Prefabs/Props/Construction/GarbageStack_
   angles 1.019 -81.268 -2.759
  }
  {
-  coords 4965.302 301.108 3061.252
+  coords 4960.844 301.202 3060.891
   angles 1.682 7.472 1.585
  }
  {
@@ -183836,9 +183690,6 @@ $grp GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
  }
  {
   coords 1556.048 300.42 1655.613
- }
- {
-  coords 4928.896 322.819 3059.231
  }
  {
   coords 2532.932 294.751 1230.741
@@ -192214,10 +192065,6 @@ $grp GenericEntity : "{DE658AC78172D02E}Prefabs/Props/Construction/GarbageStack_
 }
 $grp GenericEntity : "{DE9E5354FA04C6B1}Prefabs/beds/matrass_2.et" {
  {
-  coords 4926.639 322.819 3058.382
-  angles 0 -118.328 0
- }
- {
   coords 2535.061 294.748 1239.743
   angles -0.015 5.022 -1.48
  }
@@ -200511,20 +200358,6 @@ $grp GenericEntity : "{EDEF11FBC42A08F4}Prefabs/Props/Naval/FishingBuoy_01.et" {
 }
 StaticModelEntity : "{EE12FABB2ECF3F01}Prefabs/Structures/Walls/Concrete/SilageWall_02/SilageWall_02_pole.et" {
  coords 2251.154 -0.073 2131.223
-}
-GenericEntity : "{EE19BA2C457642FB}Prefabs/Method/Props/Interior/TableOld_01_white_int_4.et" {
- coords 6141.889 310.931 1625.246
- angles 0 -27.105 0
-}
-$grp GenericEntity : "{EE22BB8259C1A594}Prefabs/Props/Furniture/Armchair_03.et" {
- {
-  coords 4927.217 322.819 3062.124
-  angles 0 170.886 0
- }
- {
-  coords 4926.044 322.819 3056.572
-  angles 0 87.132 0
- }
 }
 $grp GenericEntity : "{EE4F3D995A7A1539}Prefabs/graves/grave_4.et" {
  {

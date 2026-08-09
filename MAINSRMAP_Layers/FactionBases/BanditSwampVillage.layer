@@ -389,7 +389,7 @@ $grp GenericEntity {
   angles 0 90.481 0
  }
  enter_perimetr10 {
-  coords 5827.713 342.582 2098.239
+  coords 4950.345 326.683 3053.549
   angles 0 -57.322 0
  }
  enter_perimetr11 {
@@ -8108,8 +8108,8 @@ GenericEntity : "{F1C5AA461DC6ECCE}Prefabs/Props/Civilian/PotOld_01.et" {
  angles -0.858 147.571 0.54
 }
 SCR_ChimeraCharacter : "{F4ED288351A63690}Prefabs/QUESTS/SRFACTIONS/MERC_VENDOR.et" {
- coords 5825.271 342.259 2093.431
- angles 0 175.382 0
+ coords 4940.671 326.38 3057.005
+ angles 0 54.845 0
 }
 $grp SCR_ChimeraCharacter : "{F66E613CDF1C27AE}Prefabs/QUESTS/MICH/MICH_BARMAN.et" {
  {

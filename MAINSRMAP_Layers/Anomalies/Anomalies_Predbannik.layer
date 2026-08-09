@@ -9,9 +9,9 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab3 "{88A31E6AEF75DF99}Prefabs/Anomals/Gravy/ARMST_GRAVY_train.et"
   m_SpawnCount 3
   m_CenterBias 0.6
-  m_SpawnChance 59
+  m_SpawnChance 60
   m_SpawnChanceArtefactsRestart 15.31
-  m_SpawnChanceArtefacts 15.82
+  m_SpawnChanceArtefacts 20
  }
  {
   coords 2076.953 306.413 295.895
@@ -23,9 +23,9 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab3 "{88A31E6AEF75DF99}Prefabs/Anomals/Gravy/ARMST_GRAVY_train.et"
   m_SpawnCount 3
   m_CenterBias 0.6
-  m_SpawnChance 59
+  m_SpawnChance 60
   m_SpawnChanceArtefactsRestart 15.31
-  m_SpawnChanceArtefacts 15.82
+  m_SpawnChanceArtefacts 20
  }
  {
   coords 2425.6 309.494 236.394
@@ -37,9 +37,9 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab3 "{88A31E6AEF75DF99}Prefabs/Anomals/Gravy/ARMST_GRAVY_train.et"
   m_SpawnCount 3
   m_CenterBias 0.6
-  m_SpawnChance 59
+  m_SpawnChance 60
   m_SpawnChanceArtefactsRestart 15.31
-  m_SpawnChanceArtefacts 15.82
+  m_SpawnChanceArtefacts 20
  }
  {
   coords 2877.404 309.827 232.341
@@ -51,9 +51,9 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab3 "{88A31E6AEF75DF99}Prefabs/Anomals/Gravy/ARMST_GRAVY_train.et"
   m_SpawnCount 3
   m_CenterBias 0.6
-  m_SpawnChance 59
+  m_SpawnChance 60
   m_SpawnChanceArtefactsRestart 15.31
-  m_SpawnChanceArtefacts 15.82
+  m_SpawnChanceArtefacts 20
  }
  {
   coords 2971.569 308.186 642.334
@@ -65,9 +65,9 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab3 "{88A31E6AEF75DF99}Prefabs/Anomals/Gravy/ARMST_GRAVY_train.et"
   m_SpawnCount 3
   m_CenterBias 0.6
-  m_SpawnChance 59
+  m_SpawnChance 60
   m_SpawnChanceArtefactsRestart 15.31
-  m_SpawnChanceArtefacts 15.82
+  m_SpawnChanceArtefacts 20
  }
  {
   coords 3506.651 306.709 360.99
@@ -79,9 +79,9 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab3 "{88A31E6AEF75DF99}Prefabs/Anomals/Gravy/ARMST_GRAVY_train.et"
   m_SpawnCount 3
   m_CenterBias 0.6
-  m_SpawnChance 59
+  m_SpawnChance 60
   m_SpawnChanceArtefactsRestart 15.31
-  m_SpawnChanceArtefacts 15.82
+  m_SpawnChanceArtefacts 20
  }
  {
   coords 4020.927 307.58 260.778
@@ -93,8 +93,8 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab3 "{88A31E6AEF75DF99}Prefabs/Anomals/Gravy/ARMST_GRAVY_train.et"
   m_SpawnCount 3
   m_CenterBias 0.6
-  m_SpawnChance 59
+  m_SpawnChance 60
   m_SpawnChanceArtefactsRestart 15.31
-  m_SpawnChanceArtefacts 15.82
+  m_SpawnChanceArtefacts 20
  }
 }
