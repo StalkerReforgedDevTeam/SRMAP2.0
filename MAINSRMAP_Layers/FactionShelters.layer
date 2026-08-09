@@ -641,6 +641,10 @@ $grp GenericEntity : "{34AD2F398FDFE5B3}Prefabs/Props/Military/AmmoBoxes/Equipme
   coords 1269.889 298.098 1340.834
  }
 }
+GenericEntity : "{388B774519BD6294}Prefabs/Props/Wrecks/T62_wreck/T62_wreck.et" {
+ coords 1355.235 289.816 1326.981
+ angles 6.602 171.11 0
+}
 GenericEntity : "{45C675ED3CFBBEC5}Prefabs/Props/Military/Compositions/US/ArsenalBox_US.et" {
  coords 5633.138 302.222 37.527
  angles 0 90 0
