@@ -554,6 +554,85 @@ GenericEntity : "{252BA65F8F02ACBF}Prefabs/Military/Compositions/USSR/ArsenalBox
  coords 5639.655 302.222 38.059
  angles 0 -90 0
 }
+$grp GenericEntity : "{25D05A17E3C163F7}Prefabs/Compositions/Misc/CustomEntities/DestructionEntities/BarrelFuel_01_closed_old_CompositionDestruction.et" {
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    m_bDestroyParentWhenDestroyed 1
+   }
+   Hierarchy "{5E64C0FB2C5324D7}" {
+   }
+  }
+  coords 4142.449 310.927 683.889
+  angles -85.931 -126.928 75.165
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    m_bDestroyParentWhenDestroyed 1
+   }
+   Hierarchy "{5E64C0FB2C5324D7}" {
+   }
+  }
+  coords 4142.867 310.944 684.421
+  angles -86.066 -143.258 91.455
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    m_bDestroyParentWhenDestroyed 1
+   }
+   Hierarchy "{5E64C0FB2C5324D7}" {
+   }
+  }
+  coords 4143.274 310.916 684.936
+  angles -86.065 -143.429 91.627
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    m_bDestroyParentWhenDestroyed 1
+   }
+   Hierarchy "{5E64C0FB2C5324D7}" {
+   }
+  }
+  coords 4142.665 311.517 684.191
+  angles -85.756 -163.922 112.068
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    m_bDestroyParentWhenDestroyed 1
+   }
+   Hierarchy "{5E64C0FB2C5324D7}" {
+   }
+  }
+  coords 4144.175 309.834 685.997
+  angles -85 180 128.095
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    m_bDestroyParentWhenDestroyed 1
+   }
+   Hierarchy "{5E64C0FB2C5324D7}" {
+   }
+  }
+  coords 4144.616 309.769 686.555
+  angles -85 180 128.095
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    m_bDestroyParentWhenDestroyed 1
+   }
+   Hierarchy "{5E64C0FB2C5324D7}" {
+   }
+  }
+  coords 4143.922 310.361 685.718
+  angles -85 180 128.095
+ }
+}
 GenericEntity : "{344ABEB98BB96721}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/USSR/EquipmentBoxStack_USSR_01_V4_covered.et" {
  coords 1263.506 298.129 1345.568
 }
@@ -562,7 +641,7 @@ $grp GenericEntity : "{34AD2F398FDFE5B3}Prefabs/Props/Military/AmmoBoxes/Equipme
   coords 1267.833 300.912 1343.089
  }
  {
-  coords 1269.889 298.291 1340.834
+  coords 1269.889 298.098 1340.834
  }
 }
 GenericEntity : "{45C675ED3CFBBEC5}Prefabs/Props/Military/Compositions/US/ArsenalBox_US.et" {
@@ -636,6 +715,91 @@ $grp SCR_DestructibleBuildingEntity : "{7720B78DED8FAB50}Prefabs/Perimetr/wall_p
  {
   coords 5627.389 300.302 33.211
   angles 0 -0.525 0
+ }
+ {
+  coords 1040.814 307.502 193.673
+  angles 0 90.243 0
+  scale 1.243
+ }
+ {
+  coords 1040.763 307.502 181.634
+  angles 0 90.243 0
+  scale 1.243
+ }
+ {
+  coords 1040.712 307.502 169.623
+  angles 0 90.243 0
+  scale 1.243
+ }
+ {
+  coords 1040.661 307.502 157.611
+  angles 0 90.243 0
+  scale 1.243
+ }
+ {
+  coords 1040.609 304.863 145.493
+  angles 0 90.243 0
+  scale 1.243
+ }
+ {
+  coords 1040.558 304.863 133.414
+  angles 0 90.243 0
+  scale 1.243
+ }
+ {
+  coords 1040.507 302.257 121.428
+  angles 0 90.243 0
+  scale 1.243
+ }
+ {
+  coords 1040.456 302.257 109.423
+  angles 0 90.243 0
+  scale 1.243
+ }
+ {
+  coords 1040.405 299.714 97.363
+  angles 0 90.243 0
+  scale 1.243
+ }
+ {
+  coords 1040.354 297.176 85.336
+  angles 0 90.243 0
+  scale 1.243
+ }
+ {
+  coords 1040.303 297.176 73.297
+  angles 0 90.243 0
+  scale 1.243
+ }
+ {
+  coords 1040.253 297.176 61.374
+  angles 0 90.243 0
+  scale 1.243
+ }
+ {
+  coords 1040.202 297.176 49.343
+  angles 0 90.243 0
+  scale 1.243
+ }
+ {
+  coords 1040.151 297.176 37.3
+  angles 0 90.243 0
+  scale 1.243
+ }
+ {
+  coords 1040.1 297.176 25.252
+  angles 0 90.243 0
+  scale 1.243
+ }
+ {
+  coords 1040.049 297.176 13.223
+  angles 0 90.243 0
+  scale 1.243
+ }
+ {
+  coords 1039.998 297.176 1.197
+  angles 0 90.243 0
+  scale 1.243
  }
 }
 GenericEntity : "{8703D964AC15EA53}PrefabsEditable/E_Identity_Selector.et" {
@@ -1133,6 +1297,42 @@ GenericEntity : "{B53B98CEA2D72735}Prefabs/Props/Military/Compositions/FIA/Arsen
  coords 5633.049 302.222 35.238
  angles 0 90 0
 }
+$grp GenericEntity : "{B61A08FB644D2050}Prefabs/Props/Furniture/LampFluorescent/LampFluorescent_01_exterior.et" {
+ {
+  coords 1237.035 303.078 1318.301
+  angles 0 -85 0
+  {
+   GameEntity {
+    ID "5F0AF54F02189810"
+    coords 0 0 0
+    {
+     LightEntity {
+      ID "58D69D7BA124BCB0"
+      coords 0 -0.095 0
+      angles -90 180 -180
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 1252.594 303.078 1316.745
+  angles 0 -85 0
+  {
+   GameEntity {
+    ID "5F0AF54F02189810"
+    coords 0 0 0
+    {
+     LightEntity {
+      ID "58D69D7BA124BCB0"
+      coords 0 -0.095 0
+      angles -90 180 -180
+     }
+    }
+   }
+  }
+ }
+}
 GenericEntity : "{CD62E36CFDCB8FD8}Prefabs/Props/Military/AmmoBoxes/USSR/EquipmentBoxWooden_Equipment_01_USSR.et" {
  coords 1267.311 299.713 1343.156
  angles 0 -83.708 0
@@ -1178,21 +1378,77 @@ GenericEntity : "{D8AE29ACE1733592}Prefabs/Military/Compositions/USSR/ArsenalBox
 GenericEntity : "{E42D5D871E203268}Prefabs/Military/Compositions/USSR/ArsenalBox_MERC.et" {
  coords 5635.177 302.225 34.889
 }
-GameEntity : "{E7FD0B8019E96F73}Prefabs/Structures/BuildingParts/Lights/LampTower_01.et" {
- components {
-  ParametricMaterialInstanceComponent "{5F1CC00DA3E4F97A}" {
+$grp GameEntity : "{E7FD0B8019E96F73}Prefabs/Structures/BuildingParts/Lights/LampTower_01.et" {
+ {
+  components {
+   ParametricMaterialInstanceComponent "{5F1CC00DA3E4F97A}" {
+   }
+  }
+  coords 1316.074 302.915 1373.35
+  angles 0 93.05 0
+  {
+   LightEntity : "{5BF23CDF9B8FB366}Prefabs/Structures/Industrial/Towers/LightTower_01/LightTower_01_light.et" {
+    coords -0.003 0.203 0.195
+    angles -26.64 0 0
+    LV 9
+    VolLightOffset -0.085
+    VolLightIntensity 0.1
+    LensFlareOffset -0.178
+   }
   }
  }
- coords 1316.074 302.915 1373.35
- angles 0 93.05 0
  {
-  LightEntity : "{5BF23CDF9B8FB366}Prefabs/Structures/Industrial/Towers/LightTower_01/LightTower_01_light.et" {
-   coords -0.003 0.203 0.195
-   angles -26.64 0 0
-   LV 9
-   VolLightOffset -0.085
-   VolLightIntensity 0.1
-   LensFlareOffset -0.178
+  components {
+   ParametricMaterialInstanceComponent "{5F1CC00DA3E4F97A}" {
+   }
+  }
+  coords 1179.068 312.152 1352.198
+  angles 0 -175 0
+  {
+   LightEntity : "{5BF23CDF9B8FB366}Prefabs/Structures/Industrial/Towers/LightTower_01/LightTower_01_light.et" {
+    coords -0.003 0.203 0.195
+    angles -26.64 0 0
+    LV 9
+    VolLightOffset -0.085
+    VolLightIntensity 0.1
+    LensFlareOffset -0.178
+   }
+  }
+ }
+ {
+  components {
+   ParametricMaterialInstanceComponent "{5F1CC00DA3E4F97A}" {
+   }
+  }
+  coords 1189.926 309.923 1363.635
+  angles 0 5 0
+  {
+   LightEntity : "{5BF23CDF9B8FB366}Prefabs/Structures/Industrial/Towers/LightTower_01/LightTower_01_light.et" {
+    coords -0.003 0.203 0.195
+    angles -26.64 0 0
+    LV 9
+    VolLightOffset -0.085
+    VolLightIntensity 0.1
+    LensFlareOffset -0.178
+   }
+  }
+ }
+ {
+  components {
+   ParametricMaterialInstanceComponent "{5F1CC00DA3E4F97A}" {
+   }
+  }
+  coords 1198.707 312.152 1350.288
+  angles 0 -175 0
+  {
+   LightEntity : "{5BF23CDF9B8FB366}Prefabs/Structures/Industrial/Towers/LightTower_01/LightTower_01_light.et" {
+    coords -0.003 0.203 0.195
+    angles -26.64 0 0
+    LV 9
+    VolLightOffset -0.085
+    VolLightIntensity 0.1
+    LensFlareOffset -0.178
+   }
   }
  }
 }

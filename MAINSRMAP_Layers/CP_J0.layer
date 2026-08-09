@@ -1420,8 +1420,8 @@ GenericEntity : "{7EC501BE30FB78D1}Prefabs/Compositions/Misc/CustomEntities/Inte
  angles 0 60.397 0
 }
 GenericEntity : "{81629CC060EFF293}Prefabs/Structures/BuildingParts/Heating/RadiatorCastIron_01/RadiatorCastIron_01_130.et" {
- coords 1253.01 301.606 1382.073
- angles 0 -84.032 0
+ coords 1252.602 301.606 1383.49
+ angles 0 -174.032 0
 }
 GenericEntity : "{82DDDA574CB4F0D9}Prefabs/Props/Industrial/BarrelFuel_01_Base.et" {
  coords 1268.168 297.733 1377.714
@@ -1566,18 +1566,6 @@ GenericEntity : "{8B3C689CC50F4825}Prefabs/Structures/BuildingParts/Doors/Door_M
 GenericEntity : "{8C30960EF8E50389}Prefabs/Vehicles/ural/armst_ural_wheels_tents.et" {
  coords 1130.307 297.733 1332.657
  angles 0 -86.683 0
-}
-SCR_ChimeraCharacter : "{8E99ACF4E7BD596B}Prefabs/QUESTS/SCIENCE/SCIENCE_MEDIC.et" {
- components {
-  ARMST_DIALOGS_COMPONENT "{6686D3236158621E}" {
-   m_DialogConfig "{7B04FC3FA20F79A9}Configs/GAME_SETTING/DIALOGS/ACTORS/SRFACTIONS/UKM_MEDIC.conf"
-  }
-  FactionAffiliationComponent "{520EC9618276DF23}" {
-   "faction affiliation" "FACTION_KB"
-  }
- }
- coords 1269.333 298.13 1324.39
- angles 0 -25.95 0
 }
 $grp GameEntity : "{8FF50E5D4B417196}Prefabs/Props/Furniture/LampFluorescent/LampFluorescent_01_glass.et" {
  {

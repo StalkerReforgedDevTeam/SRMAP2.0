@@ -815,7 +815,7 @@ $grp GameEntity : "{9FA626D6505E54F1}Prefabs/Structures/BuildingParts/Lights/Lig
   }
  }
  {
-  coords 4165.995 321.927 723.445
+  coords 4163.427 320.702 725.946
   angles 1.536 -138.312 -90.108
   {
    LightEntity {
@@ -874,6 +874,12 @@ $grp GenericEntity : "{ADFE16B4B41D9C1C}Prefabs/shelfs/tumba_3.et" {
 GenericEntity : "{B350840088390760}Prefabs/Compositions/Misc/SubCompositions/Decorations/Barrel_Group_Stack_01.et" {
  coords 4142.757 309.452 684.913
  angles 0 38.151 0
+ {
+  GenericEntity {
+   ID "5E64C0FA62CC72A9"
+   coords 0.415 0.932 -0.657
+  }
+ }
 }
 GenericEntity : "{B423187F6C8DEFFD}Prefabs/Compositions/Misc/SubCompositions/Decorations/Barrel_Group_Tire_01.et" {
  coords 4146.464 309.5 699.043
@@ -1087,46 +1093,6 @@ SCR_DestructibleBuildingEntity : "{E0D9F7441F05562B}Prefabs/Industrial/tanks_pmk
 }
 GenericEntity : "{E28A1732DA84AD7A}Prefabs/Trash/Food/GarbageFoodMilitaryUS_01.et" {
  coords 4153.043 310.435 696.625
-}
-$grp GenericEntity : "{E2B42E634BC002F4}worlds/ScenarioFramework/CustomPrefabs/Barrel.et" {
- {
-  coords 4139.706 309.452 686.489
- }
- {
-  coords 4139.649 310.446 686.466
- }
- {
-  coords 4139.677 309.452 687.109
-  angles -85.687 0 0
- }
- {
-  coords 4142.467 310.917 683.844
-  angles -86.34 56.152 -109.274
- }
- {
-  coords 4142.877 310.9 684.389
-  angles -86.34 56.152 -109.274
- }
- {
-  coords 4142.672 311.459 684.135
-  angles -86.34 56.152 -109.274
- }
- {
-  coords 4143.272 310.918 684.915
-  angles -86.34 56.152 -109.274
- }
- {
-  coords 4143.938 310.358 685.782
-  angles -86.34 56.152 -109.274
- }
- {
-  coords 4144.143 309.795 686.036
-  angles -86.34 56.152 -109.274
- }
- {
-  coords 4144.513 309.775 686.541
-  angles -86.34 56.152 -109.274
- }
 }
 GenericEntity : "{E3AA766C8F684F86}Prefabs/beds/matrass_5.et" {
  coords 4156.79 309.507 715.182
