@@ -3042,18 +3042,6 @@ $grp GenericEntity : "{8C30960EF8E50389}Prefabs/Vehicles/ural/armst_ural_wheels_
   }
  }
 }
-SCR_ChimeraCharacter : "{8E99ACF4E7BD596B}Prefabs/QUESTS/SCIENCE/SCIENCE_MEDIC.et" {
- components {
-  ARMST_DIALOGS_COMPONENT "{6686D3236158621E}" {
-   m_DialogConfig "{7B04FC3FA20F79A9}Configs/GAME_SETTING/DIALOGS/ACTORS/SRFACTIONS/UKM_MEDIC.conf"
-  }
-  ARMST_PLAYER_STATS_COMPONENT "{6275149C8E6B70D6}" {
-   m_FactionKey FACTION_ARMY
-  }
- }
- coords 3830.667 306.902 340.688
- angles 0 168.374 0
-}
 $grp GameEntity : "{8FF50E5D4B417196}Prefabs/Props/Furniture/LampFluorescent/LampFluorescent_01_glass.et" {
  {
   coords 3830.673 313.999 339.839
