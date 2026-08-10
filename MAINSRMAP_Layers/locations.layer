@@ -20514,41 +20514,6 @@ $grp GameEntity : "{1B1B80B11EA3FBA0}Prefabs/Method/Props/Camps/Fireplace_Loiter
   }
  }
  {
-  coords 3562.59 300.796 1841.688
-  {
-   GenericEntity {
-    ID "695EA19B169BBAFD"
-    components {
-     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-      m_LootTiersSpawn {
-       "TIER_2"
-      }
-     }
-    }
-   }
-   GenericEntity {
-    ID "695EA19B169BBB35"
-    components {
-     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-      m_LootTiersSpawn {
-       "TIER_2"
-      }
-     }
-    }
-   }
-   GenericEntity {
-    ID "695EA19B169BBB3F"
-    components {
-     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-      m_LootTiersSpawn {
-       "TIER_2"
-      }
-     }
-    }
-   }
-  }
- }
- {
   coords 3590.685 300.796 2352.848
   angles 0 -38.752 0
   {
@@ -28910,45 +28875,8 @@ $grp GenericEntity : "{24DE47095BD6BE7B}Prefabs/Props/Agriculture/Farm/HayBale_0
   scale 0.6
  }
  {
-  coords 3676.082 300.923 1935.29
-  angles 0 45.582 0
- }
- {
-  coords 3676.555 302.093 1935.615
-  angles 0 16.909 0
-  scale 0.5
- }
- {
-  coords 3676.769 300.584 1894.953
-  angles 0 -5.823 0
- }
- {
-  coords 3677.599 300.875 1891.893
-  angles 0 45.582 0
-  scale 0.5
- }
- {
-  coords 3676.804 301.767 1894.97
-  angles 0 -15.288 0
-  scale 0.7
- }
- {
   coords 3671.108 300.473 1895.116
   angles 0 -15.288 1.349
-  scale 0.7
- }
- {
-  coords 3705.478 301.277 1915.123
-  angles 0 26.926 0
- }
- {
-  coords 3704.632 301.276 1912.163
-  angles -3.006 61.044 -2.612
-  scale 0.5
- }
- {
-  coords 3700.627 300.692 1918.379
-  angles 0 17.461 7.752
   scale 0.7
  }
  {
@@ -28960,15 +28888,6 @@ $grp GenericEntity : "{24DE47095BD6BE7B}Prefabs/Props/Agriculture/Farm/HayBale_0
   coords 3677.738 300.804 1811.039
   angles 0 -17.101 0
   scale 0.6
- }
- {
-  coords 3683.538 300.314 1911.696
-  angles 0 7.217 0
- }
- {
-  coords 3683.707 301.484 1912.244
-  angles 0 -21.456 0
-  scale 0.5
  }
  {
   coords 3644.659 301.423 1882.105
@@ -176006,11 +175925,6 @@ $grp GenericEntity : "{CD681BCFF4A277D0}Prefabs/Terrains/holms/holms_5.et" {
   scale 1.88
  }
 }
-SCR_DestructibleBuildingEntity : "{CD7DF3C31C580E1B}Prefabs/Structures/Agriculture/Manure/SilageStorage_E_01/SilageStorage_E_01_base.et" {
- coords 3884.011 0 2127.689
- angles 0 -94.539 0
- scale 1.993
-}
 $grp SCR_DestructibleBuildingEntity : "{CDA3D7FDC416C3E3}Prefabs/Structures/Industrial/Houses/FactoryHallWIP_01/FactoryHallWIP_01.et" {
  {
   coords 4941.616 0 2698.048
@@ -182472,14 +182386,6 @@ $grp GenericEntity : "{D7F69BF7D2DCA0A8}Prefabs/Props/Industrial/Pallets/Pallet_
  {
   coords 3744.456 301.317 1913.386
   angles -10.852 -176.354 66.384
- }
- {
-  coords 3677.598 300.747 1891.815
-  angles 2.37 -5.164 -5.17
- }
- {
-  coords 3673.39 300.557 1907.387
-  angles 6.895 -4.394 1.27
  }
  {
   coords 3645.711 301.301 1872.497
@@ -196474,16 +196380,6 @@ $grp GenericEntity : "{E537DCDB9B3F2278}Prefabs/Props/Agriculture/Farm/HayPile_0
   angles 6.01 16.253 3.616
  }
  {
-  coords 3676.415 300.681 1894.851
-  angles 7.009 -16.256 -0.17
-  scale 1.2
- }
- {
-  coords 3676.246 302.119 1935.324
-  angles 3.92 41.275 5.817
-  scale 0.5
- }
- {
   coords 3677.401 300.889 1892.151
   angles 4.981 30.008 4.94
   scale 0.2
@@ -196494,18 +196390,8 @@ $grp GenericEntity : "{E537DCDB9B3F2278}Prefabs/Props/Agriculture/Farm/HayPile_0
   scale 0.2
  }
  {
-  coords 3705.125 301.374 1915.229
-  angles 7.009 16.494 -0.17
-  scale 1.2
- }
- {
   coords 3676.207 300.774 1810.687
   angles 0 -24.467 0
- }
- {
-  coords 3683.645 301.51 1911.824
-  angles 3.92 2.91 5.817
-  scale 0.5
  }
  {
   coords 3644.27 300.681 1881.986
