@@ -1,12 +1,4 @@
 $grp ARMST_ALIFE_InterestPoint {
- gorkiy_sebej {
-  coords 3563.605 300.796 1841.879
-  m_LocationKey GORKIY
-  m_sNextInterestPoint1 "gorkiy_house2"
-  m_sNextInterestPoint2 "gorkiy_farm"
-  m_sNextInterestPoint3 "gorkiy_house"
-  m_sNextInterestPoint4 "gorkiy_village"
- }
  gorkiy_farm {
   coords 3867.833 300.844 2087.279
   m_LocationKey GORKIY

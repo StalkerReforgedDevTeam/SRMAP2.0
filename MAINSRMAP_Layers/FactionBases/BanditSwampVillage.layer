@@ -91,10 +91,6 @@ $grp GenericEntity {
   coords 5322.869 301.966 63.543
   angles 0 90.481 0
  }
- enter_perimetr5 {
-  coords 3555.166 306.103 1841.555
-  angles 0 -57.322 0
- }
  {
   components {
    MeshObject "{699B5A3114C5D76B}" {
@@ -6863,56 +6859,6 @@ GenericEntity : "{5EFCA47FCA67A55F}Prefabs/Props/Decorations/Paintings/PaintingB
 GenericEntity : "{6005A2E4F98DC66F}Prefabs/Props/Garbage/Generic/LitterInterior_01/Single/LitterInterior_USSR_01_tincan_V3.et" {
  coords 1455.407 292.24 1931.664
 }
-$grp GenericEntity : "{625787D8FEB15355}Prefabs/Structures/BuildingParts/Lights/LightIndustrial_02_on_interior.et" {
- {
-  coords 3554.224 308.677 1848.866
-  angles -88.674 -89.33 88.453
-  {
-   LightEntity {
-    ID "6512711B1DB82A9B"
-    coords 0.007 0.007 0.554
-    angles 0.283 -180 180
-    Color 0 0.3372 0.0881 1
-    LV -3.12
-    Radius 26.4
-    SpotAngle 170
-    DistanceAttenuation 0.18
-   }
-  }
- }
- {
-  coords 3554.836 308.662 1842.955
-  angles -88.674 -89.33 88.453
-  {
-   LightEntity {
-    ID "6512711B1DB82A9B"
-    coords 0.007 0.007 0.554
-    angles 0.283 -180 180
-    Color 0 0.3372 0.0881 1
-    LV -3.12
-    Radius 26.4
-    SpotAngle 170
-    DistanceAttenuation 0.18
-   }
-  }
- }
- {
-  coords 3547.696 308.678 1842.846
-  angles -88.674 -89.33 88.453
-  {
-   LightEntity {
-    ID "6512711B1DB82A9B"
-    coords 0.007 0.007 0.554
-    angles 0.283 -180 180
-    Color 0 0.3372 0.0881 1
-    LV -3.12
-    Radius 26.4
-    SpotAngle 170
-    DistanceAttenuation 0.18
-   }
-  }
- }
-}
 GenericEntity : "{6BE5346DC96E4C96}Prefabs/Props/Civilian/PaperHolder_01/PaperHolder_01_base.et" {
  coords 1452.553 292.176 1943.751
  angles 1.008 5.703 0.105
@@ -7741,10 +7687,6 @@ $grp GenericEntity : "{E2B42E634BC002F4}worlds/ScenarioFramework/CustomPrefabs/B
 GenericEntity : "{E3AA766C8F684F86}Prefabs/beds/matrass_5.et" {
  coords 1458.29 295.529 1930.956
  angles 1.568 84.879 -1.222
-}
-SCR_ChimeraCharacter : "{EC0F8FDB1F5AB7C5}Prefabs/QUESTS/SRFACTIONS/FREEDOM_VENDOR.et" {
- coords 3556.31 305.774 1839.245
- angles 0 -33.968 0
 }
 GenericEntity : "{EEB26CC2CCC336F8}Prefabs/Structures/Infrastructure/Naval/Piers/Pier_Wood_Short_01.et" {
  coords 1455.511 290.813 1942.718

@@ -1,35 +1,3 @@
-$grp DecalEntity {
- {
-  coords 3714.222 0.038 2180.508
-  angles -90 -180 -180
-  scale 0.8
- }
- {
-  coords 3709.351 0.535 2181.125
-  angles -90 -180 -180
-  scale 0.8
- }
- {
-  coords 3712.313 0.067 2179.319
-  angles -90 -180 -180
-  scale 0.8
- }
- {
-  coords 3714.954 0.538 2181.537
-  angles -90 -180 -180
-  scale 1.5
- }
- {
-  coords 3713.818 0.063 2183.546
-  angles -90 0 47.364
-  scale 2
- }
- {
-  coords 3711.419 0.042 2180.871
-  angles -90 0 -4.442
-  scale 2
- }
-}
 $grp GenericEntity {
  {
   components {
@@ -163,7 +131,7 @@ SCR_DestructibleBuildingEntity : "{184042D4EAE59FF5}Prefabs/Structures/Houses/Vi
    ID "695EA19C3C75ADA0"
    components {
     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-     m_LootTiersSpawn +{
+     m_LootTiersSpawn {
       "TIER_2"
      }
     }
@@ -173,7 +141,7 @@ SCR_DestructibleBuildingEntity : "{184042D4EAE59FF5}Prefabs/Structures/Houses/Vi
    ID "695EA19C3C75ADDD"
    components {
     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-     m_LootTiersSpawn +{
+     m_LootTiersSpawn {
       "TIER_2"
      }
     }
@@ -183,7 +151,7 @@ SCR_DestructibleBuildingEntity : "{184042D4EAE59FF5}Prefabs/Structures/Houses/Vi
    ID "695EA19C3C75AE05"
    components {
     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-     m_LootTiersSpawn +{
+     m_LootTiersSpawn {
       "TIER_2"
      }
     }
@@ -193,7 +161,7 @@ SCR_DestructibleBuildingEntity : "{184042D4EAE59FF5}Prefabs/Structures/Houses/Vi
    ID "695EA19C3C75AE09"
    components {
     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-     m_LootTiersSpawn +{
+     m_LootTiersSpawn {
       "TIER_2"
      }
     }
@@ -203,7 +171,7 @@ SCR_DestructibleBuildingEntity : "{184042D4EAE59FF5}Prefabs/Structures/Houses/Vi
    ID "695EA19C3C75AE13"
    components {
     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-     m_LootTiersSpawn +{
+     m_LootTiersSpawn {
       "TIER_2"
      }
     }

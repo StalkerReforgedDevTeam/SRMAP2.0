@@ -251,22 +251,6 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
   coords 3897.014 300.796 2074.026
   scale 50
  }
- zombie30 {
-  components {
-   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
-    m_InitialSpawnDelay 15
-    m_CheckInterval 88
-    m_CheckPlayerRadius 32
-    m_SpawnChance 60
-    m_RespawnDelayAfterDelete 1098
-    m_SpawnGroups {
-     "{AA31A2A6BD9679D4}Configs/GAME_SETTING/BOTS/ALIFE/mutants/zombie.conf"
-    }
-   }
-  }
-  coords 3518.35 299.421 2016.264
-  scale 50
- }
  zombie31 {
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
