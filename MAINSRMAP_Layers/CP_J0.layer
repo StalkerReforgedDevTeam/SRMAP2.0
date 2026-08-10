@@ -1005,10 +1005,6 @@ GenericEntity : "{5E7626D8E78566B4}Prefabs/Props/Furniture/Desk_01_long.et" {
  coords 1250.109 301.211 1380.716
  angles 0 95.475 0
 }
-GenericEntity : "{6204943E9EC70EC2}Prefabs/Structures/Military/Camps/Canvas_Covers/US/CanvasCover_Medium_US.et" {
- coords 1221.55 297.733 1356.216
- angles 0 -113.986 0
-}
 GenericEntity : "{65BD05D59E6B4F1D}Prefabs/Props/Military/PaperHolder_01/PaperHolder_01_MissionBriefing.et" {
  coords 1250.803 302.124 1381.827
  angles 0 119.904 0
@@ -11337,7 +11333,7 @@ SCR_DestructibleBuildingEntity : "{F3916F47D2770AB3}Prefabs/Industrial/sklades_s
  {
   Building {
    ID "692C7190D21AB2A3"
-   coords 2.518 2.181 -0.198
+   coords 2.328 2.181 -0.196
    {
     GenericEntity {
      ID "59AC83AC7AD74305"

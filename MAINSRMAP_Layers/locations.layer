@@ -3040,200 +3040,14 @@ $grp SCR_DestructibleBuildingEntity : "{05446F713779A94D}Prefabs/Structures/Mili
  {
   coords 3654.274 0 2644.188
   angles 0 14.248 0
-  {
-   GenericEntity {
-    ID "6964E08DEEDFBC8E"
-    components {
-     ARMST_RANDOM_LOOTS_POINT "{669E640B5529F967}" {
-      m_LootTiersSpawn {
-       "TIER_2"
-      }
-     }
-    }
-   }
-   GenericEntity {
-    ID "6964E08DEEDFBCB4"
-    components {
-     ARMST_RANDOM_LOOTS_POINT "{669E640B5529F967}" {
-      m_LootTiersSpawn {
-       "TIER_2"
-      }
-     }
-    }
-   }
-   GenericEntity {
-    ID "6964E08DEEDFBCA3"
-    components {
-     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-      m_LootTiersSpawn {
-       "TIER_2"
-      }
-     }
-    }
-   }
-   GenericEntity {
-    ID "6964E08DEEDFBCA9"
-    components {
-     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-      m_LootTiersSpawn {
-       "TIER_2"
-      }
-     }
-    }
-   }
-   GenericEntity {
-    ID "6964E08DEEDFBCCB"
-    components {
-     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-      m_LootTiersSpawn {
-       "TIER_2"
-      }
-     }
-    }
-   }
-   GenericEntity {
-    ID "6964E08DEEDFBCF0"
-    components {
-     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-      m_LootTiersSpawn {
-       "TIER_2"
-      }
-     }
-    }
-   }
-  }
  }
  {
   coords 2580.72 0 1517.42
   angles 0 104.902 0
-  {
-   GenericEntity {
-    ID "6964E08DEEDFBC8E"
-    components {
-     ARMST_RANDOM_LOOTS_POINT "{669E640B5529F967}" {
-      m_LootTiersSpawn {
-       "TIER_2"
-      }
-     }
-    }
-   }
-   GenericEntity {
-    ID "6964E08DEEDFBCB4"
-    components {
-     ARMST_RANDOM_LOOTS_POINT "{669E640B5529F967}" {
-      m_LootTiersSpawn {
-       "TIER_2"
-      }
-     }
-    }
-   }
-   GenericEntity {
-    ID "6964E08DEEDFBCA3"
-    components {
-     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-      m_LootTiersSpawn {
-       "TIER_2"
-      }
-     }
-    }
-   }
-   GenericEntity {
-    ID "6964E08DEEDFBCA9"
-    components {
-     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-      m_LootTiersSpawn {
-       "TIER_2"
-      }
-     }
-    }
-   }
-   GenericEntity {
-    ID "6964E08DEEDFBCCB"
-    components {
-     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-      m_LootTiersSpawn {
-       "TIER_2"
-      }
-     }
-    }
-   }
-   GenericEntity {
-    ID "6964E08DEEDFBCF0"
-    components {
-     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-      m_LootTiersSpawn {
-       "TIER_2"
-      }
-     }
-    }
-   }
-  }
  }
  {
   coords 5898.41 0 1001.11
   angles 0 72.349 0
-  {
-   GenericEntity {
-    ID "6964E08DEEDFBC8E"
-    components {
-     ARMST_RANDOM_LOOTS_POINT "{669E640B5529F967}" {
-      m_LootTiersSpawn {
-       "TIER_2"
-      }
-     }
-    }
-   }
-   GenericEntity {
-    ID "6964E08DEEDFBCB4"
-    components {
-     ARMST_RANDOM_LOOTS_POINT "{669E640B5529F967}" {
-      m_LootTiersSpawn {
-       "TIER_2"
-      }
-     }
-    }
-   }
-   GenericEntity {
-    ID "6964E08DEEDFBCA3"
-    components {
-     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-      m_LootTiersSpawn {
-       "TIER_2"
-      }
-     }
-    }
-   }
-   GenericEntity {
-    ID "6964E08DEEDFBCA9"
-    components {
-     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-      m_LootTiersSpawn {
-       "TIER_2"
-      }
-     }
-    }
-   }
-   GenericEntity {
-    ID "6964E08DEEDFBCCB"
-    components {
-     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-      m_LootTiersSpawn {
-       "TIER_2"
-      }
-     }
-    }
-   }
-   GenericEntity {
-    ID "6964E08DEEDFBCF0"
-    components {
-     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-      m_LootTiersSpawn {
-       "TIER_2"
-      }
-     }
-    }
-   }
-  }
  }
 }
 SCR_DestructibleEntity : "{0568EFE48849C7A8}PrefabLibrary/DefaultLibrary/Walls/Pole/PoleFence_01_3m_End.et" {
@@ -5556,11 +5370,11 @@ $grp GenericEntity : "{0712799E7E8A0D56}Prefabs/Props/Industrial/GasTank_02_rust
   angles 0.14 -12.822 0.61
  }
  {
-  coords 1215.389 297.854 1372.475
+  coords 1215.389 297.731 1372.475
   angles 0 65.723 0
  }
  {
-  coords 1215.704 297.854 1372.286
+  coords 1215.704 297.729 1372.286
   angles 0 138.951 0
  }
  {
@@ -15035,11 +14849,11 @@ $grp GenericEntity : "{1112756E8A13445B}Prefabs/Props/Industrial/Pallets/Pallet_
   angles 1.4 79.919 0.206
  }
  {
-  coords 1197.313 297.854 1370.559
+  coords 1197.313 297.737 1370.559
   angles 0 99.109 0
  }
  {
-  coords 1193.131 297.854 1370.925
+  coords 1193.131 297.735 1370.925
   angles 0 -66.926 0
  }
  {
@@ -15047,11 +14861,11 @@ $grp GenericEntity : "{1112756E8A13445B}Prefabs/Props/Industrial/Pallets/Pallet_
   angles 0 102.529 0
  }
  {
-  coords 1196.072 297.854 1370.613
+  coords 1196.072 297.735 1370.613
   angles 0 102.529 0
  }
  {
-  coords 1194.762 297.854 1370.68
+  coords 1194.762 297.735 1370.68
   angles 0 -89.027 0
  }
  {
@@ -62286,15 +62100,15 @@ $grp GenericEntity : "{47E258BBC8968F11}Prefabs/Props/Industrial/GasTank_01_rust
   angles 0 126.933 0
  }
  {
-  coords 1213.008 297.854 1372.286
+  coords 1213.008 297.733 1372.286
   angles 0 -146.039 0
  }
  {
-  coords 1212.691 297.854 1372.368
+  coords 1212.691 297.733 1372.368
   angles 0 -72.855 0
  }
  {
-  coords 1213.024 297.854 1372.87
+  coords 1213.024 297.733 1372.87
   angles 0 -119.493 0
  }
  {
@@ -182752,20 +182566,20 @@ $grp GenericEntity : "{D7F69BF7D2DCA0A8}Prefabs/Props/Industrial/Pallets/Pallet_
   angles 0 -83.106 0
  }
  {
-  coords 1214.048 297.854 1373.689
+  coords 1214.048 297.716 1373.689
   angles 0 96.247 0
   {
    GenericEntity : "{0712799E7E8A0D56}Prefabs/Props/Industrial/GasTank_02_rusty.et" {
-    coords 0.229 0 -0.404
+    coords 0.229 0.133 -0.404
     angles 0 108.383 0
    }
    $grp GenericEntity : "{47E258BBC8968F11}Prefabs/Props/Industrial/GasTank_01_rusty.et" {
     {
-     coords -0.199 0 -0.391
+     coords -0.199 0.126 -0.391
      angles 0 110.328 0
     }
     {
-     coords 0.108 0 0.037
+     coords 0.108 0.134 0.037
      angles 0 175.352 0
     }
    }
