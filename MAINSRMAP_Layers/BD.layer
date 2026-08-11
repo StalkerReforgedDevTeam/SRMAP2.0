@@ -220,6 +220,9 @@ SCR_GameModeEditor Armst_GameMaster : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Editor
   }
   SRZ_PDALoggerComponent "{69A16C0FED1C8963}" {
   }
+  SR_LootManagerComponent "{6A169C8F3A05D4FA}" {
+   respawnDelay 120
+  }
  }
  coords 4176.283 311.046 720.867
  m_bAllowFactionChange 0

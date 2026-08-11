@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{7DE5BAFB9ADC92D3}Prefabs/LootSystem/Loot Containers/medical/sr_lootbag_med_tier2_4.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

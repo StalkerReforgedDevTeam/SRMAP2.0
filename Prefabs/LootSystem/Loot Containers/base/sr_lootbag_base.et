@@ -1,0 +1,114 @@
+GenericEntity {
+ ID "6A10A05B8C159F67"
+ components {
+  MeshObject "{6A10A05BA1FC3244}" {
+   Object "{F63FB77CF5C853D7}Assets/Items/Equipment/Backpacks/Backpack_Kolobok/Backpack_Kolobok_item.xob"
+   Materials {
+    MaterialAssignClass "{6A10A05BA1FC3EFC}" {
+     SourceMaterial "Bandolier_Soviet"
+     AssignedMaterial ""
+    }
+   }
+   LODFactors {
+    1 1 1 1 1 1
+   }
+   WetnessAdder 1
+   ClutterOccluder 1
+   ClutterOccluderClipPlane 0.9
+  }
+  RigidBody "{6A10A05BA1FC3237}" {
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_SoundDataComponent "{6A10A05BA1FC19B5}" {
+   m_aAudioSourceConfiguration {
+    SCR_AudioSourceConfiguration "{6A10A05BA1FC320F}" {
+     m_sSoundProject "{91A1BD15042AB594}Sounds/Loot/loot_box.acp"
+     m_sSoundEventName "ARMST_LOOT_SOUND_BOX"
+     m_eFlags 0
+    }
+    SCR_AudioSourceConfiguration "{6A10A05BA1FC320B}" {
+     m_sSoundProject "{8758ECB20B72D625}Sounds/Loot/loot_inv.acp"
+     m_sSoundEventName "ARMST_LOOT_SOUND_INV"
+     m_eFlags 0
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{6A10A05BA1FC1929}" {
+   Attributes SCR_ItemAttributeCollection "{6A10A05BA1FC1967}" {
+    ItemDisplayName UIInfo "{6A10A05BA1FC1955}" {
+     Name " "
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{6A10A05BA1FC194D}" {
+     Weight 100
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{6A10A05BA1FC1945}" {
+      CameraPreset Top
+      CameraDistanceToItem 1.05
+     }
+    }
+    m_Size SLOT_0x0
+    m_SlotType SLOT_ANY
+    m_bDraggable 0
+    m_bStackable 0
+    m_bRefundable 0
+    m_iCustomGridWidth 10
+    m_iCustomGridHeight 10
+   }
+   UseCapacityCoefficient 0
+   MaxCumulativeVolume 1000000000
+   m_iGridColumns 10
+   m_iGridRows 15
+   m_fMaxWeight 100000000
+  }
+  SR_LootRollComponent "{6A10A05B9689C295}" {
+  }
+  InventoryStorageManagerComponent "{6A10A05BA1FC192D}" {
+   Enabled 0
+  }
+  SCR_InventoryStorageManagerComponent "{6A10A05BA1FC1924}" {
+  }
+  ActionsManagerComponent "{6A10A05BA1FC1AB3}" {
+   ActionContexts {
+    UserActionContext "{6A10A05BA1FC1AEA}" {
+     ContextName "Default"
+     Position PointInfo "{6A10A05BA1FC1AC3}" {
+      Offset 0.0114 0.2698 0.0743
+     }
+     Radius 0.54
+    }
+   }
+   additionalActions {
+    SCR_OpenStorageAction "{6A10A05BA1FC1A99}" {
+     ParentContextList {
+      "Default"
+     }
+     UIInfo UIInfo "{6A10A05BA1FC1AE7}" {
+      Name "#AR-Inventory_OpenStorage"
+     }
+     Duration 0
+     "Sort Priority" 1
+    }
+    SR_OpenLootAction "{6A10C87FDDC23A74}" {
+     ParentContextList {
+      "Default"
+     }
+     UIInfo UIInfo "{6A10C87FDB1CFC1B}" {
+      Name "Search"
+     }
+     Duration 1
+    }
+   }
+  }
+  RplComponent "{6A10A05BA1FC1AAB}" {
+   "Rpl State Override" Runtime
+  }
+ }
+ Flags 0x403 0
+ editor EntityEditorProps "{6A10A05BA1FC1AA4}" {
+  Icon "{6F6D4174AF1AC29B}Prefabs/WorldEditor/EntityIcons/Decal/ChatDecal.et"
+  Scale 10
+ }
+ coords 0 0 0
+}
