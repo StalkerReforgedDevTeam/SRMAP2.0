@@ -117,12 +117,12 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   SphereRadius 72.6
   UpdatePeriod 7
   m_ObjectPrefab "{1918FCF94E1DC74D}Prefabs/Anomals/Eye/ARMST_EYE.et"
-  m_ObjectPrefab3 "{D43F10276490CD14}Prefabs/Anomals/Explosions/Lighting/Explosion_flash.et"
-  m_SpawnCount 3
-  m_MinDistanceBetweenAnomalies 10
+  m_ObjectPrefab3 "{78F0DD9ECF457B08}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T1.et"
+  m_SpawnCount 7
+  m_MinDistanceBetweenAnomalies 15
   m_MinDistanceToPlayer 25
-  m_SpawnChance 60
-  m_SpawnChanceArtefactsRestart 15.31
+  m_SpawnChance 46
+  m_SpawnChanceArtefactsRestart 20
   m_SpawnChanceArtefacts 20
  }
  {
@@ -130,12 +130,12 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   SphereRadius 72.6
   UpdatePeriod 7
   m_ObjectPrefab "{1918FCF94E1DC74D}Prefabs/Anomals/Eye/ARMST_EYE.et"
-  m_ObjectPrefab3 "{D43F10276490CD14}Prefabs/Anomals/Explosions/Lighting/Explosion_flash.et"
-  m_SpawnCount 3
-  m_MinDistanceBetweenAnomalies 10
+  m_ObjectPrefab3 "{78F0DD9ECF457B08}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T1.et"
+  m_SpawnCount 7
+  m_MinDistanceBetweenAnomalies 15
   m_MinDistanceToPlayer 25
-  m_SpawnChance 60
-  m_SpawnChanceArtefactsRestart 15.31
+  m_SpawnChance 46
+  m_SpawnChanceArtefactsRestart 20
   m_SpawnChanceArtefacts 20
  }
  {
@@ -143,12 +143,12 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   SphereRadius 72.6
   UpdatePeriod 7
   m_ObjectPrefab "{1918FCF94E1DC74D}Prefabs/Anomals/Eye/ARMST_EYE.et"
-  m_ObjectPrefab3 "{D43F10276490CD14}Prefabs/Anomals/Explosions/Lighting/Explosion_flash.et"
-  m_SpawnCount 3
-  m_MinDistanceBetweenAnomalies 10
+  m_ObjectPrefab3 "{78F0DD9ECF457B08}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T1.et"
+  m_SpawnCount 7
+  m_MinDistanceBetweenAnomalies 15
   m_MinDistanceToPlayer 25
-  m_SpawnChance 60
-  m_SpawnChanceArtefactsRestart 15.31
+  m_SpawnChance 46
+  m_SpawnChanceArtefactsRestart 20
   m_SpawnChanceArtefacts 20
  }
  {
@@ -156,12 +156,12 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   SphereRadius 72.6
   UpdatePeriod 7
   m_ObjectPrefab "{1918FCF94E1DC74D}Prefabs/Anomals/Eye/ARMST_EYE.et"
-  m_ObjectPrefab3 "{D43F10276490CD14}Prefabs/Anomals/Explosions/Lighting/Explosion_flash.et"
-  m_SpawnCount 3
-  m_MinDistanceBetweenAnomalies 10
+  m_ObjectPrefab3 "{78F0DD9ECF457B08}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T1.et"
+  m_SpawnCount 7
+  m_MinDistanceBetweenAnomalies 15
   m_MinDistanceToPlayer 25
-  m_SpawnChance 60
-  m_SpawnChanceArtefactsRestart 15.31
+  m_SpawnChance 46
+  m_SpawnChanceArtefactsRestart 20
   m_SpawnChanceArtefacts 20
  }
  {
@@ -169,12 +169,12 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   SphereRadius 72.6
   UpdatePeriod 7
   m_ObjectPrefab "{1918FCF94E1DC74D}Prefabs/Anomals/Eye/ARMST_EYE.et"
-  m_ObjectPrefab3 "{D43F10276490CD14}Prefabs/Anomals/Explosions/Lighting/Explosion_flash.et"
-  m_SpawnCount 3
-  m_MinDistanceBetweenAnomalies 10
+  m_ObjectPrefab3 "{78F0DD9ECF457B08}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T1.et"
+  m_SpawnCount 7
+  m_MinDistanceBetweenAnomalies 15
   m_MinDistanceToPlayer 25
-  m_SpawnChance 60
-  m_SpawnChanceArtefactsRestart 15.31
+  m_SpawnChance 46
+  m_SpawnChanceArtefactsRestart 20
   m_SpawnChanceArtefacts 20
  }
  {
@@ -182,12 +182,12 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   SphereRadius 72.6
   UpdatePeriod 7
   m_ObjectPrefab "{1918FCF94E1DC74D}Prefabs/Anomals/Eye/ARMST_EYE.et"
-  m_ObjectPrefab3 "{D43F10276490CD14}Prefabs/Anomals/Explosions/Lighting/Explosion_flash.et"
-  m_SpawnCount 3
-  m_MinDistanceBetweenAnomalies 10
+  m_ObjectPrefab3 "{78F0DD9ECF457B08}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T1.et"
+  m_SpawnCount 7
+  m_MinDistanceBetweenAnomalies 15
   m_MinDistanceToPlayer 25
-  m_SpawnChance 60
-  m_SpawnChanceArtefactsRestart 15.31
+  m_SpawnChance 46
+  m_SpawnChanceArtefactsRestart 20
   m_SpawnChanceArtefacts 20
  }
  {
@@ -195,12 +195,12 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   SphereRadius 72.6
   UpdatePeriod 7
   m_ObjectPrefab "{1918FCF94E1DC74D}Prefabs/Anomals/Eye/ARMST_EYE.et"
-  m_ObjectPrefab3 "{D43F10276490CD14}Prefabs/Anomals/Explosions/Lighting/Explosion_flash.et"
-  m_SpawnCount 3
-  m_MinDistanceBetweenAnomalies 10
+  m_ObjectPrefab3 "{78F0DD9ECF457B08}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T1.et"
+  m_SpawnCount 7
+  m_MinDistanceBetweenAnomalies 15
   m_MinDistanceToPlayer 25
-  m_SpawnChance 60
-  m_SpawnChanceArtefactsRestart 15.31
+  m_SpawnChance 46
+  m_SpawnChanceArtefactsRestart 20
   m_SpawnChanceArtefacts 20
  }
  {
@@ -208,12 +208,12 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   SphereRadius 72.6
   UpdatePeriod 7
   m_ObjectPrefab "{1918FCF94E1DC74D}Prefabs/Anomals/Eye/ARMST_EYE.et"
-  m_ObjectPrefab3 "{D43F10276490CD14}Prefabs/Anomals/Explosions/Lighting/Explosion_flash.et"
-  m_SpawnCount 3
-  m_MinDistanceBetweenAnomalies 10
+  m_ObjectPrefab3 "{78F0DD9ECF457B08}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T1.et"
+  m_SpawnCount 7
+  m_MinDistanceBetweenAnomalies 15
   m_MinDistanceToPlayer 25
-  m_SpawnChance 60
-  m_SpawnChanceArtefactsRestart 15.31
+  m_SpawnChance 46
+  m_SpawnChanceArtefactsRestart 20
   m_SpawnChanceArtefacts 20
  }
  {
@@ -221,12 +221,12 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   SphereRadius 72.6
   UpdatePeriod 7
   m_ObjectPrefab "{1918FCF94E1DC74D}Prefabs/Anomals/Eye/ARMST_EYE.et"
-  m_ObjectPrefab3 "{D43F10276490CD14}Prefabs/Anomals/Explosions/Lighting/Explosion_flash.et"
-  m_SpawnCount 3
-  m_MinDistanceBetweenAnomalies 10
+  m_ObjectPrefab3 "{78F0DD9ECF457B08}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T1.et"
+  m_SpawnCount 7
+  m_MinDistanceBetweenAnomalies 15
   m_MinDistanceToPlayer 25
-  m_SpawnChance 60
-  m_SpawnChanceArtefactsRestart 15.31
+  m_SpawnChance 46
+  m_SpawnChanceArtefactsRestart 20
   m_SpawnChanceArtefacts 20
  }
  {
@@ -234,12 +234,12 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   SphereRadius 72.6
   UpdatePeriod 7
   m_ObjectPrefab "{1918FCF94E1DC74D}Prefabs/Anomals/Eye/ARMST_EYE.et"
-  m_ObjectPrefab3 "{D43F10276490CD14}Prefabs/Anomals/Explosions/Lighting/Explosion_flash.et"
-  m_SpawnCount 3
-  m_MinDistanceBetweenAnomalies 10
+  m_ObjectPrefab3 "{78F0DD9ECF457B08}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T1.et"
+  m_SpawnCount 7
+  m_MinDistanceBetweenAnomalies 15
   m_MinDistanceToPlayer 25
-  m_SpawnChance 60
-  m_SpawnChanceArtefactsRestart 15.31
+  m_SpawnChance 46
+  m_SpawnChanceArtefactsRestart 20
   m_SpawnChanceArtefacts 20
  }
  {
@@ -247,12 +247,12 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   SphereRadius 72.6
   UpdatePeriod 7
   m_ObjectPrefab "{1918FCF94E1DC74D}Prefabs/Anomals/Eye/ARMST_EYE.et"
-  m_ObjectPrefab3 "{D43F10276490CD14}Prefabs/Anomals/Explosions/Lighting/Explosion_flash.et"
-  m_SpawnCount 3
-  m_MinDistanceBetweenAnomalies 10
+  m_ObjectPrefab3 "{78F0DD9ECF457B08}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T1.et"
+  m_SpawnCount 7
+  m_MinDistanceBetweenAnomalies 15
   m_MinDistanceToPlayer 25
-  m_SpawnChance 60
-  m_SpawnChanceArtefactsRestart 15.31
+  m_SpawnChance 46
+  m_SpawnChanceArtefactsRestart 20
   m_SpawnChanceArtefacts 20
  }
  {
@@ -260,12 +260,12 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   SphereRadius 72.6
   UpdatePeriod 7
   m_ObjectPrefab "{1918FCF94E1DC74D}Prefabs/Anomals/Eye/ARMST_EYE.et"
-  m_ObjectPrefab3 "{D43F10276490CD14}Prefabs/Anomals/Explosions/Lighting/Explosion_flash.et"
-  m_SpawnCount 3
-  m_MinDistanceBetweenAnomalies 10
+  m_ObjectPrefab3 "{78F0DD9ECF457B08}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T1.et"
+  m_SpawnCount 7
+  m_MinDistanceBetweenAnomalies 15
   m_MinDistanceToPlayer 25
-  m_SpawnChance 60
-  m_SpawnChanceArtefactsRestart 15.31
+  m_SpawnChance 46
+  m_SpawnChanceArtefactsRestart 20
   m_SpawnChanceArtefacts 20
  }
  {
@@ -273,12 +273,12 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   SphereRadius 72.6
   UpdatePeriod 7
   m_ObjectPrefab "{1918FCF94E1DC74D}Prefabs/Anomals/Eye/ARMST_EYE.et"
-  m_ObjectPrefab3 "{D43F10276490CD14}Prefabs/Anomals/Explosions/Lighting/Explosion_flash.et"
-  m_SpawnCount 3
-  m_MinDistanceBetweenAnomalies 10
+  m_ObjectPrefab3 "{78F0DD9ECF457B08}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T1.et"
+  m_SpawnCount 7
+  m_MinDistanceBetweenAnomalies 15
   m_MinDistanceToPlayer 25
-  m_SpawnChance 60
-  m_SpawnChanceArtefactsRestart 15.31
+  m_SpawnChance 46
+  m_SpawnChanceArtefactsRestart 20
   m_SpawnChanceArtefacts 20
  }
  {
@@ -286,12 +286,12 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   SphereRadius 72.6
   UpdatePeriod 7
   m_ObjectPrefab "{1918FCF94E1DC74D}Prefabs/Anomals/Eye/ARMST_EYE.et"
-  m_ObjectPrefab3 "{D43F10276490CD14}Prefabs/Anomals/Explosions/Lighting/Explosion_flash.et"
-  m_SpawnCount 3
-  m_MinDistanceBetweenAnomalies 10
+  m_ObjectPrefab3 "{78F0DD9ECF457B08}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T1.et"
+  m_SpawnCount 7
+  m_MinDistanceBetweenAnomalies 15
   m_MinDistanceToPlayer 25
-  m_SpawnChance 60
-  m_SpawnChanceArtefactsRestart 15.31
+  m_SpawnChance 46
+  m_SpawnChanceArtefactsRestart 20
   m_SpawnChanceArtefacts 20
  }
 }

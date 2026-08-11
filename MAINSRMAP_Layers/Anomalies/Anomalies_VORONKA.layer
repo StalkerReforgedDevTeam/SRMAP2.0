@@ -1,6 +1,6 @@
 $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRIGGER_ANOMAL.et" {
  {
-  coords 2177.324 313.652 2095.235
+  coords 2155.442 313.652 1906.242
   SphereRadius 118.8
   TriggerActivationType "Every query"
   UpdatePeriod 10
@@ -9,14 +9,18 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab3 "{D735AA39194BB61C}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2_Rock.et"
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+   "{EABCF33CC349E7C3}Prefabs/Items/artefacts_new/art_fire_1T_drop.et"
+   "{2F3C09BBF8CCA364}Prefabs/Items/artefacts/armst_art_sharik.et"
   }
-  m_SpawnCount 3
+  m_SpawnCount 6
+  m_MinDistanceBetweenAnomalies 15
+  m_MinDistanceToPlayer 20
   m_SpawnChance 60
   m_SpawnChanceArtefactsRestart 15.31
   m_SpawnChanceArtefacts 20
  }
  {
-  coords 2125.177 309.644 2137.456
+  coords 2030.497 309.644 2218.86
   SphereRadius 118.8
   TriggerActivationType "Every query"
   UpdatePeriod 10
@@ -25,14 +29,18 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab3 "{D735AA39194BB61C}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2_Rock.et"
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+   "{EABCF33CC349E7C3}Prefabs/Items/artefacts_new/art_fire_1T_drop.et"
+   "{2F3C09BBF8CCA364}Prefabs/Items/artefacts/armst_art_sharik.et"
   }
-  m_SpawnCount 3
+  m_SpawnCount 6
+  m_MinDistanceBetweenAnomalies 15
+  m_MinDistanceToPlayer 20
   m_SpawnChance 60
   m_SpawnChanceArtefactsRestart 15.31
   m_SpawnChanceArtefacts 20
  }
  {
-  coords 2201.842 309.789 2266.46
+  coords 2037.432 309.789 2360.47
   SphereRadius 118.8
   TriggerActivationType "Every query"
   UpdatePeriod 10
@@ -41,14 +49,18 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab3 "{D735AA39194BB61C}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2_Rock.et"
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+   "{EABCF33CC349E7C3}Prefabs/Items/artefacts_new/art_fire_1T_drop.et"
+   "{2F3C09BBF8CCA364}Prefabs/Items/artefacts/armst_art_sharik.et"
   }
-  m_SpawnCount 3
+  m_SpawnCount 6
+  m_MinDistanceBetweenAnomalies 15
+  m_MinDistanceToPlayer 20
   m_SpawnChance 60
   m_SpawnChanceArtefactsRestart 15.31
   m_SpawnChanceArtefacts 20
  }
  {
-  coords 2278.933 304.636 2198.528
+  coords 2353.485 304.636 1904.809
   SphereRadius 118.8
   TriggerActivationType "Every query"
   UpdatePeriod 10
@@ -57,14 +69,18 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab3 "{D735AA39194BB61C}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2_Rock.et"
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+   "{EABCF33CC349E7C3}Prefabs/Items/artefacts_new/art_fire_1T_drop.et"
+   "{2F3C09BBF8CCA364}Prefabs/Items/artefacts/armst_art_sharik.et"
   }
-  m_SpawnCount 3
+  m_SpawnCount 6
+  m_MinDistanceBetweenAnomalies 15
+  m_MinDistanceToPlayer 20
   m_SpawnChance 60
   m_SpawnChanceArtefactsRestart 15.31
   m_SpawnChanceArtefacts 20
  }
  {
-  coords 2231.992 299.421 2170.501
+  coords 2196.771 299.421 2218.035
   SphereRadius 118.8
   TriggerActivationType "Every query"
   UpdatePeriod 10
@@ -73,8 +89,12 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab3 "{D735AA39194BB61C}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2_Rock.et"
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+   "{EABCF33CC349E7C3}Prefabs/Items/artefacts_new/art_fire_1T_drop.et"
+   "{2F3C09BBF8CCA364}Prefabs/Items/artefacts/armst_art_sharik.et"
   }
-  m_SpawnCount 3
+  m_SpawnCount 6
+  m_MinDistanceBetweenAnomalies 15
+  m_MinDistanceToPlayer 20
   m_SpawnChance 60
   m_SpawnChanceArtefactsRestart 15.31
   m_SpawnChanceArtefacts 20
@@ -89,14 +109,18 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab3 "{D735AA39194BB61C}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2_Rock.et"
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+   "{EABCF33CC349E7C3}Prefabs/Items/artefacts_new/art_fire_1T_drop.et"
+   "{2F3C09BBF8CCA364}Prefabs/Items/artefacts/armst_art_sharik.et"
   }
-  m_SpawnCount 3
+  m_SpawnCount 6
+  m_MinDistanceBetweenAnomalies 15
+  m_MinDistanceToPlayer 20
   m_SpawnChance 60
   m_SpawnChanceArtefactsRestart 15.31
   m_SpawnChanceArtefacts 20
  }
  {
-  coords 2453.638 314.145 2083.726
+  coords 2489.829 299.118 2237.755
   SphereRadius 118.8
   TriggerActivationType "Every query"
   UpdatePeriod 10
@@ -105,14 +129,18 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab3 "{D735AA39194BB61C}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2_Rock.et"
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+   "{EABCF33CC349E7C3}Prefabs/Items/artefacts_new/art_fire_1T_drop.et"
+   "{2F3C09BBF8CCA364}Prefabs/Items/artefacts/armst_art_sharik.et"
   }
-  m_SpawnCount 3
+  m_SpawnCount 6
+  m_MinDistanceBetweenAnomalies 15
+  m_MinDistanceToPlayer 20
   m_SpawnChance 60
   m_SpawnChanceArtefactsRestart 15.31
   m_SpawnChanceArtefacts 20
  }
  {
-  coords 2532.239 302.9 2119.365
+  coords 2582.477 308.967 2399.939
   SphereRadius 118.8
   TriggerActivationType "Every query"
   UpdatePeriod 10
@@ -121,14 +149,18 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab3 "{D735AA39194BB61C}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2_Rock.et"
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+   "{EABCF33CC349E7C3}Prefabs/Items/artefacts_new/art_fire_1T_drop.et"
+   "{2F3C09BBF8CCA364}Prefabs/Items/artefacts/armst_art_sharik.et"
   }
-  m_SpawnCount 3
+  m_SpawnCount 6
+  m_MinDistanceBetweenAnomalies 15
+  m_MinDistanceToPlayer 20
   m_SpawnChance 60
   m_SpawnChanceArtefactsRestart 15.31
   m_SpawnChanceArtefacts 20
  }
  {
-  coords 2554.792 299.118 2205.85
+  coords 2781.996 314.192 1952.082
   SphereRadius 118.8
   TriggerActivationType "Every query"
   UpdatePeriod 10
@@ -137,14 +169,18 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab3 "{D735AA39194BB61C}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2_Rock.et"
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+   "{EABCF33CC349E7C3}Prefabs/Items/artefacts_new/art_fire_1T_drop.et"
+   "{2F3C09BBF8CCA364}Prefabs/Items/artefacts/armst_art_sharik.et"
   }
-  m_SpawnCount 3
+  m_SpawnCount 6
+  m_MinDistanceBetweenAnomalies 15
+  m_MinDistanceToPlayer 20
   m_SpawnChance 60
   m_SpawnChanceArtefactsRestart 15.31
   m_SpawnChanceArtefacts 20
  }
  {
-  coords 2629.296 313.314 2282.295
+  coords 2758.508 322.336 1769.845
   SphereRadius 118.8
   TriggerActivationType "Every query"
   UpdatePeriod 10
@@ -153,14 +189,18 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab3 "{D735AA39194BB61C}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2_Rock.et"
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+   "{EABCF33CC349E7C3}Prefabs/Items/artefacts_new/art_fire_1T_drop.et"
+   "{2F3C09BBF8CCA364}Prefabs/Items/artefacts/armst_art_sharik.et"
   }
-  m_SpawnCount 3
+  m_SpawnCount 6
+  m_MinDistanceBetweenAnomalies 15
+  m_MinDistanceToPlayer 20
   m_SpawnChance 60
   m_SpawnChanceArtefactsRestart 15.31
   m_SpawnChanceArtefacts 20
  }
  {
-  coords 2637.415 308.967 2360.38
+  coords 2639.773 309.946 1879.577
   SphereRadius 118.8
   TriggerActivationType "Every query"
   UpdatePeriod 10
@@ -169,88 +209,12 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab3 "{D735AA39194BB61C}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2_Rock.et"
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+   "{EABCF33CC349E7C3}Prefabs/Items/artefacts_new/art_fire_1T_drop.et"
+   "{2F3C09BBF8CCA364}Prefabs/Items/artefacts/armst_art_sharik.et"
   }
-  m_SpawnCount 3
-  m_SpawnChance 60
-  m_SpawnChanceArtefactsRestart 15.31
-  m_SpawnChanceArtefacts 20
- }
- {
-  coords 2765.486 314.192 2061.935
-  SphereRadius 118.8
-  TriggerActivationType "Every query"
-  UpdatePeriod 10
-  m_ObjectPrefab "{D735AA39194BB61C}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2_Rock.et"
-  m_ObjectPrefab2 "{D735AA39194BB61C}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2_Rock.et"
-  m_ObjectPrefab3 "{D735AA39194BB61C}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2_Rock.et"
-  m_ArtsPrefab {
-   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
-  }
-  m_SpawnCount 3
-  m_SpawnChance 60
-  m_SpawnChanceArtefactsRestart 15.31
-  m_SpawnChanceArtefacts 20
- }
- {
-  coords 2662.483 322.336 2031.408
-  SphereRadius 118.8
-  TriggerActivationType "Every query"
-  UpdatePeriod 10
-  m_ObjectPrefab "{D735AA39194BB61C}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2_Rock.et"
-  m_ObjectPrefab2 "{D735AA39194BB61C}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2_Rock.et"
-  m_ObjectPrefab3 "{D735AA39194BB61C}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2_Rock.et"
-  m_ArtsPrefab {
-   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
-  }
-  m_SpawnCount 3
-  m_SpawnChance 60
-  m_SpawnChanceArtefactsRestart 15.31
-  m_SpawnChanceArtefacts 20
- }
- {
-  coords 2639.237 309.946 1976.178
-  SphereRadius 118.8
-  TriggerActivationType "Every query"
-  UpdatePeriod 10
-  m_ObjectPrefab "{D735AA39194BB61C}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2_Rock.et"
-  m_ObjectPrefab2 "{D735AA39194BB61C}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2_Rock.et"
-  m_ObjectPrefab3 "{D735AA39194BB61C}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2_Rock.et"
-  m_ArtsPrefab {
-   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
-  }
-  m_SpawnCount 3
-  m_SpawnChance 60
-  m_SpawnChanceArtefactsRestart 15.31
-  m_SpawnChanceArtefacts 20
- }
- {
-  coords 2507.316 297.989 1980.161
-  SphereRadius 118.8
-  TriggerActivationType "Every query"
-  UpdatePeriod 10
-  m_ObjectPrefab "{D735AA39194BB61C}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2_Rock.et"
-  m_ObjectPrefab2 "{D735AA39194BB61C}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2_Rock.et"
-  m_ObjectPrefab3 "{D735AA39194BB61C}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2_Rock.et"
-  m_ArtsPrefab {
-   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
-  }
-  m_SpawnCount 3
-  m_SpawnChance 60
-  m_SpawnChanceArtefactsRestart 15.31
-  m_SpawnChanceArtefacts 20
- }
- {
-  coords 2542.794 307.665 2081.392
-  SphereRadius 118.8
-  TriggerActivationType "Every query"
-  UpdatePeriod 10
-  m_ObjectPrefab "{D735AA39194BB61C}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2_Rock.et"
-  m_ObjectPrefab2 "{D735AA39194BB61C}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2_Rock.et"
-  m_ObjectPrefab3 "{D735AA39194BB61C}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2_Rock.et"
-  m_ArtsPrefab {
-   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
-  }
-  m_SpawnCount 3
+  m_SpawnCount 6
+  m_MinDistanceBetweenAnomalies 15
+  m_MinDistanceToPlayer 20
   m_SpawnChance 60
   m_SpawnChanceArtefactsRestart 15.31
   m_SpawnChanceArtefacts 20
@@ -265,14 +229,18 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab3 "{D735AA39194BB61C}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2_Rock.et"
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+   "{EABCF33CC349E7C3}Prefabs/Items/artefacts_new/art_fire_1T_drop.et"
+   "{2F3C09BBF8CCA364}Prefabs/Items/artefacts/armst_art_sharik.et"
   }
-  m_SpawnCount 3
+  m_SpawnCount 6
+  m_MinDistanceBetweenAnomalies 15
+  m_MinDistanceToPlayer 20
   m_SpawnChance 60
   m_SpawnChanceArtefactsRestart 15.31
   m_SpawnChanceArtefacts 20
  }
  {
-  coords 2133.912 313.983 2065.567
+  coords 2014.622 313.983 2035.722
   SphereRadius 118.8
   TriggerActivationType "Every query"
   UpdatePeriod 10
@@ -281,14 +249,18 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab3 "{3A06BEE7589A8F27}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T2.et"
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+   "{EABCF33CC349E7C3}Prefabs/Items/artefacts_new/art_fire_1T_drop.et"
+   "{2F3C09BBF8CCA364}Prefabs/Items/artefacts/armst_art_sharik.et"
   }
-  m_SpawnCount 3
+  m_SpawnCount 6
+  m_MinDistanceBetweenAnomalies 15
+  m_MinDistanceToPlayer 20
   m_SpawnChance 60
   m_SpawnChanceArtefactsRestart 15.31
   m_SpawnChanceArtefacts 20
  }
  {
-  coords 2551.791 306.109 2004.048
+  coords 2508.951 306.109 1951.85
   SphereRadius 118.8
   TriggerActivationType "Every query"
   UpdatePeriod 10
@@ -297,8 +269,12 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab3 "{3A06BEE7589A8F27}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T2.et"
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+   "{EABCF33CC349E7C3}Prefabs/Items/artefacts_new/art_fire_1T_drop.et"
+   "{2F3C09BBF8CCA364}Prefabs/Items/artefacts/armst_art_sharik.et"
   }
-  m_SpawnCount 3
+  m_SpawnCount 6
+  m_MinDistanceBetweenAnomalies 15
+  m_MinDistanceToPlayer 20
   m_SpawnChance 60
   m_SpawnChanceArtefactsRestart 15.31
   m_SpawnChanceArtefacts 20
@@ -313,8 +289,12 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab3 "{3A06BEE7589A8F27}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T2.et"
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+   "{EABCF33CC349E7C3}Prefabs/Items/artefacts_new/art_fire_1T_drop.et"
+   "{2F3C09BBF8CCA364}Prefabs/Items/artefacts/armst_art_sharik.et"
   }
-  m_SpawnCount 3
+  m_SpawnCount 6
+  m_MinDistanceBetweenAnomalies 15
+  m_MinDistanceToPlayer 20
   m_SpawnChance 60
   m_SpawnChanceArtefactsRestart 15.31
   m_SpawnChanceArtefacts 20
@@ -329,8 +309,12 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab3 "{3A06BEE7589A8F27}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T2.et"
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+   "{EABCF33CC349E7C3}Prefabs/Items/artefacts_new/art_fire_1T_drop.et"
+   "{2F3C09BBF8CCA364}Prefabs/Items/artefacts/armst_art_sharik.et"
   }
-  m_SpawnCount 3
+  m_SpawnCount 6
+  m_MinDistanceBetweenAnomalies 15
+  m_MinDistanceToPlayer 20
   m_SpawnChance 60
   m_SpawnChanceArtefactsRestart 15.31
   m_SpawnChanceArtefacts 20
@@ -345,8 +329,12 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab3 "{3A06BEE7589A8F27}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T2.et"
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+   "{EABCF33CC349E7C3}Prefabs/Items/artefacts_new/art_fire_1T_drop.et"
+   "{2F3C09BBF8CCA364}Prefabs/Items/artefacts/armst_art_sharik.et"
   }
-  m_SpawnCount 3
+  m_SpawnCount 6
+  m_MinDistanceBetweenAnomalies 15
+  m_MinDistanceToPlayer 20
   m_SpawnChance 60
   m_SpawnChanceArtefactsRestart 15.31
   m_SpawnChanceArtefacts 20
@@ -361,14 +349,18 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab3 "{3A06BEE7589A8F27}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T2.et"
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+   "{EABCF33CC349E7C3}Prefabs/Items/artefacts_new/art_fire_1T_drop.et"
+   "{2F3C09BBF8CCA364}Prefabs/Items/artefacts/armst_art_sharik.et"
   }
-  m_SpawnCount 3
+  m_SpawnCount 6
+  m_MinDistanceBetweenAnomalies 15
+  m_MinDistanceToPlayer 20
   m_SpawnChance 60
   m_SpawnChanceArtefactsRestart 15.31
   m_SpawnChanceArtefacts 20
  }
  {
-  coords 2547.509 309.386 2037.467
+  coords 2566.232 309.386 2075.865
   SphereRadius 118.8
   TriggerActivationType "Every query"
   UpdatePeriod 10
@@ -377,8 +369,12 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab3 "{3A06BEE7589A8F27}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T2.et"
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+   "{EABCF33CC349E7C3}Prefabs/Items/artefacts_new/art_fire_1T_drop.et"
+   "{2F3C09BBF8CCA364}Prefabs/Items/artefacts/armst_art_sharik.et"
   }
-  m_SpawnCount 3
+  m_SpawnCount 6
+  m_MinDistanceBetweenAnomalies 15
+  m_MinDistanceToPlayer 20
   m_SpawnChance 60
   m_SpawnChanceArtefactsRestart 15.31
   m_SpawnChanceArtefacts 20
@@ -393,8 +389,12 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab3 "{3A06BEE7589A8F27}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T2.et"
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+   "{EABCF33CC349E7C3}Prefabs/Items/artefacts_new/art_fire_1T_drop.et"
+   "{2F3C09BBF8CCA364}Prefabs/Items/artefacts/armst_art_sharik.et"
   }
-  m_SpawnCount 3
+  m_SpawnCount 6
+  m_MinDistanceBetweenAnomalies 15
+  m_MinDistanceToPlayer 20
   m_SpawnChance 60
   m_SpawnChanceArtefactsRestart 15.31
   m_SpawnChanceArtefacts 20

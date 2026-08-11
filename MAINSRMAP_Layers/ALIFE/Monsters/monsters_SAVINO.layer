@@ -3,9 +3,10 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
     m_InitialSpawnDelay 15
-    m_CheckInterval 88
-    m_CheckPlayerRadius 32
+    m_CheckInterval 201
+    m_CheckPlayerRadius 50
     m_SpawnChance 60
+    m_PlayerDetectionRadius 164
     m_RespawnDelayAfterDelete 1098
     m_SpawnGroups {
      "{5E1E3C20E998B32A}Configs/GAME_SETTING/BOTS/ALIFE/mutants/ghosts.conf"
@@ -20,9 +21,10 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
     m_InitialSpawnDelay 15
-    m_CheckInterval 88
-    m_CheckPlayerRadius 32
+    m_CheckInterval 201
+    m_CheckPlayerRadius 50
     m_SpawnChance 60
+    m_PlayerDetectionRadius 164
     m_RespawnDelayAfterDelete 1098
     m_SpawnGroups {
      "{AA31A2A6BD9679D4}Configs/GAME_SETTING/BOTS/ALIFE/mutants/zombie.conf"
@@ -40,9 +42,10 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
     m_InitialSpawnDelay 15
-    m_CheckInterval 88
-    m_CheckPlayerRadius 32
+    m_CheckInterval 201
+    m_CheckPlayerRadius 50
     m_SpawnChance 60
+    m_PlayerDetectionRadius 164
     m_RespawnDelayAfterDelete 1098
     m_SpawnGroups {
      "{C3138D4C69EC31A4}Configs/GAME_SETTING/BOTS/ALIFE/mutants/spiders.conf"
@@ -56,9 +59,10 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
     m_InitialSpawnDelay 15
-    m_CheckInterval 88
-    m_CheckPlayerRadius 32
+    m_CheckInterval 201
+    m_CheckPlayerRadius 50
     m_SpawnChance 60
+    m_PlayerDetectionRadius 164
     m_RespawnDelayAfterDelete 1098
     m_SpawnGroups {
      "{C3138D4C69EC31A4}Configs/GAME_SETTING/BOTS/ALIFE/mutants/spiders.conf"
@@ -72,9 +76,10 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
     m_InitialSpawnDelay 15
-    m_CheckInterval 88
-    m_CheckPlayerRadius 32
+    m_CheckInterval 201
+    m_CheckPlayerRadius 50
     m_SpawnChance 60
+    m_PlayerDetectionRadius 164
     m_RespawnDelayAfterDelete 1098
     m_SpawnGroups {
      "{AA31A2A6BD9679D4}Configs/GAME_SETTING/BOTS/ALIFE/mutants/zombie.conf"
@@ -88,9 +93,10 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
     m_InitialSpawnDelay 15
-    m_CheckInterval 88
-    m_CheckPlayerRadius 32
+    m_CheckInterval 201
+    m_CheckPlayerRadius 50
     m_SpawnChance 60
+    m_PlayerDetectionRadius 164
     m_RespawnDelayAfterDelete 1098
     m_SpawnGroups +{
     }
@@ -103,9 +109,10 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
     m_InitialSpawnDelay 15
-    m_CheckInterval 88
-    m_CheckPlayerRadius 32
+    m_CheckInterval 201
+    m_CheckPlayerRadius 50
     m_SpawnChance 60
+    m_PlayerDetectionRadius 164
     m_RespawnDelayAfterDelete 1098
     m_SpawnGroups +{
     }
@@ -122,9 +129,10 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
     m_InitialSpawnDelay 15
-    m_CheckInterval 88
-    m_CheckPlayerRadius 32
+    m_CheckInterval 201
+    m_CheckPlayerRadius 50
     m_SpawnChance 60
+    m_PlayerDetectionRadius 164
     m_RespawnDelayAfterDelete 1098
     m_SpawnGroups +{
     }
@@ -137,9 +145,10 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
     m_InitialSpawnDelay 15
-    m_CheckInterval 88
-    m_CheckPlayerRadius 32
+    m_CheckInterval 201
+    m_CheckPlayerRadius 50
     m_SpawnChance 60
+    m_PlayerDetectionRadius 164
     m_RespawnDelayAfterDelete 1098
     m_SpawnGroups +{
     }
@@ -152,9 +161,10 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
     m_InitialSpawnDelay 15
-    m_CheckInterval 88
-    m_CheckPlayerRadius 32
+    m_CheckInterval 201
+    m_CheckPlayerRadius 50
     m_SpawnChance 60
+    m_PlayerDetectionRadius 164
     m_RespawnDelayAfterDelete 1098
     m_SpawnGroups +{
     }
@@ -171,9 +181,10 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
     m_InitialSpawnDelay 15
-    m_CheckInterval 88
-    m_CheckPlayerRadius 32
+    m_CheckInterval 201
+    m_CheckPlayerRadius 50
     m_SpawnChance 60
+    m_PlayerDetectionRadius 164
     m_RespawnDelayAfterDelete 1098
     m_SpawnGroups +{
     }
@@ -186,9 +197,10 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
     m_InitialSpawnDelay 15
-    m_CheckInterval 88
-    m_CheckPlayerRadius 32
+    m_CheckInterval 201
+    m_CheckPlayerRadius 50
     m_SpawnChance 60
+    m_PlayerDetectionRadius 164
     m_RespawnDelayAfterDelete 1098
     m_SpawnGroups +{
     }
@@ -201,9 +213,10 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
     m_InitialSpawnDelay 15
-    m_CheckInterval 88
-    m_CheckPlayerRadius 32
+    m_CheckInterval 201
+    m_CheckPlayerRadius 50
     m_SpawnChance 60
+    m_PlayerDetectionRadius 164
     m_RespawnDelayAfterDelete 1098
     m_SpawnGroups +{
     }
@@ -220,9 +233,10 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
     m_InitialSpawnDelay 15
-    m_CheckInterval 88
-    m_CheckPlayerRadius 32
+    m_CheckInterval 201
+    m_CheckPlayerRadius 50
     m_SpawnChance 60
+    m_PlayerDetectionRadius 164
     m_RespawnDelayAfterDelete 1098
     m_SpawnGroups +{
     }
@@ -235,9 +249,10 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
     m_InitialSpawnDelay 15
-    m_CheckInterval 88
-    m_CheckPlayerRadius 32
+    m_CheckInterval 201
+    m_CheckPlayerRadius 50
     m_SpawnChance 60
+    m_PlayerDetectionRadius 164
     m_RespawnDelayAfterDelete 1098
     m_SpawnGroups {
      "{AA31A2A6BD9679D4}Configs/GAME_SETTING/BOTS/ALIFE/mutants/zombie.conf"
@@ -251,9 +266,10 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
     m_InitialSpawnDelay 15
-    m_CheckInterval 88
-    m_CheckPlayerRadius 32
+    m_CheckInterval 201
+    m_CheckPlayerRadius 50
     m_SpawnChance 60
+    m_PlayerDetectionRadius 164
     m_RespawnDelayAfterDelete 1098
     m_SpawnGroups {
      "{AA31A2A6BD9679D4}Configs/GAME_SETTING/BOTS/ALIFE/mutants/zombie.conf"
@@ -267,9 +283,10 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
     m_InitialSpawnDelay 15
-    m_CheckInterval 88
-    m_CheckPlayerRadius 32
+    m_CheckInterval 201
+    m_CheckPlayerRadius 50
     m_SpawnChance 60
+    m_PlayerDetectionRadius 164
     m_RespawnDelayAfterDelete 1098
     m_SpawnGroups {
      "{AA31A2A6BD9679D4}Configs/GAME_SETTING/BOTS/ALIFE/mutants/zombie.conf"
@@ -287,9 +304,10 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
     m_InitialSpawnDelay 15
-    m_CheckInterval 88
-    m_CheckPlayerRadius 32
+    m_CheckInterval 201
+    m_CheckPlayerRadius 50
     m_SpawnChance 60
+    m_PlayerDetectionRadius 164
     m_RespawnDelayAfterDelete 1098
     m_SpawnGroups {
      "{AA31A2A6BD9679D4}Configs/GAME_SETTING/BOTS/ALIFE/mutants/zombie.conf"
@@ -303,9 +321,10 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
     m_InitialSpawnDelay 15
-    m_CheckInterval 88
-    m_CheckPlayerRadius 32
+    m_CheckInterval 201
+    m_CheckPlayerRadius 50
     m_SpawnChance 60
+    m_PlayerDetectionRadius 164
     m_RespawnDelayAfterDelete 1098
     m_SpawnGroups {
      "{AA31A2A6BD9679D4}Configs/GAME_SETTING/BOTS/ALIFE/mutants/zombie.conf"
@@ -319,9 +338,10 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
     m_InitialSpawnDelay 15
-    m_CheckInterval 88
-    m_CheckPlayerRadius 32
+    m_CheckInterval 201
+    m_CheckPlayerRadius 50
     m_SpawnChance 60
+    m_PlayerDetectionRadius 164
     m_RespawnDelayAfterDelete 1098
     m_SpawnGroups +{
     }
@@ -334,9 +354,10 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
     m_InitialSpawnDelay 15
-    m_CheckInterval 88
-    m_CheckPlayerRadius 32
+    m_CheckInterval 201
+    m_CheckPlayerRadius 50
     m_SpawnChance 60
+    m_PlayerDetectionRadius 164
     m_RespawnDelayAfterDelete 1098
     m_SpawnGroups +{
     }
@@ -349,9 +370,10 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
     m_InitialSpawnDelay 15
-    m_CheckInterval 88
-    m_CheckPlayerRadius 32
+    m_CheckInterval 201
+    m_CheckPlayerRadius 50
     m_SpawnChance 60
+    m_PlayerDetectionRadius 164
     m_RespawnDelayAfterDelete 1098
     m_SpawnGroups {
      "{5E1E3C20E998B32A}Configs/GAME_SETTING/BOTS/ALIFE/mutants/ghosts.conf"

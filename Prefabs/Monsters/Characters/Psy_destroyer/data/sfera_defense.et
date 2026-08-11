@@ -1,0 +1,8 @@
+GenericEntity : "{DBDF1A66F027501D}Prefabs/Props/Civilian/Guitar_01/Guitar_01_base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   m_fBaseHealth 2000
+  }
+ }
+}
