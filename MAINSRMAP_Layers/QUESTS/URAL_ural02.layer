@@ -5,7 +5,6 @@ $grp ARMST_QUEST_TRIGGER : "{372F4469FF5293C9}Prefabs/QUESTS/ARMST_TRIGGER_QUEST
  {
   coords 4615.6 305.718 1313.765
   SphereRadius 31.5
-  DrawShape 0
   m_sQuestNameDB "sci_found"
   m_iStageStart 7
   m_iStageSet 8
@@ -13,7 +12,6 @@ $grp ARMST_QUEST_TRIGGER : "{372F4469FF5293C9}Prefabs/QUESTS/ARMST_TRIGGER_QUEST
  {
   coords 5034.678 306.6 2165.468
   SphereRadius 42.4
-  DrawShape 0
   m_sQuestNameDB "sci_found"
   m_iStageStart 15
   m_iStageSet 16

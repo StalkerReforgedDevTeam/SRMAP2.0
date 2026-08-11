@@ -28,7 +28,6 @@ $grp ARMST_QUEST_TRIGGER : "{372F4469FF5293C9}Prefabs/QUESTS/ARMST_TRIGGER_QUEST
  {
   coords 4128.991 321.857 1641.658
   SphereRadius 114.7
-  DrawShape 0
   UpdatePeriod 20
   m_sQuestNameDB "kb_radio"
   m_iStageStart 12
@@ -41,7 +40,6 @@ $grp ARMST_QUEST_TRIGGER : "{372F4469FF5293C9}Prefabs/QUESTS/ARMST_TRIGGER_QUEST
  {
   coords 4094.24 313.309 1686.246
   SphereRadius 13.3
-  DrawShape 0
   UpdatePeriod 20
   m_sQuestNameDB "kb_radio"
   m_iStageStart 13

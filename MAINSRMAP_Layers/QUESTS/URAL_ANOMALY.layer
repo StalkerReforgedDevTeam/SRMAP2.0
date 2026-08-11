@@ -2,7 +2,6 @@ $grp ARMST_QUEST_TRIGGER : "{372F4469FF5293C9}Prefabs/QUESTS/ARMST_TRIGGER_QUEST
  {
   coords 2220.708 300.601 707.674
   SphereRadius 31.5
-  DrawShape 0
   UpdatePeriod 30
   m_sQuestNameDB "sci_analyse"
   m_iStageStart 4
@@ -12,7 +11,6 @@ $grp ARMST_QUEST_TRIGGER : "{372F4469FF5293C9}Prefabs/QUESTS/ARMST_TRIGGER_QUEST
  {
   coords 3416.461 305.358 1249.962
   SphereRadius 31.5
-  DrawShape 0
   UpdatePeriod 30
   m_sQuestNameDB "sci_analyse"
   m_iStageStart 5
@@ -22,7 +20,6 @@ $grp ARMST_QUEST_TRIGGER : "{372F4469FF5293C9}Prefabs/QUESTS/ARMST_TRIGGER_QUEST
  {
   coords 4896.653 319.813 689.038
   SphereRadius 23.3
-  DrawShape 0
   UpdatePeriod 30
   m_sQuestNameDB "sci_analyse"
   m_iStageStart 6
@@ -32,7 +29,6 @@ $grp ARMST_QUEST_TRIGGER : "{372F4469FF5293C9}Prefabs/QUESTS/ARMST_TRIGGER_QUEST
  {
   coords 5222.186 299.802 1849.086
   SphereRadius 23.3
-  DrawShape 0
   UpdatePeriod 30
   m_sQuestNameDB "sci_analyse"
   m_iStageStart 7
@@ -42,7 +38,6 @@ $grp ARMST_QUEST_TRIGGER : "{372F4469FF5293C9}Prefabs/QUESTS/ARMST_TRIGGER_QUEST
  {
   coords 3327.777 256.048 2215.032
   SphereRadius 14.2
-  DrawShape 0
   UpdatePeriod 30
   m_sQuestNameDB "sci_analyse"
   m_iStageStart 8
@@ -52,7 +47,6 @@ $grp ARMST_QUEST_TRIGGER : "{372F4469FF5293C9}Prefabs/QUESTS/ARMST_TRIGGER_QUEST
  {
   coords 2429.061 250.107 2214.617
   SphereRadius 34.2
-  DrawShape 0
   UpdatePeriod 30
   m_sQuestNameDB "sci_analyse"
   m_iStageStart 9

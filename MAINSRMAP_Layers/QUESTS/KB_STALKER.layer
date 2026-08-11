@@ -253,7 +253,6 @@ $grp LightEntity {
 ARMST_QUEST_TRIGGER : "{372F4469FF5293C9}Prefabs/QUESTS/ARMST_TRIGGER_QUEST.et" {
  coords 3101.008 302.734 1223.427
  SphereRadius 25.6
- DrawShape 0
  m_sQuestNameDB "found_art"
  m_iStageStart 5
  m_iStageSet 6
