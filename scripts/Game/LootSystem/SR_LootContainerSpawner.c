@@ -66,7 +66,11 @@ class SR_LootSpawnerComponent : ScriptComponent
 		}
 
 		
-		if ( Math.RandomIntInclusive(0, 100) >= chance ) return;
+		if ( Math.RandomIntInclusive(0, 100) >= chance ) {
+			SetForRespawn();
+			return;
+		} 
+			
 		
 		//PrintFormat("SR_LootSpawnerComponent: Creating new container with chance %1", chance);
 		ResourceName prefab = prefabs[Math.RandomIntInclusive(0, prefabs.Count() - 1 )];
@@ -95,4 +99,5 @@ class SR_LootSpawnerComponent : ScriptComponent
 	void SetForRespawn() {
 		lootManager.AddToQueue(this);
 	}
+	
 }
