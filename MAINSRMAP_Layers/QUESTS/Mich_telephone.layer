@@ -1,7 +1,6 @@
 ARMST_QUEST_TRIGGER : "{372F4469FF5293C9}Prefabs/QUESTS/ARMST_TRIGGER_QUEST.et" {
  coords 1544.253 309.827 231.506
  SphereRadius 6.6
- DrawShape 0
  UpdatePeriod 5
  m_sQuestNameDB "last_call"
  m_iStageStart 77

@@ -679,7 +679,6 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
  JARKA_ANOMALY_7 {
   coords 2121.212 293.256 1150.069
   SphereRadius 78.8
-  DrawShape 0
   TriggerActivationType "Every query"
   UpdatePeriod 10
   m_ObjectPrefab "{784FF70F5D5BEB3A}Prefabs/Anomals/Jarka/ARMST_JARKA_T1.et"

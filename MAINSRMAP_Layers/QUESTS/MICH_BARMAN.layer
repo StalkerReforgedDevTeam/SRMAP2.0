@@ -2,14 +2,12 @@ $grp ARMST_QUEST_TRIGGER : "{372F4469FF5293C9}Prefabs/QUESTS/ARMST_TRIGGER_QUEST
  {
   coords 1555.599 309.827 262.942
   SphereRadius 25.6
-  DrawShape 0
   m_sQuestNameDB "barm_start"
   m_iStageSet 1
  }
  {
   coords 1351.615 293.473 603.092
   SphereRadius 60.3
-  DrawShape 0
   m_sQuestNameDB "barm_start"
   m_iStageStart 18
   m_iStageSet 20
