@@ -283,8 +283,10 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab3 "{57CC29488C129FC4}Prefabs/Anomals/Moshkara/ARMST_MOSHKARA.et"
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+   "{4B141B0145B7286F}Prefabs/Items/artefacts/armst_art_gnile.et"
+   "{E48E75D37BA803C5}Prefabs/Items/artefacts/armst_art_vaza.et"
   }
-  m_SpawnCount 3
+  m_MinDistanceBetweenAnomalies 15
   m_CenterBias 0.5
   m_SpawnChance 60
   m_SpawnChanceArtefactsRestart 15.31
@@ -300,8 +302,10 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab3 "{57CC29488C129FC4}Prefabs/Anomals/Moshkara/ARMST_MOSHKARA.et"
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+   "{4B141B0145B7286F}Prefabs/Items/artefacts/armst_art_gnile.et"
+   "{E48E75D37BA803C5}Prefabs/Items/artefacts/armst_art_vaza.et"
   }
-  m_SpawnCount 3
+  m_MinDistanceBetweenAnomalies 15
   m_CenterBias 0.5
   m_SpawnChance 60
   m_SpawnChanceArtefactsRestart 15.31
@@ -317,8 +321,10 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab3 "{57CC29488C129FC4}Prefabs/Anomals/Moshkara/ARMST_MOSHKARA.et"
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+   "{4B141B0145B7286F}Prefabs/Items/artefacts/armst_art_gnile.et"
+   "{E48E75D37BA803C5}Prefabs/Items/artefacts/armst_art_vaza.et"
   }
-  m_SpawnCount 3
+  m_MinDistanceBetweenAnomalies 15
   m_CenterBias 0.5
   m_SpawnChance 60
   m_SpawnChanceArtefactsRestart 15.31
@@ -334,8 +340,10 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab3 "{57CC29488C129FC4}Prefabs/Anomals/Moshkara/ARMST_MOSHKARA.et"
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+   "{4B141B0145B7286F}Prefabs/Items/artefacts/armst_art_gnile.et"
+   "{E48E75D37BA803C5}Prefabs/Items/artefacts/armst_art_vaza.et"
   }
-  m_SpawnCount 3
+  m_MinDistanceBetweenAnomalies 15
   m_CenterBias 0.5
   m_SpawnChance 60
   m_SpawnChanceArtefactsRestart 15.31
@@ -351,8 +359,10 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab3 "{57CC29488C129FC4}Prefabs/Anomals/Moshkara/ARMST_MOSHKARA.et"
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+   "{4B141B0145B7286F}Prefabs/Items/artefacts/armst_art_gnile.et"
+   "{E48E75D37BA803C5}Prefabs/Items/artefacts/armst_art_vaza.et"
   }
-  m_SpawnCount 3
+  m_MinDistanceBetweenAnomalies 15
   m_CenterBias 0.5
   m_SpawnChance 60
   m_SpawnChanceArtefactsRestart 15.31
@@ -368,8 +378,10 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab3 "{57CC29488C129FC4}Prefabs/Anomals/Moshkara/ARMST_MOSHKARA.et"
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+   "{4B141B0145B7286F}Prefabs/Items/artefacts/armst_art_gnile.et"
+   "{E48E75D37BA803C5}Prefabs/Items/artefacts/armst_art_vaza.et"
   }
-  m_SpawnCount 3
+  m_MinDistanceBetweenAnomalies 15
   m_CenterBias 0.5
   m_SpawnChance 60
   m_SpawnChanceArtefactsRestart 15.31
@@ -385,8 +397,10 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab3 "{57CC29488C129FC4}Prefabs/Anomals/Moshkara/ARMST_MOSHKARA.et"
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+   "{4B141B0145B7286F}Prefabs/Items/artefacts/armst_art_gnile.et"
+   "{E48E75D37BA803C5}Prefabs/Items/artefacts/armst_art_vaza.et"
   }
-  m_SpawnCount 3
+  m_MinDistanceBetweenAnomalies 15
   m_CenterBias 0.5
   m_SpawnChance 60
   m_SpawnChanceArtefactsRestart 15.31
@@ -402,8 +416,10 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab3 "{57CC29488C129FC4}Prefabs/Anomals/Moshkara/ARMST_MOSHKARA.et"
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+   "{4B141B0145B7286F}Prefabs/Items/artefacts/armst_art_gnile.et"
+   "{E48E75D37BA803C5}Prefabs/Items/artefacts/armst_art_vaza.et"
   }
-  m_SpawnCount 3
+  m_MinDistanceBetweenAnomalies 15
   m_CenterBias 0.5
   m_SpawnChance 60
   m_SpawnChanceArtefactsRestart 15.31
@@ -419,8 +435,10 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab3 "{57CC29488C129FC4}Prefabs/Anomals/Moshkara/ARMST_MOSHKARA.et"
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+   "{4B141B0145B7286F}Prefabs/Items/artefacts/armst_art_gnile.et"
+   "{E48E75D37BA803C5}Prefabs/Items/artefacts/armst_art_vaza.et"
   }
-  m_SpawnCount 3
+  m_MinDistanceBetweenAnomalies 15
   m_CenterBias 0.5
   m_SpawnChance 60
   m_SpawnChanceArtefactsRestart 15.31
@@ -436,8 +454,10 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab3 "{57CC29488C129FC4}Prefabs/Anomals/Moshkara/ARMST_MOSHKARA.et"
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+   "{4B141B0145B7286F}Prefabs/Items/artefacts/armst_art_gnile.et"
+   "{E48E75D37BA803C5}Prefabs/Items/artefacts/armst_art_vaza.et"
   }
-  m_SpawnCount 3
+  m_MinDistanceBetweenAnomalies 15
   m_CenterBias 0.5
   m_SpawnChance 60
   m_SpawnChanceArtefactsRestart 15.31
@@ -453,8 +473,10 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab3 "{57CC29488C129FC4}Prefabs/Anomals/Moshkara/ARMST_MOSHKARA.et"
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+   "{4B141B0145B7286F}Prefabs/Items/artefacts/armst_art_gnile.et"
+   "{E48E75D37BA803C5}Prefabs/Items/artefacts/armst_art_vaza.et"
   }
-  m_SpawnCount 3
+  m_MinDistanceBetweenAnomalies 15
   m_CenterBias 0.5
   m_SpawnChance 60
   m_SpawnChanceArtefactsRestart 15.31
@@ -470,8 +492,10 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab3 "{57CC29488C129FC4}Prefabs/Anomals/Moshkara/ARMST_MOSHKARA.et"
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+   "{4B141B0145B7286F}Prefabs/Items/artefacts/armst_art_gnile.et"
+   "{E48E75D37BA803C5}Prefabs/Items/artefacts/armst_art_vaza.et"
   }
-  m_SpawnCount 3
+  m_MinDistanceBetweenAnomalies 15
   m_CenterBias 0.5
   m_SpawnChance 60
   m_SpawnChanceArtefactsRestart 15.31
@@ -487,8 +511,10 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab3 "{57CC29488C129FC4}Prefabs/Anomals/Moshkara/ARMST_MOSHKARA.et"
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+   "{4B141B0145B7286F}Prefabs/Items/artefacts/armst_art_gnile.et"
+   "{E48E75D37BA803C5}Prefabs/Items/artefacts/armst_art_vaza.et"
   }
-  m_SpawnCount 3
+  m_MinDistanceBetweenAnomalies 15
   m_CenterBias 0.5
   m_SpawnChance 60
   m_SpawnChanceArtefactsRestart 15.31
@@ -504,8 +530,10 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab3 "{57CC29488C129FC4}Prefabs/Anomals/Moshkara/ARMST_MOSHKARA.et"
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+   "{4B141B0145B7286F}Prefabs/Items/artefacts/armst_art_gnile.et"
+   "{E48E75D37BA803C5}Prefabs/Items/artefacts/armst_art_vaza.et"
   }
-  m_SpawnCount 3
+  m_MinDistanceBetweenAnomalies 15
   m_CenterBias 0.5
   m_SpawnChance 60
   m_SpawnChanceArtefactsRestart 15.31
@@ -521,8 +549,10 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab3 "{57CC29488C129FC4}Prefabs/Anomals/Moshkara/ARMST_MOSHKARA.et"
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+   "{4B141B0145B7286F}Prefabs/Items/artefacts/armst_art_gnile.et"
+   "{E48E75D37BA803C5}Prefabs/Items/artefacts/armst_art_vaza.et"
   }
-  m_SpawnCount 3
+  m_MinDistanceBetweenAnomalies 15
   m_CenterBias 0.5
   m_SpawnChance 60
   m_SpawnChanceArtefactsRestart 15.31
@@ -580,8 +610,10 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab3 "{57CC29488C129FC4}Prefabs/Anomals/Moshkara/ARMST_MOSHKARA.et"
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+   "{4B141B0145B7286F}Prefabs/Items/artefacts/armst_art_gnile.et"
+   "{E48E75D37BA803C5}Prefabs/Items/artefacts/armst_art_vaza.et"
   }
-  m_SpawnCount 3
+  m_MinDistanceBetweenAnomalies 15
   m_CenterBias 0.5
   m_SpawnChance 60
   m_SpawnChanceArtefactsRestart 15.31
@@ -597,8 +629,10 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab3 "{57CC29488C129FC4}Prefabs/Anomals/Moshkara/ARMST_MOSHKARA.et"
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+   "{4B141B0145B7286F}Prefabs/Items/artefacts/armst_art_gnile.et"
+   "{E48E75D37BA803C5}Prefabs/Items/artefacts/armst_art_vaza.et"
   }
-  m_SpawnCount 3
+  m_MinDistanceBetweenAnomalies 15
   m_CenterBias 0.5
   m_SpawnChance 60
   m_SpawnChanceArtefactsRestart 15.31
@@ -614,8 +648,10 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab3 "{57CC29488C129FC4}Prefabs/Anomals/Moshkara/ARMST_MOSHKARA.et"
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+   "{4B141B0145B7286F}Prefabs/Items/artefacts/armst_art_gnile.et"
+   "{E48E75D37BA803C5}Prefabs/Items/artefacts/armst_art_vaza.et"
   }
-  m_SpawnCount 3
+  m_MinDistanceBetweenAnomalies 15
   m_CenterBias 0.5
   m_SpawnChance 60
   m_SpawnChanceArtefactsRestart 15.31
@@ -631,8 +667,10 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab3 "{57CC29488C129FC4}Prefabs/Anomals/Moshkara/ARMST_MOSHKARA.et"
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+   "{4B141B0145B7286F}Prefabs/Items/artefacts/armst_art_gnile.et"
+   "{E48E75D37BA803C5}Prefabs/Items/artefacts/armst_art_vaza.et"
   }
-  m_SpawnCount 3
+  m_MinDistanceBetweenAnomalies 15
   m_CenterBias 0.5
   m_SpawnChance 60
   m_SpawnChanceArtefactsRestart 15.31

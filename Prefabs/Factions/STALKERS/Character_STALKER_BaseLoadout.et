@@ -6,9 +6,9 @@ SCR_ChimeraCharacter : "{5346CF7E39A65A6B}Prefabs/Characters/Factions/OPFOR/USSR
   }
   SCR_CharacterControllerComponent "{520EA1D2F659CEA5}" {
    JumpUpVelocity 2
-   AimingSpeed 70
+   AimingSpeed 54.6
    LegsDamageCanMoveThreshold 0.4
-   LeanSpeed 3
+   LeanSpeed 2
   }
   ARMST_RANDOM_CLOTHES_NEW "{66426E44C6498633}" {
    m_Category {
@@ -85,12 +85,15 @@ SCR_ChimeraCharacter : "{5346CF7E39A65A6B}Prefabs/Characters/Factions/OPFOR/USSR
     SCR_CharacterHitZone LForearm {
      BaseDamageMultiplier 0.6
     }
+    SCR_CharacterHitZone Neck {
+     m_fBleedingRateScale 7
+    }
    }
   }
   SCR_CharacterStaminaComponent "{520EA1D2F659C824}" {
-   StaminaRegainPerS 0.06
+   StaminaRegainPerS 0.05
    StaminaDrainRun -0.01
-   StaminaDrainSprint -0.02
+   StaminaDrainSprint -0.04
    EncumbranceMassMax 150
   }
   SCR_CharacterVicinityComponent "{529A70D96D401B33}" {
@@ -107,6 +110,9 @@ SCR_ChimeraCharacter : "{5346CF7E39A65A6B}Prefabs/Characters/Factions/OPFOR/USSR
     SCR_BandageUserAction "{5A26F8E67741AC1E}" {
     }
     SCR_BandageUserAction "{5A26F8E460F2D5F7}" {
+    }
+    ARMST_USER_LOOT_BODY "{689EFA9EB9253D8B}" {
+     Duration 8
     }
    }
   }

@@ -1060,68 +1060,68 @@ $grp GenericEntity : "{74D1DB7828061BD7}Prefabs/Props/Garbage/Generic/Junk_01/Ju
 }
 $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRIGGER_ANOMAL.et" {
  ELECTRO_ANOMALY16 {
-  coords 2972.349 304.702 2664.727
+  coords 3146.801 304.702 2788.389
   SphereRadius 70
   TriggerActivationType "Every query"
   UpdatePeriod 7
   m_ObjectPrefab "{60D88B47635E7627}Prefabs/Anomals/Electro/ARMST_ELECTRO_T1.et"
   m_ObjectPrefab2 "{60D88B47635E7627}Prefabs/Anomals/Electro/ARMST_ELECTRO_T1.et"
   m_ObjectPrefab3 "{60D88B47635E7627}Prefabs/Anomals/Electro/ARMST_ELECTRO_T1.et"
-  m_SpawnCount 3
-  m_MinDistanceBetweenAnomalies 10
+  m_SpawnCount 7
+  m_MinDistanceBetweenAnomalies 15
   m_CenterBias 0.5
   m_MinDistanceToPlayer 25
-  m_SpawnChance 60
-  m_SpawnChanceArtefactsRestart 15.31
-  m_SpawnChanceArtefacts 20
+  m_SpawnChance 80
+  m_SpawnChanceArtefactsRestart 25.28
+  m_SpawnChanceArtefacts 25.28
  }
  ELECTRO_ANOMALY30 {
-  coords 2949.195 304.702 2665.001
+  coords 3142.045 304.702 2539.127
   SphereRadius 70
   TriggerActivationType "Every query"
   UpdatePeriod 7
   m_ObjectPrefab "{60D88B47635E7627}Prefabs/Anomals/Electro/ARMST_ELECTRO_T1.et"
   m_ObjectPrefab2 "{60D88B47635E7627}Prefabs/Anomals/Electro/ARMST_ELECTRO_T1.et"
   m_ObjectPrefab3 "{60D88B47635E7627}Prefabs/Anomals/Electro/ARMST_ELECTRO_T1.et"
-  m_SpawnCount 3
-  m_MinDistanceBetweenAnomalies 10
+  m_SpawnCount 7
+  m_MinDistanceBetweenAnomalies 15
   m_CenterBias 0.5
   m_MinDistanceToPlayer 25
-  m_SpawnChance 60
-  m_SpawnChanceArtefactsRestart 15.31
-  m_SpawnChanceArtefacts 20
+  m_SpawnChance 80
+  m_SpawnChanceArtefactsRestart 25.28
+  m_SpawnChanceArtefacts 25.28
  }
  ELECTRO_ANOMALY31 {
-  coords 2971.467 304.702 2677.166
+  coords 3293.059 304.702 2677.166
   SphereRadius 70
   TriggerActivationType "Every query"
   UpdatePeriod 7
   m_ObjectPrefab "{60D88B47635E7627}Prefabs/Anomals/Electro/ARMST_ELECTRO_T1.et"
   m_ObjectPrefab2 "{60D88B47635E7627}Prefabs/Anomals/Electro/ARMST_ELECTRO_T1.et"
   m_ObjectPrefab3 "{60D88B47635E7627}Prefabs/Anomals/Electro/ARMST_ELECTRO_T1.et"
-  m_SpawnCount 3
-  m_MinDistanceBetweenAnomalies 10
+  m_SpawnCount 7
+  m_MinDistanceBetweenAnomalies 15
   m_CenterBias 0.5
   m_MinDistanceToPlayer 25
-  m_SpawnChance 60
-  m_SpawnChanceArtefactsRestart 15.31
-  m_SpawnChanceArtefacts 20
+  m_SpawnChance 80
+  m_SpawnChanceArtefactsRestart 25.28
+  m_SpawnChanceArtefacts 25.28
  }
  ELECTRO_ANOMALY32 {
-  coords 2992.219 304.702 2670.162
+  coords 2930.75 304.702 2608.683
   SphereRadius 70
   TriggerActivationType "Every query"
   UpdatePeriod 7
   m_ObjectPrefab "{60D88B47635E7627}Prefabs/Anomals/Electro/ARMST_ELECTRO_T1.et"
   m_ObjectPrefab2 "{60D88B47635E7627}Prefabs/Anomals/Electro/ARMST_ELECTRO_T1.et"
   m_ObjectPrefab3 "{60D88B47635E7627}Prefabs/Anomals/Electro/ARMST_ELECTRO_T1.et"
-  m_SpawnCount 3
-  m_MinDistanceBetweenAnomalies 10
+  m_SpawnCount 7
+  m_MinDistanceBetweenAnomalies 15
   m_CenterBias 0.5
   m_MinDistanceToPlayer 25
-  m_SpawnChance 60
-  m_SpawnChanceArtefactsRestart 15.31
-  m_SpawnChanceArtefacts 20
+  m_SpawnChance 80
+  m_SpawnChanceArtefactsRestart 25.28
+  m_SpawnChanceArtefacts 25.28
  }
 }
 SCR_DestructibleBuildingEntity : "{777E80AFDC98395B}Prefabs/Props/Wrecks/ShipWreckMetal_02/ShipWreckMetal_02_base.et" {

@@ -417,11 +417,11 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
     m_InitialSpawnDelay 15
-    m_CheckInterval 90
-    m_CheckPlayerRadius 47
+    m_CheckInterval 201
+    m_CheckPlayerRadius 50
     m_SpawnChance 78
     m_FailedSpawnDelay 389
-    m_PlayerDetectionRadius 212
+    m_PlayerDetectionRadius 164
     m_RespawnDelayAfterDelete 1098
     m_SpawnGroups {
      "{7A2CF51B0D2A9807}Configs/GAME_SETTING/BOTS/ALIFE/mutants/psy_destroyer.conf"
@@ -436,11 +436,11 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
     m_InitialSpawnDelay 15
-    m_CheckInterval 90
-    m_CheckPlayerRadius 47
+    m_CheckInterval 201
+    m_CheckPlayerRadius 50
     m_SpawnChance 78
     m_FailedSpawnDelay 389
-    m_PlayerDetectionRadius 212
+    m_PlayerDetectionRadius 164
     m_RespawnDelayAfterDelete 1098
     m_SpawnGroups {
      "{308C5744595D93B7}Configs/Alife/mutants/zombie_soldiers_mixed.conf"
@@ -455,8 +455,10 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
     m_InitialSpawnDelay 15
-    m_CheckPlayerRadius 32
+    m_CheckInterval 201
+    m_CheckPlayerRadius 50
     m_SpawnChance 60
+    m_PlayerDetectionRadius 164
     m_RespawnDelayAfterDelete 1098
     m_SpawnGroups {
      "{308C5744595D93B7}Configs/Alife/mutants/zombie_soldiers_mixed.conf"
@@ -606,19 +608,19 @@ GenericEntity : "{7492BAA88AFCEDCE}Prefabs/Compositions/Slotted/SlotFlatSmall/Bu
  }
 }
 ARMST_TRIGGER_SPAWN EYE_ANOMALY14 : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRIGGER_ANOMAL.et" {
- coords 3221.747 302.362 2419.905
+ coords 3221.747 302.362 2461.392
  SphereRadius 74.2
  TriggerActivationType "Every query"
  UpdatePeriod 7
  m_ObjectPrefab "{1918FCF94E1DC74D}Prefabs/Anomals/Eye/ARMST_EYE.et"
  m_ObjectPrefab2 "{9E0D254D4ECD2C1D}Prefabs/Anomals/Miracle/ARMST_MIRACLE.et"
  m_ObjectPrefab3 "{1918FCF94E1DC74D}Prefabs/Anomals/Eye/ARMST_EYE.et"
- m_SpawnCount 3
- m_MinDistanceBetweenAnomalies 10
+ m_SpawnCount 6
+ m_MinDistanceBetweenAnomalies 15
  m_CenterBias 0.5
  m_MinDistanceToPlayer 25
  m_SpawnChance 60
- m_SpawnChanceArtefactsRestart 15.31
+ m_SpawnChanceArtefactsRestart 20
  m_SpawnChanceArtefacts 20
 }
 GenericEntity : "{816F3FD037EA2EFF}Prefabs/Vehicles/gaz53/armst_gaz53_box.et" {
