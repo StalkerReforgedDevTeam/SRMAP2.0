@@ -28,19 +28,20 @@ SCR_ChimeraCharacter : "{5346CF7E39A65A6B}Prefabs/Characters/Factions/OPFOR/USSR
     SCR_CharacterHealthHitZone Health {
      BaseDamageMultiplier 0.85
      MaxHealth 1000
-     DamageReduction 0.15
+     DamageReduction 0.1
      "Collision multiplier" 0.9
      "Melee multiplier" 0.7
-     "Kinetic multiplier" 0.7
+     "Kinetic multiplier" 0.8
     }
     SCR_CharacterBloodHitZone Blood {
-     BaseDamageMultiplier 0.8
+     BaseDamageMultiplier 0.7
      "Melee multiplier" 0.6
      "Kinetic multiplier" 0.7
     }
     SCR_CharacterResilienceHitZone Resilience {
      BaseDamageMultiplier 0.7
-     DamageReduction 1.2
+     MaxHealth 1000
+     DamageReduction 1
      "Collision multiplier" 0.9
      "Melee multiplier" 0.7
      "Kinetic multiplier" 0.7
@@ -49,20 +50,18 @@ SCR_ChimeraCharacter : "{5346CF7E39A65A6B}Prefabs/Characters/Factions/OPFOR/USSR
      ParentHZs {
       ParentHitZone "{60F48ADCA47D7F72}" {
        DamageMultiplier 2.5
-       HealingMultiplier 1
+       HealingMultiplier 3
       }
       ParentHitZone "{60F48ADCA47D7F6C}" {
        DamageMultiplier 1
       }
      }
      MaxHealth 300
-     CriticalDamage 0.7
      DamageReduction 1.1
     }
     SCR_CharacterHitZone Chest {
-     BaseDamageMultiplier 0.8
-     MaxHealth 400
-     CriticalDamage 0.7
+     BaseDamageMultiplier 0.9
+     MaxHealth 300
      DamageReduction 1.1
      "Melee multiplier" 1
      "Kinetic multiplier" 8
@@ -70,7 +69,7 @@ SCR_ChimeraCharacter : "{5346CF7E39A65A6B}Prefabs/Characters/Factions/OPFOR/USSR
     SCR_CharacterHitZone Abdomen {
      BaseDamageMultiplier 0.8
      MaxHealth 400
-     CriticalDamage 0.8
+     CriticalDamage 0.6
      DamageReduction 1.1
     }
     SCR_CharacterHitZone RArm {
