@@ -806,6 +806,16 @@ $grp SCR_DestructibleBuildingEntity : "{7720B78DED8FAB50}Prefabs/Perimetr/wall_p
   angles 0 90.243 0
   scale 1.243
  }
+ {
+  coords 1172.061 300.979 508.33
+  angles 0 126.035 0
+  scale 1.243
+ }
+ {
+  coords 1166.39 301.029 500.535
+  angles 0 126.035 0
+  scale 1.243
+ }
 }
 GenericEntity : "{8703D964AC15EA53}PrefabsEditable/E_Identity_Selector.et" {
  coords 5596.606 304.756 80.301
