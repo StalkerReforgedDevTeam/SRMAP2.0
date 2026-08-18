@@ -11194,44 +11194,9 @@ $grp StaticModelEntity : "{0C904BACB486FC2E}Prefabs/Structures/Debris/DebrisPile
   coords 2857.624 306.025 2679.454
  }
 }
-$grp GenericEntity : "{0C923757B8B8306B}Prefabs/Compositions/Misc/FreeRoamBuilding/BarbedTapeTriple_S_USSR_01.et" {
- {
-  coords 5020.905 306.058 444.157
-  angles 0 61.694 0
-  {
-   StaticModelEntity {
-    ID "5E64B54F57833D69"
-    coords 0 0 0
-   }
-  }
- }
- {
-  coords 5017.918 306.123 442.978
-  angles 0 71.628 0
- }
- {
-  coords 5011.586 305.84 441.759
-  angles 0 76.776 0
- }
- {
-  coords 5014.342 306.251 442.643
-  angles 0 82.2 0
- }
- {
-  coords 5009.417 305.772 440.54
-  angles 0 52.958 0
-  {
-   StaticModelEntity {
-    ID "5E64B54F57833D69"
-    coords 0 0.144 -0.074
-    angles -1.812 0 0
-   }
-  }
- }
- {
-  coords 5741.149 327.629 2032.994
-  angles 0 -88.53 0
- }
+GenericEntity : "{0C923757B8B8306B}Prefabs/Compositions/Misc/FreeRoamBuilding/BarbedTapeTriple_S_USSR_01.et" {
+ coords 5741.149 327.629 2032.994
+ angles 0 -88.53 0
 }
 $grp GenericEntity : "{0CA7840CD4247D8A}Prefabs/Compositions/Misc/SubCompositions/SandbagCamo_wall_High_US.et" {
  {
@@ -134112,48 +134077,6 @@ $grp GenericEntity : "{93D7D0C0A52CD6A8}Prefabs/Trash/Food/GarbageFoodMilitaryUS
  {
   coords 3256.982 304.944 2642.313
   angles 0 -170.428 0
- }
-}
-$grp StaticModelEntity : "{93E06E731212BD96}Prefabs/Structures/Walls/BarbedWire/BarbedTape_01/BarbedTape_01_Triple.et" {
- {
-  components {
-   Hierarchy "{5E64B54D0EE72D6B}" {
-   }
-  }
-  coords 5006.94 -0.32 438.404
-  angles -1.067 51.805 0
- }
- {
-  components {
-   Hierarchy "{5E64B54D0EE72D6B}" {
-   }
-  }
-  coords 5004.543 -0.344 436.407
-  angles 0 40.804 0
- }
- {
-  components {
-   Hierarchy "{5E64B54D0EE72D6B}" {
-   }
-  }
-  coords 5002.718 -0.603 433.923
-  angles 0.314 -136.115 2.931
- }
- {
-  components {
-   Hierarchy "{5E64B54D0EE72D6B}" {
-   }
-  }
-  coords 4997.691 -0.431 430.104
-  angles -3.515 -118.059 6.143
- }
- {
-  components {
-   Hierarchy "{5E64B54D0EE72D6B}" {
-   }
-  }
-  coords 5000.214 -0.449 432.064
-  angles -1.316 -125.183 2.938
  }
 }
 $grp GenericEntity : "{93F2E0C43450EE44}Prefabs/Vehicles/ural/armst_ural_new_wheels_tents.et" {
