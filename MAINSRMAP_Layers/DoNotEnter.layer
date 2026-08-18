@@ -26,6 +26,7 @@ SCR_DestructibleBuildingEntity {
    Static 1
   }
   SCR_DestructibleBuildingComponent "{6A155696F37D1E98}" {
+   Enabled 0
    "Additional hit zones" {
     SCR_HitZone Default {
      HZDefault 1
