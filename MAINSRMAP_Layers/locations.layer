@@ -52303,6 +52303,10 @@ $grp GenericEntity : "{37F956298DB37229}Prefabs/others/koliya.et" {
   coords 5061.347 309.312 440.105
   angles 9.796 170.503 0
  }
+ {
+  coords 5019.048 313.167 433.15
+  angles 2.1 100.55 -13.461
+ }
 }
 $grp SCR_IndestructibleEnvironmentalEntity : "{38473AF4D96A4E11}Prefabs/Rocks/Granite/Granite_Cluster_04.et" {
  {
@@ -134150,12 +134154,6 @@ $grp StaticModelEntity : "{93E06E731212BD96}Prefabs/Structures/Walls/BarbedWire/
   }
   coords 5000.214 -0.449 432.064
   angles -1.316 -125.183 2.938
- }
- {
-  coords 5024.683 0 429.419
- }
- {
-  coords 5024.683 0.024 432.568
  }
 }
 $grp GenericEntity : "{93F2E0C43450EE44}Prefabs/Vehicles/ural/armst_ural_new_wheels_tents.et" {
