@@ -172,6 +172,105 @@ SCR_DestructibleBuildingEntity : "{05446F713779A94D}Prefabs/Structures/Military/
  }
  coords 1131.526 0 1321.009
  angles 0 94.809 0
+ {
+  GenericEntity {
+   ID "6964E08DEEDFBF5B"
+   components {
+    ARMST_RANDOM_LOOTS_POINT "{669E6408A973CF93}" {
+     Enabled 0
+    }
+   }
+   coords -5.496 1.264 -0.484
+  }
+  GenericEntity {
+   ID "6964E08DEEDFBCB4"
+   components {
+    ARMST_RANDOM_LOOTS_POINT "{669E640B5529F967}" {
+     Enabled 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "6964E08DEEDFBC83"
+   components {
+    ARMST_RANDOM_LOOTS_POINT "{669E640B5AC05495}" {
+     Enabled 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "6964E08DEEDFBCE4"
+   components {
+    ARMST_RANDOM_LOOTS_POINT "{669E640B5AC05495}" {
+     Enabled 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "6964E08DEEDFBF17"
+   components {
+    ARMST_RANDOM_LOOTS_POINT "{669E640B5AC05495}" {
+     Enabled 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "6964E08DEEDFBC6C"
+   components {
+    ARMST_RANDOM_LOOTS_POINT "{669E6408AFCB6041}" {
+     Enabled 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "6964E08DEEDFBC85"
+   components {
+    ARMST_RANDOM_LOOTS_POINT "{669E6408BB576032}" {
+     Enabled 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "6964E08DEEDFBCC2"
+   components {
+    ARMST_RANDOM_LOOTS_POINT "{669E6408BB576032}" {
+     Enabled 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "6964E08DEEDFBCA3"
+   components {
+    ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+     Enabled 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "6964E08DEEDFBCA9"
+   components {
+    ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+     Enabled 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "6964E08DEEDFBCCB"
+   components {
+    ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+     Enabled 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "6964E08DEEDFBCF0"
+   components {
+    ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+     Enabled 0
+    }
+   }
+  }
+ }
 }
 StaticModelEntity : "{07F043DD6AACCD0B}Prefabs/Structures/Infrastructure/Barriers/BarGate_01/BarGate_01.et" {
  coords 1266.597 0 1369.697
@@ -11342,6 +11441,89 @@ SCR_DestructibleBuildingEntity : "{F3916F47D2770AB3}Prefabs/Industrial/sklades_s
     GenericEntity {
      ID "59AC83AC7AD743E0"
      coords 0 0 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "695EA1832DD1F325"
+   components {
+    ARMST_RANDOM_LOOTS_POINT "{669E6408A973CF93}" {
+     Enabled 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "695EA1832DD1F347"
+   components {
+    ARMST_RANDOM_LOOTS_POINT "{65A4C21424064B9B}" {
+     Enabled 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "695EA1832DD1F2C9"
+   components {
+    ARMST_RANDOM_LOOTS_POINT "{669E640B5529F967}" {
+     Enabled 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "695EA1832DD1F308"
+   components {
+    ARMST_RANDOM_LOOTS_POINT "{669E640B5529F967}" {
+     Enabled 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "695EA1832DD1F373"
+   components {
+    ARMST_RANDOM_LOOTS_POINT "{669E640B5529F967}" {
+     Enabled 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "695EA1832DD1F357"
+   components {
+    ARMST_RANDOM_LOOTS_POINT "{669E6408BB576032}" {
+     Enabled 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "695EA1832DD1F304"
+   components {
+    ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+     Enabled 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "695EA1832DD1F34E"
+   components {
+    ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+     Enabled 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "695EA1832DD1F32D"
+   components {
+    ARMST_RANDOM_LOOTS_POINT "{669E640B5FA509DB}" {
+     Enabled 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "695EA1832DD1F330"
+   components {
+    ARMST_RANDOM_LOOTS_POINT "{669E640B5FA509DB}" {
+     Enabled 0
+    }
+    RigidBody "{5872F0EB7DFB5A9D}" {
+     Enabled 0
     }
    }
   }
