@@ -9652,22 +9652,6 @@ GameEntity : "{6020D7B8D466821A}Prefabs/Structures/BuildingParts/Ladders/Ladder_
  coords 3560.278 13.774 1841.088
  angles 0 177.064 0
 }
-GameEntity HeadLamp_light_6A17361F7099A56E : "{6EAA929251C4F415}Prefabs/Items/light/HeadLamp_light.et" {
- coords 3546.486 301.69 1888.13
- angles 0 -91.993 0
- {
-  LightEntity {
-   ID "5D0CC0E56B2DFA78"
-   coords -0.04 0.552 0.02
-   Color 1 0.7772 0.4851 1
-   LV 3.31
-   ClipEV 2.53
-   Radius 14
-   SpotAngle 59.66
-   DistanceAttenuation 2.18
-  }
- }
-}
 GenericEntity : "{7030822F7A54F479}Prefabs/Props/Crates/CrateWooden_01_base.et" {
  coords 4932.102 326.38 3059.301
  angles 0 145.238 0
@@ -13690,9 +13674,6 @@ $grp GenericEntity : "{C1E318C4198DFA2A}PrefabLibrary/DefaultLibrary/Props/Milit
 GenericEntity : "{C58BDB4D22E0A5A7}Prefabs/Props/Garbage/Generic/Litter_01_large.et" {
  coords 4931.651 326.38 3058.356
  angles 0 -123.299 0
-}
-GameEntity HeadLamp_6A17361E7DBC017F : "{C81B78522044EA72}Prefabs/Items/light/HeadLamp.et" {
- coords 3542.998 301.675 1887.562
 }
 GenericEntity : "{C8A9F7FDDF3CE851}Prefabs/Compositions/Misc/SubCompositions/Decorations/Barrel_Radio_01.et" {
  coords 4955.114 326.38 3053.923
