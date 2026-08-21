@@ -1092,6 +1092,10 @@ SCR_DestructibleEntity : "{664176B900CE86B2}PrefabLibrary/DefaultLibrary/Walls/N
  coords 1172.993 0 1491.273
  angles 0 -176.254 0
 }
+GenericEntity : "{676B113E101257E5}Prefabs/Structures/Military/Houses/FuelStorage_E_01/Furniture/FuelStorage_E_01_furniture_01.et" {
+ coords 1649.65 300.452 1529.03
+ angles 0 -137.818 0
+}
 GenericEntity : "{679B481179A99349}Prefabs/Props/Military/MilitaryCrates/ShellContainerstack_01/ShellContainerstack_01_single.et" {
  coords 1217.719 297.854 1316.585
  angles 0 -83.238 0
@@ -1610,7 +1614,7 @@ GenericEntity : "{890EE5FB23BA713E}Prefabs/Props/Military/AmmoBoxes/EquipmentBox
  coords 1246.766 297.733 1318.728
 }
 StaticModelEntity : "{8ABF4267350A953F}Prefabs/Structures/Industrial/Containers/FuelTanks/FuelTank_02/FuelTank_02_Pump_yellow_Ruin.et" {
- coords 1665.92 300.452 1519.674
+ coords 1665.92 300.431 1519.674
  angles 0 -48 0
 }
 GenericEntity : "{8B3C689CC50F4825}Prefabs/Structures/BuildingParts/Doors/Door_MetalGate_04_LEFT_EXT_ST_B.et" {
@@ -10756,10 +10760,6 @@ $grp GenericEntity : "{B8576ECF78CDBCD7}Prefabs/Props/Military/Training/Obstacle
   angles 0 5.996 0
  }
 }
-SCR_DestructibleBuildingEntity : "{B93DA3DA3F926773}Prefabs/Structures/Military/Houses/FuelStorage_E_01/FuelStorage_USSR_01_V2.et" {
- coords 1651.678 0 1529.798
- angles 0 -139 0
-}
 $grp GenericEntity : "{BC16FA49B7483E63}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/CrateStack_01_decals_01.et" {
  {
   coords 1218.838 297.733 1313.684
@@ -11209,7 +11209,7 @@ $grp Tree : "{DA7492F3E6B63251}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_
  }
 }
 SCR_DestructibleBuildingEntity : "{DAC148D18C3835B9}Prefabs/Structures/Military/Bunkers/ShelterMilitary_E_01/ShelterMilitary_E_01_long.et" {
- coords 1676.743 0 1515.922
+ coords 1677.012 0 1516.213
  angles 0 -137.302 0
 }
 GenericEntity : "{DB4F61D5F37432F7}Prefabs/Props/Military/Camps/PalletFuel_01.et" {
