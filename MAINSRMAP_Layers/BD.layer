@@ -221,7 +221,7 @@ SCR_GameModeEditor Armst_GameMaster : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Editor
   SRZ_PDALoggerComponent "{69A16C0FED1C8963}" {
   }
   SR_LootManagerComponent "{6A169C8F3A05D4FA}" {
-   respawnDelay 120
+   masterConfig "{B81901403EA81F4E}Configs/LootSystem/baseloot.conf"
   }
  }
  coords 4176.283 311.046 720.867
@@ -323,7 +323,7 @@ SCR_GameModeEditor Armst_GameMaster : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Editor
       }
      }
     }
-    SCR_Faction "{699B5A3D90784EEB}" : "{70F12E86D4A5B1C8}Configs/Factions/SrFactions/BANDITS.conf" {
+    SCR_Faction "{699B5A3D90784EEB}" : "{D2528BAD34ED87A6}Configs/Factions/SrFactions/BANDITS.conf" {
      FactionKey "FACTION_BANDITS"
      FactionColor 0.1195 0.0548 0.0054 1
      "Radio encryption key" "BANDITCOMS"

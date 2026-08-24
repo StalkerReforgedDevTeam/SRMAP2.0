@@ -63,13 +63,36 @@ GenericEntity {
    m_fMaxWeight 100000000
   }
   SR_LootRollComponent "{6A10A0587F15EC38}" {
-   m_sLootConfig "{95D44C4128043663}Configs/LootSystem/base/BaseLootConfig.conf"
-   m_sTierName "Base"
-   m_aCategoryNames {
-    "junk" "medical" "food" "repair" "device" "money" "keys" "keycard" "electronics" "tools" "jewlery" "photos" "science"
+   tierName "BaseLoot"
+   categories {
+    SR_CategoryWeight "{6A30BA4B855F7C82}" {
+     categoryName "JUNK"
+     weight 17
+    }
+    SR_CategoryWeight "{6A30BA48702A6D7A}" {
+     categoryName "MEDI"
+     weight 15
+    }
+    SR_CategoryWeight "{6A30BA48704EF855}" {
+     categoryName "HANDGUNS"
+     weight 10
+    }
+    SR_CategoryWeight "{6A30BA48707A0AF9}" {
+     categoryName "ARIFLE"
+     weight 5
+    }
+    SR_CategoryWeight "{6A30BA486F196F62}" {
+     categoryName "FOOD"
+     weight 15
+    }
+    SR_CategoryWeight "{6A30BA486F51A0BA}" {
+     categoryName "JACKET"
+     weight 12
+    }
    }
-   m_iSlotMin 0
-   m_iSlotMax 6
+   slotMin 0
+   slotMax 2
+   m_fLootRespawnTime 15
   }
   InventoryStorageManagerComponent "{6A10A0587F15EC39}" {
    Enabled 1

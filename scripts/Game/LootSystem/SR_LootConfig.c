@@ -5,8 +5,8 @@ class SR_LootItem
 	[Attribute(defvalue: "", desc: "Prefab", params: "et")]
     ResourceName prefab;
 
-    [Attribute(defvalue: "10", desc: "Chance to spawn")]
-    int chance;
+    [Attribute(defvalue: "10", desc: "Spawn weight of the item")]
+    int weight;
 
     [Attribute(defvalue: "0", desc: "Minimum stack count")]
     int minCount;
@@ -29,11 +29,11 @@ class SR_LootCategory
 
     [Attribute(defvalue: "New Category", desc: "Category name")]
     string category;
-
+	
     [Attribute(desc: "Items assigned to this category")]
     ref array<ref SR_LootItem> items;
 
-
+	int categoryItemWeightTotal;
 }
 
 [BaseContainerProps(), BaseContainerCustomTitleField("lootTier")]
@@ -45,6 +45,7 @@ class SR_LootTier
 
     [Attribute(desc: "Categories assigned to this tier")]
     ref array<ref SR_LootCategory> categories;
+	
 
 
 }

@@ -1,9 +1,0 @@
-GenericEntity : "{DE7022F2DE702E87}Prefabs/LootSystem/sr_lootbag_rnd_tier1.et" {
- ID "6A10A0587F15EC6F"
- components {
-  MeshObject "{6A10A0587F15EC67}" {
-   Object "{79E09D2DFCA471A5}Assets/Items/Equipment/Backpacks/Backpack_Veshmeshok/Backpack_Veshmeshok_item.xob"
-  }
- }
- coords 3674.643 311.744 602.351
-}
