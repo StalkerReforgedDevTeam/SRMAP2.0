@@ -160,7 +160,7 @@ class SR_LootManagerComponent : ScriptComponent
 				itemRoll -= itemObj.weight;
 				if (itemRoll <= 0)
 				{
-					itemObj.spawnCount = Math.RandomIntInclusive(itemObj.minCount, itemObj.maxCount);
+					itemObj.spawnCount = Math.RandomIntInclusive(1, itemObj.maxCount);
 					PrintFormat("[SR LOOT] Item %1 was chosen with quantity %2", itemObj, itemObj.spawnCount, LogLevel.NORMAL);
 					selectedItems.Insert(itemObj);
 					break;

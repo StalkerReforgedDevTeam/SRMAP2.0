@@ -8,9 +8,6 @@ class SR_LootItem
     [Attribute(defvalue: "10", desc: "Spawn weight of the item")]
     int weight;
 
-    [Attribute(defvalue: "0", desc: "Minimum stack count")]
-    int minCount;
-
     [Attribute(defvalue: "1", desc: "Maximum stack count")]
     int maxCount;
 

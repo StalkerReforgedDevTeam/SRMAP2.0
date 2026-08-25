@@ -62,6 +62,12 @@ class SR_LootRollComponent : ScriptComponent
 			Print("[SR LOOT] Loot manger not found");
 			return;
 		}
+		BaseInventoryStorageComponent rootStorage = BaseInventoryStorageComponent.Cast(owner.FindComponent(BaseInventoryStorageComponent));
+		if (!rootStorage)
+		{
+			Print("SR_LootRollComponent: No root BaseInventoryStorageComponent found on container!", LogLevel.WARNING);
+			return;
+		}
 		ref array<SR_LootItem> items = new array<SR_LootItem>();
 		int slots = Math.RandomIntInclusive(slotMin, slotMax);
 		if (slots <= 0) return;
@@ -132,7 +138,7 @@ class SR_LootRollComponent : ScriptComponent
 					stats.SetConditionLevel(Math.RandomFloatInclusive(item.conditionMin, item.conditionMax));
 				}
 
-				bool inserted = invManager.TryInsertItem(spawnedItem);
+				bool inserted = invManager.TryInsertItemInStorage(spawnedItem, rootStorage);
 		
 				if (!inserted)
 				{
