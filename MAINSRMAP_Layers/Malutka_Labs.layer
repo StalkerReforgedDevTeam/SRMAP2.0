@@ -2433,7 +2433,6 @@ GenericEntity : "{12C9F97F9D38F68D}Prefabs/Props/Teleport/ARMST_ACTION_TELEPORT.
      m_sTeleportActionName "Enter The Zone"
      m_sTeleportTarget "enter_perimetr2"
      m_bRandomizeDestination 1
-     m_sTeleportTarget2 "enter_perimetr11"
      m_sTeleportTarget3 "enter_perimetr15"
     }
    }
