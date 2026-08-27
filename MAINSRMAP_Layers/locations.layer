@@ -51461,12 +51461,12 @@ $grp GenericEntity : "{36E65E74067C13F1}Prefabs/Props/Industrial/Pallets/MarsBox
   angles 0 -83.779 0
  }
  {
-  coords 1204.343 297.733 1394.176
-  angles 0 94.123 0
+  coords 1201.138 297.733 1391.903
+  angles 0 -176.431 0
  }
  {
-  coords 1204.151 297.733 1392.157
-  angles 0 99.145 0
+  coords 1199.118 297.733 1392.075
+  angles 0 -171.409 0
  }
  {
   coords 1185.418 297.733 1341.228
@@ -88341,7 +88341,7 @@ $grp GenericEntity : "{5DA11A95EEB02443}Prefabs/Compositions/Misc/SubComposition
   angles 0 148.673 0
  }
  {
-  coords 1201.17 297.854 1392.375
+  coords 1197.735 297.728 1392.422
   angles 0 150.219 0
  }
  {
@@ -104211,8 +104211,8 @@ $grp GenericEntity : "{6FD54E69CFDD6B07}Prefabs/Props/Industrial/BarrelFuel_01_c
     Enabled 1
    }
   }
-  coords 1201.36 297.854 1391.908
-  angles 0 -134.637 0
+  coords 1194.66 297.727 1392.191
+  angles 0 -72.161 0
  }
  {
   components {
@@ -104220,8 +104220,8 @@ $grp GenericEntity : "{6FD54E69CFDD6B07}Prefabs/Props/Industrial/BarrelFuel_01_c
     Enabled 1
    }
   }
-  coords 1201.428 297.854 1392.552
-  angles 0 -142.178 0
+  coords 1195.261 297.724 1392.427
+  angles 0 -79.702 0
  }
  {
   components {
@@ -104229,8 +104229,8 @@ $grp GenericEntity : "{6FD54E69CFDD6B07}Prefabs/Props/Industrial/BarrelFuel_01_c
     Enabled 1
    }
   }
-  coords 1200.82 297.854 1392.322
-  angles 0 -56.213 0
+  coords 1194.776 297.725 1392.86
+  angles 0 6.263 0
  }
  {
   coords 2528.835 301.233 1469.271
@@ -125334,8 +125334,8 @@ $grp GenericEntity : "{84B029EBE9BD61C8}Prefabs/Props/Industrial/Pallets/MarsBox
   angles -0.277 123.551 -0.962
  }
  {
-  coords 1204.519 297.733 1396.196
-  angles 0 96.12 0
+  coords 1203.16 297.733 1391.746
+  angles 0 -174.434 0
  }
  {
   coords 1536.716 309.82 288.766
@@ -166878,39 +166878,12 @@ $grp GenericEntity : "{BE7B5BAFE1A16A50}Prefabs/Props/Military/Fortification/Bar
  }
  {
   components {
-   Hierarchy "{54A6A39C75EB7294}" {
-    Enabled 1
-   }
-  }
-  coords 1202.852 -0.563 1393.654
-  angles 0 114.504 0
- }
- {
-  components {
-   Hierarchy "{54A6A39C75EB0E78}" {
-    Enabled 1
-   }
-  }
-  coords 1202.766 -0.55 1394.712
-  angles 0 108.664 0
- }
- {
-  components {
    Hierarchy "{54A6A39C75EB049A}" {
     Enabled 1
    }
   }
-  coords 1202.313 -0.548 1392.268
-  angles 0 -27.775 0
- }
- {
-  components {
-   Hierarchy "{54A6A39C75EB7294}" {
-    Enabled 1
-   }
-  }
-  coords 1201.625 -0.497 1394.71
-  angles 0 114.504 0
+  coords 1195.418 0.007 1391.512
+  angles 0 34.701 0
  }
  {
   components {
@@ -166918,26 +166891,8 @@ $grp GenericEntity : "{BE7B5BAFE1A16A50}Prefabs/Props/Military/Fortification/Bar
     Enabled 1
    }
   }
-  coords 1203.07 -0.554 1397.015
-  angles 0 9.8 0
- }
- {
-  components {
-   Hierarchy "{54A6A39C75EB049A}" {
-    Enabled 1
-   }
-  }
-  coords 1202.33 -0.52 1396.019
-  angles 0 -27.775 0
- }
- {
-  components {
-   Hierarchy "{54A6A39C75EB66A1}" {
-    Enabled 1
-   }
-  }
-  coords 1201.7 -0.528 1391.192
-  angles 0 9.8 0
+  coords 1194.274 0.003 1391.268
+  angles 0 72.276 0
  }
  {
   components {
@@ -166945,8 +166900,8 @@ $grp GenericEntity : "{BE7B5BAFE1A16A50}Prefabs/Props/Military/Fortification/Bar
     Enabled 1
    }
   }
-  coords 1201.721 -0.51 1393.515
-  angles 0 108.664 0
+  coords 1196.251 0.005 1392.613
+  angles 0 171.14 0
  }
 }
 GenericEntity : "{BE869A54C03E9C0D}Prefabs/Trash/Newspapers/newspaper_3.et" {
