@@ -26,63 +26,35 @@ SCR_ChimeraCharacter : "{5346CF7E39A65A6B}Prefabs/Characters/Factions/OPFOR/USSR
   SCR_CharacterDamageManagerComponent "{55872AD7B4E959F2}" {
    "Additional hit zones" {
     SCR_CharacterHealthHitZone Health {
-     BaseDamageMultiplier 0.85
-     MaxHealth 1000
-     DamageReduction 0.1
-     "Collision multiplier" 0.9
-     "Melee multiplier" 0.7
-     "Kinetic multiplier" 0.8
+     MaxHealth 200
     }
     SCR_CharacterBloodHitZone Blood {
-     BaseDamageMultiplier 0.7
-     "Melee multiplier" 0.6
-     "Kinetic multiplier" 0.7
     }
     SCR_CharacterResilienceHitZone Resilience {
      BaseDamageMultiplier 0.7
-     MaxHealth 1000
-     DamageReduction 1
-     "Collision multiplier" 0.9
-     "Melee multiplier" 0.7
-     "Kinetic multiplier" 0.7
+     MaxHealth 250
     }
     SCR_CharacterHeadHitZone Head {
      ParentHZs {
       ParentHitZone "{60F48ADCA47D7F72}" {
-       DamageMultiplier 2.5
-       HealingMultiplier 3
-      }
-      ParentHitZone "{60F48ADCA47D7F6C}" {
-       DamageMultiplier 1
       }
      }
-     MaxHealth 300
-     DamageReduction 1.1
+     BaseDamageMultiplier 0.95
     }
     SCR_CharacterHitZone Chest {
-     BaseDamageMultiplier 0.9
-     MaxHealth 300
-     DamageReduction 1.1
-     "Melee multiplier" 1
+     BaseDamageMultiplier 0.85
      "Kinetic multiplier" 8
     }
     SCR_CharacterHitZone Abdomen {
-     BaseDamageMultiplier 0.8
-     MaxHealth 400
-     CriticalDamage 0.6
-     DamageReduction 1.1
+     BaseDamageMultiplier 0.9
     }
     SCR_CharacterHitZone RArm {
-     BaseDamageMultiplier 0.6
     }
     SCR_CharacterHitZone LArm {
-     BaseDamageMultiplier 0.6
     }
     SCR_CharacterHitZone RForearm {
-     BaseDamageMultiplier 0.6
     }
     SCR_CharacterHitZone LForearm {
-     BaseDamageMultiplier 0.6
     }
     SCR_CharacterHitZone Neck {
      m_fBleedingRateScale 7
