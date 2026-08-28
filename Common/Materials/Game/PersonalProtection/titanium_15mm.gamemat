@@ -1,0 +1,23 @@
+GameMaterial : "{20FF938939F4862A}Common/Materials/Game/Core/titanium_base.gamemat" {
+ SoundInfo SoundInfo "{515AB906E144139F}" {
+  SurfaceSignalValue 6991
+ }
+ BallisticInfo BallisticInfo "{5D5E9615E3A57477}" {
+  KineticPenetrationResistance 1.05
+  ThicknessOverride Value
+  Thickness 15
+ }
+ ParticleEffectInfo ParticleEffectInfo "{5D5E9615E3A57463}" {
+  VehicleDust {
+   "{9ADCD3EA0314A5FA}Particles/Vehicle/Vehicle_dust_medium_wheel_default.ptc"
+  }
+  Blast {
+   "{CC6D295E7121ED6F}Particles/Blasts/Blast_tiny_metal.ptc"
+   "{995F6713F9294816}Particles/Blasts/Blast_small_metal.ptc"
+   "{71561DB4CC756249}Particles/Blasts/Blast_medium_metal.ptc"
+   "{A8975C4094D0A7C3}Particles/Blasts/Blast_big_metal.ptc"
+   "{2C7486D2E7E40717}Particles/Blasts/Blast_huge_default.ptc"
+   "{0B2937AAFA6EA260}Particles/Weapon/Blast_Mortar_Default.ptc"
+  }
+ }
+}
