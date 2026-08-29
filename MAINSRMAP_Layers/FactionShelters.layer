@@ -484,6 +484,9 @@ $grp LightEntity {
   LensFlareScale 1.18
  }
 }
+GenericEntity : "{03E5BE9B8EB2FB2C}Prefabs/Structures/Civilian/SportGrounds/PlaygroundClimber_01.et" {
+ coords 5505 301.758 69
+}
 $grp GenericEntity : "{09990A01FAB36C84}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/USSR/EquipmentBoxStack_USSR_01_V2.et" {
  {
   coords 1269.805 298.512 1342.777
@@ -532,6 +535,9 @@ $grp GenericEntity : "{1A1020205E2B1710}Prefabs/Props/Military/Furniture/TableMi
 }
 GenericEntity : "{1A8791C2BC2B8B75}Prefabs/Structures/Military/Flags/FlagPole_01/FlagPole_01_empty.et" {
  coords 1189.468 297.733 1483.988
+}
+GenericEntity : "{1E20A8400CBEF3A9}Prefabs/Structures/Civilian/SportGrounds/PlaygroundSwing_01.et" {
+ coords 5502 301.838 62
 }
 $grp GenericEntity : "{23E67B7C2DADBEFE}Prefabs/Props/Furniture/Rack_02_blue.et" {
  {
@@ -641,6 +647,10 @@ $grp GenericEntity : "{34AD2F398FDFE5B3}Prefabs/Props/Military/AmmoBoxes/Equipme
   coords 1269.889 298.098 1340.834
  }
 }
+GenericEntity : "{3532649D6B93B0D9}Prefabs/Structures/Civilian/SportGrounds/PlaygroundSlide_01.et" {
+ coords 5507.5 301.727 58
+ angles 0 90 0
+}
 GenericEntity : "{388B774519BD6294}Prefabs/Props/Wrecks/T62_wreck/T62_wreck.et" {
  coords 1355.235 289.816 1326.981
  angles 6.602 171.11 0
@@ -655,6 +665,9 @@ SCR_DestructibleEntity : "{47F1F31525B3171C}PrefabLibrary/DefaultLibrary/Walls/C
 }
 GameEntity : "{4A8E4CF3C9155C53}Prefabs/Props/Military/Misc/GroundCrew_01_Trolley/GroundCrew_01_Trolley_Green_wHolders.et" {
  coords 1262.002 298.128 1345.104
+}
+SCR_DestructibleBuildingEntity : "{4D6D06CAD0439114}Prefabs/Structures/Cultural/Fountains/Fountain_01.et" {
+ coords 5508 0.128 64
 }
 GenericEntity : "{511C041EFC7BAE60}Prefabs/Props/Arsenal/ArsenalBox_STALKEr.et" {
  coords 5636.284 302.254 38.861
@@ -680,9 +693,15 @@ GenericEntity : "{65CD3EE14677E3AA}Prefabs/Props/Military/AmmoBoxes/EquipmentBox
  coords 1269.853 299.713 1342.768
  angles 0 6 0
 }
+GenericEntity : "{67545F06412AA7E4}Prefabs/Structures/Civilian/SportGrounds/PlaygroundSphere_01.et" {
+ coords 5511 301.9 69.25
+}
 GenericEntity : "{6E84387991C01C6D}Prefabs/Props/Military/Training/Obstacles/ObstacleClimb_01.et" {
  coords 1188.559 297.733 1454.259
  angles 0 4.81 0
+}
+GenericEntity : "{6FB18A7B32767402}Prefabs/Structures/Civilian/SportGrounds/PlaygroundClimber_02.et" {
+ coords 5513 301.779 62
 }
 GenericEntity : "{70837F44CD03FD05}Prefabs/Props/Military/AmmoBoxes/USSR/EquipmentBoxWooden_Medical_01_USSR.et" {
  coords 1269.324 298.512 1338.211
