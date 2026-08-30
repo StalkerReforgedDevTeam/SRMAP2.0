@@ -6,9 +6,10 @@ SCR_ChimeraCharacter : "{5346CF7E39A65A6B}Prefabs/Characters/Factions/OPFOR/USSR
   }
   SCR_CharacterControllerComponent "{520EA1D2F659CEA5}" {
    JumpUpVelocity 2
-   AimingSpeed 54.6
+   AimingSpeed 44.6
    LegsDamageCanMoveThreshold 0.4
-   LeanSpeed 2
+   LeanSpeed 1.5
+   "Minimum prone speed" 0.275
   }
   ARMST_RANDOM_CLOTHES_NEW "{66426E44C6498633}" {
    m_Category {
@@ -31,7 +32,6 @@ SCR_ChimeraCharacter : "{5346CF7E39A65A6B}Prefabs/Characters/Factions/OPFOR/USSR
     SCR_CharacterBloodHitZone Blood {
     }
     SCR_CharacterResilienceHitZone Resilience {
-     BaseDamageMultiplier 0.7
      MaxHealth 250
     }
     SCR_CharacterHeadHitZone Head {
@@ -42,11 +42,8 @@ SCR_ChimeraCharacter : "{5346CF7E39A65A6B}Prefabs/Characters/Factions/OPFOR/USSR
      BaseDamageMultiplier 0.95
     }
     SCR_CharacterHitZone Chest {
-     BaseDamageMultiplier 0.85
-     "Kinetic multiplier" 8
     }
     SCR_CharacterHitZone Abdomen {
-     BaseDamageMultiplier 0.9
     }
     SCR_CharacterHitZone RArm {
     }
