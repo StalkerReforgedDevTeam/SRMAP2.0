@@ -5,7 +5,7 @@ GameMaterial : "{20FF938939F4862A}Common/Materials/Game/Core/titanium_base.gamem
  BallisticInfo BallisticInfo "{5D5E9615E3A57477}" {
   KineticPenetrationResistance 1.05
   ThicknessOverride Value
-  Thickness 15
+  Thickness 7
  }
  ParticleEffectInfo ParticleEffectInfo "{5D5E9615E3A57463}" {
   VehicleDust {
