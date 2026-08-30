@@ -39,24 +39,33 @@ SCR_ChimeraCharacter : "{5346CF7E39A65A6B}Prefabs/Characters/Factions/OPFOR/USSR
       ParentHitZone "{60F48ADCA47D7F72}" {
       }
      }
-     BaseDamageMultiplier 0.95
+     BaseDamageMultiplier 0.9
     }
     SCR_CharacterHitZone Chest {
+     BaseDamageMultiplier 1.1
     }
     SCR_CharacterHitZone Abdomen {
+     BaseDamageMultiplier 1.1
     }
     SCR_CharacterHitZone RArm {
+     BaseDamageMultiplier 0.9
     }
     SCR_CharacterHitZone LArm {
+     BaseDamageMultiplier 0.9
     }
     SCR_CharacterHitZone RForearm {
+     BaseDamageMultiplier 0.9
     }
     SCR_CharacterHitZone LForearm {
+     BaseDamageMultiplier 0.9
     }
     SCR_CharacterHitZone Neck {
-     m_fBleedingRateScale 7
+     BaseDamageMultiplier 0.9
+     MaxHealth 100
+     m_fBleedingRateScale 6
     }
    }
+   m_fUnconsciousRegenerationScale 0.5
   }
   SCR_CharacterStaminaComponent "{520EA1D2F659C824}" {
    StaminaRegainPerS 0.05
