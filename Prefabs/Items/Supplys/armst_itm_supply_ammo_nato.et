@@ -6,9 +6,8 @@ GenericEntity : "{4CE9F6B208C9D6E2}Prefabs/Items/Supplys/armst_itm_supply_base.e
     ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
      Weight 15
     }
-    m_Size SLOT_3x3
+    m_Size SLOT_3x2
     m_iCustomGridWidth 3
-    m_iCustomGridHeight 4
    }
   }
  }
