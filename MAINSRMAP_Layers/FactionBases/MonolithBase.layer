@@ -3468,35 +3468,35 @@ DecalEntity : "{1DC3A792132D86CB}Prefabs/Decals/Blood/BloodStain_Large_02.et" {
 }
 $grp GenericEntity : "{21D83950DF36F250}Prefabs/Props/Military/Sandbags/Sandbag_01_long_burlap.et" {
  {
-  coords 3222.393 327.538 2364.311
+  coords 3265.705 316.618 2330.386
   angles 0 -22.764 0
  }
  {
-  coords 3219.26 327.538 2362.996
+  coords 3262.563 316.631 2329.09
   angles 0 -22.764 0
  }
  {
-  coords 3213.221 327.827 2368.079
+  coords 3256.406 316.565 2333.981
   angles 0 -115.014 0
  }
  {
-  coords 3214.658 327.827 2365
+  coords 3257.853 316.605 2330.907
   angles 0 -115.014 0
  }
  {
-  coords 3217.833 328.071 2373.738
+  coords 3261.16 316.607 2339.776
   angles 0 -22.764 0
  }
  {
-  coords 3214.7 328.072 2372.423
+  coords 3258.034 316.629 2338.442
   angles 0 -22.764 0
  }
  {
-  coords 3223.855 327.77 2369.18
+  coords 3267.175 316.585 2335.147
   angles 0 67.753 0
  }
  {
-  coords 3222.569 327.77 2372.325
+  coords 3265.891 316.585 2338.293
   angles 0 67.753 0
  }
  {
@@ -3554,6 +3554,24 @@ DecalEntity : "{32D707B931FD52FE}Prefabs/Decals/Blood/BloodStain_Wall_01.et" {
 GenericEntity : "{361EEFE7B91BF9E8}Prefabs/Compositions/Misc/SubCompositions/BarrelMetalGroup_01.et" {
  coords 3214.063 327.945 2370.22
  angles 0 124.041 0
+ {
+  GenericEntity {
+   ID "552CE6992B779765"
+   coords 4.881 -11.314 55.044
+  }
+  GenericEntity {
+   ID "552CE6992B779767"
+   coords 4.455 -10.951 55.528
+  }
+  GenericEntity {
+   ID "552CE6992B779778"
+   coords 4.015 -11.316 54.689
+  }
+  GenericEntity {
+   ID "552CE6992B779779"
+   coords 2.879 -11.313 54.649
+  }
+ }
 }
 GenericEntity : "{3AFC5D02A6F56F5E}Prefabs/Compositions/Misc/SubCompositions/Furniture/Chair_NightStand_USSR_04.et" {
  coords 3101.273 318.712 2651.201
@@ -3887,7 +3905,7 @@ $grp GenericEntity : "{F4123D86F860B5E2}Prefabs/Trash/Medical/GarbageMedicalUSSR
  }
 }
 GenericEntity : "{F4BB6B6A0486F797}Prefabs/Props/Industrial/BarrelMetal_01_military.et" {
- coords 3220.037 327.936 2374.099
+ coords 3263.389 316.631 2340.079
 }
 $grp GenericEntity : "{FD4C5C7C87B9EF36}Prefabs/Structures/BuildingParts/Doors/Door_GantryCrane_01/Door_Gantry_Crane_01_EXT_COV_B.et" {
  {
