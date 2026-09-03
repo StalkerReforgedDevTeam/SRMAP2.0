@@ -1,12 +1,14 @@
-GenericEntity : "{4CE9F6B208C9D6E2}Prefabs/Items/Supplys/armst_itm_supply_base.et" {
+GenericEntity : "{2F1B8AA71EFA5568}Prefabs/Items/Supplys/armst_itm_supply_weapons_nato.et" {
  ID "508AB2013EEE1E00"
  components {
   InventoryItemComponent "{5222EB4D0C73006B}" {
    Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
-    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
-     Weight 10
+    ItemDisplayName UIInfo "{5222EB4D07D865FA}" {
+     Name "WEAPONS_BANDITS"
     }
-    m_Size SLOT_2x3
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 20
+    }
    }
   }
  }

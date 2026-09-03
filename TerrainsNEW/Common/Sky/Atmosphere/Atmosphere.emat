@@ -1,0 +1,12 @@
+MatAtmosphere {
+ SkyIntensityLV -2.68
+ SolarIrradianceTint 0.499 0.48 0.444 1
+ GroundColor 0.453 0.441 0.417 1
+ RayleighScattering 0.491 0.476 0.43 1
+ MieScattering 0.651 0.651 0.651 1
+ MieAbsorption 0.624 0.624 0.624 1
+ Absorption 0.448 1 0.147 1
+ FogLV 1.46
+ FogTint 0.597 0.597 0.597 1
+ HorizonFogScale 2.06
+}
