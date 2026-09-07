@@ -1,6 +1,9 @@
 GenericWorldFogEntity {
  ID "52D6BA0E9961976B"
  HazeDensity 1
- Color 0.3916 0.3916 0.3916 0
+ Color 0.2789 0.2789 0.2789 0
+ ColorBack 0.2542 0.2542 0.2542 0
+ ColorIntensityLV 0.43
+ ColorSkyOverride 1
  NearFog 1
 }
