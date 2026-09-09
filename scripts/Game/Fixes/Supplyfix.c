@@ -16,7 +16,17 @@
 //    that was tracked before but has since been set back to unlimited (Trader Count = -1) in the
 //    database is now removed from the cache instead of staying stuck at its last cached number.
 //
-// 2) NEW: a per-item stock CAP. Right now ChangeTraderStock() only clamps stock at a minimum of
+// 2) EMERGENCY: a runaway recursive supply cascade could crash the server. Selling an item
+//    restocks whatever's in its m_SupplyPrefabs; if that restock target's own database entry
+//    ALSO has supply outputs pointing back (a cycle in the supply-item graph), restocking pings
+//    back and forth forever, compounding the quantity each hop until it overflows a 32-bit int
+//    (garbage negative numbers in the log) and takes the server down. Fixed with a re-entrancy
+//    guard: a real sale still triggers one round of restocking, but that restock can no longer
+//    trigger a further round. Also worth checking in the Workbench: does the "supply crate" item
+//    (e.g. armst_itm_supply_food) have its own m_SuppplyTrader entries pointing back at the food
+//    items? If so, removing those closes the cycle at the source too.
+//
+// 3) NEW: a per-item stock CAP. Right now ChangeTraderStock() only clamps stock at a minimum of
 //    0 - there's no upper bound, so repeatedly turning in supply crates (or selling an item back)
 //    can push stock above whatever m_fTraderCount you configured. This adds a new field,
 //    m_mTraderStockMax, populated from m_fTraderCount at the same time as the stock cache, and
@@ -31,6 +41,17 @@ modded class ARMST_DIALOGS_COMPONENT
 	// -1 or missing = no cap tracked (shouldn't happen for anything in m_mTraderStock, since an
 	// item only gets added to that cache when it HAS a configured m_fTraderCount >= 0).
 	protected ref map<string, int> m_mTraderStockMax = new map<string, int>();
+
+	// NEW (emergency stability fix): guards against a runaway recursive supply cascade.
+	// ChangeTraderStock() calls ProcessSupplyItems() whenever stock goes UP (delta > 0).
+	// ProcessSupplyItems() itself calls back into ChangeTraderStock() for whatever it restocks.
+	// If the supply-item graph has a cycle (e.g. a "crate" item that both gets restocked BY
+	// selling other items AND has its own supply outputs pointing back at those same items),
+	// this ping-pongs forever, compounding the quantity each hop until it overflows a 32-bit
+	// int (giant garbage/negative numbers in the log) and crashes the server. This flag makes
+	// sure a cascade triggered BY a cascade never cascades further - a real player sale still
+	// triggers one round of restocking normally, but that restock can't trigger another one.
+	protected bool m_bInSupplyCascade = false;
 
 	//------------------------------------------------------------------------------------------------
 	//! Optional getter if you want to show "12 / 25" in the UI later - not required for the cap
@@ -194,8 +215,12 @@ modded class ARMST_DIALOGS_COMPONENT
 		{
 			// Untracked/unlimited item - nothing to clamp or persist, same as before this fix.
 			// Still process supply cascades for it if it was sold (delta > 0).
-			if (delta > 0)
+			if (delta > 0 && !m_bInSupplyCascade)
+			{
+				m_bInSupplyCascade = true;
 				ProcessSupplyItems(prefabName, delta);
+				m_bInSupplyCascade = false;
+			}
 			return;
 		}
 
@@ -216,8 +241,16 @@ modded class ARMST_DIALOGS_COMPONENT
 		BroadcastStockUpdate(prefabName, newStock);
 		Print("[ARMST TRADER] Stock: " + prefabName + " " + currentStock + " -> " + newStock, LogLevel.NORMAL);
 
-		if (delta > 0)
+		// NEW: only cascade into ProcessSupplyItems if we're not ALREADY inside a cascade.
+		// Breaks any cycle in the supply-item graph at the code level, regardless of what the
+		// database looks like - a direct sale still restocks its supply outputs once, but that
+		// restock is never allowed to trigger a further round of restocking.
+		if (delta > 0 && !m_bInSupplyCascade)
+		{
+			m_bInSupplyCascade = true;
 			ProcessSupplyItems(prefabName, delta);
+			m_bInSupplyCascade = false;
+		}
 	}
 }
 
