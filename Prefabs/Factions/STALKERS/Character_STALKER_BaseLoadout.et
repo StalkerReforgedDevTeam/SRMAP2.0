@@ -11,6 +11,14 @@ SCR_ChimeraCharacter : "{5346CF7E39A65A6B}Prefabs/Characters/Factions/OPFOR/USSR
    LeanSpeed 1.5
    "Minimum prone speed" 0.275
   }
+  ARMST_PLAYER_STATS_COMPONENT "{6275149C8E6B70D6}" {
+   m_fRadiationSicknessThreshold 80
+   m_fSicknessHealthDrainPerTick 2
+   m_fSicknessStaminaDrainPerTick 1
+   m_fSicknessMoveSpeedMult 0.4
+   m_fRadiationDecayPerTick 5
+   m_fRadiationTickInterval 9
+  }
   ARMST_RANDOM_CLOTHES_NEW "{66426E44C6498633}" {
    m_Category {
    }

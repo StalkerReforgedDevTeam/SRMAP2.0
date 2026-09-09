@@ -1,0 +1,9 @@
+MatPBRBasic {
+ SpecularIBL 1 0.014 0.014 1
+ Diffuse 0.863 0.031 0.031 1
+ AllowUserAlphaBias 1
+ DisableUserAphaInShadow 1
+ BCRMap "{29C47A6A1774AD74}armst/new_clothes/gasmasks/Data/DefaultMaterial_BCR.edds"
+ OpacityMap "{70A53F4EA373F142}Assets/Characters/Basebody/Data/HeadClipping_A.edds"
+ NMOMap "{111CC1F8CE03FFEA}armst/new_clothes/gasmasks/Data/DefaultMaterial_NMO.edds"
+}

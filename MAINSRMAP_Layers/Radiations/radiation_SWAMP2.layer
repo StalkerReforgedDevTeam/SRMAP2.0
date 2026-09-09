@@ -5,6 +5,8 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   DrawShape 0
   UpdatePeriod 5
   m_DamageRadioLevel 57
+  m_fZoneRadiationLevel 40
+  m_eFilterDrainTier LOW
  }
  {
   coords 1770.785 291.446 1538.905
@@ -12,6 +14,8 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   DrawShape 0
   UpdatePeriod 5
   m_DamageRadioLevel 57
+  m_fZoneRadiationLevel 40
+  m_eFilterDrainTier LOW
  }
  {
   coords 1903.819 300.421 1367.475
@@ -19,6 +23,8 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   DrawShape 0
   UpdatePeriod 5
   m_DamageRadioLevel 57
+  m_fZoneRadiationLevel 40
+  m_eFilterDrainTier LOW
  }
  {
   coords 1771.97 291.735 1189.458
@@ -26,6 +32,8 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   DrawShape 0
   UpdatePeriod 5
   m_DamageRadioLevel 57
+  m_fZoneRadiationLevel 40
+  m_eFilterDrainTier LOW
  }
  {
   coords 1528.083 291.049 1257.449
@@ -33,6 +41,8 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   DrawShape 0
   UpdatePeriod 5
   m_DamageRadioLevel 57
+  m_fZoneRadiationLevel 40
+  m_eFilterDrainTier LOW
  }
  {
   coords 1584.539 292.763 1600.734
@@ -40,6 +50,8 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   DrawShape 0
   UpdatePeriod 5
   m_DamageRadioLevel 57
+  m_fZoneRadiationLevel 40
+  m_eFilterDrainTier LOW
  }
  {
   coords 1653.631 300.452 1489.094
@@ -47,6 +59,8 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   DrawShape 0
   UpdatePeriod 5
   m_DamageRadioLevel 57
+  m_fZoneRadiationLevel 40
+  m_eFilterDrainTier LOW
  }
  {
   coords 1455.641 292.369 1762.563
@@ -54,6 +68,8 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   DrawShape 0
   UpdatePeriod 5
   m_DamageRadioLevel 57
+  m_fZoneRadiationLevel 40
+  m_eFilterDrainTier LOW
  }
  {
   coords 1753.4 290.841 1731.711
@@ -61,6 +77,8 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   DrawShape 0
   UpdatePeriod 5
   m_DamageRadioLevel 57
+  m_fZoneRadiationLevel 40
+  m_eFilterDrainTier LOW
  }
  {
   coords 1654.017 290.841 1707.864
@@ -68,5 +86,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   DrawShape 0
   UpdatePeriod 5
   m_DamageRadioLevel 57
+  m_fZoneRadiationLevel 40
+  m_eFilterDrainTier LOW
  }
 }
