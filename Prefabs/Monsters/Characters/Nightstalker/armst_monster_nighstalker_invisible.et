@@ -4,5 +4,12 @@ Armst_Monster_Character : "{3D72793360D42623}622120A5448725E3/Prefabs/Characters
   ARMST_Monster_MeleeComponent "{520EA1D2F659C85E}" {
    m_fMonsterDamage 30
   }
+  SCR_CharacterDamageManagerComponent "{55872AD7B4E959F2}" {
+   "Additional hit zones" {
+    SCR_CharacterHealthHitZone Health {
+     MaxHealth 1000
+    }
+   }
+  }
  }
 }
