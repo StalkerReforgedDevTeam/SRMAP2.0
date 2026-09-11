@@ -12874,6 +12874,9 @@ $grp GenericEntity : "{7AF4B627D5C90235}Prefabs/Props/Military/Sandbags/Sandbag_
   angles 0 -29.069 -1.406
  }
 }
+GenericEntity : "{8703D964AC15EA53}PrefabsEditable/E_Identity_Selector.et" {
+ coords 5076.542 302.606 58.69
+}
 $grp GenericEntity : "{8963CD1DC1CDB614}Prefabs/Props/Civilian/BeerBottle_01_brown.et" {
  {
   coords 4932.311 327.024 3059.265
@@ -17895,7 +17898,7 @@ GenericEntity : "{CBFB6247D7EBE1DE}Prefabs/Structures/BuildingParts/Doors/Door_F
  coords 4973.668 306.074 3055.045
  angles 0 -171.822 0
 }
-GameEntity armst_gasmask_m17_6A52FB37A6C06C4F : "{CCEC06C62737F0D4}Prefabs/New_Equipment/Gasmasks/armst_gasmask_m17.et" {
+GameEntity armst_gasmask_m17_6A52FB37A6C06C4F : "{CCEC06C62737F0D4}Prefabs/Equipments/Gasmasks/armst_gasmask_m17.et" {
  coords 3071.297 304.702 2730.013
 }
 GenericEntity : "{E59D9776A5169843}Prefabs/Structures/BuildingParts/Doors/DoorSet_FactoryHall_E_01_Elevator_COV_B.et" {
