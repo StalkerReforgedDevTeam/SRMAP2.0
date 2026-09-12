@@ -5,27 +5,861 @@ FrameWidgetClass {
    {
     ImageWidgetClass "{669076E81E3DC879}" {
      Prefab "{669076E81E3DC879}"
-     Color 0.0034 0.0026 0.3324 1
+     Color 0 0.0049 0.4851 1
+     "Inherit Color" 1
     }
     ImageWidgetClass "{658C92A618CDFB1E}" {
      Prefab "{658C92A618CDFB1E}"
-     Color 0.2918 0.2918 0.2918 1
+     Color 0.4072 0.4072 0.4072 1
     }
     FrameWidgetClass "{68D0A5AB97502CFC}" {
      Prefab "{68D0A5AB97502CFC}"
      {
       FrameWidgetClass "{66906AE585D1530A}" {
        Prefab "{66906AE585D1530A}"
+       Color 0 0 0 1
        {
         PanelWidgetClass "{68D0ADEE4B171991}" {
          Prefab "{68D0ADEE4B171991}"
-         Color 0 0.0002 0.0144 1
+         Color 0 0 0 1
         }
         PanelWidgetClass "{68D0A5AA3DDC4B45}" {
          Prefab "{68D0A5AA3DDC4B45}"
-         Color 0 0.0007 0.0252 1
+         Color 0 0 0 1
         }
        }
+      }
+      FrameWidgetClass "{65B46558EBA4EF8F}" {
+       Prefab "{65B46558EBA4EF8F}"
+       {
+        ImageWidgetClass "{6646CB2CABB92D69}" {
+         Prefab "{6646CB2CABB92D69}"
+         Color 0 0 0 1
+        }
+        TextWidgetClass "{6646CB2F4ADCA713}" {
+         Prefab "{6646CB2F4ADCA713}"
+         Text "Loners:"
+         "Font Size" 25
+        }
+        TextWidgetClass "{6646CB2F5DD4036F}" {
+         Prefab "{6646CB2F5DD4036F}"
+         "Font Size" 25
+        }
+        TextWidgetClass "{6646CB2F0734D156}" {
+         Prefab "{6646CB2F0734D156}"
+         "Font Size" 25
+        }
+        TextWidgetClass "{6646CB2F17AD44D3}" {
+         Prefab "{6646CB2F17AD44D3}"
+         "Font Size" 25
+        }
+        TextWidgetClass "{6646CB2F17AD4488}" {
+         Prefab "{6646CB2F17AD4488}"
+         Text "UKM:"
+         "Font Size" 25
+        }
+        TextWidgetClass "{6646CB2F272E9218}" {
+         Prefab "{6646CB2F272E9218}"
+         Text "Freedom:"
+        }
+        TextWidgetClass "{6646CB2F272E93FA}" {
+         Prefab "{6646CB2F272E93FA}"
+         "Font Size" 25
+        }
+        TextWidgetClass "{6646CB2F35401597}" {
+         Prefab "{6646CB2F35401597}"
+         Text "Duty:"
+        }
+        TextWidgetClass "{6646CB2F35401570}" {
+         Prefab "{6646CB2F35401570}"
+         "Font Size" 25
+        }
+        TextWidgetClass "{6646CB2ED4376186}" {
+         Prefab "{6646CB2ED4376186}"
+         Text "Ecologist"
+        }
+       }
+      }
+      FrameWidgetClass "{65B4655CF648CA4F}" {
+       Prefab "{65B4655CF648CA4F}"
+       {
+        PanelWidgetClass "{68D0C4C866774DE8}" {
+         Prefab "{68D0C4C866774DE8}"
+         Color 0 0 0 1
+        }
+        PanelWidgetClass "{68D0C4C86A5C2939}" {
+         Prefab "{68D0C4C86A5C2939}"
+         Color 0 0 0 1
+        }
+        PanelWidgetClass "{68D0C4CF87D93C8C}" {
+         Prefab "{68D0C4CF87D93C8C}"
+         Slot FrameWidgetSlot "{68D0C4CB00571557}" {
+          PositionX 11.203
+          OffsetLeft 11.203
+          PositionY 10.004
+          OffsetTop 10.004
+          SizeX 341.074
+          OffsetRight -352.277
+          SizeY 261.233
+          OffsetBottom -271.237
+         }
+         Color 0 0 0 1
+        }
+        PanelWidgetClass "{68D0C4CF8FE35817}" {
+         Prefab "{68D0C4CF8FE35817}"
+         Color 0 0 0 1
+        }
+        PanelWidgetClass "{68D0C4CFBAB5D4C4}" {
+         Prefab "{68D0C4CFBAB5D4C4}"
+         Color 0 0 0 1
+        }
+        PanelWidgetClass "{68D0C4CFA0F30EFC}" {
+         Prefab "{68D0C4CFA0F30EFC}"
+         Color 0 0 0 1
+        }
+        PanelWidgetClass "{68D0C4CFAC9B7FF5}" {
+         Prefab "{68D0C4CFAC9B7FF5}"
+         Color 0 0 0 1
+        }
+        PanelWidgetClass "{68D0C4CFD318D393}" {
+         Prefab "{68D0C4CFD318D393}"
+         Color 0 0 0 1
+        }
+        PanelWidgetClass "{68D0C4CFD9CDA390}" {
+         Prefab "{68D0C4CFD9CDA390}"
+         Color 0 0 0 1
+        }
+        PanelWidgetClass "{68D0C4CFC379BA8E}" {
+         Prefab "{68D0C4CFC379BA8E}"
+         Color 0 0 0 1
+        }
+       }
+      }
+      FrameWidgetClass "{65B4655882936EEB}" {
+       Prefab "{65B4655882936EEB}"
+       {
+        PanelWidgetClass "{68D0C4C927AA4A80}" {
+         Prefab "{68D0C4C927AA4A80}"
+         Color 0 0 0 1
+         "Inherit Color" 1
+        }
+        PanelWidgetClass "{68D0C4C92DC917EF}" {
+         Prefab "{68D0C4C92DC917EF}"
+         Color 0 0 0 1
+         "Inherit Color" 1
+        }
+        PanelWidgetClass "{68D0C4C95A1F473B}" {
+         Prefab "{68D0C4C95A1F473B}"
+         Color 0 0 0 1
+         "Inherit Color" 1
+        }
+        PanelWidgetClass "{68D0C4C943C97FED}" {
+         Prefab "{68D0C4C943C97FED}"
+         Color 0 0 0 1
+         "Inherit Color" 1
+        }
+        PanelWidgetClass "{68D0C4C94ABB1ECC}" {
+         Prefab "{68D0C4C94ABB1ECC}"
+         Color 0 0 0 1
+         "Inherit Color" 1
+        }
+        PanelWidgetClass "{68D0C4C975BBDD38}" {
+         Prefab "{68D0C4C975BBDD38}"
+         Color 0 0 0 1
+         "Inherit Color" 1
+        }
+        PanelWidgetClass "{68D0C4C97D60451C}" {
+         Prefab "{68D0C4C97D60451C}"
+         Color 0 0 0 1
+         "Inherit Color" 1
+        }
+        PanelWidgetClass "{68D0C4C89B6E8D1E}" {
+         Prefab "{68D0C4C89B6E8D1E}"
+         Color 0 0 0 1
+         "Inherit Color" 1
+        }
+        PanelWidgetClass "{68D0C4C8F97F5D56}" {
+         Prefab "{68D0C4C8F97F5D56}"
+         Color 0 0 0 1
+         "Inherit Color" 1
+        }
+        PanelWidgetClass "{68D0C4C8E1D6B348}" {
+         Prefab "{68D0C4C8E1D6B348}"
+         Color 0 0 0 1
+         "Inherit Color" 1
+        }
+        FrameWidgetClass "{68D0C4C8AB3BFD35}" {
+         Prefab "{68D0C4C8AB3BFD35}"
+         {
+          ButtonWidgetClass "{68D0C4C8AB3BFD37}" {
+           Prefab "{68D0C4C8AB3BFD37}"
+           "Is Visible" 0
+           components {
+            ButtonComponent "{658CA218BF128B54}" {
+             m_ColorButtonDefault 0.624 0.624 0.624 0.7
+             m_ColorButtonFocused 0.065 0.065 0.065 0.25
+             m_ColorButtonPressed 0.624 0.157 0.157 1
+             m_ColorButtonHovered 0.624 0.157 0.157 1
+             m_ColorButtonHoveredFocused 0.624 0.157 0.157 1
+            }
+           }
+          }
+         }
+        }
+        PanelWidgetClass "{691CC1B1FE133268}" {
+         Prefab "{691CC1B1FE133268}"
+         Color 0 0 0 1
+        }
+       }
+      }
+      FrameWidgetClass "{65B4655CBAAC2012}" {
+       Prefab "{65B4655CBAAC2012}"
+       {
+        PanelWidgetClass "{68D0C4CA6DC3C6AC}" {
+         Prefab "{68D0C4CA6DC3C6AC}"
+         Color 0 0 0.0048 1
+        }
+        PanelWidgetClass "{68D0C4C9B66F8177}" {
+         Prefab "{68D0C4C9B66F8177}"
+         Color 0 0 0 1
+        }
+        PanelWidgetClass "{68D0C4CAE35B75FA}" {
+         Prefab "{68D0C4CAE35B75FA}"
+         Color 0 0 0 1
+        }
+        PanelWidgetClass "{68D0C4CAEB9024AA}" {
+         Prefab "{68D0C4CAEB9024AA}"
+         Color 0 0 0 1
+        }
+        PanelWidgetClass "{68D0C4CA1B6804EE}" {
+         Prefab "{68D0C4CA1B6804EE}"
+         Color 0 0 0 1
+        }
+        HorizontalLayoutWidgetClass "{68FF2888E5088B8D}" {
+         Prefab "{68FF2888E5088B8D}"
+         {
+          FrameWidgetClass "{68D0ADE0082A62B7}" {
+           Prefab "{68D0ADE0082A62B7}"
+           Color 0 0 0 1
+           {
+            ButtonWidgetClass "{68D0ADE0082A62A9}" {
+             Prefab "{68D0ADE0082A62A9}"
+             components {
+              ButtonComponent "{658CA218BF128B54}" {
+               m_ColorButtonDefault 0.546 0.546 0.546 0.7
+               m_ColorButtonFocused 0.686 0.259 0.259 1
+               m_ColorButtonPressed 0.561 0.071 0.071 1
+               m_ColorButtonHovered 0.686 0.259 0.259 1
+               m_ColorButtonHoveredFocused 0.686 0.259 0.259 1
+              }
+             }
+            }
+           }
+          }
+          FrameWidgetClass "{68D0ADE02EED440E}" {
+           Prefab "{68D0ADE02EED440E}"
+           {
+            ButtonWidgetClass "{68D0ADE02EED4401}" {
+             Prefab "{68D0ADE02EED4401}"
+             components {
+              ButtonComponent "{658CA218BF128B54}" {
+               m_ColorButtonDefault 0.503 0.503 0.503 0.7
+               m_ColorButtonFocused 0.686 0.259 0.259 1
+               m_ColorButtonPressed 0.561 0.071 0.071 1
+               m_ColorButtonHovered 0.686 0.259 0.259 1
+               m_ColorButtonHoveredFocused 0.686 0.259 0.259 1
+              }
+             }
+            }
+           }
+          }
+          FrameWidgetClass "{68FE866BFB5E21E3}" {
+           Prefab "{68FE866BFB5E21E3}"
+           {
+            ButtonWidgetClass "{68FE866BFB5E21FC}" {
+             Prefab "{68FE866BFB5E21FC}"
+             components {
+              ButtonComponent "{658CA218BF128B54}" {
+               m_ColorButtonDefault 0.651 0.651 0.651 0.7
+               m_ColorButtonFocused 0.749 0.376 0.376 1
+               m_ColorButtonPressed 0.624 0.157 0.157 1
+               m_ColorButtonHovered 0.686 0.259 0.259 1
+               m_ColorButtonHoveredFocused 0.686 0.259 0.259 1
+              }
+             }
+            }
+           }
+          }
+          FrameWidgetClass "{68FE8652E4334C38}" {
+           Prefab "{68FE8652E4334C38}"
+           {
+            ButtonWidgetClass "{68FE8652E4334C3A}" {
+             Prefab "{68FE8652E4334C3A}"
+             components {
+              ButtonComponent "{658CA218BF128B54}" {
+               m_ColorButtonDefault 0.658 0.658 0.658 0.7
+               m_ColorButtonFocused 0.686 0.259 0.259 1
+               m_ColorButtonHovered 0.749 0.376 0.376 1
+               m_ColorButtonHoveredFocused 0.561 0.071 0.071 1
+              }
+             }
+            }
+           }
+          }
+          FrameWidgetClass "{68D0ADE064BFFDA5}" {
+           Prefab "{68D0ADE064BFFDA5}"
+           {
+            ButtonWidgetClass "{68D0ADE064BFFDA7}" {
+             Prefab "{68D0ADE064BFFDA7}"
+             components {
+              ButtonComponent "{658CA218BF128B54}" {
+               m_ColorButtonDefault 0.624 0.624 0.624 0.7
+               m_ColorButtonFocused 0.749 0.376 0.376 1
+               m_ColorButtonPressed 0.624 0.157 0.157 1
+               m_ColorButtonHovered 0.749 0.376 0.376 1
+               m_ColorButtonHoveredFocused 0.749 0.376 0.376 1
+              }
+             }
+            }
+           }
+          }
+         }
+        }
+        ButtonWidgetClass "{658CB640BAACCF37}" {
+         Prefab "{658CB640BAACCF37}"
+         "Is Enabled" 0
+         "Is Visible" 0
+        }
+        CheckBoxWidgetClass "{658CB640ADFF0AF1}" {
+         Prefab "{658CB640ADFF0AF1}"
+         "Is Enabled" 0
+         "Is Visible" 0
+        }
+        FrameWidgetClass "{68D0C4CB6455D325}" {
+         Prefab "{68D0C4CB6455D325}"
+         {
+          ButtonWidgetClass "{68D0C4CB6455D327}" {
+           Prefab "{68D0C4CB6455D327}"
+           components {
+            ButtonComponent "{658CA218BF128B54}" {
+             m_ColorButtonDefault 0.552 0.552 0.552 0.7
+             m_ColorButtonFocused 0.749 0.376 0.376 1
+             m_ColorButtonPressed 0.624 0.157 0.157 1
+             m_ColorButtonHovered 0.749 0.376 0.376 1
+             m_ColorButtonHoveredFocused 0.749 0.376 0.376 1
+            }
+           }
+          }
+         }
+        }
+        PanelWidgetClass "{68FE866B7DEDE0B7}" {
+         Prefab "{68FE866B7DEDE0B7}"
+         Color 0 0 0 1
+        }
+       }
+      }
+      FrameWidgetClass "{66BE7716ACA90EF0}" {
+       Prefab "{66BE7716ACA90EF0}"
+       "Is Enabled" 0
+      }
+      FrameWidgetClass "{65B46558FE01B483}" {
+       Prefab "{65B46558FE01B483}"
+       {
+        PanelWidgetClass "{68D0ADE3458B22A9}" {
+         Prefab "{68D0ADE3458B22A9}"
+         Color 0 0 0 1
+        }
+        PanelWidgetClass "{68D0ADE37A0D8F52}" {
+         Prefab "{68D0ADE37A0D8F52}"
+         Color 0 0 0 1
+        }
+        PanelWidgetClass "{68D0ADE3FE319097}" {
+         Prefab "{68D0ADE3FE319097}"
+         Color 0 0 0 1
+        }
+        PanelWidgetClass "{68D0ADE3E83598BE}" {
+         Prefab "{68D0ADE3E83598BE}"
+         Color 0 0 0 1
+        }
+        PanelWidgetClass "{68D0ADED4709E014}" {
+         Prefab "{68D0ADED4709E014}"
+         Color 0 0 0 1
+        }
+        PanelWidgetClass "{68D0ADE2F7FD384A}" {
+         Prefab "{68D0ADE2F7FD384A}"
+         Color 0 0 0 1
+        }
+        PanelWidgetClass "{68D0ADE21D64E1B5}" {
+         Prefab "{68D0ADE21D64E1B5}"
+         Color 0 0 0 1
+        }
+        PanelWidgetClass "{68D0ADE20F021B86}" {
+         Prefab "{68D0ADE20F021B86}"
+         Color 0 0 0 1
+        }
+        PanelWidgetClass "{68D0ADED0DEC1CD9}" {
+         Prefab "{68D0ADED0DEC1CD9}"
+         Color 0 0 0 1
+        }
+        PanelWidgetClass "{68D0ADE295FC99BD}" {
+         Prefab "{68D0ADE295FC99BD}"
+         Color 0 0 0 1
+        }
+        PanelWidgetClass "{68D0CD132D7C7C27}" {
+         Prefab "{68D0CD132D7C7C27}"
+         Color 0 0 0 1
+        }
+        ButtonWidgetClass "{65B47A4F4E0AD32E}" {
+         Prefab "{65B47A4F4E0AD32E}"
+         components {
+          ButtonComponent "{658CA218BF128B54}" {
+           m_ColorButtonFocused 0.749 0.376 0.376 1
+           m_ColorButtonPressed 0.561 0.071 0.071 1
+           m_ColorButtonHovered 0.749 0.376 0.376 1
+           m_ColorButtonHoveredFocused 0.749 0.376 0.376 1
+          }
+         }
+         {
+          TextWidgetClass "{65B47A4F4E0AD328}" {
+           Prefab "{65B47A4F4E0AD328}"
+           "Font Size" 25
+          }
+         }
+        }
+        ButtonWidgetClass "{65B47A4F6DD9A44B}" {
+         Prefab "{65B47A4F6DD9A44B}"
+         components {
+          ButtonComponent "{658CA218BF128B54}" {
+           m_ColorButtonFocused 0.812 0.506 0.506 1
+           m_ColorButtonPressed 0.624 0.157 0.157 1
+           m_ColorButtonHovered 0.749 0.376 0.376 1
+           m_ColorButtonHoveredFocused 0.749 0.376 0.376 1
+          }
+         }
+         {
+          TextWidgetClass "{65B47A4F6DD9A444}" {
+           Prefab "{65B47A4F6DD9A444}"
+           "Font Size" 25
+          }
+         }
+        }
+        ButtonWidgetClass "{65B47A4F789E6C5C}" {
+         Prefab "{65B47A4F789E6C5C}"
+         components {
+          ButtonComponent "{658CA218BF128B54}" {
+           m_ColorButtonFocused 0.812 0.506 0.506 1
+           m_ColorButtonPressed 0.624 0.157 0.157 1
+           m_ColorButtonHovered 0.749 0.376 0.376 1
+           m_ColorButtonHoveredFocused 0.749 0.376 0.376 1
+          }
+         }
+         {
+          TextWidgetClass "{65B47A4F789E6C5D}" {
+           Prefab "{65B47A4F789E6C5D}"
+           "Font Size" 25
+          }
+         }
+        }
+        ButtonWidgetClass "{65B47A4F170BDA51}" {
+         Prefab "{65B47A4F170BDA51}"
+         components {
+          ButtonComponent "{658CA218BF128B54}" {
+           m_ColorButtonFocused 0.749 0.376 0.376 1
+           m_ColorButtonPressed 0.561 0.071 0.071 1
+           m_ColorButtonHovered 0.749 0.376 0.376 1
+           m_ColorButtonHoveredFocused 0.749 0.376 0.376 1
+          }
+         }
+         {
+          TextWidgetClass "{65B47A4F170BDA52}" {
+           Prefab "{65B47A4F170BDA52}"
+           "Font Size" 25
+          }
+         }
+        }
+        ButtonWidgetClass "{65B47A4D4A354AC6}" {
+         Prefab "{65B47A4D4A354AC6}"
+         components {
+          ButtonComponent "{658CA218BF128B54}" {
+           m_ColorButtonFocused 0.812 0.506 0.506 1
+           m_ColorButtonPressed 0.561 0.071 0.071 1
+           m_ColorButtonHoveredFocused 0.812 0.506 0.506 1
+           m_ColorChildHovered 0.812 0.506 0.506 1
+          }
+         }
+         {
+          TextWidgetClass "{65B47A4D4A354AC7}" {
+           Prefab "{65B47A4D4A354AC7}"
+           "Font Size" 25
+          }
+         }
+        }
+        ButtonWidgetClass "{65B47A4D1FE578F6}" {
+         Prefab "{65B47A4D1FE578F6}"
+         components {
+          ButtonComponent "{658CA218BF128B54}" {
+           m_ColorButtonFocused 0.812 0.506 0.506 1
+           m_ColorButtonPressed 0.624 0.157 0.157 1
+           m_ColorButtonHovered 0.749 0.376 0.376 1
+           m_ColorButtonHoveredFocused 0.749 0.376 0.376 1
+          }
+         }
+         {
+          TextWidgetClass "{65B47A4D1FE578F7}" {
+           Prefab "{65B47A4D1FE578F7}"
+           "Font Size" 25
+          }
+         }
+        }
+       }
+      }
+      FrameWidgetClass "{68D0A5A8ADBE9A25}" {
+       Prefab "{68D0A5A8ADBE9A25}"
+       "Is Visible" 1
+       {
+        FrameWidgetClass "{68D0ADE83F7E22D1}" {
+         Prefab "{68D0ADE83F7E22D1}"
+         {
+          PanelWidgetClass "{68D0ADEE579FAEB7}" {
+           Prefab "{68D0ADEE579FAEB7}"
+           Color 0 0 0 1
+          }
+          PanelWidgetClass "{68D0ADE990A07321}" {
+           Prefab "{68D0ADE990A07321}"
+           Color 0 0 0 1
+          }
+          TextWidgetClass "{658CA21E5DD2587E}" {
+           Prefab "{658CA21E5DD2587E}"
+           "Font Size" 25
+          }
+          TextWidgetClass "{658CA21E48393ED5}" {
+           Prefab "{658CA21E48393ED5}"
+           "Font Size" 25
+          }
+          TextWidgetClass "{658CA21EB49F1777}" {
+           Prefab "{658CA21EB49F1777}"
+           "Font Size" 25
+          }
+          TextWidgetClass "{658CA21E910C369B}" {
+           Prefab "{658CA21E910C369B}"
+           "Font Size" 25
+          }
+          TextWidgetClass "{658CA21EEED9BB7E}" {
+           Prefab "{658CA21EEED9BB7E}"
+           "Font Size" 25
+          }
+          TextWidgetClass "{658CA21F3CEBC563}" {
+           Prefab "{658CA21F3CEBC563}"
+           "Font Size" 25
+          }
+          TextWidgetClass "{658CA21F0FF8C805}" {
+           Prefab "{658CA21F0FF8C805}"
+           Text "Coupons"
+           "Font Size" 25
+          }
+          TextWidgetClass "{658CA21F6B6E079A}" {
+           Prefab "{658CA21F6B6E079A}"
+           Text "Name:"
+           "Font Size" 25
+          }
+         }
+        }
+        PanelWidgetClass "{68D0ADEE36B9FF2D}" {
+         Prefab "{68D0ADEE36B9FF2D}"
+         Color 0 0 0 1
+        }
+        PanelWidgetClass "{68D0ADE9C86985FD}" {
+         Prefab "{68D0ADE9C86985FD}"
+         Color 0 0 0 1
+        }
+        GridLayoutWidgetClass "{68D0ADE9286B5EFC}" {
+         Prefab "{68D0ADE9286B5EFC}"
+         {
+          FrameWidgetClass "{68D0ADE8D311DA59}" {
+           Prefab "{68D0ADE8D311DA59}"
+           {
+            ButtonWidgetClass "{68D0ADE8D311DA5B}" {
+             Prefab "{68D0ADE8D311DA5B}"
+             components {
+              ButtonComponent "{658CA218BF128B54}" {
+               m_ColorButtonFocused 0.812 0.506 0.506 1
+               m_ColorButtonPressed 0.561 0.071 0.071 1
+               m_ColorButtonHovered 0.812 0.506 0.506 1
+               m_ColorButtonHoveredFocused 0.812 0.506 0.506 1
+              }
+             }
+            }
+           }
+          }
+          FrameWidgetClass "{68D0ADEB6EE3C29A}" {
+           Prefab "{68D0ADEB6EE3C29A}"
+           {
+            ButtonWidgetClass "{68D0ADEB6EE3C29D}" {
+             Prefab "{68D0ADEB6EE3C29D}"
+             components {
+              ButtonComponent "{658CA218BF128B54}" {
+               m_ColorButtonFocused 0.812 0.506 0.506 1
+               m_ColorButtonPressed 0.561 0.071 0.071 1
+               m_ColorButtonHovered 0.812 0.506 0.506 1
+               m_ColorButtonHoveredFocused 0.812 0.506 0.506 1
+              }
+             }
+            }
+           }
+          }
+          FrameWidgetClass "{68D0ADEB0E6BE1D4}" {
+           Prefab "{68D0ADEB0E6BE1D4}"
+           {
+            ButtonWidgetClass "{68D0ADEB0E6BE1D7}" {
+             Prefab "{68D0ADEB0E6BE1D7}"
+             components {
+              ButtonComponent "{658CA218BF128B54}" {
+               m_ColorButtonFocused 0.812 0.506 0.506 1
+               m_ColorButtonPressed 0.561 0.071 0.071 1
+               m_ColorButtonHovered 0.812 0.506 0.506 1
+               m_ColorButtonHoveredFocused 0.561 0.071 0.071 1
+              }
+             }
+            }
+           }
+          }
+          FrameWidgetClass "{68D0ADEBCED02FFA}" {
+           Prefab "{68D0ADEBCED02FFA}"
+           {
+            ButtonWidgetClass "{68D0ADEBCED02FFD}" {
+             Prefab "{68D0ADEBCED02FFD}"
+             components {
+              ButtonComponent "{658CA218BF128B54}" {
+               m_ColorButtonHovered 0.812 0.506 0.506 1
+               m_ColorButtonHoveredFocused 0.812 0.506 0.506 1
+              }
+             }
+            }
+           }
+          }
+          FrameWidgetClass "{68D0ADEB9A324E7E}" {
+           Prefab "{68D0ADEB9A324E7E}"
+           {
+            ButtonWidgetClass "{68D0ADEB9A324E70}" {
+             Prefab "{68D0ADEB9A324E70}"
+             components {
+              ButtonComponent "{658CA218BF128B54}" {
+               m_ColorButtonFocused 0.812 0.506 0.506 1
+               m_ColorButtonPressed 0.561 0.071 0.071 1
+               m_ColorButtonHovered 0.812 0.506 0.506 1
+               m_ColorButtonHoveredFocused 0.812 0.506 0.506 1
+              }
+             }
+            }
+           }
+          }
+          FrameWidgetClass "{68D0ADEA62F63ADE}" {
+           Prefab "{68D0ADEA62F63ADE}"
+           {
+            ButtonWidgetClass "{68D0ADEA62F63AD1}" {
+             Prefab "{68D0ADEA62F63AD1}"
+             components {
+              ButtonComponent "{658CA218BF128B54}" {
+               m_ColorButtonFocused 0.812 0.506 0.506 1
+               m_ColorButtonPressed 0.561 0.071 0.071 1
+               m_ColorButtonHovered 0.812 0.506 0.506 1
+               m_ColorButtonHoveredFocused 0.561 0.071 0.071 1
+              }
+             }
+            }
+           }
+          }
+          FrameWidgetClass "{68D0ADEA27A0F105}" {
+           Prefab "{68D0ADEA27A0F105}"
+           {
+            ButtonWidgetClass "{68C8E46243F0D9E6}" {
+             Prefab "{68C8E46243F0D9E6}"
+             components {
+              ButtonComponent "{658CA218BF128B54}" {
+               m_ColorButtonFocused 0.812 0.506 0.506 1
+               m_ColorButtonPressed 0.561 0.071 0.071 1
+               m_ColorButtonHovered 0.812 0.506 0.506 1
+               m_ColorButtonHoveredFocused 0.812 0.506 0.506 1
+              }
+             }
+            }
+           }
+          }
+          FrameWidgetClass "{68D0ADEFF016A4E9}" {
+           Prefab "{68D0ADEFF016A4E9}"
+           {
+            ButtonWidgetClass "{68D0ADEFF016A4E8}" {
+             Prefab "{68D0ADEFF016A4E8}"
+             components {
+              ButtonComponent "{658CA218BF128B54}" {
+               m_ColorButtonFocused 0.812 0.506 0.506 1
+               m_ColorButtonPressed 0.561 0.071 0.071 1
+               m_ColorButtonHovered 0.749 0.376 0.376 1
+               m_ColorButtonHoveredFocused 0.749 0.376 0.376 1
+              }
+             }
+            }
+           }
+          }
+          FrameWidgetClass "{68D0ADEF4B116E74}" {
+           Prefab "{68D0ADEF4B116E74}"
+           {
+            ButtonWidgetClass "{68D0ADEF4B116E76}" {
+             Prefab "{68D0ADEF4B116E76}"
+             components {
+              ButtonComponent "{658CA218BF128B54}" {
+               m_ColorButtonFocused 0.812 0.506 0.506 1
+               m_ColorButtonPressed 0.624 0.157 0.157 1
+               m_ColorButtonHovered 0.812 0.506 0.506 1
+              }
+             }
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+      FrameWidgetClass "{68D0CD158BAB61FF}" {
+       Prefab "{68D0CD158BAB61FF}"
+       {
+        ButtonWidgetClass "{68D0CD158BAB61FE}" {
+         Prefab "{68D0CD158BAB61FE}"
+         components {
+          ButtonComponent "{658CA218BF128B54}" {
+           m_ColorButtonFocused 0.812 0.506 0.506 1
+           m_ColorButtonPressed 0.561 0.071 0.071 1
+           m_ColorButtonHovered 0.812 0.506 0.506 1
+           m_ColorButtonHoveredFocused 0.812 0.506 0.506 1
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+    FrameWidgetClass "{65B4A2B6A0232990}" {
+     Prefab "{65B4A2B6A0232990}"
+     "Is Visible" 1
+    }
+    ButtonWidgetClass "{68D06097EEAA6978}" {
+     Prefab "{68D06097EEAA6978}"
+     components {
+      ButtonComponent "{68D0CD113A548789}" {
+       m_ColorButtonFocused 0.749 0.376 0.376 1
+       m_ColorButtonPressed 0.561 0.071 0.071 1
+       m_ColorButtonHovered 0.749 0.376 0.376 1
+       m_ColorButtonHoveredFocused 0.749 0.376 0.376 1
+      }
+     }
+    }
+    ButtonWidgetClass "{68D060971E26C0BD}" {
+     Prefab "{68D060971E26C0BD}"
+     components {
+      ButtonComponent "{68D0CD112B4FFEF6}" {
+       m_ColorButtonFocused 0.749 0.376 0.376 1
+       m_ColorButtonPressed 0.561 0.071 0.071 1
+       m_ColorButtonHovered 0.749 0.376 0.376 1
+       m_ColorButtonHoveredFocused 0.749 0.376 0.376 1
+      }
+     }
+    }
+    ButtonWidgetClass "{68D06097066ADFD6}" {
+     Prefab "{68D06097066ADFD6}"
+     components {
+      ButtonComponent "{68D0CD112ED4BE0F}" {
+       m_ColorButtonFocused 0.812 0.506 0.506 1
+       m_ColorButtonPressed 0.561 0.071 0.071 1
+       m_ColorButtonHovered 0.749 0.376 0.376 1
+       m_ColorButtonHoveredFocused 0.812 0.506 0.506 1
+      }
+     }
+    }
+    ButtonWidgetClass "{68D060970C837BA1}" {
+     Prefab "{68D060970C837BA1}"
+     components {
+      ButtonComponent "{68D0CD1151E2FE8C}" {
+       m_ColorButtonFocused 0.812 0.506 0.506 1
+       m_ColorButtonPressed 0.561 0.071 0.071 1
+       m_ColorButtonHovered 0.749 0.376 0.376 1
+       m_ColorButtonHoveredFocused 0.749 0.376 0.376 1
+      }
+     }
+    }
+    ButtonWidgetClass "{68D0609735FA9C4A}" {
+     Prefab "{68D0609735FA9C4A}"
+     components {
+      ButtonComponent "{68D0CD11577179F7}" {
+       m_ColorButtonFocused 0.812 0.506 0.506 1
+       m_ColorButtonPressed 0.561 0.071 0.071 1
+       m_ColorButtonHovered 0.812 0.506 0.506 1
+       m_ColorButtonHoveredFocused 0.812 0.506 0.506 1
+      }
+     }
+    }
+    ButtonWidgetClass "{68D06097200FEC9A}" {
+     Prefab "{68D06097200FEC9A}"
+     components {
+      ButtonComponent "{68D0CD1159D84287}" {
+       m_ColorButtonFocused 0.812 0.506 0.506 1
+       m_ColorButtonPressed 0.624 0.157 0.157 1
+       m_ColorButtonHovered 0.812 0.506 0.506 1
+       m_ColorButtonHoveredFocused 0.812 0.506 0.506 1
+      }
+     }
+    }
+    ButtonWidgetClass "{68D0609726F99C01}" {
+     Prefab "{68D0609726F99C01}"
+     components {
+      ButtonComponent "{68D0CD115C800FF8}" {
+       m_ColorButtonFocused 0.812 0.506 0.506 1
+       m_ColorButtonPressed 0.561 0.071 0.071 1
+       m_ColorButtonHovered 0.812 0.506 0.506 1
+       m_ColorButtonHoveredFocused 0.812 0.506 0.506 1
+      }
+     }
+    }
+    ButtonWidgetClass "{658CA219FB0C05E3}" {
+     Prefab "{658CA219FB0C05E3}"
+     components {
+      ButtonComponent "{658CA218BF128B54}" {
+       m_ColorButtonFocused 0.812 0.506 0.506 1
+       m_ColorButtonPressed 0.561 0.071 0.071 1
+       m_ColorButtonHovered 0.812 0.506 0.506 1
+       m_ColorButtonHoveredFocused 0.812 0.506 0.506 1
+      }
+     }
+    }
+    ButtonWidgetClass "{68D08EEAE93264F8}" {
+     Prefab "{68D08EEAE93264F8}"
+     components {
+      ButtonComponent "{658CA218BF128B54}" {
+       m_ColorButtonFocused 0.812 0.506 0.506 1
+       m_ColorButtonPressed 0.561 0.071 0.071 1
+       m_ColorButtonHovered 0.812 0.506 0.506 1
+       m_ColorButtonHoveredFocused 0.812 0.506 0.506 1
+      }
+     }
+    }
+    ButtonWidgetClass "{68D281DA8F2EC887}" {
+     Prefab "{68D281DA8F2EC887}"
+     components {
+      ButtonComponent "{658CA218BF128B54}" {
+       m_ColorButtonFocused 0.812 0.506 0.506 1
+       m_ColorButtonPressed 0.561 0.071 0.071 1
+       m_ColorButtonHovered 0.812 0.506 0.506 1
+       m_ColorButtonHoveredFocused 0.812 0.506 0.506 1
+      }
+     }
+    }
+    ButtonWidgetClass "{68D281DAB76CA22D}" {
+     Prefab "{68D281DAB76CA22D}"
+     components {
+      ButtonComponent "{658CA218BF128B54}" {
+       m_ColorButtonFocused 0.812 0.506 0.506 1
+       m_ColorButtonPressed 0.561 0.071 0.071 1
+       m_ColorButtonHovered 0.812 0.506 0.506 1
+       m_ColorButtonHoveredFocused 0.812 0.506 0.506 1
       }
      }
     }

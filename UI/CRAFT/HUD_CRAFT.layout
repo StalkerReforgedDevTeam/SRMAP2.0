@@ -1,2 +1,193 @@
 FrameWidgetClass {
+ {
+  ImageWidgetClass "{66C6A7118212B89C}" {
+   Prefab "{66C6A7118212B89C}"
+   Color 0.0023 0 0.1714 1
+  }
+  ImageWidgetClass "{68D4F37A82FA553B}" {
+   Prefab "{68D4F37A82FA553B}"
+   Color 0.0004 0 0.0844 1
+  }
+  ButtonWidgetClass "{66C6A710DE2BAA1A}" {
+   Prefab "{66C6A710DE2BAA1A}"
+   Slot FrameWidgetSlot "{6686D326C6E19A54}" {
+    PositionX -79.87
+    OffsetLeft -79.87
+    PositionY -454.908
+    OffsetTop -454.908
+    SizeX 179.053
+    OffsetRight -99.183
+    SizeY 49
+    OffsetBottom 405.908
+   }
+   components {
+    ButtonComponent "{668919CA025147C0}" {
+     m_ColorButtonDefault 0.791 0.791 0.791 0.7
+     m_ColorButtonFocused 0.812 0.506 0.506 1
+     m_ColorButtonPressed 0.561 0.071 0.071 1
+     m_ColorChildDefault 0.791 0.791 0.791 0.7
+     m_ColorChildFocused 0.812 0.506 0.506 1
+     m_ColorChildPressed 0.561 0.071 0.071 1
+     m_ColorButtonHovered 0.749 0.376 0.376 1
+     m_ColorButtonHoveredFocused 0.749 0.376 0.376 1
+     m_ColorChildHovered 0.749 0.376 0.376 1
+     m_ColorChildHoveredFocused 0.812 0.506 0.506 1
+    }
+   }
+   {
+    TextWidgetClass "{66C6A710DE2BAA1D}" {
+     Prefab "{66C6A710DE2BAA1D}"
+     "Font Size" 25
+    }
+   }
+  }
+  ButtonWidgetClass "{66C6A711AA5C61E1}" {
+   Prefab "{66C6A711AA5C61E1}"
+   Slot FrameWidgetSlot "{6686D326C6E19A54}" {
+    PositionX -80.421
+    OffsetLeft -80.421
+    PositionY -511.077
+    OffsetTop -511.077
+    SizeX 179.053
+    OffsetRight -98.632
+    SizeY 49
+    OffsetBottom 462.077
+   }
+  }
+  ButtonWidgetClass "{66C8E140FD54D637}" {
+   Prefab "{66C8E140FD54D637}"
+   components {
+    ButtonComponent "{668919CA025147C0}" {
+     m_ColorButtonDefault 0.323 0.323 0.323 1
+     m_ColorButtonFocused 0.812 0.506 0.506 1
+     m_ColorButtonPressed 0.561 0.071 0.071 1
+     m_ColorChildDefault 1 1 1 0.3
+     m_ColorChildFocused 0.812 0.506 0.506 1
+     m_ColorChildPressed 0.561 0.071 0.071 1
+     m_ColorButtonHovered 0.812 0.506 0.506 1
+     m_ColorButtonHoveredFocused 0.812 0.506 0.506 1
+     m_ColorChildHovered 0.812 0.506 0.506 1
+    }
+   }
+   {
+    TextWidgetClass "{66C8E140FD54F59D}" {
+     Prefab "{66C8E140FD54F59D}"
+     "Font Size" 25
+    }
+   }
+  }
+  ButtonWidgetClass "{68A6A01D8C7C5FC7}" {
+   Prefab "{68A6A01D8C7C5FC7}"
+   components {
+    ButtonComponent "{668919CA025147C0}" {
+     m_ColorButtonDefault 0.371 0.371 0.371 0.7
+     m_ColorButtonFocused 0.812 0.506 0.506 1
+     m_ColorButtonPressed 0.561 0.071 0.071 1
+     m_ColorChildDefault 0.25 0.25 0.25 0.3
+     m_ColorChildFocused 0.812 0.506 0.506 1
+     m_ColorChildPressed 0.812 0.506 0.506 1
+    }
+   }
+   {
+    TextWidgetClass "{68A6A01D8C7C5FC6}" {
+     Prefab "{68A6A01D8C7C5FC6}"
+     "Font Size" 25
+    }
+   }
+  }
+  ButtonWidgetClass "{66C8E140F87E0375}" {
+   Prefab "{66C8E140F87E0375}"
+   components {
+    ButtonComponent "{668919CA025147C0}" {
+     m_ColorButtonDefault 0.418 0.418 0.418 0.7
+     m_ColorButtonFocused 0.812 0.506 0.506 1
+     m_ColorButtonPressed 0.561 0.071 0.071 1
+     m_ColorChildDefault 0.352 0.352 0.352 0.3
+     m_ColorChildFocused 0.812 0.506 0.506 1
+     m_ColorChildPressed 0.812 0.506 0.506 1
+     m_ColorButtonHovered 0.812 0.506 0.506 1
+     m_ColorButtonHoveredFocused 0.812 0.506 0.506 1
+     m_ColorChildHovered 0.812 0.506 0.506 1
+    }
+   }
+   {
+    TextWidgetClass "{66C8E140F87E0376}" {
+     Prefab "{66C8E140F87E0376}"
+     "Font Size" 25
+    }
+   }
+  }
+  ButtonWidgetClass "{68A6A01C28779E0D}" {
+   Prefab "{68A6A01C28779E0D}"
+   Slot FrameWidgetSlot "{6686D326C6E19A54}" {
+    PositionX -77.135
+    OffsetLeft -77.135
+    PositionY -402.642
+    OffsetTop -402.642
+    SizeX 179.053
+    OffsetRight -101.917
+    SizeY 49
+    OffsetBottom 353.642
+   }
+   components {
+    ButtonComponent "{668919CA025147C0}" {
+     m_ColorButtonDefault 0.491 0.491 0.491 0.7
+     m_ColorButtonFocused 0.812 0.506 0.506 1
+     m_ColorButtonPressed 0.561 0.071 0.071 1
+     m_ColorChildDefault 0.462 0.462 0.462 0.3
+     m_ColorChildFocused 0.812 0.506 0.506 1
+     m_ColorChildPressed 0.561 0.071 0.071 1
+     m_ColorButtonHovered 0.812 0.506 0.506 1
+     m_ColorButtonHoveredFocused 0.812 0.506 0.506 1
+     m_ColorChildHovered 0.812 0.506 0.506 1
+    }
+   }
+   {
+    TextWidgetClass "{68A6A01C28779E0C}" {
+     Prefab "{68A6A01C28779E0C}"
+     "Font Size" 25
+    }
+   }
+  }
+  TextWidgetClass "{66C907E0CFD2D125}" {
+   Prefab "{66C907E0CFD2D125}"
+   Slot FrameWidgetSlot "{66C907E0CFD2D132}" {
+    PositionX 198.111
+    OffsetLeft 198.111
+    PositionY -523.869
+    OffsetTop -523.869
+    SizeX 375.71
+    OffsetRight -573.821
+    SizeY 30
+    OffsetBottom 493.869
+   }
+   Text "Stalker Reforged"
+   "Font Size" 25
+   FontProperties FontProperties "{68F7212A087297BA}" {
+    DisabledColor 1 1 1 1
+   }
+  }
+  ButtonWidgetClass "{69E76449A3E1D7C1}" {
+   Prefab "{69E76449A3E1D7C1}"
+   components {
+    ButtonComponent "{668919CA025147C0}" {
+     m_ColorButtonDefault 0.462 0.462 0.462 0.7
+     m_ColorButtonFocused 0.812 0.506 0.506 1
+     m_ColorButtonPressed 0.561 0.071 0.071 1
+     m_ColorChildDefault 0.474 0.474 0.474 0.3
+     m_ColorChildFocused 0.812 0.506 0.506 1
+     m_ColorChildPressed 0.561 0.071 0.071 1
+     m_ColorButtonHovered 0.812 0.506 0.506 1
+     m_ColorButtonHoveredFocused 0.812 0.506 0.506 1
+     m_ColorChildHovered 0.812 0.506 0.506 1
+    }
+   }
+   {
+    TextWidgetClass "{69E76449A3E1D7C7}" {
+     Prefab "{69E76449A3E1D7C7}"
+     Text "Craft"
+    }
+   }
+  }
+ }
 }

@@ -15,5 +15,90 @@ FrameWidgetClass {
    }
    Clipping True
   }
+  FrameWidgetClass "{68FA9A76D2DB4D6F}" {
+   Prefab "{68FA9A76D2DB4D6F}"
+   "Is Visible" 0
+  }
+  FrameWidgetClass "{65925758F9AEFB4E}" {
+   Prefab "{65925758F9AEFB4E}"
+   Slot FrameWidgetSlot "{65925758F9AEFB5A}" {
+    OffsetLeft -1920.2
+    OffsetTop -1080.5
+    SizeX 2000
+    OffsetRight -79.8
+    SizeY 2000
+    OffsetBottom -919.5
+   }
+   "Is Visible" 1
+   {
+    TextWidgetClass "{692B1A38B58F3AB0}" {
+     Prefab "{692B1A38B58F3AB0}"
+     "Font Size" 25
+    }
+    ProgressBarWidgetClass "{631479376E27796D}" {
+     Prefab "{631479376E27796D}"
+     Slot FrameWidgetSlot "{62F8A30838F71259}" {
+      PositionX 1686.52
+      OffsetLeft 1686.52
+      PositionY 998.858
+      OffsetTop 998.858
+      SizeX 212.2
+      OffsetRight -1898.72
+      SizeY 30
+      OffsetBottom -1028.86
+     }
+    }
+    ProgressBarWidgetClass "{631479376E277E98}" {
+     Prefab "{631479376E277E98}"
+     Slot FrameWidgetSlot "{62F8A30838F71259}" {
+      PositionX 1704.4
+      OffsetLeft 1704.4
+      PositionY 1033.5
+      OffsetTop 1033.5
+      SizeX 191.7
+      OffsetRight -1896.1
+      SizeY 20
+      OffsetBottom -1053.5
+     }
+    }
+    ImageWidgetClass "{65F4F79A4F372135}" {
+     Prefab "{65F4F79A4F372135}"
+     Slot FrameWidgetSlot "{65F4F79F417BAF14}" {
+      PositionX 1592.33
+      OffsetLeft 1592.33
+      PositionY 963.601
+      OffsetTop 963.601
+      SizeX 420.89
+      OffsetRight -2013.22
+      SizeY 135.864
+      OffsetBottom -1099.46
+     }
+    }
+   }
+  }
+  PanelWidgetClass "{6588A134B289FE7B}" {
+   Prefab "{6588A134B289FE7B}"
+   {
+    ImageWidgetClass "{6588A1378721425A}" {
+     Prefab "{6588A1378721425A}"
+     Color 0.1144 0.1144 0.1144 1
+    }
+   }
+  }
+  TextWidgetClass "{68F0BBB42DB84B9D}" {
+   Prefab "{68F0BBB42DB84B9D}"
+   Slot FrameWidgetSlot "{66C907E0CFD2D132}" {
+    PositionX -297.049
+    OffsetLeft -297.049
+    PositionY -122.424
+    OffsetTop -122.424
+    SizeX 375.711
+    OffsetRight -78.662
+    SizeY 44.252
+    OffsetBottom 78.172
+   }
+   Text "Stalker Reforged S3"
+   "Font Size" 25
+  }
  }
 }

@@ -2,6 +2,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
  {
   coords 4523.759 279.593 1710.403
   SphereRadius 118.2
+  DrawShape 0
   UpdatePeriod 5
   m_DamageRadioLevel 100
   m_fZoneRadiationLevel 65
@@ -11,6 +12,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
  {
   coords 4613.275 306.127 1970.637
   SphereRadius 118.2
+  DrawShape 0
   UpdatePeriod 5
   m_DamageRadioLevel 60
   m_fZoneRadiationLevel 65
@@ -22,6 +24,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   }
   coords 5067.384 301.766 1700.512
   SphereRadius 118.2
+  DrawShape 0
   UpdatePeriod 5
   m_DamageRadioLevel 60
   m_fZoneRadiationLevel 65
@@ -31,6 +34,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
  {
   coords 5015.922 306.482 1932.783
   SphereRadius 118.2
+  DrawShape 0
   UpdatePeriod 5
   m_DamageRadioLevel 60
   m_fZoneRadiationLevel 65
@@ -40,6 +44,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
  {
   coords 4979.27 315.38 2313.549
   SphereRadius 118.2
+  DrawShape 0
   UpdatePeriod 5
   m_DamageRadioLevel 60
   m_fZoneRadiationLevel 65
@@ -49,6 +54,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
  {
   coords 4479.875 307.491 2230.448
   SphereRadius 118.2
+  DrawShape 0
   UpdatePeriod 5
   m_DamageRadioLevel 60
   m_fZoneRadiationLevel 65
@@ -58,6 +64,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
  {
   coords 4839.775 293.379 2648.757
   SphereRadius 118.2
+  DrawShape 0
   UpdatePeriod 5
   m_DamageRadioLevel 60
   m_fZoneRadiationLevel 65
@@ -67,6 +74,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
  {
   coords 4777.986 300.308 3047.335
   SphereRadius 118.2
+  DrawShape 0
   UpdatePeriod 5
   m_DamageRadioLevel 60
   m_fZoneRadiationLevel 65
@@ -76,6 +84,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
  {
   coords 5112.888 315.78 2842.704
   SphereRadius 118.2
+  DrawShape 0
   UpdatePeriod 5
   m_DamageRadioLevel 60
   m_fZoneRadiationLevel 65
@@ -85,6 +94,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
  {
   coords 5022.446 310.041 2569.218
   SphereRadius 118.2
+  DrawShape 0
   UpdatePeriod 5
   m_DamageRadioLevel 60
   m_fZoneRadiationLevel 65
@@ -94,6 +104,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
  {
   coords 4586.28 309.909 2477.132
   SphereRadius 118.2
+  DrawShape 0
   UpdatePeriod 5
   m_DamageRadioLevel 60
   m_fZoneRadiationLevel 65
@@ -103,6 +114,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
  {
   coords 4127.494 310.125 2246.97
   SphereRadius 118.2
+  DrawShape 0
   UpdatePeriod 5
   m_DamageRadioLevel 60
   m_fZoneRadiationLevel 65
@@ -112,6 +124,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
  {
   coords 4237.106 299.209 1816.707
   SphereRadius 118.2
+  DrawShape 0
   UpdatePeriod 5
   m_DamageRadioLevel 60
   m_fZoneRadiationLevel 65
@@ -121,6 +134,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
  {
   coords 4781.854 323.724 1545.365
   SphereRadius 118.2
+  DrawShape 0
   UpdatePeriod 5
   m_DamageRadioLevel 60
   m_fZoneRadiationLevel 65
@@ -130,6 +144,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
  {
   coords 4337.897 327.503 2443.256
   SphereRadius 118.2
+  DrawShape 0
   UpdatePeriod 5
   m_DamageRadioLevel 60
   m_fZoneRadiationLevel 65
@@ -139,6 +154,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
  {
   coords 4371.238 310.92 1918.138
   SphereRadius 118.2
+  DrawShape 0
   UpdatePeriod 5
   m_DamageRadioLevel 60
   m_fZoneRadiationLevel 65
@@ -148,6 +164,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
  {
   coords 5126.609 305.52 2045.793
   SphereRadius 118.2
+  DrawShape 0
   UpdatePeriod 5
   m_DamageRadioLevel 60
   m_fZoneRadiationLevel 65
@@ -157,6 +174,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
  {
   coords 5149.041 313.547 2279.35
   SphereRadius 118.2
+  DrawShape 0
   UpdatePeriod 5
   m_DamageRadioLevel 60
   m_fZoneRadiationLevel 65
@@ -166,6 +184,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
  {
   coords 4783.809 310.89 1947.379
   SphereRadius 118.2
+  DrawShape 0
   UpdatePeriod 5
   m_DamageRadioLevel 60
   m_fZoneRadiationLevel 65

@@ -2,6 +2,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
  {
   coords 4860.651 309.678 1242.571
   SphereRadius 87.4
+  DrawShape 0
   UpdatePeriod 5
   m_fZoneRadiationLevel 65
   m_eFilterDrainTier LOW
@@ -10,6 +11,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
  {
   coords 4632.266 309.678 993.799
   SphereRadius 87.4
+  DrawShape 0
   UpdatePeriod 5
   m_fZoneRadiationLevel 65
   m_eFilterDrainTier LOW
@@ -18,6 +20,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
  {
   coords 5052.524 309.118 875.226
   SphereRadius 152.6
+  DrawShape 0
   UpdatePeriod 5
   m_fZoneRadiationLevel 65
   m_eFilterDrainTier LOW
@@ -26,6 +29,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
  {
   coords 5188.958 312.131 760.421
   SphereRadius 180.5
+  DrawShape 0
   UpdatePeriod 5
   m_fZoneRadiationLevel 65
   m_eFilterDrainTier LOW
@@ -34,6 +38,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
  {
   coords 4834.783 312.89 448.366
   SphereRadius 140.9
+  DrawShape 0
   UpdatePeriod 5
   m_fZoneRadiationLevel 65
   m_eFilterDrainTier LOW
@@ -42,6 +47,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
  {
   coords 4622.992 319.278 522.778
   SphereRadius 126.8
+  DrawShape 0
   UpdatePeriod 5
   m_fZoneRadiationLevel 65
   m_eFilterDrainTier LOW
@@ -50,6 +56,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
  {
   coords 4451.216 307.373 492.045
   SphereRadius 108.5
+  DrawShape 0
   UpdatePeriod 5
   m_fZoneRadiationLevel 65
   m_eFilterDrainTier LOW
@@ -58,6 +65,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
  {
   coords 4527.309 308.284 663.885
   SphereRadius 141.2
+  DrawShape 0
   UpdatePeriod 5
   m_fZoneRadiationLevel 65
   m_eFilterDrainTier LOW
@@ -66,6 +74,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
  {
   coords 4755.348 320.226 600.733
   SphereRadius 149.2
+  DrawShape 0
   UpdatePeriod 5
   m_fZoneRadiationLevel 65
   m_eFilterDrainTier LOW
@@ -74,6 +83,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
  {
   coords 4900.596 320.15 685.901
   SphereRadius 145.1
+  DrawShape 0
   UpdatePeriod 5
   m_fZoneRadiationLevel 65
   m_eFilterDrainTier LOW
@@ -82,6 +92,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
  {
   coords 5255.183 307.193 510.05
   SphereRadius 142
+  DrawShape 0
   UpdatePeriod 5
   m_fZoneRadiationLevel 65
   m_eFilterDrainTier LOW
@@ -90,6 +101,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
  {
   coords 5397.21 319.911 675.355
   SphereRadius 130.7
+  DrawShape 0
   UpdatePeriod 5
   m_fZoneRadiationLevel 65
   m_eFilterDrainTier LOW
@@ -98,6 +110,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
  {
   coords 4785.019 305.905 836.994
   SphereRadius 180.3
+  DrawShape 0
   UpdatePeriod 5
   m_fZoneRadiationLevel 65
   m_eFilterDrainTier LOW
@@ -106,6 +119,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
  caves {
   coords 5174.317 323.889 1302.429
   SphereRadius 87.4
+  DrawShape 0
   UpdatePeriod 5
   m_DamageRadioLevel 36
   m_fZoneRadiationLevel 65
@@ -115,6 +129,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
  {
   coords 4250.8 323.89 414.753
   SphereRadius 87.4
+  DrawShape 0
   UpdatePeriod 5
   m_DamageRadioLevel 72
   m_fZoneRadiationLevel 65
@@ -124,6 +139,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
  caves2 {
   coords 5291.942 323.889 1579.877
   SphereRadius 87.4
+  DrawShape 0
   UpdatePeriod 5
   m_DamageRadioLevel 20
   m_fZoneRadiationLevel 65
@@ -133,6 +149,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
  caves3 {
   coords 5339.415 323.889 1369.722
   SphereRadius 87.4
+  DrawShape 0
   UpdatePeriod 5
   m_DamageRadioLevel 20
   m_fZoneRadiationLevel 65
