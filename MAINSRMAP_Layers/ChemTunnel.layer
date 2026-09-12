@@ -210,9 +210,10 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   coords 3215.697 309.713 1404.592
   scale 11.91
   SphereRadius 12.8
-  DrawShape 0
   UpdatePeriod 5
   m_DamageRadioLevel 66
+  m_eFilterDrainTier LOW
+  m_fFilterDrainLow 0.02
  }
  {
   editor EntityEditorProps "{697C60294729B20E}" {
@@ -223,9 +224,10 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   scale 74.734
   TriggerShapeType "Oriented Bounding Box"
   SphereRadius 40.8
-  DrawShape 0
   UpdatePeriod 5
   m_DamageRadioLevel 66
+  m_eFilterDrainTier LOW
+  m_fFilterDrainLow 0.02
  }
 }
 SCR_IndestructibleEnvironmentalEntity : "{1BA4712EED0CB208}PrefabLibrary/DefaultLibrary/Rocks/Granite/GraniteStone_03.et" {
@@ -720,7 +722,7 @@ $grp SCR_DestructibleBuildingEntity : "{5987E1DF837BA755}Prefabs/Vehicles/btr70/
   angles 20.264 125.717 -13.264
  }
 }
-GenericEntity : "{5B2777BA82B53DA6}Prefabs/Vehicles/azlk412/armst_azlk412_wreck4.et" {
+SCR_DestructibleBuildingEntity : "{5B2777BA82B53DA6}Prefabs/Vehicles/azlk412/armst_azlk412_wreck4.et" {
  coords 3217.239 306.05 1420.648
  angles 0 128.375 0
  {
