@@ -210,6 +210,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   coords 3215.697 309.713 1404.592
   scale 11.91
   SphereRadius 12.8
+  DrawShape 0
   UpdatePeriod 5
   m_DamageRadioLevel 66
   m_eFilterDrainTier LOW
@@ -224,6 +225,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   scale 74.734
   TriggerShapeType "Oriented Bounding Box"
   SphereRadius 40.8
+  DrawShape 0
   UpdatePeriod 5
   m_DamageRadioLevel 66
   m_eFilterDrainTier LOW
