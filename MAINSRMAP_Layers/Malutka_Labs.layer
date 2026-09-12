@@ -2440,36 +2440,20 @@ $grp GenericEntity : "{17F3181D0DAC27FC}Prefabs/Props/Furniture/CabinetMetal_01_
 }
 $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST_RADIATIONS.et" {
  {
-  editor EntityEditorProps "{697C60294729B20E}" {
-  }
-  coords 2031.333 305.95 284.212
-  SphereRadius 119.8
-  DrawShape 0
-  UpdatePeriod 5
-  m_DamageRadioLevel 15
- }
- {
-  editor EntityEditorProps "{697C60294729B20E}" {
-  }
-  coords 1310.669 321.478 497.336
-  SphereRadius 119.8
-  DrawShape 0
-  UpdatePeriod 5
-  m_DamageRadioLevel 15
- }
- {
   coords 4892.631 309.678 1351.978
   SphereRadius 87.4
-  DrawShape 0
   UpdatePeriod 5
   m_DamageRadioLevel 60
+  m_eFilterDrainTier LOW
+  m_fFilterDrainLow 0.02
  }
  {
   coords 3724.807 321.568 1844.583
   SphereRadius 127.1
-  DrawShape 0
   UpdatePeriod 5
   m_DamageRadioLevel 70
+  m_eFilterDrainTier LOW
+  m_fFilterDrainLow 0.02
  }
 }
 $grp GenericEntity : "{1EDBE01AAD5EE137}Prefabs/Props/Industrial/GasTank_02_blue.et" {
