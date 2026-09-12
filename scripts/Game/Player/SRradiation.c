@@ -13,16 +13,16 @@ modded class ARMST_RADIATIONSEntity
 	[Attribute("0.05", UIWidgets.EditBox, "Radiation stat gained per tick, per point of unprotected deficit (zone level minus player protection)", category: "RADIATION ZONE")]
 	protected float m_fDeficitDoseScale;
 
-	[Attribute("1", UIWidgets.ComboBox, "Filter drain tier for this zone", "", ParamEnumArray.FromEnum(ARMST_FilterDrainTier), category: "FILTER")]
+	[Attribute("1", UIWidgets.ComboBox, "Gas mask condition drain tier for this zone", "", ParamEnumArray.FromEnum(ARMST_FilterDrainTier), category: "GAS MASK WEAR")]
 	protected ARMST_FilterDrainTier m_eFilterDrainTier;
 
-	[Attribute("0.25", UIWidgets.EditBox, "Filter condition lost per tick - LOW tier", category: "FILTER")]
+	[Attribute("0.25", UIWidgets.EditBox, "Mask condition lost per tick - LOW tier", category: "GAS MASK WEAR")]
 	protected float m_fFilterDrainLow;
 
-	[Attribute("0.5", UIWidgets.EditBox, "Filter condition lost per tick - MEDIUM tier", category: "FILTER")]
+	[Attribute("0.5", UIWidgets.EditBox, "Mask condition lost per tick - MEDIUM tier", category: "GAS MASK WEAR")]
 	protected float m_fFilterDrainMedium;
 
-	[Attribute("1.0", UIWidgets.EditBox, "Filter condition lost per tick - HIGH tier", category: "FILTER")]
+	[Attribute("1.0", UIWidgets.EditBox, "Mask condition lost per tick - HIGH tier", category: "GAS MASK WEAR")]
 	protected float m_fFilterDrainHigh;
 
 	override void OnActivate(IEntity ent)
@@ -66,7 +66,7 @@ modded class ARMST_RADIATIONSEntity
 		if (deficit > 0)
 			statsComponent.ArmstPlayerStatSetRadio(deficit * m_fDeficitDoseScale);
 
-		DrainGasmaskFilter(ent);
+		DrainGasmaskCondition(ent);
 	}
 
 	protected float GetFilterDrainAmount()
@@ -80,7 +80,7 @@ modded class ARMST_RADIATIONSEntity
 		return m_fFilterDrainMedium;
 	}
 
-	protected void DrainGasmaskFilter(IEntity ent)
+	protected void DrainGasmaskCondition(IEntity ent)
 	{
 		if (!ent)
 			return;
