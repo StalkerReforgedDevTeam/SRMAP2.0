@@ -1,0 +1,684 @@
+FrameWidgetClass {
+ {
+  FrameWidgetClass "{68CCC473CF3772AB}" {
+   Prefab "{68CCC473CF3772AB}"
+   {
+    ImageWidgetClass "{68CCC473CF3772AD}" {
+     Prefab "{68CCC473CF3772AD}"
+     Color 0.0033 0.0061 0.0124 1
+    }
+    FrameWidgetClass "{68CCC473CF3772AE}" {
+     Prefab "{68CCC473CF3772AE}"
+     {
+      ImageWidgetClass "{68CCC473CF370BA0}" {
+       Prefab "{68CCC473CF370BA0}"
+       Color 0 0 0 1
+      }
+      TextWidgetClass "{68CCC473CF370BAE}" {
+       Prefab "{68CCC473CF370BAE}"
+       Text "Name:"
+       "Font Size" 25
+      }
+      TextWidgetClass "{68CCC473CF36DC2F}" {
+       Prefab "{68CCC473CF36DC2F}"
+       Text "Coupons:"
+       "Font Size" 25
+      }
+      TextWidgetClass "{68CCC473CF36DC2C}" {
+       Prefab "{68CCC473CF36DC2C}"
+       "Font Size" 25
+      }
+      TextWidgetClass "{68CCC473CF36DC2D}" {
+       Prefab "{68CCC473CF36DC2D}"
+       "Font Size" 25
+      }
+      TextWidgetClass "{68CCC473CF36DC2A}" {
+       Prefab "{68CCC473CF36DC2A}"
+       "Font Size" 25
+      }
+      TextWidgetClass "{68CCC473CF367311}" {
+       Prefab "{68CCC473CF367311}"
+       "Font Size" 25
+      }
+      TextWidgetClass "{68CCC473CF367312}" {
+       Prefab "{68CCC473CF367312}"
+       Text "Faction:"
+       "Font Size" 25
+      }
+      TextWidgetClass "{68CCC473CF367313}" {
+       Prefab "{68CCC473CF367313}"
+       "Font Size" 25
+      }
+     }
+    }
+    FrameWidgetClass "{68CCC473CF361FA0}" {
+     Prefab "{68CCC473CF361FA0}"
+     {
+      TextWidgetClass "{68CCC473CF361FDF}" {
+       Prefab "{68CCC473CF361FDF}"
+       "Font Size" 25
+      }
+      ImageWidgetClass "{68CCC473CF361FDE}" {
+       Prefab "{68CCC473CF361FDE}"
+       Color 0 0 0 1
+      }
+      HorizontalLayoutWidgetClass "{68CCC473CF361FDD}" {
+       Prefab "{68CCC473CF361FDD}"
+       Slot FrameWidgetSlot "{68CCA0AEA0851272}" {
+        OffsetLeft 2.1
+        OffsetTop -7
+        OffsetRight -643.7
+        OffsetBottom -40.3
+       }
+       {
+        ButtonWidgetClass "{68CCC473CF361FDC}" {
+         Prefab "{68CCC473CF361FDC}"
+         {
+          TextWidgetClass "{68CCC473CF361FDB}" {
+           Prefab "{68CCC473CF361FDB}"
+           "Font Size" 25
+          }
+         }
+        }
+        ButtonWidgetClass "{68CCC473CF396F2D}" {
+         Prefab "{68CCC473CF396F2D}"
+         {
+          TextWidgetClass "{68CCC473CF396F2E}" {
+           Prefab "{68CCC473CF396F2E}"
+           Text "Tasks"
+           "Font Size" 25
+          }
+         }
+        }
+        ButtonWidgetClass "{68CCC473CF3944B4}" {
+         Prefab "{68CCC473CF3944B4}"
+         {
+          TextWidgetClass "{68CCC473CF3944B5}" {
+           Prefab "{68CCC473CF3944B5}"
+           Text "Messages"
+           "Font Size" 25
+          }
+         }
+        }
+        ButtonWidgetClass "{68CCC473CF3940AE}" {
+         Prefab "{68CCC473CF3940AE}"
+         {
+          TextWidgetClass "{68CCC473CF3940A9}" {
+           Prefab "{68CCC473CF3940A9}"
+           Text "Map"
+           "Font Size" 25
+          }
+         }
+        }
+        ButtonWidgetClass "{68CCC473CF3905DB}" {
+         Prefab "{68CCC473CF3905DB}"
+         {
+          TextWidgetClass "{68CCC473CF3905C4}" {
+           Prefab "{68CCC473CF3905C4}"
+           Text "Archive"
+           "Font Size" 25
+          }
+         }
+        }
+        ButtonWidgetClass "{68CCC473CF3900C4}" {
+         Prefab "{68CCC473CF3900C4}"
+         {
+          TextWidgetClass "{68CCC473CF38878F}" {
+           Prefab "{68CCC473CF38878F}"
+           "Font Size" 25
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+    FrameWidgetClass "{68CCC473CF384A76}" {
+     Prefab "{68CCC473CF384A76}"
+     {
+      ImageWidgetClass "{68CCC473CF380EC1}" {
+       Prefab "{68CCC473CF380EC1}"
+       Color 0 0 0 1
+      }
+      TextWidgetClass "{68CCC473CF3BA1ED}" {
+       Prefab "{68CCC473CF3BA1ED}"
+       Text "Loners"
+       "Font Size" 25
+      }
+      TextWidgetClass "{68CCC473CF3B61BD}" {
+       Prefab "{68CCC473CF3B61BD}"
+       "Font Size" 25
+      }
+      TextWidgetClass "{68CCC473CF3B38DD}" {
+       Prefab "{68CCC473CF3B38DD}"
+       Text "UKM:"
+      }
+      TextWidgetClass "{68CCC473CF3B38DC}" {
+       Prefab "{68CCC473CF3B38DC}"
+       Text "Freedom"
+      }
+      TextWidgetClass "{68CCC473CF3ACD54}" {
+       Prefab "{68CCC473CF3ACD54}"
+       Text "Duty"
+      }
+     }
+    }
+    FrameWidgetClass "{68CCC473CF3CF30B}" {
+     Prefab "{68CCC473CF3CF30B}"
+     Slot FrameWidgetSlot "{65B4655CF648CA5B}" {
+      PositionX 211.9
+      OffsetLeft 211.9
+      PositionY 232.894
+      OffsetTop 232.894
+      SizeX -978.958
+      OffsetRight 767.058
+      SizeY -375.735
+      OffsetBottom 142.841
+     }
+     {
+      ImageWidgetClass "{68CCC473CF3C74FF}" {
+       Prefab "{68CCC473CF3C74FF}"
+       Slot FrameWidgetSlot "{658CB641C1D6D826}" {
+        PositionX -322.486
+        OffsetLeft -322.486
+        PositionY -255.012
+        OffsetTop -255.012
+        SizeX 630.108
+        OffsetRight -307.622
+        SizeY 539.599
+        OffsetBottom -284.587
+       }
+       Color 0 0 0 1
+      }
+      TextWidgetClass "{68CCC473CF3C74FE}" {
+       Prefab "{68CCC473CF3C74FE}"
+       Slot FrameWidgetSlot "{631318B6E734BD72}" {
+        Anchor 0.5 0.7 0.5 0.7
+        PositionX -93.099
+        OffsetLeft -93.099
+        PositionY -389.405
+        OffsetTop -389.405
+        SizeX 415.87
+        OffsetRight -322.771
+        SizeY 297.676
+        OffsetBottom 91.729
+       }
+       Text "Welcome to Stalker Reforged Use this link to join our discord and read our rules this is a hardcore survival roleplay server "
+       "Font Size" 25
+      }
+      TextWidgetClass "{68CCC473CF3C7325}" {
+       Prefab "{68CCC473CF3C7325}"
+       Slot FrameWidgetSlot "{631318B6E734BD72}" {
+        PositionX -90.05
+        OffsetLeft -90.05
+        PositionY 68.842
+        OffsetTop 68.842
+        SizeX 408.919
+        OffsetRight -318.869
+        SizeY 232.735
+        OffsetBottom -301.577
+       }
+       Text ""
+      }
+     }
+    }
+    FrameWidgetClass "{68CCC473CF3FF3A5}" {
+     Prefab "{68CCC473CF3FF3A5}"
+     {
+      FrameWidgetClass "{68CCC473CF3FF3A6}" {
+       Prefab "{68CCC473CF3FF3A6}"
+       Color 0.4793 0.4793 0.4793 1
+       {
+        TextWidgetClass "{68CCC473CF3ED581}" {
+         Prefab "{68CCC473CF3ED581}"
+         "Font Size" 25
+        }
+        TextWidgetClass "{68CCC473CF3ED582}" {
+         Prefab "{68CCC473CF3ED582}"
+         "Font Size" 25
+        }
+        TextWidgetClass "{68CCC473CF3ED583}" {
+         Prefab "{68CCC473CF3ED583}"
+         "Font Size" 25
+        }
+        TextWidgetClass "{68CCC473CF3EDF3D}" {
+         Prefab "{68CCC473CF3EDF3D}"
+         "Font Size" 25
+        }
+        TextWidgetClass "{68CCC473CF3EDF3A}" {
+         Prefab "{68CCC473CF3EDF3A}"
+         "Font Size" 25
+        }
+        TextWidgetClass "{68CCC473CF3EA59B}" {
+         Prefab "{68CCC473CF3EA59B}"
+         Slot FrameWidgetSlot "{631318B6E734BD72}" {
+          PositionX 4.573
+          OffsetLeft 4.573
+          PositionY -1.524
+          OffsetTop -1.524
+          SizeX 0
+          OffsetRight -4.573
+          SizeY 0
+          OffsetBottom 1.524
+         }
+         "Font Size" 25
+        }
+        TextWidgetClass "{68CCC473CF3EA59A}" {
+         Prefab "{68CCC473CF3EA59A}"
+         Text "Radiation"
+         "Font Size" 25
+        }
+        ImageWidgetClass "{68CCC473CF3EA599}" {
+         Prefab "{68CCC473CF3EA599}"
+         Color 0 0 0 1
+        }
+        TextWidgetClass "{68CCC473CF3EB731}" {
+         Prefab "{68CCC473CF3EB731}"
+         "Font Size" 25
+        }
+        TextWidgetClass "{68CCC473CF3EB730}" {
+         Prefab "{68CCC473CF3EB730}"
+         Text "Status"
+         "Font Size" 25
+        }
+        TextWidgetClass "{68CCC473CF3E61D0}" {
+         Prefab "{68CCC473CF3E61D0}"
+         Text "Hunger"
+         "Font Size" 25
+        }
+        TextWidgetClass "{68CCC473CF3E61DF}" {
+         Prefab "{68CCC473CF3E61DF}"
+         Text "Thirst"
+         "Font Size" 25
+        }
+       }
+      }
+      FrameWidgetClass "{68CCC473CF3E61DE}" {
+       Prefab "{68CCC473CF3E61DE}"
+       {
+        TextWidgetClass "{68CCC473CFC1A692}" {
+         Prefab "{68CCC473CFC1A692}"
+         Text "Gear Stats"
+         "Font Size" 25
+        }
+        ImageWidgetClass "{68CCC473CFC1A440}" {
+         Prefab "{68CCC473CFC1A440}"
+         Color 0 0 0 1
+        }
+        TextWidgetClass "{68CCC473CFC1A443}" {
+         Prefab "{68CCC473CFC1A443}"
+         Text "Toxic"
+         "Font Size" 25
+        }
+        TextWidgetClass "{68CCC473CFC1831A}" {
+         Prefab "{68CCC473CFC1831A}"
+         "Font Size" 25
+        }
+        TextWidgetClass "{68CCC473CFC1831B}" {
+         Prefab "{68CCC473CFC1831B}"
+         "Font Size" 25
+        }
+        TextWidgetClass "{68CCC473CFC13149}" {
+         Prefab "{68CCC473CFC13149}"
+         Text "Physical"
+         "Font Size" 25
+        }
+        TextWidgetClass "{68CCC473CFC130B6}" {
+         Prefab "{68CCC473CFC130B6}"
+         "Font Size" 25
+        }
+        TextWidgetClass "{68CCC473CFC130B7}" {
+         Prefab "{68CCC473CFC130B7}"
+         "Font Size" 25
+        }
+        TextWidgetClass "{68CCC473CFC0ED57}" {
+         Prefab "{68CCC473CFC0ED57}"
+         "Font Size" 25
+        }
+        TextWidgetClass "{68CCC473CFC0ED54}" {
+         Prefab "{68CCC473CFC0ED54}"
+         "Font Size" 25
+        }
+        TextWidgetClass "{68CCC473CFC095CE}" {
+         Prefab "{68CCC473CFC095CE}"
+         "Font Size" 25
+        }
+        TextWidgetClass "{68CCC473CFC095CF}" {
+         Prefab "{68CCC473CFC095CF}"
+         "Font Size" 25
+        }
+        TextWidgetClass "{68CCC473CFC095C8}" {
+         Prefab "{68CCC473CFC095C8}"
+         "Font Size" 25
+        }
+        TextWidgetClass "{68CCC473CFC073F4}" {
+         Prefab "{68CCC473CFC073F4}"
+         "Font Size" 25
+        }
+       }
+      }
+      FrameWidgetClass "{68CCC473CFC073F5}" {
+       Prefab "{68CCC473CFC073F5}"
+       {
+        ImageWidgetClass "{68CCC473CFC00BAF}" {
+         Prefab "{68CCC473CFC00BAF}"
+         Slot FrameWidgetSlot "{658CB641C1D6D826}" {
+          PositionX -12.195
+          OffsetLeft -12.195
+          PositionY 0
+          OffsetTop 0
+          SizeX -4.251
+          OffsetRight 16.446
+          SizeY 0
+          OffsetBottom 0
+         }
+         Color 0 0 0 1
+        }
+        TextWidgetClass "{68CCC473CFC00BAC}" {
+         Prefab "{68CCC473CFC00BAC}"
+         Slot FrameWidgetSlot "{631318B6E734BD72}" {
+          PositionX -7.622
+          OffsetLeft -7.622
+          PositionY -1.524
+          OffsetTop -1.524
+          SizeX 0
+          OffsetRight 7.622
+          SizeY 0
+          OffsetBottom 1.524
+         }
+         "Font Size" 25
+        }
+        TextWidgetClass "{68CCC473CFC3B82A}" {
+         Prefab "{68CCC473CFC3B82A}"
+         Slot FrameWidgetSlot "{631318B6E734BD72}" {
+          PositionX -6.097
+          OffsetLeft -6.097
+          PositionY -4.573
+          OffsetTop -4.573
+          SizeX -0
+          OffsetRight 6.097
+          SizeY 0
+          OffsetBottom 4.573
+         }
+         "Font Size" 25
+        }
+        TextWidgetClass "{68CCC473CFC3B82B}" {
+         Prefab "{68CCC473CFC3B82B}"
+         Slot FrameWidgetSlot "{631318B6E734BD72}" {
+          PositionX -6.097
+          OffsetLeft -6.097
+          PositionY -1.524
+          OffsetTop -1.524
+          SizeX -0
+          OffsetRight 6.097
+          SizeY 0
+          OffsetBottom 1.524
+         }
+         "Font Size" 25
+        }
+        TextWidgetClass "{68CCC473CFC3B824}" {
+         Prefab "{68CCC473CFC3B824}"
+         Slot FrameWidgetSlot "{631318B6E734BD72}" {
+          PositionX -4.573
+          OffsetLeft -4.573
+          PositionY -7.622
+          OffsetTop -7.622
+          SizeX 0
+          OffsetRight 4.573
+          SizeY 0
+          OffsetBottom 7.622
+         }
+         "Font Size" 25
+        }
+        TextWidgetClass "{68CCC473CFC38363}" {
+         Prefab "{68CCC473CFC38363}"
+         Slot FrameWidgetSlot "{631318B6E734BD72}" {
+          PositionX -3.049
+          OffsetLeft -3.049
+          PositionY -7.622
+          OffsetTop -7.622
+          SizeX -0
+          OffsetRight 3.049
+          SizeY 0
+          OffsetBottom 7.622
+         }
+         "Font Size" 25
+        }
+        TextWidgetClass "{68CCC473CFC38362}" {
+         Prefab "{68CCC473CFC38362}"
+         Slot FrameWidgetSlot "{631318B6E734BD72}" {
+          PositionX -4.573
+          OffsetLeft -4.573
+          PositionY -4.573
+          OffsetTop -4.573
+          SizeX 0
+          OffsetRight 4.573
+          SizeY 0
+          OffsetBottom 4.573
+         }
+         "Font Size" 25
+        }
+        TextWidgetClass "{68CCC473CFC36023}" {
+         Prefab "{68CCC473CFC36023}"
+         Slot FrameWidgetSlot "{631318B6E734BD72}" {
+          PositionX -4.573
+          OffsetLeft -4.573
+          PositionY -4.573
+          OffsetTop -4.573
+          SizeX 0
+          OffsetRight 4.573
+          SizeY 0
+          OffsetBottom 4.573
+         }
+         "Font Size" 25
+        }
+        TextWidgetClass "{68CCC473CFC36020}" {
+         Prefab "{68CCC473CFC36020}"
+         Slot FrameWidgetSlot "{631318B6E734BD72}" {
+          PositionX -6.097
+          OffsetLeft -6.097
+          PositionY -7.622
+          OffsetTop -7.622
+          SizeX -0
+          OffsetRight 6.097
+          SizeY 0
+          OffsetBottom 7.622
+         }
+         "Font Size" 25
+        }
+        TextWidgetClass "{68CCC473CFC3747E}" {
+         Prefab "{68CCC473CFC3747E}"
+         Text "Items sold"
+         "Font Size" 25
+        }
+        TextWidgetClass "{68CCC473CFC3747F}" {
+         Prefab "{68CCC473CFC3747F}"
+         Slot FrameWidgetSlot "{631318B6E734BD72}" {
+          PositionX -4.573
+          OffsetLeft -4.573
+          PositionY -6.097
+          OffsetTop -6.097
+          SizeX 0
+          OffsetRight 4.573
+          SizeY 0
+          OffsetBottom 6.097
+         }
+         "Font Size" 25
+        }
+        TextWidgetClass "{68CCC473CFC26315}" {
+         Prefab "{68CCC473CFC26315}"
+         Slot FrameWidgetSlot "{631318B6E734BD72}" {
+          PositionX 0
+          OffsetLeft 0
+          PositionY 0
+          OffsetTop 0
+          SizeX 0
+          OffsetRight 0
+          SizeY 0
+          OffsetBottom 0
+         }
+        }
+       }
+      }
+      ImageWidgetClass "{68CCC473CFC5B832}" {
+       Prefab "{68CCC473CFC5B832}"
+       Color 0 0 0 1
+      }
+     }
+    }
+    FrameWidgetClass "{68CCC473CFC536EA}" {
+     Prefab "{68CCC473CFC536EA}"
+     {
+      ButtonWidgetClass "{68CCC473CFC536EB}" {
+       Prefab "{68CCC473CFC536EB}"
+       {
+        TextWidgetClass "{68CCC473CFC4F3C4}" {
+         Prefab "{68CCC473CFC4F3C4}"
+         Text "Refresh"
+         "Font Size" 25
+        }
+       }
+      }
+      ButtonWidgetClass "{68CCC473CFC4F3C3}" {
+       Prefab "{68CCC473CFC4F3C3}"
+       "Is Enabled" 0
+       "Is Visible" 0
+       {
+        TextWidgetClass "{68CCC473CFC4B070}" {
+         Prefab "{68CCC473CFC4B070}"
+         Text ""
+        }
+       }
+      }
+      ImageWidgetClass "{68CCC473CFC4B071}" {
+       Prefab "{68CCC473CFC4B071}"
+       Color 0 0 0 1
+      }
+      ImageWidgetClass "{68CCC473CFC4B072}" {
+       Prefab "{68CCC473CFC4B072}"
+       Color 0 0 0 1
+      }
+      CheckBoxWidgetClass "{68CCC473CFC45BA1}" {
+       Prefab "{68CCC473CFC45BA1}"
+       "Is Enabled" 0
+       "Is Visible" 0
+      }
+      ButtonWidgetClass "{68CCC473CFC45BA0}" {
+       Prefab "{68CCC473CFC45BA0}"
+       {
+        TextWidgetClass "{68CCC473CFC427A0}" {
+         Prefab "{68CCC473CFC427A0}"
+         Text "Send "
+         "Font Size" 25
+        }
+       }
+      }
+      ButtonWidgetClass "{68CCC473CFC42978}" {
+       Prefab "{68CCC473CFC42978}"
+       {
+        TextWidgetClass "{68CCC473CFC43AFA}" {
+         Prefab "{68CCC473CFC43AFA}"
+         "Font Size" 25
+        }
+       }
+      }
+      ButtonWidgetClass "{68CCC473CFC43AFD}" {
+       Prefab "{68CCC473CFC43AFD}"
+       {
+        TextWidgetClass "{68CCC473CFC43AFC}" {
+         Prefab "{68CCC473CFC43AFC}"
+         Text "Private"
+         "Font Size" 25
+        }
+       }
+      }
+      ButtonWidgetClass "{68CCC473CFC7BC85}" {
+       Prefab "{68CCC473CFC7BC85}"
+       {
+        TextWidgetClass "{68CCC473CFC7BC86}" {
+         Prefab "{68CCC473CFC7BC86}"
+         "Font Size" 25
+        }
+       }
+      }
+     }
+    }
+    FrameWidgetClass "{68CCC473CFC76413}" {
+     Prefab "{68CCC473CFC76413}"
+     {
+      ImageWidgetClass "{68CCC473CFC76412}" {
+       Prefab "{68CCC473CFC76412}"
+       Color 0 0 0 1
+      }
+      ImageWidgetClass "{68CCC473CFC7642D}" {
+       Prefab "{68CCC473CFC7642D}"
+       Color 0 0 0 1
+      }
+      ButtonWidgetClass "{68CCC473CFC7469D}" {
+       Prefab "{68CCC473CFC7469D}"
+       {
+        TextWidgetClass "{68CCC473CFC7469C}" {
+         Prefab "{68CCC473CFC7469C}"
+         "Font Size" 25
+        }
+       }
+      }
+      ImageWidgetClass "{68CCC473CFC72F6B}" {
+       Prefab "{68CCC473CFC72F6B}"
+       Color 0 0 0 1
+      }
+      ImageWidgetClass "{68CCC473CFC70AE5}" {
+       Prefab "{68CCC473CFC70AE5}"
+       Color 0 0 0 1
+      }
+      ButtonWidgetClass "{68CCC473CFC71274}" {
+       Prefab "{68CCC473CFC71274}"
+       {
+        TextWidgetClass "{68CCC473CFC6F5E5}" {
+         Prefab "{68CCC473CFC6F5E5}"
+         "Font Size" 25
+        }
+       }
+      }
+      ButtonWidgetClass "{68CCC473CFC6F5E4}" {
+       Prefab "{68CCC473CFC6F5E4}"
+       {
+        TextWidgetClass "{68CCC473CFC6971F}" {
+         Prefab "{68CCC473CFC6971F}"
+         "Font Size" 25
+        }
+       }
+      }
+      ButtonWidgetClass "{68CCC473CFC69710}" {
+       Prefab "{68CCC473CFC69710}"
+       {
+        TextWidgetClass "{68CCC473CFC64191}" {
+         Prefab "{68CCC473CFC64191}"
+         "Font Size" 25
+        }
+       }
+      }
+      ButtonWidgetClass "{68CCC473CFC64190}" {
+       Prefab "{68CCC473CFC64190}"
+       {
+        TextWidgetClass "{68CCC473CFC64193}" {
+         Prefab "{68CCC473CFC64193}"
+         "Font Size" 25
+        }
+       }
+      }
+      ButtonWidgetClass "{68CCC473CFC64192}" {
+       Prefab "{68CCC473CFC64192}"
+       {
+        TextWidgetClass "{68CCC473CFC60B1C}" {
+         Prefab "{68CCC473CFC60B1C}"
+         "Font Size" 25
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}
