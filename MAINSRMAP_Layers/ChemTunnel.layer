@@ -214,7 +214,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   UpdatePeriod 5
   m_DamageRadioLevel 66
   m_fDeficitDoseScale 0.02
-  m_fZoneTickInterval 10
+  m_fZoneTickInterval 15
   m_eFilterDrainTier LOW
   m_fFilterDrainLow 0.02
  }
@@ -231,7 +231,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   UpdatePeriod 5
   m_DamageRadioLevel 66
   m_fDeficitDoseScale 0.02
-  m_fZoneTickInterval 10
+  m_fZoneTickInterval 15
   m_eFilterDrainTier LOW
   m_fFilterDrainLow 0.02
  }
@@ -728,7 +728,7 @@ $grp SCR_DestructibleBuildingEntity : "{5987E1DF837BA755}Prefabs/Vehicles/btr70/
   angles 20.264 125.717 -13.264
  }
 }
-SCR_DestructibleBuildingEntity : "{5B2777BA82B53DA6}Prefabs/Vehicles/azlk412/armst_azlk412_wreck4.et" {
+GenericEntity : "{5B2777BA82B53DA6}Prefabs/Vehicles/azlk412/armst_azlk412_wreck4.et" {
  coords 3217.239 306.05 1420.648
  angles 0 128.375 0
  {
