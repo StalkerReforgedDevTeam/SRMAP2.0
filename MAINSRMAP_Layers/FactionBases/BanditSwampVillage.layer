@@ -2165,8 +2165,10 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   UpdatePeriod 5
   m_DamageRadioLevel 60
   m_fZoneRadiationLevel 60
+  m_fDeficitDoseScale 0.02
+  m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.7
+  m_fFilterDrainLow 0.1
   m_fFilterDrainMedium 0.5
  }
  {
@@ -2176,8 +2178,10 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   UpdatePeriod 5
   m_DamageRadioLevel 60
   m_fZoneRadiationLevel 60
+  m_fDeficitDoseScale 0.02
+  m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.7
+  m_fFilterDrainLow 0.1
   m_fFilterDrainMedium 0.5
  }
  {
@@ -2187,8 +2191,10 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   UpdatePeriod 5
   m_DamageRadioLevel 60
   m_fZoneRadiationLevel 60
+  m_fDeficitDoseScale 0.02
+  m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.7
+  m_fFilterDrainLow 0.1
   m_fFilterDrainMedium 0.5
  }
  {
@@ -2198,8 +2204,10 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   UpdatePeriod 5
   m_DamageRadioLevel 60
   m_fZoneRadiationLevel 60
+  m_fDeficitDoseScale 0.02
+  m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.7
+  m_fFilterDrainLow 0.1
   m_fFilterDrainMedium 0.5
  }
  {
@@ -2209,8 +2217,10 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   UpdatePeriod 5
   m_DamageRadioLevel 60
   m_fZoneRadiationLevel 60
+  m_fDeficitDoseScale 0.02
+  m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.7
+  m_fFilterDrainLow 0.1
   m_fFilterDrainMedium 0.5
  }
  {
@@ -2220,8 +2230,10 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   UpdatePeriod 5
   m_DamageRadioLevel 60
   m_fZoneRadiationLevel 60
+  m_fDeficitDoseScale 0.02
+  m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.7
+  m_fFilterDrainLow 0.1
   m_fFilterDrainMedium 0.5
  }
  {
@@ -2231,8 +2243,10 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   UpdatePeriod 5
   m_DamageRadioLevel 60
   m_fZoneRadiationLevel 60
+  m_fDeficitDoseScale 0.02
+  m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.7
+  m_fFilterDrainLow 0.1
   m_fFilterDrainMedium 0.5
  }
  {
@@ -2242,8 +2256,10 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   UpdatePeriod 5
   m_DamageRadioLevel 60
   m_fZoneRadiationLevel 60
+  m_fDeficitDoseScale 0.02
+  m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.7
+  m_fFilterDrainLow 0.1
   m_fFilterDrainMedium 0.5
  }
  {
@@ -2253,8 +2269,10 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   UpdatePeriod 5
   m_DamageRadioLevel 60
   m_fZoneRadiationLevel 60
+  m_fDeficitDoseScale 0.02
+  m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.7
+  m_fFilterDrainLow 0.1
   m_fFilterDrainMedium 0.5
  }
  {
@@ -2264,8 +2282,10 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   UpdatePeriod 5
   m_DamageRadioLevel 60
   m_fZoneRadiationLevel 60
+  m_fDeficitDoseScale 0.02
+  m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.7
+  m_fFilterDrainLow 0.1
   m_fFilterDrainMedium 0.5
  }
  {
@@ -2275,8 +2295,10 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   UpdatePeriod 5
   m_DamageRadioLevel 60
   m_fZoneRadiationLevel 60
+  m_fDeficitDoseScale 0.02
+  m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.7
+  m_fFilterDrainLow 0.1
   m_fFilterDrainMedium 0.5
  }
  {
@@ -2286,8 +2308,10 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   UpdatePeriod 5
   m_DamageRadioLevel 60
   m_fZoneRadiationLevel 60
+  m_fDeficitDoseScale 0.02
+  m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.7
+  m_fFilterDrainLow 0.1
   m_fFilterDrainMedium 0.5
  }
  {
@@ -2297,8 +2321,10 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   UpdatePeriod 5
   m_DamageRadioLevel 60
   m_fZoneRadiationLevel 60
+  m_fDeficitDoseScale 0.02
+  m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.7
+  m_fFilterDrainLow 0.1
   m_fFilterDrainMedium 0.5
  }
  {
@@ -2308,8 +2334,10 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   UpdatePeriod 5
   m_DamageRadioLevel 60
   m_fZoneRadiationLevel 60
+  m_fDeficitDoseScale 0.02
+  m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.7
+  m_fFilterDrainLow 0.1
   m_fFilterDrainMedium 0.5
  }
  {
@@ -2319,8 +2347,10 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   UpdatePeriod 5
   m_DamageRadioLevel 60
   m_fZoneRadiationLevel 60
+  m_fDeficitDoseScale 0.02
+  m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.7
+  m_fFilterDrainLow 0.1
   m_fFilterDrainMedium 0.5
  }
  {
@@ -2330,8 +2360,10 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   UpdatePeriod 5
   m_DamageRadioLevel 60
   m_fZoneRadiationLevel 60
+  m_fDeficitDoseScale 0.02
+  m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.7
+  m_fFilterDrainLow 0.1
   m_fFilterDrainMedium 0.5
  }
  {
@@ -2341,8 +2373,10 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   UpdatePeriod 5
   m_DamageRadioLevel 60
   m_fZoneRadiationLevel 60
+  m_fDeficitDoseScale 0.02
+  m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.7
+  m_fFilterDrainLow 0.1
   m_fFilterDrainMedium 0.5
  }
  {
@@ -2352,8 +2386,10 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   UpdatePeriod 5
   m_DamageRadioLevel 60
   m_fZoneRadiationLevel 60
+  m_fDeficitDoseScale 0.02
+  m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.7
+  m_fFilterDrainLow 0.1
   m_fFilterDrainMedium 0.5
  }
  {
@@ -2363,8 +2399,10 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   UpdatePeriod 5
   m_DamageRadioLevel 60
   m_fZoneRadiationLevel 60
+  m_fDeficitDoseScale 0.02
+  m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.7
+  m_fFilterDrainLow 0.1
   m_fFilterDrainMedium 0.5
  }
  {
@@ -2374,8 +2412,10 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   UpdatePeriod 5
   m_DamageRadioLevel 60
   m_fZoneRadiationLevel 60
+  m_fDeficitDoseScale 0.02
+  m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.7
+  m_fFilterDrainLow 0.1
   m_fFilterDrainMedium 0.5
  }
  {
@@ -2385,8 +2425,10 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   UpdatePeriod 5
   m_DamageRadioLevel 60
   m_fZoneRadiationLevel 60
+  m_fDeficitDoseScale 0.02
+  m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.7
+  m_fFilterDrainLow 0.1
   m_fFilterDrainMedium 0.5
  }
  {
@@ -2396,8 +2438,10 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   UpdatePeriod 5
   m_DamageRadioLevel 60
   m_fZoneRadiationLevel 60
+  m_fDeficitDoseScale 0.02
+  m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.7
+  m_fFilterDrainLow 0.1
   m_fFilterDrainMedium 0.5
  }
  {
@@ -2407,8 +2451,10 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   UpdatePeriod 5
   m_DamageRadioLevel 60
   m_fZoneRadiationLevel 60
+  m_fDeficitDoseScale 0.02
+  m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.7
+  m_fFilterDrainLow 0.1
   m_fFilterDrainMedium 0.5
  }
  {
@@ -2418,8 +2464,10 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   UpdatePeriod 5
   m_DamageRadioLevel 60
   m_fZoneRadiationLevel 60
+  m_fDeficitDoseScale 0.02
+  m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.7
+  m_fFilterDrainLow 0.1
   m_fFilterDrainMedium 0.5
  }
  {
@@ -2429,8 +2477,10 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   UpdatePeriod 5
   m_DamageRadioLevel 60
   m_fZoneRadiationLevel 60
+  m_fDeficitDoseScale 0.02
+  m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.7
+  m_fFilterDrainLow 0.1
   m_fFilterDrainMedium 0.5
  }
  {
@@ -2440,8 +2490,10 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   UpdatePeriod 5
   m_DamageRadioLevel 60
   m_fZoneRadiationLevel 60
+  m_fDeficitDoseScale 0.02
+  m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.7
+  m_fFilterDrainLow 0.1
   m_fFilterDrainMedium 0.5
  }
  {
@@ -2451,8 +2503,10 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   UpdatePeriod 5
   m_DamageRadioLevel 60
   m_fZoneRadiationLevel 60
+  m_fDeficitDoseScale 0.02
+  m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.7
+  m_fFilterDrainLow 0.1
   m_fFilterDrainMedium 0.5
  }
 }
