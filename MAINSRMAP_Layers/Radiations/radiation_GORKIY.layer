@@ -1,171 +1,158 @@
 $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST_RADIATIONS.et" {
  {
-  coords 3364.613 295.158 1850.497
-  SphereRadius 127.1
+  coords 3477.902 295.158 1845.953
+  SphereRadius 33
   DrawShape 0
   UpdatePeriod 5
   m_DamageRadioLevel 70
-  m_fZoneRadiationLevel 70
+  m_fZoneRadiationLevel 55
   m_fDeficitDoseScale 0.02
-  m_fZoneTickInterval 10
+  m_fZoneTickInterval 15
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.5
+  m_fFilterDrainLow 0.15
   m_fFilterDrainHigh 8
  }
  {
   coords 3173.094 288.398 1848.626
-  SphereRadius 127.1
+  SphereRadius 39.7
   DrawShape 0
   UpdatePeriod 5
   m_DamageRadioLevel 70
   m_fZoneRadiationLevel 70
   m_fDeficitDoseScale 0.02
-  m_fZoneTickInterval 10
+  m_fZoneTickInterval 15
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.5
+  m_fFilterDrainLow 0.15
   m_fFilterDrainHigh 8
  }
  {
   coords 3144.221 305.064 2230.562
-  SphereRadius 127.1
+  SphereRadius 90.9
   DrawShape 0
   UpdatePeriod 5
   m_DamageRadioLevel 70
   m_fZoneRadiationLevel 70
   m_fDeficitDoseScale 0.02
-  m_fZoneTickInterval 10
+  m_fZoneTickInterval 15
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.5
+  m_fFilterDrainLow 0.15
   m_fFilterDrainHigh 8
  }
  {
-  coords 3857.807 321.568 1893.083
-  SphereRadius 127.1
+  coords 3857.807 299.828 1893.083
+  SphereRadius 81.8
   DrawShape 0
   UpdatePeriod 5
   m_DamageRadioLevel 70
   m_fZoneRadiationLevel 70
   m_fDeficitDoseScale 0.02
-  m_fZoneTickInterval 10
+  m_fZoneTickInterval 15
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.5
+  m_fFilterDrainLow 0.15
   m_fFilterDrainHigh 8
  }
  {
-  coords 3894.097 302.154 2076.753
-  SphereRadius 127.1
+  coords 3897.795 276.406 2109.031
+  SphereRadius 108.1
   DrawShape 0
   UpdatePeriod 5
   m_DamageRadioLevel 70
   m_fZoneRadiationLevel 70
   m_fDeficitDoseScale 0.02
-  m_fZoneTickInterval 10
+  m_fZoneTickInterval 15
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.5
+  m_fFilterDrainLow 0.15
   m_fFilterDrainHigh 8
  }
  {
-  coords 3065.795 296.703 2004.595
-  SphereRadius 127.1
+  coords 3150.427 296.703 2005.029
+  SphereRadius 68.9
   DrawShape 0
   UpdatePeriod 5
   m_DamageRadioLevel 70
   m_fZoneRadiationLevel 70
   m_fDeficitDoseScale 0.02
-  m_fZoneTickInterval 10
+  m_fZoneTickInterval 15
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.5
+  m_fFilterDrainLow 0.15
   m_fFilterDrainHigh 8
  }
  {
-  coords 3692.186 307.905 2069.94
-  SphereRadius 127.1
+  coords 3698.357 307.905 1809.957
+  SphereRadius 60.5
   DrawShape 0
   UpdatePeriod 5
   m_DamageRadioLevel 70
   m_fZoneRadiationLevel 70
   m_fDeficitDoseScale 0.02
-  m_fZoneTickInterval 10
+  m_fZoneTickInterval 15
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.5
+  m_fFilterDrainLow 0.15
   m_fFilterDrainHigh 8
  }
  {
   coords 4035.874 308.404 1867.27
-  SphereRadius 127.1
+  SphereRadius 76.3
   DrawShape 0
   UpdatePeriod 5
   m_DamageRadioLevel 70
   m_fZoneRadiationLevel 70
   m_fDeficitDoseScale 0.02
-  m_fZoneTickInterval 10
+  m_fZoneTickInterval 15
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.5
+  m_fFilterDrainLow 0.15
   m_fFilterDrainHigh 8
  }
  {
-  coords 3276.832 307.287 1969.773
-  SphereRadius 127.1
+  coords 3355.187 307.287 2036.474
+  SphereRadius 74.7
   DrawShape 0
   UpdatePeriod 5
   m_DamageRadioLevel 70
   m_fZoneRadiationLevel 70
   m_fDeficitDoseScale 0.02
-  m_fZoneTickInterval 10
+  m_fZoneTickInterval 15
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.5
+  m_fFilterDrainLow 0.15
   m_fFilterDrainHigh 8
  }
  {
-  coords 3240.538 309.047 2319.448
-  SphereRadius 127.1
+  coords 3281.762 250.571 2150.963
+  SphereRadius 207.1
   DrawShape 0
   UpdatePeriod 5
   m_DamageRadioLevel 70
   m_fZoneRadiationLevel 70
   m_fDeficitDoseScale 0.02
-  m_fZoneTickInterval 10
+  m_fZoneTickInterval 15
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.5
+  m_fFilterDrainLow 0.15
   m_fFilterDrainHigh 8
  }
  {
-  coords 3026.139 292.607 2384.055
-  SphereRadius 127.1
+  coords 3316.27 292.607 2381.603
+  SphereRadius 84.8
   DrawShape 0
   UpdatePeriod 5
   m_DamageRadioLevel 70
   m_fZoneRadiationLevel 70
   m_fDeficitDoseScale 0.02
-  m_fZoneTickInterval 10
+  m_fZoneTickInterval 15
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.5
+  m_fFilterDrainLow 0.15
   m_fFilterDrainHigh 8
  }
  {
-  coords 3442.122 309.004 2168.947
+  coords 3670.516 313.268 2322.031
   SphereRadius 127.1
   DrawShape 0
   UpdatePeriod 5
   m_DamageRadioLevel 70
   m_fZoneRadiationLevel 70
   m_fDeficitDoseScale 0.02
-  m_fZoneTickInterval 10
+  m_fZoneTickInterval 15
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.5
-  m_fFilterDrainHigh 8
- }
- {
-  coords 3625.451 313.268 2226.211
-  SphereRadius 127.1
-  DrawShape 0
-  UpdatePeriod 5
-  m_DamageRadioLevel 70
-  m_fZoneRadiationLevel 70
-  m_fDeficitDoseScale 0.02
-  m_fZoneTickInterval 10
-  m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.5
+  m_fFilterDrainLow 0.15
   m_fFilterDrainHigh 8
  }
 }
