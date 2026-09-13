@@ -105,9 +105,16 @@ modded class ARMST_RADIATIONSEntity
 
 		float protection = statComponent.GetAllRadiactive(ent);
 
-		statsComponent.ArmstRadiactiveLevelSet(m_fZoneRadiationLevel);
-
 		float deficit = m_fZoneRadiationLevel - protection;
+		if (deficit < 0)
+			deficit = 0;
+
+		// Feed the base stat only the exposure the player is actually taking (post-protection),
+		// not the raw zone rating - a fully-protected player should read clean, not "in a 300-rad zone."
+		// A prior version fed the raw m_fZoneRadiationLevel here regardless of protection, which may be
+		// tied to health effects inside ARMST's own (unowned) code independent of our sickness threshold.
+		statsComponent.ArmstRadiactiveLevelSet(deficit);
+
 		if (deficit > 0)
 			statsComponent.ArmstPlayerStatSetRadio(deficit * m_fDeficitDoseScale);
 
