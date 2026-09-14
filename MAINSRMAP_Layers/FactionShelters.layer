@@ -1367,6 +1367,17 @@ $grp GenericEntity : "{B61A08FB644D2050}Prefabs/Props/Furniture/LampFluorescent/
   }
  }
 }
+$grp SCR_DestructibleEntity : "{CAFF4B51059A0F81}PrefabLibrary/DefaultLibrary/Walls/Concrete/ConcreteWall_01_3m.et" {
+ {
+  Flags 0 0x80000
+  coords 4263.104 303.042 2369.647
+  angles 11.554 -172.447 3.377
+ }
+ {
+  coords 4305.402 -1.891 2359.597
+  angles 0 204.417 0
+ }
+}
 GenericEntity : "{CD62E36CFDCB8FD8}Prefabs/Props/Military/AmmoBoxes/USSR/EquipmentBoxWooden_Equipment_01_USSR.et" {
  coords 1267.311 299.713 1343.156
  angles 0 -83.708 0
@@ -1488,6 +1499,32 @@ $grp GameEntity : "{E7FD0B8019E96F73}Prefabs/Structures/BuildingParts/Lights/Lam
 }
 GenericEntity : "{EC0546F8F656FBEF}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/USSR/EquipmentBoxStack_USSR_01_V3.et" {
  coords 1265.642 298.128 1338.97
+}
+$grp StaticModelEntity : "{EC478E1FDB403908}Prefabs/Structures/Walls/BarbedWire/BarbedTape_01/BarbedTape_01_Triple_noStake.et" {
+ {
+  coords 4258.841 1.924 2370.414
+  angles 0 -78.833 0
+ }
+ {
+  coords 4253.243 3.694 2370.606
+  angles 0 -78.833 0
+ }
+ {
+  coords 4250.099 4.764 2370.506
+  angles 0 -78.833 0
+ }
+ {
+  coords 4247.051 5.154 2371.108
+  angles 39.263 -78.833 -7.434
+ }
+ {
+  coords 4244.59 6.796 2371.594
+  angles 39.263 -78.833 -7.434
+ }
+ {
+  coords 4242.786 7.823 2371.937
+  angles 43.415 -79.579 -7.927
+ }
 }
 GenericEntity : "{F542F974956C255F}Prefabs/Props/Military/Compositions/CIV/ArsenalBox_CIV.et" {
  coords 5633.249 302.222 39.954
