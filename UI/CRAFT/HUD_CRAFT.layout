@@ -11,14 +11,14 @@ FrameWidgetClass {
   ButtonWidgetClass "{66C6A710DE2BAA1A}" {
    Prefab "{66C6A710DE2BAA1A}"
    Slot FrameWidgetSlot "{6686D326C6E19A54}" {
-    PositionX -79.87
-    OffsetLeft -79.87
-    PositionY -454.908
-    OffsetTop -454.908
+    PositionX -78.15
+    OffsetLeft -78.15
+    PositionY -458.348
+    OffsetTop -458.348
     SizeX 179.053
-    OffsetRight -99.183
+    OffsetRight -100.903
     SizeY 49
-    OffsetBottom 405.908
+    OffsetBottom 409.348
    }
    components {
     ButtonComponent "{668919CA025147C0}" {
@@ -44,18 +44,28 @@ FrameWidgetClass {
   ButtonWidgetClass "{66C6A711AA5C61E1}" {
    Prefab "{66C6A711AA5C61E1}"
    Slot FrameWidgetSlot "{6686D326C6E19A54}" {
-    PositionX -80.421
-    OffsetLeft -80.421
-    PositionY -511.077
-    OffsetTop -511.077
+    PositionX 194.744
+    OffsetLeft 194.744
+    PositionY 453.72
+    OffsetTop 453.72
     SizeX 179.053
-    OffsetRight -98.632
+    OffsetRight -373.797
     SizeY 49
-    OffsetBottom 462.077
+    OffsetBottom -502.72
    }
   }
   ButtonWidgetClass "{66C8E140FD54D637}" {
    Prefab "{66C8E140FD54D637}"
+   Slot FrameWidgetSlot "{6686D326C6E19A54}" {
+    PositionX 194.841
+    OffsetLeft 194.841
+    PositionY 451.979
+    OffsetTop 451.979
+    SizeX 179.053
+    OffsetRight -373.894
+    SizeY 49
+    OffsetBottom -500.979
+   }
    components {
     ButtonComponent "{668919CA025147C0}" {
      m_ColorButtonDefault 0.323 0.323 0.323 1
@@ -78,6 +88,16 @@ FrameWidgetClass {
   }
   ButtonWidgetClass "{68A6A01D8C7C5FC7}" {
    Prefab "{68A6A01D8C7C5FC7}"
+   Slot FrameWidgetSlot "{6686D326C6E19A54}" {
+    PositionX 195.261
+    OffsetLeft 195.261
+    PositionY 454.028
+    OffsetTop 454.028
+    SizeX 179.054
+    OffsetRight -374.315
+    SizeY 49
+    OffsetBottom -503.028
+   }
    components {
     ButtonComponent "{668919CA025147C0}" {
      m_ColorButtonDefault 0.371 0.371 0.371 0.7
@@ -167,8 +187,31 @@ FrameWidgetClass {
     DisabledColor 1 1 1 1
    }
   }
+  PanelWidgetClass "{68D4C3E0B6C18DB0}" {
+   Prefab "{68D4C3E0B6C18DB0}"
+   Slot FrameWidgetSlot "{68D4C3E1629D1F8A}" {
+    PositionX -84.58
+    OffsetLeft -84.58
+    PositionY -516.806
+    OffsetTop -516.806
+    SizeX 190.927
+    OffsetRight -106.347
+    SizeY 227.007
+    OffsetBottom 289.799
+   }
+  }
   ButtonWidgetClass "{69E76449A3E1D7C1}" {
    Prefab "{69E76449A3E1D7C1}"
+   Slot FrameWidgetSlot "{6686D326C6E19A54}" {
+    PositionX -76.001
+    OffsetLeft -76.001
+    PositionY -346.68
+    OffsetTop -346.68
+    SizeX 179.053
+    OffsetRight -103.052
+    SizeY 49
+    OffsetBottom 297.68
+   }
    components {
     ButtonComponent "{668919CA025147C0}" {
      m_ColorButtonDefault 0.462 0.462 0.462 0.7
