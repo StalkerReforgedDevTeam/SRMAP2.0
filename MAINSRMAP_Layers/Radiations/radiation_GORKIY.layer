@@ -7,9 +7,9 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_DamageRadioLevel 70
   m_fZoneRadiationLevel 55
   m_fDeficitDoseScale 0.02
-  m_fZoneTickInterval 15
+  m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.15
+  m_fFilterDrainLow 0.04
   m_fFilterDrainHigh 8
  }
  {
@@ -20,9 +20,9 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_DamageRadioLevel 70
   m_fZoneRadiationLevel 70
   m_fDeficitDoseScale 0.02
-  m_fZoneTickInterval 15
+  m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.15
+  m_fFilterDrainLow 0.04
   m_fFilterDrainHigh 8
  }
  {
@@ -33,9 +33,9 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_DamageRadioLevel 70
   m_fZoneRadiationLevel 70
   m_fDeficitDoseScale 0.02
-  m_fZoneTickInterval 15
+  m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.15
+  m_fFilterDrainLow 0.04
   m_fFilterDrainHigh 8
  }
  {
@@ -46,9 +46,9 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_DamageRadioLevel 70
   m_fZoneRadiationLevel 70
   m_fDeficitDoseScale 0.02
-  m_fZoneTickInterval 15
+  m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.15
+  m_fFilterDrainLow 0.04
   m_fFilterDrainHigh 8
  }
  {
@@ -59,9 +59,9 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_DamageRadioLevel 70
   m_fZoneRadiationLevel 70
   m_fDeficitDoseScale 0.02
-  m_fZoneTickInterval 15
+  m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.15
+  m_fFilterDrainLow 0.04
   m_fFilterDrainHigh 8
  }
  {
@@ -72,9 +72,9 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_DamageRadioLevel 70
   m_fZoneRadiationLevel 70
   m_fDeficitDoseScale 0.02
-  m_fZoneTickInterval 15
+  m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.15
+  m_fFilterDrainLow 0.04
   m_fFilterDrainHigh 8
  }
  {
@@ -85,9 +85,9 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_DamageRadioLevel 70
   m_fZoneRadiationLevel 70
   m_fDeficitDoseScale 0.02
-  m_fZoneTickInterval 15
+  m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.15
+  m_fFilterDrainLow 0.04
   m_fFilterDrainHigh 8
  }
  {
@@ -98,9 +98,9 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_DamageRadioLevel 70
   m_fZoneRadiationLevel 70
   m_fDeficitDoseScale 0.02
-  m_fZoneTickInterval 15
+  m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.15
+  m_fFilterDrainLow 0.04
   m_fFilterDrainHigh 8
  }
  {
@@ -111,9 +111,9 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_DamageRadioLevel 70
   m_fZoneRadiationLevel 70
   m_fDeficitDoseScale 0.02
-  m_fZoneTickInterval 15
+  m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.15
+  m_fFilterDrainLow 0.04
   m_fFilterDrainHigh 8
  }
  {
@@ -124,9 +124,9 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_DamageRadioLevel 70
   m_fZoneRadiationLevel 70
   m_fDeficitDoseScale 0.02
-  m_fZoneTickInterval 15
+  m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.15
+  m_fFilterDrainLow 0.04
   m_fFilterDrainHigh 8
  }
  {
@@ -137,9 +137,9 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_DamageRadioLevel 70
   m_fZoneRadiationLevel 70
   m_fDeficitDoseScale 0.02
-  m_fZoneTickInterval 15
+  m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.15
+  m_fFilterDrainLow 0.04
   m_fFilterDrainHigh 8
  }
  {
@@ -150,9 +150,9 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_DamageRadioLevel 70
   m_fZoneRadiationLevel 70
   m_fDeficitDoseScale 0.02
-  m_fZoneTickInterval 15
+  m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.15
+  m_fFilterDrainLow 0.04
   m_fFilterDrainHigh 8
  }
 }
