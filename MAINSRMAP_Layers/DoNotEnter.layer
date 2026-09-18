@@ -16781,11 +16781,12 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxAngles 26 25 25
  }
  {
-  coords 1880.665 317.514 2154.821
+  coords 1486.665 314.474 2154.821
   SphereRadius 34
   BoxMins 26 25 25
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
+  m_DamagePsyLevel 300
  }
  {
   coords 1923.385 317.514 2149.332
@@ -17101,6 +17102,14 @@ $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
   BoxMaxs 26 25 25
   BoxAngles 26 25 25
   m_DamagePsyLevel 9
+ }
+ {
+  coords 4165.288 321.676 728.085
+  SphereRadius 5
+  BoxMins 26 25 25
+  BoxMaxs 26 25 25
+  BoxAngles 26 25 25
+  m_DamagePsyLevel 150
  }
 }
 $grp GenericEntity : "{B31A14BC1A0E7776}Prefabs/Props/Military/Sandbags/Sandbag_01_round_burlap.et" {
