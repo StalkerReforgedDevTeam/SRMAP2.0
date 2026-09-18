@@ -1287,6 +1287,24 @@ $grp SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core
 GenericEntity : "{AB7C01A5B2F98281}Prefabs/Military/Compositions/USSR/ArsenalBox_FREEDOM.et" {
  coords 5637.396 302.222 42.381
 }
+$grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
+ {
+  coords 1466.574 318.537 2166.68
+  SphereRadius 34
+  BoxMins 26 25 25
+  BoxMaxs 26 25 25
+  BoxAngles 26 25 25
+  m_DamagePsyLevel 300
+ }
+ {
+  coords 1450.043 318.537 2153.77
+  SphereRadius 34
+  BoxMins 26 25 25
+  BoxMaxs 26 25 25
+  BoxAngles 26 25 25
+  m_DamagePsyLevel 300
+ }
+}
 GenericEntity : "{AD59EDEAA26CE792}Prefabs/Props/Military/Compositions/USSR/ArsenalBox_USSR.et" {
  coords 5633.406 302.222 42.104
  angles 0 -90 0
