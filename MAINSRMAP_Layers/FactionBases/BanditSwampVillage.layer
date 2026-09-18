@@ -2028,6 +2028,11 @@ GenericEntity : "{0E43D5546330841F}Prefabs/Structures/BuildingParts/Industrial/T
  angles 1.614 -93.723 0.322
 }
 SCR_DestructibleBuildingEntity : "{15D9B3D855451AE1}Prefabs/Structures/Ruins/ShedMetal_Ruin_01/ShedMetal_Ruin_01.et" {
+ components {
+  SCR_DestructibleBuildingComponent "{663B387A9AF65298}" {
+   Enabled 0
+  }
+ }
  coords 1455.967 3.233 1938.861
  angles 0 175.892 0
 }
@@ -2506,6 +2511,7 @@ GenericEntity : "{21281E39D3B69394}Prefabs/Structures/BuildingParts/Doors/DoorSe
      }
     }
     SCR_DestructionMultiPhaseComponent "{5534CAAEC8B69AB4}" {
+     Enabled 0
      m_bDeleteAfterFinalPhase 0
     }
    }
@@ -7214,6 +7220,7 @@ SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Buil
    Static 1
   }
   SCR_DestructibleBuildingComponent "{5DA867E27E4539E3}" : "{E97151493E89A500}Prefabs/Structures/Core/Destruction/DestructibleBuildingComponent_Wood_Medium.ct" {
+   Enabled 0
    "Additional hit zones" {
     SCR_HitZone Default {
      "Explosive multiplier" 20
