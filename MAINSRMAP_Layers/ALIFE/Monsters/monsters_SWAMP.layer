@@ -1,5 +1,5 @@
 ARMST_SpawnPoint {
- coords 5270.47 301.924 66.157
+ coords 4762.172 301.924 51
  m_FactionKey FACTION_BANDIT
  m_fMinimalReputation -100
 }
@@ -49,7 +49,7 @@ $grp GenericEntity {
    RplComponent "{699B5A3114C5D7DE}" {
    }
   }
-  coords 5267.349 301.65 66.69
+  coords 4759.051 301.65 51.533
   angles 0 90.481 0
  }
  enter_perimetr3 {
@@ -517,7 +517,7 @@ $grp SCR_DestructibleBuildingEntity {
    }
   }
   Flags 0x403 0
-  coords 5266.161 302.651 60.669
+  coords 4757.863 302.651 45.512
   HouseNumber -2
   SlotBoneMappings {
    SlotBoneMappingObject "{699B13A91D63EBBD}" {
@@ -595,6 +595,12 @@ $grp SCR_DestructibleBuildingEntity {
       }
      }
      coords 0 0 0
+     {
+      GenericEntity {
+       ID "59F6F571CE935301"
+       coords 0 0 0
+      }
+     }
     }
     {
      components {
@@ -602,7 +608,13 @@ $grp SCR_DestructibleBuildingEntity {
        PivotID "socket_Door_Metal_B_RIGHT_INT_COV_B_01"
       }
      }
-     coords 0 0 -0.085
+     coords 0 0 -0.084
+     {
+      GenericEntity {
+       ID "59F6F571CE935301"
+       coords 0 0 0
+      }
+     }
     }
    }
    GenericEntity : "{3F122C49BF0A1AB1}Prefabs/Structures/BuildingParts/Doors/Door_Bunker_E_03/DoorSet_Bunker_E_03_B_L_INT_COV_B.et" {
@@ -676,6 +688,12 @@ $grp SCR_DestructibleBuildingEntity {
       }
      }
      coords 0 0 0
+     {
+      GenericEntity {
+       ID "59F6E1B5BF334341"
+       coords 0 0 0
+      }
+     }
     }
     {
      components {
@@ -684,6 +702,12 @@ $grp SCR_DestructibleBuildingEntity {
       }
      }
      coords 0 0 0
+     {
+      GenericEntity {
+       ID "59F6E1B5BF334341"
+       coords 0 0 0
+      }
+     }
     }
    }
    $grp GenericEntity : "{8F0C763B613691A8}Prefabs/Structures/BuildingParts/Eletrical/UtilityBoxInt_01/UtilityBoxInt_01_v3.et" {
@@ -781,14 +805,14 @@ $grp SCR_DestructibleBuildingEntity {
    }
    $grp GameEnvironmentProbeEntity : "{900726DB82FD2EAC}Prefabs/Structures/Military/Bunkers/AirfieldBunker_E_01/Probe_AirfieldBunker_E_01.et" {
     {
-     coords 1.873 0.3 5.719
+     coords 1.874 0.3 5.719
     }
     {
      coords 0 0 0
     }
    }
    GenericEntity : "{90E386EDBB078521}Prefabs/Structures/BuildingParts/Eletrical/UtilityBoxInt_01/UtilityBoxInt_01_v6.et" {
-    coords 1.866 0.169 -3.764
+    coords 1.867 0.169 -3.764
     angles 0 90 0
    }
    $grp GenericEntity : "{BCC3261E8F3B4CDD}Prefabs/Structures/BuildingParts/Bunker/BunkerAirFiltration_01/BunkerAirFiltration_01.et" {
@@ -816,6 +840,12 @@ $grp SCR_DestructibleBuildingEntity {
      }
     }
     coords 0 0 0
+    {
+     GenericEntity {
+      ID "59F6E1B583C4D370"
+      coords 0 0 0
+     }
+    }
    }
    $grp StaticModelEntity : "{CAF8666F26CEB7AD}Prefabs/Structures/BuildingParts/Entry/ConcreteStairs_02_Narrow.et" {
     {
@@ -832,7 +862,7 @@ $grp SCR_DestructibleBuildingEntity {
        PivotID "socket_Door_Bunker_E_A_RIGHT_EXT_02"
       }
      }
-     coords 0 -0.166 1.696
+     coords 0 -0.166 1.697
     }
    }
    $grp GenericEntity : "{E34303CB179E13D6}Prefabs/Structures/BuildingParts/Lights/LightIndustrial_01.et" {
@@ -868,6 +898,13 @@ $grp SCR_DestructibleBuildingEntity {
        PivotID "socket_Door_Metal_B_LEFT_INT_COV_B_02"
       }
      }
+     coords 0 0 0
+     {
+      GenericEntity {
+       ID "59F6F571CF46EAA9"
+       coords 0 0 0
+      }
+     }
     }
     {
      components {
@@ -875,7 +912,13 @@ $grp SCR_DestructibleBuildingEntity {
        PivotID "socket_Door_Metal_B_LEFT_INT_COV_B_01"
       }
      }
-     coords 0 0 -0.085
+     coords 0 0 -0.084
+     {
+      GenericEntity {
+       ID "59F6F571CF46EAA9"
+       coords 0 0 0
+      }
+     }
     }
    }
    $grp GenericEntity : "{EC52B3BFFBB1FABD}Prefabs/Structures/BuildingParts/Bunker/BunkerLatrine_01/BunkerLatrine_01.et" {
@@ -3366,7 +3409,7 @@ GenericEntity : "{45C675ED3CFBBEC5}Prefabs/Props/Military/Compositions/US/Arsena
    "faction affiliation" "FACTION_BANDITS"
   }
  }
- coords 5274.51 301.631 66.146
+ coords 4766.212 301.631 50.989
  angles 0 -98.923 0
 }
 $grp GenericEntity : "{C9AA399693301771}Prefabs/Monsters/Spawners/armst_spawner_spider.et" {

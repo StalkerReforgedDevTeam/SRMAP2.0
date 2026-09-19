@@ -245,7 +245,7 @@ $grp GenericEntity {
   angles -1.581 160.518 -1.54
  }
  {
-  coords 5272.671 302.535 63.62
+  coords 4764.373 302.535 48.463
   angles -1.726 154.826 -1.375
  }
  {
@@ -436,7 +436,7 @@ $grp LightEntity {
   LensFlareScale 1.18
  }
  LIGHT_FLUO_SPOT_82 {
-  coords 5270.931 305.185 66.14
+  coords 4762.633 305.185 50.983
   angles -90 -41.184 0
   Color 1 0.7255 0.3412 1
   LV 0.86
@@ -509,7 +509,7 @@ $grp GenericEntity : "{159BADC74896B7D6}Prefabs/Props/Military/AmmoBoxes/USSR/Eq
 }
 $grp GenericEntity : "{1A1020205E2B1710}Prefabs/Props/Military/Furniture/TableMilitary_USSR_01.et" {
  {
-  coords 5272.589 301.64 63.534
+  coords 4764.291 301.64 48.377
   angles 1.037 177.699 -2.641
  }
  {
@@ -721,7 +721,7 @@ $grp SCR_DestructibleBuildingEntity : "{7720B78DED8FAB50}Prefabs/Perimetr/wall_p
   angles 0 -90.525 0
  }
  {
-  coords 5264.957 296.252 73.984
+  coords 4756.659 296.252 58.827
   angles 0 -179.689 0
  }
  {
@@ -729,7 +729,7 @@ $grp SCR_DestructibleBuildingEntity : "{7720B78DED8FAB50}Prefabs/Perimetr/wall_p
   angles 0 -90.525 0
  }
  {
-  coords 5271.305 296.717 57.402
+  coords 4763.007 296.717 42.245
   angles 0 -90.525 0
  }
  {
