@@ -370,6 +370,36 @@ modded class SCR_PlayerController
 		return -1;
 	}
 
+	// Matches a player by their full RP name (via SRZ_RPNameProfileManager), case-insensitive
+	// exact match. Used by .paytransfer - full name required, no partial matching.
+	protected int FindPlayerByFullRPName(PlayerManager pm, string searchFullName)
+	{
+		if (!pm) return -1;
+
+		SRZ_RPNameProfileManager profileMgr = SRZ_RPNameProfileManager.GetInstance();
+		if (!profileMgr) return -1;
+
+		searchFullName.ToLower();
+
+		array<int> playerIds = new array<int>();
+		pm.GetPlayers(playerIds);
+
+		foreach (int pid : playerIds)
+		{
+			string rpName = profileMgr.GetNameForPlayer(pid);
+			if (rpName.IsEmpty())
+				continue;
+
+			string lowerRpName = rpName;
+			lowerRpName.ToLower();
+
+			if (lowerRpName == searchFullName)
+				return pid;
+		}
+
+		return -1;
+	}
+
 	// ==================== DICE ROLL + GAMBLE COMMANDS ====================
 	// Step 1: ".diceroll" - rolls 1-100 and shows the player their current number
 	// Step 2: ".gamble <amount> <higher|lower>" - rolls 1-100 again for flavor and
@@ -616,9 +646,10 @@ modded class SCR_PlayerController
 	}
 
 	// ==================== PAYTRANSFER COMMAND ====================
-	// Usage: ".paytransfer <player> <amount>"  e.g. ".paytransfer Vasya 5000"
-	// Transfers roubles from the sender to a target player, both must be
-	// currently spawned in. No limits, no cooldown.
+	// Usage: ".paytransfer <full rp name> <amount>"  e.g. ".paytransfer Vasya Petrov 5000"
+	// Transfers roubles from the sender to a target player. Both must be currently
+	// spawned in, and the sender must be within 100 meters of the target. Requires
+	// the target's full RP name (exact match), not a partial name or platform name.
 
 	void SRZ_SendPayTransferCommand(string msg)
 	{
@@ -650,14 +681,26 @@ modded class SCR_PlayerController
 		array<string> parts = {};
 		msg.Split(" ", parts, true);
 
+		// Need at least: command, one name word, amount - so 3 tokens minimum.
+		// Last token is always the amount; everything between token[1] and the
+		// second-to-last token is the (possibly multi-word) RP name.
 		if (parts.Count() < 3)
 		{
-			SRZ_RPNet.SendToPlayer(playerId, "Usage: .paytransfer <player> <amount>");
+			SRZ_RPNet.SendToPlayer(playerId, "Usage: .paytransfer <full rp name> <amount>");
 			return;
 		}
 
+		int lastIdx = parts.Count() - 1;
+		string amountStr = parts[lastIdx];
+
 		string targetName = parts[1];
-		int amount = parts[2].ToInt();
+		for (int i = 2; i < lastIdx; i++)
+		{
+			targetName += " " + parts[i];
+		}
+		targetName.Trim();
+
+		int amount = amountStr.ToInt();
 
 		if (amount <= 0)
 		{
@@ -675,7 +718,7 @@ modded class SCR_PlayerController
 		if (!pm)
 			return;
 
-		int targetId = FindPlayerByName(pm, targetName);
+		int targetId = FindPlayerByFullRPName(pm, targetName);
 		if (targetId <= 0)
 		{
 			SRZ_RPNet.SendToPlayer(playerId, string.Format("Player not found: %1", targetName));
@@ -702,6 +745,14 @@ modded class SCR_PlayerController
 			return;
 		}
 
+		// Proximity check - must be within 100 meters of the target.
+		float distance = vector.Distance(senderEntity.GetOrigin(), targetEntity.GetOrigin());
+		if (distance > 100)
+		{
+			SRZ_RPNet.SendToPlayer(playerId, string.Format("%1 is too far away. You must be within 100 meters.", targetName));
+			return;
+		}
+
 		ARMST_PLAYER_STATS_COMPONENT senderStats = ARMST_PLAYER_STATS_COMPONENT.Cast(senderEntity.FindComponent(ARMST_PLAYER_STATS_COMPONENT));
 		ARMST_PLAYER_STATS_COMPONENT targetStats = ARMST_PLAYER_STATS_COMPONENT.Cast(targetEntity.FindComponent(ARMST_PLAYER_STATS_COMPONENT));
 		if (!senderStats || !targetStats)
@@ -719,7 +770,7 @@ modded class SCR_PlayerController
 		senderStats.SetValue(senderMoney - amount);
 		targetStats.SetValue(targetMoney + amount);
 
-		SRZ_RPNet.SendToPlayer(playerId, string.Format("Sent %1 roubles to %2. New balance: %3", amount, pm.GetPlayerName(targetId), senderMoney - amount));
+		SRZ_RPNet.SendToPlayer(playerId, string.Format("Sent %1 roubles to %2. New balance: %3", amount, targetName, senderMoney - amount));
 		SRZ_RPNet.SendToPlayer(targetId, string.Format("You received %1 roubles from %2. New balance: %3", amount, pm.GetPlayerName(playerId), targetMoney + amount));
 	}
 }
