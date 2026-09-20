@@ -8,7 +8,7 @@ EffectDef {
    LodMin 0
    LodMax 0
    Material "{6717581547F2F2B2}Particles/_Materials/Gas/Smoke_Cloud_Anim_2.emat"
-   SizeMultiplier 1.15
+   SizeMultiplier 1.75
    SizeRND 0.7
    RotMultiplier 8
    RotRND 20
@@ -24,9 +24,6 @@ EffectDef {
    Lifetime 2
    LifetimeRND 3
    LifetimeVelFactor 0.1
-   Color {
-    0.05 0.462 0.462 0.462
-   }
    Alpha {
     0 0 0.0723 0.0629 0.2947 0.0311 0.762 0.0665 1 0.02
    }
@@ -47,6 +44,13 @@ EffectDef {
     0.99 0 1 1
    }
    MaxLV -9.882
+  }
+  EmitterDef Trail_3 {
+   MaxNum 17
+   BirthRate 2.5
+   Material "{FB2FB00F02295531}Particles/_Materials/Gas/Smoke_Base_01.emat"
+   Velocity 1
+   AnimOnce 1
   }
  }
 }

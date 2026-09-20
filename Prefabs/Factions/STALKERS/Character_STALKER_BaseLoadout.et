@@ -50,10 +50,12 @@ SCR_ChimeraCharacter : "{5346CF7E39A65A6B}Prefabs/Characters/Factions/OPFOR/USSR
      BaseDamageMultiplier 0.9
     }
     SCR_CharacterHitZone Chest {
-     BaseDamageMultiplier 1.1
+     BaseDamageMultiplier 0.95
+     MaxHealth 150
     }
     SCR_CharacterHitZone Abdomen {
-     BaseDamageMultiplier 1.1
+     BaseDamageMultiplier 0.95
+     MaxHealth 150
     }
     SCR_CharacterHitZone RArm {
      BaseDamageMultiplier 0.9

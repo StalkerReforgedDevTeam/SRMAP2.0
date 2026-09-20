@@ -13,7 +13,7 @@ EffectDef {
    LodMax 1
    ParticleType Prefab
    Prefab "{54564553D0B6EB89}Prefabs/Props/dead_skeleton_bone.et"
-   SizeMultiplier 0.8
+   SizeMultiplier 1.9
    SizeRND 0.1
    CenterX 0.15
    CenterY 1.04
@@ -47,7 +47,7 @@ EffectDef {
    LodMax 0
    ParticleType Prefab
    Prefab "{855C49FC774DFC20}Prefabs/Props/dead_skeleton_leg.et"
-   SizeMultiplier 0.6
+   SizeMultiplier 1.5
    SizeRND 0.5
    CenterX -0.03
    CenterY 1.21
@@ -80,7 +80,7 @@ EffectDef {
    LodMax 0
    ParticleType Prefab
    Prefab "{6D440210129C4234}Prefabs/Particles/Vegetation/Leaves/leaf_Alnus_glutinosa.et"
-   SizeMultiplier 0.9
+   SizeMultiplier 1.4
    SizeRND 0.4
    CenterX 0.62
    CenterY 0.8
@@ -113,7 +113,7 @@ EffectDef {
    LodMax 0
    ParticleType Prefab
    Prefab "{6D440210129C4234}Prefabs/Particles/Vegetation/Leaves/leaf_Alnus_glutinosa.et"
-   SizeMultiplier 0.8
+   SizeMultiplier 1.4
    SizeRND 0.3
    CenterX 0.8
    CenterY -0.33
@@ -192,7 +192,7 @@ EffectDef {
    LodMin 0
    LodMax 2
    Material "{B2F79D5D047BBEF0}armst/effects/anomal_1/anoms.emat"
-   SizeMultiplier 0.3
+   SizeMultiplier 1.6
    SizeRND 0.3
    ScaleX 1
    RotMultiplier 10
