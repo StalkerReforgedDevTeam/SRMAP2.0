@@ -12,7 +12,6 @@ EffectDef {
    LodMax 0
    Material "{04E96F47141AAA3C}Particles/_Materials/Solid/Mosquitoes_Anim_8x8.emat"
    Prefab "{29FBEC1991810EEF}system/wbdata/ParticleEditor/defaultPrefab.et"
-   SizeMultiplier 0.75
    SizeRND 0.25
    CenterX -5
    RotMultiplier 50
@@ -44,7 +43,6 @@ EffectDef {
    LodMax 0
    Material "{04E96F47141AAA3C}Particles/_Materials/Solid/Mosquitoes_Anim_8x8.emat"
    Prefab "{29FBEC1991810EEF}system/wbdata/ParticleEditor/defaultPrefab.et"
-   SizeMultiplier 0.5
    SizeRND 0.2
    CenterX -5
    RotMultiplier 50
@@ -76,7 +74,7 @@ EffectDef {
    LodMax 0
    Material "{04E96F47141AAA3C}Particles/_Materials/Solid/Mosquitoes_Anim_8x8.emat"
    Prefab "{29FBEC1991810EEF}system/wbdata/ParticleEditor/defaultPrefab.et"
-   SizeMultiplier 0.25
+   SizeMultiplier 0.5
    SizeRND 0.05
    CenterX -5
    RotMultiplier 50

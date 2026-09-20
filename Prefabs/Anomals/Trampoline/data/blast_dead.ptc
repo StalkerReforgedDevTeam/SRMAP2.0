@@ -1,0 +1,614 @@
+EffectDef {
+ Version 2
+ Emitters {
+  EmitterDef Light {
+   ShapeType Sphere
+   ShapeSize 3 3 3
+   MaxNum 3
+   BirthRate 1000
+   Offset 0 1.5 1.5
+   Angles 0 0 0
+   LocalTransform 0
+   Material "{77ED367ABC13B69F}Particles/_Materials/Fire/FireBurn_anim_01_Strong_Blurred.emat"
+   SizeMultiplier 0.01
+   RandomRotDir 0
+   RandomAngle 1
+   Velocity 0
+   AnimOnce 0
+   AnimFPS 80
+   LifetimeByAnim 0
+   RandomFrame 1
+   Lifetime 0.5
+   LifetimeRND 0
+   Color {
+    0 1 1 1 1 1 1 1
+   }
+   Alpha {
+    0 0 0.045 0.5 0.703 0.321 1 0
+   }
+   Size {
+    0 0.311 1 1
+   }
+   EmittingTime 2
+   Repeat 0
+   EnableLight 1
+   MaxLV 7
+   RelativeLV 1
+   LightColorMast {
+    0 1 0.569 0.155 1 0.287 0.141 0.087
+   }
+   LightIntensityMast {
+    0 1 1 0
+   }
+   LightIntensityResponse 20
+  }
+  EmitterDef debris_fast {
+   ShapeType Box
+   ShapeSize 1 1 1
+   ConeAngle 360 80 180
+   MaxNum 120
+   BirthRate 1000
+   BirthRateRND 0
+   BirthRateVel 0
+   Offset 0 1 0
+   Angles 0 0 0
+   LodMin 0
+   LodMax 1
+   Material "{224F6908DA2DEF71}Particles/_Materials/Solid/Metal_debris_2x2.emat"
+   StretchMultiplier 1
+   SizeMultiplier 0
+   SizeRND 0.25
+   ScaleX 0.5
+   RotMultiplier 500
+   RandomRotDir 1
+   VelAngle 0
+   RandomAngle 0
+   FlipU Random
+   Velocity 25
+   VelocityRND 20
+   AirResistance 2
+   AirResistanceRND 1.5
+   GravityMultiply 2
+   GravityMultiplyRND 1
+   Spring 0
+   AnimOnce 0
+   AnimFPS 0
+   LifetimeByAnim 0
+   RandomFrame 1
+   Lifetime 1
+   LifetimeRND 2
+   LifetimeShortening 0
+   Color {
+    0 0.1 0.1 0.1 1 0.1 0.1 0.1
+   }
+   Alpha {
+    0 1 0.792 1 1 0
+   }
+   RotationSpeed {
+    0 1 1 1
+   }
+   Size {
+    0 1
+   }
+   EmittingTime 0.2
+   Repeat 0
+   ColorMast {
+    0 1 1 1
+   }
+   AlphaMast {
+    0 1
+   }
+   RotationSpeedMast {
+    0 1
+   }
+   SizeMast {
+    0 1 1 1
+   }
+   BRateMast {
+    0 1
+   }
+  }
+  EmitterDef Smoke_Big {
+   ShapeSize 5 0 5
+   ConeAngle 360 0 180
+   ConeAngleMinDist 60
+   ConeAngleRndRange 60
+   MaxNum 6
+   BirthRate 1000
+   BirthRateRND 0
+   BirthRateVel 0
+   Offset 0 1 0
+   LodMin 0
+   LodMax 2
+   Material "{029D33C344E15DFB}Particles/_Materials/Gas/Smoke_loop_01.emat"
+   StretchMultiplier 0
+   SizeMultiplier 6
+   SizeRND 5
+   RotMultiplier 15
+   RandomRotDir 1
+   VelAngle 0
+   RandomAngle 1
+   FlipU Random
+   Velocity 8
+   VelocityRND 10
+   VelAffect 0.5
+   AirResistance 3
+   AirResistanceRND 3
+   WindInfluence 0
+   GravityMultiply 2.118
+   GravityMultiplyRND -1
+   AnimFPS 80
+   LifetimeByAnim 0
+   RandomFrame 0
+   Lifetime 1
+   Color {
+    0.001 0.503 0.159 0.159 0.46 0.411 0.166 0.166 1 1 0.159 0.159
+   }
+   Alpha {
+    0 0 0.023 1 0.695 0.303 1 0
+   }
+   Emissivity {
+    0.479 1
+   }
+   RotationSpeed {
+    0 1 1 1
+   }
+   Size {
+    0 0.821 1 1
+   }
+   EmittingTime 0.4
+   Repeat 0
+   ColorMast {
+    0 1 1 1 0.431 1 1 1 1 1 1 1
+   }
+   AlphaMast {
+    0 1 0.15 1 0.236 1 0.591 1 1 0
+   }
+   RotationSpeedMast {
+    0 1 1 1
+   }
+   SizeMast {
+    0 1 1 1
+   }
+   BRateMast {
+    0 0 0.17 0 0.704 1 1 1
+   }
+   VelocityMast {
+    0 1 0.15 1 0.324 1 0.65 1 1 1
+   }
+  }
+  EmitterDef explosion_hot_A {
+   ShapeType Sphere
+   ShapeSize 5 5 5
+   ConeAngle 360 0 100
+   ConeAngleMinDist 60
+   ConeAngleRndRange 60
+   MaxNum 7
+   BirthRate 2000
+   BirthRateRND 0
+   BirthRateVel 0
+   Offset 0 0 0
+   Material "{6E033C070B32B17C}Particles/_Materials/Fire/Explosion_Base_03.emat"
+   StretchMultiplier 0
+   SizeMultiplier 6
+   SizeRND 2
+   RotMultiplier 15
+   RandomRotDir 1
+   VelAngle 0
+   RandomAngle 1
+   FlipU Random
+   Velocity 10
+   VelocityRND 15
+   VelAffect 0
+   AirResistance 6
+   AirResistanceRND 5
+   WindInfluence 0.1
+   ParentVelRelToAir 0.8
+   GravityMultiply 0.1
+   GravityMultiplyRND 0.1
+   Spring 0
+   AnimOnce 0
+   AnimFPS 30
+   LifetimeByAnim 0
+   RandomFrame 0
+   Lifetime 0.3
+   LifetimeRND 1
+   Color {
+    0.001 0.184 0 0 0.46 0.16 0 0 0.986 0.688 0 0
+   }
+   Alpha {
+    0 0 0.165 0.753 0.447 0.123 1 0
+   }
+   Emissivity {
+    0.409 0.448
+   }
+   Size {
+    0.002 0.5 1 1
+   }
+   EmittingTime 0.1
+   Repeat 0
+   ColorMast {
+    0 1 1 1 0.431 1 1 1 1 1 1 1
+   }
+   AlphaMast {
+    0 1 0.15 1 0.236 1 0.591 1 1 0
+   }
+   RotationSpeedMast {
+    0 1 1 1
+   }
+   SizeMast {
+    0 1 1 1
+   }
+   BRateMast {
+    0 0 1 1
+   }
+   VelocityMast {
+    0 1 0.15 1 0.324 1 0.65 1 1 1
+   }
+  }
+  EmitterDef Prefab_Debris_Headlght {
+   ShapeType Box
+   ShapeSize 2 1 2
+   ConeAngle 360 30 110
+   MaxNum 2
+   BirthRate 1000
+   BirthRateRND 0
+   BirthRateVel 0
+   Offset 0 1 0
+   Angles 0 0 0
+   LodMin 0
+   LodMax 1
+   ParticleType Prefab
+   Material "{224F6908DA2DEF71}Particles/_Materials/Solid/Metal_debris_2x2.emat"
+   Prefab "{54564553D0B6EB89}Prefabs/Props/dead_skeleton_bone.et"
+   StretchMultiplier 1
+   SizeMultiplier 1.5
+   SizeRND 0
+   ScaleX 0.5
+   RotMultiplier 500
+   RotMultiplier_3D 180 180 180
+   RotRND_3D 90 90 90
+   RandomRotDir 1
+   VelAngle 0
+   RandomAngle 0
+   FlipU Random
+   Velocity 15
+   VelocityRND 20
+   AirResistance 1
+   AirResistanceRND 1.5
+   GravityMultiply 2
+   GravityMultiplyRND 1
+   EnableCollisions 1
+   CollisionDistThresh 2
+   NormalRestitution 0.1
+   TagentialRestitution 1
+   RotDampBySliding 0.95
+   Spring 0
+   AnimOnce 0
+   AnimFPS 0
+   LifetimeByAnim 0
+   RandomFrame 1
+   Lifetime 25
+   LifetimeRND 0
+   LifetimeShortening 0
+   Color {
+    0 0.1 0.1 0.1 1 0.1 0.1 0.1
+   }
+   Alpha {
+    0 1 0.792 1 1 0
+   }
+   Size {
+    0 1 0.6 1 0.803 0
+   }
+   EmittingTime 0.101
+   Repeat 0
+   ColorMast {
+    0 1 1 1
+   }
+   AlphaMast {
+    0 1
+   }
+   RotationSpeedMast {
+    0 1
+   }
+   SizeMast {
+    0 1 1 1
+   }
+   BRateMast {
+    0 1
+   }
+  }
+  EmitterDef Prefab_Debris_Brake {
+   ShapeType Box
+   ShapeSize 1.5 0.5 3
+   ConeAngle 360 150 200
+   MaxNum 4
+   BirthRate 10
+   BirthRateRND 30
+   BirthRateVel 0
+   Offset 0 1 0
+   Angles 0 0 0
+   LodMin 0
+   LodMax 1
+   ParticleType Prefab
+   Material "{224F6908DA2DEF71}Particles/_Materials/Solid/Metal_debris_2x2.emat"
+   Prefab "{855C49FC774DFC20}Prefabs/Props/dead_skeleton_leg.et"
+   StretchMultiplier 1
+   SizeMultiplier 1.5
+   SizeRND 0
+   ScaleX 0.5
+   RotMultiplier 500
+   RotMultiplier_3D 150 150 150
+   RotRND_3D 50 50 50
+   RandomRotDir 1
+   VelAngle 0
+   RandomAngle 0
+   FlipU Random
+   Velocity 12
+   VelocityRND 16
+   AirResistance 0.3
+   AirResistanceRND 0.5
+   GravityMultiply 2
+   GravityMultiplyRND 1
+   EnableCollisions 1
+   CollisionDistThresh 2
+   NormalRestitution 0.1
+   TagentialRestitution 1
+   RotDampBySliding 0.95
+   Spring 0
+   AnimOnce 0
+   AnimFPS 0
+   LifetimeByAnim 0
+   RandomFrame 1
+   Lifetime 25
+   LifetimeRND 0
+   LifetimeShortening 0
+   Color {
+    0 0.1 0.1 0.1 1 0.1 0.1 0.1
+   }
+   Alpha {
+    0 1 0.792 1 1 0
+   }
+   Size {
+    0 1 0.59 1 0.797 0
+   }
+   EmittingTime 0.101
+   Repeat 0
+   ColorMast {
+    0 1 1 1
+   }
+   AlphaMast {
+    0 1
+   }
+   RotationSpeedMast {
+    0 1
+   }
+   SizeMast {
+    0 1 1 1
+   }
+   BRateMast {
+    0 1
+   }
+  }
+  EmitterDef Prefab_Debris_Metal_Sheets {
+   ShapeType Box
+   ShapeSize 2 1 3
+   ConeAngle 360 0 100
+   MaxNum 1
+   BirthRate 15
+   BirthRateRND 50
+   BirthRateVel 0
+   Offset 0 1 0
+   Angles 0 0 0
+   LodMin 0
+   LodMax 1
+   ParticleType Prefab
+   Material "{224F6908DA2DEF71}Particles/_Materials/Solid/Metal_debris_2x2.emat"
+   Prefab "{7210624F7959DDB7}Prefabs/Props/dead_skeleton_head.et"
+   StretchMultiplier 1
+   SizeMultiplier 0.5
+   SizeRND 0.8
+   ScaleX 0.5
+   RotMultiplier 500
+   RotMultiplier_3D 120 120 120
+   RotRND_3D 90 150 130
+   RandomRotDir 1
+   VelAngle 0
+   RandomAngle 0
+   FlipU Random
+   Velocity 10
+   VelocityRND 15
+   AirResistance 0.8
+   AirResistanceRND 1
+   GravityMultiply 2
+   GravityMultiplyRND 1
+   EnableCollisions 1
+   CollisionDistThresh 2
+   NormalRestitution 0.1
+   TagentialRestitution 0.8
+   RotDampBySliding 0.95
+   Spring 0
+   AnimOnce 0
+   AnimFPS 0
+   LifetimeByAnim 0
+   RandomFrame 1
+   Lifetime 25
+   LifetimeRND 0
+   LifetimeShortening 0
+   Color {
+    0 0.1 0.1 0.1 1 0.1 0.1 0.1
+   }
+   Alpha {
+    0 1 0.792 1 1 0
+   }
+   Size {
+    0 1 0.523 1 0.745 0
+   }
+   EmittingTime 0.101
+   Repeat 0
+   ColorMast {
+    0 1 1 1
+   }
+   AlphaMast {
+    0 1
+   }
+   RotationSpeedMast {
+    0 1
+   }
+   SizeMast {
+    0 1 1 1
+   }
+   BRateMast {
+    0 1
+   }
+  }
+  EmitterDef Prefab_Debris_spring {
+   ShapeType Box
+   ShapeSize 1.5 0.5 3
+   ConeAngle 360 150 200
+   MaxNum 1
+   BirthRate 10
+   BirthRateRND 30
+   BirthRateVel 0
+   Offset 0 0.5 0
+   Angles 0 0 0
+   LodMin 0
+   LodMax 1
+   ParticleType Prefab
+   Material "{224F6908DA2DEF71}Particles/_Materials/Solid/Metal_debris_2x2.emat"
+   Prefab "{C19985048E2EA76E}Prefabs/Props/dead_skeleton_rebro.et"
+   StretchMultiplier 1
+   SizeMultiplier 1.2
+   SizeRND 0
+   ScaleX 0.5
+   RotMultiplier 500
+   RotMultiplier_3D 120 120 120
+   RotRND_3D 50 50 50
+   RandomRotDir 1
+   VelAngle 0
+   RandomAngle 0
+   FlipU Random
+   Velocity 15
+   VelocityRND 20
+   AirResistance 0.5
+   AirResistanceRND 0.8
+   GravityMultiply 2
+   GravityMultiplyRND 1
+   EnableCollisions 1
+   CollisionDistThresh 2
+   NormalRestitution 0.1
+   TagentialRestitution 0.8
+   RotDampBySliding 0.95
+   Spring 0
+   AnimOnce 0
+   AnimFPS 0
+   LifetimeByAnim 0
+   RandomFrame 1
+   Lifetime 25
+   LifetimeRND 0
+   LifetimeShortening 0
+   Color {
+    0 0.1 0.1 0.1 1 0.1 0.1 0.1
+   }
+   Alpha {
+    0 1 0.792 1 1 0
+   }
+   Size {
+    0 1 0.588 1 0.803 0
+   }
+   EmittingTime 0.101
+   Repeat 0
+   ColorMast {
+    0 1 1 1
+   }
+   AlphaMast {
+    0 1
+   }
+   RotationSpeedMast {
+    0 1
+   }
+   SizeMast {
+    0 1 1 1
+   }
+   BRateMast {
+    0 1
+   }
+  }
+  EmitterDef Prefab_Debris_0 {
+   ShapeType Box
+   ShapeSize 1.5 0.5 3
+   ConeAngle 360 150 200
+   MaxNum 1
+   BirthRate 10
+   BirthRateRND 30
+   BirthRateVel 0
+   Offset 0 0.5 0
+   Angles 0 0 0
+   LodMin 0
+   LodMax 1
+   ParticleType Prefab
+   Material "{224F6908DA2DEF71}Particles/_Materials/Solid/Metal_debris_2x2.emat"
+   Prefab "{78695BE67AC3D99A}Prefabs/Props/dead_skeleton_taz.et"
+   StretchMultiplier 1
+   SizeMultiplier 1.2
+   SizeRND 0
+   ScaleX 0.5
+   RotMultiplier 500
+   RotMultiplier_3D 120 120 120
+   RotRND_3D 50 50 50
+   RandomRotDir 1
+   VelAngle 0
+   RandomAngle 0
+   FlipU Random
+   Velocity 15
+   VelocityRND 20
+   AirResistance 0.5
+   AirResistanceRND 0.8
+   GravityMultiply 2
+   GravityMultiplyRND 1
+   EnableCollisions 1
+   CollisionDistThresh 2
+   NormalRestitution 0.1
+   TagentialRestitution 0.8
+   RotDampBySliding 0.95
+   Spring 0
+   AnimOnce 0
+   AnimFPS 0
+   LifetimeByAnim 0
+   RandomFrame 1
+   Lifetime 25
+   LifetimeRND 0
+   LifetimeShortening 0
+   Color {
+    0 0.1 0.1 0.1 1 0.1 0.1 0.1
+   }
+   Alpha {
+    0 1 0.792 1 1 0
+   }
+   Size {
+    0 1 0.588 1 0.803 0
+   }
+   EmittingTime 0.101
+   Repeat 0
+   ColorMast {
+    0 1 1 1
+   }
+   AlphaMast {
+    0 1
+   }
+   RotationSpeedMast {
+    0 1
+   }
+   SizeMast {
+    0 1 1 1
+   }
+   BRateMast {
+    0 1
+   }
+  }
+ }
+ LightOffset 0 3 0
+ WorldRelativeY 1
+ LightClipEV -16
+ LightRadius 30
+}

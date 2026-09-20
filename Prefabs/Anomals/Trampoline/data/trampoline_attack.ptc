@@ -1,0 +1,67 @@
+EffectDef {
+ Version 1
+ Emitters {
+  EmitterDef Emitter_01 {
+   ShapeType Ellipse
+   ShapeSize 3 8 3
+   ConeAngleMinDist 102.249
+   ConeAngleRndRange 125.68
+   MaxNum 20
+   BirthRate 10
+   Offset 0 0.8 0
+   Angles 0 1 0
+   LodMin 0
+   LodMax 0
+   ParticleType Prefab
+   Prefab "{A3825F7D7E340D80}Prefabs/Particles/Debris/Stone/Dbr_Stone_03.et"
+   SizeMultiplier 0.4
+   SizeRND 0.1
+   CenterX 3.05
+   CenterZ -2.46
+   RotMultiplier_3D 1 890.8 0
+   RotRND_3D 0 221.2 0
+   RandomRotDir 1
+   Velocity 0
+   EnableCollisions 1
+   RotationSpeed {
+    0.097 0.976 0.501 1 0.949 0.102
+   }
+   Size {
+    0 0 0.113 0.593 0.802 0.551 1 0
+   }
+   EmittingTime 3
+   Repeat 0
+  }
+  EmitterDef Emitter_0 {
+   ShapeType Ellipse
+   ShapeSize 2 8 2
+   ConeAngleMinDist 102.249
+   ConeAngleRndRange 125.68
+   MaxNum 20
+   BirthRate 10
+   Offset 0 1 0
+   Angles 0 1 0
+   LodMin 0
+   LodMax 0
+   ParticleType Prefab
+   Prefab "{1A8464CF0B3DCDC9}Prefabs/Particles/Vegetation/Leaves/leaf_Carpinus_betulus.et"
+   SizeRND 0.1
+   CenterX 3.05
+   CenterZ -2.46
+   RotMultiplier_3D 296.1 689.2 0
+   RotRND_3D 0 221.2 0
+   RandomRotDir 1
+   Velocity 0
+   EnableCollisions 1
+   RotationSpeed {
+    0.097 0.976 0.501 1 0.949 0.102
+   }
+   Size {
+    0 0 0.113 0.593 0.802 0.551 1 0
+   }
+   EmittingTime 3
+   Repeat 0
+  }
+ }
+ CollisionPreset "{5D9EE44C68755DF5}"
+}
