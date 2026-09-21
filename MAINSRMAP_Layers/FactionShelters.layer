@@ -510,7 +510,7 @@ $grp GenericEntity : "{159BADC74896B7D6}Prefabs/Props/Military/AmmoBoxes/USSR/Eq
 $grp GenericEntity : "{1A1020205E2B1710}Prefabs/Props/Military/Furniture/TableMilitary_USSR_01.et" {
  {
   coords 4764.291 301.64 48.377
-  angles 1.037 177.699 -2.641
+  angles 0 0 0
  }
  {
   coords 5417.108 301.346 58.457
@@ -836,8 +836,32 @@ $grp SCR_DestructibleBuildingEntity : "{7720B78DED8FAB50}Prefabs/Perimetr/wall_p
   scale 1.243
  }
 }
-GenericEntity : "{8703D964AC15EA53}PrefabsEditable/E_Identity_Selector.et" {
- coords 5596.606 304.756 80.301
+$grp GenericEntity : "{8703D964AC15EA53}PrefabsEditable/E_Identity_Selector.et" {
+ {
+  coords 5596.606 304.756 80.301
+ }
+ {
+  coords 5636.203 302.703 38.868
+ }
+ {
+  coords 3841.846 307.799 396.828
+  angles 0 180 0
+ }
+ {
+  coords 1261.427 299.13 1331.931
+  angles 0 -122.985 0
+ }
+ {
+  coords 1455.504 292.24 1933.526
+  angles 0 270 0
+ }
+ {
+  coords 3554.957 309.511 1839.507
+ }
+ {
+  coords 4915.461 314.905 1663.824
+  angles 0 90 0
+ }
 }
 GenericEntity : "{890EE5FB23BA713E}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/USSR/EquipmentBoxStack_USSR_01_V2_covered.et" {
  coords 1266.982 300.912 1334.74
