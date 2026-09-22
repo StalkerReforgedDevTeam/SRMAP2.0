@@ -7743,7 +7743,7 @@ GenericEntity armst_itm_cards_69D80DA57395AEDC2 : "{0826AC41D0926A51}Prefabs/Ite
  angles 0 -163.733 0
 }
 GenericEntity : "{0C51EDCEEC144BC1}Prefabs/Compositions/Misc/SubCompositions/CrateWooden_Cluttered_US_03.et" {
- coords 4964.084 328.017 3047.191
+ coords 4963.494 328.017 3047.287
  angles 0 -163.733 0
 }
 GenericEntity : "{1A08789B13DFBAB5}Prefabs/Props/Civilian/TablePhotoFrame_01/TablePhotoFrame_01_base.et" {
@@ -11236,42 +11236,6 @@ $grp GenericEntity : "{21D83950DF36F250}Prefabs/Props/Military/Sandbags/Sandbag_
   coords 4944.01 330.125 3046.94
   angles 0 6.53 0
  }
- {
-  coords 4952.896 326.381 3050.955
-  angles 0 -80.502 0
- }
- {
-  coords 4970.859 304.434 3064.61
-  angles 0 -174.714 0
- }
- {
-  coords 4970.884 304.201 3064.868
-  angles 0 -174.714 0
- }
- {
-  coords 4970.912 304.032 3065.174
-  angles 0 -174.714 0
- }
- {
-  coords 4970.941 303.809 3065.477
-  angles 0 -174.714 0
- }
- {
-  coords 4970.968 303.58 3065.771
-  angles 0 -174.714 0
- }
- {
-  coords 4970.858 304.434 3064.584
-  angles 0 -174.714 0
- }
- {
-  coords 4970.863 304.946 3064.629
-  angles 0 -172.46 0
- }
- {
-  coords 4971.021 303.28 3066.338
-  angles 0 -174.714 0
- }
 }
 GenericEntity : "{235F2A4AA0858813}Prefabs/Props/Garbage/Generic/LitterInterior_01/Single/LitterInterior_USSR_01_cigarettes_V3.et" {
  coords 4931.992 327.025 3059.335
@@ -11282,7 +11246,7 @@ GenericEntity : "{2887E99075B9C928}Prefabs/Props/Garbage/Generic/Litter_01_long.
  angles 0 -172.707 0
 }
 GenericEntity : "{2BE613DDC7EA3851}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/EquipmentBoxStack_01_V4_base.et" {
- coords 4964.177 326.38 3046.819
+ coords 4963.587 326.38 3046.915
  angles 0 -172.319 0
 }
 GenericEntity : "{33918FEBFD531C52}Prefabs/Props/Commercial/Posters/PosterSet_Montfort_01.et" {
@@ -12204,7 +12168,7 @@ GenericEntity : "{3BA9D94C4EE9B33B}Prefabs/Compositions/Slotted/CompositionBase.
  }
 }
 GenericEntity : "{3F6B9C6E835A3D75}Prefabs/Compositions/Misc/SubCompositions/EquipmentBoxStacked_Cluttered_USSR_06.et" {
- coords 4949.9 326.381 3050.549
+ coords 4951.941 326.779 3051.565
  angles 0 -81.891 0
  {
   GenericEntity {
@@ -13165,12 +13129,12 @@ $grp SCR_DestructibleBuildingEntity : "{5388DCDED41DBEEC}Prefabs/Structures/Infr
   angles -0.657 97.246 -89.998
  }
  {
-  coords 4965.692 3.359 3059.993
+  coords 4965.6 3.256 3059.329
   angles -1.617 6.946 0.66
   scale 0.7
  }
  {
-  coords 4966.145 3.269 3063.115
+  coords 4965.865 3.187 3061.161
   angles -1.633 8.315 0.622
   scale 0.7
  }
@@ -13256,13 +13220,13 @@ $grp SCR_DestructibleBuildingEntity : "{5388DCDED41DBEEC}Prefabs/Structures/Infr
   scale 0.05
  }
  {
-  coords 4975.8 6.037 3063.663
+  coords 4975.673 6.036 3062.672
   angles -0.03 -172.721 0.156
   scale 0.75
  }
 }
 GenericEntity : "{56A2385928155F81}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/US/EquipmentBoxStack_US_01_V4.et" {
- coords 4964.348 326.38 3047.928
+ coords 4963.758 326.38 3048.024
  angles 0 175.353 0
 }
 GenericEntity : "{5AE5E70D803BD389}Prefabs/Method/Props/Interior/TableOld_01_white_int_1.et" {
@@ -13606,7 +13570,7 @@ GenericEntity : "{7A4A0A8283210784}Prefabs/Compositions/Misc/SubCompositions/Tab
  angles 0 -80.559 0
 }
 GenericEntity : "{7A5A9F26FE702332}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/FIA/EquipmentBoxStack_FIA_01_V4.et" {
- coords 4964.475 326.38 3049.107
+ coords 4963.885 326.38 3049.203
  angles 0 -168.804 0
 }
 $grp GenericEntity : "{7AF4B627D5C90235}Prefabs/Props/Military/Sandbags/Sandbag_01_round_high_burlap.et" {
@@ -13642,11 +13606,11 @@ GenericEntity : "{8FE6D62204173656}Prefabs/Props/Civilian/BeerBottle_01_group.et
 }
 $grp StaticModelEntity : "{94021BCA593A8CFF}Prefabs/Structures/BuildingParts/Entry/ConcreteStairs_02_Wide.et" {
  {
-  coords 4972.691 304.63 3063.544
+  coords 4972.463 304.527 3061.906
   angles 0 7.924 0
  }
  {
-  coords 4969.029 304.63 3064.053
+  coords 4968.802 304.527 3062.415
   angles 0 7.924 0
  }
 }
@@ -14556,10 +14520,6 @@ $grp SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core
    }
    $grp GenericEntity : "{43816DF1021ABD72}Prefabs/LOOT_BOX/3_TIER/3_TIER_Loot_randomize_tools.et" {
     {
-     coords -10.116 21.611 -6.295
-     angles 0 -172.955 0
-    }
-    {
      coords 13.43 21.47 5.171
      angles 0 -172.955 0
     }
@@ -14638,25 +14598,6 @@ $grp SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core
       }
       Hierarchy "{612AE78C85563E26}" {
        PivotID "socket_door_Doorset_lighthouse_right_176FDCEC3698D11E_7"
-      }
-     }
-     {
-      GenericEntity {
-       ID "6638758AB9AC4D6C"
-       components {
-        DoorComponent "{221C667A9F7D4B69}" {
-         DoorAction SCR_DoorUserAction "{50888D3646A61640}" {
-          m_FactionKey FACTION_MERCENARIES
-         }
-        }
-       }
-      }
-     }
-    }
-    {
-     components {
-      Hierarchy "{612AE78C85563E26}" {
-       PivotID "socket_door_Doorset_lighthouse_right_176FDCEC3698D11E_1"
       }
      }
      {
@@ -15103,31 +15044,17 @@ $grp SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core
      coords 0 0 0
     }
    }
-   $grp GenericEntity : "{D8028D9E0F8CFFEB}Prefabs/LOOT_BOX/3_TIER/3_TIER_Loot_randomize_random.et" {
-    {
-     components {
-      ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-       m_LootTiersSpawn {
-        ""
-        "TIER_2"
-       }
+   GenericEntity : "{D8028D9E0F8CFFEB}Prefabs/LOOT_BOX/3_TIER/3_TIER_Loot_randomize_random.et" {
+    components {
+     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+      m_LootTiersSpawn {
+       ""
+       "TIER_2"
       }
      }
-     coords 15.042 20.571 -5.224
-     angles 0 -150.634 0
     }
-    {
-     components {
-      ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-       m_LootTiersSpawn {
-        ""
-        "TIER_2"
-       }
-      }
-     }
-     coords -1.992 20.596 6.334
-     angles 0 -150.634 0
-    }
+    coords -1.992 20.596 6.334
+    angles 0 -150.634 0
    }
    GenericEntity : "{EF84E2A0B250AC53}Prefabs/Structures/BuildingParts/Doors/Door_Garage_E_01_A_RIGHT_EXT_COV_B.et" {
     components {
@@ -17145,10 +17072,6 @@ $grp GenericEntity : "{B31A14BC1A0E7776}Prefabs/Props/Military/Sandbags/Sandbag_
   coords 4929.589 329.893 3058.506
   angles 0 -110.287 0
  }
- {
-  coords 4943.061 326.38 3052.089
-  angles 0 95.748 0
- }
 }
 GenericEntity : "{B3283803059E2750}Prefabs/Props/Crates/CrateWooden_01_plain.et" {
  components {
@@ -17159,7 +17082,7 @@ GenericEntity : "{B3283803059E2750}Prefabs/Props/Crates/CrateWooden_01_plain.et"
   Hierarchy "{569E7A0B064DAFB0}" {
   }
  }
- coords 4964.352 327.983 3048.732
+ coords 4963.762 327.983 3048.828
  angles 0 -11.252 0
 }
 GenericEntity : "{BCB7F6999ACCFCC0}Prefabs/Compositions/Misc/SubCompositions/Furniture/Table_Desk_USSR_06_Logistics.et" {
@@ -18639,7 +18562,7 @@ $grp GenericEntity : "{C9DE18E34AEADA31}Prefabs/Structures/BuildingParts/Doors/D
     PivotID "Socket_door_001"
    }
   }
-  coords 4961.181 326.67 3044.759
+  coords 4961.181 328.355 3044.759
   angles 0 -172.522 0
   scale 1.1
  }
@@ -18812,8 +18735,8 @@ SCR_DestructibleEntity : "{F755F729EC8D5203}Prefabs/Structures/Walls/Concrete/Co
  scale 0.72
 }
 GenericEntity : "{F7CFDAC4BDDB42F3}Prefabs/Compositions/Misc/SubCompositions/Furniture/Table_Desk_FIA_01_Logistics.et" {
- coords 4957.848 326.409 3050.34
- angles 0 -82.38 0
+ coords 4951.645 326.884 3050.238
+ angles 0 96.588 0
 }
 GenericEntity : "{FBEF0DDE64A1B1A0}Prefabs/Compositions/Slotted/SubComposition.et" {
  components {
