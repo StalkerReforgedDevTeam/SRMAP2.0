@@ -1,19 +1,27 @@
 FrameWidgetClass {
  {
-  VerticalLayoutWidgetClass "{68E72B9C04320745}" : "{DD351442646BBF77}UI/PDA_NOTIFICATIONS_UI/PDA_Notifications_Container.layout" {
-   Name "PDA_Notifications_Container0"
-   Slot FrameWidgetSlot "{68E72B9C0432074F}" {
-    Anchor 0 1 0 1
-    PositionX 6.641
-    OffsetLeft 6.641
-    PositionY -433.146
-    OffsetTop -433.146
-    SizeX 750
-    OffsetRight -756.641
-    SizeY 354.434
-    OffsetBottom 78.712
+  ImageWidgetClass "{658277D9D49BEE17}" {
+   Prefab "{658277D9D49BEE17}"
+   Texture "{2B96A40FFB393BEF}UI/Radgraintextures/radgrain.edds"
+  }
+  ImageWidgetClass "{65A2A78B6B8C8C23}" {
+   Prefab "{65A2A78B6B8C8C23}"
+   Color 0.1569 0.6235 0.6235 1
+  }
+  TextWidgetClass "{68F0BBB42DB84B9D}" {
+   Prefab "{68F0BBB42DB84B9D}"
+   Slot FrameWidgetSlot "{66C907E0CFD2D132}" {
+    PositionX -310.934
+    OffsetLeft -310.934
+    PositionY -136.579
+    OffsetTop -136.579
+    SizeX 375.711
+    OffsetRight -64.777
+    SizeY 44.252
+    OffsetBottom 92.327
    }
-   Clipping True
+   Text "Stalker Reforged"
+   "Font Size" 20
   }
   FrameWidgetClass "{68FA9A76D2DB4D6F}" {
    Prefab "{68FA9A76D2DB4D6F}"

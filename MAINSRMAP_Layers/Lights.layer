@@ -353,7 +353,7 @@ $grp LightEntity {
   coords 4182.935 313.282 723.119
   angles -49.214 -35.708 -90
   Color 1 0.8398 0.2467 1
-  LV 2.48
+  LV -1
   ClipEV -10
   Type Spot
   Radius 5
@@ -366,7 +366,7 @@ $grp LightEntity {
   coords 4171.58 313.655 719.626
   angles -58.138 47.239 -171.712
   Color 1 0.8398 0.2467 1
-  LV 2.48
+  LV -1.29
   ClipEV -10
   Type Spot
   Radius 5
@@ -937,44 +937,49 @@ $grp LightEntity : "{94E574957C0BA1FD}Prefabs/lights/LampStreet_E_03_light.et" {
   angles -35.09 0 0
  }
  {
-  coords 3594.204 323.209 465.439
-  angles -35.09 0 0
- }
- {
   coords 3733.929 322.477 425.771
   angles -35.09 0 0
+  LV 6.86
  }
  {
   coords 3802.881 314.767 420.541
   angles -35.09 0 0
+  LV 8
  }
  {
   coords 3780.08 322.631 420.299
   angles -35.09 0 0
+  LV 7.43
  }
  {
   coords 3828.052 322.788 419.803
   angles -35.09 0 0
+  LV 7.71
  }
  {
   coords 3884.957 323.127 421.261
   angles -35.09 0 0
+  LV 8.71
  }
  {
   coords 3998.487 322.271 411.428
   angles -35.09 0 0
+  LV 7.71
  }
  {
   coords 3950.655 322.885 412.802
   angles -35.09 0 0
+  LV 8.43
  }
  {
   coords 3916.162 323.15 419.053
   angles -35.09 0 0
+  LV 8.43
  }
  {
   coords 3689.029 322.136 441.385
   angles -35.09 0 0
+  LV 7.57
  }
  {
   coords 3644.299 322.096 453.887
@@ -1007,10 +1012,12 @@ $grp LightEntity : "{94E574957C0BA1FD}Prefabs/lights/LampStreet_E_03_light.et" {
  {
   coords 3797.655 313.161 284.273
   angles -35.09 0 0
+  LV 6
  }
  {
   coords 3792.313 315.222 388.609
-  angles -37.984 86.198 -1.819
+  angles -27.463 85.824 -1.616
+  LV 7.71
  }
  {
   coords 3051.675 307.94 1010.118

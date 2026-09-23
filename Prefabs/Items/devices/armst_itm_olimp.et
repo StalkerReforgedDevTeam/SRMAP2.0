@@ -1,0 +1,9 @@
+GameEntity : "{3A4927C454787B6B}Prefabs/Items/Equipment/Flashlights/Flashlight_base.et" {
+ ID "56A4B11C0BE428DA"
+ components {
+  ARMST_DETECTOR_ARTS_COMPONENTS "{6632A4A4EA77CDF6}" {
+   m_fDistance_Founded 5
+   m_fDistance_Find_Art 15
+  }
+ }
+}

@@ -370,6 +370,36 @@ modded class SCR_PlayerController
 		return -1;
 	}
 
+	// Matches a player by their full RP name (via SRZ_RPNameProfileManager), case-insensitive
+	// exact match. Used by .paytransfer - full name required, no partial matching.
+	protected int FindPlayerByFullRPName(PlayerManager pm, string searchFullName)
+	{
+		if (!pm) return -1;
+
+		SRZ_RPNameProfileManager profileMgr = SRZ_RPNameProfileManager.GetInstance();
+		if (!profileMgr) return -1;
+
+		searchFullName.ToLower();
+
+		array<int> playerIds = new array<int>();
+		pm.GetPlayers(playerIds);
+
+		foreach (int pid : playerIds)
+		{
+			string rpName = profileMgr.GetNameForPlayer(pid);
+			if (rpName.IsEmpty())
+				continue;
+
+			string lowerRpName = rpName;
+			lowerRpName.ToLower();
+
+			if (lowerRpName == searchFullName)
+				return pid;
+		}
+
+		return -1;
+	}
+
 	// ==================== DICE ROLL + GAMBLE COMMANDS ====================
 	// Step 1: ".diceroll" - rolls 1-100 and shows the player their current number
 	// Step 2: ".gamble <amount> <higher|lower>" - rolls 1-100 again for flavor and
@@ -614,7 +644,137 @@ modded class SCR_PlayerController
 
 		statsComp.ArmstPlayerStatSetPsyDirect(newPsy);
 	}
+
+	// ==================== PAYTRANSFER COMMAND ====================
+	// Usage: ".paytransfer <full rp name> <amount>"  e.g. ".paytransfer Vasya Petrov 5000"
+	// Transfers roubles from the sender to a target player. Both must be currently
+	// spawned in, and the sender must be within 100 meters of the target. Requires
+	// the target's full RP name (exact match), not a partial name or platform name.
+
+	void SRZ_SendPayTransferCommand(string msg)
+	{
+		if (Replication.IsServer())
+		{
+			SRZ_ProcessPayTransferCommand(msg);
+		}
+		else
+		{
+			Rpc(SRZ_RpcAsk_ProcessPayTransferCommand, msg);
+		}
+	}
+
+	[RplRpc(RplChannel.Reliable, RplRcver.Server)]
+	protected void SRZ_RpcAsk_ProcessPayTransferCommand(string msg)
+	{
+		SRZ_ProcessPayTransferCommand(msg);
+	}
+
+	protected void SRZ_ProcessPayTransferCommand(string msg)
+	{
+		if (!Replication.IsServer())
+			return;
+
+		int playerId = GetPlayerId();
+		if (playerId <= 0)
+			return;
+
+		array<string> parts = {};
+		msg.Split(" ", parts, true);
+
+		// Need at least: command, one name word, amount - so 3 tokens minimum.
+		// Last token is always the amount; everything between token[1] and the
+		// second-to-last token is the (possibly multi-word) RP name.
+		if (parts.Count() < 3)
+		{
+			SRZ_RPNet.SendToPlayer(playerId, "Usage: .paytransfer <full rp name> <amount>");
+			return;
+		}
+
+		int lastIdx = parts.Count() - 1;
+		string amountStr = parts[lastIdx];
+
+		string targetName = parts[1];
+		for (int i = 2; i < lastIdx; i++)
+		{
+			targetName += " " + parts[i];
+		}
+		targetName.Trim();
+
+		int amount = amountStr.ToInt();
+
+		if (amount <= 0)
+		{
+			SRZ_RPNet.SendToPlayer(playerId, "Transfer amount must be a positive number.");
+			return;
+		}
+
+		if (amount > 100000)
+		{
+			SRZ_RPNet.SendToPlayer(playerId, "You can't transfer more than 100000 roubles at once.");
+			return;
+		}
+
+		PlayerManager pm = GetGame().GetPlayerManager();
+		if (!pm)
+			return;
+
+		int targetId = FindPlayerByFullRPName(pm, targetName);
+		if (targetId <= 0)
+		{
+			SRZ_RPNet.SendToPlayer(playerId, string.Format("Player not found: %1", targetName));
+			return;
+		}
+
+		if (targetId == playerId)
+		{
+			SRZ_RPNet.SendToPlayer(playerId, "You can't send money to yourself.");
+			return;
+		}
+
+		IEntity senderEntity = GetMainEntity();
+		if (!senderEntity)
+		{
+			SRZ_RPNet.SendToPlayer(playerId, "[SRZ] You need to be spawned.");
+			return;
+		}
+
+		IEntity targetEntity = pm.GetPlayerControlledEntity(targetId);
+		if (!targetEntity)
+		{
+			SRZ_RPNet.SendToPlayer(playerId, string.Format("%1 is not currently spawned in.", targetName));
+			return;
+		}
+
+		// Proximity check - must be within 100 meters of the target.
+		float distance = vector.Distance(senderEntity.GetOrigin(), targetEntity.GetOrigin());
+		if (distance > 100)
+		{
+			SRZ_RPNet.SendToPlayer(playerId, string.Format("%1 is too far away. You must be within 100 meters.", targetName));
+			return;
+		}
+
+		ARMST_PLAYER_STATS_COMPONENT senderStats = ARMST_PLAYER_STATS_COMPONENT.Cast(senderEntity.FindComponent(ARMST_PLAYER_STATS_COMPONENT));
+		ARMST_PLAYER_STATS_COMPONENT targetStats = ARMST_PLAYER_STATS_COMPONENT.Cast(targetEntity.FindComponent(ARMST_PLAYER_STATS_COMPONENT));
+		if (!senderStats || !targetStats)
+			return;
+
+		int senderMoney = senderStats.GetValue();
+		if (senderMoney < amount)
+		{
+			SRZ_RPNet.SendToPlayer(playerId, string.Format("You need %1 roubles to send this. You only have %2.", amount, senderMoney));
+			return;
+		}
+
+		int targetMoney = targetStats.GetValue();
+
+		senderStats.SetValue(senderMoney - amount);
+		targetStats.SetValue(targetMoney + amount);
+
+		SRZ_RPNet.SendToPlayer(playerId, string.Format("Sent %1 roubles to %2. New balance: %3", amount, targetName, senderMoney - amount));
+		SRZ_RPNet.SendToPlayer(targetId, string.Format("You received %1 roubles from %2. New balance: %3", amount, pm.GetPlayerName(playerId), targetMoney + amount));
+	}
 }
+
 
 // Helper class for network operations
 class SRZ_RPNet
