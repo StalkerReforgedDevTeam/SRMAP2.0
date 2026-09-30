@@ -47,9 +47,14 @@ modded class ARMST_DIALOGS_COMPONENT
 		EnsureStockLoaded();
 
 		string key = GetStockKey(m_Actor, supplyPrefabName);
-		int currentStock = GetTraderStockLocal(supplyPrefabName);
-		if (currentStock < 0)
-			currentStock = 0;
+		int currentStock = 0;
+
+		if (m_mTraderStock.Contains(key))
+		{
+			currentStock = m_mTraderStock.Get(key);
+			if (currentStock < 0)
+				return;
+		}
 
 		int newStock = Math.Min(currentStock + amount, SRZ_SUPPLY_STOCK_CAP);
 		if (newStock == currentStock && m_mTraderStock.Contains(key))

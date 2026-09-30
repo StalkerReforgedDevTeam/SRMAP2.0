@@ -1,0 +1,200 @@
+EffectDef {
+ Version 2
+ Emitters {
+  EmitterDef Emitter_4 {
+   ShapeType Sphere
+   ShapeSize 0.2 0.2 0.2
+   ConeAngleMinDist 1.065
+   BirthRateRND 3.8
+   BirthRateVel 3.5
+   Offset 0 1.1 0
+   Angles 0 1 0
+   LodMin 0
+   LodMax 0
+   ParticleType Prefab
+   Prefab "{6D440210129C4234}Prefabs/Particles/Vegetation/Leaves/leaf_Alnus_glutinosa.et"
+   SizeMultiplier 2.2
+   SizeRND 0.3
+   CenterX 0.8
+   CenterY -0.33
+   CenterZ 0.92
+   RotMultiplier_3D 53.5 20.3 3.5
+   RotRND_3D 1 20 20
+   RandomRotationSpace 1
+   RandomRotDir 1
+   VelAngle 1
+   VelAngleCatchUp 0.69
+   Velocity 0
+   EnableCollisions 1
+   CollisionDistThresh 1.5
+   Friction 0.586
+   Spring 0
+   Lifetime 22.7
+   LifetimeRND 15.1
+   LifetimeVelFactor 2.781
+   Size {
+    0 0 0.113 0.593 0.802 0.551 1 0
+   }
+   EnableLight 1
+   MaxLV 2.118
+   RelativeLV 1
+   LightColorMast {
+    0.3395 0.2267 0.1373 0.1373
+   }
+  }
+  EmitterDef Emitter_1 {
+   ShapeType Box
+   ConeAngle 0 0 0
+   ConeAngleRndRange 0
+   MaxNum 8
+   BirthRate 1
+   BirthRateRND 5.5
+   BirthRateVel 6.8
+   Offset 0 -0.1 0
+   LodMin 0
+   LodMax 1
+   Material "{EB5D0C6C3FC17310}Particles/_Materials/Fluid/Water_Base_Splash_02.emat"
+   Prefab "{A8FFCD3F3697D77F}Prefabs/Editor/Lightning/LightningStrike.et"
+   SizeMultiplier 2.3
+   SizeRND 0.1
+   ScaleX 1
+   ScaleY 1
+   CenterZ -0.21
+   RotMultiplier_3D 53.5 524 3.5
+   RotRND_3D 615.5 115.7 101.9
+   RandomRotationSpace 1
+   RandomRotDir 1
+   RandomAngle 1
+   Velocity 0
+   AnimOnce 1
+   AnimFPS 24
+   LifetimeByAnim 1
+   Lifetime 4.1
+   LifetimeRND 0
+   Color {
+    0.6919 0.725 0.754 0.9256
+   }
+   Alpha {
+    0.2137 0.2331
+   }
+   Emissivity {
+    0.53 1
+   }
+   RotationSpeed {
+    0.097 0.976 0.489 1 0.753 1
+   }
+   Size {
+    0 0 0.113 0.593 0.433 1 0.802 0.551 1 0
+   }
+   AlphaMast {
+    0.0785 0.2485 0.351 0 0.6776 0.3758 0.9528 0 1 0.4364
+   }
+  }
+  EmitterDef Holl_14 {
+   MaxNum 1
+   Offset 0 -0.2 0
+   Material "{BD3E90CE52AE3628}armst/anomaly/dubel/Gravi/gravi.emat"
+   SizeMultiplier 2
+   Velocity 0
+   Size {
+    0.0011 1 0.1086 0.9474 0.4891 1 0.7531 0.9699 1 1
+   }
+   EmittingTime 20
+   EnableLight 1
+   MaxLV 2.824
+  }
+  EmitterDef Leaf_16 {
+   ConeAngleMinDist 139.765
+   MaxNum 33
+   BirthRate 10
+   LodMin 0
+   LodMax 0
+   ParticleType Prefab
+   Prefab "{6D440210129C4234}Prefabs/Particles/Vegetation/Leaves/leaf_Alnus_glutinosa.et"
+   SizeMultiplier 3.4
+   CenterX 1.35
+   RotMultiplier_3D 0 65 0
+   RandomRotDir 1
+   VelAngle 1
+   VelAngleCatchUp 0
+   Velocity 1
+   VelAffect 3.41
+   AirResistanceRND 20
+   WindInfluence 0.57
+   ParentVelRelToAir 1.81
+   GravityMultiplyRND 0.094
+   Lifetime 10
+   VelocityMast {
+    0.0183 0 0.1754 0 0.4516 0.0663
+   }
+  }
+  EmitterDef Holl_22 {
+   MaxNum 1
+   Offset 0 -0.2 0
+   LodMin 0
+   LodMax 0
+   Material "{1F365D304DD0FF8C}armst/anomaly/dubel/Gravi/gravi_EM.emat"
+   SizeMultiplier 1.4
+   SizeRND 0.4
+   Velocity 0
+   AnimFPS 18
+   Lifetime 12
+   Color {
+    0.0587 0.4936 0.4936 0.4936
+   }
+   Size {
+    0.0085 0.9899 0.1014 0.8858 0.2003 1 0.2984 0.8884 0.3993 1 0.4992 0.9039 0.6028 1 0.6991 0.8887 0.8001 1 0.9008 0.9182 1 1
+   }
+  }
+  EmitterDef Emitter_26 {
+   ShapeType Sphere
+   ShapeSize 0.1 0.1 0.1
+   MaxNum 20
+   BirthRate 43.4
+   BirthRateRND 25.4
+   BirthRateVel 14.7
+   LodMin 0
+   LodMax 0
+   Material "{B187125F2BB4CD43}Particles/_Materials/Fluid/Water_Ring_Anim.emat"
+   Prefab "{A3825F7D7E340D80}Prefabs/Particles/Debris/Stone/Dbr_Stone_03.et"
+   SizeMultiplier 0.8
+   SizeRND 1.2
+   RotRND 17.5
+   RotMultiplier_3D 53.5 524 3.5
+   RotRND_3D 615.5 115.7 101.9
+   VelAngle 1
+   Velocity 0
+   AnimFPS 30
+   LifetimeByAnim 1
+   Lifetime 8.5
+   LifetimeRND 2.2
+   LifetimeShortening 0
+   Color {
+    0.2071 1 1 1
+   }
+   Alpha {
+    0.1796 0.0376
+   }
+   Emissivity {
+    0.0738 1
+   }
+   RotationSpeed {
+    0.097 0.976 0.511 0.21 0.753 1
+   }
+   Size {
+    0 0 0.113 0.593 0.802 0.551 1 0
+   }
+   AlphaMast {
+    0.199 1
+   }
+   LightColorMast {
+    0.2087 1 1 1
+   }
+  }
+ }
+ CollisionPreset "{5D9EE44C68755DF5}"
+ LightOffset 0 0.3 0
+ LightClipEV -4.615
+ LightRadius 3
+ CastShadow 1
+}
