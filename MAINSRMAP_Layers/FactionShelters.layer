@@ -353,6 +353,563 @@ $grp GenericEntity {
   angles -0.028 0.104 -15
   scale 5.168
  }
+ {
+  components {
+   MeshObject "{6A7CD81E4A8EDC5F}" {
+    Object "{6225F32E5CAC127C}Assets/Weapons/MachineGuns/PKM/PKM_body.xob"
+   }
+  }
+  coords 1267.887 299.794 1342.922
+  angles 10 0 0
+ }
+ {
+  components {
+   MeshObject "{6A7CD81E4A8EDC5F}" {
+    Object "{6225F32E5CAC127C}Assets/Weapons/MachineGuns/PKM/PKM_body.xob"
+   }
+  }
+  coords 1268.293 299.794 1342.991
+  angles 10 0 0
+ }
+ {
+  components {
+   MeshObject "{6A7CD819F28005A5}" {
+    Object "{3FEA69583FF46E3F}Assets/Weapons/Launchers/RPG7/RPG7_body.xob"
+   }
+  }
+  coords 1268.631 299.764 1343.048
+  angles -1.857 21.419 88.386
+ }
+ {
+  components {
+   MeshObject "{6A7CD8197BF44109}" {
+    Object "{BA5449C606206A19}Assets/Weapons/Rifles/AK74/AK74_body.xob"
+   }
+  }
+  coords 1268.648 298.526 1343.155
+  angles 0.031 178.433 -88.876
+ }
+ {
+  components {
+   MeshObject "{6A7CD8197BF44109}" {
+    Object "{BA5449C606206A19}Assets/Weapons/Rifles/AK74/AK74_body.xob"
+   }
+  }
+  coords 1268.384 298.521 1343.102
+  angles -0.177 -170.964 -88.89
+ }
+ {
+  components {
+   MeshObject "{6A7CD8197BF44109}" {
+    Object "{BA5449C606206A19}Assets/Weapons/Rifles/AK74/AK74_body.xob"
+   }
+  }
+  coords 1268.17 298.517 1343.345
+  angles 0.089 175.468 -88.879
+ }
+ {
+  components {
+   MeshObject "{6A7CD81960E4EB4E}" {
+    Object "{DBB4CBF206BDFB3C}Assets/Weapons/Rifles/SVD/SVD_body.xob"
+   }
+  }
+  coords 1267.75 298.531 1342.957
+  angles 0 -33.251 -90
+ }
+ {
+  components {
+   MeshObject "{6A7CD818B79851EC}" {
+    Object "{8AE043F1A5E268F5}Assets/Weapons/Magazines/AK74/Magazine_30rnd_AK74.xob"
+   }
+  }
+  coords 1268.123 298.527 1342.815
+  angles 0.11 -10.853 90.575
+ }
+ {
+  components {
+   MeshObject "{6A7CD818B79851EC}" {
+    Object "{8AE043F1A5E268F5}Assets/Weapons/Magazines/AK74/Magazine_30rnd_AK74.xob"
+   }
+  }
+  coords 1268.085 298.529 1342.956
+  angles 0 0 -90
+ }
+ {
+  components {
+   MeshObject "{6A7CD818B79851EC}" {
+    Object "{8AE043F1A5E268F5}Assets/Weapons/Magazines/AK74/Magazine_30rnd_AK74.xob"
+   }
+  }
+  coords 1268.559 298.522 1342.792
+  angles 0.581 -82.621 90.075
+ }
+ {
+  components {
+   MeshObject "{6A7CD818B79851EC}" {
+    Object "{8AE043F1A5E268F5}Assets/Weapons/Magazines/AK74/Magazine_30rnd_AK74.xob"
+   }
+  }
+  coords 1268.084 298.526 1343.139
+  angles -0.514 61.392 90.281
+ }
+ {
+  components {
+   MeshObject "{6A7CD81899299A88}" {
+    Object "{10D7B743E0A06735}Assets/Weapons/Magazines/SVD/Magazine_10rnd_SVD.xob"
+   }
+  }
+  coords 1267.604 298.525 1343.345
+  angles 0 -58.2 -90
+ }
+ {
+  components {
+   MeshObject "{6A7CD81899299A88}" {
+    Object "{10D7B743E0A06735}Assets/Weapons/Magazines/SVD/Magazine_10rnd_SVD.xob"
+   }
+  }
+  coords 1267.686 298.525 1343.204
+  angles 0 -25.107 -90
+ }
+ {
+  components {
+   MeshObject "{6A7CD818E6C4F84B}" {
+    Object "{0A614AE28850F9BA}Assets/Weapons/Grenades/RDG2/Smoke_RDG2.xob"
+   }
+  }
+  coords 1267.062 298.604 1343.669
+ }
+ {
+  components {
+   MeshObject "{6A7CD818E5176943}" {
+    Object "{0A614AE28850F9BA}Assets/Weapons/Grenades/RDG2/Smoke_RDG2.xob"
+   }
+  }
+  coords 1267.01 298.603 1343.748
+ }
+ {
+  components {
+   MeshObject "{6A7CD818D840E4B3}" {
+    Object "{F4C76CC6740BD4A6}Assets/Weapons/Grenades/RGD5/Grenade_Rgd5.xob"
+   }
+  }
+  coords 1267.158 299.74 1343.711
+  angles -90 0 0
+ }
+ {
+  components {
+   MeshObject "{6A7CD818D840E4B3}" {
+    Object "{F4C76CC6740BD4A6}Assets/Weapons/Grenades/RGD5/Grenade_Rgd5.xob"
+   }
+  }
+  coords 1267.074 299.74 1343.774
+  angles 27.64 -134.533 90
+ }
+ {
+  components {
+   MeshObject "{6A7CD8181811BB44}" {
+    Object "{4DC72F26340F5CB4}Assets/Models/6b45/6b45.xob"
+    Materials {
+     MaterialAssignClass "{6A7CD8187D117D3E}" {
+      SourceMaterial "VEST_04"
+      AssignedMaterial "{C33F9D2B058068FC}Assets/Models/6b45/Data/Army_VEST_04.emat"
+     }
+    }
+   }
+  }
+  coords 1270.401 297.48 1342.344
+  angles 0 220 0
+ }
+ {
+  components {
+   MeshObject "{6A7CD8186A0FFB5B}" {
+    Object "{738AD9DC438B2527}armst/new_clothes/helmets/helm_altyn/helm_altyn_full.xob"
+   }
+  }
+  coords 1269.715 297.223 1342.43
+  angles 5.6 -140 0
+ }
+ {
+  components {
+   MeshObject "{6A7CD81BFF805B53}" {
+    Object "{BBB1E8BBF474DEBF}Assets/Models/Berill/BerillHelmet.xob"
+    Materials {
+     MaterialAssignClass "{6A7CD81BDC6B68AC}" {
+      SourceMaterial "gasmaskandfilter"
+      AssignedMaterial "{AA006AAE57F76560}Assets/Models/Berill/Data/SBU/gasmaskandfilter_SBU.emat"
+     }
+     MaterialAssignClass "{6A7CD81BDC6B689C}" {
+      SourceMaterial "helm"
+      AssignedMaterial "{338FED43CA9D3BA3}Assets/Textures/UKM TEXTURES/berril/helment/helm_2.emat"
+     }
+    }
+   }
+  }
+  coords 1269.528 297.052 1339.324
+  angles 20 -41.302 0
+ }
+ {
+  components {
+   MeshObject "{6A7CD81BFF805B53}" {
+    Object "{BBB1E8BBF474DEBF}Assets/Models/Berill/BerillHelmet.xob"
+    Materials {
+     MaterialAssignClass "{6A7CD81BDC6B68AC}" {
+      SourceMaterial "gasmaskandfilter"
+      AssignedMaterial "{AA006AAE57F76560}Assets/Models/Berill/Data/SBU/gasmaskandfilter_SBU.emat"
+     }
+     MaterialAssignClass "{6A7CD81BDC6B689C}" {
+      SourceMaterial "helm"
+      AssignedMaterial "{338FED43CA9D3BA3}Assets/Textures/UKM TEXTURES/berril/helment/helm_2.emat"
+     }
+    }
+   }
+  }
+  coords 1269.096 297.052 1339.372
+  angles 20 -41.302 0
+ }
+ {
+  components {
+   MeshObject "{6A7CD81A1955E78E}" {
+    Object "{5E65930A9C8A45C8}Assets/Models/HelmetCover/HelmetCover.xob"
+   }
+  }
+  coords 1268.918 297.09 1338.23
+  angles -29.897 5.207 0
+ }
+ {
+  components {
+   MeshObject "{6A7CD81A1955E78E}" {
+    Object "{5E65930A9C8A45C8}Assets/Models/HelmetCover/HelmetCover.xob"
+   }
+  }
+  coords 1268.626 297.09 1338.26
+  angles -29.897 5.207 0
+ }
+ {
+  components {
+   MeshObject "{6A7CD8157D1DF5F7}" {
+    Object "{5043F460C7AF4BD4}Assets/Props/Military/AmmoBox/AmmoBox_545x39_2160rnd/AmmoBox_545x39_2160rnd.xob"
+   }
+  }
+  coords 1267.203 298.512 1342.895
+ }
+ {
+  components {
+   MeshObject "{6A7CD8157D1DF5F7}" {
+    Object "{5043F460C7AF4BD4}Assets/Props/Military/AmmoBox/AmmoBox_545x39_2160rnd/AmmoBox_545x39_2160rnd.xob"
+   }
+  }
+  coords 1267.203 298.663 1342.895
+ }
+ {
+  components {
+   MeshObject "{6A7CD8157D1DF5F7}" {
+    Object "{5043F460C7AF4BD4}Assets/Props/Military/AmmoBox/AmmoBox_545x39_2160rnd/AmmoBox_545x39_2160rnd.xob"
+   }
+  }
+  coords 1267.203 298.817 1342.895
+ }
+ {
+  components {
+   MeshObject "{6A7CD8155DF1F87F}" {
+    Object "{250B64167B3A6475}Assets/Items/Food/MRE_01.xob"
+   }
+  }
+  coords 1266.846 298.512 1339.261
+ }
+ {
+  components {
+   MeshObject "{6A7CD8155CE0E2E6}" {
+    Object "{250B64167B3A6475}Assets/Items/Food/MRE_01.xob"
+   }
+  }
+  coords 1267.125 298.513 1339.239
+  angles 0 68.94 0
+ }
+ {
+  components {
+   MeshObject "{6A7CD8154F45D15D}" {
+    Object "{555778CE41A8A9F6}armst/items/Foods/canteen.xob"
+   }
+  }
+  coords 1267.472 298.512 1339.22
+ }
+ {
+  components {
+   MeshObject "{6A7CD8154E5D2F02}" {
+    Object "{555778CE41A8A9F6}armst/items/Foods/canteen.xob"
+   }
+  }
+  coords 1267.593 298.512 1339.219
+ }
+ {
+  components {
+   MeshObject "{6A7CD8154D44B41F}" {
+    Object "{555778CE41A8A9F6}armst/items/Foods/canteen.xob"
+   }
+  }
+  coords 1267.726 298.512 1339.255
+ }
+ {
+  components {
+   MeshObject "{6A7CD8154BBD28E7}" {
+    Object "{555778CE41A8A9F6}armst/items/Foods/canteen.xob"
+   }
+  }
+  coords 1267.494 298.512 1339.316
+ }
+ {
+  components {
+   MeshObject "{6A7CD8148B6ED1ED}" {
+    Object "{8838D0FE9D8142AE}Assets/Items/Equipment/Binoculars/Binoculars_B8/Binoculars_B8.xob"
+   }
+  }
+  coords 1266.517 298.789 1334.943
+  angles -0.618 -26.65 -0.338
+ }
+ {
+  components {
+   MeshObject "{6A7CD8148211E192}" {
+    Object "{AEF2F66D9E4613B9}Assets/Props/Military/MilitaryCrates/CrateStack_01/Dst/CrateStack_01_dst_1_debris_01.xob"
+   }
+  }
+  coords 1266.449 298.513 1334.803
+  angles 0 -65.145 0
+ }
+ {
+  components {
+   MeshObject "{6A7CD814E691F919}" {
+    Object "{F8F5987B2F00B43D}armst/items/detectors/Radon/Radon_lod.xob"
+   }
+  }
+  coords 1266.609 298.79 1335.197
+  angles 0 -68.229 0
+ }
+ {
+  components {
+   MeshObject "{6A7CD814DD72AD3B}" {
+    Object "{8E82B79D0ACC50BE}armst/items/pda/pda_ground2.xob"
+   }
+  }
+  coords 1266.221 298.513 1335.156
+  angles 0 -83.085 0
+ }
+ {
+  components {
+   MeshObject "{6A7CD814D97E9DD7}" {
+    Object "{463B352EDDAA5173}armst/items/pda/pda_ground.xob"
+   }
+  }
+  coords 1266.256 298.513 1335.319
+ }
+ {
+  components {
+   MeshObject "{6A7CD814364A1DF0}" {
+    Object "{22E1D76D80258FE3}Assets/Items/Medicine/Aspirin_01/Aspirin_01.xob"
+   }
+  }
+  coords 1268.75 298.513 1338.126
+  angles 0 -148.607 0
+ }
+ {
+  components {
+   MeshObject "{6A7CD814364A1DF0}" {
+    Object "{22E1D76D80258FE3}Assets/Items/Medicine/Aspirin_01/Aspirin_01.xob"
+   }
+  }
+  coords 1268.661 298.513 1338.181
+  angles 0 -148.607 0
+ }
+ {
+  components {
+   MeshObject "{6A7CD814364A1DF0}" {
+    Object "{22E1D76D80258FE3}Assets/Items/Medicine/Aspirin_01/Aspirin_01.xob"
+   }
+  }
+  coords 1268.663 298.513 1338.054
+  angles 0 -148.607 0
+ }
+ {
+  components {
+   MeshObject "{6A7CD8140F7412BD}" {
+    Object "{7B5BE39C4C7A90F0}armst/items/medkit/AI.xob"
+   }
+  }
+  coords 1269.919 298.703 1338.111
+ }
+ {
+  components {
+   MeshObject "{6A7CD8140CC8B065}" {
+    Object "{2DD646A482076162}armst/items/medkit/AI_open.xob"
+   }
+  }
+  coords 1270.066 298.707 1338.017
+  angles 0 -149.195 0
+ }
+ {
+  components {
+   MeshObject "{6A7CD814039FF1B3}" {
+    Object "{EA9BF8571444FA3E}armst/items/Medicine/cigaret_belomorcanal.xob"
+   }
+  }
+  coords 1268.568 298.512 1338.09
+  angles 0 176.367 0
+ }
+ {
+  components {
+   MeshObject "{6A7CD81474ED2180}" {
+    Object "{C6F0D02B7714BE04}armst/items/lighter/Ligher_inv.xob"
+   }
+  }
+  coords 1268.559 298.512 1338.143
+ }
+ {
+  components {
+   MeshObject "{6A7CD8145E8597DB}" {
+    Object "{F73F7340E76421C0}armst/items/sprice/shpric_red.xob"
+   }
+  }
+  coords 1268.976 298.962 1338.292
+  angles 0 -16.614 0
+ }
+ {
+  components {
+   MeshObject "{6A7CD8145DA3896A}" {
+    Object "{2AD5BA476F47BE4A}armst/items/sprice/shpric_alternative.xob"
+   }
+  }
+  coords 1268.943 298.962 1338.241
+  angles 0 -41.724 0
+ }
+ {
+  components {
+   MeshObject "{6A7CD8145D57E7BA}" {
+    Object "{F73F7340E76421C0}armst/items/sprice/shpric_red.xob"
+   }
+  }
+  coords 1269.01 298.962 1338.222
+  angles 0 26.122 0
+ }
+ {
+  components {
+   MeshObject "{6A7CD8144ACB9BA2}" {
+    Object "{A85D414EF4DCC2AC}Assets/Items/Medicine/Gauze_02/Gauze_02_bandage.xob"
+   }
+  }
+  coords 1269.213 298.962 1338.333
+ }
+ {
+  components {
+   MeshObject "{6A7CD817963DEFAB}" {
+    Object "{46CC8AAA5C2453DE}Assets/Items/Equipment/Backpacks/Backpack_RPG_Gunner/Backpack_RPG_Gunner_item.xob"
+   }
+  }
+  coords 1269.261 300.912 1343.274
+  angles 0 66.865 0
+ }
+ {
+  components {
+   MeshObject "{6A7CD817FE15D407}" {
+    Object "{77C9FCF3FB1246E9}Assets/Items/Equipment/Radios/Radio_R107M/Radio_R107M_01_item.xob"
+   }
+  }
+  coords 1269.573 300.912 1334.793
+ }
+ {
+  components {
+   MeshObject "{6A7CD817ED1E6134}" {
+    Object "{79CA5DD14C0940E9}Assets/Items/Equipment/Kits/MedicalKit_01/MedicalKit_01.xob"
+   }
+  }
+  coords 1268.626 298.513 1338.46
+  angles 0 -140.714 0
+ }
+ {
+  components {
+   MeshObject "{6A7CD817FE15D407}" {
+    Object "{77C9FCF3FB1246E9}Assets/Items/Equipment/Radios/Radio_R107M/Radio_R107M_01_item.xob"
+   }
+  }
+  coords 1268.991 300.912 1334.793
+  angles 0 -53.567 0
+ }
+ {
+  components {
+   MeshObject "{6A7CD817D1604D4E}" {
+    Object "{5561998DBFCF39F9}Assets/Items/Equipment/Kits/RearmingKit_01/RearmingKit_01_USSR.xob"
+   }
+  }
+  coords 1269.309 298.513 1343.415
+  angles 0 5.915 0
+ }
+ {
+  components {
+   MeshObject "{6A7CD817388CC396}" {
+    Object "{5299181D139439F9}Assets/Weapons/Flares/RSP30/Flare_RSP30.xob"
+   }
+  }
+  coords 1269.149 298.513 1343.041
+ }
+ {
+  components {
+   MeshObject "{6A7CD8173705B51C}" {
+    Object "{5299181D139439F9}Assets/Weapons/Flares/RSP30/Flare_RSP30.xob"
+   }
+  }
+  coords 1269.131 298.513 1342.946
+ }
+ {
+  components {
+   MeshObject "{6A7CD8174DD59A0F}" {
+    Object "{8B532B0C912902CE}Assets/Weapons/Ammo/Grenades/VOG25/VOG25.xob"
+   }
+  }
+  coords 1267.041 299.729 1343.649
+  angles 0 -58.869 0
+ }
+ {
+  components {
+   MeshObject "{6A7CD8174DD59A0F}" {
+    Object "{8B532B0C912902CE}Assets/Weapons/Ammo/Grenades/VOG25/VOG25.xob"
+   }
+  }
+  coords 1267.041 299.729 1343.55
+  angles 0 16.203 0
+ }
+ {
+  components {
+   MeshObject "{6A7CD8174DD59A0F}" {
+    Object "{8B532B0C912902CE}Assets/Weapons/Ammo/Grenades/VOG25/VOG25.xob"
+   }
+  }
+  coords 1266.988 299.729 1343.54
+ }
+ {
+  components {
+   MeshObject "{6A7CD8174DD59A0F}" {
+    Object "{8B532B0C912902CE}Assets/Weapons/Ammo/Grenades/VOG25/VOG25.xob"
+   }
+  }
+  coords 1267.015 299.729 1343.457
+  angles 0 -107.46 0
+ }
+ {
+  components {
+   MeshObject "{6A7CD816F21E26A9}" {
+    Object "{8D45E556F15948E3}Assets/Weapons/Magazines/RPG7/Rocket_PG7VL_item.xob"
+   }
+  }
+  coords 1270.216 300.947 1343.131
+  angles 2 83.901 0
+ }
+ {
+  components {
+   MeshObject "{6A7CD816F21E26A9}" {
+    Object "{8D45E556F15948E3}Assets/Weapons/Magazines/RPG7/Rocket_PG7VL_item.xob"
+   }
+  }
+  coords 1270.097 300.951 1343.255
+  angles 2 83.901 0
+ }
 }
 $grp LightEntity {
  LIGHT_FLUO_SPOT_60 {
@@ -499,13 +1056,23 @@ GenericEntity : "{0B47366F8FBBAA29}Prefabs/Military/Compositions/USSR/ArsenalBox
  coords 5639.645 302.23 35.821
  angles 0 -90 0
 }
+GenericEntity : "{11E588E215EBCF23}Prefabs/Props/Military/SupplyBox/SupplyCrate/SupplyCrate_01/SupplyCrate_01_Vehicle.et" {
+ coords 1267.84 300.912 1338.81
+ angles 0 97.835 0
+}
 $grp GenericEntity : "{159BADC74896B7D6}Prefabs/Props/Military/AmmoBoxes/USSR/EquipmentBoxWooden_Explosives_01_USSR.et" {
  {
-  coords 1269.522 302.111 1334.736
+  coords 1267.337 302.111 1343.455
+  angles 0 -82.904 0
  }
  {
-  coords 1269.093 302.111 1334.419
+  coords 1267.263 302.111 1342.855
+  angles 0 -103.478 0
  }
+}
+GenericEntity : "{174E332EF84362B2}Prefabs/Props/Industrial/ToolBox_01/ToolBox_01_base.et" {
+ coords 1268.126 298.513 1334.477
+ angles 0 -81.337 0
 }
 $grp GenericEntity : "{1A1020205E2B1710}Prefabs/Props/Military/Furniture/TableMilitary_USSR_01.et" {
  {
@@ -644,12 +1211,17 @@ $grp GenericEntity : "{34AD2F398FDFE5B3}Prefabs/Props/Military/AmmoBoxes/Equipme
   coords 1267.833 300.912 1343.089
  }
  {
-  coords 1269.889 298.098 1340.834
+  coords 1270.124 298.098 1340.655
+  angles 0 -85 0
  }
 }
 GenericEntity : "{3532649D6B93B0D9}Prefabs/Structures/Civilian/SportGrounds/PlaygroundSlide_01.et" {
  coords 5507.5 301.727 58
  angles 0 90 0
+}
+GenericEntity : "{36D873BC68DC0215}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/Dst/CrateStack_01_Dst_3_NoDecal.et" {
+ coords 1267.419 299.713 1338.81
+ angles 0 15 0
 }
 GenericEntity : "{388B774519BD6294}Prefabs/Props/Wrecks/T62_wreck/T62_wreck.et" {
  coords 1355.235 289.816 1326.981
@@ -663,8 +1235,83 @@ SCR_DestructibleEntity : "{47F1F31525B3171C}PrefabLibrary/DefaultLibrary/Walls/C
  coords 1208.886 0 1341.935
  angles 0 3.26 0
 }
+GenericEntity : "{48E539E1147B35FB}Prefabs/Compositions/Misc/SubCompositions/PalletMRE_US_01.et" {
+ coords 1267.307 298.512 1338.673
+ angles 0 90 0
+}
 GameEntity : "{4A8E4CF3C9155C53}Prefabs/Props/Military/Misc/GroundCrew_01_Trolley/GroundCrew_01_Trolley_Green_wHolders.et" {
  coords 1262.002 298.128 1345.104
+}
+$grp GenericEntity : "{4BC3BE99653BECCE}Prefabs/Props/Industrial/ToolBox_02/ToolBox_02_lightblue.et" {
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{6A7CD814A3C42947}" {
+      SourceMaterial "ToolBox_02"
+      AssignedMaterial "{02F4709CF8595292}Assets/Props/Industrial/ToolBox_02/Data/ToolBox_Helmet.emat"
+     }
+    }
+   }
+  }
+  coords 1267.703 298.512 1334.99
+  angles 0 34.684 0
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{6A7CD814A7133719}" {
+      SourceMaterial "ToolBox_02"
+      AssignedMaterial "{D082FA92F3338892}Assets/Props/Industrial/ToolBox_02/Data/ToolBox_Clothes.emat"
+     }
+    }
+   }
+  }
+  coords 1267.691 298.513 1334.511
+  angles 0 -84.461 0
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{6A7CD814A27B835D}" {
+      SourceMaterial "ToolBox_02"
+      AssignedMaterial "{17E1D51CC4EA7BC1}Assets/Props/Industrial/ToolBox_02/Data/ToolBox_Weapons.emat"
+     }
+    }
+   }
+  }
+  coords 1267.246 298.513 1334.958
+  angles 0 27.269 0
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{6A7CD814A564D4A4}" {
+      SourceMaterial "ToolBox_02"
+      AssignedMaterial "{A512271C054CEB21}Assets/Props/Industrial/ToolBox_02/Data/ToolBox_Gasmask.emat"
+     }
+    }
+   }
+  }
+  coords 1267.195 298.513 1334.526
+  angles 0 -26.208 0
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{6A7CD814A8D8F39E}" {
+      SourceMaterial "ToolBox_02"
+      AssignedMaterial "{69678FDEC0273F4C}Assets/Props/Industrial/ToolBox_02/Data/ToolBox_Armor.emat"
+     }
+    }
+   }
+  }
+  coords 1267.256 298.512 1334.204
+ }
 }
 SCR_DestructibleBuildingEntity : "{4D6D06CAD0439114}Prefabs/Structures/Cultural/Fountains/Fountain_01.et" {
  coords 5508 0.128 64
@@ -702,6 +1349,10 @@ GenericEntity : "{6E84387991C01C6D}Prefabs/Props/Military/Training/Obstacles/Obs
 }
 GenericEntity : "{6FB18A7B32767402}Prefabs/Structures/Civilian/SportGrounds/PlaygroundClimber_02.et" {
  coords 5513 301.779 62
+}
+GenericEntity : "{7030822F7A54F479}Prefabs/Props/Crates/CrateWooden_01_base.et" {
+ coords 1266.911 299.713 1334.674
+ angles 0 95 0
 }
 GenericEntity : "{70837F44CD03FD05}Prefabs/Props/Military/AmmoBoxes/USSR/EquipmentBoxWooden_Medical_01_USSR.et" {
  coords 1269.324 298.512 1338.211
@@ -836,6 +1487,9 @@ $grp SCR_DestructibleBuildingEntity : "{7720B78DED8FAB50}Prefabs/Perimetr/wall_p
   scale 1.243
  }
 }
+GenericEntity armst_itm_strotage_medkit_6A7CD8142269653F : "{848A45373A380A8D}Prefabs/Items/Deployable/new/strotage/armst_itm_strotage_medkit.et" {
+ coords 1270.016 298.512 1338.055
+}
 $grp GenericEntity : "{8703D964AC15EA53}PrefabsEditable/E_Identity_Selector.et" {
  {
   coords 5596.606 304.756 80.301
@@ -870,7 +1524,7 @@ GenericEntity : "{8C7C140EEB0ECF36}Prefabs/Props/Military/AmmoBoxes/USSR/Equipme
  coords 1269.287 299.713 1338.741
 }
 GenericEntity : "{92F3D49676C8CB61}Prefabs/Props/Military/AmmoBoxes/USSR/EquipmentBoxWooden_Launcher_01_USSR.et" {
- coords 1268.201 302.111 1334.786
+ coords 1269.929 300.912 1342.775
 }
 SCR_DestructibleEntity : "{95A1D31077D47BEA}PrefabLibrary/DefaultLibrary/Walls/Concrete/ConcreteWall_01_Pole.et" {
  coords 1214.874 0 1341.596
@@ -1311,6 +1965,9 @@ $grp SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core
 GenericEntity : "{AB7C01A5B2F98281}Prefabs/Military/Compositions/USSR/ArsenalBox_FREEDOM.et" {
  coords 5637.396 302.222 42.381
 }
+GenericEntity : "{ACE75F726BCC4944}Prefabs/Props/Military/SupplyBox/SupplyCrate/SupplyCrate_01/SupplyCrate_01_storage_base.et" {
+ coords 1266.96 300.912 1338.878
+}
 $grp ARMST_TRIGGER_PSY : "{AD2A5D5A436A2E49}Prefabs/Anomals/Psy/ARMST_PSY.et" {
  {
   coords 1466.574 318.537 2166.68
@@ -1465,6 +2122,9 @@ GenericEntity : "{D8AE29ACE1733592}Prefabs/Military/Compositions/USSR/ArsenalBox
 GenericEntity : "{E42D5D871E203268}Prefabs/Military/Compositions/USSR/ArsenalBox_MERC.et" {
  coords 5635.177 302.225 34.889
 }
+GenericEntity : "{E4416C4C6938BEEE}Prefabs/Props/Crates/CrateWooden_02/CrateWooden_02_1x1x1.et" {
+ coords 1269.323 300.912 1338.551
+}
 $grp GameEntity : "{E7FD0B8019E96F73}Prefabs/Structures/BuildingParts/Lights/LampTower_01.et" {
  {
   components {
@@ -1540,7 +2200,7 @@ $grp GameEntity : "{E7FD0B8019E96F73}Prefabs/Structures/BuildingParts/Lights/Lam
  }
 }
 GenericEntity : "{EC0546F8F656FBEF}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/USSR/EquipmentBoxStack_USSR_01_V3.et" {
- coords 1265.642 298.128 1338.97
+ coords 1265.715 298.128 1338.97
 }
 $grp StaticModelEntity : "{EC478E1FDB403908}Prefabs/Structures/Walls/BarbedWire/BarbedTape_01/BarbedTape_01_Triple_noStake.et" {
  {
