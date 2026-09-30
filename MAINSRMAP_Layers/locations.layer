@@ -1570,6 +1570,14 @@ $grp StaticModelEntity : "{01AE5FD77A9A4C21}Prefabs/Structures/Military/Camps/Te
   coords 1462.377 298.794 1337.449
   angles -7.018 -86.354 0
  }
+ {
+  coords 3044.584 304.702 2711.575
+  angles 0 49.646 0
+ }
+ {
+  coords 4948.173 307.544 1012.217
+  angles -2.23 -158.254 13.768
+ }
 }
 SCR_DestructibleBuildingEntity : "{01E6EBFBB841F647}Prefabs/Industrial/lesa_003.et" {
  coords 3384.702 305.576 2030.165
@@ -53032,9 +53040,6 @@ $grp StaticModelEntity : "{39F7EE885940DC8F}Prefabs/Structures/Military/Fortific
   angles 0 69.502 0
  }
 }
-GenericEntity : "{39FFC65E0B390094}Prefabs/Systems/DeployableRadios/DeployableItemTentReplacementUSSR.et" {
- coords 3045.169 304.603 2706.69
-}
 GameEntity : "{3A3F0E0AC9C63E10}Prefabs/Method/Props/Camps/Fireplace_Loiters_Burned house_03.et" {
  coords 3081.612 304.702 2530.631
  angles 0 176.572 0
@@ -92413,18 +92418,8 @@ $grp GenericEntity : "{6105032F794BA64B}Prefabs/Props/Civilian/LogChopping_01.et
   scale 0.919
  }
 }
-$grp GenericEntity : "{6122E6E5C5B3A9FB}Prefabs/Systems/DeployableRadios/DeployableItemTentReplacementUS.et" {
- {
-  angles -7.018 -86.354 0
- }
- {
-  coords 4948.173 307.544 1012.217
-  angles -2.23 -158.254 13.768
- }
- {
-  coords 3044.584 304.702 2711.575
-  angles 0 49.646 0
- }
+GenericEntity : "{6122E6E5C5B3A9FB}Prefabs/Systems/DeployableRadios/DeployableItemTentReplacementUS.et" {
+ angles -7.018 -86.354 0
 }
 $grp SCR_DestructibleBuildingEntity : "{613369532419BCDA}Prefabs/Structures/Houses/Prefabricated/ApartmentPrefab_5I01/ApartmentPrefab_USSR_5I01_open_1.et" {
  {
@@ -107286,6 +107281,9 @@ $grp StaticModelEntity : "{75A7C06222E6218B}Prefabs/Structures/Military/Camps/Te
  {
   coords 1459.555 298.809 1331.724
   angles -5.791 0 -5.874
+ }
+ {
+  coords 3045.169 304.603 2706.69
  }
 }
 StaticModelEntity : "{75CB1C6E6129F779}Prefabs/Structures/Infrastructure/Naval/Houses/CottagePier_01/Dst/CottagePier_01_Ruin_base.et" {
@@ -179422,7 +179420,7 @@ SCR_DestructibleEntity : "{D242B6296793D56E}PrefabLibrary/DefaultLibrary/Walls/C
  coords 5063.041 0 1634.323
  angles 0 84.254 0
 }
-$grp GenericEntity : "{D27D3E7738F2E3AB}Prefabs/Scientists/Bunker_Modul_Small/bitovka_4mk.et" {
+$grp SCR_DestructibleBuildingEntity : "{D27D3E7738F2E3AB}Prefabs/Industrial/builds/bitovka_4mk.et" {
  {
   coords 1624.342 300.452 1505.252
   angles 0 -65.163 0
