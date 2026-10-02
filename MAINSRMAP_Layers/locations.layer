@@ -1,3 +1,44 @@
+$grp GameEntity {
+ {
+  coords 3641.716 300.796 1874.534
+ }
+ {
+  coords 2125.624 311.108 1741.334
+  angles 0 -12.153 0
+ }
+ {
+  coords 1696.29 300.423 1639.537
+ }
+ {
+  coords 1556.048 300.42 1655.613
+ }
+ {
+  coords 2532.932 294.751 1230.741
+ }
+ {
+  coords 2290.131 311.683 1322.662
+  angles 0 0 9.858
+ }
+ {
+  coords 2472.094 305.592 1301.153
+  angles 4.922 0.914 10.533
+ }
+ {
+  coords 3484.08 300.555 2319.587
+  angles 7.488 -1.007 -7.681
+ }
+ {
+  coords 2829.674 306.104 2639.479
+ }
+ {
+  coords 2858.337 305.99 2789.89
+  angles 0 138.005 0
+ }
+ {
+  coords 2908.454 305.99 2809.029
+  angles 0 71.06 0
+ }
+}
 $grp GenericEntity {
  {
   components {
@@ -170625,7 +170666,7 @@ $grp SCR_DestructibleEntity : "{C8A5C92E74ABB5EA}Prefabs/Props/Civilian/PicnicTa
   coords 995.886 -1.565 1603.91
   angles 0 -70 0
   {
-   GenericEntity : "{4BE33BD4C315C615}Prefabs/Props/Civilian/Ashtray_01_Full_base.et" {
+   GenericEntity {
     coords -0.046 0.897 0.183
     angles 0.065 46.236 0.068
    }
@@ -182576,47 +182617,6 @@ $grp GenericEntity : "{D96D0298723202BC}Prefabs/Compositions/Misc/SubComposition
     coords -0.024 0.5 -0.047
    }
   }
- }
-}
-$grp GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
- {
-  coords 3641.716 300.796 1874.534
- }
- {
-  coords 2125.624 311.108 1741.334
-  angles 0 -12.153 0
- }
- {
-  coords 1696.29 300.423 1639.537
- }
- {
-  coords 1556.048 300.42 1655.613
- }
- {
-  coords 2532.932 294.751 1230.741
- }
- {
-  coords 2290.131 311.683 1322.662
-  angles 0 0 9.858
- }
- {
-  coords 2472.094 305.592 1301.153
-  angles 4.922 0.914 10.533
- }
- {
-  coords 3484.08 300.555 2319.587
-  angles 7.488 -1.007 -7.681
- }
- {
-  coords 2829.674 306.104 2639.479
- }
- {
-  coords 2858.337 305.99 2789.89
-  angles 0 138.005 0
- }
- {
-  coords 2908.454 305.99 2809.029
-  angles 0 71.06 0
  }
 }
 GameEntity : "{D9842C11742C00D0}Prefabs/Props/Civilian/Fireplace_01.et" {
@@ -214130,10 +214130,6 @@ $grp GenericEntity : "{FEC4DAC172001095}Prefabs/Props/Naval/LifeBuoy_01_set.et" 
    }
   }
  }
-}
-SCR_DestructibleBuildingEntity : "{FEFC07EC71665D11}Prefabs/Houses/villages/village_big_house_base_7.et" {
- coords 2854.823 299.327 1140.514
- angles 0 -4.377 0
 }
 SCR_DestructibleBuildingEntity : "{FF1362C170CD4625}Prefabs/Structures/Military/Houses/Cafeteria_E_01/Cafeteria_E_01_white.et" {
  coords 3164.286 0 2694.183
