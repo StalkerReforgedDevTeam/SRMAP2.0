@@ -63,14 +63,13 @@ modded class ARMST_BasicSpawnLogic: EPF_BasicSpawnLogic
 			
 			
 			SRZ_RPNameProfileManager profileMgr = SRZ_RPNameProfileManager.GetInstance();
-	        if (!profileMgr)
-	            return;
-	
-	        string SRplayerName = profileMgr.GetNameForPlayer(playerId);
-				
-            if (SRplayerName)
-                name = SRplayerName;
-            
+			name = profileMgr.GetNameForPlayer(playerId);
+			if (name.IsEmpty())
+			{
+				profileMgr.SetNameForPlayer(playerId, SRZ_RPNameManager.GetInstance().GenerateRandomName(playerId));
+				name = profileMgr.GetNameForPlayer(playerId);
+			}
+
             if (m_mPlayerBiographies.Contains(playerId))
                 bio = m_mPlayerBiographies.Get(playerId);
 
@@ -84,9 +83,21 @@ modded class ARMST_BasicSpawnLogic: EPF_BasicSpawnLogic
             statsComponent.SetFactionKey(faction);
 			statsComponent.SR_SetRank(stalkerRank);
             
-            if (!head.IsEmpty())
+            if (!name.IsEmpty())
             {
                 statsComponent.ArmstPlayerSetName(name);
+
+                SRZ_RPNameCharacterComponent nameComp = SRZ_RPNameCharacterComponent.Cast(character.FindComponent(SRZ_RPNameCharacterComponent));
+                if (nameComp)
+                    nameComp.UpdateRPName(name);
+            }
+            else
+            {
+                Print(string.Format("[SRZ_SPAWNFIX] No RP name could be resolved for player %1 at handover.", playerId), LogLevel.WARNING);
+            }
+
+            if (!head.IsEmpty())
+            {
                 statsComponent.ArmstPlayerSetBiography(bio);
                 statsComponent.ArmstPlayerSetHead(head);
             }

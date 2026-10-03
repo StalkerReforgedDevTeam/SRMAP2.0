@@ -365,7 +365,7 @@ GenericEntity : "{262222CE328B0DAD}Prefabs/Vehicles/liaz2/base/BASE_liaz677_wrec
  coords 3596.406 300.255 1728.59
  angles 2.146 -128.815 -1.406
 }
-GenericEntity : "{267F0561BD2A8A64}Prefabs/Vehicles/azlk412/armst_azlk412_2_wreck.et" {
+SCR_DestructibleBuildingEntity : "{267F0561BD2A8A64}Prefabs/Vehicles/azlk412/armst_azlk412_2_wreck.et" {
  coords 3592.413 300.932 1781.727
  angles -1.003 157.366 0
  {
@@ -764,34 +764,6 @@ $grp GenericEntity : "{5E8A29DCCF68C5DD}Prefabs/destructible/wood_barricade_dest
 GenericEntity : "{620B107C6C933E4E}Prefabs/Vehicles/gaz53/armst_gaz53_box_open.et" {
  coords 3602.885 299.945 1680.154
  angles 0 169.513 0
-}
-GenericEntity : "{625787D8FEB15355}Prefabs/Structures/BuildingParts/Lights/LightIndustrial_02_on_interior.et" {
- coords 3604.635 306.92 1657.17
- angles -89.966 -4.405 0
- {
-  LightEntity {
-   ID "6512711B1DB82A9B"
-   coords 0.006 -0.013 0.521
-   ColorType Temperature
-   Color 1 0.2633 0 1
-   Temperature 2200
-   LV 3.48
-   Type Spot
-   Radius 100
-   SpotAngle 170
-   DistanceAttenuation 1.7
-  }
-  LightEntity {
-   ID "6512711B5DAC4F23"
-   ColorType Temperature
-   Color 1 0.2633 0 1
-   Temperature 2200
-   LV 5.37
-   Radius 100
-   SpotAngle 104.1
-   DistanceAttenuation 1.76
-  }
- }
 }
 GenericEntity : "{63A1520276F58E8D}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_EquipmentBoxStacked_Cluttered_US_01.et" {
  coords 3605.763 300.265 1614.591

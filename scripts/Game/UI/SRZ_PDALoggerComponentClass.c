@@ -46,6 +46,8 @@ class SRZ_PDALoggerComponent : SCR_BaseGameModeComponent
         if (!m_aPendingMessages)
             m_aPendingMessages = new array<string>();
 
+        sender = sender + ResolveSenderDetails(sender);
+
         message.Replace("\"", "");
         sender.Replace("\"", "");
 
@@ -57,6 +59,51 @@ class SRZ_PDALoggerComponent : SCR_BaseGameModeComponent
 
         m_aPendingMessages.Insert(entry);
         Print("[SRZ_PDALogger] Queued: " + entry, LogLevel.NORMAL);
+    }
+
+    //------------------------------------------------------------------------------------------------
+    protected string ResolveSenderDetails(string sender)
+    {
+        PlayerManager pm = GetGame().GetPlayerManager();
+        if (!pm)
+            return "";
+
+        SRZ_RPNameProfileManager profileMgr = SRZ_RPNameProfileManager.GetInstance();
+
+        array<int> playerIds = {};
+        pm.GetPlayers(playerIds);
+
+        int bestId = 0;
+        int bestLength = 0;
+        foreach (int pid : playerIds)
+        {
+            string rpName = profileMgr.GetNameForPlayer(pid);
+            if (rpName.IsEmpty() || rpName.Length() <= bestLength)
+                continue;
+
+            if (!sender.Contains(rpName))
+                continue;
+
+            bestId = pid;
+            bestLength = rpName.Length();
+        }
+
+        if (bestId <= 0)
+            return "";
+
+        string factionName = "Unknown";
+        IEntity entity = pm.GetPlayerControlledEntity(bestId);
+        if (entity)
+        {
+            ARMST_PLAYER_STATS_COMPONENT stats = ARMST_PLAYER_STATS_COMPONENT.Cast(entity.FindComponent(ARMST_PLAYER_STATS_COMPONENT));
+            if (stats)
+            {
+                factionName = typename.EnumToString(ARMST_FACTION_LABEL, stats.GetFactionKey());
+                factionName.Replace("FACTION_", "");
+            }
+        }
+
+        return string.Format(" (Gamertag: %1 | Faction: %2)", pm.GetPlayerName(bestId), factionName);
     }
 
     //------------------------------------------------------------------------------------------------
@@ -91,6 +138,7 @@ class SRZ_PDALoggerComponent : SCR_BaseGameModeComponent
         for (int j = 0; j < batchCount; j++)
             m_aPendingMessages.RemoveOrdered(0);
 
+        combinedContent.Replace("\\", "");
         combinedContent.Replace("\"", "");
         SendDiscordWebhook(webhookUrl, combinedContent);
     }

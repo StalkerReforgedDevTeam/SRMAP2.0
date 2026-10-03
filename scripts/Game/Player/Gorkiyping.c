@@ -6,8 +6,11 @@ class SRZ_DiscordPingTriggerEntity : ScriptedGameTriggerEntity
 	[Attribute("gorkiy", UIWidgets.EditBox, "Area name used in the ping message", category: "Discord")]
 	protected string m_sAreaName;
 
+	[Attribute("30", UIWidgets.EditBox, "Seconds a player must be out of the area before entering counts as a new visit and pings again", category: "Discord")]
+	protected int m_iReentryGapSec;
+
 	protected RplComponent m_RplComponent;
-	protected ref set<int> m_aPingedPlayerIds = new set<int>();
+	protected ref map<int, float> m_mLastSeenInside = new map<int, float>();
 
 	//------------------------------------------------------------------------------------------------
 	override void EOnInit(IEntity owner)
@@ -26,6 +29,10 @@ class SRZ_DiscordPingTriggerEntity : ScriptedGameTriggerEntity
 		if (!character)
 			return;
 
+		CharacterControllerComponent controller = character.GetCharacterController();
+		if (!controller || controller.GetLifeState() == ECharacterLifeState.DEAD)
+			return;
+
 		PlayerManager pm = GetGame().GetPlayerManager();
 		if (!pm)
 			return;
@@ -33,13 +40,6 @@ class SRZ_DiscordPingTriggerEntity : ScriptedGameTriggerEntity
 		int playerId = pm.GetPlayerIdFromControlledEntity(character);
 		if (playerId <= 0)
 			return;
-
-		// already pinged for this stay in the zone, ignore repeat activations
-		if (m_aPingedPlayerIds.Contains(playerId))
-			return;
-
-		string playerName = pm.GetPlayerName(playerId);
-		string rpName = playerName;
 
 		ARMST_PLAYER_STATS_COMPONENT stats = ARMST_PLAYER_STATS_COMPONENT.Cast(character.FindComponent(ARMST_PLAYER_STATS_COMPONENT));
 		if (stats)
@@ -49,38 +49,19 @@ class SRZ_DiscordPingTriggerEntity : ScriptedGameTriggerEntity
 				return;
 		}
 
-		SRZ_RPNameProfileManager profileMgr = SRZ_RPNameProfileManager.GetInstance();
-		if (profileMgr)
-		{
-			string storedName = profileMgr.GetNameForPlayer(playerId);
-			if (!storedName.IsEmpty())
-				rpName = storedName;
-		}
+		float now = GetGame().GetWorld().GetWorldTime();
+		float lastSeen;
+		bool wasInside = m_mLastSeenInside.Find(playerId, lastSeen) && (now - lastSeen) < m_iReentryGapSec * 1000;
+		m_mLastSeenInside.Set(playerId, now);
 
-		m_aPingedPlayerIds.Insert(playerId);
+		if (wasInside)
+			return;
+
+		string rpName = SRZ_RPNameProfileManager.GetInstance().GetNameForPlayer(playerId);
+		if (rpName.IsEmpty())
+			rpName = "An unknown stalker";
+
 		SendDiscordWebhook(rpName);
-	}
-
-	//------------------------------------------------------------------------------------------------
-	override void OnDeactivate(IEntity ent)
-	{
-		if (IsProxy())
-			return;
-
-		SCR_ChimeraCharacter character = SCR_ChimeraCharacter.Cast(ent);
-		if (!character)
-			return;
-
-		PlayerManager pm = GetGame().GetPlayerManager();
-		if (!pm)
-			return;
-
-		int playerId = pm.GetPlayerIdFromControlledEntity(character);
-		if (playerId <= 0)
-			return;
-
-		// clear so they ping again if they leave and re-enter
-		m_aPingedPlayerIds.RemoveItem(playerId);
 	}
 
 	//------------------------------------------------------------------------------------------------
@@ -103,7 +84,10 @@ class SRZ_DiscordPingTriggerEntity : ScriptedGameTriggerEntity
 		if (!ctx)
 			return;
 
-		string webhookUrl = "https://discord.com/api/webhooks/1528464951079997630/4UNq15Y_42YKHUucJbyXsvfXzwELZvLOLRMZ14naEt_YSuPKNJ4K_M2roPKuAkjPpm8U";
+		string webhookUrl = SRZ_KillfeedConfigManager.GetStringValue("m_sGorkiyWebhookURL", "");
+		if (webhookUrl.IsEmpty())
+			return;
+
 		string pathAndToken = "";
 		int apiPathIndex = webhookUrl.IndexOf("/api/webhooks/");
 		if (apiPathIndex != -1)
@@ -115,6 +99,7 @@ class SRZ_DiscordPingTriggerEntity : ScriptedGameTriggerEntity
 		ctx.SetHeaders("Content-Type,application/json");
 
 		string content = BuildMonolithMessage(rpName);
+		content.Replace("\\", "");
 		content.Replace("\"", "");
 
 		string body = "{ \"content\": \"" + content + "\" }";

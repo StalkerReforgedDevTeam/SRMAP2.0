@@ -29,6 +29,7 @@ modded class ARMST_RADIATIONSEntity
 	protected float m_fFilterDrainHigh;
 
 	protected ref map<IEntity, bool> m_mActiveOccupants = new map<IEntity, bool>();
+	protected ref set<IEntity> m_aTickPending = new set<IEntity>();
 
 	override void OnActivate(IEntity ent)
 	{
@@ -59,7 +60,12 @@ modded class ARMST_RADIATIONSEntity
 			return;
 
 		m_mActiveOccupants.Insert(ent, true);
-		ScheduleZoneTick(ent);
+
+		if (m_aTickPending.Contains(ent))
+			return;
+
+		ApplyZoneTick(ent);
+		QueueZoneTick(ent);
 	}
 
 	override void OnDeactivate(IEntity ent)
@@ -72,16 +78,30 @@ modded class ARMST_RADIATIONSEntity
 		m_mActiveOccupants.Remove(ent);
 	}
 
-	protected void ScheduleZoneTick(IEntity ent)
+	protected void QueueZoneTick(IEntity ent)
 	{
+		m_aTickPending.Insert(ent);
+		GetGame().GetCallqueue().CallLater(RunZoneTick, m_fZoneTickInterval * 1000, false, ent);
+	}
+
+	protected void RunZoneTick(IEntity ent)
+	{
+		m_aTickPending.RemoveItem(ent);
+
 		if (!ent)
 			return;
 
 		if (!m_mActiveOccupants.Contains(ent))
 			return;
 
+		if (!IsAlive(ent))
+		{
+			m_mActiveOccupants.Remove(ent);
+			return;
+		}
+
 		ApplyZoneTick(ent);
-		GetGame().GetCallqueue().CallLater(ScheduleZoneTick, m_fZoneTickInterval * 1000, false, ent);
+		QueueZoneTick(ent);
 	}
 
 	protected void ApplyZoneTick(IEntity ent)
