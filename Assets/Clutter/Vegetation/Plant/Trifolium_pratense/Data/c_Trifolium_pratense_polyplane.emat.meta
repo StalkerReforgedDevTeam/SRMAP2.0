@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{3B7C65C93448AAAB}Assets/Clutter/Vegetation/Plant/Trifolium_pratense/Data/c_Trifolium_pratense_polyplane.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+  EMATResourceClass Xbox : PC {
+  }
+ }
+}

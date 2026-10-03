@@ -1,0 +1,7 @@
+TerrainMaterial {
+ Color 0.337 0.256 0.123 1
+ SpecularIBL 0.332 0.22 0.031 1
+ DebugColor 0.169 0.337 0.212 1
+ MiddleColor 0.141 0.088 0.065 1
+ WetnessScale 0.61
+}

@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{9F5F836FA2C10978}Assets/Vegetation/Tree/Salix_Fragilis/Data/t_salix_fragilis_3s_trunk.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+  EMATResourceClass Xbox : PC {
+  }
+ }
+}

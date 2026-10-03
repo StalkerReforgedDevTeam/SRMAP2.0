@@ -1,30 +1,39 @@
-modded class SCR_EditableCharacterComponent
+modded class SCR_PlayerNamesFilterCache
 {
 	//------------------------------------------------------------------------------------------------
-	override string GetDisplayName()
+	override string GetPlayerDisplayName(int playerId)
 	{
-		int playerId = GetPlayerID();
-		if (playerId <= 0)
-			return super.GetDisplayName();
+		string displayName = super.GetPlayerDisplayName(playerId);
+
+		if (!SRZ_LocalViewerSeesRealNames())
+			return displayName;
 
 		PlayerManager pm = GetGame().GetPlayerManager();
 		if (!pm)
-			return super.GetDisplayName();
+			return displayName;
 
-		// Pull the real Gamertag directly, bypassing the ARMST-modded
-		// GetPlayerDisplayName (which returns the RP name instead of the Gamertag)
 		string gamertag = pm.GetPlayerName(playerId);
-		if (gamertag.IsEmpty())
-			return super.GetDisplayName();
+		if (gamertag.IsEmpty() || gamertag == displayName)
+			return displayName;
 
-		SRZ_RPNameProfileManager profileMgr = SRZ_RPNameProfileManager.GetInstance();
-		if (!profileMgr)
+		if (displayName.IsEmpty())
 			return gamertag;
 
-		string rpName = profileMgr.GetNameForPlayer(playerId);
-		if (rpName.IsEmpty())
-			return gamertag;
+		return string.Format("%1 (%2)", gamertag, displayName);
+	}
 
-		return string.Format("%1 (%2)", gamertag, rpName);
+	//------------------------------------------------------------------------------------------------
+	protected bool SRZ_LocalViewerSeesRealNames()
+	{
+		PlayerController pc = GetGame().GetPlayerController();
+		if (!pc)
+			return false;
+
+		PlayerManager pm = GetGame().GetPlayerManager();
+		if (pm && pm.HasPlayerRole(pc.GetPlayerId(), EPlayerRole.ADMINISTRATOR))
+			return true;
+
+		SCR_EditorManagerEntity editorManager = SCR_EditorManagerEntity.GetInstance();
+		return editorManager && !editorManager.IsLimited();
 	}
 }

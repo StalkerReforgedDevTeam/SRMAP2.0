@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{DBD6E77682A53479}Assets/Vegetation/Tree/Carpinus_Betulus/Data/t_carpinus_betulus_3s_bark.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+  EMATResourceClass Xbox : PC {
+  }
+ }
+}

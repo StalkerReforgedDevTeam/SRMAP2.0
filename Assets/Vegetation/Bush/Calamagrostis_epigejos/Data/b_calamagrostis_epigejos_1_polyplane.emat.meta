@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{53E53A27B87D0BEA}Assets/Vegetation/Bush/Calamagrostis_epigejos/Data/b_calamagrostis_epigejos_1_polyplane.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+  EMATResourceClass Xbox : PC {
+  }
+ }
+}

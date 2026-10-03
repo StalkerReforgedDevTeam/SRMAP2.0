@@ -45,10 +45,7 @@ class SRZ_RPNameProfileManager : Managed
 		
 		string name;
 		if (m_PlayerNames.Find(uid, name))
-		{
-			Print(string.Format("[SRZ_RP Profile] Found saved name for player %1 (UID: %2): %3", playerId, uid, name), LogLevel.NORMAL);
 			return name;
-		}
 		
 		return "";
 	}

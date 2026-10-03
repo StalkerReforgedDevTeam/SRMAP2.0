@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{A215C3B8DD5A6209}Assets/Vegetation/Bush/Calamagrostis_epigejos/Data/b_calamagrostis_epigejos_atlas_MLOD_aut.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+  EMATResourceClass Xbox : PC {
+  }
+ }
+}

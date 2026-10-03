@@ -902,10 +902,6 @@ $grp SCR_DestructibleBuildingEntity {
       }
       $grp GenericEntity : "{0DC4F830876C6671}Prefabs/Props/Furniture/Chair_02/Chair_02_green.et" {
        {
-        coords 15.823 0 -0.522
-        angles 0 -180 0
-       }
-       {
         coords -1.279 0 -1.07
         angles 0 -88.456 0
        }
@@ -920,9 +916,6 @@ $grp SCR_DestructibleBuildingEntity {
       }
       $grp GenericEntity : "{148E2BA12B48CFBA}Prefabs/Props/Furniture/PlantRoom_04.et" {
        {
-        coords 12.358 1 4.88
-       }
-       {
         coords -1.658 0.906 -2.052
        }
        {
@@ -930,9 +923,6 @@ $grp SCR_DestructibleBuildingEntity {
        }
        {
         coords -14.518 1.859 0.424
-       }
-       {
-        coords 16.812 1 -4.3
        }
        {
         coords -13.607 1 -2.323
@@ -993,33 +983,16 @@ $grp SCR_DestructibleBuildingEntity {
        coords 6.273 0.501 -1.951
        angles 0 -122.886 0
       }
-      $grp GenericEntity : "{313CC1F195E06A6E}Prefabs/Props/Furniture/TVSet_01.et" {
-       {
-        coords -13.777 0.7 0.647
-        angles 0 51.887 0
-       }
-       {
-        coords 12.967 1 4.704
-        angles 0 -180 0
-       }
+      GenericEntity : "{313CC1F195E06A6E}Prefabs/Props/Furniture/TVSet_01.et" {
+       coords -13.777 0.7 0.647
+       angles 0 51.887 0
       }
-      $grp GenericEntity : "{33882C61BA9F0F90}Prefabs/Props/Civilian/Globe_01.et" {
-       {
-        coords 16.842 1 -3.237
-        angles 0 -119.938 0
-       }
-       {
-        coords -13.681 1 -3.17
-        angles 0 -104.03 0
-       }
+      GenericEntity : "{33882C61BA9F0F90}Prefabs/Props/Civilian/Globe_01.et" {
+       coords -13.681 1 -3.17
+       angles 0 -104.03 0
       }
-      $grp GenericEntity : "{34C2F623958FCACE}Prefabs/Props/Civilian/Ashtray_01_Full_clear.et" {
-       {
-        coords 12.308 1 4.698
-       }
-       {
-        coords 7.384 1.003 -4.917
-       }
+      GenericEntity : "{34C2F623958FCACE}Prefabs/Props/Civilian/Ashtray_01_Full_clear.et" {
+       coords 7.384 1.003 -4.917
       }
       GenericEntity : "{39419B55C4CFD156}Prefabs/Props/Furniture/Wardrobe_02.et" {
        coords 9.406 0 -1.892
@@ -1116,10 +1089,6 @@ $grp SCR_DestructibleBuildingEntity {
       }
       $grp GenericEntity : "{641D6F151390FD47}Prefabs/Props/Furniture/PhoneTable_01_grey.et" {
        {
-        coords 13.509 1 4.494
-        angles 0 -164.22 0
-       }
-       {
         coords -2 0.7 4.787
         angles 0 149.133 0
        }
@@ -1144,27 +1113,6 @@ $grp SCR_DestructibleBuildingEntity {
        {
         coords 16.919 1.831 1.523
         angles 0 -90 0
-       }
-      }
-      GenericEntity : "{728DD36004461456}Prefabs/Props/Furniture/Cupboard_01/Cupboard_01_B.et" {
-       coords 12.194 0 5.102
-       angles 0 -180 0
-       {
-        GenericEntity : "{148E2BA12B48CFBA}Prefabs/Props/Furniture/PlantRoom_04.et" {
-         coords -0.164 1 0.222
-         angles 0 180 0
-        }
-        GenericEntity : "{313CC1F195E06A6E}Prefabs/Props/Furniture/TVSet_01.et" {
-         coords -0.773 1 0.398
-        }
-        GenericEntity : "{34C2F623958FCACE}Prefabs/Props/Civilian/Ashtray_01_Full_clear.et" {
-         coords -0.114 1 0.404
-         angles 0 180 0
-        }
-        GenericEntity : "{641D6F151390FD47}Prefabs/Props/Furniture/PhoneTable_01_grey.et" {
-         coords -1.315 1 0.608
-         angles 0 15.78 0
-        }
        }
       }
       $grp GenericEntity : "{7333D49764EE9D3E}Prefabs/Props/Furniture/Kitchen_01_blue.et" {
@@ -1319,49 +1267,25 @@ $grp SCR_DestructibleBuildingEntity {
         angles 0 -180 0
        }
       }
-      $grp GenericEntity : "{A319C11D446D88B3}Prefabs/Props/Furniture/Dresser_01.et" {
+      GenericEntity : "{A319C11D446D88B3}Prefabs/Props/Furniture/Dresser_01.et" {
+       coords -13.394 0 -2.103
+       angles 0 -90 0
        {
-        coords 17.001 0 -2.945
-        angles 0 -90 0
-        {
-         GenericEntity : "{148E2BA12B48CFBA}Prefabs/Props/Furniture/PlantRoom_04.et" {
-          coords -1.355 1 0.189
-          angles 0 90 0
-         }
-         GenericEntity : "{33882C61BA9F0F90}Prefabs/Props/Civilian/Globe_01.et" {
-          coords -0.292 1 0.159
-          angles 0 -29.938 0
-         }
-         GenericEntity : "{C2C1CEA73A4D8779}Prefabs/Props/Civilian/Notebook_01_Stack.et" {
-          coords -1.281 1 0.358
-          angles 0 -53.154 0
-         }
-         GenericEntity : "{E1EBAB390EB6BEF7}Prefabs/Props/Civilian/RadioSmall_USSR_01_black.et" {
-          coords -0.645 1 0.205
-          angles 0 0.079 0
-         }
+        GenericEntity : "{148E2BA12B48CFBA}Prefabs/Props/Furniture/PlantRoom_04.et" {
+         coords -0.22 1 0.213
+         angles 0 90 0
         }
-       }
-       {
-        coords -13.394 0 -2.103
-        angles 0 -90 0
-        {
-         GenericEntity : "{148E2BA12B48CFBA}Prefabs/Props/Furniture/PlantRoom_04.et" {
-          coords -0.22 1 0.213
-          angles 0 90 0
-         }
-         GenericEntity : "{33882C61BA9F0F90}Prefabs/Props/Civilian/Globe_01.et" {
-          coords -1.067 1 0.287
-          angles 0 -14.03 0
-         }
-         GenericEntity : "{641D6F151390FD47}Prefabs/Props/Furniture/PhoneTable_01_grey.et" {
-          coords -0.269 1 0.459
-          angles 0 -32.255 0
-         }
-         GenericEntity : "{876B096F32584485}Prefabs/Props/Civilian/FileOffice_01_Stack.et" {
-          coords -1.363 1 0.142
-          angles 0 -3.135 0
-         }
+        GenericEntity : "{33882C61BA9F0F90}Prefabs/Props/Civilian/Globe_01.et" {
+         coords -1.067 1 0.287
+         angles 0 -14.03 0
+        }
+        GenericEntity : "{641D6F151390FD47}Prefabs/Props/Furniture/PhoneTable_01_grey.et" {
+         coords -0.269 1 0.459
+         angles 0 -32.255 0
+        }
+        GenericEntity : "{876B096F32584485}Prefabs/Props/Civilian/FileOffice_01_Stack.et" {
+         coords -1.363 1 0.142
+         angles 0 -3.135 0
         }
        }
       }
@@ -1430,14 +1354,8 @@ $grp SCR_DestructibleBuildingEntity {
        coords 10.215 0 3.341
        angles 0 90 0
       }
-      $grp GenericEntity : "{C2C1CEA73A4D8779}Prefabs/Props/Civilian/Notebook_01_Stack.et" {
-       {
-        coords 16.643 1 -4.226
-        angles 0 -143.154 0
-       }
-       {
-        coords -1.678 1.73 -0.945
-       }
+      GenericEntity : "{C2C1CEA73A4D8779}Prefabs/Props/Civilian/Notebook_01_Stack.et" {
+       coords -1.678 1.73 -0.945
       }
       GenericEntity : "{C76C3AF337109066}Prefabs/Props/Crates/CardboardBoxStack_01.et" {
        coords -4.96 0 -0.591
@@ -1569,10 +1487,6 @@ $grp SCR_DestructibleBuildingEntity {
         coords 5.419 1.018 3.13
         angles 0 -68.991 0
        }
-       {
-        coords 16.796 1 -3.59
-        angles 0 -89.921 0
-       }
       }
       GenericEntity : "{FB482D1D1459459A}Prefabs/Props/Decorations/Paintings/PaintingSmall_02_V7.et" {
        coords -9.313 0.221 -1.839
@@ -1601,10 +1515,6 @@ $grp SCR_DestructibleBuildingEntity {
        }
       }
       $grp GenericEntity : "{FF8BD8E8A95DB3D2}Prefabs/Props/Furniture/Fridge_01.et" {
-       {
-        coords 13.692 0 5.106
-        angles 0 90 0
-       }
        {
         coords -1.989 0 -3.071
         angles 0 -179.198 0
@@ -2887,9 +2797,6 @@ $grp SCR_DestructibleBuildingEntity {
        }
        {
         coords 7.706 3.135 -3.233
-       }
-       {
-        coords 13.241 3.118 2.711
        }
        {
         coords 0.006 3.139 -2.895
