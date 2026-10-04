@@ -10,7 +10,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_SpawnCount 3
   m_CenterBias 0.5
   m_SpawnChance 60
-  m_SpawnChanceArtefactsRestart 25.99
+  m_SpawnChanceArtefactsRestart 19
   m_SpawnChanceArtefacts 20
  }
  JARKA_ANOMALY_4 {
@@ -24,7 +24,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_SpawnCount 3
   m_CenterBias 0.1
   m_SpawnChance 60
-  m_SpawnChanceArtefactsRestart 25.99
+  m_SpawnChanceArtefactsRestart 19
   m_SpawnChanceArtefacts 20
  }
  {
@@ -45,7 +45,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_CenterBias 0.5
   m_MinDistanceToPlayer 19
   m_SpawnChance 60
-  m_SpawnChanceArtefactsRestart 25.99
+  m_SpawnChanceArtefactsRestart 19
   m_SpawnChanceArtefacts 20
  }
  {
@@ -66,7 +66,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_CenterBias 0.5
   m_MinDistanceToPlayer 19
   m_SpawnChance 60
-  m_SpawnChanceArtefactsRestart 25.99
+  m_SpawnChanceArtefactsRestart 19
   m_SpawnChanceArtefacts 20
  }
  {
@@ -87,7 +87,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_CenterBias 0.5
   m_MinDistanceToPlayer 19
   m_SpawnChance 60
-  m_SpawnChanceArtefactsRestart 25.99
+  m_SpawnChanceArtefactsRestart 19
   m_SpawnChanceArtefacts 20
  }
  {
@@ -108,7 +108,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_CenterBias 0.5
   m_MinDistanceToPlayer 19
   m_SpawnChance 60
-  m_SpawnChanceArtefactsRestart 25.99
+  m_SpawnChanceArtefactsRestart 19
   m_SpawnChanceArtefacts 20
  }
  {
@@ -129,7 +129,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_CenterBias 0.5
   m_MinDistanceToPlayer 19
   m_SpawnChance 60
-  m_SpawnChanceArtefactsRestart 25.99
+  m_SpawnChanceArtefactsRestart 19
   m_SpawnChanceArtefacts 20
  }
  {
@@ -150,7 +150,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_CenterBias 0.5
   m_MinDistanceToPlayer 19
   m_SpawnChance 60
-  m_SpawnChanceArtefactsRestart 25.99
+  m_SpawnChanceArtefactsRestart 19
   m_SpawnChanceArtefacts 20
  }
  {
@@ -171,7 +171,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_CenterBias 0.5
   m_MinDistanceToPlayer 19
   m_SpawnChance 60
-  m_SpawnChanceArtefactsRestart 25.99
+  m_SpawnChanceArtefactsRestart 19
   m_SpawnChanceArtefacts 20
  }
  {
@@ -192,7 +192,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_CenterBias 0.5
   m_MinDistanceToPlayer 19
   m_SpawnChance 60
-  m_SpawnChanceArtefactsRestart 25.99
+  m_SpawnChanceArtefactsRestart 19
   m_SpawnChanceArtefacts 20
  }
  {
@@ -213,7 +213,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_CenterBias 0.5
   m_MinDistanceToPlayer 19
   m_SpawnChance 60
-  m_SpawnChanceArtefactsRestart 25.99
+  m_SpawnChanceArtefactsRestart 19
   m_SpawnChanceArtefacts 20
  }
  {
@@ -234,7 +234,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_CenterBias 0.5
   m_MinDistanceToPlayer 19
   m_SpawnChance 60
-  m_SpawnChanceArtefactsRestart 25.99
+  m_SpawnChanceArtefactsRestart 19
   m_SpawnChanceArtefacts 20
  }
  {
@@ -255,7 +255,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_CenterBias 0.5
   m_MinDistanceToPlayer 19
   m_SpawnChance 60
-  m_SpawnChanceArtefactsRestart 25.99
+  m_SpawnChanceArtefactsRestart 19
   m_SpawnChanceArtefacts 20
  }
  {
@@ -276,7 +276,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_CenterBias 0.5
   m_MinDistanceToPlayer 19
   m_SpawnChance 60
-  m_SpawnChanceArtefactsRestart 25.99
+  m_SpawnChanceArtefactsRestart 19
   m_SpawnChanceArtefacts 20
  }
  {
@@ -297,7 +297,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_CenterBias 0.5
   m_MinDistanceToPlayer 19
   m_SpawnChance 60
-  m_SpawnChanceArtefactsRestart 25.99
+  m_SpawnChanceArtefactsRestart 19
   m_SpawnChanceArtefacts 20
  }
  {
@@ -318,7 +318,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_CenterBias 0.5
   m_MinDistanceToPlayer 19
   m_SpawnChance 60
-  m_SpawnChanceArtefactsRestart 25.99
+  m_SpawnChanceArtefactsRestart 19
   m_SpawnChanceArtefacts 20
  }
  {
@@ -339,7 +339,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_CenterBias 0.5
   m_MinDistanceToPlayer 19
   m_SpawnChance 60
-  m_SpawnChanceArtefactsRestart 25.99
+  m_SpawnChanceArtefactsRestart 19
   m_SpawnChanceArtefacts 20
  }
  {
@@ -360,7 +360,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_CenterBias 0.5
   m_MinDistanceToPlayer 19
   m_SpawnChance 60
-  m_SpawnChanceArtefactsRestart 25.99
+  m_SpawnChanceArtefactsRestart 19
   m_SpawnChanceArtefacts 20
  }
  ART_ANOMAL_6 {
@@ -379,7 +379,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_MinDistanceBetweenAnomalies 8
   m_CenterBias 0.8
   m_SpawnChance 60
-  m_SpawnChanceArtefactsRestart 25.99
+  m_SpawnChanceArtefactsRestart 19
   m_SpawnChanceArtefacts 20
  }
 }
