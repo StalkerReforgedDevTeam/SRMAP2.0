@@ -86,6 +86,8 @@ SCR_ChimeraCharacter : "{5346CF7E39A65A6B}Prefabs/Characters/Factions/OPFOR/USSR
   SCR_CharacterVicinityComponent "{529A70D96D401B33}" {
    DiscoveryRadius 1.5
   }
+  SRZ_KillfeedDamageComponent "{6A89084DE304CE5E}" {
+  }
   SRZ_RPNameCharacterComponent "{699F42C1E87B935F}" {
   }
   SRZ_RPNotificationHandler "{699F42C195F98011}" {
