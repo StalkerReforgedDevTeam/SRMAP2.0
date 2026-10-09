@@ -13168,6 +13168,11 @@ $grp SCR_DestructibleBuildingEntity : "{5388DCDED41DBEEC}Prefabs/Structures/Infr
   scale 0.75
  }
 }
+SRZ_DiscordPingTriggerEntity : "{54B7B298920BFB6C}Prefabs/Anomals/Radiation/GorkiyPing.et" {
+ coords 3076.657 307.129 2672.425
+ SphereRadius 368
+ UpdatePeriod 10
+}
 GenericEntity : "{56A2385928155F81}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/US/EquipmentBoxStack_US_01_V4.et" {
  coords 4964.348 326.38 3047.928
  angles 0 175.353 0

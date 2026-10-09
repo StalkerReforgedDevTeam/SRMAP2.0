@@ -4,6 +4,7 @@ class SRZ_PDALoggerComponent : SCR_BaseGameModeComponent
 {
     protected const int FLUSH_INTERVAL_MS = 3000;
     protected const int MAX_BATCH_SIZE = 10;
+    protected const int DISCORD_MAX_CHARS = 1900;
     protected ref array<string> m_aPendingMessages;
 
     //------------------------------------------------------------------------------------------------
@@ -122,25 +123,39 @@ class SRZ_PDALoggerComponent : SCR_BaseGameModeComponent
             return;
         }
 
-        int total = m_aPendingMessages.Count();
-        int batchCount = total;
-        if (batchCount > MAX_BATCH_SIZE)
-            batchCount = MAX_BATCH_SIZE;
-
         string combinedContent;
-        for (int i = 0; i < batchCount; i++)
+        int used = 0;
+
+        while (used < m_aPendingMessages.Count() && used < MAX_BATCH_SIZE)
         {
-            if (i > 0)
+            string entry = m_aPendingMessages[used];
+            if (entry.Length() > DISCORD_MAX_CHARS)
+                entry = entry.Substring(0, DISCORD_MAX_CHARS);
+
+            if (used > 0 && combinedContent.Length() + entry.Length() + 1 > DISCORD_MAX_CHARS)
+                break;
+
+            if (used > 0)
                 combinedContent += "\n";
-            combinedContent += m_aPendingMessages[i];
+            combinedContent += entry;
+            used++;
         }
 
-        for (int j = 0; j < batchCount; j++)
+        for (int j = 0; j < used; j++)
             m_aPendingMessages.RemoveOrdered(0);
 
-        combinedContent.Replace("\\", "");
-        combinedContent.Replace("\"", "");
         SendDiscordWebhook(webhookUrl, combinedContent);
+    }
+
+    //------------------------------------------------------------------------------------------------
+    protected string EscapeJson(string text)
+    {
+        text.Replace("\\", "\\\\");
+        text.Replace("\"", "\\\"");
+        text.Replace("\r", "");
+        text.Replace("\t", " ");
+        text.Replace("\n", "\\n");
+        return text;
     }
 
     //------------------------------------------------------------------------------------------------
@@ -163,10 +178,7 @@ class SRZ_PDALoggerComponent : SCR_BaseGameModeComponent
         string pathAndToken = "";
         int apiPathIndex = webhookUrl.IndexOf("/api/webhooks/");
         if (apiPathIndex != -1)
-        {
-            int length = webhookUrl.Length() - apiPathIndex;
-            pathAndToken = webhookUrl.Substring(apiPathIndex, length);
-        }
+            pathAndToken = webhookUrl.Substring(apiPathIndex, webhookUrl.Length() - apiPathIndex);
 
         if (pathAndToken.IsEmpty() || pathAndToken.Length() < 16)
         {
@@ -175,7 +187,7 @@ class SRZ_PDALoggerComponent : SCR_BaseGameModeComponent
         }
 
         ctx.SetHeaders("Content-Type,application/json");
-        string body = "{ \"content\": \"" + content + "\" }";
+        string body = "{ \"content\": \"" + EscapeJson(content) + "\" }";
         ctx.POST_now(pathAndToken, body);
     }
 }
