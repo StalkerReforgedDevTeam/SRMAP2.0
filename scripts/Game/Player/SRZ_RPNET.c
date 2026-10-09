@@ -770,10 +770,12 @@ modded class SCR_PlayerController
 		senderStats.SetValue(senderMoney - amount);
 		targetStats.SetValue(targetMoney + amount);
 
+		SRZ_RPNet.SendToPlayer(playerId, string.Format("Sent %1 roubles to %2. New balance: %3", amount, targetName, senderMoney - amount));
 		string senderRpName = SRZ_RPNameProfileManager.GetInstance().GetNameForPlayer(playerId);
-        if (senderRpName.IsEmpty())
-	    senderRpName = "Unknown stalker";
-		SRZ_RPNet.SendToPlayer(targetId, string.Format("You received %1 roubles from %2. New balance: %3", amount, pm.GetPlayerName(playerId), targetMoney + amount));
+		if (senderRpName.IsEmpty())
+			senderRpName = "Unknown stalker";
+
+		SRZ_RPNet.SendToPlayer(targetId, string.Format("You received %1 roubles from %2. New balance: %3", amount, senderRpName, targetMoney + amount));
 	}
 }
 
