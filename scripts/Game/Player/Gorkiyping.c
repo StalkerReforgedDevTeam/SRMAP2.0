@@ -61,6 +61,7 @@ class SRZ_DiscordPingTriggerEntity : ScriptedGameTriggerEntity
 		if (rpName.IsEmpty())
 			rpName = "An unknown stalker";
 
+		Print("[SRZ_Gorkiy] " + rpName + " entered " + m_sAreaName + ", sending ping.", LogLevel.NORMAL);
 		SendDiscordWebhook(rpName);
 	}
 
@@ -86,7 +87,10 @@ class SRZ_DiscordPingTriggerEntity : ScriptedGameTriggerEntity
 
 		string webhookUrl = SRZ_KillfeedConfigManager.GetStringValue("m_sGorkiyWebhookURL", "");
 		if (webhookUrl.IsEmpty())
+		{
+			Print("[SRZ_Gorkiy] No m_sGorkiyWebhookURL in sr_killfeed_config.json, ping skipped.", LogLevel.WARNING);
 			return;
+		}
 
 		string pathAndToken = "";
 		int apiPathIndex = webhookUrl.IndexOf("/api/webhooks/");
@@ -104,7 +108,9 @@ class SRZ_DiscordPingTriggerEntity : ScriptedGameTriggerEntity
 
 		string body = "{ \"content\": \"" + content + "\" }";
 
-		ctx.POST_now(pathAndToken, body);
+		string response = ctx.POST_now(pathAndToken, body);
+		if (!response.IsEmpty())
+			Print("[SRZ_Gorkiy] Discord replied: " + response, LogLevel.WARNING);
 	}
 
 	//------------------------------------------------------------------------------------------------

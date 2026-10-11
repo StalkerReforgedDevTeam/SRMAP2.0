@@ -119,6 +119,7 @@ class SRZ_PDALoggerComponent : SCR_BaseGameModeComponent
         string webhookUrl = SRZ_KillfeedConfigManager.GetStringValue("m_sPDALogWebhookURL", "");
         if (webhookUrl.IsEmpty())
         {
+            Print("[SRZ_PDALogger] No webhook URL in sr_killfeed_config.json, dropping " + m_aPendingMessages.Count() + " messages.", LogLevel.WARNING);
             m_aPendingMessages.Clear();
             return;
         }
@@ -188,6 +189,8 @@ class SRZ_PDALoggerComponent : SCR_BaseGameModeComponent
 
         ctx.SetHeaders("Content-Type,application/json");
         string body = "{ \"content\": \"" + EscapeJson(content) + "\" }";
-        ctx.POST_now(pathAndToken, body);
+        string response = ctx.POST_now(pathAndToken, body);
+        if (!response.IsEmpty())
+            Print("[SRZ_PDALogger] Discord replied: " + response, LogLevel.WARNING);
     }
 }
