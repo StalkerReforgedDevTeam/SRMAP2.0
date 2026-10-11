@@ -73,6 +73,15 @@ $grp GenericEntity {
   }
   coords 1258.144 299.238 1379.813
  }
+ {
+  components {
+   MeshObject "{6A963E4847D27A16}" {
+    Object "{1D9254A7DAEFB190}Assets/Items/Equipment/Kits/MedicalKit_01/MedicalKit_01_Open.xob"
+   }
+  }
+  coords 1267.562 299.133 1326.067
+  angles 0 80.39 0
+ }
 }
 $grp SplineShapeEntity {
  {
@@ -1836,10 +1845,6 @@ $grp SCR_DestructibleEntity : "{9AE2BF8692551FE0}Prefabs/Structures/Walls/Barbed
   angles 0 -174.517 0
   scale 1.375
  }
-}
-GenericEntity MedicalKit_01_open_68CF7244B2B1FE74 : "{9DDD398F7463A42B}Prefabs/Items/Equipment/Kits/MedicalKit_01/MedicalKit_01_open.et" {
- coords 1267.562 299.133 1326.067
- angles 0 80.39 0
 }
 SCR_DestructibleBuildingEntity : "{9E72F044008AB5B2}Prefabs/Structures/Military/Houses/GuardHouse_01/GuardHouse_01_base.et" {
  components {

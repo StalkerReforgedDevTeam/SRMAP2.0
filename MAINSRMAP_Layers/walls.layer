@@ -3839,14 +3839,6 @@ $grp PolylineShapeEntity {
       coords 0 0 0.108
       angles 0 89.973 0
      }
-     SCR_DestructibleEntity : "{95A1D31077D47BEA}PrefabLibrary/DefaultLibrary/Walls/Concrete/ConcreteWall_01_Pole.et" {
-      coords 67.064 0 -25.254
-      angles 0 3.659 0
-     }
-     SCR_DestructibleEntity : "{CAFF4B51059A0F81}PrefabLibrary/DefaultLibrary/Walls/Concrete/ConcreteWall_01_3m.et" {
-      coords 64.142 0 -25.068
-      angles 0 3.659 0
-     }
      SCR_DestructibleEntity : "{D242B6296793D56E}PrefabLibrary/DefaultLibrary/Walls/Concrete/ConcreteWall_01_D.et" {
       coords 0.003 0 -5.815
       angles 0 -176.592 0
