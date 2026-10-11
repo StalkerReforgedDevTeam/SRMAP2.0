@@ -910,6 +910,14 @@ $grp GenericEntity {
   coords 1270.097 300.951 1343.255
   angles 2 83.901 0
  }
+ {
+  components {
+   MeshObject "{6A963E487843ECCA}" {
+    Object "{6815940D3A3888ED}Assets/Props/Military/SupplyBox/SupplyPortableContainers/SupplyPortableContainer_01_large.xob"
+   }
+  }
+  coords 1270.016 298.512 1338.055
+ }
 }
 $grp LightEntity {
  LIGHT_FLUO_SPOT_60 {
@@ -1486,9 +1494,6 @@ $grp SCR_DestructibleBuildingEntity : "{7720B78DED8FAB50}Prefabs/Perimetr/wall_p
   angles 0 126.035 0
   scale 1.243
  }
-}
-GenericEntity armst_itm_strotage_medkit_6A7CD8142269653F : "{848A45373A380A8D}Prefabs/Items/Deployable/new/strotage/armst_itm_strotage_medkit.et" {
- coords 1270.016 298.512 1338.055
 }
 $grp GenericEntity : "{8703D964AC15EA53}PrefabsEditable/E_Identity_Selector.et" {
  {
