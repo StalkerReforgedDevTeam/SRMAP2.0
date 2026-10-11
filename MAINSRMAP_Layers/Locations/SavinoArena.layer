@@ -1,3 +1,12 @@
+GenericWorldFogEntity : "{78D9BBF0F423FEB4}Prefabs/World/DefaultWorld/FogHaze_Default.et" {
+ coords 4675.128 312.11 930.652
+ HeightDensity 1
+ DistanceDensity 0.426
+ HeightOffset 0.069
+ FogHeightStart entity
+ Color 0.4125 0.4233 0.3324 0
+ ColorSkyOverride 1
+}
 GenericEntity : "{0164749D6EAA4518}Prefabs/Props/Furniture/Bed_01.et" {
  coords 6309.517 307.261 720.775
 }

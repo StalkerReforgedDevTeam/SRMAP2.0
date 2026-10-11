@@ -1,10 +1,3 @@
-GenericWorldFogEntity : "{78D9BBF0F423FEB4}Prefabs/World/DefaultWorld/FogHaze_Default.et" {
- coords 4675.128 312.11 930.652
- HeightDensity 1
- DistanceDensity 0.401
- HeightOffset 0.069
- FogHeightStart entity
-}
 $grp GenericEntity {
  enter_perimetr5 {
   coords 3557.023 309.203 1839.253
