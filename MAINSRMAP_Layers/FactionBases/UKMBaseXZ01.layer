@@ -1123,6 +1123,27 @@ GameEntity : "{103CBF9E0B0BC124}Prefabs/Props/Military/Generators/GeneratorMilit
 SCR_DestructibleEntity : "{10600321A3EBDB3B}Prefabs/Structures/Industrial/Pipelines/ProductPipeline_01/ProductPipeline_01_high_stairs.et" {
  coords 3816.356 309.742 408.4
  angles 0 90 0
+ {
+  GameEntity {
+   ID "657CF4AAA2A5C6A1"
+   components {
+    LadderComponent "{588EECC514BB6DFC}" {
+     BottomFrontPositionInfo PointInfo "{6578D1E722E40A40}" {
+      Offset 0 -5 0
+     }
+    }
+    ActionsManagerComponent "{5916A63C9331DAB0}" {
+     ActionContexts {
+      UserActionContext "{5916A63C9CED0D8A}" {
+       Position PointInfo "{5916A63CE468E545}" {
+        Offset 0 1.28 0
+       }
+      }
+     }
+    }
+   }
+  }
+ }
 }
 GenericEntity : "{1112756E8A13445B}Prefabs/Props/Industrial/Pallets/Pallet_01_Pile.et" {
  coords 3821.332 306.702 369.104
