@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{33061A29D99CC6CE}Assets/Characters/Vest/Vest_6B13/Data/flora/Vest_6B13Monolith.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+  EMATResourceClass Xbox : PC {
+  }
+ }
+}

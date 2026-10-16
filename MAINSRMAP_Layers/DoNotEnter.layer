@@ -18549,6 +18549,9 @@ GenericEntity : "{C8A9F7FDDF3CE851}Prefabs/Compositions/Misc/SubCompositions/Dec
  coords 4955.114 326.38 3053.923
  angles 0 65.985 0
 }
+GenericEntity "6B13Desert_6AA0E17BE185769C" : "{C8D2FA21F2523DD5}Prefabs/Armor/6B13Desert.et" {
+ coords 3129.543 305.764 1495.589
+}
 $grp GenericEntity : "{C9DE18E34AEADA31}Prefabs/Structures/BuildingParts/Doors/DoorBoarded_PierShed_01_A.et" {
  {
   components {
