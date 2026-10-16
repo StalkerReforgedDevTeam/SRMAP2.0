@@ -1,0 +1,41 @@
+GameEntity : "{CA27CA71B3AF2FCF}Prefabs/Characters/Uniforms/Jacket_M70_base.et" {
+ ID "5104869D194C6243"
+ components {
+  MeshObject "{5104869D194C6262}" {
+   Object "{10DD471059BCD29D}Assets/Characters/Tops/RookieJacket/RookieJacket.xob"
+  }
+  SCR_ItemOutfitFactionComponent "{6196E251BE6CA6CC}" {
+   Enabled 0
+  }
+  SCR_UniversalInventoryStorageComponent "{5222CB01D5B9A306}" {
+   Attributes SCR_ItemAttributeCollection "{5222CB01245CDF32}" {
+    ItemDisplayName UIInfo "{5222CB0109A04AB2}" {
+     Name "Bandit Jacket"
+     Description "Bandit Gear"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 1.9
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{555292467DA11B7C}" {
+      PreviewWornModel 1
+      PreviewModel "{7B65117028DECB01}Assets/Characters/Uniforms/Jacket_M70/Jacket_M70_01.xob"
+     }
+    }
+   }
+   MaxCumulativeVolume 1600
+   m_fMaxWeight 10
+  }
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   WornModel "{10DD471059BCD29D}Assets/Characters/Tops/RookieJacket/RookieJacket.xob"
+   WornMaterialsOverride {
+    "{0652F839874E4D53}Assets/Characters/Tops/RookieJacket/Data/RookieJacket.emat"
+   }
+   ItemModel "{10DD471059BCD29D}Assets/Characters/Tops/RookieJacket/RookieJacket.xob"
+   ItemMaterialsOverride {
+    "{0652F839874E4D53}Assets/Characters/Tops/RookieJacket/Data/RookieJacket.emat"
+   }
+   DeflatedModel "{10DD471059BCD29D}Assets/Characters/Tops/RookieJacket/RookieJacket.xob"
+  }
+ }
+}
