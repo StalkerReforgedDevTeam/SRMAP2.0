@@ -1,0 +1,7 @@
+MatPBRBasic {
+ Color 0.01 0.155 0.539 1
+ DiffuseIBL 0.001 0.232 0.905 1
+ SpecularIBL 0.196 0.479 0.855 1
+ BCRMap "{A1A8C4BE1FB3F22D}Assets/Characters/Vest/Vest_6B13/Data/Factions/Vest_6B13_Mercs_BCR.edds"
+ NMOMap "{88EFC9D8259ABBF4}Assets/Characters/Vest/Vest_6B13/Data/flora/Vest_6B13_Flora_NMO.edds"
+}

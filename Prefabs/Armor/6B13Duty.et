@@ -1,0 +1,163 @@
+GenericEntity {
+ ID "6AA0E17C99EDF391"
+ components {
+  ARMST_ITEMS_STATS_COMPONENTS "{6AA0E17C99EDF3A7}" {
+  }
+  ColliderHistoryComponent "{6AA0E17C99EDFB9F}" {
+  }
+  EPF_PersistenceComponent "{6AA0E17C99EDFB96}" {
+   m_pSaveData EPF_ItemSaveDataClass "{6AA0E17C99EDFBA7}" {
+    m_aComponents {
+     EPF_BaseInventoryStorageComponentSaveDataClass "{6AA0E17C99EDFBBF}" {
+     }
+     EPF_ARMST_ITEMS_STATS_COMPONENTS_SaveDataClass "{6AA0E17C99EDFBB1}" {
+     }
+    }
+   }
+  }
+  MeshObject "{6AA0E17C99EDFBB4}" {
+   Object "{E6A6EEC17375D3B5}Assets/Characters/Vest/Vest_6B13/Vest_6B13.xob"
+   Materials {
+    MaterialAssignClass "{6AA0E17C95C8B474}" {
+     SourceMaterial "Vest_6B13"
+     AssignedMaterial "{8BFDC6270BDA03CE}Assets/Characters/Vest/Vest_6B13/Data/flora/Vest_6B13Duty.emat"
+    }
+   }
+   LODFactors {
+   }
+   InheritVisibility 1
+  }
+  RigidBody "{6AA0E17C99EDFBD2}" {
+   SimState None
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_ArmorDamageManagerComponent "{6AA0E17C99EDFBEA}" {
+   "Additional hit zones" {
+    SCR_ArmorHitZone Armor {
+     ColliderNames {
+      "UTM_VEST"
+     }
+     HZDefault 1
+     MaxHealth 300
+     DamageReduction 30
+     DamageThreshold 200
+     "Kinetic multiplier" 2
+    }
+   }
+   m_fPassedDamageScale 0.65
+  }
+  SCR_ItemOutfitFactionComponent "{6AA0E17C99EDFBE2}" {
+  }
+  SCR_SoundDataComponent "{6AA0E17C99EDFBE7}" {
+   m_aAudioSourceConfiguration {
+    SCR_AudioSourceConfiguration "{6AA0E17C99EDFBFB}" {
+     m_sSoundProject "{A4549939684B6820}Sounds/Items/_SharedData/PickUp/Items_PickUp_Vest.acp"
+     m_sSoundEventName "SOUND_PICK_UP"
+    }
+    SCR_AudioSourceConfiguration "{6AA0E17C99EDE485}" {
+     m_sSoundProject "{A4549939684B6820}Sounds/Items/_SharedData/PickUp/Items_PickUp_Vest.acp"
+     m_sSoundEventName "SOUND_EQUIP"
+     m_eFlags 0
+    }
+    SCR_AudioSourceConfiguration "{6AA0E17C99EDE49F}" {
+     m_sSoundProject "{087200FA6DF8D1D2}Sounds/Items/_SharedData/Drop/Items_Drop_Vest.acp"
+     m_sSoundEventName "SOUND_DROP"
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{6AA0E17C99EDE492}" {
+   components {
+    SCR_EquipmentStorageComponent "{6AA0E17C99EDE4AB}" {
+     Priority 2
+     UseVirtualInventoryReplication 0
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot FlashlightSlot {
+       Enabled 0
+      }
+     }
+    }
+   }
+   Attributes SCR_ItemAttributeCollection "{6AA0E17C99EDE4A7}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{6AA0E17C99EDE4BB}" {
+     Name "Ukrainian Military 6B13 Vest"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{6AA0E17C99EDE4B8}" {
+     Weight 1
+     SizeSetupStrategy Manual
+     ItemDimensions 15 15 15
+     ItemVolume 800
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{6AA0E17C99EDE4B2}" {
+      CameraDistanceToItem 3.5
+      FOV 10
+      PreviewWornModel 1
+      PreviewModel "{17AED2E99966DF92}Assets/Models/PlateCarrier/StalkerPlateCarrier.xob"
+     }
+    }
+    m_Size SLOT_2x2
+    m_iCustomGridWidth 4
+    m_iCustomGridHeight 4
+   }
+   UseCapacityCoefficient 0
+   MaxCumulativeVolume 2000
+   MaxItemSize 10 10 10
+   m_iGridColumns 3
+   m_fMaxWeight 20
+  }
+  BaseLoadoutClothComponent "{6AA0E17C99EDE4B5}" {
+   AreaType LoadoutArmoredVestSlotArea "{6AA0E17C99EDE4C9}" {
+   }
+   WornModel "{E6A6EEC17375D3B5}Assets/Characters/Vest/Vest_6B13/Vest_6B13.xob"
+   WornMaterialsOverride {
+    "{8BFDC6270BDA03CE}Assets/Characters/Vest/Vest_6B13/Data/flora/Vest_6B13Duty.emat"
+   }
+   ItemModel "{9BF1A7189074EC1C}Assets/Characters/Vests/Vest_PASGT/Vest_PASGT_item.xob"
+   PhysicsOnWearEnabled 1
+   AnimateCollidersOnWear 1
+   SoundInt 400
+   DepthFront 0.03
+   DepthLeft 0.01
+   DepthRight 0.01
+  }
+  ActionsManagerComponent "{6AA0E17C99EDE4CD}" {
+   ActionContexts {
+    UserActionContext "{6AA0E17C99EDE4DE}" {
+     ContextName "default"
+     Position PointInfo "{6AA0E17C99EDE4D1}" {
+      Offset 0 0.0354 0
+     }
+     Radius 0.5
+    }
+   }
+   additionalActions {
+    SCR_EquipClothAction "{6AA0E17C99EDE4D4}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo SCR_ActionUIInfo "{6AA0E17C99EDE4EE}" {
+      Name "#AR-Inventory_Equip"
+      m_sIconName "pick-up"
+     }
+     "Sort Priority" -10
+    }
+    SCR_PickUpItemAction "{6AA0E17C99EDE4E2}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo UIInfo "{6AA0E17C99EDE4E7}" {
+      Name "#AR-Inventory_PickUp"
+     }
+    }
+   }
+  }
+  RplComponent "{6AA0E17C99EDE4E5}" {
+   "Rpl State Override" Runtime
+   "Parent Node From Parent Entity" 0
+  }
+  Hierarchy "{6AA0E17C99EDE4FA}" {
+  }
+ }
+ coords 6496.194 161.946 6504.568
+}

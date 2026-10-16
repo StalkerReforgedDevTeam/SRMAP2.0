@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{FE35C95C5F74EC17}Common/Materials/Game/PersonalProtection/hard_aramid_30m.gamemat"
+ Configurations {
+  GameMaterialResourceClass PC {
+  }
+  GameMaterialResourceClass XBOX_ONE : PC {
+  }
+  GameMaterialResourceClass XBOX_SERIES : PC {
+  }
+  GameMaterialResourceClass PS4 : PC {
+  }
+  GameMaterialResourceClass PS5 : PC {
+  }
+  GameMaterialResourceClass HEADLESS : PC {
+  }
+  GameMaterialResourceClass Xbox : PC {
+  }
+ }
+}
