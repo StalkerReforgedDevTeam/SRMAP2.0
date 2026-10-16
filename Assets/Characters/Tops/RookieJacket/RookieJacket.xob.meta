@@ -3,8 +3,9 @@ MetaFileClass {
  Configurations {
   FBXResourceClass PC {
    ExportSkinning 1
+   ExportSceneHierarchy 1
    MaterialAssigns {
-    MaterialAssignClass "{6AA1574F9BAF80B7}" {
+    MaterialAssignClass "{6AA16B1688CFEC31}" {
      SourceMaterial "RookieJacket"
      AssignedMaterial "{0652F839874E4D53}Assets/Characters/Tops/RookieJacket/Data/RookieJacket.emat"
     }
