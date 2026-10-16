@@ -1,0 +1,86 @@
+GenericEntity : "{52D3FE1E430900D3}Prefabs/Items/Food/armst_itm_food_canteen_water.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  ARMST_ItemUseComponent "{59E68C74C5CEE74F}" {
+   m_ConsumableEffect ARMST_ConsumableBaseItem "{59E68C74C1F3910E}" {
+    m_ActionItemOnPress 1
+    m_TypeConsuble INTERACT
+   }
+  }
+  InventoryItemComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName SCR_InventoryUIInfo "{5222EB4D07D865FA}" {
+     Name "WaterBottle"
+     Description "Should help quench my thirst"
+     m_aItemHints {
+      SCR_InventoryItemHintUIInfo "{5E04DAAE66DE1E77}" {
+       Name ""
+       Description ""
+       Icon ""
+       IconSetName ""
+      }
+     }
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.45
+     ItemVolume 0.1
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{59ECB1453144E05D}" {
+     AnimIkposeBlendDuration 1.26
+     AnimationAttachments {
+      AnimationAttachmentInfo "{55EAD7272ED1ABB5}" {
+       AnimGraph "{83CA8D6E3257795E}anims/New_drink/water_drink.agr"
+       AnimInstance "{CA5C972EA5FD0CA7}anims/New_drink/water_drink_player.asi"
+      }
+     }
+     HandAdditiveRotation 0 0 -90
+     HandAdditiveTranslation 0.1 0.04 -0.01
+     AllowInspection 0
+    }
+    CustomAttributes {
+     SCR_AlternativeModel "{59E68C742A7C6A5F}" {
+      m_sAlternativeModel "{F0D5709CD67097F2}Assets/Items/Food/Water/Water.xob"
+     }
+     SCR_ItemOfInterestAttribute "{5EBCA645134AC0EF}" {
+      m_InterestType NONE
+     }
+     PreviewRenderAttributes "{5A5AEE4B8FF125F0}" {
+      CameraPreset Right
+      CameraOrbitAngles 0 0 0
+      CameraDistanceToItem 1.2
+      ItemRenderRotation 0 0 0
+      FOV 10
+      LodModel 0
+     }
+     SCR_SelectionMenuPreviewAttributes "{5EC2E10565C06A53}" {
+      m_bShowMedicalColor 1
+     }
+    }
+    CommonItemType "NONE"
+    m_bAutoDetectGridSize 0
+    m_iCustomGridHeight 2
+   }
+  }
+  MeshObject "{59CE87DB17B6B1C5}" {
+   Object "{F0D5709CD67097F2}Assets/Items/Food/Water/Water.xob"
+   Materials {
+    MaterialAssignClass "{6AA0E15B8B8172F9}" {
+     SourceMaterial "MorphineInjection_01"
+     AssignedMaterial ""
+    }
+   }
+  }
+  RigidBody "{59CE87DB17B6B1C7}" {
+   ResponseIndex "Normal"
+   ModelGeometry 0
+  }
+  SCR_SoundDataComponent "{5B18D20ED0099A17}" {
+   m_aAudioSourceConfiguration {
+    SCR_AudioSourceConfiguration "{656C7C1F4FFCD501}" {
+     m_sSoundProject "{68071071706A5AB6}Sounds/Items/Foods/Items_water.acp"
+    }
+   }
+  }
+ }
+ coords 5075.346 301.794 56.494
+}
