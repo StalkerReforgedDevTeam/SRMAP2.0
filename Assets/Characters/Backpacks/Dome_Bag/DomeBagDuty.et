@@ -1,0 +1,159 @@
+GenericEntity {
+ ID "6AA14BF0E7728A0C"
+ components {
+  ARMST_ITEMS_STATS_COMPONENTS "{6AA14BF0E7728AFF}" {
+  }
+  EPF_PersistenceComponent "{6AA14BF0E7728AEB}" {
+   m_pSaveData EPF_ItemSaveDataClass "{6AA14BF0E7728AEC}" {
+    m_aComponents {
+     EPF_BaseInventoryStorageComponentSaveDataClass "{6AA14BF0E7728AD1}" {
+     }
+    }
+   }
+  }
+  MeshObject "{6AA14BF0E7728AD6}" {
+   Object "{E8811A286786B069}Assets/Characters/Backpacks/Dome_Bag/Dome_Bag.xob"
+   Materials {
+    MaterialAssignClass "{6AA14BF0F989DFC3}" {
+     SourceMaterial "Backpack"
+     AssignedMaterial "{511DA7A8196D6438}Assets/Characters/Backpacks/Dome_Bag/Data/Duty/DutyDomeBag.emat"
+    }
+   }
+   LODFactors {
+    1
+   }
+   InheritVisibility 1
+  }
+  RigidBody "{6AA14BF0E7728AD9}" {
+   Mass 5
+   ModelGeometry 1
+  }
+  SCR_SoundDataComponent "{6AA14BF0E7728ADF}" {
+   m_aAudioSourceConfiguration {
+    SCR_AudioSourceConfiguration "{6AA14BF0E7728ADC}" {
+     m_sSoundProject "{3D8789E7ACF6EDD3}Sounds/Items/_SharedData/PickUp/Items_PickUp_BackPack.acp"
+     m_sSoundEventName "SOUND_PICK_UP"
+    }
+    SCR_AudioSourceConfiguration "{6AA14BF0E7728AC2}" {
+     m_sSoundProject "{3D8789E7ACF6EDD3}Sounds/Items/_SharedData/PickUp/Items_PickUp_BackPack.acp"
+     m_sSoundEventName "SOUND_EQUIP"
+     m_eFlags 0
+    }
+    SCR_AudioSourceConfiguration "{6AA14BF0E7728AC1}" {
+     m_sSoundProject "{6D0C4AFA2B734709}Sounds/Items/_SharedData/Drop/Items_Drop_BackPack.acp"
+     m_sSoundEventName "SOUND_DROP"
+    }
+    SCR_AudioSourceConfiguration "{6AA14BF0E7728AC7}" {
+     m_sSoundProject "{F01623940EA93645}Sounds/Items/_SharedData/Open/Backpack_ALICE/Items_Backpack_ALICE.acp"
+     m_sSoundEventName "SOUND_CONTAINER_OPEN"
+    }
+    SCR_AudioSourceConfiguration "{6AA14BF0E7728AC5}" {
+     m_sSoundProject "{F01623940EA93645}Sounds/Items/_SharedData/Open/Backpack_ALICE/Items_Backpack_ALICE.acp"
+     m_sSoundEventName "SOUND_CONTAINER_CLOSE"
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{6AA14BF0E7728AB7}" {
+   Attributes SCR_ItemAttributeCollection "{6AA14BF0E7728AB5}" {
+    ItemDisplayName UIInfo "{6AA14BF0E7728ABB}" {
+     Name "Light Tactical Bag (Black)"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{6AA14BF0E7728AB8}" {
+     Weight 3.63
+     SizeSetupStrategy Manual
+     ItemDimensions 25 25 25
+     ItemVolume 25001
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{6AA14BF0E7728ABD}" {
+      CameraPreset Back
+      CameraOrbitAngles 25 -25 180
+      CameraDistanceToItem 4
+      FOV 10
+     }
+    }
+    m_Size SLOT_2x2
+    m_SlotType SLOT_BACKPACK
+    m_iCustomGridWidth 2
+    m_iCustomGridHeight 2
+   }
+   Priority 8
+   UseCapacityCoefficient 0
+   CapacityCoefficient 1.26
+   MaxCumulativeVolume 15000
+   MaxItemSize 25 25 25
+   m_iGridRows 6
+   m_aDissAllowedItemTypese {
+    "PBK_BACKPACK"
+   }
+   m_fMaxWeight 25
+  }
+  BaseLoadoutClothComponent "{6AA14BF0E7728AA1}" {
+   AreaType LoadoutBackpackArea "{6AA14BF0E7728AA7}" {
+   }
+   WornModel "{E8811A286786B069}Assets/Characters/Backpacks/Dome_Bag/Dome_Bag.xob"
+   WornMaterialsOverride {
+    "{511DA7A8196D6438}Assets/Characters/Backpacks/Dome_Bag/Data/Duty/DutyDomeBag.emat"
+   }
+   ItemModel "{E8811A286786B069}Assets/Characters/Backpacks/Dome_Bag/Dome_Bag.xob"
+   ItemMaterialsOverride {
+    "{511DA7A8196D6438}Assets/Characters/Backpacks/Dome_Bag/Data/Duty/DutyDomeBag.emat"
+   }
+   VisibleInVehicle 0
+   SoundInt 830
+   DepthBack 0.025
+   OffsetShoulderLeft -0.1
+   OffsetShoulderRight 0.1
+   DeflatedModel "{E8811A286786B069}Assets/Characters/Backpacks/Dome_Bag/Dome_Bag.xob"
+   AreaTypeWhenModelChange {
+    LoadoutArmoredVestSlotArea "{6AA14BF0E7728AA4}" {
+    }
+   }
+  }
+  ActionsManagerComponent "{6AA14BF0E7728AAA}" {
+   ActionContexts {
+    UserActionContext "{6AA14BF0E7728AAF}" {
+     ContextName "default"
+     Position PointInfo "{6AA14BF0E7728AAD}" {
+      Offset 0 0.2985 0
+     }
+     Radius 0.5
+    }
+   }
+   additionalActions {
+    SCR_OpenStorageAction "{6AA14BF0E7728A83}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo SCR_ActionUIInfo "{6AA14BF0E7728A81}" {
+      Name "#AR-Inventory_OpenStorage"
+     }
+    }
+    SCR_EquipClothAction "{6AA14BF0E7728A80}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo SCR_ActionUIInfo "{6AA14BF0E7728A87}" {
+      Name "#AR-Inventory_Equip"
+      m_sIconName "pick-up"
+     }
+    }
+    SCR_PickUpItemAction "{6AA14BF0E7728A85}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo UIInfo "{6AA14BF0E7728A84}" {
+      Name "#AR-Inventory_PickUp"
+     }
+    }
+   }
+  }
+  RplComponent "{6AA14BF0E7728A89}" {
+   "Rpl State Override" Runtime
+   "Parent Node From Parent Entity" 0
+  }
+  Hierarchy "{6AA14BF0E7728A8F}" {
+  }
+ }
+ coords 6493.246 161.957 6510.844
+}
