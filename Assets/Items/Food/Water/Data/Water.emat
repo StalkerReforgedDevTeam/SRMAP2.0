@@ -1,0 +1,6 @@
+MatPBRBasic {
+ SpecularMul 0.78
+ RoughnessScale 1.487
+ BCRMap "{3BD903BC5607E701}Assets/Items/Food/Water/Water_BCR.edds"
+ NMOMap "{0301B82E8F70B59F}Assets/Items/Food/Water/Water_NMO.edds"
+}
