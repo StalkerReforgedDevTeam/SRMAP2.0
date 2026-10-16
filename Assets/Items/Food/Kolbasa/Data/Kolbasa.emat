@@ -1,4 +1,6 @@
 MatPBRBasic {
+ SpecularMul 0.61
+ RoughnessScale 1.605
  BCRMap "{A246954236FD0B6B}Assets/Items/Food/Kolbasa/Kolbasa_BCR.edds"
  NMOMap "{9A9E2ED0EF8A59F5}Assets/Items/Food/Kolbasa/Kolbasa_NMO.edds"
 }

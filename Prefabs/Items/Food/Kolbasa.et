@@ -10,8 +10,8 @@ GenericEntity : "{83EACE805122087F}Prefabs/Items/Food/armst_itm_food_bread.et" {
   InventoryItemComponent "{5222EB4D0C73006B}" {
    Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
     ItemDisplayName SCR_InventoryUIInfo "{5222EB4D07D865FA}" {
-     Name "#Armst_bread"
-     Description ""
+     Name "Sausage"
+     Description "A yummy kolbasa link "
      m_aItemHints {
       SCR_InventoryItemHintUIInfo "{5E04DAAE66DE1E77}" {
        Name ""
@@ -38,7 +38,7 @@ GenericEntity : "{83EACE805122087F}Prefabs/Items/Food/armst_itm_food_bread.et" {
     }
     CustomAttributes {
      SCR_AlternativeModel "{59E68C742A7C6A5F}" {
-      m_sAlternativeModel "{58241D2F39A2221D}armst/items/Foods/bread.xob"
+      m_sAlternativeModel "{63540C13E3F660E9}Assets/Items/Food/Kolbasa/Kolbasa.xob"
      }
      SCR_ItemOfInterestAttribute "{5EBCA645134AC0EF}" {
       m_InterestType NONE
