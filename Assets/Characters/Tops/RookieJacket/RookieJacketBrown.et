@@ -1,0 +1,22 @@
+GameEntity : "{3D29BA843F42FE75}Prefabs/Equipments/Jackets/gorka/base_gorka.et" {
+ ID "68DA88577D14A889"
+ components {
+  MeshObject "{5104869D194C6262}" {
+   Object "{10DD471059BCD29D}Assets/Characters/Tops/RookieJacket/RookieJacket.xob"
+   Materials {
+    MaterialAssignClass "{68D6B15283705903}" {
+     SourceMaterial ""
+     AssignedMaterial "{0652F839874E4D53}Assets/Characters/Tops/RookieJacket/Data/RookieJacket.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   WornModel "{10DD471059BCD29D}Assets/Characters/Tops/RookieJacket/RookieJacket.xob"
+   WornMaterialsOverride {
+    "{0652F839874E4D53}Assets/Characters/Tops/RookieJacket/Data/RookieJacket.emat"
+   }
+   ItemModel "{10DD471059BCD29D}Assets/Characters/Tops/RookieJacket/RookieJacket.xob"
+  }
+ }
+ coords 3896.258 306.702 285.398
+}
