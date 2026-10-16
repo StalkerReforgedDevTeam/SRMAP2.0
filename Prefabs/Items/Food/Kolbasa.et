@@ -1,0 +1,82 @@
+GenericEntity : "{83EACE805122087F}Prefabs/Items/Food/armst_itm_food_bread.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  ARMST_ItemUseComponent "{59E68C74C5CEE74F}" {
+   m_ConsumableEffect ARMST_ConsumableBaseItem "{59E68C74C1F3910E}" {
+    m_ActionItemOnPress 1
+    m_TypeConsuble INTERACT
+   }
+  }
+  InventoryItemComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName SCR_InventoryUIInfo "{5222EB4D07D865FA}" {
+     Name "#Armst_bread"
+     Description ""
+     m_aItemHints {
+      SCR_InventoryItemHintUIInfo "{5E04DAAE66DE1E77}" {
+       Name ""
+       Description ""
+       Icon ""
+       IconSetName ""
+      }
+     }
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.125
+     ItemDimensions 0.01 0.01 0.01
+     ItemVolume 0.1
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{59ECB1453144E05D}" {
+     AnimationAttachments {
+      AnimationAttachmentInfo "{55EAD7272ED1ABB5}" {
+       AnimGraph "{995D021EDA8430F4}anims/New_eat_small/small_eat.agr"
+       AnimInstance "{FD4595FCB069474E}anims/New_eat_small/small_eat_player.asi"
+      }
+     }
+     HandAdditiveRotation 0 90 -90
+     HandAdditiveTranslation -0.02 0.05 -0.02
+    }
+    CustomAttributes {
+     SCR_AlternativeModel "{59E68C742A7C6A5F}" {
+      m_sAlternativeModel "{58241D2F39A2221D}armst/items/Foods/bread.xob"
+     }
+     SCR_ItemOfInterestAttribute "{5EBCA645134AC0EF}" {
+      m_InterestType NONE
+     }
+     PreviewRenderAttributes "{5A5AEE4B8FF125F0}" {
+      CameraPreset Top
+      CameraOrbitAngles 0 0 0
+      CameraDistanceToItem 0.7
+      ItemRenderRotation 0 0 90
+      FOV 10
+      LodModel 0
+     }
+     SCR_SelectionMenuPreviewAttributes "{5EC2E10565C06A53}" {
+      m_bShowMedicalColor 1
+     }
+    }
+    CommonItemType "NONE"
+    m_Size SLOT_2x1
+    m_bAutoDetectGridSize 0
+    m_iCustomGridWidth 2
+   }
+  }
+  MeshObject "{59CE87DB17B6B1C5}" {
+   Object "{63540C13E3F660E9}Assets/Items/Food/Kolbasa/Kolbasa.xob"
+   Materials {
+    MaterialAssignClass "{6AA0C584A85C871D}" {
+     SourceMaterial ""
+     AssignedMaterial ""
+    }
+   }
+  }
+  SCR_SoundDataComponent "{5B18D20ED0099A17}" {
+   m_aAudioSourceConfiguration {
+    SCR_AudioSourceConfiguration "{656C7C1F4FFCD501}" {
+     m_sSoundProject "{C0D787D0BD8D9E89}Sounds/Items/Foods/Items_eat.acp"
+    }
+   }
+  }
+ }
+ coords 3806.857 306.702 289.663
+}
