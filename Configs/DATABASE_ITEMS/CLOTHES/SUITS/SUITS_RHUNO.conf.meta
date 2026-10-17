@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{582C02B3C3775EDD}Configs/DATABASE_ITEMS/CLOTHES/SUITS/SUITS_RHUNO.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

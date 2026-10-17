@@ -1,0 +1,5 @@
+MatPBRBasic {
+ DiffuseIBL 0.262 0.262 0.262 1
+ BCRMap "{3D129D61E980F223}Assets/Characters/Suits/IO7/Data/Dark/IO7_Beltbag_Dark_BCR.edds"
+ NMOMap "{05CA26F330F7A0BD}Assets/Characters/Suits/IO7/Data/Dark/IO7_Beltbag_Dark_NMO.edds"
+}

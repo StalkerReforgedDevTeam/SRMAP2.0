@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{FC2B75C36BCAC2F1}Common/Materials/Game/PersonalProtection/titanium_1.25mm.gamemat"
+ Configurations {
+  GameMaterialResourceClass PC {
+  }
+  GameMaterialResourceClass XBOX_ONE : PC {
+  }
+  GameMaterialResourceClass XBOX_SERIES : PC {
+  }
+  GameMaterialResourceClass PS4 : PC {
+  }
+  GameMaterialResourceClass PS5 : PC {
+  }
+  GameMaterialResourceClass HEADLESS : PC {
+  }
+  GameMaterialResourceClass Xbox : PC {
+  }
+ }
+}

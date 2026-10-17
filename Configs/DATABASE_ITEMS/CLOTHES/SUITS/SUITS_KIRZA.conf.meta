@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{84A5F8CA90C0B2E2}Configs/DATABASE_ITEMS/CLOTHES/SUITS/SUITS_KIRZA.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

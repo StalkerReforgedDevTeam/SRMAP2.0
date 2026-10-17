@@ -1,0 +1,167 @@
+GenericEntity {
+ ID "6AA2D4E92764E6D0"
+ components {
+  ARMST_ITEMS_STATS_COMPONENTS "{6AA2D4E92764E6AC}" {
+  }
+  ColliderHistoryComponent "{6AA2D4E92764E685}" {
+  }
+  EPF_PersistenceComponent "{6AA2D4E92764E77B}" {
+   m_pSaveData EPF_ItemSaveDataClass "{6AA2D4E92764E77C}" {
+    m_aComponents {
+     EPF_BaseInventoryStorageComponentSaveDataClass "{6AA2D4E92764E773}" {
+     }
+     EPF_ARMST_ITEMS_STATS_COMPONENTS_SaveDataClass "{6AA2D4E92764E771}" {
+     }
+    }
+   }
+  }
+  MeshObject "{6AA2D4E92764E776}" {
+   Object "{CF4983D07FCF3DF4}Assets/Characters/Suits/IO7/IO7_Blue.xob"
+   LODFactors {
+   }
+   InheritVisibility 1
+  }
+  RigidBody "{6AA2D4E92764E774}" {
+   SimState None
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_ArmorDamageManagerComponent "{6AA2D4E92764E76A}" {
+   "Additional hit zones" {
+    SCR_ArmorHitZone Armor {
+     ColliderNames {
+      "UTM_STOMACH" "" "" "" "" "" "" "" "UTM_RLEG"
+     }
+     HZDefault 1
+     MaxHealth 1000
+     DamageReduction 50
+     DamageThreshold 200
+    }
+   }
+   m_fPassedDamageScale 0.7
+  }
+  SCR_ItemOutfitFactionComponent "{6AA2D4E92764E76F}" {
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{6AA2D4E92764E76D}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{6AA2D4E92764E763}" {
+      m_AffiliatedFactionKey "DUTY"
+     }
+    }
+   }
+  }
+  SCR_SoundDataComponent "{6AA2D4E92764E761}" {
+   m_aAudioSourceConfiguration {
+    SCR_AudioSourceConfiguration "{6AA2D4E92764E747}" {
+     m_sSoundProject "{A4549939684B6820}Sounds/Items/_SharedData/PickUp/Items_PickUp_Vest.acp"
+     m_sSoundEventName "SOUND_PICK_UP"
+    }
+    SCR_AudioSourceConfiguration "{6AA2D4E92764E745}" {
+     m_sSoundProject "{A4549939684B6820}Sounds/Items/_SharedData/PickUp/Items_PickUp_Vest.acp"
+     m_sSoundEventName "SOUND_EQUIP"
+     m_eFlags 0
+    }
+    SCR_AudioSourceConfiguration "{6AA2D4E92764E73A}" {
+     m_sSoundProject "{087200FA6DF8D1D2}Sounds/Items/_SharedData/Drop/Items_Drop_Vest.acp"
+     m_sSoundEventName "SOUND_DROP"
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{6AA2D4E92764E738}" {
+   components {
+    SCR_EquipmentStorageComponent "{6AA2D4E92764E73F}" {
+    }
+   }
+   Attributes SCR_ItemAttributeCollection "{6AA2D4E92764E730}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{6AA2D4E92764E736}" {
+     Name "IO7 Armored Suit"
+     Description "Standard Armored Combat Suit"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{6AA2D4E92764E735}" {
+     Weight 5
+     SizeSetupStrategy Manual
+     ItemDimensions 20 20 20
+     ItemVolume 2000
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{6AA2D4E92764E728}" {
+      CameraDistanceToItem 1.5
+     }
+    }
+    m_Size SLOT_4x4
+    m_iCustomGridWidth 6
+    m_iCustomGridHeight 6
+   }
+   UseCapacityCoefficient 0
+   MaxCumulativeVolume 10000
+   m_iGridColumns 4
+   m_fMaxWeight 100
+  }
+  BaseLoadoutClothComponent "{6AA2D4E92764E72F}" {
+   AreaType LoadoutArmoredVestSlotArea "{6AA2D4E92764E722}" {
+   }
+   Slots {
+    LoadoutSlotInfo Boots {
+    }
+   }
+   WornModel "{CF4983D07FCF3DF4}Assets/Characters/Suits/IO7/IO7_Blue.xob"
+   ItemModel "{CF4983D07FCF3DF4}Assets/Characters/Suits/IO7/IO7_Blue.xob"
+   PhysicsOnWearEnabled 1
+   AnimateCollidersOnWear 1
+   SoundInt 400
+   OverrideMeshesToHide {
+    "Torso" "Buttocks" "Thigh_L" "Thigh_R" "Arm_L" "Arm_R" "ArmUpper_R" "ArmUpper_L" "Leg_R" "Leg_L" "Groin" "Calf_R" "Calf_L" "CalfLower_R" "CalfLower_L" "Foot_R" "Foot_L"
+   }
+   DepthFront 0.03
+   DepthLeft 0.01
+   DepthRight 0.01
+   BlockedSlots {
+    LoadoutPantsArea "{6AA2D4E92764E71E}" {
+    }
+    LoadoutBootsArea "{6AA2D4E92764E71F}" {
+    }
+    LoadoutJacketArea "{6AA2D4E92764E71D}" {
+    }
+    LoadoutVestArea "{6AA2D4E92764E713}" {
+    }
+   }
+  }
+  ActionsManagerComponent "{6AA2D4E92764E716}" {
+   ActionContexts {
+    UserActionContext "{6AA2D4E92764E717}" {
+     ContextName "default"
+     Position PointInfo "{6AA2D4E92764E70A}" {
+      Offset 0 0.0354 0
+     }
+     Radius 0.5
+    }
+   }
+   additionalActions {
+    SCR_EquipClothAction "{6AA2D4E92764E709}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo SCR_ActionUIInfo "{6AA2D4E92764E70E}" {
+      Name "#AR-Inventory_Equip"
+      m_sIconName "pick-up"
+     }
+     "Sort Priority" -10
+    }
+    SCR_PickUpItemAction "{6AA2D4E92764E70C}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo UIInfo "{6AA2D4E92764E702}" {
+      Name "#AR-Inventory_PickUp"
+     }
+    }
+   }
+  }
+  RplComponent "{6AA2D4E92764E701}" {
+   "Rpl State Override" Runtime
+   "Parent Node From Parent Entity" 0
+  }
+  Hierarchy "{6AA2D4E92764E707}" {
+  }
+ }
+ coords 6486.945 161.946 6509.45
+}
