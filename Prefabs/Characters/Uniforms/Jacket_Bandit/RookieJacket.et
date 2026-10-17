@@ -1,6 +1,8 @@
 GameEntity : "{CA27CA71B3AF2FCF}Prefabs/Characters/Uniforms/Jacket_M70_base.et" {
  ID "5104869D194C6243"
  components {
+  ARMST_ITEMS_STATS_COMPONENTS "{6AA16B1FCE0EF2FF}" {
+  }
   MeshObject "{5104869D194C6262}" {
    Object "{10DD471059BCD29D}Assets/Characters/Tops/RookieJacket/RookieJacket.xob"
    Materials {
