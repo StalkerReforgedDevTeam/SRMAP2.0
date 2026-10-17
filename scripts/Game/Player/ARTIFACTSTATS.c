@@ -26,7 +26,7 @@ modded class SCR_PlayerController
 			statsComponent.ArmstPlayerStatSetToxic(toxic / 10);
 
 		if (radiactive != 0)
-			statsComponent.ArmstPlayerStatSetRadio(radiactive / 10);
+			statsComponent.ArmstPlayerStatSetRadio(radiactive / 4);
 
 		if (psy != 0)
 			statsComponent.ArmstPlayerStatSetPsy(psy / 10);
@@ -54,6 +54,6 @@ modded class SCR_PlayerController
 		}
 
 		if (stamina != 0 && staminaComp)
-			staminaComp.AddStamina(stamina / 2);
+			staminaComp.AddStamina(stamina / 20);
 	}
 }
