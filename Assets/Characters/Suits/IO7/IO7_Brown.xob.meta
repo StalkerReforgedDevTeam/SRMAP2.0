@@ -1,0 +1,178 @@
+MetaFileClass {
+ Name "{93F828E7D3777F7B}Assets/Characters/Suits/IO7/IO7_Brown.xob"
+ Configurations {
+  FBXResourceClass PC {
+   ExportSkinning 1
+   ExportSceneHierarchy 1
+   MaterialAssigns {
+    MaterialAssignClass "{6AA2D4F162524DD0}" {
+     SourceMaterial "top"
+     AssignedMaterial "{0E6DA3922B890C2F}Assets/Characters/Suits/IO7/Data/Brown/topBrown.emat"
+    }
+    MaterialAssignClass "{6AA2D4F162524D96}" {
+     SourceMaterial "belt"
+     AssignedMaterial "{F7A0FE51448E42F5}Assets/Characters/Suits/IO7/Data/Brown/beltBrown.emat"
+    }
+    MaterialAssignClass "{6AA2D4F162524D86}" {
+     SourceMaterial "beltbag"
+     AssignedMaterial "{25AFBEA651CBAD21}Assets/Characters/Suits/IO7/Data/Brown/beltbagBrown.emat"
+    }
+    MaterialAssignClass "{6AA2D4F162524A77}" {
+     SourceMaterial "boots"
+     AssignedMaterial "{B2DDB2610A5F5F5F}Assets/Characters/Suits/IO7/Data/Brown/bootsBrown.emat"
+    }
+    MaterialAssignClass "{6AA2D4F162524A6C}" {
+     SourceMaterial "pants"
+     AssignedMaterial "{A4F1DFF40130FC83}Assets/Characters/Suits/IO7/Data/Brown/pantsBrown.emat"
+    }
+    MaterialAssignClass "{6AA2D4F162524A59}" {
+     SourceMaterial "pouch"
+     AssignedMaterial "{E205CBD0E311DD0D}Assets/Characters/Suits/IO7/Data/DarkBrown/pouchDarkBrown.emat"
+    }
+    MaterialAssignClass "{6AA2D4F162524A52}" {
+     SourceMaterial "vest"
+     AssignedMaterial "{344E422DE6F621CB}Assets/Characters/Suits/IO7/Data/DarkBrown/vestDarkBrown.emat"
+    }
+   }
+   MeshParams {
+    MeshParam IO7 {
+    }
+   }
+   GeometryParams {
+    GeometryParam UCS_Arm_L {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{FC2B75C36BCAC2F1}Common/Materials/Game/PersonalProtection/titanium_1.25mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCS_Arm_R {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{FC2B75C36BCAC2F1}Common/Materials/Game/PersonalProtection/titanium_1.25mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCS_Buttocks {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{FC2B75C36BCAC2F1}Common/Materials/Game/PersonalProtection/titanium_1.25mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCS_Calf_L {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{FC2B75C36BCAC2F1}Common/Materials/Game/PersonalProtection/titanium_1.25mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCS_Calf_R {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{FC2B75C36BCAC2F1}Common/Materials/Game/PersonalProtection/titanium_1.25mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCS_Forearm_L {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{FC2B75C36BCAC2F1}Common/Materials/Game/PersonalProtection/titanium_1.25mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCS_Forearm_R {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{FC2B75C36BCAC2F1}Common/Materials/Game/PersonalProtection/titanium_1.25mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCS_Neck {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{FC2B75C36BCAC2F1}Common/Materials/Game/PersonalProtection/titanium_1.25mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCS_Thigh_L {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{FC2B75C36BCAC2F1}Common/Materials/Game/PersonalProtection/titanium_1.25mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCS_Thigh_R {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{FC2B75C36BCAC2F1}Common/Materials/Game/PersonalProtection/titanium_1.25mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Belly {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{321BC2613BD5E7D1}Common/Materials/Game/PersonalProtection/titanium_4.5mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Chest {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{321BC2613BD5E7D1}Common/Materials/Game/PersonalProtection/titanium_4.5mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Head {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{FC2B75C36BCAC2F1}Common/Materials/Game/PersonalProtection/titanium_1.25mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{6AA2D4F1620C6A05}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Enfusion Blender Tools"
+   ApplicationName "Enfusion Blender FBX Exporter - Validaton: Normal"
+   ApplicationVersion "4.5.14 LTS"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6AA2D4F1620C6A8F}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6AA2D4F1620C6B68}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6AA2D4F1620C6B56}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6AA2D4F1620C6B36}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6AA2D4F1620C6B1F}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass Xbox : PC {
+   Common TXOCommonClass "{6AA2D4F1620C6BFB}" {
+   }
+  }
+ }
+}
