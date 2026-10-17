@@ -52502,6 +52502,11 @@ $grp SCR_DestructibleBuildingEntity : "{3951BF8EC29C556D}PrefabLibrary/DefaultLi
   coords 5965.162 0 -1506.067
  }
  {
+  components {
+   SCR_DestructibleBuildingComponent "{62CCE42B8CDC0ECE}" {
+    Enabled 0
+   }
+  }
   coords 4615.025 1.373 978.713
   angles 0 94.779 0
  }
@@ -105477,6 +105482,11 @@ $grp GenericEntity : "{73C2A7008B434B5C}Prefabs/Compositions/Misc/SubComposition
 }
 $grp SCR_DestructibleBuildingEntity : "{741E43210E0B4690}Prefabs/Structures/Recreation/Gym_02/Gym_USSR_02.et" {
  {
+  components {
+   SCR_DestructibleBuildingComponent "{65B30809D1CD1043}" {
+    Enabled 0
+   }
+  }
   coords 5893.267 1.453 2483.699
   angles 0 97.405 0
  }
@@ -154955,7 +154965,7 @@ $grp StaticModelEntity : "{AE28D47CF26E91EA}Prefabs/Props/Military/Fortification
   angles 0.562 17.533 -0.292
  }
  {
-  coords 3810.802 -0 429.265
+  coords 3810.802 0 429.265
   angles 0 70.496 0
  }
  {
@@ -164188,6 +164198,11 @@ SCR_IndestructibleEnvironmentalEntity : "{BA73CB6DADFB194E}Prefabs/Rocks/Granite
  scale 0.937
 }
 GenericEntity : "{BA78843368337269}Prefabs/Scientists/Bunker_Modul_Small/Bunk_Mid_base.et" {
+ components {
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   Enabled 0
+  }
+ }
  coords 2109.506 291.924 1257.548
  angles 0 -34.887 0
 }

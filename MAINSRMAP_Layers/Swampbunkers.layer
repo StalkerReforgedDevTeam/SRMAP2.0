@@ -32,6 +32,11 @@ GenericEntity : "{B3283803059E2750}Prefabs/Props/Crates/CrateWooden_01_plain.et"
  angles 30.422 -79.729 0
 }
 GenericEntity : "{BA78843368337269}Prefabs/Scientists/Bunker_Modul_Small/Bunk_Mid_base.et" {
+ components {
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   Enabled 0
+  }
+ }
  coords 2110.34 292.302 1295.02
  angles 0 -78.836 0
  {
