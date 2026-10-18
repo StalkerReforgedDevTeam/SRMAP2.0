@@ -3,7 +3,6 @@ MetaFileClass {
  Configurations {
   FBXResourceClass PC {
    ExportSkinning 1
-   ExportSceneHierarchy 1
    MaterialAssigns {
     MaterialAssignClass "{6AA2D4EB198F5784}" {
      SourceMaterial "top"
@@ -15,7 +14,7 @@ MetaFileClass {
     }
     MaterialAssignClass "{6AA2D4EB198F55F5}" {
      SourceMaterial "pouch"
-     AssignedMaterial "{E205CBD0E311DD0D}Assets/Characters/Suits/IO7/Data/DarkBrown/pouchDarkBrown.emat"
+     AssignedMaterial "{64AA1709CD5B340E}Assets/Characters/Suits/IO7/Data/Dark/pouch.emat"
     }
     MaterialAssignClass "{6AA2D4EB198F55D9}" {
      SourceMaterial "boots"
@@ -23,7 +22,7 @@ MetaFileClass {
     }
     MaterialAssignClass "{6AA2D4EB198F55C1}" {
      SourceMaterial "vest"
-     AssignedMaterial "{344E422DE6F621CB}Assets/Characters/Suits/IO7/Data/DarkBrown/vestDarkBrown.emat"
+     AssignedMaterial "{EB199252AECD2376}Assets/Characters/Suits/IO7/Data/Dark/vest.emat"
     }
     MaterialAssignClass "{6AA2D4EB198F55A8}" {
      SourceMaterial "belt"
@@ -42,7 +41,7 @@ MetaFileClass {
     GeometryParam UCS_Arm_L {
      LayerPreset "FireGeo"
      SurfaceProperties {
-      "{FC2B75C36BCAC2F1}Common/Materials/Game/PersonalProtection/titanium_1.25mm.gamemat"
+      "{321BC2613BD5E7D1}Common/Materials/Game/PersonalProtection/titanium_4.5mm.gamemat"
      }
      Mass 0
      Margin 0
@@ -50,7 +49,7 @@ MetaFileClass {
     GeometryParam UCS_Arm_R {
      LayerPreset "FireGeo"
      SurfaceProperties {
-      "{FC2B75C36BCAC2F1}Common/Materials/Game/PersonalProtection/titanium_1.25mm.gamemat"
+      "{321BC2613BD5E7D1}Common/Materials/Game/PersonalProtection/titanium_4.5mm.gamemat"
      }
      Mass 0
      Margin 0
@@ -58,7 +57,7 @@ MetaFileClass {
     GeometryParam UCS_Buttocks {
      LayerPreset "FireGeo"
      SurfaceProperties {
-      "{FC2B75C36BCAC2F1}Common/Materials/Game/PersonalProtection/titanium_1.25mm.gamemat"
+      "{321BC2613BD5E7D1}Common/Materials/Game/PersonalProtection/titanium_4.5mm.gamemat"
      }
      Mass 0
      Margin 0
@@ -66,7 +65,7 @@ MetaFileClass {
     GeometryParam UCS_Calf_L {
      LayerPreset "FireGeo"
      SurfaceProperties {
-      "{FC2B75C36BCAC2F1}Common/Materials/Game/PersonalProtection/titanium_1.25mm.gamemat"
+      "{321BC2613BD5E7D1}Common/Materials/Game/PersonalProtection/titanium_4.5mm.gamemat"
      }
      Mass 0
      Margin 0
@@ -74,7 +73,7 @@ MetaFileClass {
     GeometryParam UCS_Calf_R {
      LayerPreset "FireGeo"
      SurfaceProperties {
-      "{FC2B75C36BCAC2F1}Common/Materials/Game/PersonalProtection/titanium_1.25mm.gamemat"
+      "{321BC2613BD5E7D1}Common/Materials/Game/PersonalProtection/titanium_4.5mm.gamemat"
      }
      Mass 0
      Margin 0
@@ -82,7 +81,7 @@ MetaFileClass {
     GeometryParam UCS_Forearm_L {
      LayerPreset "FireGeo"
      SurfaceProperties {
-      "{FC2B75C36BCAC2F1}Common/Materials/Game/PersonalProtection/titanium_1.25mm.gamemat"
+      "{321BC2613BD5E7D1}Common/Materials/Game/PersonalProtection/titanium_4.5mm.gamemat"
      }
      Mass 0
      Margin 0
@@ -90,7 +89,7 @@ MetaFileClass {
     GeometryParam UCS_Forearm_R {
      LayerPreset "FireGeo"
      SurfaceProperties {
-      "{FC2B75C36BCAC2F1}Common/Materials/Game/PersonalProtection/titanium_1.25mm.gamemat"
+      "{321BC2613BD5E7D1}Common/Materials/Game/PersonalProtection/titanium_4.5mm.gamemat"
      }
      Mass 0
      Margin 0
@@ -98,7 +97,7 @@ MetaFileClass {
     GeometryParam UCS_Neck {
      LayerPreset "FireGeo"
      SurfaceProperties {
-      "{FC2B75C36BCAC2F1}Common/Materials/Game/PersonalProtection/titanium_1.25mm.gamemat"
+      "{321BC2613BD5E7D1}Common/Materials/Game/PersonalProtection/titanium_4.5mm.gamemat"
      }
      Mass 0
      Margin 0
@@ -106,7 +105,7 @@ MetaFileClass {
     GeometryParam UCS_Thigh_L {
      LayerPreset "FireGeo"
      SurfaceProperties {
-      "{FC2B75C36BCAC2F1}Common/Materials/Game/PersonalProtection/titanium_1.25mm.gamemat"
+      "{321BC2613BD5E7D1}Common/Materials/Game/PersonalProtection/titanium_4.5mm.gamemat"
      }
      Mass 0
      Margin 0
@@ -114,7 +113,7 @@ MetaFileClass {
     GeometryParam UCS_Thigh_R {
      LayerPreset "FireGeo"
      SurfaceProperties {
-      "{FC2B75C36BCAC2F1}Common/Materials/Game/PersonalProtection/titanium_1.25mm.gamemat"
+      "{321BC2613BD5E7D1}Common/Materials/Game/PersonalProtection/titanium_4.5mm.gamemat"
      }
      Mass 0
      Margin 0
@@ -131,14 +130,6 @@ MetaFileClass {
      LayerPreset "FireGeo"
      SurfaceProperties {
       "{321BC2613BD5E7D1}Common/Materials/Game/PersonalProtection/titanium_4.5mm.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_Head {
-     LayerPreset "FireGeo"
-     SurfaceProperties {
-      "{FC2B75C36BCAC2F1}Common/Materials/Game/PersonalProtection/titanium_1.25mm.gamemat"
      }
      Mass 0
      Margin 0

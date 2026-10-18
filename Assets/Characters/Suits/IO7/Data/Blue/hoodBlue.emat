@@ -1,0 +1,7 @@
+MatPBRBasic {
+ DiffuseIBL 0.247 0.302 0.527 1
+ AllowUserAlphaBias 1
+ DisableUserAphaInShadow 1
+ BCRMap "{F4D9F3F3936D8CBD}Assets/Characters/Suits/IO7/Data/Blue/IO7_Top_Blue_BCR.edds"
+ NMOMap "{CC0148614A1ADE23}Assets/Characters/Suits/IO7/Data/Blue/IO7_Top_Blue_NMO.edds"
+}
