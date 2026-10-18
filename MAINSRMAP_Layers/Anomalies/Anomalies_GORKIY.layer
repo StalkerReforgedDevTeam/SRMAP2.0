@@ -5,7 +5,6 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   TriggerActivationType "Every query"
   UpdatePeriod 10
   m_ObjectPrefab "{1918FCF94E1DC74D}Prefabs/Anomals/Eye/ARMST_EYE.et"
-  m_ObjectPrefab2 "{9E0D254D4ECD2C1D}Prefabs/Anomals/Miracle/ARMST_MIRACLE.et"
   m_ObjectPrefab3 "{1918FCF94E1DC74D}Prefabs/Anomals/Eye/ARMST_EYE.et"
   m_SpawnCount 7
   m_MinDistanceBetweenAnomalies 14
@@ -20,7 +19,6 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   TriggerActivationType "Every query"
   UpdatePeriod 10
   m_ObjectPrefab "{1918FCF94E1DC74D}Prefabs/Anomals/Eye/ARMST_EYE.et"
-  m_ObjectPrefab2 "{9E0D254D4ECD2C1D}Prefabs/Anomals/Miracle/ARMST_MIRACLE.et"
   m_ObjectPrefab3 "{1918FCF94E1DC74D}Prefabs/Anomals/Eye/ARMST_EYE.et"
   m_SpawnCount 7
   m_MinDistanceBetweenAnomalies 14
@@ -35,8 +33,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   TriggerActivationType "Every query"
   UpdatePeriod 10
   m_ObjectPrefab "{60D88B47635E7627}Prefabs/Anomals/Electro/ARMST_ELECTRO_T1.et"
-  m_ObjectPrefab2 "{86E3F4B993996E43}Prefabs/Anomals/Electro/ARMST_ELECTRO_T2.et"
-  m_ObjectPrefab3 "{60D88B47635E7627}Prefabs/Anomals/Electro/ARMST_ELECTRO_T1.et"
+  m_ObjectPrefab3 "{1918FCF94E1DC74D}Prefabs/Anomals/Eye/ARMST_EYE.et"
   m_ArtsPrefab {
    "{00DDB16A5A775F47}Prefabs/Items/artefacts_new/1_TIER/art_electro_1T_drop.et"
   }
@@ -53,8 +50,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   TriggerActivationType "Every query"
   UpdatePeriod 10
   m_ObjectPrefab "{60D88B47635E7627}Prefabs/Anomals/Electro/ARMST_ELECTRO_T1.et"
-  m_ObjectPrefab2 "{86E3F4B993996E43}Prefabs/Anomals/Electro/ARMST_ELECTRO_T2.et"
-  m_ObjectPrefab3 "{60D88B47635E7627}Prefabs/Anomals/Electro/ARMST_ELECTRO_T1.et"
+  m_ObjectPrefab3 "{1918FCF94E1DC74D}Prefabs/Anomals/Eye/ARMST_EYE.et"
   m_ArtsPrefab {
    "{00DDB16A5A775F47}Prefabs/Items/artefacts_new/1_TIER/art_electro_1T_drop.et"
   }
@@ -71,7 +67,6 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   TriggerActivationType "Every query"
   UpdatePeriod 10
   m_ObjectPrefab "{E696A918826666EB}Prefabs/Anomals/Studen/ARMST_STUDEN.et"
-  m_ObjectPrefab2 "{E696A918826666EB}Prefabs/Anomals/Studen/ARMST_STUDEN.et"
   m_ObjectPrefab3 "{E696A918826666EB}Prefabs/Anomals/Studen/ARMST_STUDEN.et"
   m_ArtsPrefab {
    "{5BA31E48F7933CA9}Prefabs/Items/artefacts_new/1_TIER/art_toxys_1T_drop.et"
@@ -89,7 +84,6 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   TriggerActivationType "Every query"
   UpdatePeriod 10
   m_ObjectPrefab "{E696A918826666EB}Prefabs/Anomals/Studen/ARMST_STUDEN.et"
-  m_ObjectPrefab2 "{E696A918826666EB}Prefabs/Anomals/Studen/ARMST_STUDEN.et"
   m_ObjectPrefab3 "{E696A918826666EB}Prefabs/Anomals/Studen/ARMST_STUDEN.et"
   m_ArtsPrefab {
    "{5BA31E48F7933CA9}Prefabs/Items/artefacts_new/1_TIER/art_toxys_1T_drop.et"
@@ -107,7 +101,6 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   TriggerActivationType "Every query"
   UpdatePeriod 10
   m_ObjectPrefab "{764A0D38D69BA7F3}Prefabs/Anomals/Jarka/ARMST_JARKA_T2.et"
-  m_ObjectPrefab2 "{642A15101599EB63}Prefabs/Anomals/Puziriks/ARMST_JARKA_PUZIRIKS.et"
   m_ObjectPrefab3 "{764A0D38D69BA7F3}Prefabs/Anomals/Jarka/ARMST_JARKA_T2.et"
   m_ArtsPrefab {
    "{EABCF33CC349E7C3}Prefabs/Items/artefacts_new/1_TIER/art_fire_1T_drop.et"
@@ -125,7 +118,6 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   TriggerActivationType "Every query"
   UpdatePeriod 10
   m_ObjectPrefab "{764A0D38D69BA7F3}Prefabs/Anomals/Jarka/ARMST_JARKA_T2.et"
-  m_ObjectPrefab2 "{642A15101599EB63}Prefabs/Anomals/Puziriks/ARMST_JARKA_PUZIRIKS.et"
   m_ObjectPrefab3 "{764A0D38D69BA7F3}Prefabs/Anomals/Jarka/ARMST_JARKA_T2.et"
   m_ArtsPrefab {
    "{EABCF33CC349E7C3}Prefabs/Items/artefacts_new/1_TIER/art_fire_1T_drop.et"
@@ -143,7 +135,6 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   TriggerActivationType "Every query"
   UpdatePeriod 10
   m_ObjectPrefab "{764A0D38D69BA7F3}Prefabs/Anomals/Jarka/ARMST_JARKA_T2.et"
-  m_ObjectPrefab2 "{642A15101599EB63}Prefabs/Anomals/Puziriks/ARMST_JARKA_PUZIRIKS.et"
   m_ObjectPrefab3 "{764A0D38D69BA7F3}Prefabs/Anomals/Jarka/ARMST_JARKA_T2.et"
   m_ArtsPrefab {
    "{EABCF33CC349E7C3}Prefabs/Items/artefacts_new/1_TIER/art_fire_1T_drop.et"
@@ -161,7 +152,6 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   TriggerActivationType "Every query"
   UpdatePeriod 10
   m_ObjectPrefab "{764A0D38D69BA7F3}Prefabs/Anomals/Jarka/ARMST_JARKA_T2.et"
-  m_ObjectPrefab2 "{642A15101599EB63}Prefabs/Anomals/Puziriks/ARMST_JARKA_PUZIRIKS.et"
   m_ObjectPrefab3 "{764A0D38D69BA7F3}Prefabs/Anomals/Jarka/ARMST_JARKA_T2.et"
   m_ArtsPrefab {
    "{EABCF33CC349E7C3}Prefabs/Items/artefacts_new/1_TIER/art_fire_1T_drop.et"
@@ -179,7 +169,6 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   TriggerActivationType "Every query"
   UpdatePeriod 10
   m_ObjectPrefab "{D735AA39194BB61C}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2_Rock.et"
-  m_ObjectPrefab2 "{D735AA39194BB61C}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2_Rock.et"
   m_ObjectPrefab3 "{D735AA39194BB61C}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2_Rock.et"
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/1_TIER/art_gravy_1T_drop.et"
@@ -197,7 +186,6 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   TriggerActivationType "Every query"
   UpdatePeriod 10
   m_ObjectPrefab "{D735AA39194BB61C}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2_Rock.et"
-  m_ObjectPrefab2 "{D735AA39194BB61C}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2_Rock.et"
   m_ObjectPrefab3 "{D735AA39194BB61C}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2_Rock.et"
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/1_TIER/art_gravy_1T_drop.et"
@@ -215,7 +203,6 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   TriggerActivationType "Every query"
   UpdatePeriod 10
   m_ObjectPrefab "{D735AA39194BB61C}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2_Rock.et"
-  m_ObjectPrefab2 "{D735AA39194BB61C}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2_Rock.et"
   m_ObjectPrefab3 "{D735AA39194BB61C}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2_Rock.et"
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/1_TIER/art_gravy_1T_drop.et"
@@ -233,7 +220,6 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   TriggerActivationType "Every query"
   UpdatePeriod 10
   m_ObjectPrefab "{D735AA39194BB61C}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2_Rock.et"
-  m_ObjectPrefab2 "{D735AA39194BB61C}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2_Rock.et"
   m_ObjectPrefab3 "{D735AA39194BB61C}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2_Rock.et"
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/1_TIER/art_gravy_1T_drop.et"
@@ -251,7 +237,6 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   TriggerActivationType "Every query"
   UpdatePeriod 10
   m_ObjectPrefab "{E8723A08D2A1E958}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2.et"
-  m_ObjectPrefab2 "{78F0DD9ECF457B08}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T1.et"
   m_ObjectPrefab3 "{3A06BEE7589A8F27}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T2.et"
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/1_TIER/art_gravy_1T_drop.et"
@@ -269,8 +254,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   TriggerActivationType "Every query"
   UpdatePeriod 10
   m_ObjectPrefab "{E8723A08D2A1E958}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2.et"
-  m_ObjectPrefab2 "{78F0DD9ECF457B08}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T1.et"
-  m_ObjectPrefab3 "{3A06BEE7589A8F27}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T2.et"
+  m_ObjectPrefab3 "{764A0D38D69BA7F3}Prefabs/Anomals/Jarka/ARMST_JARKA_T2.et"
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/1_TIER/art_gravy_1T_drop.et"
    "{D3DAC7724B681883}Prefabs/Items/artefacts/armst_art_serafim.et"
@@ -287,8 +271,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   TriggerActivationType "Every query"
   UpdatePeriod 10
   m_ObjectPrefab "{E8723A08D2A1E958}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2.et"
-  m_ObjectPrefab2 "{78F0DD9ECF457B08}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T1.et"
-  m_ObjectPrefab3 "{3A06BEE7589A8F27}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T2.et"
+  m_ObjectPrefab3 "{764A0D38D69BA7F3}Prefabs/Anomals/Jarka/ARMST_JARKA_T2.et"
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/1_TIER/art_gravy_1T_drop.et"
    "{D3DAC7724B681883}Prefabs/Items/artefacts/armst_art_serafim.et"
@@ -305,8 +288,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   TriggerActivationType "Every query"
   UpdatePeriod 10
   m_ObjectPrefab "{8D18616B60C9C265}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier1.et"
-  m_ObjectPrefab2 "{78F0DD9ECF457B08}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T1.et"
-  m_ObjectPrefab3 "{8D18616B60C9C265}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier1.et"
+  m_ObjectPrefab3 "{764A0D38D69BA7F3}Prefabs/Anomals/Jarka/ARMST_JARKA_T2.et"
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/1_TIER/art_gravy_1T_drop.et"
    "{D3DAC7724B681883}Prefabs/Items/artefacts/armst_art_serafim.et"
@@ -323,8 +305,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   TriggerActivationType "Every query"
   UpdatePeriod 10
   m_ObjectPrefab "{E8723A08D2A1E958}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2.et"
-  m_ObjectPrefab2 "{78F0DD9ECF457B08}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T1.et"
-  m_ObjectPrefab3 "{3A06BEE7589A8F27}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T2.et"
+  m_ObjectPrefab3 "{764A0D38D69BA7F3}Prefabs/Anomals/Jarka/ARMST_JARKA_T2.et"
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/1_TIER/art_gravy_1T_drop.et"
    "{D3DAC7724B681883}Prefabs/Items/artefacts/armst_art_serafim.et"
@@ -341,8 +322,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   TriggerActivationType "Every query"
   UpdatePeriod 10
   m_ObjectPrefab "{E8723A08D2A1E958}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2.et"
-  m_ObjectPrefab2 "{78F0DD9ECF457B08}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T1.et"
-  m_ObjectPrefab3 "{3A06BEE7589A8F27}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T2.et"
+  m_ObjectPrefab3 "{764A0D38D69BA7F3}Prefabs/Anomals/Jarka/ARMST_JARKA_T2.et"
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/1_TIER/art_gravy_1T_drop.et"
    "{D3DAC7724B681883}Prefabs/Items/artefacts/armst_art_serafim.et"
@@ -359,8 +339,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   TriggerActivationType "Every query"
   UpdatePeriod 10
   m_ObjectPrefab "{E8723A08D2A1E958}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2.et"
-  m_ObjectPrefab2 "{78F0DD9ECF457B08}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T1.et"
-  m_ObjectPrefab3 "{3A06BEE7589A8F27}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T2.et"
+  m_ObjectPrefab3 "{764A0D38D69BA7F3}Prefabs/Anomals/Jarka/ARMST_JARKA_T2.et"
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/1_TIER/art_gravy_1T_drop.et"
    "{D3DAC7724B681883}Prefabs/Items/artefacts/armst_art_serafim.et"
@@ -377,7 +356,6 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   TriggerActivationType "Every query"
   UpdatePeriod 10
   m_ObjectPrefab "{E8723A08D2A1E958}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2.et"
-  m_ObjectPrefab2 "{78F0DD9ECF457B08}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T1.et"
   m_ObjectPrefab3 "{3A06BEE7589A8F27}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T2.et"
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/1_TIER/art_gravy_1T_drop.et"
@@ -395,7 +373,6 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   TriggerActivationType "Every query"
   UpdatePeriod 10
   m_ObjectPrefab "{E8723A08D2A1E958}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2.et"
-  m_ObjectPrefab2 "{78F0DD9ECF457B08}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T1.et"
   m_ObjectPrefab3 "{3A06BEE7589A8F27}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T2.et"
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/1_TIER/art_gravy_1T_drop.et"
@@ -413,7 +390,6 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   TriggerActivationType "Every query"
   UpdatePeriod 10
   m_ObjectPrefab "{E8723A08D2A1E958}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2.et"
-  m_ObjectPrefab2 "{78F0DD9ECF457B08}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T1.et"
   m_ObjectPrefab3 "{3A06BEE7589A8F27}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T2.et"
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/1_TIER/art_gravy_1T_drop.et"
@@ -431,7 +407,6 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   TriggerActivationType "Every query"
   UpdatePeriod 10
   m_ObjectPrefab "{E8723A08D2A1E958}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2.et"
-  m_ObjectPrefab2 "{78F0DD9ECF457B08}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T1.et"
   m_ObjectPrefab3 "{3A06BEE7589A8F27}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T2.et"
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/1_TIER/art_gravy_1T_drop.et"
@@ -449,7 +424,6 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   TriggerActivationType "Every query"
   UpdatePeriod 10
   m_ObjectPrefab "{E8723A08D2A1E958}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2.et"
-  m_ObjectPrefab2 "{78F0DD9ECF457B08}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T1.et"
   m_ObjectPrefab3 "{3A06BEE7589A8F27}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T2.et"
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/1_TIER/art_gravy_1T_drop.et"
@@ -467,8 +441,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   TriggerActivationType "Every query"
   UpdatePeriod 10
   m_ObjectPrefab "{60D88B47635E7627}Prefabs/Anomals/Electro/ARMST_ELECTRO_T1.et"
-  m_ObjectPrefab2 "{86E3F4B993996E43}Prefabs/Anomals/Electro/ARMST_ELECTRO_T2.et"
-  m_ObjectPrefab3 "{60D88B47635E7627}Prefabs/Anomals/Electro/ARMST_ELECTRO_T1.et"
+  m_ObjectPrefab3 "{1918FCF94E1DC74D}Prefabs/Anomals/Eye/ARMST_EYE.et"
   m_ArtsPrefab {
    "{00DDB16A5A775F47}Prefabs/Items/artefacts_new/1_TIER/art_electro_1T_drop.et"
   }
@@ -485,8 +458,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   TriggerActivationType "Every query"
   UpdatePeriod 10
   m_ObjectPrefab "{60D88B47635E7627}Prefabs/Anomals/Electro/ARMST_ELECTRO_T1.et"
-  m_ObjectPrefab2 "{86E3F4B993996E43}Prefabs/Anomals/Electro/ARMST_ELECTRO_T2.et"
-  m_ObjectPrefab3 "{60D88B47635E7627}Prefabs/Anomals/Electro/ARMST_ELECTRO_T1.et"
+  m_ObjectPrefab3 "{1918FCF94E1DC74D}Prefabs/Anomals/Eye/ARMST_EYE.et"
   m_ArtsPrefab {
    "{00DDB16A5A775F47}Prefabs/Items/artefacts_new/1_TIER/art_electro_1T_drop.et"
   }
@@ -503,7 +475,6 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   TriggerActivationType "Every query"
   UpdatePeriod 10
   m_ObjectPrefab "{E8723A08D2A1E958}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2.et"
-  m_ObjectPrefab2 "{78F0DD9ECF457B08}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T1.et"
   m_ObjectPrefab3 "{3A06BEE7589A8F27}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T2.et"
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/1_TIER/art_gravy_1T_drop.et"
@@ -521,7 +492,6 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   TriggerActivationType "Every query"
   UpdatePeriod 10
   m_ObjectPrefab "{E8723A08D2A1E958}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2.et"
-  m_ObjectPrefab2 "{78F0DD9ECF457B08}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T1.et"
   m_ObjectPrefab3 "{3A06BEE7589A8F27}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T2.et"
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/1_TIER/art_gravy_1T_drop.et"
@@ -539,7 +509,6 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   TriggerActivationType "Every query"
   UpdatePeriod 10
   m_ObjectPrefab "{E8723A08D2A1E958}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2.et"
-  m_ObjectPrefab2 "{78F0DD9ECF457B08}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T1.et"
   m_ObjectPrefab3 "{3A06BEE7589A8F27}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T2.et"
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/1_TIER/art_gravy_1T_drop.et"
@@ -557,7 +526,6 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   TriggerActivationType "Every query"
   UpdatePeriod 10
   m_ObjectPrefab "{E8723A08D2A1E958}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2.et"
-  m_ObjectPrefab2 "{78F0DD9ECF457B08}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T1.et"
   m_ObjectPrefab3 "{3A06BEE7589A8F27}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T2.et"
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/1_TIER/art_gravy_1T_drop.et"
@@ -576,7 +544,6 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   TriggerActivationType "Every query"
   UpdatePeriod 10
   m_ObjectPrefab "{86E3F4B993996E43}Prefabs/Anomals/Electro/ARMST_ELECTRO_T2.et"
-  m_ObjectPrefab2 "{86E3F4B993996E43}Prefabs/Anomals/Electro/ARMST_ELECTRO_T2.et"
   m_ObjectPrefab3 "{86E3F4B993996E43}Prefabs/Anomals/Electro/ARMST_ELECTRO_T2.et"
   m_ArtsPrefab {
    "{00DDB16A5A775F47}Prefabs/Items/artefacts_new/1_TIER/art_electro_1T_drop.et"
@@ -595,7 +562,6 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   TriggerActivationType "Every query"
   UpdatePeriod 10
   m_ObjectPrefab "{764A0D38D69BA7F3}Prefabs/Anomals/Jarka/ARMST_JARKA_T2.et"
-  m_ObjectPrefab2 "{764A0D38D69BA7F3}Prefabs/Anomals/Jarka/ARMST_JARKA_T2.et"
   m_ObjectPrefab3 "{764A0D38D69BA7F3}Prefabs/Anomals/Jarka/ARMST_JARKA_T2.et"
   m_ArtsPrefab {
    "{EABCF33CC349E7C3}Prefabs/Items/artefacts_new/1_TIER/art_fire_1T_drop.et"
@@ -614,7 +580,6 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   TriggerActivationType "Every query"
   UpdatePeriod 10
   m_ObjectPrefab "{764A0D38D69BA7F3}Prefabs/Anomals/Jarka/ARMST_JARKA_T2.et"
-  m_ObjectPrefab2 "{764A0D38D69BA7F3}Prefabs/Anomals/Jarka/ARMST_JARKA_T2.et"
   m_ObjectPrefab3 "{764A0D38D69BA7F3}Prefabs/Anomals/Jarka/ARMST_JARKA_T2.et"
   m_ArtsPrefab {
    "{EABCF33CC349E7C3}Prefabs/Items/artefacts_new/1_TIER/art_fire_1T_drop.et"
@@ -633,7 +598,6 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   TriggerActivationType "Every query"
   UpdatePeriod 10
   m_ObjectPrefab "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
-  m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
   m_ObjectPrefab3 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/1_TIER/art_gravy_1T_drop.et"
@@ -652,7 +616,6 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   TriggerActivationType "Every query"
   UpdatePeriod 10
   m_ObjectPrefab "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
-  m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
   m_ObjectPrefab3 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/1_TIER/art_gravy_1T_drop.et"
@@ -671,7 +634,6 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   TriggerActivationType "Every query"
   UpdatePeriod 10
   m_ObjectPrefab "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
-  m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
   m_ObjectPrefab3 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
   m_ArtsPrefab {
    "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/1_TIER/art_gravy_1T_drop.et"

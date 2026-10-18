@@ -4,7 +4,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   SphereRadius 70
   TriggerActivationType "Every query"
   UpdatePeriod 10
-  m_ObjectPrefab "{784FF70F5D5BEB3A}Prefabs/Anomals/Jarka/ARMST_JARKA_T1.et"
+  m_ObjectPrefab "{69E5D95FFE68FEE6}Prefabs/Anomals/Whirligig/SRZ_WHIRLIGIG.et"
   m_ObjectPrefab2 "{784FF70F5D5BEB3A}Prefabs/Anomals/Jarka/ARMST_JARKA_T1.et"
   m_ObjectPrefab3 "{784FF70F5D5BEB3A}Prefabs/Anomals/Jarka/ARMST_JARKA_T1.et"
   m_SpawnCount 3
@@ -18,7 +18,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   SphereRadius 54.4
   TriggerActivationType "Every query"
   UpdatePeriod 10
-  m_ObjectPrefab "{784FF70F5D5BEB3A}Prefabs/Anomals/Jarka/ARMST_JARKA_T1.et"
+  m_ObjectPrefab "{69E5D95FFE68FEE6}Prefabs/Anomals/Whirligig/SRZ_WHIRLIGIG.et"
   m_ObjectPrefab2 "{642A15101599EB63}Prefabs/Anomals/Puziriks/ARMST_JARKA_PUZIRIKS.et"
   m_ObjectPrefab3 "{784FF70F5D5BEB3A}Prefabs/Anomals/Jarka/ARMST_JARKA_T1.et"
   m_SpawnCount 3
@@ -32,7 +32,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   SphereRadius 84.8
   TriggerActivationType "Every query"
   UpdatePeriod 10
-  m_ObjectPrefab "{8D18616B60C9C265}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier1.et"
+  m_ObjectPrefab "{69E5D95FFE68FEE6}Prefabs/Anomals/Whirligig/SRZ_WHIRLIGIG.et"
   m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
   m_ObjectPrefab3 "{57CC29488C129FC4}Prefabs/Anomals/Moshkara/ARMST_MOSHKARA.et"
   m_ArtsPrefab {
@@ -53,7 +53,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   SphereRadius 84.8
   TriggerActivationType "Every query"
   UpdatePeriod 10
-  m_ObjectPrefab "{8D18616B60C9C265}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier1.et"
+  m_ObjectPrefab "{69E5D95FFE68FEE6}Prefabs/Anomals/Whirligig/SRZ_WHIRLIGIG.et"
   m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
   m_ObjectPrefab3 "{57CC29488C129FC4}Prefabs/Anomals/Moshkara/ARMST_MOSHKARA.et"
   m_ArtsPrefab {
@@ -74,7 +74,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   SphereRadius 84.8
   TriggerActivationType "Every query"
   UpdatePeriod 10
-  m_ObjectPrefab "{8D18616B60C9C265}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier1.et"
+  m_ObjectPrefab "{69E5D95FFE68FEE6}Prefabs/Anomals/Whirligig/SRZ_WHIRLIGIG.et"
   m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
   m_ObjectPrefab3 "{57CC29488C129FC4}Prefabs/Anomals/Moshkara/ARMST_MOSHKARA.et"
   m_ArtsPrefab {
@@ -95,7 +95,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   SphereRadius 84.8
   TriggerActivationType "Every query"
   UpdatePeriod 10
-  m_ObjectPrefab "{8D18616B60C9C265}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier1.et"
+  m_ObjectPrefab "{69E5D95FFE68FEE6}Prefabs/Anomals/Whirligig/SRZ_WHIRLIGIG.et"
   m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
   m_ObjectPrefab3 "{57CC29488C129FC4}Prefabs/Anomals/Moshkara/ARMST_MOSHKARA.et"
   m_ArtsPrefab {
@@ -116,7 +116,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   SphereRadius 84.8
   TriggerActivationType "Every query"
   UpdatePeriod 10
-  m_ObjectPrefab "{8D18616B60C9C265}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier1.et"
+  m_ObjectPrefab "{69E5D95FFE68FEE6}Prefabs/Anomals/Whirligig/SRZ_WHIRLIGIG.et"
   m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
   m_ObjectPrefab3 "{57CC29488C129FC4}Prefabs/Anomals/Moshkara/ARMST_MOSHKARA.et"
   m_ArtsPrefab {
@@ -137,7 +137,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   SphereRadius 84.8
   TriggerActivationType "Every query"
   UpdatePeriod 10
-  m_ObjectPrefab "{8D18616B60C9C265}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier1.et"
+  m_ObjectPrefab "{69E5D95FFE68FEE6}Prefabs/Anomals/Whirligig/SRZ_WHIRLIGIG.et"
   m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
   m_ObjectPrefab3 "{57CC29488C129FC4}Prefabs/Anomals/Moshkara/ARMST_MOSHKARA.et"
   m_ArtsPrefab {
@@ -158,7 +158,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   SphereRadius 84.8
   TriggerActivationType "Every query"
   UpdatePeriod 10
-  m_ObjectPrefab "{8D18616B60C9C265}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier1.et"
+  m_ObjectPrefab "{69E5D95FFE68FEE6}Prefabs/Anomals/Whirligig/SRZ_WHIRLIGIG.et"
   m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
   m_ObjectPrefab3 "{57CC29488C129FC4}Prefabs/Anomals/Moshkara/ARMST_MOSHKARA.et"
   m_ArtsPrefab {
@@ -179,7 +179,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   SphereRadius 84.8
   TriggerActivationType "Every query"
   UpdatePeriod 10
-  m_ObjectPrefab "{8D18616B60C9C265}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier1.et"
+  m_ObjectPrefab "{69E5D95FFE68FEE6}Prefabs/Anomals/Whirligig/SRZ_WHIRLIGIG.et"
   m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
   m_ObjectPrefab3 "{57CC29488C129FC4}Prefabs/Anomals/Moshkara/ARMST_MOSHKARA.et"
   m_ArtsPrefab {
@@ -200,7 +200,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   SphereRadius 84.8
   TriggerActivationType "Every query"
   UpdatePeriod 10
-  m_ObjectPrefab "{8D18616B60C9C265}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier1.et"
+  m_ObjectPrefab "{69E5D95FFE68FEE6}Prefabs/Anomals/Whirligig/SRZ_WHIRLIGIG.et"
   m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
   m_ObjectPrefab3 "{57CC29488C129FC4}Prefabs/Anomals/Moshkara/ARMST_MOSHKARA.et"
   m_ArtsPrefab {
@@ -221,7 +221,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   SphereRadius 84.8
   TriggerActivationType "Every query"
   UpdatePeriod 10
-  m_ObjectPrefab "{8D18616B60C9C265}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier1.et"
+  m_ObjectPrefab "{69E5D95FFE68FEE6}Prefabs/Anomals/Whirligig/SRZ_WHIRLIGIG.et"
   m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
   m_ObjectPrefab3 "{57CC29488C129FC4}Prefabs/Anomals/Moshkara/ARMST_MOSHKARA.et"
   m_ArtsPrefab {
@@ -242,7 +242,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   SphereRadius 84.8
   TriggerActivationType "Every query"
   UpdatePeriod 10
-  m_ObjectPrefab "{8D18616B60C9C265}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier1.et"
+  m_ObjectPrefab "{69E5D95FFE68FEE6}Prefabs/Anomals/Whirligig/SRZ_WHIRLIGIG.et"
   m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
   m_ObjectPrefab3 "{57CC29488C129FC4}Prefabs/Anomals/Moshkara/ARMST_MOSHKARA.et"
   m_ArtsPrefab {
@@ -263,7 +263,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   SphereRadius 84.8
   TriggerActivationType "Every query"
   UpdatePeriod 10
-  m_ObjectPrefab "{8D18616B60C9C265}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier1.et"
+  m_ObjectPrefab "{69E5D95FFE68FEE6}Prefabs/Anomals/Whirligig/SRZ_WHIRLIGIG.et"
   m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
   m_ObjectPrefab3 "{57CC29488C129FC4}Prefabs/Anomals/Moshkara/ARMST_MOSHKARA.et"
   m_ArtsPrefab {
@@ -284,7 +284,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   SphereRadius 84.8
   TriggerActivationType "Every query"
   UpdatePeriod 10
-  m_ObjectPrefab "{8D18616B60C9C265}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier1.et"
+  m_ObjectPrefab "{69E5D95FFE68FEE6}Prefabs/Anomals/Whirligig/SRZ_WHIRLIGIG.et"
   m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
   m_ObjectPrefab3 "{57CC29488C129FC4}Prefabs/Anomals/Moshkara/ARMST_MOSHKARA.et"
   m_ArtsPrefab {
@@ -305,7 +305,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   SphereRadius 84.8
   TriggerActivationType "Every query"
   UpdatePeriod 10
-  m_ObjectPrefab "{8D18616B60C9C265}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier1.et"
+  m_ObjectPrefab "{69E5D95FFE68FEE6}Prefabs/Anomals/Whirligig/SRZ_WHIRLIGIG.et"
   m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
   m_ObjectPrefab3 "{57CC29488C129FC4}Prefabs/Anomals/Moshkara/ARMST_MOSHKARA.et"
   m_ArtsPrefab {
@@ -326,7 +326,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   SphereRadius 84.8
   TriggerActivationType "Every query"
   UpdatePeriod 10
-  m_ObjectPrefab "{8D18616B60C9C265}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier1.et"
+  m_ObjectPrefab "{69E5D95FFE68FEE6}Prefabs/Anomals/Whirligig/SRZ_WHIRLIGIG.et"
   m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
   m_ObjectPrefab3 "{57CC29488C129FC4}Prefabs/Anomals/Moshkara/ARMST_MOSHKARA.et"
   m_ArtsPrefab {
@@ -347,7 +347,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   SphereRadius 84.8
   TriggerActivationType "Every query"
   UpdatePeriod 10
-  m_ObjectPrefab "{8D18616B60C9C265}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier1.et"
+  m_ObjectPrefab "{69E5D95FFE68FEE6}Prefabs/Anomals/Whirligig/SRZ_WHIRLIGIG.et"
   m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
   m_ObjectPrefab3 "{57CC29488C129FC4}Prefabs/Anomals/Moshkara/ARMST_MOSHKARA.et"
   m_ArtsPrefab {
@@ -369,7 +369,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   SphereRadius 114.1
   TriggerActivationType "Every query"
   UpdatePeriod 10
-  m_ObjectPrefab "{784FF70F5D5BEB3A}Prefabs/Anomals/Jarka/ARMST_JARKA_T1.et"
+  m_ObjectPrefab "{69E5D95FFE68FEE6}Prefabs/Anomals/Whirligig/SRZ_WHIRLIGIG.et"
   m_ObjectPrefab2 "{784FF70F5D5BEB3A}Prefabs/Anomals/Jarka/ARMST_JARKA_T1.et"
   m_ObjectPrefab3 "{784FF70F5D5BEB3A}Prefabs/Anomals/Jarka/ARMST_JARKA_T1.et"
   m_ArtsPrefab {

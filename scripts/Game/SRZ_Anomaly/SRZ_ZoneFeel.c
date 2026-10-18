@@ -66,13 +66,15 @@ class SRZ_ZoneFeel
 
 		float wantPsy = 0;
 		float wantToxic = 0;
+		float psyStat = 100;
 		ChimeraCharacter character = ChimeraCharacter.Cast(SCR_PlayerController.GetLocalControlledEntity());
 		if (character && character.GetCharacterController() && character.GetCharacterController().GetLifeState() != ECharacterLifeState.DEAD)
 		{
 			ARMST_PLAYER_STATS_COMPONENT stats = ARMST_PLAYER_STATS_COMPONENT.Cast(character.FindComponent(ARMST_PLAYER_STATS_COMPONENT));
 			if (stats)
 			{
-				wantPsy = Math.Clamp((PSY_FROM - stats.ArmstPlayerStatGetPsy()) / (PSY_FROM - PSY_FULL), 0, 1);
+				psyStat = stats.ArmstPlayerStatGetPsy();
+				wantPsy = Math.Clamp((PSY_FROM - psyStat) / (PSY_FROM - PSY_FULL), 0, 1);
 				wantToxic = Math.Clamp((stats.ArmstPlayerStatGetToxic() - TOXIC_FROM) / (TOXIC_FULL - TOXIC_FROM), 0, 1);
 			}
 		}
@@ -90,6 +92,11 @@ class SRZ_ZoneFeel
 		if (s_fToxic < 0.002)
 			s_fToxic = 0;
 
+		IEntity phantomTarget = null;
+		if (psyStat < 100)
+			phantomTarget = character;
+
+		SRZ_Phantoms.Step(dt, phantomTarget, psyStat);
 		UpdateTints();
 		UpdateFlash(dt);
 		UpdateVolume();
