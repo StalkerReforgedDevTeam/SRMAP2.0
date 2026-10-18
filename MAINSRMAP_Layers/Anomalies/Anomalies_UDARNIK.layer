@@ -8,7 +8,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab2 "{86E3F4B993996E43}Prefabs/Anomals/Electro/ARMST_ELECTRO_T2.et"
   m_ObjectPrefab3 "{60D88B47635E7627}Prefabs/Anomals/Electro/ARMST_ELECTRO_T1.et"
   m_ArtsPrefab {
-   "{00DDB16A5A775F47}Prefabs/Items/artefacts_new/art_electro_1T_drop.et"
+   "{00DDB16A5A775F47}Prefabs/Items/artefacts_new/1_TIER/art_electro_1T_drop.et"
    "{D3DAC7724B681883}Prefabs/Items/artefacts/armst_art_serafim.et"
   }
   m_MinDistanceBetweenAnomalies 15
@@ -26,7 +26,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab2 "{86E3F4B993996E43}Prefabs/Anomals/Electro/ARMST_ELECTRO_T2.et"
   m_ObjectPrefab3 "{60D88B47635E7627}Prefabs/Anomals/Electro/ARMST_ELECTRO_T1.et"
   m_ArtsPrefab {
-   "{00DDB16A5A775F47}Prefabs/Items/artefacts_new/art_electro_1T_drop.et"
+   "{00DDB16A5A775F47}Prefabs/Items/artefacts_new/1_TIER/art_electro_1T_drop.et"
    "{D3DAC7724B681883}Prefabs/Items/artefacts/armst_art_serafim.et"
   }
   m_MinDistanceBetweenAnomalies 15
@@ -44,7 +44,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab2 "{86E3F4B993996E43}Prefabs/Anomals/Electro/ARMST_ELECTRO_T2.et"
   m_ObjectPrefab3 "{60D88B47635E7627}Prefabs/Anomals/Electro/ARMST_ELECTRO_T1.et"
   m_ArtsPrefab {
-   "{00DDB16A5A775F47}Prefabs/Items/artefacts_new/art_electro_1T_drop.et"
+   "{00DDB16A5A775F47}Prefabs/Items/artefacts_new/1_TIER/art_electro_1T_drop.et"
    "{D3DAC7724B681883}Prefabs/Items/artefacts/armst_art_serafim.et"
   }
   m_MinDistanceBetweenAnomalies 15
@@ -62,7 +62,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
   m_ObjectPrefab3 "{3A06BEE7589A8F27}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T2.et"
   m_ArtsPrefab {
-   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/1_TIER/art_gravy_1T_drop.et"
    "{E48E75D37BA803C5}Prefabs/Items/artefacts/armst_art_vaza.et"
    "{4B141B0145B7286F}Prefabs/Items/artefacts/armst_art_gnile.et"
   }
@@ -81,7 +81,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
   m_ObjectPrefab3 "{3A06BEE7589A8F27}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T2.et"
   m_ArtsPrefab {
-   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/1_TIER/art_gravy_1T_drop.et"
    "{E48E75D37BA803C5}Prefabs/Items/artefacts/armst_art_vaza.et"
    "{4B141B0145B7286F}Prefabs/Items/artefacts/armst_art_gnile.et"
   }
@@ -100,7 +100,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
   m_ObjectPrefab3 "{3A06BEE7589A8F27}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T2.et"
   m_ArtsPrefab {
-   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/1_TIER/art_gravy_1T_drop.et"
    "{E48E75D37BA803C5}Prefabs/Items/artefacts/armst_art_vaza.et"
    "{4B141B0145B7286F}Prefabs/Items/artefacts/armst_art_gnile.et"
   }
@@ -119,7 +119,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
   m_ObjectPrefab3 "{3A06BEE7589A8F27}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T2.et"
   m_ArtsPrefab {
-   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/1_TIER/art_gravy_1T_drop.et"
    "{E48E75D37BA803C5}Prefabs/Items/artefacts/armst_art_vaza.et"
    "{4B141B0145B7286F}Prefabs/Items/artefacts/armst_art_gnile.et"
   }
@@ -138,7 +138,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
   m_ObjectPrefab3 "{3A06BEE7589A8F27}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T2.et"
   m_ArtsPrefab {
-   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/1_TIER/art_gravy_1T_drop.et"
    "{E48E75D37BA803C5}Prefabs/Items/artefacts/armst_art_vaza.et"
    "{4B141B0145B7286F}Prefabs/Items/artefacts/armst_art_gnile.et"
   }
@@ -157,7 +157,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
   m_ObjectPrefab3 "{3A06BEE7589A8F27}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T2.et"
   m_ArtsPrefab {
-   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/1_TIER/art_gravy_1T_drop.et"
    "{E48E75D37BA803C5}Prefabs/Items/artefacts/armst_art_vaza.et"
    "{4B141B0145B7286F}Prefabs/Items/artefacts/armst_art_gnile.et"
   }
@@ -176,7 +176,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
   m_ObjectPrefab3 "{3A06BEE7589A8F27}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T2.et"
   m_ArtsPrefab {
-   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/1_TIER/art_gravy_1T_drop.et"
    "{E48E75D37BA803C5}Prefabs/Items/artefacts/armst_art_vaza.et"
    "{4B141B0145B7286F}Prefabs/Items/artefacts/armst_art_gnile.et"
   }
@@ -195,7 +195,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
   m_ObjectPrefab3 "{3A06BEE7589A8F27}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T2.et"
   m_ArtsPrefab {
-   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/1_TIER/art_gravy_1T_drop.et"
    "{E48E75D37BA803C5}Prefabs/Items/artefacts/armst_art_vaza.et"
    "{4B141B0145B7286F}Prefabs/Items/artefacts/armst_art_gnile.et"
   }
@@ -214,7 +214,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
   m_ObjectPrefab3 "{3A06BEE7589A8F27}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T2.et"
   m_ArtsPrefab {
-   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/1_TIER/art_gravy_1T_drop.et"
    "{E48E75D37BA803C5}Prefabs/Items/artefacts/armst_art_vaza.et"
    "{4B141B0145B7286F}Prefabs/Items/artefacts/armst_art_gnile.et"
   }
@@ -233,7 +233,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
   m_ObjectPrefab3 "{3A06BEE7589A8F27}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T2.et"
   m_ArtsPrefab {
-   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/1_TIER/art_gravy_1T_drop.et"
    "{E48E75D37BA803C5}Prefabs/Items/artefacts/armst_art_vaza.et"
    "{4B141B0145B7286F}Prefabs/Items/artefacts/armst_art_gnile.et"
   }
@@ -249,10 +249,10 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   TriggerActivationType "Every query"
   UpdatePeriod 10
   m_ObjectPrefab "{CABC604DA3CA5864}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier3.et"
-  m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
+  m_ObjectPrefab2 "{69E5D95FFE68FEE6}Prefabs/Anomals/Whirligig/SRZ_WHIRLIGIG.et"
   m_ObjectPrefab3 "{3A06BEE7589A8F27}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T2.et"
   m_ArtsPrefab {
-   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/1_TIER/art_gravy_1T_drop.et"
    "{E48E75D37BA803C5}Prefabs/Items/artefacts/armst_art_vaza.et"
    "{4B141B0145B7286F}Prefabs/Items/artefacts/armst_art_gnile.et"
   }
@@ -268,10 +268,10 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   TriggerActivationType "Every query"
   UpdatePeriod 10
   m_ObjectPrefab "{CABC604DA3CA5864}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier3.et"
-  m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
+  m_ObjectPrefab2 "{69E5D95FFE68FEE6}Prefabs/Anomals/Whirligig/SRZ_WHIRLIGIG.et"
   m_ObjectPrefab3 "{3A06BEE7589A8F27}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T2.et"
   m_ArtsPrefab {
-   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/1_TIER/art_gravy_1T_drop.et"
    "{E48E75D37BA803C5}Prefabs/Items/artefacts/armst_art_vaza.et"
    "{4B141B0145B7286F}Prefabs/Items/artefacts/armst_art_gnile.et"
   }
@@ -287,10 +287,10 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   TriggerActivationType "Every query"
   UpdatePeriod 10
   m_ObjectPrefab "{CABC604DA3CA5864}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier3.et"
-  m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
+  m_ObjectPrefab2 "{69E5D95FFE68FEE6}Prefabs/Anomals/Whirligig/SRZ_WHIRLIGIG.et"
   m_ObjectPrefab3 "{3A06BEE7589A8F27}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T2.et"
   m_ArtsPrefab {
-   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/1_TIER/art_gravy_1T_drop.et"
    "{E48E75D37BA803C5}Prefabs/Items/artefacts/armst_art_vaza.et"
    "{4B141B0145B7286F}Prefabs/Items/artefacts/armst_art_gnile.et"
   }
@@ -309,7 +309,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab2 "{E696A918826666EB}Prefabs/Anomals/Studen/ARMST_STUDEN.et"
   m_ObjectPrefab3 "{E696A918826666EB}Prefabs/Anomals/Studen/ARMST_STUDEN.et"
   m_ArtsPrefab {
-   "{5BA31E48F7933CA9}Prefabs/Items/artefacts_new/art_toxys_1T_drop.et"
+   "{5BA31E48F7933CA9}Prefabs/Items/artefacts_new/1_TIER/art_toxys_1T_drop.et"
   }
   m_SpawnCount 3
   m_CenterBias 0.2
@@ -326,7 +326,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab2 "{764A0D38D69BA7F3}Prefabs/Anomals/Jarka/ARMST_JARKA_T2.et"
   m_ObjectPrefab3 "{642A15101599EB63}Prefabs/Anomals/Puziriks/ARMST_JARKA_PUZIRIKS.et"
   m_ArtsPrefab {
-   "{EABCF33CC349E7C3}Prefabs/Items/artefacts_new/art_fire_1T_drop.et"
+   "{EABCF33CC349E7C3}Prefabs/Items/artefacts_new/1_TIER/art_fire_1T_drop.et"
    "{2F3C09BBF8CCA364}Prefabs/Items/artefacts/armst_art_sharik.et"
    "{E0AF1AF6DEC9ADEC}Prefabs/Items/artefacts/armst_art_ventile.et"
   }
@@ -346,7 +346,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab2 "{764A0D38D69BA7F3}Prefabs/Anomals/Jarka/ARMST_JARKA_T2.et"
   m_ObjectPrefab3 "{642A15101599EB63}Prefabs/Anomals/Puziriks/ARMST_JARKA_PUZIRIKS.et"
   m_ArtsPrefab {
-   "{EABCF33CC349E7C3}Prefabs/Items/artefacts_new/art_fire_1T_drop.et"
+   "{EABCF33CC349E7C3}Prefabs/Items/artefacts_new/1_TIER/art_fire_1T_drop.et"
    "{2F3C09BBF8CCA364}Prefabs/Items/artefacts/armst_art_sharik.et"
    "{E0AF1AF6DEC9ADEC}Prefabs/Items/artefacts/armst_art_ventile.et"
   }
@@ -366,7 +366,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab2 "{764A0D38D69BA7F3}Prefabs/Anomals/Jarka/ARMST_JARKA_T2.et"
   m_ObjectPrefab3 "{642A15101599EB63}Prefabs/Anomals/Puziriks/ARMST_JARKA_PUZIRIKS.et"
   m_ArtsPrefab {
-   "{EABCF33CC349E7C3}Prefabs/Items/artefacts_new/art_fire_1T_drop.et"
+   "{EABCF33CC349E7C3}Prefabs/Items/artefacts_new/1_TIER/art_fire_1T_drop.et"
   }
   m_SpawnCount 3
   m_CenterBias 0
@@ -422,10 +422,10 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   TriggerActivationType "Every query"
   UpdatePeriod 10
   m_ObjectPrefab "{CABC604DA3CA5864}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier3.et"
-  m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
+  m_ObjectPrefab2 "{69E5D95FFE68FEE6}Prefabs/Anomals/Whirligig/SRZ_WHIRLIGIG.et"
   m_ObjectPrefab3 "{3A06BEE7589A8F27}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T2.et"
   m_ArtsPrefab {
-   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/1_TIER/art_gravy_1T_drop.et"
    "{E48E75D37BA803C5}Prefabs/Items/artefacts/armst_art_vaza.et"
    "{4B141B0145B7286F}Prefabs/Items/artefacts/armst_art_gnile.et"
   }
@@ -441,10 +441,10 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   TriggerActivationType "Every query"
   UpdatePeriod 10
   m_ObjectPrefab "{CABC604DA3CA5864}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier3.et"
-  m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
+  m_ObjectPrefab2 "{69E5D95FFE68FEE6}Prefabs/Anomals/Whirligig/SRZ_WHIRLIGIG.et"
   m_ObjectPrefab3 "{3A06BEE7589A8F27}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T2.et"
   m_ArtsPrefab {
-   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/1_TIER/art_gravy_1T_drop.et"
    "{E48E75D37BA803C5}Prefabs/Items/artefacts/armst_art_vaza.et"
    "{4B141B0145B7286F}Prefabs/Items/artefacts/armst_art_gnile.et"
   }
@@ -460,10 +460,10 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   TriggerActivationType "Every query"
   UpdatePeriod 10
   m_ObjectPrefab "{CABC604DA3CA5864}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier3.et"
-  m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
+  m_ObjectPrefab2 "{69E5D95FFE68FEE6}Prefabs/Anomals/Whirligig/SRZ_WHIRLIGIG.et"
   m_ObjectPrefab3 "{3A06BEE7589A8F27}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T2.et"
   m_ArtsPrefab {
-   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/1_TIER/art_gravy_1T_drop.et"
    "{E48E75D37BA803C5}Prefabs/Items/artefacts/armst_art_vaza.et"
    "{4B141B0145B7286F}Prefabs/Items/artefacts/armst_art_gnile.et"
   }
@@ -479,10 +479,10 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   TriggerActivationType "Every query"
   UpdatePeriod 10
   m_ObjectPrefab "{CABC604DA3CA5864}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier3.et"
-  m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
+  m_ObjectPrefab2 "{69E5D95FFE68FEE6}Prefabs/Anomals/Whirligig/SRZ_WHIRLIGIG.et"
   m_ObjectPrefab3 "{3A06BEE7589A8F27}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T2.et"
   m_ArtsPrefab {
-   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/1_TIER/art_gravy_1T_drop.et"
    "{E48E75D37BA803C5}Prefabs/Items/artefacts/armst_art_vaza.et"
    "{4B141B0145B7286F}Prefabs/Items/artefacts/armst_art_gnile.et"
   }
@@ -501,7 +501,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab2 "{86E3F4B993996E43}Prefabs/Anomals/Electro/ARMST_ELECTRO_T2.et"
   m_ObjectPrefab3 "{60D88B47635E7627}Prefabs/Anomals/Electro/ARMST_ELECTRO_T1.et"
   m_ArtsPrefab {
-   "{00DDB16A5A775F47}Prefabs/Items/artefacts_new/art_electro_1T_drop.et"
+   "{00DDB16A5A775F47}Prefabs/Items/artefacts_new/1_TIER/art_electro_1T_drop.et"
    "{D3DAC7724B681883}Prefabs/Items/artefacts/armst_art_serafim.et"
   }
   m_MinDistanceBetweenAnomalies 15
@@ -519,7 +519,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab2 "{764A0D38D69BA7F3}Prefabs/Anomals/Jarka/ARMST_JARKA_T2.et"
   m_ObjectPrefab3 "{642A15101599EB63}Prefabs/Anomals/Puziriks/ARMST_JARKA_PUZIRIKS.et"
   m_ArtsPrefab {
-   "{EABCF33CC349E7C3}Prefabs/Items/artefacts_new/art_fire_1T_drop.et"
+   "{EABCF33CC349E7C3}Prefabs/Items/artefacts_new/1_TIER/art_fire_1T_drop.et"
   }
   m_SpawnCount 3
   m_CenterBias 0
@@ -533,10 +533,10 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   TriggerActivationType "Every query"
   UpdatePeriod 10
   m_ObjectPrefab "{CABC604DA3CA5864}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier3.et"
-  m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
+  m_ObjectPrefab2 "{69E5D95FFE68FEE6}Prefabs/Anomals/Whirligig/SRZ_WHIRLIGIG.et"
   m_ObjectPrefab3 "{3A06BEE7589A8F27}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T2.et"
   m_ArtsPrefab {
-   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/1_TIER/art_gravy_1T_drop.et"
    "{E48E75D37BA803C5}Prefabs/Items/artefacts/armst_art_vaza.et"
    "{4B141B0145B7286F}Prefabs/Items/artefacts/armst_art_gnile.et"
   }
@@ -555,7 +555,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
   m_ObjectPrefab3 "{3A06BEE7589A8F27}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T2.et"
   m_ArtsPrefab {
-   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/1_TIER/art_gravy_1T_drop.et"
    "{E48E75D37BA803C5}Prefabs/Items/artefacts/armst_art_vaza.et"
    "{4B141B0145B7286F}Prefabs/Items/artefacts/armst_art_gnile.et"
   }
@@ -574,7 +574,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab2 "{86E3F4B993996E43}Prefabs/Anomals/Electro/ARMST_ELECTRO_T2.et"
   m_ObjectPrefab3 "{60D88B47635E7627}Prefabs/Anomals/Electro/ARMST_ELECTRO_T1.et"
   m_ArtsPrefab {
-   "{00DDB16A5A775F47}Prefabs/Items/artefacts_new/art_electro_1T_drop.et"
+   "{00DDB16A5A775F47}Prefabs/Items/artefacts_new/1_TIER/art_electro_1T_drop.et"
    "{D3DAC7724B681883}Prefabs/Items/artefacts/armst_art_serafim.et"
   }
   m_MinDistanceBetweenAnomalies 15
@@ -592,7 +592,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab2 "{86E3F4B993996E43}Prefabs/Anomals/Electro/ARMST_ELECTRO_T2.et"
   m_ObjectPrefab3 "{60D88B47635E7627}Prefabs/Anomals/Electro/ARMST_ELECTRO_T1.et"
   m_ArtsPrefab {
-   "{00DDB16A5A775F47}Prefabs/Items/artefacts_new/art_electro_1T_drop.et"
+   "{00DDB16A5A775F47}Prefabs/Items/artefacts_new/1_TIER/art_electro_1T_drop.et"
    "{D3DAC7724B681883}Prefabs/Items/artefacts/armst_art_serafim.et"
   }
   m_MinDistanceBetweenAnomalies 15
@@ -610,7 +610,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
   m_ObjectPrefab3 "{3A06BEE7589A8F27}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T2.et"
   m_ArtsPrefab {
-   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/1_TIER/art_gravy_1T_drop.et"
    "{E48E75D37BA803C5}Prefabs/Items/artefacts/armst_art_vaza.et"
    "{4B141B0145B7286F}Prefabs/Items/artefacts/armst_art_gnile.et"
   }
@@ -629,7 +629,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
   m_ObjectPrefab3 "{3A06BEE7589A8F27}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T2.et"
   m_ArtsPrefab {
-   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/1_TIER/art_gravy_1T_drop.et"
    "{E48E75D37BA803C5}Prefabs/Items/artefacts/armst_art_vaza.et"
    "{4B141B0145B7286F}Prefabs/Items/artefacts/armst_art_gnile.et"
   }
@@ -648,7 +648,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
   m_ObjectPrefab3 "{3A06BEE7589A8F27}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T2.et"
   m_ArtsPrefab {
-   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/1_TIER/art_gravy_1T_drop.et"
    "{E48E75D37BA803C5}Prefabs/Items/artefacts/armst_art_vaza.et"
    "{4B141B0145B7286F}Prefabs/Items/artefacts/armst_art_gnile.et"
   }
@@ -667,7 +667,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
   m_ObjectPrefab3 "{3A06BEE7589A8F27}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T2.et"
   m_ArtsPrefab {
-   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/art_gravy_1T_drop.et"
+   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/1_TIER/art_gravy_1T_drop.et"
    "{E48E75D37BA803C5}Prefabs/Items/artefacts/armst_art_vaza.et"
    "{4B141B0145B7286F}Prefabs/Items/artefacts/armst_art_gnile.et"
   }
@@ -687,7 +687,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab2 "{A7BCEA2AE366E4AF}Prefabs/Anomals/Toxic/ARMST_TOXIC.et"
   m_ObjectPrefab3 "{A7BCEA2AE366E4AF}Prefabs/Anomals/Toxic/ARMST_TOXIC.et"
   m_ArtsPrefab {
-   "{5BA31E48F7933CA9}Prefabs/Items/artefacts_new/art_toxys_1T_drop.et"
+   "{5BA31E48F7933CA9}Prefabs/Items/artefacts_new/1_TIER/art_toxys_1T_drop.et"
    "{4B141B0145B7286F}Prefabs/Items/artefacts/armst_art_gnile.et"
   }
   m_MinDistanceBetweenAnomalies 8
@@ -706,7 +706,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab2 "{A7BCEA2AE366E4AF}Prefabs/Anomals/Toxic/ARMST_TOXIC.et"
   m_ObjectPrefab3 "{A7BCEA2AE366E4AF}Prefabs/Anomals/Toxic/ARMST_TOXIC.et"
   m_ArtsPrefab {
-   "{5BA31E48F7933CA9}Prefabs/Items/artefacts_new/art_toxys_1T_drop.et"
+   "{5BA31E48F7933CA9}Prefabs/Items/artefacts_new/1_TIER/art_toxys_1T_drop.et"
    "{4B141B0145B7286F}Prefabs/Items/artefacts/armst_art_gnile.et"
   }
   m_MinDistanceBetweenAnomalies 8
@@ -725,7 +725,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab2 "{A7BCEA2AE366E4AF}Prefabs/Anomals/Toxic/ARMST_TOXIC.et"
   m_ObjectPrefab3 "{A7BCEA2AE366E4AF}Prefabs/Anomals/Toxic/ARMST_TOXIC.et"
   m_ArtsPrefab {
-   "{5BA31E48F7933CA9}Prefabs/Items/artefacts_new/art_toxys_1T_drop.et"
+   "{5BA31E48F7933CA9}Prefabs/Items/artefacts_new/1_TIER/art_toxys_1T_drop.et"
    "{4B141B0145B7286F}Prefabs/Items/artefacts/armst_art_gnile.et"
   }
   m_MinDistanceBetweenAnomalies 8
@@ -744,7 +744,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab2 "{A7BCEA2AE366E4AF}Prefabs/Anomals/Toxic/ARMST_TOXIC.et"
   m_ObjectPrefab3 "{A7BCEA2AE366E4AF}Prefabs/Anomals/Toxic/ARMST_TOXIC.et"
   m_ArtsPrefab {
-   "{5BA31E48F7933CA9}Prefabs/Items/artefacts_new/art_toxys_1T_drop.et"
+   "{5BA31E48F7933CA9}Prefabs/Items/artefacts_new/1_TIER/art_toxys_1T_drop.et"
    "{4B141B0145B7286F}Prefabs/Items/artefacts/armst_art_gnile.et"
   }
   m_MinDistanceBetweenAnomalies 8
@@ -763,7 +763,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
   m_ObjectPrefab3 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
   m_ArtsPrefab {
-   "{5BA31E48F7933CA9}Prefabs/Items/artefacts_new/art_toxys_1T_drop.et"
+   "{5BA31E48F7933CA9}Prefabs/Items/artefacts_new/1_TIER/art_toxys_1T_drop.et"
    "{4B141B0145B7286F}Prefabs/Items/artefacts/armst_art_gnile.et"
   }
   m_MinDistanceBetweenAnomalies 8
@@ -782,7 +782,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab2 "{60D88B47635E7627}Prefabs/Anomals/Electro/ARMST_ELECTRO_T1.et"
   m_ObjectPrefab3 "{60D88B47635E7627}Prefabs/Anomals/Electro/ARMST_ELECTRO_T1.et"
   m_ArtsPrefab {
-   "{5BA31E48F7933CA9}Prefabs/Items/artefacts_new/art_toxys_1T_drop.et"
+   "{5BA31E48F7933CA9}Prefabs/Items/artefacts_new/1_TIER/art_toxys_1T_drop.et"
    "{4B141B0145B7286F}Prefabs/Items/artefacts/armst_art_gnile.et"
   }
   m_MinDistanceBetweenAnomalies 8

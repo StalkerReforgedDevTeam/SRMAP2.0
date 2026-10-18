@@ -1,3 +1,12 @@
 ParticleEffectEntity {
  ID "61A6742D7789D418"
+ {
+  ARMST_DamagingTriggerEntity {
+   ID "68F29D67B68A0906"
+   UpdatePeriod 0.5
+   m_bSRZ_SprintOnly 1
+   m_fSRZ_SprintSpeed 3.5
+   m_iSRZ_BleedWounds 2
+  }
+ }
 }

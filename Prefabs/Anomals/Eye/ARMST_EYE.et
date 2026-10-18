@@ -1,3 +1,9 @@
 ParticleEffectEntity {
  ID "65C46938540FA6AC"
+ {
+  ARMST_DamagingTriggerEntity {
+   ID "65C46938540FA6AD"
+   m_fSRZ_SlowLimit 0.6
+  }
+ }
 }
