@@ -1,0 +1,62 @@
+EffectDef {
+ Version 2
+ Emitters {
+  EmitterDef Steam_Jet {
+   ShapeType Sphere
+   ShapeSize 0.05 0.05 0.05
+   ConeAngle 10 0 10
+   MaxNum 80
+   BirthRate 45
+   BirthRateRND 5
+   Offset 0 0 0
+   LodMin 0
+   LodMax 1
+   Material "{67FEB95AE2ECC2EA}Particles/_Materials/Gas/Smoke_Base_Dust_01.emat"
+   SizeMultiplier 0.35
+   SizeRND 0.1
+   RotMultiplier 40
+   RotRND 20
+   RandomAngle 1
+   Velocity 5
+   VelocityRND 1
+   GravityMultiply -0.1
+   Lifetime 0.7
+   LifetimeRND 0.2
+   Alpha {
+    0 0 0.1 0.6 0.6 0.35 1 0
+   }
+   Size {
+    0 0.4 1 3
+   }
+  }
+  EmitterDef Steam_Cloud {
+   ShapeType Sphere
+   ShapeSize 0.3 0.3 0.3
+   ConeAngle 35 0 35
+   MaxNum 25
+   BirthRate 10
+   BirthRateRND 3
+   Offset 0 0.4 0
+   LodMin 0
+   LodMax 1
+   Material "{67FEB95AE2ECC2EA}Particles/_Materials/Gas/Smoke_Base_Dust_01.emat"
+   SizeMultiplier 1
+   SizeRND 0.3
+   RotMultiplier 30
+   RotRND 15
+   RandomAngle 1
+   Velocity 1.5
+   VelocityRND 0.5
+   GravityMultiply -0.05
+   Lifetime 2.2
+   LifetimeRND 0.6
+   Alpha {
+    0 0 0.2 0.35 0.7 0.2 1 0
+   }
+   Size {
+    0 0.6 1 2.2
+   }
+  }
+ }
+ CollisionPreset "{5D9EE44C68755DF5}"
+}

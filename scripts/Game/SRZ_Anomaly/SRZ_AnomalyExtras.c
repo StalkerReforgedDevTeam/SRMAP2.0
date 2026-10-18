@@ -12,11 +12,36 @@ modded class ARMST_DamagingTriggerEntity
 	[Attribute("0", UIWidgets.Slider, "Bleeding wounds opened on each hit", "0 4 1", category: "SRZ")]
 	int m_iSRZ_BleedWounds;
 
+	[Attribute("0", UIWidgets.Slider, "A bolt makes it discharge and go quiet for this many seconds (0 = off)", "0 30 0.5", category: "SRZ")]
+	float m_fSRZ_BoltDisarmSeconds;
+
+	[Attribute("0", UIWidgets.Slider, "Extra condition lost by worn boots, pants and suit on each hit", "0 20 0.5", category: "SRZ")]
+	float m_fSRZ_GearWear;
+
+	[Attribute("5", UIWidgets.Slider, "Condition lost by every piece of worn gear when it hits you", "0 50 0.5", category: "SRZ")]
+	float m_fSRZ_HitGearWear;
+
+	[Attribute("3", UIWidgets.Slider, "Seconds before the same person loses gear condition to this anomaly again", "0 30 0.5", category: "SRZ")]
+	float m_fSRZ_GearWearCooldown;
+
 	protected static const float SRZ_SLOW_HOLD_S = 1.5;
+	protected static ref array<typename> s_aSRZ_WearAreas = {LoadoutBootsArea, LoadoutPantsArea, LoadoutArmoredVestSlotArea};
+	protected static ref array<typename> s_aSRZ_AllAreas = {LoadoutHeadCoverArea, ARMST_FaceArea, LoadoutJacketArea, LoadoutPantsArea, LoadoutArmoredVestSlotArea, LoadoutVestArea, LoadoutBootsArea, LoadoutHandwearSlotArea};
+
+	protected float m_fSRZ_DisarmedUntil;
+	protected ref array<IEntity> m_aSRZ_WearWho = {};
+	protected ref array<float> m_aSRZ_WearNext = {};
+	protected ref array<IEntity> m_aSRZ_DisarmBolts = {};
 
 	override void OnActivate(IEntity ent)
 	{
+		if (ent && m_fSRZ_BoltDisarmSeconds > 0 && m_fBoltAction && ent.FindComponent(GrenadeMoveComponent))
+			SRZ_Disarm(ent);
+
 		ChimeraCharacter character = ChimeraCharacter.Cast(ent);
+		if (character && SRZ_ExtrasNow() < m_fSRZ_DisarmedUntil)
+			return;
+
 		if (character && Replication.IsServer() && m_fSRZ_SlowLimit < 0.999 && IsAlive(ent))
 		{
 			SCR_CharacterControllerComponent controller = SCR_CharacterControllerComponent.Cast(character.GetCharacterController());
@@ -35,6 +60,97 @@ modded class ARMST_DamagingTriggerEntity
 		super.ArmstDamageStart(ent);
 		if (m_iSRZ_BleedWounds > 0 && Replication.IsServer())
 			SRZ_OpenWounds(ent);
+
+		if (!Replication.IsServer() || !EntityUtils.IsPlayer(ent))
+			return;
+
+		if (SRZ_RuinIfDead(ent))
+			return;
+
+		if (!SRZ_WearReady(ent))
+			return;
+
+		if (m_fSRZ_HitGearWear > 0)
+			SRZ_WearGear(ent, s_aSRZ_AllAreas, m_fSRZ_HitGearWear);
+
+		if (m_fSRZ_GearWear > 0)
+			SRZ_WearGear(ent, s_aSRZ_WearAreas, m_fSRZ_GearWear);
+	}
+
+	protected float SRZ_ExtrasNow()
+	{
+		BaseWorld world = GetGame().GetWorld();
+		if (!world)
+			return 0;
+
+		return world.GetWorldTime() * 0.001;
+	}
+
+	protected void SRZ_Disarm(IEntity bolt)
+	{
+		for (int i = m_aSRZ_DisarmBolts.Count() - 1; i >= 0; i--)
+		{
+			if (!m_aSRZ_DisarmBolts[i] || m_aSRZ_DisarmBolts[i].IsDeleted())
+				m_aSRZ_DisarmBolts.Remove(i);
+		}
+
+		if (m_aSRZ_DisarmBolts.Contains(bolt))
+			return;
+
+		m_aSRZ_DisarmBolts.Insert(bolt);
+		m_fSRZ_DisarmedUntil = SRZ_ExtrasNow() + m_fSRZ_BoltDisarmSeconds;
+		SpawnAttackEffects();
+	}
+
+	protected bool SRZ_WearReady(IEntity ent)
+	{
+		float now = SRZ_ExtrasNow();
+		for (int i = m_aSRZ_WearWho.Count() - 1; i >= 0; i--)
+		{
+			if (!m_aSRZ_WearWho[i] || m_aSRZ_WearWho[i].IsDeleted() || now > m_aSRZ_WearNext[i] + 60)
+			{
+				m_aSRZ_WearWho.Remove(i);
+				m_aSRZ_WearNext.Remove(i);
+				continue;
+			}
+
+			if (m_aSRZ_WearWho[i] != ent)
+				continue;
+
+			if (now < m_aSRZ_WearNext[i])
+				return false;
+
+			m_aSRZ_WearNext[i] = now + m_fSRZ_GearWearCooldown;
+			return true;
+		}
+
+		m_aSRZ_WearWho.Insert(ent);
+		m_aSRZ_WearNext.Insert(now + m_fSRZ_GearWearCooldown);
+		return true;
+	}
+
+	protected bool SRZ_RuinIfDead(IEntity ent)
+	{
+		SCR_CharacterDamageManagerComponent damageManager = SCR_CharacterDamageManagerComponent.Cast(ent.FindComponent(SCR_CharacterDamageManagerComponent));
+		return damageManager && damageManager.GetState() == EDamageState.DESTROYED;
+	}
+
+	protected void SRZ_WearGear(IEntity ent, array<typename> areas, float amount)
+	{
+		EquipedLoadoutStorageComponent storage = EquipedLoadoutStorageComponent.Cast(ent.FindComponent(EquipedLoadoutStorageComponent));
+		if (!storage)
+			return;
+
+		foreach (typename area : areas)
+		{
+			IEntity item = storage.GetClothFromArea(area);
+			if (!item)
+				continue;
+
+			ARMST_ITEMS_STATS_COMPONENTS stats = ARMST_ITEMS_STATS_COMPONENTS.Cast(item.FindComponent(ARMST_ITEMS_STATS_COMPONENTS));
+			if (stats)
+				stats.DecreaseCondition(amount);
+		}
 	}
 
 	protected bool SRZ_IsHurrying(ChimeraCharacter character)
