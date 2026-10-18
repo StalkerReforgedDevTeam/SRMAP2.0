@@ -1,0 +1,13 @@
+ParticleEffectEntity {
+ ID "658B438399FC262D"
+ {
+  ARMST_DamagingTriggerEntity {
+   ID "658B438399FC262F"
+   UpdatePeriod 2
+   m_MonsterToSpawn ""
+   m_sParticle_Attack ""
+   m_damageValue 10
+   m_damageTypeVanilla Toxic
+  }
+ }
+}
