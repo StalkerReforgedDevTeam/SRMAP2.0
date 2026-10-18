@@ -1,0 +1,181 @@
+EffectDef {
+ Version 2
+ Emitters {
+  EmitterDef Emitter_0 {
+   ConeAngle 0 0 0
+   ConeAngleRndRange 0
+   MaxNum 1
+   BirthRate 1
+   Offset 0 17 0
+   LodMin 0
+   LodMax 2
+   ParticleType Prefab
+   Material "{B187125F2BB4CD43}Particles/_Materials/Fluid/Water_Ring_Anim.emat"
+   Prefab "{AB84E0DA61098F0F}Prefabs/Anomals/anom_base/refract_morphing.et"
+   SizeMultiplier 18
+   ScaleX 1
+   ScaleY 1
+   CenterY 0.03
+   RotMultiplier_3D 0 267.1 0
+   RotRND_3D 0 236.9 0
+   RandomRotDir 1
+   VelAngle 1
+   VelAngleCatchUp 0
+   Velocity 0
+   AnimFPS 24.3
+   Lifetime 9999
+   LifetimeRND 0
+   Color {
+    0.693 0.725 0.754 0.497
+   }
+   Emissivity {
+    0.53 1
+   }
+   RotationSpeed {
+    0.073 0.074 0.178 0.135 0.5 0.117 0.894 0
+   }
+   Size {
+    0 1 0.183 0.613 0.465 0.988 0.701 0.699 1 1
+   }
+   EmittingTime 9999
+   SizeMast {
+    0 1 0.246 1 0.52 1 0.818 1 1 1
+   }
+  }
+  EmitterDef Emitter_4 {
+   ShapeType Sphere
+   ShapeSize 40 40 40
+   ConeAngle 360 180 20
+   ConeAngleMinDist 180
+   ConeAngleRndRange 69.613
+   MaxNum 4
+   BirthRate 5
+   Offset 0 15 0
+   Angles 0 60 0
+   LodMin 0
+   LodMax 2
+   ParticleType Prefab
+   Prefab "{AA14F25DFBDF4945}PrefabLibrary/Vegetation/Trees/t_picea_abies_3d_fallen.et"
+   SizeMultiplier 0.4
+   SizeRND 1
+   CenterX 0.62
+   CenterY 0.8
+   CenterZ 1.86
+   RotMultiplier_3D 20 10 5
+   RotRND_3D 45 60 24
+   RandomRotationSpace 1
+   RandomRotDir 1
+   Velocity 0
+   EnableCollisions 1
+   Lifetime 9999
+   RotationSpeed {
+    0.18 0.461 0.502 0.006 0.633 0.503
+   }
+   Size {
+    0 1 0.197 0.681 0.842 1 1 1
+   }
+   EmittingTime 9999
+  }
+  EmitterDef Emitter_6 {
+   ShapeType Sphere
+   ShapeSize 40 40 40
+   ConeAngle 360 180 20
+   ConeAngleMinDist 180
+   ConeAngleRndRange 69.613
+   BirthRate 5
+   Offset 0 15 0
+   Angles 0 1 0
+   LodMin 0
+   LodMax 0
+   ParticleType Prefab
+   Prefab "{7BEC4D46FABA042E}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_branch_01.et"
+   SizeRND 1
+   CenterX 0.62
+   CenterY 0.8
+   CenterZ 1.86
+   RotMultiplier_3D 20 10 5
+   RotRND_3D 45 60 24
+   RandomRotationSpace 1
+   RandomRotDir 1
+   Velocity 0
+   EnableCollisions 1
+   Lifetime 9999
+   RotationSpeed {
+    0.18 0.461 0.502 0.006 0.633 0.503
+   }
+   Size {
+    0 1 0.197 0.681 0.842 1 1 1
+   }
+   EmittingTime 9999
+  }
+  EmitterDef Emitter_8 {
+   ShapeType Sphere
+   ShapeSize 40 40 40
+   ConeAngle 360 180 20
+   ConeAngleMinDist 180
+   ConeAngleRndRange 69.613
+   MaxNum 8
+   BirthRate 5
+   Offset 0 15 0
+   Angles 0 1 0
+   LodMin 0
+   LodMax 1
+   ParticleType Prefab
+   Prefab "{B48B7DD4E1C5FE40}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_0.et"
+   SizeMultiplier 0.7
+   SizeRND 1
+   CenterX 0.62
+   CenterY 0.8
+   CenterZ 1.86
+   RotMultiplier_3D 20 10 5
+   RotRND_3D 45 60 24
+   RandomRotationSpace 1
+   RandomRotDir 1
+   Velocity 0
+   EnableCollisions 1
+   Lifetime 9999
+   RotationSpeed {
+    0.18 0.461 0.502 0.006 0.633 0.503
+   }
+   Size {
+    0 1 0.197 0.681 0.842 1 1 1
+   }
+   EmittingTime 9999
+  }
+  EmitterDef Emitter_10 {
+   ShapeType Sphere
+   ShapeSize 40 40 40
+   ConeAngle 360 180 20
+   ConeAngleMinDist 180
+   ConeAngleRndRange 69.613
+   MaxNum 5
+   BirthRate 5
+   Offset 0 15 0
+   Angles 0 1 0
+   LodMin 0
+   LodMax 0
+   ParticleType Prefab
+   Prefab "{779DF03FAB7A131E}PrefabLibrary/Vegetation/Trees/t_picea_abies_stump_01.et"
+   SizeMultiplier 0.7
+   SizeRND 1
+   CenterX 0.62
+   CenterY 0.8
+   CenterZ 1.86
+   RotMultiplier_3D 20 10 5
+   RotRND_3D 45 60 24
+   RandomRotationSpace 1
+   RandomRotDir 1
+   Velocity 0
+   EnableCollisions 1
+   Lifetime 9999
+   RotationSpeed {
+    0.18 0.461 0.502 0.006 0.633 0.503
+   }
+   Size {
+    0 1 0.197 0.681 0.842 1 1 1
+   }
+   EmittingTime 9999
+  }
+ }
+ CollisionPreset "{5D9EE44C68755DF5}"
+}

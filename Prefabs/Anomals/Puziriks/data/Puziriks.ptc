@@ -1,0 +1,104 @@
+EffectDef {
+ Version 2
+ Emitters {
+  EmitterDef Bubbles_Float {
+   ShapeType Ellipse
+   ShapeSize 3 0.2 3
+   ConeAngle 15 0 15
+   MaxNum 12
+   BirthRate 2
+   BirthRateRND 1
+   Offset 0 0.2 0
+   LodMin 0
+   LodMax 1
+   ParticleType Prefab
+   Prefab "{47D9CE5D1E3ADF5B}Prefabs/Anomals/Puziriks/data/puzirik.et"
+   SizeMultiplier 0.4
+   SizeRND 0.25
+   RotMultiplier_3D 20 40 20
+   RotRND_3D 90 90 90
+   RandomRotationSpace 1
+   RandomRotDir 1
+   Velocity 0.15
+   VelocityRND 0.08
+   WindInfluence 0.3
+   GravityMultiply 0
+   Lifetime 5
+   LifetimeRND 2
+   Size {
+    0 0 0.15 1 0.85 1 0.9 1.15 1 0
+   }
+  }
+  EmitterDef Toxic_Haze {
+   ShapeType Box
+   ShapeSize 3 0.1 3
+   MaxNum 14
+   BirthRate 3
+   BirthRateRND 1
+   Offset 0 0.05 0
+   LodMin 0
+   LodMax 1
+   Material "{FB2FB00F02295531}Particles/_Materials/Gas/Smoke_Base_01.emat"
+   SizeMultiplier 1.4
+   SizeRND 0.5
+   RotMultiplier 10
+   RandomRotDir 1
+   RandomAngle 1
+   Velocity 0.2
+   WindInfluence 0.4
+   GravityMultiply -0.02
+   Lifetime 4.5
+   LifetimeRND 1.5
+   Color {
+    0 0.55 1 0.3
+   }
+   Emissivity {
+    0 0.6
+   }
+   Alpha {
+    0 0 0.25 0.25 0.7 0.18 1 0
+   }
+   Size {
+    0 0.6 1 1.4
+   }
+  }
+  EmitterDef Pops {
+   ShapeType Ellipse
+   ShapeSize 2.5 0.8 2.5
+   MaxNum 3
+   BirthRate 1
+   BirthRateRND 0.6
+   Offset 0 0.6 0
+   LodMin 0
+   LodMax 1
+   Material "{1B106473E3E6E911}Particles/_Materials/Fluid/Water_Base_Splash_01.emat"
+   SizeMultiplier 0.25
+   SizeRND 0.1
+   FlipU Random
+   Velocity 0
+   AnimOnce 1
+   AnimFPS 35
+   Lifetime 0.5
+   LifetimeRND 0.2
+   Color {
+    0 0.5 1 0.25
+   }
+   Emissivity {
+    0 1
+   }
+   EnableLight 1
+   MaxLV 1.5
+   RelativeLV 1
+   LightColorMast {
+    0 0.4 1 0.2
+   }
+   LightIntensityMast {
+    0 0 0.2 1 1 0
+   }
+  }
+ }
+ CollisionPreset "{5D9EE44C68755DF5}"
+ LightOffset 0 0.6 0
+ LightRadius 3
+ CastShadow 1
+}

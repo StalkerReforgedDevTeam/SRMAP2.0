@@ -1,0 +1,322 @@
+AudioClass {
+ signals {
+  SignalClass "11277" {
+   id 11277
+   name "Signal Wind"
+   tl -721.202 -21.222
+   res "{8EC90803D983BAAA}Sounds/Props/Fabric/Flag/Props_Flag.sig"
+   inputsport {
+    3
+   }
+   outputsport {
+    5
+   }
+   inputvalues {
+    0
+   }
+   inputvaluesmin {
+    0
+   }
+   inputvaluesmax {
+    1
+   }
+  }
+  SignalClass "13325" {
+   id 13325
+   name "Signal Occlusion"
+   tl -322.444 -261.361
+   res "{A45B14CDEA2D5DCD}Sounds/_SharedData/Signals/Props/Props_Occlusion.sig"
+   inputsport {
+    23 52
+   }
+   outputsport {
+    37
+   }
+   inputvalues {
+    1 1000
+   }
+   inputvaluesmin {
+    0 0
+   }
+   inputvaluesmax {
+    1 10000
+   }
+  }
+  SignalClass "17421" {
+   id 17421
+   name "Signal Reverb"
+   tl 141.75 -149.5
+   res "{76CBB40EF7F227B6}Sounds/_SharedData/Signals/Reverb/Reverb_Base.sig"
+   inputsport {
+    1 35 112
+   }
+   outputsport {
+    39 105 107 106 110
+   }
+   inputvalues {
+    40 1 16000
+   }
+   inputvaluesmin {
+    0 0 0
+   }
+   inputvaluesmax {
+    100 1 16000
+   }
+  }
+ }
+ sounds {
+  SoundClass "3081" {
+   id 3081
+   name "SOUND_BREATH"
+   version 5
+   tl -80 -16
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "18445:2" {
+       id 18445
+       port 2
+      }
+     }
+    }
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "2066:65" {
+       id 2066
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+   varName "Props"
+   varResource "{A60F08955792B575}Sounds/_SharedData/Variables/GlobalVariables.conf"
+   volume_dB 6
+   outState 9227
+   outStatePort 79879
+   "static" 1
+  }
+ }
+ mixers {
+  MixerClass "9227" {
+   id 9227
+   name "OutputState"
+   version 4
+   tl 141.639 90.083
+   res "{B764D803219C775E}Sounds/FinalMix.afm"
+   ins {
+    ConnectionsClass "con:79879" {
+     id 79879
+     links {
+      ConnectionClass "3081:65" {
+       id 3081
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:152583" {
+     id 152583
+     links {
+      ConnectionClass "16413:65" {
+       id 16413
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    24576 0
+   }
+   inputs {
+    "WPN_Handling" "WPN_Shots" "WPN_Explosions" "WNP_BulletHits" "CHAR" "ENV_AMB_2D" "VEH_Animations" "Impacts" "Dialog" "ENV_Doors" "VEH_Engine" "VEH_Tires" "VON" "SFX" "SFX_Reverb_OBSOLETE" "VON_Reverb_Small" "Dialog_Reverb" "Impacts_EXT" "ENV_AMB_3D" "WPN_SonicCracks" "CHAR_Gear" "PA" "SFX_Reverb_Exterior" "ENV_AMB_3D_Reverb_Exterior" "SFX_Direct" "SFX_Reverb_Small" "SFX_Reverb_Medium" "SFX_Reverb_Large" "WPN_Shots_Player" "Dialog_Reverb_Small" "Dialog_Reverb_Medium" "Dialog_Reverb_Large" "WPN_TravelingProjectile" "Dialog_Delay_Exterior" "SFX_Reverb_InCabin" "VON_Reverb_Medium" "VON_Reverb_Large"
+   }
+  }
+ }
+ shaders {
+  ShaderClass "2066" {
+   id 2066
+   name "Shader"
+   version 5
+   tl -322.444 -21
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "7196:65" {
+       id 7196
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "5139:65" {
+       id 5139
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:2" {
+     id 2
+     links {
+      ConnectionClass "14357:65" {
+       id 14357
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "1028:65" {
+       id 1028
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    23 0
+   }
+  }
+ }
+ amplitudes {
+  AmplitudeClass "5139" : "{9FC5E629CF5202E0}Sounds/_SharedData/Configs/Amplitude/_SharedData/Amplitude_-50LUFS_to_-45LUFS_Character.conf" {
+   id 5139
+   name "Amplitude -50LUFS to -45LUFS"
+   version 5
+   tl -322.444 -410
+   parent "{9FC5E629CF5202E0}Sounds/_SharedData/Configs/Amplitude/_SharedData/Amplitude_-50LUFS_to_-45LUFS_Character.conf"
+  }
+ }
+ frequency {
+  FrequencyClass "14357" : "{0005FE42A6D80399}Sounds/_SharedData/Configs/Frequency/_SharedData/Frequency_DynamicUpdate.conf" {
+   id 14357
+   version 5
+   tl -322.444 -334.444
+   parent "{0005FE42A6D80399}Sounds/_SharedData/Configs/Frequency/_SharedData/Frequency_DynamicUpdate.conf"
+   ins {
+    ConnectionsClass "con:4" {
+     id 4
+     links {
+      ConnectionClass "13325:37" {
+       id 13325
+       port 37
+      }
+     }
+    }
+   }
+   pi {
+    16 0
+   }
+   pu {
+    16 0
+   }
+  }
+ }
+ banks_local {
+  BankLocalClass "1028" {
+   id 1028
+   name "Flag Flap"
+   version 7
+   tl -528 -16
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "11277:5" {
+       id 11277
+       port 5
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+   Volume -6
+   "Termination Fade Out" 0
+   "Fade in time" 400
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{F8ED7A0A1F111921}Sounds/actors/breath (1).wav"
+    }
+    AudioBankSampleClass Sample {
+     Filename "{A6055349A09C972E}Sounds/actors/breath (2).wav"
+     Index 1
+    }
+    AudioBankSampleClass Sample {
+     Filename "{520D14D1AD41FF5A}Sounds/actors/breath (3).wav"
+     Index 2
+    }
+    AudioBankSampleClass Sample {
+     Filename "{1BD501CEDF878B30}Sounds/actors/breath (4).wav"
+     Index 3
+    }
+    AudioBankSampleClass Sample {
+     Filename "{EFDD4656D25AE344}Sounds/actors/breath (5).wav"
+     Index 4
+    }
+   }
+  }
+ }
+ spatialities {
+  SpatialityClass "7196" {
+   id 7196
+   name "Spatiality"
+   version 5
+   tl -322.444 -485
+   spatialFactor 1
+  }
+ }
+ auxOuts {
+  AuxOutClass "16413" {
+   id 16413
+   name "AuxOut Reverb INT"
+   version 5
+   tl 143.195 -28.227
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "3081:5" {
+       id 3081
+       port 5
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "17421:34" {
+       id 17421
+       port 34
+      }
+     }
+    }
+    ConnectionsClass "con:2" {
+     id 2
+     links {
+      ConnectionClass "17421:39" {
+       id 17421
+       port 39
+      }
+     }
+    }
+   }
+   pi {
+    7 0
+   }
+   pu {
+    6 0
+   }
+   OSPort 152583
+  }
+ }
+ version 2
+}

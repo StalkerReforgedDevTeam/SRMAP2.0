@@ -12,7 +12,7 @@ EffectDef {
    LodMax 1
    ParticleType Prefab
    Prefab "{4CFE9A4FEE225706}Prefabs/Anomals/anom_base/data/refract_3.et"
-   SizeMultiplier 2.4
+   SizeMultiplier 2.3
    SizeRND 0
    RotMultiplier_3D 0 40 0
    RandomRotDir 1
@@ -47,11 +47,11 @@ EffectDef {
    GravityMultiply 0
    Lifetime 3
    LifetimeRND 1
-   VelocityMast {
-    0 1 0.5 0.3 1 0
-   }
    Size {
     0 0 0.15 1 0.85 1 1 0
+   }
+   VelocityMast {
+    0 1 0.5 0.3 1 0
    }
   }
   EmitterDef Debris_Drop {
@@ -65,7 +65,7 @@ EffectDef {
    LodMax 0
    ParticleType Prefab
    Prefab "{A3825F7D7E340D80}Prefabs/Particles/Debris/Stone/Dbr_Stone_03.et"
-   SizeMultiplier 0.2
+   SizeMultiplier 0.7
    SizeRND 0.1
    RotMultiplier_3D 200 300 150
    RotRND_3D 180 180 180
@@ -92,7 +92,7 @@ EffectDef {
    LodMax 0
    ParticleType Prefab
    Prefab "{A3825F7D7E340D80}Prefabs/Particles/Debris/Stone/Dbr_Stone_03.et"
-   SizeMultiplier 0.35
+   SizeMultiplier 0.55
    SizeRND 0.15
    CenterY 0.5
    RotMultiplier_3D 90 150 70
@@ -105,11 +105,11 @@ EffectDef {
    GravityMultiply 0
    Lifetime 5
    LifetimeRND 1.5
-   VelocityMast {
-    0 1 0.4 0.2 1 0
-   }
    Size {
     0 0 0.15 1 0.85 1 1 0
+   }
+   VelocityMast {
+    0 1 0.4 0.2 1 0
    }
   }
   EmitterDef Leaves_Pull {
@@ -123,7 +123,7 @@ EffectDef {
    LodMax 0
    ParticleType Prefab
    Prefab "{1A8464CF0B3DCDC9}Prefabs/Particles/Vegetation/Leaves/leaf_Carpinus_betulus.et"
-   SizeMultiplier 0.5
+   SizeMultiplier 0.9
    SizeRND 0.2
    RotMultiplier_3D 150 260 90
    RotRND_3D 120 120 120
@@ -133,11 +133,11 @@ EffectDef {
    GravityMultiply 0.5
    Lifetime 3
    LifetimeRND 0.8
-   VelocityMast {
-    0 1 0.6 0.4 1 0.2
-   }
    Size {
     0 0 0.1 1 0.85 1 1 0
+   }
+   VelocityMast {
+    0 1 0.6 0.4 1 0.2
    }
   }
   EmitterDef Breath_Burst {
@@ -162,11 +162,11 @@ EffectDef {
    Friction 0.6
    Lifetime 6
    LifetimeRND 0
-   VelocityMast {
-    0 1 0.15 0.2 1 0
-   }
    Size {
     0 1 0.8 1 1 0
+   }
+   VelocityMast {
+    0 1 0.15 0.2 1 0
    }
   }
   EmitterDef Breath_Stones {
@@ -179,7 +179,7 @@ EffectDef {
    LodMax 0
    ParticleType Prefab
    Prefab "{A3825F7D7E340D80}Prefabs/Particles/Debris/Stone/Dbr_Stone_03.et"
-   SizeMultiplier 0.3
+   SizeMultiplier 0.5
    SizeRND 0.1
    RotMultiplier_3D 300 400 200
    RotRND_3D 180 180 180
@@ -191,11 +191,11 @@ EffectDef {
    Friction 0.7
    Lifetime 6
    LifetimeRND 0
-   VelocityMast {
-    0 1 0.15 0.2 1 0
-   }
    Size {
     0 1 0.8 1 1 0
+   }
+   VelocityMast {
+    0 1 0.15 0.2 1 0
    }
   }
  }
