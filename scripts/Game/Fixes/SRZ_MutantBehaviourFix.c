@@ -5,6 +5,9 @@
 // Per mutant tuning, matched by prefab path
 class SRZ_MutantTuning
 {
+	// Raise above 1 to make every mutant die faster, lower to make them tougher
+	static const float DAMAGE_SCALE = 1.0;
+
 	static const string NIGHTSTALKER = "nighstalker";
 	static const float NIGHTSTALKER_HEALTH = 450;
 	static const float NIGHTSTALKER_BLOOD_DRAIN_PERCENT = 20;
@@ -123,7 +126,11 @@ modded class SCR_CharacterHitZone
 		if (!struck && mutant.m_damageManager && mutant.m_damageManager.GetDefaultHitZone() != this)
 			return 0;
 
-		mutant.SRZ_ApplyPoolDamage(damageContext.damageValue, damageContext.instigator);
+		// Real damage this hit would normally do (weapon, armor and body multipliers), taken off the single pool
+		float effective = super.ComputeEffectiveDamage(damageContext, isDOT);
+		if (effective > 0)
+			mutant.SRZ_ApplyPoolDamage(effective * SRZ_MutantTuning.DAMAGE_SCALE, damageContext.instigator);
+
 		return 0;
 	}
 }
