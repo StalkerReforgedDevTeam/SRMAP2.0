@@ -1,0 +1,99 @@
+EffectDef {
+ Version 2
+ Emitters {
+  EmitterDef Ground_Arcs {
+   ShapeType Ellipse
+   ShapeSize 4 0 4
+   ConeAngle 0 0 0
+   MaxNum 50
+   BirthRate 20
+   BirthRateRND 6
+   Offset 0 0.08 0
+   LodMin 0
+   LodMax 1
+   Material "{252214D3389FE13A}Prefabs/Anomals/Electro/data/electro_blast/electra_idle_new.emat"
+   SizeMultiplier 0.25
+   SizeRND 0.15
+   RotMultiplier 100
+   RotRND 25
+   RandomRotDir 1
+   RandomAngle 1
+   Velocity 0
+   AnimOnce 1
+   AnimFPS 40
+   LifetimeByAnim 1
+   Lifetime 1
+   Size {
+    0 0 0.05 1 0.3 0.5 0.45 1 0.7 0.4 0.85 1 1 0
+   }
+   EnableLight 1
+   MaxLV 1.2
+   RelativeLV 1
+   LightColorMast {
+    0 0.45 0.65 1
+   }
+   LightIntensityMast {
+    0 0 0.05 0.6 0.3 0.2 0.45 0.7 0.7 0.2 0.85 0.5 1 0
+   }
+  }
+  EmitterDef Rising_Arcs {
+   ShapeType Ellipse
+   ShapeSize 2.5 0.6 2.5
+   ConeAngle 0 0 0
+   MaxNum 12
+   BirthRate 6
+   BirthRateRND 3
+   Offset 0 0.7 0
+   LodMin 0
+   LodMax 1
+   Material "{4FB3BF33FA3FD8B5}Prefabs/Anomals/Electro/data/electro_blast/electra_idle_new5.emat"
+   SizeMultiplier 0.35
+   SizeRND 0.2
+   RotMultiplier 100
+   RotRND 25
+   RandomRotDir 1
+   RandomAngle 1
+   Velocity 0
+   AnimOnce 1
+   AnimFPS 40
+   LifetimeByAnim 1
+   Lifetime 1
+   Size {
+    0 0 0.05 1 0.5 0.6 0.7 1 1 0
+   }
+  }
+  EmitterDef Discharge_Flash {
+   ShapeType Sphere
+   ShapeSize 2 0.4 2
+   MaxNum 1
+   BirthRate 0.35
+   BirthRateRND 0.25
+   Offset 0 0.6 0
+   LodMin 0
+   LodMax 1
+   Material "{B438BEC516771606}Prefabs/Anomals/Electro/data/Particls2/Data/Flash.emat"
+   SizeMultiplier 1.4
+   SizeRND 0.6
+   RotRND 1
+   RandomRotDir 1
+   FlipU Random
+   Velocity 0
+   AnimFPS 30
+   Lifetime 0.4
+   Size {
+    0 0 0.15 1 0.5 0.4 1 0
+   }
+   EnableLight 1
+   MaxLV 4
+   LightColorMast {
+    0 0.5 0.7 1
+   }
+   LightIntensityMast {
+    0 0 0.1 1 0.5 0.3 1 0
+   }
+  }
+ }
+ LightOffset 0 0.5 0
+ LightRadius 9
+ CastShadow 1
+}

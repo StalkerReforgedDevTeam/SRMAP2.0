@@ -1,0 +1,49 @@
+EffectDef {
+ Version 2
+ Emitters {
+  EmitterDef Emitter_01 {
+   ShapeType Sphere
+   ShapeSize 1 1 1
+   MaxNum 1
+   Material "{B438BEC516771606}Prefabs/Anomals/Electro/data/Particls2/Data/Flash.emat"
+   SizeMultiplier 3
+   SizeRND 4
+   RotRND 1
+   RandomRotDir 1
+   VelAngle 1
+   FlipU Random
+   Velocity 0
+   AnimFPS 30
+   LifetimeByAnim 1
+   Color {
+    0.091 0.644 0.644 0.644
+   }
+   EmittingTime 4
+   EnableLight 1
+   MaxLV 5.856
+   RelativeLV 1
+   LightColorMast {
+    0.463 0.221 0.342 0.749
+   }
+   LightIntensityMast {
+    0.006 0 0.024 0.957 0.051 -0.018 0.079 0.988 0.102 0.006 0.126 1.006 0.147 0.018 0.188 0.988 0.213 -0.018 0.246 0.951 0.265 0 0.283 1.006 0.311 0.012 0.348 0.957 0.373 0.012 0.398 1 0.425 0.025 0.445 1.006 0.468 0.012 0.495 0.982 0.522 0.025 0.547 0.969 0.624 0.006 0.677 1 0.73 0.006 0.783 0.969 0.841 0 0.885 0.982 0.936 0.025
+   }
+  }
+  EmitterDef Emitter_1 {
+   ShapeType Sphere
+   ShapeSize 1 2 2
+   MaxNum 20
+   Material "{6A4AD8411B1AEBF0}Prefabs/Anomals/Electro/data/Particls2/Data/Zem.emat"
+   SizeMultiplier 2
+   SizeRND 3
+   Velocity 0
+   AnimFPS 30
+   LifetimeByAnim 1
+  }
+ }
+ LightOffset 0 1 0
+ WorldRelativeY 1
+ LightClipEV -2.414
+ LightRadius 20
+ CastShadow 1
+}

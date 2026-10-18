@@ -13587,6 +13587,461 @@ GenericEntity Map_Paper_01_unfolded_table_USSR_69A8101B0145CAC2 : "{942A96E02BC7
  coords 4969.028 305.601 3049.461
  angles 0 -145.868 0
 }
+GenericEntity : "{960BDC106B859CFC}Prefabs/Props/Civilian/Birdhouse_01/Birdhouse_01_base.et" {
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{751E4DC16D6B6726}Assets/Structures/Scientists/Bunker_Modul_Mid/Bunk_Mid.xob"
+  }
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   Enabled 0
+  }
+ }
+ coords 2110.34 292.302 1295.02
+ angles 0 -78.836 0
+ {
+  GenericEntity : "{0041BC7A996A7557}Prefabs/Posuda/posuda_9.et" {
+   coords 4.114 4.029 0.509
+   angles 0 -179.122 0
+  }
+  GenericEntity : "{02DDFD85C506248B}Prefabs/Structures/BuildingParts/Doors/DoorSet_Base.et" {
+   components {
+    DoorSlotComponent "{66DAB6B3B8EB3E31}" {
+    }
+    SRZ_DoorAccessComponent "{6AA35D2784E3A42B}" {
+     Enabled 0
+     m_aAllowedPlayers {
+      ""
+      ""
+      ""
+      ""
+      ""
+     }
+    }
+    Hierarchy "{612AE78C85563E26}" {
+     PivotID "Socet_Door_bunker1"
+    }
+   }
+   coords 0.001 3.323 -6.997
+  }
+  $grp GenericEntity : "{0A4218ED97A10411}Prefabs/Props/Furniture/ShelfBarracks_01.et" {
+   {
+    coords 0.784 4.793 -4.288
+    angles 0 -89.837 0
+   }
+   {
+    coords -2.879 4.822 -0.319
+    angles 0 -178.28 0
+   }
+  }
+  GenericEntity : "{1359D393ED1D1A3F}Prefabs/Props/Garbage/Medical/GarbageMedicalUSSR_01.et" {
+   coords -2.71 3.96 1.301
+   angles 0 -68 0
+   scale 0.85
+  }
+  GenericEntity : "{14C6F846207A0DC8}Prefabs/Props/Civilian/Notebook_01/Notebook_01_open_Huey.et" {
+   coords 4.206 4.029 -0.265
+   angles 0 60.036 0
+  }
+  GenericEntity : "{1AB7A2C69A30391D}Prefabs/Props/Furniture/CoatRack_01.et" {
+   coords -1.551 3.123 -4.817
+   angles 0 -68 0
+  }
+  $grp GameEntity : "{1CE762D0A53A395A}Prefabs/Props/Civilian/LampKerosene_01/LampKerosene_01_base.et" {
+   {
+    coords -4.575 4.1 1.13
+    angles 0 -68 0
+   }
+   {
+    coords 4.517 4.029 -1.006
+    angles 0 -68 0
+   }
+  }
+  GenericEntity : "{1E888DCF2BD06A0C}Prefabs/Staff/box_carton_small_3.et" {
+   coords -2.068 4.923 -1.977
+   angles 0 -41.879 0
+  }
+  GenericEntity : "{1F737B0E70B706CE}Prefabs/Props/Furniture/ChairDental_01/ChairDental_01_base.et" {
+   coords -3.128 3.123 0.294
+   angles 0 -90.983 0
+  }
+  $grp GenericEntity : "{23BCA8F75EBCE33B}Prefabs/Staff/box_carton_small_4.et" {
+   {
+    coords -4.49 4.015 -3.253
+    angles 0 -68 0
+   }
+   {
+    coords -4.307 4.673 -3.162
+    angles 0 21.309 0
+   }
+  }
+  GenericEntity : "{23E67B7C2DADBEFE}Prefabs/Props/Furniture/Rack_02_blue.et" {
+   coords -4.5 3.123 -3.922
+   angles 0 -89.671 0
+   scale 0.563
+  }
+  GenericEntity : "{2424EBB806A690D4}Prefabs/Props/Garbage/Medical/GarbageMedicalUS_02.et" {
+   coords -3.441 -4.907 3.29
+   angles 0 -68 0
+  }
+  GenericEntity : "{2424EBB806A690D5}Prefabs/Trash/Medical/GarbageMedicalUS_02.et" {
+   coords -0.503 -2.985 -1.279
+   angles 0 -68 0
+  }
+  $grp GenericEntity : "{27EA47994266D9DD}Prefabs/Props/Services/Healthcare/BinMedical_01.et" {
+   {
+    coords 0.87 3.123 1.361
+    angles 0 62.351 0
+   }
+   {
+    coords -4.567 3.123 2.184
+    angles 0 133.65 0
+   }
+  }
+  GenericEntity : "{2825111E407D2DAE}Prefabs/Staff/box_plastic_small.et" {
+   coords -0.518 3.123 -3.582
+   angles 0 -168.015 0
+  }
+  GenericEntity : "{2C3A91FAD42CB072}Prefabs/Electric/holodos_2.et" {
+   coords -1.311 3.123 3.846
+   angles 0 0.126 0
+   scale 1.24
+  }
+  GenericEntity : "{31627435F2C7CBF4}Prefabs/Props/Services/Healthcare/CabinetMedical_01_single.et" {
+   coords -4.562 3.123 2.694
+   angles 0 89.865 0
+  }
+  GenericEntity : "{3F68BA500FF209E6}Prefabs/beds/podushka.et" {
+   coords 4.316 3.614 3.61
+   angles 0 -17.095 0
+  }
+  GenericEntity : "{452C9FF31AAF2B82}Prefabs/Props/Services/Healthcare/CabinetMedical_01.et" {
+   coords -2.08 -31.062 3.391
+   angles -90 -136 57.719
+  }
+  $grp GenericEntity : "{4858B9B816F5EC04}Prefabs/Props/Furniture/ShowerCurtains_01_base.et" {
+   {
+    coords 2.519 4.513 -3.724
+    angles 0 -0.113 0
+   }
+   {
+    coords 2.355 4.508 -3.727
+    angles 0 -0.113 0
+   }
+  }
+  GenericEntity : "{4870DF58BA621FFA}Prefabs/Trash/Medical/GarbageMedicalUS_01.et" {
+   coords 0.416 3.235 -6.53
+   angles 0 -68 0
+  }
+  GenericEntity : "{4A91907093866B99}Prefabs/Structures/BuildingParts/Misc/ShowerDrain_01.et" {
+   coords 1.842 3.123 -4.36
+   angles 0 -89.366 0
+  }
+  GenericEntity : "{502AEDF40CF608CB}Prefabs/Graffity/Graffiti_TEXT_6.et" {
+   coords 1.999 5.002 -2.141
+   angles 0 0.044 0
+  }
+  GenericEntity : "{56FB185A7697E02A}Prefabs/Props/Furniture/Carpet_03_base.et" {
+   coords 3.13 3.124 2.437
+   angles 0 -95.788 0
+  }
+  GenericEntity : "{585A140D761A8BBA}Prefabs/Trash/Cardboard/Cardboard_Pile_08.et" {
+   coords 3.369 3.123 -0.795
+   angles 0 -68 0
+   scale 1.84
+  }
+  GenericEntity : "{5E7626D8E78566B4}Prefabs/Props/Furniture/Desk_01_long.et" {
+   coords 4.632 3.123 0.823
+   angles 0 -92.422 0
+  }
+  GenericEntity : "{63728F331E1BED60}Prefabs/Props/Furniture/Toilet_02.et" {
+   coords 4.091 3.123 -5.117
+   angles 0 0.801 0
+  }
+  GenericEntity : "{73524FA5556B9FCF}Prefabs/Trash/Cardboard/Cardboard_Pile_02.et" {
+   coords -0.462 -33.877 0.818
+   angles 0 -68 0
+  }
+  GenericEntity : "{7DDB06998BAEAC12}Prefabs/deads/skeleton/dead_skeleton_7.et" {
+   coords -14.738 -58.351 1.126
+   angles -10.01 69.756 4.444
+   scale 0.84
+  }
+  GenericEntity : "{830C68F808E00B67}Prefabs/Compositions/Misc/SubCompositions/Furniture/Table_Desk_USSR_04.et" {
+   coords -0.874 3.123 0.36
+   angles 0 0.172 0
+  }
+  $grp GenericEntity : "{93D7D0C0A52CD6A8}Prefabs/Trash/Food/GarbageFoodMilitaryUSSR_01.et" {
+   {
+    coords 0.106 3.484 -3.271
+    angles 0 -68 0
+   }
+   {
+    coords 4.21 4.029 -0.898
+    angles 0 -68 0
+   }
+  }
+  $grp GenericEntity : "{97F66B80110534BD}Prefabs/Props/Furniture/Rack_02_base.et" {
+   {
+    coords 3.032 2.704 -4.303
+    angles 0 -89.419 0
+    scale 0.25
+   }
+   {
+    coords 0.375 3.088 -3.282
+    angles 0 -178.714 0
+    scale 0.25
+   }
+  }
+  $grp GenericEntity : "{985C3871D40C7F7C}Prefabs/Trash/musor_plane/Litter_01_small.et" {
+   {
+    coords -0.294 -34.471 3.664
+    angles 0 -68 0
+   }
+   {
+    coords 3.291 3.143 3.527
+    angles 0 -68 0
+   }
+  }
+  GenericEntity : "{A2408E859FFF2E57}Prefabs/Props/Medical/SterilizerMedical_01/SterilizerMedical_01_base.et" {
+   coords -4.532 4.12 3.547
+   angles 0 93.944 0
+   scale 1.06
+  }
+  $grp GenericEntity : "{A3D6C359F11873BA}Prefabs/Props/Medical/TableMedical_01/TableMedical_01_base.et" {
+   {
+    coords -4.504 3.123 3.66
+    angles 0 93.944 0
+   }
+   {
+    coords -4.5 3.123 0.772
+    angles 0 84.226 0
+   }
+  }
+  GenericEntity : "{A46EC5EE88462B5D}Prefabs/books/book_3.et" {
+   coords 4.471 4.038 -0.726
+   angles 0 -68 0
+  }
+  GenericEntity : "{A4A57B0565E0D567}Prefabs/Structures/BuildingParts/Bridges/BridgeRailingConcrete_01_pole_small.et" {
+   coords 2.502 3.153 -3.742
+   angles -90 90.634 -180
+  }
+  GenericEntity : "{ABFA26642CE28193}Prefabs/Trash/Cardboard/Cardboard_Pile_04.et" {
+   coords -1.094 3.123 -3.79
+   angles 0 -153.773 0
+  }
+  GenericEntity : "{AC49D9D23A2BD1D8}Prefabs/Props/Furniture/BunkBed_01_Double.et" {
+   coords 3.464 3.145 3.692
+   angles 0 -85.523 0
+  }
+  GenericEntity : "{AFEC3E1A97361B8F}Prefabs/shelfs/shelf_metall_big.et" {
+   coords 0.543 3.123 0.557
+   angles 0 -89.68 0
+  }
+  GenericEntity : "{B898D2A1F45058F6}Prefabs/Props/Garbage/Military/Food/GarbageFoodMilitaryUSSR_01.et" {
+   coords -4.512 3.465 0.44
+   angles 0 -68 0
+  }
+  $grp GenericEntity : "{BE81F551BAB5FEE5}Prefabs/Structures/BuildingParts/Doors/Door_Frame_Bunker.et" {
+   {
+    components {
+     RigidBody "{61B367470704E02F}" {
+      ModelGeometry 0
+     }
+    }
+    coords 0.425 3.099 2.75
+    angles 0 90.389 0
+   }
+   {
+    components {
+     RigidBody "{61B367470704E02F}" {
+      ModelGeometry 0
+     }
+    }
+    coords -1.871 3.097 2.195
+    angles 0 90.806 0
+   }
+   {
+    components {
+     RigidBody "{61B367470704E02F}" {
+      ModelGeometry 0
+     }
+    }
+    coords 3.757 3.099 -2.199
+    angles 0 179.751 0
+   }
+   {
+    coords 1.046 3.091 -1.503
+    angles 0 -90.314 0
+   }
+  }
+  GenericEntity : "{C17CD853BD11F260}Prefabs/books/books_dropped.et" {
+   coords 1.827 3.123 -0.069
+   angles 0 -68 0
+  }
+  GenericEntity : "{C2C1CEA73A4D8779}Prefabs/Props/Civilian/Notebook_01_Stack.et" {
+   coords 4.207 4.029 0.274
+   angles 0 79.397 0
+  }
+  GenericEntity : "{C30C5EF1C048A606}Prefabs/Props/PersonalBelongings/Notebooks/Notebook_Small_01_Personal_US.et" {
+   coords 0.909 3.641 1.376
+   angles 0 -125.894 0
+  }
+  GenericEntity : "{C53B1C183021509D}Prefabs/Electric/radio_ON.et" {
+   coords 4.511 4.029 0.554
+   angles 0 -127.81 0
+  }
+  GenericEntity : "{C568175070AADD39}Prefabs/shelfs/shelf_metall_big_2.et" {
+   coords -2.174 3.123 -2.431
+   angles 0 167.364 0
+  }
+  GenericEntity : "{C620E40E52597450}Prefabs/Staff/box_carton_small_5.et" {
+   coords -4.299 3.339 -4.561
+   angles 0 50.739 0
+  }
+  GenericEntity : "{C7AE128490260EBD}Prefabs/Trash/Cardboard/Cardboard_Pile_07.et" {
+   coords -2.851 3.123 -1.437
+   angles 0 -118.489 0
+  }
+  GenericEntity : "{C9275BB84EE33D60}Prefabs/deads/skeleton/dead_skeleton_2.et" {
+   coords -3.587 -1.461 -1.043
+   angles 2.235 77.689 -8.138
+  }
+  $grp GenericEntity : "{CE393B7E4419DDD4}Prefabs/Staff/box_carton_small.et" {
+   {
+    coords 3.062 3.4 -4.018
+    angles 0 -94.153 0
+   }
+   {
+    coords 3.056 3.4 -4.589
+    angles 0 -68 0
+   }
+   {
+    coords 3.094 3.123 -4.062
+    angles 0 -175.178 0
+   }
+   {
+    coords 0.59 3.484 -3.334
+    angles 0 -68 0
+   }
+   {
+    coords 0.094 3.784 -3.283
+    angles 0 -7.891 0
+   }
+   {
+    coords -1.017 3.123 -3.371
+    angles 0 -112.645 0
+   }
+   {
+    coords -1.012 3.328 -3.383
+    angles 0 -162.462 0
+   }
+   {
+    coords -4.458 4.679 -4.777
+    angles 0 -68 0
+   }
+   {
+    coords -4.521 4.683 -3.938
+    angles 0 -176.667 0
+   }
+   {
+    coords -4.442 3.329 -4.056
+    angles 0 -68 0
+   }
+  }
+  GenericEntity : "{D19D5E8950BC4DD1}Prefabs/Props/Furniture/ChairOffice_01.et" {
+   coords -1.328 3.123 1.032
+   angles 0 149.86 0
+  }
+  $grp GenericEntity : "{D6985C2C05881054}Prefabs/Trash/sapogi.et" {
+   {
+    coords -1.323 3.103 -2.039
+    angles 0 46.706 0
+   }
+   {
+    coords 3.808 3.123 0.143
+    angles 0 -68 0
+   }
+  }
+  GenericEntity : "{D9CE934146B140A7}Prefabs/Props/Medical/TableMedical_01/TableMedical_01_small.et" {
+   coords -2.732 3.123 1.329
+   angles 0 -143.39 0
+   scale 0.84
+  }
+  GenericEntity : "{DEE73EC3DF43A836}Prefabs/Props/Furniture/Shower_01_addon.et" {
+   coords 2.563 4.246 -4.358
+   angles 0 -89.366 0
+  }
+  GenericEntity : "{E3BE5A4782D3DF34}Prefabs/Props/Remains/SkeletonRemains/SkeletonRemains_05_complete.et" {
+   coords 1.398 -113.949 2.604
+   angles 0 150.076 0
+  }
+  $grp GenericEntity : "{E4CC81B24CC91AB3}Prefabs/Structures/BuildingParts/Ladder/Props_Base.et" {
+   {
+    components {
+     Hierarchy "{66DAB6B3B8EB3E17}" {
+      PivotID "Socket_Ladder"
+     }
+    }
+    coords 0 2.587 -7.832
+   }
+   {
+    coords 0.006 2.775 -7.869
+    angles 0 0 0
+   }
+  }
+  $grp GenericEntity : "{E546356D4797342F}Prefabs/Props/Garbage/Medical/GarbageMedicalUS_01.et" {
+   {
+    coords -2.196 3.123 0.186
+    angles 0 67.084 0
+   }
+   {
+    coords -4.473 3.794 0.427
+    angles 0 -68 0
+   }
+  }
+  GenericEntity : "{F06EAC6F2F97767F}Prefabs/Props/Medical/MedicalScreen_01.et" {
+   coords -2.5 3.123 1.623
+   angles 0 32.463 0
+  }
+  GenericEntity : "{F188F489FD7864C0}Prefabs/Props/Furniture/ShowerCurtains_01_straight.et" {
+   coords 1.862 5.352 -3.722
+   angles 0 -0.113 0
+   scale 1.2
+  }
+  $grp GenericEntity : "{F4123D86F860B5E1}Prefabs/Props/Garbage/Medical/GarbageMedicalUSSR_02.et" {
+   {
+    coords -3.576 -4.907 1.599
+    angles 0 -87.614 0
+   }
+   {
+    coords -0.692 -34.471 2.475
+    angles 0 -87.614 0
+   }
+  }
+  GenericEntity : "{F4123D86F860B5E2}Prefabs/Trash/Medical/GarbageMedicalUSSR_02.et" {
+   coords -3.447 3.123 -3.89
+   angles 0 -68 0
+  }
+  GenericEntity : "{F7205C73E974634A}Prefabs/Props/Civilian/SheetMusicBook_E_01_closed_V2.et" {
+   coords -1.027 4.794 3.437
+   angles 0 -68 0
+  }
+  $grp GenericEntity : "{F74D4D826490D572}Prefabs/chairs/sumka.et" {
+   {
+    coords -4.396 -2.228 -2.229
+    angles 0 -68 0
+   }
+   {
+    coords 0.374 -54.775 -0.447
+    angles 0 -12.207 0
+   }
+  }
+  GenericEntity : "{FB14C1362735FD67}Prefabs/Staff/box_carton_small_2.et" {
+   coords -2.572 3.183 -2.047
+   angles 0 -68 0
+  }
+ }
+}
 GenericEntity : "{985C3871D40C7F7B}Prefabs/Props/Garbage/Generic/Litter_01_small.et" {
  coords 4934.3 326.38 3060.576
  angles 0 -163.733 0

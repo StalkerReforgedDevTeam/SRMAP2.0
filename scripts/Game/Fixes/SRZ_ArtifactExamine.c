@@ -191,11 +191,74 @@ modded class SCR_InventoryUIInfo
 			return text;
 
 		ARMST_ARTEFACT_PROPERTIES props = ARMST_ARTEFACT_PROPERTIES.Cast(item.GetOwner().FindComponent(ARMST_ARTEFACT_PROPERTIES));
-		if (!props || props.m_bSRZ_Examined)
+		if (!props)
 			return text;
+
+		text = SRZ_RemoveEmptyHeader(text, "\n" + Effects + ":");
+
+		if (props.m_bSRZ_Examined)
+			return SRZ_RoundBlockValues(text, "\n" + Effects + ": ");
 
 		text = SRZ_MaskBlockValues(text, "\n" + Effects + ": ");
 		return text + "\n\nNot examined. Have a vendor look at it.";
+	}
+
+	// Artifacts also get an empty consumable "Effects:" header from ARMST; drop any header with no lines under it
+	protected string SRZ_RemoveEmptyHeader(string text, string header)
+	{
+		int searchFrom = 0;
+		while (searchFrom < text.Length())
+		{
+			int start = text.IndexOfFrom(searchFrom, header);
+			if (start == -1)
+				return text;
+
+			int end = start + header.Length();
+			while (end < text.Length() && text.Get(end) == " ")
+				end++;
+
+			if (end + 3 <= text.Length() && text.Substring(end, 3) == "\n  ")
+			{
+				searchFrom = end;
+				continue;
+			}
+
+			return text.Substring(0, start) + text.Substring(end, text.Length() - end);
+		}
+
+		return text;
+	}
+
+	// Rounds each stat value under the header to 2 decimals
+	protected string SRZ_RoundBlockValues(string text, string header)
+	{
+		int start = text.IndexOf(header);
+		if (start == -1)
+			return text;
+
+		string result = text.Substring(0, start + header.Length());
+		int pos = start + header.Length();
+		int length = text.Length();
+
+		while (pos + 3 <= length && text.Substring(pos, 3) == "\n  ")
+		{
+			int lineEnd = text.IndexOfFrom(pos + 1, "\n");
+			if (lineEnd <= pos)
+				lineEnd = length;
+
+			string line = text.Substring(pos, lineEnd - pos);
+			int colon = line.IndexOf(": ");
+			if (colon != -1)
+			{
+				string value = line.Substring(colon + 2, line.Length() - colon - 2);
+				line = line.Substring(0, colon + 2) + value.ToFloat().ToString(-1, 2);
+			}
+
+			result += line;
+			pos = lineEnd;
+		}
+
+		return result + text.Substring(pos, length - pos);
 	}
 
 	// Keeps each stat name under the header but replaces its value with ???

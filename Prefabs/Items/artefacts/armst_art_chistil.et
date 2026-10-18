@@ -1,0 +1,12 @@
+GameEntity : "{0D247A14975597D4}Prefabs/Items/artefacts/base_art.et" {
+ ID "56A4B11C0BE428DA"
+ components {
+  InventoryItemComponent "{56A4B11C0BE428C5}" {
+   Attributes SCR_ItemAttributeCollection "{56A4B11C0BE428F0}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{56A4B11C0BE428F6}" {
+     Name "Purifier"
+    }
+   }
+  }
+ }
+}

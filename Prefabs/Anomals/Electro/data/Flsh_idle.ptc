@@ -1,0 +1,22 @@
+EffectDef {
+ Version 1
+ Emitters {
+  EmitterDef Emitter_1 {
+   ShapeType Sphere
+   ShapeSize 1 10 1
+   ConeAngle 0 0 0
+   BirthRateRND 0.3
+   LodMin 0
+   LodMax 1
+   Material "{6A4AD8411B1AEBF0}Prefabs/Anomals/Electro/data/Particls/Zem.emat"
+   SizeMultiplier 3
+   SizeRND 2
+   RotMultiplier 10
+   RotRND 10
+   RandomRotDir 1
+   Velocity 0
+   AnimFPS 30
+   LifetimeByAnim 1
+  }
+ }
+}
