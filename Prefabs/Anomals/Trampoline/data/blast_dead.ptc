@@ -35,216 +35,142 @@ EffectDef {
    MaxLV 7
    RelativeLV 1
    LightColorMast {
-    0 1 0.569 0.155 1 0.287 0.141 0.087
+    0 0.85 0.9 1 1 0.4 0.45 0.55
    }
    LightIntensityMast {
     0 1 1 0
    }
    LightIntensityResponse 20
   }
-  EmitterDef debris_fast {
-   ShapeType Box
-   ShapeSize 1 1 1
-   ConeAngle 360 80 180
-   MaxNum 120
+  EmitterDef Dirt_Column {
+   ShapeSize 0 0 0
+   ConeAngle 10 0 10
+   MaxNum 3
    BirthRate 1000
-   BirthRateRND 0
-   BirthRateVel 0
-   Offset 0 1 0
-   Angles 0 0 0
+   Offset 0 0.3 0
    LodMin 0
    LodMax 1
-   Material "{224F6908DA2DEF71}Particles/_Materials/Solid/Metal_debris_2x2.emat"
-   StretchMultiplier 1
-   SizeMultiplier 0
-   SizeRND 0.25
-   ScaleX 0.5
-   RotMultiplier 500
-   RandomRotDir 1
-   VelAngle 0
-   RandomAngle 0
+   Material "{B9AC7AE2304EF891}Particles/_Materials/Explosion_Burst_Dirt.emat"
+   SizeMultiplier 3
+   SizeRND 0.8
+   RandomAngle 1
    FlipU Random
-   Velocity 25
-   VelocityRND 20
+   Velocity 4
+   VelocityRND 2
    AirResistance 2
-   AirResistanceRND 1.5
-   GravityMultiply 2
-   GravityMultiplyRND 1
-   Spring 0
-   AnimOnce 0
-   AnimFPS 0
-   LifetimeByAnim 0
-   RandomFrame 1
-   Lifetime 1
-   LifetimeRND 2
-   LifetimeShortening 0
-   Color {
-    0 0.1 0.1 0.1 1 0.1 0.1 0.1
-   }
+   GravityMultiply 0.3
+   AnimOnce 1
+   AnimFPS 30
+   LifetimeByAnim 1
+   Lifetime 1.5
+   EmittingTime 0.05
+   Repeat 0
+  }
+  EmitterDef Dust_Burst {
+   ShapeType Ellipse
+   ShapeSize 1.5 0 1.5
+   ConeAngle 80 0 80
+   MaxNum 20
+   BirthRate 1000
+   Offset 0 0.2 0
+   LodMin 0
+   LodMax 1
+   Material "{67FEB95AE2ECC2EA}Particles/_Materials/Gas/Smoke_Base_Dust_01.emat"
+   SizeMultiplier 2
+   SizeRND 0.8
+   RotMultiplier 20
+   RandomRotDir 1
+   RandomAngle 1
+   Velocity 6
+   VelocityRND 3
+   AirResistance 3
+   WindInfluence 0.4
+   GravityMultiply 0
+   Lifetime 4
+   LifetimeRND 1.5
    Alpha {
-    0 1 0.792 1 1 0
-   }
-   RotationSpeed {
-    0 1 1 1
+    0 0 0.05 0.6 1 0
    }
    Size {
-    0 1
+    0 0.5 1 1.8
    }
-   EmittingTime 0.2
+   EmittingTime 0.05
    Repeat 0
-   ColorMast {
-    0 1 1 1
-   }
-   AlphaMast {
-    0 1
-   }
-   RotationSpeedMast {
-    0 1
-   }
-   SizeMast {
-    0 1 1 1
-   }
-   BRateMast {
-    0 1
-   }
   }
-  EmitterDef Smoke_Big {
-   ShapeSize 5 0 5
-   ConeAngle 360 0 180
-   ConeAngleMinDist 60
-   ConeAngleRndRange 60
-   MaxNum 6
+  EmitterDef Blood_Mist {
+   ShapeType Sphere
+   ShapeSize 0.7 0.8 0.5
    BirthRate 1000
-   BirthRateRND 0
-   BirthRateVel 0
    Offset 0 1 0
    LodMin 0
-   LodMax 2
-   Material "{029D33C344E15DFB}Particles/_Materials/Gas/Smoke_loop_01.emat"
-   StretchMultiplier 0
-   SizeMultiplier 6
-   SizeRND 5
-   RotMultiplier 15
-   RandomRotDir 1
-   VelAngle 0
+   LodMax 1
+   Material "{4F0915FB17D620A0}Particles/_Materials/Fluid/Blood_Splash_Anim_01.emat"
+   SizeMultiplier 2
+   SizeRND 0.4
    RandomAngle 1
    FlipU Random
-   Velocity 8
-   VelocityRND 10
-   VelAffect 0.5
-   AirResistance 3
-   AirResistanceRND 3
-   WindInfluence 0
-   GravityMultiply 2.118
-   GravityMultiplyRND -1
-   AnimFPS 80
-   LifetimeByAnim 0
-   RandomFrame 0
-   Lifetime 1
-   Color {
-    0.001 0.503 0.159 0.159 0.46 0.411 0.166 0.166 1 1 0.159 0.159
-   }
-   Alpha {
-    0 0 0.023 1 0.695 0.303 1 0
-   }
-   Emissivity {
-    0.479 1
-   }
-   RotationSpeed {
-    0 1 1 1
-   }
-   Size {
-    0 0.821 1 1
-   }
-   EmittingTime 0.4
+   Velocity 3
+   VelocityRND 1
+   AirResistance 2
+   GravityMultiply 0.4
+   AnimOnce 1
+   AnimFPS 20
+   LifetimeByAnim 1
+   Lifetime 1.2
+   EmittingTime 0.05
    Repeat 0
-   ColorMast {
-    0 1 1 1 0.431 1 1 1 1 1 1 1
-   }
-   AlphaMast {
-    0 1 0.15 1 0.236 1 0.591 1 1 0
-   }
-   RotationSpeedMast {
-    0 1 1 1
-   }
-   SizeMast {
-    0 1 1 1
-   }
-   BRateMast {
-    0 0 0.17 0 0.704 1 1 1
-   }
-   VelocityMast {
-    0 1 0.15 1 0.324 1 0.65 1 1 1
-   }
   }
-  EmitterDef explosion_hot_A {
+  EmitterDef Blood_Drops {
    ShapeType Sphere
-   ShapeSize 5 5 5
-   ConeAngle 360 0 100
-   ConeAngleMinDist 60
-   ConeAngleRndRange 60
-   MaxNum 7
-   BirthRate 2000
-   BirthRateRND 0
-   BirthRateVel 0
-   Offset 0 0 0
-   Material "{6E033C070B32B17C}Particles/_Materials/Fire/Explosion_Base_03.emat"
-   StretchMultiplier 0
-   SizeMultiplier 6
-   SizeRND 2
-   RotMultiplier 15
-   RandomRotDir 1
-   VelAngle 0
+   ShapeSize 0.7 0.6 0.4
+   MaxNum 40
+   BirthRate 1000
+   Offset 0 1 0
+   LodMin 0
+   LodMax 0
+   Material "{03BF5B947463775D}Particles/_Materials/Fluid/Blood_Drops_01.emat"
+   StretchMultiplier 1.2
+   SizeMultiplier 0.06
+   SizeRND 0.03
    RandomAngle 1
-   FlipU Random
-   Velocity 10
-   VelocityRND 15
-   VelAffect 0
-   AirResistance 6
-   AirResistanceRND 5
-   WindInfluence 0.1
-   ParentVelRelToAir 0.8
-   GravityMultiply 0.1
-   GravityMultiplyRND 0.1
-   Spring 0
-   AnimOnce 0
-   AnimFPS 30
-   LifetimeByAnim 0
-   RandomFrame 0
-   Lifetime 0.3
-   LifetimeRND 1
-   Color {
-    0.001 0.184 0 0 0.46 0.16 0 0 0.986 0.688 0 0
-   }
-   Alpha {
-    0 0 0.165 0.753 0.447 0.123 1 0
-   }
-   Emissivity {
-    0.409 0.448
-   }
-   Size {
-    0.002 0.5 1 1
-   }
-   EmittingTime 0.1
+   Velocity 6
+   VelocityRND 3
+   AirResistance 0.5
+   GravityMultiply 1
+   EnableCollisions 1
+   Lifetime 1.5
+   LifetimeRND 0.5
+   EmittingTime 0.05
    Repeat 0
-   ColorMast {
-    0 1 1 1 0.431 1 1 1 1 1 1 1
+  }
+  EmitterDef Stone_Debris {
+   ShapeType Sphere
+   ShapeSize 1 0.3 1
+   MaxNum 10
+   BirthRate 1000
+   Offset 0 0.3 0
+   LodMin 0
+   LodMax 0
+   ParticleType Prefab
+   Prefab "{A3825F7D7E340D80}Prefabs/Particles/Debris/Stone/Dbr_Stone_03.et"
+   SizeMultiplier 0.6
+   SizeRND 0.2
+   RotMultiplier_3D 400 500 300
+   RotRND_3D 180 180 180
+   RandomRotationSpace 1
+   RandomRotDir 1
+   Velocity 7
+   VelocityRND 3
+   GravityMultiply 1
+   EnableCollisions 1
+   Friction 0.7
+   Lifetime 6
+   LifetimeRND 1
+   Size {
+    0 1 0.85 1 1 0
    }
-   AlphaMast {
-    0 1 0.15 1 0.236 1 0.591 1 1 0
-   }
-   RotationSpeedMast {
-    0 1 1 1
-   }
-   SizeMast {
-    0 1 1 1
-   }
-   BRateMast {
-    0 0 1 1
-   }
-   VelocityMast {
-    0 1 0.15 1 0.324 1 0.65 1 1 1
-   }
+   EmittingTime 0.05
+   Repeat 0
   }
   EmitterDef Prefab_Debris_Headlght {
    ShapeType Box
@@ -262,7 +188,7 @@ EffectDef {
    Material "{224F6908DA2DEF71}Particles/_Materials/Solid/Metal_debris_2x2.emat"
    Prefab "{54564553D0B6EB89}Prefabs/Props/dead_skeleton_bone.et"
    StretchMultiplier 1
-   SizeMultiplier 1.5
+   SizeMultiplier 1
    SizeRND 0
    ScaleX 0.5
    RotMultiplier 500
@@ -334,7 +260,7 @@ EffectDef {
    Material "{224F6908DA2DEF71}Particles/_Materials/Solid/Metal_debris_2x2.emat"
    Prefab "{855C49FC774DFC20}Prefabs/Props/dead_skeleton_leg.et"
    StretchMultiplier 1
-   SizeMultiplier 1.5
+   SizeMultiplier 1
    SizeRND 0
    ScaleX 0.5
    RotMultiplier 500
@@ -394,7 +320,7 @@ EffectDef {
    ShapeType Box
    ShapeSize 2 1 3
    ConeAngle 360 0 100
-   MaxNum 1
+   MaxNum 2
    BirthRate 15
    BirthRateRND 50
    BirthRateVel 0
@@ -466,7 +392,7 @@ EffectDef {
    ShapeType Box
    ShapeSize 1.5 0.5 3
    ConeAngle 360 150 200
-   MaxNum 1
+   MaxNum 2
    BirthRate 10
    BirthRateRND 30
    BirthRateVel 0
@@ -488,8 +414,8 @@ EffectDef {
    VelAngle 0
    RandomAngle 0
    FlipU Random
-   Velocity 15
-   VelocityRND 20
+   Velocity 7
+   VelocityRND 10
    AirResistance 0.5
    AirResistanceRND 0.8
    GravityMultiply 2
@@ -538,7 +464,7 @@ EffectDef {
    ShapeType Box
    ShapeSize 1.5 0.5 3
    ConeAngle 360 150 200
-   MaxNum 1
+   MaxNum 2
    BirthRate 10
    BirthRateRND 30
    BirthRateVel 0

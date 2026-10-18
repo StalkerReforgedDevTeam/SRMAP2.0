@@ -1,0 +1,140 @@
+EffectDef {
+ Version 2
+ Emitters {
+  EmitterDef Emitter_2 {
+   ShapeType Sphere
+   ShapeSize 40 40 40
+   ConeAngle 360 180 20
+   ConeAngleMinDist 180
+   ConeAngleRndRange 69.613
+   MaxNum 4
+   BirthRate 5
+   Offset 0 1 0
+   Angles 0 1 0
+   LodMin 0
+   LodMax 2
+   ParticleType Prefab
+   Prefab "{AA14F25DFBDF4945}PrefabLibrary/Vegetation/Trees/t_picea_abies_3d_fallen.et"
+   SizeMultiplier 0.4
+   SizeRND 1
+   CenterX 0.62
+   CenterY 0.8
+   CenterZ 1.86
+   RotMultiplier_3D 20 10 5
+   RotRND_3D 45 60 24
+   RandomRotationSpace 1
+   RandomRotDir 1
+   Velocity 0
+   EnableCollisions 1
+   Lifetime 3600
+   RotationSpeed {
+    0.18 0.461 0.502 0.006 0.633 0.503
+   }
+   Size {
+    0 1 0.197 0.681 0.842 1 1 1
+   }
+   EmittingTime 36000
+  }
+  EmitterDef Emitter_3 {
+   ShapeType Sphere
+   ShapeSize 40 40 40
+   ConeAngle 360 180 20
+   ConeAngleMinDist 180
+   ConeAngleRndRange 69.613
+   BirthRate 5
+   Offset 0 1 0
+   Angles 0 1 0
+   LodMin 0
+   LodMax 0
+   ParticleType Prefab
+   Prefab "{7BEC4D46FABA042E}PrefabLibrary/Vegetation/Trees/t_carpinus_betulus_branch_01.et"
+   SizeRND 1
+   CenterX 0.62
+   CenterY 0.8
+   CenterZ 1.86
+   RotMultiplier_3D 20 10 5
+   RotRND_3D 45 60 24
+   RandomRotationSpace 1
+   RandomRotDir 1
+   Velocity 0
+   EnableCollisions 1
+   Lifetime 36000
+   RotationSpeed {
+    0.18 0.461 0.502 0.006 0.633 0.503
+   }
+   Size {
+    0 1 0.197 0.681 0.842 1 1 1
+   }
+   EmittingTime 36000
+  }
+  EmitterDef Emitter_0 {
+   ShapeType Sphere
+   ShapeSize 40 40 40
+   ConeAngle 360 180 20
+   ConeAngleMinDist 180
+   ConeAngleRndRange 69.613
+   MaxNum 8
+   BirthRate 5
+   Offset 0 1 0
+   Angles 0 1 0
+   LodMin 0
+   LodMax 1
+   ParticleType Prefab
+   Prefab "{B48B7DD4E1C5FE40}PrefabLibrary/Vegetation/Bushes/b_corylus_avellana_0.et"
+   SizeMultiplier 0.7
+   SizeRND 1
+   CenterX 0.62
+   CenterY 0.8
+   CenterZ 1.86
+   RotMultiplier_3D 20 10 5
+   RotRND_3D 45 60 24
+   RandomRotationSpace 1
+   RandomRotDir 1
+   Velocity 0
+   EnableCollisions 1
+   Lifetime 36000
+   RotationSpeed {
+    0.18 0.461 0.502 0.006 0.633 0.503
+   }
+   Size {
+    0 1 0.197 0.681 0.842 1 1 1
+   }
+   EmittingTime 36000
+  }
+  EmitterDef Emitter_1 {
+   ShapeType Sphere
+   ShapeSize 40 40 40
+   ConeAngle 360 180 20
+   ConeAngleMinDist 180
+   ConeAngleRndRange 69.613
+   MaxNum 5
+   BirthRate 5
+   Offset 0 1 0
+   Angles 0 1 0
+   LodMin 0
+   LodMax 0
+   ParticleType Prefab
+   Prefab "{779DF03FAB7A131E}PrefabLibrary/Vegetation/Trees/t_picea_abies_stump_01.et"
+   SizeMultiplier 0.7
+   SizeRND 1
+   CenterX 0.62
+   CenterY 0.8
+   CenterZ 1.86
+   RotMultiplier_3D 20 10 5
+   RotRND_3D 45 60 24
+   RandomRotationSpace 1
+   RandomRotDir 1
+   Velocity 0
+   EnableCollisions 1
+   Lifetime 36000
+   RotationSpeed {
+    0.18 0.461 0.502 0.006 0.633 0.503
+   }
+   Size {
+    0 1 0.197 0.681 0.842 1 1 1
+   }
+   EmittingTime 36000
+  }
+ }
+ CollisionPreset "{5D9EE44C68755DF5}"
+}
