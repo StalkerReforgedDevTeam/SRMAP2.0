@@ -13,6 +13,9 @@ class SRZ_WhirligigEntity : ARMST_DamagingTriggerEntity
 	[Attribute("", UIWidgets.ResourcePickerThumbnail, "Effect when it collapses", category: "7. Whirligig", params: "ptc")]
 	ResourceName m_CollapseEffect;
 
+	[Attribute("0", UIWidgets.Slider, "Height the idle effect floats above the anomaly, metres", "0 5 0.1", category: "7. Whirligig")]
+	float m_fIdleHeight;
+
 	[Attribute("", UIWidgets.EditBox, "Looping idle sound event, played through the prefab's Sound Component", category: "7. Whirligig")]
 	string m_sIdleSoundEvent;
 
@@ -28,11 +31,20 @@ class SRZ_WhirligigEntity : ARMST_DamagingTriggerEntity
 	[Attribute("", UIWidgets.EditBox, "Sound event when it collapses", category: "7. Whirligig")]
 	string m_sCollapseSoundEvent;
 
-	[Attribute("1.2", UIWidgets.Slider, "Seconds you are dragged in on your feet", "0 5 0.1", category: "7. Whirligig")]
+	[Attribute("1", UIWidgets.CheckBox, "Lift and spin victims. Off turns it into a Vortex: pull in, then crush and throw", category: "7. Whirligig")]
+	bool m_bSpin;
+
+	[Attribute("3", UIWidgets.Slider, "Vortex only: seconds victims stay down after the crush", "1 10 0.5", category: "7. Whirligig")]
+	float m_fCrushDownSeconds;
+
+	[Attribute("1.2", UIWidgets.Slider, "Seconds between being caught and being lifted. Anyone who gets out of the sphere in time escapes", "0 5 0.1", category: "7. Whirligig")]
 	float m_fPullSeconds;
 
-	[Attribute("2", UIWidgets.Slider, "Pace of the drag (1 walk, 2 run, 3 sprint)", "0.5 3 0.1", category: "7. Whirligig")]
-	float m_fPullSpeed;
+	[Attribute("0", UIWidgets.CheckBox, "Plays the spin effect and sound as a warning while it is about to lift you", category: "7. Whirligig")]
+	bool m_bWindUp;
+
+	[Attribute("0", UIWidgets.CheckBox, "Everyone inside the crush radius at the collapse dies outright", category: "7. Whirligig")]
+	bool m_bLethal;
 
 	[Attribute("4", UIWidgets.Slider, "Shortest spin, seconds", "1 20 0.5", category: "7. Whirligig")]
 	float m_fSpinMinSeconds;
@@ -102,7 +114,16 @@ class SRZ_WhirligigEntity : ARMST_DamagingTriggerEntity
 			return;
 
 		ParticleEffectEntitySpawnParams params = new ParticleEffectEntitySpawnParams();
-		params.Parent = this;
+		if (m_fIdleHeight > 0)
+		{
+			params.TransformMode = ETransformMode.WORLD;
+			params.Transform[3] = GetOrigin() + Vector(0, m_fIdleHeight, 0);
+		}
+		else
+		{
+			params.Parent = this;
+		}
+
 		m_Idle = ParticleEffectEntity.SpawnParticleEffect(m_IdleEffect, params);
 	}
 
@@ -114,6 +135,8 @@ class SRZ_WhirligigEntity : ARMST_DamagingTriggerEntity
 		GetGame().GetCallqueue().Remove(StartSpin);
 		GetGame().GetCallqueue().Remove(Collapse);
 		GetGame().GetCallqueue().Remove(EndCooldown);
+		if (m_Idle && m_fIdleHeight > 0)
+			SCR_EntityHelper.DeleteEntityAndChildren(m_Idle);
 	}
 
 	override void OnActivate(IEntity ent)
@@ -153,6 +176,9 @@ class SRZ_WhirligigEntity : ARMST_DamagingTriggerEntity
 
 		m_iState = STATE_PULL;
 		m_aVictims.Clear();
+		if (m_bWindUp)
+			PlayFx(m_SpinEffect, m_SpinSoundProject, m_sSpinSoundEvent, GetOrigin(), m_fPullSeconds);
+
 		GetGame().GetCallqueue().CallLater(StartSpin, Math.Max(m_fPullSeconds, 0.1) * 1000, false);
 	}
 
@@ -162,16 +188,27 @@ class SRZ_WhirligigEntity : ARMST_DamagingTriggerEntity
 			return;
 
 		m_aVictims.Insert(character);
-		if (m_fPullSeconds <= 0)
+		if (!m_bWindUp)
 			return;
 
-		SCR_CharacterControllerComponent controller = SCR_CharacterControllerComponent.Cast(character.GetCharacterController());
-		if (controller)
-			controller.SRZ_AskWhirlPull(GetOrigin(), m_fPullSeconds, m_fPullSpeed);
+		SCR_ChimeraCharacter chimera = SCR_ChimeraCharacter.Cast(character);
+		if (chimera)
+			chimera.ArmstCameraShake(0.6, 3, 0.4, Math.Max(m_fPullSeconds - 0.8, 0.2), 0.4);
+	}
+
+	protected bool StillInside(ChimeraCharacter victim)
+	{
+		return vector.DistanceXZ(victim.GetOrigin(), GetOrigin()) <= GetSphereRadius() + 0.5;
 	}
 
 	protected void StartSpin()
 	{
+		if (!m_bSpin)
+		{
+			Crush();
+			return;
+		}
+
 		m_iState = STATE_SPIN;
 		float spinS = Math.RandomFloat(Math.Min(m_fSpinMinSeconds, m_fSpinMaxSeconds), Math.Max(m_fSpinMinSeconds, m_fSpinMaxSeconds));
 		vector centre = GetOrigin();
@@ -186,7 +223,7 @@ class SRZ_WhirligigEntity : ARMST_DamagingTriggerEntity
 			if (victim)
 				controller = SCR_CharacterControllerComponent.Cast(victim.GetCharacterController());
 
-			if (!controller || controller.GetLifeState() == ECharacterLifeState.DEAD || victim.IsInVehicle())
+			if (!controller || controller.GetLifeState() == ECharacterLifeState.DEAD || victim.IsInVehicle() || !StillInside(victim))
 			{
 				m_aVictims.Remove(i);
 				continue;
@@ -201,6 +238,28 @@ class SRZ_WhirligigEntity : ARMST_DamagingTriggerEntity
 
 		PlayFx(m_SpinEffect, m_SpinSoundProject, m_sSpinSoundEvent, centre, spinS);
 		GetGame().GetCallqueue().CallLater(Collapse, spinS * 1000, false);
+	}
+
+	protected void Crush()
+	{
+		m_iState = STATE_SPIN;
+		for (int i = m_aVictims.Count() - 1; i >= 0; i--)
+		{
+			ChimeraCharacter victim = m_aVictims[i];
+			SCR_CharacterControllerComponent controller;
+			if (victim)
+				controller = SCR_CharacterControllerComponent.Cast(victim.GetCharacterController());
+
+			if (!controller || controller.GetLifeState() == ECharacterLifeState.DEAD || victim.IsInVehicle() || !StillInside(victim))
+			{
+				m_aVictims.Remove(i);
+				continue;
+			}
+
+			controller.Ragdoll(m_fCrushDownSeconds * 1000);
+		}
+
+		Collapse();
 	}
 
 	protected void Collapse()
@@ -239,7 +298,10 @@ class SRZ_WhirligigEntity : ARMST_DamagingTriggerEntity
 				if (dist > m_fCrushRadius)
 					m_damageValue = baseDamage * m_fOuterDamageScale;
 
-				ArmstDamageStart(victim);
+				if (m_bLethal && dist <= m_fCrushRadius)
+					Kill(victim);
+				else
+					ArmstDamageStart(victim);
 			}
 
 			vector fling = away * Math.RandomFloat(Math.Min(m_fThrowMin, m_fThrowMax), Math.Max(m_fThrowMin, m_fThrowMax)) + Vector(0, m_fThrowUp, 0);
@@ -251,6 +313,20 @@ class SRZ_WhirligigEntity : ARMST_DamagingTriggerEntity
 		m_aVictims.Clear();
 		m_iState = STATE_COOLDOWN;
 		GetGame().GetCallqueue().CallLater(EndCooldown, Math.Max(m_fCooldownSeconds, 0.5) * 1000, false);
+	}
+
+	protected void Kill(ChimeraCharacter victim)
+	{
+		SCR_CharacterDamageManagerComponent damageManager = SCR_CharacterDamageManagerComponent.Cast(victim.FindComponent(SCR_CharacterDamageManagerComponent));
+		if (!damageManager)
+			return;
+
+		BaseDamageContext ctx = new BaseDamageContext();
+		ctx.damageValue = 100000;
+		ctx.damageType = EDamageType.TRUE;
+		ctx.struckHitZone = damageManager.GetDefaultHitZone();
+		damageManager.HandleDamage(ctx);
+		SRZ_RuinIfDead(victim);
 	}
 
 	protected void EndCooldown()

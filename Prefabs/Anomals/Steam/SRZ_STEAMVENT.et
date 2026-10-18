@@ -1,0 +1,26 @@
+SRZ_SteamVentEntity {
+ ID "B11A2C59A5FEE89E"
+ components {
+  RplComponent "{7249693B9CDD29E1}" {
+  }
+  Hierarchy "{F73B6760A92ABC01}" {
+  }
+ }
+ TriggerShapeType Sphere
+ SphereRadius 1.5
+ DrawShape 1
+ ShapeColor 0.85 0.85 0.9 1
+ TriggerActivationType "Every query"
+ PeriodicQueries 1
+ UpdatePeriod 0.25
+ m_fBoltAction 0
+ m_damageValue 8
+ m_damageTypeVanilla FIRE
+ m_DamageForceAction 0
+ m_SteamEffect "{7FF446342A2C7EA6}Prefabs/Anomals/Steam/data/steam_burst.ptc"
+ m_fEffectRange 100
+ m_IdleEffect "{BCEAD33F87F4154F}Prefabs/Anomals/Steam/data/steam_idle.ptc"
+ m_WarnEffect "{EE0CE4C30E6EA7E0}Prefabs/Anomals/Steam/data/steam_warn.ptc"
+ m_SoundProject "{4E0E1A76871377DE}Prefabs/Anomals/Jarka/data/jarka_sound_att.acp"
+ m_sBurstSoundEvent "SOUND_JARKA"
+}

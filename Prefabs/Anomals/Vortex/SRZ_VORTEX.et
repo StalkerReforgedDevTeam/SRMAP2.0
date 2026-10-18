@@ -1,0 +1,49 @@
+SRZ_WhirligigEntity {
+ ID "987DE339E24C4808"
+ components {
+  SoundComponent "{E7164616183489EE}" {
+   Filenames {
+    "{F97D28D07732389F}Prefabs/Anomals/Gravy/data/gravy_sound.acp"
+   }
+  }
+  RplComponent "{47464200642DE376}" {
+  }
+  Hierarchy "{31A06145A9B6BC74}" {
+  }
+ }
+ TriggerShapeType Sphere
+ SphereRadius 4
+ DrawShape 1
+ ShapeColor 0.4 0.3 0.6 1
+ TriggerActivationType "Every query"
+ PeriodicQueries 1
+ UpdatePeriod 0.5
+ m_fBoltAction 1
+ m_damageTypeVanilla Physicals
+ m_DamageForceAction 0
+ m_IdleEffect "{F77B3D43C3036E4A}Prefabs/Anomals/Gravy/data/gravy_idle_3.ptc"
+ m_SpinEffect "{38A71311FE55E5B2}Prefabs/Anomals/Whirligig/data/whirligig_spin.ptc"
+ m_CollapseEffect "{53188386B4988BDE}Prefabs/Anomals/Whirligig/data/whirligig_collapse.ptc"
+ m_sIdleSoundEvent "SOUND_GENERATOR_LP"
+ m_SpinSoundProject "{927AD946078EBC79}Prefabs/Anomals/Gravy/data/gravy_attack.acp"
+ m_sSpinSoundEvent "SOUND_GRAVY"
+ m_CollapseSoundProject "{00C0C2EFA6697FCA}Prefabs/Anomals/Trampoline/data/mincer_affect.acp"
+ m_sCollapseSoundEvent "SOUND_GRAVY"
+ m_fIdleHeight 1.2
+ m_damageValue 150
+ m_bLethal 1
+ m_bWindUp 1
+ m_bSpin 1
+ m_fPullSeconds 4
+ m_fSpinMinSeconds 3
+ m_fSpinMaxSeconds 4
+ m_fSpinHeight 6
+ m_fSpinRadius 1.2
+ m_fSpinSpeed 9
+ m_fCrushRadius 3
+ m_fOuterDamageScale 0.6
+ m_fThrowMin 12
+ m_fThrowMax 22
+ m_fThrowUp 6
+ m_fCooldownSeconds 10
+}
