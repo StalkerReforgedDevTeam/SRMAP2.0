@@ -102,6 +102,11 @@ GenericEntity {
    Slots {
     LoadoutSlotInfo Boots {
     }
+    LoadoutSlotInfo Hood {
+     Prefab "{E7D165977E0B63C8}Assets/Characters/Suits/IO7/Hood/IO7_Hood_Brown.et"
+     AreaType LoadoutHeadCoverArea "{AF5635875B248559}" {
+     }
+    }
    }
    WornModel "{93F828E7D3777F7B}Assets/Characters/Suits/IO7/IO7_Brown.xob"
    ItemModel "{93F828E7D3777F7B}Assets/Characters/Suits/IO7/IO7_Brown.xob"

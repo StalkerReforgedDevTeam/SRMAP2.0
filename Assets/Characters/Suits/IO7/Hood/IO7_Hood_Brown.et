@@ -1,0 +1,29 @@
+GameEntity : "{D4BC1F7EC5C290A3}Prefabs/Characters/HeadGear/Hat_Boonie_US_01/Hat_Boonie_US_01_base.et" {
+ ID "962CEF2308B05040"
+ components {
+  InventoryItemComponent "{5244E4431E28A759}" {
+   Attributes SCR_ItemAttributeCollection "{6AA6A1C0D0000001}" {
+    ItemDisplayName UIInfo "{6AA6A1C0D0000002}" {
+     Name "IO7 Hood"
+     Description ""
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{6AA6A1C0D0000003}" {
+     SizeSetupStrategy Manual
+    }
+   }
+  }
+  MeshObject "{5112706CD4157AE0}" {
+   Object "{0344F0431B6728C3}Assets/Characters/Suits/IO7/IO7_Hood.xob"
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   WornModel "{0344F0431B6728C3}Assets/Characters/Suits/IO7/IO7_Hood.xob"
+   WornMaterialsOverride {
+    "{7C3158268C91077B}Assets/Characters/Suits/IO7/Data/Brown/hoodBrown.emat"
+   }
+   ItemModel "{0344F0431B6728C3}Assets/Characters/Suits/IO7/IO7_Hood.xob"
+   ItemMaterialsOverride {
+    "{7C3158268C91077B}Assets/Characters/Suits/IO7/Data/Brown/hoodBrown.emat"
+   }
+  }
+ }
+}

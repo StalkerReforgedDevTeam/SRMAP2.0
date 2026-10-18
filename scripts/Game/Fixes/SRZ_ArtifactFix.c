@@ -15,12 +15,62 @@ modded class ARMST_TRIGGER_SPAWN
 		m_SpawnChanceArtefacts = SRZ_ARTIFACT_CHANCE;
 	}
 
+	protected ref array<IEntity> m_aSRZ_Anomalies = {};
+	protected ref array<IEntity> m_aSRZ_Artifacts = {};
+
+	// Spawning is done here instead of in ARMST so picked up artifacts are not tracked and deleted with the field
 	override void OnActivate(IEntity ent)
 	{
-		if (Replication.IsServer() && !m_bSRZ_ArtListFiltered)
+		if (!Replication.IsServer())
+			return;
+
+		if (!m_bSRZ_ArtListFiltered)
 			SRZ_FilterArtList();
 
-		super.OnActivate(ent);
+		if (!m_aSRZ_Anomalies.IsEmpty())
+			return;
+
+		if (!IsAlive(ent) || !EntityUtils.IsPlayer(ent))
+			return;
+
+		SCR_ChimeraCharacter character = SCR_ChimeraCharacter.Cast(ent);
+		if (!character || character.GetCharacterController().GetLifeState() == ECharacterLifeState.DEAD)
+			return;
+
+		Resource resource = Resource.Load(groupPrefab);
+		if (!resource || !resource.IsValid())
+		{
+			Print("SRZ_ArtifactFix: could not load anomaly prefab " + groupPrefab, LogLevel.ERROR);
+			return;
+		}
+
+		vector playerPos = ent.GetOrigin();
+		for (int i = 0; i < m_SpawnCount; i++)
+		{
+			vector spawnPos = SRZ_RandomPosition(playerPos);
+			if (spawnPos == vector.Zero)
+				continue;
+
+			EntitySpawnParams params = new EntitySpawnParams();
+			params.Transform[3] = spawnPos;
+			params.TransformMode = ETransformMode.WORLD;
+
+			IEntity anomaly = GetGame().SpawnEntityPrefab(resource, GetGame().GetWorld(), params);
+			if (!anomaly)
+				continue;
+
+			SCR_EntityHelper.SnapToGround(anomaly, null, 10.0, Vector(0, 0, 0), false);
+			m_aSRZ_Anomalies.Insert(anomaly);
+
+			AIControlComponent control = AIControlComponent.Cast(anomaly.FindComponent(AIControlComponent));
+			if (control)
+				control.ActivateAI();
+
+			if (Math.RandomFloat(1, 99) < m_SpawnChanceArtefacts)
+				SRZ_SpawnArtifactNear(anomaly);
+		}
+
+		SetUpdateRate(30);
 	}
 
 	override void OnDeactivate(IEntity ent)
@@ -28,7 +78,101 @@ modded class ARMST_TRIGGER_SPAWN
 		if (Replication.IsServer() && SRZ_HasPlayerInside(ent))
 			return;
 
+		if (Replication.IsServer())
+		{
+			foreach (IEntity anomaly : m_aSRZ_Anomalies)
+			{
+				if (anomaly)
+					SCR_EntityHelper.DeleteEntityAndChildren(anomaly);
+			}
+
+			foreach (IEntity artifact : m_aSRZ_Artifacts)
+			{
+				if (artifact && !SRZ_IsCarried(artifact))
+					SCR_EntityHelper.DeleteEntityAndChildren(artifact);
+			}
+
+			m_aSRZ_Anomalies.Clear();
+			m_aSRZ_Artifacts.Clear();
+		}
+
 		super.OnDeactivate(ent);
+	}
+
+	protected bool SRZ_IsCarried(IEntity item)
+	{
+		if (item.GetParent())
+			return true;
+
+		InventoryItemComponent inventoryItem = InventoryItemComponent.Cast(item.FindComponent(InventoryItemComponent));
+		return inventoryItem && inventoryItem.GetParentSlot();
+	}
+
+	protected vector SRZ_RandomPosition(vector playerPos)
+	{
+		float radius = GetSphereRadius();
+		vector centre = GetOrigin();
+		for (int attempt = 0; attempt < 50; attempt++)
+		{
+			float angle = Math.RandomFloat(0, Math.PI2);
+			float dist = Math.RandomFloat(0, radius) * (1.0 - m_CenterBias);
+			vector pos = centre + Vector(Math.Cos(angle) * dist, 0, Math.Sin(angle) * dist);
+
+			if (vector.Distance(playerPos, pos) < m_MinDistanceToPlayer)
+				continue;
+
+			bool tooClose = false;
+			foreach (IEntity other : m_aSRZ_Anomalies)
+			{
+				if (other && vector.Distance(other.GetOrigin(), pos) < m_MinDistanceBetweenAnomalies)
+				{
+					tooClose = true;
+					break;
+				}
+			}
+
+			if (tooClose)
+				continue;
+
+			float surface = GetSurfaceHeight(pos);
+			if (ChimeraWorldUtils.TryGetWaterSurfaceSimple(GetWorld(), Vector(pos[0], surface - 0.5, pos[2])))
+				continue;
+
+			return Vector(pos[0], surface + 0.5, pos[2]);
+		}
+
+		return vector.Zero;
+	}
+
+	protected void SRZ_SpawnArtifactNear(IEntity anomaly)
+	{
+		ResourceName prefab = GetRandomPrefab();
+		if (prefab == ResourceName.Empty)
+			return;
+
+		Resource resource = Resource.Load(prefab);
+		if (!resource || !resource.IsValid())
+			return;
+
+		vector anomalyPos = anomaly.GetOrigin();
+		float x = anomalyPos[0] + Math.RandomFloatInclusive(-5, 5);
+		float z = anomalyPos[2] + Math.RandomFloatInclusive(-5, 5);
+		float surface = GetSurfaceHeight(Vector(x, anomalyPos[1], z));
+
+		EntitySpawnParams params = new EntitySpawnParams();
+		params.Transform[3] = Vector(x, surface + 0.5, z);
+		params.TransformMode = ETransformMode.WORLD;
+
+		IEntity artifact = GetGame().SpawnEntityPrefab(resource, GetGame().GetWorld(), params);
+		if (!artifact)
+			return;
+
+		SCR_EntityHelper.SnapToGround(artifact, null, 10.0, Vector(0, 0, 0), false);
+		ARMST_ARTEFACT_COMPONENTS art = ARMST_ARTEFACT_COMPONENTS.Cast(artifact.FindComponent(ARMST_ARTEFACT_COMPONENTS));
+		if (art)
+			art.EnableLight();
+
+		m_aSRZ_Artifacts.Insert(artifact);
 	}
 
 	// Drops artifacts that have no properties in the database (they spawn with nothing and can't be sold)

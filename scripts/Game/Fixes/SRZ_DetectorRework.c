@@ -11,6 +11,10 @@ modded class ARMST_DETECTOR_ARTS_COMPONENTS
 	[RplProp()]
 	protected bool m_bSRZ_On;
 
+	protected bool m_bSRZ_LocalOn;
+	protected float m_fSRZ_LastToggle = -10;
+	protected static const float SRZ_TOGGLE_GAP_S = 0.4;
+
 	protected bool m_bSRZ_Tracking;
 	protected IEntity m_SRZ_Announced;
 	protected IEntity m_SRZ_Nearest;
@@ -36,7 +40,26 @@ modded class ARMST_DETECTOR_ARTS_COMPONENTS
 
 	bool SRZ_IsOn()
 	{
-		return m_bSRZ_On;
+		if (Replication.IsServer())
+			return m_bSRZ_On;
+
+		return m_bSRZ_LocalOn;
+	}
+
+	// The carrier's own machine keeps its own on/off state so the HUD answers right away; the server confirms it
+	void SRZ_ClientSetOn(bool on)
+	{
+		if (m_bSRZ_LocalOn == on)
+			return;
+
+		m_bSRZ_LocalOn = on;
+		if (!on)
+		{
+			if (SRZ_BatteryDead())
+				SRZ_Notify("The battery is dead.");
+			else
+				SRZ_Notify("Detector off.");
+		}
 	}
 
 	// Use button: ask the server to flip the power state (a dedicated server ignores the local call)
@@ -45,12 +68,23 @@ modded class ARMST_DETECTOR_ARTS_COMPONENTS
 		if (System.IsConsoleApp())
 			return;
 
-		bool turningOn = !m_bSRZ_On;
+		BaseWorld world = GetGame().GetWorld();
+		float now = 0;
+		if (world)
+			now = world.GetWorldTime() * 0.001;
+
+		if (now - m_fSRZ_LastToggle < SRZ_TOGGLE_GAP_S)
+			return;
+
+		m_fSRZ_LastToggle = now;
+		bool turningOn = !m_bSRZ_LocalOn;
 		if (turningOn && SRZ_BatteryDead())
 		{
 			SRZ_Notify("The battery is dead.");
 			return;
 		}
+
+		m_bSRZ_LocalOn = turningOn;
 
 		string state = "Detector off.";
 		if (turningOn)
@@ -79,6 +113,21 @@ modded class ARMST_DETECTOR_ARTS_COMPONENTS
 		GetGame().GetCallqueue().Remove(SRZ_DrainTick);
 		if (on)
 			GetGame().GetCallqueue().CallLater(SRZ_DrainTick, SRZ_DRAIN_TICK_MS, true);
+
+		SRZ_TellCarrier(on);
+	}
+
+	protected void SRZ_TellCarrier(bool on)
+	{
+		IEntity carrier = GetOwner().GetRootParent();
+		PlayerManager players = GetGame().GetPlayerManager();
+		if (!carrier || !players)
+			return;
+
+		int playerId = players.GetPlayerIdFromControlledEntity(carrier);
+		SCR_PlayerController controller = SCR_PlayerController.Cast(players.GetPlayerController(playerId));
+		if (controller)
+			controller.SRZ_SendDetectorState(GetOwner(), on);
 	}
 
 	// m_BatteryDescrease is now battery % lost per minute while on
@@ -129,7 +178,7 @@ modded class ARMST_DETECTOR_ARTS_COMPONENTS
 
 	protected bool SRZ_IsActive()
 	{
-		if (!m_bSRZ_On || SRZ_BatteryDead() || GetMode() != EGadgetMode.IN_HAND)
+		if (!m_bSRZ_LocalOn || SRZ_BatteryDead() || GetMode() != EGadgetMode.IN_HAND)
 			return false;
 
 		IEntity player = GetGame().GetPlayerManager().GetPlayerControlledEntity(SCR_PlayerController.GetLocalPlayerId());
@@ -336,7 +385,41 @@ modded class SCR_PlayerController
 	protected void SRZ_ApplyDetectorPower(IEntity detector, bool on)
 	{
 		ARMST_DETECTOR_ARTS_COMPONENTS comp = ARMST_DETECTOR_ARTS_COMPONENTS.Cast(detector.FindComponent(ARMST_DETECTOR_ARTS_COMPONENTS));
+		if (!comp)
+			return;
+
+		comp.SRZ_ServerSetOn(on);
+		SRZ_SendDetectorState(detector, comp.SRZ_IsOn());
+	}
+
+	void SRZ_SendDetectorState(IEntity detector, bool on)
+	{
+		if (!detector)
+			return;
+
+		RplComponent rpl = RplComponent.Cast(FindComponent(RplComponent));
+		if (!rpl || rpl.IsOwner())
+		{
+			SRZ_ReceiveDetectorState(detector, on);
+			return;
+		}
+
+		Rpc(RpcDo_SRZ_DetectorState, SCR_EntityHelper.EntityToRplId(detector), on);
+	}
+
+	[RplRpc(RplChannel.Reliable, RplRcver.Owner)]
+	protected void RpcDo_SRZ_DetectorState(RplId detectorId, bool on)
+	{
+		SRZ_ReceiveDetectorState(SCR_EntityHelper.RplIdToEntity(detectorId), on);
+	}
+
+	protected void SRZ_ReceiveDetectorState(IEntity detector, bool on)
+	{
+		if (!detector)
+			return;
+
+		ARMST_DETECTOR_ARTS_COMPONENTS comp = ARMST_DETECTOR_ARTS_COMPONENTS.Cast(detector.FindComponent(ARMST_DETECTOR_ARTS_COMPONENTS));
 		if (comp)
-			comp.SRZ_ServerSetOn(on);
+			comp.SRZ_ClientSetOn(on);
 	}
 }
