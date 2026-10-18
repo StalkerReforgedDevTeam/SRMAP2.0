@@ -30,10 +30,10 @@ GenericEntity {
    "Additional hit zones" {
     SCR_ArmorHitZone Armor {
      ColliderNames {
-      "UTM_STOMACH" "" "" "" "" "" "" "" "UTM_RLEG"
+      "UCX_Head" "UCS_Neck" "UCX_Chest" "UCX_Belly" "UCS_Buttocks" "UCS_Arm_L" "UCS_Arm_R" "UCS_Forearm_L" "UCS_Forearm_R" "UCS_Thigh_L" "UCS_Thigh_R" "UCS_Calf_L" "UCS_Calf_R"
      }
      HZDefault 1
-     MaxHealth 1000
+     MaxHealth 2500
      DamageReduction 50
      DamageThreshold 200
     }
