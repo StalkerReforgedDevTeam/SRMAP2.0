@@ -4,13 +4,12 @@ EffectDef {
   EmitterDef Acid_Glow {
    ShapeSize 0 0 0
    ConeAngle 0 0 0
-   MaxNum 2
+   MaxNum 1
    BirthRate 1
    Offset 0 0.08 0
    LodMin 0
    LodMax 1
    Material "{C44A3E85876EEA2F}Particles/_Materials/Fire/Glow_Base_01.emat"
-   SizeMultiplier 2.8
    SizeRND 0.3
    Velocity 0
    Lifetime 2
@@ -37,19 +36,18 @@ EffectDef {
    ShapeType Box
    ShapeSize 2 0.1 2
    ConeAngle 20 0 20
-   MaxNum 24
+   MaxNum 15
    BirthRate 6
    BirthRateRND 2
    Offset 0 0.05 0
    LodMin 0
    LodMax 1
    Material "{FB2FB00F02295531}Particles/_Materials/Gas/Smoke_Base_01.emat"
-   SizeMultiplier 1.3
    SizeRND 0.5
    RotMultiplier 12
    RandomRotDir 1
    RandomAngle 1
-   Velocity 0.15
+   Velocity 0.1
    VelocityRND 0.08
    WindInfluence 0.3
    GravityMultiply 0
@@ -74,7 +72,8 @@ EffectDef {
    MaxNum 40
    BirthRate 16
    BirthRateRND 5
-   Offset 0 0.05 0
+   Offset 0 0.1 0
+   Angles 0 0.1 0
    LodMin 0
    LodMax 1
    Material "{38135A592D5D0004}Particles/_Materials/White_dots.emat"
