@@ -22,6 +22,35 @@ class SRZ_MutantTuning
 		return path.Contains(match);
 	}
 
+	static const string ZOMBIE = "/zombie/";
+	static const float ZOMBIE_DAMAGE_MULT = 0.7;
+	static const float ZOMBIE_SPEED_MULT = 0.8;
+
+	static const string BOAR = "/boar/";
+	static const string WOLF = "/wolf/";
+	static const float BOAR_SPEED_MULT = 1.15;
+	static const float WOLF_SPEED_MULT = 1.15;
+
+	static float GetDamageMult(IEntity mutant)
+	{
+		if (IsPrefab(mutant, ZOMBIE))
+			return ZOMBIE_DAMAGE_MULT;
+
+		return 1;
+	}
+
+	static float GetSpeedMult(IEntity mutant)
+	{
+		if (IsPrefab(mutant, ZOMBIE))
+			return ZOMBIE_SPEED_MULT;
+		if (IsPrefab(mutant, BOAR))
+			return BOAR_SPEED_MULT;
+		if (IsPrefab(mutant, WOLF))
+			return WOLF_SPEED_MULT;
+
+		return 1;
+	}
+
 	static float GetPool(IEntity mutant, float defaultHealth)
 	{
 		if (IsPrefab(mutant, NIGHTSTALKER))
@@ -42,8 +71,16 @@ class SRZ_MutantTuning
 // Mutants with a blood drain take that percent of max blood on every melee hit
 modded class ARMST_Monster_MeleeComponent
 {
+	protected bool m_bSRZ_DamageScaled;
+
 	override protected void HandleDamageDelayed()
 	{
+		if (!m_bSRZ_DamageScaled)
+		{
+			m_bSRZ_DamageScaled = true;
+			m_fMonsterDamage *= SRZ_MutantTuning.GetDamageMult(GetOwner());
+		}
+
 		IEntity target = m_MeleeHitData.m_Entity;
 		super.HandleDamageDelayed();
 
@@ -104,6 +141,15 @@ modded class Bacon_622120A5448725E3_InfectedCharacter
 
 	override void TryTrip()
 	{
+	}
+
+	override protected void DelayedInitServer()
+	{
+		super.DelayedInitServer();
+
+		float speed = SRZ_MutantTuning.GetSpeedMult(this);
+		if (speed != 1 && m_controller)
+			m_controller.OverrideMaxSpeed(speed);
 	}
 }
 
