@@ -1,3 +1,12 @@
 SCR_ChimeraCharacter : "{8DDBB59CB4278D08}Prefabs/Factions/BANDITS/Character_BANDIT_BaseLoadout.et" {
  ID "520EC961A090BE1E"
+ components {
+  ActionsManagerComponent "{520EA1D2F659CE02}" {
+   additionalActions {
+    SCR_LootDeadBodyAction "{529A9D939CD27B4C}" {
+     Duration 10
+    }
+   }
+  }
+ }
 }

@@ -100,6 +100,9 @@ SCR_ChimeraCharacter : "{5346CF7E39A65A6B}Prefabs/Characters/Factions/OPFOR/USSR
     }
     SCR_BandageUserAction "{5A26F8E460F2D5F7}" {
     }
+    SCR_LootDeadBodyAction "{529A9D939CD27B4C}" {
+     Duration 10
+    }
     ARMST_USER_LOOT_BODY "{689EFA9EB9253D8B}" {
      Duration 8
     }
