@@ -1,0 +1,94 @@
+SCR_ChimeraCharacter : "{4B5327088B058360}Prefabs/Factions/ARMY/Character_ARMY_BOT_BASE.et" {
+ ID "520EC961A090BE1E"
+ components {
+  SCR_CommunicationSoundComponent "{54FD05D0C92D071F}" {
+   Filenames {
+    "{1817440FEA23F43D}622120A5448725E3/Sounds/Infected/Infected_Voice_Version2.acp"
+   }
+  }
+  ARMST_DeathHandlerComponent "{65891AD99A8DE826}" {
+   Enabled 0
+  }
+  ARMST_PLAYER_STATS_COMPONENT "{6275149C8E6B70D6}" {
+   m_FactionKey FACTION_MUTANTS
+  }
+  ARMST_RANDOM_CLOTHES_NEW "{66426E44C6498633}" {
+   Enabled 1
+   m_fClearItems 0
+   m_JacketConfigs {
+    "{0B200D09F62BE611}Configs/Bots_equip/ARMY/army_jackets_light.conf"
+   }
+   m_ArmorConfigs {
+    "{D4ED32ADB02C6B77}Configs/Bots_equip/ARMY/army_armory_light.conf"
+   }
+   m_PantsConfigs {
+    "{4F5937CE96BAB517}Configs/Bots_equip/ARMY/army_pants_light.conf"
+   }
+   m_VestConfigs {
+    "{FD9905D24716973A}Configs/Bots_equip/vests_light.conf"
+   }
+   m_BackpackConfigs {
+    "{67A25909599417A8}Configs/Bots_equip/backpacks.conf"
+   }
+   m_WeaponConfigs {
+    "{664CDD33C0BC8762}Configs/Bots_equip/weapon_medium.conf"
+   }
+   m_minMagazines 5
+   m_maxMagazines 7
+  }
+  ChimeraAIControlComponent "{520EA1D2DB109F34}" {
+   components {
+    SCR_AICombatComponent "{55A2C9BE343B2EA1}" {
+     m_eAISkillDefault ROOKIE
+    }
+   }
+  }
+  EPF_PersistenceComponent "{5A12D8F4DFED6D84}" {
+   Enabled 0
+  }
+  FactionAffiliationComponent "{520EC9618276DF23}" {
+   "faction affiliation" "FACTION_MUTANTS"
+  }
+  SCR_CharacterDamageManagerComponent "{55872AD7B4E959F2}" {
+   "Additional hit zones" {
+    SCR_CharacterHealthHitZone Health {
+     MaxHealth 150
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Zombie Soldier"
+    m_sFaction "FACTION_MUTANTS"
+    m_aAuthoredLabels {
+     GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_MUTANTS CONTENT_MODDED
+    }
+    m_aAutoLabels {
+     ENTITYTYPE_OBJECT ENTITYTYPE_CHARACTER FACTION_MUTANTS ENTITYTYPE_OBJECT
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{670A21A19FC88155}" {
+      m_BudgetType AI
+      m_Value 1
+     }
+    }
+   }
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Override 1
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{B263DF1DC5185433}Prefabs/Characters/Heads/Head_hidden.et"
+     Body "{144C019FAAE0E7F1}Prefabs/Characters/Basebody/CharacterBasebody_hidden.et"
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Boots {
+     Prefab "{59CAB5D4D4C56F91}Prefabs/Suits/dead_head_1.et"
+    }
+   }
+  }
+ }
+}
