@@ -20,6 +20,34 @@ class SRZ_SavedItemGuard
 
 		Print(string.Format("[SRZ Save] saved item '%1' no longer exists, dropped it from '%2' so loading can carry on", saveData.m_rPrefab, where), LogLevel.WARNING);
 	}
+
+	static EPF_EApplyResult Soften(EPF_EApplyResult result, IEntity owner, string what)
+	{
+		if (result != EPF_EApplyResult.ERROR)
+			return result;
+
+		string where = "unknown";
+		if (owner)
+			where = EPF_Utils.GetPrefabName(owner);
+
+		Print(string.Format("[SRZ Save] %1 on '%2' failed to restore, skipped it so loading can carry on", what, where), LogLevel.WARNING);
+		return EPF_EApplyResult.OK;
+	}
+}
+
+modded class EPF_PersistenceComponent
+{
+	override bool Load(notnull EPF_EntitySaveData saveData, bool isRoot = true)
+	{
+		if (super.Load(saveData, isRoot))
+			return true;
+
+		if (isRoot || ChimeraCharacter.Cast(GetOwner()))
+			return false;
+
+		Print(string.Format("[SRZ Save] item '%1' only partly restored, kept it so its owner can still load", saveData.m_rPrefab), LogLevel.WARNING);
+		return true;
+	}
 }
 
 modded class EPF_BaseInventoryStorageComponentSaveData
@@ -39,7 +67,7 @@ modded class EPF_BaseInventoryStorageComponentSaveData
 			}
 		}
 
-		return super.ApplyTo(owner, component, attributes);
+		return SRZ_SavedItemGuard.Soften(super.ApplyTo(owner, component, attributes), owner, "storage");
 	}
 }
 
@@ -60,7 +88,7 @@ modded class EPF_SlotManagerComponentSaveData
 			}
 		}
 
-		return super.ApplyTo(owner, component, attributes);
+		return SRZ_SavedItemGuard.Soften(super.ApplyTo(owner, component, attributes), owner, "slot");
 	}
 }
 
@@ -74,7 +102,7 @@ modded class EPF_WeaponSlotComponentSaveData
 			return EPF_EApplyResult.OK;
 		}
 
-		return super.ApplyTo(owner, component, attributes);
+		return SRZ_SavedItemGuard.Soften(super.ApplyTo(owner, component, attributes), owner, "weapon slot");
 	}
 }
 
@@ -88,6 +116,35 @@ modded class EPF_BaseSlotComponentSaveData
 			return EPF_EApplyResult.OK;
 		}
 
-		return super.ApplyTo(owner, component, attributes);
+		return SRZ_SavedItemGuard.Soften(super.ApplyTo(owner, component, attributes), owner, "slot");
+	}
+}
+
+modded class EPF_CharacterControllerComponentSaveData
+{
+	protected bool m_bSRZ_GadgetDelayed;
+
+	protected override void OnGadgetInitDone(IEntity owner, SCR_GadgetManagerComponent gadgetMananger)
+	{
+		if (!m_bSRZ_GadgetDelayed)
+		{
+			m_bSRZ_GadgetDelayed = true;
+			GetGame().GetCallqueue().CallLater(OnGadgetInitDone, 1500, false, owner, gadgetMananger);
+			GetGame().GetCallqueue().CallLater(SRZ_GadgetGiveUp, 6000);
+			return;
+		}
+
+		if (!owner || !gadgetMananger || !m_pCharacterController)
+		{
+			SRZ_GadgetGiveUp();
+			return;
+		}
+
+		super.OnGadgetInitDone(owner, gadgetMananger);
+	}
+
+	protected void SRZ_GadgetGiveUp()
+	{
+		EPF_DeferredApplyResult.SetFinished(this, "CharacterControllerComponentSaveData::GadgetEquipped");
 	}
 }
