@@ -3,7 +3,7 @@ class SRZ_DeathGearRuin
 	static const float RUIN_CHANCE = 70;
 
 	protected static ref array<ref SRZ_DeathGearRuin> s_aWatchers = {};
-	protected static ref array<typename> s_aAreas = {LoadoutHeadCoverArea, ARMST_FaceArea, LoadoutJacketArea, LoadoutPantsArea, LoadoutArmoredVestSlotArea, LoadoutVestArea, LoadoutBootsArea, LoadoutHandwearSlotArea};
+	protected static ref array<typename> s_aAreas = {LoadoutHeadCoverArea, ARMST_FaceArea, ZEL_FaceArea, ZEL_HeadArea, LoadoutJacketArea, LoadoutPantsArea, LoadoutArmoredVestSlotArea, LoadoutVestArea, LoadoutBootsArea, LoadoutHandwearSlotArea};
 
 	protected IEntity m_Character;
 

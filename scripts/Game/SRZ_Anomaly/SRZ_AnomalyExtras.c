@@ -26,7 +26,7 @@ modded class ARMST_DamagingTriggerEntity
 
 	protected static const float SRZ_SLOW_HOLD_S = 1.5;
 	protected static ref array<typename> s_aSRZ_WearAreas = {LoadoutBootsArea, LoadoutPantsArea, LoadoutArmoredVestSlotArea};
-	protected static ref array<typename> s_aSRZ_AllAreas = {LoadoutHeadCoverArea, ARMST_FaceArea, LoadoutJacketArea, LoadoutPantsArea, LoadoutArmoredVestSlotArea, LoadoutVestArea, LoadoutBootsArea, LoadoutHandwearSlotArea};
+	protected static ref array<typename> s_aSRZ_AllAreas = {LoadoutHeadCoverArea, ARMST_FaceArea, ZEL_FaceArea, ZEL_HeadArea, LoadoutJacketArea, LoadoutPantsArea, LoadoutArmoredVestSlotArea, LoadoutVestArea, LoadoutBootsArea, LoadoutHandwearSlotArea};
 
 	protected float m_fSRZ_DisarmedUntil;
 	protected ref array<IEntity> m_aSRZ_WearWho = {};
