@@ -197567,6 +197567,11 @@ $grp SCR_DestructibleBuildingEntity : "{E8C14F26268A4D6D}Prefabs/Structures/Serv
   }
  }
  {
+  components {
+   SCR_DestructibleBuildingComponent "{5D7E937DA002536F}" {
+    Enabled 0
+   }
+  }
   coords 5738.71 0.848 2295.98
   angles 0 32.603 0
   {
