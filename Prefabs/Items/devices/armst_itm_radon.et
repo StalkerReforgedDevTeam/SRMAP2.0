@@ -1,3 +1,8 @@
 GameEntity : "{3A4927C454787B6B}Prefabs/Items/Equipment/Flashlights/Flashlight_base.et" {
  ID "56A4B11C0BE428DA"
+ components {
+  ARMST_DETECTOR_COMPONENTS "{663A6DAFBC179117}" {
+   m_Layout "{3875ACB6D6F1446B}UI/layouts/Detectors/RadonPlateNew.layout"
+  }
+ }
 }
