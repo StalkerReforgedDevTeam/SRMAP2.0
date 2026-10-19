@@ -1,0 +1,104 @@
+Bacon_622120A5448725E3_InfectedGroup : "{E15B91D284F1ED15}622120A5448725E3/Prefabs/Groups/Group_Zombies_Base.et" {
+ ID "62651601183F5AEE"
+ components {
+  SCR_AIGroupMovementComponent "{62651601183F5AB3}" {
+   "Min Speed" 2
+   "Max Speed" 4
+  }
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "Mixed Zombie Soldier Group"
+    Icon ""
+    m_Image ""
+    m_sFaction "FACTION_MUTANTS"
+    m_aAuthoredLabels {
+     ENTITYTYPE_GROUP FACTION_MUTANTS CONTENT_MODDED
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{62651601183F4249}" {
+      m_Value 0
+     }
+    }
+    m_EntityChildrenBudgetCost {
+     SCR_EntityBudgetValue "{670B426F43A47F05}" {
+      m_BudgetType AI
+      m_Value 3
+     }
+    }
+   }
+  }
+  SCR_PreviewEntityComponent "{626617B2D41D9DA3}" {
+   m_aEntries {
+    SCR_BasePreviewEntry "{670B426F43A47F24}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{670B426F43A47F27}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vPosition -1.5 0 -1.5
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{670B426F43A47ED9}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vPosition 1.5 0 -1.5
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{670B426F43A47EDA}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vPosition 0 0 -3
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{670B426F43A47EDB}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vPosition 3 0 -3
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{670B426F43A47EDC}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vPosition -3 0 -3
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{670B426F43A47EDD}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vPosition -1.5 0 -4.5
+     m_vAngles 0 0 0
+    }
+   }
+  }
+ }
+ coords 3930.071 306.553 841.632
+ m_faction "FACTION_MUTANTS"
+ m_aUnitPrefabSlots {
+  "{A23C68170A719C82}Prefabs/Factions/MUTANTS/Character_MUTANT_soldier_light_1.et" "{1D9F2D9F616E5CF4}Prefabs/Factions/MUTANTS/Character_MUTANT_soldier_medium_1.et" "{44149F05FA2F11BF}Prefabs/Monsters/Zombie/armst_monster_zombie_random.et" "{D77F7DAF37BD0FD3}Prefabs/Monsters/Zombie/armst_monster_zombie.et" "{D77F7DAF37BD0FD3}Prefabs/Monsters/Zombie/armst_monster_zombie.et" "{D77F7DAF37BD0FD3}Prefabs/Monsters/Zombie/armst_monster_zombie.et"
+ }
+ m_bSnapToTerrain 0
+}
