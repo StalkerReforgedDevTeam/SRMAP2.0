@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{BD6BF62B72C43D2C}Configs/Stalker_Ranks/LootConfigs/Master/MASTER1.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

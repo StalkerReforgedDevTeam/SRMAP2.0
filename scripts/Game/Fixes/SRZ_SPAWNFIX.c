@@ -49,12 +49,8 @@ modded class ARMST_BasicSpawnLogic: EPF_BasicSpawnLogic
             string bio = "";
             string head = "";
 			
-			SR_STALKER_RANK stalkerRank = statsComponent.SR_GetRank();
+			SR_STALKER_RANK stalkerRank = SR_ResolveRank(playerId, character);
 			ARMST_FACTION_LABEL faction = statsComponent.GetFactionKey();
-			
-			if(!stalkerRank) {
-				stalkerRank = SR_STALKER_RANK.ROOKIE;	
-			}
 			
 			if(!faction) {
             	faction = ARMST_FACTION_LABEL.FACTION_STALKER;
