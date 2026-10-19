@@ -27,6 +27,17 @@ modded class ARMST_PLAYER_STATS_COMPONENT : ScriptComponent
 		m_eSRCurrentRank = newRank;
 		Replication.BumpMe();
 		SR_OnRankChanged();
+
+		if (!Replication.IsServer())
+			return;
+
+		PlayerManager playerManager = GetGame().GetPlayerManager();
+		if (!playerManager)
+			return;
+
+		int playerId = playerManager.GetPlayerIdFromControlledEntity(GetOwner());
+		if (playerId > 0)
+			SRZ_RankStore.GetInstance().SetRank(playerId, newRank);
 	}
 
 	//------------------------------------------------------------------------------------------------
