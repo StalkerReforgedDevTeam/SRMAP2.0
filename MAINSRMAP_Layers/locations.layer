@@ -197589,6 +197589,43 @@ $grp SCR_DestructibleBuildingEntity : "{E8C14F26268A4D6D}Prefabs/Structures/Serv
       }
      }
     }
+    coords -1.611 0.04 -0.613
+   }
+   GenericEntity {
+    ID "587100F696B8908F"
+    {
+     GenericEntity {
+      ID "55649319921183B4"
+      components {
+       SRZ_DoorAccessComponent "{6AA6CC9D3020CB97}" {
+        m_sDoorId "anvil"
+        m_bLocked 1
+        m_aAllowedPlayers {
+         "ddcd22ee-5e44-4869-a781-047e0343020e"
+         "ed9879e9-66de-4730-b1a1-295cc358c76c"
+         "6cb2c4ba-76aa-4307-8a88-ef74008d74e0"
+         "74e9d4b1-5100-4001-99ac-acb8b93a19b8"
+         "ba811efc-d31e-40c8-b05b-bac42fa3923e"
+         "0eaf701d-365a-4b93-8ff1-a1b5e64e8fc"
+         "cf08c0aa-e997-433b-b7d4-050021c54bff"
+        }
+       }
+      }
+     }
+    }
+   }
+   GenericEntity {
+    ID "6978AE8BB3B4C740"
+    coords -1.192 0.013 -4.314
+   }
+   GenericEntity {
+    ID "6978AE8BB3B4C749"
+    coords -1.625 0.003 1.687
+   }
+   GenericEntity {
+    ID "6978AE8BB3B4C79D"
+    coords 5.112 0.909 3.3
+    angles 0 86.434 0
    }
   }
  }
