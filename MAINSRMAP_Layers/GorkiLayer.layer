@@ -1064,7 +1064,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   SphereRadius 70
   TriggerActivationType "Every query"
   UpdatePeriod 7
-  m_ObjectPrefab "{60D88B47635E7627}Prefabs/Anomals/Electro/ARMST_ELECTRO_T1.et"
+  m_ObjectPrefab "{F7182983E3890A96}Prefabs/Anomals/Vortex/SRZ_VORTEX.et"
   m_ObjectPrefab2 "{60D88B47635E7627}Prefabs/Anomals/Electro/ARMST_ELECTRO_T1.et"
   m_ObjectPrefab3 "{60D88B47635E7627}Prefabs/Anomals/Electro/ARMST_ELECTRO_T1.et"
   m_SpawnCount 7

@@ -6,7 +6,7 @@ GenericEntity KB_SPAWNER6 : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster
    m_CheckInterval 60
    m_CheckPlayerRadius 32
    m_RadiusPatrol 10
-   m_SpawnChance 36
+   m_SpawnChance 40
    m_RespawnDelayAfterDelete 1098
    m_SpawnGroups {
     "{864B9CDB604BC86F}Configs/GAME_SETTING/BOTS/ALIFE/alife_groups_stalker.conf"

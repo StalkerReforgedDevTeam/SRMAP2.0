@@ -32,7 +32,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   SphereRadius 77.9
   TriggerActivationType "Every query"
   UpdatePeriod 10
-  m_ObjectPrefab "{88A31E6AEF75DF99}Prefabs/Anomals/Gravy/ARMST_GRAVY_train.et"
+  m_ObjectPrefab "{F7182983E3890A96}Prefabs/Anomals/Vortex/SRZ_VORTEX.et"
   m_ObjectPrefab2 "{88A31E6AEF75DF99}Prefabs/Anomals/Gravy/ARMST_GRAVY_train.et"
   m_ObjectPrefab3 "{88A31E6AEF75DF99}Prefabs/Anomals/Gravy/ARMST_GRAVY_train.et"
   m_MinDistanceBetweenAnomalies 14
@@ -46,7 +46,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   SphereRadius 77.9
   TriggerActivationType "Every query"
   UpdatePeriod 10
-  m_ObjectPrefab "{88A31E6AEF75DF99}Prefabs/Anomals/Gravy/ARMST_GRAVY_train.et"
+  m_ObjectPrefab "{F7182983E3890A96}Prefabs/Anomals/Vortex/SRZ_VORTEX.et"
   m_ObjectPrefab2 "{88A31E6AEF75DF99}Prefabs/Anomals/Gravy/ARMST_GRAVY_train.et"
   m_ObjectPrefab3 "{88A31E6AEF75DF99}Prefabs/Anomals/Gravy/ARMST_GRAVY_train.et"
   m_MinDistanceBetweenAnomalies 14
@@ -60,7 +60,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   SphereRadius 77.9
   TriggerActivationType "Every query"
   UpdatePeriod 10
-  m_ObjectPrefab "{88A31E6AEF75DF99}Prefabs/Anomals/Gravy/ARMST_GRAVY_train.et"
+  m_ObjectPrefab "{642A15101599EB63}Prefabs/Anomals/Puziriks/ARMST_JARKA_PUZIRIKS.et"
   m_ObjectPrefab2 "{88A31E6AEF75DF99}Prefabs/Anomals/Gravy/ARMST_GRAVY_train.et"
   m_ObjectPrefab3 "{88A31E6AEF75DF99}Prefabs/Anomals/Gravy/ARMST_GRAVY_train.et"
   m_MinDistanceBetweenAnomalies 14
