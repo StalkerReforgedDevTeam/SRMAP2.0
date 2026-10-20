@@ -605,6 +605,56 @@ $grp GenericEntity {
  }
  armst_itm_key_gorkiy12_tonnel_667A834446647455 {
  }
+ {
+  components {
+   MeshObject "{6AA80A0204A7704E}" {
+    Object "{4BDB9D733EF7191F}Assets/Structures/Military/Houses/Barracks_E_03/BuildingAddons/Win_Bars_Soviet_170x182_01.xob"
+   }
+  }
+  coords 4640.503 310.214 982.6
+  angles 0 94.779 0
+  scale 0.9
+ }
+ {
+  components {
+   MeshObject "{6AA80A0204A7704E}" {
+    Object "{4BDB9D733EF7191F}Assets/Structures/Military/Houses/Barracks_E_03/BuildingAddons/Win_Bars_Soviet_170x182_01.xob"
+   }
+  }
+  coords 4638.483 310.15 985.236
+  angles 0 4.779 0
+  scale 0.9
+ }
+ {
+  components {
+   MeshObject "{6AA80A0204A7704E}" {
+    Object "{4BDB9D733EF7191F}Assets/Structures/Military/Houses/Barracks_E_03/BuildingAddons/Win_Bars_Soviet_170x182_01.xob"
+   }
+  }
+  coords 4636.08 310.15 985.437
+  angles 0 4.779 0
+  scale 0.9
+ }
+ {
+  components {
+   MeshObject "{6AA80A0135CC32D9}" {
+    Object "{1F3C09DCC07AC07E}Assets/Structures/BuildingsParts/Windows/Win_Bars_A_130x182_B.xob"
+   }
+  }
+  coords 5743.494 313.286 2289.876
+  angles 0 -57.397 0
+  scale 0.9
+ }
+ {
+  components {
+   MeshObject "{6AA80A0135CC32D9}" {
+    Object "{1F3C09DCC07AC07E}Assets/Structures/BuildingsParts/Windows/Win_Bars_A_130x182_B.xob"
+   }
+  }
+  coords 5744.307 313.286 2291.146
+  angles 0 -57.397 0
+  scale 0.9
+ }
 }
 SCR_DestructibleBuildingEntity {
  coords 1546.053 0.392 1641.96
@@ -52509,6 +52559,29 @@ $grp SCR_DestructibleBuildingEntity : "{3951BF8EC29C556D}PrefabLibrary/DefaultLi
   }
   coords 4615.025 1.373 978.713
   angles 0 94.779 0
+  {
+   GenericEntity {
+    ID "558EB7C12D21893A"
+    {
+     GenericEntity {
+      ID "55649319921183B4"
+      components {
+       SRZ_DoorAccessComponent "{6AA80A03D8B47AAD}" {
+        m_sDoorId "mara"
+        m_aAllowedPlayers {
+         "4110a777-f64a-4fd7-9ff3-2fe19c05aff3"
+         "731bb696-cc87-4200-bd29-7762bbb118c6"
+         "6a298293-dc3c-4ed6-b191-9f619921824d"
+         "2c958816-f1a9-4579-80a6-5c49f1c8cadf"
+         "7e3582b1-6340-40d2-bd1e-fdc0515edbce"
+         "9bf847f3-24c2-4947-ad37-16fd76ad8b88"
+        }
+       }
+      }
+     }
+    }
+   }
+  }
  }
 }
 $grp SCR_DestructibleEntity : "{3959F534B9C165EA}Prefabs/Structures/Walls/Wooden/WoodenWall_02/WoodenWall_02_4m_B_green.et" {
@@ -130026,7 +130099,7 @@ $grp GenericEntity : "{8D9D91FDDF0055F3}Prefabs/deads/skeleton/dead_skeleton_hea
   angles 0 -108.374 0
  }
  {
-  coords 4634.977 309.423 980.948
+  coords 4635.117 309.423 980.98
   angles 0 -103.01 0
  }
  {
