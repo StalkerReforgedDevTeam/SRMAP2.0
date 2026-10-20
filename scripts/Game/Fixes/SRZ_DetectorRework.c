@@ -1,19 +1,28 @@
 // Artifact detectors: the use button turns them on/off. While on they drain battery (server side) and scan
-// on their own while held in your hands. Beeps/lights speed up as you get closer, and revealing an artifact
-// gives a flash, a sound and a hint. Dead battery = detector switches off.
+// on their own while held in your hands. A steady light shows it's on, beeps/lights speed up as you get closer,
+// and revealing an artifact gives a flash, a sound and a hint. Dead battery = detector switches off.
 
 modded class ARMST_DETECTOR_ARTS_COMPONENTS
 {
 	protected static const ResourceName SRZ_REVEAL_FX = "{A1292362DBE60921}Prefabs/Anomals/anom_base/anomal_bolt_actions.ptc";
 	protected static const float SRZ_IDLE_TICK_MS = 1000;
 	protected static const float SRZ_DRAIN_TICK_MS = 10000;
+	// Battery drain is a quarter of the prefab's m_BatteryDescrease
+	protected static const float SRZ_DRAIN_SCALE = 0.25;
 
 	[RplProp()]
 	protected bool m_bSRZ_On;
 
 	protected bool m_bSRZ_LocalOn;
 	protected float m_fSRZ_LastToggle = -10;
-	protected static const float SRZ_TOGGLE_GAP_S = 0.4;
+	protected static const float SRZ_TOGGLE_GAP_S = 0.75;
+	protected bool m_bSRZ_Idle;
+
+	// Voron radar dot
+	protected ImageWidget m_wSRZ_RadarDot;
+	protected Widget m_wSRZ_RadarParent;
+	protected bool m_bSRZ_RadarBlink;
+	protected static const float SRZ_RADAR_DOT_SIZE = 14;
 
 	protected bool m_bSRZ_Tracking;
 	protected IEntity m_SRZ_Announced;
@@ -35,6 +44,7 @@ modded class ARMST_DETECTOR_ARTS_COMPONENTS
 		GetGame().GetCallqueue().Remove(SRZ_Tick);
 		GetGame().GetCallqueue().Remove(SRZ_DrainTick);
 		GetGame().GetCallqueue().Remove(SRZ_FlashStep);
+		GetGame().GetCallqueue().Remove(DisableMuhaLight2);
 		super.OnDelete(owner);
 	}
 
@@ -88,7 +98,12 @@ modded class ARMST_DETECTOR_ARTS_COMPONENTS
 
 		string state = "Detector off.";
 		if (turningOn)
+		{
 			state = "Detector on.";
+			SCR_SoundManagerModule soundManager = SCR_SoundManagerModule.GetInstance(GetOwner().GetWorld());
+			if (soundManager)
+				soundManager.CreateAndPlayAudioSource(GetOwner(), SCR_SoundEvent.DETECTOR_ART_LEVEL_ANALIS_FOUNDED);
+		}
 		SRZ_Notify(state);
 
 		SCR_PlayerController controller = SCR_PlayerController.Cast(GetGame().GetPlayerController());
@@ -140,7 +155,7 @@ modded class ARMST_DETECTOR_ARTS_COMPONENTS
 			return;
 		}
 
-		stats.DecreaseCondition(m_BatteryDescrease * SRZ_DRAIN_TICK_MS / 60000);
+		stats.DecreaseCondition(m_BatteryDescrease * SRZ_DRAIN_SCALE * SRZ_DRAIN_TICK_MS / 60000);
 		if (stats.GetConditionLevel() <= 0)
 			SRZ_ServerSetOn(false);
 	}
@@ -163,14 +178,28 @@ modded class ARMST_DETECTOR_ARTS_COMPONENTS
 	{
 		float delay = SRZ_IDLE_TICK_MS;
 
-		if (SRZ_IsActive() && SRZ_FindNearest())
+		if (SRZ_IsActive())
 		{
-			SRZ_Feedback(m_SRZ_Nearest, m_fSRZ_NearestDist);
-			delay = Math.Clamp(m_fSRZ_NearestDist * 90, 150, 1200);
+			if (SRZ_FindNearest())
+			{
+				m_bSRZ_Idle = false;
+				SRZ_Feedback(m_SRZ_Nearest, m_fSRZ_NearestDist);
+				delay = Math.Clamp(m_fSRZ_NearestDist * 90, 150, 1200);
+			}
+			else
+			{
+				if (m_bSRZ_Tracking)
+					SRZ_StopTracking();
+
+				SRZ_ShowIdle();
+			}
 		}
-		else if (m_bSRZ_Tracking)
+		else
 		{
-			SRZ_StopTracking();
+			if (m_bSRZ_Tracking)
+				SRZ_StopTracking();
+
+			SRZ_HideIdle();
 		}
 
 		GetGame().GetCallqueue().CallLater(SRZ_Tick, delay, false);
@@ -180,6 +209,9 @@ modded class ARMST_DETECTOR_ARTS_COMPONENTS
 	{
 		if (!m_bSRZ_LocalOn || SRZ_BatteryDead() || GetMode() != EGadgetMode.IN_HAND)
 			return false;
+
+		if (m_DetectorType != ARMST_DETECTOR.DETECTOR_VORON && GetOwner().GetPrefabData() && GetOwner().GetPrefabData().GetPrefabName().Contains("voron"))
+			Print(string.Format("[SRZ Detector] Voron prefab has detector type %1", typename.EnumToString(ARMST_DETECTOR, m_DetectorType)), LogLevel.WARNING);
 
 		IEntity player = GetGame().GetPlayerManager().GetPlayerControlledEntity(SCR_PlayerController.GetLocalPlayerId());
 		return player && GetOwner().GetRootParent() == player && IsPlayerAlive();
@@ -242,7 +274,7 @@ modded class ARMST_DETECTOR_ARTS_COMPONENTS
 		{
 			case ARMST_DETECTOR.DETECTOR_MUHA:   UpdateMuhaFeedback(feedDistance, comp); break;
 			case ARMST_DETECTOR.DETECTOR_OLIMP:  UpdateOlimpFeedback(feedDistance, comp); break;
-			case ARMST_DETECTOR.DETECTOR_VORON:  UpdateVoronFeedback(feedDistance, comp); break;
+			case ARMST_DETECTOR.DETECTOR_VORON:  UpdateVoronFeedback(feedDistance, comp); SRZ_UpdateRadar(artifact, distance); break;
 			case ARMST_DETECTOR.DETECTOR_DIATEL: UpdateDiatelFeedback(feedDistance, comp); break;
 		}
 
@@ -258,6 +290,99 @@ modded class ARMST_DETECTOR_ARTS_COMPONENTS
 			}
 			SRZ_OnReveal(artifact);
 		}
+	}
+
+	// Blinking dot on the Voron screen: up is the way the detector faces, the outer ring is max range
+	protected void SRZ_UpdateRadar(IEntity artifact, float distance)
+	{
+		if (!artifact || !m_wVoronRing_40m)
+		{
+			Print(string.Format("[SRZ Detector] Radar skipped: artifact %1, ring40 %2", artifact, m_wVoronRing_40m), LogLevel.WARNING);
+			return;
+		}
+
+		if (!m_wSRZ_RadarDot || m_wSRZ_RadarParent != m_wVoronRing_40m)
+		{
+			Widget dot = GetGame().GetWorkspace().CreateWidget(WidgetType.ImageWidgetTypeID, WidgetFlags.VISIBLE | WidgetFlags.BLEND | WidgetFlags.STRETCH, Color.FromInt(ARGB(255, 0, 255, 0)), 100, m_wVoronRing_40m);
+			m_wSRZ_RadarDot = ImageWidget.Cast(dot);
+			m_wSRZ_RadarParent = m_wVoronRing_40m;
+			Print(string.Format("[SRZ Detector] Radar dot created: %1, ring size %2 x %3", m_wSRZ_RadarDot, FrameSlot.GetSizeX(m_wVoronRing_40m), FrameSlot.GetSizeY(m_wVoronRing_40m)), LogLevel.WARNING);
+			if (!m_wSRZ_RadarDot)
+				return;
+		}
+
+		float ringW = FrameSlot.GetSizeX(m_wVoronRing_40m);
+		float ringH = FrameSlot.GetSizeY(m_wVoronRing_40m);
+		if (ringW <= 0 || ringH <= 0)
+			m_wVoronRing_40m.GetScreenSize(ringW, ringH);
+
+		IEntity player = GetGame().GetPlayerManager().GetPlayerControlledEntity(SCR_PlayerController.GetLocalPlayerId());
+		if (!player)
+			return;
+
+		vector toArtifact = artifact.GetOrigin() - player.GetOrigin();
+		toArtifact[1] = 0;
+		float relative = (toArtifact.ToYaw() - GetOwner().GetYawPitchRoll()[0]) * Math.DEG2RAD;
+
+		float range = m_fDistance_Find_Art;
+		if (range <= 0)
+			range = 40;
+
+		float scale = Math.Clamp(distance / range, 0, 1);
+		float x = ringW * 0.5 + Math.Sin(relative) * scale * ringW * 0.5;
+		float y = ringH * 0.5 - Math.Cos(relative) * scale * ringH * 0.5;
+
+		FrameSlot.SetSize(m_wSRZ_RadarDot, SRZ_RADAR_DOT_SIZE, SRZ_RADAR_DOT_SIZE);
+		FrameSlot.SetPos(m_wSRZ_RadarDot, x - SRZ_RADAR_DOT_SIZE * 0.5, y - SRZ_RADAR_DOT_SIZE * 0.5);
+
+		m_bSRZ_RadarBlink = !m_bSRZ_RadarBlink;
+		m_wSRZ_RadarDot.SetColorInt(ARGB(255, 255, 40, 40));
+		m_wSRZ_RadarDot.SetVisible(m_bSRZ_RadarBlink || distance < m_fDistance_Founded * 3);
+	}
+
+	protected void SRZ_HideRadar()
+	{
+		if (m_wSRZ_RadarDot && m_wSRZ_RadarParent == m_wVoronRing_40m)
+			m_wSRZ_RadarDot.SetVisible(false);
+	}
+
+	// Steady light while on with nothing in range, so players can tell it's on
+	protected void SRZ_ShowIdle()
+	{
+		if (m_bSRZ_Idle)
+			return;
+
+		m_bSRZ_Idle = true;
+
+		if (m_RemappingString.Length() > 4000)
+			m_RemappingString = "";
+
+		if (m_DetectorType == ARMST_DETECTOR.DETECTOR_DIATEL)
+		{
+			SetDiatelLedState(2, true, m_Diatel_Led_On_Green);
+			return;
+		}
+
+		EnableVisualFeedback();
+
+		// Voron's screen is dark with no signal, so light the LED and the outer ring
+		if (m_DetectorType == ARMST_DETECTOR.DETECTOR_VORON)
+		{
+			Print(string.Format("[SRZ Detector] Voron idle: root %1, rt %2, ring40 %3, led %4", m_wVoronRoot, m_wVoronRTTexture, m_wVoronRing_40m, m_wVoronLed), LogLevel.WARNING);
+			if (m_wVoronLed)
+				m_wVoronLed.SetColorInt(ARGB(255, 0, 255, 0));
+			if (m_wVoronRing_40m)
+				m_wVoronRing_40m.SetColorInt(ARGB(255, 0, 255, 0));
+		}
+	}
+
+	protected void SRZ_HideIdle()
+	{
+		if (!m_bSRZ_Idle)
+			return;
+
+		m_bSRZ_Idle = false;
+		DisableVisualFeedback();
 	}
 
 	// Rapid blink of the detector's own lights/screen when something is found
@@ -339,6 +464,7 @@ modded class ARMST_DETECTOR_ARTS_COMPONENTS
 
 	protected void SRZ_StopTracking()
 	{
+		SRZ_HideRadar();
 		m_bSRZ_Tracking = false;
 		m_SRZ_Announced = null;
 		m_bIsScanning = false;
@@ -375,9 +501,15 @@ modded class SCR_PlayerController
 			return;
 
 		// Only the player carrying it can switch it
-		IEntity player = GetMainEntity();
+		IEntity player = GetControlledEntity();
+		if (!player)
+			player = GetMainEntity();
+
 		if (!player || detector.GetRootParent() != player)
+		{
+			Print(string.Format("[SRZ Detector] Power request refused for %1, carrier %2, player %3", detector, detector.GetRootParent(), player), LogLevel.WARNING);
 			return;
+		}
 
 		SRZ_ApplyDetectorPower(detector, on);
 	}

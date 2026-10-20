@@ -1,0 +1,27 @@
+GenericEntity : "{94CE3523A428A51B}Prefabs/LOOT_BOX/base/army/Loot_army_box_weapons2.et" {
+ ID "D0686795494EB9BD"
+ components {
+  SRZ_LockComponent "{E9035B2515F8654D}" {
+   m_aKeys {
+    "{DC75D72FF91D9D0A}Prefabs/Items/Keys/keycard2.et"
+   }
+   m_bConsumeKey 1
+  }
+  ActionsManagerComponent "{6190D137C5926215}" {
+   additionalActions {
+    ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+     m_bRespawnToggle 0
+    }
+    SRZ_UnlockAction "{987C52FA8FA46991}" {
+     ParentContextList {
+      "Default"
+     }
+     UIInfo UIInfo "{826CD66406729569}" {
+      Name "Unlock"
+     }
+     Duration 1
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,33 @@
+GenericEntity : "{0CA0F15A651DB0F7}Prefabs/LOOT_BOX/base/army/Loot_army_box_weapons.et" {
+ ID "16C647EAC8D544A6"
+ components {
+  SRZ_LockComponent "{8EB3CEF2D4577335}" {
+   m_aKeys {
+    "{0B425BB15A2AA451}Prefabs/Items/Keys/armst_itm_key_techincal.et"
+   }
+   m_bAllowLockpick 1
+  }
+  ActionsManagerComponent "{6190D137C5926215}" {
+   additionalActions {
+    SRZ_PickLockAction "{8BC3FBB6F88DF30A}" {
+     ParentContextList {
+      "Default"
+     }
+     UIInfo UIInfo "{7BB5996EA1397D60}" {
+      Name "Pick lock"
+     }
+     Duration 15
+    }
+    SRZ_UnlockAction "{784E9210B535C055}" {
+     ParentContextList {
+      "Default"
+     }
+     UIInfo UIInfo "{A71302D1AD8BF4A9}" {
+      Name "Unlock"
+     }
+     Duration 1
+    }
+   }
+  }
+ }
+}
