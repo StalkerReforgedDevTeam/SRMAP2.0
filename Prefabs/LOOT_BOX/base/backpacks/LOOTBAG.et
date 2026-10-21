@@ -3,8 +3,20 @@ GenericEntity : "{BC78C382910BABBF}Prefabs/LOOT_BOX/base/backpacks/Loot_random_b
  components {
   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
    m_LootCategories {
-    "KEYS" "AMMOS" "ATTACHMENT" "GASMASKS" "FOODS" "MEDICINES" "TOOLS" "ELECTRONICS" "DOCUMENTS" "OTHERS"
+    "WEAPONS" "MEDICINES" "MONEYS"
    }
+   m_Category_CUSTOM "SRZ_STASH"
+  }
+  ActionsManagerComponent "{6190D137C5926215}" {
+   additionalActions {
+    ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+     m_iMaxItemsToSpawn 3
+     m_iMinItemsToSpawn 1
+    }
+   }
+  }
+  SRZ_FixedLootComponent "{5E1F0A9C3B7D2E41}" {
+   m_sTable "{6FF771B1D74E16F8}Configs/SRZ_Loot/SRZ_Loot_Stash.conf"
   }
   MeshObject "{5872F0EB7FA40561}" {
    Object "{F651B4830A784732}Assets/Props/S2/S2_Backpack/S2_Backpack.xob"

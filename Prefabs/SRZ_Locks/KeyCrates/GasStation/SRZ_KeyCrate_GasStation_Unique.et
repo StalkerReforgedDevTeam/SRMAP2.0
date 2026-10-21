@@ -1,0 +1,8 @@
+GenericEntity : "{88A820F21D682836}Prefabs/SRZ_Locks/KeyCrates/SRZ_KeyCrate_GasStation.et" {
+ ID "9C06E92DC0ED167A"
+ components {
+  SRZ_FixedLootComponent "{5E1F0A9C3B7D2E41}" {
+   m_sTable "{4BFA86782BFA16EC}Configs/SRZ_Loot/SRZ_Loot_KC_Unique.conf"
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{4BFA86782BFA16EC}Configs/SRZ_Loot/SRZ_Loot_KC_Unique.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

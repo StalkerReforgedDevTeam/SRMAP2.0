@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{79B91C32645C67A2}Prefabs/SRZ_Locks/KeyCrates/Polygon/SRZ_KeyCrate_Polygon_Medical_T2.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -159,7 +159,8 @@ modded class EPF_ARMST_ITEMS_STATS_COMPONENTS_SaveData
 
 modded class SCR_PlayerController
 {
-	// Server side sell: never take broken gear, and don't delete anything unless the full amount is available
+	// Server side sell: never take broken gear or anything worn/equipped (watches and binos showed up twice and
+	// got deleted twice, which froze the server), and don't delete anything unless the full amount is available
 	override void ArmstTraderSell(IEntity m_User, ResourceName m_PrefabTrader, int sellCount, float totalRevenue)
 	{
 		if (!Replication.IsServer() || !m_User)
@@ -179,10 +180,13 @@ modded class SCR_PlayerController
 			if (sellable.Count() >= sellCount)
 				break;
 
-			if (!item || !item.GetPrefabData() || item.GetPrefabData().GetPrefabName() != m_PrefabTrader)
+			if (!item || sellable.Contains(item))
 				continue;
 
-			if (SRZ_BrokenGear.IsBlocked(item))
+			if (!item.GetPrefabData() || item.GetPrefabData().GetPrefabName() != m_PrefabTrader)
+				continue;
+
+			if (SRZ_BrokenGear.IsBlocked(item) || SRZ_IsEquippedOn(m_User, item))
 				continue;
 
 			sellable.Insert(item);
@@ -195,7 +199,10 @@ modded class SCR_PlayerController
 		}
 
 		foreach (IEntity item : sellable)
-			SCR_EntityHelper.DeleteEntityAndChildren(item);
+		{
+			if (item)
+				SCR_EntityHelper.DeleteEntityAndChildren(item);
+		}
 
 		ARMST_PLAYER_STATS_COMPONENT currencyComp = ARMST_PLAYER_STATS_COMPONENT.Cast(m_User.FindComponent(ARMST_PLAYER_STATS_COMPONENT));
 		if (currencyComp)
@@ -205,6 +212,20 @@ modded class SCR_PlayerController
 		int playerId = GetGame().GetPlayerManager().GetPlayerIdFromControlledEntity(m_User);
 		string playerName = SCR_PlayerNamesFilterCache.GetInstance().GetPlayerDisplayName(playerId);
 		ARMST_SellerLogger.LogSeller(playerGuid, playerName, m_PrefabTrader, sellCount, totalRevenue);
+	}
+
+	// Worn or equipped directly on the character (clothes, gadget slots, weapon slots), not in a bag or pocket
+	protected bool SRZ_IsEquippedOn(IEntity user, IEntity item)
+	{
+		InventoryItemComponent itemComp = InventoryItemComponent.Cast(item.FindComponent(InventoryItemComponent));
+		if (!itemComp)
+			return false;
+
+		InventoryStorageSlot slot = itemComp.GetParentSlot();
+		if (!slot || !slot.GetStorage())
+			return false;
+
+		return slot.GetStorage().GetOwner() == user;
 	}
 
 	// Server side repair: pick a copy of the item that isn't broken, otherwise refuse without using the kit (kit handling matches ARMST)

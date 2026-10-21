@@ -1,0 +1,13 @@
+GenericEntity : "{436D2A6387FDE4B1}Prefabs/SRZ_Locks/KeyCrates/SRZ_KeyCrate_RadarStation.et" {
+ ID "7C119DA5CFE24DE1"
+ components {
+  ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+   m_LootTiersSpawn {
+    "TIER_3"
+   }
+  }
+  SRZ_FixedLootComponent "{5E1F0A9C3B7D2E41}" {
+   m_sTable "{1CD5B01E0E04329A}Configs/SRZ_Loot/SRZ_Loot_KC_Gear.conf"
+  }
+ }
+}

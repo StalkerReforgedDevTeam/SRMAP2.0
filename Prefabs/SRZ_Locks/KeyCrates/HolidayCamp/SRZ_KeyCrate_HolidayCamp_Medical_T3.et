@@ -1,0 +1,13 @@
+GenericEntity : "{EE43A3D990845A49}Prefabs/SRZ_Locks/KeyCrates/SRZ_KeyCrate_HolidayCamp.et" {
+ ID "3BDAB2B8C69E6C95"
+ components {
+  ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+   m_LootTiersSpawn {
+    "TIER_3"
+   }
+  }
+  SRZ_FixedLootComponent "{5E1F0A9C3B7D2E41}" {
+   m_sTable "{15953ACF7F7CE4CC}Configs/SRZ_Loot/SRZ_Loot_KC_Medical.conf"
+  }
+ }
+}

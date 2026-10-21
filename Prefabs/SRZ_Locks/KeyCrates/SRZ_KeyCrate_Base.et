@@ -1,0 +1,38 @@
+GenericEntity : "{94CE3523A428A51B}Prefabs/LOOT_BOX/base/army/Loot_army_box_weapons2.et" {
+ ID "D0686795494EB9BD"
+ components {
+  ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+   m_LootCategories {
+    "NONE"
+   }
+   m_Category_CUSTOM "SRZ_KEYCRATE"
+   m_LootTiersSpawn {
+    "TIER_3"
+   }
+  }
+  SRZ_FixedLootComponent "{5E1F0A9C3B7D2E41}" {
+   m_sTable "{FE4D4949FE535288}Configs/SRZ_Loot/SRZ_Loot_KC_Weapons.conf"
+  }
+  SRZ_LockComponent "{E9035B2515F8654D}" {
+   m_bConsumeKey 1
+  }
+  ActionsManagerComponent "{6190D137C5926215}" {
+   additionalActions {
+    ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
+     m_bRespawnToggle 0
+     m_iMaxItemsToSpawn 4
+     m_iMinItemsToSpawn 2
+    }
+    SRZ_UnlockAction "{987C52FA8FA46991}" {
+     ParentContextList {
+      "Default"
+     }
+     UIInfo UIInfo "{826CD66406729569}" {
+      Name "Unlock"
+     }
+     Duration 1
+    }
+   }
+  }
+ }
+}

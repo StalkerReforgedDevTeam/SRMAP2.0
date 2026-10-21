@@ -1,0 +1,10 @@
+GenericEntity : "{7E344A28351EC131}Prefabs/SRZ_Locks/KeyCrates/SRZ_KeyCrate_Base.et" {
+ ID "92E8C34919FC8540"
+ components {
+  SRZ_LockComponent "{E9035B2515F8654D}" {
+   m_aKeys {
+    "{4E832F0DCE910601}Prefabs/Items/Keys/POI/SRZ_Key_Quarry.et"
+   }
+  }
+ }
+}

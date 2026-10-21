@@ -15,8 +15,32 @@ class SRZ_LockComponent : ScriptComponent
 	[Attribute("0", UIWidgets.CheckBox, "Can be opened with a lockpick")]
 	protected bool m_bAllowLockpick;
 
-	[RplProp()]
+	[RplProp(onRplName: "OnUnlockedRpl")]
 	protected bool m_bUnlocked;
+
+	static const ResourceName OPEN_SOUND = "{2E3DFF1F19AE3C36}Sounds/SRZ/Lockpick/SRZ_LockpickOpen.acp";
+
+	protected int m_iInitTick;
+
+	//------------------------------------------------------------------------------------------------
+	override void OnPostInit(IEntity owner)
+	{
+		m_iInitTick = System.GetTickCount();
+	}
+
+	//------------------------------------------------------------------------------------------------
+	// Skips the first seconds so players joining late don't hear every open crate
+	protected void OnUnlockedRpl()
+	{
+		if (m_bUnlocked && System.GetTickCount() - m_iInitTick > 5000)
+			PlayOpenSound();
+	}
+
+	//------------------------------------------------------------------------------------------------
+	protected void PlayOpenSound()
+	{
+		SRZ_FXRange.Sound(OPEN_SOUND, "SOUND_SRZ_LOCKPICK_OPEN", GetOwner().GetOrigin(), 50);
+	}
 
 	//------------------------------------------------------------------------------------------------
 	static SRZ_LockComponent Get(IEntity ent)
@@ -135,6 +159,7 @@ class SRZ_LockComponent : ScriptComponent
 	{
 		m_bUnlocked = true;
 		Replication.BumpMe();
+		PlayOpenSound();
 	}
 }
 

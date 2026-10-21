@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{1CD5B01E0E04329A}Configs/SRZ_Loot/SRZ_Loot_KC_Gear.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

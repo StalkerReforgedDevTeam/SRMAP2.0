@@ -1,0 +1,10 @@
+GenericEntity : "{7E344A28351EC131}Prefabs/SRZ_Locks/KeyCrates/SRZ_KeyCrate_Base.et" {
+ ID "7070C878DD006F3F"
+ components {
+  SRZ_LockComponent "{E9035B2515F8654D}" {
+   m_aKeys {
+    "{0F15F9D375D14675}Prefabs/Items/Keys/POI/SRZ_Key_HolidayCamp.et"
+   }
+  }
+ }
+}

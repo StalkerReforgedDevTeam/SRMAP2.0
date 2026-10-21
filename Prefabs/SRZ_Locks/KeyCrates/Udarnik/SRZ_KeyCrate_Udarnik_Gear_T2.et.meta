@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{B5EDD41D548E7497}Prefabs/SRZ_Locks/KeyCrates/Udarnik/SRZ_KeyCrate_Udarnik_Gear_T2.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

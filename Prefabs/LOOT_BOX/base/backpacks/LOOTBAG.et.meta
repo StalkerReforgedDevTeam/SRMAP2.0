@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/Loot_random_chest.et"
+ Name "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
@@ -12,6 +12,8 @@ MetaFileClass {
   EntityTemplateResourceClass PS5 : PC {
   }
   EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
   }
  }
 }

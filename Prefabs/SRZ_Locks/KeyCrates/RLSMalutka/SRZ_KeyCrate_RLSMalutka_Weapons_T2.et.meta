@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{CE3029D9C1E76C50}Prefabs/SRZ_Locks/KeyCrates/RLSMalutka/SRZ_KeyCrate_RLSMalutka_Weapons_T2.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

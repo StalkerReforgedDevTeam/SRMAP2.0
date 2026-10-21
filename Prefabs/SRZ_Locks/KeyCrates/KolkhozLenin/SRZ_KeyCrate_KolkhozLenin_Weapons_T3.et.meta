@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{338EC00C1B5BC2A7}Prefabs/SRZ_Locks/KeyCrates/KolkhozLenin/SRZ_KeyCrate_KolkhozLenin_Weapons_T3.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{6EA64BB1CFF5D2B0}Configs/SRZ_Loot/Pools/SRZ_Pool_Location_Keys.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}
