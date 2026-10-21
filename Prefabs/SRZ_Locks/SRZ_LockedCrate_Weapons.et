@@ -1,6 +1,14 @@
 GenericEntity : "{0CA0F15A651DB0F7}Prefabs/LOOT_BOX/base/army/Loot_army_box_weapons.et" {
  ID "16C647EAC8D544A6"
  components {
+  ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+   m_LootCategories {
+    "WEAPONS" "AMMOS" "ATTACHMENT" "ARMORS" "GASMASKS" "EQUIPMENTS" "MEDICINES"
+   }
+   m_LootTiersSpawn {
+    "TIER_3"
+   }
+  }
   SRZ_LockComponent "{8EB3CEF2D4577335}" {
    m_aKeys {
     "{0B425BB15A2AA451}Prefabs/Items/Keys/armst_itm_key_techincal.et"

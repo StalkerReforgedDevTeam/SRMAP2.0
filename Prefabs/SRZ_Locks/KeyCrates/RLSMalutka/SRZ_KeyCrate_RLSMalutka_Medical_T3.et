@@ -1,0 +1,13 @@
+GenericEntity : "{4DBC556B4E8B15E5}Prefabs/SRZ_Locks/KeyCrates/SRZ_KeyCrate_RLSMalutka.et" {
+ ID "9952522ED18321CB"
+ components {
+  ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+   m_LootTiersSpawn {
+    "TIER_3"
+   }
+  }
+  SRZ_FixedLootComponent "{5E1F0A9C3B7D2E41}" {
+   m_sTable "{15953ACF7F7CE4CC}Configs/SRZ_Loot/SRZ_Loot_KC_Medical.conf"
+  }
+ }
+}

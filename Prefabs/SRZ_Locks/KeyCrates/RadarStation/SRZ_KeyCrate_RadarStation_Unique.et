@@ -1,0 +1,8 @@
+GenericEntity : "{436D2A6387FDE4B1}Prefabs/SRZ_Locks/KeyCrates/SRZ_KeyCrate_RadarStation.et" {
+ ID "F0B1D9290000D477"
+ components {
+  SRZ_FixedLootComponent "{5E1F0A9C3B7D2E41}" {
+   m_sTable "{4BFA86782BFA16EC}Configs/SRZ_Loot/SRZ_Loot_KC_Unique.conf"
+  }
+ }
+}

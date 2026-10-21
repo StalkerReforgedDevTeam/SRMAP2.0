@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{9484B48A39357F3C}Configs/SRZ_Loot/Pools/SRZ_Pool_Mutant_Parts_Common.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

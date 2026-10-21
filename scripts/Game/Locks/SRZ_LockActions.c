@@ -17,7 +17,7 @@ class SRZ_UnlockAction : ScriptedUserAction
 
 		if (!lockComp.FindKey(user))
 		{
-			SetCannotPerformReason("Hold the " + lockComp.GetKeyName() + " in your hand");
+			SetCannotPerformReason("Locked");
 			return false;
 		}
 
@@ -48,6 +48,51 @@ class SRZ_UnlockAction : ScriptedUserAction
 // Pick a lock. The 15 second hold is the action's Duration in the prefab.
 class SRZ_PickLockAction : ScriptedUserAction
 {
+	static const ResourceName PICK_SOUND = "{A2D45F6B2FC200AC}Sounds/SRZ/Lockpick/SRZ_Lockpick.acp";
+	static const int PICK_SOUND_LENGTH_MS = 2400;
+
+	protected AudioHandle m_hPickSound = AudioHandle.Invalid;
+	protected int m_iPickLoopsLeft;
+
+	//------------------------------------------------------------------------------------------------
+	override protected void OnActionStart(IEntity pUserEntity)
+	{
+		StopPickSound();
+
+		float duration = GetActionDuration();
+		if (duration <= 0)
+			duration = 15;
+
+		m_iPickLoopsLeft = Math.Ceil(duration * 1000 / PICK_SOUND_LENGTH_MS);
+		PlayPickSound();
+	}
+
+	//------------------------------------------------------------------------------------------------
+	override protected void OnActionCanceled(IEntity pOwnerEntity, IEntity pUserEntity)
+	{
+		StopPickSound();
+	}
+
+	//------------------------------------------------------------------------------------------------
+	protected void PlayPickSound()
+	{
+		if (m_iPickLoopsLeft <= 0 || !GetOwner())
+			return;
+
+		m_iPickLoopsLeft--;
+		m_hPickSound = SRZ_FXRange.Sound(PICK_SOUND, "SOUND_SRZ_LOCKPICK", GetOwner().GetOrigin(), 50);
+		GetGame().GetCallqueue().CallLater(PlayPickSound, PICK_SOUND_LENGTH_MS, false);
+	}
+
+	//------------------------------------------------------------------------------------------------
+	protected void StopPickSound()
+	{
+		m_iPickLoopsLeft = 0;
+		GetGame().GetCallqueue().Remove(PlayPickSound);
+		SRZ_FXRange.StopSound(m_hPickSound);
+		m_hPickSound = AudioHandle.Invalid;
+	}
+
 	//------------------------------------------------------------------------------------------------
 	override bool CanBeShownScript(IEntity user)
 	{
@@ -70,6 +115,8 @@ class SRZ_PickLockAction : ScriptedUserAction
 	//------------------------------------------------------------------------------------------------
 	override void PerformAction(IEntity pOwnerEntity, IEntity pUserEntity)
 	{
+		StopPickSound();
+
 		SRZ_LockComponent lockComp = SRZ_LockComponent.Get(pOwnerEntity);
 		if (lockComp)
 			lockComp.UnlockWithLockpick(pUserEntity);
@@ -112,15 +159,44 @@ modded class ARMST_OpenStorageAction : ScriptedUserAction
 	}
 }
 
-// Vanilla open storage on locked crates too
+// Hide vanilla Open on locked crates, and on any ARMST loot container, where it would show the box before Search fills it
 modded class SCR_OpenStorageAction
 {
+	protected int m_iSRZ_HasArmstSearch = -1;
+
 	override bool CanBeShownScript(IEntity user)
 	{
 		SRZ_LockComponent lockComp = SRZ_LockComponent.Get(GetOwner());
 		if (lockComp && lockComp.IsLocked())
 			return false;
 
+		if (SRZ_HasArmstSearch())
+			return false;
+
 		return super.CanBeShownScript(user);
+	}
+
+	protected bool SRZ_HasArmstSearch()
+	{
+		if (m_iSRZ_HasArmstSearch < 0)
+		{
+			m_iSRZ_HasArmstSearch = 0;
+			ActionsManagerComponent mgr = ActionsManagerComponent.Cast(GetOwner().FindComponent(ActionsManagerComponent));
+			if (mgr)
+			{
+				array<BaseUserAction> actions = {};
+				mgr.GetActionsList(actions);
+				foreach (BaseUserAction action : actions)
+				{
+					if (ARMST_OpenStorageAction.Cast(action))
+					{
+						m_iSRZ_HasArmstSearch = 1;
+						break;
+					}
+				}
+			}
+		}
+
+		return m_iSRZ_HasArmstSearch == 1;
 	}
 }

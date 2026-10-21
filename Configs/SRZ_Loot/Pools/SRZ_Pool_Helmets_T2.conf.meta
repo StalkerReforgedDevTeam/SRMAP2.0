@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{DA50D7BBC5CBA17A}Configs/SRZ_Loot/Pools/SRZ_Pool_Helmets_T2.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

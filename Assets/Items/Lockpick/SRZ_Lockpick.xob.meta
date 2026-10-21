@@ -1,0 +1,57 @@
+MetaFileClass {
+ Name "{C0310FAFBAC195A0}Assets/Items/Lockpick/SRZ_Lockpick.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{6AA9575FE2DDD2DB}" {
+     SourceMaterial "Lockpick_Metal"
+     AssignedMaterial "{62754311733092BE}Assets/Items/Identity/Belongings_Personal/Data/Dogtag_Metal.emat"
+    }
+    MaterialAssignClass "{6AA9575FE2DDD2E1}" {
+     SourceMaterial "Lockpick_Grip"
+     AssignedMaterial "{6537A24B4FD3FC5A}Assets/Weapons/Rifles/AK74/Data/AK74_Grip.emat"
+    }
+   }
+   MeshParams {
+    MeshParam Lockpick {
+    }
+   }
+   GeometryParams {
+    GeometryParam UBX_Lockpick {
+     LayerPreset "ItemFireView"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0.1
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{6AA9575C2CFC3594}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6AA9575C2CFCE44F}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6AA9575C2CFCE564}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6AA9575C2CFCE513}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6AA9575C2CFCE05F}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6AA9575C2CFCE0F8}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass Xbox : PC {
+   Common TXOCommonClass "{6AA9575C2CFCE08C}" {
+   }
+  }
+ }
+}

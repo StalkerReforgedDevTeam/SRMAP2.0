@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{84773CA2BD6930FE}Prefabs/SRZ_Locks/KeyCrates/RadarStation/SRZ_KeyCrate_RadarStation_Gear_T2.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

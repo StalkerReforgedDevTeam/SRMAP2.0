@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{42B70F4B482AFA9E}Prefabs/SRZ_Locks/KeyCrates/RLSMalutka/SRZ_KeyCrate_RLSMalutka_Medical_T3.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

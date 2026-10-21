@@ -1,0 +1,8 @@
+GenericEntity : "{EE43A3D990845A49}Prefabs/SRZ_Locks/KeyCrates/SRZ_KeyCrate_HolidayCamp.et" {
+ ID "F118F94A7773C2FC"
+ components {
+  SRZ_FixedLootComponent "{5E1F0A9C3B7D2E41}" {
+   m_sTable "{4BFA86782BFA16EC}Configs/SRZ_Loot/SRZ_Loot_KC_Unique.conf"
+  }
+ }
+}

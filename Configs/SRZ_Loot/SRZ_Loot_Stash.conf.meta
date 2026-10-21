@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{6FF771B1D74E16F8}Configs/SRZ_Loot/SRZ_Loot_Stash.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

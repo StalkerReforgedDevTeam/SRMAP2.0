@@ -1,0 +1,15 @@
+GenericEntity : "{2C819C7F1CECED07}Prefabs/LOOT_BOX/1_TIER/1_TIER_Loot_randomize_army.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  ARMST_RANDOM_LOOTS_POINT "{669E640B5529F967}" {
+   m_LootCategories {
+    "WEAPONS" "AMMOS" "ATTACHMENT" "ARMORS" "GASMASKS" "EQUIPMENTS"
+   }
+   m_LootTiersSpawn + {
+    "TIER_2"
+   }
+  }
+ }
+ coords 4.513 4.236 -16.882
+ angles 0 86.999 0
+}

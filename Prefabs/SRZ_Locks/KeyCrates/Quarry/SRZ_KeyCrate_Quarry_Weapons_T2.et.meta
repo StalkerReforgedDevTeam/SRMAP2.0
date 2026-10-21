@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{9526F8A0FDD28317}Prefabs/SRZ_Locks/KeyCrates/Quarry/SRZ_KeyCrate_Quarry_Weapons_T2.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

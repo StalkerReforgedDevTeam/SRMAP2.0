@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{FF93667ECE169DF0}Configs/SRZ_Loot/Pools/SRZ_Pool_Belts.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{B2C9F86347D47FE1}Prefabs/SRZ_Locks/KeyCrates/ChemicalPlant/SRZ_KeyCrate_ChemicalPlant_Gear_T3.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}
