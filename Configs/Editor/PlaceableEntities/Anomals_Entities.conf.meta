@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{6F9473A50E4A32A4}Configs/Editor/PlaceableEntities/Anomals_Entities.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

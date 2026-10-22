@@ -10,6 +10,11 @@ SRZ_WhirligigEntity {
   }
   Hierarchy "{31A06145A9B6BC74}" {
   }
+  SCR_EditableEntityComponent "{1B5D9242E4D32AE8}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{FB2A99C655BFB5F2}" {
+    Name "Vortex"
+   }
+  }
  }
  TriggerShapeType Sphere
  SphereRadius 4

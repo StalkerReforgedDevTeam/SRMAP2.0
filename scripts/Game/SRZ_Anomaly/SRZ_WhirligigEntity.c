@@ -96,6 +96,7 @@ class SRZ_WhirligigEntity : ARMST_DamagingTriggerEntity
 
 	protected int m_iState = STATE_IDLE;
 	protected ref array<ChimeraCharacter> m_aVictims = {};
+	protected ref array<ChimeraCharacter> m_aInside = {};
 	protected RplComponent m_Rpl;
 	protected ParticleEffectEntity m_Idle;
 
@@ -152,21 +153,61 @@ class SRZ_WhirligigEntity : ARMST_DamagingTriggerEntity
 			return;
 		}
 
-		if (!m_fMonsterDamage && !EntityUtils.IsPlayer(ent))
+		if (!CanCatch(character))
 			return;
 
-		if (!IsAlive(ent) || character.IsInVehicle())
-			return;
-
-		CharacterControllerComponent controller = character.GetCharacterController();
-		if (!controller || controller.GetLifeState() == ECharacterLifeState.DEAD)
-			return;
+		if (!m_aInside.Contains(character))
+			m_aInside.Insert(character);
 
 		if (m_iState == STATE_IDLE)
 			Begin();
 
 		if (m_iState == STATE_PULL)
 			Catch(character);
+	}
+
+	override void OnDeactivate(IEntity ent)
+	{
+		super.OnDeactivate(ent);
+		ChimeraCharacter character = ChimeraCharacter.Cast(ent);
+		if (character)
+			m_aInside.RemoveItem(character);
+	}
+
+	protected bool CanCatch(ChimeraCharacter character)
+	{
+		if (!character || character.IsDeleted())
+			return false;
+
+		if (!m_fMonsterDamage && !EntityUtils.IsPlayer(character))
+			return false;
+
+		if (!IsAlive(character) || character.IsInVehicle())
+			return false;
+
+		CharacterControllerComponent controller = character.GetCharacterController();
+		return controller && controller.GetLifeState() != ECharacterLifeState.DEAD;
+	}
+
+	// Anyone already standing in it, including people who walked in while it was busy
+	protected bool CatchEveryoneInside()
+	{
+		bool any;
+		for (int i = m_aInside.Count() - 1; i >= 0; i--)
+		{
+			ChimeraCharacter c = m_aInside[i];
+			if (!CanCatch(c) || !StillInside(c))
+			{
+				m_aInside.Remove(i);
+				continue;
+			}
+
+			any = true;
+			if (m_iState == STATE_PULL)
+				Catch(c);
+		}
+
+		return any;
 	}
 
 	protected void Begin()
@@ -180,6 +221,7 @@ class SRZ_WhirligigEntity : ARMST_DamagingTriggerEntity
 			PlayFx(m_SpinEffect, m_SpinSoundProject, m_sSpinSoundEvent, GetOrigin(), m_fPullSeconds);
 
 		GetGame().GetCallqueue().CallLater(StartSpin, Math.Max(m_fPullSeconds, 0.1) * 1000, false);
+		CatchEveryoneInside();
 	}
 
 	protected void Catch(ChimeraCharacter character)
@@ -332,6 +374,11 @@ class SRZ_WhirligigEntity : ARMST_DamagingTriggerEntity
 	protected void EndCooldown()
 	{
 		m_iState = STATE_IDLE;
+		if (CatchEveryoneInside())
+		{
+			Begin();
+			CatchEveryoneInside();
+		}
 	}
 
 	protected void TryBolt(IEntity ent)

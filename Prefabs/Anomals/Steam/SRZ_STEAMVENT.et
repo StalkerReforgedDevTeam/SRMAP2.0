@@ -5,6 +5,11 @@ SRZ_SteamVentEntity {
   }
   Hierarchy "{F73B6760A92ABC01}" {
   }
+  SCR_EditableEntityComponent "{12165DA7C17CABBC}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{143409BF961D6D8A}" {
+    Name "Steam Vent"
+   }
+  }
  }
  TriggerShapeType Sphere
  SphereRadius 1.5
