@@ -10,6 +10,11 @@ SRZ_WhirligigEntity {
   }
   Hierarchy "{61C7B737B71E4762}" {
   }
+  SCR_EditableEntityComponent "{2067C8BA0093F9F7}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{3E3D80090152A4F4}" {
+    Name "Whirligig"
+   }
+  }
  }
  TriggerShapeType Sphere
  SphereRadius 3
