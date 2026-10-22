@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{63135F254B05959F}Configs/SRZ_Loot/Pools/SRZ_Pool_Detectors.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

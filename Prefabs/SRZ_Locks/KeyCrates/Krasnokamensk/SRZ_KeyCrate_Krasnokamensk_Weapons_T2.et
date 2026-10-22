@@ -1,6 +1,14 @@
 GenericEntity : "{8D3282B0259AD0BD}Prefabs/SRZ_Locks/KeyCrates/SRZ_KeyCrate_Krasnokamensk.et" {
  ID "C0EF943C2C7FB8C5"
  components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Materials {
+    MaterialAssignClass "{6AB0C0A1B2C3D4E5}" {
+     SourceMaterial "ArmyBox_Paint"
+     AssignedMaterial "{4428809631F97281}Assets/Props/SRZ_Crates/ArmyBox/Data/ArmyBox_Weapons.emat"
+    }
+   }
+  }
   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
    m_LootTiersSpawn {
     "TIER_2"

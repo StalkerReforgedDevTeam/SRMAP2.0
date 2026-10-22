@@ -149,6 +149,27 @@ modded class SCR_DoorUserAction : DoorUserAction
 // Loot crates with a lock hide their search action until unlocked
 modded class ARMST_OpenStorageAction : ScriptedUserAction
 {
+	protected bool m_bSRZ_Searched;
+
+	// Locked crates fill once on the server, then Search just reopens them so nothing is lost after closing
+	override void PerformAction(IEntity pOwnerEntity, IEntity pUserEntity)
+	{
+		if (!SRZ_LockComponent.Get(pOwnerEntity))
+		{
+			super.PerformAction(pOwnerEntity, pUserEntity);
+			return;
+		}
+
+		if (Replication.IsServer() && !m_bSRZ_Searched)
+		{
+			m_bSRZ_Searched = true;
+			BuildValidLootItemsFromDatabase();
+			TryToSpawnLoot();
+		}
+
+		OpenInventoryForUser(pUserEntity, pOwnerEntity);
+	}
+
 	override bool CanBeShownScript(IEntity user)
 	{
 		SRZ_LockComponent lockComp = SRZ_LockComponent.Get(GetOwner());

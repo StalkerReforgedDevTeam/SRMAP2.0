@@ -1,0 +1,17 @@
+GenericEntity : "{9068FFB04C612CD7}Prefabs/SRZ_Storage/SRZ_FactionStorage_Base.et" {
+ ID "0379BDF63A990189"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Materials {
+    MaterialAssignClass "{6AB0C0A1B2C3D4E6}" {
+     SourceMaterial "Case_Paint"
+     AssignedMaterial "{D5048E0E21372ED8}Assets/Props/SRZ_Crates/TransportCase/Data/Case_Duty.emat"
+    }
+   }
+  }
+  SRZ_FactionStorageComponent "{AF883AF042F43B8F}" {
+   m_eFaction FACTION_STORM
+   m_sFactionName "Duty"
+  }
+ }
+}

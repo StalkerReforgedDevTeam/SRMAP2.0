@@ -1,0 +1,17 @@
+GenericEntity : "{9068FFB04C612CD7}Prefabs/SRZ_Storage/SRZ_FactionStorage_Base.et" {
+ ID "84E1C97C47932D8B"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Materials {
+    MaterialAssignClass "{6AB0C0A1B2C3D4E6}" {
+     SourceMaterial "Case_Paint"
+     AssignedMaterial "{D44DCB357C5788A0}Assets/Props/SRZ_Crates/TransportCase/Data/Case_Monolith.emat"
+    }
+   }
+  }
+  SRZ_FactionStorageComponent "{AF883AF042F43B8F}" {
+   m_eFaction FACTION_MUTANTS
+   m_sFactionName "Monolith"
+  }
+ }
+}

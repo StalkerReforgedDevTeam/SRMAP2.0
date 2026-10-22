@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{729C9B60BD6ABED3}Prefabs/SRZ_Locks/Lids/SRZ_TransportCase_Green_Lid.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

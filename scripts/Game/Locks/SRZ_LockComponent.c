@@ -32,8 +32,22 @@ class SRZ_LockComponent : ScriptComponent
 	// Skips the first seconds so players joining late don't hear every open crate
 	protected void OnUnlockedRpl()
 	{
-		if (m_bUnlocked && System.GetTickCount() - m_iInitTick > 5000)
+		if (!m_bUnlocked)
+			return;
+
+		bool live = System.GetTickCount() - m_iInitTick > 5000;
+		if (live)
 			PlayOpenSound();
+
+		OpenLid(live);
+	}
+
+	//------------------------------------------------------------------------------------------------
+	protected void OpenLid(bool animate)
+	{
+		SRZ_CrateLidComponent lid = SRZ_CrateLidComponent.Cast(GetOwner().FindComponent(SRZ_CrateLidComponent));
+		if (lid)
+			lid.Open(animate);
 	}
 
 	//------------------------------------------------------------------------------------------------
@@ -160,6 +174,7 @@ class SRZ_LockComponent : ScriptComponent
 		m_bUnlocked = true;
 		Replication.BumpMe();
 		PlayOpenSound();
+		OpenLid(true);
 	}
 }
 

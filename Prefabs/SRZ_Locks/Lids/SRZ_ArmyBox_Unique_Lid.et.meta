@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{8A4EA980367F0050}Prefabs/SRZ_Locks/Lids/SRZ_ArmyBox_Unique_Lid.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

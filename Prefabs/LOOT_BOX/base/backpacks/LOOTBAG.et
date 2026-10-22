@@ -5,7 +5,6 @@ GenericEntity : "{BC78C382910BABBF}Prefabs/LOOT_BOX/base/backpacks/Loot_random_b
    m_LootCategories {
     "WEAPONS" "MEDICINES" "MONEYS"
    }
-   m_Category_CUSTOM "SRZ_STASH"
   }
   ActionsManagerComponent "{6190D137C5926215}" {
    additionalActions {

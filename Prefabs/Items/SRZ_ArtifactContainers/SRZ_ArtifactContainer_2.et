@@ -1,0 +1,71 @@
+GenericEntity : "{09D6A1C9543E4A95}Prefabs/Equipments/backpack/Backpack_Base.et" {
+ ID "384374F2E4BC756F"
+ components {
+  ARMST_ARTEFACT_CONTAINER "{F3D27AF40645D620}" {
+   Attributes SCR_ItemAttributeCollection "{AD75AC70BCB773FD}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{FC43DDC42CC1D6F5}" {
+     Name "KZS-2 Artifact Container"
+     Description "Lead lined double canister. Holds 2 artifacts and blocks their effects while they are inside."
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{6681278A71D840B8}" {
+     Weight 5
+     SizeSetupStrategy Manual
+     ItemDimensions 50 50 50
+     ItemVolume 2400
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{12088CD4C04B28A4}" {
+      CameraPreset Front
+      CameraDistanceToItem 1.6
+     }
+    }
+    CommonItemType "ARMST_DEVICE_ITEM"
+    m_Size SLOT_2x2
+    m_SlotType SLOT_ANY
+    m_bStackable 0
+    m_bAutoDetectGridSize 0
+    m_iCustomGridWidth 2
+    m_iCustomGridHeight 3
+   }
+   StoragePurpose 0x61 0
+   UseCapacityCoefficient 0
+   CapacityCoefficient 1
+   MaxCumulativeVolume 2000
+   MaxItemSize 15 15 15
+   m_iGridColumns 4
+   m_iGridRows 2
+   m_aAllowedItemTypese {
+    "ARMST_ART_ITEM"
+   }
+  }
+  ARMST_ITEMS_STATS_COMPONENTS "{0E5E0F1150FED9A1}" {
+  }
+  MeshObject "{511E9C6ADE70F7BD}" {
+   Object "{F5D186DFB2377E70}Assets/Items/SRZ_ArtifactContainers/SRZ_ArtCont_2.xob"
+  }
+  RigidBody "{511E9C6ADE70F7BC}" {
+   ModelGeometry 0
+  }
+  SimpleSoundComponent "{FEF2A9AF6CA3C851}" {
+   Filenames {
+    "{3D8789E7ACF6EDD3}Sounds/Items/_SharedData/PickUp/Items_PickUp_BackPack.acp" "{F2BEB3DF3F95849F}Sounds/Items/_SharedData/Open/Backpack_Medical_M5/Items_Backpack_Medical_M5.acp"
+   }
+  }
+  BaseLoadoutClothComponent "{511E9C6ADE70F7BB}" {
+   AreaType SCR_LoadoutHandSlotArea "{F1FE65ACF843058A}" {
+   }
+   WornModel "{F5D186DFB2377E70}Assets/Items/SRZ_ArtifactContainers/SRZ_ArtCont_2.xob"
+   ItemModel "{F5D186DFB2377E70}Assets/Items/SRZ_ArtifactContainers/SRZ_ArtCont_2.xob"
+  }
+  ActionsManagerComponent "{511E9C6ADE70F786}" {
+   ActionContexts {
+    UserActionContext "{511E9C6ADE70F788}" {
+     Position PointInfo "{511E9C6ADE70F78D}" {
+      Offset 0 0.12 0.06
+     }
+     Radius 1
+    }
+   }
+  }
+ }
+}
