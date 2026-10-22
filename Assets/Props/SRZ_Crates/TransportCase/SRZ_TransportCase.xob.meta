@@ -1,0 +1,57 @@
+MetaFileClass {
+ Name "{9FB5DCDF77D4AB4C}Assets/Props/SRZ_Crates/TransportCase/SRZ_TransportCase.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{AC39624C23D1D7E5}" {
+     SourceMaterial "Case_Paint"
+     AssignedMaterial "{496B347D2A894348}Assets/Props/SRZ_Crates/TransportCase/Data/Case_Green.emat"
+    }
+    MaterialAssignClass "{99636F331BAED16D}" {
+     SourceMaterial "Case_Metal"
+     AssignedMaterial "{406410C87F813308}Assets/Props/SRZ_Crates/ArmyBox/Data/ArmyBox_Metal.emat"
+    }
+   }
+   MeshParams {
+    MeshParam TransportCase {
+    }
+   }
+   GeometryParams {
+    GeometryParam UBX_TransportCase {
+     LayerPreset "Prop"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 35
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{6AA0C586FAF330D9}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6AA0C586FAF30E77}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6AA0C586FAF30E13}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6AA0C586FAF30E92}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6AA0C586FAF30F21}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6AA0C586FAF30FD1}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass Xbox : PC {
+   Common TXOCommonClass "{6AA0C586FAF30C7E}" {
+   }
+  }
+ }
+}

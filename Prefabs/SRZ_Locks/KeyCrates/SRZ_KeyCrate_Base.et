@@ -10,6 +10,15 @@ GenericEntity : "{94CE3523A428A51B}Prefabs/LOOT_BOX/base/army/Loot_army_box_weap
     "TIER_3"
    }
   }
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{8DFB3D4EFE670DA9}Assets/Props/SRZ_Crates/ArmyBox/SRZ_ArmyBox.xob"
+   Materials {
+    MaterialAssignClass "{6AB0C0A1B2C3D4E5}" {
+     SourceMaterial "ArmyBox_Paint"
+     AssignedMaterial "{4428809631F97281}Assets/Props/SRZ_Crates/ArmyBox/Data/ArmyBox_Weapons.emat"
+    }
+   }
+  }
   SRZ_FixedLootComponent "{5E1F0A9C3B7D2E41}" {
    m_sTable "{FE4D4949FE535288}Configs/SRZ_Loot/SRZ_Loot_KC_Weapons.conf"
   }
@@ -17,6 +26,13 @@ GenericEntity : "{94CE3523A428A51B}Prefabs/LOOT_BOX/base/army/Loot_army_box_weap
    m_bConsumeKey 1
   }
   ActionsManagerComponent "{6190D137C5926215}" {
+   ActionContexts {
+    UserActionContext "{6190D137C5926217}" {
+     Position PointInfo "{6190D137C59262E9}" {
+      Offset 0 0.44 0.26
+     }
+    }
+   }
    additionalActions {
     ARMST_OpenStorageAction "{6576AAE1454E7C5E}" {
      m_bRespawnToggle 0
@@ -33,6 +49,11 @@ GenericEntity : "{94CE3523A428A51B}Prefabs/LOOT_BOX/base/army/Loot_army_box_weap
      Duration 1
     }
    }
+  }
+  SRZ_CrateLidComponent "{7A2C9E41B5D30F68}" {
+   m_sBodyPrefab "{094A3091F7BF6A76}Prefabs/SRZ_Locks/Lids/SRZ_ArmyBox_Weapons_Body.et"
+   m_sLidPrefab "{FAB33A7C500D8EBA}Prefabs/SRZ_Locks/Lids/SRZ_ArmyBox_Weapons_Lid.et"
+   m_vHinge 0 0.364 -0.23
   }
  }
 }

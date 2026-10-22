@@ -1,6 +1,15 @@
 GenericEntity : "{0CA0F15A651DB0F7}Prefabs/LOOT_BOX/base/army/Loot_army_box_weapons.et" {
  ID "16C647EAC8D544A6"
  components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{9FB5DCDF77D4AB4C}Assets/Props/SRZ_Crates/TransportCase/SRZ_TransportCase.xob"
+   Materials {
+    MaterialAssignClass "{6AB0C0A1B2C3D4E6}" {
+     SourceMaterial "Case_Paint"
+     AssignedMaterial "{496B347D2A894348}Assets/Props/SRZ_Crates/TransportCase/Data/Case_Green.emat"
+    }
+   }
+  }
   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
    m_LootCategories {
     "WEAPONS" "AMMOS" "ATTACHMENT" "ARMORS" "GASMASKS" "EQUIPMENTS" "MEDICINES"
@@ -16,6 +25,13 @@ GenericEntity : "{0CA0F15A651DB0F7}Prefabs/LOOT_BOX/base/army/Loot_army_box_weap
    m_bAllowLockpick 1
   }
   ActionsManagerComponent "{6190D137C5926215}" {
+   ActionContexts {
+    UserActionContext "{6190D137C5926217}" {
+     Position PointInfo "{6190D137C59262E9}" {
+      Offset 0 0.56 0.3
+     }
+    }
+   }
    additionalActions {
     SRZ_PickLockAction "{8BC3FBB6F88DF30A}" {
      ParentContextList {
@@ -36,6 +52,11 @@ GenericEntity : "{0CA0F15A651DB0F7}Prefabs/LOOT_BOX/base/army/Loot_army_box_weap
      Duration 1
     }
    }
+  }
+  SRZ_CrateLidComponent "{7A2C9E41B5D30F68}" {
+   m_sBodyPrefab "{1550FAC2B4F6AEEB}Prefabs/SRZ_Locks/Lids/SRZ_TransportCase_Green_Body.et"
+   m_sLidPrefab "{729C9B60BD6ABED3}Prefabs/SRZ_Locks/Lids/SRZ_TransportCase_Green_Lid.et"
+   m_vHinge 0 0.42 -0.281
   }
  }
 }

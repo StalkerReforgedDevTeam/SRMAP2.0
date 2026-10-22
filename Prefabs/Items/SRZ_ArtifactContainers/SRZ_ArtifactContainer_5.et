@@ -1,0 +1,71 @@
+GenericEntity : "{09D6A1C9543E4A95}Prefabs/Equipments/backpack/Backpack_Base.et" {
+ ID "D4022E0FD4814CAB"
+ components {
+  ARMST_ARTEFACT_CONTAINER "{D42CE6027A3766DC}" {
+   Attributes SCR_ItemAttributeCollection "{C65CC8F4310B58E2}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{EBF9700CC013673F}" {
+     Name "KZS-5 Artifact Case"
+     Description "Lead lined case with five sealed cells. Holds 5 artifacts and blocks their effects while they are inside."
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{B3024920E047DB0E}" {
+     Weight 11
+     SizeSetupStrategy Manual
+     ItemDimensions 50 50 50
+     ItemVolume 5000
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{D2D85C5A0530B878}" {
+      CameraPreset Front
+      CameraDistanceToItem 1.6
+     }
+    }
+    CommonItemType "ARMST_DEVICE_ITEM"
+    m_Size SLOT_2x2
+    m_SlotType SLOT_ANY
+    m_bStackable 0
+    m_bAutoDetectGridSize 0
+    m_iCustomGridWidth 4
+    m_iCustomGridHeight 2
+   }
+   StoragePurpose 0x61 0
+   UseCapacityCoefficient 0
+   CapacityCoefficient 1
+   MaxCumulativeVolume 2000
+   MaxItemSize 15 15 15
+   m_iGridColumns 10
+   m_iGridRows 2
+   m_aAllowedItemTypese {
+    "ARMST_ART_ITEM"
+   }
+  }
+  ARMST_ITEMS_STATS_COMPONENTS "{3B7BAAE65B116E67}" {
+  }
+  MeshObject "{511E9C6ADE70F7BD}" {
+   Object "{F9642B4657CBFDCB}Assets/Items/SRZ_ArtifactContainers/SRZ_ArtCont_5.xob"
+  }
+  RigidBody "{511E9C6ADE70F7BC}" {
+   ModelGeometry 0
+  }
+  SimpleSoundComponent "{447BCBE5BAE51EC1}" {
+   Filenames {
+    "{3D8789E7ACF6EDD3}Sounds/Items/_SharedData/PickUp/Items_PickUp_BackPack.acp" "{F2BEB3DF3F95849F}Sounds/Items/_SharedData/Open/Backpack_Medical_M5/Items_Backpack_Medical_M5.acp"
+   }
+  }
+  BaseLoadoutClothComponent "{511E9C6ADE70F7BB}" {
+   AreaType SCR_LoadoutHandSlotArea "{018A49423881E502}" {
+   }
+   WornModel "{F9642B4657CBFDCB}Assets/Items/SRZ_ArtifactContainers/SRZ_ArtCont_5.xob"
+   ItemModel "{F9642B4657CBFDCB}Assets/Items/SRZ_ArtifactContainers/SRZ_ArtCont_5.xob"
+  }
+  ActionsManagerComponent "{511E9C6ADE70F786}" {
+   ActionContexts {
+    UserActionContext "{511E9C6ADE70F788}" {
+     Position PointInfo "{511E9C6ADE70F78D}" {
+      Offset 0 0.1 0.08
+     }
+     Radius 1
+    }
+   }
+  }
+ }
+}

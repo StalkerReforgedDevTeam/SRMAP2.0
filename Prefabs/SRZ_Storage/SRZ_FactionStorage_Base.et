@@ -1,0 +1,89 @@
+GenericEntity : "{10C26F96EF7A8CF5}Prefabs/Props/Core/Props_Base.et" {
+ ID "ACA93B3B5FC8AFCF"
+ components {
+  SignalsManagerComponent "{85BBAD0FA003B9CE}" {
+  }
+  EPF_PersistenceComponent "{B68392A7A973C83F}" {
+   m_bSelfSpawn 1
+   m_pSaveData ARMST_StorageSaveDataClass "{0E5E14E47BA257F2}" {
+    m_bSaveRemainingLifetime 0
+    m_aComponents {
+     EPF_BaseInventoryStorageComponentSaveDataClass "{70CAB27E4775DD74}" {
+     }
+    }
+   }
+  }
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{9FB5DCDF77D4AB4C}Assets/Props/SRZ_Crates/TransportCase/SRZ_TransportCase.xob"
+   Materials {
+    MaterialAssignClass "{6AB0C0A1B2C3D4E6}" {
+     SourceMaterial "Case_Paint"
+     AssignedMaterial "{A6346E2DB26FD094}Assets/Props/SRZ_Crates/TransportCase/Data/Case_Bandits.emat"
+    }
+   }
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ModelGeometry 1
+  }
+  SCR_SoundDataComponent "{E0D78E5C5D4D6249}" {
+  }
+  SCR_UniversalInventoryStorageComponent "{1DEBAC4537FBD981}" {
+   Attributes SCR_ItemAttributeCollection "{33518DF3E3E2F01E}" {
+    ItemDisplayName UIInfo "{A393619C4BF9FDE2}" {
+     Name "Faction Storage"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{27C199BD26E179D6}" {
+     Weight 500
+     SizeSetupStrategy Manual
+     ItemDimensions 0.01 0.01 0.01
+     ItemVolume 0.1
+     DimensionScaler 1
+     RestingAdditiveRotationLS 0 0 0
+     RestingAdditiveOffsetLS 0 0 0
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{E234A51DAF7E956B}" {
+      CameraDistanceToItem 2
+      FOV 60
+      AspectRatio 1
+     }
+    }
+    m_Size SLOT_3x3
+    m_bDraggable 0
+    m_bStackable 0
+   }
+   UseCapacityCoefficient 0
+   MaxCumulativeVolume 8000
+   MaxItemSize 120 120 120
+   SaveInLoadout 0
+   m_iGridColumns 10
+   m_iGridRows 20
+   m_fMaxWeight 1000000
+  }
+  SRZ_FactionStorageComponent "{AF883AF042F43B8F}" {
+  }
+  ActionsManagerComponent "{16B641B670552163}" {
+   ActionContexts {
+    UserActionContext "{355989ACBBF3E792}" {
+     ContextName "Default"
+     Position PointInfo "{9BB3D5C077A0E67E}" {
+      Offset 0 0.56 0.3
+     }
+     Height 0
+    }
+   }
+   additionalActions {
+    SCR_OpenStorageAction "{D9BD6FA850F1C58E}" {
+     ParentContextList {
+      "Default"
+     }
+     Duration 1
+    }
+   }
+  }
+  RplComponent "{529A8DFC59529145}" {
+  }
+  Hierarchy "{60313644A76655CA}" {
+  }
+ }
+}

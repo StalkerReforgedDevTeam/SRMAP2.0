@@ -1,0 +1,35 @@
+MetaFileClass {
+ Name "{7F835F8F08AD98C8}Assets/Props/SRZ_Crates/TransportCase/Open/SRZ_TransportCase_Grey_Lid.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{37D932A3188F0C44}" {
+     SourceMaterial "Case_Paint"
+     AssignedMaterial "{E82D926014566055}Assets/Props/SRZ_Crates/TransportCase/Data/Case_Grey.emat"
+    }
+    MaterialAssignClass "{BC0F2EDE4C0300FB}" {
+     SourceMaterial "Case_Metal"
+     AssignedMaterial "{406410C87F813308}Assets/Props/SRZ_Crates/ArmyBox/Data/ArmyBox_Metal.emat"
+    }
+   }
+   MeshParams {
+    MeshParam TransportCase_Grey_Lid {
+    }
+   }
+   Common TXOCommonClass "{6AA0C586FAF330D9}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+  }
+  FBXResourceClass PS4 : PC {
+  }
+  FBXResourceClass PS5 : PC {
+  }
+  FBXResourceClass HEADLESS : PC {
+  }
+  FBXResourceClass Xbox : PC {
+  }
+ }
+}

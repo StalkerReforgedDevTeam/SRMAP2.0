@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{9E52D7A1C4B83F60}Configs/SRZ_Loot/SRZ_Loot_Keycard.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

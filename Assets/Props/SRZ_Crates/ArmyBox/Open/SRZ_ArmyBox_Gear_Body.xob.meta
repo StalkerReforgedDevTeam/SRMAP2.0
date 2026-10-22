@@ -1,0 +1,45 @@
+MetaFileClass {
+ Name "{7FF8302CB9A5B60F}Assets/Props/SRZ_Crates/ArmyBox/Open/SRZ_ArmyBox_Gear_Body.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{C8449FEDC41B162E}" {
+     SourceMaterial "ArmyBox_Paint"
+     AssignedMaterial "{4BB41108A20D6484}Assets/Props/SRZ_Crates/ArmyBox/Data/ArmyBox_Gear.emat"
+    }
+    MaterialAssignClass "{0C803D07FAEF3015}" {
+     SourceMaterial "ArmyBox_Metal"
+     AssignedMaterial "{406410C87F813308}Assets/Props/SRZ_Crates/ArmyBox/Data/ArmyBox_Metal.emat"
+    }
+   }
+   MeshParams {
+    MeshParam ArmyBox_Gear_Body {
+    }
+   }
+   GeometryParams {
+    GeometryParam UBX_ArmyBox_Gear_Body {
+     LayerPreset "Prop"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 40
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{6AA0C586FAF330D9}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+  }
+  FBXResourceClass PS4 : PC {
+  }
+  FBXResourceClass PS5 : PC {
+  }
+  FBXResourceClass HEADLESS : PC {
+  }
+  FBXResourceClass Xbox : PC {
+  }
+ }
+}
