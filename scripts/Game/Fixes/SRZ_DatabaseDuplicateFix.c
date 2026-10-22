@@ -1,5 +1,5 @@
-// Items listed in more than one DB entry: keep the stats/loot of the entry ARMST already uses,
-// but keep trader rows from every entry so nothing vanishes from a trader.
+// Items listed in more than one DB entry: the last entry wins for stats, loot and any trader it lists.
+// Older entries only add traders the last entry doesn't mention.
 modded class ARMST_EDITOR_GLOBAL_SETTINGS
 {
 	protected static ref map<ResourceName, ref array<ref ARMST_DATABASE_ITEM>> s_SRZ_ItemEntries = new map<ResourceName, ref array<ref ARMST_DATABASE_ITEM>>();
@@ -92,13 +92,8 @@ modded class ARMST_EDITOR_GLOBAL_SETTINGS
 					continue;
 
 				string oldKey = string.Format("%1|%2", oldRow.m_Actor, oldRow.m_sTraderCategory);
-				int idx;
-				if (rowIndex.Find(oldKey, idx))
-				{
-					if (!merged.m_ItemTrader[idx].m_EnableBuy && oldRow.m_EnableBuy)
-						merged.m_ItemTrader[idx] = oldRow;
+				if (rowIndex.Contains(oldKey))
 					continue;
-				}
 
 				rowIndex.Set(oldKey, merged.m_ItemTrader.Count());
 				merged.m_ItemTrader.Insert(oldRow);

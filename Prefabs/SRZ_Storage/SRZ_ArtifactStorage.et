@@ -1,0 +1,87 @@
+GenericEntity : "{10C26F96EF7A8CF5}Prefabs/Props/Core/Props_Base.et" {
+ ID "C34AB34B74F17B3C"
+ components {
+  SignalsManagerComponent "{0E2A8AA53862D2D8}" {
+  }
+  EPF_PersistenceComponent "{FCEBDA56E29CDD12}" {
+   m_bSelfSpawn 1
+   m_pSaveData ARMST_StorageSaveDataClass "{E5B8D9D4ACD1216C}" {
+    m_bSaveRemainingLifetime 0
+    m_aComponents {
+     EPF_BaseInventoryStorageComponentSaveDataClass "{9329B9C36262891A}" {
+     }
+    }
+   }
+  }
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{DFCF372673423F73}Assets/Items/SRZ_ArtifactContainers/SRZ_ArtCont_20.xob"
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ModelGeometry 1
+  }
+  SCR_SoundDataComponent "{915ACE2710368C62}" {
+  }
+  ARMST_ARTEFACT_CONTAINER "{7B6FDD3C9F4C7977}" {
+   Attributes SCR_ItemAttributeCollection "{B840467982A0F47E}" {
+    ItemDisplayName UIInfo "{F1BBD262D8A31AAD}" {
+     Name "KZS-20 Artifact Storage"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{C0D33A5853A80239}" {
+     Weight 500
+     SizeSetupStrategy Manual
+     ItemDimensions 0.01 0.01 0.01
+     ItemVolume 0.1
+     DimensionScaler 1
+     RestingAdditiveRotationLS 0 0 0
+     RestingAdditiveOffsetLS 0 0 0
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{BFA0E8D8FD8F0BCC}" {
+      CameraDistanceToItem 2
+      FOV 60
+      AspectRatio 1
+     }
+    }
+    m_Size SLOT_3x3
+    m_bDraggable 0
+    m_bStackable 0
+   }
+   UseCapacityCoefficient 0
+   MaxCumulativeVolume 20000
+   MaxItemSize 15 15 15
+   SaveInLoadout 0
+   m_iGridColumns 10
+   m_iGridRows 8
+   m_fMaxWeight 1000000
+   m_aAllowedItemTypese {
+    "ARMST_ART_ITEM"
+   }
+  }
+  SRZ_FactionStorageComponent "{E001388FA29571E8}" {
+   m_eFaction FACTION_ALL
+  }
+  ActionsManagerComponent "{9270134F76FEBBB1}" {
+   ActionContexts {
+    UserActionContext "{7BB555506B2374AB}" {
+     ContextName "Default"
+     Position PointInfo "{C5930BA24EA25061}" {
+      Offset 0 0.36 0.22
+     }
+     Height 0
+    }
+   }
+   additionalActions {
+    SCR_OpenStorageAction "{8DB30BA038A93AFE}" {
+     ParentContextList {
+      "Default"
+     }
+     Duration 1
+    }
+   }
+  }
+  RplComponent "{B9D250E499C506B6}" {
+  }
+  Hierarchy "{4F2D4FB35C7C80AF}" {
+  }
+ }
+}
