@@ -2268,10 +2268,6 @@ $grp SCR_DestructibleBuildingEntity {
       }
       $grp GenericEntity : "{9FE49438E0414334}Prefabs/Props/Furniture/Sofa_01.et" {
        {
-        coords 10.282 0 3.693
-        angles 0 90 0
-       }
-       {
         coords -11.532 0 4.484
         angles 0 -180 0
        }
@@ -2383,10 +2379,6 @@ $grp SCR_DestructibleBuildingEntity {
        {
         coords -10.987 0 -4.965
         angles 0 139.369 0
-       }
-       {
-        coords 4.221 0 -2
-        angles 0 86.921 0
        }
        {
         coords 11.87 0 -4.982
@@ -2876,9 +2868,6 @@ $grp SCR_DestructibleBuildingEntity {
      {
       $grp GenericEntity : "{0D1EEC1DD3F60163}Prefabs/Props/Military/Furniture/Toilet_USSR_01/Toilet_USSR_01.et" {
        {
-        coords 3.709 0 -2.201
-       }
-       {
         coords 11.423 0 -2.217
        }
        {
@@ -2913,9 +2902,6 @@ $grp SCR_DestructibleBuildingEntity {
        }
       }
       $grp GenericEntity : "{49012FE1DEF653EE}Prefabs/Props/Furniture/Sink_01.et" {
-       {
-        coords 2.712 0 -2.206
-       }
        {
         coords 12.512 0 -2.212
        }
@@ -6469,15 +6455,6 @@ $grp SCR_DestructibleBuildingEntity {
       }
      }
      coords 0 0 0
-     {
-      GenericEntity : "{0F199A7406EDAC7C}Prefabs/Structures/BuildingParts/Doors/Door_Village_E_A_LEFT_INT_ST_B.et" {
-       components {
-        Hierarchy "{7642683606C70747}" {
-         PivotID "socket_door_LEFT"
-        }
-       }
-      }
-     }
     }
     {
      components {
@@ -7644,8 +7621,29 @@ GenericEntity armst_itm_cards_69D80DA57395AEDC2 : "{0826AC41D0926A51}Prefabs/Ite
  angles 0 -163.733 0
 }
 GenericEntity : "{0C51EDCEEC144BC1}Prefabs/Compositions/Misc/SubCompositions/CrateWooden_Cluttered_US_03.et" {
- coords 4964.084 328.017 3047.191
+ coords 4963.494 328.017 3047.287
  angles 0 -163.733 0
+}
+$grp GenericEntity : "{0E2CA294E0E751CE}Prefabs/SRZ_Storage/SRZ_FactionStorage_Bandits.et" {
+ SRZ_FactionStorage_Bandits_6AAD7D78012599B8 {
+  coords 1454.952 295 1933.252
+  angles 0 -89.859 0
+ }
+ SRZ_FactionStorage_Bandits_6AAD7D78012599B2 {
+  coords 1454.996 295 1931.776
+  angles 0 -93.844 0
+ }
+ SRZ_FactionStorage_Bandits_6AAD7D782B726DD3 {
+  coords 1457.753 295.005 1934.435
+  angles 0 -3.694 0
+ }
+ SRZ_FactionStorage_Bandits_6AAD7D782D5EBEBE {
+  coords 1461.047 294.989 1933.816
+  angles 0 86.764 0
+ }
+}
+GenericEntity : "{1461A0D5F8109E86}Prefabs/SRZ_Locks/KeyCrates/ChemicalPlant/SRZ_KeyCrate_ChemicalPlant_Weapons_T2.et" {
+ coords 3368.252 309.009 1313.448
 }
 GenericEntity DomeBagDuty_6AA14BF1DD416C0E : "{175B68FA9B7B570D}Assets/Characters/Backpacks/Dome_Bag/DomeBagDuty.et" {
  coords 4276.185 301.38 2327.987
@@ -11120,6 +11118,24 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fFilterDrainHigh 100
  }
 }
+$grp GenericEntity : "{1B620F29930EE016}Prefabs/SRZ_Storage/SRZ_FactionStorage_Duty.et" {
+ SRZ_FactionStorage_Duty_6AAD7D78F6581044 {
+  coords 4914.956 313.913 1661.633
+  angles 0 2.569 0
+ }
+ SRZ_FactionStorage_Duty_6AAD7D78F2 {
+  coords 4912.976 313.913 1661.723
+  angles 0 2.569 0
+ }
+ SRZ_FactionStorage_Duty_6AAD7D78F3 {
+  coords 4910.888 313.913 1661.768
+  angles 0 2.569 0
+ }
+ SRZ_FactionStorage_Duty_6AAD7D78F4 {
+  coords 4908.867 313.913 1661.859
+  angles 0 2.569 0
+ }
+}
 GenericEntity : "{1BFCA9525E528626}Prefabs/Compositions/Misc/SubCompositions/TableMilitary_Cluttered_US_02.et" {
  coords 4968.876 304.701 3049.502
  angles 0 -81.141 0
@@ -11145,42 +11161,6 @@ $grp GenericEntity : "{21D83950DF36F250}Prefabs/Props/Military/Sandbags/Sandbag_
   coords 4944.01 330.125 3046.94
   angles 0 6.53 0
  }
- {
-  coords 4952.896 326.381 3050.955
-  angles 0 -80.502 0
- }
- {
-  coords 4970.859 304.434 3064.61
-  angles 0 -174.714 0
- }
- {
-  coords 4970.884 304.201 3064.868
-  angles 0 -174.714 0
- }
- {
-  coords 4970.912 304.032 3065.174
-  angles 0 -174.714 0
- }
- {
-  coords 4970.941 303.809 3065.477
-  angles 0 -174.714 0
- }
- {
-  coords 4970.968 303.58 3065.771
-  angles 0 -174.714 0
- }
- {
-  coords 4970.858 304.434 3064.584
-  angles 0 -174.714 0
- }
- {
-  coords 4970.863 304.946 3064.629
-  angles 0 -172.46 0
- }
- {
-  coords 4971.021 303.28 3066.338
-  angles 0 -174.714 0
- }
 }
 GenericEntity DomeBagMerc_6AA14BF18E429B4A : "{2254479092390B3F}Assets/Characters/Backpacks/Dome_Bag/DomeBagMerc.et" {
  coords 4275.305 301.972 2329.079
@@ -11195,7 +11175,7 @@ GenericEntity : "{2887E99075B9C928}Prefabs/Props/Garbage/Generic/Litter_01_long.
  angles 0 -172.707 0
 }
 GenericEntity : "{2BE613DDC7EA3851}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/EquipmentBoxStack_01_V4_base.et" {
- coords 4964.177 326.38 3046.819
+ coords 4963.587 326.38 3046.915
  angles 0 -172.319 0
 }
 GenericEntity DomeBagGreenCamo_6AA14BF1E749539B : "{2D794DFA0FF2492B}Assets/Characters/Backpacks/Dome_Bag/DomeBagGreenCamo.et" {
@@ -11209,6 +11189,46 @@ GenericEntity : "{33918FEBFD531C52}Prefabs/Props/Commercial/Posters/PosterSet_Mo
 GenericEntity DomeBagGreen_6AA14BF1EDC563EC : "{3477BE320BFA8784}Assets/Characters/Backpacks/Dome_Bag/DomeBagGreen.et" {
  coords 4275.628 301.431 2328.723
  angles 0 50.331 0
+}
+$grp GenericEntity : "{349AC04D60BDC344}Prefabs/SRZ_Storage/SRZ_FactionStorage_Monolith.et" {
+ SRZ_FactionStorage_Monolith_6AAD7D79FE92EE5E {
+  coords 3105.117 318.712 2652.776
+  angles 0 47.144 0
+ }
+ SRZ_FactionStorage_Monolith_6AAD7D79FE92EE5E2 {
+  coords 3106.305 318.712 2651.496
+  angles 0 47.144 0
+ }
+ SRZ_FactionStorage_Monolith_6AAD7D79F7F0A3EF {
+  coords 3105.78 318.712 2649.686
+  angles 0 134.774 0
+ }
+ SRZ_FactionStorage_Monolith_6AAD7D79F7F0A3EF2 {
+  coords 3104.454 318.712 2648.349
+  angles 0 134.774 0
+ }
+}
+$grp GenericEntity : "{35AFE0B84B106BDD}Prefabs/SRZ_Storage/SRZ_ArtifactStorage.et" {
+ SRZ_ArtifactStorage_6AAD7D784D5CD07D {
+  coords 3843.542 306.796 401.06
+  angles 0 86.336 0
+ }
+ SRZ_ArtifactStorage_6AAD7D79C5FD7066 {
+  coords 3556.511 308.811 1835.978
+  angles 0 -6.003 0
+ }
+ SRZ_ArtifactStorage_6AAD7D79C5FD2 {
+  coords 3557.648 308.811 1836.097
+  angles 0 -6.003 0
+ }
+ SRZ_ArtifactStorage_6AAD7D79883BB7A5 {
+  coords 3103.02 318.712 2647.977
+  angles 0 45.629 0
+ }
+ SRZ_ArtifactStorage_6AAD7D79883BB7A2 {
+  coords 3101.881 318.712 2649.141
+  angles 0 45.629 0
+ }
 }
 $grp GenericEntity : "{3619812B192CCAE9}Prefabs/Props/Core/Wreck_Base.et" {
  {
@@ -12128,7 +12148,7 @@ GenericEntity : "{3BA9D94C4EE9B33B}Prefabs/Compositions/Slotted/CompositionBase.
  }
 }
 GenericEntity : "{3F6B9C6E835A3D75}Prefabs/Compositions/Misc/SubCompositions/EquipmentBoxStacked_Cluttered_USSR_06.et" {
- coords 4949.9 326.381 3050.549
+ coords 4951.941 326.779 3051.565
  angles 0 -81.891 0
  {
   GenericEntity {
@@ -12136,6 +12156,62 @@ GenericEntity : "{3F6B9C6E835A3D75}Prefabs/Compositions/Misc/SubCompositions/Equ
    coords -0.254 0.587 0.243
    angles 0 126.81 0
   }
+ }
+}
+GenericEntity : "{41A7C3109DDB5A31}Prefabs/SRZ_Locks/KeyCrates/ChemicalPlant/SRZ_KeyCrate_ChemicalPlant_Unique.et" {
+ coords 3284.083 312.705 1339.395
+ angles 0 -90.69 0
+}
+$grp GenericEntity : "{447E8AA43CF527DD}Prefabs/SRZ_Storage/SRZ_FactionStorage_Freedom.et" {
+ SRZ_FactionStorage_Freedom_6AAD7D78943827D4 {
+  coords 3556.005 308.811 1839.604
+  angles 0 -95.774 0
+ }
+ SRZ_FactionStorage_Freedom_6AAD7D78AEAC8DE9 {
+  coords 3558.824 308.811 1840.624
+  angles 0 83.998 0
+ }
+ SRZ_FactionStorage_Freedom_6AAD7D78B9A30861 {
+  coords 3563.378 308.811 1842.765
+  angles 0 -93.927 0
+ }
+ SRZ_FactionStorage_Freedom_6AAD7D78BCEFFC96 {
+  coords 3565.203 308.822 1843.412
+  angles 0 -4.003 0
+ }
+}
+$grp GenericEntity : "{49ED6FCADA46EF4B}Prefabs/LOOT_BOX/base/backpacks/LOOTBAG.et" {
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+    }
+   }
+  }
+  coords 2290.29 301.233 1555.819
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+    }
+   }
+  }
+  coords 2387.442 301.233 1577.553
+  angles 0 -84.219 0
+ }
+ {
+  components {
+   ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+    m_LootTiersSpawn {
+     "TIER_2"
+    }
+   }
+  }
+  coords 2519.108 301.233 1487.744
+  angles 0 25.144 0
  }
 }
 $grp GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/DestructibleMultiPhase_Props_Base.et" {
@@ -12366,6 +12442,19 @@ $grp GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/DestructibleMultiPhas
       m_LootTiersSpawn {
        "TIER_2"
       }
+     }
+     MeshObject "{5872F0EB7FA40561}" {
+      Object "{093AA217E90907C2}Assets/new_all/sumka.xob"
+      WetnessAdder 1
+      ClutterOccluder 1
+      ClutterOccluderClipPlane 0.9
+     }
+     RigidBody "{5872F0EB7DFB5A9D}" {
+      ModelGeometry 0
+      Static 1
+     }
+     RplComponent "{669E6408BFC729CC}" {
+      "Rpl State Override" None
      }
     }
     coords 2.645 0.23 -3.449
@@ -12722,6 +12811,19 @@ $grp GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/DestructibleMultiPhas
         "TIER_2"
        }
       }
+      MeshObject "{5872F0EB7FA40561}" {
+       Object "{093AA217E90907C2}Assets/new_all/sumka.xob"
+       WetnessAdder 1
+       ClutterOccluder 1
+       ClutterOccluderClipPlane 0.9
+      }
+      RigidBody "{5872F0EB7DFB5A9D}" {
+       ModelGeometry 0
+       Static 1
+      }
+      RplComponent "{669E6408BFC729CC}" {
+       "Rpl State Override" None
+      }
      }
      coords -2.576 -2.174 1.556
      angles 0 -107.824 0
@@ -12733,6 +12835,19 @@ $grp GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/DestructibleMultiPhas
         "TIER_2"
        }
       }
+      MeshObject "{5872F0EB7FA40561}" {
+       Object "{093AA217E90907C2}Assets/new_all/sumka.xob"
+       WetnessAdder 1
+       ClutterOccluder 1
+       ClutterOccluderClipPlane 0.9
+      }
+      RigidBody "{5872F0EB7DFB5A9D}" {
+       ModelGeometry 0
+       Static 1
+      }
+      RplComponent "{669E6408BFC729CC}" {
+       "Rpl State Override" None
+      }
      }
      coords 4.082 0.283 -5.466
      angles 0 -107.824 0
@@ -12743,6 +12858,19 @@ $grp GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/DestructibleMultiPhas
        m_LootTiersSpawn {
         "TIER_2"
        }
+      }
+      MeshObject "{5872F0EB7FA40561}" {
+       Object "{093AA217E90907C2}Assets/new_all/sumka.xob"
+       WetnessAdder 1
+       ClutterOccluder 1
+       ClutterOccluderClipPlane 0.9
+      }
+      RigidBody "{5872F0EB7DFB5A9D}" {
+       ModelGeometry 0
+       Static 1
+      }
+      RplComponent "{669E6408BFC729CC}" {
+       "Rpl State Override" None
       }
      }
      coords 3.253 0.134 4.285
@@ -13089,12 +13217,12 @@ $grp SCR_DestructibleBuildingEntity : "{5388DCDED41DBEEC}Prefabs/Structures/Infr
   angles -0.657 97.246 -89.998
  }
  {
-  coords 4965.692 3.359 3059.993
+  coords 4965.6 3.256 3059.329
   angles -1.617 6.946 0.66
   scale 0.7
  }
  {
-  coords 4966.145 3.269 3063.115
+  coords 4965.865 3.187 3061.161
   angles -1.633 8.315 0.622
   scale 0.7
  }
@@ -13180,7 +13308,7 @@ $grp SCR_DestructibleBuildingEntity : "{5388DCDED41DBEEC}Prefabs/Structures/Infr
   scale 0.05
  }
  {
-  coords 4975.8 6.037 3063.663
+  coords 4975.673 6.036 3062.672
   angles -0.03 -172.721 0.156
   scale 0.75
  }
@@ -13191,7 +13319,7 @@ SRZ_DiscordPingTriggerEntity : "{54B7B298920BFB6C}Prefabs/Anomals/Radiation/Gork
  UpdatePeriod 10
 }
 GenericEntity : "{56A2385928155F81}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/US/EquipmentBoxStack_US_01_V4.et" {
- coords 4964.348 326.38 3047.928
+ coords 4963.758 326.38 3048.024
  angles 0 175.353 0
 }
 GenericEntity : "{5AE5E70D803BD389}Prefabs/Method/Props/Interior/TableOld_01_white_int_1.et" {
@@ -13213,6 +13341,16 @@ GenericEntity : "{5F41F44FF4723B83}Prefabs/Structures/BuildingParts/Doors/DoorFr
 GameEntity : "{6020D7B8D466821A}Prefabs/Structures/BuildingParts/Ladders/Ladder_ApartmentBuilding_5I01/Ladder_ApartmentBuilding_5I01_294_B.et" {
  coords 3560.278 13.774 1841.088
  angles 0 177.064 0
+}
+$grp GenericEntity : "{63C343818DDB40D0}Prefabs/SRZ_Locks/KeyCrates/Airfield/SRZ_KeyCrate_Airfield_Gear_T2.et" {
+ {
+  coords 2443.375 301.233 1500.48
+  angles 0 18.376 0
+ }
+ {
+  coords 2495.792 310.909 1530.838
+  angles 0 105.405 0
+ }
 }
 SCR_DestructibleBuildingEntity : "{67BB04E9136D6A3E}Prefabs/Structures/Industrial/Houses/ConcretePlant_E_01/ConcretePlant_E_01_base.et" {
  coords 4263.104 0.37 2305.171
@@ -13539,7 +13677,7 @@ GenericEntity : "{7A4A0A8283210784}Prefabs/Compositions/Misc/SubCompositions/Tab
  angles 0 -80.559 0
 }
 GenericEntity : "{7A5A9F26FE702332}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/FIA/EquipmentBoxStack_FIA_01_V4.et" {
- coords 4964.475 326.38 3049.107
+ coords 4963.885 326.38 3049.203
  angles 0 -168.804 0
 }
 $grp GenericEntity : "{7AF4B627D5C90235}Prefabs/Props/Military/Sandbags/Sandbag_01_round_high_burlap.et" {
@@ -13555,6 +13693,10 @@ $grp GenericEntity : "{7AF4B627D5C90235}Prefabs/Props/Military/Sandbags/Sandbag_
   coords 4930.501 329.871 3060.683
   angles 0 -29.069 -1.406
  }
+}
+GenericEntity : "{7ED028F8604B68DC}Prefabs/SRZ_Locks/KeyCrates/ChemicalPlant/SRZ_KeyCrate_ChemicalPlant_Gear_T2.et" {
+ coords 3344.9 300.493 1361.333
+ angles 0 -19.362 0
 }
 GenericEntity : "{8703D964AC15EA53}PrefabsEditable/E_Identity_Selector.et" {
  coords 5076.542 302.606 58.69
@@ -13573,13 +13715,23 @@ GenericEntity : "{8FE6D62204173656}Prefabs/Props/Civilian/BeerBottle_01_group.et
  coords 4932.735 326.38 3059.096
  angles 0 -119.662 0
 }
+$grp GenericEntity : "{90EC78D3C336C463}Prefabs/SRZ_Locks/KeyCrates/Airfield/SRZ_KeyCrate_Airfield_Weapons_T2.et" {
+ {
+  coords 2459.736 301.233 1504.745
+  angles 0 85.495 0
+ }
+ {
+  coords 2551.215 301.33 1456.679
+  angles 0 -70.092 0
+ }
+}
 $grp StaticModelEntity : "{94021BCA593A8CFF}Prefabs/Structures/BuildingParts/Entry/ConcreteStairs_02_Wide.et" {
  {
-  coords 4972.691 304.63 3063.544
+  coords 4972.463 304.527 3061.906
   angles 0 7.924 0
  }
  {
-  coords 4969.029 304.63 3064.053
+  coords 4968.802 304.527 3062.415
   angles 0 7.924 0
  }
 }
@@ -14178,6 +14330,19 @@ $grp SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core
        ""
        "TIER_2"
       }
+     }
+     MeshObject "{5872F0EB7FA40561}" {
+      Object "{093AA217E90907C2}Assets/new_all/sumka.xob"
+      WetnessAdder 1
+      ClutterOccluder 1
+      ClutterOccluderClipPlane 0.9
+     }
+     RigidBody "{5872F0EB7DFB5A9D}" {
+      ModelGeometry 0
+      Static 1
+     }
+     RplComponent "{669E6408BFC729CC}" {
+      "Rpl State Override" None
      }
     }
     coords 21.698 17.791 6.271
@@ -14968,10 +15133,6 @@ $grp SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core
    }
    $grp GenericEntity : "{43816DF1021ABD72}Prefabs/LOOT_BOX/3_TIER/3_TIER_Loot_randomize_tools.et" {
     {
-     coords -10.116 21.611 -6.295
-     angles 0 -172.955 0
-    }
-    {
      coords 13.43 21.47 5.171
      angles 0 -172.955 0
     }
@@ -15050,25 +15211,6 @@ $grp SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core
       }
       Hierarchy "{612AE78C85563E26}" {
        PivotID "socket_door_Doorset_lighthouse_right_176FDCEC3698D11E_7"
-      }
-     }
-     {
-      GenericEntity {
-       ID "6638758AB9AC4D6C"
-       components {
-        DoorComponent "{221C667A9F7D4B69}" {
-         DoorAction SCR_DoorUserAction "{50888D3646A61640}" {
-          m_FactionKey FACTION_MERCENARIES
-         }
-        }
-       }
-      }
-     }
-    }
-    {
-     components {
-      Hierarchy "{612AE78C85563E26}" {
-       PivotID "socket_door_Doorset_lighthouse_right_176FDCEC3698D11E_1"
       }
      }
      {
@@ -15515,31 +15657,30 @@ $grp SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core
      coords 0 0 0
     }
    }
-   $grp GenericEntity : "{D8028D9E0F8CFFEB}Prefabs/LOOT_BOX/3_TIER/3_TIER_Loot_randomize_random.et" {
-    {
-     components {
-      ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-       m_LootTiersSpawn {
-        ""
-        "TIER_2"
-       }
+   GenericEntity : "{D8028D9E0F8CFFEB}Prefabs/LOOT_BOX/3_TIER/3_TIER_Loot_randomize_random.et" {
+    components {
+     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
+      m_LootTiersSpawn {
+       ""
+       "TIER_2"
       }
      }
-     coords 15.042 20.571 -5.224
-     angles 0 -150.634 0
-    }
-    {
-     components {
-      ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-       m_LootTiersSpawn {
-        ""
-        "TIER_2"
-       }
-      }
+     MeshObject "{5872F0EB7FA40561}" {
+      Object "{093AA217E90907C2}Assets/new_all/sumka.xob"
+      WetnessAdder 1
+      ClutterOccluder 1
+      ClutterOccluderClipPlane 0.9
      }
-     coords -1.992 20.596 6.334
-     angles 0 -150.634 0
+     RigidBody "{5872F0EB7DFB5A9D}" {
+      ModelGeometry 0
+      Static 1
+     }
+     RplComponent "{669E6408BFC729CC}" {
+      "Rpl State Override" None
+     }
     }
+    coords -1.992 20.596 6.334
+    angles 0 -150.634 0
    }
    GenericEntity : "{EF84E2A0B250AC53}Prefabs/Structures/BuildingParts/Doors/Door_Garage_E_01_A_RIGHT_EXT_COV_B.et" {
     components {
@@ -15975,6 +16116,10 @@ $grp SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core
   }
  }
 }
+GenericEntity : "{A4B9B087B6D3EA53}Prefabs/SRZ_Locks/KeyCrates/Gorkiy12/SRZ_KeyCrate_Gorkiy12_Gear_T2.et" {
+ coords 3155.455 304.702 2601.144
+ angles 0 103.677 0
+}
 $grp GenericEntity : "{A565A0C0FEAF0862}Prefabs/Structures/BuildingParts/Doors/Door_Village_E_B_RIGHT_INT_COV_M1.et" {
  {
   components {
@@ -16024,6 +16169,28 @@ $grp GenericEntity : "{A737A061554F4800}Prefabs/Items/Food/Civilian filter.et" {
    }
   }
   coords 3072.284 304.702 2725.408
+ }
+}
+GenericEntity : "{A8B027BF66316978}Prefabs/SRZ_Locks/KeyCrates/Airfield/SRZ_KeyCrate_Airfield_Unique.et" {
+ coords 2446.019 301.64 1463.229
+ angles 0 -161.988 0
+}
+$grp GenericEntity : "{AA7B59CFD84A83AE}Prefabs/SRZ_Storage/SRZ_FactionStorage_Mercs.et" {
+ SRZ_FactionStorage_Mercs_6AAD7D79996C7C30 {
+  coords 4939.457 326.38 3060.165
+  angles 0 4.73 0
+ }
+ SRZ_FactionStorage_Mercs_6AAD7D79996C7C2 {
+  coords 4941.183 326.38 3060.023
+  angles 0 4.73 0
+ }
+ SRZ_FactionStorage_Mercs_6AAD7D79996C7C3 {
+  coords 4942.917 326.38 3059.879
+  angles 0 4.73 0
+ }
+ SRZ_FactionStorage_Mercs_6AAD7D79996C7C4 {
+  coords 4944.456 326.38 3059.708
+  angles 0 6.617 0
  }
 }
 $grp GenericEntity : "{AC49D9D23A2BD1D8}Prefabs/Props/Furniture/BunkBed_01_Double.et" {
@@ -17739,10 +17906,6 @@ $grp GenericEntity : "{B31A14BC1A0E7776}Prefabs/Props/Military/Sandbags/Sandbag_
   coords 4929.589 329.893 3058.506
   angles 0 -110.287 0
  }
- {
-  coords 4943.061 326.38 3052.089
-  angles 0 95.748 0
- }
 }
 GenericEntity : "{B3283803059E2750}Prefabs/Props/Crates/CrateWooden_01_plain.et" {
  components {
@@ -17753,8 +17916,12 @@ GenericEntity : "{B3283803059E2750}Prefabs/Props/Crates/CrateWooden_01_plain.et"
   Hierarchy "{569E7A0B064DAFB0}" {
   }
  }
- coords 4964.352 327.983 3048.732
+ coords 4963.762 327.983 3048.828
  angles 0 -11.252 0
+}
+GenericEntity : "{B530B272F0CAC973}Prefabs/SRZ_Locks/KeyCrates/ChemicalPlant/SRZ_KeyCrate_ChemicalPlant_Medical_T2.et" {
+ coords 3290.202 308.81 1324.718
+ angles 0 177.177 0
 }
 GenericEntity : "{BCB7F6999ACCFCC0}Prefabs/Compositions/Misc/SubCompositions/Furniture/Table_Desk_USSR_06_Logistics.et" {
  coords 4948.526 326.38 3055.533
@@ -19236,7 +19403,7 @@ $grp GenericEntity : "{C9DE18E34AEADA31}Prefabs/Structures/BuildingParts/Doors/D
     PivotID "Socket_door_001"
    }
   }
-  coords 4961.181 326.67 3044.759
+  coords 4961.181 328.355 3044.759
   angles 0 -172.522 0
   scale 1.1
  }
@@ -19255,6 +19422,29 @@ GenericEntity : "{CBFB6247D7EBE1DE}Prefabs/Structures/BuildingParts/Doors/Door_F
 }
 GameEntity armst_gasmask_m17_6A52FB37A6C06C4F : "{CCEC06C62737F0D4}Prefabs/Equipments/Gasmasks/armst_gasmask_m17.et" {
  coords 3071.297 304.702 2730.013
+}
+$grp GenericEntity : "{D3452CED3BD70204}Prefabs/SRZ_Storage/SRZ_FactionStorage_UKM.et" {
+ SRZ_FactionStorage_UKM_6AAD7D785B8AC61F {
+  coords 3843.592 306.796 399.753
+  angles 0 87.497 0
+ }
+ SRZ_FactionStorage_UKM_6AAD7D785B8AC61F2 {
+  coords 3843.606 306.796 398.159
+  angles 0 90.168 0
+ }
+ SRZ_FactionStorage_UKM_6AAD7D786552A160 {
+  coords 3823.179 306.796 401.616
+ }
+ SRZ_FactionStorage_UKM_6AAD7D786552A2 {
+  coords 3824.922 306.796 401.616
+ }
+ SRZ_FactionStorage_UKM_6AAD7D786552A3 {
+  coords 3826.683 306.796 401.616
+ }
+ SRZ_FactionStorage_UKM_6AAD7D787EB06485 {
+  coords 3822.374 306.796 398.927
+  angles 0 -89.895 0
+ }
 }
 GenericEntity : "{E59D9776A5169843}Prefabs/Structures/BuildingParts/Doors/DoorSet_FactoryHall_E_01_Elevator_COV_B.et" {
  components {
@@ -19363,6 +19553,19 @@ SCR_DestructibleBuildingEntity : "{F6B2571BEAAD779C}Prefabs/Houses/villages/base
        "TIER_2"
       }
      }
+     MeshObject "{5872F0EB7FA40561}" {
+      Object "{093AA217E90907C2}Assets/new_all/sumka.xob"
+      WetnessAdder 1
+      ClutterOccluder 1
+      ClutterOccluderClipPlane 0.9
+     }
+     RigidBody "{5872F0EB7DFB5A9D}" {
+      ModelGeometry 0
+      Static 1
+     }
+     RplComponent "{669E6408BFC729CC}" {
+      "Rpl State Override" None
+     }
     }
     coords -1.316 2.652 0.101
     angles 0 -91.784 0
@@ -19373,6 +19576,19 @@ SCR_DestructibleBuildingEntity : "{F6B2571BEAAD779C}Prefabs/Houses/villages/base
       m_LootTiersSpawn {
        "TIER_2"
       }
+     }
+     MeshObject "{5872F0EB7FA40561}" {
+      Object "{093AA217E90907C2}Assets/new_all/sumka.xob"
+      WetnessAdder 1
+      ClutterOccluder 1
+      ClutterOccluderClipPlane 0.9
+     }
+     RigidBody "{5872F0EB7DFB5A9D}" {
+      ModelGeometry 0
+      Static 1
+     }
+     RplComponent "{669E6408BFC729CC}" {
+      "Rpl State Override" None
      }
     }
     coords -4.169 0.149 -5.748
@@ -19409,8 +19625,8 @@ SCR_DestructibleEntity : "{F755F729EC8D5203}Prefabs/Structures/Walls/Concrete/Co
  scale 0.72
 }
 GenericEntity : "{F7CFDAC4BDDB42F3}Prefabs/Compositions/Misc/SubCompositions/Furniture/Table_Desk_FIA_01_Logistics.et" {
- coords 4957.848 326.409 3050.34
- angles 0 -82.38 0
+ coords 4951.645 326.884 3050.238
+ angles 0 96.588 0
 }
 GenericEntity : "{FBEF0DDE64A1B1A0}Prefabs/Compositions/Slotted/SubComposition.et" {
  components {
@@ -19437,4 +19653,8 @@ GenericEntity : "{FBEF0DDE64A1B1A0}Prefabs/Compositions/Slotted/SubComposition.e
 GenericEntity : "{FE60E5AB52B7114D}Prefabs/Compositions/Misc/SubCompositions/TableMilitary_Cluttered_US_03.et" {
  coords 4969.104 304.694 3048.402
  angles 0 8.548 0
+}
+GenericEntity : "{FEFF458AB9B74C15}Prefabs/SRZ_Locks/KeyCrates/Airfield/SRZ_KeyCrate_Airfield_Medical_T2.et" {
+ coords 2418.634 301.233 1535.541
+ angles 0 16.561 0
 }

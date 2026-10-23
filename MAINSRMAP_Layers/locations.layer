@@ -152588,7 +152588,6 @@ $grp SCR_DestructibleBuildingEntity : "{A92A5F3B79FF56BE}Prefabs/Structures/Indu
     angles 0 90 0
     {
      GameEntity {
-      ID "5A42D80F564F3E8B"
       coords 1.456 -19.243 0
      }
     }
@@ -206367,6 +206366,16 @@ $grp SCR_DestructibleBuildingEntity : "{F3916F47D2770AB3}Prefabs/Industrial/skla
   angles 0 -109.09 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{6AAD7D7AA0DB50DE}" {
+      SourceMaterial "Tower_EXT"
+      AssignedMaterial "{1D6A4C22C73DF614}Assets/Soviet_assets/soviet_warehouse_new/Tower/Data/Tower_DOWN_INT.emat"
+     }
+    }
+   }
+  }
   coords 3406.128 308.576 1342.516
   angles 0 -88.096 0
  }
