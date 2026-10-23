@@ -7015,6 +7015,13 @@ GenericEntity : "{4AD721AB942C260A}Prefabs/Props/Decorations/Paintings/PaintingO
  angles 87.906 -155.469 -155.528
 }
 GenericEntity : "{4E4475A7D8DABCD5}Prefabs/Structures/BuildingParts/Doors/Door_Barracks_E_01/Door_Barracks_RIGHT_EXT_ST_M2.et" {
+ components {
+  DoorComponent "{221C667A9F7D4B69}" {
+   DoorAction SCR_DoorUserAction "{50888D3646A61640}" {
+    m_FactionKey FACTION_BANDIT
+   }
+  }
+ }
  coords 1454.831 294.976 1930.302
  angles 0 85.723 0
  scale 1.1
@@ -8022,6 +8029,9 @@ $grp GenericEntity : "{C9DE18E34AEADA31}Prefabs/Structures/BuildingParts/Doors/D
   components {
    DoorComponent "{5D62D4AB54C9F344}" {
     Enabled 0
+    DoorAction SCR_DoorUserAction "{5D62D4AB76051F33}" {
+     m_FactionKey FACTION_BANDIT
+    }
    }
    Hierarchy "{612AE78C85563E26}" {
     PivotID "Socket_door_001"
@@ -8035,6 +8045,9 @@ $grp GenericEntity : "{C9DE18E34AEADA31}Prefabs/Structures/BuildingParts/Doors/D
   components {
    DoorComponent "{5D62D4AB54C9F344}" {
     Enabled 0
+    DoorAction SCR_DoorUserAction "{5D62D4AB76051F33}" {
+     m_FactionKey FACTION_BANDIT
+    }
    }
    Hierarchy "{612AE78C85563E26}" {
     PivotID "Socket_door_001"
@@ -8048,6 +8061,9 @@ $grp GenericEntity : "{C9DE18E34AEADA31}Prefabs/Structures/BuildingParts/Doors/D
   components {
    DoorComponent "{5D62D4AB54C9F344}" {
     Enabled 0
+    DoorAction SCR_DoorUserAction "{5D62D4AB76051F33}" {
+     m_FactionKey FACTION_BANDIT
+    }
    }
    Hierarchy "{612AE78C85563E26}" {
     PivotID "Socket_door_001"
