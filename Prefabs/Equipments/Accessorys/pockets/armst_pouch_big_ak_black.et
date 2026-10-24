@@ -1,0 +1,11 @@
+GenericEntity : "{D75A9D95BF88AF02}Prefabs/Equipments/Accessorys/pockets/pouch_base.et" {
+ ID "50E0B40D7407B664"
+ components {
+  InventoryItemComponent "{5222CB03D1147687}" {
+   Attributes SCR_ItemAttributeCollection "{5222CB03CBA95936}" {
+    m_iCustomGridWidth 2
+    m_iCustomGridHeight 2
+   }
+  }
+ }
+}
