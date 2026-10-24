@@ -8,5 +8,20 @@ GameEntity : "{0D247A14975597D4}Prefabs/Items/artefacts/base_art.et" {
     }
    }
   }
+  MeshObject "{5D0CB95BC1CDFBAE}" {
+   Object "{D13A920F20E5341D}Assets/Items/SRZ_Artifacts/art_bubble/art_bubble.xob"
+   Materials {
+    MaterialAssignClass "{658EE23D3CC616D7}" {
+     SourceMaterial "art_bubble_Mat"
+     AssignedMaterial "{F1CA3D6505F3E47E}Assets/Items/SRZ_Artifacts/art_bubble/Data/art_bubble.emat"
+    }
+   }
+  }
+  ParametricMaterialInstanceComponent "{5D0CB95BC1CDFBAD}" {
+   ColorEmissive 0 0 0 1
+   EmissiveMultiplier 0
+   UserParamAlpha 0
+  }
  }
+ scale 1.25
 }

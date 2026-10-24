@@ -8,5 +8,24 @@ GameEntity : "{A56F4E9C4ECA2CD9}Prefabs/Items/artefacts_new/base_art.et" {
     }
    }
   }
+  MeshObject "{5D0CB95BC1CDFBAE}" {
+   Object "{D2227D2937267A5D}Assets/Items/SRZ_Artifacts/art_droplets/art_droplets.xob"
+   Materials {
+    MaterialAssignClass "{6610E07ABF866464}" {
+     SourceMaterial "art_droplets_Mat"
+     AssignedMaterial "{EA080C55DE030FF5}Assets/Items/SRZ_Artifacts/art_droplets/Data/art_droplets.emat"
+    }
+    MaterialAssignClass "{6610E07ABF866477}" {
+     SourceMaterial "art_droplets_Mat"
+     AssignedMaterial "{EA080C55DE030FF5}Assets/Items/SRZ_Artifacts/art_droplets/Data/art_droplets.emat"
+    }
+   }
+  }
+  ParametricMaterialInstanceComponent "{5D0CB95BC1CDFBAD}" {
+   ColorEmissive 0 0 0 1
+   EmissiveMultiplier 0
+   UserParamAlpha 0
+  }
  }
+ scale 1.25
 }

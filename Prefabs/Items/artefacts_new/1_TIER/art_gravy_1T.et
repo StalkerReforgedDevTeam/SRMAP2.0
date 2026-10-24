@@ -8,5 +8,24 @@ GameEntity : "{A56F4E9C4ECA2CD9}Prefabs/Items/artefacts_new/base_art.et" {
     }
    }
   }
+  MeshObject "{5D0CB95BC1CDFBAE}" {
+   Object "{103F1932B7792032}Assets/Items/SRZ_Artifacts/art_stoneflower/art_stoneflower.xob"
+   Materials {
+    MaterialAssignClass "{6610E07ABF866464}" {
+     SourceMaterial "art_stoneflower_Mat"
+     AssignedMaterial "{B5955A3AF19F0956}Assets/Items/SRZ_Artifacts/art_stoneflower/Data/art_stoneflower.emat"
+    }
+    MaterialAssignClass "{6610E07ABF866477}" {
+     SourceMaterial "art_stoneflower_Mat"
+     AssignedMaterial "{B5955A3AF19F0956}Assets/Items/SRZ_Artifacts/art_stoneflower/Data/art_stoneflower.emat"
+    }
+   }
+  }
+  ParametricMaterialInstanceComponent "{5D0CB95BC1CDFBAD}" {
+   ColorEmissive 0 0 0 1
+   EmissiveMultiplier 0
+   UserParamAlpha 0
+  }
  }
+ scale 1.25
 }
