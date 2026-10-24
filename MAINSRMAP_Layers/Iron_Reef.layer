@@ -13,7 +13,7 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
     m_InitialSpawnDelay 15
     m_CheckInterval 201
     m_CheckPlayerRadius 50
-    m_SpawnChance 40
+    m_SpawnChance 47
     m_PlayerDetectionRadius 164
     m_RespawnDelayAfterDelete 1098
     m_SpawnGroups {
@@ -34,7 +34,7 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
     m_InitialSpawnDelay 15
     m_CheckInterval 201
     m_CheckPlayerRadius 50
-    m_SpawnChance 40
+    m_SpawnChance 47
     m_PlayerDetectionRadius 164
     m_RespawnDelayAfterDelete 1098
     m_SpawnGroups {
@@ -55,7 +55,7 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
     m_InitialSpawnDelay 15
     m_CheckInterval 201
     m_CheckPlayerRadius 50
-    m_SpawnChance 40
+    m_SpawnChance 47
     m_PlayerDetectionRadius 164
     m_RespawnDelayAfterDelete 1098
     m_SpawnGroups {
@@ -76,7 +76,7 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
     m_InitialSpawnDelay 15
     m_CheckInterval 201
     m_CheckPlayerRadius 50
-    m_SpawnChance 40
+    m_SpawnChance 47
     m_PlayerDetectionRadius 164
     m_RespawnDelayAfterDelete 1098
     m_SpawnGroups {
@@ -97,7 +97,7 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
     m_InitialSpawnDelay 15
     m_CheckInterval 201
     m_CheckPlayerRadius 50
-    m_SpawnChance 40
+    m_SpawnChance 47
     m_PlayerDetectionRadius 164
     m_RespawnDelayAfterDelete 1098
     m_SpawnGroups {
