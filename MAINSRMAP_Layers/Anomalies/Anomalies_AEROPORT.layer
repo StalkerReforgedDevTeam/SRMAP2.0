@@ -107,8 +107,8 @@ $grp GenericEntity : "{1168548775106B49}Prefabs/Systems/DamageAreas/DamageArea_F
 }
 $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRIGGER_ANOMAL.et" {
  ELECTRO_ANOMALY10 {
-  coords 2434.385 301.233 1515.266
-  SphereRadius 70
+  coords 2416.018 301.233 1607.497
+  SphereRadius 47
   TriggerActivationType "Every query"
   UpdatePeriod 20
   m_ObjectPrefab "{764A0D38D69BA7F3}Prefabs/Anomals/Jarka/ARMST_JARKA_T2.et"
@@ -131,8 +131,8 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_SpawnChanceArtefacts 25
  }
  ELECTRO_ANOMALY11 {
-  coords 2334.685 301.233 1494.643
-  SphereRadius 70
+  coords 2368.963 301.233 1354.431
+  SphereRadius 47.1
   TriggerActivationType "Every query"
   UpdatePeriod 20
   m_ObjectPrefab "{86E3F4B993996E43}Prefabs/Anomals/Electro/ARMST_ELECTRO_T2.et"
@@ -155,8 +155,8 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_SpawnChanceArtefacts 25
  }
  ELECTRO_ANOMALY12 {
-  coords 2418.043 301.233 1479.216
-  SphereRadius 70
+  coords 2408.022 301.233 1446.933
+  SphereRadius 55.2
   TriggerActivationType "Every query"
   UpdatePeriod 20
   m_ObjectPrefab "{86E3F4B993996E43}Prefabs/Anomals/Electro/ARMST_ELECTRO_T2.et"
@@ -179,8 +179,8 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_SpawnChanceArtefacts 25
  }
  ELECTRO_ANOMALY13 {
-  coords 2485.091 301.233 1546.184
-  SphereRadius 70
+  coords 2513.823 301.233 1602.353
+  SphereRadius 53.9
   TriggerActivationType "Every query"
   UpdatePeriod 20
   m_ObjectPrefab "{764A0D38D69BA7F3}Prefabs/Anomals/Jarka/ARMST_JARKA_T2.et"
@@ -203,8 +203,8 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_SpawnChanceArtefacts 25
  }
  ELECTRO_ANOMALY14 {
-  coords 2532.67 301.233 1441.361
-  SphereRadius 70
+  coords 2549.147 301.233 1443.54
+  SphereRadius 45.6
   TriggerActivationType "Every query"
   UpdatePeriod 20
   m_ObjectPrefab "{86E3F4B993996E43}Prefabs/Anomals/Electro/ARMST_ELECTRO_T2.et"
@@ -227,8 +227,8 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_SpawnChanceArtefacts 25
  }
  ELECTRO_ANOMALY15 {
-  coords 2581.453 301.233 1509.899
-  SphereRadius 70
+  coords 2633.825 301.233 1527.345
+  SphereRadius 59
   TriggerActivationType "Every query"
   UpdatePeriod 20
   m_ObjectPrefab "{764A0D38D69BA7F3}Prefabs/Anomals/Jarka/ARMST_JARKA_T2.et"
@@ -251,8 +251,8 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_SpawnChanceArtefacts 25
  }
  ELECTRO_ANOMALY6 {
-  coords 2336.165 301.233 1545.45
-  SphereRadius 70
+  coords 2332.57 301.233 1541.329
+  SphereRadius 45.4
   TriggerActivationType "Every query"
   UpdatePeriod 20
   m_ObjectPrefab "{86E3F4B993996E43}Prefabs/Anomals/Electro/ARMST_ELECTRO_T2.et"
@@ -275,8 +275,8 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_SpawnChanceArtefacts 25
  }
  ELECTRO_ANOMALY9 {
-  coords 2503.624 301.233 1485.295
-  SphereRadius 70
+  coords 2491.665 301.233 1503.724
+  SphereRadius 50.8
   TriggerActivationType "Every query"
   UpdatePeriod 20
   m_ObjectPrefab "{86E3F4B993996E43}Prefabs/Anomals/Electro/ARMST_ELECTRO_T2.et"
@@ -299,8 +299,8 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_SpawnChanceArtefacts 25
  }
  JARKA_ANOMALY6 {
-  coords 2512.495 301.36 1341.594
-  SphereRadius 93.2
+  coords 2493.086 301.36 1339.062
+  SphereRadius 80.6
   TriggerActivationType "Every query"
   UpdatePeriod 20
   m_ObjectPrefab "{764A0D38D69BA7F3}Prefabs/Anomals/Jarka/ARMST_JARKA_T2.et"
@@ -323,8 +323,8 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_SpawnChanceArtefacts 25
  }
  EYE_ANOMALY8 {
-  coords 2408.078 314.608 1727.645
-  SphereRadius 74.2
+  coords 2397.91 314.608 1716.056
+  SphereRadius 62.9
   TriggerActivationType "Every query"
   UpdatePeriod 20
   m_ObjectPrefab "{1918FCF94E1DC74D}Prefabs/Anomals/Eye/ARMST_EYE.et"
@@ -347,8 +347,8 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_SpawnChanceArtefacts 25
  }
  {
-  coords 2518.472 295.224 1237.561
-  SphereRadius 118.8
+  coords 2474.85 283.808 1154.676
+  SphereRadius 101.3
   TriggerActivationType "Every query"
   UpdatePeriod 20
   m_ObjectPrefab "{E8723A08D2A1E958}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2.et"
@@ -371,8 +371,8 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_SpawnChanceArtefacts 25
  }
  {
-  coords 2231.716 295.991 1222.983
-  SphereRadius 118.8
+  coords 2193.505 295.991 1198.132
+  SphereRadius 109.9
   TriggerActivationType "Every query"
   UpdatePeriod 20
   m_ObjectPrefab "{E8723A08D2A1E958}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2.et"
@@ -395,8 +395,8 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_SpawnChanceArtefacts 25
  }
  {
-  coords 2205.323 302.571 1419.017
-  SphereRadius 118.8
+  coords 2164.582 302.571 1419.512
+  SphereRadius 95.1
   TriggerActivationType "Every query"
   UpdatePeriod 20
   m_ObjectPrefab "{764A0D38D69BA7F3}Prefabs/Anomals/Jarka/ARMST_JARKA_T2.et"
@@ -419,7 +419,31 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_SpawnChanceArtefacts 25
  }
  {
-  coords 2734.635 312.986 1735.099
+  coords 2688.749 312.986 1746.352
+  SphereRadius 111.4
+  TriggerActivationType "Every query"
+  UpdatePeriod 20
+  m_ObjectPrefab "{E8723A08D2A1E958}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2.et"
+  m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
+  m_ObjectPrefab3 "{3A06BEE7589A8F27}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T2.et"
+  m_ArtsPrefab {
+   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/1_TIER/art_gravy_1T_drop.et"
+   "{08A19A43A9C9730B}Prefabs/Items/SRZ_Artifacts/srz_art_acidsponge_drop.et"
+   "{82F336AEF8685AA8}Prefabs/Items/SRZ_Artifacts/srz_art_battery_drop.et"
+   "{43DDC8B4FEB7B84D}Prefabs/Items/SRZ_Artifacts/srz_art_cocoon_drop.et"
+   "{F30B29F44A9F6614}Prefabs/Items/SRZ_Artifacts/srz_art_crystalthorn_drop.et"
+   ""
+   "{C60ED4857C9D70DC}Prefabs/Items/SRZ_Artifacts/srz_art_bracelet_drop.et"
+  }
+  m_MinDistanceBetweenAnomalies 13
+  m_CenterBias 0.5
+  m_MinDistanceToPlayer 12
+  m_SpawnChance 60
+  m_SpawnChanceArtefactsRestart 20
+  m_SpawnChanceArtefacts 25
+ }
+ {
+  coords 2373.33 305.219 1903.882
   SphereRadius 118.8
   TriggerActivationType "Every query"
   UpdatePeriod 20
@@ -443,31 +467,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_SpawnChanceArtefacts 25
  }
  {
-  coords 2333.976 305.219 1889.525
-  SphereRadius 118.8
-  TriggerActivationType "Every query"
-  UpdatePeriod 20
-  m_ObjectPrefab "{E8723A08D2A1E958}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2.et"
-  m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
-  m_ObjectPrefab3 "{3A06BEE7589A8F27}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T2.et"
-  m_ArtsPrefab {
-   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/1_TIER/art_gravy_1T_drop.et"
-   "{08A19A43A9C9730B}Prefabs/Items/SRZ_Artifacts/srz_art_acidsponge_drop.et"
-   "{82F336AEF8685AA8}Prefabs/Items/SRZ_Artifacts/srz_art_battery_drop.et"
-   "{43DDC8B4FEB7B84D}Prefabs/Items/SRZ_Artifacts/srz_art_cocoon_drop.et"
-   "{F30B29F44A9F6614}Prefabs/Items/SRZ_Artifacts/srz_art_crystalthorn_drop.et"
-   ""
-   "{C60ED4857C9D70DC}Prefabs/Items/SRZ_Artifacts/srz_art_bracelet_drop.et"
-  }
-  m_MinDistanceBetweenAnomalies 13
-  m_CenterBias 0.5
-  m_MinDistanceToPlayer 12
-  m_SpawnChance 60
-  m_SpawnChanceArtefactsRestart 20
-  m_SpawnChanceArtefacts 25
- }
- {
-  coords 2118.996 302.75 1913.822
+  coords 2156.797 302.75 1906.95
   SphereRadius 118.8
   TriggerActivationType "Every query"
   UpdatePeriod 20
@@ -587,9 +587,9 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_SpawnChanceArtefacts 25
  }
  ART_ANOMAL_24 {
-  coords 2505.272 303.277 1343.622
+  coords 2663.142 303.277 1383.328
   scale 0.342
-  SphereRadius 114.1
+  SphereRadius 69.8
   TriggerActivationType "Every query"
   UpdatePeriod 20
   m_ObjectPrefab "{764A0D38D69BA7F3}Prefabs/Anomals/Jarka/ARMST_JARKA_T2.et"
@@ -612,9 +612,9 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_SpawnChanceArtefacts 25
  }
  ART_ANOMAL_25 {
-  coords 2319.26 301.233 1522.375
+  coords 2539.218 301.233 1687.033
   scale 0.342
-  SphereRadius 114.1
+  SphereRadius 54.4
   TriggerActivationType "Every query"
   UpdatePeriod 20
   m_ObjectPrefab "{86E3F4B993996E43}Prefabs/Anomals/Electro/ARMST_ELECTRO_T2.et"
@@ -637,9 +637,9 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_SpawnChanceArtefacts 25
  }
  ART_ANOMAL2 {
-  coords 2722.838 296.841 1615.22
+  coords 2911.277 296.841 1605.548
   scale 0.342
-  SphereRadius 109.7
+  SphereRadius 64.8
   TriggerActivationType "Every query"
   UpdatePeriod 20
   m_ObjectPrefab "{764A0D38D69BA7F3}Prefabs/Anomals/Jarka/ARMST_JARKA_T2.et"
@@ -662,9 +662,9 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_SpawnChanceArtefacts 25
  }
  ART_ANOMAL3 {
-  coords 2238.151 300.472 1765.658
+  coords 2255.702 300.472 1727.198
   scale 0.342
-  SphereRadius 109.7
+  SphereRadius 67.9
   TriggerActivationType "Every query"
   UpdatePeriod 20
   m_ObjectPrefab "{E8723A08D2A1E958}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2.et"
