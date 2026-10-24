@@ -7642,6 +7642,161 @@ $grp GenericEntity : "{0E2CA294E0E751CE}Prefabs/SRZ_Storage/SRZ_FactionStorage_B
   angles 0 86.764 0
  }
 }
+$grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawner.et" {
+ boar53 {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_InitialSpawnDelay 15
+    m_CheckInterval 88
+    m_CheckPlayerRadius 42
+    m_SpawnChance 47
+    m_RespawnDelayAfterDelete 1098
+    m_SpawnGroups {
+     "{D77BDED419E75367}Configs/GAME_SETTING/BOTS/ALIFE/mutants/nighstalker.conf"
+    }
+    m_SpawnGroupsNight {
+     "{D77BDED419E75367}Configs/GAME_SETTING/BOTS/ALIFE/mutants/nighstalker.conf"
+    }
+   }
+  }
+  coords 2033.478 307.514 1811.941
+  scale 50
+ }
+ boar54 {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_InitialSpawnDelay 15
+    m_CheckInterval 88
+    m_CheckPlayerRadius 42
+    m_SpawnChance 47
+    m_RespawnDelayAfterDelete 1098
+    m_SpawnGroups {
+     "{D77BDED419E75367}Configs/GAME_SETTING/BOTS/ALIFE/mutants/nighstalker.conf"
+    }
+    m_SpawnGroupsNight {
+     "{D77BDED419E75367}Configs/GAME_SETTING/BOTS/ALIFE/mutants/nighstalker.conf"
+    }
+   }
+  }
+  coords 2140.598 307.514 1791.271
+  scale 50
+ }
+ boar58 {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_InitialSpawnDelay 15
+    m_CheckInterval 88
+    m_CheckPlayerRadius 42
+    m_SpawnChance 47
+    m_RespawnDelayAfterDelete 1098
+    m_SpawnGroups {
+     "{D77BDED419E75367}Configs/GAME_SETTING/BOTS/ALIFE/mutants/nighstalker.conf"
+    }
+    m_SpawnGroupsNight {
+     "{D77BDED419E75367}Configs/GAME_SETTING/BOTS/ALIFE/mutants/nighstalker.conf"
+    }
+   }
+  }
+  coords 2277.971 307.514 1831.246
+  scale 50
+ }
+ psy_destroyer15 {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_InitialSpawnDelay 15
+    m_CheckInterval 88
+    m_CheckPlayerRadius 42
+    m_SpawnChance 47
+    m_RespawnDelayAfterDelete 1098
+    m_SpawnGroups {
+     "{7A2CF51B0D2A9807}Configs/GAME_SETTING/BOTS/ALIFE/mutants/psy_destroyer.conf"
+     "{7A2CF51B0D2A9807}Configs/GAME_SETTING/BOTS/ALIFE/mutants/psy_destroyer.conf"
+    }
+    m_SpawnGroupsNight {
+     "{7A2CF51B0D2A9807}Configs/GAME_SETTING/BOTS/ALIFE/mutants/psy_destroyer.conf"
+    }
+   }
+  }
+  coords 2332.044 301.233 1546.276
+  scale 50
+ }
+ toxic_8 {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_InitialSpawnDelay 15
+    m_CheckInterval 201
+    m_CheckPlayerRadius 50
+    m_SpawnChance 47
+    m_PlayerDetectionRadius 164
+    m_RespawnDelayAfterDelete 1098
+    m_SpawnGroups {
+     "{DB596D48781B4C20}Configs/GAME_SETTING/BOTS/ALIFE/mutants/toxic.conf"
+    }
+   }
+  }
+  coords 4848.573 311.233 1339.061
+  scale 50
+ }
+ erb3 {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_InitialSpawnDelay 15
+    m_CheckInterval 201
+    m_CheckPlayerRadius 50
+    m_SpawnChance 47
+    m_PlayerDetectionRadius 164
+    m_RespawnDelayAfterDelete 1098
+    m_SpawnGroups {
+     "{D77BDED419E75366}Configs/GAME_SETTING/BOTS/ALIFE/mutants/erb.conf"
+    }
+    m_fMonsterNight 1
+    m_SpawnGroupsNight {
+     "{D77BDED419E75367}Configs/GAME_SETTING/BOTS/ALIFE/mutants/nighstalker.conf"
+    }
+   }
+  }
+  coords 3563.118 300.796 2334.459
+  scale 50
+ }
+ erb7 {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_InitialSpawnDelay 15
+    m_CheckInterval 201
+    m_CheckPlayerRadius 50
+    m_SpawnChance 47
+    m_PlayerDetectionRadius 164
+    m_RespawnDelayAfterDelete 1098
+    m_SpawnGroups {
+     "{D77BDED419E75366}Configs/GAME_SETTING/BOTS/ALIFE/mutants/erb.conf"
+    }
+    m_fMonsterNight 1
+    m_SpawnGroupsNight {
+     "{D77BDED419E75367}Configs/GAME_SETTING/BOTS/ALIFE/mutants/nighstalker.conf"
+    }
+   }
+  }
+  coords 6262.702 307.123 738.287
+  scale 50
+ }
+ toxic_9 {
+  components {
+   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
+    m_InitialSpawnDelay 15
+    m_CheckInterval 201
+    m_CheckPlayerRadius 50
+    m_SpawnChance 47
+    m_PlayerDetectionRadius 164
+    m_RespawnDelayAfterDelete 1098
+    m_SpawnGroups {
+     "{7A2CF51B0D2A9807}Configs/GAME_SETTING/BOTS/ALIFE/mutants/psy_destroyer.conf"
+    }
+   }
+  }
+  coords 3298.45 308.577 1336.861
+  scale 50
+ }
+}
 GenericEntity : "{1461A0D5F8109E86}Prefabs/SRZ_Locks/KeyCrates/ChemicalPlant/SRZ_KeyCrate_ChemicalPlant_Weapons_T2.et" {
  coords 3368.252 309.009 1313.448
 }
@@ -7668,7 +7823,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -7682,7 +7837,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -7696,7 +7851,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -7710,7 +7865,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -7724,7 +7879,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -7738,7 +7893,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -7752,7 +7907,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -7766,7 +7921,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -7780,7 +7935,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -7794,7 +7949,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -7808,7 +7963,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -7822,7 +7977,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -7836,7 +7991,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -7850,7 +8005,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -7864,7 +8019,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -7878,7 +8033,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -7892,7 +8047,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -7906,7 +8061,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -7920,7 +8075,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -7934,7 +8089,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -7948,7 +8103,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -7962,7 +8117,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -7976,7 +8131,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -7990,7 +8145,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8004,7 +8159,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8018,7 +8173,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8032,7 +8187,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8046,7 +8201,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8060,7 +8215,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8074,7 +8229,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8088,7 +8243,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8102,7 +8257,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8116,7 +8271,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8130,7 +8285,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8144,7 +8299,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8158,7 +8313,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8172,7 +8327,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8186,7 +8341,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8200,7 +8355,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8214,7 +8369,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8228,7 +8383,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8242,7 +8397,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8256,7 +8411,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8270,7 +8425,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8284,7 +8439,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8298,7 +8453,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8312,7 +8467,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8326,7 +8481,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8340,7 +8495,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8354,7 +8509,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8368,7 +8523,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8382,7 +8537,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8396,7 +8551,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8410,7 +8565,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8424,7 +8579,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8438,7 +8593,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8452,7 +8607,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8466,7 +8621,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8480,7 +8635,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8494,7 +8649,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8508,7 +8663,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8522,7 +8677,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8536,7 +8691,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8550,7 +8705,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8564,7 +8719,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8578,7 +8733,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8592,7 +8747,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8606,7 +8761,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8620,7 +8775,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8634,7 +8789,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8648,7 +8803,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8662,7 +8817,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8676,7 +8831,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8690,7 +8845,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8704,7 +8859,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8718,7 +8873,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8732,7 +8887,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8746,7 +8901,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8760,7 +8915,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8774,7 +8929,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8788,7 +8943,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8802,7 +8957,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8816,7 +8971,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8830,7 +8985,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8844,7 +8999,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8858,7 +9013,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8872,7 +9027,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8886,7 +9041,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8900,7 +9055,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8914,7 +9069,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8928,7 +9083,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8942,7 +9097,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8956,7 +9111,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8970,7 +9125,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8984,7 +9139,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -8998,7 +9153,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9012,7 +9167,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9026,7 +9181,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9040,7 +9195,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9054,7 +9209,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9068,7 +9223,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9082,7 +9237,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9096,7 +9251,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9110,7 +9265,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9124,7 +9279,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9138,7 +9293,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9152,7 +9307,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9166,7 +9321,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9179,7 +9334,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9192,7 +9347,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9205,7 +9360,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9218,7 +9373,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9231,7 +9386,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9244,7 +9399,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9257,7 +9412,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9271,7 +9426,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9285,7 +9440,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9299,7 +9454,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9313,7 +9468,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9327,7 +9482,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9341,7 +9496,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9355,7 +9510,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9369,7 +9524,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9383,7 +9538,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9397,7 +9552,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9411,7 +9566,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9425,7 +9580,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9439,7 +9594,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9453,7 +9608,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9467,7 +9622,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9481,7 +9636,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9495,7 +9650,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9509,7 +9664,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9523,7 +9678,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9537,7 +9692,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9551,7 +9706,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9565,7 +9720,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9579,7 +9734,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9593,7 +9748,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9607,7 +9762,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9621,7 +9776,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9635,7 +9790,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9649,7 +9804,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9663,7 +9818,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9677,7 +9832,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9691,7 +9846,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9705,7 +9860,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9719,7 +9874,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9733,7 +9888,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9747,7 +9902,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9761,7 +9916,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9775,7 +9930,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9789,7 +9944,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9803,7 +9958,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9817,7 +9972,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9831,7 +9986,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9845,7 +10000,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9859,7 +10014,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9873,7 +10028,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9887,7 +10042,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9901,7 +10056,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9915,7 +10070,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9929,7 +10084,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9943,7 +10098,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9957,7 +10112,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9971,7 +10126,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9985,7 +10140,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -9999,7 +10154,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10013,7 +10168,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10027,7 +10182,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10041,7 +10196,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10055,7 +10210,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10069,7 +10224,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10083,7 +10238,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10097,7 +10252,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10111,7 +10266,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10125,7 +10280,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10139,7 +10294,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10153,7 +10308,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10167,7 +10322,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10181,7 +10336,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10195,7 +10350,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10209,7 +10364,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10223,7 +10378,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10237,7 +10392,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10251,7 +10406,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10265,7 +10420,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10279,7 +10434,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10293,7 +10448,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10307,7 +10462,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10321,7 +10476,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10335,7 +10490,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10349,7 +10504,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10363,7 +10518,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10377,7 +10532,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10391,7 +10546,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10405,7 +10560,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10419,7 +10574,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10433,7 +10588,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10447,7 +10602,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10461,7 +10616,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10475,7 +10630,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10489,7 +10644,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10503,7 +10658,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10517,7 +10672,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10531,7 +10686,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10545,7 +10700,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10559,7 +10714,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10573,7 +10728,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10587,7 +10742,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10601,7 +10756,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10615,7 +10770,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10629,7 +10784,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10643,7 +10798,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10657,7 +10812,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10671,7 +10826,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10685,7 +10840,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10698,7 +10853,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10711,7 +10866,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10724,7 +10879,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10737,7 +10892,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10750,7 +10905,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10763,7 +10918,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10775,7 +10930,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fZoneRadiationLevel 29
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10788,7 +10943,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10801,7 +10956,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10814,7 +10969,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10827,7 +10982,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10840,7 +10995,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10853,7 +11008,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainMedium 3
   m_fFilterDrainHigh 100
  }
@@ -10867,7 +11022,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10880,7 +11035,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10893,7 +11048,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10906,7 +11061,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10919,7 +11074,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10932,7 +11087,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10945,7 +11100,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10958,7 +11113,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10971,7 +11126,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10984,7 +11139,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -10997,7 +11152,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -11010,7 +11165,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -11023,7 +11178,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -11036,7 +11191,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -11049,7 +11204,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -11062,7 +11217,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -11075,7 +11230,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -11088,7 +11243,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -11101,7 +11256,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
  {
@@ -11114,7 +11269,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
   m_fFilterDrainHigh 100
  }
 }

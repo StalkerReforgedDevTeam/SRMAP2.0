@@ -9,7 +9,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
  }
  {
   coords 2510.772 308.302 1358.718
@@ -20,7 +20,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
  }
  {
   coords 2322.303 321.781 1854.632
@@ -31,7 +31,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
  }
  {
   coords 2082.61 323.677 1719.679
@@ -42,7 +42,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
  }
  {
   coords 2028.55 335.985 1906.535
@@ -53,7 +53,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
  }
  {
   coords 2131.977 311.194 1205.617
@@ -64,7 +64,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
  }
  {
   coords 2695.694 299.043 1606.181
@@ -75,7 +75,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
  }
  {
   coords 2783.604 308.073 1538.414
@@ -86,7 +86,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
  }
  {
   coords 3122.685 307.685 1525.752
@@ -97,6 +97,6 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
  }
 }

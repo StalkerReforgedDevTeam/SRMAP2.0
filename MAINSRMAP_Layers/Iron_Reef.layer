@@ -123,7 +123,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
  }
  {
   coords 2439.034 300.081 2821.389
@@ -134,7 +134,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
  }
  {
   coords 2528.773 298.893 2786.99
@@ -145,7 +145,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
  }
  {
   coords 2477.636 293.265 2921.71
@@ -156,7 +156,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
  }
  {
   coords 2475.361 306.419 2762.351
@@ -167,7 +167,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
  }
  {
   coords 2476.77 300.627 2845.826
@@ -178,7 +178,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
  }
  {
   coords 2511.534 298.169 2956.922
@@ -189,7 +189,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
  }
  {
   coords 2381.308 300.925 2736.726
@@ -200,7 +200,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
  }
  {
   coords 2510.73 299.175 2839.34
@@ -211,7 +211,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
  }
  {
   coords 2510.559 298.538 2757.999
@@ -222,7 +222,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
  }
  {
   coords 2405.873 300.145 2941.226
@@ -233,7 +233,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
  }
  {
   coords 2329.052 298.556 2735.66
@@ -244,7 +244,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
  }
  {
   coords 2690.024 301.703 3026.043
@@ -255,7 +255,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
  }
  {
   coords 2586.019 284.202 2732.376
@@ -266,7 +266,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
  }
  {
   coords 2368.621 298.169 2839.514
@@ -277,7 +277,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.04
+  m_fFilterDrainLow 0.07
  }
 }
 GameEntity : "{24089D4BB9AA8913}Prefabs/Method/Props/Camps/Fireplace_Loiters_ground_1.et" {

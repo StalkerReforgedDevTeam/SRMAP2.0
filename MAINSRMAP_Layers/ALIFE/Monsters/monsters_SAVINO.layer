@@ -27,7 +27,7 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
     m_PlayerDetectionRadius 164
     m_RespawnDelayAfterDelete 1098
     m_SpawnGroups {
-     "{AA31A2A6BD9679D4}Configs/GAME_SETTING/BOTS/ALIFE/mutants/zombie.conf"
+     "{349CF4EBE29EFFA2}Configs/GAME_SETTING/BOTS/ALIFE/mutants/wolfs.conf"
     }
     m_fMonsterNight 1
     m_SpawnGroupsNight {
@@ -48,7 +48,11 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
     m_PlayerDetectionRadius 164
     m_RespawnDelayAfterDelete 1098
     m_SpawnGroups {
-     "{C3138D4C69EC31A4}Configs/GAME_SETTING/BOTS/ALIFE/mutants/spiders.conf"
+     "{DB596D48781B4C20}Configs/GAME_SETTING/BOTS/ALIFE/mutants/toxic.conf"
+    }
+    m_fMonsterNight 1
+    m_SpawnGroupsNight {
+     "{DB596D48781B4C20}Configs/GAME_SETTING/BOTS/ALIFE/mutants/toxic.conf"
     }
    }
   }
@@ -65,7 +69,8 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
     m_PlayerDetectionRadius 164
     m_RespawnDelayAfterDelete 1098
     m_SpawnGroups {
-     "{C3138D4C69EC31A4}Configs/GAME_SETTING/BOTS/ALIFE/mutants/spiders.conf"
+     "{DB596D48781B4C20}Configs/GAME_SETTING/BOTS/ALIFE/mutants/toxic.conf"
+     "{AA31A2A6BD9679D4}Configs/GAME_SETTING/BOTS/ALIFE/mutants/zombie.conf"
     }
    }
   }
@@ -99,6 +104,7 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
     m_PlayerDetectionRadius 164
     m_RespawnDelayAfterDelete 1098
     m_SpawnGroups +{
+     "{AA31A2A6BD9679D4}Configs/GAME_SETTING/BOTS/ALIFE/mutants/zombie.conf"
     }
    }
   }
@@ -134,11 +140,13 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
     m_SpawnChance 47
     m_PlayerDetectionRadius 164
     m_RespawnDelayAfterDelete 1098
-    m_SpawnGroups +{
+    m_SpawnGroups {
+     "{DB596D48781B4C20}Configs/GAME_SETTING/BOTS/ALIFE/mutants/toxic.conf"
+     "{AA31A2A6BD9679D4}Configs/GAME_SETTING/BOTS/ALIFE/mutants/zombie.conf"
     }
    }
   }
-  coords 3886.275 297.067 1356.971
+  coords 3825.15 297.067 1355.293
   scale 50
  }
  boar4 {
@@ -152,9 +160,12 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
     m_RespawnDelayAfterDelete 1098
     m_SpawnGroups +{
     }
+    m_SpawnGroupsNight {
+     "{D77BDED419E75367}Configs/GAME_SETTING/BOTS/ALIFE/mutants/nighstalker.conf"
+    }
    }
   }
-  coords 3723.9 301.112 1488.135
+  coords 3754.866 301.112 1495.412
   scale 50
  }
  boar5 {
@@ -174,7 +185,7 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
     }
    }
   }
-  coords 3642.462 311.849 1233.931
+  coords 3644.911 311.849 1201.286
   scale 50
  }
  boar6 {
@@ -289,7 +300,8 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
     m_PlayerDetectionRadius 164
     m_RespawnDelayAfterDelete 1098
     m_SpawnGroups {
-     "{AA31A2A6BD9679D4}Configs/GAME_SETTING/BOTS/ALIFE/mutants/zombie.conf"
+     "{349CF4EBE29EFFA2}Configs/GAME_SETTING/BOTS/ALIFE/mutants/wolfs.conf"
+     "{EC29BADC9F3880F2}Configs/GAME_SETTING/BOTS/ALIFE/mutants/boars.conf"
     }
     m_fMonsterNight 1
     m_SpawnGroupsNight {
@@ -334,22 +346,6 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
   coords 3585.692 302.538 1075.779
   scale 50
  }
- boar12 {
-  components {
-   ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
-    m_InitialSpawnDelay 15
-    m_CheckInterval 201
-    m_CheckPlayerRadius 50
-    m_SpawnChance 47
-    m_PlayerDetectionRadius 164
-    m_RespawnDelayAfterDelete 1098
-    m_SpawnGroups +{
-    }
-   }
-  }
-  coords 3911.785 308.348 523.936
-  scale 50
- }
  boar13 {
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
@@ -360,6 +356,11 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
     m_PlayerDetectionRadius 164
     m_RespawnDelayAfterDelete 1098
     m_SpawnGroups +{
+     "{349CF4EBE29EFFA2}Configs/GAME_SETTING/BOTS/ALIFE/mutants/wolfs.conf"
+    }
+    m_fMonsterNight 1
+    m_SpawnGroupsNight {
+     "{D77BDED419E75367}Configs/GAME_SETTING/BOTS/ALIFE/mutants/nighstalker.conf"
     }
    }
   }
