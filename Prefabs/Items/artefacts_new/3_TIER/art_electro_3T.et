@@ -8,5 +8,24 @@ GameEntity : "{A56F4E9C4ECA2CD9}Prefabs/Items/artefacts_new/base_art.et" {
     }
    }
   }
+  MeshObject "{5D0CB95BC1CDFBAE}" {
+   Object "{8A0BC0F7D33F2AF2}Assets/Items/SRZ_Artifacts/art_moonlight/art_moonlight.xob"
+   Materials {
+    MaterialAssignClass "{6610E07ABF866464}" {
+     SourceMaterial "art_moonlight_Mat"
+     AssignedMaterial "{E77E28947CFA02FB}Assets/Items/SRZ_Artifacts/art_moonlight/Data/art_moonlight.emat"
+    }
+    MaterialAssignClass "{6610E07ABF866477}" {
+     SourceMaterial "art_moonlight_Mat"
+     AssignedMaterial "{E77E28947CFA02FB}Assets/Items/SRZ_Artifacts/art_moonlight/Data/art_moonlight.emat"
+    }
+   }
+  }
+  ParametricMaterialInstanceComponent "{5D0CB95BC1CDFBAD}" {
+   ColorEmissive 0 0 0 1
+   EmissiveMultiplier 0
+   UserParamAlpha 0
+  }
  }
+ scale 1.25
 }

@@ -8,5 +8,24 @@ GameEntity : "{A56F4E9C4ECA2CD9}Prefabs/Items/artefacts_new/base_art.et" {
     }
    }
   }
+  MeshObject "{5D0CB95BC1CDFBAE}" {
+   Object "{AAB5B67C5D0692CE}Assets/Items/SRZ_Artifacts/art_nightstar/art_nightstar.xob"
+   Materials {
+    MaterialAssignClass "{6610E07ABF866464}" {
+     SourceMaterial "art_nightstar_Mat"
+     AssignedMaterial "{45C9271B803E9063}Assets/Items/SRZ_Artifacts/art_nightstar/Data/art_nightstar.emat"
+    }
+    MaterialAssignClass "{6610E07ABF866477}" {
+     SourceMaterial "art_nightstar_Mat"
+     AssignedMaterial "{45C9271B803E9063}Assets/Items/SRZ_Artifacts/art_nightstar/Data/art_nightstar.emat"
+    }
+   }
+  }
+  ParametricMaterialInstanceComponent "{5D0CB95BC1CDFBAD}" {
+   ColorEmissive 0 0 0 1
+   EmissiveMultiplier 0
+   UserParamAlpha 0
+  }
  }
+ scale 1.25
 }

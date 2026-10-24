@@ -8,5 +8,24 @@ GameEntity : "{A56F4E9C4ECA2CD9}Prefabs/Items/artefacts_new/base_art.et" {
     }
    }
   }
+  MeshObject "{5D0CB95BC1CDFBAE}" {
+   Object "{0B17BBD3F26EE732}Assets/Items/SRZ_Artifacts/art_sparkler/art_sparkler.xob"
+   Materials {
+    MaterialAssignClass "{6610E07ABF866464}" {
+     SourceMaterial "art_sparkler_Mat"
+     AssignedMaterial "{EC6C52816ECA59E2}Assets/Items/SRZ_Artifacts/art_sparkler/Data/art_sparkler.emat"
+    }
+    MaterialAssignClass "{6610E07ABF866477}" {
+     SourceMaterial "art_sparkler_Mat"
+     AssignedMaterial "{EC6C52816ECA59E2}Assets/Items/SRZ_Artifacts/art_sparkler/Data/art_sparkler.emat"
+    }
+   }
+  }
+  ParametricMaterialInstanceComponent "{5D0CB95BC1CDFBAD}" {
+   ColorEmissive 0 0 0 1
+   EmissiveMultiplier 0
+   UserParamAlpha 0
+  }
  }
+ scale 1.25
 }

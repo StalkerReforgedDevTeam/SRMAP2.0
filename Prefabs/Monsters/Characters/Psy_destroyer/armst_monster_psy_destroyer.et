@@ -1,6 +1,13 @@
 Armst_Monster_Character : "{3D72793360D42623}622120A5448725E3/Prefabs/Characters/BaconZ_Character_Infected_Basic.et" {
  ID "520EC961A090B1EE"
  components {
+  ARMST_DEATH_COMPONENTS "{65FB0C29F2EE24DA}" {
+   m_PrefabToSpawnDeath ""
+   m_bDeleteOwner 0
+  }
+  Bacon_622120A5448725E3_ExplodeOnDeathComponent "{6642BDCF06F0A047}" {
+   Enabled 0
+  }
   SCR_CharacterDamageManagerComponent "{55872AD7B4E959F2}" {
    "Additional hit zones" {
     SCR_CharacterHealthHitZone Health {

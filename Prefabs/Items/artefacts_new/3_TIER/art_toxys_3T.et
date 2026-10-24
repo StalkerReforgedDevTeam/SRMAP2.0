@@ -8,5 +8,24 @@ GameEntity : "{A56F4E9C4ECA2CD9}Prefabs/Items/artefacts_new/base_art.et" {
     }
    }
   }
+  MeshObject "{5D0CB95BC1CDFBAE}" {
+   Object "{17F43B8D66984801}Assets/Items/SRZ_Artifacts/art_mica/art_mica.xob"
+   Materials {
+    MaterialAssignClass "{6610E07ABF866464}" {
+     SourceMaterial "art_mica_Mat"
+     AssignedMaterial "{DA5FF431264871A7}Assets/Items/SRZ_Artifacts/art_mica/Data/art_mica.emat"
+    }
+    MaterialAssignClass "{6610E07ABF866477}" {
+     SourceMaterial "art_mica_Mat"
+     AssignedMaterial "{DA5FF431264871A7}Assets/Items/SRZ_Artifacts/art_mica/Data/art_mica.emat"
+    }
+   }
+  }
+  ParametricMaterialInstanceComponent "{5D0CB95BC1CDFBAD}" {
+   ColorEmissive 0 0 0 1
+   EmissiveMultiplier 0
+   UserParamAlpha 0
+  }
  }
+ scale 1.25
 }

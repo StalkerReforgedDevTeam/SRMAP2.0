@@ -8,5 +8,24 @@ GameEntity : "{A56F4E9C4ECA2CD9}Prefabs/Items/artefacts_new/base_art.et" {
     }
    }
   }
+  MeshObject "{5D0CB95BC1CDFBAE}" {
+   Object "{F8ADF9B08FD22126}Assets/Items/SRZ_Artifacts/art_fireball/art_fireball.xob"
+   Materials {
+    MaterialAssignClass "{6610E07ABF866464}" {
+     SourceMaterial "art_fireball_Mat"
+     AssignedMaterial "{10C80532E76C8C22}Assets/Items/SRZ_Artifacts/art_fireball/Data/art_fireball.emat"
+    }
+    MaterialAssignClass "{6610E07ABF866477}" {
+     SourceMaterial "art_fireball_Mat"
+     AssignedMaterial "{10C80532E76C8C22}Assets/Items/SRZ_Artifacts/art_fireball/Data/art_fireball.emat"
+    }
+   }
+  }
+  ParametricMaterialInstanceComponent "{5D0CB95BC1CDFBAD}" {
+   ColorEmissive 0 0 0 1
+   EmissiveMultiplier 0
+   UserParamAlpha 0
+  }
  }
+ scale 1.25
 }

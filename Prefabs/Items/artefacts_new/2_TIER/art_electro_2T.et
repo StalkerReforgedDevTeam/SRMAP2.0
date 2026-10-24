@@ -8,5 +8,24 @@ GameEntity : "{A56F4E9C4ECA2CD9}Prefabs/Items/artefacts_new/base_art.et" {
     }
    }
   }
+  MeshObject "{5D0CB95BC1CDFBAE}" {
+   Object "{1034E14C496AD05E}Assets/Items/SRZ_Artifacts/art_flash/art_flash.xob"
+   Materials {
+    MaterialAssignClass "{6610E07ABF866464}" {
+     SourceMaterial "art_flash_Mat"
+     AssignedMaterial "{CC3389BE76878790}Assets/Items/SRZ_Artifacts/art_flash/Data/art_flash.emat"
+    }
+    MaterialAssignClass "{6610E07ABF866477}" {
+     SourceMaterial "art_flash_Mat"
+     AssignedMaterial "{CC3389BE76878790}Assets/Items/SRZ_Artifacts/art_flash/Data/art_flash.emat"
+    }
+   }
+  }
+  ParametricMaterialInstanceComponent "{5D0CB95BC1CDFBAD}" {
+   ColorEmissive 0.442 0.934 1 1
+   EmissiveMultiplier 2
+   UserParamAlpha 0
+  }
  }
+ scale 1.25
 }
