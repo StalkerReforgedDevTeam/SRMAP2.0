@@ -27,10 +27,10 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
    "{82F336AEF8685AA8}Prefabs/Items/SRZ_Artifacts/srz_art_battery_drop.et"
    "{C60ED4857C9D70DC}Prefabs/Items/SRZ_Artifacts/srz_art_bracelet_drop.et"
   }
-  m_SpawnCount 3
+  m_SpawnCount 5
   m_CenterBias 0.5
-  m_SpawnChance 60
-  m_SpawnChanceArtefactsRestart 19
+  m_SpawnChance 53
+  m_SpawnChanceArtefactsRestart 19.32
   m_SpawnChanceArtefacts 20
  }
  JARKA_ANOMALY_4 {
@@ -38,7 +38,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   SphereRadius 54.4
   TriggerActivationType "Every query"
   UpdatePeriod 10
-  m_ObjectPrefab "{F7182983E3890A96}Prefabs/Anomals/Vortex/SRZ_VORTEX.et"
+  m_ObjectPrefab "{69E5D95FFE68FEE6}Prefabs/Anomals/Whirligig/SRZ_WHIRLIGIG.et"
   m_ObjectPrefab2 "{642A15101599EB63}Prefabs/Anomals/Puziriks/ARMST_JARKA_PUZIRIKS.et"
   m_ObjectPrefab3 "{784FF70F5D5BEB3A}Prefabs/Anomals/Jarka/ARMST_JARKA_T1.et"
   m_ArtsPrefab {
@@ -61,10 +61,10 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
    "{82F336AEF8685AA8}Prefabs/Items/SRZ_Artifacts/srz_art_battery_drop.et"
    "{C60ED4857C9D70DC}Prefabs/Items/SRZ_Artifacts/srz_art_bracelet_drop.et"
   }
-  m_SpawnCount 3
+  m_SpawnCount 5
   m_CenterBias 0.1
-  m_SpawnChance 60
-  m_SpawnChanceArtefactsRestart 19
+  m_SpawnChance 53
+  m_SpawnChanceArtefactsRestart 19.32
   m_SpawnChanceArtefacts 20
  }
  {
@@ -95,12 +95,12 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
    "{82F336AEF8685AA8}Prefabs/Items/SRZ_Artifacts/srz_art_battery_drop.et"
    "{C60ED4857C9D70DC}Prefabs/Items/SRZ_Artifacts/srz_art_bracelet_drop.et"
   }
-  m_SpawnCount 7
+  m_SpawnCount 5
   m_MinDistanceBetweenAnomalies 14
   m_CenterBias 0.5
   m_MinDistanceToPlayer 19
-  m_SpawnChance 60
-  m_SpawnChanceArtefactsRestart 19
+  m_SpawnChance 53
+  m_SpawnChanceArtefactsRestart 19.32
   m_SpawnChanceArtefacts 20
  }
  {
@@ -108,7 +108,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   SphereRadius 84.8
   TriggerActivationType "Every query"
   UpdatePeriod 10
-  m_ObjectPrefab "{F7182983E3890A96}Prefabs/Anomals/Vortex/SRZ_VORTEX.et"
+  m_ObjectPrefab "{69E5D95FFE68FEE6}Prefabs/Anomals/Whirligig/SRZ_WHIRLIGIG.et"
   m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
   m_ObjectPrefab3 "{57CC29488C129FC4}Prefabs/Anomals/Moshkara/ARMST_MOSHKARA.et"
   m_ArtsPrefab {
@@ -131,12 +131,12 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
    "{82F336AEF8685AA8}Prefabs/Items/SRZ_Artifacts/srz_art_battery_drop.et"
    "{C60ED4857C9D70DC}Prefabs/Items/SRZ_Artifacts/srz_art_bracelet_drop.et"
   }
-  m_SpawnCount 7
+  m_SpawnCount 5
   m_MinDistanceBetweenAnomalies 14
   m_CenterBias 0.5
   m_MinDistanceToPlayer 19
-  m_SpawnChance 60
-  m_SpawnChanceArtefactsRestart 19
+  m_SpawnChance 53
+  m_SpawnChanceArtefactsRestart 19.32
   m_SpawnChanceArtefacts 20
  }
  {
@@ -167,12 +167,12 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
    "{82F336AEF8685AA8}Prefabs/Items/SRZ_Artifacts/srz_art_battery_drop.et"
    "{C60ED4857C9D70DC}Prefabs/Items/SRZ_Artifacts/srz_art_bracelet_drop.et"
   }
-  m_SpawnCount 7
+  m_SpawnCount 5
   m_MinDistanceBetweenAnomalies 14
   m_CenterBias 0.5
   m_MinDistanceToPlayer 19
-  m_SpawnChance 60
-  m_SpawnChanceArtefactsRestart 19
+  m_SpawnChance 53
+  m_SpawnChanceArtefactsRestart 19.32
   m_SpawnChanceArtefacts 20
  }
  {
@@ -203,12 +203,12 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
    "{82F336AEF8685AA8}Prefabs/Items/SRZ_Artifacts/srz_art_battery_drop.et"
    "{C60ED4857C9D70DC}Prefabs/Items/SRZ_Artifacts/srz_art_bracelet_drop.et"
   }
-  m_SpawnCount 7
+  m_SpawnCount 5
   m_MinDistanceBetweenAnomalies 14
   m_CenterBias 0.5
   m_MinDistanceToPlayer 19
-  m_SpawnChance 60
-  m_SpawnChanceArtefactsRestart 19
+  m_SpawnChance 53
+  m_SpawnChanceArtefactsRestart 19.32
   m_SpawnChanceArtefacts 20
  }
  {
@@ -239,12 +239,12 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
    "{82F336AEF8685AA8}Prefabs/Items/SRZ_Artifacts/srz_art_battery_drop.et"
    "{C60ED4857C9D70DC}Prefabs/Items/SRZ_Artifacts/srz_art_bracelet_drop.et"
   }
-  m_SpawnCount 7
+  m_SpawnCount 5
   m_MinDistanceBetweenAnomalies 14
   m_CenterBias 0.5
   m_MinDistanceToPlayer 19
-  m_SpawnChance 60
-  m_SpawnChanceArtefactsRestart 19
+  m_SpawnChance 53
+  m_SpawnChanceArtefactsRestart 19.32
   m_SpawnChanceArtefacts 20
  }
  {
@@ -275,12 +275,12 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
    "{82F336AEF8685AA8}Prefabs/Items/SRZ_Artifacts/srz_art_battery_drop.et"
    "{C60ED4857C9D70DC}Prefabs/Items/SRZ_Artifacts/srz_art_bracelet_drop.et"
   }
-  m_SpawnCount 7
+  m_SpawnCount 5
   m_MinDistanceBetweenAnomalies 14
   m_CenterBias 0.5
   m_MinDistanceToPlayer 19
-  m_SpawnChance 60
-  m_SpawnChanceArtefactsRestart 19
+  m_SpawnChance 53
+  m_SpawnChanceArtefactsRestart 19.32
   m_SpawnChanceArtefacts 20
  }
  {
@@ -288,7 +288,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   SphereRadius 84.8
   TriggerActivationType "Every query"
   UpdatePeriod 10
-  m_ObjectPrefab "{F7182983E3890A96}Prefabs/Anomals/Vortex/SRZ_VORTEX.et"
+  m_ObjectPrefab "{69E5D95FFE68FEE6}Prefabs/Anomals/Whirligig/SRZ_WHIRLIGIG.et"
   m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
   m_ObjectPrefab3 "{57CC29488C129FC4}Prefabs/Anomals/Moshkara/ARMST_MOSHKARA.et"
   m_ArtsPrefab {
@@ -311,12 +311,12 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
    "{82F336AEF8685AA8}Prefabs/Items/SRZ_Artifacts/srz_art_battery_drop.et"
    "{C60ED4857C9D70DC}Prefabs/Items/SRZ_Artifacts/srz_art_bracelet_drop.et"
   }
-  m_SpawnCount 7
+  m_SpawnCount 5
   m_MinDistanceBetweenAnomalies 14
   m_CenterBias 0.5
   m_MinDistanceToPlayer 19
-  m_SpawnChance 60
-  m_SpawnChanceArtefactsRestart 19
+  m_SpawnChance 53
+  m_SpawnChanceArtefactsRestart 19.32
   m_SpawnChanceArtefacts 20
  }
  {
@@ -347,12 +347,12 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
    "{82F336AEF8685AA8}Prefabs/Items/SRZ_Artifacts/srz_art_battery_drop.et"
    "{C60ED4857C9D70DC}Prefabs/Items/SRZ_Artifacts/srz_art_bracelet_drop.et"
   }
-  m_SpawnCount 7
+  m_SpawnCount 5
   m_MinDistanceBetweenAnomalies 14
   m_CenterBias 0.5
   m_MinDistanceToPlayer 19
-  m_SpawnChance 60
-  m_SpawnChanceArtefactsRestart 19
+  m_SpawnChance 53
+  m_SpawnChanceArtefactsRestart 19.32
   m_SpawnChanceArtefacts 20
  }
  {
@@ -383,12 +383,12 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
    "{82F336AEF8685AA8}Prefabs/Items/SRZ_Artifacts/srz_art_battery_drop.et"
    "{C60ED4857C9D70DC}Prefabs/Items/SRZ_Artifacts/srz_art_bracelet_drop.et"
   }
-  m_SpawnCount 7
+  m_SpawnCount 5
   m_MinDistanceBetweenAnomalies 14
   m_CenterBias 0.5
   m_MinDistanceToPlayer 19
-  m_SpawnChance 60
-  m_SpawnChanceArtefactsRestart 19
+  m_SpawnChance 53
+  m_SpawnChanceArtefactsRestart 19.32
   m_SpawnChanceArtefacts 20
  }
  {
@@ -396,7 +396,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   SphereRadius 84.8
   TriggerActivationType "Every query"
   UpdatePeriod 10
-  m_ObjectPrefab "{F7182983E3890A96}Prefabs/Anomals/Vortex/SRZ_VORTEX.et"
+  m_ObjectPrefab "{69E5D95FFE68FEE6}Prefabs/Anomals/Whirligig/SRZ_WHIRLIGIG.et"
   m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
   m_ObjectPrefab3 "{57CC29488C129FC4}Prefabs/Anomals/Moshkara/ARMST_MOSHKARA.et"
   m_ArtsPrefab {
@@ -419,12 +419,12 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
    "{82F336AEF8685AA8}Prefabs/Items/SRZ_Artifacts/srz_art_battery_drop.et"
    "{C60ED4857C9D70DC}Prefabs/Items/SRZ_Artifacts/srz_art_bracelet_drop.et"
   }
-  m_SpawnCount 7
+  m_SpawnCount 5
   m_MinDistanceBetweenAnomalies 14
   m_CenterBias 0.5
   m_MinDistanceToPlayer 19
-  m_SpawnChance 60
-  m_SpawnChanceArtefactsRestart 19
+  m_SpawnChance 53
+  m_SpawnChanceArtefactsRestart 19.32
   m_SpawnChanceArtefacts 20
  }
  {
@@ -455,12 +455,12 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
    "{82F336AEF8685AA8}Prefabs/Items/SRZ_Artifacts/srz_art_battery_drop.et"
    "{C60ED4857C9D70DC}Prefabs/Items/SRZ_Artifacts/srz_art_bracelet_drop.et"
   }
-  m_SpawnCount 7
+  m_SpawnCount 5
   m_MinDistanceBetweenAnomalies 14
   m_CenterBias 0.5
   m_MinDistanceToPlayer 19
-  m_SpawnChance 60
-  m_SpawnChanceArtefactsRestart 19
+  m_SpawnChance 53
+  m_SpawnChanceArtefactsRestart 19.32
   m_SpawnChanceArtefacts 20
  }
  {
@@ -468,7 +468,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   SphereRadius 84.8
   TriggerActivationType "Every query"
   UpdatePeriod 10
-  m_ObjectPrefab "{F7182983E3890A96}Prefabs/Anomals/Vortex/SRZ_VORTEX.et"
+  m_ObjectPrefab "{69E5D95FFE68FEE6}Prefabs/Anomals/Whirligig/SRZ_WHIRLIGIG.et"
   m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
   m_ObjectPrefab3 "{57CC29488C129FC4}Prefabs/Anomals/Moshkara/ARMST_MOSHKARA.et"
   m_ArtsPrefab {
@@ -491,12 +491,12 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
    "{82F336AEF8685AA8}Prefabs/Items/SRZ_Artifacts/srz_art_battery_drop.et"
    "{C60ED4857C9D70DC}Prefabs/Items/SRZ_Artifacts/srz_art_bracelet_drop.et"
   }
-  m_SpawnCount 7
+  m_SpawnCount 5
   m_MinDistanceBetweenAnomalies 14
   m_CenterBias 0.5
   m_MinDistanceToPlayer 19
-  m_SpawnChance 60
-  m_SpawnChanceArtefactsRestart 19
+  m_SpawnChance 53
+  m_SpawnChanceArtefactsRestart 19.32
   m_SpawnChanceArtefacts 20
  }
  {
@@ -527,12 +527,12 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
    "{82F336AEF8685AA8}Prefabs/Items/SRZ_Artifacts/srz_art_battery_drop.et"
    "{C60ED4857C9D70DC}Prefabs/Items/SRZ_Artifacts/srz_art_bracelet_drop.et"
   }
-  m_SpawnCount 7
+  m_SpawnCount 5
   m_MinDistanceBetweenAnomalies 14
   m_CenterBias 0.5
   m_MinDistanceToPlayer 19
-  m_SpawnChance 60
-  m_SpawnChanceArtefactsRestart 19
+  m_SpawnChance 53
+  m_SpawnChanceArtefactsRestart 19.32
   m_SpawnChanceArtefacts 20
  }
  {
@@ -540,7 +540,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   SphereRadius 84.8
   TriggerActivationType "Every query"
   UpdatePeriod 10
-  m_ObjectPrefab "{F7182983E3890A96}Prefabs/Anomals/Vortex/SRZ_VORTEX.et"
+  m_ObjectPrefab "{69E5D95FFE68FEE6}Prefabs/Anomals/Whirligig/SRZ_WHIRLIGIG.et"
   m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
   m_ObjectPrefab3 "{57CC29488C129FC4}Prefabs/Anomals/Moshkara/ARMST_MOSHKARA.et"
   m_ArtsPrefab {
@@ -563,12 +563,12 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
    "{82F336AEF8685AA8}Prefabs/Items/SRZ_Artifacts/srz_art_battery_drop.et"
    "{C60ED4857C9D70DC}Prefabs/Items/SRZ_Artifacts/srz_art_bracelet_drop.et"
   }
-  m_SpawnCount 7
+  m_SpawnCount 5
   m_MinDistanceBetweenAnomalies 14
   m_CenterBias 0.5
   m_MinDistanceToPlayer 19
-  m_SpawnChance 60
-  m_SpawnChanceArtefactsRestart 19
+  m_SpawnChance 53
+  m_SpawnChanceArtefactsRestart 19.32
   m_SpawnChanceArtefacts 20
  }
  {
@@ -599,12 +599,12 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
    "{82F336AEF8685AA8}Prefabs/Items/SRZ_Artifacts/srz_art_battery_drop.et"
    "{C60ED4857C9D70DC}Prefabs/Items/SRZ_Artifacts/srz_art_bracelet_drop.et"
   }
-  m_SpawnCount 7
+  m_SpawnCount 5
   m_MinDistanceBetweenAnomalies 14
   m_CenterBias 0.5
   m_MinDistanceToPlayer 19
-  m_SpawnChance 60
-  m_SpawnChanceArtefactsRestart 19
+  m_SpawnChance 53
+  m_SpawnChanceArtefactsRestart 19.32
   m_SpawnChanceArtefacts 20
  }
  {
@@ -635,12 +635,12 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
    "{82F336AEF8685AA8}Prefabs/Items/SRZ_Artifacts/srz_art_battery_drop.et"
    "{C60ED4857C9D70DC}Prefabs/Items/SRZ_Artifacts/srz_art_bracelet_drop.et"
   }
-  m_SpawnCount 7
+  m_SpawnCount 5
   m_MinDistanceBetweenAnomalies 14
   m_CenterBias 0.5
   m_MinDistanceToPlayer 19
-  m_SpawnChance 60
-  m_SpawnChanceArtefactsRestart 19
+  m_SpawnChance 53
+  m_SpawnChanceArtefactsRestart 19.32
   m_SpawnChanceArtefacts 20
  }
  ART_ANOMAL_6 {
@@ -672,11 +672,11 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
    "{82F336AEF8685AA8}Prefabs/Items/SRZ_Artifacts/srz_art_battery_drop.et"
    "{C60ED4857C9D70DC}Prefabs/Items/SRZ_Artifacts/srz_art_bracelet_drop.et"
   }
-  m_SpawnCount 3
+  m_SpawnCount 5
   m_MinDistanceBetweenAnomalies 8
   m_CenterBias 0.8
-  m_SpawnChance 60
-  m_SpawnChanceArtefactsRestart 19
+  m_SpawnChance 53
+  m_SpawnChanceArtefactsRestart 19.32
   m_SpawnChanceArtefacts 20
  }
 }
