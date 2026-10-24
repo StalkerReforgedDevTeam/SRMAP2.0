@@ -7,9 +7,14 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab2 "{69E5D95FFE68FEE6}Prefabs/Anomals/Whirligig/SRZ_WHIRLIGIG.et"
   m_ObjectPrefab3 "{D735AA39194BB61C}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2_Rock.et"
   m_ArtsPrefab {
-   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/1_TIER/art_gravy_1T_drop.et"
-   "{EABCF33CC349E7C3}Prefabs/Items/artefacts_new/1_TIER/art_fire_1T_drop.et"
-   "{2F3C09BBF8CCA364}Prefabs/Items/artefacts/armst_art_sharik.et"
+   "{3727E381F2D37F5E}Prefabs/Items/SRZ_Artifacts/srz_art_bloodstone.et"
+   "{A02E7A194B1A18C7}Prefabs/Items/SRZ_Artifacts/srz_art_balloon_drop.et"
+   "{C60ED4857C9D70DC}Prefabs/Items/SRZ_Artifacts/srz_art_bracelet_drop.et"
+   "{43DDC8B4FEB7B84D}Prefabs/Items/SRZ_Artifacts/srz_art_cocoon_drop.et"
+   "{9A323D17EB333099}Prefabs/Items/SRZ_Artifacts/srz_art_crystal_drop.et"
+   "{855AB3DFED11482C}Prefabs/Items/SRZ_Artifacts/srz_art_empty_drop.et"
+   "{36EDCD48C4B859D6}Prefabs/Items/SRZ_Artifacts/srz_art_fireball_drop.et"
+   "{9D4C5C28EFB41D67}Prefabs/Items/SRZ_Artifacts/srz_art_meatchunk_drop.et"
   }
   m_SpawnCount 6
   m_MinDistanceBetweenAnomalies 15
@@ -26,9 +31,14 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab2 "{69E5D95FFE68FEE6}Prefabs/Anomals/Whirligig/SRZ_WHIRLIGIG.et"
   m_ObjectPrefab3 "{D735AA39194BB61C}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2_Rock.et"
   m_ArtsPrefab {
-   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/1_TIER/art_gravy_1T_drop.et"
-   "{EABCF33CC349E7C3}Prefabs/Items/artefacts_new/1_TIER/art_fire_1T_drop.et"
-   "{2F3C09BBF8CCA364}Prefabs/Items/artefacts/armst_art_sharik.et"
+   "{3727E381F2D37F5E}Prefabs/Items/SRZ_Artifacts/srz_art_bloodstone.et"
+   "{A02E7A194B1A18C7}Prefabs/Items/SRZ_Artifacts/srz_art_balloon_drop.et"
+   "{C60ED4857C9D70DC}Prefabs/Items/SRZ_Artifacts/srz_art_bracelet_drop.et"
+   "{43DDC8B4FEB7B84D}Prefabs/Items/SRZ_Artifacts/srz_art_cocoon_drop.et"
+   "{9A323D17EB333099}Prefabs/Items/SRZ_Artifacts/srz_art_crystal_drop.et"
+   "{855AB3DFED11482C}Prefabs/Items/SRZ_Artifacts/srz_art_empty_drop.et"
+   "{36EDCD48C4B859D6}Prefabs/Items/SRZ_Artifacts/srz_art_fireball_drop.et"
+   "{9D4C5C28EFB41D67}Prefabs/Items/SRZ_Artifacts/srz_art_meatchunk_drop.et"
   }
   m_SpawnCount 6
   m_MinDistanceBetweenAnomalies 15
@@ -42,12 +52,17 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   SphereRadius 118.8
   TriggerActivationType "Every query"
   UpdatePeriod 10
-  m_ObjectPrefab2 "{69E5D95FFE68FEE6}Prefabs/Anomals/Whirligig/SRZ_WHIRLIGIG.et"
+  m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
   m_ObjectPrefab3 "{D735AA39194BB61C}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2_Rock.et"
   m_ArtsPrefab {
-   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/1_TIER/art_gravy_1T_drop.et"
-   "{EABCF33CC349E7C3}Prefabs/Items/artefacts_new/1_TIER/art_fire_1T_drop.et"
-   "{2F3C09BBF8CCA364}Prefabs/Items/artefacts/armst_art_sharik.et"
+   "{3727E381F2D37F5E}Prefabs/Items/SRZ_Artifacts/srz_art_bloodstone.et"
+   "{A02E7A194B1A18C7}Prefabs/Items/SRZ_Artifacts/srz_art_balloon_drop.et"
+   "{C60ED4857C9D70DC}Prefabs/Items/SRZ_Artifacts/srz_art_bracelet_drop.et"
+   "{43DDC8B4FEB7B84D}Prefabs/Items/SRZ_Artifacts/srz_art_cocoon_drop.et"
+   "{9A323D17EB333099}Prefabs/Items/SRZ_Artifacts/srz_art_crystal_drop.et"
+   "{855AB3DFED11482C}Prefabs/Items/SRZ_Artifacts/srz_art_empty_drop.et"
+   "{36EDCD48C4B859D6}Prefabs/Items/SRZ_Artifacts/srz_art_fireball_drop.et"
+   "{9D4C5C28EFB41D67}Prefabs/Items/SRZ_Artifacts/srz_art_meatchunk_drop.et"
   }
   m_SpawnCount 6
   m_MinDistanceBetweenAnomalies 15
@@ -61,12 +76,17 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   SphereRadius 118.8
   TriggerActivationType "Every query"
   UpdatePeriod 10
-  m_ObjectPrefab2 "{69E5D95FFE68FEE6}Prefabs/Anomals/Whirligig/SRZ_WHIRLIGIG.et"
+  m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
   m_ObjectPrefab3 "{D735AA39194BB61C}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2_Rock.et"
   m_ArtsPrefab {
-   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/1_TIER/art_gravy_1T_drop.et"
-   "{EABCF33CC349E7C3}Prefabs/Items/artefacts_new/1_TIER/art_fire_1T_drop.et"
-   "{2F3C09BBF8CCA364}Prefabs/Items/artefacts/armst_art_sharik.et"
+   "{3727E381F2D37F5E}Prefabs/Items/SRZ_Artifacts/srz_art_bloodstone.et"
+   "{A02E7A194B1A18C7}Prefabs/Items/SRZ_Artifacts/srz_art_balloon_drop.et"
+   "{C60ED4857C9D70DC}Prefabs/Items/SRZ_Artifacts/srz_art_bracelet_drop.et"
+   "{43DDC8B4FEB7B84D}Prefabs/Items/SRZ_Artifacts/srz_art_cocoon_drop.et"
+   "{9A323D17EB333099}Prefabs/Items/SRZ_Artifacts/srz_art_crystal_drop.et"
+   "{855AB3DFED11482C}Prefabs/Items/SRZ_Artifacts/srz_art_empty_drop.et"
+   "{36EDCD48C4B859D6}Prefabs/Items/SRZ_Artifacts/srz_art_fireball_drop.et"
+   "{9D4C5C28EFB41D67}Prefabs/Items/SRZ_Artifacts/srz_art_meatchunk_drop.et"
   }
   m_SpawnCount 6
   m_MinDistanceBetweenAnomalies 15
@@ -83,9 +103,14 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab2 "{69E5D95FFE68FEE6}Prefabs/Anomals/Whirligig/SRZ_WHIRLIGIG.et"
   m_ObjectPrefab3 "{D735AA39194BB61C}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2_Rock.et"
   m_ArtsPrefab {
-   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/1_TIER/art_gravy_1T_drop.et"
-   "{EABCF33CC349E7C3}Prefabs/Items/artefacts_new/1_TIER/art_fire_1T_drop.et"
-   "{2F3C09BBF8CCA364}Prefabs/Items/artefacts/armst_art_sharik.et"
+   "{3727E381F2D37F5E}Prefabs/Items/SRZ_Artifacts/srz_art_bloodstone.et"
+   "{A02E7A194B1A18C7}Prefabs/Items/SRZ_Artifacts/srz_art_balloon_drop.et"
+   "{C60ED4857C9D70DC}Prefabs/Items/SRZ_Artifacts/srz_art_bracelet_drop.et"
+   "{43DDC8B4FEB7B84D}Prefabs/Items/SRZ_Artifacts/srz_art_cocoon_drop.et"
+   "{9A323D17EB333099}Prefabs/Items/SRZ_Artifacts/srz_art_crystal_drop.et"
+   "{855AB3DFED11482C}Prefabs/Items/SRZ_Artifacts/srz_art_empty_drop.et"
+   "{36EDCD48C4B859D6}Prefabs/Items/SRZ_Artifacts/srz_art_fireball_drop.et"
+   "{9D4C5C28EFB41D67}Prefabs/Items/SRZ_Artifacts/srz_art_meatchunk_drop.et"
   }
   m_SpawnCount 6
   m_MinDistanceBetweenAnomalies 15
@@ -102,9 +127,14 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab2 "{69E5D95FFE68FEE6}Prefabs/Anomals/Whirligig/SRZ_WHIRLIGIG.et"
   m_ObjectPrefab3 "{D735AA39194BB61C}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2_Rock.et"
   m_ArtsPrefab {
-   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/1_TIER/art_gravy_1T_drop.et"
-   "{EABCF33CC349E7C3}Prefabs/Items/artefacts_new/1_TIER/art_fire_1T_drop.et"
-   "{2F3C09BBF8CCA364}Prefabs/Items/artefacts/armst_art_sharik.et"
+   "{3727E381F2D37F5E}Prefabs/Items/SRZ_Artifacts/srz_art_bloodstone.et"
+   "{A02E7A194B1A18C7}Prefabs/Items/SRZ_Artifacts/srz_art_balloon_drop.et"
+   "{C60ED4857C9D70DC}Prefabs/Items/SRZ_Artifacts/srz_art_bracelet_drop.et"
+   "{43DDC8B4FEB7B84D}Prefabs/Items/SRZ_Artifacts/srz_art_cocoon_drop.et"
+   "{9A323D17EB333099}Prefabs/Items/SRZ_Artifacts/srz_art_crystal_drop.et"
+   "{855AB3DFED11482C}Prefabs/Items/SRZ_Artifacts/srz_art_empty_drop.et"
+   "{36EDCD48C4B859D6}Prefabs/Items/SRZ_Artifacts/srz_art_fireball_drop.et"
+   "{9D4C5C28EFB41D67}Prefabs/Items/SRZ_Artifacts/srz_art_meatchunk_drop.et"
   }
   m_SpawnCount 6
   m_MinDistanceBetweenAnomalies 15
@@ -118,12 +148,17 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   SphereRadius 118.8
   TriggerActivationType "Every query"
   UpdatePeriod 10
-  m_ObjectPrefab2 "{69E5D95FFE68FEE6}Prefabs/Anomals/Whirligig/SRZ_WHIRLIGIG.et"
+  m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
   m_ObjectPrefab3 "{D735AA39194BB61C}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2_Rock.et"
   m_ArtsPrefab {
-   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/1_TIER/art_gravy_1T_drop.et"
-   "{EABCF33CC349E7C3}Prefabs/Items/artefacts_new/1_TIER/art_fire_1T_drop.et"
-   "{2F3C09BBF8CCA364}Prefabs/Items/artefacts/armst_art_sharik.et"
+   "{3727E381F2D37F5E}Prefabs/Items/SRZ_Artifacts/srz_art_bloodstone.et"
+   "{A02E7A194B1A18C7}Prefabs/Items/SRZ_Artifacts/srz_art_balloon_drop.et"
+   "{C60ED4857C9D70DC}Prefabs/Items/SRZ_Artifacts/srz_art_bracelet_drop.et"
+   "{43DDC8B4FEB7B84D}Prefabs/Items/SRZ_Artifacts/srz_art_cocoon_drop.et"
+   "{9A323D17EB333099}Prefabs/Items/SRZ_Artifacts/srz_art_crystal_drop.et"
+   "{855AB3DFED11482C}Prefabs/Items/SRZ_Artifacts/srz_art_empty_drop.et"
+   "{36EDCD48C4B859D6}Prefabs/Items/SRZ_Artifacts/srz_art_fireball_drop.et"
+   "{9D4C5C28EFB41D67}Prefabs/Items/SRZ_Artifacts/srz_art_meatchunk_drop.et"
   }
   m_SpawnCount 6
   m_MinDistanceBetweenAnomalies 15
@@ -140,9 +175,14 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab2 "{69E5D95FFE68FEE6}Prefabs/Anomals/Whirligig/SRZ_WHIRLIGIG.et"
   m_ObjectPrefab3 "{D735AA39194BB61C}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2_Rock.et"
   m_ArtsPrefab {
-   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/1_TIER/art_gravy_1T_drop.et"
-   "{EABCF33CC349E7C3}Prefabs/Items/artefacts_new/1_TIER/art_fire_1T_drop.et"
-   "{2F3C09BBF8CCA364}Prefabs/Items/artefacts/armst_art_sharik.et"
+   "{3727E381F2D37F5E}Prefabs/Items/SRZ_Artifacts/srz_art_bloodstone.et"
+   "{A02E7A194B1A18C7}Prefabs/Items/SRZ_Artifacts/srz_art_balloon_drop.et"
+   "{C60ED4857C9D70DC}Prefabs/Items/SRZ_Artifacts/srz_art_bracelet_drop.et"
+   "{43DDC8B4FEB7B84D}Prefabs/Items/SRZ_Artifacts/srz_art_cocoon_drop.et"
+   "{9A323D17EB333099}Prefabs/Items/SRZ_Artifacts/srz_art_crystal_drop.et"
+   "{855AB3DFED11482C}Prefabs/Items/SRZ_Artifacts/srz_art_empty_drop.et"
+   "{36EDCD48C4B859D6}Prefabs/Items/SRZ_Artifacts/srz_art_fireball_drop.et"
+   "{9D4C5C28EFB41D67}Prefabs/Items/SRZ_Artifacts/srz_art_meatchunk_drop.et"
   }
   m_SpawnCount 6
   m_MinDistanceBetweenAnomalies 15
@@ -159,9 +199,14 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab2 "{69E5D95FFE68FEE6}Prefabs/Anomals/Whirligig/SRZ_WHIRLIGIG.et"
   m_ObjectPrefab3 "{D735AA39194BB61C}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2_Rock.et"
   m_ArtsPrefab {
-   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/1_TIER/art_gravy_1T_drop.et"
-   "{EABCF33CC349E7C3}Prefabs/Items/artefacts_new/1_TIER/art_fire_1T_drop.et"
-   "{2F3C09BBF8CCA364}Prefabs/Items/artefacts/armst_art_sharik.et"
+   "{3727E381F2D37F5E}Prefabs/Items/SRZ_Artifacts/srz_art_bloodstone.et"
+   "{A02E7A194B1A18C7}Prefabs/Items/SRZ_Artifacts/srz_art_balloon_drop.et"
+   "{C60ED4857C9D70DC}Prefabs/Items/SRZ_Artifacts/srz_art_bracelet_drop.et"
+   "{43DDC8B4FEB7B84D}Prefabs/Items/SRZ_Artifacts/srz_art_cocoon_drop.et"
+   "{9A323D17EB333099}Prefabs/Items/SRZ_Artifacts/srz_art_crystal_drop.et"
+   "{855AB3DFED11482C}Prefabs/Items/SRZ_Artifacts/srz_art_empty_drop.et"
+   "{36EDCD48C4B859D6}Prefabs/Items/SRZ_Artifacts/srz_art_fireball_drop.et"
+   "{9D4C5C28EFB41D67}Prefabs/Items/SRZ_Artifacts/srz_art_meatchunk_drop.et"
   }
   m_SpawnCount 6
   m_MinDistanceBetweenAnomalies 15
@@ -175,12 +220,17 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   SphereRadius 118.8
   TriggerActivationType "Every query"
   UpdatePeriod 10
-  m_ObjectPrefab2 "{69E5D95FFE68FEE6}Prefabs/Anomals/Whirligig/SRZ_WHIRLIGIG.et"
+  m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
   m_ObjectPrefab3 "{D735AA39194BB61C}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2_Rock.et"
   m_ArtsPrefab {
-   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/1_TIER/art_gravy_1T_drop.et"
-   "{EABCF33CC349E7C3}Prefabs/Items/artefacts_new/1_TIER/art_fire_1T_drop.et"
-   "{2F3C09BBF8CCA364}Prefabs/Items/artefacts/armst_art_sharik.et"
+   "{3727E381F2D37F5E}Prefabs/Items/SRZ_Artifacts/srz_art_bloodstone.et"
+   "{A02E7A194B1A18C7}Prefabs/Items/SRZ_Artifacts/srz_art_balloon_drop.et"
+   "{C60ED4857C9D70DC}Prefabs/Items/SRZ_Artifacts/srz_art_bracelet_drop.et"
+   "{43DDC8B4FEB7B84D}Prefabs/Items/SRZ_Artifacts/srz_art_cocoon_drop.et"
+   "{9A323D17EB333099}Prefabs/Items/SRZ_Artifacts/srz_art_crystal_drop.et"
+   "{855AB3DFED11482C}Prefabs/Items/SRZ_Artifacts/srz_art_empty_drop.et"
+   "{36EDCD48C4B859D6}Prefabs/Items/SRZ_Artifacts/srz_art_fireball_drop.et"
+   "{9D4C5C28EFB41D67}Prefabs/Items/SRZ_Artifacts/srz_art_meatchunk_drop.et"
   }
   m_SpawnCount 6
   m_MinDistanceBetweenAnomalies 15
@@ -197,9 +247,14 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab2 "{69E5D95FFE68FEE6}Prefabs/Anomals/Whirligig/SRZ_WHIRLIGIG.et"
   m_ObjectPrefab3 "{D735AA39194BB61C}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2_Rock.et"
   m_ArtsPrefab {
-   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/1_TIER/art_gravy_1T_drop.et"
-   "{EABCF33CC349E7C3}Prefabs/Items/artefacts_new/1_TIER/art_fire_1T_drop.et"
-   "{2F3C09BBF8CCA364}Prefabs/Items/artefacts/armst_art_sharik.et"
+   "{3727E381F2D37F5E}Prefabs/Items/SRZ_Artifacts/srz_art_bloodstone.et"
+   "{A02E7A194B1A18C7}Prefabs/Items/SRZ_Artifacts/srz_art_balloon_drop.et"
+   "{C60ED4857C9D70DC}Prefabs/Items/SRZ_Artifacts/srz_art_bracelet_drop.et"
+   "{43DDC8B4FEB7B84D}Prefabs/Items/SRZ_Artifacts/srz_art_cocoon_drop.et"
+   "{9A323D17EB333099}Prefabs/Items/SRZ_Artifacts/srz_art_crystal_drop.et"
+   "{855AB3DFED11482C}Prefabs/Items/SRZ_Artifacts/srz_art_empty_drop.et"
+   "{36EDCD48C4B859D6}Prefabs/Items/SRZ_Artifacts/srz_art_fireball_drop.et"
+   "{9D4C5C28EFB41D67}Prefabs/Items/SRZ_Artifacts/srz_art_meatchunk_drop.et"
   }
   m_SpawnCount 6
   m_MinDistanceBetweenAnomalies 15
@@ -213,12 +268,17 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   SphereRadius 118.8
   TriggerActivationType "Every query"
   UpdatePeriod 10
-  m_ObjectPrefab2 "{69E5D95FFE68FEE6}Prefabs/Anomals/Whirligig/SRZ_WHIRLIGIG.et"
+  m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
   m_ObjectPrefab3 "{D735AA39194BB61C}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2_Rock.et"
   m_ArtsPrefab {
-   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/1_TIER/art_gravy_1T_drop.et"
-   "{EABCF33CC349E7C3}Prefabs/Items/artefacts_new/1_TIER/art_fire_1T_drop.et"
-   "{2F3C09BBF8CCA364}Prefabs/Items/artefacts/armst_art_sharik.et"
+   "{3727E381F2D37F5E}Prefabs/Items/SRZ_Artifacts/srz_art_bloodstone.et"
+   "{A02E7A194B1A18C7}Prefabs/Items/SRZ_Artifacts/srz_art_balloon_drop.et"
+   "{C60ED4857C9D70DC}Prefabs/Items/SRZ_Artifacts/srz_art_bracelet_drop.et"
+   "{43DDC8B4FEB7B84D}Prefabs/Items/SRZ_Artifacts/srz_art_cocoon_drop.et"
+   "{9A323D17EB333099}Prefabs/Items/SRZ_Artifacts/srz_art_crystal_drop.et"
+   "{855AB3DFED11482C}Prefabs/Items/SRZ_Artifacts/srz_art_empty_drop.et"
+   "{36EDCD48C4B859D6}Prefabs/Items/SRZ_Artifacts/srz_art_fireball_drop.et"
+   "{9D4C5C28EFB41D67}Prefabs/Items/SRZ_Artifacts/srz_art_meatchunk_drop.et"
   }
   m_SpawnCount 6
   m_MinDistanceBetweenAnomalies 15
@@ -236,9 +296,14 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab2 "{69E5D95FFE68FEE6}Prefabs/Anomals/Whirligig/SRZ_WHIRLIGIG.et"
   m_ObjectPrefab3 "{3A06BEE7589A8F27}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T2.et"
   m_ArtsPrefab {
-   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/1_TIER/art_gravy_1T_drop.et"
-   "{EABCF33CC349E7C3}Prefabs/Items/artefacts_new/1_TIER/art_fire_1T_drop.et"
-   "{2F3C09BBF8CCA364}Prefabs/Items/artefacts/armst_art_sharik.et"
+   "{3727E381F2D37F5E}Prefabs/Items/SRZ_Artifacts/srz_art_bloodstone.et"
+   "{A02E7A194B1A18C7}Prefabs/Items/SRZ_Artifacts/srz_art_balloon_drop.et"
+   "{C60ED4857C9D70DC}Prefabs/Items/SRZ_Artifacts/srz_art_bracelet_drop.et"
+   "{43DDC8B4FEB7B84D}Prefabs/Items/SRZ_Artifacts/srz_art_cocoon_drop.et"
+   "{9A323D17EB333099}Prefabs/Items/SRZ_Artifacts/srz_art_crystal_drop.et"
+   "{855AB3DFED11482C}Prefabs/Items/SRZ_Artifacts/srz_art_empty_drop.et"
+   "{36EDCD48C4B859D6}Prefabs/Items/SRZ_Artifacts/srz_art_fireball_drop.et"
+   "{9D4C5C28EFB41D67}Prefabs/Items/SRZ_Artifacts/srz_art_meatchunk_drop.et"
   }
   m_SpawnCount 6
   m_MinDistanceBetweenAnomalies 15
@@ -256,9 +321,14 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab2 "{69E5D95FFE68FEE6}Prefabs/Anomals/Whirligig/SRZ_WHIRLIGIG.et"
   m_ObjectPrefab3 "{3A06BEE7589A8F27}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T2.et"
   m_ArtsPrefab {
-   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/1_TIER/art_gravy_1T_drop.et"
-   "{EABCF33CC349E7C3}Prefabs/Items/artefacts_new/1_TIER/art_fire_1T_drop.et"
-   "{2F3C09BBF8CCA364}Prefabs/Items/artefacts/armst_art_sharik.et"
+   "{3727E381F2D37F5E}Prefabs/Items/SRZ_Artifacts/srz_art_bloodstone.et"
+   "{A02E7A194B1A18C7}Prefabs/Items/SRZ_Artifacts/srz_art_balloon_drop.et"
+   "{C60ED4857C9D70DC}Prefabs/Items/SRZ_Artifacts/srz_art_bracelet_drop.et"
+   "{43DDC8B4FEB7B84D}Prefabs/Items/SRZ_Artifacts/srz_art_cocoon_drop.et"
+   "{9A323D17EB333099}Prefabs/Items/SRZ_Artifacts/srz_art_crystal_drop.et"
+   "{855AB3DFED11482C}Prefabs/Items/SRZ_Artifacts/srz_art_empty_drop.et"
+   "{36EDCD48C4B859D6}Prefabs/Items/SRZ_Artifacts/srz_art_fireball_drop.et"
+   "{9D4C5C28EFB41D67}Prefabs/Items/SRZ_Artifacts/srz_art_meatchunk_drop.et"
   }
   m_SpawnCount 6
   m_MinDistanceBetweenAnomalies 15
@@ -273,12 +343,17 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   TriggerActivationType "Every query"
   UpdatePeriod 10
   m_ObjectPrefab "{CABC604DA3CA5864}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier3.et"
-  m_ObjectPrefab2 "{69E5D95FFE68FEE6}Prefabs/Anomals/Whirligig/SRZ_WHIRLIGIG.et"
+  m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
   m_ObjectPrefab3 "{3A06BEE7589A8F27}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T2.et"
   m_ArtsPrefab {
-   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/1_TIER/art_gravy_1T_drop.et"
-   "{EABCF33CC349E7C3}Prefabs/Items/artefacts_new/1_TIER/art_fire_1T_drop.et"
-   "{2F3C09BBF8CCA364}Prefabs/Items/artefacts/armst_art_sharik.et"
+   "{3727E381F2D37F5E}Prefabs/Items/SRZ_Artifacts/srz_art_bloodstone.et"
+   "{A02E7A194B1A18C7}Prefabs/Items/SRZ_Artifacts/srz_art_balloon_drop.et"
+   "{C60ED4857C9D70DC}Prefabs/Items/SRZ_Artifacts/srz_art_bracelet_drop.et"
+   "{43DDC8B4FEB7B84D}Prefabs/Items/SRZ_Artifacts/srz_art_cocoon_drop.et"
+   "{9A323D17EB333099}Prefabs/Items/SRZ_Artifacts/srz_art_crystal_drop.et"
+   "{855AB3DFED11482C}Prefabs/Items/SRZ_Artifacts/srz_art_empty_drop.et"
+   "{36EDCD48C4B859D6}Prefabs/Items/SRZ_Artifacts/srz_art_fireball_drop.et"
+   "{9D4C5C28EFB41D67}Prefabs/Items/SRZ_Artifacts/srz_art_meatchunk_drop.et"
   }
   m_SpawnCount 6
   m_MinDistanceBetweenAnomalies 15
@@ -296,9 +371,14 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab2 "{69E5D95FFE68FEE6}Prefabs/Anomals/Whirligig/SRZ_WHIRLIGIG.et"
   m_ObjectPrefab3 "{3A06BEE7589A8F27}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T2.et"
   m_ArtsPrefab {
-   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/1_TIER/art_gravy_1T_drop.et"
-   "{EABCF33CC349E7C3}Prefabs/Items/artefacts_new/1_TIER/art_fire_1T_drop.et"
-   "{2F3C09BBF8CCA364}Prefabs/Items/artefacts/armst_art_sharik.et"
+   "{3727E381F2D37F5E}Prefabs/Items/SRZ_Artifacts/srz_art_bloodstone.et"
+   "{A02E7A194B1A18C7}Prefabs/Items/SRZ_Artifacts/srz_art_balloon_drop.et"
+   "{C60ED4857C9D70DC}Prefabs/Items/SRZ_Artifacts/srz_art_bracelet_drop.et"
+   "{43DDC8B4FEB7B84D}Prefabs/Items/SRZ_Artifacts/srz_art_cocoon_drop.et"
+   "{9A323D17EB333099}Prefabs/Items/SRZ_Artifacts/srz_art_crystal_drop.et"
+   "{855AB3DFED11482C}Prefabs/Items/SRZ_Artifacts/srz_art_empty_drop.et"
+   "{36EDCD48C4B859D6}Prefabs/Items/SRZ_Artifacts/srz_art_fireball_drop.et"
+   "{9D4C5C28EFB41D67}Prefabs/Items/SRZ_Artifacts/srz_art_meatchunk_drop.et"
   }
   m_SpawnCount 6
   m_MinDistanceBetweenAnomalies 15
@@ -316,9 +396,14 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab2 "{69E5D95FFE68FEE6}Prefabs/Anomals/Whirligig/SRZ_WHIRLIGIG.et"
   m_ObjectPrefab3 "{3A06BEE7589A8F27}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T2.et"
   m_ArtsPrefab {
-   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/1_TIER/art_gravy_1T_drop.et"
-   "{EABCF33CC349E7C3}Prefabs/Items/artefacts_new/1_TIER/art_fire_1T_drop.et"
-   "{2F3C09BBF8CCA364}Prefabs/Items/artefacts/armst_art_sharik.et"
+   "{3727E381F2D37F5E}Prefabs/Items/SRZ_Artifacts/srz_art_bloodstone.et"
+   "{A02E7A194B1A18C7}Prefabs/Items/SRZ_Artifacts/srz_art_balloon_drop.et"
+   "{C60ED4857C9D70DC}Prefabs/Items/SRZ_Artifacts/srz_art_bracelet_drop.et"
+   "{43DDC8B4FEB7B84D}Prefabs/Items/SRZ_Artifacts/srz_art_cocoon_drop.et"
+   "{9A323D17EB333099}Prefabs/Items/SRZ_Artifacts/srz_art_crystal_drop.et"
+   "{855AB3DFED11482C}Prefabs/Items/SRZ_Artifacts/srz_art_empty_drop.et"
+   "{36EDCD48C4B859D6}Prefabs/Items/SRZ_Artifacts/srz_art_fireball_drop.et"
+   "{9D4C5C28EFB41D67}Prefabs/Items/SRZ_Artifacts/srz_art_meatchunk_drop.et"
   }
   m_SpawnCount 6
   m_MinDistanceBetweenAnomalies 15
@@ -336,9 +421,14 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab2 "{69E5D95FFE68FEE6}Prefabs/Anomals/Whirligig/SRZ_WHIRLIGIG.et"
   m_ObjectPrefab3 "{3A06BEE7589A8F27}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T2.et"
   m_ArtsPrefab {
-   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/1_TIER/art_gravy_1T_drop.et"
-   "{EABCF33CC349E7C3}Prefabs/Items/artefacts_new/1_TIER/art_fire_1T_drop.et"
-   "{2F3C09BBF8CCA364}Prefabs/Items/artefacts/armst_art_sharik.et"
+   "{3727E381F2D37F5E}Prefabs/Items/SRZ_Artifacts/srz_art_bloodstone.et"
+   "{A02E7A194B1A18C7}Prefabs/Items/SRZ_Artifacts/srz_art_balloon_drop.et"
+   "{C60ED4857C9D70DC}Prefabs/Items/SRZ_Artifacts/srz_art_bracelet_drop.et"
+   "{43DDC8B4FEB7B84D}Prefabs/Items/SRZ_Artifacts/srz_art_cocoon_drop.et"
+   "{9A323D17EB333099}Prefabs/Items/SRZ_Artifacts/srz_art_crystal_drop.et"
+   "{855AB3DFED11482C}Prefabs/Items/SRZ_Artifacts/srz_art_empty_drop.et"
+   "{36EDCD48C4B859D6}Prefabs/Items/SRZ_Artifacts/srz_art_fireball_drop.et"
+   "{9D4C5C28EFB41D67}Prefabs/Items/SRZ_Artifacts/srz_art_meatchunk_drop.et"
   }
   m_SpawnCount 6
   m_MinDistanceBetweenAnomalies 15
@@ -356,9 +446,14 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab2 "{69E5D95FFE68FEE6}Prefabs/Anomals/Whirligig/SRZ_WHIRLIGIG.et"
   m_ObjectPrefab3 "{3A06BEE7589A8F27}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T2.et"
   m_ArtsPrefab {
-   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/1_TIER/art_gravy_1T_drop.et"
-   "{EABCF33CC349E7C3}Prefabs/Items/artefacts_new/1_TIER/art_fire_1T_drop.et"
-   "{2F3C09BBF8CCA364}Prefabs/Items/artefacts/armst_art_sharik.et"
+   "{3727E381F2D37F5E}Prefabs/Items/SRZ_Artifacts/srz_art_bloodstone.et"
+   "{A02E7A194B1A18C7}Prefabs/Items/SRZ_Artifacts/srz_art_balloon_drop.et"
+   "{C60ED4857C9D70DC}Prefabs/Items/SRZ_Artifacts/srz_art_bracelet_drop.et"
+   "{43DDC8B4FEB7B84D}Prefabs/Items/SRZ_Artifacts/srz_art_cocoon_drop.et"
+   "{9A323D17EB333099}Prefabs/Items/SRZ_Artifacts/srz_art_crystal_drop.et"
+   "{855AB3DFED11482C}Prefabs/Items/SRZ_Artifacts/srz_art_empty_drop.et"
+   "{36EDCD48C4B859D6}Prefabs/Items/SRZ_Artifacts/srz_art_fireball_drop.et"
+   "{9D4C5C28EFB41D67}Prefabs/Items/SRZ_Artifacts/srz_art_meatchunk_drop.et"
   }
   m_SpawnCount 6
   m_MinDistanceBetweenAnomalies 15
@@ -376,9 +471,14 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab2 "{69E5D95FFE68FEE6}Prefabs/Anomals/Whirligig/SRZ_WHIRLIGIG.et"
   m_ObjectPrefab3 "{3A06BEE7589A8F27}Prefabs/Anomals/Trampoline/ARMST_TRAMPOLINE_T2.et"
   m_ArtsPrefab {
-   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/1_TIER/art_gravy_1T_drop.et"
-   "{EABCF33CC349E7C3}Prefabs/Items/artefacts_new/1_TIER/art_fire_1T_drop.et"
-   "{2F3C09BBF8CCA364}Prefabs/Items/artefacts/armst_art_sharik.et"
+   "{3727E381F2D37F5E}Prefabs/Items/SRZ_Artifacts/srz_art_bloodstone.et"
+   "{A02E7A194B1A18C7}Prefabs/Items/SRZ_Artifacts/srz_art_balloon_drop.et"
+   "{C60ED4857C9D70DC}Prefabs/Items/SRZ_Artifacts/srz_art_bracelet_drop.et"
+   "{43DDC8B4FEB7B84D}Prefabs/Items/SRZ_Artifacts/srz_art_cocoon_drop.et"
+   "{9A323D17EB333099}Prefabs/Items/SRZ_Artifacts/srz_art_crystal_drop.et"
+   "{855AB3DFED11482C}Prefabs/Items/SRZ_Artifacts/srz_art_empty_drop.et"
+   "{36EDCD48C4B859D6}Prefabs/Items/SRZ_Artifacts/srz_art_fireball_drop.et"
+   "{9D4C5C28EFB41D67}Prefabs/Items/SRZ_Artifacts/srz_art_meatchunk_drop.et"
   }
   m_SpawnCount 6
   m_MinDistanceBetweenAnomalies 15
@@ -393,10 +493,17 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   SphereRadius 114.1
   TriggerActivationType "Every query"
   UpdatePeriod 10
-  m_ObjectPrefab2 "{69E5D95FFE68FEE6}Prefabs/Anomals/Whirligig/SRZ_WHIRLIGIG.et"
+  m_ObjectPrefab2 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
   m_ObjectPrefab3 "{86E3F4B993996E43}Prefabs/Anomals/Electro/ARMST_ELECTRO_T2.et"
   m_ArtsPrefab {
-   "{00DDB16A5A775F47}Prefabs/Items/artefacts_new/1_TIER/art_electro_1T_drop.et"
+   "{3727E381F2D37F5E}Prefabs/Items/SRZ_Artifacts/srz_art_bloodstone.et"
+   "{A02E7A194B1A18C7}Prefabs/Items/SRZ_Artifacts/srz_art_balloon_drop.et"
+   "{C60ED4857C9D70DC}Prefabs/Items/SRZ_Artifacts/srz_art_bracelet_drop.et"
+   "{43DDC8B4FEB7B84D}Prefabs/Items/SRZ_Artifacts/srz_art_cocoon_drop.et"
+   "{9A323D17EB333099}Prefabs/Items/SRZ_Artifacts/srz_art_crystal_drop.et"
+   "{855AB3DFED11482C}Prefabs/Items/SRZ_Artifacts/srz_art_empty_drop.et"
+   "{36EDCD48C4B859D6}Prefabs/Items/SRZ_Artifacts/srz_art_fireball_drop.et"
+   "{9D4C5C28EFB41D67}Prefabs/Items/SRZ_Artifacts/srz_art_meatchunk_drop.et"
   }
   m_SpawnCount 3
   m_MinDistanceBetweenAnomalies 8
@@ -414,7 +521,14 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab2 "{69E5D95FFE68FEE6}Prefabs/Anomals/Whirligig/SRZ_WHIRLIGIG.et"
   m_ObjectPrefab3 "{D735AA39194BB61C}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2_Rock.et"
   m_ArtsPrefab {
-   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/1_TIER/art_gravy_1T_drop.et"
+   "{3727E381F2D37F5E}Prefabs/Items/SRZ_Artifacts/srz_art_bloodstone.et"
+   "{A02E7A194B1A18C7}Prefabs/Items/SRZ_Artifacts/srz_art_balloon_drop.et"
+   "{C60ED4857C9D70DC}Prefabs/Items/SRZ_Artifacts/srz_art_bracelet_drop.et"
+   "{43DDC8B4FEB7B84D}Prefabs/Items/SRZ_Artifacts/srz_art_cocoon_drop.et"
+   "{9A323D17EB333099}Prefabs/Items/SRZ_Artifacts/srz_art_crystal_drop.et"
+   "{855AB3DFED11482C}Prefabs/Items/SRZ_Artifacts/srz_art_empty_drop.et"
+   "{36EDCD48C4B859D6}Prefabs/Items/SRZ_Artifacts/srz_art_fireball_drop.et"
+   "{9D4C5C28EFB41D67}Prefabs/Items/SRZ_Artifacts/srz_art_meatchunk_drop.et"
   }
   m_SpawnCount 3
   m_MinDistanceBetweenAnomalies 8
@@ -432,7 +546,14 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab2 "{69E5D95FFE68FEE6}Prefabs/Anomals/Whirligig/SRZ_WHIRLIGIG.et"
   m_ObjectPrefab3 "{D735AA39194BB61C}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2_Rock.et"
   m_ArtsPrefab {
-   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/1_TIER/art_gravy_1T_drop.et"
+   "{3727E381F2D37F5E}Prefabs/Items/SRZ_Artifacts/srz_art_bloodstone.et"
+   "{A02E7A194B1A18C7}Prefabs/Items/SRZ_Artifacts/srz_art_balloon_drop.et"
+   "{C60ED4857C9D70DC}Prefabs/Items/SRZ_Artifacts/srz_art_bracelet_drop.et"
+   "{43DDC8B4FEB7B84D}Prefabs/Items/SRZ_Artifacts/srz_art_cocoon_drop.et"
+   "{9A323D17EB333099}Prefabs/Items/SRZ_Artifacts/srz_art_crystal_drop.et"
+   "{855AB3DFED11482C}Prefabs/Items/SRZ_Artifacts/srz_art_empty_drop.et"
+   "{36EDCD48C4B859D6}Prefabs/Items/SRZ_Artifacts/srz_art_fireball_drop.et"
+   "{9D4C5C28EFB41D67}Prefabs/Items/SRZ_Artifacts/srz_art_meatchunk_drop.et"
   }
   m_SpawnCount 3
   m_MinDistanceBetweenAnomalies 8
@@ -450,7 +571,14 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_ObjectPrefab2 "{69E5D95FFE68FEE6}Prefabs/Anomals/Whirligig/SRZ_WHIRLIGIG.et"
   m_ObjectPrefab3 "{D735AA39194BB61C}Prefabs/Anomals/Gravy/ARMST_GRAVY_Tier2_Rock.et"
   m_ArtsPrefab {
-   "{CCD21D34E9CB21BF}Prefabs/Items/artefacts_new/1_TIER/art_gravy_1T_drop.et"
+   "{3727E381F2D37F5E}Prefabs/Items/SRZ_Artifacts/srz_art_bloodstone.et"
+   "{A02E7A194B1A18C7}Prefabs/Items/SRZ_Artifacts/srz_art_balloon_drop.et"
+   "{C60ED4857C9D70DC}Prefabs/Items/SRZ_Artifacts/srz_art_bracelet_drop.et"
+   "{43DDC8B4FEB7B84D}Prefabs/Items/SRZ_Artifacts/srz_art_cocoon_drop.et"
+   "{9A323D17EB333099}Prefabs/Items/SRZ_Artifacts/srz_art_crystal_drop.et"
+   "{855AB3DFED11482C}Prefabs/Items/SRZ_Artifacts/srz_art_empty_drop.et"
+   "{36EDCD48C4B859D6}Prefabs/Items/SRZ_Artifacts/srz_art_fireball_drop.et"
+   "{9D4C5C28EFB41D67}Prefabs/Items/SRZ_Artifacts/srz_art_meatchunk_drop.et"
   }
   m_SpawnCount 3
   m_MinDistanceBetweenAnomalies 8

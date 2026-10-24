@@ -118,6 +118,18 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   UpdatePeriod 7
   m_ObjectPrefab "{1918FCF94E1DC74D}Prefabs/Anomals/Eye/ARMST_EYE.et"
   m_ObjectPrefab3 "{69E5D95FFE68FEE6}Prefabs/Anomals/Whirligig/SRZ_WHIRLIGIG.et"
+  m_ArtsPrefab {
+   "{B098F5017A0DF728}Prefabs/Items/SRZ_Artifacts/srz_art_urchin_drop.et"
+   "{F6596E18A1C6D3CE}Prefabs/Items/SRZ_Artifacts/srz_art_toadseye_drop.et"
+   "{1F3A673D5769098D}Prefabs/Items/SRZ_Artifacts/srz_art_soul_drop.et"
+   "{143C7BCC3325D724}Prefabs/Items/SRZ_Artifacts/srz_art_phantomknot_drop.et"
+   "{CEF165CCDD76B63D}Prefabs/Items/SRZ_Artifacts/srz_art_nightlantern_drop.et"
+   "{54BC3045466027A6}Prefabs/Items/SRZ_Artifacts/srz_art_monolithshard_drop.et"
+   "{541ECC8687DE8816}Prefabs/Items/SRZ_Artifacts/srz_art_moonlight_drop.et"
+   "{272981249BDB283F}Prefabs/Items/SRZ_Artifacts/srz_art_mamasbeads_drop.et"
+   "{18CFAB76B7844B57}Prefabs/Items/SRZ_Artifacts/srz_art_firefly_drop.et"
+   "{F75FD354BA3364F5}Prefabs/Items/SRZ_Artifacts/srz_art_compass_drop.et"
+  }
   m_SpawnCount 7
   m_MinDistanceBetweenAnomalies 15
   m_MinDistanceToPlayer 25
@@ -130,6 +142,18 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   UpdatePeriod 7
   m_ObjectPrefab "{1918FCF94E1DC74D}Prefabs/Anomals/Eye/ARMST_EYE.et"
   m_ObjectPrefab3 "{69E5D95FFE68FEE6}Prefabs/Anomals/Whirligig/SRZ_WHIRLIGIG.et"
+  m_ArtsPrefab {
+   "{B098F5017A0DF728}Prefabs/Items/SRZ_Artifacts/srz_art_urchin_drop.et"
+   "{F6596E18A1C6D3CE}Prefabs/Items/SRZ_Artifacts/srz_art_toadseye_drop.et"
+   "{1F3A673D5769098D}Prefabs/Items/SRZ_Artifacts/srz_art_soul_drop.et"
+   "{143C7BCC3325D724}Prefabs/Items/SRZ_Artifacts/srz_art_phantomknot_drop.et"
+   "{CEF165CCDD76B63D}Prefabs/Items/SRZ_Artifacts/srz_art_nightlantern_drop.et"
+   "{54BC3045466027A6}Prefabs/Items/SRZ_Artifacts/srz_art_monolithshard_drop.et"
+   "{541ECC8687DE8816}Prefabs/Items/SRZ_Artifacts/srz_art_moonlight_drop.et"
+   "{272981249BDB283F}Prefabs/Items/SRZ_Artifacts/srz_art_mamasbeads_drop.et"
+   "{18CFAB76B7844B57}Prefabs/Items/SRZ_Artifacts/srz_art_firefly_drop.et"
+   "{F75FD354BA3364F5}Prefabs/Items/SRZ_Artifacts/srz_art_compass_drop.et"
+  }
   m_SpawnCount 7
   m_MinDistanceBetweenAnomalies 15
   m_MinDistanceToPlayer 25
@@ -141,7 +165,19 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   SphereRadius 72.6
   UpdatePeriod 7
   m_ObjectPrefab "{1918FCF94E1DC74D}Prefabs/Anomals/Eye/ARMST_EYE.et"
-  m_ObjectPrefab3 "{69E5D95FFE68FEE6}Prefabs/Anomals/Whirligig/SRZ_WHIRLIGIG.et"
+  m_ObjectPrefab3 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
+  m_ArtsPrefab {
+   "{B098F5017A0DF728}Prefabs/Items/SRZ_Artifacts/srz_art_urchin_drop.et"
+   "{F6596E18A1C6D3CE}Prefabs/Items/SRZ_Artifacts/srz_art_toadseye_drop.et"
+   "{1F3A673D5769098D}Prefabs/Items/SRZ_Artifacts/srz_art_soul_drop.et"
+   "{143C7BCC3325D724}Prefabs/Items/SRZ_Artifacts/srz_art_phantomknot_drop.et"
+   "{CEF165CCDD76B63D}Prefabs/Items/SRZ_Artifacts/srz_art_nightlantern_drop.et"
+   "{54BC3045466027A6}Prefabs/Items/SRZ_Artifacts/srz_art_monolithshard_drop.et"
+   "{541ECC8687DE8816}Prefabs/Items/SRZ_Artifacts/srz_art_moonlight_drop.et"
+   "{272981249BDB283F}Prefabs/Items/SRZ_Artifacts/srz_art_mamasbeads_drop.et"
+   "{18CFAB76B7844B57}Prefabs/Items/SRZ_Artifacts/srz_art_firefly_drop.et"
+   "{F75FD354BA3364F5}Prefabs/Items/SRZ_Artifacts/srz_art_compass_drop.et"
+  }
   m_SpawnCount 7
   m_MinDistanceBetweenAnomalies 15
   m_MinDistanceToPlayer 25
@@ -154,6 +190,18 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   UpdatePeriod 7
   m_ObjectPrefab "{1918FCF94E1DC74D}Prefabs/Anomals/Eye/ARMST_EYE.et"
   m_ObjectPrefab3 "{69E5D95FFE68FEE6}Prefabs/Anomals/Whirligig/SRZ_WHIRLIGIG.et"
+  m_ArtsPrefab {
+   "{B098F5017A0DF728}Prefabs/Items/SRZ_Artifacts/srz_art_urchin_drop.et"
+   "{F6596E18A1C6D3CE}Prefabs/Items/SRZ_Artifacts/srz_art_toadseye_drop.et"
+   "{1F3A673D5769098D}Prefabs/Items/SRZ_Artifacts/srz_art_soul_drop.et"
+   "{143C7BCC3325D724}Prefabs/Items/SRZ_Artifacts/srz_art_phantomknot_drop.et"
+   "{CEF165CCDD76B63D}Prefabs/Items/SRZ_Artifacts/srz_art_nightlantern_drop.et"
+   "{54BC3045466027A6}Prefabs/Items/SRZ_Artifacts/srz_art_monolithshard_drop.et"
+   "{541ECC8687DE8816}Prefabs/Items/SRZ_Artifacts/srz_art_moonlight_drop.et"
+   "{272981249BDB283F}Prefabs/Items/SRZ_Artifacts/srz_art_mamasbeads_drop.et"
+   "{18CFAB76B7844B57}Prefabs/Items/SRZ_Artifacts/srz_art_firefly_drop.et"
+   "{F75FD354BA3364F5}Prefabs/Items/SRZ_Artifacts/srz_art_compass_drop.et"
+  }
   m_SpawnCount 7
   m_MinDistanceBetweenAnomalies 15
   m_MinDistanceToPlayer 25
@@ -165,7 +213,19 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   SphereRadius 72.6
   UpdatePeriod 7
   m_ObjectPrefab "{1918FCF94E1DC74D}Prefabs/Anomals/Eye/ARMST_EYE.et"
-  m_ObjectPrefab3 "{69E5D95FFE68FEE6}Prefabs/Anomals/Whirligig/SRZ_WHIRLIGIG.et"
+  m_ObjectPrefab3 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
+  m_ArtsPrefab {
+   "{B098F5017A0DF728}Prefabs/Items/SRZ_Artifacts/srz_art_urchin_drop.et"
+   "{F6596E18A1C6D3CE}Prefabs/Items/SRZ_Artifacts/srz_art_toadseye_drop.et"
+   "{1F3A673D5769098D}Prefabs/Items/SRZ_Artifacts/srz_art_soul_drop.et"
+   "{143C7BCC3325D724}Prefabs/Items/SRZ_Artifacts/srz_art_phantomknot_drop.et"
+   "{CEF165CCDD76B63D}Prefabs/Items/SRZ_Artifacts/srz_art_nightlantern_drop.et"
+   "{54BC3045466027A6}Prefabs/Items/SRZ_Artifacts/srz_art_monolithshard_drop.et"
+   "{541ECC8687DE8816}Prefabs/Items/SRZ_Artifacts/srz_art_moonlight_drop.et"
+   "{272981249BDB283F}Prefabs/Items/SRZ_Artifacts/srz_art_mamasbeads_drop.et"
+   "{18CFAB76B7844B57}Prefabs/Items/SRZ_Artifacts/srz_art_firefly_drop.et"
+   "{F75FD354BA3364F5}Prefabs/Items/SRZ_Artifacts/srz_art_compass_drop.et"
+  }
   m_SpawnCount 7
   m_MinDistanceBetweenAnomalies 15
   m_MinDistanceToPlayer 25
@@ -178,6 +238,18 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   UpdatePeriod 7
   m_ObjectPrefab "{1918FCF94E1DC74D}Prefabs/Anomals/Eye/ARMST_EYE.et"
   m_ObjectPrefab3 "{69E5D95FFE68FEE6}Prefabs/Anomals/Whirligig/SRZ_WHIRLIGIG.et"
+  m_ArtsPrefab {
+   "{B098F5017A0DF728}Prefabs/Items/SRZ_Artifacts/srz_art_urchin_drop.et"
+   "{F6596E18A1C6D3CE}Prefabs/Items/SRZ_Artifacts/srz_art_toadseye_drop.et"
+   "{1F3A673D5769098D}Prefabs/Items/SRZ_Artifacts/srz_art_soul_drop.et"
+   "{143C7BCC3325D724}Prefabs/Items/SRZ_Artifacts/srz_art_phantomknot_drop.et"
+   "{CEF165CCDD76B63D}Prefabs/Items/SRZ_Artifacts/srz_art_nightlantern_drop.et"
+   "{54BC3045466027A6}Prefabs/Items/SRZ_Artifacts/srz_art_monolithshard_drop.et"
+   "{541ECC8687DE8816}Prefabs/Items/SRZ_Artifacts/srz_art_moonlight_drop.et"
+   "{272981249BDB283F}Prefabs/Items/SRZ_Artifacts/srz_art_mamasbeads_drop.et"
+   "{18CFAB76B7844B57}Prefabs/Items/SRZ_Artifacts/srz_art_firefly_drop.et"
+   "{F75FD354BA3364F5}Prefabs/Items/SRZ_Artifacts/srz_art_compass_drop.et"
+  }
   m_SpawnCount 7
   m_MinDistanceBetweenAnomalies 15
   m_MinDistanceToPlayer 25
@@ -190,6 +262,18 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   UpdatePeriod 7
   m_ObjectPrefab "{1918FCF94E1DC74D}Prefabs/Anomals/Eye/ARMST_EYE.et"
   m_ObjectPrefab3 "{69E5D95FFE68FEE6}Prefabs/Anomals/Whirligig/SRZ_WHIRLIGIG.et"
+  m_ArtsPrefab {
+   "{B098F5017A0DF728}Prefabs/Items/SRZ_Artifacts/srz_art_urchin_drop.et"
+   "{F6596E18A1C6D3CE}Prefabs/Items/SRZ_Artifacts/srz_art_toadseye_drop.et"
+   "{1F3A673D5769098D}Prefabs/Items/SRZ_Artifacts/srz_art_soul_drop.et"
+   "{143C7BCC3325D724}Prefabs/Items/SRZ_Artifacts/srz_art_phantomknot_drop.et"
+   "{CEF165CCDD76B63D}Prefabs/Items/SRZ_Artifacts/srz_art_nightlantern_drop.et"
+   "{54BC3045466027A6}Prefabs/Items/SRZ_Artifacts/srz_art_monolithshard_drop.et"
+   "{541ECC8687DE8816}Prefabs/Items/SRZ_Artifacts/srz_art_moonlight_drop.et"
+   "{272981249BDB283F}Prefabs/Items/SRZ_Artifacts/srz_art_mamasbeads_drop.et"
+   "{18CFAB76B7844B57}Prefabs/Items/SRZ_Artifacts/srz_art_firefly_drop.et"
+   "{F75FD354BA3364F5}Prefabs/Items/SRZ_Artifacts/srz_art_compass_drop.et"
+  }
   m_SpawnCount 7
   m_MinDistanceBetweenAnomalies 15
   m_MinDistanceToPlayer 25
@@ -201,7 +285,19 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   SphereRadius 72.6
   UpdatePeriod 7
   m_ObjectPrefab "{1918FCF94E1DC74D}Prefabs/Anomals/Eye/ARMST_EYE.et"
-  m_ObjectPrefab3 "{69E5D95FFE68FEE6}Prefabs/Anomals/Whirligig/SRZ_WHIRLIGIG.et"
+  m_ObjectPrefab3 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
+  m_ArtsPrefab {
+   "{B098F5017A0DF728}Prefabs/Items/SRZ_Artifacts/srz_art_urchin_drop.et"
+   "{F6596E18A1C6D3CE}Prefabs/Items/SRZ_Artifacts/srz_art_toadseye_drop.et"
+   "{1F3A673D5769098D}Prefabs/Items/SRZ_Artifacts/srz_art_soul_drop.et"
+   "{143C7BCC3325D724}Prefabs/Items/SRZ_Artifacts/srz_art_phantomknot_drop.et"
+   "{CEF165CCDD76B63D}Prefabs/Items/SRZ_Artifacts/srz_art_nightlantern_drop.et"
+   "{54BC3045466027A6}Prefabs/Items/SRZ_Artifacts/srz_art_monolithshard_drop.et"
+   "{541ECC8687DE8816}Prefabs/Items/SRZ_Artifacts/srz_art_moonlight_drop.et"
+   "{272981249BDB283F}Prefabs/Items/SRZ_Artifacts/srz_art_mamasbeads_drop.et"
+   "{18CFAB76B7844B57}Prefabs/Items/SRZ_Artifacts/srz_art_firefly_drop.et"
+   "{F75FD354BA3364F5}Prefabs/Items/SRZ_Artifacts/srz_art_compass_drop.et"
+  }
   m_SpawnCount 7
   m_MinDistanceBetweenAnomalies 15
   m_MinDistanceToPlayer 25
@@ -214,6 +310,18 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   UpdatePeriod 7
   m_ObjectPrefab "{1918FCF94E1DC74D}Prefabs/Anomals/Eye/ARMST_EYE.et"
   m_ObjectPrefab3 "{69E5D95FFE68FEE6}Prefabs/Anomals/Whirligig/SRZ_WHIRLIGIG.et"
+  m_ArtsPrefab {
+   "{B098F5017A0DF728}Prefabs/Items/SRZ_Artifacts/srz_art_urchin_drop.et"
+   "{F6596E18A1C6D3CE}Prefabs/Items/SRZ_Artifacts/srz_art_toadseye_drop.et"
+   "{1F3A673D5769098D}Prefabs/Items/SRZ_Artifacts/srz_art_soul_drop.et"
+   "{143C7BCC3325D724}Prefabs/Items/SRZ_Artifacts/srz_art_phantomknot_drop.et"
+   "{CEF165CCDD76B63D}Prefabs/Items/SRZ_Artifacts/srz_art_nightlantern_drop.et"
+   "{54BC3045466027A6}Prefabs/Items/SRZ_Artifacts/srz_art_monolithshard_drop.et"
+   "{541ECC8687DE8816}Prefabs/Items/SRZ_Artifacts/srz_art_moonlight_drop.et"
+   "{272981249BDB283F}Prefabs/Items/SRZ_Artifacts/srz_art_mamasbeads_drop.et"
+   "{18CFAB76B7844B57}Prefabs/Items/SRZ_Artifacts/srz_art_firefly_drop.et"
+   "{F75FD354BA3364F5}Prefabs/Items/SRZ_Artifacts/srz_art_compass_drop.et"
+  }
   m_SpawnCount 7
   m_MinDistanceBetweenAnomalies 15
   m_MinDistanceToPlayer 25
@@ -226,6 +334,18 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   UpdatePeriod 7
   m_ObjectPrefab "{1918FCF94E1DC74D}Prefabs/Anomals/Eye/ARMST_EYE.et"
   m_ObjectPrefab3 "{69E5D95FFE68FEE6}Prefabs/Anomals/Whirligig/SRZ_WHIRLIGIG.et"
+  m_ArtsPrefab {
+   "{B098F5017A0DF728}Prefabs/Items/SRZ_Artifacts/srz_art_urchin_drop.et"
+   "{F6596E18A1C6D3CE}Prefabs/Items/SRZ_Artifacts/srz_art_toadseye_drop.et"
+   "{1F3A673D5769098D}Prefabs/Items/SRZ_Artifacts/srz_art_soul_drop.et"
+   "{143C7BCC3325D724}Prefabs/Items/SRZ_Artifacts/srz_art_phantomknot_drop.et"
+   "{CEF165CCDD76B63D}Prefabs/Items/SRZ_Artifacts/srz_art_nightlantern_drop.et"
+   "{54BC3045466027A6}Prefabs/Items/SRZ_Artifacts/srz_art_monolithshard_drop.et"
+   "{541ECC8687DE8816}Prefabs/Items/SRZ_Artifacts/srz_art_moonlight_drop.et"
+   "{272981249BDB283F}Prefabs/Items/SRZ_Artifacts/srz_art_mamasbeads_drop.et"
+   "{18CFAB76B7844B57}Prefabs/Items/SRZ_Artifacts/srz_art_firefly_drop.et"
+   "{F75FD354BA3364F5}Prefabs/Items/SRZ_Artifacts/srz_art_compass_drop.et"
+  }
   m_SpawnCount 7
   m_MinDistanceBetweenAnomalies 15
   m_MinDistanceToPlayer 25
@@ -237,7 +357,19 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   SphereRadius 72.6
   UpdatePeriod 7
   m_ObjectPrefab "{1918FCF94E1DC74D}Prefabs/Anomals/Eye/ARMST_EYE.et"
-  m_ObjectPrefab3 "{69E5D95FFE68FEE6}Prefabs/Anomals/Whirligig/SRZ_WHIRLIGIG.et"
+  m_ObjectPrefab3 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
+  m_ArtsPrefab {
+   "{B098F5017A0DF728}Prefabs/Items/SRZ_Artifacts/srz_art_urchin_drop.et"
+   "{F6596E18A1C6D3CE}Prefabs/Items/SRZ_Artifacts/srz_art_toadseye_drop.et"
+   "{1F3A673D5769098D}Prefabs/Items/SRZ_Artifacts/srz_art_soul_drop.et"
+   "{143C7BCC3325D724}Prefabs/Items/SRZ_Artifacts/srz_art_phantomknot_drop.et"
+   "{CEF165CCDD76B63D}Prefabs/Items/SRZ_Artifacts/srz_art_nightlantern_drop.et"
+   "{54BC3045466027A6}Prefabs/Items/SRZ_Artifacts/srz_art_monolithshard_drop.et"
+   "{541ECC8687DE8816}Prefabs/Items/SRZ_Artifacts/srz_art_moonlight_drop.et"
+   "{272981249BDB283F}Prefabs/Items/SRZ_Artifacts/srz_art_mamasbeads_drop.et"
+   "{18CFAB76B7844B57}Prefabs/Items/SRZ_Artifacts/srz_art_firefly_drop.et"
+   "{F75FD354BA3364F5}Prefabs/Items/SRZ_Artifacts/srz_art_compass_drop.et"
+  }
   m_SpawnCount 7
   m_MinDistanceBetweenAnomalies 15
   m_MinDistanceToPlayer 25
@@ -250,6 +382,18 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   UpdatePeriod 7
   m_ObjectPrefab "{1918FCF94E1DC74D}Prefabs/Anomals/Eye/ARMST_EYE.et"
   m_ObjectPrefab3 "{69E5D95FFE68FEE6}Prefabs/Anomals/Whirligig/SRZ_WHIRLIGIG.et"
+  m_ArtsPrefab {
+   "{B098F5017A0DF728}Prefabs/Items/SRZ_Artifacts/srz_art_urchin_drop.et"
+   "{F6596E18A1C6D3CE}Prefabs/Items/SRZ_Artifacts/srz_art_toadseye_drop.et"
+   "{1F3A673D5769098D}Prefabs/Items/SRZ_Artifacts/srz_art_soul_drop.et"
+   "{143C7BCC3325D724}Prefabs/Items/SRZ_Artifacts/srz_art_phantomknot_drop.et"
+   "{CEF165CCDD76B63D}Prefabs/Items/SRZ_Artifacts/srz_art_nightlantern_drop.et"
+   "{54BC3045466027A6}Prefabs/Items/SRZ_Artifacts/srz_art_monolithshard_drop.et"
+   "{541ECC8687DE8816}Prefabs/Items/SRZ_Artifacts/srz_art_moonlight_drop.et"
+   "{272981249BDB283F}Prefabs/Items/SRZ_Artifacts/srz_art_mamasbeads_drop.et"
+   "{18CFAB76B7844B57}Prefabs/Items/SRZ_Artifacts/srz_art_firefly_drop.et"
+   "{F75FD354BA3364F5}Prefabs/Items/SRZ_Artifacts/srz_art_compass_drop.et"
+  }
   m_SpawnCount 7
   m_MinDistanceBetweenAnomalies 15
   m_MinDistanceToPlayer 25
@@ -261,7 +405,19 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   SphereRadius 72.6
   UpdatePeriod 7
   m_ObjectPrefab "{1918FCF94E1DC74D}Prefabs/Anomals/Eye/ARMST_EYE.et"
-  m_ObjectPrefab3 "{69E5D95FFE68FEE6}Prefabs/Anomals/Whirligig/SRZ_WHIRLIGIG.et"
+  m_ObjectPrefab3 "{547B3F4AC9003276}Prefabs/Anomals/Grinder/ARMST_GRINDER.et"
+  m_ArtsPrefab {
+   "{B098F5017A0DF728}Prefabs/Items/SRZ_Artifacts/srz_art_urchin_drop.et"
+   "{F6596E18A1C6D3CE}Prefabs/Items/SRZ_Artifacts/srz_art_toadseye_drop.et"
+   "{1F3A673D5769098D}Prefabs/Items/SRZ_Artifacts/srz_art_soul_drop.et"
+   "{143C7BCC3325D724}Prefabs/Items/SRZ_Artifacts/srz_art_phantomknot_drop.et"
+   "{CEF165CCDD76B63D}Prefabs/Items/SRZ_Artifacts/srz_art_nightlantern_drop.et"
+   "{54BC3045466027A6}Prefabs/Items/SRZ_Artifacts/srz_art_monolithshard_drop.et"
+   "{541ECC8687DE8816}Prefabs/Items/SRZ_Artifacts/srz_art_moonlight_drop.et"
+   "{272981249BDB283F}Prefabs/Items/SRZ_Artifacts/srz_art_mamasbeads_drop.et"
+   "{18CFAB76B7844B57}Prefabs/Items/SRZ_Artifacts/srz_art_firefly_drop.et"
+   "{F75FD354BA3364F5}Prefabs/Items/SRZ_Artifacts/srz_art_compass_drop.et"
+  }
   m_SpawnCount 7
   m_MinDistanceBetweenAnomalies 15
   m_MinDistanceToPlayer 25
@@ -274,6 +430,18 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   UpdatePeriod 7
   m_ObjectPrefab "{1918FCF94E1DC74D}Prefabs/Anomals/Eye/ARMST_EYE.et"
   m_ObjectPrefab3 "{69E5D95FFE68FEE6}Prefabs/Anomals/Whirligig/SRZ_WHIRLIGIG.et"
+  m_ArtsPrefab {
+   "{B098F5017A0DF728}Prefabs/Items/SRZ_Artifacts/srz_art_urchin_drop.et"
+   "{F6596E18A1C6D3CE}Prefabs/Items/SRZ_Artifacts/srz_art_toadseye_drop.et"
+   "{1F3A673D5769098D}Prefabs/Items/SRZ_Artifacts/srz_art_soul_drop.et"
+   "{143C7BCC3325D724}Prefabs/Items/SRZ_Artifacts/srz_art_phantomknot_drop.et"
+   "{CEF165CCDD76B63D}Prefabs/Items/SRZ_Artifacts/srz_art_nightlantern_drop.et"
+   "{54BC3045466027A6}Prefabs/Items/SRZ_Artifacts/srz_art_monolithshard_drop.et"
+   "{541ECC8687DE8816}Prefabs/Items/SRZ_Artifacts/srz_art_moonlight_drop.et"
+   "{272981249BDB283F}Prefabs/Items/SRZ_Artifacts/srz_art_mamasbeads_drop.et"
+   "{18CFAB76B7844B57}Prefabs/Items/SRZ_Artifacts/srz_art_firefly_drop.et"
+   "{F75FD354BA3364F5}Prefabs/Items/SRZ_Artifacts/srz_art_compass_drop.et"
+  }
   m_SpawnCount 7
   m_MinDistanceBetweenAnomalies 15
   m_MinDistanceToPlayer 25
