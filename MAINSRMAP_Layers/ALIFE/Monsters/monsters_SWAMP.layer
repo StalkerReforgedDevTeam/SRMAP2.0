@@ -2782,6 +2782,9 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
     m_SpawnChance 47
     m_PlayerDetectionRadius 164
     m_RespawnDelayAfterDelete 1098
+    m_SpawnGroups +{
+     "{349CF4EBE29EFFA2}Configs/GAME_SETTING/BOTS/ALIFE/mutants/wolfs.conf"
+    }
    }
   }
   coords 2319.856 292.481 508.465
@@ -2796,6 +2799,7 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
     m_PlayerDetectionRadius 164
     m_RespawnDelayAfterDelete 1098
     m_SpawnGroups +{
+     "{349CF4EBE29EFFA2}Configs/GAME_SETTING/BOTS/ALIFE/mutants/wolfs.conf"
     }
    }
   }
@@ -2812,6 +2816,7 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
     m_PlayerDetectionRadius 164
     m_RespawnDelayAfterDelete 1098
     m_SpawnGroups +{
+     "{349CF4EBE29EFFA2}Configs/GAME_SETTING/BOTS/ALIFE/mutants/wolfs.conf"
     }
     m_fMonsterNight 1
     m_SpawnGroupsNight {
@@ -2832,6 +2837,7 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
     m_PlayerDetectionRadius 164
     m_RespawnDelayAfterDelete 1098
     m_SpawnGroups +{
+     "{349CF4EBE29EFFA2}Configs/GAME_SETTING/BOTS/ALIFE/mutants/wolfs.conf"
     }
    }
   }
@@ -2952,6 +2958,7 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
     m_PlayerDetectionRadius 164
     m_RespawnDelayAfterDelete 1098
     m_SpawnGroups +{
+     "{349CF4EBE29EFFA2}Configs/GAME_SETTING/BOTS/ALIFE/mutants/wolfs.conf"
     }
    }
   }
@@ -3009,6 +3016,8 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
     m_PlayerDetectionRadius 164
     m_RespawnDelayAfterDelete 1098
     m_SpawnGroups +{
+     "{349CF4EBE29EFFA2}Configs/GAME_SETTING/BOTS/ALIFE/mutants/wolfs.conf"
+     "{AA31A2A6BD9679D4}Configs/GAME_SETTING/BOTS/ALIFE/mutants/zombie.conf"
     }
     m_fMonsterNight 1
     m_SpawnGroupsNight {
@@ -3029,6 +3038,7 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
     m_PlayerDetectionRadius 164
     m_RespawnDelayAfterDelete 1098
     m_SpawnGroups +{
+     "{AA31A2A6BD9679D4}Configs/GAME_SETTING/BOTS/ALIFE/mutants/zombie.conf"
     }
     m_fMonsterNight 1
     m_SpawnGroupsNight {
@@ -3049,6 +3059,7 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
     m_PlayerDetectionRadius 164
     m_RespawnDelayAfterDelete 1098
     m_SpawnGroups +{
+     "{D77BDED419E75366}Configs/GAME_SETTING/BOTS/ALIFE/mutants/erb.conf"
     }
     m_fMonsterNight 1
     m_SpawnGroupsNight {

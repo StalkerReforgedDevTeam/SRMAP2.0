@@ -465,9 +465,12 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
      "{308C5744595D93B7}Configs/Alife/mutants/zombie_soldiers_mixed.conf"
      "{308C5744595D93B7}Configs/Alife/mutants/zombie_soldiers_mixed.conf"
     }
+    m_SpawnGroupsNight {
+     "{D77BDED419E75367}Configs/GAME_SETTING/BOTS/ALIFE/mutants/nighstalker.conf"
+    }
    }
   }
-  coords 3888.884 300.796 2072.54
+  coords 3847.043 300.796 2089.318
  }
 }
 StaticModelEntity : "{1E0BC50E7000DEFD}Prefabs/Structures/Debris/Debris_HouseVillage/Debris_HouseVillage_Metal_Roof_v1.et" {

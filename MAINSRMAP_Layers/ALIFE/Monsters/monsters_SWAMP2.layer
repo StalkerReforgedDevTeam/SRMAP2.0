@@ -122,7 +122,7 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
     m_PlayerDetectionRadius 164
     m_RespawnDelayAfterDelete 1098
     m_SpawnGroups {
-     "{BFD17604337F2F49}Configs/GAME_SETTING/BOTS/ALIFE/mutants/busher.conf"
+     "{349CF4EBE29EFFA2}Configs/GAME_SETTING/BOTS/ALIFE/mutants/wolfs.conf"
     }
    }
   }
@@ -139,7 +139,7 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
     m_PlayerDetectionRadius 164
     m_RespawnDelayAfterDelete 1098
     m_SpawnGroups {
-     "{BFD17604337F2F49}Configs/GAME_SETTING/BOTS/ALIFE/mutants/busher.conf"
+     "{349CF4EBE29EFFA2}Configs/GAME_SETTING/BOTS/ALIFE/mutants/wolfs.conf"
     }
     m_fMonsterNight 1
     m_SpawnGroupsNight {
