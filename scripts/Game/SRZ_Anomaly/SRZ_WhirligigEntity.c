@@ -271,7 +271,7 @@ class SRZ_WhirligigEntity : ARMST_DamagingTriggerEntity
 				continue;
 			}
 
-			controller.Ragdoll((spinS + 3) * 1000);
+			controller.SRZ_WhirlRagdoll((spinS + 3) * 1000);
 			controller.SRZ_BroadcastWhirlSpin(centre, m_fSpinHeight, m_fSpinRadius, m_fSpinSpeed, m_fSpinGrip, spinS + 0.5, dir);
 		}
 
@@ -298,7 +298,7 @@ class SRZ_WhirligigEntity : ARMST_DamagingTriggerEntity
 				continue;
 			}
 
-			controller.Ragdoll(m_fCrushDownSeconds * 1000);
+			controller.SRZ_WhirlRagdoll(m_fCrushDownSeconds * 1000);
 		}
 
 		Collapse();

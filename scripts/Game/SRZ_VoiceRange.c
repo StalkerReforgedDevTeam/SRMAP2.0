@@ -37,6 +37,7 @@ modded class SCR_VONController
 
 	protected int m_iSRZVoiceMode = SRZ_MODE_SPEAK;
 	protected bool m_bSRZVoiceListening;
+	protected bool m_bSRZWarned;
 	protected int m_iSRZSetupTries;
 	protected Widget m_wSRZVoiceRoot;
 	protected RichTextWidget m_wSRZVoiceText;
@@ -188,13 +189,23 @@ modded class SCR_VONController
 			return;
 
 		SCR_VoNComponent comp = SCR_VoNComponent.Cast(character.FindComponent(SRZ_GetModeComponent()));
-		if (!comp || GetVONComponent() == comp)
+		if (!comp)
+		{
+			if (!m_bSRZWarned)
+				Print("[SRZ Voice] Character has no " + SRZ_GetModeComponent().ToString() + ", using the default voice range", LogLevel.WARNING);
+
+			m_bSRZWarned = true;
+			return;
+		}
+
+		if (GetVONComponent() == comp)
 			return;
 
 		if (GetVONComponent())
 			ResetVON();
 
 		SetVONComponent(comp);
+		Print("[SRZ Voice] Talking through " + comp.Type().ToString());
 	}
 
 	//------------------------------------------------------------------------------------------------
@@ -226,7 +237,14 @@ modded class SCR_VONController
 		PlayerController pc = GetGame().GetPlayerController();
 		bool alive = pc && pc.GetControlledEntity();
 		m_wSRZVoiceRoot.SetVisible(alive);
-		if (!alive || !m_wSRZVoiceText)
+		if (!alive)
+			return;
+
+		// The game can swap the voice back to its default after a respawn, radio use or menu, so keep putting ours back
+		if (!SRZ_IsTransmitting())
+			SRZ_ApplyVoiceMode();
+
+		if (!m_wSRZVoiceText)
 			return;
 
 		string on = "<color rgba='120,200,90,255'>|</color>";
@@ -266,12 +284,12 @@ modded class SCR_VONController
 	protected string SRZ_GetModeText()
 	{
 		if (m_iSRZVoiceMode == SRZ_MODE_WHISPER)
-			return "Whisper 20m";
+			return "Whisper 6m";
 
 		if (m_iSRZVoiceMode == SRZ_MODE_SHOUT)
 			return "Shout 100m";
 
-		return "Speak 40m";
+		return "Speak 25m";
 	}
 
 	//------------------------------------------------------------------------------------------------

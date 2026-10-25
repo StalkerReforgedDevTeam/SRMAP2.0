@@ -251,6 +251,7 @@ class SRZ_StimProfile
 class SRZ_StimEffect
 {
 	IEntity m_Char;
+	string m_sUid;
 	ref SRZ_StimProfile m_Profile;
 	float m_fTime;
 }
@@ -258,10 +259,15 @@ class SRZ_StimEffect
 class SRZ_Stims
 {
 	protected static const float TICK = 2;
+	protected static const int SAVE_EVERY = 5;
+	protected static const string SAVE_DIR = "$profile:SRZ_Stims";
 
 	protected static ref array<ref SRZ_StimProfile> s_aProfiles;
 	protected static ref array<ref SRZ_StimEffect> s_aActive = {};
 	protected static bool s_bTicking;
+	protected static int s_iTicks;
+	protected static ref array<IEntity> s_aSeen = {};
+	protected static bool s_bWatching;
 
 	//------------------------------------------------------------------------------------------------
 	static SRZ_StimPhase Phase(float duration, float heal, float stamina, float toxic, float rad, float psy, float water, float eat, bool bleed = false, bool tremor = false)
@@ -298,24 +304,24 @@ class SRZ_Stims
 		s_aProfiles = {};
 
 		// Propital: long steady regen, shakes and thirst after
-		Add("Propital", "armst_itm_stimulator_137", Phase(300, 3, 0, 0, 0, 0, 0, 0), Phase(60, 0, 0, 0, 0, -0.5, -1, 0, false, true));
+		Add("Propital", "armst_itm_stimulator_137", Phase(180, 2, 0, 0, 0, 0, 0, 0), Phase(60, 0, 0, 0, 0, -0.5, -1, 0, false, true));
 		// eTG-c: very fast regen, hard hunger and thirst crash
-		Add("eTG-c", "armst_itm_stimulator_941", Phase(60, 12, 0, 0, 0, 0, 0, 0), Phase(120, 0, 0, 0, 0, 0, -1, -1));
+		Add("eTG-c", "armst_itm_stimulator_941", Phase(40, 8, 0, 0, 0, 0, 0, 0), Phase(120, 0, 0, 0, 0, 0, -1, -1));
 		// SJ6 TGLabs: stamina stays topped up, nerves and shakes after
-		Add("SJ6 TGLabs", "armst_itm_stimulator_572", Phase(240, 0, 0.25, 0, 0, 0, -0.2, 0), Phase(60, 0, 0, 0, 0, -1, -0.6, 0, false, true));
+		Add("SJ6 TGLabs", "armst_itm_stimulator_572", Phase(180, 0, 0.15, 0, 0, 0, -0.2, 0), Phase(60, 0, 0, 0, 0, -1, -0.6, 0, false, true));
 		// Adrenaline: short burst of stamina and healing
-		Add("Adrenaline", "armst_itm_stimulator_213", Phase(60, 2, 0.4, 0, 0, 0, 0, 0), Phase(30, 0, 0, 0, 0, 0, -1.5, -0.8));
+		Add("Adrenaline", "armst_itm_stimulator_213", Phase(45, 1, 0.25, 0, 0, 0, 0, 0), Phase(30, 0, 0, 0, 0, 0, -1.5, -0.8));
 		// Zagustin: stops bleeding for three minutes
-		Add("Zagustin", "armst_itm_stimulator_993", Phase(180, 0, 0, 0, 0, 0, -0.3, 0, true));
+		Add("Zagustin", "armst_itm_stimulator_993", Phase(120, 0, 0, 0, 0, 0, -0.3, 0, true));
 		// Perfotoran: flushes toxins and radiation
-		Add("Perfotoran", "armst_itm_stimulator_463", Phase(120, 0, 0, -3, -1.5, 0, 0, 0), Phase(60, 0, 0, 0, 0, 0, -0.8, -0.8));
+		Add("Perfotoran", "armst_itm_stimulator_463", Phase(90, 0, 0, -2, -1, 0, 0, 0), Phase(60, 0, 0, 0, 0, 0, -0.8, -0.8));
 		// SJ9 TGLabs: psy shield, body pays for it after
-		Add("SJ9 TGLabs", "armst_itm_stimulator_816", Phase(180, 0, 0, 0, 0, 3, 0, 0), Phase(120, -0.8, 0, 0.5, 0, 0, 0, 0, false, true));
+		Add("SJ9 TGLabs", "armst_itm_stimulator_816", Phase(120, 0, 0, 0, 0, 2, 0, 0), Phase(120, -0.8, 0, 0.5, 0, 0, 0, 0, false, true));
 		// Antirad and Antitoxin work over time too
-		Add("Antirad", "armst_itm_stim_derad", Phase(90, 0, 0, 0, -3, 0, -0.3, 0));
-		Add("Antitoxin", "armst_itm_stim_detox", Phase(90, 0, 0, -3, 0, 0, -0.2, 0));
+		Add("Antirad", "armst_itm_stim_derad", Phase(90, 0, 0, 0, -2, 0, -0.3, 0));
+		Add("Antitoxin", "armst_itm_stim_detox", Phase(90, 0, 0, -2, 0, 0, -0.2, 0));
 		// Obdolbos 2: everything at once, then radiation and poison
-		Add("Obdolbos 2", "armst_itm_stimulator_secret_2", Phase(300, 3, 0.25, 0, 0, 2, 0, 0, true), Phase(120, 0, 0, 0.8, 1, 0, -1, -1, false, true));
+		Add("Obdolbos 2", "armst_itm_stimulator_secret_2", Phase(240, 1.5, 0.15, 0, 0, 1.5, 0, 0, true), Phase(120, 0, 0, 0.8, 1, 0, -1, -1, false, true));
 	}
 
 	//------------------------------------------------------------------------------------------------
@@ -325,12 +331,12 @@ class SRZ_Stims
 		SRZ_StimProfile prof = new SRZ_StimProfile();
 		prof.m_sKey = "armst_itm_stimulator_secret_1";
 		prof.m_sName = "Obdolbos";
-		prof.m_Main = Phase(300, 0, 0, 0, 0, 0, 0, 0);
+		prof.m_Main = Phase(240, 0, 0, 0, 0, 0, 0, 0);
 		prof.m_Side = Phase(120, 0, 0, 0, 0, 0, 0, 0);
 
-		if (Math.RandomFloat01() < 0.5) prof.m_Main.m_fHeal = 3;
-		if (Math.RandomFloat01() < 0.5) prof.m_Main.m_fStamina = 0.25;
-		if (Math.RandomFloat01() < 0.5) prof.m_Main.m_fPsy = 2;
+		if (Math.RandomFloat01() < 0.5) prof.m_Main.m_fHeal = 1.5;
+		if (Math.RandomFloat01() < 0.5) prof.m_Main.m_fStamina = 0.15;
+		if (Math.RandomFloat01() < 0.5) prof.m_Main.m_fPsy = 1.5;
 		if (Math.RandomFloat01() < 0.4) prof.m_Main.m_bStopBleed = true;
 		if (Math.RandomFloat01() < 0.4) prof.m_Main.m_fRad = -1.5;
 
@@ -378,25 +384,230 @@ class SRZ_Stims
 		Print("[SRZ Stims] " + prof.m_sName + " started");
 		SRZ_SendHud(character, prof);
 
+		string uid = Uid(character);
 		foreach (SRZ_StimEffect active : s_aActive)
 		{
 			if (active.m_Char == character && active.m_Profile.m_sKey == prof.m_sKey)
 			{
 				active.m_Profile = prof;
 				active.m_fTime = 0;
+				Save(uid);
 				return;
 			}
 		}
 
+		AddEffect(character, uid, prof, 0);
+		Save(uid);
+	}
+
+	//------------------------------------------------------------------------------------------------
+	protected static void AddEffect(IEntity character, string uid, SRZ_StimProfile prof, float time)
+	{
 		SRZ_StimEffect effect = new SRZ_StimEffect();
 		effect.m_Char = character;
+		effect.m_sUid = uid;
 		effect.m_Profile = prof;
+		effect.m_fTime = time;
 		s_aActive.Insert(effect);
 
 		if (!s_bTicking)
 		{
 			s_bTicking = true;
 			GetGame().GetCallqueue().CallLater(Tick, TICK * 1000, true);
+		}
+	}
+
+	//------------------------------------------------------------------------------------------------
+	protected static string Uid(IEntity character)
+	{
+		int playerId = GetGame().GetPlayerManager().GetPlayerIdFromControlledEntity(character);
+		if (playerId <= 0)
+			return string.Empty;
+
+		return SCR_PlayerIdentityUtils.GetPlayerIdentityId(playerId);
+	}
+
+	//------------------------------------------------------------------------------------------------
+	// Saving: one file per player with every running stim, so effects carry over a relog or restart.
+	// Cleared on death or when the last stim runs out.
+	protected static string SaveFile(string uid)
+	{
+		return SAVE_DIR + "/" + uid + ".txt";
+	}
+
+	//------------------------------------------------------------------------------------------------
+	protected static void Save(string uid)
+	{
+		if (uid.IsEmpty())
+			return;
+
+		array<SRZ_StimEffect> mine = {};
+		foreach (SRZ_StimEffect e : s_aActive)
+		{
+			if (e.m_Char && e.m_sUid == uid)
+				mine.Insert(e);
+		}
+
+		if (mine.IsEmpty())
+		{
+			if (FileIO.FileExists(SaveFile(uid)))
+				FileIO.DeleteFile(SaveFile(uid));
+
+			return;
+		}
+
+		FileIO.MakeDirectory(SAVE_DIR);
+		FileHandle file = FileIO.OpenFile(SaveFile(uid), FileMode.WRITE);
+		if (!file)
+			return;
+
+		foreach (SRZ_StimEffect fx : mine)
+		{
+			string line = fx.m_Profile.m_sKey;
+			line += "|" + fx.m_Profile.m_sName;
+			line += "|" + fx.m_fTime.ToString();
+			line += "|" + PhaseText(fx.m_Profile.m_Main);
+			if (fx.m_Profile.m_Side)
+				line += "|1|" + PhaseText(fx.m_Profile.m_Side);
+			else
+				line += "|0";
+
+			file.WriteLine(line);
+		}
+
+		file.Close();
+	}
+
+	//------------------------------------------------------------------------------------------------
+	protected static string PhaseText(SRZ_StimPhase p)
+	{
+		string text = p.m_fDuration.ToString();
+		text += "|" + p.m_fHeal.ToString();
+		text += "|" + p.m_fStamina.ToString();
+		text += "|" + p.m_fToxic.ToString();
+		text += "|" + p.m_fRad.ToString();
+		text += "|" + p.m_fPsy.ToString();
+		text += "|" + p.m_fWater.ToString();
+		text += "|" + p.m_fEat.ToString();
+		text += "|" + Flag(p.m_bStopBleed);
+		text += "|" + Flag(p.m_bTremor);
+		return text;
+	}
+
+	//------------------------------------------------------------------------------------------------
+	protected static string Flag(bool value)
+	{
+		if (value)
+			return "1";
+
+		return "0";
+	}
+
+	//------------------------------------------------------------------------------------------------
+	protected static SRZ_StimPhase PhaseFrom(array<string> parts, int at)
+	{
+		if (parts.Count() < at + 10)
+			return null;
+
+		SRZ_StimPhase p = new SRZ_StimPhase();
+		p.m_fDuration = parts[at].ToFloat();
+		p.m_fHeal = parts[at + 1].ToFloat();
+		p.m_fStamina = parts[at + 2].ToFloat();
+		p.m_fToxic = parts[at + 3].ToFloat();
+		p.m_fRad = parts[at + 4].ToFloat();
+		p.m_fPsy = parts[at + 5].ToFloat();
+		p.m_fWater = parts[at + 6].ToFloat();
+		p.m_fEat = parts[at + 7].ToFloat();
+		p.m_bStopBleed = parts[at + 8] == "1";
+		p.m_bTremor = parts[at + 9] == "1";
+		return p;
+	}
+
+	//------------------------------------------------------------------------------------------------
+	protected static void Load(IEntity character)
+	{
+		string uid = Uid(character);
+		if (uid.IsEmpty() || !FileIO.FileExists(SaveFile(uid)))
+			return;
+
+		FileHandle file = FileIO.OpenFile(SaveFile(uid), FileMode.READ);
+		if (!file)
+			return;
+
+		string line;
+		// Drop anything still running on an old body for this player so nothing doubles up
+		for (int i = s_aActive.Count() - 1; i >= 0; i--)
+		{
+			if (s_aActive[i].m_sUid == uid && s_aActive[i].m_Char != character)
+				s_aActive.Remove(i);
+		}
+
+		while (file.ReadLine(line) > 0)
+		{
+
+			array<string> parts = {};
+			line.Split("|", parts, false);
+			if (parts.Count() < 14)
+				continue;
+
+			SRZ_StimProfile prof = new SRZ_StimProfile();
+			prof.m_sKey = parts[0];
+			prof.m_sName = parts[1];
+			prof.m_Main = PhaseFrom(parts, 3);
+			if (!prof.m_Main)
+				continue;
+
+			if (parts[13] == "1")
+				prof.m_Side = PhaseFrom(parts, 14);
+
+			float time = parts[2].ToFloat();
+			AddEffect(character, uid, prof, time);
+
+			float mainLeft = Math.Max(prof.m_Main.m_fDuration - time, 0);
+			float sideLeft;
+			if (prof.m_Side)
+				sideLeft = Math.Max(prof.m_Main.m_fDuration + prof.m_Side.m_fDuration - time - mainLeft, 0);
+
+			SCR_ChimeraCharacter chimera = SCR_ChimeraCharacter.Cast(character);
+			if (chimera)
+				chimera.SRZ_SendStimHud(prof.m_sName, mainLeft, sideLeft);
+
+			Print("[SRZ Stims] Restored " + prof.m_sName + " at " + (int)time + "s");
+		}
+
+		file.Close();
+	}
+
+	//------------------------------------------------------------------------------------------------
+	// Server only: picks up players as they spawn in and restores their saved stims
+	static void StartWatch()
+	{
+		if (s_bWatching || !Replication.IsServer())
+			return;
+
+		s_bWatching = true;
+		GetGame().GetCallqueue().CallLater(Watch, 3000, true);
+	}
+
+	//------------------------------------------------------------------------------------------------
+	protected static void Watch()
+	{
+		for (int i = s_aSeen.Count() - 1; i >= 0; i--)
+		{
+			if (!s_aSeen[i])
+				s_aSeen.Remove(i);
+		}
+
+		array<int> ids = {};
+		GetGame().GetPlayerManager().GetPlayers(ids);
+		foreach (int id : ids)
+		{
+			IEntity ent = GetGame().GetPlayerManager().GetPlayerControlledEntity(id);
+			if (!ent || IsDead(ent) || s_aSeen.Contains(ent))
+				continue;
+
+			s_aSeen.Insert(ent);
+			Load(ent);
 		}
 	}
 
@@ -418,14 +629,33 @@ class SRZ_Stims
 	//------------------------------------------------------------------------------------------------
 	protected static void Tick()
 	{
+		s_iTicks++;
+		bool saveAll = s_iTicks % SAVE_EVERY == 0;
+		array<string> changed = {};
+
 		for (int i = s_aActive.Count() - 1; i >= 0; i--)
 		{
 			SRZ_StimEffect effect = s_aActive[i];
-			if (!effect.m_Char || IsDead(effect.m_Char))
+
+			// Logged off: keep the save file so it comes back on relog
+			if (!effect.m_Char)
 			{
 				s_aActive.Remove(i);
 				continue;
 			}
+
+			if (IsDead(effect.m_Char))
+			{
+				if (!changed.Contains(effect.m_sUid))
+					changed.Insert(effect.m_sUid);
+
+				effect.m_Char = null;
+				s_aActive.Remove(i);
+				continue;
+			}
+
+			if (saveAll && !changed.Contains(effect.m_sUid))
+				changed.Insert(effect.m_sUid);
 
 			effect.m_fTime += TICK;
 			SRZ_StimProfile prof = effect.m_Profile;
@@ -439,7 +669,17 @@ class SRZ_Stims
 			else if (effect.m_fTime <= sideEnd)
 				ApplyPhase(effect.m_Char, prof.m_Side);
 			else
+			{
+				if (!changed.Contains(effect.m_sUid))
+					changed.Insert(effect.m_sUid);
+
 				s_aActive.Remove(i);
+			}
+		}
+
+		foreach (string uid : changed)
+		{
+			Save(uid);
 		}
 
 		if (s_aActive.IsEmpty())
@@ -526,3 +766,14 @@ modded class ARMST_Consumable
 	}
 }
 
+
+modded class ARMST_PLAYER_STATS_COMPONENT
+{
+	override void OnPostInit(IEntity owner)
+	{
+		super.OnPostInit(owner);
+
+		if (GetGame().InPlayMode() && !SCR_Global.IsEditMode())
+			SRZ_Stims.StartWatch();
+	}
+}
