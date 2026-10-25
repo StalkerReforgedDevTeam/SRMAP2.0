@@ -1,4 +1,4 @@
-// Broken legs, DayZ style: falls of about 10 feet or more and some mutant hits can break a leg. A broken leg slows you to a limp
+// Broken legs, DayZ style: falls of about 13 feet or more and some mutant hits can break a leg. A broken leg slows you to a limp
 // and heals on its own after 10 minutes. Walking or running upright on it knocks you out; crouch or crawl instead.
 // A splint speeds you up and heals it in 2. A bone icon shows on the HUD.
 // Saved through relogs and restarts.
@@ -71,7 +71,7 @@ class SRZ_Legs
 	protected static const float RUN_SPEED = 1.8;
 	protected static const float STRAIN_KNOCKOUT = 6;
 	protected static const float KNOCKOUT_COOLDOWN = 20;
-	protected static const float FALL_MIN = 2.8;
+	protected static const float FALL_MIN = 4;
 	protected static const string SPLINT_PREFAB = "srz_splint";
 	protected static const string SAVE_DIR = "$profile:SRZ_Legs";
 
@@ -85,7 +85,7 @@ class SRZ_Legs
 		if (drop < FALL_MIN)
 			return;
 
-		float chance = Math.Clamp(0.5 + (drop - FALL_MIN) * 0.3, 0, 1);
+		float chance = Math.Clamp(0.25 + (drop - FALL_MIN) * 0.15, 0, 1);
 		Print("[SRZ Legs] Fell " + drop + "m, break chance " + chance);
 		if (Math.RandomFloat01() < chance)
 			Break(character);
@@ -97,13 +97,13 @@ class SRZ_Legs
 		if (!Replication.IsServer() || !mutant || !target || !EntityUtils.IsPlayer(target))
 			return;
 
-		float chance = 0.04;
+		float chance = 0.02;
 		if (SRZ_MutantTuning.IsPrefab(mutant, "/boar/"))
-			chance = 0.2;
-		else if (SRZ_MutantTuning.IsPrefab(mutant, "nighstalker"))
 			chance = 0.1;
+		else if (SRZ_MutantTuning.IsPrefab(mutant, "nighstalker"))
+			chance = 0.06;
 		else if (SRZ_MutantTuning.IsPrefab(mutant, "/wolf/"))
-			chance = 0.08;
+			chance = 0.04;
 
 		if (Math.RandomFloat01() < chance)
 			Break(target);

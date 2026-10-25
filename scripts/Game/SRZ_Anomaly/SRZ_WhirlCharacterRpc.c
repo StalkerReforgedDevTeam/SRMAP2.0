@@ -1,5 +1,19 @@
 modded class SCR_CharacterControllerComponent
 {
+	// A player's body is simulated on their own machine, so the ragdoll has to start there too.
+	// Ragdolling only on the server worked for AI but left players standing, so the spin never caught them.
+	void SRZ_WhirlRagdoll(float ms)
+	{
+		Ragdoll(ms);
+		Rpc(RpcDo_SRZ_WhirlRagdoll, ms);
+	}
+
+	[RplRpc(RplChannel.Reliable, RplRcver.Owner)]
+	protected void RpcDo_SRZ_WhirlRagdoll(float ms)
+	{
+		Ragdoll(ms);
+	}
+
 	void SRZ_AskWhirlPull(vector centre, float seconds, float speed)
 	{
 		ChimeraCharacter character = GetCharacter();
