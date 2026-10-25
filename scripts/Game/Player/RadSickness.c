@@ -61,10 +61,16 @@ modded class ARMST_PLAYER_STATS_COMPONENT
 		if (!controller)
 			return;
 
+		// Slowest of radiation sickness and a broken leg wins
+		float speed = -1;
 		if (IsRadiationSick())
-			controller.OverrideMaxSpeed(m_fSicknessMoveSpeedMult);
-		else
-			controller.OverrideMaxSpeed(-1);
+			speed = m_fSicknessMoveSpeedMult;
+
+		float legSpeed = SRZ_Legs.GetSpeed(owner);
+		if (legSpeed > 0 && (speed < 0 || legSpeed < speed))
+			speed = legSpeed;
+
+		controller.OverrideMaxSpeed(speed);
 	}
 
 	protected void ApplyStaminaDrain()

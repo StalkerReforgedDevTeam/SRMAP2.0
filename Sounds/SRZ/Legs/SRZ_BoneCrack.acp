@@ -1,0 +1,299 @@
+AudioClass {
+ signals {
+  SignalClass "19469" {
+   id 19469
+   name "Signal Occlusion"
+   tl -340.762 -172.16
+   res "{A45B14CDEA2D5DCD}Sounds/_SharedData/Signals/Props/Props_Occlusion.sig"
+   inputsport {
+    23 52
+   }
+   outputsport {
+    37
+   }
+   inputvalues {
+    1 1000
+   }
+   inputvaluesmin {
+    0 0
+   }
+   inputvaluesmax {
+    1 10000
+   }
+  }
+  SignalClass "22541" {
+   id 22541
+   name "Signal Trigger"
+   tl -65.318 -40.799
+   res "{9DEC40DAE4E5212C}Sounds/_SharedData/Signals/OneSignal/Trigger.sig"
+   inputsport {
+    1
+   }
+   outputsport {
+    2
+   }
+   inputvalues {
+    1
+   }
+   inputvaluesmin {
+    0
+   }
+   inputvaluesmax {
+    1
+   }
+  }
+  SignalClass "23565" {
+   id 23565
+   name "Signal Reverb"
+   tl 123.432 -60.299
+   res "{76CBB40EF7F227B6}Sounds/_SharedData/Signals/Reverb/Reverb_Base.sig"
+   inputsport {
+    1 35 112
+   }
+   outputsport {
+    39 105 107 106 110
+   }
+   inputvalues {
+    40 1 16000
+   }
+   inputvaluesmin {
+    0 0 0
+   }
+   inputvaluesmax {
+    100 1 16000
+   }
+  }
+ }
+ sounds {
+  SoundClass "18441" {
+   id 18441
+   name "SOUND_SRZ_BONECRACK"
+   version 5
+   tl -104.591 68.201
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "22541:2" {
+       id 22541
+       port 2
+      }
+     }
+    }
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "21522:65" {
+       id 21522
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+   varName "Props"
+   varResource "{A60F08955792B575}Sounds/_SharedData/Variables/GlobalVariables.conf"
+   volume_dB 4
+   outState 27659
+   outStatePort 79879
+   "static" 1
+  }
+ }
+ mixers {
+  MixerClass "27659" {
+   id 27659
+   name "OutputState"
+   version 4
+   tl 122.321 179.284
+   res "{B764D803219C775E}Sounds/FinalMix.afm"
+   ins {
+    ConnectionsClass "con:79879" {
+     id 79879
+     links {
+      ConnectionClass "18441:65" {
+       id 18441
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:152583" {
+     id 152583
+     links {
+      ConnectionClass "26653:65" {
+       id 26653
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    24576 0
+   }
+   inputs {
+    "WPN_Handling" "WPN_Shots" "WPN_Explosions" "WNP_BulletHits" "CHAR" "ENV_AMB_2D" "VEH_Animations" "Impacts" "Dialog" "ENV_Doors" "VEH_Engine" "VEH_Tires" "VON" "SFX" "SFX_Reverb_OBSOLETE" "VON_Reverb_Small" "Dialog_Reverb" "Impacts_EXT" "ENV_AMB_3D" "WPN_SonicCracks" "CHAR_Gear" "PA" "SFX_Reverb_Exterior" "ENV_AMB_3D_Reverb_Exterior" "SFX_Direct" "SFX_Reverb_Small" "SFX_Reverb_Medium" "SFX_Reverb_Large" "WPN_Shots_Player" "Dialog_Reverb_Small" "Dialog_Reverb_Medium" "Dialog_Reverb_Large" "WPN_TravelingProjectile" "Dialog_Delay_Exterior" "SFX_Reverb_InCabin" "VON_Reverb_Medium" "VON_Reverb_Large"
+   }
+  }
+ }
+ shaders {
+  ShaderClass "21522" {
+   id 21522
+   name "Shader"
+   version 5
+   tl -340.762 68.201
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "20508:65" {
+       id 20508
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "25619:65" {
+       id 25619
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:2" {
+     id 2
+     links {
+      ConnectionClass "24597:65" {
+       id 24597
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "1028:65" {
+       id 1028
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    23 0
+   }
+  }
+ }
+ amplitudes {
+  AmplitudeClass "25619" : "{B8DF212957DF97E8}Sounds/_SharedData/Configs/Amplitude/_SharedData/Amplitude_-50LUFS_to_-45LUFS.conf" {
+   id 25619
+   version 5
+   tl -342.762 -319.799
+   parent "{B8DF212957DF97E8}Sounds/_SharedData/Configs/Amplitude/_SharedData/Amplitude_-50LUFS_to_-45LUFS.conf"
+   outerRange 40
+   slopeFactor 30
+  }
+ }
+ frequency {
+  FrequencyClass "24597" : "{0005FE42A6D80399}Sounds/_SharedData/Configs/Frequency/_SharedData/Frequency_DynamicUpdate.conf" {
+   id 24597
+   version 5
+   tl -340.762 -245.243
+   parent "{0005FE42A6D80399}Sounds/_SharedData/Configs/Frequency/_SharedData/Frequency_DynamicUpdate.conf"
+   ins {
+    ConnectionsClass "con:4" {
+     id 4
+     links {
+      ConnectionClass "19469:37" {
+       id 19469
+       port 37
+      }
+     }
+    }
+   }
+   pi {
+    16 0
+   }
+   pu {
+    16 0
+   }
+  }
+ }
+ banks_local {
+  BankLocalClass "1028" {
+   id 1028
+   name "BoneCrack"
+   version 7
+   tl -560 80
+   Volume 0
+   "Termination Fade Out" 0
+   "Fade in time" 0
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{DEF06E45CCF86BDE}Sounds/SRZ/Legs/SRZ_BoneCrack_1.wav"
+    }
+    AudioBankSampleClass Sample {
+     Filename "{BF79ECCF667B1052}Sounds/SRZ/Legs/SRZ_BoneCrack_2.wav"
+    }
+    AudioBankSampleClass Sample {
+     Filename "{4913743B778E9F43}Sounds/SRZ/Legs/SRZ_BoneCrack_3.wav"
+    }
+   }
+  }
+ }
+ spatialities {
+  SpatialityClass "20508" {
+   id 20508
+   name "Spatiality"
+   version 5
+   tl -340.762 -395.799
+   spatialFactor 1
+  }
+ }
+ auxOuts {
+  AuxOutClass "26653" {
+   id 26653
+   name "AuxOut Reverb INT"
+   version 5
+   tl 124.877 60.974
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "18441:5" {
+       id 18441
+       port 5
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "23565:34" {
+       id 23565
+       port 34
+      }
+     }
+    }
+    ConnectionsClass "con:2" {
+     id 2
+     links {
+      ConnectionClass "23565:39" {
+       id 23565
+       port 39
+      }
+     }
+    }
+   }
+   pi {
+    7 0
+   }
+   pu {
+    6 0
+   }
+   OSPort 152583
+  }
+ }
+ version 2
+}

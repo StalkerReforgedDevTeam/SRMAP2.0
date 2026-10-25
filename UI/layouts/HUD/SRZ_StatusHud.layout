@@ -1,0 +1,448 @@
+FrameWidgetClass "{F469BD17BF1DCA18}" {
+ Name "SRZ_SH_Root"
+ {
+  ImageWidgetClass "{592DA52A61763022}" {
+   Name "SRZ_SH_HealthBg"
+   Slot FrameWidgetSlot "{46C52F98A15B8530}" {
+    Anchor 1 1 1 1
+    PositionX -100
+    OffsetLeft -100
+    PositionY -100
+    OffsetTop -100
+    SizeX 32
+    OffsetRight 68
+    SizeY 32
+    OffsetBottom 68
+   }
+   Size 32 32
+  }
+  ImageWidgetClass "{2A9F32709F03A766}" {
+   Name "SRZ_SH_HealthFill"
+   Slot FrameWidgetSlot "{ADFC736CFBF4F3FA}" {
+    Anchor 1 1 1 1
+    PositionX -100
+    OffsetLeft -100
+    PositionY -100
+    OffsetTop -100
+    SizeX 32
+    OffsetRight 68
+    SizeY 32
+    OffsetBottom 68
+   }
+   Size 32 32
+  }
+  ImageWidgetClass "{3ECBB773FFAEDF44}" {
+   Name "SRZ_SH_HealthA0"
+   Slot FrameWidgetSlot "{5D63FC88FC94A976}" {
+    Anchor 1 1 1 1
+    PositionX -100
+    OffsetLeft -100
+    PositionY -100
+    OffsetTop -100
+    SizeX 32
+    OffsetRight 68
+    SizeY 32
+    OffsetBottom 68
+   }
+   Size 32 32
+  }
+  ImageWidgetClass "{A921DEE965747268}" {
+   Name "SRZ_SH_HealthA1"
+   Slot FrameWidgetSlot "{C2806714B01B7AF0}" {
+    Anchor 1 1 1 1
+    PositionX -100
+    OffsetLeft -100
+    PositionY -100
+    OffsetTop -100
+    SizeX 32
+    OffsetRight 68
+    SizeY 32
+    OffsetBottom 68
+   }
+   Size 32 32
+  }
+  ImageWidgetClass "{1E325ED625623366}" {
+   Name "SRZ_SH_HealthA2"
+   Slot FrameWidgetSlot "{D2CD93B8A5949BFA}" {
+    Anchor 1 1 1 1
+    PositionX -100
+    OffsetLeft -100
+    PositionY -100
+    OffsetTop -100
+    SizeX 32
+    OffsetRight 68
+    SizeY 32
+    OffsetBottom 68
+   }
+   Size 32 32
+  }
+  ImageWidgetClass "{C24527D75EB6D28F}" {
+   Name "SRZ_SH_WaterBg"
+   Slot FrameWidgetSlot "{62264C8C86AE990A}" {
+    Anchor 1 1 1 1
+    PositionX -100
+    OffsetLeft -100
+    PositionY -100
+    OffsetTop -100
+    SizeX 32
+    OffsetRight 68
+    SizeY 32
+    OffsetBottom 68
+   }
+   Size 32 32
+  }
+  ImageWidgetClass "{C83FE471865E0EA6}" {
+   Name "SRZ_SH_WaterFill"
+   Slot FrameWidgetSlot "{BC6CC866A1E037D5}" {
+    Anchor 1 1 1 1
+    PositionX -100
+    OffsetLeft -100
+    PositionY -100
+    OffsetTop -100
+    SizeX 32
+    OffsetRight 68
+    SizeY 32
+    OffsetBottom 68
+   }
+   Size 32 32
+  }
+  ImageWidgetClass "{90556A95DD2915FA}" {
+   Name "SRZ_SH_WaterA0"
+   Slot FrameWidgetSlot "{A9CA2AA2373F0379}" {
+    Anchor 1 1 1 1
+    PositionX -100
+    OffsetLeft -100
+    PositionY -100
+    OffsetTop -100
+    SizeX 32
+    OffsetRight 68
+    SizeY 32
+    OffsetBottom 68
+   }
+   Size 32 32
+  }
+  ImageWidgetClass "{B0876BA4BE3FE55E}" {
+   Name "SRZ_SH_WaterA1"
+   Slot FrameWidgetSlot "{30C06A56316D2B63}" {
+    Anchor 1 1 1 1
+    PositionX -100
+    OffsetLeft -100
+    PositionY -100
+    OffsetTop -100
+    SizeX 32
+    OffsetRight 68
+    SizeY 32
+    OffsetBottom 68
+   }
+   Size 32 32
+  }
+  ImageWidgetClass "{4EA2C0E6524787EC}" {
+   Name "SRZ_SH_WaterA2"
+   Slot FrameWidgetSlot "{5FD46FACF41B42C4}" {
+    Anchor 1 1 1 1
+    PositionX -100
+    OffsetLeft -100
+    PositionY -100
+    OffsetTop -100
+    SizeX 32
+    OffsetRight 68
+    SizeY 32
+    OffsetBottom 68
+   }
+   Size 32 32
+  }
+  ImageWidgetClass "{C7AFFF673B9457F2}" {
+   Name "SRZ_SH_FoodBg"
+   Slot FrameWidgetSlot "{C7BA921A1C814610}" {
+    Anchor 1 1 1 1
+    PositionX -100
+    OffsetLeft -100
+    PositionY -100
+    OffsetTop -100
+    SizeX 32
+    OffsetRight 68
+    SizeY 32
+    OffsetBottom 68
+   }
+   Size 32 32
+  }
+  ImageWidgetClass "{BCEE088ECF79E5B1}" {
+   Name "SRZ_SH_FoodFill"
+   Slot FrameWidgetSlot "{93D0B75D93EFE40B}" {
+    Anchor 1 1 1 1
+    PositionX -100
+    OffsetLeft -100
+    PositionY -100
+    OffsetTop -100
+    SizeX 32
+    OffsetRight 68
+    SizeY 32
+    OffsetBottom 68
+   }
+   Size 32 32
+  }
+  ImageWidgetClass "{8E4240584A5AA7D8}" {
+   Name "SRZ_SH_FoodA0"
+   Slot FrameWidgetSlot "{A216DFF8F1B99995}" {
+    Anchor 1 1 1 1
+    PositionX -100
+    OffsetLeft -100
+    PositionY -100
+    OffsetTop -100
+    SizeX 32
+    OffsetRight 68
+    SizeY 32
+    OffsetBottom 68
+   }
+   Size 32 32
+  }
+  ImageWidgetClass "{B37053350DBBB4C9}" {
+   Name "SRZ_SH_FoodA1"
+   Slot FrameWidgetSlot "{9418CF8994D25CA7}" {
+    Anchor 1 1 1 1
+    PositionX -100
+    OffsetLeft -100
+    PositionY -100
+    OffsetTop -100
+    SizeX 32
+    OffsetRight 68
+    SizeY 32
+    OffsetBottom 68
+   }
+   Size 32 32
+  }
+  ImageWidgetClass "{1F8E26C3B92E9874}" {
+   Name "SRZ_SH_FoodA2"
+   Slot FrameWidgetSlot "{EE51788AF1A49C92}" {
+    Anchor 1 1 1 1
+    PositionX -100
+    OffsetLeft -100
+    PositionY -100
+    OffsetTop -100
+    SizeX 32
+    OffsetRight 68
+    SizeY 32
+    OffsetBottom 68
+   }
+   Size 32 32
+  }
+  ImageWidgetClass "{B096AF92789EB442}" {
+   Name "SRZ_SH_RadBg"
+   Slot FrameWidgetSlot "{122A64E9E8D52926}" {
+    Anchor 1 1 1 1
+    PositionX -100
+    OffsetLeft -100
+    PositionY -100
+    OffsetTop -100
+    SizeX 32
+    OffsetRight 68
+    SizeY 32
+    OffsetBottom 68
+   }
+   Size 32 32
+  }
+  ImageWidgetClass "{509F9F299409B399}" {
+   Name "SRZ_SH_RadFill"
+   Slot FrameWidgetSlot "{EEB83EAE53F6FEB0}" {
+    Anchor 1 1 1 1
+    PositionX -100
+    OffsetLeft -100
+    PositionY -100
+    OffsetTop -100
+    SizeX 32
+    OffsetRight 68
+    SizeY 32
+    OffsetBottom 68
+   }
+   Size 32 32
+  }
+  ImageWidgetClass "{F3D72F922BD70C9C}" {
+   Name "SRZ_SH_RadA0"
+   Slot FrameWidgetSlot "{FC66953D6E7E92F8}" {
+    Anchor 1 1 1 1
+    PositionX -100
+    OffsetLeft -100
+    PositionY -100
+    OffsetTop -100
+    SizeX 32
+    OffsetRight 68
+    SizeY 32
+    OffsetBottom 68
+   }
+   Size 32 32
+  }
+  ImageWidgetClass "{AA571881DD18AE71}" {
+   Name "SRZ_SH_RadA1"
+   Slot FrameWidgetSlot "{D30079C9392B1C8A}" {
+    Anchor 1 1 1 1
+    PositionX -100
+    OffsetLeft -100
+    PositionY -100
+    OffsetTop -100
+    SizeX 32
+    OffsetRight 68
+    SizeY 32
+    OffsetBottom 68
+   }
+   Size 32 32
+  }
+  ImageWidgetClass "{EF36FE6F5ACBEBBD}" {
+   Name "SRZ_SH_RadA2"
+   Slot FrameWidgetSlot "{699541C1EC846436}" {
+    Anchor 1 1 1 1
+    PositionX -100
+    OffsetLeft -100
+    PositionY -100
+    OffsetTop -100
+    SizeX 32
+    OffsetRight 68
+    SizeY 32
+    OffsetBottom 68
+   }
+   Size 32 32
+  }
+  ImageWidgetClass "{41D05FBC7E6F95A0}" {
+   Name "SRZ_SH_Sep"
+   Slot FrameWidgetSlot "{DD96788A356827F8}" {
+    Anchor 1 1 1 1
+    PositionX -100
+    OffsetLeft -100
+    PositionY -100
+    OffsetTop -100
+    SizeX 32
+    OffsetRight 68
+    SizeY 32
+    OffsetBottom 68
+   }
+   Size 32 32
+  }
+  ImageWidgetClass "{12A91AE4D52EFB6D}" {
+   Name "SRZ_SH_Brain"
+   Slot FrameWidgetSlot "{229D08487C77FECF}" {
+    Anchor 1 1 1 1
+    PositionX -100
+    OffsetLeft -100
+    PositionY -100
+    OffsetTop -100
+    SizeX 32
+    OffsetRight 68
+    SizeY 32
+    OffsetBottom 68
+   }
+   Size 32 32
+  }
+  ImageWidgetClass "{E100B89120170FA9}" {
+   Name "SRZ_SH_Bleed"
+   Slot FrameWidgetSlot "{BA45F820FAD99E29}" {
+    Anchor 1 1 1 1
+    PositionX -100
+    OffsetLeft -100
+    PositionY -100
+    OffsetTop -100
+    SizeX 32
+    OffsetRight 68
+    SizeY 32
+    OffsetBottom 68
+   }
+   Size 32 32
+  }
+  ImageWidgetClass "{FA474041F04AAC0A}" {
+   Name "SRZ_SH_Bone"
+   Slot FrameWidgetSlot "{8D83DEECE2DE1A6F}" {
+    Anchor 1 1 1 1
+    PositionX -100
+    OffsetLeft -100
+    PositionY -100
+    OffsetTop -100
+    SizeX 32
+    OffsetRight 68
+    SizeY 32
+    OffsetBottom 68
+   }
+   Size 32 32
+  }
+  ImageWidgetClass "{091129C9F471E94A}" {
+   Name "SRZ_SH_Stim"
+   Slot FrameWidgetSlot "{5C07A99F447DFA14}" {
+    Anchor 1 1 1 1
+    PositionX -100
+    OffsetLeft -100
+    PositionY -100
+    OffsetTop -100
+    SizeX 32
+    OffsetRight 68
+    SizeY 32
+    OffsetBottom 68
+   }
+   Size 32 32
+  }
+  ImageWidgetClass "{1EFD756B72293274}" {
+   Name "SRZ_SH_StamBg"
+   Slot FrameWidgetSlot "{6330152AE39E1D35}" {
+    Anchor 1 1 1 1
+    PositionX -100
+    OffsetLeft -100
+    PositionY -100
+    OffsetTop -100
+    SizeX 32
+    OffsetRight 68
+    SizeY 32
+    OffsetBottom 68
+   }
+   Size 32 32
+  }
+  ImageWidgetClass "{FC03BB813ABEE22B}" {
+   Name "SRZ_SH_StamFill"
+   Slot FrameWidgetSlot "{C3282CFB5FA4B5EF}" {
+    Anchor 1 1 1 1
+    PositionX -100
+    OffsetLeft -100
+    PositionY -100
+    OffsetTop -100
+    SizeX 32
+    OffsetRight 68
+    SizeY 32
+    OffsetBottom 68
+   }
+   Size 32 32
+  }
+  TextWidgetClass "{AE8CF4B8F4B91D70}" {
+   Name "SRZ_SH_StimText"
+   Slot FrameWidgetSlot "{F728F3E0D71B73BB}" {
+    Anchor 1 1 1 1
+    PositionX -100
+    OffsetLeft -100
+    PositionY -100
+    OffsetTop -100
+    SizeX 120
+    OffsetRight -20
+    SizeY 24
+    OffsetBottom 76
+   }
+   Text "0:00"
+   "Min Font Size" 20
+   FontProperties FontProperties "{49914A1C600EF2DB}" {
+    Font "{EABA4FE9D014CCEF}UI/Fonts/RobotoCondensed/RobotoCondensed_Bold.fnt"
+   }
+  }
+  TextWidgetClass "{8B77DDA830A17D92}" {
+   Name "SRZ_SH_Brand"
+   Slot FrameWidgetSlot "{36F9419FE7AC0043}" {
+    Anchor 1 1 1 1
+    PositionX -100
+    OffsetLeft -100
+    PositionY -100
+    OffsetTop -100
+    SizeX 120
+    OffsetRight -20
+    SizeY 24
+    OffsetBottom 76
+   }
+   Text "STALKER REFORGED   powered by ARMST"
+   "Min Font Size" 14
+   FontProperties FontProperties "{56B0F8EBBE7F27CE}" {
+    Font "{EABA4FE9D014CCEF}UI/Fonts/RobotoCondensed/RobotoCondensed_Bold.fnt"
+   }
+  }
+ }
+}
