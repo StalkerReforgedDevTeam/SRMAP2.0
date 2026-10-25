@@ -222,6 +222,9 @@ class SRZ_NewArtifacts
 
 modded class ARMST_TRIGGER_SPAWN
 {
+	[Attribute("0", UIWidgets.ComboBox, "Artifact tier for this field. Auto guesses from the anomaly names", "", { ParamEnum("Auto", "0"), ParamEnum("Tier 1", "1"), ParamEnum("Tier 2", "2"), ParamEnum("Tier 3", "3") }, category: "SRZ Artifacts")]
+	int m_iSRZ_FieldTier;
+
 	protected bool m_bSRZ_PackAdded;
 
 	override void OnInit(IEntity owner)
@@ -261,6 +264,9 @@ modded class ARMST_TRIGGER_SPAWN
 				category = cat;
 			tier = Math.Max(tier, SRZ_NewArtifacts.TierOf(anomaly));
 		}
+
+		if (m_iSRZ_FieldTier > 0)
+			tier = m_iSRZ_FieldTier;
 
 		if (category.IsEmpty())
 		{

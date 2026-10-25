@@ -25,7 +25,10 @@ modded class SCR_PlayerController
 		if (toxic != 0)
 			statsComponent.ArmstPlayerStatSetToxic(toxic / 10);
 
-		if (radiactive != 0)
+		// Radiation drawbacks tick at half the rate of radiation cures
+		if (radiactive > 0)
+			statsComponent.ArmstPlayerStatSetRadio(radiactive / 8);
+		else if (radiactive < 0)
 			statsComponent.ArmstPlayerStatSetRadio(radiactive / 4);
 
 		if (psy != 0)
