@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{1CD823EE86B311C4}Configs/SRZ/Emotes/SRZ_EmoteMenu.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}
