@@ -1,4 +1,6 @@
 // Saved storage with no items loads as m_aSlots = null and EPF crashes on it (endless loading). Treat it as empty.
+// [EDF_DbName()] must stay: it gives saves the short "InventoryStorageComponent" name. Without it no older save can be read.
+[EDF_DbName()]
 modded class EPF_BaseInventoryStorageComponentSaveData
 {
 	override EPF_EApplyResult ApplyTo(IEntity owner, GenericComponent component, EPF_ComponentSaveDataClass attributes)
