@@ -1,0 +1,19 @@
+GenericEntity : "{B116490FAE2D86D7}Prefabs/Items/Keys/armst_itm_key_1.et" {
+ ID "AE380877C37E954A"
+ components {
+  ARMST_ItemUseComponent "{59E68C4DC131E9FC}" {
+   m_bCanBeHeld 1
+  }
+  MeshObject "{59CEE5702DCA6A31}" {
+   Object "{350A5D792A70ABF8}armst/items/Keys/key_3.xob"
+  }
+  InventoryItemComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{5222EB4D07D865FA}" {
+     Name "Tier 2 Crate Key"
+     Description "A military key with two notches filed into the bow. Opens one tier 2 locked crate, then snaps in the lock."
+    }
+   }
+  }
+ }
+}

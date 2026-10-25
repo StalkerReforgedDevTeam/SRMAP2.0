@@ -1,0 +1,14 @@
+SCR_ChimeraCharacter {
+ ID "520EC961A090B1EE"
+ components {
+  SRZ_VoNWhisperComponent "{C7FFC3C5C3BC56DA}" {
+   Filename "{F566114F1CE0A0A2}Sounds/SRZ/VON/SRZ_Von_Whisper.acp"
+  }
+  SRZ_VoNSpeakComponent "{373620430ED835A2}" {
+   Filename "{AD888B2AF118E175}Sounds/SRZ/VON/SRZ_Von_Speak.acp"
+  }
+  SRZ_VoNShoutComponent "{C36651244B7A9EA1}" {
+   Filename "{1BC22B205D4F7F34}Sounds/SRZ/VON/SRZ_Von_Shout.acp"
+  }
+ }
+}

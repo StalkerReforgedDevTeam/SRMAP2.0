@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{2A6A31E4D7EE8217}Configs/SRZ_Loot/Pools/Crate/SRZ_Crate_Backpacks_T3.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

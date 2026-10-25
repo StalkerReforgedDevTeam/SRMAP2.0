@@ -1,0 +1,40 @@
+FrameWidgetClass "{D89CADC58DE9AD27}" {
+ Name "SRZ_VoiceRoot"
+ {
+  ImageWidgetClass "{1EEAFFF89A8771F7}" {
+   Name "SRZ_VoiceIcon"
+   Slot FrameWidgetSlot "{C38863B39AEC3AF4}" {
+    Anchor 0 1 0 1
+    PositionX 30
+    OffsetLeft 30
+    PositionY -224
+    OffsetTop -224
+    SizeX 28
+    OffsetRight -58
+    SizeY 28
+    OffsetBottom 196
+   }
+   Texture "{DEA2EA0199D59ACD}UI/Textures/QuickMenu/Icons/VON_direct.edds"
+   Size 32 32
+  }
+  RichTextWidgetClass "{4F758CB6065A1FCF}" {
+   Name "SRZ_VoiceText"
+   Slot FrameWidgetSlot "{E86DC842804F0C3E}" {
+    Anchor 0 1 0 1
+    PositionX 66
+    OffsetLeft 66
+    PositionY -226
+    OffsetTop -226
+    SizeX 340
+    OffsetRight -406
+    SizeY 32
+    OffsetBottom 194
+   }
+   Text "Speak 40m"
+   "Min Font Size" 22
+   FontProperties FontProperties "{295DEDD34268E753}" {
+    Font "{EABA4FE9D014CCEF}UI/Fonts/RobotoCondensed/RobotoCondensed_Bold.fnt"
+   }
+  }
+ }
+}

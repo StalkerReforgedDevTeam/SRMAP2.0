@@ -1,0 +1,25 @@
+GenericEntity : "{7E344A28351EC131}Prefabs/SRZ_Locks/KeyCrates/SRZ_KeyCrate_Base.et" {
+ ID "030ABAB2707AAE26"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Materials {
+    MaterialAssignClass "{6AB0C0A1B2C3D4E5}" {
+     SourceMaterial "ArmyBox_Paint"
+     AssignedMaterial "{4BB41108A20D6484}Assets/Props/SRZ_Crates/ArmyBox/Data/ArmyBox_Gear.emat"
+    }
+   }
+  }
+  ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+   m_LootTiersSpawn {
+    "TIER_3"
+   }
+  }
+  SRZ_FixedLootComponent "{5E1F0A9C3B7D2E41}" {
+   m_sTable "{1CD5B01E0E04329A}Configs/SRZ_Loot/SRZ_Loot_KC_Gear.conf"
+  }
+  SRZ_CrateLidComponent "{7A2C9E41B5D30F68}" {
+   m_sBodyPrefab "{CD11CDFF70160CBB}Prefabs/SRZ_Locks/Lids/SRZ_ArmyBox_Gear_Body.et"
+   m_sLidPrefab "{6784171A5B8D7B59}Prefabs/SRZ_Locks/Lids/SRZ_ArmyBox_Gear_Lid.et"
+  }
+ }
+}

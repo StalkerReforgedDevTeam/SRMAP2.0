@@ -1,10 +1,3 @@
 GenericEntity : "{7E344A28351EC131}Prefabs/SRZ_Locks/KeyCrates/SRZ_KeyCrate_Base.et" {
  ID "4263506F58B949ED"
- components {
-  SRZ_LockComponent "{E9035B2515F8654D}" {
-   m_aKeys {
-    "{BF572BD86C15B1AB}Prefabs/Items/Keys/POI/SRZ_Key_Gorkiy12.et"
-   }
-  }
- }
 }

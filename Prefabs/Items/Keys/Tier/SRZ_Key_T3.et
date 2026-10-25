@@ -1,0 +1,19 @@
+GenericEntity : "{B116490FAE2D86D7}Prefabs/Items/Keys/armst_itm_key_1.et" {
+ ID "AA8D98F088CE41B2"
+ components {
+  ARMST_ItemUseComponent "{59E68C4DC131E9FC}" {
+   m_bCanBeHeld 1
+  }
+  MeshObject "{59CEE5702DCA6A31}" {
+   Object "{45C7CFA0B854FE4B}armst/items/Keys/key_5.xob"
+  }
+  InventoryItemComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{5222EB4D07D865FA}" {
+     Name "Tier 3 Crate Key"
+     Description "A heavy key with three notches. Only the crates in Gorkiy take it. Opens one tier 3 locked crate, then snaps in the lock."
+    }
+   }
+  }
+ }
+}

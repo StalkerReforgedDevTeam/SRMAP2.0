@@ -21,6 +21,9 @@ class SRZ_LootPool
 			if (res && res.IsValid())
 				pool = SRZ_LootPool.Cast(BaseContainerTools.CreateInstanceFromContainer(res.GetResource().ToBaseContainer()));
 
+			if (!pool)
+				Print("[SRZ Loot] Not a loot pool: " + poolConf, LogLevel.WARNING);
+
 			s_mCache.Insert(poolConf, pool);
 		}
 
@@ -41,8 +44,52 @@ class SRZ_LootPool
 		if (pooled)
 			choices.InsertAll(pooled);
 
+		for (int i = choices.Count() - 1; i >= 0; i--)
+		{
+			if (choices[i].IsEmpty())
+				choices.Remove(i);
+		}
+
 		if (!choices.IsEmpty())
 			outItems.Insert(choices.GetRandomElement());
+	}
+}
+
+// An item (or one item from a pool) with its own chance and a random count
+[BaseContainerProps()]
+class SRZ_LootExtra
+{
+	[Attribute("", UIWidgets.ResourcePickerThumbnail, "Item", "et")]
+	ResourceName m_sItem;
+
+	[Attribute("", UIWidgets.ResourcePickerThumbnail, "Or a random item from this pool, rolled for each copy", "conf")]
+	ResourceName m_sPool;
+
+	[Attribute("1", desc: "0 to 1")]
+	float m_fChance;
+
+	[Attribute("1", desc: "Fewest copies when it drops")]
+	int m_iMin;
+
+	[Attribute("1", desc: "Most copies when it drops")]
+	int m_iMax;
+
+	//------------------------------------------------------------------------------------------------
+	void Collect(notnull array<ResourceName> outItems)
+	{
+		if (Math.RandomFloat01() >= m_fChance)
+			return;
+
+		int low = Math.ClampInt(m_iMin, 1, 1000);
+		int high = Math.ClampInt(m_iMax, low, 1000);
+		int count = Math.RandomInt(low, high + 1);
+		for (int i = 0; i < count; i++)
+		{
+			if (!m_sPool.IsEmpty())
+				SRZ_LootPool.PickOne(null, m_sPool, outItems);
+			else if (!m_sItem.IsEmpty())
+				outItems.Insert(m_sItem);
+		}
 	}
 }
 
@@ -79,6 +126,9 @@ class SRZ_LootSet
 	[Attribute("", UIWidgets.ResourcePickerThumbnail, "Pool for the third pick", "conf")]
 	ResourceName m_sOneOfPoolC;
 
+	[Attribute(desc: "Items with their own chance and count")]
+	ref array<ref SRZ_LootExtra> m_aExtras;
+
 	[Attribute("", UIWidgets.ResourcePickerThumbnail, "Each one rolls Bonus Chance on its own", "et")]
 	ref array<ResourceName> m_aBonus;
 
@@ -93,6 +143,27 @@ class SRZ_LootSet
 
 	[Attribute("0", desc: "0 to 1")]
 	float m_fRareChance;
+
+	[Attribute("", UIWidgets.ResourcePickerThumbnail, "Pocket filler: each pick takes a random item from a random pool in this list", "conf")]
+	ref array<ResourceName> m_aFillerPools;
+
+	[Attribute("0", desc: "Fewest filler picks")]
+	int m_iFillerMin;
+
+	[Attribute("0", desc: "Most filler picks")]
+	int m_iFillerMax;
+
+	[Attribute("100", desc: "Lowest condition for weapons and clothing, 0 to 100")]
+	int m_iConditionMin;
+
+	[Attribute("100", desc: "Highest condition for weapons and clothing, 0 to 100")]
+	int m_iConditionMax;
+
+	[Attribute("1", desc: "Lowest magazine fill, 0 to 1")]
+	float m_fAmmoMin;
+
+	[Attribute("1", desc: "Highest magazine fill, 0 to 1")]
+	float m_fAmmoMax;
 
 	//------------------------------------------------------------------------------------------------
 	bool FitsTiers(array<string> tiers)
@@ -113,7 +184,13 @@ class SRZ_LootSet
 	void Collect(notnull array<ResourceName> outItems)
 	{
 		if (m_aItems)
-			outItems.InsertAll(m_aItems);
+		{
+			foreach (ResourceName item : m_aItems)
+			{
+				if (!item.IsEmpty())
+					outItems.Insert(item);
+			}
+		}
 
 		if ((m_aOneOf && !m_aOneOf.IsEmpty()) || !m_sOneOfPool.IsEmpty())
 			SRZ_LootPool.PickOne(m_aOneOf, m_sOneOfPool, outItems);
@@ -124,17 +201,82 @@ class SRZ_LootSet
 		if ((m_aOneOfC && !m_aOneOfC.IsEmpty()) || !m_sOneOfPoolC.IsEmpty())
 			SRZ_LootPool.PickOne(m_aOneOfC, m_sOneOfPoolC, outItems);
 
+		if (m_aExtras)
+		{
+			foreach (SRZ_LootExtra extra : m_aExtras)
+			{
+				if (extra)
+					extra.Collect(outItems);
+			}
+		}
+
 		if (m_aBonus)
 		{
 			foreach (ResourceName bonus : m_aBonus)
 			{
-				if (Math.RandomFloat01() < m_fBonusChance)
+				if (!bonus.IsEmpty() && Math.RandomFloat01() < m_fBonusChance)
 					outItems.Insert(bonus);
 			}
 		}
 
 		if (Math.RandomFloat01() < m_fRareChance)
 			SRZ_LootPool.PickOne(m_aRareOneOf, m_sRarePool, outItems);
+
+		if (m_aFillerPools && !m_aFillerPools.IsEmpty() && m_iFillerMax > 0)
+		{
+			int fillLow = Math.ClampInt(m_iFillerMin, 0, 100);
+			int fillHigh = Math.ClampInt(m_iFillerMax, fillLow, 100);
+			int picks = Math.RandomInt(fillLow, fillHigh + 1);
+			for (int i = 0; i < picks; i++)
+			{
+				SRZ_LootPool.PickOne(null, m_aFillerPools.GetRandomElement(), outItems);
+			}
+		}
+	}
+
+	//------------------------------------------------------------------------------------------------
+	// Server only. Partial magazines now, worn condition after ARMST has loaded the item's stats.
+	void Wear(IEntity item)
+	{
+		if (!item)
+			return;
+
+		if (m_fAmmoMax < 1 || m_fAmmoMin < 1)
+		{
+			MagazineComponent mag = MagazineComponent.Cast(item.FindComponent(MagazineComponent));
+			if (mag)
+			{
+				int maxAmmo = mag.GetMaxAmmoCount();
+				float fillLow = Math.Clamp(m_fAmmoMin, 0, 1);
+				float fillHigh = Math.Clamp(m_fAmmoMax, fillLow, 1);
+				float fill = Math.RandomFloat(fillLow, fillHigh);
+				int ammo = Math.Round(maxAmmo * fill);
+				if (maxAmmo > 0)
+					mag.SetAmmoCount(Math.ClampInt(ammo, 1, maxAmmo));
+			}
+		}
+
+		if (m_iConditionMin >= 100 && m_iConditionMax >= 100)
+			return;
+
+		if (!item.FindComponent(BaseWeaponComponent) && !item.FindComponent(BaseLoadoutClothComponent))
+			return;
+
+		int low = Math.ClampInt(m_iConditionMin, 1, 100);
+		int high = Math.ClampInt(m_iConditionMax, low, 100);
+		int target = Math.RandomInt(low, high + 1);
+		GetGame().GetCallqueue().CallLater(ApplyCondition, 2500, false, item, target);
+	}
+
+	//------------------------------------------------------------------------------------------------
+	protected void ApplyCondition(IEntity item, int target)
+	{
+		if (!item || item.IsDeleted())
+			return;
+
+		ARMST_ITEMS_STATS_COMPONENTS stats = ARMST_ITEMS_STATS_COMPONENTS.Cast(item.FindComponent(ARMST_ITEMS_STATS_COMPONENTS));
+		if (stats && target < stats.GetConditionLevel())
+			stats.SetConditionLevel(target);
 	}
 }
 
@@ -256,6 +398,9 @@ modded class ARMST_OpenStorageAction
 		array<ResourceName> prefabs = {};
 		lootSet.Collect(prefabs);
 
+		// Plain items first so there are no clothes or bags yet for them to fall into,
+		// then clothes and bags go into the crate itself
+		array<IEntity> wearables = {};
 		foreach (ResourceName prefab : prefabs)
 		{
 			Resource res = Resource.Load(prefab);
@@ -266,8 +411,39 @@ modded class ARMST_OpenStorageAction
 			}
 
 			IEntity item = GetGame().SpawnEntityPrefab(res);
-			if (item && !storageManager.TryInsertItem(item))
+			if (!item)
+				continue;
+
+			if (item.FindComponent(BaseLoadoutClothComponent))
+			{
+				wearables.Insert(item);
+				continue;
+			}
+
+			if (!storageManager.TryInsertItem(item))
+			{
+				Print("[SRZ Loot] No room in " + lootSet.m_sName + " for " + prefab, LogLevel.WARNING);
 				SCR_EntityHelper.DeleteEntityAndChildren(item);
+				continue;
+			}
+
+			lootSet.Wear(item);
+		}
+
+		BaseInventoryStorageComponent crateStorage = BaseInventoryStorageComponent.Cast(GetOwner().FindComponent(BaseInventoryStorageComponent));
+		foreach (IEntity wearable : wearables)
+		{
+			bool placed = crateStorage && storageManager.TryInsertItemInStorage(wearable, crateStorage);
+			if (!placed)
+				placed = storageManager.TryInsertItem(wearable);
+
+			if (!placed)
+			{
+				SCR_EntityHelper.DeleteEntityAndChildren(wearable);
+				continue;
+			}
+
+			lootSet.Wear(wearable);
 		}
 	}
 }

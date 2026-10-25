@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{1631D7F2647C7AA9}Configs/SRZ_Loot/Pools/Crate/SRZ_Crate_Mutant_T2.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -24,6 +24,7 @@ GenericEntity : "{94CE3523A428A51B}Prefabs/LOOT_BOX/base/army/Loot_army_box_weap
   }
   SRZ_LockComponent "{E9035B2515F8654D}" {
    m_bConsumeKey 1
+   m_bTierKey 1
   }
   ActionsManagerComponent "{6190D137C5926215}" {
    ActionContexts {

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{33337D650D0A6F1F}Configs/SRZ_Loot/Pools/Crate/SRZ_Crate_Meds_T3.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

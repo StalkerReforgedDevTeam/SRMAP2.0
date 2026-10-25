@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{1D0D7886262EB841}Configs/SRZ_Loot/Pools/Crate/SRZ_Crate_Clothes_T2.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}
