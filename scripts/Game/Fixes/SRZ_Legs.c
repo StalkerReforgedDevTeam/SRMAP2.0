@@ -69,7 +69,7 @@ class SRZ_Legs
 	protected static const float TICK = 1;
 	protected static const float WALK_SPEED = 0.5;
 	protected static const float RUN_SPEED = 1.8;
-	protected static const float STRAIN_KNOCKOUT = 3;
+	protected static const float STRAIN_KNOCKOUT = 6;
 	protected static const float KNOCKOUT_COOLDOWN = 20;
 	protected static const float FALL_MIN = 2.8;
 	protected static const string SPLINT_PREFAB = "srz_splint";
@@ -326,9 +326,8 @@ class SRZ_Legs
 		st.m_vLastPos = pos;
 		bool upright = controller.GetStance() == ECharacterStance.STAND;
 
-		if (upright && speed > RUN_SPEED)
-			st.m_fStrain += 2;
-		else if (upright && speed > WALK_SPEED)
+		// About 6 seconds walking or running upright before you pass out
+		if (upright && speed > WALK_SPEED)
 			st.m_fStrain += 1;
 		else
 			st.m_fStrain = Math.Max(0, st.m_fStrain - 0.5);

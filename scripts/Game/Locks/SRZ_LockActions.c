@@ -156,6 +156,13 @@ modded class ARMST_OpenStorageAction : ScriptedUserAction
 	{
 		if (!SRZ_LockComponent.Get(pOwnerEntity))
 		{
+			// Already searched and waiting on the respawn timer, so just open it again
+			if (!m_lock_ent)
+			{
+				OpenInventoryForUser(pUserEntity, pOwnerEntity);
+				return;
+			}
+
 			super.PerformAction(pOwnerEntity, pUserEntity);
 			return;
 		}
@@ -176,7 +183,23 @@ modded class ARMST_OpenStorageAction : ScriptedUserAction
 		if (lockComp && lockComp.IsLocked())
 			return false;
 
-		return super.CanBeShownScript(user);
+		// ARMST hides Search after the first open, which left no way back in to loot the rest.
+		// Keep it while something is left inside, hide it once looted empty until respawn.
+		if (!m_lock_ent && !lockComp && SRZ_IsEmpty())
+			return false;
+
+		return CanBePerformedScript(user);
+	}
+
+	protected bool SRZ_IsEmpty()
+	{
+		InventoryStorageManagerComponent storage = InventoryStorageManagerComponent.Cast(GetOwner().FindComponent(InventoryStorageManagerComponent));
+		if (!storage)
+			return true;
+
+		array<IEntity> items = {};
+		storage.GetItems(items);
+		return items.IsEmpty();
 	}
 }
 

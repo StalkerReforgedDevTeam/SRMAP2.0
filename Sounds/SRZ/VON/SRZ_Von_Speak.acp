@@ -486,8 +486,6 @@ AudioClass {
    }
    varLocName "VONAmplitude"
    varLocalResource "{27F15E80D6E36E07}Sounds/_SharedData/LocalVariables/LocalVariables_VON.conf"
-   volume 0.562
-   volume_dB -5
   }
   BusClass "84999" {
    id 84999
