@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{D88CF5B28E7043A3}Configs/SRZ_Loot/Pools/Crate/SRZ_Crate_Grenades_T1.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

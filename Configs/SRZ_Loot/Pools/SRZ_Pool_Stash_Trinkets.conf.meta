@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{56CA1A6C0854CC05}Configs/SRZ_Loot/Pools/SRZ_Pool_Stash_Trinkets.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -6,6 +6,11 @@ GameEntity : "{A56F4E9C4ECA2CD9}Prefabs/Items/artefacts_new/base_art.et" {
     ItemDisplayName SCR_ItemHintUIInfo "{56A4B11C0BE428F6}" {
      Name "Fireball II"
     }
+    CustomAttributes {
+     PreviewRenderAttributes "{5D0CB95BC1CDF85B}" {
+      CameraDistanceToItem 0.2
+     }
+    }
    }
   }
   MeshObject "{5D0CB95BC1CDFBAE}" {

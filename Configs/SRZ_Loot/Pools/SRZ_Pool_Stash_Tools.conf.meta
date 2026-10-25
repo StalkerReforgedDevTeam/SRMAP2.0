@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{7D31A2F9E9CEA302}Configs/SRZ_Loot/Pools/SRZ_Pool_Stash_Tools.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

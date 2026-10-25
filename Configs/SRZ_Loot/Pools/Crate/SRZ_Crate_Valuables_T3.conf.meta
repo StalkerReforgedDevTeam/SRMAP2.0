@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{103CB0287BC99BBB}Configs/SRZ_Loot/Pools/Crate/SRZ_Crate_Valuables_T3.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

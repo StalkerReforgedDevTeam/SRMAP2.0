@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{71105AEDBFEB4202}Configs/SRZ_Loot/Pools/Crate/SRZ_Crate_Ammo_T3.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

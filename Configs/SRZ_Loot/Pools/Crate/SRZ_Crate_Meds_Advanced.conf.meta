@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{60840F2E0D94AE54}Configs/SRZ_Loot/Pools/Crate/SRZ_Crate_Meds_Advanced.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}
