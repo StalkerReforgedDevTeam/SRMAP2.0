@@ -1,0 +1,119 @@
+FrameWidgetClass "{57821634A4F80FE2}" {
+ Name "SRZ_StimRoot"
+ {
+  RichTextWidgetClass "{B5243120226BD94C}" {
+   Name "SRZ_Stim0"
+   Slot FrameWidgetSlot "{59E43526474AA537}" {
+    Anchor 0.5 1 0.5 1
+    PositionX -190
+    OffsetLeft -190
+    PositionY -60
+    OffsetTop -60
+    SizeX 380
+    OffsetRight -190
+    SizeY 26
+    OffsetBottom 34
+   }
+   Text ""
+   "Min Font Size" 18
+   FontProperties FontProperties "{6AF1A16167EA976A}" {
+    Font "{EABA4FE9D014CCEF}UI/Fonts/RobotoCondensed/RobotoCondensed_Bold.fnt"
+   }
+  }
+  RichTextWidgetClass "{133564A7D433847C}" {
+   Name "SRZ_Stim1"
+   Slot FrameWidgetSlot "{AF24EC5F63BF12C2}" {
+    Anchor 0.5 1 0.5 1
+    PositionX -190
+    OffsetLeft -190
+    PositionY -88
+    OffsetTop -88
+    SizeX 380
+    OffsetRight -190
+    SizeY 26
+    OffsetBottom 62
+   }
+   Text ""
+   "Min Font Size" 18
+   FontProperties FontProperties "{8FD37B873D4B5D40}" {
+    Font "{EABA4FE9D014CCEF}UI/Fonts/RobotoCondensed/RobotoCondensed_Bold.fnt"
+   }
+  }
+  RichTextWidgetClass "{61E48C7D2391515F}" {
+   Name "SRZ_Stim2"
+   Slot FrameWidgetSlot "{85B2DCD1108CBADA}" {
+    Anchor 0.5 1 0.5 1
+    PositionX -190
+    OffsetLeft -190
+    PositionY -116
+    OffsetTop -116
+    SizeX 380
+    OffsetRight -190
+    SizeY 26
+    OffsetBottom 90
+   }
+   Text ""
+   "Min Font Size" 18
+   FontProperties FontProperties "{6E18B2C277970625}" {
+    Font "{EABA4FE9D014CCEF}UI/Fonts/RobotoCondensed/RobotoCondensed_Bold.fnt"
+   }
+  }
+  RichTextWidgetClass "{51C5E12B0CCEDAEE}" {
+   Name "SRZ_Stim3"
+   Slot FrameWidgetSlot "{E78E3173B1C45DE7}" {
+    Anchor 0.5 1 0.5 1
+    PositionX -190
+    OffsetLeft -190
+    PositionY -144
+    OffsetTop -144
+    SizeX 380
+    OffsetRight -190
+    SizeY 26
+    OffsetBottom 118
+   }
+   Text ""
+   "Min Font Size" 18
+   FontProperties FontProperties "{80503D1AF4DDF8CD}" {
+    Font "{EABA4FE9D014CCEF}UI/Fonts/RobotoCondensed/RobotoCondensed_Bold.fnt"
+   }
+  }
+  RichTextWidgetClass "{426947E54C486065}" {
+   Name "SRZ_Stim4"
+   Slot FrameWidgetSlot "{90F81B0687C0AF8F}" {
+    Anchor 0.5 1 0.5 1
+    PositionX -190
+    OffsetLeft -190
+    PositionY -172
+    OffsetTop -172
+    SizeX 380
+    OffsetRight -190
+    SizeY 26
+    OffsetBottom 146
+   }
+   Text ""
+   "Min Font Size" 18
+   FontProperties FontProperties "{7F168E58C7361818}" {
+    Font "{EABA4FE9D014CCEF}UI/Fonts/RobotoCondensed/RobotoCondensed_Bold.fnt"
+   }
+  }
+  RichTextWidgetClass "{E35381F8E03E33D2}" {
+   Name "SRZ_Stim5"
+   Slot FrameWidgetSlot "{ABF1F2307A6BD40C}" {
+    Anchor 0.5 1 0.5 1
+    PositionX -190
+    OffsetLeft -190
+    PositionY -200
+    OffsetTop -200
+    SizeX 380
+    OffsetRight -190
+    SizeY 26
+    OffsetBottom 174
+   }
+   Text ""
+   "Min Font Size" 18
+   FontProperties FontProperties "{7CF6EDEBEF3934D6}" {
+    Font "{EABA4FE9D014CCEF}UI/Fonts/RobotoCondensed/RobotoCondensed_Bold.fnt"
+   }
+  }
+ }
+}

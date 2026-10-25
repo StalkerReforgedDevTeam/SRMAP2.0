@@ -12,6 +12,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_SpawnChance 69
   m_SpawnChanceArtefactsRestart 10
   m_SpawnChanceArtefacts 10
+  m_iSRZ_FieldTier "Tier 1"
  }
  {
   coords 2076.953 306.413 295.895
@@ -26,6 +27,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_SpawnChance 69
   m_SpawnChanceArtefactsRestart 10
   m_SpawnChanceArtefacts 10
+  m_iSRZ_FieldTier "Tier 1"
  }
  {
   coords 2425.6 309.494 236.394
@@ -40,6 +42,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_SpawnChance 69
   m_SpawnChanceArtefactsRestart 10
   m_SpawnChanceArtefacts 10
+  m_iSRZ_FieldTier "Tier 1"
  }
  {
   coords 2877.404 309.827 232.341
@@ -54,6 +57,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_SpawnChance 69
   m_SpawnChanceArtefactsRestart 10
   m_SpawnChanceArtefacts 10
+  m_iSRZ_FieldTier "Tier 1"
  }
  {
   coords 2971.569 308.186 642.334
@@ -68,6 +72,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_SpawnChance 69
   m_SpawnChanceArtefactsRestart 10
   m_SpawnChanceArtefacts 10
+  m_iSRZ_FieldTier "Tier 1"
  }
  {
   coords 3506.651 306.709 360.99
@@ -82,6 +87,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_SpawnChance 69
   m_SpawnChanceArtefactsRestart 10
   m_SpawnChanceArtefacts 10
+  m_iSRZ_FieldTier "Tier 1"
  }
  {
   coords 4020.927 307.58 260.778
@@ -96,5 +102,6 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_SpawnChance 69
   m_SpawnChanceArtefactsRestart 10
   m_SpawnChanceArtefacts 10
+  m_iSRZ_FieldTier "Tier 1"
  }
 }
