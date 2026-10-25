@@ -1,4 +1,6 @@
 // Every knockout ragdolls the player and lasts 30 to 60 seconds. They can't wake early, and are woken once the time is up.
+// Waking tops blood up to a safe level and gives a short grace so they don't drop straight back down,
+// which used to start a fresh 30 to 60 second knockout every time (stuck down forever).
 modded class SCR_ChimeraCharacter
 {
 	void SRZ_SendRagdoll()
@@ -11,6 +13,37 @@ modded class SCR_ChimeraCharacter
 	{
 		SRZ_Unconscious.Ragdoll(this);
 	}
+
+	void SRZ_SendSelfRagdoll()
+	{
+		if (Replication.IsServer())
+			SRZ_Unconscious.MarkSelfRagdoll(this);
+		else
+			Rpc(RpcAsk_SRZSelfRagdoll);
+	}
+
+	[RplRpc(RplChannel.Reliable, RplRcver.Server)]
+	void RpcAsk_SRZSelfRagdoll()
+	{
+		SRZ_Unconscious.MarkSelfRagdoll(this);
+	}
+}
+
+// Ragdolling on purpose (ARMST ragdoll key) shouldn't count as a knockout
+modded class SCR_CharacterControllerComponent
+{
+	override void ARMST_Ragdoll()
+	{
+		super.ARMST_Ragdoll();
+
+		IEntity controlledEnt = SCR_PlayerController.GetLocalControlledEntity();
+		if (!controlledEnt || Helpers.CheckSurrenderState(controlledEnt))
+			return;
+
+		SCR_ChimeraCharacter character = SCR_ChimeraCharacter.Cast(controlledEnt);
+		if (character)
+			character.SRZ_SendSelfRagdoll();
+	}
 }
 
 class SRZ_Unconscious
@@ -18,8 +51,14 @@ class SRZ_Unconscious
 	protected static const float MIN_TIME = 30;
 	protected static const float MAX_TIME = 60;
 	protected static const float TICK = 1;
+	protected static const float WAKE_GRACE = 20;
+	protected static const float WAKE_BLOOD = 0.65;
+	protected static const float SELF_RAGDOLL_TIME = 5;
+	protected static const float SELF_RAGDOLL_BLOOD = 0.6;
 
 	protected static ref map<IEntity, float> s_mWakeAt = new map<IEntity, float>();
+	protected static ref map<IEntity, float> s_mGraceUntil = new map<IEntity, float>();
+	protected static ref map<IEntity, float> s_mSelfRagdollUntil = new map<IEntity, float>();
 	protected static bool s_bTicking;
 
 	//------------------------------------------------------------------------------------------------
@@ -30,6 +69,37 @@ class SRZ_Unconscious
 
 		s_bTicking = true;
 		GetGame().GetCallqueue().CallLater(Tick, TICK * 1000, true);
+	}
+
+	//------------------------------------------------------------------------------------------------
+	// True for a short time after waking, so the engine can't knock them straight back out
+	static bool InWakeGrace(IEntity character)
+	{
+		if (!character || !s_mGraceUntil.Contains(character) || !GetGame().GetWorld())
+			return false;
+
+		return GetGame().GetWorld().GetWorldTime() / 1000 < s_mGraceUntil.Get(character);
+	}
+
+	//------------------------------------------------------------------------------------------------
+	static void MarkSelfRagdoll(IEntity character)
+	{
+		if (character && GetGame().GetWorld())
+			s_mSelfRagdollUntil.Set(character, GetGame().GetWorld().GetWorldTime() / 1000 + SELF_RAGDOLL_TIME);
+	}
+
+	//------------------------------------------------------------------------------------------------
+	// Just threw themselves on the ground and aren't actually hurt
+	static bool InSelfRagdoll(IEntity character, SCR_CharacterDamageManagerComponent damage)
+	{
+		if (!character || !damage || !s_mSelfRagdollUntil.Contains(character) || !GetGame().GetWorld())
+			return false;
+
+		if (GetGame().GetWorld().GetWorldTime() / 1000 >= s_mSelfRagdollUntil.Get(character))
+			return false;
+
+		HitZone blood = damage.GetBloodHitZone();
+		return !blood || blood.GetHealthScaled() >= SELF_RAGDOLL_BLOOD;
 	}
 
 	//------------------------------------------------------------------------------------------------
@@ -46,8 +116,16 @@ class SRZ_Unconscious
 				Check(character, now);
 		}
 
+		Clean(s_mWakeAt);
+		Clean(s_mGraceUntil);
+		Clean(s_mSelfRagdollUntil);
+	}
+
+	//------------------------------------------------------------------------------------------------
+	protected static void Clean(map<IEntity, float> entries)
+	{
 		array<IEntity> gone = {};
-		foreach (IEntity ent, float wakeAt : s_mWakeAt)
+		foreach (IEntity ent, float t : entries)
 		{
 			if (!ent)
 				gone.Insert(ent);
@@ -55,7 +133,7 @@ class SRZ_Unconscious
 
 		foreach (IEntity ent : gone)
 		{
-			s_mWakeAt.Remove(ent);
+			entries.Remove(ent);
 		}
 	}
 
@@ -75,9 +153,40 @@ class SRZ_Unconscious
 		if (!controller || !damage)
 			return;
 
-		if (controller.IsDead() || !controller.IsUnconscious())
+		if (controller.IsDead())
 		{
 			s_mWakeAt.Remove(character);
+			s_mGraceUntil.Remove(character);
+			return;
+		}
+
+		// Self ragdoll: undo any knock from hitting the ground, no knockout timer
+		if (!s_mWakeAt.Contains(character) && InSelfRagdoll(character, damage))
+		{
+			HitZone resilience = damage.GetResilienceHitZone();
+			if (resilience)
+				resilience.SetHealthScaled(1);
+
+			if (controller.IsUnconscious())
+			{
+				damage.UpdateConsciousness();
+				if (controller.IsUnconscious())
+					controller.SetUnconscious(false);
+			}
+
+			return;
+		}
+
+		if (!controller.IsUnconscious())
+		{
+			s_mWakeAt.Remove(character);
+			return;
+		}
+
+		// Still down during the grace window: keep waking them instead of starting a new knockout
+		if (InWakeGrace(character))
+		{
+			Wake(character, controller, damage);
 			return;
 		}
 
@@ -93,11 +202,10 @@ class SRZ_Unconscious
 				scrChar.SRZ_SendRagdoll();
 		}
 
-		HitZone resilience = damage.GetResilienceHitZone();
-
 		// Hold them under until the time is up
 		if (now < s_mWakeAt.Get(character))
 		{
+			HitZone resilience = damage.GetResilienceHitZone();
 			if (resilience)
 				resilience.SetHealth(0);
 
@@ -105,11 +213,43 @@ class SRZ_Unconscious
 		}
 
 		s_mWakeAt.Remove(character);
+		s_mGraceUntil.Set(character, now + WAKE_GRACE);
+		Print("[SRZ Unconscious] Waking up");
+		Wake(character, controller, damage);
+	}
+
+	//------------------------------------------------------------------------------------------------
+	protected static void Wake(ChimeraCharacter character, CharacterControllerComponent controller, SCR_CharacterDamageManagerComponent damage)
+	{
+		HitZone resilience = damage.GetResilienceHitZone();
 		if (resilience)
 			resilience.SetHealthScaled(1);
 
-		controller.SetUnconscious(false);
+		HitZone blood = damage.GetBloodHitZone();
+		if (blood && blood.GetHealthScaled() < WAKE_BLOOD)
+			blood.SetHealthScaled(WAKE_BLOOD);
+
+		// Let the engine wake them first so it plays the normal get up, only force it if they stay down
 		damage.UpdateConsciousness();
+		if (controller.IsUnconscious())
+			controller.SetUnconscious(false);
+	}
+}
+
+modded class SCR_CharacterDamageManagerComponent
+{
+	override protected bool ShouldBeUnconscious()
+	{
+		if (SRZ_Unconscious.InWakeGrace(GetOwner()) || SRZ_Unconscious.InSelfRagdoll(GetOwner(), this))
+			return false;
+
+		return super.ShouldBeUnconscious();
+	}
+
+	// Bleeding runs at half the vanilla rate
+	override float GetBleedingScale()
+	{
+		return super.GetBleedingScale() * 0.5;
 	}
 }
 
