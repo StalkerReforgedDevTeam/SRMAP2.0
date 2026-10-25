@@ -1,0 +1,24 @@
+FrameWidgetClass "{EC0DFD3B49DC19B1}" {
+ Name "SRZ_DosiRoot"
+ {
+  TextWidgetClass "{950B84740E6BFFDF}" {
+   Name "SRZ_DosiText"
+   Slot FrameWidgetSlot "{0131E3386471D9B0}" {
+    Anchor 0 1 0 1
+    PositionX 32
+    OffsetLeft 32
+    PositionY -262
+    OffsetTop -262
+    SizeX 160
+    OffsetRight -192
+    SizeY 32
+    OffsetBottom 230
+   }
+   Text "0"
+   "Min Font Size" 24
+   FontProperties FontProperties "{C62C37937A6D0A47}" {
+    Font "{EABA4FE9D014CCEF}UI/Fonts/RobotoCondensed/RobotoCondensed_Bold.fnt"
+   }
+  }
+ }
+}

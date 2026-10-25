@@ -16,6 +16,7 @@ modded class SCR_ChimeraCharacter
 class SRZ_StimHudEntry
 {
 	string m_sName;
+	bool m_bStatus;
 	float m_fMainEnd;
 	float m_fSideEnd;
 }
@@ -52,8 +53,72 @@ class SRZ_StimHud
 			s_aEntries.Insert(entry);
 		}
 
+		entry.m_bStatus = false;
 		entry.m_fMainEnd = now + main;
 		entry.m_fSideEnd = now + main + side;
+
+		Create();
+		Update();
+		if (!s_bTicking)
+		{
+			s_bTicking = true;
+			GetGame().GetCallqueue().CallLater(Update, 250, true);
+		}
+	}
+
+	//------------------------------------------------------------------------------------------------
+	// For the status HUD: the stim with the most time left, preferring one still in its main effect
+	static bool SRZ_GetActive(out float timeLeft, out bool sidePhase)
+	{
+		if (!GetGame().GetWorld())
+			return false;
+
+		float now = GetGame().GetWorld().GetWorldTime() / 1000;
+		bool found = false;
+		foreach (SRZ_StimHudEntry e : s_aEntries)
+		{
+			if (e.m_bStatus || now >= e.m_fSideEnd)
+				continue;
+
+			bool side = now >= e.m_fMainEnd;
+			float left = e.m_fMainEnd - now;
+			if (side)
+				left = e.m_fSideEnd - now;
+
+			bool better = !found || (sidePhase && !side) || (side == sidePhase && left > timeLeft);
+			if (!better)
+				continue;
+
+			found = true;
+			sidePhase = side;
+			timeLeft = left;
+		}
+
+		return found;
+	}
+
+	//------------------------------------------------------------------------------------------------
+	// A line with no timer, like a broken leg. Stays until it's turned off.
+	static void SetStatus(string name, bool on)
+	{
+		for (int i = s_aEntries.Count() - 1; i >= 0; i--)
+		{
+			if (s_aEntries[i].m_sName == name)
+				s_aEntries.RemoveOrdered(i);
+		}
+
+		if (on)
+		{
+			SRZ_StimHudEntry entry = new SRZ_StimHudEntry();
+			entry.m_sName = name;
+			entry.m_bStatus = true;
+			entry.m_fMainEnd = float.MAX;
+			entry.m_fSideEnd = float.MAX;
+			s_aEntries.Insert(entry);
+		}
+
+		if (s_aEntries.IsEmpty())
+			return;
 
 		Create();
 		Update();
@@ -135,7 +200,9 @@ class SRZ_StimHud
 
 			SRZ_StimHudEntry entry = s_aEntries[line];
 			string text;
-			if (now < entry.m_fMainEnd)
+			if (entry.m_bStatus)
+				text = "<color rgba='220,140,50,255'>!</color>  " + entry.m_sName;
+			else if (now < entry.m_fMainEnd)
 				text = "<color rgba='120,200,90,255'>+</color>  " + entry.m_sName + "  <color rgba='170,170,170,255'>" + FormatTime(entry.m_fMainEnd - now) + "</color>";
 			else
 				text = "<color rgba='220,140,50,255'>!</color>  " + entry.m_sName + " wearing off  <color rgba='170,170,170,255'>" + FormatTime(entry.m_fSideEnd - now) + "</color>";
@@ -308,6 +375,7 @@ class SRZ_Stims
 		if (!prof)
 			return;
 
+		Print("[SRZ Stims] " + prof.m_sName + " started");
 		SRZ_SendHud(character, prof);
 
 		foreach (SRZ_StimEffect active : s_aActive)

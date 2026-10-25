@@ -1,0 +1,20 @@
+FrameWidgetClass "{8AE809F8240EB002}" {
+ Name "SRZ_LegRoot"
+ {
+  ImageWidgetClass "{F3D2D6D4AA913D12}" {
+   Name "SRZ_LegIcon"
+   Slot FrameWidgetSlot "{FF199AAB2F3BD25B}" {
+    Anchor 1 1 1 1
+    PositionX -235
+    OffsetLeft -235
+    PositionY -118
+    OffsetTop -118
+    SizeX 30
+    OffsetRight 205
+    SizeY 30
+    OffsetBottom 88
+   }
+   Size 30 30
+  }
+ }
+}

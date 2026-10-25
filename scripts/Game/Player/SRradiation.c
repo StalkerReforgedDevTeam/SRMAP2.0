@@ -29,6 +29,9 @@ modded class ARMST_RADIATIONSEntity
 	protected float m_fFilterDrainHigh;
 
 	protected ref map<IEntity, bool> m_mActiveOccupants = new map<IEntity, bool>();
+
+	// How many zones each player is standing in, so leaving one overlapping zone doesn't zero the dosimeter
+	protected static ref map<IEntity, int> s_mSRZ_ZoneCount = new map<IEntity, int>();
 	protected ref set<IEntity> m_aTickPending = new set<IEntity>();
 
 	override void OnActivate(IEntity ent)
@@ -60,6 +63,7 @@ modded class ARMST_RADIATIONSEntity
 			return;
 
 		m_mActiveOccupants.Insert(ent, true);
+		s_mSRZ_ZoneCount.Set(ent, s_mSRZ_ZoneCount.Get(ent) + 1);
 
 		if (m_aTickPending.Contains(ent))
 			return;
@@ -70,12 +74,23 @@ modded class ARMST_RADIATIONSEntity
 
 	override void OnDeactivate(IEntity ent)
 	{
-		super.OnDeactivate(ent);
-
 		if (!ent)
 			return;
 
-		m_mActiveOccupants.Remove(ent);
+		if (m_mActiveOccupants.Contains(ent))
+		{
+			m_mActiveOccupants.Remove(ent);
+			int count = s_mSRZ_ZoneCount.Get(ent) - 1;
+			if (count > 0)
+			{
+				s_mSRZ_ZoneCount.Set(ent, count);
+				return;
+			}
+
+			s_mSRZ_ZoneCount.Remove(ent);
+		}
+
+		super.OnDeactivate(ent);
 	}
 
 	protected void QueueZoneTick(IEntity ent)
@@ -97,6 +112,7 @@ modded class ARMST_RADIATIONSEntity
 		if (!IsAlive(ent))
 		{
 			m_mActiveOccupants.Remove(ent);
+			s_mSRZ_ZoneCount.Remove(ent);
 			return;
 		}
 
@@ -117,23 +133,17 @@ modded class ARMST_RADIATIONSEntity
 		if (!statsComponent)
 			return;
 
+		// The dosimeter reads the zone itself. It compares that against the player's protection on its own.
+		statsComponent.ArmstRadiactiveLevelSet(m_fZoneRadiationLevel);
+
 		if (statsComponent.GetFactionKey() == ARMST_FACTION_LABEL.FACTION_MUTANTS)
-		{
-			statsComponent.ArmstRadiactiveLevelSet(0);
 			return;
-		}
 
 		float protection = statComponent.GetAllRadiactive(ent);
 
 		float deficit = m_fZoneRadiationLevel - protection;
 		if (deficit < 0)
 			deficit = 0;
-
-		// Feed the base stat only the exposure the player is actually taking (post-protection),
-		// not the raw zone rating - a fully-protected player should read clean, not "in a 300-rad zone."
-		// A prior version fed the raw m_fZoneRadiationLevel here regardless of protection, which may be
-		// tied to health effects inside ARMST's own (unowned) code independent of our sickness threshold.
-		statsComponent.ArmstRadiactiveLevelSet(deficit);
 
 		if (deficit > 0)
 			statsComponent.ArmstPlayerStatSetRadio(deficit * m_fDeficitDoseScale);

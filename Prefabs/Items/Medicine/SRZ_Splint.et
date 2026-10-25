@@ -1,0 +1,19 @@
+GenericEntity : "{CB67A30D05AA4F29}Prefabs/Items/Medicine/armst_itm_medkit_ai2.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  ARMST_ItemUseComponent "{59E68C4DC131E9FC}" {
+   m_bAlternativeModelOnAction 0
+  }
+  InventoryItemComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName SCR_InventoryUIInfo "{5222EB4D07D865FA}" {
+     Name "Splint"
+     Description "Soviet transport splint, foam over a soft aluminium core. Shape it around a broken leg so you can walk on it while it heals."
+    }
+   }
+  }
+  MeshObject "{59CEE5702DCA6A31}" {
+   Object "{2B7A7A851359A993}Assets/Items/Medicine/SRZ_Splint/SRZ_Splint.xob"
+  }
+ }
+}

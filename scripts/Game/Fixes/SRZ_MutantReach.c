@@ -239,14 +239,15 @@ modded class ARMST_Monster_MeleeComponent
 		vector dir = target.GetOrigin() - GetOwner().GetOrigin();
 		dir.Normalize();
 		vector hitPosDirNorm[3];
-		hitPosDirNorm[0] = target.GetOrigin() + "0 1 0";
+		hitPosDirNorm[0] = target.GetOrigin() + vector.Up;
 		hitPosDirNorm[1] = dir;
-		hitPosDirNorm[2] = -dir;
+		hitPosDirNorm[2] = dir * -1;
 
 		SCR_DamageContext context = new SCR_DamageContext(EDamageType.MELEE, damage, hitPosDirNorm, target, hitZone, Instigator.CreateInstigator(GetOwner()), null, -1, -1);
 		context.damageEffect = new SCR_MeleeDamageEffect();
 		damageManager.HandleDamage(context);
 		m_fSRZ_LastHit = GetGame().GetWorld().GetWorldTime() / 1000;
+		SRZ_Legs.OnMutantHit(GetOwner(), target);
 
 		if (m_fPlayerAnimationToggle && EntityUtils.IsPlayer(target) && m_ChancePlayerAnimation > Math.RandomInt(0, 99))
 		{
@@ -293,8 +294,8 @@ modded class Bacon_622120A5448725E3_AICanMeleeTarget
 		SRZ_AddHierarchy(entity, excluded);
 		SRZ_AddHierarchy(target, excluded);
 		m_tParams.ExcludeArray = excluded;
-		m_tParams.Start = entity.GetOrigin() + "0 1 0";
-		m_tParams.End = target.GetOrigin() + "0 1 0";
+		m_tParams.Start = entity.GetOrigin() + vector.Up;
+		m_tParams.End = target.GetOrigin() + vector.Up;
 
 		return GetGame().GetWorld().TraceMove(m_tParams, null) == 1;
 	}
