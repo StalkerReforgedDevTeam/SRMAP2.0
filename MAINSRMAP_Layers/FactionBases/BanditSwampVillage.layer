@@ -184,7 +184,7 @@ $grp GenericEntity {
   angles 0 90.481 0
  }
  enter_perimetr8 {
-  coords 3816.169 307.08 339.42
+  coords 3816.172 307.08 339.42
   angles 0 -57.322 0
  }
  {
@@ -8199,6 +8199,11 @@ GenericEntity : "{D6E93EF9D3232D16}Prefabs/Props/Commercial/ShelfUniversal_01_wi
  scale 0.903
 }
 SCR_ChimeraCharacter : "{DBA851D751AA40A4}Prefabs/QUESTS/SRFACTIONS/MONOLITH_VENDOR.et" {
+ components {
+  FactionAffiliationComponent "{520EC9618276DF23}" {
+   Enabled 0
+  }
+ }
  coords 3101.478 318.712 2650.605
  angles 0 92.146 0
 }
