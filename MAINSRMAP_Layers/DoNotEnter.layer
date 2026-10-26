@@ -14622,9 +14622,9 @@ GenericEntity : "{960BDC106B859CFC}Prefabs/Props/Civilian/Birdhouse_01/Birdhouse
         "23b253c5-f786-48df-aff5-b3ffd1c593d8"
         "d2e7e6b0-9c19-4c37-9efb-04f2617f0817"
         "f42620d2-5306-426d-a17a-fd0b9be0c972"
-        "78100a6-40c6-a908-b153811a194"
         "8d8dOad5-7238-4dad-b658-Ocd8d9140ale"
         "b2041431-6144-4ae0-a096-57716bf51721"
+        ""
        }
       }
      }
@@ -20364,6 +20364,18 @@ GenericEntity : "{E59D9776A5169843}Prefabs/Structures/BuildingParts/Doors/DoorSe
  }
 }
 SCR_ChimeraCharacter : "{EC0F8FDB1F5AB7C5}Prefabs/QUESTS/SRFACTIONS/FREEDOM_VENDOR.et" {
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{08420CA5AAC4137F}Prefabs/Hoods/FreedomBeret_fixed.et"
+    }
+    LoadoutSlotInfo Head {
+     Enabled 0
+    }
+   }
+  }
+ }
  coords 3558.263 308.811 1842.19
  angles 0 -158.939 0
 }
