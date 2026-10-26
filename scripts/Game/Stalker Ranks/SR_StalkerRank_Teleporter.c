@@ -15,6 +15,14 @@ modded class ARMST_TELEPORT_ACTIONS : ScriptedUserAction
 	}
 
 	//------------------------------------------------------------------------------------------------
+	// The jump in height after a teleport was being read as a fall and breaking legs
+	override void PerformTeleport(IEntity pUserEntity)
+	{
+		SRZ_FallWatch.Forget(pUserEntity);
+		super.PerformTeleport(pUserEntity);
+	}
+
+	//------------------------------------------------------------------------------------------------
 	// Options above the player's rank are hidden. Lower rank options stay available
 	override bool CanBeShownScript(IEntity user)
 	{

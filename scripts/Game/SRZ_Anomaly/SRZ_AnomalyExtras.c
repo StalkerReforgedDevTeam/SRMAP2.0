@@ -194,22 +194,63 @@ modded class ARMST_DamagingTriggerEntity
 		return false;
 	}
 
+	protected ref array<IEntity> m_aSRZ_WoundWho = {};
+	protected ref array<float> m_aSRZ_WoundNext = {};
+
+	// Wounds only go on the parts a bandage can be applied to (arms, legs, torso), at most once every 3 seconds per player
 	protected void SRZ_OpenWounds(IEntity ent)
 	{
 		SCR_CharacterDamageManagerComponent damageManager = SCR_CharacterDamageManagerComponent.Cast(ent.FindComponent(SCR_CharacterDamageManagerComponent));
 		if (!damageManager || damageManager.GetState() == EDamageState.DESTROYED)
 			return;
 
+		float now = SRZ_ExtrasNow();
+		for (int i = m_aSRZ_WoundWho.Count() - 1; i >= 0; i--)
+		{
+			if (!m_aSRZ_WoundWho[i] || m_aSRZ_WoundWho[i].IsDeleted() || now > m_aSRZ_WoundNext[i] + 60)
+			{
+				m_aSRZ_WoundWho.Remove(i);
+				m_aSRZ_WoundNext.Remove(i);
+				continue;
+			}
+
+			if (m_aSRZ_WoundWho[i] != ent)
+				continue;
+
+			if (now < m_aSRZ_WoundNext[i])
+				return;
+
+			m_aSRZ_WoundNext[i] = now + 3;
+			break;
+		}
+
+		if (!m_aSRZ_WoundWho.Contains(ent))
+		{
+			m_aSRZ_WoundWho.Insert(ent);
+			m_aSRZ_WoundNext.Insert(now + 3);
+		}
+
 		array<HitZone> zones = {};
 		damageManager.GetPhysicalHitZones(zones);
-		if (zones.IsEmpty())
+
+		array<SCR_CharacterHitZone> bandageable = {};
+		foreach (HitZone hz : zones)
+		{
+			SCR_CharacterHitZone zone = SCR_CharacterHitZone.Cast(hz);
+			if (!zone)
+				continue;
+
+			ECharacterHitZoneGroup group = zone.GetHitZoneGroup();
+			if (group == ECharacterHitZoneGroup.LEFTARM || group == ECharacterHitZoneGroup.RIGHTARM || group == ECharacterHitZoneGroup.LEFTLEG || group == ECharacterHitZoneGroup.RIGHTLEG || group == ECharacterHitZoneGroup.UPPERTORSO || group == ECharacterHitZoneGroup.LOWERTORSO)
+				bandageable.Insert(zone);
+		}
+
+		if (bandageable.IsEmpty())
 			return;
 
 		for (int i = 0; i < m_iSRZ_BleedWounds; i++)
 		{
-			SCR_CharacterHitZone zone = SCR_CharacterHitZone.Cast(zones.GetRandomElement());
-			if (zone)
-				damageManager.AddBleedingEffectOnHitZone(zone);
+			damageManager.AddBleedingEffectOnHitZone(bandageable.GetRandomElement());
 		}
 	}
 }

@@ -11,6 +11,22 @@ modded class EPF_BaseInventoryStorageComponentSaveData
 			Print(string.Format("[SRZ Save] Empty storage record on %1 (%2), loaded as empty", owner, component), LogLevel.WARNING);
 		}
 
+		// An item whose prefab no longer exists (renamed or removed in an update) made the whole character fail to load.
+		// Drop just that item and keep the rest.
+		for (int i = m_aSlots.Count() - 1; i >= 0; i--)
+		{
+			EPF_PersistentInventoryStorageSlot slot = m_aSlots[i];
+			if (!slot || !slot.m_pEntity || slot.m_pEntity.m_rPrefab.IsEmpty())
+				continue;
+
+			Resource res = Resource.Load(slot.m_pEntity.m_rPrefab);
+			if (res && res.IsValid())
+				continue;
+
+			Print(string.Format("[SRZ Save] Dropping unknown item %1 from %2, prefab no longer exists", slot.m_pEntity.m_rPrefab, owner), LogLevel.WARNING);
+			m_aSlots.Remove(i);
+		}
+
 		return super.ApplyTo(owner, component, attributes);
 	}
 }

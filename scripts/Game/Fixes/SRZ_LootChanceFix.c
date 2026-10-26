@@ -1,26 +1,19 @@
 // ARMST cast loot chances to int, so anything under 1 became 0 and was then treated as 100.
 // Same weighted pick, but with the real decimal chance.
-// Items set to 0 never spawn, and the reroll loop gives up after too many misses
-// (a pool of near zero chances used to spin forever and freeze the server).
 class SRZ_LootChance
 {
-	static const int MAX_MISSES = 5000;
-
 	static float Weight(ARMST_LootItemWithPrefab item)
 	{
-		if (!item || !item.LootInfo)
-			return 0;
-
 		float w = item.LootInfo.m_iProbability;
-		if (w < 0)
-			w = 0;
+		if (w <= 0)
+			w = 100;
 
 		return w;
 	}
 
-	static ARMST_LootItemWithPrefab Pick(array<ref ARMST_LootItemWithPrefab> items, int misses)
+	static ARMST_LootItemWithPrefab Pick(array<ref ARMST_LootItemWithPrefab> items)
 	{
-		if (!items || items.IsEmpty() || misses >= MAX_MISSES)
+		if (!items || items.IsEmpty())
 			return null;
 
 		float total = 0;
@@ -29,82 +22,64 @@ class SRZ_LootChance
 			total += Weight(item);
 		}
 
-		if (total <= 0)
-			return null;
-
 		float roll = Math.RandomFloat(0, total);
 		float current = 0;
 		foreach (ARMST_LootItemWithPrefab item : items)
 		{
-			float w = Weight(item);
-			if (w <= 0)
-				continue;
-
-			current += w;
+			current += Weight(item);
 			if (roll < current)
 				return item;
 		}
 
-		for (int i = items.Count() - 1; i >= 0; i--)
-		{
-			if (Weight(items[i]) > 0)
-				return items[i];
-		}
-
-		return null;
+		return items[items.Count() - 1];
 	}
 }
 
 modded class ARMST_OpenStorageAction
 {
-	protected int m_iSRZ_Misses;
-
-	override protected void Spawn()
-	{
-		m_iSRZ_Misses = 0;
-		super.Spawn();
-	}
-
-	override bool AddToLoot(float probability)
-	{
-		bool hit = super.AddToLoot(probability);
-		if (hit)
-			m_iSRZ_Misses = 0;
-		else
-			m_iSRZ_Misses++;
-
-		return hit;
-	}
-
 	override ARMST_LootItemWithPrefab GetRandomValidLootItemWithPrefab()
 	{
-		return SRZ_LootChance.Pick(m_ValidLootItemsWithPrefabs, m_iSRZ_Misses);
+		return SRZ_LootChance.Pick(m_ValidLootItemsWithPrefabs);
 	}
 }
 
 modded class ARMST_RANDOM_CLOTHES_NEW
 {
-	protected int m_iSRZ_Misses;
-
-	override void SpawnLootToLoadout(IEntity character)
-	{
-		m_iSRZ_Misses = 0;
-		super.SpawnLootToLoadout(character);
-	}
-
-	override bool AddToLoot(float probability)
-	{
-		bool hit = super.AddToLoot(probability);
-		if (hit)
-			m_iSRZ_Misses = 0;
-		else
-			m_iSRZ_Misses++;
-
-		return hit;
-	}
-
 	override ARMST_LootItemWithPrefab GetRandomValidLootItemWithPrefab()
 	{
-		return SRZ_LootChance.Pick(m_ValidLootItemsWithPrefabs, m_iSRZ_Misses);
+		return SRZ_LootChance.Pick(m_ValidLootItemsWithPrefabs);
+	}
+
+	// ARMST queues these with a delay; the bot can be gone by the time they run
+	override protected void EquipRandomItem(IEntity character, SCR_InventoryStorageManagerComponent inventoryManager, array<ref ResourceName> configs, string category)
+	{
+		if (!character || !inventoryManager)
+			return;
+
+		super.EquipRandomItem(character, inventoryManager, configs, category);
+	}
+
+	override protected void EquipRandomWeapon(IEntity character, SCR_InventoryStorageManagerComponent inventoryManager, array<ref ResourceName> configs, string category)
+	{
+		if (!character || !inventoryManager)
+			return;
+
+		super.EquipRandomWeapon(character, inventoryManager, configs, category);
+	}
+
+	override protected void AddInventoryItems(IEntity character, SCR_InventoryStorageManagerComponent inventoryManager, array<ref ResourceName> configs)
+	{
+		if (!character || !inventoryManager)
+			return;
+
+		super.AddInventoryItems(character, inventoryManager, configs);
+	}
+
+	override void ApplyLoadout2(IEntity character)
+	{
+		if (!character)
+			return;
+
+		super.ApplyLoadout2(character);
 	}
 }

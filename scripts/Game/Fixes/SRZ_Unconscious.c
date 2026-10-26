@@ -177,9 +177,15 @@ class SRZ_Unconscious
 			return;
 		}
 
+		// Up early (a hit animation or anything else stood them up): the clock keeps running instead of rerolling
 		if (!controller.IsUnconscious())
 		{
-			s_mWakeAt.Remove(character);
+			if (s_mWakeAt.Contains(character) && now >= s_mWakeAt.Get(character))
+			{
+				s_mWakeAt.Remove(character);
+				s_mGraceUntil.Set(character, now + WAKE_GRACE);
+			}
+
 			return;
 		}
 
@@ -250,6 +256,28 @@ modded class SCR_CharacterDamageManagerComponent
 	override float GetBleedingScale()
 	{
 		return super.GetBleedingScale() * 0.5;
+	}
+}
+
+// Mutant hit animations (the "Falling" flinch) stood an unconscious player up, which reset the knockout every hit
+modded class ARMST_PLAYER_ANIMATION
+{
+	protected bool SRZ_IsDown()
+	{
+		ChimeraCharacter chimera = ChimeraCharacter.Cast(GetOwner());
+		if (!chimera)
+			return false;
+
+		CharacterControllerComponent controller = chimera.GetCharacterController();
+		return controller && (controller.IsUnconscious() || controller.IsDead());
+	}
+
+	override void StartAnimationsPlayerByName(string animName)
+	{
+		if (SRZ_IsDown())
+			return;
+
+		super.StartAnimationsPlayerByName(animName);
 	}
 }
 
