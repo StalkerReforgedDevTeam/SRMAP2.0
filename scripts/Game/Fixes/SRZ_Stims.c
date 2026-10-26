@@ -307,16 +307,16 @@ class SRZ_Stims
 		Add("Propital", "armst_itm_stimulator_137", Phase(180, 2, 0, 0, 0, 0, 0, 0), Phase(60, 0, 0, 0, 0, -0.5, -1, 0, false, true));
 		// eTG-c: very fast regen, hard hunger and thirst crash
 		Add("eTG-c", "armst_itm_stimulator_941", Phase(40, 8, 0, 0, 0, 0, 0, 0), Phase(120, 0, 0, 0, 0, 0, -1, -1));
-		// SJ6 TGLabs: stamina stays topped up, nerves and shakes after
-		Add("SJ6 TGLabs", "armst_itm_stimulator_572", Phase(180, 0, 0.15, 0, 0, 0, -0.2, 0), Phase(60, 0, 0, 0, 0, -1, -0.6, 0, false, true));
+		// SJ6: stamina stays topped up, nerves and shakes after
+		Add("SJ6", "armst_itm_stimulator_572", Phase(180, 0, 0.15, 0, 0, 0, -0.2, 0), Phase(60, 0, 0, 0, 0, -1, -0.6, 0, false, true));
 		// Adrenaline: short burst of stamina and healing
 		Add("Adrenaline", "armst_itm_stimulator_213", Phase(45, 1, 0.25, 0, 0, 0, 0, 0), Phase(30, 0, 0, 0, 0, 0, -1.5, -0.8));
 		// Zagustin: stops bleeding for three minutes
 		Add("Zagustin", "armst_itm_stimulator_993", Phase(120, 0, 0, 0, 0, 0, -0.3, 0, true));
 		// Perfotoran: flushes toxins and radiation
 		Add("Perfotoran", "armst_itm_stimulator_463", Phase(90, 0, 0, -2, -1, 0, 0, 0), Phase(60, 0, 0, 0, 0, 0, -0.8, -0.8));
-		// SJ9 TGLabs: psy shield, body pays for it after
-		Add("SJ9 TGLabs", "armst_itm_stimulator_816", Phase(120, 0, 0, 0, 0, 2, 0, 0), Phase(120, -0.8, 0, 0.5, 0, 0, 0, 0, false, true));
+		// SJ9: psy shield, body pays for it after
+		Add("SJ9", "armst_itm_stimulator_816", Phase(120, 0, 0, 0, 0, 2, 0, 0), Phase(120, -0.8, 0, 0.5, 0, 0, 0, 0, false, true));
 		// Antirad and Antitoxin work over time too
 		Add("Antirad", "armst_itm_stim_derad", Phase(90, 0, 0, 0, -2, 0, -0.3, 0));
 		Add("Antitoxin", "armst_itm_stim_detox", Phase(90, 0, 0, -2, 0, 0, -0.2, 0));

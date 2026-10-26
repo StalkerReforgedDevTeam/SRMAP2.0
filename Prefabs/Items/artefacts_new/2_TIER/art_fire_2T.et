@@ -4,11 +4,11 @@ GameEntity : "{A56F4E9C4ECA2CD9}Prefabs/Items/artefacts_new/base_art.et" {
   InventoryItemComponent "{56A4B11C0BE428C5}" {
    Attributes SCR_ItemAttributeCollection "{56A4B11C0BE428F0}" {
     ItemDisplayName SCR_ItemHintUIInfo "{56A4B11C0BE428F6}" {
-     Name "Fireball II"
+     Name "Fireball"
     }
     CustomAttributes {
      PreviewRenderAttributes "{5D0CB95BC1CDF85B}" {
-      CameraDistanceToItem 0.2
+      CameraDistanceToItem 1.65
      }
     }
    }
@@ -27,10 +27,10 @@ GameEntity : "{A56F4E9C4ECA2CD9}Prefabs/Items/artefacts_new/base_art.et" {
    }
   }
   ParametricMaterialInstanceComponent "{5D0CB95BC1CDFBAD}" {
-   ColorEmissive 0 0 0 1
-   EmissiveMultiplier 0
+   ColorEmissive 1 0.344 0 1
+   EmissiveMultiplier 4
    UserParamAlpha 0
   }
  }
- scale 1.25
+ scale 3.9
 }

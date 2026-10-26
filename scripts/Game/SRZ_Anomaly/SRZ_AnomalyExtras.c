@@ -32,6 +32,9 @@ modded class ARMST_DamagingTriggerEntity
 	protected ref array<IEntity> m_aSRZ_WearWho = {};
 	protected ref array<float> m_aSRZ_WearNext = {};
 	protected ref array<IEntity> m_aSRZ_DisarmBolts = {};
+	protected ref array<IEntity> m_aSRZ_SpeedWho = {};
+	protected ref array<vector> m_aSRZ_SpeedPos = {};
+	protected ref array<float> m_aSRZ_SpeedTime = {};
 
 	override void OnActivate(IEntity ent)
 	{
@@ -153,16 +156,42 @@ modded class ARMST_DamagingTriggerEntity
 		}
 	}
 
+	// The server doesn't get a player's sprint state or speed reliably, so measure how far they moved since the last check
 	protected bool SRZ_IsHurrying(ChimeraCharacter character)
 	{
 		SCR_CharacterControllerComponent controller = SCR_CharacterControllerComponent.Cast(character.GetCharacterController());
-		if (!controller)
-			return false;
-
-		if (controller.IsSprinting())
+		if (controller && (controller.IsSprinting() || controller.GetMovementSpeed() > m_fSRZ_SprintSpeed))
 			return true;
 
-		return controller.GetMovementSpeed() > m_fSRZ_SprintSpeed;
+		float now = SRZ_ExtrasNow();
+		vector pos = character.GetOrigin();
+		for (int i = m_aSRZ_SpeedWho.Count() - 1; i >= 0; i--)
+		{
+			if (!m_aSRZ_SpeedWho[i] || m_aSRZ_SpeedWho[i].IsDeleted() || now - m_aSRZ_SpeedTime[i] > 5)
+			{
+				m_aSRZ_SpeedWho.Remove(i);
+				m_aSRZ_SpeedPos.Remove(i);
+				m_aSRZ_SpeedTime.Remove(i);
+				continue;
+			}
+
+			if (m_aSRZ_SpeedWho[i] != character)
+				continue;
+
+			float dt = now - m_aSRZ_SpeedTime[i];
+			vector last = m_aSRZ_SpeedPos[i];
+			m_aSRZ_SpeedPos[i] = pos;
+			m_aSRZ_SpeedTime[i] = now;
+			if (dt < 0.05)
+				return false;
+
+			return vector.DistanceXZ(pos, last) / dt > m_fSRZ_SprintSpeed;
+		}
+
+		m_aSRZ_SpeedWho.Insert(character);
+		m_aSRZ_SpeedPos.Insert(pos);
+		m_aSRZ_SpeedTime.Insert(now);
+		return false;
 	}
 
 	protected void SRZ_OpenWounds(IEntity ent)

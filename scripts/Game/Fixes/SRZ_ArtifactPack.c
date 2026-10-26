@@ -212,6 +212,35 @@ class SRZ_NewArtifacts
 		return path.Contains("SRZ_Artifacts/") && path.Contains("_drop");
 	}
 
+	// Subtle effect shown around a field artifact once a detector reveals it
+	static ResourceName FxOf(IEntity ent)
+	{
+		string key = PrefabKey(ent);
+		if (key.IsEmpty())
+			return ResourceName.Empty;
+
+		foreach (SRZ_ArtEntry art : GetArts())
+		{
+			string p = art.m_sPrefab;
+			p.ToLower();
+			if (!key.Contains(p.Substring(18, p.Length() - 18)))
+				continue;
+
+			if (art.m_sKey == "electro")
+				return "{7EAC0FDD0FC95B11}Particles/SRZ/Artifacts/SRZ_Art_electro.ptc";
+			if (art.m_sKey == "fire")
+				return "{2D68D5AF410D5ABC}Particles/SRZ/Artifacts/SRZ_Art_fire.ptc";
+			if (art.m_sKey == "toxic")
+				return "{20F336FE83F28D45}Particles/SRZ/Artifacts/SRZ_Art_toxic.ptc";
+			if (art.m_sKey == "psy")
+				return "{706A50B863008DCC}Particles/SRZ/Artifacts/SRZ_Art_psy.ptc";
+			if (art.m_sKey == "gravi")
+				return "{4E23C5E04AB44885}Particles/SRZ/Artifacts/SRZ_Art_gravi.ptc";
+		}
+
+		return ResourceName.Empty;
+	}
+
 	static string PrefabKey(IEntity ent)
 	{
 		if (!ent || !ent.GetPrefabData())
@@ -313,6 +342,8 @@ modded class ARMST_ARTEFACT_COMPONENTS
 		SRZ_SetShown(true);
 	}
 
+	protected ParticleEffectEntity m_SRZ_Fx;
+
 	protected void SRZ_SetShown(bool shown)
 	{
 		IEntity owner = GetOwner();
@@ -323,6 +354,46 @@ modded class ARMST_ARTEFACT_COMPONENTS
 			owner.SetFlags(EntityFlags.VISIBLE, false);
 		else
 			owner.ClearFlags(EntityFlags.VISIBLE, false);
+
+		SRZ_UpdateFx(shown);
+	}
+
+	protected void SRZ_UpdateFx(bool shown)
+	{
+		if (System.IsConsoleApp())
+			return;
+
+		if (!shown)
+		{
+			SRZ_ClearFx();
+			return;
+		}
+
+		if (m_SRZ_Fx)
+			return;
+
+		ResourceName fx = SRZ_NewArtifacts.FxOf(GetOwner());
+		if (fx.IsEmpty())
+			return;
+
+		ParticleEffectEntitySpawnParams params = new ParticleEffectEntitySpawnParams();
+		params.TransformMode = ETransformMode.WORLD;
+		params.Transform[3] = GetOwner().GetOrigin();
+		m_SRZ_Fx = ParticleEffectEntity.SpawnParticleEffect(fx, params);
+	}
+
+	protected void SRZ_ClearFx()
+	{
+		if (m_SRZ_Fx)
+			SCR_EntityHelper.DeleteEntityAndChildren(m_SRZ_Fx);
+
+		m_SRZ_Fx = null;
+	}
+
+	override void OnDelete(IEntity owner)
+	{
+		SRZ_ClearFx();
+		super.OnDelete(owner);
 	}
 }
 

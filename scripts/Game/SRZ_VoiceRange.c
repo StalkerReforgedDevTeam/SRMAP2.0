@@ -322,3 +322,38 @@ modded class SCR_VONController
 		file.Close();
 	}
 }
+
+// Test logging: shows on the listener's machine which voice component plays incoming speech.
+// If it is always the listener's own character, the range comes from the listener's mode, not the speaker's.
+modded class SCR_VoNComponent
+{
+	protected static ref map<int, float> s_mSRZ_LastLog = new map<int, float>();
+
+	override protected void OnReceive(int playerId, bool isSenderEditor, BaseTransceiver receiver, int frequency, float quality)
+	{
+		super.OnReceive(playerId, isSenderEditor, receiver, frequency, quality);
+
+		if (receiver || !GetGame().GetWorld())
+			return;
+
+		float now = GetGame().GetWorld().GetWorldTime() / 1000;
+		if (s_mSRZ_LastLog.Contains(playerId) && now - s_mSRZ_LastLog.Get(playerId) < 5)
+			return;
+
+		s_mSRZ_LastLog.Set(playerId, now);
+
+		IEntity local = SCR_PlayerController.GetLocalControlledEntity();
+		IEntity speaker = GetGame().GetPlayerManager().GetPlayerControlledEntity(playerId);
+		string whose = "someone else";
+		if (local && local.FindComponent(SCR_VoNComponent) == this)
+			whose = "my own character";
+		else if (speaker && speaker.FindComponent(SCR_VoNComponent) == this)
+			whose = "the speaker";
+
+		float dist = -1;
+		if (local && speaker)
+			dist = vector.Distance(local.GetOrigin(), speaker.GetOrigin());
+
+		Print(string.Format("[SRZ Voice] Hearing player %1 through %2 on %3, %4 m away", playerId, Type().ToString(), whose, (int)dist));
+	}
+}

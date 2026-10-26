@@ -4,11 +4,11 @@ GameEntity : "{A56F4E9C4ECA2CD9}Prefabs/Items/artefacts_new/base_art.et" {
   InventoryItemComponent "{56A4B11C0BE428C5}" {
    Attributes SCR_ItemAttributeCollection "{56A4B11C0BE428F0}" {
     ItemDisplayName SCR_ItemHintUIInfo "{56A4B11C0BE428F6}" {
-     Name "Slime II"
+     Name "Slug"
     }
     CustomAttributes {
      PreviewRenderAttributes "{5D0CB95BC1CDF85B}" {
-      CameraDistanceToItem 0.27
+      CameraDistanceToItem 1.65
      }
     }
    }
@@ -32,5 +32,5 @@ GameEntity : "{A56F4E9C4ECA2CD9}Prefabs/Items/artefacts_new/base_art.et" {
    UserParamAlpha 0
   }
  }
- scale 1.25
+ scale 2.51
 }
