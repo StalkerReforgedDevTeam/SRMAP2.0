@@ -27,6 +27,9 @@ modded class EPF_BaseInventoryStorageComponentSaveData
 			m_aSlots.Remove(i);
 		}
 
-		return super.ApplyTo(owner, component, attributes);
+		SRZ_StorageLoadGuard.s_iLoading++;
+		EPF_EApplyResult result = super.ApplyTo(owner, component, attributes);
+		SRZ_StorageLoadGuard.s_iLoading--;
+		return result;
 	}
 }

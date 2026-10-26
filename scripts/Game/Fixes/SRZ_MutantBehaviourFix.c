@@ -33,12 +33,16 @@ class SRZ_MutantTuning
 	static const string BOAR = "/boar/";
 	static const string WOLF = "/wolf/";
 	static const float BOAR_SPEED_MULT = 1.15;
+	static const float BOAR_HEALTH = 150;
+	static const float BOAR_DAMAGE_MULT = 0.76;
 	static const float WOLF_SPEED_MULT = 1.15;
 
 	static float GetDamageMult(IEntity mutant)
 	{
 		if (IsPrefab(mutant, ZOMBIE))
 			return ZOMBIE_DAMAGE_MULT;
+		if (IsPrefab(mutant, BOAR))
+			return BOAR_DAMAGE_MULT;
 
 		return 1;
 	}
@@ -62,6 +66,9 @@ class SRZ_MutantTuning
 
 		if (IsPrefab(mutant, ERB))
 			return ERB_HEALTH;
+
+		if (IsPrefab(mutant, BOAR))
+			return BOAR_HEALTH;
 
 		return defaultHealth;
 	}
