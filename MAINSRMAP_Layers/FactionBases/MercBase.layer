@@ -119,7 +119,7 @@ $grp GenericEntity {
  {
   components {
    MeshObject "{6A6D66578699C793}" {
-    Object "{399D58F848374CD1}Assets/AK74m/ak74m.xob"
+    Object "{399D58F848374CD1}Assets/Weapons_RUS/AK74m/ak74m.xob"
    }
   }
   coords 4954.646 327.736 3049.139
@@ -128,7 +128,7 @@ $grp GenericEntity {
  {
   components {
    MeshObject "{6A6D66579E707214}" {
-    Object "{277CC12370C4BCF0}Assets/Groza/GROZA.xob"
+    Object "{277CC12370C4BCF0}Assets/Weapons_RUS/Groza/GROZA.xob"
    }
   }
   coords 4954.58 327.729 3048.872
@@ -137,7 +137,7 @@ $grp GenericEntity {
  {
   components {
    MeshObject "{6A6D66579ADC71BF}" {
-    Object "{0098311AB987D2E0}Assets/akm/akm_weapons.xob"
+    Object "{0098311AB987D2E0}Assets/Weapons_RUS/akm/akm_weapons.xob"
    }
   }
   coords 4954.681 327.746 3049.353
@@ -632,7 +632,6 @@ GenericEntity : "{9ABCFA281B9742E1}Prefabs/Structures/BuildingParts/Doors/Door_F
   DoorComponent "{221C667A9F7D4B69}" {
    Enabled 1
    DoorAction SCR_DoorUserAction "{50888D3646A61640}" {
-    m_FactionKey FACTION_MERCENARIES
    }
   }
  }
@@ -825,7 +824,6 @@ SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Buil
       components {
        DoorComponent "{221C667A9F7D4B69}" {
         DoorAction SCR_DoorUserAction "{50888D3646A61640}" {
-         m_FactionKey FACTION_MERCENARIES
         }
        }
       }
@@ -1228,7 +1226,6 @@ SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Buil
       components {
        DoorComponent "{221C667A9F7D4B69}" {
         DoorAction SCR_DoorUserAction "{50888D3646A61640}" {
-         m_FactionKey FACTION_MERCENARIES
         }
        }
       }
@@ -2112,7 +2109,6 @@ GenericEntity : "{CBFB6247D7EBE1DE}Prefabs/Structures/BuildingParts/Doors/Door_F
   DoorComponent "{221C667A9F7D4B69}" {
    Enabled 1
    DoorAction SCR_DoorUserAction "{50888D3646A61640}" {
-    m_FactionKey FACTION_MERCENARIES
    }
   }
  }
@@ -2163,7 +2159,6 @@ GenericEntity : "{E59D9776A5169843}Prefabs/Structures/BuildingParts/Doors/DoorSe
     DoorComponent "{221C667A9F7D4B69}" {
      Enabled 1
      DoorAction SCR_DoorUserAction "{50888D3646A61640}" {
-      m_FactionKey FACTION_MERCENARIES
      }
     }
    }
@@ -2174,7 +2169,6 @@ GenericEntity : "{E59D9776A5169843}Prefabs/Structures/BuildingParts/Doors/DoorSe
     DoorComponent "{221C667A9F7D4B69}" {
      Enabled 1
      DoorAction SCR_DoorUserAction "{50888D3646A61640}" {
-      m_FactionKey FACTION_MERCENARIES
      }
     }
    }
