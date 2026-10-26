@@ -1,0 +1,60 @@
+EffectDef {
+ Version 2
+ Emitters {
+  EmitterDef Embers {
+   LodMin 0
+   LodMax 1
+   Material "{D9FC42124DBB8845}Particles/_Materials/Fire/Base_Sparks_06.emat"
+   ShapeType Ellipse
+   ShapeSize 0.06 0 0.06
+   ConeAngle 15 0 15
+   MaxNum 6
+   BirthRate 1.5
+   BirthRateRND 1
+   Offset 0 0.04 0
+   SizeMultiplier 0.02
+   SizeRND 0.01
+   Velocity 0.25
+   VelocityRND 0.1
+   GravityMultiply -0.05
+   Lifetime 1.6
+   LifetimeRND 0.4
+   Alpha {
+    0 0 0.1 1 0.7 1 1 0
+   }
+   Color {
+    0 1 0.55 0.15 1 1 0.3 0.05
+   }
+   Emissivity {
+    0 6
+   }
+  }
+  EmitterDef Glow {
+   MaxNum 1
+   BirthRate 1
+   Offset 0 0.05 0
+   LodMin 0
+   LodMax 1
+   Material "{38135A592D5D0004}Particles/_Materials/White_dots.emat"
+   SizeMultiplier 0.001
+   Velocity 0
+   GravityMultiply 0
+   Lifetime 1000
+   Alpha {
+    0 0 1 0
+   }
+   EnableLight 1
+   MaxLV 1.2
+   RelativeLV 1
+   LightColorMast {
+    0.5 1 0.5 0.15
+   }
+   LightIntensityMast {
+    0 1 1 1
+   }
+  }
+ }
+ LightClipEV -3
+ LightRadius 1.5
+ CastShadow 0
+}

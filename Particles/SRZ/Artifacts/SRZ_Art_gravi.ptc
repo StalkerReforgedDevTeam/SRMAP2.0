@@ -1,0 +1,30 @@
+EffectDef {
+ Version 2
+ Emitters {
+  EmitterDef Dust {
+   LodMin 0
+   LodMax 1
+   Material "{67FEB95AE2ECC2EA}Particles/_Materials/Gas/Smoke_Base_Dust_01.emat"
+   ShapeType Ellipse
+   ShapeSize 0.18 0 0.18
+   MaxNum 6
+   BirthRate 1.5
+   BirthRateRND 0.5
+   Offset 0 0.02 0
+   SizeMultiplier 0.12
+   SizeRND 0.04
+   RotMultiplier 40
+   RandomAngle 1
+   Velocity 0.05
+   GravityMultiply 0
+   Lifetime 3
+   LifetimeRND 1
+   Alpha {
+    0 0 0.3 0.25 1 0
+   }
+   Color {
+    0 0.55 0.5 0.45 1 0.55 0.5 0.45
+   }
+  }
+ }
+}

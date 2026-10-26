@@ -1,0 +1,58 @@
+EffectDef {
+ Version 2
+ Emitters {
+  EmitterDef Shimmer {
+   LodMin 0
+   LodMax 1
+   Material "{38135A592D5D0004}Particles/_Materials/White_dots.emat"
+   ShapeType Sphere
+   ShapeSize 0.15 0.15 0.15
+   MaxNum 8
+   BirthRate 1.5
+   BirthRateRND 0.5
+   Offset 0 0.08 0
+   SizeMultiplier 0.05
+   SizeRND 0.03
+   Velocity 0.03
+   GravityMultiply -0.01
+   Lifetime 2.5
+   LifetimeRND 0.5
+   Alpha {
+    0 0 0.4 0.6 1 0
+   }
+   Color {
+    0 0.65 0.35 1 1 0.5 0.25 1
+   }
+   Emissivity {
+    0 3
+   }
+  }
+  EmitterDef Glow {
+   MaxNum 1
+   BirthRate 1
+   Offset 0 0.05 0
+   LodMin 0
+   LodMax 1
+   Material "{38135A592D5D0004}Particles/_Materials/White_dots.emat"
+   SizeMultiplier 0.001
+   Velocity 0
+   GravityMultiply 0
+   Lifetime 1000
+   Alpha {
+    0 0 1 0
+   }
+   EnableLight 1
+   MaxLV 0.8
+   RelativeLV 1
+   LightColorMast {
+    0.5 0.6 0.3 1
+   }
+   LightIntensityMast {
+    0 1 1 1
+   }
+  }
+ }
+ LightClipEV -3
+ LightRadius 1.2
+ CastShadow 0
+}

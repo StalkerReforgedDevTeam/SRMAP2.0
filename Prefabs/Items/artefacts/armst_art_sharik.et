@@ -8,7 +8,7 @@ GameEntity : "{0D247A14975597D4}Prefabs/Items/artefacts/base_art.et" {
     }
     CustomAttributes {
      PreviewRenderAttributes "{5D0CB95BC1CDF85B}" {
-      CameraDistanceToItem 0.22
+      CameraDistanceToItem 1.65
      }
     }
    }
@@ -23,10 +23,10 @@ GameEntity : "{0D247A14975597D4}Prefabs/Items/artefacts/base_art.et" {
    }
   }
   ParametricMaterialInstanceComponent "{5D0CB95BC1CDFBAD}" {
-   ColorEmissive 0 0 0 1
-   EmissiveMultiplier 0
+   ColorEmissive 0.733 0.927 1 1
+   EmissiveMultiplier 4
    UserParamAlpha 0
   }
  }
- scale 1.25
+ scale 3.02
 }

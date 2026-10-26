@@ -22,6 +22,10 @@ class SRZ_MutantTuning
 		return path.Contains(match);
 	}
 
+	// Erb chest hits do triple damage, so its pool has to be big. Aim is roughly a full 5.56 mag
+	static const string ERB = "/erb/";
+	static const float ERB_HEALTH = 3000;
+
 	static const string ZOMBIE = "/zombie/";
 	static const float ZOMBIE_DAMAGE_MULT = 0.7;
 	static const float ZOMBIE_SPEED_MULT = 0.8;
@@ -55,6 +59,9 @@ class SRZ_MutantTuning
 	{
 		if (IsPrefab(mutant, NIGHTSTALKER))
 			return NIGHTSTALKER_HEALTH;
+
+		if (IsPrefab(mutant, ERB))
+			return ERB_HEALTH;
 
 		return defaultHealth;
 	}
@@ -114,6 +121,8 @@ modded class ARMST_Monster_MeleeComponent
 modded class Bacon_622120A5448725E3_InfectedCharacter
 {
 	protected float m_fSRZ_Pool = -1;
+	protected float m_fSRZ_PoolMax;
+	protected int m_iSRZ_Hits;
 
 	void SRZ_ApplyPoolDamage(float damage, Instigator instigator)
 	{
@@ -127,11 +136,19 @@ modded class Bacon_622120A5448725E3_InfectedCharacter
 				return;
 
 			m_fSRZ_Pool = SRZ_MutantTuning.GetPool(this, health.GetMaxHealth());
+			m_fSRZ_PoolMax = m_fSRZ_Pool;
 		}
 
 		m_fSRZ_Pool -= damage;
+		m_iSRZ_Hits++;
 		if (m_fSRZ_Pool > 0)
 			return;
+
+		// For tuning: how many hits each mutant type takes to go down
+		string prefab;
+		if (GetPrefabData())
+			prefab = FilePath.StripPath(GetPrefabData().GetPrefabName());
+		Print(string.Format("[SRZ Mutant] %1 killed after %2 hits (pool %3, last hit %4)", prefab, m_iSRZ_Hits, m_fSRZ_PoolMax, damage));
 
 		if (instigator)
 			m_damageManager.Kill(instigator);
