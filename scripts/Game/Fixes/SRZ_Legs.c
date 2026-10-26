@@ -70,8 +70,8 @@ class SRZ_Legs
 	protected static const float WALK_SPEED = 0.5;
 	protected static const float RUN_SPEED = 1.8;
 	protected static const float STRAIN_KNOCKOUT = 6;
-	protected static const float KNOCKOUT_COOLDOWN = 20;
-	protected static const float FALL_MIN = 4;
+	protected static const float KNOCKOUT_COOLDOWN = 30;
+	protected static const float FALL_MIN = 5;
 	protected static const string SPLINT_PREFAB = "srz_splint";
 	protected static const string SAVE_DIR = "$profile:SRZ_Legs";
 
@@ -85,7 +85,7 @@ class SRZ_Legs
 		if (drop < FALL_MIN)
 			return;
 
-		float chance = Math.Clamp(0.25 + (drop - FALL_MIN) * 0.15, 0, 1);
+		float chance = Math.Clamp(0.15 + (drop - FALL_MIN) * 0.12, 0, 1);
 		Print("[SRZ Legs] Fell " + drop + "m, break chance " + chance);
 		if (Math.RandomFloat01() < chance)
 			Break(character);
@@ -97,13 +97,16 @@ class SRZ_Legs
 		if (!Replication.IsServer() || !mutant || !target || !EntityUtils.IsPlayer(target))
 			return;
 
-		float chance = 0.02;
+		float chance = 0;
 		if (SRZ_MutantTuning.IsPrefab(mutant, "/boar/"))
-			chance = 0.1;
-		else if (SRZ_MutantTuning.IsPrefab(mutant, "nighstalker"))
 			chance = 0.06;
-		else if (SRZ_MutantTuning.IsPrefab(mutant, "/wolf/"))
+		else if (SRZ_MutantTuning.IsPrefab(mutant, "nighstalker"))
 			chance = 0.04;
+		else if (SRZ_MutantTuning.IsPrefab(mutant, "/wolf/"))
+			chance = 0.02;
+
+		if (chance <= 0)
+			return;
 
 		if (Math.RandomFloat01() < chance)
 			Break(target);
@@ -342,6 +345,12 @@ class SRZ_Legs
 		if (st.m_fStrain < STRAIN_KNOCKOUT || now < st.m_fNoKnockoutUntil)
 			return;
 
+		if (SRZ_Unconscious.InWakeGrace(st.m_Char))
+		{
+			st.m_fStrain = 0;
+			return;
+		}
+
 		st.m_fStrain = 0;
 		st.m_fNoKnockoutUntil = now + KNOCKOUT_COOLDOWN;
 
@@ -477,9 +486,24 @@ class SRZ_FallWatch
 {
 	protected static const float TICK = 0.1;
 
+	protected static const float TELEPORT_JUMP = 5;
+
 	protected static ref map<IEntity, float> s_mTop = new map<IEntity, float>();
 	protected static ref map<IEntity, float> s_mGround = new map<IEntity, float>();
+	protected static ref map<IEntity, vector> s_mLastPos = new map<IEntity, vector>();
 	protected static bool s_bTicking;
+
+	//------------------------------------------------------------------------------------------------
+	// Teleports and respawns: forget where they were so the height change isn't counted as a fall
+	static void Forget(IEntity character)
+	{
+		if (!character)
+			return;
+
+		s_mTop.Remove(character);
+		s_mGround.Remove(character);
+		s_mLastPos.Remove(character);
+	}
 
 	//------------------------------------------------------------------------------------------------
 	static void Start()
@@ -510,12 +534,20 @@ class SRZ_FallWatch
 		CharacterControllerComponent controller = character.GetCharacterController();
 		if (!controller || controller.IsDead() || character.IsInVehicle())
 		{
-			s_mTop.Remove(character);
-			s_mGround.Remove(character);
+			Forget(character);
 			return;
 		}
 
-		float y = character.GetOrigin()[1];
+		vector pos = character.GetOrigin();
+		if (s_mLastPos.Contains(character) && vector.DistanceXZ(pos, s_mLastPos.Get(character)) > TELEPORT_JUMP)
+		{
+			Forget(character);
+			s_mLastPos.Set(character, pos);
+			return;
+		}
+
+		s_mLastPos.Set(character, pos);
+		float y = pos[1];
 		if (controller.IsFalling())
 		{
 			// Start from the last height they stood at, so the drop isn't measured short

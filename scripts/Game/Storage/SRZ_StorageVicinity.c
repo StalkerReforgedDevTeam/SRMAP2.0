@@ -26,6 +26,12 @@ class SRZ_WorldContainer
 	}
 }
 
+// Saves restoring items into a packed jacket must not be refused, or they would spill on the floor
+class SRZ_StorageLoadGuard
+{
+	static int s_iLoading;
+}
+
 // Only hidden from the nearby list for players who aren't allowed in: wrong faction, or still locked.
 // Everyone else still sees and loots it normally.
 modded class SCR_UniversalInventoryStorageComponent
@@ -58,7 +64,41 @@ modded class SCR_UniversalInventoryStorageComponent
 		if (SRZ_OnCharacter() && SRZ_WorldContainer.Is(item))
 			return false;
 
+		if (SRZ_IsNested())
+			return false;
+
 		return super.CanStoreItem(item, slotID);
+	}
+
+	//------------------------------------------------------------------------------------------------
+	// A jacket, vest or bag that is itself packed inside another storage takes nothing. Worn gear and anything
+	// lying in the world is fine. Artifact containers are the one exception so a packed container still holds artifacts.
+	protected bool SRZ_IsNested()
+	{
+		if (SRZ_StorageLoadGuard.s_iLoading > 0 || ARMST_ARTEFACT_CONTAINER.Cast(this))
+			return false;
+
+		IEntity owner = GetOwner();
+		if (!owner)
+			return false;
+
+		InventoryItemComponent itemComp = InventoryItemComponent.Cast(owner.FindComponent(InventoryItemComponent));
+		if (!itemComp)
+			return false;
+
+		InventoryStorageSlot parentSlot = itemComp.GetParentSlot();
+		if (!parentSlot)
+			return false;
+
+		BaseInventoryStorageComponent parentStorage = parentSlot.GetStorage();
+		if (!parentStorage)
+			return false;
+
+		IEntity holder = parentStorage.GetOwner();
+		if (!holder || ChimeraCharacter.Cast(holder))
+			return false;
+
+		return true;
 	}
 
 	//------------------------------------------------------------------------------------------------
@@ -84,5 +124,17 @@ modded class SCR_CharacterInventoryStorageComponent
 			return false;
 
 		return super.CanStoreItem(item, slotID);
+	}
+}
+
+// Crates and storages that live in the world can't be picked up from the vicinity list
+modded class SCR_PickUpItemAction
+{
+	override bool CanBeShownScript(IEntity user)
+	{
+		if (SRZ_WorldContainer.Is(GetOwner()))
+			return false;
+
+		return super.CanBeShownScript(user);
 	}
 }
