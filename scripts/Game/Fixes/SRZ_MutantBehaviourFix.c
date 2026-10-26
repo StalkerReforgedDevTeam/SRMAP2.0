@@ -22,9 +22,9 @@ class SRZ_MutantTuning
 		return path.Contains(match);
 	}
 
-	// Erb chest hits do triple damage, so its pool has to be big. Aim is roughly a full 5.56 mag
+	// Erb chest hits do triple damage. Pool set so it drops in about 20 rifle hits, a notch under a nightstalker
 	static const string ERB = "/erb/";
-	static const float ERB_HEALTH = 3000;
+	static const float ERB_HEALTH = 800;
 
 	static const string ZOMBIE = "/zombie/";
 	static const float ZOMBIE_DAMAGE_MULT = 0.7;
