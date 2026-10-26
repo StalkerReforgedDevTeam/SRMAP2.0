@@ -11,11 +11,11 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fFilterDrainLow 0.07
  }
  {
-  coords 4611.959 309.678 1019.332
+  coords 4616.013 312.935 1055.096
   SphereRadius 62.7
   DrawShape 0
   UpdatePeriod 5
-  m_fZoneRadiationLevel 65
+  m_fZoneRadiationLevel 50
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10
   m_eFilterDrainTier LOW

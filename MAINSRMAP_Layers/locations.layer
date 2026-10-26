@@ -8488,7 +8488,7 @@ $grp GenericEntity : "{095844BC40F96834}Prefabs/deads/skeleton/dead_skeleton_leg
   scale 0.8
  }
  {
-  coords 4606.053 306.877 1001.192
+  coords 4614.662 310.858 1083.174
   angles 0 -36.085 0
   scale 0.8
  }
@@ -14566,7 +14566,7 @@ $grp GenericEntity : "{1112756E8A13445B}Prefabs/Props/Industrial/Pallets/Pallet_
   angles 0 8.286 0
  }
  {
-  coords 3812.045 306.702 353.798
+  coords 3812.048 306.702 353.798
   angles 0 176.73 0
  }
  {
@@ -33721,7 +33721,7 @@ $grp GenericEntity : "{2CBB17414206AA0B}Prefabs/deads/skeleton/dead_skeleton_3.e
   scale 0.8
  }
  {
-  coords 4617.771 307.122 1004.292
+  coords 4626.38 311.353 1086.274
   angles 0 -35.009 0
   scale 0.8
  }
@@ -33761,7 +33761,7 @@ $grp GenericEntity : "{2CBB17414206AA0B}Prefabs/deads/skeleton/dead_skeleton_3.e
   scale 0.8
  }
  {
-  coords 4614.591 307.049 1003.969
+  coords 4623.2 311.344 1085.951
   angles 0 -1.873 0
   scale 0.8
  }
@@ -33831,17 +33831,17 @@ $grp GenericEntity : "{2CBB17414206AA0B}Prefabs/deads/skeleton/dead_skeleton_3.e
   scale 0.8
  }
  {
-  coords 4620.301 307.045 998.314
+  coords 4628.91 311.336 1080.296
   angles 0 36.229 0
   scale 0.8
  }
  {
-  coords 4615.105 306.973 997.257
+  coords 4623.714 311.347 1079.239
   angles 0 153.401 0
   scale 0.8
  }
  {
-  coords 4608.913 306.896 998.975
+  coords 4617.522 311.007 1080.957
   angles 0 -59.773 0
   scale 0.8
  }
@@ -33921,7 +33921,7 @@ $grp GenericEntity : "{2CBB17414206AA0B}Prefabs/deads/skeleton/dead_skeleton_3.e
   scale 0.8
  }
  {
-  coords 4609.258 306.873 998.419
+  coords 4617.867 311.017 1080.401
   angles 0 -37.598 0
  }
  {
@@ -88183,22 +88183,22 @@ $grp SCR_DestructibleEntity : "{5D97CF2287EFD57C}Prefabs/Structures/Walls/Metal/
 }
 $grp GenericEntity : "{5DA11A95EEB02443}Prefabs/Compositions/Misc/SubCompositions/BoxWooden_Cluttered_01.et" {
  {
-  coords 3792.711 306.702 337.29
+  coords 3796.567 306.702 329.948
   angles 0 15.115 0
   {
    GenericEntity {
     ID "55DECB3EB6F939C5"
-    coords -0.098 0.014 0.088
+    coords -0.099 0.014 0.088
     angles 0 43.728 0
    }
    GenericEntity {
     ID "55DECB3EB6F939C7"
-    coords 0.007 0 0.083
+    coords 0.006 0 0.083
     angles 0 -155.911 0
    }
    GenericEntity {
     ID "55DECB3EB6F939D8"
-    coords -0.121 0.015 -0.055
+    coords -0.122 0.015 -0.055
     angles 0 -92.18 0
    }
    GenericEntity {
@@ -88208,7 +88208,7 @@ $grp GenericEntity : "{5DA11A95EEB02443}Prefabs/Compositions/Misc/SubComposition
    }
    GenericEntity {
     ID "55DECB3EB6F939DB"
-    coords 0.141 0.004 -0.09
+    coords 0.14 0.004 -0.09
     angles 0 -121.853 0
    }
   }
@@ -103722,7 +103722,7 @@ $grp GenericEntity : "{6FD54E69CFDD6B07}Prefabs/Props/Industrial/BarrelFuel_01_c
     Enabled 1
    }
   }
-  coords 3792.663 306.702 340.846
+  coords 3796.519 306.702 333.504
   angles 0 123.579 0
  }
  {
@@ -103731,7 +103731,7 @@ $grp GenericEntity : "{6FD54E69CFDD6B07}Prefabs/Props/Industrial/BarrelFuel_01_c
     Enabled 1
    }
   }
-  coords 3792.938 306.702 340.256
+  coords 3796.794 306.702 332.914
   angles 0 -150.456 0
  }
  {
@@ -103740,7 +103740,7 @@ $grp GenericEntity : "{6FD54E69CFDD6B07}Prefabs/Props/Industrial/BarrelFuel_01_c
     Enabled 1
    }
   }
-  coords 3793.311 306.702 340.825
+  coords 3797.167 306.702 333.483
   angles 0 131.12 0
  }
  {
@@ -104647,8 +104647,15 @@ $grp GenericEntity : "{71E8116ED089711D}Prefabs/graves/grave_2_2.et" {
   angles 0.031 90.626 -2.838
  }
  {
-  coords 4611.302 306.874 1000.229
+  coords 4619.911 311.233 1082.211
   angles 10.091 100.157 0
+  {
+   GenericEntity {
+    ID "64B0B2F4A5997CB1"
+    coords 0.141 1.885 0.138
+    angles -32.241 164.068 13.711
+   }
+  }
  }
  {
   coords 1993.134 307.79 1531.276
@@ -119420,7 +119427,7 @@ $grp GenericEntity : "{7DDB06998BAEAC12}Prefabs/deads/skeleton/dead_skeleton_7.e
   angles 27.478 -122.759 -76.047
  }
  {
-  coords 4611.518 306.929 1000.332
+  coords 4620.127 311.302 1082.314
   angles 0 -90.271 0
  }
  {
@@ -119662,7 +119669,7 @@ $grp GenericEntity : "{7E522C34B45B8744}Prefabs/deads/skeleton/dead_skeleton_reb
   scale 0.8
  }
  {
-  coords 4613.432 307.015 1006.345
+  coords 4622.041 311.241 1088.327
   angles 0 -77.941 0
   scale 0.8
  }
@@ -119801,7 +119808,7 @@ $grp GenericEntity : "{7E522C34B45B8744}Prefabs/deads/skeleton/dead_skeleton_reb
   scale 0.8
  }
  {
-  coords 4604.469 306.796 996.001
+  coords 4613.078 310.765 1077.983
   angles 0 76.248 0
   scale 0.8
  }
@@ -130046,7 +130053,7 @@ $grp GenericEntity : "{8D9D91FDDF0055F3}Prefabs/deads/skeleton/dead_skeleton_hea
   scale 0.8
  }
  {
-  coords 4606.206 306.768 998.535
+  coords 4614.815 310.778 1080.517
   angles 0 45.625 0
   scale 0.8
  }
@@ -157598,7 +157605,7 @@ $grp GenericEntity : "{B31A14BC1A0E7776}Prefabs/Props/Military/Sandbags/Sandbag_
 }
 $grp GenericEntity : "{B3283803059E2750}Prefabs/Props/Crates/CrateWooden_01_plain.et" {
  {
-  coords 3790.776 306.702 317.446
+  coords 3790.754 306.702 317.207
   angles 0 -85.447 0
  }
  {
@@ -166211,7 +166218,7 @@ $grp GenericEntity : "{BE7B5BAFE1A16A50}Prefabs/Props/Military/Fortification/Bar
     Enabled 1
    }
   }
-  coords 3792.997 0 336.391
+  coords 3796.853 0 329.049
   angles 0 -84.443 0
  }
  {
@@ -166220,7 +166227,7 @@ $grp GenericEntity : "{BE7B5BAFE1A16A50}Prefabs/Props/Military/Fortification/Bar
     Enabled 1
    }
   }
-  coords 3793.059 0 339.281
+  coords 3796.915 0 331.939
   angles 0 -122.018 0
  }
  {
@@ -166265,7 +166272,7 @@ $grp GenericEntity : "{BE7B5BAFE1A16A50}Prefabs/Props/Military/Fortification/Bar
     Enabled 1
    }
   }
-  coords 3793.052 0 338.097
+  coords 3796.908 0 330.755
   angles 0 14.421 0
  }
  {
@@ -166274,7 +166281,7 @@ $grp GenericEntity : "{BE7B5BAFE1A16A50}Prefabs/Props/Military/Fortification/Bar
     Enabled 1
    }
   }
-  coords 3794.263 0 340.206
+  coords 3798.119 0 332.864
   angles 0 20.261 0
  }
  {
@@ -171194,8 +171201,8 @@ $grp GenericEntity : "{C9275BB84EE33D60}Prefabs/deads/skeleton/dead_skeleton_2.e
   angles 76.813 -159.075 14.849
  }
  {
-  coords 4620.664 307.152 1004.209
-  angles 107.422 0.215 -152.731
+  coords 4629.273 311.343 1086.191
+  angles 9.921 5.388 169.2
  }
  {
   coords 4676.997 312.2 818.976
@@ -171253,11 +171260,11 @@ $grp GenericEntity : "{C9275BB84EE33D60}Prefabs/deads/skeleton/dead_skeleton_2.e
   angles 86.745 134.13 104.038
  }
  {
-  coords 4617.628 307.307 1006.599
-  angles -79.318 -133.669 -18.177
+  coords 4626.237 311.383 1088.581
+  angles 0 -133.669 -18.177
  }
  {
-  coords 4607.776 307.073 1003.249
+  coords 4616.385 311 1085.231
   angles 3.551 -38.827 -3.425
  }
  {
@@ -171313,8 +171320,8 @@ $grp GenericEntity : "{C9275BB84EE33D60}Prefabs/deads/skeleton/dead_skeleton_2.e
   angles -155.159 77.003 -57.806
  }
  {
-  coords 4612.006 306.908 997.547
-  angles 167.277 35.03 96.677
+  coords 4620.615 311.311 1079.529
+  angles 12.723 -144.97 -83.323
  }
  {
   coords 4593.462 307.049 1000.222
@@ -171365,7 +171372,8 @@ $grp GenericEntity : "{C9275BB84EE33D60}Prefabs/deads/skeleton/dead_skeleton_2.e
   angles -62.893 147.613 -24.967
  }
  {
-  coords 4609.33 307.166 1002.164
+  coords 4617.939 311.261 1084.146
+  angles 0 -88.046 0
  }
  {
   coords 4929.313 323.002 3061.736
@@ -206670,11 +206678,11 @@ $grp GenericEntity : "{F4137E803B8FB457}Prefabs/deads/skeleton/dead_skeleton_5.e
   coords 5096.406 310.754 607.112
  }
  {
-  coords 4610.608 306.871 996.07
+  coords 4619.217 311.08 1078.052
   angles 0 37.234 0
  }
  {
-  coords 4614.157 306.974 999.672
+  coords 4622.766 311.382 1081.654
   angles 0 -110.201 0
  }
  {
@@ -211496,7 +211504,7 @@ $grp GenericEntity : "{FA97F9752BA2BA83}Prefabs/deads/skeleton/dead_skeleton.et"
   scale 0.8
  }
  {
-  coords 4610.309 307.089 1003.625
+  coords 4618.918 311.229 1085.607
   angles 3.366 -51.89 1.503
   scale 0.8
  }
@@ -211576,7 +211584,7 @@ $grp GenericEntity : "{FA97F9752BA2BA83}Prefabs/deads/skeleton/dead_skeleton.et"
   scale 0.8
  }
  {
-  coords 4616.431 307.033 1002.189
+  coords 4625.04 311.34 1084.171
   angles 1.992 32.082 0.192
   scale 0.8
  }
@@ -211586,17 +211594,17 @@ $grp GenericEntity : "{FA97F9752BA2BA83}Prefabs/deads/skeleton/dead_skeleton.et"
   scale 0.8
  }
  {
-  coords 4622.545 307.136 1002.216
+  coords 4631.154 311.331 1084.198
   angles 3.91 22.228 -1.298
   scale 0.8
  }
  {
-  coords 4606.059 306.876 994.767
+  coords 4614.668 310.907 1076.749
   angles 0.819 23.761 0.361
   scale 0.8
  }
  {
-  coords 4609.524 306.994 992.396
+  coords 4618.133 311.049 1074.378
   angles 5.146 52.473 -2.821
   scale 0.8
  }
@@ -211661,7 +211669,7 @@ $grp GenericEntity : "{FA97F9752BA2BA83}Prefabs/deads/skeleton/dead_skeleton.et"
   scale 0.8
  }
  {
-  coords 4612.246 306.953 998.789
+  coords 4620.855 311.382 1080.771
   angles 0 0 0
  }
  {
