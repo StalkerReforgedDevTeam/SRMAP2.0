@@ -984,6 +984,16 @@ $grp SCR_DestructibleEntity : "{350B1D05E8446B1C}PrefabLibrary/DefaultLibrary/Wa
   angles 0 3.904 0
  }
 }
+$grp GenericEntity : "{35AFE0B84B106BDD}Prefabs/SRZ_Storage/SRZ_ArtifactStorage.et" {
+ SRZ_ArtifactStorage_6AAD7D784D5CD07D2 {
+  coords 1238.535 297.83 1315.789
+  angles 0 185.483 0
+ }
+ SRZ_ArtifactStorage_6AB447A7AD3C1B80 {
+  coords 1265.633 298.128 1334.898
+  angles 0 95.4 0
+ }
+}
 GenericEntity : "{39C308BBB5945B85}Prefabs/Props/Military/Furniture/ChairMilitary_US_02.et" {
  coords 1260.773 298.136 1332.442
  angles 0 55.007 0
@@ -11055,6 +11065,52 @@ SCR_DestructibleEntity : "{D242B6296793D56E}PrefabLibrary/DefaultLibrary/Walls/C
  coords 1160.639 0 1348.458
  angles 0 94.719 0
 }
+$grp GenericEntity : "{D3452CED3BD70204}Prefabs/SRZ_Storage/SRZ_FactionStorage_UKM.et" {
+ SRZ_FactionStorage_UKM_6AAD7D785B8AC61F11 {
+  coords 1270.289 298.128 1341.236
+  angles 0 95.483 0
+ }
+ SRZ_FactionStorage_UKM_6AAD7D785B8AC61F10 {
+  coords 1270.68 298.128 1344.721
+  angles 0 95.483 0
+ }
+ SRZ_FactionStorage_UKM_6AAD7D785B8AC61F3 {
+  coords 1241.487 297.83 1319.1
+  angles 0 95.483 0
+ }
+ SRZ_FactionStorage_UKM_6AAD7D785B8AC61F4 {
+  coords 1237.131 297.83 1315.932
+  angles 0 185.483 0
+ }
+ SRZ_FactionStorage_UKM_6AAD7D785B8AC61F5 {
+  coords 1235.598 297.83 1317.736
+  angles 0 230.483 0
+ }
+ SRZ_FactionStorage_UKM_6AAD7D785B8AC61F6 {
+  coords 1256.965 297.83 1317.475
+  angles 0 95.483 0
+ }
+ SRZ_FactionStorage_UKM_6AAD7D785B8AC61F7 {
+  coords 1253.971 297.83 1314.43
+  angles 0 185.483 0
+ }
+ SRZ_FactionStorage_UKM_6AAD7D785B8AC61F8 {
+  coords 1252.637 297.83 1314.557
+  angles 0 185.483 0
+ }
+ SRZ_FactionStorage_UKM_6AAD7D785B8AC61F9 {
+  coords 1251.818 297.83 1317.199
+  angles 0 275.483 0
+ }
+ SRZ_FactionStorage_UKM_6AAD7D785B8AC61F12 {
+  coords 1269.827 298.128 1336.423
+  angles 0 95.483 0
+ }
+ SRZ_FactionStorage_UKM_6AAD7D785B8AC61F13 {
+  coords 1269.478 298.128 1332.785
+  angles 0 95.483 0
+ }
+}
 $grp SCR_DestructibleEntity : "{D50A0255E3EB8CCF}Prefabs/Structures/Walls/Concrete/ConcreteWall_02/ConcreteWall_02_V1_4m.et" {
  {
   coords 1305.658 1.859 1383.798
@@ -11261,20 +11317,37 @@ SCR_DestructibleBuildingEntity : "{E1B1FAB63D65EF46}Prefabs/Perimetr/wall_perime
  angles 0 93.05 0
  scale 0.931
 }
-StaticModelEntity : "{E30CE01FF01AE490}PrefabLibrary/DefaultLibrary/Infrastructure/Stairs/ConcreteStairs_02_SideSquareNarrow.et" {
- components {
-  MeshObject "{547A8804AA50F719}" {
-   Materials {
-    MaterialAssignClass "{68C9089D8A822399}" {
-     SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Sides"
-     AssignedMaterial "{D4D99729940B0FA3}Assets/Structures/Walls/Concrete/Data/ConcreteRetainingWall_02_01.emat"
+$grp StaticModelEntity : "{E30CE01FF01AE490}PrefabLibrary/DefaultLibrary/Infrastructure/Stairs/ConcreteStairs_02_SideSquareNarrow.et" {
+ {
+  components {
+   MeshObject "{547A8804AA50F719}" {
+    Materials {
+     MaterialAssignClass "{68C9089D8A822399}" {
+      SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Sides"
+      AssignedMaterial "{D4D99729940B0FA3}Assets/Structures/Walls/Concrete/Data/ConcreteRetainingWall_02_01.emat"
+     }
     }
    }
   }
+  coords 1256.955 298.922 1304.029
+  angles -90 95.483 0
+  scale 2.388
  }
- coords 1256.955 298.922 1304.029
- angles -90 95.483 0
- scale 2.388
+ {
+  components {
+   MeshObject "{547A8804AA50F719}" {
+    Materials {
+     MaterialAssignClass "{68C9089D8A822399}" {
+      SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Sides"
+      AssignedMaterial "{D4D99729940B0FA3}Assets/Structures/Walls/Concrete/Data/ConcreteRetainingWall_02_01.emat"
+     }
+    }
+   }
+  }
+  coords 3792.813 307.909 326.882
+  angles -90 97 -91.97
+  scale 2.388
+ }
 }
 GenericEntity : "{E4A22C9C10769063}Prefabs/Vehicles/gaz71/BASE_gaz71.et" {
  coords 1131.135 298.173 1382.73
@@ -11487,6 +11560,28 @@ $grp GameEntity : "{E7FD0B8019E96F73}Prefabs/Structures/BuildingParts/Lights/Lam
     coords -0.003 0.203 0.195
     angles -26.64 0 0
     LV 9
+    VolLightOffset -0.085
+    VolLightIntensity 0.1
+    LensFlareOffset -0.178
+   }
+  }
+ }
+ {
+  components {
+   ParametricMaterialInstanceComponent "{5F1CC00DA3E4F97A}" {
+   }
+  }
+  coords 3841.621 294.677 393.526
+  angles -36.041 90.008 0.269
+  scale 0.833
+  {
+   LightEntity : "{5BF23CDF9B8FB366}Prefabs/Structures/Industrial/Towers/LightTower_01/LightTower_01_light.et" {
+    coords -0.003 0.203 0.195
+    angles -36.294 0 0
+    Color 0.823 0.414 0.106 0
+    LV 10
+    SpotAngle 80
+    SpotAngleAttenuation 0.41
     VolLightOffset -0.085
     VolLightIntensity 0.1
     LensFlareOffset -0.178
