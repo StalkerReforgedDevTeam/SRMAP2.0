@@ -11582,10 +11582,6 @@ $grp GenericEntity : "{349AC04D60BDC344}Prefabs/SRZ_Storage/SRZ_FactionStorage_M
  }
 }
 $grp GenericEntity : "{35AFE0B84B106BDD}Prefabs/SRZ_Storage/SRZ_ArtifactStorage.et" {
- SRZ_ArtifactStorage_6AAD7D784D5CD07D {
-  coords 3843.542 306.796 401.06
-  angles 0 86.336 0
- }
  SRZ_ArtifactStorage_6AAD7D79C5FD7066 {
   coords 3556.511 308.811 1835.978
   angles 0 -6.003 0
@@ -20309,14 +20305,6 @@ GameEntity armst_gasmask_m17_6A52FB37A6C06C4F : "{CCEC06C62737F0D4}Prefabs/Equip
  coords 3071.297 304.702 2730.013
 }
 $grp GenericEntity : "{D3452CED3BD70204}Prefabs/SRZ_Storage/SRZ_FactionStorage_UKM.et" {
- SRZ_FactionStorage_UKM_6AAD7D785B8AC61F {
-  coords 3843.592 306.796 399.753
-  angles 0 87.497 0
- }
- SRZ_FactionStorage_UKM_6AAD7D785B8AC61F2 {
-  coords 3843.606 306.796 398.159
-  angles 0 90.168 0
- }
  SRZ_FactionStorage_UKM_6AAD7D786552A160 {
   coords 3823.179 306.796 401.616
  }

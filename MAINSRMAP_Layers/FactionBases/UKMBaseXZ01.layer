@@ -1633,6 +1633,10 @@ $grp GenericEntity : "{339AED2BCBDF3265}Prefabs/Props/Military/Camps/PalletMRE_0
   angles 0 102.158 0
  }
 }
+GenericEntity SRZ_ArtifactStorage_6AAD7D784D5CD07D : "{35AFE0B84B106BDD}Prefabs/SRZ_Storage/SRZ_ArtifactStorage.et" {
+ coords 3842.425 306.796 404.757
+ angles 0 -1 0
+}
 GenericEntity : "{36D422D0E5DB68DD}Prefabs/Compositions/Misc/SubCompositions/Storage/Location/Storage_GarageMilitary_E_01_FIA_01.et" {
  coords 3794.66 306.702 417.839
  angles 0 -87.081 0
@@ -7047,6 +7051,16 @@ GenericEntity : "{D20C1F42AA9C4753}Prefabs/Structures/BuildingParts/Doors/DoorSe
    ID "59BD0A357A6808D1"
    coords 0 0 0
   }
+ }
+}
+$grp GenericEntity : "{D3452CED3BD70204}Prefabs/SRZ_Storage/SRZ_FactionStorage_UKM.et" {
+ SRZ_FactionStorage_UKM_6AAD7D785B8AC61F {
+  coords 3843.542 306.796 404.421
+  angles 0 89.497 0
+ }
+ SRZ_FactionStorage_UKM_6AAD7D785B8AC61F2 {
+  coords 3843.536 306.796 403.147
+  angles 0 90.168 0
  }
 }
 $grp SCR_DestructibleEntity : "{D50A0255E3EB8CCF}Prefabs/Structures/Walls/Concrete/ConcreteWall_02/ConcreteWall_02_V1_4m.et" {
