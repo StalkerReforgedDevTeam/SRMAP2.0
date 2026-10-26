@@ -371,10 +371,8 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
   components {
    ARMST_ALIFE_SPAWNGROUPS "{6642E9839065C931}" {
     m_InitialSpawnDelay 15
-    m_CheckInterval 201
-    m_CheckPlayerRadius 50
-    m_SpawnChance 47
-    m_PlayerDetectionRadius 164
+    m_SpawnChance 30
+    m_PlayerDetectionRadius 150
     m_RespawnDelayAfterDelete 1098
     m_SpawnGroups {
      "{5E1E3C20E998B32A}Configs/GAME_SETTING/BOTS/ALIFE/mutants/ghosts.conf"
@@ -382,7 +380,7 @@ $grp GenericEntity : "{142EBFC473EC0E30}Prefabs/Monsters/Spawners/monster_spawne
     m_fMonsterNight 1
    }
   }
-  coords 4620.703 306.938 1000.272
+  coords 4623.539 306.938 1075.752
   scale 50
  }
 }
