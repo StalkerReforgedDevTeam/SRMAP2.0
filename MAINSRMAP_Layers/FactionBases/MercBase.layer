@@ -283,19 +283,9 @@ GenericEntity : "{235F2A4AA0858813}Prefabs/Props/Garbage/Generic/LitterInterior_
 }
 $grp GenericEntity : "{286F7E41495DDAFD}Prefabs/Items/InventoryItems/Cash/1KBund.et" {
  "1KBund_6A6D665A2217859B" {
-  components {
-   ActionsManagerComponent "{508AB5952B584B2E}" {
-    Enabled 0
-   }
-  }
   coords 4941.604 327.573 3049.477
  }
  "1KBund_6A6D665A3E519D80" {
-  components {
-   ActionsManagerComponent "{508AB5952B584B2E}" {
-    Enabled 0
-   }
-  }
   coords 4941.607 327.583 3049.423
   angles 6.843 35.834 0
  }
@@ -490,32 +480,14 @@ GenericEntity : "{57C9E68EF08C2CF8}Prefabs/Trash/Ammo/GarbageAmmunition_US_02.et
 }
 $grp GenericEntity : "{587076AAD5B4A6E6}Prefabs/Props/Military/Arsenal/AmmoBoxes/US/CO_DropOffCrate_Weapons_US.et" {
  {
-  components {
-   ActionsManagerComponent "{5476B36C403D4CC0}" {
-    Enabled 0
-   }
-  }
   coords 4953.122 327.41 3046.118
   angles 0 7.58 0
  }
  {
-  components {
-   ActionsManagerComponent "{5476B36C403D4CC0}" {
-    Enabled 0
-   }
-  }
   coords 4951.857 327.41 3046.286
   angles 0 7.58 0
  }
  {
-  components {
-   SCR_FactionAffiliationComponent "{5A50E7650A1AE9EC}" {
-    Enabled 0
-   }
-   ActionsManagerComponent "{5476B36C403D4CC0}" {
-    Enabled 0
-   }
-  }
   coords 4952.509 327.741 3046.199
   angles 0 7.58 0
  }
@@ -2176,20 +2148,6 @@ GenericEntity : "{E59D9776A5169843}Prefabs/Structures/BuildingParts/Doors/DoorSe
  }
 }
 GenericEntity Iphone15_6A6D665A2F9AE390 : "{F01C74E1B289DFF2}Prefabs/Items/InventoryItems/Electronics/Iphone15.et" {
- components {
-  ActionsPerformerComponent "{61B97324746FB5B8}" {
-   Enabled 0
-  }
-  ProcAnimComponent "{61B9733DA414ED5F}" {
-   Enabled 0
-  }
-  SlotManagerComponent "{61BB061E0EA0F37F}" {
-   Enabled 0
-  }
-  ActionsManagerComponent "{508AB5952B584B2E}" {
-   Enabled 0
-  }
- }
  coords 4941.753 327.573 3049.572
  angles 88.805 0 0
 }
