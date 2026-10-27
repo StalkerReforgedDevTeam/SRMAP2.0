@@ -92,6 +92,15 @@ SCR_ChimeraCharacter : "{5346CF7E39A65A6B}Prefabs/Characters/Factions/OPFOR/USSR
   }
   SRZ_RPNotificationHandler "{699F42C195F98011}" {
   }
+  SRZ_VoNWhisperComponent "{C7FFC3C5C3BC56DA}" {
+   Filename "{F566114F1CE0A0A2}Sounds/SRZ/VON/SRZ_Von_Whisper.acp"
+  }
+  SRZ_VoNSpeakComponent "{373620430ED835A2}" {
+   Filename "{AD888B2AF118E175}Sounds/SRZ/VON/SRZ_Von_Speak.acp"
+  }
+  SRZ_VoNShoutComponent "{C36651244B7A9EA1}" {
+   Filename "{1BC22B205D4F7F34}Sounds/SRZ/VON/SRZ_Von_Shout.acp"
+  }
   ActionsManagerComponent "{520EA1D2F659CE02}" {
    additionalActions {
     SCR_BandageUserAction "{520EA1D2F659CE03}" {

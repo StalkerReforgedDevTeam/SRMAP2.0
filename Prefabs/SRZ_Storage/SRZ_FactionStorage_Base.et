@@ -53,11 +53,11 @@ GenericEntity : "{10C26F96EF7A8CF5}Prefabs/Props/Core/Props_Base.et" {
     m_bStackable 0
    }
    UseCapacityCoefficient 0
-   MaxCumulativeVolume 100000
+   MaxCumulativeVolume 1000000
    MaxItemSize 120 120 120
    SaveInLoadout 0
-   m_iGridColumns 10
-   m_iGridRows 20
+   m_iGridColumns 15
+   m_iGridRows 200
    m_fMaxWeight 1000000
   }
   SRZ_FactionStorageComponent "{AF883AF042F43B8F}" {
