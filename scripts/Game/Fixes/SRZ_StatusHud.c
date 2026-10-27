@@ -1,4 +1,4 @@
-// DayZ style status HUD, bottom right. Health, water and food drain and change colour, radiation changes colour only.
+// DayZ style status HUD, bottom right. Health, water and food drain and change colour, radiation changes colour with your rad level.
 // Pop ups on the left for psy damage, bleeding, broken legs and stims. Stamina bar and server name underneath.
 class SRZ_StatusMain
 {
@@ -23,7 +23,9 @@ class SRZ_StatusHud
 	protected static const float SLOT = 46;
 	protected static const float SLOT_GAP = 16;
 
-	protected static const float HIGH_RAD_INTAKE = 75;
+	protected static const float RAD_YELLOW = 40;
+	protected static const float RAD_RED = 70;
+	protected static const float RAD_FLASH = 90;
 	protected static const float PSY_SHOW_TIME = 6;
 	protected static const float PSY_HEAVY_DROP = 5;
 	protected static const float TREND_SAMPLE = 2;
@@ -213,25 +215,25 @@ class SRZ_StatusHud
 	}
 
 	//------------------------------------------------------------------------------------------------
-	// White when safe, yellow taking low rads, red taking high rads, flashing red when rad sick
+	// Colour follows your own radiation level: white under 40, yellow from 40, red from 70, flashing red from 90
 	protected static void UpdateRad(ARMST_PLAYER_STATS_COMPONENT stats, bool blinkOn)
 	{
 		SRZ_StatusMain icon = s_aMain[3];
-		float intake = stats.ArmstRadiactiveLevelGet();
+		float rad = stats.ArmstPlayerStatGetRadio();
 
 		int color = WHITE;
 		float opacity = 1;
-		if (stats.IsRadiationSick())
+		if (rad >= RAD_FLASH)
 		{
 			color = RED;
 			if (!blinkOn)
 				opacity = 0.25;
 		}
-		else if (intake >= HIGH_RAD_INTAKE)
+		else if (rad >= RAD_RED)
 		{
 			color = RED;
 		}
-		else if (intake > 0)
+		else if (rad >= RAD_YELLOW)
 		{
 			color = YELLOW;
 		}
