@@ -1,0 +1,20 @@
+MetaFileClass {
+ Name "{9E814BE171094496}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Coke/Data/SRZ_Baggie_Coke_Bag_A.edds"
+ Configurations {
+  PNGResourceClass PC {
+   Conversion RedHQCompression
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass XBOX_SERIES : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass PS5 : PC {
+  }
+  PNGResourceClass HEADLESS : PC {
+  }
+  PNGResourceClass Xbox : PC {
+  }
+ }
+}

@@ -1,0 +1,53 @@
+MetaFileClass {
+ Name "{47A3F81DD776446A}Assets/Items/SRZ/Food/SRZ_SugarCubes/SRZ_SugarCubes.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{DC1779CDE12E8C2C}" {
+     SourceMaterial "SRZ_Food_SugarCubes_MAT"
+     AssignedMaterial "{9428A231F2E98F9C}Assets/Items/SRZ/Food/SRZ_SugarCubes/Data/SRZ_SugarCubes.emat"
+    }
+   }
+   MeshParams {
+    MeshParam SRZ_Food_SugarCubes_LOD0 {
+    }
+   }
+   GeometryParams {
+    GeometryParam UBX_SRZ_Food_SugarCubes_01 {
+     LayerPreset "ItemFireView"
+     SurfaceProperties {
+      "{AC1A1CDEE58FEE27}Common/Materials/Game/paper.gamemat"
+     }
+     Mass 0.25
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{3A65DC94FCB958C6}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6FAD19CB97EA9C39}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6524ADFBDBB36683}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{3E885A06462AD557}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{DC63FD0775D38C40}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{EBB323F3422BDE76}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass Xbox : PC {
+   Common TXOCommonClass "{BF5190F41D585DFD}" {
+   }
+  }
+ }
+}

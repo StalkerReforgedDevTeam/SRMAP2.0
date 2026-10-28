@@ -1,0 +1,53 @@
+MetaFileClass {
+ Name "{0247F51BA5ACDE53}Assets/Items/SRZ/Documents/SRZ_LorePage/SRZ_LorePage.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{51FECF616E352419}" {
+     SourceMaterial "SRZ_Readable_Paper_MAT"
+     AssignedMaterial "{240D52B580ECE0C8}Assets/Items/SRZ/Documents/SRZ_LorePage/Data/SRZ_LorePage_Research_Electro.emat"
+    }
+   }
+   MeshParams {
+    MeshParam SRZ_Readable_Paper_LOD0 {
+    }
+   }
+   GeometryParams {
+    GeometryParam UBX_SRZ_Readable_Paper_01 {
+     LayerPreset "ItemFireView"
+     SurfaceProperties {
+      "{AC1A1CDEE58FEE27}Common/Materials/Game/paper.gamemat"
+     }
+     Mass 0.02
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{567BE640BB6E8EF2}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{659EACE3E3ACAAC4}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{E1BF18A5C827B7F2}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{B9FC8B34D0F81844}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{4571AD957C45EB81}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{2F65C2B23A5D2A1C}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass Xbox : PC {
+   Common TXOCommonClass "{19ABE7139999A07B}" {
+   }
+  }
+ }
+}

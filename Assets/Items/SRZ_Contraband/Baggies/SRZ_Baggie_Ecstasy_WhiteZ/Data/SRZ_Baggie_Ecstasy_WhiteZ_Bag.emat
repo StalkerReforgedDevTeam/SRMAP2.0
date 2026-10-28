@@ -1,0 +1,13 @@
+MatPBRBasicGlass {
+ Color 0.9 0.92 0.9 1
+ Sort translucent
+ AlphaMul 1
+ BlendMode AlphaBlend
+ RoughnessScale 1
+ MetalnessScale 0
+ DielectricReflectance 0.04
+ BCRMap "{797C6C196B24581A}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Ecstasy_WhiteZ/Data/SRZ_Baggie_Ecstasy_WhiteZ_Bag_BCR.edds"
+ OpacityMap "{24762C98745DE133}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Ecstasy_WhiteZ/Data/SRZ_Baggie_Ecstasy_WhiteZ_Bag_A.edds"
+ NormalPower 1
+ NMOMap "{9EF8F8B5B6659CA1}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Ecstasy_BlueStar/Data/SRZ_Baggie_Ecstasy_BlueStar_Bag_NMO.edds"
+}

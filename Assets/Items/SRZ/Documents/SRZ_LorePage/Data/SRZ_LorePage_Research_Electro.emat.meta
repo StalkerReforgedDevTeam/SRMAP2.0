@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{240D52B580ECE0C8}Assets/Items/SRZ/Documents/SRZ_LorePage/Data/SRZ_LorePage_Research_Electro.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+  EMATResourceClass Xbox : PC {
+  }
+ }
+}

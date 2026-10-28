@@ -1,0 +1,20 @@
+MetaFileClass {
+ Name "{7825D6A7CC465A1A}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Ecstasy_GreenBolt/Data/SRZ_Baggie_Ecstasy_GreenBolt_Bag_A.edds"
+ Configurations {
+  PNGResourceClass PC {
+   Conversion RedHQCompression
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass XBOX_SERIES : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass PS5 : PC {
+  }
+  PNGResourceClass HEADLESS : PC {
+  }
+  PNGResourceClass Xbox : PC {
+  }
+ }
+}
