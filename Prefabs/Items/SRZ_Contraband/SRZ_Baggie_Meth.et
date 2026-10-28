@@ -1,0 +1,48 @@
+GenericEntity : "{3238FC0BDB67AA78}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" {
+ ID "24D29F9B18FFEC50"
+ components {
+  InventoryItemComponent "{9A95FE37EB088000}" {
+   Attributes SCR_ItemAttributeCollection "{5CEFA5C04A07F034}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{DFAB20BAC30D7137}" {
+     Name "Bag of Meth"
+     Description ""
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.05
+     SizeSetupStrategy Manual
+     ItemDimensions 0.062 0.013 0.085
+     ItemVolume 0.12
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{9F4A01955EF7AE47}" {
+      CameraPreset Top
+      CameraOrbitAngles 0 0 0
+      CameraDistanceToItem 0.34
+      FOV 10
+      LodModel 0
+     }
+    }
+    CommonItemType "NONE"
+   }
+  }
+  ARMST_ItemUseComponent "{2D236C9EFF9A5F96}" {
+  }
+  MeshObject "{7DF9B5338AE4E659}" {
+   Object "{92BF2433A22C1FDB}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Meth/SRZ_Baggie_Meth.xob"
+   Materials {
+    MaterialAssignClass "{76755AC92767B3BE}" {
+     SourceMaterial "SRZ_Baggie_Meth_Contents"
+     AssignedMaterial "{80F0852BA14D79BA}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Meth/Data/SRZ_Baggie_Meth_Contents.emat"
+    }
+    MaterialAssignClass "{1F355B67C0F7A10C}" {
+     SourceMaterial "SRZ_Baggie_Meth_Bag"
+     AssignedMaterial "{46AC05C56F09576A}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Meth/Data/SRZ_Baggie_Meth_Bag.emat"
+    }
+    MaterialAssignClass "{E9D151D2A659555A}" {
+     SourceMaterial "SRZ_Baggie_Meth_Zip"
+     AssignedMaterial "{6185C3704ED30B7B}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Meth/Data/SRZ_Baggie_Meth_Zip.emat"
+    }
+   }
+  }
+ }
+}

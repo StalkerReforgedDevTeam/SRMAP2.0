@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{2845AAA1841B7081}Prefabs/Decals/SRZ/FactionGraffiti/SRZ_Decal_Faction_20_Loners_HelpEachOther.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

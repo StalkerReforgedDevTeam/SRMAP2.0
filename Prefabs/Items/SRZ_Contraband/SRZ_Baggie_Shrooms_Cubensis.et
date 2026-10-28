@@ -1,0 +1,48 @@
+GenericEntity : "{3238FC0BDB67AA78}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" {
+ ID "FB249CB126729279"
+ components {
+  InventoryItemComponent "{B688F25CFF9C1B24}" {
+   Attributes SCR_ItemAttributeCollection "{3655D07A51014D26}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{D25F6D3A2EFC2844}" {
+     Name "Bag of Dried Mushrooms Cubensis"
+     Description ""
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.05
+     SizeSetupStrategy Manual
+     ItemDimensions 0.062 0.014 0.085
+     ItemVolume 0.12
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{1706681D321E6D14}" {
+      CameraPreset Top
+      CameraOrbitAngles 0 0 0
+      CameraDistanceToItem 0.34
+      FOV 10
+      LodModel 0
+     }
+    }
+    CommonItemType "NONE"
+   }
+  }
+  ARMST_ItemUseComponent "{4E9D4B2B5A70E12A}" {
+  }
+  MeshObject "{B2134F1B22484C55}" {
+   Object "{9582F9B46426954D}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Shrooms_Cubensis/SRZ_Baggie_Shrooms_Cubensis.xob"
+   Materials {
+    MaterialAssignClass "{83AB52A9DCC0757C}" {
+     SourceMaterial "SRZ_Baggie_Shrooms_Cubensis_Contents"
+     AssignedMaterial "{620F4D70D5AA7008}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Shrooms_Cubensis/Data/SRZ_Baggie_Shrooms_Cubensis_Contents.emat"
+    }
+    MaterialAssignClass "{6397ADACFCD52629}" {
+     SourceMaterial "SRZ_Baggie_Shrooms_Cubensis_Bag"
+     AssignedMaterial "{2C356F94D043A68B}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Shrooms_Cubensis/Data/SRZ_Baggie_Shrooms_Cubensis_Bag.emat"
+    }
+    MaterialAssignClass "{96E924D05FAA9340}" {
+     SourceMaterial "SRZ_Baggie_Shrooms_Cubensis_Zip"
+     AssignedMaterial "{408BE47C394FB7EC}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Shrooms_Cubensis/Data/SRZ_Baggie_Shrooms_Cubensis_Zip.emat"
+    }
+   }
+  }
+ }
+}

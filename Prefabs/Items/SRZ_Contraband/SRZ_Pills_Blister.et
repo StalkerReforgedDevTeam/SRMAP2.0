@@ -1,0 +1,40 @@
+GenericEntity : "{3238FC0BDB67AA78}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" {
+ ID "D9F12C99197B9361"
+ components {
+  InventoryItemComponent "{76B4FE906AF13551}" {
+   Attributes SCR_ItemAttributeCollection "{625383AD3A58DB51}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{5984F47525D6A51F}" {
+     Name "Pill Blister"
+     Description ""
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.05
+     SizeSetupStrategy Manual
+     ItemDimensions 0.052 0.006 0.092
+     ItemVolume 0.12
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{22D1370BD62677E6}" {
+      CameraPreset Top
+      CameraOrbitAngles 0 0 0
+      CameraDistanceToItem 0.34
+      FOV 10
+      LodModel 0
+     }
+    }
+    CommonItemType "NONE"
+   }
+  }
+  ARMST_ItemUseComponent "{94B9BA3D68EB8DCD}" {
+  }
+  MeshObject "{04E6332B5D71255B}" {
+   Object "{E5A23C160614E4AA}Assets/Items/SRZ_Contraband/Pills/SRZ_Pills_Blister/SRZ_Pills_Blister.xob"
+   Materials {
+    MaterialAssignClass "{6341F132858E2EF4}" {
+     SourceMaterial "SRZ_Pills_Blister"
+     AssignedMaterial "{C1F54F72EA1B08DA}Assets/Items/SRZ_Contraband/Pills/SRZ_Pills_Blister/Data/SRZ_Pills_Blister.emat"
+    }
+   }
+  }
+ }
+}

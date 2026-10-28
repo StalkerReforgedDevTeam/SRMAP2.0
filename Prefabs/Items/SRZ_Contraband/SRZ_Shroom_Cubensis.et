@@ -1,0 +1,40 @@
+GenericEntity : "{3238FC0BDB67AA78}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" {
+ ID "DB9F3D0A7A1A90D3"
+ components {
+  InventoryItemComponent "{828FDBEAF10569CF}" {
+   Attributes SCR_ItemAttributeCollection "{3ED258466BB6BD87}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{7BFBE087CC9AEC19}" {
+     Name "Dried Mushroom Cubensis"
+     Description ""
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.01
+     SizeSetupStrategy Manual
+     ItemDimensions 0.029 0.019 0.074
+     ItemVolume 0.03
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{46710C47DC8AD743}" {
+      CameraPreset Top
+      CameraOrbitAngles 0 0 0
+      CameraDistanceToItem 0.26
+      FOV 10
+      LodModel 0
+     }
+    }
+    CommonItemType "NONE"
+   }
+  }
+  ARMST_ItemUseComponent "{A6ED9D851A8416FE}" {
+  }
+  MeshObject "{16929BA50D58A732}" {
+   Object "{21647F1D7CCADB9E}Assets/Items/SRZ_Contraband/Psychedelics/SRZ_Shroom_Cubensis/SRZ_Shroom_Cubensis.xob"
+   Materials {
+    MaterialAssignClass "{14AE0FC0DBAC09B3}" {
+     SourceMaterial "SRZ_Shroom_Cubensis"
+     AssignedMaterial "{EE9219EB30F4F329}Assets/Items/SRZ_Contraband/Psychedelics/SRZ_Shroom_Cubensis/Data/SRZ_Shroom_Cubensis.emat"
+    }
+   }
+  }
+ }
+}

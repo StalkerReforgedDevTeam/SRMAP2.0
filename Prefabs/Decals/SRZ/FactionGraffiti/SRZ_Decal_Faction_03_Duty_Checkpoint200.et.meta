@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{624D4D30A1960FC9}Prefabs/Decals/SRZ/FactionGraffiti/SRZ_Decal_Faction_03_Duty_Checkpoint200.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

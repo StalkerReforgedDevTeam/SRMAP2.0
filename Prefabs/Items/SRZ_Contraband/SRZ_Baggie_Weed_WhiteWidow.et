@@ -1,0 +1,48 @@
+GenericEntity : "{3238FC0BDB67AA78}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" {
+ ID "2A24A183646C912E"
+ components {
+  InventoryItemComponent "{6403CC760C3D900D}" {
+   Attributes SCR_ItemAttributeCollection "{32AC89E66F01AC91}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{CF095F9023E03101}" {
+     Name "Bag of White Widow"
+     Description ""
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.05
+     SizeSetupStrategy Manual
+     ItemDimensions 0.062 0.017 0.085
+     ItemVolume 0.12
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{59E4552D5E964BB7}" {
+      CameraPreset Top
+      CameraOrbitAngles 0 0 0
+      CameraDistanceToItem 0.34
+      FOV 10
+      LodModel 0
+     }
+    }
+    CommonItemType "NONE"
+   }
+  }
+  ARMST_ItemUseComponent "{0E115D8B605EA6AC}" {
+  }
+  MeshObject "{E13BB47678E39311}" {
+   Object "{5ECB4A2E9AC41B7F}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Weed_WhiteWidow/SRZ_Baggie_Weed_WhiteWidow.xob"
+   Materials {
+    MaterialAssignClass "{3A3056319169CFFB}" {
+     SourceMaterial "SRZ_Baggie_Weed_WhiteWidow_Contents"
+     AssignedMaterial "{4FDAD9489F14CAA1}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Weed_WhiteWidow/Data/SRZ_Baggie_Weed_WhiteWidow_Contents.emat"
+    }
+    MaterialAssignClass "{720F59A9A893720E}" {
+     SourceMaterial "SRZ_Baggie_Weed_WhiteWidow_Bag"
+     AssignedMaterial "{748771E2078D9BED}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Weed_WhiteWidow/Data/SRZ_Baggie_Weed_WhiteWidow_Bag.emat"
+    }
+    MaterialAssignClass "{511377E2D9D7FC65}" {
+     SourceMaterial "SRZ_Baggie_Weed_WhiteWidow_Zip"
+     AssignedMaterial "{D3A3AF85CFF98DBB}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Weed_WhiteWidow/Data/SRZ_Baggie_Weed_WhiteWidow_Zip.emat"
+    }
+   }
+  }
+ }
+}

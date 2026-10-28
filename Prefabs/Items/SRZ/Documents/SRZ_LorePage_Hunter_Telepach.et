@@ -1,0 +1,64 @@
+GenericEntity : "{2DF096A08F96E446}Prefabs/Items/base_item_hand_consumble.et" {
+ ID "EFB1E6E772612B70"
+ components {
+  ARMST_ItemUseComponent "{59E68C4DC131E9FC}" {
+   m_ConsumableEffect ARMST_ConsumableBaseItem "{59E68C4DDD8B416A}" {
+    m_bDeleteOnUse 0
+    m_TypeConsuble INTERACT
+   }
+   m_sSRZReadText "Telepach. Do not get close. Twenty metres and your head starts to split. It doesn't need to touch you, it cooks your mind from where it stands. Psy helmet, then rifle, from as far as you can. The brain is worth a fortune. Most who try don't come back for it."
+  }
+  InventoryItemComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName SCR_InventoryUIInfo "{5222EB4D07D865FA}" {
+     Name "Hunter's notes: telepach"
+     Description "Page from a hunter's notebook."
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.02
+     ItemDimensions 0.01 0.01 0.01
+     ItemVolume 0.1
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{59ECB146B0ED6F92}" {
+     HandAdditiveRotation 0 90 0
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5A5AEE4BCB65677F}" {
+      CameraPreset Top
+      CameraDistanceToItem 0.55
+      LodModel 0
+     }
+    }
+    m_Size SLOT_1x1
+   }
+  }
+  MeshObject "{59CEE5702DCA6A31}" {
+   Object "{0247F51BA5ACDE53}Assets/Items/SRZ/Documents/SRZ_LorePage/SRZ_LorePage.xob"
+   Materials {
+    MaterialAssignClass "{65B6A7F2FE5CE9B1}" {
+     SourceMaterial "SRZ_Readable_Paper_MAT"
+     AssignedMaterial "{ECF83F0DEC6733CB}Assets/Items/SRZ/Documents/SRZ_LorePage/Data/SRZ_LorePage_Hunter_Telepach.emat"
+    }
+   }
+  }
+  ActionsManagerComponent "{508AB5952B584B2E}" {
+   ActionContexts {
+    UserActionContext "{8BDB38CA210EB96B}" {
+     ContextName "SRZ_Read"
+     Position PointInfo "{BAA50AB8990FC96B}" {
+      Offset 0 0.02 0
+     }
+     Radius 1
+    }
+   }
+   additionalActions {
+    ARMST_USER_OPEN_BOOK "{B388C692226B8117}" {
+     ParentContextList {
+      "SRZ_Read"
+     }
+     s_TextToBook "Telepach. Do not get close. Twenty metres and your head starts to split. It doesn't need to touch you, it cooks your mind from where it stands. Psy helmet, then rifle, from as far as you can. The brain is worth a fortune. Most who try don't come back for it."
+    }
+   }
+  }
+ }
+}

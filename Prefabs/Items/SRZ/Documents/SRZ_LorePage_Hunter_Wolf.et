@@ -1,0 +1,64 @@
+GenericEntity : "{2DF096A08F96E446}Prefabs/Items/base_item_hand_consumble.et" {
+ ID "1ACFC3B4E9FA67E1"
+ components {
+  ARMST_ItemUseComponent "{59E68C4DC131E9FC}" {
+   m_ConsumableEffect ARMST_ConsumableBaseItem "{59E68C4DDD8B416A}" {
+    m_bDeleteOnUse 0
+    m_TypeConsuble INTERACT
+   }
+   m_sSRZReadText "Wolves. Never alone. If you see one, three more are already behind you. They circle and come in from the side you are not watching. Back to a wall, short bursts. Tails and paws sell, paws for more. They hunt at dusk the most."
+  }
+  InventoryItemComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName SCR_InventoryUIInfo "{5222EB4D07D865FA}" {
+     Name "Hunter's notes: wolves"
+     Description "Page from a hunter's notebook."
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.02
+     ItemDimensions 0.01 0.01 0.01
+     ItemVolume 0.1
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{59ECB146B0ED6F92}" {
+     HandAdditiveRotation 0 90 0
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5A5AEE4BCB65677F}" {
+      CameraPreset Top
+      CameraDistanceToItem 0.55
+      LodModel 0
+     }
+    }
+    m_Size SLOT_1x1
+   }
+  }
+  MeshObject "{59CEE5702DCA6A31}" {
+   Object "{0247F51BA5ACDE53}Assets/Items/SRZ/Documents/SRZ_LorePage/SRZ_LorePage.xob"
+   Materials {
+    MaterialAssignClass "{9FB0A7642184A177}" {
+     SourceMaterial "SRZ_Readable_Paper_MAT"
+     AssignedMaterial "{39BF8F81F3B78A20}Assets/Items/SRZ/Documents/SRZ_LorePage/Data/SRZ_LorePage_Hunter_Wolf.emat"
+    }
+   }
+  }
+  ActionsManagerComponent "{508AB5952B584B2E}" {
+   ActionContexts {
+    UserActionContext "{4C06BFC8B9C33203}" {
+     ContextName "SRZ_Read"
+     Position PointInfo "{6150FC79F53F4E28}" {
+      Offset 0 0.02 0
+     }
+     Radius 1
+    }
+   }
+   additionalActions {
+    ARMST_USER_OPEN_BOOK "{ADF515AC3FF1DEFD}" {
+     ParentContextList {
+      "SRZ_Read"
+     }
+     s_TextToBook "Wolves. Never alone. If you see one, three more are already behind you. They circle and come in from the side you are not watching. Back to a wall, short bursts. Tails and paws sell, paws for more. They hunt at dusk the most."
+    }
+   }
+  }
+ }
+}

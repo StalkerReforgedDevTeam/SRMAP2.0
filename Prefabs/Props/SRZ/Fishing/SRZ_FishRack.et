@@ -1,0 +1,18 @@
+GenericEntity {
+ ID "14F48DDAEF292B14"
+ components {
+  MeshObject "{94E7DF44CED8339D}" {
+   Object "{E72C830F3087F36B}Assets/Props/SRZ/Fishing/SRZ_FishRack/SRZ_FishRack.xob"
+   Materials {
+    MaterialAssignClass "{3AD0F2F7FE16BDA9}" {
+     SourceMaterial "SRZ_Prop_FishRack_MAT"
+     AssignedMaterial "{72EF134752788C90}Assets/Props/SRZ/Fishing/SRZ_FishRack/Data/SRZ_FishRack.emat"
+    }
+   }
+  }
+  RigidBody "{AFFA7633AB0B6232}" {
+   ModelGeometry 1
+   Static 1
+  }
+ }
+}

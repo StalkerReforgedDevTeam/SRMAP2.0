@@ -1,0 +1,40 @@
+GenericEntity : "{3238FC0BDB67AA78}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" {
+ ID "42CE79207B38726E"
+ components {
+  InventoryItemComponent "{DC83BB7A4446C49E}" {
+   Attributes SCR_ItemAttributeCollection "{1983D9A6A0435296}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{904C10D9D5CEC1BC}" {
+     Name "Dried Mushroom Azurescens"
+     Description ""
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.01
+     SizeSetupStrategy Manual
+     ItemDimensions 0.027 0.017 0.069
+     ItemVolume 0.03
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{35D9F995B79E86DA}" {
+      CameraPreset Top
+      CameraOrbitAngles 0 0 0
+      CameraDistanceToItem 0.25
+      FOV 10
+      LodModel 0
+     }
+    }
+    CommonItemType "NONE"
+   }
+  }
+  ARMST_ItemUseComponent "{A9CB69537D0593EB}" {
+  }
+  MeshObject "{A5E41D76D3A5A7D6}" {
+   Object "{E5ACCB233FC0195F}Assets/Items/SRZ_Contraband/Psychedelics/SRZ_Shroom_Azurescens/SRZ_Shroom_Azurescens.xob"
+   Materials {
+    MaterialAssignClass "{4928529A06F42023}" {
+     SourceMaterial "SRZ_Shroom_Azurescens"
+     AssignedMaterial "{82636B1AD44A8ED4}Assets/Items/SRZ_Contraband/Psychedelics/SRZ_Shroom_Azurescens/Data/SRZ_Shroom_Azurescens.emat"
+    }
+   }
+  }
+ }
+}

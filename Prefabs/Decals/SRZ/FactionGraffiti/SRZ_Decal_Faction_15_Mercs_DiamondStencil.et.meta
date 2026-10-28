@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{39FFD4311D265225}Prefabs/Decals/SRZ/FactionGraffiti/SRZ_Decal_Faction_15_Mercs_DiamondStencil.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

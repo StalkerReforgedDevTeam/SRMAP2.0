@@ -1,0 +1,27 @@
+GenericEntity : "{83EACE805122087F}Prefabs/Items/Food/armst_itm_food_bread.et" {
+ ID "49C460B58523689F"
+ components {
+  InventoryItemComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName SCR_InventoryUIInfo "{5222EB4D07D865FA}" {
+     Name "Buckwheat"
+     Description "Paper pack of buckwheat groats. Better cooked, but you can chew it dry if you have to."
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.5
+     ItemDimensions 0.01 0.01 0.01
+     ItemVolume 0.1
+    }
+    CustomAttributes {
+     SCR_AlternativeModel "{59E68C742A7C6A5F}" {
+      m_sAlternativeModel "{DCFDB9B84B1B4A49}Assets/Items/SRZ/Food/SRZ_Buckwheat/SRZ_Buckwheat.xob"
+     }
+    }
+    m_iCustomGridWidth 1
+   }
+  }
+  MeshObject "{59CE87DB17B6B1C5}" {
+   Object "{DCFDB9B84B1B4A49}Assets/Items/SRZ/Food/SRZ_Buckwheat/SRZ_Buckwheat.xob"
+  }
+ }
+}

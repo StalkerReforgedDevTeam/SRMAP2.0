@@ -1,0 +1,40 @@
+GenericEntity : "{3238FC0BDB67AA78}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" {
+ ID "F7BAD9EA8AB70761"
+ components {
+  InventoryItemComponent "{6A9C178D2EF847D0}" {
+   Attributes SCR_ItemAttributeCollection "{1FF4739BD3628974}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{690172B0F887C568}" {
+     Name "Passport Ukraine"
+     Description ""
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.05
+     SizeSetupStrategy Manual
+     ItemDimensions 0.088 0.009 0.125
+     ItemVolume 0.12
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{133FA9BB542A84BA}" {
+      CameraPreset Top
+      CameraOrbitAngles 0 0 0
+      CameraDistanceToItem 0.49
+      FOV 10
+      LodModel 0
+     }
+    }
+    CommonItemType "NONE"
+   }
+  }
+  ARMST_ItemUseComponent "{F2D963414B1BF84E}" {
+  }
+  MeshObject "{AFAC6D2D00255673}" {
+   Object "{A79F1B24D923D421}Assets/Items/SRZ_Contraband/Documents/SRZ_Passport_Ukraine/SRZ_Passport_Ukraine.xob"
+   Materials {
+    MaterialAssignClass "{1076A4A8FCD2444D}" {
+     SourceMaterial "SRZ_Passport_Ukraine"
+     AssignedMaterial "{A4309A2D2EC6BFB6}Assets/Items/SRZ_Contraband/Documents/SRZ_Passport_Ukraine/Data/SRZ_Passport_Ukraine.emat"
+    }
+   }
+  }
+ }
+}

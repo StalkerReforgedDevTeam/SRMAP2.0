@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{C8E1CD5150A95D93}Prefabs/Items/SRZ_Contraband/SRZ_Brick_Coke_Wrapped.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

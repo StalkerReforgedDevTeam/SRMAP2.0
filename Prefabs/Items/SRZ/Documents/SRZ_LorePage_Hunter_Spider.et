@@ -1,0 +1,64 @@
+GenericEntity : "{2DF096A08F96E446}Prefabs/Items/base_item_hand_consumble.et" {
+ ID "CF86445588C179FA"
+ components {
+  ARMST_ItemUseComponent "{59E68C4DC131E9FC}" {
+   m_ConsumableEffect ARMST_ConsumableBaseItem "{59E68C4DDD8B416A}" {
+    m_bDeleteOnUse 0
+    m_TypeConsuble INTERACT
+   }
+   m_sSRZReadText "Spiders. Big as a dog. They nest in basements and dark corners and drop from above. The venom burns for hours. Cut the gland out carefully, it is worth more than a rifle. If your leg goes numb, get antitoxin fast."
+  }
+  InventoryItemComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName SCR_InventoryUIInfo "{5222EB4D07D865FA}" {
+     Name "Hunter's notes: spiders"
+     Description "Page from a hunter's notebook."
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.02
+     ItemDimensions 0.01 0.01 0.01
+     ItemVolume 0.1
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{59ECB146B0ED6F92}" {
+     HandAdditiveRotation 0 90 0
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5A5AEE4BCB65677F}" {
+      CameraPreset Top
+      CameraDistanceToItem 0.55
+      LodModel 0
+     }
+    }
+    m_Size SLOT_1x1
+   }
+  }
+  MeshObject "{59CEE5702DCA6A31}" {
+   Object "{0247F51BA5ACDE53}Assets/Items/SRZ/Documents/SRZ_LorePage/SRZ_LorePage.xob"
+   Materials {
+    MaterialAssignClass "{BEE68795DFAE19E2}" {
+     SourceMaterial "SRZ_Readable_Paper_MAT"
+     AssignedMaterial "{F2F985978B2CECD7}Assets/Items/SRZ/Documents/SRZ_LorePage/Data/SRZ_LorePage_Hunter_Spider.emat"
+    }
+   }
+  }
+  ActionsManagerComponent "{508AB5952B584B2E}" {
+   ActionContexts {
+    UserActionContext "{1E81433C1C2C3D9F}" {
+     ContextName "SRZ_Read"
+     Position PointInfo "{1988B2F7DAA93DF8}" {
+      Offset 0 0.02 0
+     }
+     Radius 1
+    }
+   }
+   additionalActions {
+    ARMST_USER_OPEN_BOOK "{4BD1437925170347}" {
+     ParentContextList {
+      "SRZ_Read"
+     }
+     s_TextToBook "Spiders. Big as a dog. They nest in basements and dark corners and drop from above. The venom burns for hours. Cut the gland out carefully, it is worth more than a rifle. If your leg goes numb, get antitoxin fast."
+    }
+   }
+  }
+ }
+}

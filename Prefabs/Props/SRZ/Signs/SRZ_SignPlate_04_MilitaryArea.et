@@ -1,0 +1,18 @@
+GenericEntity {
+ ID "D69E691BAAC1C29A"
+ components {
+  MeshObject "{3714A8100D01F322}" {
+   Object "{A4F5960A7A00AE43}Assets/Props/SRZ/Signs/SRZ_SignPlate/SRZ_SignPlate.xob"
+   Materials {
+    MaterialAssignClass "{A2686653A5ECF55C}" {
+     SourceMaterial "SRZ_Prop_SignPlate_MAT"
+     AssignedMaterial "{97AC2A9F2C9D31CF}Assets/Props/SRZ/Signs/SRZ_SignPlate/Data/SRZ_SignPlate_04_MilitaryArea.emat"
+    }
+   }
+  }
+  RigidBody "{BF5024E077F967A7}" {
+   ModelGeometry 1
+   Static 1
+  }
+ }
+}

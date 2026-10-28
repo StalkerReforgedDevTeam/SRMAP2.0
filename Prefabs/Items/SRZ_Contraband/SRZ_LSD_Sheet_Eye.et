@@ -1,0 +1,40 @@
+GenericEntity : "{3238FC0BDB67AA78}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" {
+ ID "784472D59B45E7B4"
+ components {
+  InventoryItemComponent "{FDC5858A23662BD4}" {
+   Attributes SCR_ItemAttributeCollection "{8350C333B3E086C8}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{88198F83A8D8DA62}" {
+     Name "LSD Sheet Eye"
+     Description ""
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.05
+     SizeSetupStrategy Manual
+     ItemDimensions 0.050 0.002 0.050
+     ItemVolume 0.12
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{3528909507A8D796}" {
+      CameraPreset Top
+      CameraOrbitAngles 0 0 0
+      CameraDistanceToItem 0.25
+      FOV 10
+      LodModel 0
+     }
+    }
+    CommonItemType "NONE"
+   }
+  }
+  ARMST_ItemUseComponent "{5AC0F4388CBB7AAD}" {
+  }
+  MeshObject "{EED7349630B6A362}" {
+   Object "{7A7A0B218E78726F}Assets/Items/SRZ_Contraband/Psychedelics/SRZ_LSD_Sheet_Eye/SRZ_LSD_Sheet_Eye.xob"
+   Materials {
+    MaterialAssignClass "{D0E2E548D30E9D00}" {
+     SourceMaterial "SRZ_LSD_Sheet_Eye"
+     AssignedMaterial "{C6298DF61606B84A}Assets/Items/SRZ_Contraband/Psychedelics/SRZ_LSD_Sheet_Eye/Data/SRZ_LSD_Sheet_Eye.emat"
+    }
+   }
+  }
+ }
+}

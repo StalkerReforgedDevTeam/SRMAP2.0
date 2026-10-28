@@ -1,0 +1,40 @@
+GenericEntity : "{3238FC0BDB67AA78}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" {
+ ID "0E1D550FF900CCBB"
+ components {
+  InventoryItemComponent "{B0F36C9468B5C558}" {
+   Attributes SCR_ItemAttributeCollection "{81CB0718A25C805F}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{A463D85A6A404D45}" {
+     Name "LSD Tab Monolith"
+     Description ""
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.01
+     SizeSetupStrategy Manual
+     ItemDimensions 0.010 0.002 0.010
+     ItemVolume 0.03
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{33D4E57631669460}" {
+      CameraPreset Top
+      CameraOrbitAngles 0 0 0
+      CameraDistanceToItem 0.25
+      FOV 10
+      LodModel 0
+     }
+    }
+    CommonItemType "NONE"
+   }
+  }
+  ARMST_ItemUseComponent "{4157ED206C532441}" {
+  }
+  MeshObject "{DE1EDC78BE88FD0E}" {
+   Object "{CCDAC0465546B815}Assets/Items/SRZ_Contraband/Psychedelics/SRZ_LSD_Tab_Monolith/SRZ_LSD_Tab_Monolith.xob"
+   Materials {
+    MaterialAssignClass "{BEEC898E3497BDF9}" {
+     SourceMaterial "SRZ_LSD_Tab_Monolith"
+     AssignedMaterial "{3058580A4E0F2DA7}Assets/Items/SRZ_Contraband/Psychedelics/SRZ_LSD_Tab_Monolith/Data/SRZ_LSD_Tab_Monolith.emat"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,64 @@
+GenericEntity : "{2DF096A08F96E446}Prefabs/Items/base_item_hand_consumble.et" {
+ ID "7BEEAA78CA92D63E"
+ components {
+  ARMST_ItemUseComponent "{59E68C4DC131E9FC}" {
+   m_ConsumableEffect ARMST_ConsumableBaseItem "{59E68C4DDD8B416A}" {
+    m_bDeleteOnUse 0
+    m_TypeConsuble INTERACT
+   }
+   m_sSRZReadText "Electrical fields. Field E-3. The discharge comes before you see it. Hair stands up, the dosimeter crackles, the air smells of a storm. Anything metal inside two metres draws the arc. Rubber soles help a little. A thrown bolt sets the field off and it needs about four seconds to charge again. Count to five, then walk. Two lab assistants did not count."
+  }
+  InventoryItemComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName SCR_InventoryUIInfo "{5222EB4D07D865FA}" {
+     Name "Research notes: electrical fields"
+     Description "Typed lab sheet. Scientists pay well for these."
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.02
+     ItemDimensions 0.01 0.01 0.01
+     ItemVolume 0.1
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{59ECB146B0ED6F92}" {
+     HandAdditiveRotation 0 90 0
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5A5AEE4BCB65677F}" {
+      CameraPreset Top
+      CameraDistanceToItem 0.55
+      LodModel 0
+     }
+    }
+    m_Size SLOT_1x1
+   }
+  }
+  MeshObject "{59CEE5702DCA6A31}" {
+   Object "{0247F51BA5ACDE53}Assets/Items/SRZ/Documents/SRZ_LorePage/SRZ_LorePage.xob"
+   Materials {
+    MaterialAssignClass "{E4D74F467DD2A488}" {
+     SourceMaterial "SRZ_Readable_Paper_MAT"
+     AssignedMaterial "{240D52B580ECE0C8}Assets/Items/SRZ/Documents/SRZ_LorePage/Data/SRZ_LorePage_Research_Electro.emat"
+    }
+   }
+  }
+  ActionsManagerComponent "{508AB5952B584B2E}" {
+   ActionContexts {
+    UserActionContext "{1D37DD0B205C6F66}" {
+     ContextName "SRZ_Read"
+     Position PointInfo "{4804A4538D0D0537}" {
+      Offset 0 0.02 0
+     }
+     Radius 1
+    }
+   }
+   additionalActions {
+    ARMST_USER_OPEN_BOOK "{07735AD8E3C79990}" {
+     ParentContextList {
+      "SRZ_Read"
+     }
+     s_TextToBook "Electrical fields. Field E-3. The discharge comes before you see it. Hair stands up, the dosimeter crackles, the air smells of a storm. Anything metal inside two metres draws the arc. Rubber soles help a little. A thrown bolt sets the field off and it needs about four seconds to charge again. Count to five, then walk. Two lab assistants did not count."
+    }
+   }
+  }
+ }
+}

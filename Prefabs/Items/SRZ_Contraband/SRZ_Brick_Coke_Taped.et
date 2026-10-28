@@ -1,0 +1,40 @@
+GenericEntity : "{3238FC0BDB67AA78}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" {
+ ID "BD900D47FD9D5B45"
+ components {
+  InventoryItemComponent "{518E307E08C85E18}" {
+   Attributes SCR_ItemAttributeCollection "{84D6592787675E4A}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{9592E8B3A44A6958}" {
+     Name "Kilo of Cocaine Taped"
+     Description ""
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 1.0
+     SizeSetupStrategy Manual
+     ItemDimensions 0.204 0.060 0.129
+     ItemVolume 1.2
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{485FB41E0EF14704}" {
+      CameraPreset Top
+      CameraOrbitAngles 0 0 0
+      CameraDistanceToItem 0.80
+      FOV 10
+      LodModel 0
+     }
+    }
+    CommonItemType "NONE"
+   }
+  }
+  ARMST_ItemUseComponent "{0C83DC0A5A546630}" {
+  }
+  MeshObject "{9CF2EC1B496B3D94}" {
+   Object "{D7D61ED601176BAF}Assets/Items/SRZ_Contraband/Coke/SRZ_Brick_Coke_Taped/SRZ_Brick_Coke_Taped.xob"
+   Materials {
+    MaterialAssignClass "{4A06CC21A20AD8C2}" {
+     SourceMaterial "SRZ_Brick_Coke_Taped"
+     AssignedMaterial "{4F915A326FE34580}Assets/Items/SRZ_Contraband/Coke/SRZ_Brick_Coke_Taped/Data/SRZ_Brick_Coke_Taped.emat"
+    }
+   }
+  }
+ }
+}

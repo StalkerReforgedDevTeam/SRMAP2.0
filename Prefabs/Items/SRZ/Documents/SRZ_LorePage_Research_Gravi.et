@@ -1,0 +1,64 @@
+GenericEntity : "{2DF096A08F96E446}Prefabs/Items/base_item_hand_consumble.et" {
+ ID "32A086C69D1D4448"
+ components {
+  ARMST_ItemUseComponent "{59E68C4DC131E9FC}" {
+   m_ConsumableEffect ARMST_ConsumableBaseItem "{59E68C4DDD8B416A}" {
+    m_bDeleteOnUse 0
+    m_TypeConsuble INTERACT
+   }
+   m_sSRZReadText "Gravitational fields. Fields G-2 and G-5. Leaves and dust circle in the air above them. Small ones throw you. Large ones pull you in and do not let go, the spinning type we call the whirligig. Nothing that went into the centre of a whirligig came out in one piece. The bolt test works, but watch where the bolt lands. It shows you the edge, not the centre."
+  }
+  InventoryItemComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName SCR_InventoryUIInfo "{5222EB4D07D865FA}" {
+     Name "Research notes: gravitational fields"
+     Description "Typed lab sheet. Scientists pay well for these."
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.02
+     ItemDimensions 0.01 0.01 0.01
+     ItemVolume 0.1
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{59ECB146B0ED6F92}" {
+     HandAdditiveRotation 0 90 0
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5A5AEE4BCB65677F}" {
+      CameraPreset Top
+      CameraDistanceToItem 0.55
+      LodModel 0
+     }
+    }
+    m_Size SLOT_1x1
+   }
+  }
+  MeshObject "{59CEE5702DCA6A31}" {
+   Object "{0247F51BA5ACDE53}Assets/Items/SRZ/Documents/SRZ_LorePage/SRZ_LorePage.xob"
+   Materials {
+    MaterialAssignClass "{3FBB617E073DE4C7}" {
+     SourceMaterial "SRZ_Readable_Paper_MAT"
+     AssignedMaterial "{0EB6817DE9A417EA}Assets/Items/SRZ/Documents/SRZ_LorePage/Data/SRZ_LorePage_Research_Gravi.emat"
+    }
+   }
+  }
+  ActionsManagerComponent "{508AB5952B584B2E}" {
+   ActionContexts {
+    UserActionContext "{7F1BE94BEF586B96}" {
+     ContextName "SRZ_Read"
+     Position PointInfo "{C4A2B42C63D8CDBF}" {
+      Offset 0 0.02 0
+     }
+     Radius 1
+    }
+   }
+   additionalActions {
+    ARMST_USER_OPEN_BOOK "{A6065282766B61A6}" {
+     ParentContextList {
+      "SRZ_Read"
+     }
+     s_TextToBook "Gravitational fields. Fields G-2 and G-5. Leaves and dust circle in the air above them. Small ones throw you. Large ones pull you in and do not let go, the spinning type we call the whirligig. Nothing that went into the centre of a whirligig came out in one piece. The bolt test works, but watch where the bolt lands. It shows you the edge, not the centre."
+    }
+   }
+  }
+ }
+}

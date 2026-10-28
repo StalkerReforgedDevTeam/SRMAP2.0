@@ -1,0 +1,64 @@
+GenericEntity : "{2DF096A08F96E446}Prefabs/Items/base_item_hand_consumble.et" {
+ ID "A9EE5B136DE92097"
+ components {
+  ARMST_ItemUseComponent "{59E68C4DC131E9FC}" {
+   m_ConsumableEffect ARMST_ConsumableBaseItem "{59E68C4DDD8B416A}" {
+    m_bDeleteOnUse 0
+    m_TypeConsuble INTERACT
+   }
+   m_sSRZReadText "Erb. Hunched, long claws, bony spine along the back. Fast over short ground, slow to turn. Shoot it while it runs at you and roll out of the way. The claws and the spine both sell. Never fight one in a building."
+  }
+  InventoryItemComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName SCR_InventoryUIInfo "{5222EB4D07D865FA}" {
+     Name "Hunter's notes: erb"
+     Description "Page from a hunter's notebook."
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.02
+     ItemDimensions 0.01 0.01 0.01
+     ItemVolume 0.1
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{59ECB146B0ED6F92}" {
+     HandAdditiveRotation 0 90 0
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5A5AEE4BCB65677F}" {
+      CameraPreset Top
+      CameraDistanceToItem 0.55
+      LodModel 0
+     }
+    }
+    m_Size SLOT_1x1
+   }
+  }
+  MeshObject "{59CEE5702DCA6A31}" {
+   Object "{0247F51BA5ACDE53}Assets/Items/SRZ/Documents/SRZ_LorePage/SRZ_LorePage.xob"
+   Materials {
+    MaterialAssignClass "{1B31F7E8409324D8}" {
+     SourceMaterial "SRZ_Readable_Paper_MAT"
+     AssignedMaterial "{017138BFA179D21E}Assets/Items/SRZ/Documents/SRZ_LorePage/Data/SRZ_LorePage_Hunter_Erb.emat"
+    }
+   }
+  }
+  ActionsManagerComponent "{508AB5952B584B2E}" {
+   ActionContexts {
+    UserActionContext "{CA8D59468E8B7815}" {
+     ContextName "SRZ_Read"
+     Position PointInfo "{4943758C8B4DF56A}" {
+      Offset 0 0.02 0
+     }
+     Radius 1
+    }
+   }
+   additionalActions {
+    ARMST_USER_OPEN_BOOK "{92A348217A3F3FC3}" {
+     ParentContextList {
+      "SRZ_Read"
+     }
+     s_TextToBook "Erb. Hunched, long claws, bony spine along the back. Fast over short ground, slow to turn. Shoot it while it runs at you and roll out of the way. The claws and the spine both sell. Never fight one in a building."
+    }
+   }
+  }
+ }
+}

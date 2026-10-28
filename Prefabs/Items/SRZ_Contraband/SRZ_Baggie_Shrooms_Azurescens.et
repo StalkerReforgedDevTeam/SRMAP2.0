@@ -1,0 +1,48 @@
+GenericEntity : "{3238FC0BDB67AA78}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" {
+ ID "7BED9330CAECBA1D"
+ components {
+  InventoryItemComponent "{E919E3E0A05BF039}" {
+   Attributes SCR_ItemAttributeCollection "{0013845F0606C948}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{4A52DBE53EEC7AF6}" {
+     Name "Bag of Dried Mushrooms Azurescens"
+     Description ""
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.05
+     SizeSetupStrategy Manual
+     ItemDimensions 0.062 0.014 0.090
+     ItemVolume 0.12
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{BA58B260E304DAFC}" {
+      CameraPreset Top
+      CameraOrbitAngles 0 0 0
+      CameraDistanceToItem 0.35
+      FOV 10
+      LodModel 0
+     }
+    }
+    CommonItemType "NONE"
+   }
+  }
+  ARMST_ItemUseComponent "{1266BD2A685D6A25}" {
+  }
+  MeshObject "{B81187D47557C74B}" {
+   Object "{BBCC836E1C2C2130}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Shrooms_Azurescens/SRZ_Baggie_Shrooms_Azurescens.xob"
+   Materials {
+    MaterialAssignClass "{8621A612AD2EB52C}" {
+     SourceMaterial "SRZ_Baggie_Shrooms_Azurescens_Contents"
+     AssignedMaterial "{FE5BF950BB64EAFE}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Shrooms_Azurescens/Data/SRZ_Baggie_Shrooms_Azurescens_Contents.emat"
+    }
+    MaterialAssignClass "{0C3876E4EE0BD587}" {
+     SourceMaterial "SRZ_Baggie_Shrooms_Azurescens_Bag"
+     AssignedMaterial "{1EF493127D6412F5}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Shrooms_Azurescens/Data/SRZ_Baggie_Shrooms_Azurescens_Bag.emat"
+    }
+    MaterialAssignClass "{BC01F06A9F1F69E7}" {
+     SourceMaterial "SRZ_Baggie_Shrooms_Azurescens_Zip"
+     AssignedMaterial "{2B23E1721830F0FF}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Shrooms_Azurescens/Data/SRZ_Baggie_Shrooms_Azurescens_Zip.emat"
+    }
+   }
+  }
+ }
+}

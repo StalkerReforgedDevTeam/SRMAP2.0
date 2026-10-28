@@ -1,0 +1,40 @@
+GenericEntity : "{3238FC0BDB67AA78}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" {
+ ID "70BAD89078A6A351"
+ components {
+  InventoryItemComponent "{279EE84A1542D941}" {
+   Attributes SCR_ItemAttributeCollection "{AA825BF47B5E2B7F}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{50D63F3F6439FCA5}" {
+     Name "Kilo of Cocaine Wrapped"
+     Description ""
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 1.0
+     SizeSetupStrategy Manual
+     ItemDimensions 0.204 0.060 0.129
+     ItemVolume 1.2
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{42505DADDC87E90A}" {
+      CameraPreset Top
+      CameraOrbitAngles 0 0 0
+      CameraDistanceToItem 0.80
+      FOV 10
+      LodModel 0
+     }
+    }
+    CommonItemType "NONE"
+   }
+  }
+  ARMST_ItemUseComponent "{FE887BEC0A95F546}" {
+  }
+  MeshObject "{BD6D843343062B8E}" {
+   Object "{4AE57E217E442348}Assets/Items/SRZ_Contraband/Coke/SRZ_Brick_Coke_Wrapped/SRZ_Brick_Coke_Wrapped.xob"
+   Materials {
+    MaterialAssignClass "{2F00792D287D42A2}" {
+     SourceMaterial "SRZ_Brick_Coke_Wrapped"
+     AssignedMaterial "{FC139C51E37C71B8}Assets/Items/SRZ_Contraband/Coke/SRZ_Brick_Coke_Wrapped/Data/SRZ_Brick_Coke_Wrapped.emat"
+    }
+   }
+  }
+ }
+}

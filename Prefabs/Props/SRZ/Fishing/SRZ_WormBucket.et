@@ -1,0 +1,18 @@
+GenericEntity {
+ ID "7BE85128465392E5"
+ components {
+  MeshObject "{39D494D336031AA3}" {
+   Object "{1E7A447DC782FE9E}Assets/Props/SRZ/Fishing/SRZ_WormBucket/SRZ_WormBucket.xob"
+   Materials {
+    MaterialAssignClass "{D751A5B5E57015B5}" {
+     SourceMaterial "SRZ_Prop_WormBucket_MAT"
+     AssignedMaterial "{DE5B28442B5CC2F0}Assets/Props/SRZ/Fishing/SRZ_WormBucket/Data/SRZ_WormBucket.emat"
+    }
+   }
+  }
+  RigidBody "{895C20B1E3B95135}" {
+   ModelGeometry 1
+   Static 1
+  }
+ }
+}

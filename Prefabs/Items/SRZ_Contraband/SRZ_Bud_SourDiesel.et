@@ -1,0 +1,40 @@
+GenericEntity : "{3238FC0BDB67AA78}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" {
+ ID "08688936849EB018"
+ components {
+  InventoryItemComponent "{C312FD6DBCC22381}" {
+   Attributes SCR_ItemAttributeCollection "{73EBE1447D365F66}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{968D7FF08DA0A4D0}" {
+     Name "Bud Sour Diesel"
+     Description ""
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.01
+     SizeSetupStrategy Manual
+     ItemDimensions 0.032 0.046 0.030
+     ItemVolume 0.03
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{F9F647445FA0B7DE}" {
+      CameraPreset Top
+      CameraOrbitAngles 0 0 0
+      CameraDistanceToItem 0.25
+      FOV 10
+      LodModel 0
+     }
+    }
+    CommonItemType "NONE"
+   }
+  }
+  ARMST_ItemUseComponent "{3F637BC0289FF480}" {
+  }
+  MeshObject "{7D4943DFF430AB4B}" {
+   Object "{AE220A83AFB1833E}Assets/Items/SRZ_Contraband/Weed/SRZ_Bud_SourDiesel/SRZ_Bud_SourDiesel.xob"
+   Materials {
+    MaterialAssignClass "{AE6A7A1C451A53BC}" {
+     SourceMaterial "SRZ_Bud_SourDiesel"
+     AssignedMaterial "{AE6A7835EBCD9E6E}Assets/Items/SRZ_Contraband/Weed/SRZ_Bud_SourDiesel/Data/SRZ_Bud_SourDiesel.emat"
+    }
+   }
+  }
+ }
+}

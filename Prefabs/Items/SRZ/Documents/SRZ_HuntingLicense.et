@@ -1,0 +1,64 @@
+GenericEntity : "{2DF096A08F96E446}Prefabs/Items/base_item_hand_consumble.et" {
+ ID "7254CA503FCCB37B"
+ components {
+  ARMST_ItemUseComponent "{59E68C4DC131E9FC}" {
+   m_ConsumableEffect ARMST_ConsumableBaseItem "{59E68C4DDD8B416A}" {
+    m_bDeleteOnUse 0
+    m_TypeConsuble INTERACT
+   }
+   m_sSRZReadText "HUNTING TICKET. Issued by the Duty quartermaster. The bearer may hunt mutants in the listed sectors and sell meat and parts at the Duty trader. Valid only with the Duty stamp. Lending this ticket to another person is forbidden. Lost tickets are not replaced. Sectors: north fields, the farm, the swamp edge."
+  }
+  InventoryItemComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName SCR_InventoryUIInfo "{5222EB4D07D865FA}" {
+     Name "Hunting license"
+     Description "Duty issued mutant hunting ticket. Good for RP at Duty checkpoints."
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.05
+     ItemDimensions 0.01 0.01 0.01
+     ItemVolume 0.1
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{59ECB146B0ED6F92}" {
+     HandAdditiveRotation 0 90 0
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5A5AEE4BCB65677F}" {
+      CameraPreset Top
+      CameraDistanceToItem 0.55
+      LodModel 0
+     }
+    }
+    m_Size SLOT_1x1
+   }
+  }
+  MeshObject "{59CEE5702DCA6A31}" {
+   Object "{DC902B90073FE1E2}Assets/Items/SRZ/Documents/SRZ_HuntingLicense/SRZ_HuntingLicense.xob"
+   Materials {
+    MaterialAssignClass "{2D9170BB493E21B7}" {
+     SourceMaterial "SRZ_Faction_HuntingLicense_MAT"
+     AssignedMaterial "{32C1C0B140137067}Assets/Items/SRZ/Documents/SRZ_HuntingLicense/Data/SRZ_HuntingLicense.emat"
+    }
+   }
+  }
+  ActionsManagerComponent "{508AB5952B584B2E}" {
+   ActionContexts {
+    UserActionContext "{6F1B7A7A4CE8D47F}" {
+     ContextName "SRZ_Read"
+     Position PointInfo "{E497A52D42759854}" {
+      Offset 0 0.02 0
+     }
+     Radius 1
+    }
+   }
+   additionalActions {
+    ARMST_USER_OPEN_BOOK "{04A78D9ADF332E8F}" {
+     ParentContextList {
+      "SRZ_Read"
+     }
+     s_TextToBook "HUNTING TICKET. Issued by the Duty quartermaster. The bearer may hunt mutants in the listed sectors and sell meat and parts at the Duty trader. Valid only with the Duty stamp. Lending this ticket to another person is forbidden. Lost tickets are not replaced. Sectors: north fields, the farm, the swamp edge."
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,40 @@
+GenericEntity : "{3238FC0BDB67AA78}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" {
+ ID "3A1344859F6FB481"
+ components {
+  InventoryItemComponent "{2E23FFC1F9EDF86F}" {
+   Attributes SCR_ItemAttributeCollection "{A60D6907C1A5629A}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{16EAFCF805CDE9C0}" {
+     Name "Ecstasy Pill Green Bolt"
+     Description ""
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.01
+     SizeSetupStrategy Manual
+     ItemDimensions 0.010 0.004 0.010
+     ItemVolume 0.03
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{3349589AD52AC11C}" {
+      CameraPreset Top
+      CameraOrbitAngles 0 0 0
+      CameraDistanceToItem 0.25
+      FOV 10
+      LodModel 0
+     }
+    }
+    CommonItemType "NONE"
+   }
+  }
+  ARMST_ItemUseComponent "{ADDEC5AAD2CC40CF}" {
+  }
+  MeshObject "{C811095ED3EBD938}" {
+   Object "{4396621E171FFAE9}Assets/Items/SRZ_Contraband/Psychedelics/SRZ_Pill_Ecstasy_GreenBolt/SRZ_Pill_Ecstasy_GreenBolt.xob"
+   Materials {
+    MaterialAssignClass "{C92DE239B8D94B6E}" {
+     SourceMaterial "SRZ_Pill_Ecstasy_GreenBolt"
+     AssignedMaterial "{2079CDE9B5B890AB}Assets/Items/SRZ_Contraband/Psychedelics/SRZ_Pill_Ecstasy_GreenBolt/Data/SRZ_Pill_Ecstasy_GreenBolt.emat"
+    }
+   }
+  }
+ }
+}

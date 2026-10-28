@@ -1,0 +1,37 @@
+GameEntity : "{35F6719A803C814F}Prefabs/Items/Deployable/armst_itm_lamp_deployed.et" {
+ ID "04642C4770A5D0C3"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{DB0AB787083994D4}Assets/Items/SRZ/Tools/SRZ_ChemLight/SRZ_ChemLight.xob"
+   Materials {
+    MaterialAssignClass "{65A5D8728A6F7017}" {
+     SourceMaterial "SRZ_Tool_ChemLight_MAT"
+     AssignedMaterial "{F1B9AE64289DD13F}Assets/Items/SRZ/Tools/SRZ_ChemLight/Data/SRZ_ChemLight_Red_Lit.emat"
+    }
+   }
+  }
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   Enabled 0
+  }
+  EPF_PersistenceComponent "{65FE01372AAB45CD}" {
+   m_pSaveData EPF_ItemSaveDataClass "{65FE01372F6AF5E0}" {
+    m_aComponents {
+     EPF_ArmstObjectGUIDComponentSaveDataClass "{68F31019F7D75FCD}" {
+     }
+     SRZ_ChemLightBurnSaveDataClass "{997D5AEA05DDB81B}" {
+     }
+    }
+   }
+  }
+  SRZ_ChemLightBurnComponent "{2732BFD6D3D644E2}" {
+   m_fBurnSeconds 600
+  }
+  ActionsManagerComponent "{58C4C3C54D820F06}" {
+   additionalActions {
+    ARMST_USER_OBJECT_PUT "{65FE01372294C223}" {
+     m_PrefabToSpawn "{4F144AA629DFF348}Prefabs/Items/SRZ/Tools/SRZ_ChemLight_Red.et"
+    }
+   }
+  }
+ }
+}

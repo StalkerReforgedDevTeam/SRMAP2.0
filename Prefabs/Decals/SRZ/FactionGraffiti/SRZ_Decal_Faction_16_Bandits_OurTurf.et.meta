@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{AE7776D2C92D472D}Prefabs/Decals/SRZ/FactionGraffiti/SRZ_Decal_Faction_16_Bandits_OurTurf.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

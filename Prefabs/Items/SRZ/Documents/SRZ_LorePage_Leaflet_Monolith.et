@@ -1,0 +1,64 @@
+GenericEntity : "{2DF096A08F96E446}Prefabs/Items/base_item_hand_consumble.et" {
+ ID "B4F7477F9F18D546"
+ components {
+  ARMST_ItemUseComponent "{59E68C4DC131E9FC}" {
+   m_ConsumableEffect ARMST_ConsumableBaseItem "{59E68C4DDD8B416A}" {
+    m_bDeleteOnUse 0
+    m_TypeConsuble INTERACT
+   }
+   m_sSRZReadText "Monolith. The Stone calls. You have heard it in the dark, in the quiet between the clicks of your counter. Do not be afraid. Walk north. All who come with an open heart will be shown the way. Those who come to take will be shown the ground."
+  }
+  InventoryItemComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName SCR_InventoryUIInfo "{5222EB4D07D865FA}" {
+     Name "Monolith leaflet"
+     Description "Printed faction leaflet."
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.02
+     ItemDimensions 0.01 0.01 0.01
+     ItemVolume 0.1
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{59ECB146B0ED6F92}" {
+     HandAdditiveRotation 0 90 0
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5A5AEE4BCB65677F}" {
+      CameraPreset Top
+      CameraDistanceToItem 0.55
+      LodModel 0
+     }
+    }
+    m_Size SLOT_1x1
+   }
+  }
+  MeshObject "{59CEE5702DCA6A31}" {
+   Object "{0247F51BA5ACDE53}Assets/Items/SRZ/Documents/SRZ_LorePage/SRZ_LorePage.xob"
+   Materials {
+    MaterialAssignClass "{7EBB0E5E674FD2C1}" {
+     SourceMaterial "SRZ_Readable_Paper_MAT"
+     AssignedMaterial "{D255BD807DCDF6CC}Assets/Items/SRZ/Documents/SRZ_LorePage/Data/SRZ_LorePage_Leaflet_Monolith.emat"
+    }
+   }
+  }
+  ActionsManagerComponent "{508AB5952B584B2E}" {
+   ActionContexts {
+    UserActionContext "{5FEBDC95BB16F26F}" {
+     ContextName "SRZ_Read"
+     Position PointInfo "{BB837B68DAFC68C3}" {
+      Offset 0 0.02 0
+     }
+     Radius 1
+    }
+   }
+   additionalActions {
+    ARMST_USER_OPEN_BOOK "{B22E08457A2895C6}" {
+     ParentContextList {
+      "SRZ_Read"
+     }
+     s_TextToBook "Monolith. The Stone calls. You have heard it in the dark, in the quiet between the clicks of your counter. Do not be afraid. Walk north. All who come with an open heart will be shown the way. Those who come to take will be shown the ground."
+    }
+   }
+  }
+ }
+}

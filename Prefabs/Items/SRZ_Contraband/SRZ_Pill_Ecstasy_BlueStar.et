@@ -1,0 +1,40 @@
+GenericEntity : "{3238FC0BDB67AA78}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" {
+ ID "26BF1C8116342A02"
+ components {
+  InventoryItemComponent "{75917506462ECCBB}" {
+   Attributes SCR_ItemAttributeCollection "{7E7A8E048B1BAB5E}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{C46C84A9D2981AD2}" {
+     Name "Ecstasy Pill Blue Star"
+     Description ""
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.01
+     SizeSetupStrategy Manual
+     ItemDimensions 0.010 0.004 0.010
+     ItemVolume 0.03
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5993F8B3125F94F9}" {
+      CameraPreset Top
+      CameraOrbitAngles 0 0 0
+      CameraDistanceToItem 0.25
+      FOV 10
+      LodModel 0
+     }
+    }
+    CommonItemType "NONE"
+   }
+  }
+  ARMST_ItemUseComponent "{78C125A1D9728275}" {
+  }
+  MeshObject "{6F39B2BEFD6CC15D}" {
+   Object "{97AB5D5122115947}Assets/Items/SRZ_Contraband/Psychedelics/SRZ_Pill_Ecstasy_BlueStar/SRZ_Pill_Ecstasy_BlueStar.xob"
+   Materials {
+    MaterialAssignClass "{3F652D5FC7A8D86A}" {
+     SourceMaterial "SRZ_Pill_Ecstasy_BlueStar"
+     AssignedMaterial "{422395CB7C37E0E7}Assets/Items/SRZ_Contraband/Psychedelics/SRZ_Pill_Ecstasy_BlueStar/Data/SRZ_Pill_Ecstasy_BlueStar.emat"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,48 @@
+GenericEntity : "{3238FC0BDB67AA78}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" {
+ ID "D73862E4E8AFB7A0"
+ components {
+  InventoryItemComponent "{95FFEC2C08F7BC83}" {
+   Attributes SCR_ItemAttributeCollection "{4CCAA88C50AF1CD1}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{ACE1A34D59576D00}" {
+     Name "Bag of Crack"
+     Description ""
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.05
+     SizeSetupStrategy Manual
+     ItemDimensions 0.062 0.014 0.085
+     ItemVolume 0.12
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{FFCCA0313942423C}" {
+      CameraPreset Top
+      CameraOrbitAngles 0 0 0
+      CameraDistanceToItem 0.34
+      FOV 10
+      LodModel 0
+     }
+    }
+    CommonItemType "NONE"
+   }
+  }
+  ARMST_ItemUseComponent "{30F30A7262CC2195}" {
+  }
+  MeshObject "{561F5B6E97623E4A}" {
+   Object "{3760D51D8DEEADBA}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Crack/SRZ_Baggie_Crack.xob"
+   Materials {
+    MaterialAssignClass "{C2D522FF76B14A0F}" {
+     SourceMaterial "SRZ_Baggie_Crack_Contents"
+     AssignedMaterial "{E241A6BE228D9D41}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Crack/Data/SRZ_Baggie_Crack_Contents.emat"
+    }
+    MaterialAssignClass "{3D660A7F4744AA42}" {
+     SourceMaterial "SRZ_Baggie_Crack_Bag"
+     AssignedMaterial "{2A452F017B286FFD}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Crack/Data/SRZ_Baggie_Crack_Bag.emat"
+    }
+    MaterialAssignClass "{3B9FF8EFC48475B4}" {
+     SourceMaterial "SRZ_Baggie_Crack_Zip"
+     AssignedMaterial "{F6E95F20F5EBADD3}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Crack/Data/SRZ_Baggie_Crack_Zip.emat"
+    }
+   }
+  }
+ }
+}

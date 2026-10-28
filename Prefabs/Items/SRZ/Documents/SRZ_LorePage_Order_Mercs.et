@@ -1,0 +1,64 @@
+GenericEntity : "{2DF096A08F96E446}Prefabs/Items/base_item_hand_consumble.et" {
+ ID "964AB6A90CCD836C"
+ components {
+  ARMST_ItemUseComponent "{59E68C4DC131E9FC}" {
+   m_ConsumableEffect ARMST_ConsumableBaseItem "{59E68C4DDD8B416A}" {
+    m_bDeleteOnUse 0
+    m_TypeConsuble INTERACT
+   }
+   m_sSRZReadText "Contract. Party one pays, party two delivers. Escort of one scientist from the lab to field G-5 and back, alive. Half on departure, half on return. If the client dies, nothing is owed. If the client is lost to an anomaly through his own fault, half is owed. No questions about the cargo. Payment in cash or artifacts, client's choice."
+  }
+  InventoryItemComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName SCR_InventoryUIInfo "{5222EB4D07D865FA}" {
+     Name "Mercenary contract"
+     Description "Official faction paper."
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.02
+     ItemDimensions 0.01 0.01 0.01
+     ItemVolume 0.1
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{59ECB146B0ED6F92}" {
+     HandAdditiveRotation 0 90 0
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5A5AEE4BCB65677F}" {
+      CameraPreset Top
+      CameraDistanceToItem 0.55
+      LodModel 0
+     }
+    }
+    m_Size SLOT_1x1
+   }
+  }
+  MeshObject "{59CEE5702DCA6A31}" {
+   Object "{0247F51BA5ACDE53}Assets/Items/SRZ/Documents/SRZ_LorePage/SRZ_LorePage.xob"
+   Materials {
+    MaterialAssignClass "{556DD8A9DBCE03C8}" {
+     SourceMaterial "SRZ_Readable_Paper_MAT"
+     AssignedMaterial "{6FA104FD41B5BBE4}Assets/Items/SRZ/Documents/SRZ_LorePage/Data/SRZ_LorePage_Order_Mercs.emat"
+    }
+   }
+  }
+  ActionsManagerComponent "{508AB5952B584B2E}" {
+   ActionContexts {
+    UserActionContext "{D85000F9ACB8AC6E}" {
+     ContextName "SRZ_Read"
+     Position PointInfo "{F6C8CB91E3EC00F5}" {
+      Offset 0 0.02 0
+     }
+     Radius 1
+    }
+   }
+   additionalActions {
+    ARMST_USER_OPEN_BOOK "{AD35B92BF336702B}" {
+     ParentContextList {
+      "SRZ_Read"
+     }
+     s_TextToBook "Contract. Party one pays, party two delivers. Escort of one scientist from the lab to field G-5 and back, alive. Half on departure, half on return. If the client dies, nothing is owed. If the client is lost to an anomaly through his own fault, half is owed. No questions about the cargo. Payment in cash or artifacts, client's choice."
+    }
+   }
+  }
+ }
+}

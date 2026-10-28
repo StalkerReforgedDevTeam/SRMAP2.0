@@ -1,0 +1,40 @@
+GenericEntity : "{3238FC0BDB67AA78}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" {
+ ID "F02650EE1FF465EA"
+ components {
+  InventoryItemComponent "{A9621223E0F402B8}" {
+   Attributes SCR_ItemAttributeCollection "{6A2C27B552875DDC}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{871C8076D16AA872}" {
+     Name "Ecstasy Pill White Z"
+     Description ""
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.01
+     SizeSetupStrategy Manual
+     ItemDimensions 0.010 0.004 0.010
+     ItemVolume 0.03
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{2AD9425D38274284}" {
+      CameraPreset Top
+      CameraOrbitAngles 0 0 0
+      CameraDistanceToItem 0.25
+      FOV 10
+      LodModel 0
+     }
+    }
+    CommonItemType "NONE"
+   }
+  }
+  ARMST_ItemUseComponent "{167D0D8616A8A6A6}" {
+  }
+  MeshObject "{DEC09C86C88405DB}" {
+   Object "{F804E69BAD8FFF2C}Assets/Items/SRZ_Contraband/Psychedelics/SRZ_Pill_Ecstasy_WhiteZ/SRZ_Pill_Ecstasy_WhiteZ.xob"
+   Materials {
+    MaterialAssignClass "{D42814CB2963D047}" {
+     SourceMaterial "SRZ_Pill_Ecstasy_WhiteZ"
+     AssignedMaterial "{D8F62D250FD19B5D}Assets/Items/SRZ_Contraband/Psychedelics/SRZ_Pill_Ecstasy_WhiteZ/Data/SRZ_Pill_Ecstasy_WhiteZ.emat"
+    }
+   }
+  }
+ }
+}

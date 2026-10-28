@@ -1,0 +1,40 @@
+GenericEntity : "{3238FC0BDB67AA78}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" {
+ ID "46373E5DA1704D72"
+ components {
+  InventoryItemComponent "{11AA4C8DC5FDF70C}" {
+   Attributes SCR_ItemAttributeCollection "{53D6FFA8E274BEFE}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{9272CBE5A13D2F8E}" {
+     Name "LSD Sheet Radiation"
+     Description ""
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.05
+     SizeSetupStrategy Manual
+     ItemDimensions 0.050 0.002 0.050
+     ItemVolume 0.12
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{99A9A2AD62CDFD76}" {
+      CameraPreset Top
+      CameraOrbitAngles 0 0 0
+      CameraDistanceToItem 0.25
+      FOV 10
+      LodModel 0
+     }
+    }
+    CommonItemType "NONE"
+   }
+  }
+  ARMST_ItemUseComponent "{55FAD069D83F7322}" {
+  }
+  MeshObject "{4E1048FE174273BB}" {
+   Object "{F329159F6FF147EE}Assets/Items/SRZ_Contraband/Psychedelics/SRZ_LSD_Sheet_Radiation/SRZ_LSD_Sheet_Radiation.xob"
+   Materials {
+    MaterialAssignClass "{0D2A43D8A6341D13}" {
+     SourceMaterial "SRZ_LSD_Sheet_Radiation"
+     AssignedMaterial "{1BABBEA63DB8F039}Assets/Items/SRZ_Contraband/Psychedelics/SRZ_LSD_Sheet_Radiation/Data/SRZ_LSD_Sheet_Radiation.emat"
+    }
+   }
+  }
+ }
+}

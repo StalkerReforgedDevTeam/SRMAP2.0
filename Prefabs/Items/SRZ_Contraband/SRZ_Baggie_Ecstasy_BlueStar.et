@@ -1,0 +1,48 @@
+GenericEntity : "{3238FC0BDB67AA78}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" {
+ ID "B118A43D134CBCF2"
+ components {
+  InventoryItemComponent "{E4406E84407B6A5E}" {
+   Attributes SCR_ItemAttributeCollection "{BBF25CC420E421E5}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{7A24BE9A22A32923}" {
+     Name "Bag of Pills Blue Star"
+     Description ""
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.05
+     SizeSetupStrategy Manual
+     ItemDimensions 0.062 0.012 0.085
+     ItemVolume 0.12
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{0EC9A83C15BB601E}" {
+      CameraPreset Top
+      CameraOrbitAngles 0 0 0
+      CameraDistanceToItem 0.34
+      FOV 10
+      LodModel 0
+     }
+    }
+    CommonItemType "NONE"
+   }
+  }
+  ARMST_ItemUseComponent "{7AA590BF4143FE86}" {
+  }
+  MeshObject "{C4CE1214E238B8C0}" {
+   Object "{1779D8BA84D64D2C}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Ecstasy_BlueStar/SRZ_Baggie_Ecstasy_BlueStar.xob"
+   Materials {
+    MaterialAssignClass "{B03DD71AEB2D4D7A}" {
+     SourceMaterial "SRZ_Baggie_Ecstasy_BlueStar_Contents"
+     AssignedMaterial "{C160E3F9763EF338}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Ecstasy_BlueStar/Data/SRZ_Baggie_Ecstasy_BlueStar_Contents.emat"
+    }
+    MaterialAssignClass "{C219B377EA5DE111}" {
+     SourceMaterial "SRZ_Baggie_Ecstasy_BlueStar_Bag"
+     AssignedMaterial "{DEED9FD4F5242533}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Ecstasy_BlueStar/Data/SRZ_Baggie_Ecstasy_BlueStar_Bag.emat"
+    }
+    MaterialAssignClass "{308F53E2BB83BA32}" {
+     SourceMaterial "SRZ_Baggie_Ecstasy_BlueStar_Zip"
+     AssignedMaterial "{DF71C2B2B07DDBAE}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Ecstasy_BlueStar/Data/SRZ_Baggie_Ecstasy_BlueStar_Zip.emat"
+    }
+   }
+  }
+ }
+}

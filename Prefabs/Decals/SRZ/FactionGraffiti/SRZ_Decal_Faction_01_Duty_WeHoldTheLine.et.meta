@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{D1F722858D7FD240}Prefabs/Decals/SRZ/FactionGraffiti/SRZ_Decal_Faction_01_Duty_WeHoldTheLine.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

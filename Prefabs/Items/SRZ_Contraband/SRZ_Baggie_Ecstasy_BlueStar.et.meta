@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{51C0386E2D3E24D2}Prefabs/Items/SRZ_Contraband/SRZ_Baggie_Ecstasy_BlueStar.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

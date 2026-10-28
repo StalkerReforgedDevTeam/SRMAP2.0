@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{25D7D1EDA1828511}Prefabs/Items/SRZ_Contraband/SRZ_Baggie_Shrooms_Cubensis.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

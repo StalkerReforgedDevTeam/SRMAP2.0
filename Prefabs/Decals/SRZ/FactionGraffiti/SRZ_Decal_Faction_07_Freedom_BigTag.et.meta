@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{729D0457B5ED2196}Prefabs/Decals/SRZ/FactionGraffiti/SRZ_Decal_Faction_07_Freedom_BigTag.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

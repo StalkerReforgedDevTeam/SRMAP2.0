@@ -1,0 +1,48 @@
+GenericEntity : "{3238FC0BDB67AA78}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" {
+ ID "AF87DF43823E242E"
+ components {
+  InventoryItemComponent "{BA4AF6AD6C0D2E8E}" {
+   Attributes SCR_ItemAttributeCollection "{8C328F951EA7E556}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{7FBF163A1457B9C8}" {
+     Name "Bag of Purple Haze"
+     Description ""
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.05
+     SizeSetupStrategy Manual
+     ItemDimensions 0.062 0.017 0.085
+     ItemVolume 0.12
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{248469C793A68625}" {
+      CameraPreset Top
+      CameraOrbitAngles 0 0 0
+      CameraDistanceToItem 0.34
+      FOV 10
+      LodModel 0
+     }
+    }
+    CommonItemType "NONE"
+   }
+  }
+  ARMST_ItemUseComponent "{D6CF3C8297EF268A}" {
+  }
+  MeshObject "{9C23261869D4E27A}" {
+   Object "{82E61B4941B2880A}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Weed_PurpleHaze/SRZ_Baggie_Weed_PurpleHaze.xob"
+   Materials {
+    MaterialAssignClass "{FFB813ACC634409C}" {
+     SourceMaterial "SRZ_Baggie_Weed_PurpleHaze_Contents"
+     AssignedMaterial "{F713AED9F3F6E421}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Weed_PurpleHaze/Data/SRZ_Baggie_Weed_PurpleHaze_Contents.emat"
+    }
+    MaterialAssignClass "{5AA27E4CA3EE9399}" {
+     SourceMaterial "SRZ_Baggie_Weed_PurpleHaze_Bag"
+     AssignedMaterial "{A6C90B3DAB06704E}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Weed_PurpleHaze/Data/SRZ_Baggie_Weed_PurpleHaze_Bag.emat"
+    }
+    MaterialAssignClass "{28AD7599F7B17A14}" {
+     SourceMaterial "SRZ_Baggie_Weed_PurpleHaze_Zip"
+     AssignedMaterial "{9459450820CED349}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Weed_PurpleHaze/Data/SRZ_Baggie_Weed_PurpleHaze_Zip.emat"
+    }
+   }
+  }
+ }
+}

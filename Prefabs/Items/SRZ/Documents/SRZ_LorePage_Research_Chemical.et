@@ -1,0 +1,64 @@
+GenericEntity : "{2DF096A08F96E446}Prefabs/Items/base_item_hand_consumble.et" {
+ ID "A7D34D0BE9FAB435"
+ components {
+  ARMST_ItemUseComponent "{59E68C4DC131E9FC}" {
+   m_ConsumableEffect ARMST_ConsumableBaseItem "{59E68C4DDD8B416A}" {
+    m_bDeleteOnUse 0
+    m_TypeConsuble INTERACT
+   }
+   m_sSRZReadText "Chemical fields. Fields near the plant. Green fog that sits in low ground and does not move with the wind. Pools of jelly that eat through boots. Swarms of tiny lights that sting through cloth. A gas mask with a fresh filter is the minimum. Filters die fast in here. Change them before the taste of metal reaches your tongue, not after."
+  }
+  InventoryItemComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName SCR_InventoryUIInfo "{5222EB4D07D865FA}" {
+     Name "Research notes: chemical fields"
+     Description "Typed lab sheet. Scientists pay well for these."
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.02
+     ItemDimensions 0.01 0.01 0.01
+     ItemVolume 0.1
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{59ECB146B0ED6F92}" {
+     HandAdditiveRotation 0 90 0
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5A5AEE4BCB65677F}" {
+      CameraPreset Top
+      CameraDistanceToItem 0.55
+      LodModel 0
+     }
+    }
+    m_Size SLOT_1x1
+   }
+  }
+  MeshObject "{59CEE5702DCA6A31}" {
+   Object "{0247F51BA5ACDE53}Assets/Items/SRZ/Documents/SRZ_LorePage/SRZ_LorePage.xob"
+   Materials {
+    MaterialAssignClass "{24915411473EA0FE}" {
+     SourceMaterial "SRZ_Readable_Paper_MAT"
+     AssignedMaterial "{E281A5D62D52112C}Assets/Items/SRZ/Documents/SRZ_LorePage/Data/SRZ_LorePage_Research_Chemical.emat"
+    }
+   }
+  }
+  ActionsManagerComponent "{508AB5952B584B2E}" {
+   ActionContexts {
+    UserActionContext "{0C65391BD03E35D8}" {
+     ContextName "SRZ_Read"
+     Position PointInfo "{F52318DA40F0312A}" {
+      Offset 0 0.02 0
+     }
+     Radius 1
+    }
+   }
+   additionalActions {
+    ARMST_USER_OPEN_BOOK "{BCAC034B5DA20C55}" {
+     ParentContextList {
+      "SRZ_Read"
+     }
+     s_TextToBook "Chemical fields. Fields near the plant. Green fog that sits in low ground and does not move with the wind. Pools of jelly that eat through boots. Swarms of tiny lights that sting through cloth. A gas mask with a fresh filter is the minimum. Filters die fast in here. Change them before the taste of metal reaches your tongue, not after."
+    }
+   }
+  }
+ }
+}

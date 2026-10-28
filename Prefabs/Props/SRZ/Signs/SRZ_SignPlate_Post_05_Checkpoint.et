@@ -1,0 +1,18 @@
+GenericEntity {
+ ID "F0C3D313311C5C71"
+ components {
+  MeshObject "{C870C7F266108E93}" {
+   Object "{9B93E5AD8C24EAA2}Assets/Props/SRZ/Signs/SRZ_SignPlate_Post/SRZ_SignPlate_Post.xob"
+   Materials {
+    MaterialAssignClass "{0F1083CB852394D9}" {
+     SourceMaterial "SRZ_Prop_SignPlate_Post_MAT"
+     AssignedMaterial "{DE9A3CE0A2D4579D}Assets/Props/SRZ/Signs/SRZ_SignPlate/Data/SRZ_SignPlate_05_Checkpoint.emat"
+    }
+   }
+  }
+  RigidBody "{AF2088537354077B}" {
+   ModelGeometry 1
+   Static 1
+  }
+ }
+}

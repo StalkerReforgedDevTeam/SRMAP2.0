@@ -1,0 +1,18 @@
+GenericEntity {
+ ID "3753F913B2B96B86"
+ components {
+  MeshObject "{11F446097F3C222E}" {
+   Object "{CA3A17EA6C21D46D}Assets/Props/SRZ/Camp/SRZ_BodyBag/SRZ_BodyBag.xob"
+   Materials {
+    MaterialAssignClass "{A551CCEBFA0E4161}" {
+     SourceMaterial "SRZ_Prop_BodyBag_MAT"
+     AssignedMaterial "{2B4394610900D75C}Assets/Props/SRZ/Camp/SRZ_BodyBag/Data/SRZ_BodyBag.emat"
+    }
+   }
+  }
+  RigidBody "{F6AD6A918D8DA655}" {
+   ModelGeometry 1
+   Static 1
+  }
+ }
+}

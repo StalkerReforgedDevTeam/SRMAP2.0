@@ -1,0 +1,48 @@
+GenericEntity : "{3238FC0BDB67AA78}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" {
+ ID "6D78BDE4654D06F1"
+ components {
+  InventoryItemComponent "{1FB0BCF9E5275473}" {
+   Attributes SCR_ItemAttributeCollection "{676AC850565F077F}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{30FAB0A7A9ECE437}" {
+     Name "Bag of Pills Green Bolt"
+     Description ""
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.05
+     SizeSetupStrategy Manual
+     ItemDimensions 0.062 0.012 0.085
+     ItemVolume 0.12
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{E185D573EFF16314}" {
+      CameraPreset Top
+      CameraOrbitAngles 0 0 0
+      CameraDistanceToItem 0.34
+      FOV 10
+      LodModel 0
+     }
+    }
+    CommonItemType "NONE"
+   }
+  }
+  ARMST_ItemUseComponent "{AE04A1D85D1D7543}" {
+  }
+  MeshObject "{7ECE28FA99DA9DAF}" {
+   Object "{347D786382BE264E}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Ecstasy_GreenBolt/SRZ_Baggie_Ecstasy_GreenBolt.xob"
+   Materials {
+    MaterialAssignClass "{F68A73E16A9DA648}" {
+     SourceMaterial "SRZ_Baggie_Ecstasy_GreenBolt_Contents"
+     AssignedMaterial "{BFA6ED22F3B052E4}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Ecstasy_GreenBolt/Data/SRZ_Baggie_Ecstasy_GreenBolt_Contents.emat"
+    }
+    MaterialAssignClass "{D8B6D2984BB8FCFC}" {
+     SourceMaterial "SRZ_Baggie_Ecstasy_GreenBolt_Bag"
+     AssignedMaterial "{BBD9D0C4F532ECEF}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Ecstasy_GreenBolt/Data/SRZ_Baggie_Ecstasy_GreenBolt_Bag.emat"
+    }
+    MaterialAssignClass "{F9602ED916EE5FF3}" {
+     SourceMaterial "SRZ_Baggie_Ecstasy_GreenBolt_Zip"
+     AssignedMaterial "{57FB135B97D44CC5}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Ecstasy_GreenBolt/Data/SRZ_Baggie_Ecstasy_GreenBolt_Zip.emat"
+    }
+   }
+  }
+ }
+}

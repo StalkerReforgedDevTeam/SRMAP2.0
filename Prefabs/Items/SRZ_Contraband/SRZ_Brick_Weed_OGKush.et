@@ -1,0 +1,40 @@
+GenericEntity : "{3238FC0BDB67AA78}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" {
+ ID "C6D55530D2F9311A"
+ components {
+  InventoryItemComponent "{C1279412ED7B1695}" {
+   Attributes SCR_ItemAttributeCollection "{8CFF7BAC17E5D983}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{812FCA2E0BD12961}" {
+     Name "Brick of OGKush"
+     Description ""
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 1.0
+     SizeSetupStrategy Manual
+     ItemDimensions 0.204 0.061 0.129
+     ItemVolume 1.2
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{F33B56750794105D}" {
+      CameraPreset Top
+      CameraOrbitAngles 0 0 0
+      CameraDistanceToItem 0.80
+      FOV 10
+      LodModel 0
+     }
+    }
+    CommonItemType "NONE"
+   }
+  }
+  ARMST_ItemUseComponent "{1A91C0C8E7ECD718}" {
+  }
+  MeshObject "{45374B5A29CABF8B}" {
+   Object "{A41D521C5839BAEE}Assets/Items/SRZ_Contraband/Weed/SRZ_Brick_Weed_OGKush/SRZ_Brick_Weed_OGKush.xob"
+   Materials {
+    MaterialAssignClass "{7FD1C16284D46E92}" {
+     SourceMaterial "SRZ_Brick_Weed_OGKush"
+     AssignedMaterial "{C1CE85BEC6F9F61D}Assets/Items/SRZ_Contraband/Weed/SRZ_Brick_Weed_OGKush/Data/SRZ_Brick_Weed_OGKush.emat"
+    }
+   }
+  }
+ }
+}

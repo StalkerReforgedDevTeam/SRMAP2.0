@@ -1,0 +1,64 @@
+GenericEntity : "{2DF096A08F96E446}Prefabs/Items/base_item_hand_consumble.et" {
+ ID "580BE6B0EC045DD3"
+ components {
+  ARMST_ItemUseComponent "{59E68C4DC131E9FC}" {
+   m_ConsumableEffect ARMST_ConsumableBaseItem "{59E68C4DDD8B416A}" {
+    m_bDeleteOnUse 0
+    m_TypeConsuble INTERACT
+   }
+   m_sSRZReadText "Thermal fields. Field T-1. Invisible until something moves near it. Then a column of fire, two to three metres high, hot enough to melt a rifle stock. Heat shimmer over the ground is the only warning. The fire follows movement, not people. A bolt sets it off. Artifacts here come out warm and heavy and most of them heal the carrier while they cook him slowly."
+  }
+  InventoryItemComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName SCR_InventoryUIInfo "{5222EB4D07D865FA}" {
+     Name "Research notes: thermal fields"
+     Description "Typed lab sheet. Scientists pay well for these."
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.02
+     ItemDimensions 0.01 0.01 0.01
+     ItemVolume 0.1
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{59ECB146B0ED6F92}" {
+     HandAdditiveRotation 0 90 0
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5A5AEE4BCB65677F}" {
+      CameraPreset Top
+      CameraDistanceToItem 0.55
+      LodModel 0
+     }
+    }
+    m_Size SLOT_1x1
+   }
+  }
+  MeshObject "{59CEE5702DCA6A31}" {
+   Object "{0247F51BA5ACDE53}Assets/Items/SRZ/Documents/SRZ_LorePage/SRZ_LorePage.xob"
+   Materials {
+    MaterialAssignClass "{5F8DE6815DBDF530}" {
+     SourceMaterial "SRZ_Readable_Paper_MAT"
+     AssignedMaterial "{19507DC1A384EB4D}Assets/Items/SRZ/Documents/SRZ_LorePage/Data/SRZ_LorePage_Research_Thermal.emat"
+    }
+   }
+  }
+  ActionsManagerComponent "{508AB5952B584B2E}" {
+   ActionContexts {
+    UserActionContext "{5418AE39A6DD8DF9}" {
+     ContextName "SRZ_Read"
+     Position PointInfo "{6A1744E7B75CE57F}" {
+      Offset 0 0.02 0
+     }
+     Radius 1
+    }
+   }
+   additionalActions {
+    ARMST_USER_OPEN_BOOK "{CF9DE3C4CFD58775}" {
+     ParentContextList {
+      "SRZ_Read"
+     }
+     s_TextToBook "Thermal fields. Field T-1. Invisible until something moves near it. Then a column of fire, two to three metres high, hot enough to melt a rifle stock. Heat shimmer over the ground is the only warning. The fire follows movement, not people. A bolt sets it off. Artifacts here come out warm and heavy and most of them heal the carrier while they cook him slowly."
+    }
+   }
+  }
+ }
+}

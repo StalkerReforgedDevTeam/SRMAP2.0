@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{3AB417289D14C369}Prefabs/Decals/SRZ/FactionGraffiti/SRZ_Decal_Faction_05_Freedom_ZoneIsFree.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

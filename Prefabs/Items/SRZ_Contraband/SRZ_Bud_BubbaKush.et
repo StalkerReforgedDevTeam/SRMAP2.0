@@ -1,0 +1,40 @@
+GenericEntity : "{3238FC0BDB67AA78}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" {
+ ID "DAB0C3A7FB7F7D2F"
+ components {
+  InventoryItemComponent "{43D66167E57D7B6F}" {
+   Attributes SCR_ItemAttributeCollection "{C9E863018D2D1040}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{00280D80D680C3BE}" {
+     Name "Bud Bubba Kush"
+     Description ""
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.01
+     SizeSetupStrategy Manual
+     ItemDimensions 0.032 0.046 0.030
+     ItemVolume 0.03
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{E9F7050F8F780EA5}" {
+      CameraPreset Top
+      CameraOrbitAngles 0 0 0
+      CameraDistanceToItem 0.25
+      FOV 10
+      LodModel 0
+     }
+    }
+    CommonItemType "NONE"
+   }
+  }
+  ARMST_ItemUseComponent "{018B5F7CC7191EA7}" {
+  }
+  MeshObject "{98DAC6966A4119BA}" {
+   Object "{92C5FAAB52940577}Assets/Items/SRZ_Contraband/Weed/SRZ_Bud_BubbaKush/SRZ_Bud_BubbaKush.xob"
+   Materials {
+    MaterialAssignClass "{FF1EAE7815182B9F}" {
+     SourceMaterial "SRZ_Bud_BubbaKush"
+     AssignedMaterial "{A0EEB8991C500B60}Assets/Items/SRZ_Contraband/Weed/SRZ_Bud_BubbaKush/Data/SRZ_Bud_BubbaKush.emat"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,40 @@
+GenericEntity : "{3238FC0BDB67AA78}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" {
+ ID "291B3CF958E68A0F"
+ components {
+  InventoryItemComponent "{EA71D1E490C65793}" {
+   Attributes SCR_ItemAttributeCollection "{6CA79F7D94A966C8}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{A5F217B680F66E8B}" {
+     Name "Bud White Widow"
+     Description ""
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.01
+     SizeSetupStrategy Manual
+     ItemDimensions 0.032 0.048 0.031
+     ItemVolume 0.03
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{D517CE9FB8227B8A}" {
+      CameraPreset Top
+      CameraOrbitAngles 0 0 0
+      CameraDistanceToItem 0.25
+      FOV 10
+      LodModel 0
+     }
+    }
+    CommonItemType "NONE"
+   }
+  }
+  ARMST_ItemUseComponent "{C0A4C79515638DBA}" {
+  }
+  MeshObject "{A9E0F779F5A840D3}" {
+   Object "{B400170EE77850E7}Assets/Items/SRZ_Contraband/Weed/SRZ_Bud_WhiteWidow/SRZ_Bud_WhiteWidow.xob"
+   Materials {
+    MaterialAssignClass "{C6BFFB8D2ECB5857}" {
+     SourceMaterial "SRZ_Bud_WhiteWidow"
+     AssignedMaterial "{08D5942E3A93565D}Assets/Items/SRZ_Contraband/Weed/SRZ_Bud_WhiteWidow/Data/SRZ_Bud_WhiteWidow.emat"
+    }
+   }
+  }
+ }
+}

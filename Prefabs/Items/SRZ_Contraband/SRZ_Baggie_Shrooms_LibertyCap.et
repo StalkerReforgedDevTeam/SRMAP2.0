@@ -1,0 +1,48 @@
+GenericEntity : "{3238FC0BDB67AA78}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" {
+ ID "93D26E3F6603D06A"
+ components {
+  InventoryItemComponent "{25B8AD2F8E4CC6D6}" {
+   Attributes SCR_ItemAttributeCollection "{54D261D31662A67C}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{5444DD0BF09B1CF6}" {
+     Name "Bag of Dried Mushrooms Liberty Cap"
+     Description ""
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.05
+     SizeSetupStrategy Manual
+     ItemDimensions 0.062 0.015 0.085
+     ItemVolume 0.12
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{73EBC6C4E86CEB19}" {
+      CameraPreset Top
+      CameraOrbitAngles 0 0 0
+      CameraDistanceToItem 0.34
+      FOV 10
+      LodModel 0
+     }
+    }
+    CommonItemType "NONE"
+   }
+  }
+  ARMST_ItemUseComponent "{CAF838D81649E8C2}" {
+  }
+  MeshObject "{B6E8F65D781268DD}" {
+   Object "{CB0EE80925764136}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Shrooms_LibertyCap/SRZ_Baggie_Shrooms_LibertyCap.xob"
+   Materials {
+    MaterialAssignClass "{A47E37440570ADC3}" {
+     SourceMaterial "SRZ_Baggie_Shrooms_LibertyCap_Contents"
+     AssignedMaterial "{C606848CA08E52EA}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Shrooms_LibertyCap/Data/SRZ_Baggie_Shrooms_LibertyCap_Contents.emat"
+    }
+    MaterialAssignClass "{DAAEA90AAD266DE1}" {
+     SourceMaterial "SRZ_Baggie_Shrooms_LibertyCap_Bag"
+     AssignedMaterial "{01DACF3E3D766364}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Shrooms_LibertyCap/Data/SRZ_Baggie_Shrooms_LibertyCap_Bag.emat"
+    }
+    MaterialAssignClass "{A67C5B603EC1A1F8}" {
+     SourceMaterial "SRZ_Baggie_Shrooms_LibertyCap_Zip"
+     AssignedMaterial "{96C4FA17B6CC8424}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Shrooms_LibertyCap/Data/SRZ_Baggie_Shrooms_LibertyCap_Zip.emat"
+    }
+   }
+  }
+ }
+}

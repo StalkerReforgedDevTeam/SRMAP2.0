@@ -1,0 +1,25 @@
+GenericEntity : "{0826AC41D0926A51}Prefabs/Items/Others/armst_itm_cards.et" {
+ ID "EF27EC2C27196E21"
+ components {
+  InventoryItemComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{5222EB4D07D865FA}" {
+     Name "Cigarette case (engraved)"
+     Description "Silver case with initials and a date scratched inside the lid."
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.12
+    }
+   }
+  }
+  MeshObject "{656C7C29B19C6CC5}" {
+   Object "{4DF300A797C92F9B}Assets/Items/SRZ/Valuables/SRZ_CigaretteCase/SRZ_CigaretteCase.xob"
+   Materials {
+    MaterialAssignClass "{E8C9C450DF14D611}" {
+     SourceMaterial "SRZ_Junk_CigaretteCase_MAT"
+     AssignedMaterial "{73D8904C3AD81E7E}Assets/Items/SRZ/Valuables/SRZ_CigaretteCase/Data/SRZ_CigaretteCase_Engraved.emat"
+    }
+   }
+  }
+ }
+}

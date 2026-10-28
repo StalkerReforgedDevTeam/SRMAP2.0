@@ -1,0 +1,40 @@
+GenericEntity : "{3238FC0BDB67AA78}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" {
+ ID "66633341248DAB73"
+ components {
+  InventoryItemComponent "{ACBDE3446F93EDCA}" {
+   Attributes SCR_ItemAttributeCollection "{5E59F92DC84C32FF}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{05FC7523B5B88B18}" {
+     Name "Pill Tin"
+     Description ""
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.05
+     SizeSetupStrategy Manual
+     ItemDimensions 0.054 0.011 0.054
+     ItemVolume 0.12
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{878F6FCC738A69A4}" {
+      CameraPreset Top
+      CameraOrbitAngles 0 0 0
+      CameraDistanceToItem 0.25
+      FOV 10
+      LodModel 0
+     }
+    }
+    CommonItemType "NONE"
+   }
+  }
+  ARMST_ItemUseComponent "{9B2C6B78ACD0F79E}" {
+  }
+  MeshObject "{9162D36DD0AB1AED}" {
+   Object "{5362684ABA756A9A}Assets/Items/SRZ_Contraband/Pills/SRZ_Pills_Tin/SRZ_Pills_Tin.xob"
+   Materials {
+    MaterialAssignClass "{77422018CB607391}" {
+     SourceMaterial "SRZ_Pills_Tin"
+     AssignedMaterial "{6302EB83F0253C20}Assets/Items/SRZ_Contraband/Pills/SRZ_Pills_Tin/Data/SRZ_Pills_Tin.emat"
+    }
+   }
+  }
+ }
+}

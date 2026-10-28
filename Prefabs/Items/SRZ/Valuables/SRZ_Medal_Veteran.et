@@ -1,0 +1,25 @@
+GenericEntity : "{0826AC41D0926A51}Prefabs/Items/Others/armst_itm_cards.et" {
+ ID "2287F9A99BE49516"
+ components {
+  InventoryItemComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{5222EB4D07D865FA}" {
+     Name "Medal "Veteran of Factory No.7""
+     Description "Factory award with a red enamel star."
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.03
+    }
+   }
+  }
+  MeshObject "{656C7C29B19C6CC5}" {
+   Object "{14A5071262317ECF}Assets/Items/SRZ/Valuables/SRZ_Medal/SRZ_Medal.xob"
+   Materials {
+    MaterialAssignClass "{90885E4024117E8A}" {
+     SourceMaterial "SRZ_Junk_Medal_MAT"
+     AssignedMaterial "{5724FA1913A3353D}Assets/Items/SRZ/Valuables/SRZ_Medal/Data/SRZ_Medal_Veteran.emat"
+    }
+   }
+  }
+ }
+}

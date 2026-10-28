@@ -1,0 +1,48 @@
+GenericEntity : "{3238FC0BDB67AA78}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" {
+ ID "842365DD26C77AA5"
+ components {
+  InventoryItemComponent "{D88CB6D7AE56B902}" {
+   Attributes SCR_ItemAttributeCollection "{7E791EE36DDF334E}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{3DA850465B82BE2A}" {
+     Name "Bag of Sour Diesel"
+     Description ""
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.05
+     SizeSetupStrategy Manual
+     ItemDimensions 0.062 0.017 0.085
+     ItemVolume 0.12
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{8B09F9C9C5306F2D}" {
+      CameraPreset Top
+      CameraOrbitAngles 0 0 0
+      CameraDistanceToItem 0.34
+      FOV 10
+      LodModel 0
+     }
+    }
+    CommonItemType "NONE"
+   }
+  }
+  ARMST_ItemUseComponent "{C24B24110B4BCCBB}" {
+  }
+  MeshObject "{AADC4AA7FE3FA2BD}" {
+   Object "{2302A1A2DD08862E}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Weed_SourDiesel/SRZ_Baggie_Weed_SourDiesel.xob"
+   Materials {
+    MaterialAssignClass "{689D5AA55D3C1487}" {
+     SourceMaterial "SRZ_Baggie_Weed_SourDiesel_Contents"
+     AssignedMaterial "{828D65A1DBF837A0}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Weed_SourDiesel/Data/SRZ_Baggie_Weed_SourDiesel_Contents.emat"
+    }
+    MaterialAssignClass "{A5036E8B6A5BB6CA}" {
+     SourceMaterial "SRZ_Baggie_Weed_SourDiesel_Bag"
+     AssignedMaterial "{C6ABFB41BA05F12A}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Weed_SourDiesel/Data/SRZ_Baggie_Weed_SourDiesel_Bag.emat"
+    }
+    MaterialAssignClass "{EC15DFD203F20511}" {
+     SourceMaterial "SRZ_Baggie_Weed_SourDiesel_Zip"
+     AssignedMaterial "{09F8F8492E5B9A97}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Weed_SourDiesel/Data/SRZ_Baggie_Weed_SourDiesel_Zip.emat"
+    }
+   }
+  }
+ }
+}

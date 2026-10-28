@@ -1,0 +1,40 @@
+GenericEntity : "{3238FC0BDB67AA78}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" {
+ ID "30F68AE4736C9346"
+ components {
+  InventoryItemComponent "{53FFE41AAC3EDF1F}" {
+   Attributes SCR_ItemAttributeCollection "{0F91DD9FDDAEAE26}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{B27F598645E73784}" {
+     Name "LSD Sheet Static"
+     Description ""
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.05
+     SizeSetupStrategy Manual
+     ItemDimensions 0.050 0.002 0.050
+     ItemVolume 0.12
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{E078E07C05897FEE}" {
+      CameraPreset Top
+      CameraOrbitAngles 0 0 0
+      CameraDistanceToItem 0.25
+      FOV 10
+      LodModel 0
+     }
+    }
+    CommonItemType "NONE"
+   }
+  }
+  ARMST_ItemUseComponent "{5D0B100E1F0FC47A}" {
+  }
+  MeshObject "{E83AC2703C504C2F}" {
+   Object "{B9DB77D3158693FA}Assets/Items/SRZ_Contraband/Psychedelics/SRZ_LSD_Sheet_Static/SRZ_LSD_Sheet_Static.xob"
+   Materials {
+    MaterialAssignClass "{0A0C3C1911D264CB}" {
+     SourceMaterial "SRZ_LSD_Sheet_Static"
+     AssignedMaterial "{7B079A405E2BD9D2}Assets/Items/SRZ_Contraband/Psychedelics/SRZ_LSD_Sheet_Static/Data/SRZ_LSD_Sheet_Static.emat"
+    }
+   }
+  }
+ }
+}

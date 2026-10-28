@@ -1,0 +1,40 @@
+GenericEntity : "{3238FC0BDB67AA78}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" {
+ ID "2AF9F7CBED794F46"
+ components {
+  InventoryItemComponent "{0F5458784CCC1259}" {
+   Attributes SCR_ItemAttributeCollection "{3953A105BBF315C6}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{8454D57BBE0E92DF}" {
+     Name "Brick of Purple Haze"
+     Description ""
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 1.0
+     SizeSetupStrategy Manual
+     ItemDimensions 0.204 0.061 0.129
+     ItemVolume 1.2
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{D0F07B3EFA3DD57B}" {
+      CameraPreset Top
+      CameraOrbitAngles 0 0 0
+      CameraDistanceToItem 0.80
+      FOV 10
+      LodModel 0
+     }
+    }
+    CommonItemType "NONE"
+   }
+  }
+  ARMST_ItemUseComponent "{6DB051BDB9392502}" {
+  }
+  MeshObject "{A83EEB9190E1FE58}" {
+   Object "{9750EB5B79290F1E}Assets/Items/SRZ_Contraband/Weed/SRZ_Brick_Weed_PurpleHaze/SRZ_Brick_Weed_PurpleHaze.xob"
+   Materials {
+    MaterialAssignClass "{E51BA95A3A13D17A}" {
+     SourceMaterial "SRZ_Brick_Weed_PurpleHaze"
+     AssignedMaterial "{1091C05F4D371A6E}Assets/Items/SRZ_Contraband/Weed/SRZ_Brick_Weed_PurpleHaze/Data/SRZ_Brick_Weed_PurpleHaze.emat"
+    }
+   }
+  }
+ }
+}
