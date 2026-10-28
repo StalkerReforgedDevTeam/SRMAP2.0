@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{AE6A7835EBCD9E6E}Assets/Items/SRZ_Contraband/Weed/SRZ_Bud_SourDiesel/Data/SRZ_Bud_SourDiesel.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+  EMATResourceClass Xbox : PC {
+  }
+ }
+}

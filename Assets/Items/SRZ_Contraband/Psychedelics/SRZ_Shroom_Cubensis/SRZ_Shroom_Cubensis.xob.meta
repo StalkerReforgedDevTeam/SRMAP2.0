@@ -1,0 +1,56 @@
+MetaFileClass {
+ Name "{21647F1D7CCADB9E}Assets/Items/SRZ_Contraband/Psychedelics/SRZ_Shroom_Cubensis/SRZ_Shroom_Cubensis.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{59C8F69D1F524489}" {
+     SourceMaterial "SRZ_Shroom_Cubensis"
+     AssignedMaterial "{EE9219EB30F4F329}Assets/Items/SRZ_Contraband/Psychedelics/SRZ_Shroom_Cubensis/Data/SRZ_Shroom_Cubensis.emat"
+    }
+   }
+   MeshParams {
+    MeshParam SRZ_Shroom_Cubensis {
+    }
+   }
+   GeometryParams {
+    GeometryParam UBX_SRZ_Shroom_Cubensis {
+     LayerPreset "ItemFireView"
+     SurfaceProperties {
+      "{13581C35484F3000}Common/Materials/Game/fabric.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{23775DE81392CD71}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Blender Foundation"
+   ApplicationName "Blender (stable FBX IO)"
+   ApplicationVersion "4.2.0"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{821603BB1CB64C55}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{114BE23FB2031F8A}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{9B4D6A9A10507D15}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{23010841D4129919}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{241C61B9CE29A323}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass Xbox : PC {
+   Common TXOCommonClass "{8DD78BADAC625FBE}" {
+   }
+  }
+ }
+}
