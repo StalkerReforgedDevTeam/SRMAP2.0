@@ -1,6 +1,6 @@
 $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRIGGER_ANOMAL.et" {
  {
-  coords 1367.444 309.765 478.056
+  coords 2582.232 291.69 1038.714
   SphereRadius 59.5
   TriggerActivationType "Every query"
   UpdatePeriod 10
@@ -15,7 +15,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_iSRZ_FieldTier "Tier 1"
  }
  {
-  coords 2076.953 306.413 295.895
+  coords 2956.674 299.327 1117.448
   SphereRadius 77.9
   TriggerActivationType "Every query"
   UpdatePeriod 10
@@ -30,7 +30,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_iSRZ_FieldTier "Tier 1"
  }
  {
-  coords 2425.6 309.494 236.394
+  coords 2565.358 296.851 412.516
   SphereRadius 77.9
   TriggerActivationType "Every query"
   UpdatePeriod 10
@@ -45,7 +45,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_iSRZ_FieldTier "Tier 1"
  }
  {
-  coords 2877.404 309.827 232.341
+  coords 2523.542 293.852 1796.332
   SphereRadius 77.9
   TriggerActivationType "Every query"
   UpdatePeriod 10
@@ -60,7 +60,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_iSRZ_FieldTier "Tier 1"
  }
  {
-  coords 2971.569 308.186 642.334
+  coords 3354.938 304.608 757.591
   SphereRadius 77.9
   TriggerActivationType "Every query"
   UpdatePeriod 10
@@ -75,7 +75,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_iSRZ_FieldTier "Tier 1"
  }
  {
-  coords 3506.651 306.709 360.99
+  coords 3506.651 310.2 530.074
   SphereRadius 77.9
   TriggerActivationType "Every query"
   UpdatePeriod 10
@@ -90,7 +90,7 @@ $grp ARMST_TRIGGER_SPAWN : "{762B4CCA245C6ECD}Prefabs/Anomals/TRIGGERS/ARMST_TRI
   m_iSRZ_FieldTier "Tier 1"
  }
  {
-  coords 4020.927 307.58 260.778
+  coords 5468.5 311.647 1273.546
   SphereRadius 77.9
   TriggerActivationType "Every query"
   UpdatePeriod 10
