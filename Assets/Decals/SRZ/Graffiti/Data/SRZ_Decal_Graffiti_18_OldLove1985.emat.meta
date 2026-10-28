@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{B6D13C4F0C94AD7D}Assets/Decals/SRZ/Graffiti/Data/SRZ_Decal_Graffiti_18_OldLove1985.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+  EMATResourceClass Xbox : PC {
+  }
+ }
+}

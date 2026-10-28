@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{8C1D44704C8022ED}Assets/Decals/SRZ/Graffiti/Data/SRZ_Decal_Graffiti_25_BuffedTag.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+  EMATResourceClass Xbox : PC {
+  }
+ }
+}

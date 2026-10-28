@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{518CFFC565B3C7F5}Assets/Decals/SRZ/Graffiti/Data/SRZ_Decal_Graffiti_05_CleanWater.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+  EMATResourceClass Xbox : PC {
+  }
+ }
+}

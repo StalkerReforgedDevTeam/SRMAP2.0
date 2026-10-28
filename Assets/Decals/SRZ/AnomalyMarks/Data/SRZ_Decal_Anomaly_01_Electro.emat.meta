@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{6D05EE72B2058F0C}Assets/Decals/SRZ/AnomalyMarks/Data/SRZ_Decal_Anomaly_01_Electro.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+  EMATResourceClass Xbox : PC {
+  }
+ }
+}
