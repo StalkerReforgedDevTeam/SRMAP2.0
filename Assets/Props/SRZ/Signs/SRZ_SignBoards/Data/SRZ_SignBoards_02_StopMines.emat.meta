@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{185E488E3752DA13}Assets/Props/SRZ/Signs/SRZ_SignBoards/Data/SRZ_SignBoards_02_StopMines.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+  EMATResourceClass Xbox : PC {
+  }
+ }
+}

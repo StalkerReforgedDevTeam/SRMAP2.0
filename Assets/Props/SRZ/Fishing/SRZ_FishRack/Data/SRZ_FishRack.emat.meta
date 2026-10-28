@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{72EF134752788C90}Assets/Props/SRZ/Fishing/SRZ_FishRack/Data/SRZ_FishRack.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+  EMATResourceClass Xbox : PC {
+  }
+ }
+}

@@ -1,0 +1,53 @@
+MetaFileClass {
+ Name "{B1D063E48D3243C2}Assets/Props/SRZ/Fishing/SRZ_RodRack/SRZ_RodRack.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{139474ECAFE4C193}" {
+     SourceMaterial "SRZ_Prop_RodRack_MAT"
+     AssignedMaterial "{23C0C3CAF65ED913}Assets/Props/SRZ/Fishing/SRZ_RodRack/Data/SRZ_RodRack.emat"
+    }
+   }
+   MeshParams {
+    MeshParam SRZ_Prop_RodRack_LOD0 {
+    }
+   }
+   GeometryParams {
+    GeometryParam UBX_SRZ_Prop_RodRack_01 {
+     LayerPreset "Prop"
+     SurfaceProperties {
+      "{EA270CE454C419FD}Common/Materials/Game/wood.gamemat"
+     }
+     Mass 20
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{17FA9FCB06FFEBD5}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{B2B8A2B1A4BB1D90}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{C743A866D9705D64}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{E4526D76699DB531}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{193662AD84E24C69}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{8BA07F21EF9F692A}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass Xbox : PC {
+   Common TXOCommonClass "{AB09481FACABD7A4}" {
+   }
+  }
+ }
+}

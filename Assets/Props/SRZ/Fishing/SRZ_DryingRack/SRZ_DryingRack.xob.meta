@@ -1,0 +1,53 @@
+MetaFileClass {
+ Name "{1564ED4BB87B2164}Assets/Props/SRZ/Fishing/SRZ_DryingRack/SRZ_DryingRack.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{42CDD323171C0408}" {
+     SourceMaterial "SRZ_Prop_DryingRack_MAT"
+     AssignedMaterial "{64372329E784A14C}Assets/Props/SRZ/Fishing/SRZ_DryingRack/Data/SRZ_DryingRack.emat"
+    }
+   }
+   MeshParams {
+    MeshParam SRZ_Prop_DryingRack_LOD0 {
+    }
+   }
+   GeometryParams {
+    GeometryParam UBX_SRZ_Prop_DryingRack_01 {
+     LayerPreset "Prop"
+     SurfaceProperties {
+      "{EA270CE454C419FD}Common/Materials/Game/wood.gamemat"
+     }
+     Mass 20
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{6D975F15EA510B5A}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{5DA6A898EBE5BC41}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{38C3EC055979C4E1}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{1963F9DCD642A521}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{AD54F043268C6EA1}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{9425941CDF326635}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass Xbox : PC {
+   Common TXOCommonClass "{F502A33D0E6EB693}" {
+   }
+  }
+ }
+}
