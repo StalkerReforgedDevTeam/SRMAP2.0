@@ -1,0 +1,13 @@
+MatPBRBasicGlass {
+ Color 0.9 0.92 0.9 1
+ Sort translucent
+ AlphaMul 1
+ BlendMode AlphaBlend
+ RoughnessScale 1
+ MetalnessScale 0
+ DielectricReflectance 0.04
+ BCRMap "{08E90015752669CC}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Weed_PurpleHaze/Data/SRZ_Baggie_Weed_PurpleHaze_Bag_BCR.edds"
+ OpacityMap "{1A8E8CC2F46758EF}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Weed_PurpleHaze/Data/SRZ_Baggie_Weed_PurpleHaze_Bag_A.edds"
+ NormalPower 1
+ NMOMap "{AF3CCA5E228BAE2E}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Weed_OGKush/Data/SRZ_Baggie_Weed_OGKush_Bag_NMO.edds"
+}

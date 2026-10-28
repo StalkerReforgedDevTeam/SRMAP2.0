@@ -1,0 +1,13 @@
+MatPBRBasicGlass {
+ Color 0.9 0.92 0.9 1
+ Sort translucent
+ AlphaMul 1
+ BlendMode AlphaBlend
+ RoughnessScale 1
+ MetalnessScale 0
+ DielectricReflectance 0.04
+ BCRMap "{143DE10EF9527B0B}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Shrooms_LibertyCap/Data/SRZ_Baggie_Shrooms_LibertyCap_Bag_BCR.edds"
+ OpacityMap "{D9CEF6FFEE834846}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Shrooms_LibertyCap/Data/SRZ_Baggie_Shrooms_LibertyCap_Bag_A.edds"
+ NormalPower 1
+ NMOMap "{1D6FBFDC92C5E016}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Shrooms_Cubensis/Data/SRZ_Baggie_Shrooms_Cubensis_Bag_NMO.edds"
+}

@@ -1,0 +1,68 @@
+MetaFileClass {
+ Name "{CB0EE80925764136}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Shrooms_LibertyCap/SRZ_Baggie_Shrooms_LibertyCap.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{0C7D2372F6DA43DB}" {
+     SourceMaterial "SRZ_Baggie_Shrooms_LibertyCap_Contents"
+     AssignedMaterial "{C606848CA08E52EA}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Shrooms_LibertyCap/Data/SRZ_Baggie_Shrooms_LibertyCap_Contents.emat"
+    }
+    MaterialAssignClass "{F645CC4A0332AD8E}" {
+     SourceMaterial "SRZ_Baggie_Shrooms_LibertyCap_Bag"
+     AssignedMaterial "{01DACF3E3D766364}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Shrooms_LibertyCap/Data/SRZ_Baggie_Shrooms_LibertyCap_Bag.emat"
+    }
+    MaterialAssignClass "{80ED39549433CAAF}" {
+     SourceMaterial "SRZ_Baggie_Shrooms_LibertyCap_Zip"
+     AssignedMaterial "{96C4FA17B6CC8424}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Shrooms_LibertyCap/Data/SRZ_Baggie_Shrooms_LibertyCap_Zip.emat"
+    }
+   }
+   MeshParams {
+    MeshParam SRZ_Baggie_Shrooms_LibertyCap_Bag {
+    }
+    MeshParam SRZ_Baggie_Shrooms_LibertyCap_Contents {
+    }
+    MeshParam SRZ_Baggie_Shrooms_LibertyCap_Zip {
+    }
+   }
+   GeometryParams {
+    GeometryParam UBX_SRZ_Baggie_Shrooms_LibertyCap {
+     LayerPreset "ItemFireView"
+     SurfaceProperties {
+      "{5EAA7FB0A83F90CF}Common/Materials/Game/plastic.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{948AA72CF0CE2AA4}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Blender Foundation"
+   ApplicationName "Blender (stable FBX IO)"
+   ApplicationVersion "4.2.0"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{FF93C36F7AA101EC}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{0962582B23B9E480}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{5471CECB610E2D22}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6ED54C13FFB58FCD}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{0E0F7F27DC1709B6}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass Xbox : PC {
+   Common TXOCommonClass "{C7EB52ECFAFF452F}" {
+   }
+  }
+ }
+}

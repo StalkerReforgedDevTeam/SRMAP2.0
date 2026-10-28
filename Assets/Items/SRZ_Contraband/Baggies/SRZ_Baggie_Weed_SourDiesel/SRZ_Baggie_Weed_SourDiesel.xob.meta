@@ -1,0 +1,68 @@
+MetaFileClass {
+ Name "{2302A1A2DD08862E}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Weed_SourDiesel/SRZ_Baggie_Weed_SourDiesel.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{C6E8A7250EE0D8BB}" {
+     SourceMaterial "SRZ_Baggie_Weed_SourDiesel_Contents"
+     AssignedMaterial "{828D65A1DBF837A0}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Weed_SourDiesel/Data/SRZ_Baggie_Weed_SourDiesel_Contents.emat"
+    }
+    MaterialAssignClass "{ED3A70786909B283}" {
+     SourceMaterial "SRZ_Baggie_Weed_SourDiesel_Bag"
+     AssignedMaterial "{C6ABFB41BA05F12A}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Weed_SourDiesel/Data/SRZ_Baggie_Weed_SourDiesel_Bag.emat"
+    }
+    MaterialAssignClass "{4F345238EC62CBFA}" {
+     SourceMaterial "SRZ_Baggie_Weed_SourDiesel_Zip"
+     AssignedMaterial "{09F8F8492E5B9A97}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Weed_SourDiesel/Data/SRZ_Baggie_Weed_SourDiesel_Zip.emat"
+    }
+   }
+   MeshParams {
+    MeshParam SRZ_Baggie_Weed_SourDiesel_Bag {
+    }
+    MeshParam SRZ_Baggie_Weed_SourDiesel_Contents {
+    }
+    MeshParam SRZ_Baggie_Weed_SourDiesel_Zip {
+    }
+   }
+   GeometryParams {
+    GeometryParam UBX_SRZ_Baggie_Weed_SourDiesel {
+     LayerPreset "ItemFireView"
+     SurfaceProperties {
+      "{5EAA7FB0A83F90CF}Common/Materials/Game/plastic.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{48FA068DA0663E0B}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Blender Foundation"
+   ApplicationName "Blender (stable FBX IO)"
+   ApplicationVersion "4.2.0"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{9F77102A5A8D401B}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{7C9EFBE7250D7689}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{602355595FE29F75}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{B7D4F1E2F23F7136}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{A9ACBFBEB2605C48}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass Xbox : PC {
+   Common TXOCommonClass "{CD2153E8CCAD0DEE}" {
+   }
+  }
+ }
+}
