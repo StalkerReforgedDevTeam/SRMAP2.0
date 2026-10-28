@@ -9,173 +9,6 @@ $grp GenericEntity {
   angles 0 -112.704 0
  }
  {
-  components {
-   MeshObject "{68AD40BB43F32DCB}" {
-    Object "{D92DD7EE3B2AF0AD}Assets/Props/Naval/Shipyard/MetalSheetStack/Dst/MetalSheetStack_high/MetalSheetStack_high_dst_02_dbr_01.xob"
-   }
-   RigidBody "{68B8DB40BCAACB8D}" {
-    ModelGeometry 1
-   }
-  }
-  coords 2860.066 301.341 1141.188
-  angles -0.711 -4.112 90.051
-  scale 0.62
- }
- {
-  components {
-   MeshObject "{68AD40BCDC0C4067}" {
-    Object "{278851CBA0A85585}Assets/Props/Furniture/CurtainsWindow_01/Dst/CurtainWindow_01_V1_folded_left_dst_00.xob"
-   }
-  }
-  coords 2852.393 300.813 1136.438
-  angles 0 -1.198 0
-  scale 1.36
- }
- {
-  components {
-   MeshObject "{68AD40BCCC9B990A}" {
-    Object "{4C7C9F5FB9E787B6}Assets/Props/Furniture/ShowerCurtains_01/ShowerCurtains_01_Straight.xob"
-   }
-  }
-  coords 2851.96 302.221 1136.38
-  angles 0 -4.226 0
- }
- {
-  components {
-   MeshObject "{68AD40ABE73A20B8}" {
-    Object "{5CBD1DA6D08EE362}Assets/shelters/Support_wire_trash/SM_Carpet.xob"
-   }
-  }
-  coords 2856.902 299.942 1144.511
-  angles 75.924 -88.022 -83.625
-  scale 0.65
- }
- {
-  components {
-   MeshObject "{68AD40A0AEA09907}" {
-    Object "{B629545F0194F5AF}Assets/Props/Recreation/Beach/BlanketBeach_01/Dst/BlanketBeach_01_dst_02.xob"
-   }
-  }
-  coords 2851.525 299.681 1139.001
-  angles 0 -11.291 0
- }
- {
-  components {
-   MeshObject "{68AD40A35793E838}" {
-    Object "{0B94D782C5781FC3}Assets/Props/Recreation/Beach/BlanketFolded_01/BlanketFolded_01.xob"
-   }
-  }
-  coords 2851.403 301.205 1139.813
-  angles 0 90.419 0
- }
- {
-  components {
-   MeshObject "{68AD40ABE73A20B8}" {
-    Object "{5CBD1DA6D08EE362}Assets/shelters/Support_wire_trash/SM_Carpet.xob"
-   }
-  }
-  coords 2859.803 300.655 1144.781
-  angles 75.924 -88.022 95.765
-  scale 0.65
- }
- {
-  components {
-   MeshObject "{68AD409D84E1FCFA}" {
-    Object "{F1FC734D73C916D2}Assets/Props/Furniture/Desk_01/Desk_01_long.xob"
-    LODFactors {
-     5
-     2
-     1.5
-     1
-     1
-     1
-    }
-   }
-   RigidBody "{68AD409D84E1FC89}" {
-    ResponseIndex "SmallDestructible"
-    ModelGeometry 1
-    Static 1
-   }
-   SCR_DestructionMultiPhaseComponent "{68AD409D84E1FC03}" {
-    Enabled 0
-    "Additional hit zones" {
-     SCR_HitZone Default {
-      HZDefault 1
-      "Melee multiplier" 1
-      "Kinetic multiplier" 1
-      "Explosive multiplier" 90
-      "Incendiary multiplier" 1
-     }
-    }
-    m_fBaseHealth 3000
-    m_fForceToDamageScale 350
-    m_aDamagePhases {
-     SCR_DamagePhaseData "{68AD409D84E1FC43}" {
-      m_fPhaseHealth 2500
-      m_PhaseModel "{A7604B36E41DC606}Assets/Props/Furniture/Desk_01/dst/Desk_01_long_dst.xob"
-     }
-    }
-    m_eMaterialSoundType BREAK_WOOD_SOLID
-   }
-   RplComponent "{68AD409D84E1FDE4}" {
-    Enabled 0
-   }
-  }
-  Flags 0x403 0
-  coords 2857.007 299.681 1139.363
-  angles 0 87.741 0
-  {
-   GenericEntity : "{9DBA8179AFD4FF9F}Prefabs/Props/Furniture/LightTable_02.et" {
-    coords -0.478 0.906 0.159
-    angles 0 -38.29 0
-   }
-  }
- }
- {
-  components {
-   MeshObject "{68AD409C46573807}" {
-    Object "{D0D92E5ABAAF4F1B}Assets/shelters/Electrical_equipment/SM_Radio_military_1.xob"
-   }
-  }
-  coords 2857.29 300.587 1140.979
-  angles 0 32.707 0
- }
- {
-  components {
-   MeshObject "{68AD40972AD40DF0}" {
-    Object "{5043F460C7AF4BD4}Assets/Props/Military/AmmoBox/AmmoBox_545x39_2160rnd/AmmoBox_545x39_2160rnd.xob"
-   }
-  }
-  coords 2856.016 300.494 1140.092
- }
- {
-  components {
-   MeshObject "{68AD409728803EBB}" {
-    Object "{5043F460C7AF4BD4}Assets/Props/Military/AmmoBox/AmmoBox_545x39_2160rnd/AmmoBox_545x39_2160rnd.xob"
-   }
-  }
-  coords 2855.993 300.648 1140.083
-  angles 0 22.876 0
- }
- {
-  components {
-   MeshObject "{68AD4097D5A80E93}" {
-    Object "{5043F460C7AF4BD4}Assets/Props/Military/AmmoBox/AmmoBox_545x39_2160rnd/AmmoBox_545x39_2160rnd.xob"
-   }
-  }
-  coords 2855.698 299.857 1140.193
-  angles 0 0 -58.462
- }
- {
-  components {
-   MeshObject "{68AD40979308C908}" {
-    Object "{35F2A7661DCF8713}Assets/Props/Military/Camps/BoxMRE_01/BoxMRE_01.xob"
-   }
-  }
-  coords 2857.486 300.561 1138.789
-  angles 0 -59.549 0
- }
- {
   coords 6635.535 304.403 1826.566
   angles -0.015 -16.512 -90.052
  }
@@ -595,14 +428,6 @@ SCR_DestructibleBuildingEntity {
 SplineShapeEntity {
  coords 2859.386 299.327 1131.268
 }
-$grp GenericEntity : "{013297BA01640EB9}Prefabs/Props/Garbage/Military/Ammo/GarbageAmmunition_USSR_02.et" {
- {
-  coords 2852.071 299.681 1137.215
- }
- {
-  coords 2851.531 299.681 1137.173
- }
-}
 GenericEntity : "{026714237FB820CB}Prefabs/Props/Garbage/Cardboard/Cardboard_Pile_07.et" {
  coords 6631.495 304.092 1828.377
  angles 0 0 -3.247
@@ -611,45 +436,14 @@ GenericEntity : "{027DFD4BB8D66F61}Prefabs/Props/Furniture/BenchWooden_03.et" {
  coords 6180.053 307.048 1255.081
  angles -19.98 168.935 31.523
 }
-GenericEntity : "{03DE957D8161212B}Prefabs/Props/Civilian/Notebook_01_Open.et" {
- coords 2857.441 300.583 1140.272
- angles 0 -108.406 0
-}
 Tree : "{054B89DDC0DBA1C2}Prefabs/Vegetation/Plant/Hedera_Helix/p_hedera_helix_corner_04.et" {
- coords 2856.901 5.447 1140.858
- angles 0.198 -92.888 -26.179
+ coords 2860.451 8.288 1139.361
+ angles 0 -99.61 -26.043
  scale 2.015
-}
-GenericEntity : "{06363A95838DD8ED}Prefabs/beds/matrass_4.et" {
- coords 2858.511 299.638 1140.8
- angles 0 0.872 0
-}
-GenericEntity : "{0AD5FD0F21C53CBA}Prefabs/Props/Garbage/Cardboard/Cardboard_04.et" {
- coords 2851.907 299.695 1139.664
- angles 0 -113.718 0
-}
-$grp GenericEntity : "{0BB4B21E4F560431}Prefabs/Props/Furniture/Chest_01.et" {
- {
-  coords 2850.037 299.681 1137.38
-  angles 0 105.556 0
-  scale 0.84
- }
- {
-  coords 2849.88 299.667 1139.04
-  angles 0 10.474 0
- }
- {
-  coords 2850.498 300.169 1139.684
-  angles 0 -177.5 0
- }
 }
 GenericEntity : "{113FB990D2029BD3}Prefabs/deads/cows/cow_4.et" {
  coords 6636.797 303.953 1820.744
  angles 0 -126.033 0
-}
-GenericEntity : "{13891AA1F5833C4A}Prefabs/Props/Civilian/Notebook_01_Double.et" {
- coords 2850.188 300.598 1143.572
- angles 0 -72.268 0
 }
 $grp GenericEntity : "{195D6C2708028DC5}Prefabs/Props/Remains/SkeletonRemains/SkeletonRemains_03_V3.et" {
  {
@@ -752,20 +546,6 @@ $grp GenericEntity : "{195D6C2708028DC5}Prefabs/Props/Remains/SkeletonRemains/Sk
   angles -1.77 -60.306 -0.496
  }
 }
-$grp GenericEntity : "{1A8450D02D523398}Prefabs/Props/Furniture/CabinetMetal_01_olive_V3.et" {
- {
-  coords 2858.018 299.673 1144.371
-  angles -2.141 168.487 -0.92
- }
- {
-  coords 2858.868 299.664 1144.37
-  angles 2.489 -176.991 0.131
- }
- {
-  coords 2859.629 299.761 1144.398
-  angles 2.489 -176.991 -15.568
- }
-}
 $grp DecalEntity : "{1DC3A792132D86CB}Prefabs/Decals/Blood/BloodStain_Large_02.et" {
  {
   coords 6628.878 1.409 1827.165
@@ -787,10 +567,6 @@ GenericEntity : "{20C6CD91EBCF3AD5}Prefabs/Structures/BuildingParts/Industrial/T
  coords 6615.471 305.191 1845.536
  angles 0 161.257 0
 }
-GenericEntity : "{2424EBB806A690D4}Prefabs/Props/Garbage/Medical/GarbageMedicalUS_02.et" {
- coords 2858.318 299.681 1142.581
- angles 0 149.755 0
-}
 $grp GenericEntity : "{2424EBB806A690D5}Prefabs/Trash/Medical/GarbageMedicalUS_02.et" {
  {
   coords 6628.121 303.452 1826.437
@@ -799,9 +575,6 @@ $grp GenericEntity : "{2424EBB806A690D5}Prefabs/Trash/Medical/GarbageMedicalUS_0
  {
   coords 6633.938 303.966 1822.997
   angles 0 55.591 0
- }
- {
-  coords 2859.404 299.681 1140.828
  }
 }
 $grp GenericEntity : "{25D05A17E3C163F7}Prefabs/Compositions/Misc/CustomEntities/DestructionEntities/BarrelFuel_01_closed_old_CompositionDestruction.et" {
@@ -849,35 +622,6 @@ GenericEntity : "{2E4710D89D90BEAC}Prefabs/Props/Remains/SkeletonRemains/Skeleto
  coords 6634.789 304.101 1825.23
  angles 0 73.789 0
 }
-GenericEntity : "{2F2BBFDA3A2C73D4}Prefabs/Props/Civilian/RadioSmall_01_black.et" {
- components {
-  Hierarchy "{5654C1ECEFC4CEC4}" {
-   Enabled 1
-  }
- }
- coords 2851.198 300.598 1144.082
- angles 0 -174.46 0
-}
-$grp GenericEntity : "{326E60F7A7358EDA}Prefabs/Props/Crates/CrateWooden_01_blue.et" {
- {
-  components {
-   Hierarchy "{54C2B2BF9664B83D}" {
-    Enabled 1
-   }
-  }
-  coords 2856.971 299.689 1138.894
-  angles 0 -99.109 0
- }
- {
-  components {
-   Hierarchy "{54C2B2BF9664B83D}" {
-    Enabled 1
-   }
-  }
-  coords 2856.196 299.689 1139.935
-  angles 0 178.677 0
- }
-}
 $grp DecalEntity : "{32D707B931FD52FE}Prefabs/Decals/Blood/BloodStain_Wall_01.et" {
  {
   coords 6178.689 0.825 1265.814
@@ -899,10 +643,6 @@ $grp DecalEntity : "{32D707B931FD52FE}Prefabs/Decals/Blood/BloodStain_Wall_01.et
   angles -90 -180 -180
   scale 0.8
  }
-}
-GenericEntity : "{34F74A7DBAD46974}Prefabs/Props/Furniture/LightWall_01.et" {
- coords 2852.258 302.397 1138.373
- angles -69.764 0 0
 }
 GenericEntity : "{3619812B192CCAE9}Prefabs/Props/Core/Wreck_Base.et" {
  components {
@@ -952,31 +692,9 @@ GenericEntity : "{3619812B192CCAE9}Prefabs/Props/Core/Wreck_Base.et" {
   }
  }
 }
-GenericEntity : "{3B021FADF6E151DA}Prefabs/beds/matrass_3.et" {
- coords 2860.066 299.743 1141.574
- angles 0 -12.696 180
-}
-GenericEntity : "{3D335970BE1F12B9}Prefabs/Props/Garbage/Generic/LitterInterior_01/Piles/LitterInterior_USSR_01_pile_V4.et" {
- coords 2857.459 300.587 1139.671
- angles 0 -93.413 0
-}
-$grp GenericEntity : "{3F68BA500FF209E6}Prefabs/beds/podushka.et" {
- {
-  coords 2859.749 299.727 1141.924
-  angles 0 3.338 0
- }
- {
-  coords 2858.794 299.755 1140.305
-  angles 0 -82.947 0
- }
-}
 GenericEntity : "{4107C4893DF2D0D7}Prefabs/Props/Furniture/Chair_02/Chair_02_red.et" {
  coords 6179.038 306.836 1254.907
  angles 0 -6.993 83.595
-}
-GenericEntity : "{4168CE8C08BC74B1}Prefabs/Structures/BuildingParts/Heating/StoveColumn_01_Base.et" {
- coords 2853.17 299.681 1136.454
- angles 0 -7.785 0
 }
 $grp GenericEntity : "{41A9C55B61F375F0}Prefabs/Items/Equipment/Backpacks/Backpack_Kolobok.et" {
  Backpack_Kolobok_68A65647BA04D8EE {
@@ -991,10 +709,6 @@ $grp GenericEntity : "{41A9C55B61F375F0}Prefabs/Items/Equipment/Backpacks/Backpa
 GenericEntity : "{4213243821543182}Prefabs/Props/Remains/SkeletonRemains/SkeletonRemains_04_V1.et" {
  coords 6636.836 303.966 1819.796
 }
-GenericEntity : "{4770FEF65CB7C229}Prefabs/others/rakovina.et" {
- coords 2859.989 299.681 1137.125
- angles 0 175.909 0
-}
 GenericEntity : "{4923E218F59644B9}Prefabs/Props/Wrecks/BoatWreck_01/BoatWreck_01.et" {
  components {
   MeshObject "{5872F0EB7FA40561}" {
@@ -1004,9 +718,6 @@ GenericEntity : "{4923E218F59644B9}Prefabs/Props/Wrecks/BoatWreck_01/BoatWreck_0
  coords 2847.706 299.254 1134.784
  angles -0.297 -68.523 -0.713
 }
-GenericEntity : "{4EFE35748F199226}Prefabs/LOOT_BOX/2_TIER/2_TIER_Loot_randomize_clothes.et" {
- coords 2849.858 300.169 1138.2
-}
 GenericEntity : "{52F4C6F1D59655CA}Prefabs/Props/Garbage/Generic/Junk_01/Junk_01_single_bathtub.et" {
  coords 6636.938 311.443 1819.509
  angles 0.479 -27.527 179.049
@@ -1014,15 +725,6 @@ GenericEntity : "{52F4C6F1D59655CA}Prefabs/Props/Garbage/Generic/Junk_01/Junk_01
 GenericEntity : "{575984A34D75D68C}Prefabs/Props/Remains/SkeletonRemains/SkeletonRemains_02_V1.et" {
  coords 6638.072 304.081 1819.02
  angles -1.641 -39.16 87.985
-}
-GenericEntity : "{58988655D4E3F939}Prefabs/posters/Poster_7.et" {
- coords 2851.062 301.161 1136.702
- angles -0.126 -96.347 -6.702
- scale 1.5
-}
-GenericEntity : "{590D0CC992E8AC25}Prefabs/Compositions/Misc/SubCompositions/Decorations/Crate_Bottles_01.et" {
- coords 2849.253 299.681 1139.805
- angles 0 -23.25 0
 }
 SCR_DestructibleBuildingEntity : "{5987E1DF837BA755}Prefabs/Vehicles/btr70/armst_btr70.et" {
  coords 6639.083 306.84 1815.207
@@ -1034,38 +736,12 @@ GenericEntity : "{59A5AEA081FA2BD0}Prefabs/Trash/ground_plane/clothes/plane_tras
  scale 0.829
 }
 GenericEntity : "{5E249786B7A6896D}Prefabs/Props/Construction/ConcretePipe/ConcretePipe_01_Large.et" {
- coords 2862.058 299.327 1140.879
+ coords 2861.839 299.327 1146.188
  angles 0 87.632 0
-}
-GenericEntity : "{5E8A29DCCF68C5DD}Prefabs/destructible/wood_barricade_destr.et" {
- coords 2858.924 301.106 1136.691
- angles 0 -4.686 0
- scale 1.19
-}
-GenericEntity : "{61DDF9CE7816317D}Prefabs/Trash/ground_plane/clothes/plane_trash_8_clothes.et" {
- coords 2860.168 299.681 1137.932
- angles 0 -86.113 0
- scale 1.48
 }
 GenericEntity : "{6217E1B4DFF40B31}Prefabs/Structures/BuildingParts/Industrial/ToolRack_01_tool_02.et" {
  coords 6614.311 305.598 1845.12
  angles 0 161.257 0
-}
-GenericEntity : "{62F1771F599A48D2}Prefabs/LOOT_BOX/2_TIER/2_TIER_Loot_randomize_food.et" {
- coords 2853.163 299.946 1138.249
- angles 90 -96.872 -3.164
-}
-GenericEntity : "{6D83404953816F23}Prefabs/Structures/BuildingParts/Doors/DoorSet_Shed_02_R_EXT_B.et" {
- components {
-  Hierarchy "{612AE78C85563E26}" {
-   Enabled 1
-   PivotID "socket_door_ext_right_02"
-   AutoTransform 1
-  }
- }
- coords 2855.134 299.648 1136.492
- angles 0 174.651 0
- scale 0.98
 }
 $grp GameEntity : "{6F0C071AD20DCF4A}Prefabs/Characters/Deads/armst_dead_newbie.et" {
  {
@@ -1137,7 +813,7 @@ SCR_DestructibleBuildingEntity : "{6FA58B435F69B179}Prefabs/Structures/Houses/Sh
    ID "695EA194653B1AFC"
    components {
     ARMST_RANDOM_LOOTS_POINT "{669E6408BFC72628}" {
-     m_LootTiersSpawn +{
+     m_LootTiersSpawn {
       "TIER_2"
      }
     }
@@ -1248,48 +924,20 @@ $grp GenericEntity : "{7210624F7959DDB7}Prefabs/Props/dead_skeleton_head.et" {
   angles -1.576 -106.919 0.945
  }
 }
-$grp StaticModelEntity : "{72BEAAAFAAB49846}Prefabs/Structures/Debris/DebrisPile/DebrisPile_Wood_01_Debris_01.et" {
- {
-  coords 2864.142 299.327 1136.811
-  angles -9.22 -169.631 -10.952
- }
- {
-  coords 2863.535 299.327 1138.403
-  angles -9.22 10.826 -10.952
- }
-}
 GenericEntity : "{78695BE67AC3D99A}Prefabs/Props/dead_skeleton_taz.et" {
  coords 6634.26 304.196 1828.398
-}
-GenericEntity : "{7E08142AFFDE045E}Prefabs/Props/Furniture/CabinetMetal_02.et" {
- coords 2852.586 299.681 1136.595
- angles 0 -7.1 0
 }
 GenericEntity : "{83B2BF6CB552153A}Prefabs/Trash/Newspapers/newspaper_4.et" {
  coords 6638.064 304.032 1822.517
  angles 2.394 0 0
 }
-$grp GenericEntity : "{85FC23A6E1F49BBE}Prefabs/Structures/BuildingParts/Eletrical/LightSwitch_02.et" {
- {
-  coords 2855.922 300.76 1136.628
-  angles -1.06 -5.595 -0.062
- }
- {
-  coords 2852.518 300.969 1144.258
-  angles 1.061 174.324 0.06
- }
-}
-GenericEntity : "{89534EF0A1EEE176}Prefabs/Props/Naval/LifeBuoy_01.et" {
- coords 2849.932 301.104 1141.093
- angles -72.628 114.935 -180
+GenericEntity : "{85FC23A6E1F49BBE}Prefabs/Structures/BuildingParts/Eletrical/LightSwitch_02.et" {
+ coords 2855.922 300.76 1136.628
+ angles -1.06 -5.595 -0.062
 }
 ParticleEffectEntity : "{899360C930DA3EE3}Prefabs/Particles/Campfire_burning.et" {
  coords 6632.924 304.611 1817.627
  scale 0.01
-}
-GenericEntity : "{90BCDBBA44D6886B}Prefabs/Structures/BuildingParts/Eletrical/LoudspeakerMicrophone_01.et" {
- coords 2857.088 300.712 1140.595
- angles 0 99.058 0
 }
 $grp SCR_DestructibleEntity : "{9122DACE7FE48836}PrefabLibrary/DefaultLibrary/Walls/Net/GameProofFence_01_Pole.et" {
  {
@@ -1309,17 +957,9 @@ GenericEntity : "{95D947E744336F78}Prefabs/Props/Industrial/Workbench_01.et" {
  coords 6615.658 303.53 1844.988
  angles 0 162.652 0
 }
-GenericEntity : "{96CE035C598E08A6}Prefabs/Trash/Cardboard/Cardboard_Pile_03.et" {
- coords 2855.347 299.681 1139.979
- angles 0 -25.163 0
-}
 GenericEntity : "{9846096644A43ACF}Prefabs/Trash/Medical/GarbageMedicalUSSR_01.et" {
  coords 6636.987 304.186 1825.115
  angles 1.41 -0.027 -1.104
-}
-GenericEntity : "{985C3871D40C7F7B}Prefabs/Props/Garbage/Generic/Litter_01_small.et" {
- coords 2859.682 299.681 1143.235
- angles 0 86.008 0
 }
 $grp GenericEntity : "{986F38072A8DD563}Prefabs/Props/Garbage/Generic/Junk_01/Junk_01_single_planks.et" {
  {
@@ -1343,10 +983,6 @@ $grp GenericEntity : "{986F38072A8DD563}Prefabs/Props/Garbage/Generic/Junk_01/Ju
   angles -76.404 -58.554 -12.679
   scale 0.3
  }
-}
-GenericEntity : "{9FB5BAF37F56F052}Prefabs/Posuda/posuda_6.et" {
- coords 2853.127 300.621 1137.052
- angles 0 -78.784 0
 }
 SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Building_Base.et" {
  components {
@@ -1851,44 +1487,13 @@ SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Buil
   }
  }
 }
-GenericEntity : "{A4AE0EDCC5EC162C}Prefabs/Props/Furniture/CurtainsWindow_01/CurtainsWindow_01_big_straight_V1.et" {
- coords 2851.366 301.471 1144.099
- angles 0 -4.393 0
- scale 0.703
-}
 GenericEntity : "{A5E64994411BA6A0}Prefabs/Props/Civilian/Pen_01/Pen_01_base.et" {
  coords 2857.432 300.587 1140.608
  angles 0 42.356 0
 }
-GenericEntity : "{A7440CFAE4CD495B}Prefabs/Props/Garbage/Cardboard/Cardboard_base.et" {
- coords 2852.344 299.686 1139.161
- angles 0 -72.472 0
-}
 GenericEntity : "{A8D8015D0E2B600A}Prefabs/Props/Garbage/Generic/Junk_01/Junk_01_single_mattress.et" {
  coords 6635.705 307.32 1821.897
  angles 0 92.494 0
-}
-GenericEntity : "{A924939DC9CB318C}Prefabs/Props/Commercial/CabinetCardFile_01/CabinetCardFile_01_grey.et" {
- coords 2857.71 301.895 1144.37
- angles 0 178.121 -90
-}
-$grp GenericEntity : "{AC49D9D23A2BD1D8}Prefabs/Props/Furniture/BunkBed_01_Double.et" {
- {
-  coords 2850.473 299.681 1139.846
-  angles 0 89.034 0
- }
- {
-  coords 2849.765 299.681 1137.614
-  angles 0 3.358 0
- }
- {
-  coords 2849.304 299.589 1142.342
-  angles -2.456 175.468 -0.561
- }
-}
-GenericEntity armst_furn_carpet_done_68AD40A8D526E021 : "{AC7B97E7ABE8C0C2}Prefabs/Items/Deployable/furnitures/carpet/armst_furn_carpet_done.et" {
- coords 2851.429 299.681 1142.896
- angles 0 -0.84 0
 }
 GenericEntity : "{ACA0244622E94EE1}Prefabs/LOOT_BOX/base/tools/Loot_tools_box.et" {
  components {
@@ -1925,46 +1530,6 @@ $grp SCR_DestructibleEntity : "{B0719508D321DA26}PrefabLibrary/DefaultLibrary/Wa
   angles 89.866 -63.926 64.562
  }
 }
-GenericEntity : "{B088F5F8EA2ADEF6}Prefabs/Structures/BuildingParts/Doors/Doorset_GuardHouse_03_A_EXT_B.et" {
- components {
-  Hierarchy "{612AE78C85563E26}" {
-   Enabled 1
-   PivotID "socket_door_ext_04"
-   AutoTransform 1
-  }
- }
- coords 2853.216 299.681 1142.658
- angles 0.066 86.441 1.059
- scale 0.93
- {
-  GenericEntity {
-   ID "566E8B42DFA362F7"
-   components {
-    DoorComponent "{221C667A9F7D4B69}" {
-     DoorAction SCR_DoorUserAction "{50888D3646A61640}" {
-      ParentContextList {
-       ""
-      }
-     }
-    }
-   }
-   coords 0 0 0
-   angles 0 -78.636 4.235
-  }
-  GenericEntity {
-   ID "566E8B42DFA362EC"
-   components {
-    DoorComponent "{221C667A9F7D4B69}" {
-     DoorAction SCR_DoorUserAction "{50888D3646A61640}" {
-      ParentContextList {
-       ""
-      }
-     }
-    }
-   }
-  }
- }
-}
 SCR_DestructibleBuildingEntity : "{B09D999506CDF092}Prefabs/Vehicles/dz-76/armst_veh_dz_76.et" {
  coords 6625.126 303.128 1809.618
 }
@@ -1972,9 +1537,6 @@ Tree : "{B1B7D4FC059630B0}Prefabs/Vegetation/Plant/Hedera_Helix/p_hedera_helix_c
  coords 2848.281 0 1144.017
  angles 0 -0.118 0
  scale 0.79
-}
-GenericEntity : "{B2DCC836439482A9}Prefabs/Props/Garbage/Generic/GarbageGeneric_01_sparse.et" {
- coords 2849.506 299.681 1136.858
 }
 $grp GenericEntity : "{B3283803059E2750}Prefabs/Props/Crates/CrateWooden_01_plain.et" {
  {
@@ -1985,34 +1547,10 @@ $grp GenericEntity : "{B3283803059E2750}Prefabs/Props/Crates/CrateWooden_01_plai
   coords 6179.849 307.078 1254.288
   angles -47.102 -94.985 0
  }
- {
-  components {
-   Hierarchy "{54C2B2BF966B2667}" {
-    Enabled 1
-   }
-  }
-  coords 2856.526 300.495 1139.088
-  angles 0 -45.112 0
- }
-}
-GenericEntity : "{B3CF0487BB36323B}Prefabs/Props/Furniture/LampFluorescent/LampFluorescent_01.et" {
- coords 2858.682 302.375 1140.128
- angles 0 -95.202 0
-}
-GenericEntity : "{B4C0CD6E1347BC3D}Prefabs/Props/Recreation/Beach/BlanketFolded_01/BlanketFolded_01_base.et" {
- coords 2849.522 300.086 1142.353
-}
-GenericEntity : "{B898D2A1F45058F6}Prefabs/Props/Garbage/Military/Food/GarbageFoodMilitaryUSSR_01.et" {
- coords 2850.644 300.598 1143.502
 }
 GenericEntity : "{BA35772B248860EE}Prefabs/destructible/door_light/door_light_8.et" {
  coords 6186.869 306.025 1261.456
  angles 0 78.121 0
-}
-GenericEntity : "{BD04CAACD8066E52}Prefabs/posters/Poster_6.et" {
- coords 2848.726 300.634 1142.272
- angles 0.219 85.432 4.824
- scale 1.5
 }
 GenericEntity : "{C17CD853BD11F260}Prefabs/books/books_dropped.et" {
  coords 6633.236 303.961 1824.39
@@ -2038,18 +1576,6 @@ $grp GenericEntity : "{C19985048E2EA76E}Prefabs/Props/dead_skeleton_rebro.et" {
   coords 6611.532 303.848 1844.372
   angles -54.745 150.242 2.373
  }
-}
-GenericEntity : "{C260F0E07274ACA1}Prefabs/Props/Furniture/Boiler_01.et" {
- coords 2860.935 301.667 1138.563
- angles 0 -94.475 0
-}
-GenericEntity : "{C58BDB4D22E0A5A7}Prefabs/Props/Garbage/Generic/Litter_01_large.et" {
- coords 2856.893 299.681 1137.952
- angles 0 -24.279 0
-}
-Tree : "{C7F7B3047E951E4C}Prefabs/Vegetation/Plant/Hedera_Helix/p_hedera_helix_corner_03_aut.et" {
- coords 2861.589 3.228 1137.169
- angles -90 -94.615 177.339
 }
 $grp GenericEntity : "{CB67A30D05AA4F29}Prefabs/Items/Medicine/armst_itm_medkit_ai2.et" {
  armst_itm_medkit_ai2_68A6565649F8C333 {
@@ -2080,122 +1606,10 @@ $grp GenericEntity : "{CBDB5C21917529C7}Prefabs/Props/Remains/SkeletonRemains/Sk
   angles 0.525 30.605 -1.761
  }
 }
-$grp GenericEntity : "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et" {
- {
-  coords 6179.641 308.5 1254.461
-  angles 0.241 -10.278 -90.133
-  scale 0.5
- }
- {
-  components {
-   Hierarchy "{5CCCBEF0E3B251AE}" {
-    Enabled 1
-   }
-  }
-  coords 2853.654 301.935 1137.661
-  angles -1.396 179.301 97.21
-  scale 0.66
- }
- {
-  components {
-   Hierarchy "{5CCCBEF0E3B251AE}" {
-    Enabled 1
-   }
-  }
-  coords 2853.747 300.06 1138.988
-  angles 1.014 -3.711 -97.274
-  scale 0.66
- }
- {
-  components {
-   Hierarchy "{5CCCBEF0E3B251AE}" {
-    Enabled 1
-   }
-  }
-  coords 2853.557 301.979 1139.067
-  angles -1.135 177.239 97.256
-  scale 0.66
- }
- {
-  components {
-   Hierarchy "{5CCCBEF0E3B251AE}" {
-    Enabled 1
-   }
-  }
-  coords 2853.309 300.847 1140.634
-  angles -88.832 -95.29 1.558
-  scale 0.66
- }
- {
-  components {
-   Hierarchy "{5CCCBEF0E3B251AE}" {
-    Enabled 1
-   }
-  }
-  coords 2853.434 300.884 1140.649
-  angles -88.547 55.858 21.271
-  scale 0.66
- }
- {
-  components {
-   Hierarchy "{5CCCBEF0E3B251AE}" {
-    Enabled 1
-   }
-  }
-  coords 2856.819 301.024 1139.762
-  angles -88.547 55.858 28
-  scale 0.732
- }
- {
-  components {
-   Hierarchy "{5CCCBEF0E3B251AE}" {
-    Enabled 1
-   }
-  }
-  coords 2856.775 301.003 1140.477
-  angles -88.547 55.858 28
-  scale 0.732
- }
- {
-  components {
-   Hierarchy "{5CCCBEF0E3B251AE}" {
-    Enabled 1
-   }
-  }
-  coords 2856.655 301.013 1141.212
-  angles -88.547 55.858 28
-  scale 0.732
- }
- {
-  components {
-   Hierarchy "{5CCCBEF0E3B251AE}" {
-    Enabled 1
-   }
-  }
-  coords 2856.811 300.958 1140.476
-  angles 49.679 -8.06 -91.01
-  scale 0.66
- }
- {
-  components {
-   Hierarchy "{5CCCBEF0E3B251AE}" {
-    Enabled 1
-   }
-  }
-  coords 2856.749 300.09 1140.527
-  angles 0.91 -5.507 -89.167
-  scale 0.66
- }
- {
-  components {
-   Hierarchy "{5CCCBEF0E3B251AE}" {
-    Enabled 1
-   }
-  }
-  coords 2856.751 301.958 1140.465
-  angles 0.91 -5.507 -89.167
-  scale 0.66
- }
+GenericEntity : "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et" {
+ coords 6179.641 308.5 1254.461
+ angles 0.241 -10.278 -90.133
+ scale 0.5
 }
 DecalEntity : "{CCE57C4C9C0E5009}Prefabs/Decals/Blood/BloodStain_Small_01.et" {
  coords 6177.958 1.562 1260.337
@@ -2227,22 +1641,9 @@ $grp SCR_DestructibleEntity : "{D0FAE63E6FEFCEA5}PrefabLibrary/DefaultLibrary/Wa
   angles 0 88.383 0
  }
 }
-GenericEntity : "{D275DB668C906596}Prefabs/Props/Recreation/Beach/BlanketBeach_01/dst/BlanketBeach_01_dst_02_red.et" {
- coords 2850.356 300.197 1139.368
- angles 0 89.288 0
- scale 0.92
-}
 GenericEntity : "{D434ACF74B443D4E}Prefabs/Props/Remains/SkeletonRemains/SkeletonRemains_01_V3.et" {
  coords 6631.709 308.264 1823.408
  angles 27.602 0 -28.844
-}
-GenericEntity : "{D62A80FF7E61B2FA}Prefabs/Props/Furniture/LightTable_01.et" {
- coords 2849.904 300.598 1143.828
- angles 0 136.578 0
-}
-GenericEntity : "{DAFA84A74B550694}Prefabs/Structures/BuildingParts/Heating/RadiatorCastIron_01/RadiatorCastIron_01_95.et" {
- coords 2858.929 300.115 1136.866
- angles 0 -4.575 0
 }
 $grp GenericEntity : "{DB17133F11B2B8C5}Prefabs/Props/Construction/ConcretePipe/ConcretePipe_01_Short.et" {
  {
@@ -2264,34 +1665,9 @@ $grp GenericEntity : "{DB17133F11B2B8C5}Prefabs/Props/Construction/ConcretePipe/
 GenericEntity : "{DF3EF41CE4D441DE}Prefabs/Props/Industrial/BarrelMetal_01_rust.et" {
  coords 6632.91 303.487 1817.646
 }
-GenericEntity : "{E28A1732DA84AD7A}Prefabs/Trash/Food/GarbageFoodMilitaryUS_01.et" {
- coords 2850.912 300.598 1143.572
- angles 0 128.682 0
-}
-GenericEntity : "{E61CD558044BD5EA}Prefabs/Electric/holodos.et" {
- coords 2860.512 299.681 1138.57
- angles 0 84.05 0
-}
-$grp GenericEntity : "{E67E7C6D9340BED5}Prefabs/Structures/BuildingParts/Misc/VentCover_01_3x1.et" {
- {
-  coords 2856.611 299.926 1144.558
-  angles 0 176.099 0
- }
- {
-  coords 2848.858 299.867 1140.545
-  angles 0 85.958 0
- }
-}
-GenericEntity : "{EA8D922E189837C2}Prefabs/Props/Civilian/Suitcase_04_open.et" {
- coords 2849.478 300.048 1141.68
- angles 0 79.714 0
-}
 SCR_DestructibleBuildingEntity : "{F08D8E78433D713A}Prefabs/Structures/Houses/Shed/Shed_01/Shed_01.et" {
  coords 6631.034 0.016 1831.922
  angles 0 -29.234 0
-}
-GenericEntity : "{F4123D86F860B5E1}Prefabs/Props/Garbage/Medical/GarbageMedicalUSSR_02.et" {
- coords 2850.379 299.681 1141.467
 }
 $grp GenericEntity : "{FA2806411E2B8AE7}Prefabs/Props/Furniture/Desk_01_Base.et" {
  {
@@ -2306,12 +1682,4 @@ $grp GenericEntity : "{FA2806411E2B8AE7}Prefabs/Props/Furniture/Desk_01_Base.et"
   coords 4069.629 307.436 1363.165
   angles 0 131.837 0
  }
- {
-  coords 2849.735 299.692 1144.026
-  angles 0 -178.27 0
- }
-}
-GenericEntity : "{FBC61238A0B3B56F}Prefabs/Props/Industrial/ConcretePanel_01_Base.et" {
- coords 2853.575 300.605 1138.375
- angles -88.481 -37.331 123.693
 }

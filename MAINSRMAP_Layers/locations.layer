@@ -610,6 +610,10 @@ $grp GenericEntity {
    MeshObject "{6AA80A0204A7704E}" {
     Object "{4BDB9D733EF7191F}Assets/Structures/Military/Houses/Barracks_E_03/BuildingAddons/Win_Bars_Soviet_170x182_01.xob"
    }
+   RigidBody "{6AB82D159086C07A}" {
+    ModelGeometry 1
+    Static 1
+   }
   }
   coords 4640.503 310.214 982.6
   angles 0 94.779 0
@@ -619,6 +623,10 @@ $grp GenericEntity {
   components {
    MeshObject "{6AA80A0204A7704E}" {
     Object "{4BDB9D733EF7191F}Assets/Structures/Military/Houses/Barracks_E_03/BuildingAddons/Win_Bars_Soviet_170x182_01.xob"
+   }
+   RigidBody "{6AB82D159DCC8A9D}" {
+    ModelGeometry 1
+    Static 1
    }
   }
   coords 4638.483 310.15 985.236
@@ -630,6 +638,10 @@ $grp GenericEntity {
    MeshObject "{6AA80A0204A7704E}" {
     Object "{4BDB9D733EF7191F}Assets/Structures/Military/Houses/Barracks_E_03/BuildingAddons/Win_Bars_Soviet_170x182_01.xob"
    }
+   RigidBody "{6AB82D1597497792}" {
+    ModelGeometry 1
+    Static 1
+   }
   }
   coords 4636.08 310.15 985.437
   angles 0 4.779 0
@@ -640,6 +652,10 @@ $grp GenericEntity {
    MeshObject "{6AA80A0135CC32D9}" {
     Object "{1F3C09DCC07AC07E}Assets/Structures/BuildingsParts/Windows/Win_Bars_A_130x182_B.xob"
    }
+   RigidBody "{6AB82D10FFC37D6C}" {
+    ModelGeometry 1
+    Static 1
+   }
   }
   coords 5743.494 313.286 2289.876
   angles 0 -57.397 0
@@ -649,6 +665,10 @@ $grp GenericEntity {
   components {
    MeshObject "{6AA80A0135CC32D9}" {
     Object "{1F3C09DCC07AC07E}Assets/Structures/BuildingsParts/Windows/Win_Bars_A_130x182_B.xob"
+   }
+   RigidBody "{6AB82D10FBDECD42}" {
+    ModelGeometry 1
+    Static 1
    }
   }
   coords 5744.307 313.286 2291.146
@@ -29679,7 +29699,7 @@ $grp Tree : "{26303B00ADCC126A}Prefabs/Vegetation/Tree/t_sorbus_aucuparia/t_sorb
   scale 0.899
  }
 }
-$grp SCR_DestructibleBuildingEntity : "{267F0561BD2A8A64}Prefabs/Vehicles/azlk412/armst_azlk412_2_wreck.et" {
+$grp GenericEntity : "{267F0561BD2A8A64}Prefabs/Vehicles/azlk412/armst_azlk412_2_wreck.et" {
  {
   coords 3576.144 304.94 1047.299
   angles 16.225 -56.195 176.655
@@ -42717,7 +42737,7 @@ $grp StaticModelEntity : "{2CF6244D6C76F560}Prefabs/Terrain/Erosion/ErodedEmbank
   scale 11.001
  }
  {
-  coords 5402.917 324.716 2219.09
+  coords 5402.917 325.659 2219.071
   angles -0.662 129.563 0.964
   scale 3.672
  }
@@ -59971,7 +59991,7 @@ GenericEntity : "{45D056CC11985141}Prefabs/Props/Wrecks/S1203_wreck/S1203_wreck.
  coords 5778.729 311.104 2305.626
  angles -0.363 -136.69 -1.572
 }
-$grp SCR_DestructibleBuildingEntity : "{45E53C8D7E30FB5F}Prefabs/Vehicles/azlk412/armst_azlk412_wreck.et" {
+$grp GenericEntity : "{45E53C8D7E30FB5F}Prefabs/Vehicles/azlk412/armst_azlk412_wreck.et" {
  {
   coords 4660.657 310.162 1979.659
   angles -3.623 -20.679 -5.776
@@ -87049,7 +87069,7 @@ $grp GenericEntity : "{5B17515707F080E0}Prefabs/Props/Industrial/CargoContainers
   angles 0 179.467 0
  }
 }
-$grp SCR_DestructibleBuildingEntity : "{5B2777BA82B53DA6}Prefabs/Vehicles/azlk412/armst_azlk412_wreck4.et" {
+$grp GenericEntity : "{5B2777BA82B53DA6}Prefabs/Vehicles/azlk412/armst_azlk412_wreck4.et" {
  {
   coords 3754.367 301.214 2234.136
   angles 0 -124.55 0
@@ -94450,7 +94470,7 @@ $grp SCR_DestructibleEntity : "{66123ED9CAB934D8}Prefabs/Structures/Infrastructu
   angles 0 -86.527 0
  }
 }
-$grp SCR_DestructibleBuildingEntity : "{66135282F7D9B491}Prefabs/Vehicles/azlk412/armst_azlk412_wreck3.et" {
+$grp GenericEntity : "{66135282F7D9B491}Prefabs/Vehicles/azlk412/armst_azlk412_wreck3.et" {
  {
   coords 1618.638 305.877 343.622
   angles 9.43 72.515 16.035
@@ -108139,11 +108159,6 @@ $grp SCR_DestructibleBuildingEntity : "{7720B78DED8FAB50}Prefabs/Perimetr/wall_p
  }
  {
   coords 5421.98 322.17 2362.544
-  angles 0 -85.458 0
-  scale 1.38
- }
- {
-  coords 5418.24 322.17 2314.871
   angles 0 -85.458 0
   scale 1.38
  }
@@ -124772,7 +124787,7 @@ $grp GenericEntity : "{835CFAD8AF023440}Prefabs/Compositions/Misc/SubComposition
   angles 0 -50.586 0
  }
 }
-SCR_DestructibleBuildingEntity : "{838F1E7BFB3C23FA}Prefabs/Vehicles/azlk412/armst_azlk412_wreck2.et" {
+GenericEntity : "{838F1E7BFB3C23FA}Prefabs/Vehicles/azlk412/armst_azlk412_wreck2.et" {
  coords 3400.43 306.601 2018.774
  angles -4.675 -80.751 6.444
 }
@@ -128398,7 +128413,7 @@ $grp GenericEntity : "{8BE153775299BA55}Prefabs/Compositions/Misc/SubComposition
   angles 0 -114.563 0
  }
 }
-$grp SCR_DestructibleBuildingEntity : "{8C060E332CFDBF79}Prefabs/Vehicles/azlk412/armst_azlk412_1_wreck.et" {
+$grp GenericEntity : "{8C060E332CFDBF79}Prefabs/Vehicles/azlk412/armst_azlk412_1_wreck.et" {
  {
   coords 3467.559 302.48 802.464
   angles 0 -80.656 0
@@ -197647,7 +197662,7 @@ $grp SCR_DestructibleBuildingEntity : "{E8C14F26268A4D6D}Prefabs/Structures/Serv
          "6cb2c4ba-76aa-4307-8a88-ef74008d74e0"
          "74e9d4b1-5100-4001-99ac-acb8b93a19b8"
          "ba811efc-d31e-40c8-b05b-bac42fa3923e"
-         "0eaf701d-365a-4b93-8ff1-a1b5e64e8fc"
+         "0eaf701d-365a-4b93-8ff1-a1b5e640e8fc"
          "cf08c0aa-e997-433b-b7d4-050021c54bff"
         }
        }

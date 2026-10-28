@@ -83,6 +83,11 @@ $grp GenericEntity {
   angles 0 80.39 0
  }
 }
+ParticleEffectEntity {
+ coords 5419.111 329.627 2316.45
+ angles 0 9.396 0
+ EffectPath "{5B82BABCDF3FDF57}Prefabs/Anomals/Zero_gravy/data/line_wrapper_betons.ptc"
+}
 $grp SplineShapeEntity {
  {
   coords 1147.688 297.733 1303.497
@@ -349,6 +354,10 @@ GenericEntity : "{094DA750D7E9A807}Prefabs/Props/Military/Training/Obstacles/Obs
    coords 0 -0.386 0
   }
  }
+}
+SCR_DestructibleBuildingEntity : "{09D982B92B22C142}Prefabs/Structures/Ruins/House_Ruin_1I01/House_Ruin_1I01_V3.et" {
+ coords 2857.854 0 1138.849
+ angles 0 170 0
 }
 $grp GenericEntity : "{0A4218ED97A10411}Prefabs/Props/Furniture/ShelfBarracks_01.et" {
  {
@@ -959,6 +968,11 @@ GameEntity : "{2CB0AA2A87842C18}Prefabs/Props/Civilian/LampKerosene_01/LampKeros
  coords 2105.427 309.403 2221.525
  angles 0 30.154 0
 }
+StaticModelEntity : "{2CF6244D6C76F560}Prefabs/Terrain/Erosion/ErodedEmbankment_01/ErodedEmbankment_01_dirt_straight.et" {
+ coords 5443.455 325.598 2231.398
+ angles -1.16 -167.56 -0.15
+ scale 3.672
+}
 GenericEntity : "{31627435F2C7CBF4}Prefabs/Props/Services/Healthcare/CabinetMedical_01_single.et" {
  coords 1267.427 298.136 1324.344
  angles 0 5 0
@@ -1138,6 +1152,23 @@ $grp LightEntity : "{5BF23CDF9B8FB366}Prefabs/Structures/Industrial/Towers/Light
   VolLightOffset -0.085
   VolLightIntensity 0.1
   LensFlareOffset -0.178
+ }
+}
+StaticModelEntity : "{5D0248A228159B01}Prefabs/Structures/Debris/DebrisPile/DebrisPile_Concrete_01_Debris_V4.et" {
+ coords 5420.036 322.085 2318.475
+ angles 0 -29.66 52.303
+ scale 2.79
+}
+$grp StaticModelEntity : "{60366D9A5D791236}Prefabs/Structures/Debris/DebrisPile/DebrisPile_Concrete_01_Debris_V3.et" {
+ {
+  coords 5418.647 325.121 2320.257
+  angles 0 -176.028 0
+  scale 3.793
+ }
+ {
+  coords 5417.532 324.557 2309.225
+  angles 0 -4.19 0
+  scale 3.48
  }
 }
 SCR_DestructibleEntity : "{664176B900CE86B2}PrefabLibrary/DefaultLibrary/Walls/Net/NetFence_03_2m.et" {
@@ -1518,6 +1549,15 @@ GenericEntity : "{702955C2148F24DC}Prefabs/Props/Amplion_Siren.et" {
  coords 1135.522 306.211 1303.566
  angles 0 124.194 0
 }
+ParticleEffectEntity : "{75549B2A4EC131EC}Prefabs/Anomals/Zero_gravy/ARMST_ZERO_GRAVY_BETONS.et" {
+ components {
+  SCR_EditableEntityComponent "{65B67455EB16FFEE}" {
+   Enabled 0
+  }
+ }
+ coords 5416.214 324.814 2314.878
+ angles 0 9.396 0
+}
 $grp GenericEntity : "{795552B887CD50E7}Prefabs/Props/Industrial/ConcretePanel_01_stack.et" {
  {
   coords 1211.37 297.733 1390.496
@@ -1622,6 +1662,18 @@ $grp SCR_DestructibleEntity : "{850FA846E37E385D}Prefabs/Structures/Walls/Concre
 GenericEntity : "{8544338BC20D09B4}Prefabs/Vehicles/ural/armst_ural_wheels.et" {
  coords 1130.237 297.733 1338.601
  angles 0 -87.935 0
+}
+$grp StaticModelEntity : "{85AA2163519C855D}Prefabs/Structures/Debris/DebrisPile/DebrisPile_Concrete_01_Debris_V2.et" {
+ {
+  coords 5417.534 328.967 2309.493
+  angles 61.248 -175.156 -180
+  scale 2.853
+ }
+ {
+  coords 5418.62 329.514 2319.903
+  angles -69.102 179.254 -180
+  scale 3.254
+ }
 }
 $grp SCR_DestructibleEntity : "{879865F07EA907B0}Prefabs/Structures/Walls/Concrete/ConcreteWall_02/ConcreteWall_02_4m.et" {
  {
@@ -2210,6 +2262,11 @@ SCR_DestructibleBuildingEntity : "{9E72F044008AB5B2}Prefabs/Structures/Military/
    }
   }
  }
+}
+StaticModelEntity : "{9F9516E7AFB67010}Prefabs/Structures/Debris/DebrisPile/DebrisPile_Concrete_01_Medium.et" {
+ coords 5415.107 323.104 2313.833
+ angles 0 34.796 0
+ scale 3.42
 }
 GenericEntity : "{A4068A65FAD1778F}Prefabs/Props/Military/Training/Obstacles/ObstacleRunAround_01.et" {
  coords 1184.33 297.733 1423.951
