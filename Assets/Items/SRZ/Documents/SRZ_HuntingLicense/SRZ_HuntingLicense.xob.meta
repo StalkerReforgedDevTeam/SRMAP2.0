@@ -9,7 +9,7 @@ MetaFileClass {
     }
    }
    MeshParams {
-    MeshParam SRZ_Faction_HuntingLicense_LOD0 {
+    MeshParam SRZ_Faction_HuntingLicense {
     }
    }
    GeometryParams {
@@ -24,6 +24,9 @@ MetaFileClass {
    }
    Common TXOCommonClass "{743B6FE9150AF58F}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
    }
+   ApplicationVendor "Blender Foundation"
+   ApplicationName "Blender (stable FBX IO)"
+   ApplicationVersion "4.2.0"
   }
   FBXResourceClass XBOX_ONE : PC {
    Common TXOCommonClass "{C5EB69BCABB11EA6}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {

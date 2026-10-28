@@ -61,7 +61,7 @@ modded class ARMST_PLAYER_STATS_COMPONENT
 		if (!controller)
 			return;
 
-		// Slowest of radiation sickness and a broken leg wins
+		// Slowest of radiation sickness, a broken leg and hypothermia wins
 		float speed = -1;
 		if (IsRadiationSick())
 			speed = m_fSicknessMoveSpeedMult;
@@ -69,6 +69,10 @@ modded class ARMST_PLAYER_STATS_COMPONENT
 		float legSpeed = SRZ_Legs.GetSpeed(owner);
 		if (legSpeed > 0 && (speed < 0 || legSpeed < speed))
 			speed = legSpeed;
+
+		float sickSpeed = SRZ_Sickness.GetSpeed(owner);
+		if (sickSpeed > 0 && (speed < 0 || sickSpeed < speed))
+			speed = sickSpeed;
 
 		controller.OverrideMaxSpeed(speed);
 	}

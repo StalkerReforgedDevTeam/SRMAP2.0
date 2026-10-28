@@ -1,0 +1,10 @@
+AnimSetInstanceSource "{174EEC4C256E8D7D}" {
+ Template "{C5F3010257E48F24}Anims/workspaces/CUSTOM/CUSTOM_ANIMATION.ast"
+ Lines {
+  AnimSetInstanceSource_Line "Speeches.Open.In" {
+   Resource "{96FC891E9581D66F}Anims/SRZ/anm/p_srz_vomit.anm"
+  }
+ }
+ RBF AnimSetInstanceSourceRBFArray "{DFF755E99D1D06CE}" {
+ }
+}

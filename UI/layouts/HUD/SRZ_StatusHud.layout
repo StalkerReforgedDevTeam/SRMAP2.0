@@ -376,6 +376,51 @@ FrameWidgetClass "{F469BD17BF1DCA18}" {
    }
    Size 32 32
   }
+  ImageWidgetClass "{6166A0539E57C39C}" {
+   Name "SRZ_SH_Thermo"
+   Slot FrameWidgetSlot "{FCFB198D8F3B72F9}" {
+    Anchor 1 1 1 1
+    PositionX -100
+    OffsetLeft -100
+    PositionY -100
+    OffsetTop -100
+    SizeX 32
+    OffsetRight 68
+    SizeY 32
+    OffsetBottom 68
+   }
+   Size 32 32
+  }
+  ImageWidgetClass "{C89EDD35F001D196}" {
+   Name "SRZ_SH_Wet"
+   Slot FrameWidgetSlot "{09A46768A5FED664}" {
+    Anchor 1 1 1 1
+    PositionX -100
+    OffsetLeft -100
+    PositionY -100
+    OffsetTop -100
+    SizeX 32
+    OffsetRight 68
+    SizeY 32
+    OffsetBottom 68
+   }
+   Size 32 32
+  }
+  ImageWidgetClass "{B61B0440C5B1585F}" {
+   Name "SRZ_SH_Sick"
+   Slot FrameWidgetSlot "{2D236F48BD7DD905}" {
+    Anchor 1 1 1 1
+    PositionX -100
+    OffsetLeft -100
+    PositionY -100
+    OffsetTop -100
+    SizeX 32
+    OffsetRight 68
+    SizeY 32
+    OffsetBottom 68
+   }
+   Size 32 32
+  }
   ImageWidgetClass "{1EFD756B72293274}" {
    Name "SRZ_SH_StamBg"
    Slot FrameWidgetSlot "{6330152AE39E1D35}" {

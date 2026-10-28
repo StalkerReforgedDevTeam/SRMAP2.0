@@ -9,7 +9,7 @@ MetaFileClass {
     }
    }
    MeshParams {
-    MeshParam SRZ_Junk_CigaretteCase_LOD0 {
+    MeshParam SRZ_Junk_CigaretteCase {
     }
    }
    GeometryParams {
@@ -24,6 +24,9 @@ MetaFileClass {
    }
    Common TXOCommonClass "{8CC54B94496196CA}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
    }
+   ApplicationVendor "Blender Foundation"
+   ApplicationName "Blender (stable FBX IO)"
+   ApplicationVersion "4.2.0"
   }
   FBXResourceClass XBOX_ONE : PC {
    Common TXOCommonClass "{A7A0DC78320970DD}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {

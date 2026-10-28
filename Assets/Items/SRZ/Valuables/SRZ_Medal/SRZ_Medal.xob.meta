@@ -9,7 +9,7 @@ MetaFileClass {
     }
    }
    MeshParams {
-    MeshParam SRZ_Junk_Medal_LOD0 {
+    MeshParam SRZ_Junk_Medal {
     }
    }
    GeometryParams {
@@ -24,6 +24,9 @@ MetaFileClass {
    }
    Common TXOCommonClass "{BBFB69FE089E939B}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
    }
+   ApplicationVendor "Blender Foundation"
+   ApplicationName "Blender (stable FBX IO)"
+   ApplicationVersion "4.2.0"
   }
   FBXResourceClass XBOX_ONE : PC {
    Common TXOCommonClass "{F83BC4D54B822D0C}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {

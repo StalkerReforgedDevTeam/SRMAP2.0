@@ -9,7 +9,7 @@ MetaFileClass {
     }
    }
    MeshParams {
-    MeshParam SRZ_Prop_OldCooler_LOD0 {
+    MeshParam SRZ_Prop_OldCooler {
     }
    }
    GeometryParams {
@@ -24,6 +24,9 @@ MetaFileClass {
    }
    Common TXOCommonClass "{985663A6CFB1E6BA}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
    }
+   ApplicationVendor "Blender Foundation"
+   ApplicationName "Blender (stable FBX IO)"
+   ApplicationVersion "4.2.0"
   }
   FBXResourceClass XBOX_ONE : PC {
    Common TXOCommonClass "{057E4C296D2E69B6}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {

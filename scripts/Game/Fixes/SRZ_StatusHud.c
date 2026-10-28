@@ -33,6 +33,9 @@ class SRZ_StatusHud
 	protected static const int WHITE = ARGB(255, 242, 241, 236);
 	protected static const int YELLOW = ARGB(255, 233, 197, 72);
 	protected static const int RED = ARGB(255, 217, 65, 47);
+	protected static const int LIGHT_BLUE = ARGB(255, 150, 205, 240);
+	protected static const int BLUE = ARGB(255, 70, 140, 230);
+	protected static const int LIGHT_RED = ARGB(255, 235, 140, 110);
 	protected static const int SHADOW = ARGB(120, 0, 0, 0);
 	protected static const int STAM_BG = ARGB(140, 0, 0, 0);
 	protected static const int SEP = ARGB(64, 242, 241, 236);
@@ -45,6 +48,9 @@ class SRZ_StatusHud
 	protected static ImageWidget s_wBleed;
 	protected static ImageWidget s_wBone;
 	protected static ImageWidget s_wStim;
+	protected static ImageWidget s_wThermo;
+	protected static ImageWidget s_wWet;
+	protected static ImageWidget s_wSick;
 	protected static ImageWidget s_wStamBg;
 	protected static ImageWidget s_wStamFill;
 	protected static TextWidget s_wStimText;
@@ -58,6 +64,10 @@ class SRZ_StatusHud
 	protected static ref array<float> s_aPsyDropTimes = {};
 	protected static ref array<float> s_aPsyDrops = {};
 	protected static int s_iLegState;
+	protected static int s_iTempBand;
+	protected static int s_iWet;
+	protected static int s_iSick;
+	protected static bool s_bSickDraining;
 	protected static bool s_bWatching;
 
 	//------------------------------------------------------------------------------------------------
@@ -75,6 +85,9 @@ class SRZ_StatusHud
 			case "Health": return "{8E9C5C1C4430C935}UI/Textures/SRZ/HUD/SRZ_Hud_Health.edds";
 			case "Rad": return "{8D24770D757CCD40}UI/Textures/SRZ/HUD/SRZ_Hud_Rad.edds";
 			case "Stim": return "{C5A720677798A4A4}UI/Textures/SRZ/HUD/SRZ_Hud_Stim.edds";
+			case "Thermo": return "{37C5EDF6AD5DAAE1}UI/Textures/SRZ/HUD/SRZ_Hud_Thermo.edds";
+			case "Wet": return "{3FE6546F26A05373}UI/Textures/SRZ/HUD/SRZ_Hud_Wet.edds";
+			case "Sick": return "{29BB32EA3D048840}UI/Textures/SRZ/HUD/SRZ_Hud_Sick.edds";
 			case "Water": return "{E8E7284604754140}UI/Textures/SRZ/HUD/SRZ_Hud_Water.edds";
 			case "White": return "{BF04947D531991A2}UI/Textures/SRZ/HUD/SRZ_Hud_White.edds";
 		}
@@ -86,6 +99,16 @@ class SRZ_StatusHud
 	static void SetLegState(int state)
 	{
 		s_iLegState = state;
+	}
+
+	//------------------------------------------------------------------------------------------------
+	// From SRZ_Sickness every 10 seconds: temperature band, wetness level, sick icon state
+	static void SetSickness(int tempBand, int wet, int sick, bool draining)
+	{
+		s_iTempBand = tempBand;
+		s_iWet = wet;
+		s_iSick = sick;
+		s_bSickDraining = draining;
 	}
 
 	//------------------------------------------------------------------------------------------------
@@ -282,6 +305,26 @@ class SRZ_StatusHud
 		else
 			SetPopup(s_wBone, s_iLegState == SRZ_Legs.BROKEN, RED, false);
 
+		// Thermometer: only outside the comfortable band, blue when cold, red when hot, flashing when health drains
+		int tempColor = WHITE;
+		bool tempDim = false;
+		if (s_iTempBand == SRZ_Sickness.BAND_COLD) tempColor = LIGHT_BLUE;
+		else if (s_iTempBand == SRZ_Sickness.BAND_FREEZING) tempColor = BLUE;
+		else if (s_iTempBand == SRZ_Sickness.BAND_HYPOTHERMIA) { tempColor = BLUE; tempDim = !blinkOn; }
+		else if (s_iTempBand == SRZ_Sickness.BAND_HOT) tempColor = LIGHT_RED;
+		else if (s_iTempBand == SRZ_Sickness.BAND_HEATSTROKE) { tempColor = RED; tempDim = !blinkOn; }
+		SetPopup(s_wThermo, s_iTempBand != SRZ_Sickness.BAND_COMFORT, tempColor, tempDim);
+
+		int wetColor = WHITE;
+		if (s_iWet >= 2)
+			wetColor = LIGHT_BLUE;
+		SetPopup(s_wWet, s_iWet > 0, wetColor, false);
+
+		int sickColor = WHITE;
+		if (s_iSick >= SRZ_Sickness.SICK_BAD)
+			sickColor = RED;
+		SetPopup(s_wSick, s_iSick != SRZ_Sickness.SICK_NONE, sickColor, s_bSickDraining && !blinkOn);
+
 		float stimLeft;
 		bool sidePhase;
 		bool stim = SRZ_StimHud.SRZ_GetActive(stimLeft, sidePhase);
@@ -325,7 +368,7 @@ class SRZ_StatusHud
 	{
 		float top = -BOTTOM - 42 - ICON + (ICON - POPUP) / 2;
 		float x = -RIGHT - SLOT * 4 - SLOT_GAP * 3 - SLOT_GAP;
-		bool any = stim || s_wBone.IsVisible() || s_wBleed.IsVisible() || s_wBrain.IsVisible();
+		bool any = stim || s_wBone.IsVisible() || s_wBleed.IsVisible() || s_wBrain.IsVisible() || s_wThermo.IsVisible() || s_wWet.IsVisible() || s_wSick.IsVisible();
 
 		s_wSep.SetVisible(any);
 		if (!any)
@@ -344,7 +387,7 @@ class SRZ_StatusHud
 			x -= 14;
 		}
 
-		array<ImageWidget> order = {s_wBone, s_wBleed, s_wBrain};
+		array<ImageWidget> order = {s_wBone, s_wBleed, s_wBrain, s_wSick, s_wThermo, s_wWet};
 		foreach (ImageWidget w : order)
 		{
 			if (!w.IsVisible())
@@ -417,6 +460,9 @@ class SRZ_StatusHud
 		s_wBleed = SetupPopup("Bleed");
 		s_wBone = SetupPopup("Bone");
 		s_wStim = SetupPopup("Stim");
+		s_wThermo = SetupPopup("Thermo");
+		s_wWet = SetupPopup("Wet");
+		s_wSick = SetupPopup("Sick");
 		s_wStimText = TextWidget.Cast(s_wRoot.FindAnyWidget("SRZ_SH_StimText"));
 		FrameSlot.SetSize(s_wStimText, 52, 24);
 		s_wStimText.SetVisible(false);
