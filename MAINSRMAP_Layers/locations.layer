@@ -52588,6 +52588,7 @@ $grp SCR_DestructibleBuildingEntity : "{3951BF8EC29C556D}PrefabLibrary/DefaultLi
       components {
        SRZ_DoorAccessComponent "{6AA80A03D8B47AAD}" {
         m_sDoorId "mara"
+        m_bLocked 1
         m_aAllowedPlayers {
          "4110a777-f64a-4fd7-9ff3-2fe19c05aff3"
          "731bb696-cc87-4200-bd29-7762bbb118c6"

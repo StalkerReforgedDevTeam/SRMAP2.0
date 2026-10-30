@@ -14613,6 +14613,7 @@ GenericEntity : "{960BDC106B859CFC}Prefabs/Props/Civilian/Birdhouse_01/Birdhouse
      components {
       SRZ_DoorAccessComponent "{6AA80A00ABC678D0}" {
        m_sDoorId "sparta"
+       m_bLocked 1
        m_aAllowedPlayers {
         "3e090cd1-949d-4454-8a57-58acdb9d83e0"
         "23b253c5-f786-48df-aff5-b3ffd1c593d8"
@@ -20301,7 +20302,7 @@ GenericEntity : "{CBFB6247D7EBE1DE}Prefabs/Structures/BuildingParts/Doors/Door_F
  coords 4973.668 306.074 3055.045
  angles 0 -171.822 0
 }
-GameEntity armst_gasmask_m17_6A52FB37A6C06C4F : "{CCEC06C62737F0D4}Prefabs/Equipments/Gasmasks/armst_gasmask_m17.et" {
+GameEntity armst_gasmask_m17_6A52FB37A6C06C4F : "{CCEC06C62737F0D4}Prefabs/New_Equipment/Gasmasks/armst_gasmask_m17.et" {
  coords 3071.297 304.702 2730.013
 }
 $grp GenericEntity : "{D3452CED3BD70204}Prefabs/SRZ_Storage/SRZ_FactionStorage_UKM.et" {

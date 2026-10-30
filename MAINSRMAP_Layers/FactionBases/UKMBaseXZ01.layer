@@ -297,6 +297,46 @@ $grp GenericEntity {
   angles 0 -83.767 0
   scale 1.2
  }
+ {
+  components {
+   MeshObject "{6ABB70C8ECE98F17}" {
+    Object "{74A9218974C65D05}Assets/Props/Military/Training/TargetInfantry_01/TargetInfantry_01.xob"
+   }
+  }
+  angles 0 -90 0
+ }
+ {
+  components {
+   MeshObject "{6ABB70C8ECE98F17}" {
+    Object "{74A9218974C65D05}Assets/Props/Military/Training/TargetInfantry_01/TargetInfantry_01.xob"
+   }
+  }
+  angles 0 -90 0
+ }
+ {
+  components {
+   MeshObject "{6ABB70C8ECE98F17}" {
+    Object "{74A9218974C65D05}Assets/Props/Military/Training/TargetInfantry_01/TargetInfantry_01.xob"
+   }
+  }
+  angles 0 -90 0
+ }
+ {
+  components {
+   MeshObject "{6ABB70C8ECE98F17}" {
+    Object "{74A9218974C65D05}Assets/Props/Military/Training/TargetInfantry_01/TargetInfantry_01.xob"
+   }
+  }
+  angles 0 -90 0
+ }
+ {
+  components {
+   MeshObject "{6ABB70C8ECE98F17}" {
+    Object "{74A9218974C65D05}Assets/Props/Military/Training/TargetInfantry_01/TargetInfantry_01.xob"
+   }
+  }
+  angles 0 -90 0
+ }
 }
 ParticleEffectEntity {
  coords 3875.828 306.739 377.211
@@ -1102,31 +1142,6 @@ GameEntity : "{103CBF9E0B0BC124}Prefabs/Props/Military/Generators/GeneratorMilit
  coords 3798.194 306.702 365.244
  angles 0 87.825 0
 }
-SCR_DestructibleEntity : "{10600321A3EBDB3B}Prefabs/Structures/Industrial/Pipelines/ProductPipeline_01/ProductPipeline_01_high_stairs.et" {
- coords 3816.356 309.742 408.4
- angles 0 90 0
- {
-  GameEntity {
-   ID "657CF4AAA2A5C6A1"
-   components {
-    LadderComponent "{588EECC514BB6DFC}" {
-     BottomFrontPositionInfo PointInfo "{6578D1E722E40A40}" {
-      Offset 0 -5 0
-     }
-    }
-    ActionsManagerComponent "{5916A63C9331DAB0}" {
-     ActionContexts {
-      UserActionContext "{5916A63C9CED0D8A}" {
-       Position PointInfo "{5916A63CE468E545}" {
-        Offset 0 1.28 0
-       }
-      }
-     }
-    }
-   }
-  }
- }
-}
 GenericEntity : "{1112756E8A13445B}Prefabs/Props/Industrial/Pallets/Pallet_01_Pile.et" {
  coords 3821.332 306.702 369.104
  angles 0 -93.571 0
@@ -1357,14 +1372,39 @@ $grp StaticModelEntity : "{1718E28BE8D121A9}Prefabs/Structures/BuildingParts/Doo
   }
  }
 }
-GameEntity : "{1807CFEB6C458DF1}Prefabs/Structures/BuildingParts/Ladders/Ladder_ApartmentBuilding_2I02/Ladder_ApartmentBuilding_2I02_860_B.et" {
- components {
-  MeshObject "{50D6C55BB04A2F5C}" {
-   ClutterOccluder 1
+$grp GameEntity : "{1807CFEB6C458DF1}Prefabs/Structures/BuildingParts/Ladders/Ladder_ApartmentBuilding_2I02/Ladder_ApartmentBuilding_2I02_860_B.et" {
+ {
+  components {
+   MeshObject "{50D6C55BB04A2F5C}" {
+    ClutterOccluder 1
+   }
   }
+  coords 3793.115 8.764 409.272
+  angles 3.969 90 0
  }
- coords 3793.572 8.781 409.272
- angles 3.969 90 0
+ {
+  components {
+   LadderComponent "{588EECC514BB6DFC}" {
+    BottomFrontPositionInfo PointInfo "{6638C166BE10081E}" {
+     Offset 0 -7.5496 0
+    }
+   }
+   MeshObject "{50D6C55BB04A2F5C}" {
+    ClutterOccluder 1
+   }
+   ActionsManagerComponent "{5916A63C9331DAB0}" {
+    ActionContexts {
+     UserActionContext "{5916A63C9CED0D8A}" {
+      Position PointInfo "{5916A63CE468E545}" {
+       Offset 0 -6.7185 0
+      }
+     }
+    }
+   }
+  }
+  coords 3816.627 7.878 408.879
+  angles 3.969 -180 0
+ }
 }
 SCR_DestructibleEntity : "{19DBAA8E5A19F5CC}Prefabs/Structures/Walls/Pipe/PipeRailing_02/PipeRailing_02_Corner_Narrow.et" {
  coords 3791.772 8.739 319.478
@@ -1785,6 +1825,32 @@ GenericEntity : "{36D422D0E5DB68DD}Prefabs/Compositions/Misc/SubCompositions/Sto
   }
  }
 }
+$grp SCR_FiringRangeTarget : "{379D34B0D41DA810}Prefabs/Props/Military/Training/TargetInfantry_01.et" {
+ {
+  coords 3869.29 306.702 333.846
+  angles 0 -90 0
+ }
+ {
+  coords 3871.29 306.702 331.551
+  angles 0 -90 0
+ }
+ {
+  coords 3867.29 306.702 336.082
+  angles 0 -90 0
+ }
+ {
+  coords 3882.778 306.702 341.276
+  angles 0 -90 0
+ }
+ {
+  coords 3884.778 306.702 343.712
+  angles 0 -90 0
+ }
+ {
+  coords 3886.778 306.702 346.506
+  angles 0 -90 0
+ }
+}
 GenericEntity : "{39BCA4AB9352201C}Prefabs/chairs/divan.et" {
  coords 3783.583 315.788 407.715
  angles 1.674 -90.489 1.993
@@ -2047,7 +2113,7 @@ $grp StaticModelEntity : "{5255F7BE946E153F}Prefabs/Structures/Walls/Concrete/Si
     }
    }
   }
-  coords 3780.867 9.725 415.004
+  coords 3780.534 9.705 415.032
   angles 5.529 -90.612 0.045
   scale 0.69
   {
@@ -3248,9 +3314,17 @@ $grp GameEntity : "{8FF50E5D4B417196}Prefabs/Props/Furniture/LampFluorescent/Lam
   }
  }
 }
-GenericEntity : "{937999008F178E82}Prefabs/Props/Military/Sandbags/Sandbag_01_short_high_burlap.et" {
- coords 3782.683 315.758 409.734
- angles 0 -88.247 0
+$grp GenericEntity : "{937999008F178E82}Prefabs/Props/Military/Sandbags/Sandbag_01_short_high_burlap.et" {
+ {
+  coords 3782.683 315.758 409.734
+  angles 0 -88.247 0
+ }
+ {
+  coords 3781.44 315.606 418.184
+ }
+ {
+  coords 3785.894 315.606 418.184
+ }
 }
 $grp GenericEntity : "{942A96E02BC7AFA6}Prefabs/Items/Equipment/Maps/Map_Paper_01/Map_Paper_01_unfolded_table_USSR.et" {
  Map_Paper_01_unfolded_table_USSR_69B2C4713D433F9F {
@@ -6687,6 +6761,10 @@ $grp GenericEntity : "{B547CF929FCC6BB7}Prefabs/Props/Military/Sandbags/Sandbag_
   coords 3779.487 315.371 398.969
   angles 0 95.11 0
  }
+ {
+  coords 3789.821 315.632 417.689
+  angles 0 90 0
+ }
 }
 $grp GenericEntity : "{B61A08FB644D2050}Prefabs/Props/Furniture/LampFluorescent/LampFluorescent_01_exterior.et" {
  {
@@ -7030,6 +7108,14 @@ $grp DecalEntity : "{CCE57C4C9C0E5009}Prefabs/Decals/Blood/BloodStain_Small_01.e
   scale 0.8
  }
 }
+$grp GenericEntity : "{CD67070EFAFC28C7}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_burlap.et" {
+ {
+  coords 3783.661 315.65 418.154
+ }
+ {
+  coords 3788.082 315.65 418.154
+ }
+}
 GenericEntity : "{CF03E052DBF2A88A}Prefabs/Props/Civilian/WallMap_01_Military_UK59L_V1.et" {
  coords 3828.323 311.675 337.738
  angles 0 90.257 0
@@ -7278,6 +7364,104 @@ $grp GameEntity : "{E7FD0B8019E96F73}Prefabs/Structures/BuildingParts/Lights/Lam
   }
   coords 3822.06 314.689 342.444
   angles 0 -46.091 0
+  {
+   LightEntity : "{5BF23CDF9B8FB366}Prefabs/Structures/Industrial/Towers/LightTower_01/LightTower_01_light.et" {
+    coords -0.003 0.203 0.195
+    angles -26.64 0 0
+    LV 5.14
+    VolLightOffset -0.085
+    VolLightIntensity 0.1
+    LensFlareOffset -0.178
+   }
+  }
+ }
+ {
+  components {
+   ParametricMaterialInstanceComponent "{5F1CC00DA3E4F97A}" {
+   }
+  }
+  coords 3817.764 315.413 407.499
+  angles -30 -134.511 0
+  scale 0.833
+  {
+   LightEntity : "{5BF23CDF9B8FB366}Prefabs/Structures/Industrial/Towers/LightTower_01/LightTower_01_light.et" {
+    coords -0.003 0.203 0.195
+    angles -36.294 0 0
+    Color 0.823 0.414 0.106 0
+    LV 7.14
+    SpotAngle 80
+    SpotAngleAttenuation 0.41
+    VolLightOffset -0.085
+    VolLightIntensity 0.1
+    LensFlareOffset -0.178
+   }
+  }
+ }
+ {
+  components {
+   ParametricMaterialInstanceComponent "{5F1CC00DA3E4F97A}" {
+   }
+  }
+  coords 3830.98 315.474 361.384
+  angles -30 0 0
+  scale 0.833
+  {
+   LightEntity : "{5BF23CDF9B8FB366}Prefabs/Structures/Industrial/Towers/LightTower_01/LightTower_01_light.et" {
+    coords -0.003 0.203 0.195
+    angles -36.294 0 0
+    Color 0.823 0.414 0.106 0
+    LV 7.14
+    SpotAngle 80
+    SpotAngleAttenuation 0.41
+    VolLightOffset -0.085
+    VolLightIntensity 0.1
+    LensFlareOffset -0.178
+   }
+  }
+ }
+ {
+  components {
+   ParametricMaterialInstanceComponent "{5F1CC00DA3E4F97A}" {
+   }
+  }
+  coords 3838.102 314.503 331.303
+  angles 0 90 0
+  {
+   LightEntity : "{5BF23CDF9B8FB366}Prefabs/Structures/Industrial/Towers/LightTower_01/LightTower_01_light.et" {
+    coords -0.003 0.203 0.195
+    angles -26.64 0 0
+    LV 5.14
+    VolLightOffset -0.085
+    VolLightIntensity 0.1
+    LensFlareOffset -0.178
+   }
+  }
+ }
+ {
+  components {
+   ParametricMaterialInstanceComponent "{5F1CC00DA3E4F97A}" {
+   }
+  }
+  coords 3833.439 314.503 319.825
+  angles 0 135 0
+  {
+   LightEntity : "{5BF23CDF9B8FB366}Prefabs/Structures/Industrial/Towers/LightTower_01/LightTower_01_light.et" {
+    coords -0.003 0.203 0.195
+    angles -26.64 0 0
+    LV 5.14
+    VolLightOffset -0.085
+    VolLightIntensity 0.1
+    LensFlareOffset -0.178
+   }
+  }
+ }
+ {
+  components {
+   ParametricMaterialInstanceComponent "{5F1CC00DA3E4F97A}" {
+   }
+  }
+  coords 3821.653 314.503 320
+  angles 0 225 0
   {
    LightEntity : "{5BF23CDF9B8FB366}Prefabs/Structures/Industrial/Towers/LightTower_01/LightTower_01_light.et" {
     coords -0.003 0.203 0.195
