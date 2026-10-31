@@ -32,6 +32,13 @@ modded class SCR_ChatComponent
 						return;
 					}
 
+					// Route sickness test command (GM or Admin)
+					if (lower.StartsWith(".sick"))
+					{
+						pc.SRZ_SendSickCommand(msg);
+						return;
+					}
+
 					// Route surge command
 					if (lower == ".surge")
 					{
