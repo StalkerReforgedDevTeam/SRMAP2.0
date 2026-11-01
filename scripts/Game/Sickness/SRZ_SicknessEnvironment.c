@@ -271,8 +271,8 @@ class SRZ_SicknessEnvironment
 	}
 
 	//------------------------------------------------------------------------------------------------
-	// One item's insulation after condition. Database value if set, otherwise the slot default plus half the
-	// item's ARMST fire protection so sealed and armoured suits come out warm.
+	// One item's insulation after condition: the value from SRZ_Insulation.conf, or the slot default plus half
+	// the item's ARMST fire protection when it isn't listed.
 	protected static float SlotValue(IEntity item, float slotDefault)
 	{
 		if (!item)
@@ -282,7 +282,11 @@ class SRZ_SicknessEnvironment
 		if (!stats)
 			return slotDefault;
 
-		float value = stats.m_fSRZ_Insulation;
+		float value = 0;
+		SRZ_InsulationEntry entry = SRZ_InsulationConfig.Get(item.GetPrefabData().GetPrefabName());
+		if (entry)
+			value = entry.m_fInsulation;
+
 		if (value <= 0)
 			value = Math.Min(100, slotDefault + stats.m_fProtectionThermoLevel * 0.5);
 
@@ -319,15 +323,15 @@ class SRZ_SicknessEnvironment
 		array<IEntity> items = {loadout.GetClothFromArea(LoadoutHeadCoverArea), loadout.GetClothFromArea(LoadoutJacketArea)};
 		foreach (IEntity item : items)
 		{
-			if (!item)
+			if (!item || !item.GetPrefabData())
 				continue;
 
-			ARMST_ITEMS_STATS_COMPONENTS stats = ARMST_ITEMS_STATS_COMPONENTS.Cast(item.FindComponent(ARMST_ITEMS_STATS_COMPONENTS));
-			if (stats && stats.m_bSRZ_Waterproof)
+			SRZ_InsulationEntry entry = SRZ_InsulationConfig.Get(item.GetPrefabData().GetPrefabName());
+			if (entry && entry.m_bWaterproof)
 				return true;
 		}
 
-		// Helmets and hoods shed rain even without the flag
+		// Helmets and hoods shed rain even when not listed
 		IEntity head = loadout.GetClothFromArea(LoadoutHeadCoverArea);
 		if (head && head.GetPrefabData())
 		{

@@ -45,5 +45,7 @@ MetaFileClass {
    Common TXOCommonClass "{750CFC2364D60002}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
    }
   }
+  FBXResourceClass Xbox : PC {
+  }
  }
 }

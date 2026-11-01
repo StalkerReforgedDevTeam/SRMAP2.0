@@ -3,49 +3,7 @@
 // and the medicine that treats them. Server side, ticks every 10 seconds per player.
 // Values are saved through relogs and restarts and cleared on death.
 // Layout follows DayZ: Stats, Environment, Agents, Modifiers, Symptoms, in the files next to this one.
-
-// Two optional fields on every clothing row in the item database. 0 insulation means
-// "use the default for the slot", so nothing changes until a row is edited.
-modded class ARMST_DATABASE_ITEM_STATS
-{
-	[Attribute("0", UIWidgets.Slider, "Insulation 0 to 100, 0 = slot default (SRZ Sickness)", "0 100 1", category: "SRZ Sickness")]
-	float m_fSRZ_Insulation;
-
-	[Attribute("false", UIWidgets.CheckBox, "Waterproof, halves rain wetness (SRZ Sickness)", category: "SRZ Sickness")]
-	bool m_bSRZ_Waterproof;
-}
-
-modded class ARMST_ITEMS_STATS_COMPONENTS
-{
-	float m_fSRZ_Insulation;
-	bool m_bSRZ_Waterproof;
-
-	//------------------------------------------------------------------------------------------------
-	override void LoadParamsFromDatabase()
-	{
-		super.LoadParamsFromDatabase();
-
-		ResourceName prefab = GetOwner().GetPrefabData().GetPrefabName();
-		if (prefab.IsEmpty())
-			return;
-
-		ARMST_EDITOR_GLOBAL_SETTINGS db = ARMST_EDITOR_GLOBAL_SETTINGS.GetInstance();
-		if (!db)
-			return;
-
-		ARMST_DATABASE_ITEM dbItem = db.FindItemByPrefab(prefab);
-		if (!dbItem)
-			return;
-
-		array<ref ARMST_DATABASE_ITEM_STATS> statsList = new array<ref ARMST_DATABASE_ITEM_STATS>();
-		dbItem.GetItemStatList(statsList);
-		if (statsList.Count() == 0)
-			return;
-
-		m_fSRZ_Insulation = statsList[0].m_fSRZ_Insulation;
-		m_bSRZ_Waterproof = statsList[0].m_bSRZ_Waterproof;
-	}
-}
+// Insulation comes from slot defaults plus the item's ARMST fire protection, see SRZ_SicknessEnvironment.
 
 // Medicine and bad food go through the same hook as the stims
 modded class ARMST_Consumable
@@ -103,7 +61,7 @@ class SRZ_Sickness
 
 		s_bTicking = true;
 		GetGame().GetCallqueue().CallLater(Tick, TICK * 1000, true);
-		Print("[SRZ Sickness] Ticking every " + TICK + " s");
+		Print("[SRZ Sickness] Ticking every " + TICK.ToString() + " s");
 	}
 
 	//------------------------------------------------------------------------------------------------
@@ -350,6 +308,12 @@ class SRZ_Sickness
 		file.Close();
 
 		if (st.Deserialize(line))
-			Print("[SRZ Sickness] Restored " + st.m_sUid + " temp " + st.m_fTemperature + " cold " + st.m_fColdChain + " salm " + st.m_fSalmonella);
+		{
+			string info = "[SRZ Sickness] Restored " + st.m_sUid;
+			info += " temp " + st.m_fTemperature.ToString();
+			info += " cold " + st.m_fColdChain.ToString();
+			info += " salm " + st.m_fSalmonella.ToString();
+			Print(info);
+		}
 	}
 }
