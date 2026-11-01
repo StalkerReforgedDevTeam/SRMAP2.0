@@ -103,7 +103,7 @@ AudioClass {
    pi {
     1 0
    }
-   volume_dB 4
+   volume_dB 10
    DSPObject CompressorDSPTypeClass dsp {
     threshold -25
     ratio 8
@@ -150,7 +150,7 @@ AudioClass {
     biquadType LowShelf
     fc 150
     Q 1
-    gain -6
+    gain -2
    }
   }
   FilterClass "63510" {
@@ -311,13 +311,13 @@ AudioClass {
     }
     CurvePoint "2" {
      X 2
-     Y 0.73
+     Y 0.95
      Shape Exponential
      Modifier 3
     }
     CurvePoint "3" {
      X 5
-     Y 0.501
+     Y 0.85
     }
    }
   }
@@ -712,23 +712,6 @@ AudioClass {
    version 5
    tl 0 -848
    parent "{85F92D98658CB0F5}Sounds/_SharedData/Configs/Frequency/Character/Frequency_Character_Voice.conf"
-   ins {
-    ConnectionsClass "con:4" {
-     id 4
-     links {
-      ConnectionClass "66573:36" {
-       id 66573
-       port 36
-      }
-     }
-    }
-   }
-   pi {
-    16 0
-   }
-   pu {
-    16 0
-   }
    enableDirectivity 0
   }
  }
