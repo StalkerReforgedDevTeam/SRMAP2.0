@@ -1,0 +1,64 @@
+GenericEntity : "{2DF096A08F96E446}Prefabs/Items/base_item_hand_consumble.et" {
+ ID "8EA7B8A63E8B4BEF"
+ components {
+  ARMST_ItemUseComponent "{59E68C4DC131E9FC}" {
+   m_ConsumableEffect ARMST_ConsumableBaseItem "{59E68C4DDD8B416A}" {
+    m_bDeleteOnUse 0
+    m_TypeConsuble INTERACT
+   }
+   m_sSRZReadText "The surge. Signs, in order: birds go quiet, dogs howl, pressure drops, the sky turns red at the edges. Then the sirens. From the sirens you have minutes, not more. Get under concrete, deep if you can. Wood does not help. After it passes the fields move and new artifacts form. That is why the brave and the stupid go out right after."
+  }
+  InventoryItemComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName SCR_InventoryUIInfo "{5222EB4D07D865FA}" {
+     Name "Research notes: the surge"
+     Description "Typed lab sheet. Scientists pay well for these."
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.02
+     ItemDimensions 0.01 0.01 0.01
+     ItemVolume 0.1
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{59ECB146B0ED6F92}" {
+     HandAdditiveRotation 0 90 0
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5A5AEE4BCB65677F}" {
+      CameraPreset Top
+      CameraDistanceToItem 0.55
+      LodModel 0
+     }
+    }
+    m_Size SLOT_1x1
+   }
+  }
+  MeshObject "{59CEE5702DCA6A31}" {
+   Object "{0247F51BA5ACDE53}Assets/Items/SRZ/Documents/SRZ_LorePage/SRZ_LorePage.xob"
+   Materials {
+    MaterialAssignClass "{BD829729418FC52F}" {
+     SourceMaterial "SRZ_Readable_Paper_MAT"
+     AssignedMaterial "{D605F22F4C03D265}Assets/Items/SRZ/Documents/SRZ_LorePage/Data/SRZ_LorePage_Research_Surge.emat"
+    }
+   }
+  }
+  ActionsManagerComponent "{508AB5952B584B2E}" {
+   ActionContexts {
+    UserActionContext "{715205C08C5266B8}" {
+     ContextName "SRZ_Read"
+     Position PointInfo "{1F8CA7D2EB8A7AC7}" {
+      Offset 0 0.02 0
+     }
+     Radius 1
+    }
+   }
+   additionalActions {
+    ARMST_USER_OPEN_BOOK "{B7794CF13BA48971}" {
+     ParentContextList {
+      "SRZ_Read"
+     }
+     s_TextToBook "The surge. Signs, in order: birds go quiet, dogs howl, pressure drops, the sky turns red at the edges. Then the sirens. From the sirens you have minutes, not more. Get under concrete, deep if you can. Wood does not help. After it passes the fields move and new artifacts form. That is why the brave and the stupid go out right after."
+    }
+   }
+  }
+ }
+}

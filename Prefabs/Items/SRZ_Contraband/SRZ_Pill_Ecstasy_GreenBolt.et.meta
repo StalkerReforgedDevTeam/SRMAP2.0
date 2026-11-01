@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{9DF20BB6382F5B7B}Prefabs/Items/SRZ_Contraband/SRZ_Pill_Ecstasy_GreenBolt.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

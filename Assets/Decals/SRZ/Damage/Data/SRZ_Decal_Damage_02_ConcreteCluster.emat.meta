@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{2FE9D551AAB3DB22}Assets/Decals/SRZ/Damage/Data/SRZ_Decal_Damage_02_ConcreteCluster.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+  EMATResourceClass Xbox : PC {
+  }
+ }
+}

@@ -1,0 +1,40 @@
+GenericEntity : "{3238FC0BDB67AA78}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" {
+ ID "09B6FBEA9FD5850F"
+ components {
+  InventoryItemComponent "{A74E2797AEE07F68}" {
+   Attributes SCR_ItemAttributeCollection "{E24E263C3D6CF3B4}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{A307D10FBC480DEF}" {
+     Name "LSD Sheet Monolith"
+     Description ""
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.05
+     SizeSetupStrategy Manual
+     ItemDimensions 0.050 0.002 0.050
+     ItemVolume 0.12
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{55FEC43A3D2CDA2F}" {
+      CameraPreset Top
+      CameraOrbitAngles 0 0 0
+      CameraDistanceToItem 0.25
+      FOV 10
+      LodModel 0
+     }
+    }
+    CommonItemType "NONE"
+   }
+  }
+  ARMST_ItemUseComponent "{4F5DD432E18E8E47}" {
+  }
+  MeshObject "{D22112FB5A4E0D5F}" {
+   Object "{36B9F5355D8DF681}Assets/Items/SRZ_Contraband/Psychedelics/SRZ_LSD_Sheet_Monolith/SRZ_LSD_Sheet_Monolith.xob"
+   Materials {
+    MaterialAssignClass "{264129C4681B102B}" {
+     SourceMaterial "SRZ_LSD_Sheet_Monolith"
+     AssignedMaterial "{B0247840987F9CC3}Assets/Items/SRZ_Contraband/Psychedelics/SRZ_LSD_Sheet_Monolith/Data/SRZ_LSD_Sheet_Monolith.emat"
+    }
+   }
+  }
+ }
+}

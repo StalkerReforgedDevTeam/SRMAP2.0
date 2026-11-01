@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{AD77A0510FF02F42}Assets/Items/SRZ/Food/SRZ_Buckwheat/Data/SRZ_Buckwheat.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+  EMATResourceClass Xbox : PC {
+  }
+ }
+}

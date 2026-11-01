@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{A4309A2D2EC6BFB6}Assets/Items/SRZ_Contraband/Documents/SRZ_Passport_Ukraine/Data/SRZ_Passport_Ukraine.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+  EMATResourceClass Xbox : PC {
+  }
+ }
+}

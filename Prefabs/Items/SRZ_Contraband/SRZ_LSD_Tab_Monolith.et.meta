@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{57D9E2EADF83B29B}Prefabs/Items/SRZ_Contraband/SRZ_LSD_Tab_Monolith.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

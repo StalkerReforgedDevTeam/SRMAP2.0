@@ -1,0 +1,40 @@
+GenericEntity : "{3238FC0BDB67AA78}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" {
+ ID "2320203FBBDCBA34"
+ components {
+  InventoryItemComponent "{53754D49472A4CC9}" {
+   Attributes SCR_ItemAttributeCollection "{3F8FE3F42BF3AA52}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{CFADBEB1D98E0E29}" {
+     Name "Zone Pass"
+     Description ""
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.05
+     SizeSetupStrategy Manual
+     ItemDimensions 0.088 0.009 0.125
+     ItemVolume 0.12
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{44F188DFEEDDF322}" {
+      CameraPreset Top
+      CameraOrbitAngles 0 0 0
+      CameraDistanceToItem 0.49
+      FOV 10
+      LodModel 0
+     }
+    }
+    CommonItemType "NONE"
+   }
+  }
+  ARMST_ItemUseComponent "{F39AFA49E7733E06}" {
+  }
+  MeshObject "{A96021745749769E}" {
+   Object "{73D17E6B4BDEC5D2}Assets/Items/SRZ_Contraband/Documents/SRZ_Passport_ZonePass/SRZ_Passport_ZonePass.xob"
+   Materials {
+    MaterialAssignClass "{65900BD133EF5DCC}" {
+     SourceMaterial "SRZ_Passport_ZonePass"
+     AssignedMaterial "{BE79ECD29CE964A2}Assets/Items/SRZ_Contraband/Documents/SRZ_Passport_ZonePass/Data/SRZ_Passport_ZonePass.emat"
+    }
+   }
+  }
+ }
+}

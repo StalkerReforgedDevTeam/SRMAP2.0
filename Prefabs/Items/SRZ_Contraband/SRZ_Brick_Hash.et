@@ -1,0 +1,40 @@
+GenericEntity : "{3238FC0BDB67AA78}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" {
+ ID "CDA003DE2B1C17F1"
+ components {
+  InventoryItemComponent "{23E8B5521657633E}" {
+   Attributes SCR_ItemAttributeCollection "{439B9BE51D0CCF4D}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{9751F52A9AA80B5F}" {
+     Name "Block of Hash"
+     Description ""
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.25
+     SizeSetupStrategy Manual
+     ItemDimensions 0.102 0.029 0.064
+     ItemVolume 0.3
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5B060E7FDD3444DA}" {
+      CameraPreset Top
+      CameraOrbitAngles 0 0 0
+      CameraDistanceToItem 0.40
+      FOV 10
+      LodModel 0
+     }
+    }
+    CommonItemType "NONE"
+   }
+  }
+  ARMST_ItemUseComponent "{DE416C6FF37BE537}" {
+  }
+  MeshObject "{EC1E2F3E5E067FB0}" {
+   Object "{29BB2C9AFD53512F}Assets/Items/SRZ_Contraband/Weed/SRZ_Brick_Hash/SRZ_Brick_Hash.xob"
+   Materials {
+    MaterialAssignClass "{241EEE5A236165E8}" {
+     SourceMaterial "SRZ_Brick_Hash"
+     AssignedMaterial "{53804F6969501599}Assets/Items/SRZ_Contraband/Weed/SRZ_Brick_Hash/Data/SRZ_Brick_Hash.emat"
+    }
+   }
+  }
+ }
+}

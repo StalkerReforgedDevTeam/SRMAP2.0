@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{C160E3F9763EF338}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Ecstasy_BlueStar/Data/SRZ_Baggie_Ecstasy_BlueStar_Contents.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+  EMATResourceClass Xbox : PC {
+  }
+ }
+}

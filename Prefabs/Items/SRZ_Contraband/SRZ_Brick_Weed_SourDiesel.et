@@ -1,0 +1,40 @@
+GenericEntity : "{3238FC0BDB67AA78}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" {
+ ID "CB3CEE1CE0F48BBE"
+ components {
+  InventoryItemComponent "{DC990B6984595983}" {
+   Attributes SCR_ItemAttributeCollection "{F1EBA1BD90C57ECA}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{2F61F4B0E1E7C801}" {
+     Name "Brick of Sour Diesel"
+     Description ""
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 1.0
+     SizeSetupStrategy Manual
+     ItemDimensions 0.204 0.060 0.129
+     ItemVolume 1.2
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{9F697EF5478F46BD}" {
+      CameraPreset Top
+      CameraOrbitAngles 0 0 0
+      CameraDistanceToItem 0.80
+      FOV 10
+      LodModel 0
+     }
+    }
+    CommonItemType "NONE"
+   }
+  }
+  ARMST_ItemUseComponent "{1E0295BA7218FF19}" {
+  }
+  MeshObject "{6E958D14499D6318}" {
+   Object "{6A5527117AA83951}Assets/Items/SRZ_Contraband/Weed/SRZ_Brick_Weed_SourDiesel/SRZ_Brick_Weed_SourDiesel.xob"
+   Materials {
+    MaterialAssignClass "{EEA7E8B13C8B4B44}" {
+     SourceMaterial "SRZ_Brick_Weed_SourDiesel"
+     AssignedMaterial "{9FF6D9063A46ED97}Assets/Items/SRZ_Contraband/Weed/SRZ_Brick_Weed_SourDiesel/Data/SRZ_Brick_Weed_SourDiesel.emat"
+    }
+   }
+  }
+ }
+}

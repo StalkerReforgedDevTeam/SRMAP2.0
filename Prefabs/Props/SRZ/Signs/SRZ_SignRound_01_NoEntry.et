@@ -1,0 +1,18 @@
+GenericEntity {
+ ID "4DDE21746680B4FD"
+ components {
+  MeshObject "{71B3BC7A122AD990}" {
+   Object "{3BAF191DDD804F1A}Assets/Props/SRZ/Signs/SRZ_SignRound/SRZ_SignRound.xob"
+   Materials {
+    MaterialAssignClass "{A28115F68CE8E2BB}" {
+     SourceMaterial "SRZ_Prop_SignRound_Post_MAT"
+     AssignedMaterial "{3B1CAA52BA73BF9B}Assets/Props/SRZ/Signs/SRZ_SignRound/Data/SRZ_SignRound_01_NoEntry.emat"
+    }
+   }
+  }
+  RigidBody "{F689A000871410F9}" {
+   ModelGeometry 1
+   Static 1
+  }
+ }
+}

@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{828D65A1DBF837A0}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Weed_SourDiesel/Data/SRZ_Baggie_Weed_SourDiesel_Contents.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+  EMATResourceClass Xbox : PC {
+  }
+ }
+}

@@ -1,0 +1,48 @@
+GenericEntity : "{3238FC0BDB67AA78}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" {
+ ID "440D9F635B950B89"
+ components {
+  InventoryItemComponent "{5F8A57FBA07409B2}" {
+   Attributes SCR_ItemAttributeCollection "{19835FD725C4FE88}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{9073F54F01BB8D5F}" {
+     Name "Bag of Bubba Kush"
+     Description ""
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.05
+     SizeSetupStrategy Manual
+     ItemDimensions 0.062 0.017 0.085
+     ItemVolume 0.12
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{68839F76A870F946}" {
+      CameraPreset Top
+      CameraOrbitAngles 0 0 0
+      CameraDistanceToItem 0.34
+      FOV 10
+      LodModel 0
+     }
+    }
+    CommonItemType "NONE"
+   }
+  }
+  ARMST_ItemUseComponent "{95257A2C64B76361}" {
+  }
+  MeshObject "{D8BCFE82098E5C68}" {
+   Object "{5E0657C857B5BBE6}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Weed_BubbaKush/SRZ_Baggie_Weed_BubbaKush.xob"
+   Materials {
+    MaterialAssignClass "{A26CC0787151F246}" {
+     SourceMaterial "SRZ_Baggie_Weed_BubbaKush_Contents"
+     AssignedMaterial "{0CFC5AAE6F5A05F7}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Weed_BubbaKush/Data/SRZ_Baggie_Weed_BubbaKush_Contents.emat"
+    }
+    MaterialAssignClass "{3531045F85BB03C0}" {
+     SourceMaterial "SRZ_Baggie_Weed_BubbaKush_Bag"
+     AssignedMaterial "{3F163754DF15DAEA}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Weed_BubbaKush/Data/SRZ_Baggie_Weed_BubbaKush_Bag.emat"
+    }
+    MaterialAssignClass "{696574A7B1A53C0D}" {
+     SourceMaterial "SRZ_Baggie_Weed_BubbaKush_Zip"
+     AssignedMaterial "{3AAE0CE2409351DE}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Weed_BubbaKush/Data/SRZ_Baggie_Weed_BubbaKush_Zip.emat"
+    }
+   }
+  }
+ }
+}

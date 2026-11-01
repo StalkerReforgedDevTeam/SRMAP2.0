@@ -1,0 +1,56 @@
+MetaFileClass {
+ Name "{F804E69BAD8FFF2C}Assets/Items/SRZ_Contraband/Psychedelics/SRZ_Pill_Ecstasy_WhiteZ/SRZ_Pill_Ecstasy_WhiteZ.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{950F414D055C2904}" {
+     SourceMaterial "SRZ_Pill_Ecstasy_WhiteZ"
+     AssignedMaterial "{D8F62D250FD19B5D}Assets/Items/SRZ_Contraband/Psychedelics/SRZ_Pill_Ecstasy_WhiteZ/Data/SRZ_Pill_Ecstasy_WhiteZ.emat"
+    }
+   }
+   MeshParams {
+    MeshParam SRZ_Pill_Ecstasy_WhiteZ {
+    }
+   }
+   GeometryParams {
+    GeometryParam UBX_SRZ_Pill_Ecstasy_WhiteZ {
+     LayerPreset "ItemFireView"
+     SurfaceProperties {
+      "{5EAA7FB0A83F90CF}Common/Materials/Game/plastic.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{CBD318CD2A4DD885}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Blender Foundation"
+   ApplicationName "Blender (stable FBX IO)"
+   ApplicationVersion "4.2.0"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{A1875EA60C24F3B7}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{3ADC6A17789C72C5}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{A115BDFE33523A9A}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{CCFA1046C6CC28B7}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{EB3537975FBE26B8}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass Xbox : PC {
+   Common TXOCommonClass "{F5FDD81745C9F51E}" {
+   }
+  }
+ }
+}

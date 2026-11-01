@@ -1,0 +1,13 @@
+MatPBRBasicGlass {
+ Color 0.9 0.92 0.9 1
+ Sort translucent
+ AlphaMul 1
+ BlendMode AlphaBlend
+ RoughnessScale 1
+ MetalnessScale 0
+ DielectricReflectance 0.04
+ BCRMap "{56AA31ACEF11826D}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Coke/Data/SRZ_Baggie_Coke_Bag_BCR.edds"
+ OpacityMap "{9E814BE171094496}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Coke/Data/SRZ_Baggie_Coke_Bag_A.edds"
+ NormalPower 1
+ NMOMap "{A19712E2E1B0E827}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Coke/Data/SRZ_Baggie_Coke_Bag_NMO.edds"
+}

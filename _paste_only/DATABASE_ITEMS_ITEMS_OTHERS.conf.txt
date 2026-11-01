@@ -1,0 +1,969 @@
+  ARMST_DATABASE_ITEM "{36A8DFF81754C9DA}" {
+   m_Prefab "{C7C4C456572D9202}Prefabs/Items/SRZ/Valuables/SRZ_CigaretteCase_Brass.et"
+   m_ItemStats {
+    ARMST_DATABASE_ITEM_STATS "{531147983AFF961A}" {
+     m_fBuyPrice 600
+    }
+   }
+   m_ItemLoot {
+    ARMST_DATABASE_ITEM_LOOT "{9EA22F45777B661D}" {
+     m_Category {
+      "OTHERS"
+     }
+     m_TiersSpawn {
+      "TIER_1"
+      "TIER_2"
+     }
+     m_iProbability 1.5
+    }
+   }
+   m_ItemTrader {
+    ARMST_DATABASE_ITEM_TRADER "{A04CA29A235123D6}" {
+     m_sTraderCategory ARMST_TRADER_OTHERS
+     m_EnableBuy 0
+    }
+   }
+  }
+  ARMST_DATABASE_ITEM "{AC943C4B1EF41B57}" {
+   m_Prefab "{05F1E7FDA253D63A}Prefabs/Items/SRZ/Valuables/SRZ_CigaretteCase_Silver.et"
+   m_ItemStats {
+    ARMST_DATABASE_ITEM_STATS "{1377A8D6995B0323}" {
+     m_fBuyPrice 900
+    }
+   }
+   m_ItemLoot {
+    ARMST_DATABASE_ITEM_LOOT "{D632A18E7DF99AF9}" {
+     m_Category {
+      "OTHERS"
+     }
+     m_TiersSpawn {
+      "TIER_1"
+      "TIER_2"
+     }
+     m_iProbability 1.5
+    }
+   }
+   m_ItemTrader {
+    ARMST_DATABASE_ITEM_TRADER "{037F97A9495A8928}" {
+     m_sTraderCategory ARMST_TRADER_OTHERS
+     m_EnableBuy 0
+    }
+   }
+  }
+  ARMST_DATABASE_ITEM "{3436028FC4C706C2}" {
+   m_Prefab "{0C35123B0D860F2D}Prefabs/Items/SRZ/Valuables/SRZ_CigaretteCase_Engraved.et"
+   m_ItemStats {
+    ARMST_DATABASE_ITEM_STATS "{8EF1699941CCB99D}" {
+     m_fBuyPrice 1200
+    }
+   }
+   m_ItemLoot {
+    ARMST_DATABASE_ITEM_LOOT "{216F11F0408087E0}" {
+     m_Category {
+      "OTHERS"
+     }
+     m_TiersSpawn {
+      "TIER_1"
+      "TIER_2"
+     }
+     m_iProbability 1.5
+    }
+   }
+   m_ItemTrader {
+    ARMST_DATABASE_ITEM_TRADER "{3411A7363CD5BCC0}" {
+     m_sTraderCategory ARMST_TRADER_OTHERS
+     m_EnableBuy 0
+    }
+   }
+  }
+  ARMST_DATABASE_ITEM "{9A2F564A31684757}" {
+   m_Prefab "{FFB50DDFEBAD89DD}Prefabs/Items/SRZ/Valuables/SRZ_Medal_Veteran.et"
+   m_ItemStats {
+    ARMST_DATABASE_ITEM_STATS "{48F46A73B2CFC6D8}" {
+     m_fBuyPrice 800
+    }
+   }
+   m_ItemLoot {
+    ARMST_DATABASE_ITEM_LOOT "{DE10FCFC10CE66EB}" {
+     m_Category {
+      "OTHERS"
+     }
+     m_TiersSpawn {
+      "TIER_1"
+      "TIER_2"
+     }
+     m_iProbability 1.5
+    }
+   }
+   m_ItemTrader {
+    ARMST_DATABASE_ITEM_TRADER "{A910208FD1977A99}" {
+     m_sTraderCategory ARMST_TRADER_OTHERS
+     m_EnableBuy 0
+    }
+   }
+  }
+  ARMST_DATABASE_ITEM "{F7352302A6545275}" {
+   m_Prefab "{8389D1A1E7720576}Prefabs/Items/SRZ/Valuables/SRZ_Medal_ZoneService.et"
+   m_ItemStats {
+    ARMST_DATABASE_ITEM_STATS "{FC52D3EB9A8FD05B}" {
+     m_fBuyPrice 1000
+    }
+   }
+   m_ItemLoot {
+    ARMST_DATABASE_ITEM_LOOT "{95B7558315EC1409}" {
+     m_Category {
+      "OTHERS"
+     }
+     m_TiersSpawn {
+      "TIER_1"
+      "TIER_2"
+     }
+     m_iProbability 1.5
+    }
+   }
+   m_ItemTrader {
+    ARMST_DATABASE_ITEM_TRADER "{21B53D02632DBF67}" {
+     m_sTraderCategory ARMST_TRADER_OTHERS
+     m_EnableBuy 0
+    }
+   }
+  }
+  ARMST_DATABASE_ITEM "{F7FF7523516F9A62}" {
+   m_Prefab "{CDC382D1D2B514BC}Prefabs/Items/SRZ/Valuables/SRZ_Medal_Watch.et"
+   m_ItemStats {
+    ARMST_DATABASE_ITEM_STATS "{18D7971C3E63DE25}" {
+     m_fBuyPrice 700
+    }
+   }
+   m_ItemLoot {
+    ARMST_DATABASE_ITEM_LOOT "{2CF0B25BFE0B5F76}" {
+     m_Category {
+      "OTHERS"
+     }
+     m_TiersSpawn {
+      "TIER_1"
+      "TIER_2"
+     }
+     m_iProbability 1.5
+    }
+   }
+   m_ItemTrader {
+    ARMST_DATABASE_ITEM_TRADER "{FE8D546BEF3C8594}" {
+     m_sTraderCategory ARMST_TRADER_OTHERS
+     m_EnableBuy 0
+    }
+   }
+  }
+  ARMST_DATABASE_ITEM "{AFA79C37D6698049}" {
+   m_Prefab "{D500C628D5967F3B}Prefabs/Items/SRZ/Valuables/SRZ_LuckyCharm.et"
+   m_ItemStats {
+    ARMST_DATABASE_ITEM_STATS "{722EFF45F9486971}" {
+     m_fBuyPrice 250
+    }
+   }
+   m_ItemLoot {
+    ARMST_DATABASE_ITEM_LOOT "{33019DF7A25FFABF}" {
+     m_Category {
+      "OTHERS"
+     }
+     m_TiersSpawn {
+      "TIER_1"
+      "TIER_2"
+     }
+     m_iProbability 1.5
+    }
+   }
+   m_ItemTrader {
+    ARMST_DATABASE_ITEM_TRADER "{868B84CC2F0D2E9F}" {
+     m_sTraderCategory ARMST_TRADER_OTHERS
+     m_EnableBuy 0
+    }
+   }
+  }
+  ARMST_DATABASE_ITEM "{1F06CF0396321F75}" {
+   m_Prefab "{8A003316CBB7D5DF}Prefabs/Items/SRZ/Documents/SRZ_LorePage_Research_Electro.et"
+   m_ItemStats {
+    ARMST_DATABASE_ITEM_STATS "{2D6BF827A5353295}" {
+     m_fBuyPrice 400
+    }
+   }
+   m_ItemLoot {
+    ARMST_DATABASE_ITEM_LOOT "{28958BD3DFD1E69E}" {
+     m_Category {
+      "OTHERS"
+     }
+     m_TiersSpawn {
+      "TIER_2"
+      "TIER_3"
+     }
+     m_iProbability 0.8
+    }
+   }
+   m_ItemTrader {
+    ARMST_DATABASE_ITEM_TRADER "{AB22D89122560013}" {
+     m_sTraderCategory ARMST_TRADER_OTHERS
+     m_EnableBuy 0
+    }
+   }
+  }
+  ARMST_DATABASE_ITEM "{3BF5DE087D86F1DC}" {
+   m_Prefab "{CBE02C2130DDDA9C}Prefabs/Items/SRZ/Documents/SRZ_LorePage_Research_Thermal.et"
+   m_ItemStats {
+    ARMST_DATABASE_ITEM_STATS "{BFE1814097A1BCDD}" {
+     m_fBuyPrice 400
+    }
+   }
+   m_ItemLoot {
+    ARMST_DATABASE_ITEM_LOOT "{973BB50A25FFDE71}" {
+     m_Category {
+      "OTHERS"
+     }
+     m_TiersSpawn {
+      "TIER_2"
+      "TIER_3"
+     }
+     m_iProbability 0.8
+    }
+   }
+   m_ItemTrader {
+    ARMST_DATABASE_ITEM_TRADER "{C4BA0FA702829E0F}" {
+     m_sTraderCategory ARMST_TRADER_OTHERS
+     m_EnableBuy 0
+    }
+   }
+  }
+  ARMST_DATABASE_ITEM "{396AF7F93915E73C}" {
+   m_Prefab "{8EE0ED1E557470F9}Prefabs/Items/SRZ/Documents/SRZ_LorePage_Research_Gravi.et"
+   m_ItemStats {
+    ARMST_DATABASE_ITEM_STATS "{F48116C81A752B94}" {
+     m_fBuyPrice 400
+    }
+   }
+   m_ItemLoot {
+    ARMST_DATABASE_ITEM_LOOT "{6A19A3DF314F8031}" {
+     m_Category {
+      "OTHERS"
+     }
+     m_TiersSpawn {
+      "TIER_2"
+      "TIER_3"
+     }
+     m_iProbability 0.8
+    }
+   }
+   m_ItemTrader {
+    ARMST_DATABASE_ITEM_TRADER "{3D48A59035BDC9AF}" {
+     m_sTraderCategory ARMST_TRADER_OTHERS
+     m_EnableBuy 0
+    }
+   }
+  }
+  ARMST_DATABASE_ITEM "{588C584020DC663D}" {
+   m_Prefab "{FB0A2D6ADCE3C5F1}Prefabs/Items/SRZ/Documents/SRZ_LorePage_Research_Chemical.et"
+   m_ItemStats {
+    ARMST_DATABASE_ITEM_STATS "{0B07812C5DA079AB}" {
+     m_fBuyPrice 400
+    }
+   }
+   m_ItemLoot {
+    ARMST_DATABASE_ITEM_LOOT "{54A0CC5E16CA37FF}" {
+     m_Category {
+      "OTHERS"
+     }
+     m_TiersSpawn {
+      "TIER_2"
+      "TIER_3"
+     }
+     m_iProbability 0.8
+    }
+   }
+   m_ItemTrader {
+    ARMST_DATABASE_ITEM_TRADER "{3AE8B1BA2A8F0A53}" {
+     m_sTraderCategory ARMST_TRADER_OTHERS
+     m_EnableBuy 0
+    }
+   }
+  }
+  ARMST_DATABASE_ITEM "{F0BF54D5305245EA}" {
+   m_Prefab "{0D1EBABC98D0A96C}Prefabs/Items/SRZ/Documents/SRZ_LorePage_Research_Psy.et"
+   m_ItemStats {
+    ARMST_DATABASE_ITEM_STATS "{1E7617662DC72A22}" {
+     m_fBuyPrice 400
+    }
+   }
+   m_ItemLoot {
+    ARMST_DATABASE_ITEM_LOOT "{DA51C18074E4F802}" {
+     m_Category {
+      "OTHERS"
+     }
+     m_TiersSpawn {
+      "TIER_2"
+      "TIER_3"
+     }
+     m_iProbability 0.8
+    }
+   }
+   m_ItemTrader {
+    ARMST_DATABASE_ITEM_TRADER "{8F1D96173242D4E1}" {
+     m_sTraderCategory ARMST_TRADER_OTHERS
+     m_EnableBuy 0
+    }
+   }
+  }
+  ARMST_DATABASE_ITEM "{81ECE161E564FB16}" {
+   m_Prefab "{028B86BD6CC74A00}Prefabs/Items/SRZ/Documents/SRZ_LorePage_Research_Artifacts.et"
+   m_ItemStats {
+    ARMST_DATABASE_ITEM_STATS "{11D96D36D31BF762}" {
+     m_fBuyPrice 400
+    }
+   }
+   m_ItemLoot {
+    ARMST_DATABASE_ITEM_LOOT "{0E47ECE88EB7C346}" {
+     m_Category {
+      "OTHERS"
+     }
+     m_TiersSpawn {
+      "TIER_2"
+      "TIER_3"
+     }
+     m_iProbability 0.8
+    }
+   }
+   m_ItemTrader {
+    ARMST_DATABASE_ITEM_TRADER "{5CA9D676BAE07318}" {
+     m_sTraderCategory ARMST_TRADER_OTHERS
+     m_EnableBuy 0
+    }
+   }
+  }
+  ARMST_DATABASE_ITEM "{937502017C5ED6C7}" {
+   m_Prefab "{6DDB47130DB5F348}Prefabs/Items/SRZ/Documents/SRZ_LorePage_Research_Containers.et"
+   m_ItemStats {
+    ARMST_DATABASE_ITEM_STATS "{3DCA16DB1CC94B2C}" {
+     m_fBuyPrice 400
+    }
+   }
+   m_ItemLoot {
+    ARMST_DATABASE_ITEM_LOOT "{7C072271BA77601F}" {
+     m_Category {
+      "OTHERS"
+     }
+     m_TiersSpawn {
+      "TIER_2"
+      "TIER_3"
+     }
+     m_iProbability 0.8
+    }
+   }
+   m_ItemTrader {
+    ARMST_DATABASE_ITEM_TRADER "{459C9C7A4E5F4E23}" {
+     m_sTraderCategory ARMST_TRADER_OTHERS
+     m_EnableBuy 0
+    }
+   }
+  }
+  ARMST_DATABASE_ITEM "{3B7D76EE4E45475F}" {
+   m_Prefab "{145C3278DCC68880}Prefabs/Items/SRZ/Documents/SRZ_LorePage_Research_Surge.et"
+   m_ItemStats {
+    ARMST_DATABASE_ITEM_STATS "{BD58FEE8C9F6060E}" {
+     m_fBuyPrice 400
+    }
+   }
+   m_ItemLoot {
+    ARMST_DATABASE_ITEM_LOOT "{625E25C98AF403DB}" {
+     m_Category {
+      "OTHERS"
+     }
+     m_TiersSpawn {
+      "TIER_2"
+      "TIER_3"
+     }
+     m_iProbability 0.8
+    }
+   }
+   m_ItemTrader {
+    ARMST_DATABASE_ITEM_TRADER "{7241DBD2173D69E6}" {
+     m_sTraderCategory ARMST_TRADER_OTHERS
+     m_EnableBuy 0
+    }
+   }
+  }
+  ARMST_DATABASE_ITEM "{44422D17457C7A6F}" {
+   m_Prefab "{A61FB9DA9CF2F940}Prefabs/Items/SRZ/Documents/SRZ_LorePage_Research_Radiation.et"
+   m_ItemStats {
+    ARMST_DATABASE_ITEM_STATS "{A7028BF572051C1E}" {
+     m_fBuyPrice 400
+    }
+   }
+   m_ItemLoot {
+    ARMST_DATABASE_ITEM_LOOT "{1E035D436F3191BE}" {
+     m_Category {
+      "OTHERS"
+     }
+     m_TiersSpawn {
+      "TIER_2"
+      "TIER_3"
+     }
+     m_iProbability 0.8
+    }
+   }
+   m_ItemTrader {
+    ARMST_DATABASE_ITEM_TRADER "{D8786ED83F6A3EA1}" {
+     m_sTraderCategory ARMST_TRADER_OTHERS
+     m_EnableBuy 0
+    }
+   }
+  }
+  ARMST_DATABASE_ITEM "{C62370C5D7F06089}" {
+   m_Prefab "{56AB9BA05D239580}Prefabs/Items/SRZ/Documents/SRZ_LorePage_Hunter_Boar.et"
+   m_ItemStats {
+    ARMST_DATABASE_ITEM_STATS "{FA7BEB76C25DE8D8}" {
+     m_fBuyPrice 150
+    }
+   }
+   m_ItemLoot {
+    ARMST_DATABASE_ITEM_LOOT "{4FE3A1ED1505E2FF}" {
+     m_Category {
+      "OTHERS"
+     }
+     m_TiersSpawn {
+      "TIER_1"
+      "TIER_2"
+     }
+     m_iProbability 0.8
+    }
+   }
+   m_ItemTrader {
+    ARMST_DATABASE_ITEM_TRADER "{CA4209AFA7B6E58F}" {
+     m_sTraderCategory ARMST_TRADER_OTHERS
+     m_EnableBuy 0
+    }
+   }
+  }
+  ARMST_DATABASE_ITEM "{4A6EFDD946C42631}" {
+   m_Prefab "{8D6DA6C393E9DFC6}Prefabs/Items/SRZ/Documents/SRZ_LorePage_Hunter_Wolf.et"
+   m_ItemStats {
+    ARMST_DATABASE_ITEM_STATS "{7ACDF0D34C3443A7}" {
+     m_fBuyPrice 150
+    }
+   }
+   m_ItemLoot {
+    ARMST_DATABASE_ITEM_LOOT "{77C5A01D4E1C8762}" {
+     m_Category {
+      "OTHERS"
+     }
+     m_TiersSpawn {
+      "TIER_1"
+      "TIER_2"
+     }
+     m_iProbability 0.8
+    }
+   }
+   m_ItemTrader {
+    ARMST_DATABASE_ITEM_TRADER "{77F7E78549FD92CF}" {
+     m_sTraderCategory ARMST_TRADER_OTHERS
+     m_EnableBuy 0
+    }
+   }
+  }
+  ARMST_DATABASE_ITEM "{E14D6B72050F518D}" {
+   m_Prefab "{3D4A516EA68D8F4C}Prefabs/Items/SRZ/Documents/SRZ_LorePage_Hunter_Rat.et"
+   m_ItemStats {
+    ARMST_DATABASE_ITEM_STATS "{F8E1814BC2C81076}" {
+     m_fBuyPrice 150
+    }
+   }
+   m_ItemLoot {
+    ARMST_DATABASE_ITEM_LOOT "{7E078C2CB71F9A5F}" {
+     m_Category {
+      "OTHERS"
+     }
+     m_TiersSpawn {
+      "TIER_1"
+      "TIER_2"
+     }
+     m_iProbability 0.8
+    }
+   }
+   m_ItemTrader {
+    ARMST_DATABASE_ITEM_TRADER "{B599A4D5C764F58F}" {
+     m_sTraderCategory ARMST_TRADER_OTHERS
+     m_EnableBuy 0
+    }
+   }
+  }
+  ARMST_DATABASE_ITEM "{FA3582601BF05956}" {
+   m_Prefab "{A3AFFA2414F2152D}Prefabs/Items/SRZ/Documents/SRZ_LorePage_Hunter_Spider.et"
+   m_ItemStats {
+    ARMST_DATABASE_ITEM_STATS "{C21DB9E8B6AF8D98}" {
+     m_fBuyPrice 150
+    }
+   }
+   m_ItemLoot {
+    ARMST_DATABASE_ITEM_LOOT "{89ADC5DFB57E040C}" {
+     m_Category {
+      "OTHERS"
+     }
+     m_TiersSpawn {
+      "TIER_1"
+      "TIER_2"
+     }
+     m_iProbability 0.8
+    }
+   }
+   m_ItemTrader {
+    ARMST_DATABASE_ITEM_TRADER "{16EE6EFFCE8E2E1E}" {
+     m_sTraderCategory ARMST_TRADER_OTHERS
+     m_EnableBuy 0
+    }
+   }
+  }
+  ARMST_DATABASE_ITEM "{DAB189ACBC32DC53}" {
+   m_Prefab "{A36FACBE85239D18}Prefabs/Items/SRZ/Documents/SRZ_LorePage_Hunter_Zombie.et"
+   m_ItemStats {
+    ARMST_DATABASE_ITEM_STATS "{E15551B48AA58953}" {
+     m_fBuyPrice 150
+    }
+   }
+   m_ItemLoot {
+    ARMST_DATABASE_ITEM_LOOT "{77304AC92DD0E497}" {
+     m_Category {
+      "OTHERS"
+     }
+     m_TiersSpawn {
+      "TIER_1"
+      "TIER_2"
+     }
+     m_iProbability 0.8
+    }
+   }
+   m_ItemTrader {
+    ARMST_DATABASE_ITEM_TRADER "{B92B700682C390EF}" {
+     m_sTraderCategory ARMST_TRADER_OTHERS
+     m_EnableBuy 0
+    }
+   }
+  }
+  ARMST_DATABASE_ITEM "{CE483C70829F75D4}" {
+   m_Prefab "{9BD645AAEDB597F2}Prefabs/Items/SRZ/Documents/SRZ_LorePage_Hunter_Nightstalker.et"
+   m_ItemStats {
+    ARMST_DATABASE_ITEM_STATS "{4320C2CD252C5240}" {
+     m_fBuyPrice 150
+    }
+   }
+   m_ItemLoot {
+    ARMST_DATABASE_ITEM_LOOT "{280F92C04E27E901}" {
+     m_Category {
+      "OTHERS"
+     }
+     m_TiersSpawn {
+      "TIER_1"
+      "TIER_2"
+     }
+     m_iProbability 0.8
+    }
+   }
+   m_ItemTrader {
+    ARMST_DATABASE_ITEM_TRADER "{0E67E75C8EDD4BEC}" {
+     m_sTraderCategory ARMST_TRADER_OTHERS
+     m_EnableBuy 0
+    }
+   }
+  }
+  ARMST_DATABASE_ITEM "{27FE54C054AE02BA}" {
+   m_Prefab "{11036ED7081A6B5D}Prefabs/Items/SRZ/Documents/SRZ_LorePage_Hunter_Erb.et"
+   m_ItemStats {
+    ARMST_DATABASE_ITEM_STATS "{BA647ABE2FBD8C28}" {
+     m_fBuyPrice 150
+    }
+   }
+   m_ItemLoot {
+    ARMST_DATABASE_ITEM_LOOT "{04298678DA133738}" {
+     m_Category {
+      "OTHERS"
+     }
+     m_TiersSpawn {
+      "TIER_1"
+      "TIER_2"
+     }
+     m_iProbability 0.8
+    }
+   }
+   m_ItemTrader {
+    ARMST_DATABASE_ITEM_TRADER "{3204D5D0B3096B81}" {
+     m_sTraderCategory ARMST_TRADER_OTHERS
+     m_EnableBuy 0
+    }
+   }
+  }
+  ARMST_DATABASE_ITEM "{E4A757DD30BDE376}" {
+   m_Prefab "{0D0A1654E206315F}Prefabs/Items/SRZ/Documents/SRZ_LorePage_Hunter_Busher.et"
+   m_ItemStats {
+    ARMST_DATABASE_ITEM_STATS "{637BEAA6F5E419C8}" {
+     m_fBuyPrice 150
+    }
+   }
+   m_ItemLoot {
+    ARMST_DATABASE_ITEM_LOOT "{3CB0CF6F065D1E2D}" {
+     m_Category {
+      "OTHERS"
+     }
+     m_TiersSpawn {
+      "TIER_1"
+      "TIER_2"
+     }
+     m_iProbability 0.8
+    }
+   }
+   m_ItemTrader {
+    ARMST_DATABASE_ITEM_TRADER "{16FAE4FEC50C6DF6}" {
+     m_sTraderCategory ARMST_TRADER_OTHERS
+     m_EnableBuy 0
+    }
+   }
+  }
+  ARMST_DATABASE_ITEM "{23A437B017DD4439}" {
+   m_Prefab "{FE6DEC8B91C55889}Prefabs/Items/SRZ/Documents/SRZ_LorePage_Hunter_Telepach.et"
+   m_ItemStats {
+    ARMST_DATABASE_ITEM_STATS "{3B38E64508A59C57}" {
+     m_fBuyPrice 150
+    }
+   }
+   m_ItemLoot {
+    ARMST_DATABASE_ITEM_LOOT "{461E75FF00506AAC}" {
+     m_Category {
+      "OTHERS"
+     }
+     m_TiersSpawn {
+      "TIER_1"
+      "TIER_2"
+     }
+     m_iProbability 0.8
+    }
+   }
+   m_ItemTrader {
+    ARMST_DATABASE_ITEM_TRADER "{3A4229DCCE66E382}" {
+     m_sTraderCategory ARMST_TRADER_OTHERS
+     m_EnableBuy 0
+    }
+   }
+  }
+  ARMST_DATABASE_ITEM "{C9DCBCE1E6F376D5}" {
+   m_Prefab "{DAE5E099A52727DD}Prefabs/Items/SRZ/Documents/SRZ_LorePage_Hunter_Shaman.et"
+   m_ItemStats {
+    ARMST_DATABASE_ITEM_STATS "{BAC44BD5A9E7B5CA}" {
+     m_fBuyPrice 150
+    }
+   }
+   m_ItemLoot {
+    ARMST_DATABASE_ITEM_LOOT "{6C31FCE1499E2EED}" {
+     m_Category {
+      "OTHERS"
+     }
+     m_TiersSpawn {
+      "TIER_1"
+      "TIER_2"
+     }
+     m_iProbability 0.8
+    }
+   }
+   m_ItemTrader {
+    ARMST_DATABASE_ITEM_TRADER "{20C86602618ED200}" {
+     m_sTraderCategory ARMST_TRADER_OTHERS
+     m_EnableBuy 0
+    }
+   }
+  }
+  ARMST_DATABASE_ITEM "{10902FFB1DAE813A}" {
+   m_Prefab "{1B779CF98FD21030}Prefabs/Items/SRZ/Documents/SRZ_LorePage_Hunter_Elementals.et"
+   m_ItemStats {
+    ARMST_DATABASE_ITEM_STATS "{2BCFE458096446DB}" {
+     m_fBuyPrice 150
+    }
+   }
+   m_ItemLoot {
+    ARMST_DATABASE_ITEM_LOOT "{965C69E2932369F8}" {
+     m_Category {
+      "OTHERS"
+     }
+     m_TiersSpawn {
+      "TIER_1"
+      "TIER_2"
+     }
+     m_iProbability 0.8
+    }
+   }
+   m_ItemTrader {
+    ARMST_DATABASE_ITEM_TRADER "{510C6B5A793031D6}" {
+     m_sTraderCategory ARMST_TRADER_OTHERS
+     m_EnableBuy 0
+    }
+   }
+  }
+  ARMST_DATABASE_ITEM "{501AEB1B0F0B8DCF}" {
+   m_Prefab "{FEED2AE93EDEA21F}Prefabs/Items/SRZ/Documents/SRZ_LorePage_Leaflet_Duty.et"
+   m_ItemStats {
+    ARMST_DATABASE_ITEM_STATS "{A0495B5AAC309C41}" {
+     m_fBuyPrice 15
+    }
+   }
+   m_ItemLoot {
+    ARMST_DATABASE_ITEM_LOOT "{A0DEEFC01D5054DB}" {
+     m_Category {
+      "OTHERS"
+     }
+     m_TiersSpawn {
+      "TIER_1"
+     }
+     m_iProbability 0.5
+    }
+   }
+   m_ItemTrader {
+    ARMST_DATABASE_ITEM_TRADER "{0F86280BEFD9E539}" {
+     m_sTraderCategory ARMST_TRADER_OTHERS
+     m_EnableBuy 0
+    }
+   }
+  }
+  ARMST_DATABASE_ITEM "{66B412C152CD84D1}" {
+   m_Prefab "{3E05C6B2B97AB982}Prefabs/Items/SRZ/Documents/SRZ_LorePage_Leaflet_Freedom.et"
+   m_ItemStats {
+    ARMST_DATABASE_ITEM_STATS "{2660266CA3E63F3C}" {
+     m_fBuyPrice 15
+    }
+   }
+   m_ItemLoot {
+    ARMST_DATABASE_ITEM_LOOT "{4C2F2F1C5160D408}" {
+     m_Category {
+      "OTHERS"
+     }
+     m_TiersSpawn {
+      "TIER_1"
+     }
+     m_iProbability 0.5
+    }
+   }
+   m_ItemTrader {
+    ARMST_DATABASE_ITEM_TRADER "{FF18A795F552C382}" {
+     m_sTraderCategory ARMST_TRADER_OTHERS
+     m_EnableBuy 0
+    }
+   }
+  }
+  ARMST_DATABASE_ITEM "{6F8F644BAF5FFC79}" {
+   m_Prefab "{EEED7B2BA7AE6DC5}Prefabs/Items/SRZ/Documents/SRZ_LorePage_Leaflet_Monolith.et"
+   m_ItemStats {
+    ARMST_DATABASE_ITEM_STATS "{B217D07C245ED04F}" {
+     m_fBuyPrice 15
+    }
+   }
+   m_ItemLoot {
+    ARMST_DATABASE_ITEM_LOOT "{58EF4D812876337E}" {
+     m_Category {
+      "OTHERS"
+     }
+     m_TiersSpawn {
+      "TIER_1"
+     }
+     m_iProbability 0.5
+    }
+   }
+   m_ItemTrader {
+    ARMST_DATABASE_ITEM_TRADER "{F695F6F72D62355B}" {
+     m_sTraderCategory ARMST_TRADER_OTHERS
+     m_EnableBuy 0
+    }
+   }
+  }
+  ARMST_DATABASE_ITEM "{87AA4EDBEF4DDD08}" {
+   m_Prefab "{D340F0B46D0E93C7}Prefabs/Items/SRZ/Documents/SRZ_LorePage_Order_Duty.et"
+   m_ItemStats {
+    ARMST_DATABASE_ITEM_STATS "{66057089F1A6938A}" {
+     m_fBuyPrice 60
+    }
+   }
+   m_ItemLoot {
+    ARMST_DATABASE_ITEM_LOOT "{56A2E7FB1EC70F20}" {
+     m_Category {
+      "OTHERS"
+     }
+     m_TiersSpawn {
+      "TIER_1"
+      "TIER_2"
+     }
+     m_iProbability 0.5
+    }
+   }
+   m_ItemTrader {
+    ARMST_DATABASE_ITEM_TRADER "{1D518FB97F5C819B}" {
+     m_sTraderCategory ARMST_TRADER_OTHERS
+     m_EnableBuy 0
+    }
+   }
+  }
+  ARMST_DATABASE_ITEM "{86645EA278A5DE78}" {
+   m_Prefab "{9E878196C3B342F7}Prefabs/Items/SRZ/Documents/SRZ_LorePage_Order_Mercs.et"
+   m_ItemStats {
+    ARMST_DATABASE_ITEM_STATS "{FC2669622558B779}" {
+     m_fBuyPrice 60
+    }
+   }
+   m_ItemLoot {
+    ARMST_DATABASE_ITEM_LOOT "{52AE8C1565C73E30}" {
+     m_Category {
+      "OTHERS"
+     }
+     m_TiersSpawn {
+      "TIER_1"
+      "TIER_2"
+     }
+     m_iProbability 0.5
+    }
+   }
+   m_ItemTrader {
+    ARMST_DATABASE_ITEM_TRADER "{13CDF1E1E8B33CC9}" {
+     m_sTraderCategory ARMST_TRADER_OTHERS
+     m_EnableBuy 0
+    }
+   }
+  }
+  ARMST_DATABASE_ITEM "{61422AEFB270A3B4}" {
+   m_Prefab "{4AF77B2BA69FF71F}Prefabs/Items/SRZ/Documents/SRZ_LorePage_Order_Ecologists.et"
+   m_ItemStats {
+    ARMST_DATABASE_ITEM_STATS "{6492119E656AF95C}" {
+     m_fBuyPrice 60
+    }
+   }
+   m_ItemLoot {
+    ARMST_DATABASE_ITEM_LOOT "{D4A9A24AE101564A}" {
+     m_Category {
+      "OTHERS"
+     }
+     m_TiersSpawn {
+      "TIER_1"
+      "TIER_2"
+     }
+     m_iProbability 0.5
+    }
+   }
+   m_ItemTrader {
+    ARMST_DATABASE_ITEM_TRADER "{2D54AE8A14F49AC0}" {
+     m_sTraderCategory ARMST_TRADER_OTHERS
+     m_EnableBuy 0
+    }
+   }
+  }
+  ARMST_DATABASE_ITEM "{BAA025DE843A01D2}" {
+   m_Prefab "{936B80A3C94A3E6D}Prefabs/Items/SRZ/Documents/SRZ_LorePage_Order_Military.et"
+   m_ItemStats {
+    ARMST_DATABASE_ITEM_STATS "{946E22E75CAE4220}" {
+     m_fBuyPrice 60
+    }
+   }
+   m_ItemLoot {
+    ARMST_DATABASE_ITEM_LOOT "{EF27E298875976AC}" {
+     m_Category {
+      "OTHERS"
+     }
+     m_TiersSpawn {
+      "TIER_1"
+      "TIER_2"
+     }
+     m_iProbability 0.5
+    }
+   }
+   m_ItemTrader {
+    ARMST_DATABASE_ITEM_TRADER "{E1BF030ADE6BCA8C}" {
+     m_sTraderCategory ARMST_TRADER_OTHERS
+     m_EnableBuy 0
+    }
+   }
+  }
+  ARMST_DATABASE_ITEM "{262D4A37A18B0FFB}" {
+   m_Prefab "{DB181E14384817B3}Prefabs/Items/SRZ/Documents/SRZ_LorePage_Note_Bandits.et"
+   m_ItemStats {
+    ARMST_DATABASE_ITEM_STATS "{4C9C35EB7C0B6B11}" {
+     m_fBuyPrice 40
+    }
+   }
+   m_ItemLoot {
+    ARMST_DATABASE_ITEM_LOOT "{2BFA27DAFDBA19AD}" {
+     m_Category {
+      "OTHERS"
+     }
+     m_TiersSpawn {
+      "TIER_1"
+     }
+     m_iProbability 0.5
+    }
+   }
+   m_ItemTrader {
+    ARMST_DATABASE_ITEM_TRADER "{3C2C9FCD9E1302E2}" {
+     m_sTraderCategory ARMST_TRADER_OTHERS
+     m_EnableBuy 0
+    }
+   }
+  }
+  ARMST_DATABASE_ITEM "{E3D4C0C3F5B1CA67}" {
+   m_Prefab "{E5A9DBF10AF07F0F}Prefabs/Items/SRZ/Documents/SRZ_LorePage_Note_Loners.et"
+   m_ItemStats {
+    ARMST_DATABASE_ITEM_STATS "{795109D8C0C49C8A}" {
+     m_fBuyPrice 40
+    }
+   }
+   m_ItemLoot {
+    ARMST_DATABASE_ITEM_LOOT "{1D3D04468B72DE0F}" {
+     m_Category {
+      "OTHERS"
+     }
+     m_TiersSpawn {
+      "TIER_1"
+     }
+     m_iProbability 0.5
+    }
+   }
+   m_ItemTrader {
+    ARMST_DATABASE_ITEM_TRADER "{BB58A8E9E6CC0D94}" {
+     m_sTraderCategory ARMST_TRADER_OTHERS
+     m_EnableBuy 0
+    }
+   }
+  }
+  ARMST_DATABASE_ITEM "{6D5F5BD68570750A}" {
+   m_Prefab "{26DF675F777795FC}Prefabs/Items/SRZ/Documents/SRZ_LorePage_Note_Monolith.et"
+   m_ItemStats {
+    ARMST_DATABASE_ITEM_STATS "{EA9919D432F14F6F}" {
+     m_fBuyPrice 40
+    }
+   }
+   m_ItemLoot {
+    ARMST_DATABASE_ITEM_LOOT "{80DD8AADB6081CCE}" {
+     m_Category {
+      "OTHERS"
+     }
+     m_TiersSpawn {
+      "TIER_1"
+     }
+     m_iProbability 0.5
+    }
+   }
+   m_ItemTrader {
+    ARMST_DATABASE_ITEM_TRADER "{73DEEC84E2415E94}" {
+     m_sTraderCategory ARMST_TRADER_OTHERS
+     m_EnableBuy 0
+    }
+   }
+  }
+  ARMST_DATABASE_ITEM "{66841903FBD0CAB4}" {
+   m_Prefab "{BBA85B915B2A2516}Prefabs/Items/SRZ/Documents/SRZ_HuntingLicense.et"
+   m_ItemStats {
+    ARMST_DATABASE_ITEM_STATS "{3C04E72D27822AE2}" {
+     m_fBuyPrice 300
+    }
+   }
+   m_ItemTrader {
+    ARMST_DATABASE_ITEM_TRADER "{7707DEE411621F60}" {
+     m_sTraderCategory ARMST_TRADER_OTHERS
+    }
+   }
+  }

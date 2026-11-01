@@ -1,0 +1,40 @@
+GenericEntity : "{3238FC0BDB67AA78}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" {
+ ID "E28C8454E06852CA"
+ components {
+  InventoryItemComponent "{F47E4A82ECA3AB19}" {
+   Attributes SCR_ItemAttributeCollection "{F3C1BA07BF76EB96}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{79389901116E097E}" {
+     Name "Ecstasy Pill Orange Trefoil"
+     Description ""
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.01
+     SizeSetupStrategy Manual
+     ItemDimensions 0.010 0.004 0.010
+     ItemVolume 0.03
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{F9887C8B74B03A8B}" {
+      CameraPreset Top
+      CameraOrbitAngles 0 0 0
+      CameraDistanceToItem 0.25
+      FOV 10
+      LodModel 0
+     }
+    }
+    CommonItemType "NONE"
+   }
+  }
+  ARMST_ItemUseComponent "{2B9C8C185C3BE329}" {
+  }
+  MeshObject "{B8558FE05CB49BF0}" {
+   Object "{444959D9B2784867}Assets/Items/SRZ_Contraband/Psychedelics/SRZ_Pill_Ecstasy_OrangeTrefoil/SRZ_Pill_Ecstasy_OrangeTrefoil.xob"
+   Materials {
+    MaterialAssignClass "{6721DD7FA10EDDAC}" {
+     SourceMaterial "SRZ_Pill_Ecstasy_OrangeTrefoil"
+     AssignedMaterial "{63DD98510D3274D9}Assets/Items/SRZ_Contraband/Psychedelics/SRZ_Pill_Ecstasy_OrangeTrefoil/Data/SRZ_Pill_Ecstasy_OrangeTrefoil.emat"
+    }
+   }
+  }
+ }
+}

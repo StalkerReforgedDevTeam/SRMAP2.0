@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{B20D79D136E1EC31}Assets/Decals/SRZ/FactionGraffiti/Data/SRZ_Decal_Faction_17_Bandits_PayOrPray.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+  EMATResourceClass Xbox : PC {
+  }
+ }
+}

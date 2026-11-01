@@ -1,0 +1,27 @@
+GenericEntity : "{2E98E2EB5620C17E}Prefabs/Items/Deployable/armst_itm_lampa.et" {
+ ID "0BBDB6D10B32A10C"
+ components {
+  MeshObject "{5968D9C73C08706E}" {
+   Object "{DB0AB787083994D4}Assets/Items/SRZ/Tools/SRZ_ChemLight/SRZ_ChemLight.xob"
+   Materials {
+    MaterialAssignClass "{11C7FC0DD8F0B808}" {
+     SourceMaterial "SRZ_Tool_ChemLight_MAT"
+     AssignedMaterial "{C0407243EDD5C763}Assets/Items/SRZ/Tools/SRZ_ChemLight/Data/SRZ_ChemLight_Blue.emat"
+    }
+   }
+  }
+  SCR_MineInventoryItemComponent "{59E4E694B93DC656}" {
+   Attributes SCR_ItemAttributeCollection "{5A10B8E3F1D55606}" {
+    ItemDisplayName WeaponUIInfo "{5A10B8E3F31D239B}" {
+     Name "Chem light (blue)"
+     Description "Snap it and put it down. Marks a path, a stash or a safe spot. Burns about ten minutes, then it is done."
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{5A10B8E3E50A16D2}" {
+     Weight 0.04
+    }
+    m_iCustomGridHeight 1
+   }
+   m_PrefabToSpawn "{CBBBD1446BA9A88E}Prefabs/Items/SRZ/Tools/SRZ_ChemLight_Blue_Placed.et"
+  }
+ }
+}

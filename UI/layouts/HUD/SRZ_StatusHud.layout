@@ -301,6 +301,81 @@ FrameWidgetClass "{F469BD17BF1DCA18}" {
    }
    Size 32 32
   }
+  ImageWidgetClass "{2EB7FF70A59F7B0D}" {
+   Name "SRZ_SH_ThermoBg"
+   Slot FrameWidgetSlot "{FD099184BA83A971}" {
+    Anchor 1 1 1 1
+    PositionX -100
+    OffsetLeft -100
+    PositionY -100
+    OffsetTop -100
+    SizeX 32
+    OffsetRight 68
+    SizeY 32
+    OffsetBottom 68
+   }
+   Size 32 32
+  }
+  ImageWidgetClass "{E4AD8E5133A1C4E5}" {
+   Name "SRZ_SH_ThermoFill"
+   Slot FrameWidgetSlot "{496101A9CD48C569}" {
+    Anchor 1 1 1 1
+    PositionX -100
+    OffsetLeft -100
+    PositionY -100
+    OffsetTop -100
+    SizeX 32
+    OffsetRight 68
+    SizeY 32
+    OffsetBottom 68
+   }
+   Size 32 32
+  }
+  ImageWidgetClass "{D9E1D69112DF4EE3}" {
+   Name "SRZ_SH_ThermoA0"
+   Slot FrameWidgetSlot "{7D39D0BC6661C410}" {
+    Anchor 1 1 1 1
+    PositionX -100
+    OffsetLeft -100
+    PositionY -100
+    OffsetTop -100
+    SizeX 32
+    OffsetRight 68
+    SizeY 32
+    OffsetBottom 68
+   }
+   Size 32 32
+  }
+  ImageWidgetClass "{DFD279279D75C1A0}" {
+   Name "SRZ_SH_ThermoA1"
+   Slot FrameWidgetSlot "{A41F59D336A0DFD4}" {
+    Anchor 1 1 1 1
+    PositionX -100
+    OffsetLeft -100
+    PositionY -100
+    OffsetTop -100
+    SizeX 32
+    OffsetRight 68
+    SizeY 32
+    OffsetBottom 68
+   }
+   Size 32 32
+  }
+  ImageWidgetClass "{88E9CEB60B228A34}" {
+   Name "SRZ_SH_ThermoA2"
+   Slot FrameWidgetSlot "{9BD2DF2B04B99759}" {
+    Anchor 1 1 1 1
+    PositionX -100
+    OffsetLeft -100
+    PositionY -100
+    OffsetTop -100
+    SizeX 32
+    OffsetRight 68
+    SizeY 32
+    OffsetBottom 68
+   }
+   Size 32 32
+  }
   ImageWidgetClass "{41D05FBC7E6F95A0}" {
    Name "SRZ_SH_Sep"
    Slot FrameWidgetSlot "{DD96788A356827F8}" {
@@ -364,6 +439,51 @@ FrameWidgetClass "{F469BD17BF1DCA18}" {
   ImageWidgetClass "{091129C9F471E94A}" {
    Name "SRZ_SH_Stim"
    Slot FrameWidgetSlot "{5C07A99F447DFA14}" {
+    Anchor 1 1 1 1
+    PositionX -100
+    OffsetLeft -100
+    PositionY -100
+    OffsetTop -100
+    SizeX 32
+    OffsetRight 68
+    SizeY 32
+    OffsetBottom 68
+   }
+   Size 32 32
+  }
+  ImageWidgetClass "{6166A0539E57C39C}" {
+   Name "SRZ_SH_Thermo"
+   Slot FrameWidgetSlot "{FCFB198D8F3B72F9}" {
+    Anchor 1 1 1 1
+    PositionX -100
+    OffsetLeft -100
+    PositionY -100
+    OffsetTop -100
+    SizeX 32
+    OffsetRight 68
+    SizeY 32
+    OffsetBottom 68
+   }
+   Size 32 32
+  }
+  ImageWidgetClass "{C89EDD35F001D196}" {
+   Name "SRZ_SH_Wet"
+   Slot FrameWidgetSlot "{09A46768A5FED664}" {
+    Anchor 1 1 1 1
+    PositionX -100
+    OffsetLeft -100
+    PositionY -100
+    OffsetTop -100
+    SizeX 32
+    OffsetRight 68
+    SizeY 32
+    OffsetBottom 68
+   }
+   Size 32 32
+  }
+  ImageWidgetClass "{B61B0440C5B1585F}" {
+   Name "SRZ_SH_Sick"
+   Slot FrameWidgetSlot "{2D236F48BD7DD905}" {
     Anchor 1 1 1 1
     PositionX -100
     OffsetLeft -100

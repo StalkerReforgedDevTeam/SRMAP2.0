@@ -1,0 +1,40 @@
+GenericEntity : "{3238FC0BDB67AA78}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" {
+ ID "503E568C16DCF360"
+ components {
+  InventoryItemComponent "{E8D06C7B0B663F7E}" {
+   Attributes SCR_ItemAttributeCollection "{F844717A846A3BE4}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{5816764CAC19DFBE}" {
+     Name "Bud OGKush"
+     Description ""
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.01
+     SizeSetupStrategy Manual
+     ItemDimensions 0.032 0.048 0.032
+     ItemVolume 0.03
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{9E241FE42875E474}" {
+      CameraPreset Top
+      CameraOrbitAngles 0 0 0
+      CameraDistanceToItem 0.25
+      FOV 10
+      LodModel 0
+     }
+    }
+    CommonItemType "NONE"
+   }
+  }
+  ARMST_ItemUseComponent "{4DCEE97978A2E359}" {
+  }
+  MeshObject "{679145D05196E172}" {
+   Object "{BDC6B58D18CC8BC7}Assets/Items/SRZ_Contraband/Weed/SRZ_Bud_OGKush/SRZ_Bud_OGKush.xob"
+   Materials {
+    MaterialAssignClass "{C3900BFCEC06DA21}" {
+     SourceMaterial "SRZ_Bud_OGKush"
+     AssignedMaterial "{70A6274B3236478A}Assets/Items/SRZ_Contraband/Weed/SRZ_Bud_OGKush/Data/SRZ_Bud_OGKush.emat"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,18 @@
+GenericEntity {
+ ID "6AD305D25C3B3170"
+ components {
+  MeshObject "{CF3F9444F0C1B9A9}" {
+   Object "{540DF39E43BF2116}Assets/Props/SRZ/Fishing/SRZ_OldCooler/SRZ_OldCooler.xob"
+   Materials {
+    MaterialAssignClass "{C844D4238BBD3CBA}" {
+     SourceMaterial "SRZ_Prop_OldCooler_MAT"
+     AssignedMaterial "{E6A17AD7DAA2979E}Assets/Props/SRZ/Fishing/SRZ_OldCooler/Data/SRZ_OldCooler.emat"
+    }
+   }
+  }
+  RigidBody "{46AE9E5F1AFE575C}" {
+   ModelGeometry 1
+   Static 1
+  }
+ }
+}

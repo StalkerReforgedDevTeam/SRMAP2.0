@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{1A94D0C91FEC3D7A}Assets/Decals/SRZ/AnomalyMarks/Data/SRZ_Decal_Anomaly_03_Gravi.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+  EMATResourceClass Xbox : PC {
+  }
+ }
+}

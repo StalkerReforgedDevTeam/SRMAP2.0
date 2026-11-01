@@ -1,0 +1,64 @@
+GenericEntity : "{2DF096A08F96E446}Prefabs/Items/base_item_hand_consumble.et" {
+ ID "64918E30F1499A60"
+ components {
+  ARMST_ItemUseComponent "{59E68C4DC131E9FC}" {
+   m_ConsumableEffect ARMST_ConsumableBaseItem "{59E68C4DDD8B416A}" {
+    m_bDeleteOnUse 0
+    m_TypeConsuble INTERACT
+   }
+   m_sSRZReadText "To whoever reads. The bridge is ours. You want to cross, you pay. Food, ammo or cash, we are not picky. You don't pay, you swim, and the river is hot. Don't bother trying the old tunnel, we watch that too. Have a nice day, brother."
+  }
+  InventoryItemComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName SCR_InventoryUIInfo "{5222EB4D07D865FA}" {
+     Name "Bandit note"
+     Description "Handwritten note."
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.02
+     ItemDimensions 0.01 0.01 0.01
+     ItemVolume 0.1
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{59ECB146B0ED6F92}" {
+     HandAdditiveRotation 0 90 0
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5A5AEE4BCB65677F}" {
+      CameraPreset Top
+      CameraDistanceToItem 0.55
+      LodModel 0
+     }
+    }
+    m_Size SLOT_1x1
+   }
+  }
+  MeshObject "{59CEE5702DCA6A31}" {
+   Object "{0247F51BA5ACDE53}Assets/Items/SRZ/Documents/SRZ_LorePage/SRZ_LorePage.xob"
+   Materials {
+    MaterialAssignClass "{7CD52246989F5CCB}" {
+     SourceMaterial "SRZ_Readable_Paper_MAT"
+     AssignedMaterial "{8F41458B358AD1A1}Assets/Items/SRZ/Documents/SRZ_LorePage/Data/SRZ_LorePage_Note_Bandits.emat"
+    }
+   }
+  }
+  ActionsManagerComponent "{508AB5952B584B2E}" {
+   ActionContexts {
+    UserActionContext "{0F4C061978E91480}" {
+     ContextName "SRZ_Read"
+     Position PointInfo "{6D2C20D387D3CC14}" {
+      Offset 0 0.02 0
+     }
+     Radius 1
+    }
+   }
+   additionalActions {
+    ARMST_USER_OPEN_BOOK "{4106B8D118980501}" {
+     ParentContextList {
+      "SRZ_Read"
+     }
+     s_TextToBook "To whoever reads. The bridge is ours. You want to cross, you pay. Food, ammo or cash, we are not picky. You don't pay, you swim, and the river is hot. Don't bother trying the old tunnel, we watch that too. Have a nice day, brother."
+    }
+   }
+  }
+ }
+}

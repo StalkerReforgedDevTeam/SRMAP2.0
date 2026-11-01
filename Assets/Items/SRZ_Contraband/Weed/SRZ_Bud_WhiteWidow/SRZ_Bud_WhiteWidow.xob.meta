@@ -1,0 +1,56 @@
+MetaFileClass {
+ Name "{B400170EE77850E7}Assets/Items/SRZ_Contraband/Weed/SRZ_Bud_WhiteWidow/SRZ_Bud_WhiteWidow.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{48DD65A3E0D269CA}" {
+     SourceMaterial "SRZ_Bud_WhiteWidow"
+     AssignedMaterial "{08D5942E3A93565D}Assets/Items/SRZ_Contraband/Weed/SRZ_Bud_WhiteWidow/Data/SRZ_Bud_WhiteWidow.emat"
+    }
+   }
+   MeshParams {
+    MeshParam SRZ_Bud_WhiteWidow {
+    }
+   }
+   GeometryParams {
+    GeometryParam UBX_SRZ_Bud_WhiteWidow {
+     LayerPreset "ItemFireView"
+     SurfaceProperties {
+      "{13581C35484F3000}Common/Materials/Game/fabric.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{F4FE40F715471C18}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Blender Foundation"
+   ApplicationName "Blender (stable FBX IO)"
+   ApplicationVersion "4.2.0"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{A29B896767195EBF}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{28F3B2B2C81C62E6}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{73295D311B18D9AA}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{26A06AC8711DF2FD}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{912C354500164BB4}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass Xbox : PC {
+   Common TXOCommonClass "{ECED32DAD0B96C90}" {
+   }
+  }
+ }
+}

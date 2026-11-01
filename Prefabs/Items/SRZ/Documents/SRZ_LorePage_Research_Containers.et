@@ -1,0 +1,64 @@
+GenericEntity : "{2DF096A08F96E446}Prefabs/Items/base_item_hand_consumble.et" {
+ ID "CE46379C871D7760"
+ components {
+  ARMST_ItemUseComponent "{59E68C4DC131E9FC}" {
+   m_ConsumableEffect ARMST_ConsumableBaseItem "{59E68C4DDD8B416A}" {
+    m_bDeleteOnUse 0
+    m_TypeConsuble INTERACT
+   }
+   m_sSRZReadText "Carrying artifacts. Every artifact in a pocket works on the carrier at the same time. Effects add up. Three radioactive stones in a backpack are three times the dose. A lined container stops all of it, good and bad. Field staff are told to carry what they need loose and everything else boxed. Most stalkers learn this the expensive way."
+  }
+  InventoryItemComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName SCR_InventoryUIInfo "{5222EB4D07D865FA}" {
+     Name "Research notes: carrying artifacts"
+     Description "Typed lab sheet. Scientists pay well for these."
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.02
+     ItemDimensions 0.01 0.01 0.01
+     ItemVolume 0.1
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{59ECB146B0ED6F92}" {
+     HandAdditiveRotation 0 90 0
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5A5AEE4BCB65677F}" {
+      CameraPreset Top
+      CameraDistanceToItem 0.55
+      LodModel 0
+     }
+    }
+    m_Size SLOT_1x1
+   }
+  }
+  MeshObject "{59CEE5702DCA6A31}" {
+   Object "{0247F51BA5ACDE53}Assets/Items/SRZ/Documents/SRZ_LorePage/SRZ_LorePage.xob"
+   Materials {
+    MaterialAssignClass "{78FE9269ABD5142F}" {
+     SourceMaterial "SRZ_Readable_Paper_MAT"
+     AssignedMaterial "{19447673177D1D52}Assets/Items/SRZ/Documents/SRZ_LorePage/Data/SRZ_LorePage_Research_Containers.emat"
+    }
+   }
+  }
+  ActionsManagerComponent "{508AB5952B584B2E}" {
+   ActionContexts {
+    UserActionContext "{001C8EE137D17419}" {
+     ContextName "SRZ_Read"
+     Position PointInfo "{F72912381B0259D1}" {
+      Offset 0 0.02 0
+     }
+     Radius 1
+    }
+   }
+   additionalActions {
+    ARMST_USER_OPEN_BOOK "{C7308EB2AAB2F6D0}" {
+     ParentContextList {
+      "SRZ_Read"
+     }
+     s_TextToBook "Carrying artifacts. Every artifact in a pocket works on the carrier at the same time. Effects add up. Three radioactive stones in a backpack are three times the dose. A lined container stops all of it, good and bad. Field staff are told to carry what they need loose and everything else boxed. Most stalkers learn this the expensive way."
+    }
+   }
+  }
+ }
+}

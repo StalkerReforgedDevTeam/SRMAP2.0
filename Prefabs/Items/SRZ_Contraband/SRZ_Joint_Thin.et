@@ -1,0 +1,40 @@
+GenericEntity : "{3238FC0BDB67AA78}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" {
+ ID "4118409920CBD613"
+ components {
+  InventoryItemComponent "{6AE26AD085C559A6}" {
+   Attributes SCR_ItemAttributeCollection "{76ED48017970AE1B}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{D90E56D66EC49C38}" {
+     Name "Joint Thin"
+     Description ""
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.01
+     SizeSetupStrategy Manual
+     ItemDimensions 0.013 0.011 0.085
+     ItemVolume 0.03
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{9BF423D012D37376}" {
+      CameraPreset Top
+      CameraOrbitAngles 0 0 0
+      CameraDistanceToItem 0.28
+      FOV 10
+      LodModel 0
+     }
+    }
+    CommonItemType "NONE"
+   }
+  }
+  ARMST_ItemUseComponent "{1D25578DB0F8096E}" {
+  }
+  MeshObject "{8B3015514F22B355}" {
+   Object "{DE959F710CD20AA2}Assets/Items/SRZ_Contraband/Weed/SRZ_Joint_Thin/SRZ_Joint_Thin.xob"
+   Materials {
+    MaterialAssignClass "{05AE16EC32FC5755}" {
+     SourceMaterial "SRZ_Joint_Thin"
+     AssignedMaterial "{1D16B0EC21E8B137}Assets/Items/SRZ_Contraband/Weed/SRZ_Joint_Thin/Data/SRZ_Joint_Thin.emat"
+    }
+   }
+  }
+ }
+}

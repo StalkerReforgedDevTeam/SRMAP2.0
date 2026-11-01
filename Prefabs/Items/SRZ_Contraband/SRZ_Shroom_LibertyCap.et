@@ -1,0 +1,40 @@
+GenericEntity : "{3238FC0BDB67AA78}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" {
+ ID "62C0B0EA32663E62"
+ components {
+  InventoryItemComponent "{12BBA2B3C8312D58}" {
+   Attributes SCR_ItemAttributeCollection "{CE357035063F36F8}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{BF23E5F18DEAB916}" {
+     Name "Dried Mushroom Liberty Cap"
+     Description ""
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.01
+     SizeSetupStrategy Manual
+     ItemDimensions 0.021 0.011 0.083
+     ItemVolume 0.03
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{31BB79DB288E6825}" {
+      CameraPreset Top
+      CameraOrbitAngles 0 0 0
+      CameraDistanceToItem 0.28
+      FOV 10
+      LodModel 0
+     }
+    }
+    CommonItemType "NONE"
+   }
+  }
+  ARMST_ItemUseComponent "{B457D2831CBB1CE9}" {
+  }
+  MeshObject "{DB93392875C2279A}" {
+   Object "{81B8F589C7EE14CE}Assets/Items/SRZ_Contraband/Psychedelics/SRZ_Shroom_LibertyCap/SRZ_Shroom_LibertyCap.xob"
+   Materials {
+    MaterialAssignClass "{C836D16879FEB36A}" {
+     SourceMaterial "SRZ_Shroom_LibertyCap"
+     AssignedMaterial "{5F8351360E63E9B0}Assets/Items/SRZ_Contraband/Psychedelics/SRZ_Shroom_LibertyCap/Data/SRZ_Shroom_LibertyCap.emat"
+    }
+   }
+  }
+ }
+}

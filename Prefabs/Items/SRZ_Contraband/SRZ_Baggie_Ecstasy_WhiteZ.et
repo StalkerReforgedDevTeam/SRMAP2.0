@@ -1,0 +1,48 @@
+GenericEntity : "{3238FC0BDB67AA78}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" {
+ ID "53212BE99237DB42"
+ components {
+  InventoryItemComponent "{82C2289FBF55A91B}" {
+   Attributes SCR_ItemAttributeCollection "{90BE3BBB11CC3D20}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{73FA6FA053CE555A}" {
+     Name "Bag of Pills White Z"
+     Description ""
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.05
+     SizeSetupStrategy Manual
+     ItemDimensions 0.062 0.011 0.085
+     ItemVolume 0.12
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{6C26910675BB5112}" {
+      CameraPreset Top
+      CameraOrbitAngles 0 0 0
+      CameraDistanceToItem 0.34
+      FOV 10
+      LodModel 0
+     }
+    }
+    CommonItemType "NONE"
+   }
+  }
+  ARMST_ItemUseComponent "{894183DFD72DB731}" {
+  }
+  MeshObject "{A56C488D5C307163}" {
+   Object "{35B5521DF157CFD9}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Ecstasy_WhiteZ/SRZ_Baggie_Ecstasy_WhiteZ.xob"
+   Materials {
+    MaterialAssignClass "{30E49ED0D85E3B80}" {
+     SourceMaterial "SRZ_Baggie_Ecstasy_WhiteZ_Contents"
+     AssignedMaterial "{6CBC1FECA86D5F53}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Ecstasy_WhiteZ/Data/SRZ_Baggie_Ecstasy_WhiteZ_Contents.emat"
+    }
+    MaterialAssignClass "{8B3037136D62603C}" {
+     SourceMaterial "SRZ_Baggie_Ecstasy_WhiteZ_Bag"
+     AssignedMaterial "{1F09EA9D2D9676CB}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Ecstasy_WhiteZ/Data/SRZ_Baggie_Ecstasy_WhiteZ_Bag.emat"
+    }
+    MaterialAssignClass "{6699A146C4B41FA5}" {
+     SourceMaterial "SRZ_Baggie_Ecstasy_WhiteZ_Zip"
+     AssignedMaterial "{4734B2B3D1D8F973}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Ecstasy_WhiteZ/Data/SRZ_Baggie_Ecstasy_WhiteZ_Zip.emat"
+    }
+   }
+  }
+ }
+}

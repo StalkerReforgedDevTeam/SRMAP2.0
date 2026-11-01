@@ -1,0 +1,48 @@
+GenericEntity : "{3238FC0BDB67AA78}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" {
+ ID "FEF110D875D9EE7C"
+ components {
+  InventoryItemComponent "{5E966DE7D25103B7}" {
+   Attributes SCR_ItemAttributeCollection "{66970615E33A0B5D}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{2A33DACF9BAD3EF2}" {
+     Name "Bag of Pills Orange Trefoil"
+     Description ""
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.05
+     SizeSetupStrategy Manual
+     ItemDimensions 0.062 0.012 0.085
+     ItemVolume 0.12
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{82D2D809375EE567}" {
+      CameraPreset Top
+      CameraOrbitAngles 0 0 0
+      CameraDistanceToItem 0.34
+      FOV 10
+      LodModel 0
+     }
+    }
+    CommonItemType "NONE"
+   }
+  }
+  ARMST_ItemUseComponent "{BBDF88BD6EA206D1}" {
+  }
+  MeshObject "{C9B52C8D7E0100F9}" {
+   Object "{3E10EEF4920AFA5F}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Ecstasy_OrangeTrefoil/SRZ_Baggie_Ecstasy_OrangeTrefoil.xob"
+   Materials {
+    MaterialAssignClass "{73AA9B3A0D77E694}" {
+     SourceMaterial "SRZ_Baggie_Ecstasy_OrangeTrefoil_Contents"
+     AssignedMaterial "{CE40C7FDB129D008}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Ecstasy_OrangeTrefoil/Data/SRZ_Baggie_Ecstasy_OrangeTrefoil_Contents.emat"
+    }
+    MaterialAssignClass "{0C555AACDFB2C415}" {
+     SourceMaterial "SRZ_Baggie_Ecstasy_OrangeTrefoil_Bag"
+     AssignedMaterial "{170CAF8C818FB418}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Ecstasy_OrangeTrefoil/Data/SRZ_Baggie_Ecstasy_OrangeTrefoil_Bag.emat"
+    }
+    MaterialAssignClass "{D104FAC42F91F722}" {
+     SourceMaterial "SRZ_Baggie_Ecstasy_OrangeTrefoil_Zip"
+     AssignedMaterial "{6EAB0561E7471A20}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Ecstasy_OrangeTrefoil/Data/SRZ_Baggie_Ecstasy_OrangeTrefoil_Zip.emat"
+    }
+   }
+  }
+ }
+}

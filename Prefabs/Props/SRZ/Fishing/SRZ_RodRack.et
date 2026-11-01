@@ -1,0 +1,18 @@
+GenericEntity {
+ ID "6FFD196E1F31FBB1"
+ components {
+  MeshObject "{654D4C4C13D5B442}" {
+   Object "{B1D063E48D3243C2}Assets/Props/SRZ/Fishing/SRZ_RodRack/SRZ_RodRack.xob"
+   Materials {
+    MaterialAssignClass "{320ADB768F4FF19B}" {
+     SourceMaterial "SRZ_Prop_RodRack_MAT"
+     AssignedMaterial "{23C0C3CAF65ED913}Assets/Props/SRZ/Fishing/SRZ_RodRack/Data/SRZ_RodRack.emat"
+    }
+   }
+  }
+  RigidBody "{499FB96E1BAAE848}" {
+   ModelGeometry 1
+   Static 1
+  }
+ }
+}

@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{02AC5A0F1C3A9316}Assets/Items/SRZ/Documents/SRZ_LorePage/Data/SRZ_LorePage_Leaflet_Freedom.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+  EMATResourceClass Xbox : PC {
+  }
+ }
+}

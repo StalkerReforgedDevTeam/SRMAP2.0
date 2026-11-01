@@ -1,0 +1,18 @@
+GenericEntity {
+ ID "2A3D2B1D798F558E"
+ components {
+  MeshObject "{DD3F426D44DF2D90}" {
+   Object "{1564ED4BB87B2164}Assets/Props/SRZ/Fishing/SRZ_DryingRack/SRZ_DryingRack.xob"
+   Materials {
+    MaterialAssignClass "{46A34F0CAB990E2B}" {
+     SourceMaterial "SRZ_Prop_DryingRack_MAT"
+     AssignedMaterial "{64372329E784A14C}Assets/Props/SRZ/Fishing/SRZ_DryingRack/Data/SRZ_DryingRack.emat"
+    }
+   }
+  }
+  RigidBody "{45736B7FA8475282}" {
+   ModelGeometry 1
+   Static 1
+  }
+ }
+}

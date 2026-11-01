@@ -1,0 +1,40 @@
+GenericEntity : "{3238FC0BDB67AA78}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" {
+ ID "CA91B4E08AE5BB69"
+ components {
+  InventoryItemComponent "{6453A4518DA88816}" {
+   Attributes SCR_ItemAttributeCollection "{34CCB6C564C1FD00}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{767868BC93FBABA4}" {
+     Name "Crack Rock"
+     Description ""
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.01
+     SizeSetupStrategy Manual
+     ItemDimensions 0.017 0.013 0.015
+     ItemVolume 0.03
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{6ABCBA1D13DD1009}" {
+      CameraPreset Top
+      CameraOrbitAngles 0 0 0
+      CameraDistanceToItem 0.25
+      FOV 10
+      LodModel 0
+     }
+    }
+    CommonItemType "NONE"
+   }
+  }
+  ARMST_ItemUseComponent "{5A4D0D9CCA3C0CEA}" {
+  }
+  MeshObject "{F2B2BA54EC1E735E}" {
+   Object "{4391D55F25F71EAC}Assets/Items/SRZ_Contraband/Coke/SRZ_Crack_Rock/SRZ_Crack_Rock.xob"
+   Materials {
+    MaterialAssignClass "{6207578053763427}" {
+     SourceMaterial "SRZ_Crack_Rock"
+     AssignedMaterial "{C07EEAB95A1A589A}Assets/Items/SRZ_Contraband/Coke/SRZ_Crack_Rock/Data/SRZ_Crack_Rock.emat"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{3AAE0CE2409351DE}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Weed_BubbaKush/Data/SRZ_Baggie_Weed_BubbaKush_Zip.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+  EMATResourceClass Xbox : PC {
+  }
+ }
+}

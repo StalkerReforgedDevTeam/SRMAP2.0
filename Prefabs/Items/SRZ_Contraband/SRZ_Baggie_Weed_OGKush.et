@@ -1,0 +1,48 @@
+GenericEntity : "{3238FC0BDB67AA78}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" {
+ ID "680530E96A2A3779"
+ components {
+  InventoryItemComponent "{C9DC7C1FAF76DEEE}" {
+   Attributes SCR_ItemAttributeCollection "{0F3C372F93222925}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{0303DF45BB02ABCC}" {
+     Name "Bag of OGKush"
+     Description ""
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.05
+     SizeSetupStrategy Manual
+     ItemDimensions 0.062 0.016 0.085
+     ItemVolume 0.12
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{8A79CE209FE49986}" {
+      CameraPreset Top
+      CameraOrbitAngles 0 0 0
+      CameraDistanceToItem 0.34
+      FOV 10
+      LodModel 0
+     }
+    }
+    CommonItemType "NONE"
+   }
+  }
+  ARMST_ItemUseComponent "{D59A1558ED3DEC0E}" {
+  }
+  MeshObject "{884A9C7E73E9460B}" {
+   Object "{43478960402B33F1}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Weed_OGKush/SRZ_Baggie_Weed_OGKush.xob"
+   Materials {
+    MaterialAssignClass "{3FC0519A6E878BF2}" {
+     SourceMaterial "SRZ_Baggie_Weed_OGKush_Contents"
+     AssignedMaterial "{95F4D2E32FF2BFE7}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Weed_OGKush/Data/SRZ_Baggie_Weed_OGKush_Contents.emat"
+    }
+    MaterialAssignClass "{66AB094CD95BAFFC}" {
+     SourceMaterial "SRZ_Baggie_Weed_OGKush_Bag"
+     AssignedMaterial "{DF80F01AB50853FF}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Weed_OGKush/Data/SRZ_Baggie_Weed_OGKush_Bag.emat"
+    }
+    MaterialAssignClass "{42BA60FC7C77365A}" {
+     SourceMaterial "SRZ_Baggie_Weed_OGKush_Zip"
+     AssignedMaterial "{8CC2F4FFB3386BB2}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Weed_OGKush/Data/SRZ_Baggie_Weed_OGKush_Zip.emat"
+    }
+   }
+  }
+ }
+}

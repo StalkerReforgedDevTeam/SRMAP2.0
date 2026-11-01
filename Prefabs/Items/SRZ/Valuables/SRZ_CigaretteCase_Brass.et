@@ -1,0 +1,25 @@
+GenericEntity : "{0826AC41D0926A51}Prefabs/Items/Others/armst_itm_cards.et" {
+ ID "DBED202AF9CE3B0E"
+ components {
+  InventoryItemComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{5222EB4D07D865FA}" {
+     Name "Cigarette case (brass)"
+     Description "Old brass cigarette case. Traders will pay for it."
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.12
+    }
+   }
+  }
+  MeshObject "{656C7C29B19C6CC5}" {
+   Object "{4DF300A797C92F9B}Assets/Items/SRZ/Valuables/SRZ_CigaretteCase/SRZ_CigaretteCase.xob"
+   Materials {
+    MaterialAssignClass "{75237644C2C73061}" {
+     SourceMaterial "SRZ_Junk_CigaretteCase_MAT"
+     AssignedMaterial "{916829D12032EAFD}Assets/Items/SRZ/Valuables/SRZ_CigaretteCase/Data/SRZ_CigaretteCase_Brass.emat"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{6CBFFE81D4D05285}Assets/Decals/SRZ/Blood/Data/SRZ_Decal_Blood_07_Pool.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+  EMATResourceClass Xbox : PC {
+  }
+ }
+}

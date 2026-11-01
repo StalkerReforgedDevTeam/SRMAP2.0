@@ -1,0 +1,40 @@
+GenericEntity : "{3238FC0BDB67AA78}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" {
+ ID "DB44A1500BCE5515"
+ components {
+  InventoryItemComponent "{9592505B118A8632}" {
+   Attributes SCR_ItemAttributeCollection "{1A8209281EB28F72}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{207A4100639C573A}" {
+     Name "Brick of Bubba Kush"
+     Description ""
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 1.0
+     SizeSetupStrategy Manual
+     ItemDimensions 0.204 0.060 0.129
+     ItemVolume 1.2
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{DEA2277D48173D61}" {
+      CameraPreset Top
+      CameraOrbitAngles 0 0 0
+      CameraDistanceToItem 0.80
+      FOV 10
+      LodModel 0
+     }
+    }
+    CommonItemType "NONE"
+   }
+  }
+  ARMST_ItemUseComponent "{4EB2647AB4EC1189}" {
+  }
+  MeshObject "{9A632A8ECF928E51}" {
+   Object "{C2A6789104115F1F}Assets/Items/SRZ_Contraband/Weed/SRZ_Brick_Weed_BubbaKush/SRZ_Brick_Weed_BubbaKush.xob"
+   Materials {
+    MaterialAssignClass "{1BC01B0F319ED1E5}" {
+     SourceMaterial "SRZ_Brick_Weed_BubbaKush"
+     AssignedMaterial "{966F70F47BCD316D}Assets/Items/SRZ_Contraband/Weed/SRZ_Brick_Weed_BubbaKush/Data/SRZ_Brick_Weed_BubbaKush.emat"
+    }
+   }
+  }
+ }
+}

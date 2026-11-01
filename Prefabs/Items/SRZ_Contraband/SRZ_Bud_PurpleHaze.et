@@ -1,0 +1,40 @@
+GenericEntity : "{3238FC0BDB67AA78}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" {
+ ID "478E6D6B16F043B6"
+ components {
+  InventoryItemComponent "{813818DAF9271FD8}" {
+   Attributes SCR_ItemAttributeCollection "{11B77144CA5A3AC4}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{EB6D8DB949CD08F1}" {
+     Name "Bud Purple Haze"
+     Description ""
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.01
+     SizeSetupStrategy Manual
+     ItemDimensions 0.032 0.048 0.030
+     ItemVolume 0.03
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{0AB957320D1416A7}" {
+      CameraPreset Top
+      CameraOrbitAngles 0 0 0
+      CameraDistanceToItem 0.25
+      FOV 10
+      LodModel 0
+     }
+    }
+    CommonItemType "NONE"
+   }
+  }
+  ARMST_ItemUseComponent "{7C8063D3A3C7A349}" {
+  }
+  MeshObject "{2F1D239721D33253}" {
+   Object "{0A482A5DAC0B6A2A}Assets/Items/SRZ_Contraband/Weed/SRZ_Bud_PurpleHaze/SRZ_Bud_PurpleHaze.xob"
+   Materials {
+    MaterialAssignClass "{B991D3CC0C6326B2}" {
+     SourceMaterial "SRZ_Bud_PurpleHaze"
+     AssignedMaterial "{C79212650A465121}Assets/Items/SRZ_Contraband/Weed/SRZ_Bud_PurpleHaze/Data/SRZ_Bud_PurpleHaze.emat"
+    }
+   }
+  }
+ }
+}

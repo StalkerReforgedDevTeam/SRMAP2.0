@@ -1,0 +1,40 @@
+GenericEntity : "{3238FC0BDB67AA78}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" {
+ ID "D90C98EB0F8DA58D"
+ components {
+  InventoryItemComponent "{CAE2BBDAD7C1B898}" {
+   Attributes SCR_ItemAttributeCollection "{D3FCAC6E5F5E52CF}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{7184A12746680E63}" {
+     Name "Pill Bottle"
+     Description ""
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.05
+     SizeSetupStrategy Manual
+     ItemDimensions 0.037 0.075 0.037
+     ItemVolume 0.12
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{F295BCB4ACC53365}" {
+      CameraPreset Top
+      CameraOrbitAngles 0 0 0
+      CameraDistanceToItem 0.29
+      FOV 10
+      LodModel 0
+     }
+    }
+    CommonItemType "NONE"
+   }
+  }
+  ARMST_ItemUseComponent "{B946B59AC072D604}" {
+  }
+  MeshObject "{54F94A9B78344A2B}" {
+   Object "{029CF01C2869B4BE}Assets/Items/SRZ_Contraband/Pills/SRZ_Pills_Bottle/SRZ_Pills_Bottle.xob"
+   Materials {
+    MaterialAssignClass "{7B9B086B5340ED96}" {
+     SourceMaterial "SRZ_Pills_Bottle"
+     AssignedMaterial "{91F64DAD23763BE3}Assets/Items/SRZ_Contraband/Pills/SRZ_Pills_Bottle/Data/SRZ_Pills_Bottle.emat"
+    }
+   }
+  }
+ }
+}

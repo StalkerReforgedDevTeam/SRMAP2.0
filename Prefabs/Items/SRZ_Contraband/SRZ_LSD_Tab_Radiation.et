@@ -1,0 +1,40 @@
+GenericEntity : "{3238FC0BDB67AA78}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" {
+ ID "5BDDDD2F1F71B977"
+ components {
+  InventoryItemComponent "{4B47EABB2D7006E7}" {
+   Attributes SCR_ItemAttributeCollection "{B51E72CF0066731B}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{5C6D7304ADF55429}" {
+     Name "LSD Tab Radiation"
+     Description ""
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.01
+     SizeSetupStrategy Manual
+     ItemDimensions 0.010 0.002 0.010
+     ItemVolume 0.03
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{4A001B6A60875591}" {
+      CameraPreset Top
+      CameraOrbitAngles 0 0 0
+      CameraDistanceToItem 0.25
+      FOV 10
+      LodModel 0
+     }
+    }
+    CommonItemType "NONE"
+   }
+  }
+  ARMST_ItemUseComponent "{10A60A1564E7BF58}" {
+  }
+  MeshObject "{993CEC9BBD371CA5}" {
+   Object "{B5D5608C0F1C02EC}Assets/Items/SRZ_Contraband/Psychedelics/SRZ_LSD_Tab_Radiation/SRZ_LSD_Tab_Radiation.xob"
+   Materials {
+    MaterialAssignClass "{AF89C63AF52B0D11}" {
+     SourceMaterial "SRZ_LSD_Tab_Radiation"
+     AssignedMaterial "{8755B3B26AA10293}Assets/Items/SRZ_Contraband/Psychedelics/SRZ_LSD_Tab_Radiation/Data/SRZ_LSD_Tab_Radiation.emat"
+    }
+   }
+  }
+ }
+}

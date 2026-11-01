@@ -1,0 +1,40 @@
+GenericEntity : "{3238FC0BDB67AA78}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" {
+ ID "642CBF323A651ABA"
+ components {
+  InventoryItemComponent "{7DD7A7F16DD83E22}" {
+   Attributes SCR_ItemAttributeCollection "{28E52EE457D3176C}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{D601C7DB26229AB7}" {
+     Name "Passport Russia"
+     Description ""
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.05
+     SizeSetupStrategy Manual
+     ItemDimensions 0.088 0.009 0.125
+     ItemVolume 0.12
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{D31BEAC802E2D9DD}" {
+      CameraPreset Top
+      CameraOrbitAngles 0 0 0
+      CameraDistanceToItem 0.49
+      FOV 10
+      LodModel 0
+     }
+    }
+    CommonItemType "NONE"
+   }
+  }
+  ARMST_ItemUseComponent "{BD3D12EFA5CF02DB}" {
+  }
+  MeshObject "{E2A16B8D8AAA3083}" {
+   Object "{43D99C1BA326AF0B}Assets/Items/SRZ_Contraband/Documents/SRZ_Passport_Russia/SRZ_Passport_Russia.xob"
+   Materials {
+    MaterialAssignClass "{A8310D5016A21F57}" {
+     SourceMaterial "SRZ_Passport_Russia"
+     AssignedMaterial "{40E34BACB990C430}Assets/Items/SRZ_Contraband/Documents/SRZ_Passport_Russia/Data/SRZ_Passport_Russia.emat"
+    }
+   }
+  }
+ }
+}

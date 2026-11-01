@@ -1,0 +1,64 @@
+GenericEntity : "{2DF096A08F96E446}Prefabs/Items/base_item_hand_consumble.et" {
+ ID "5A7C5EBB2789AB1E"
+ components {
+  ARMST_ItemUseComponent "{59E68C4DC131E9FC}" {
+   m_ConsumableEffect ARMST_ConsumableBaseItem "{59E68C4DDD8B416A}" {
+    m_bDeleteOnUse 0
+    m_TypeConsuble INTERACT
+   }
+   m_sSRZReadText "Shaman. Mutters and waves its hands, and the other beasts get bolder around it. Kill it first, always. The rest lose their nerve when it falls. It wears little charms. People pay for those. I wouldn't wear one."
+  }
+  InventoryItemComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName SCR_InventoryUIInfo "{5222EB4D07D865FA}" {
+     Name "Hunter's notes: shaman"
+     Description "Page from a hunter's notebook."
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.02
+     ItemDimensions 0.01 0.01 0.01
+     ItemVolume 0.1
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{59ECB146B0ED6F92}" {
+     HandAdditiveRotation 0 90 0
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5A5AEE4BCB65677F}" {
+      CameraPreset Top
+      CameraDistanceToItem 0.55
+      LodModel 0
+     }
+    }
+    m_Size SLOT_1x1
+   }
+  }
+  MeshObject "{59CEE5702DCA6A31}" {
+   Object "{0247F51BA5ACDE53}Assets/Items/SRZ/Documents/SRZ_LorePage/SRZ_LorePage.xob"
+   Materials {
+    MaterialAssignClass "{FC27CAB35D7846A9}" {
+     SourceMaterial "SRZ_Readable_Paper_MAT"
+     AssignedMaterial "{08A1E411787C4D21}Assets/Items/SRZ/Documents/SRZ_LorePage/Data/SRZ_LorePage_Hunter_Shaman.emat"
+    }
+   }
+  }
+  ActionsManagerComponent "{508AB5952B584B2E}" {
+   ActionContexts {
+    UserActionContext "{6362AA58E68D3816}" {
+     ContextName "SRZ_Read"
+     Position PointInfo "{3F24A1BEC01AE8A4}" {
+      Offset 0 0.02 0
+     }
+     Radius 1
+    }
+   }
+   additionalActions {
+    ARMST_USER_OPEN_BOOK "{AB1B46C5E25BEEB4}" {
+     ParentContextList {
+      "SRZ_Read"
+     }
+     s_TextToBook "Shaman. Mutters and waves its hands, and the other beasts get bolder around it. Kill it first, always. The rest lose their nerve when it falls. It wears little charms. People pay for those. I wouldn't wear one."
+    }
+   }
+  }
+ }
+}

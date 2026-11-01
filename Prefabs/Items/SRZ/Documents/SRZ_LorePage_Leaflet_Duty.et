@@ -1,0 +1,64 @@
+GenericEntity : "{2DF096A08F96E446}Prefabs/Items/base_item_hand_consumble.et" {
+ ID "C959A4E4A417034D"
+ components {
+  ARMST_ItemUseComponent "{59E68C4DC131E9FC}" {
+   m_ConsumableEffect ARMST_ConsumableBaseItem "{59E68C4DDD8B416A}" {
+    m_bDeleteOnUse 0
+    m_TypeConsuble INTERACT
+   }
+   m_sSRZReadText "Duty. STALKER! The Zone is a wound on the earth and it is spreading. Mutants breed, anomalies move, and fools carry its poison out into the world for money. Duty holds the line. We need disciplined people with steady hands. Food, ammunition and a purpose. Report to any Duty post."
+  }
+  InventoryItemComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName SCR_InventoryUIInfo "{5222EB4D07D865FA}" {
+     Name "Duty leaflet"
+     Description "Printed faction leaflet."
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.02
+     ItemDimensions 0.01 0.01 0.01
+     ItemVolume 0.1
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{59ECB146B0ED6F92}" {
+     HandAdditiveRotation 0 90 0
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5A5AEE4BCB65677F}" {
+      CameraPreset Top
+      CameraDistanceToItem 0.55
+      LodModel 0
+     }
+    }
+    m_Size SLOT_1x1
+   }
+  }
+  MeshObject "{59CEE5702DCA6A31}" {
+   Object "{0247F51BA5ACDE53}Assets/Items/SRZ/Documents/SRZ_LorePage/SRZ_LorePage.xob"
+   Materials {
+    MaterialAssignClass "{4F33078BA877D150}" {
+     SourceMaterial "SRZ_Readable_Paper_MAT"
+     AssignedMaterial "{971B66A4B8CCB423}Assets/Items/SRZ/Documents/SRZ_LorePage/Data/SRZ_LorePage_Leaflet_Duty.emat"
+    }
+   }
+  }
+  ActionsManagerComponent "{508AB5952B584B2E}" {
+   ActionContexts {
+    UserActionContext "{284AC16C0D071507}" {
+     ContextName "SRZ_Read"
+     Position PointInfo "{81D6F7B27ADBEAE5}" {
+      Offset 0 0.02 0
+     }
+     Radius 1
+    }
+   }
+   additionalActions {
+    ARMST_USER_OPEN_BOOK "{6CC0C16D6D7379FC}" {
+     ParentContextList {
+      "SRZ_Read"
+     }
+     s_TextToBook "Duty. STALKER! The Zone is a wound on the earth and it is spreading. Mutants breed, anomalies move, and fools carry its poison out into the world for money. Duty holds the line. We need disciplined people with steady hands. Food, ammunition and a purpose. Report to any Duty post."
+    }
+   }
+  }
+ }
+}

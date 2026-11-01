@@ -1,0 +1,18 @@
+GenericEntity {
+ ID "14F2B441ED5B135A"
+ components {
+  MeshObject "{61F3B13EAE5AC46B}" {
+   Object "{14098A8565B67643}Assets/Props/SRZ/Camp/SRZ_MonolithShrine/SRZ_MonolithShrine.xob"
+   Materials {
+    MaterialAssignClass "{6116F1D37E0CF22E}" {
+     SourceMaterial "SRZ_Prop_MonolithShrine_MAT"
+     AssignedMaterial "{F43FC4106BA530C6}Assets/Props/SRZ/Camp/SRZ_MonolithShrine/Data/SRZ_MonolithShrine.emat"
+    }
+   }
+  }
+  RigidBody "{4F17BC07FF0788E2}" {
+   ModelGeometry 1
+   Static 1
+  }
+ }
+}

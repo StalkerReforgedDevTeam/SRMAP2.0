@@ -1,0 +1,48 @@
+GenericEntity : "{3238FC0BDB67AA78}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" {
+ ID "1F2F469345B32456"
+ components {
+  InventoryItemComponent "{19DB0BEEC762A5A9}" {
+   Attributes SCR_ItemAttributeCollection "{685E87B1CEF15502}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{B38D969E66390AFE}" {
+     Name "Bag of Cocaine"
+     Description ""
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.05
+     SizeSetupStrategy Manual
+     ItemDimensions 0.062 0.012 0.085
+     ItemVolume 0.12
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{C05FD8C666EF9588}" {
+      CameraPreset Top
+      CameraOrbitAngles 0 0 0
+      CameraDistanceToItem 0.34
+      FOV 10
+      LodModel 0
+     }
+    }
+    CommonItemType "NONE"
+   }
+  }
+  ARMST_ItemUseComponent "{8122F8997F1EA868}" {
+  }
+  MeshObject "{7E26C80DFD17316A}" {
+   Object "{BF4EF8C56F56EE61}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Coke/SRZ_Baggie_Coke.xob"
+   Materials {
+    MaterialAssignClass "{84911662C35DE0B7}" {
+     SourceMaterial "SRZ_Baggie_Coke_Contents"
+     AssignedMaterial "{5FE111CB4C0460D1}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Coke/Data/SRZ_Baggie_Coke_Contents.emat"
+    }
+    MaterialAssignClass "{8609E406ED285517}" {
+     SourceMaterial "SRZ_Baggie_Coke_Bag"
+     AssignedMaterial "{C7EADE4A040EE336}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Coke/Data/SRZ_Baggie_Coke_Bag.emat"
+    }
+    MaterialAssignClass "{1A8BBBFF72AC6D89}" {
+     SourceMaterial "SRZ_Baggie_Coke_Zip"
+     AssignedMaterial "{0568A04E8E94592F}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Coke/Data/SRZ_Baggie_Coke_Zip.emat"
+    }
+   }
+  }
+ }
+}

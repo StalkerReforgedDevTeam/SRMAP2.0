@@ -1,0 +1,40 @@
+GenericEntity : "{3238FC0BDB67AA78}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" {
+ ID "346FA31B7DF16D89"
+ components {
+  InventoryItemComponent "{E147DB876C58B889}" {
+   Attributes SCR_ItemAttributeCollection "{DB2D043EA6398816}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{3C7D5FA28032B90B}" {
+     Name "Joint Half"
+     Description ""
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.01
+     SizeSetupStrategy Manual
+     ItemDimensions 0.012 0.011 0.046
+     ItemVolume 0.03
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{6FB103349BCE14A9}" {
+      CameraPreset Top
+      CameraOrbitAngles 0 0 0
+      CameraDistanceToItem 0.25
+      FOV 10
+      LodModel 0
+     }
+    }
+    CommonItemType "NONE"
+   }
+  }
+  ARMST_ItemUseComponent "{7B6BBF2383A7DAC1}" {
+  }
+  MeshObject "{723A78A8CA6D6925}" {
+   Object "{4B19519FD7BAC705}Assets/Items/SRZ_Contraband/Weed/SRZ_Joint_Half/SRZ_Joint_Half.xob"
+   Materials {
+    MaterialAssignClass "{0CF0BEBDEF435B5F}" {
+     SourceMaterial "SRZ_Joint_Half"
+     AssignedMaterial "{1BB5901CB8670A05}Assets/Items/SRZ_Contraband/Weed/SRZ_Joint_Half/Data/SRZ_Joint_Half.emat"
+    }
+   }
+  }
+ }
+}

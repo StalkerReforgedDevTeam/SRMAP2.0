@@ -1,0 +1,25 @@
+GenericEntity : "{0826AC41D0926A51}Prefabs/Items/Others/armst_itm_cards.et" {
+ ID "482BF6D46BA33C2F"
+ components {
+  InventoryItemComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{5222EB4D07D865FA}" {
+     Name "Medal "Excellent Watchman""
+     Description "Bronze award for the night watch."
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.03
+    }
+   }
+  }
+  MeshObject "{656C7C29B19C6CC5}" {
+   Object "{14A5071262317ECF}Assets/Items/SRZ/Valuables/SRZ_Medal/SRZ_Medal.xob"
+   Materials {
+    MaterialAssignClass "{7A460B08245AE7CB}" {
+     SourceMaterial "SRZ_Junk_Medal_MAT"
+     AssignedMaterial "{FB155EE363C695F8}Assets/Items/SRZ/Valuables/SRZ_Medal/Data/SRZ_Medal_Watch.emat"
+    }
+   }
+  }
+ }
+}

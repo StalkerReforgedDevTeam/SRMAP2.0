@@ -1,0 +1,40 @@
+GenericEntity : "{3238FC0BDB67AA78}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" {
+ ID "39581ACECAA6E90C"
+ components {
+  InventoryItemComponent "{C209B786969F2E58}" {
+   Attributes SCR_ItemAttributeCollection "{2C74C596D5EA550E}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{84CAF3E5079E87B5}" {
+     Name "LSD Tab Eye"
+     Description ""
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.01
+     SizeSetupStrategy Manual
+     ItemDimensions 0.010 0.002 0.010
+     ItemVolume 0.03
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{AD4E4447AAFF11FA}" {
+      CameraPreset Top
+      CameraOrbitAngles 0 0 0
+      CameraDistanceToItem 0.25
+      FOV 10
+      LodModel 0
+     }
+    }
+    CommonItemType "NONE"
+   }
+  }
+  ARMST_ItemUseComponent "{2B04CEF9076D70D0}" {
+  }
+  MeshObject "{D4E8B3A6AD9D37EA}" {
+   Object "{4463F943F89988CA}Assets/Items/SRZ_Contraband/Psychedelics/SRZ_LSD_Tab_Eye/SRZ_LSD_Tab_Eye.xob"
+   Materials {
+    MaterialAssignClass "{3010EBFF47468DC7}" {
+     SourceMaterial "SRZ_LSD_Tab_Eye"
+     AssignedMaterial "{3259C37F8A41A567}Assets/Items/SRZ_Contraband/Psychedelics/SRZ_LSD_Tab_Eye/Data/SRZ_LSD_Tab_Eye.emat"
+    }
+   }
+  }
+ }
+}

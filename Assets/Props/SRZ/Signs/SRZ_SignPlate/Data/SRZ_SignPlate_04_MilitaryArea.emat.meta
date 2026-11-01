@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{97AC2A9F2C9D31CF}Assets/Props/SRZ/Signs/SRZ_SignPlate/Data/SRZ_SignPlate_04_MilitaryArea.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+  EMATResourceClass Xbox : PC {
+  }
+ }
+}

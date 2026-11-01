@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{CE40C7FDB129D008}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Ecstasy_OrangeTrefoil/Data/SRZ_Baggie_Ecstasy_OrangeTrefoil_Contents.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+  EMATResourceClass Xbox : PC {
+  }
+ }
+}

@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{31043C1D119B147B}Assets/Decals/SRZ/FactionGraffiti/Data/SRZ_Decal_Faction_20_Loners_HelpEachOther.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+  EMATResourceClass Xbox : PC {
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{5C9E7DF3E6235642}Prefabs/Items/SRZ_Contraband/SRZ_Bud_PurpleHaze.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

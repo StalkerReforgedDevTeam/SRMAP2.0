@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{E7262BA57FED2DAD}Assets/Decals/SRZ/Graffiti/Data/SRZ_Decal_Graffiti_01_BoltsFirst.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+  EMATResourceClass Xbox : PC {
+  }
+ }
+}

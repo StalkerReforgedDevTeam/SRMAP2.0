@@ -1,0 +1,62 @@
+GenericEntity : "{3238FC0BDB67AA78}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  ARMST_ItemUseComponent "{59E68C74C5CEE74F}" {
+   m_ConsumableEffect ARMST_ConsumableBaseItem "{59E68C74C1F3910E}" {
+    m_fApplyToSelfDuration 2
+    m_fApplyToOtherDuration 2
+    m_ActionItemOnPress 1
+    m_TypeConsuble INTERACT
+   }
+  }
+  InventoryItemComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName SCR_InventoryUIInfo "{5222EB4D07D865FA}" {
+     Name "Emergency heat pack"
+     Description "Single use chemical heat pack. Shake it and keep it on you, ten minutes of warmth anywhere."
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.06
+     ItemDimensions 0.13 0.09 0.022
+     ItemVolume 0.2
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{59ECB1453144E05D}" {
+     AnimationAttachments {
+      AnimationAttachmentInfo "{55EAD7272ED1ABB5}" {
+       AnimGraph "{83CA8D6E3257795E}anims/New_drink/water_drink.agr"
+       AnimInstance "{CA5C972EA5FD0CA7}anims/New_drink/water_drink_player.asi"
+      }
+     }
+     HandAdditiveRotation 0 0 -90
+     HandAdditiveTranslation 0 0.03 0
+    }
+    CustomAttributes {
+     SCR_AlternativeModel "{59E68C742A7C6A5F}" {
+      m_sAlternativeModel "{04DB9BA49F15F122}Assets/Items/Medicine/SRZ_HeatPack/SRZ_HeatPack.xob"
+     }
+     PreviewRenderAttributes "{5A5AEE4B8FF125F0}" {
+      CameraPreset Front
+      CameraOrbitAngles 0 0 0
+      CameraDistanceToItem 0.8
+      ItemRenderRotation 0 0 0
+      FOV 10
+      LodModel 0
+     }
+     SCR_SelectionMenuPreviewAttributes "{5EC2E10565C06A53}" {
+      m_bShowMedicalColor 1
+     }
+    }
+   }
+  }
+  MeshObject "{59CE87DB17B6B1C5}" {
+   Object "{04DB9BA49F15F122}Assets/Items/Medicine/SRZ_HeatPack/SRZ_HeatPack.xob"
+  }
+  SCR_SoundDataComponent "{5B18D20ED0099A17}" {
+   m_aAudioSourceConfiguration {
+    SCR_AudioSourceConfiguration "{656C7C1F4FFCD501}" {
+     m_sSoundProject "{216CDE4C64FCF3F0}Sounds/Items/Medicals/Items_pills.acp"
+    }
+   }
+  }
+ }
+}

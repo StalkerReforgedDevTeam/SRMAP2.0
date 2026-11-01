@@ -1,0 +1,40 @@
+GenericEntity : "{3238FC0BDB67AA78}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" {
+ ID "6EA8DEC62E4520C4"
+ components {
+  InventoryItemComponent "{577281E62D298E06}" {
+   Attributes SCR_ItemAttributeCollection "{8216D76783768E7B}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{E8E319397175A01F}" {
+     Name "Bag of Pills"
+     Description ""
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.05
+     SizeSetupStrategy Manual
+     ItemDimensions 0.050 0.012 0.070
+     ItemVolume 0.12
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{15F30D6A47465106}" {
+      CameraPreset Top
+      CameraOrbitAngles 0 0 0
+      CameraDistanceToItem 0.28
+      FOV 10
+      LodModel 0
+     }
+    }
+    CommonItemType "NONE"
+   }
+  }
+  ARMST_ItemUseComponent "{5DD4BDBC9E1A4768}" {
+  }
+  MeshObject "{632AC45B3915C0B1}" {
+   Object "{22F5AD2A0D2F3A32}Assets/Items/SRZ_Contraband/Pills/SRZ_Pills_Bag/SRZ_Pills_Bag.xob"
+   Materials {
+    MaterialAssignClass "{1D8E7FFE6B99A224}" {
+     SourceMaterial "SRZ_Pills_Bag"
+     AssignedMaterial "{E5C90AA776D5BF9B}Assets/Items/SRZ_Contraband/Pills/SRZ_Pills_Bag/Data/SRZ_Pills_Bag.emat"
+    }
+   }
+  }
+ }
+}

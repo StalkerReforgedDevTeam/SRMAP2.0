@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{70A6274B3236478A}Assets/Items/SRZ_Contraband/Weed/SRZ_Bud_OGKush/Data/SRZ_Bud_OGKush.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+  EMATResourceClass Xbox : PC {
+  }
+ }
+}

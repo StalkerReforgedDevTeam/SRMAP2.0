@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{8DDF130348426551}Anims/SRZ/anm/p_srz_shiver.anm"
+ Configurations {
+  TXAResourceClass PC {
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass PS5 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+  TXAResourceClass Xbox : PC {
+  }
+ }
+}

@@ -1,0 +1,13 @@
+MatPBRBasicGlass {
+ Color 0.9 0.92 0.9 1
+ Sort translucent
+ AlphaMul 1
+ BlendMode AlphaBlend
+ RoughnessScale 1
+ MetalnessScale 0
+ DielectricReflectance 0.04
+ BCRMap "{3D744CB84CA0C188}Assets/Items/SRZ_Contraband/Pills/SRZ_Pills_Bag/Data/SRZ_Pills_Bag_BCR.edds"
+ OpacityMap "{C106644512922A3B}Assets/Items/SRZ_Contraband/Pills/SRZ_Pills_Bag/Data/SRZ_Pills_Bag_A.edds"
+ NormalPower 1
+ NMOMap "{1FAFE034318152A7}Assets/Items/SRZ_Contraband/Pills/SRZ_Pills_Bag/Data/SRZ_Pills_Bag_NMO.edds"
+}

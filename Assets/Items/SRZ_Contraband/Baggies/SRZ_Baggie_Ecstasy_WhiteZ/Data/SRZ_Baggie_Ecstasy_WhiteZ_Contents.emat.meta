@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{6CBC1FECA86D5F53}Assets/Items/SRZ_Contraband/Baggies/SRZ_Baggie_Ecstasy_WhiteZ/Data/SRZ_Baggie_Ecstasy_WhiteZ_Contents.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+  EMATResourceClass Xbox : PC {
+  }
+ }
+}

@@ -1,0 +1,40 @@
+GenericEntity : "{3238FC0BDB67AA78}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" {
+ ID "42AD18D371F47BA5"
+ components {
+  InventoryItemComponent "{931E38D49F0F9C39}" {
+   Attributes SCR_ItemAttributeCollection "{1981B239FDE90005}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{6793800FB29D754B}" {
+     Name "LSD Tab Static"
+     Description ""
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.01
+     SizeSetupStrategy Manual
+     ItemDimensions 0.010 0.002 0.010
+     ItemVolume 0.03
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{6BDFAF525C3E8D47}" {
+      CameraPreset Top
+      CameraOrbitAngles 0 0 0
+      CameraDistanceToItem 0.25
+      FOV 10
+      LodModel 0
+     }
+    }
+    CommonItemType "NONE"
+   }
+  }
+  ARMST_ItemUseComponent "{DF79B049EE660107}" {
+  }
+  MeshObject "{216E0462C1667161}" {
+   Object "{42C9670A1D04B403}Assets/Items/SRZ_Contraband/Psychedelics/SRZ_LSD_Tab_Static/SRZ_LSD_Tab_Static.xob"
+   Materials {
+    MaterialAssignClass "{BDDE7C83EC2883AA}" {
+     SourceMaterial "SRZ_LSD_Tab_Static"
+     AssignedMaterial "{2AFC2DCC94516246}Assets/Items/SRZ_Contraband/Psychedelics/SRZ_LSD_Tab_Static/Data/SRZ_LSD_Tab_Static.emat"
+    }
+   }
+  }
+ }
+}

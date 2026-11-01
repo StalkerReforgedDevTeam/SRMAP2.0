@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{9F29A90A4DCC0CAF}Assets/Items/SRZ/Documents/SRZ_LorePage/Data/SRZ_LorePage_Hunter_Busher.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+  EMATResourceClass Xbox : PC {
+  }
+ }
+}

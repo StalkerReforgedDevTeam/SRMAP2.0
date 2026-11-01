@@ -1,0 +1,40 @@
+GenericEntity : "{3238FC0BDB67AA78}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" {
+ ID "68E26C11669C31B6"
+ components {
+  InventoryItemComponent "{A64F7F8F0FD530A7}" {
+   Attributes SCR_ItemAttributeCollection "{5883615BD0BEDC7B}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{D534BC4CDBC2CCDE}" {
+     Name "Joint Blunt"
+     Description ""
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.01
+     SizeSetupStrategy Manual
+     ItemDimensions 0.019 0.015 0.095
+     ItemVolume 0.03
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{9E13C2D0730359DC}" {
+      CameraPreset Top
+      CameraOrbitAngles 0 0 0
+      CameraDistanceToItem 0.31
+      FOV 10
+      LodModel 0
+     }
+    }
+    CommonItemType "NONE"
+   }
+  }
+  ARMST_ItemUseComponent "{CF8A7E82DFE4A893}" {
+  }
+  MeshObject "{EFCAD5EDB6A38C18}" {
+   Object "{4CDE07D6F210CCCE}Assets/Items/SRZ_Contraband/Weed/SRZ_Joint_Blunt/SRZ_Joint_Blunt.xob"
+   Materials {
+    MaterialAssignClass "{E9857D50C061814B}" {
+     SourceMaterial "SRZ_Joint_Blunt"
+     AssignedMaterial "{9FD87EB7A028A7CA}Assets/Items/SRZ_Contraband/Weed/SRZ_Joint_Blunt/Data/SRZ_Joint_Blunt.emat"
+    }
+   }
+  }
+ }
+}
