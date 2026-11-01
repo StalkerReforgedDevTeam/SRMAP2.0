@@ -6,12 +6,13 @@ class SRZ_SicknessEnvironment
 	static const float TICK = 10;	// same as SRZ_Sickness.TICK
 
 	// Temperature targets
-	static const float CLEAR_DAY = 10;
-	static const float DUSK_DAWN = -10;
-	static const float NIGHT = -25;
-	static const float RAIN_PENALTY = 15;
+	static const float DAY = 10;
+	static const float NIGHT = -15;
+	static const float BLEND_HOURS = 1;		// sunrise and sunset ramp between day and night
+	static const float RAIN_PENALTY = 10;
+	static const float STORM_PENALTY = 20;
 	static const float FIRE_TARGET = 20;
-	static const float INSULATION_MAX_BONUS = 60;
+	static const float INSULATION_MAX_BONUS = 70;
 	static const float TEMP_RATE = 0.5;			// units per second, about 10 minutes across a 30 wide band
 	static const float FIRE_RANGE = 4;
 	static const float FIRE_BUFF = 300;			// seconds of heat buff after leaving a fire
@@ -67,10 +68,9 @@ class SRZ_SicknessEnvironment
 		bool fire = NearLitFire(ent);
 
 		float rain = 0;
-		float overcast = 0;
-		bool night = false;
-		bool duskDawn = false;
-		ReadWeather(ent, rain, overcast, night, duskDawn);
+		float dayFactor = 1;
+		bool storm = false;
+		ReadWeather(ent, rain, dayFactor, storm);
 
 		// Wetness first, it feeds insulation
 		if (rain > 0.05 && !roof && !vehicle)
@@ -106,14 +106,16 @@ class SRZ_SicknessEnvironment
 		}
 		else
 		{
-			target = CLEAR_DAY - CLEAR_DAY * overcast;
-			if (night)
-				target = NIGHT;
-			else if (duskDawn)
-				target = DUSK_DAWN;
+			// Day is day whatever the clouds do, night is colder, rain and storms take a fixed chunk off
+			target = NIGHT + (DAY - NIGHT) * dayFactor;
 
-			if (rain > 0.05 && !roof)
-				target -= RAIN_PENALTY * Math.Clamp(rain * 2, 0.5, 1);
+			if (!roof)
+			{
+				if (storm)
+					target -= STORM_PENALTY;
+				else if (rain > 0.05)
+					target -= RAIN_PENALTY;
+			}
 		}
 
 		if (fire)
@@ -152,13 +154,13 @@ class SRZ_SicknessEnvironment
 	}
 
 	//------------------------------------------------------------------------------------------------
-	// Time of day and weather from the vanilla manager. Rain and overcast are 0 to 1.
-	protected static void ReadWeather(IEntity ent, out float rain, out float overcast, out bool night, out bool duskDawn)
+	// Time of day and weather from the vanilla manager. dayFactor is 1 in daylight, 0 at night, blended
+	// over an hour either side of sunrise and sunset. Storm is the ARMST Storm weather state or very heavy rain.
+	protected static void ReadWeather(IEntity ent, out float rain, out float dayFactor, out bool storm)
 	{
 		rain = 0;
-		overcast = 0;
-		night = false;
-		duskDawn = false;
+		dayFactor = 1;
+		storm = false;
 
 		ChimeraWorld world = GetGame().GetWorld();
 		if (!world)
@@ -174,19 +176,32 @@ class SRZ_SicknessEnvironment
 		tw.GetSunriseHour(sunrise);
 		tw.GetSunsetHour(sunset);
 
-		if (hour < sunrise - 1 || hour > sunset + 1)
-			night = true;
-		else if (hour < sunrise + 1 || hour > sunset - 1)
-			duskDawn = true;
+		if (hour < sunrise - BLEND_HOURS || hour > sunset + BLEND_HOURS)
+			dayFactor = 0;
+		else if (hour < sunrise + BLEND_HOURS)
+			dayFactor = (hour - (sunrise - BLEND_HOURS)) / (BLEND_HOURS * 2);
+		else if (hour > sunset - BLEND_HOURS)
+			dayFactor = ((sunset + BLEND_HOURS) - hour) / (BLEND_HOURS * 2);
+
+		dayFactor = Math.Clamp(dayFactor, 0, 1);
 
 		rain = Math.Clamp(tw.GetRainIntensity(), 0, 1);
 
 		LocalWeatherSituation lws = new LocalWeatherSituation();
 		if (tw.TryGetCompleteLocalWeather(lws, 0, ent.GetOrigin()))
-		{
-			overcast = Math.Clamp(lws.GetOvercast(), 0, 1);
 			rain = Math.Max(rain, Math.Clamp(lws.GetRainIntensity(), 0, 1));
+
+		WeatherState state = tw.GetCurrentWeatherState();
+		if (state)
+		{
+			string name = state.GetStateName();
+			name.ToLower();
+			if (name.Contains("storm"))
+				storm = true;
 		}
+
+		if (rain > 0.75)
+			storm = true;
 	}
 
 	//------------------------------------------------------------------------------------------------
@@ -267,28 +282,26 @@ class SRZ_SicknessEnvironment
 			+ SlotValue(loadout.GetClothFromArea(LoadoutHandwearSlotArea), D_GLOVES) * W_GLOVES
 			+ SlotValue(loadout.GetClothFromArea(LoadoutBackpackArea), D_BACKPACK) * W_BACKPACK;
 
-		return Math.Clamp(total * WetFactor(wetness), 0, 100);
+		return Math.Clamp(total * WetFactor(wetness), -15, 100);
 	}
 
 	//------------------------------------------------------------------------------------------------
-	// One item's insulation after condition: the value from SRZ_Insulation.conf, or the slot default plus half
-	// the item's ARMST fire protection when it isn't listed.
+	// One item's insulation after condition.
 	protected static float SlotValue(IEntity item, float slotDefault)
 	{
 		if (!item)
 			return 0;
 
 		ARMST_ITEMS_STATS_COMPONENTS stats = ARMST_ITEMS_STATS_COMPONENTS.Cast(item.FindComponent(ARMST_ITEMS_STATS_COMPONENTS));
-		if (!stats)
-			return slotDefault;
+		if (!stats || !item.GetPrefabData())
+			return 0;
 
-		float value = 0;
+		// Only items listed in SRZ_Insulation.conf give warmth
 		SRZ_InsulationEntry entry = SRZ_InsulationConfig.Get(item.GetPrefabData().GetPrefabName());
-		if (entry)
-			value = entry.m_fInsulation;
+		if (!entry)
+			return 0;
 
-		if (value <= 0)
-			value = Math.Min(100, slotDefault + stats.m_fProtectionThermoLevel * 0.5);
+		float value = entry.m_fInsulation;
 
 		return value * ConditionFactor(stats.GetConditionLevel());
 	}
@@ -310,7 +323,7 @@ class SRZ_SicknessEnvironment
 		if (wetness < 40) return 0.9;
 		if (wetness < 60) return 0.5;
 		if (wetness < 80) return 0.1;
-		return 0;
+		return -0.15;
 	}
 
 	//------------------------------------------------------------------------------------------------

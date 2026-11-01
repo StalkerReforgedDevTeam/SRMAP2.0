@@ -104,11 +104,44 @@ class SRZ_Sickness
 		if (playerId <= 0)
 			return null;
 
+		string uid = Uid(playerId);
+
+		// A new body for a player we already track: carry the values over if the old body is still alive
+		// (possession, entity swap), start clean if it died. Nothing follows you through death.
+		bool fresh = false;
+		SRZ_SicknessStats carried;
+		for (int i = s_aStates.Count() - 1; i >= 0; i--)
+		{
+			SRZ_SicknessStats old = s_aStates[i];
+			if (old.m_sUid != uid)
+				continue;
+
+			if (old.m_Char && !IsDead(old.m_Char))
+				carried = old;
+			else
+				fresh = true;
+
+			s_aStates.Remove(i);
+		}
+
 		SRZ_SicknessStats created = new SRZ_SicknessStats();
 		created.m_Char = character;
-		created.m_sUid = Uid(playerId);
+		created.m_sUid = uid;
+		if (carried)
+		{
+			created.Deserialize(carried.Serialize());
+		}
+		else if (fresh)
+		{
+			created.Reset();
+			Save(created);
+		}
+		else
+		{
+			Load(created);
+		}
+
 		s_aStates.Insert(created);
-		Load(created);
 		return created;
 	}
 
@@ -139,13 +172,7 @@ class SRZ_Sickness
 		for (int i = s_aStates.Count() - 1; i >= 0; i--)
 		{
 			SRZ_SicknessStats st = s_aStates[i];
-			if (!st.m_Char)
-			{
-				s_aStates.Remove(i);
-				continue;
-			}
-
-			if (IsDead(st.m_Char))
+			if (!st.m_Char || IsDead(st.m_Char))
 			{
 				st.Reset();
 				Save(st);
@@ -189,7 +216,24 @@ class SRZ_Sickness
 		else if (coldStage >= 1 || salmStage >= 1)
 			sick = SICK_MILD;
 
-		chimera.SRZ_SendSickHud(band, wet, sick, SRZ_SicknessModifiers.IsDraining(st, band));
+		// Which way the temperature is heading and how far it has to go, for the thermometer arrows
+		float diff = st.m_fTarget - st.m_fTemperature;
+		if (st.m_fHeatBuff > 0 && diff < 0)
+			diff = 0;
+
+		int trend = 0;
+		float dist = Math.AbsFloat(diff);
+		if (dist >= 40)
+			trend = 3;
+		else if (dist >= 15)
+			trend = 2;
+		else if (dist >= 1)
+			trend = 1;
+
+		if (diff < 0)
+			trend = -trend;
+
+		chimera.SRZ_SendSickHud(band, trend, wet, sick, SRZ_SicknessModifiers.IsDraining(st, band), st.m_fCodeine > 0);
 	}
 
 	//------------------------------------------------------------------------------------------------

@@ -1,0 +1,10 @@
+AnimSetInstanceSource "{6646DBE7A58A21EC}" {
+ Template "{C5F3010257E48F24}Anims/workspaces/CUSTOM/CUSTOM_ANIMATION.ast"
+ Lines {
+  AnimSetInstanceSource_Line "Speeches.Open.In" {
+   Resource "{8DDF130348426551}Anims/SRZ/anm/p_srz_shiver.anm"
+  }
+ }
+ RBF AnimSetInstanceSourceRBFArray "{D7133A276E0EBC16}" {
+ }
+}

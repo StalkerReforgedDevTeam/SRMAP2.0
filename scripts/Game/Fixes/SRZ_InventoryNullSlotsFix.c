@@ -3,6 +3,29 @@
 [EDF_DbName()]
 modded class EPF_BaseInventoryStorageComponentSaveData
 {
+	// One prefab check per prefab for the whole session. Holding the Resource keeps the prefab loaded,
+	// so thousands of stash items no longer reload and parse the same prefab one by one at boot.
+	protected static ref map<ResourceName, ref Resource> s_mSRZPrefabCache;
+
+	//------------------------------------------------------------------------------------------------
+	protected static bool SRZ_PrefabExists(ResourceName prefab)
+	{
+		if (!s_mSRZPrefabCache)
+			s_mSRZPrefabCache = new map<ResourceName, ref Resource>();
+
+		Resource res;
+		if (s_mSRZPrefabCache.Find(prefab, res))
+			return res != null;
+
+		res = Resource.Load(prefab);
+		if (res && !res.IsValid())
+			res = null;
+
+		s_mSRZPrefabCache.Insert(prefab, res);
+		return res != null;
+	}
+
+	//------------------------------------------------------------------------------------------------
 	override EPF_EApplyResult ApplyTo(IEntity owner, GenericComponent component, EPF_ComponentSaveDataClass attributes)
 	{
 		if (!m_aSlots)
@@ -19,8 +42,7 @@ modded class EPF_BaseInventoryStorageComponentSaveData
 			if (!slot || !slot.m_pEntity || slot.m_pEntity.m_rPrefab.IsEmpty())
 				continue;
 
-			Resource res = Resource.Load(slot.m_pEntity.m_rPrefab);
-			if (res && res.IsValid())
+			if (SRZ_PrefabExists(slot.m_pEntity.m_rPrefab))
 				continue;
 
 			Print(string.Format("[SRZ Save] Dropping unknown item %1 from %2, prefab no longer exists", slot.m_pEntity.m_rPrefab, owner), LogLevel.WARNING);

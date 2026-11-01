@@ -1,9 +1,7 @@
 MetaFileClass {
- Name "{96FC891E9581D66F}Anims/SRZ/anm/p_srz_vomit.anm"
+ Name "{74754830F4AAD16E}Anims/SRZ/anm/p_srz_vomit.anm"
  Configurations {
   TXAResourceClass PC {
-   SourcePath "$SRMAP20:Anims/SRZ/anm/p_srz_vomit.fbx"
-   SourceProfile ""
   }
   TXAResourceClass XBOX_ONE : PC {
   }
@@ -14,6 +12,8 @@ MetaFileClass {
   TXAResourceClass PS5 : PC {
   }
   TXAResourceClass HEADLESS : PC {
+  }
+  TXAResourceClass Xbox : PC {
   }
  }
 }

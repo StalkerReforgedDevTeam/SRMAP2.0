@@ -33,19 +33,37 @@ modded class SCR_ChimeraCharacter
 	}
 
 	//------------------------------------------------------------------------------------------------
-	void SRZ_SendSickHud(int tempBand, int wet, int sick, bool draining)
+	// Third person for the length of a full body animation, first person puts the camera inside the collar
+	void SRZ_SendSickCamera(float seconds)
 	{
 		if (this == SCR_PlayerController.GetLocalControlledEntity())
-			RpcDo_SRZSickHud(tempBand, wet, sick, draining);
+			RpcDo_SRZSickCamera(seconds);
 		else
-			Rpc(RpcDo_SRZSickHud, tempBand, wet, sick, draining);
+			Rpc(RpcDo_SRZSickCamera, seconds);
 	}
 
 	//------------------------------------------------------------------------------------------------
 	[RplRpc(RplChannel.Reliable, RplRcver.Owner)]
-	void RpcDo_SRZSickHud(int tempBand, int wet, int sick, bool draining)
+	void RpcDo_SRZSickCamera(float seconds)
 	{
-		SRZ_StatusHud.SetSickness(tempBand, wet, sick, draining);
+		SRZ_SicknessClient.ForceThirdPerson(this, seconds);
+	}
+
+	//------------------------------------------------------------------------------------------------
+	void SRZ_SendSickHud(int tempBand, int tempTrend, int wet, int sick, bool draining, bool codeine)
+	{
+		if (this == SCR_PlayerController.GetLocalControlledEntity())
+			RpcDo_SRZSickHud(tempBand, tempTrend, wet, sick, draining, codeine);
+		else
+			Rpc(RpcDo_SRZSickHud, tempBand, tempTrend, wet, sick, draining, codeine);
+	}
+
+	//------------------------------------------------------------------------------------------------
+	[RplRpc(RplChannel.Reliable, RplRcver.Owner)]
+	void RpcDo_SRZSickHud(int tempBand, int tempTrend, int wet, int sick, bool draining, bool codeine)
+	{
+		SRZ_StatusHud.SetSickness(tempBand, tempTrend, wet, sick, draining);
+		SRZ_SicknessClient.Set(tempBand, sick, draining, codeine);
 	}
 }
 
@@ -55,10 +73,13 @@ class SRZ_SicknessSymptoms
 	static const int SFX_COUGH = 1;
 	static const int SFX_COUGHFIT = 2;
 	static const int SFX_VOMIT = 3;
+	static const int SFX_SHIVER = 4;
 
 	protected static const ResourceName SNEEZE_SOUND = "{0138423D04EC8FC0}Sounds/SRZ/Sickness/SRZ_Sneeze.acp";
 	protected static const ResourceName COUGH_SOUND = "{9A50862FFB25C058}Sounds/SRZ/Sickness/SRZ_Cough.acp";
 	protected static const ResourceName COUGHFIT_SOUND = "{05FF33DE3AACBA58}Sounds/SRZ/Sickness/SRZ_CoughFit.acp";
+	protected static const ResourceName VOMIT_SOUND = "{EE245D7C7EBA89E3}Sounds/SRZ/Sickness/SRZ_Vomit.acp";
+	protected static const ResourceName SHIVER_SOUND = "{0332FA1B0C1F7E05}Sounds/SRZ/Sickness/SRZ_Shiver.acp";
 	protected static const ResourceName VOMIT_ASI = "{1EA686B6E197CC1A}Anims/SRZ/SRZ_Vomit.asi";
 	protected static const ResourceName VOMIT_AGR = "{D701670260215BD7}Anims/workspaces/CUSTOM/CUSTOM_ANIMATION.agr";
 
@@ -78,6 +99,12 @@ class SRZ_SicknessSymptoms
 	static const float RAD_VOMIT_MIN = 240;
 	static const float RAD_VOMIT_MAX = 480;
 	static const float MESSAGE_GAP = 120;
+	static const float SHIVER_COLD_MIN = 30;
+	static const float SHIVER_COLD_MAX = 50;
+	static const float SHIVER_FREEZING_MIN = 12;
+	static const float SHIVER_FREEZING_MAX = 20;
+	static const float SHIVER_HYPO_MIN = 6;
+	static const float SHIVER_HYPO_MAX = 10;
 
 	//------------------------------------------------------------------------------------------------
 	static void Update(SRZ_SicknessStats st, int tempBand, float now)
@@ -95,15 +122,19 @@ class SRZ_SicknessSymptoms
 		if (codeine)
 			gap = 2;
 
-		// Shivering: light shake when cold, heavy when freezing. Codeine hides it.
-		if (!codeine && tempBand == SRZ_Sickness.BAND_COLD)
-			chimera.ArmstCameraShake(0.04, 0.12, 0.1, 0.6, 0.4);
-		else if (!codeine && tempBand <= SRZ_Sickness.BAND_FREEZING)
-			chimera.ArmstCameraShake(0.08, 0.25, 0.1, 1.2, 0.5);
+		// Camera shivers, fever throbs and the cold screen tint run on the player's own machine, see SRZ_SicknessClient.
+		// Teeth chatter plays here so everyone hears it.
+		if (tempBand <= SRZ_Sickness.BAND_COLD && !codeine && now >= st.m_fNextShiver)
+		{
+			if (tempBand == SRZ_Sickness.BAND_COLD)
+				st.m_fNextShiver = now + Math.RandomFloat(SHIVER_COLD_MIN, SHIVER_COLD_MAX);
+			else if (tempBand == SRZ_Sickness.BAND_FREEZING)
+				st.m_fNextShiver = now + Math.RandomFloat(SHIVER_FREEZING_MIN, SHIVER_FREEZING_MAX);
+			else
+				st.m_fNextShiver = now + Math.RandomFloat(SHIVER_HYPO_MIN, SHIVER_HYPO_MAX);
 
-		// Fever throb at influenza and above
-		if (coldStage >= 2 && Math.RandomFloat01() < 0.3)
-			chimera.ArmstCameraShake(0.03, 0.08, 0.6, 0.8, 0.8);
+			Shiver(st);
+		}
 
 		// Sneezing: a cold and the flu
 		if (coldStage >= 1 && coldStage <= 2 && now >= st.m_fNextSneeze)
@@ -148,6 +179,21 @@ class SRZ_SicknessSymptoms
 	}
 
 	//------------------------------------------------------------------------------------------------
+	// Teeth chatter everyone nearby hears, the camera shiver runs on the owner's machine
+	static void Shiver(SRZ_SicknessStats st)
+	{
+		SCR_ChimeraCharacter chimera = SCR_ChimeraCharacter.Cast(st.m_Char);
+		if (!chimera || chimera.IsInVehicle())
+			return;
+
+		SCR_CharacterControllerComponent controller = SCR_CharacterControllerComponent.Cast(chimera.GetCharacterController());
+		if (!controller || controller.IsDead() || controller.IsUnconscious())
+			return;
+
+		chimera.SRZ_SendSickSfx(SFX_SHIVER);
+	}
+
+	//------------------------------------------------------------------------------------------------
 	static void Vomit(SRZ_SicknessStats st, ARMST_PLAYER_STATS_COMPONENT stats)
 	{
 		SCR_ChimeraCharacter chimera = SCR_ChimeraCharacter.Cast(st.m_Char);
@@ -160,7 +206,10 @@ class SRZ_SicknessSymptoms
 
 		ARMST_PLAYER_ANIMATION anim = ARMST_PLAYER_ANIMATION.Cast(chimera.FindComponent(ARMST_PLAYER_ANIMATION));
 		if (anim)
+		{
+			chimera.SRZ_SendSickCamera(VOMIT_TIME);
 			anim.StartAnimationsPlayerCustomAGR(VOMIT_AGR, VOMIT_ASI, false, true, VOMIT_TIME);
+		}
 
 		chimera.SRZ_SendSickSfx(SFX_VOMIT);
 		chimera.ArmstCameraShake(0.15, 0.4, 0.3, 2.5, 0.8);
@@ -175,21 +224,10 @@ class SRZ_SicknessSymptoms
 	}
 
 	//------------------------------------------------------------------------------------------------
-	// DayZ wording, only when something changes, never more than one every two minutes
+	// Illness wording in the chat log, only when a stage changes, never more than one every two minutes. Temperature is the thermometer's job.
 	protected static void Messages(SRZ_SicknessStats st, SCR_ChimeraCharacter chimera, int tempBand, int coldStage, int salmStage, float now)
 	{
 		string text;
-
-		if (tempBand != st.m_iLastTempBand)
-		{
-			if (tempBand == SRZ_Sickness.BAND_COLD) text = "I feel cold";
-			else if (tempBand == SRZ_Sickness.BAND_FREEZING) text = "I'm freezing";
-			else if (tempBand == SRZ_Sickness.BAND_HYPOTHERMIA) text = "I can't stop shaking, I need to get warm";
-			else if (tempBand == SRZ_Sickness.BAND_HOT) text = "I feel hot";
-			else if (tempBand == SRZ_Sickness.BAND_HEATSTROKE) text = "I'm overheating";
-			else if (st.m_iLastTempBand != SRZ_Sickness.BAND_COMFORT) text = "I feel comfortable again";
-			st.m_iLastTempBand = tempBand;
-		}
 
 		if (coldStage != st.m_iLastColdStage)
 		{
@@ -218,7 +256,9 @@ class SRZ_SicknessSymptoms
 			return;
 
 		st.m_fNextMessage = now + MESSAGE_GAP;
-		chimera.SRZ_SendSickMessage(text);
+		int playerId = GetGame().GetPlayerManager().GetPlayerIdFromControlledEntity(chimera);
+		if (playerId > 0)
+			SRZ_RPNet.SendToPlayer(playerId, text);
 	}
 
 	//------------------------------------------------------------------------------------------------
@@ -243,14 +283,29 @@ class SRZ_SicknessSymptoms
 				acp = COUGH_SOUND;
 				soundEvent = "SOUND_SRZ_COUGH";
 				break;
+			case SFX_SHIVER:
+				acp = SHIVER_SOUND;
+				soundEvent = "SOUND_SRZ_SHIVER";
+				break;
+			case SFX_VOMIT:
+				acp = VOMIT_SOUND;
+				soundEvent = "SOUND_SRZ_VOMIT";
+				break;
 			default:
-				// Vomit uses the fit until a vomit recording is in
 				acp = COUGHFIT_SOUND;
 				soundEvent = "SOUND_SRZ_COUGHFIT";
 				break;
 		}
 
 		AudioSystem.PlayEvent(acp, soundEvent, mat, new array<string>(), new array<float>());
+
+		// Vomiting also gets the character's own pain grunt, like DayZ's pain sounds
+		if (kind == SFX_VOMIT)
+		{
+			SCR_CommunicationSoundComponent voice = SCR_CommunicationSoundComponent.Cast(character.FindComponent(SCR_CommunicationSoundComponent));
+			if (voice)
+				voice.SoundEventHit(false, EDamageType.MELEE);
+		}
 	}
 
 	//------------------------------------------------------------------------------------------------

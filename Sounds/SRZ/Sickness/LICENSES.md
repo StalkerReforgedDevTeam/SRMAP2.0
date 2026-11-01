@@ -39,3 +39,11 @@ Sickness sound effects:
 - vomit / retch: the only candidates found (tgstation `sound/mobs/humanoids/human/gag_vomit/gag1-5.ogg`, Unitystation male gags, Minetest "pathogen" mod) carry no per-file attribution and therefore fall under the repos' default CC-BY-SA 3.0 or an unspecified "CC", which does not meet the licence requirement.
 - teeth chattering / shivering breath: nothing found in any searched repository.
 - stomach gurgle: only "vore" mod gurgle packs (NovaSector, Bubberstation) with unclear sourcing. Not used.
+
+## SRZ_Shiver_1 to 3
+
+Source: "Man shivering with cold" by djartmusic, Pixabay (sound id 288113), Pixabay Content License (free for commercial use, no attribution required). Edited: wind noise removed with a spectral gate and a 220 Hz low cut, trimmed, normalised to -9 dBFS, cut into three takes.
+
+## SRZ_Vomit_1 to 3
+
+Sources, all Pixabay Content License (free for commercial use, no attribution required): "Vomit" by SoundReality (id 150122), "Vomiting sound effect" by Dragon Studio (id 382720), "Spew three" by freesound_community (id 41795). Edited: 80 Hz low cut, trimmed, level matched, take 2 and 3 are the heave and spew joined, normalised to -6 dBFS.

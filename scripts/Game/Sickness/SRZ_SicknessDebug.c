@@ -80,13 +80,14 @@ modded class SCR_PlayerController
 		else if (cmd == "eatbad") SRZ_SicknessAgents.Ingest(st);
 		else if (cmd == "rad" && stats) stats.ArmstPlayerStatSetRadioDirect(Math.Clamp(value, 0, 100));
 		else if (cmd == "vomit") SRZ_SicknessSymptoms.Vomit(st, stats);
+		else if (cmd == "shiver") SRZ_SicknessSymptoms.Shiver(st);
 		else if (cmd == "sneeze") SCR_ChimeraCharacter.Cast(character).SRZ_SendSickSfx(SRZ_SicknessSymptoms.SFX_SNEEZE);
 		else if (cmd == "cough") SCR_ChimeraCharacter.Cast(character).SRZ_SendSickSfx(SRZ_SicknessSymptoms.SFX_COUGH);
 		else if (cmd == "fit") SCR_ChimeraCharacter.Cast(character).SRZ_SendSickSfx(SRZ_SicknessSymptoms.SFX_COUGHFIT);
 		else if (cmd == "clear") st.Reset();
 		else
 		{
-			SRZ_RPNet.SendToPlayer(playerId, ".sick info | temp <-100..100> | wet <0..100> | cold <0..300> | salm <0..100> | eatbad | rad <0..100> | vomit | sneeze | cough | fit | clear");
+			SRZ_RPNet.SendToPlayer(playerId, ".sick info | temp <-100..100> | wet <0..100> | cold <0..300> | salm <0..100> | eatbad | rad <0..100> | vomit | shiver | sneeze | cough | fit | clear");
 			return;
 		}
 

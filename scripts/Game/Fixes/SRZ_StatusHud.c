@@ -1,5 +1,6 @@
-// DayZ style status HUD, bottom right. Health, water and food drain and change colour, radiation changes colour with your rad level.
-// Pop ups on the left for psy damage, bleeding, broken legs and stims. Stamina bar and server name underneath.
+// DayZ style status HUD, bottom right. Thermometer, health, water, food and radiation. The bars drain and change colour,
+// the thermometer and radiation change colour with your level, arrows show which way a value is heading.
+// Pop ups on the left for psy damage, bleeding, broken legs, wetness, sickness and stims. Stamina bar and server name underneath.
 class SRZ_StatusMain
 {
 	ImageWidget m_wBg;
@@ -22,6 +23,7 @@ class SRZ_StatusHud
 	protected static const float POPUP = 30;
 	protected static const float SLOT = 46;
 	protected static const float SLOT_GAP = 16;
+	protected static const int SLOTS = 5;
 
 	protected static const float RAD_YELLOW = 40;
 	protected static const float RAD_RED = 70;
@@ -48,7 +50,6 @@ class SRZ_StatusHud
 	protected static ImageWidget s_wBleed;
 	protected static ImageWidget s_wBone;
 	protected static ImageWidget s_wStim;
-	protected static ImageWidget s_wThermo;
 	protected static ImageWidget s_wWet;
 	protected static ImageWidget s_wSick;
 	protected static ImageWidget s_wStamBg;
@@ -65,6 +66,7 @@ class SRZ_StatusHud
 	protected static ref array<float> s_aPsyDrops = {};
 	protected static int s_iLegState;
 	protected static int s_iTempBand;
+	protected static int s_iTempTrend;
 	protected static int s_iWet;
 	protected static int s_iSick;
 	protected static bool s_bSickDraining;
@@ -102,10 +104,11 @@ class SRZ_StatusHud
 	}
 
 	//------------------------------------------------------------------------------------------------
-	// From SRZ_Sickness every 10 seconds: temperature band, wetness level, sick icon state
-	static void SetSickness(int tempBand, int wet, int sick, bool draining)
+	// From SRZ_Sickness every 10 seconds: temperature band and trend, wetness level, sick icon state
+	static void SetSickness(int tempBand, int tempTrend, int wet, int sick, bool draining)
 	{
 		s_iTempBand = tempBand;
+		s_iTempTrend = tempTrend;
 		s_iWet = wet;
 		s_iSick = sick;
 		s_bSickDraining = draining;
@@ -146,25 +149,35 @@ class SRZ_StatusHud
 		if (sample)
 			s_fLastSample = now;
 
-		UpdateMain(s_aMain[0], health, now, sample, blinkOn);
-		UpdateMain(s_aMain[1], water, now, sample, blinkOn);
-		UpdateMain(s_aMain[2], food, now, sample, blinkOn);
+		UpdateThermo(blinkOn);
+		UpdateMain(s_aMain[1], health, now, sample, blinkOn);
+		UpdateMain(s_aMain[2], water, now, sample, blinkOn);
+		UpdateMain(s_aMain[3], food, now, sample, blinkOn);
 		UpdateRad(stats, blinkOn);
 
 		float stamina = Math.Clamp(stats.ArmstPlayerStatGetStamina(), 0, 1);
-		float barWidth = SLOT * 4 + SLOT_GAP * 3;
+		float barWidth = SLOT * SLOTS + SLOT_GAP * (SLOTS - 1);
 		FrameSlot.SetSize(s_wStamFill, barWidth * stamina, 4);
 
 		UpdatePopups(stats, damage, now, blinkOn);
 	}
 
 	//------------------------------------------------------------------------------------------------
-	// Inventory, map, pause and Game Master all hide the HUD
+	// Inventory, map, pause and Game Master all hide the HUD.
+	// Only a menu that is actually drawn counts, so a menu that broke while opening can't keep the HUD hidden.
 	protected static bool IsBlocked()
 	{
 		MenuManager menus = GetGame().GetMenuManager();
 		if (menus && menus.IsAnyMenuOpen())
-			return true;
+		{
+			MenuBase top = menus.GetTopMenu();
+			if (top)
+			{
+				Widget root = top.GetRootWidget();
+				if (root && root.IsVisible())
+					return true;
+			}
+		}
 
 		SCR_EditorManagerEntity editor = SCR_EditorManagerEntity.GetInstance();
 		return editor && editor.IsOpened();
@@ -220,8 +233,14 @@ class SRZ_StatusHud
 		else if (rate >= 0.05)
 			count = 1;
 
+		SetArrowCount(icon, count, icon.m_fRate > 0, color, opacity);
+	}
+
+	//------------------------------------------------------------------------------------------------
+	protected static void SetArrowCount(SRZ_StatusMain icon, int count, bool up, int color, float opacity)
+	{
 		ResourceName tex = Tex("ArrowDown");
-		if (icon.m_fRate > 0)
+		if (up)
 			tex = Tex("ArrowUp");
 
 		for (int i = 0; i < 3; i++)
@@ -238,10 +257,40 @@ class SRZ_StatusHud
 	}
 
 	//------------------------------------------------------------------------------------------------
+	// Always on screen. White when comfortable, blue when cold, red when hot, flashing while health drains.
+	// Arrows show which way the temperature is heading and how far it has to go.
+	protected static void UpdateThermo(bool blinkOn)
+	{
+		SRZ_StatusMain icon = s_aMain[0];
+
+		int color = WHITE;
+		float opacity = 1;
+		if (s_iTempBand == SRZ_Sickness.BAND_COLD)
+			color = LIGHT_BLUE;
+		else if (s_iTempBand == SRZ_Sickness.BAND_FREEZING)
+			color = BLUE;
+		else if (s_iTempBand == SRZ_Sickness.BAND_HOT)
+			color = LIGHT_RED;
+		else if (s_iTempBand == SRZ_Sickness.BAND_HYPOTHERMIA || s_iTempBand == SRZ_Sickness.BAND_HEATSTROKE)
+		{
+			color = RED;
+			if (s_iTempBand == SRZ_Sickness.BAND_HYPOTHERMIA)
+				color = BLUE;
+
+			if (!blinkOn)
+				opacity = 0.25;
+		}
+
+		icon.m_wFill.SetColorInt(color);
+		icon.m_wFill.SetOpacity(opacity);
+		SetArrowCount(icon, Math.AbsInt(s_iTempTrend), s_iTempTrend > 0, color, opacity);
+	}
+
+	//------------------------------------------------------------------------------------------------
 	// Colour follows your own radiation level: white under 40, yellow from 40, red from 70, flashing red from 90
 	protected static void UpdateRad(ARMST_PLAYER_STATS_COMPONENT stats, bool blinkOn)
 	{
-		SRZ_StatusMain icon = s_aMain[3];
+		SRZ_StatusMain icon = s_aMain[4];
 		float rad = stats.ArmstPlayerStatGetRadio();
 
 		int color = WHITE;
@@ -305,16 +354,6 @@ class SRZ_StatusHud
 		else
 			SetPopup(s_wBone, s_iLegState == SRZ_Legs.BROKEN, RED, false);
 
-		// Thermometer: only outside the comfortable band, blue when cold, red when hot, flashing when health drains
-		int tempColor = WHITE;
-		bool tempDim = false;
-		if (s_iTempBand == SRZ_Sickness.BAND_COLD) tempColor = LIGHT_BLUE;
-		else if (s_iTempBand == SRZ_Sickness.BAND_FREEZING) tempColor = BLUE;
-		else if (s_iTempBand == SRZ_Sickness.BAND_HYPOTHERMIA) { tempColor = BLUE; tempDim = !blinkOn; }
-		else if (s_iTempBand == SRZ_Sickness.BAND_HOT) tempColor = LIGHT_RED;
-		else if (s_iTempBand == SRZ_Sickness.BAND_HEATSTROKE) { tempColor = RED; tempDim = !blinkOn; }
-		SetPopup(s_wThermo, s_iTempBand != SRZ_Sickness.BAND_COMFORT, tempColor, tempDim);
-
 		int wetColor = WHITE;
 		if (s_iWet >= 2)
 			wetColor = LIGHT_BLUE;
@@ -367,8 +406,8 @@ class SRZ_StatusHud
 	protected static void LayoutPopups(bool stim)
 	{
 		float top = -BOTTOM - 42 - ICON + (ICON - POPUP) / 2;
-		float x = -RIGHT - SLOT * 4 - SLOT_GAP * 3 - SLOT_GAP;
-		bool any = stim || s_wBone.IsVisible() || s_wBleed.IsVisible() || s_wBrain.IsVisible() || s_wThermo.IsVisible() || s_wWet.IsVisible() || s_wSick.IsVisible();
+		float x = -RIGHT - SLOT * SLOTS - SLOT_GAP * (SLOTS - 1) - SLOT_GAP;
+		bool any = stim || s_wBone.IsVisible() || s_wBleed.IsVisible() || s_wBrain.IsVisible() || s_wWet.IsVisible() || s_wSick.IsVisible();
 
 		s_wSep.SetVisible(any);
 		if (!any)
@@ -387,7 +426,7 @@ class SRZ_StatusHud
 			x -= 14;
 		}
 
-		array<ImageWidget> order = {s_wBone, s_wBleed, s_wBrain, s_wSick, s_wThermo, s_wWet};
+		array<ImageWidget> order = {s_wBone, s_wBleed, s_wBrain, s_wSick, s_wWet};
 		foreach (ImageWidget w : order)
 		{
 			if (!w.IsVisible())
@@ -415,19 +454,19 @@ class SRZ_StatusHud
 		s_wRoot.SetZOrder(9000);
 		s_aMain.Clear();
 
-		array<string> names = {"Health", "Water", "Food", "Rad"};
+		array<string> names = {"Thermo", "Health", "Water", "Food", "Rad"};
 		float iconTop = -BOTTOM - 42 - ICON;
-		for (int i = 0; i < 4; i++)
+		for (int i = 0; i < SLOTS; i++)
 		{
 			string n = names[i];
-			float left = -RIGHT - SLOT * (4 - i) - SLOT_GAP * (3 - i);
+			float left = -RIGHT - SLOT * (SLOTS - i) - SLOT_GAP * (SLOTS - 1 - i);
 
 			SRZ_StatusMain icon = new SRZ_StatusMain();
 			icon.m_wBg = ImageWidget.Cast(s_wRoot.FindAnyWidget("SRZ_SH_" + n + "Bg"));
 			icon.m_wFill = ImageWidget.Cast(s_wRoot.FindAnyWidget("SRZ_SH_" + n + "Fill"));
 			Place(icon.m_wBg, Tex(n), left, iconTop, ICON, ICON, SHADOW);
 			Place(icon.m_wFill, Tex(n), left, iconTop, ICON, ICON, WHITE);
-			if (n != "Rad")
+			if (n != "Rad" && n != "Thermo")
 			{
 				if (!icon.m_wFill.LoadMaskTexture(Tex("FillMask")))
 					Print("[SRZ StatusHud] Fill mask did not load", LogLevel.WARNING);
@@ -450,7 +489,7 @@ class SRZ_StatusHud
 			s_aMain.Insert(icon);
 		}
 
-		float barWidth = SLOT * 4 + SLOT_GAP * 3;
+		float barWidth = SLOT * SLOTS + SLOT_GAP * (SLOTS - 1);
 		float barLeft = -RIGHT - barWidth;
 
 		s_wSep = ImageWidget.Cast(s_wRoot.FindAnyWidget("SRZ_SH_Sep"));
@@ -460,7 +499,10 @@ class SRZ_StatusHud
 		s_wBleed = SetupPopup("Bleed");
 		s_wBone = SetupPopup("Bone");
 		s_wStim = SetupPopup("Stim");
-		s_wThermo = SetupPopup("Thermo");
+		ImageWidget oldThermo = ImageWidget.Cast(s_wRoot.FindAnyWidget("SRZ_SH_Thermo"));
+		if (oldThermo)
+			oldThermo.SetVisible(false);
+
 		s_wWet = SetupPopup("Wet");
 		s_wSick = SetupPopup("Sick");
 		s_wStimText = TextWidget.Cast(s_wRoot.FindAnyWidget("SRZ_SH_StimText"));

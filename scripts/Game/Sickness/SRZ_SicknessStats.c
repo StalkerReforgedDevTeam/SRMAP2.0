@@ -29,6 +29,7 @@ class SRZ_SicknessStats
 	float m_fNextSneeze;
 	float m_fNextCough;
 	float m_fNextVomit;
+	float m_fNextShiver;
 	float m_fNextMessage;
 	int m_iLastColdStage = -1;
 	int m_iLastTempBand = 0;
