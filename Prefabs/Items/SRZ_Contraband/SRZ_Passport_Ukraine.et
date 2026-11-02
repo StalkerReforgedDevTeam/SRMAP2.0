@@ -1,38 +1,62 @@
-GenericEntity : "{3238FC0BDB67AA78}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" {
+GenericEntity : "{2DF096A08F96E446}Prefabs/Items/base_item_hand_consumble.et" {
  ID "F7BAD9EA8AB70761"
  components {
-  InventoryItemComponent "{6A9C178D2EF847D0}" {
-   Attributes SCR_ItemAttributeCollection "{1FF4739BD3628974}" {
-    ItemDisplayName SCR_ItemHintUIInfo "{690172B0F887C568}" {
-     Name "Passport Ukraine"
-     Description ""
+  ARMST_ItemUseComponent "{59E68C4DC131E9FC}" {
+   m_ConsumableEffect ARMST_ConsumableBaseItem "{59E68C4DDD8B416A}" {
+    m_bDeleteOnUse 0
+    m_TypeConsuble INTERACT
+   }
+   m_sSRZReadText "PASSPORT. The photo page has taken water and the face is a grey smear. The name is still readable but it is not yours. Issued in a town south of the cordon. Three entry stamps for the exclusion zone, each one older than the last, and no exit stamp after the third. Someone has slipped a folded fifty between the back pages."
+  }
+  InventoryItemComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName SCR_InventoryUIInfo "{5222EB4D07D865FA}" {
+     Name "Ukrainian passport"
+     Description "Somebody's papers. Worth something to the right buyer."
     }
     ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
      Weight 0.05
-     SizeSetupStrategy Manual
-     ItemDimensions 0.088 0.009 0.125
-     ItemVolume 0.12
+     ItemDimensions 0.01 0.01 0.01
+     ItemVolume 0.1
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{59ECB146B0ED6F92}" {
+     HandAdditiveRotation 0 90 0
     }
     CustomAttributes {
-     PreviewRenderAttributes "{133FA9BB542A84BA}" {
+     PreviewRenderAttributes "{5A5AEE4BCB65677F}" {
       CameraPreset Top
-      CameraOrbitAngles 0 0 0
       CameraDistanceToItem 0.49
-      FOV 10
       LodModel 0
      }
     }
-    CommonItemType "NONE"
+    m_Size SLOT_1x1
    }
   }
-  ARMST_ItemUseComponent "{F2D963414B1BF84E}" {
-  }
-  MeshObject "{AFAC6D2D00255673}" {
+  MeshObject "{59CEE5702DCA6A31}" {
    Object "{A79F1B24D923D421}Assets/Items/SRZ_Contraband/Documents/SRZ_Passport_Ukraine/SRZ_Passport_Ukraine.xob"
    Materials {
-    MaterialAssignClass "{1076A4A8FCD2444D}" {
+    MaterialAssignClass "{2D9170BB493E21B7}" {
      SourceMaterial "SRZ_Passport_Ukraine"
      AssignedMaterial "{A4309A2D2EC6BFB6}Assets/Items/SRZ_Contraband/Documents/SRZ_Passport_Ukraine/Data/SRZ_Passport_Ukraine.emat"
+    }
+   }
+  }
+  ActionsManagerComponent "{508AB5952B584B2E}" {
+   ActionContexts {
+    UserActionContext "{6F1B7A7A4CE8D47F}" {
+     ContextName "SRZ_Read"
+     Position PointInfo "{E497A52D42759854}" {
+      Offset 0 0.02 0
+     }
+     Radius 1
+    }
+   }
+   additionalActions {
+    ARMST_USER_OPEN_BOOK "{04A78D9ADF332E8F}" {
+     ParentContextList {
+      "SRZ_Read"
+     }
+     s_TextToBook "PASSPORT. The photo page has taken water and the face is a grey smear. The name is still readable but it is not yours. Issued in a town south of the cordon. Three entry stamps for the exclusion zone, each one older than the last, and no exit stamp after the third. Someone has slipped a folded fifty between the back pages."
     }
    }
   }
