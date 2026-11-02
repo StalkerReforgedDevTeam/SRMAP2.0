@@ -80,7 +80,7 @@ class SRZ_ArmorTuning
 		string n = projectile.GetPrefabData().GetPrefabName();
 		n.ToLower();
 
-		if (n.Contains("762x54"))
+		if (n.Contains("762x54") || n.Contains("127x55") || n.Contains("12x55") || n.Contains("8.6x70") || n.Contains("86x70") || n.Contains("ash12") || n.Contains("ash-12") || n.Contains("shak12") || n.Contains("338"))
 			return SRZ_Caliber.SNIPER_762X54;
 		if (n.Contains("762x51"))
 			return SRZ_Caliber.BATTLE_762X51;

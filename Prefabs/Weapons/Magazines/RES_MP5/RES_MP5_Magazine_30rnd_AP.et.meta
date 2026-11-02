@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{8F877FAE328D8788}Prefabs/Weapons/Magazines/RES_MP5/RES_MP5_Magazine_30rnd_AP.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}
