@@ -142,8 +142,6 @@ class SRZ_StatusHud
 		bool blinkOn = ((int)(now * 2)) % 2 == 0;
 
 		float health = stats.ArmstPlayerStatGetHealth();
-		if (damage && damage.GetDefaultHitZone() && damage.GetDefaultHitZone().GetMaxHealth() > 0)
-			health = health / damage.GetDefaultHitZone().GetMaxHealth() * 100;
 		float water = stats.ArmstPlayerStatGetWater();
 		float food = stats.ArmstPlayerStatGetEat();
 
