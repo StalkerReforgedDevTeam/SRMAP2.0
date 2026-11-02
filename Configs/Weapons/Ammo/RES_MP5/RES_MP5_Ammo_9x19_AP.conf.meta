@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{9BF08AD7AA9332B5}Configs/Weapons/Ammo/RES_MP5/RES_MP5_Ammo_9x19_AP.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,55 @@
+GenericEntity : "{F9E1A46E3ABA116F}Prefabs/Weapons/Core/Magazine_Base.et" {
+ ID "8ADEE819467C5A7D"
+ components {
+  AICombatPropertiesComponent "{59CE86D96C332DDF}" {
+   Priority 20
+   UsedAgainst 0x13 0
+  }
+  InventoryMagazineComponent "{51EED12B803954CC}" {
+   Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
+    ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
+     Name "MP5K 30rnd 9mm Magazine"
+     Description "30 round 9x19mm magazine. Fits the MP5K only."
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{52ACC797D8C70448}" {
+     Weight 0.12
+     SizeSetupStrategy Manual
+     ItemVolume 150
+     RestingUP Right
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{52D2D343138B2397}" {
+      CameraPreset Left
+      CameraOrbitAngles -25 25 0
+      CameraDistanceToItem 0.9
+      FOV 10
+     }
+    }
+   }
+   WeightPerAmmo 0.012
+  }
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   MagazineWell RES_MagazineWellMP5 "{56C4D085BDDB337B}" {
+   }
+   UIInfo MagazineUIInfo "{57126733AA401586}" {
+    Name "MP5K 30rnd 9mm Magazine"
+    Description "9x19mm"
+    m_sAmmoCaliber "#AR-AmmunitionID_9x19mm"
+    m_MagIndicator SCR_MagazineIndicatorConfiguration "{1139B6539995CD6F}" : "{1AA788302FE3C53A}Configs/WeaponInfo/MagazineIndicators/ak74_30.conf" {
+    }
+    m_sAmmoType "Ball"
+    m_bShowAmmoTypeText 1
+    m_eAmmoTypeFlags 1
+   }
+   ItemModel "{76121298ADC6680B}Assets/Weapons/Magazines/RES_MP5/RES_MP5_Magazine.xob"
+   MaxAmmo 30
+   AmmoConfig "{9BF08AD7AA9332B5}Configs/Weapons/Ammo/RES_MP5/RES_MP5_Ammo_9x19_AP.conf"
+   AmmoMapping {
+    0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+   }
+  }
+  MeshObject "{CA6BE4D6A23F8EF0}" {
+   Object "{76121298ADC6680B}Assets/Weapons/Magazines/RES_MP5/RES_MP5_Magazine.xob"
+  }
+ }
+}
