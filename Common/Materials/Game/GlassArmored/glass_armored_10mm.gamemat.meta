@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{7BE37DA4E6BA2358}Common/Materials/Game/GlassArmored/glass_armored_10mm.gamemat"
+ Configurations {
+  GameMaterialResourceClass PC {
+  }
+  GameMaterialResourceClass XBOX_ONE : PC {
+  }
+  GameMaterialResourceClass XBOX_SERIES : PC {
+  }
+  GameMaterialResourceClass PS4 : PC {
+  }
+  GameMaterialResourceClass PS5 : PC {
+  }
+  GameMaterialResourceClass HEADLESS : PC {
+  }
+  GameMaterialResourceClass Xbox : PC {
+  }
+ }
+}
