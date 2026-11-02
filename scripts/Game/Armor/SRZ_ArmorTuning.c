@@ -29,6 +29,8 @@ class SRZ_ArmorTuning
 	static const float HEAD_POOL = 102;
 	static const float RESILIENCE = 180;
 	static const float KO_FRACTION = 0.6;
+	// Arm and leg hits do this share of their vanilla damage. 1 = vanilla.
+	static const float LIMB_SCALE = 0.4;
 	static const int BUCK_PELLETS = 4;
 	static const int DEFAULT_VEST_TIER = 2;
 	static const int DEFAULT_HELMET_TIER = 2;
@@ -70,6 +72,18 @@ class SRZ_ArmorTuning
 	static ref array<string> HELMET_T3 = {"dutyberillhelm", "freedomberillhelm", "ukmberilhelm", "monoberillhelm", "militaryberillhelm", "altyn_full", "altyn_clear", "helmet_altyn_black", "helmet_altyn_green", "dh132a", "helmetmetal", "hereticalhelmet"};
 	static ref array<string> HELMET_T2 = {"pasgt", "ssh68", "achhelmet", "tacticalhelmet", "exohelmet", "lonerberillhelm", "mercberilhelm", "hlmt_obol_", "bulat", "psyhea", "psychea", "militaryhelmet", "mercbrithelm", "helmet_seva", "tsh4"};
 	static ref array<string> HELMET_T1 = {"ryekhelmet", "altyn_closed", "altyn_novis", "altyn_open", "kiver", "mich", "obol_l_", "helmet_cap"};
+
+	//------------------------------------------------------------------------------------------------
+	// Only fired rounds go through the chart. Mutant swipes, melee and anything else stay vanilla.
+	static bool IsBullet(IEntity projectile)
+	{
+		if (!projectile || !projectile.GetPrefabData())
+			return false;
+
+		string n = projectile.GetPrefabData().GetPrefabName();
+		n.ToLower();
+		return n.Contains("ammo") || n.Contains("bullet") || n.Contains("pellet") || n.Contains("slug") || n.Contains("buck");
+	}
 
 	//------------------------------------------------------------------------------------------------
 	static SRZ_Caliber CaliberOf(IEntity projectile)
@@ -297,6 +311,14 @@ class SRZ_ArmorTuning
 	static bool IsVestZone(string zone)
 	{
 		return zone == "Chest" || zone == "Abdomen";
+	}
+
+	//------------------------------------------------------------------------------------------------
+	static bool IsLimbZone(string zone)
+	{
+		string z = zone;
+		z.ToLower();
+		return z.Contains("arm") || z.Contains("leg") || z.Contains("hand") || z.Contains("foot") || z.Contains("thigh") || z.Contains("calf") || z.Contains("shoulder") || z.Contains("knee") || z.Contains("elbow");
 	}
 
 	//------------------------------------------------------------------------------------------------
