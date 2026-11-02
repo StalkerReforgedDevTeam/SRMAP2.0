@@ -46,8 +46,10 @@ class SRZ_Sickness
 	static const int SICK_BAD = 2;
 
 	static const float HEATPACK_BUFF = 600;
+	static const float HEATPACK_WARMTH = 30;
 	static const float CODEINE_TIME = 600;
 	static const float VODKA_WARMTH = 15;
+	static const float VODKA_TIME = 180;
 	static const float BAD_FOOD_CONDITION = 50;
 
 	protected static ref array<ref SRZ_SicknessStats> s_aStates = {};
@@ -277,13 +279,13 @@ class SRZ_Sickness
 		if (prefab.Contains("srz_heatpack"))
 		{
 			st.m_fHeatBuff = Math.Max(st.m_fHeatBuff, HEATPACK_BUFF);
-			st.m_fTemperature = Math.Max(st.m_fTemperature, Math.Min(st.m_fTemperature + 20, 10));
+			Warm(st, HEATPACK_WARMTH, HEATPACK_BUFF);
 			return;
 		}
 
 		if (prefab.Contains("vodka"))
 		{
-			st.m_fTemperature = Math.Min(100, st.m_fTemperature + VODKA_WARMTH);
+			Warm(st, VODKA_WARMTH, VODKA_TIME);
 			return;
 		}
 
@@ -299,6 +301,16 @@ class SRZ_Sickness
 
 		if (bad)
 			SRZ_SicknessAgents.Ingest(st);
+	}
+
+	//------------------------------------------------------------------------------------------------
+	// A warm bonus on the environment target for a while. The stronger one wins, time is the longer of the two.
+	protected static void Warm(SRZ_SicknessStats st, float bonus, float seconds)
+	{
+		if (bonus >= st.m_fWarmBonus)
+			st.m_fWarmBonus = bonus;
+
+		st.m_fWarmLeft = Math.Max(st.m_fWarmLeft, seconds);
 	}
 
 	//------------------------------------------------------------------------------------------------

@@ -113,6 +113,9 @@ class SRZ_SicknessAgents
 			st.m_fColdChain = Math.Max(0, st.m_fColdChain - TETRA_TOTAL / TETRA_TIME * TICK);
 		}
 
+		if (st.m_fImmunityBoost > 0)
+			st.m_fColdChain = Math.Max(0, st.m_fColdChain - VITAMIN_TOTAL / VITAMIN_TIME * TICK);
+
 		// Dropping a stage earns a resistance window where it can't climb back
 		int stageAfter = ColdStage(st);
 		if (stageAfter < stageBefore)
@@ -156,6 +159,9 @@ class SRZ_SicknessAgents
 			st.m_fSalmonella -= CHARCOAL_TOTAL / CHARCOAL_TIME * TICK;
 		}
 
+		if (st.m_fImmunityBoost > 0)
+			st.m_fSalmonella -= VITAMIN_TOTAL / VITAMIN_TIME * TICK;
+
 		st.m_fSalmonella = Math.Clamp(st.m_fSalmonella, 0, 100);
 	}
 
@@ -198,7 +204,5 @@ class SRZ_SicknessAgents
 	static void Multivitamin(SRZ_SicknessStats st)
 	{
 		st.m_fImmunityBoost = VITAMIN_TIME;
-		st.m_fColdChain = Math.Max(0, st.m_fColdChain - VITAMIN_TOTAL);
-		st.m_fSalmonella = Math.Max(0, st.m_fSalmonella - VITAMIN_TOTAL);
 	}
 }
