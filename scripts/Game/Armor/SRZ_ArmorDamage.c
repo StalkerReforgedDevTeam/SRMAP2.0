@@ -15,7 +15,7 @@ modded class SCR_CharacterHitZone
 	{
 		float effective = super.ComputeEffectiveDamage(damageContext, isDOT);
 
-		if (isDOT || damageContext.damageType != EDamageType.KINETIC || effective <= 0)
+		if (isDOT || damageContext.damageType != EDamageType.KINETIC || effective <= 0 || !SRZ_ArmorTuning.IsBullet(damageContext.damageSource))
 			return effective;
 
 		SCR_CharacterHitZone struck = SCR_CharacterHitZone.Cast(damageContext.struckHitZone);
@@ -34,6 +34,8 @@ modded class SCR_CharacterHitZone
 			target = SRZ_ArmorTuning.ChestDamage(cal, SRZ_ArmorTuning.WornVestTier(character));
 		else if (zone == "Head")
 			target = SRZ_ArmorTuning.HeadDamage(cal, SRZ_ArmorTuning.WornHelmetTier(character));
+		else if (SRZ_ArmorTuning.IsLimbZone(zone))
+			return effective * SRZ_ArmorTuning.LIMB_SCALE;
 		else
 			return effective;
 
@@ -56,7 +58,7 @@ modded class SCR_CharacterResilienceHitZone
 	{
 		float effective = super.ComputeEffectiveDamage(damageContext, isDOT);
 
-		if (isDOT || damageContext.damageType != EDamageType.KINETIC || effective <= 0 || !damageContext.struckHitZone)
+		if (isDOT || damageContext.damageType != EDamageType.KINETIC || effective <= 0 || !damageContext.struckHitZone || !SRZ_ArmorTuning.IsBullet(damageContext.damageSource))
 			return effective;
 
 		if (!SRZ_ArmorTuning.IsVestZone(damageContext.struckHitZone.GetName()))
@@ -79,7 +81,7 @@ modded class SCR_ArmorDamageManagerComponent
 	// and comes out at the chart number for the worn tier.
 	override bool HijackDamageHandling(notnull BaseDamageContext damageContext)
 	{
-		if (damageContext.damageType != EDamageType.KINETIC || !Replication.IsServer())
+		if (damageContext.damageType != EDamageType.KINETIC || !Replication.IsServer() || !SRZ_ArmorTuning.IsBullet(damageContext.damageSource))
 			return super.HijackDamageHandling(damageContext);
 
 		ChimeraCharacter character = ChimeraCharacter.Cast(GetOwner().GetParent());
