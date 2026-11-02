@@ -56,10 +56,8 @@ class SRZ_SicknessEnvironment
 		if (!ent)
 			return;
 
-		bool indoors = Helpers.IsPlayerIndoors(ent);
-		bool roof = indoors;
-		if (!roof)
-			roof = Helpers.CheckRoof(ent.GetWorld(), EyePos(ent));
+		bool roof = HasRoof(ent);
+		bool indoors = roof && HasWalls(ent);
 
 		bool vehicle = false;
 		ChimeraCharacter chimera = ChimeraCharacter.Cast(ent);
@@ -159,6 +157,82 @@ class SRZ_SicknessEnvironment
 			st.m_fTemperature = Math.Min(target, st.m_fTemperature + step);
 		else
 			st.m_fTemperature = Math.Max(target, st.m_fTemperature - step);
+	}
+
+	//------------------------------------------------------------------------------------------------
+	// Roof and wall checks of our own. ARMST's helper traces from the eye without excluding the player,
+	// so a swimming or prone character hits its own body and reads as indoors, and trees count as walls.
+	static const float ROOF_DISTANCE = 8;
+	static const float WALL_DISTANCE = 6;
+	static const int WALL_HITS = 3;
+
+	static bool HasRoof(IEntity ent)
+	{
+		return TraceBlocked(ent, EyePos(ent) + vector.Up * 0.3, vector.Up, ROOF_DISTANCE);
+	}
+
+	//------------------------------------------------------------------------------------------------
+	static bool HasWalls(IEntity ent)
+	{
+		vector from = EyePos(ent);
+		int hits = 0;
+		if (TraceBlocked(ent, from, vector.Forward, WALL_DISTANCE)) hits++;
+		if (TraceBlocked(ent, from, vector.Forward * -1, WALL_DISTANCE)) hits++;
+		if (TraceBlocked(ent, from, vector.Right, WALL_DISTANCE)) hits++;
+		if (TraceBlocked(ent, from, vector.Right * -1, WALL_DISTANCE)) hits++;
+		return hits >= WALL_HITS;
+	}
+
+	//------------------------------------------------------------------------------------------------
+	// True when something solid that is not the player and not vegetation sits within distance in that direction
+	protected static bool TraceBlocked(IEntity ent, vector start, vector dir, float distance)
+	{
+		BaseWorld world = ent.GetWorld();
+		if (!world)
+			return false;
+
+		vector from = start;
+		float left = distance;
+		for (int i = 0; i < 4 && left > 0.05; i++)
+		{
+			TraceParam param = new TraceParam();
+			param.Start = from;
+			param.End = from + dir * left;
+			param.Flags = TraceFlags.WORLD | TraceFlags.ENTS;
+			param.Exclude = ent;
+			param.LayerMask = EPhysicsLayerPresets.Projectile;
+
+			float frac = world.TraceMove(param, null);
+			if (frac >= 1)
+				return false;
+
+			IEntity hit = param.TraceEnt;
+			if (!hit)
+				return true;
+
+			if (!IsVegetation(hit) && hit != ent && hit.GetParent() != ent)
+				return true;
+
+			float travelled = left * frac;
+			from = from + dir * (travelled + 0.1);
+			left = left - travelled - 0.1;
+		}
+
+		return false;
+	}
+
+	//------------------------------------------------------------------------------------------------
+	protected static bool IsVegetation(IEntity e)
+	{
+		if (Tree.Cast(e))
+			return true;
+
+		if (!e.GetPrefabData())
+			return false;
+
+		string n = e.GetPrefabData().GetPrefabName();
+		n.ToLower();
+		return n.Contains("/plants/") || n.Contains("/trees/") || n.Contains("/bushes/") || n.Contains("_tree_") || n.Contains("bush");
 	}
 
 	//------------------------------------------------------------------------------------------------

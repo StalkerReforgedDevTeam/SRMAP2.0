@@ -104,7 +104,8 @@ class SRZ_SicknessAgents
 				st.m_fColdChain = Math.Max(0, st.m_fColdChain - COLD_DECAY_WARM);
 		}
 
-		if (immunity > COLD_POTENCY && stageBefore < 3)
+		// Immunity only fights it off once you are out of the cold. While you stand in it, it climbs at full speed.
+		if (!cold && immunity > COLD_POTENCY && stageBefore < 3)
 			st.m_fColdChain = Math.Max(0, st.m_fColdChain - COLD_DECAY_IMMUNE);
 
 		if (st.m_fTetraLeft > 0)
