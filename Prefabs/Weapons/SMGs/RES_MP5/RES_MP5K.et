@@ -1,0 +1,26 @@
+GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
+ ID "9B523A21731FCD9D"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     WeaponAimModifiers {
+      RecoilWeaponAimModifier "{5584D01594F61795}" : "{A5CFBD9DF6AFFBC7}Configs/WeaponRecoilConfig/SMG/nato/uzi_9x19.conf" {
+      }
+      RES_MP5_StockRecoilModifier "{C1C457D9581A91D2}" {
+       m_Linear RES_MP5_RecoilChannel "{908770DFF19909A9}" {
+        m_fScale 0.425
+       }
+       m_Angular RES_MP5_RecoilChannel "{C87E8D4FACC4F05B}" {
+        m_fScale 0.85
+       }
+       m_Turn RES_MP5_RecoilChannel "{4C2736A1E15B6D5C}" {
+        m_fScale 0.935
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}
