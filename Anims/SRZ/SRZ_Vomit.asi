@@ -4,6 +4,18 @@ AnimSetInstanceSource "{174EEC4C256E8D7D}" {
   AnimSetInstanceSource_Line "Speeches.Open.In" {
    Resource "{74754830F4AAD16E}Anims/SRZ/anm/p_srz_vomit.anm"
   }
+  AnimSetInstanceSource_Line "Speeches.Open.Loop1" {
+   Resource "{74754830F4AAD16E}Anims/SRZ/anm/p_srz_vomit.anm"
+  }
+  AnimSetInstanceSource_Line "Speeches.Open.Loop2" {
+   Resource "{74754830F4AAD16E}Anims/SRZ/anm/p_srz_vomit.anm"
+  }
+  AnimSetInstanceSource_Line "Speeches.Open.Loop3" {
+   Resource "{74754830F4AAD16E}Anims/SRZ/anm/p_srz_vomit.anm"
+  }
+  AnimSetInstanceSource_Line "Speeches.Open.Out" {
+   Resource "{74754830F4AAD16E}Anims/SRZ/anm/p_srz_vomit.anm"
+  }
  }
  RBF AnimSetInstanceSourceRBFArray "{DFF755E99D1D06CE}" {
  }

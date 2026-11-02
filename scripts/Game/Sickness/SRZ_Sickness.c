@@ -182,6 +182,14 @@ class SRZ_Sickness
 				continue;
 			}
 
+			// Monolith (the mutants faction) is immune to all of it, same as psy and radiation
+			if (IsImmune(st.m_Char))
+			{
+				st.Reset();
+				SendHud(st, Band(0));
+				continue;
+			}
+
 			SRZ_SicknessEnvironment.Update(st);
 			int band = Band(st.m_fTemperature);
 			SRZ_SicknessAgents.Update(st, band);
@@ -195,6 +203,16 @@ class SRZ_Sickness
 				Save(st);
 			}
 		}
+	}
+
+	//------------------------------------------------------------------------------------------------
+	static bool IsImmune(IEntity ent)
+	{
+		if (!ent)
+			return false;
+
+		ARMST_PLAYER_STATS_COMPONENT stats = ARMST_PLAYER_STATS_COMPONENT.Cast(ent.FindComponent(ARMST_PLAYER_STATS_COMPONENT));
+		return stats && stats.GetFactionKey() == ARMST_FACTION_LABEL.FACTION_MUTANTS;
 	}
 
 	//------------------------------------------------------------------------------------------------
