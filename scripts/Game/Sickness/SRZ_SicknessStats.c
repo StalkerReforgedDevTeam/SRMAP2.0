@@ -9,6 +9,8 @@ class SRZ_SicknessStats
 	float m_fTemperature;		// -100 to 100, 0 is comfortable
 	float m_fWetness;			// 0 to 100
 	float m_fHeatBuff;			// seconds left where temperature can't drop
+	float m_fWarmBonus;			// added to the environment target while m_fWarmLeft runs (heat pack, vodka)
+	float m_fWarmLeft;			// seconds left of the warm bonus
 	float m_fInsulation;		// last computed, 0 to 100, for the HUD and logs
 	float m_fTarget;			// last environment target, for logs
 
@@ -39,7 +41,7 @@ class SRZ_SicknessStats
 	//------------------------------------------------------------------------------------------------
 	bool IsClean()
 	{
-		return Math.AbsFloat(m_fTemperature) < 1 && m_fWetness < 1 && m_fHeatBuff <= 0 && m_fColdChain < 1 && m_fSalmonella < 1
+		return Math.AbsFloat(m_fTemperature) < 1 && m_fWetness < 1 && m_fHeatBuff <= 0 && m_fWarmLeft <= 0 && m_fColdChain < 1 && m_fSalmonella < 1
 			&& m_fIncubation <= 0 && m_fResistance <= 0 && m_fImmunityBoost <= 0 && m_fCodeine <= 0 && m_fTetraLeft <= 0 && m_fCharcoalLeft <= 0;
 	}
 
@@ -49,6 +51,8 @@ class SRZ_SicknessStats
 		m_fTemperature = 0;
 		m_fWetness = 0;
 		m_fHeatBuff = 0;
+		m_fWarmBonus = 0;
+		m_fWarmLeft = 0;
 		m_fColdChain = 0;
 		m_fSalmonella = 0;
 		m_fIncubation = 0;
@@ -77,6 +81,8 @@ class SRZ_SicknessStats
 		line += "|" + m_fCodeine.ToString();
 		line += "|" + m_fTetraLeft.ToString();
 		line += "|" + m_fCharcoalLeft.ToString();
+		line += "|" + m_fWarmBonus.ToString();
+		line += "|" + m_fWarmLeft.ToString();
 		return line;
 	}
 
@@ -99,6 +105,12 @@ class SRZ_SicknessStats
 		m_fCodeine = parts[9].ToFloat();
 		m_fTetraLeft = parts[10].ToFloat();
 		m_fCharcoalLeft = parts[11].ToFloat();
+		if (parts.Count() >= 14)
+		{
+			m_fWarmBonus = parts[12].ToFloat();
+			m_fWarmLeft = parts[13].ToFloat();
+		}
+
 		return true;
 	}
 }

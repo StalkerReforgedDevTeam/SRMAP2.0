@@ -6,13 +6,13 @@ class SRZ_SicknessEnvironment
 	static const float TICK = 10;	// same as SRZ_Sickness.TICK
 
 	// Temperature targets
-	static const float DAY = 10;
-	static const float NIGHT = -15;
+	static const float DAY = 5;
+	static const float NIGHT = -35;
 	static const float BLEND_HOURS = 1;		// sunrise and sunset ramp between day and night
-	static const float RAIN_PENALTY = 10;
-	static const float STORM_PENALTY = 20;
+	static const float RAIN_PENALTY = 20;
+	static const float STORM_PENALTY = 35;
 	static const float FIRE_TARGET = 20;
-	static const float INSULATION_MAX_BONUS = 70;
+	static const float INSULATION_MAX_BONUS = 55;
 	static const float TEMP_RATE = 0.5;			// units per second, about 10 minutes across a 30 wide band
 	static const float FIRE_RANGE = 4;
 	static const float FIRE_BUFF = 300;			// seconds of heat buff after leaving a fire
@@ -20,6 +20,7 @@ class SRZ_SicknessEnvironment
 	// Wetness
 	static const float WET_RAIN_LIGHT = 1;		// per tick in light rain
 	static const float WET_RAIN_HEAVY = 2;
+	static const float WET_SWIM = 8;			// per tick while swimming, soaked in about two minutes
 	static const float DRY_OPEN = 1;
 	static const float DRY_ROOF = 3;
 	static const float DRY_FIRE = 10;
@@ -72,8 +73,16 @@ class SRZ_SicknessEnvironment
 		bool storm = false;
 		ReadWeather(ent, rain, dayFactor, storm);
 
+		bool swimming = false;
+		if (chimera && chimera.GetCharacterController())
+			swimming = chimera.GetCharacterController().IsSwimming();
+
 		// Wetness first, it feeds insulation
-		if (rain > 0.05 && !roof && !vehicle)
+		if (swimming)
+		{
+			st.m_fWetness = Math.Min(100, st.m_fWetness + WET_SWIM);
+		}
+		else if (rain > 0.05 && !roof && !vehicle)
 		{
 			float gain = WET_RAIN_LIGHT;
 			if (rain > 0.5)
@@ -125,6 +134,15 @@ class SRZ_SicknessEnvironment
 		}
 
 		target += insulation / 100 * INSULATION_MAX_BONUS;
+
+		// Heat pack or a drink: warmth that builds at the normal rate instead of appearing at once
+		if (st.m_fWarmLeft > 0)
+		{
+			target += st.m_fWarmBonus;
+			st.m_fWarmLeft -= TICK;
+			if (st.m_fWarmLeft <= 0)
+				st.m_fWarmBonus = 0;
+		}
 		target = Math.Clamp(target, -100, 100);
 		st.m_fTarget = target;
 

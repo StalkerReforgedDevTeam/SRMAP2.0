@@ -40,7 +40,7 @@ SCR_ChimeraCharacter : "{5346CF7E39A65A6B}Prefabs/Characters/Factions/OPFOR/USSR
     SCR_CharacterBloodHitZone Blood {
     }
     SCR_CharacterResilienceHitZone Resilience {
-     MaxHealth 250
+     MaxHealth 180
     }
     SCR_CharacterHeadHitZone Head {
      ParentHZs {
