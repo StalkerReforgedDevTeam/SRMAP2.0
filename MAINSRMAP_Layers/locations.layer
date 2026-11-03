@@ -18125,6 +18125,11 @@ $grp SCR_DestructibleBuildingEntity : "{15D9B3D855451AE1}Prefabs/Structures/Ruin
   angles 0.958 9.125 -1.038
  }
  {
+  components {
+   SCR_DestructibleBuildingComponent "{663B387A9AF65298}" {
+    Enabled 0
+   }
+  }
   coords 2037.355 2.41 937.539
   angles 0 122.223 0
  }
@@ -52761,6 +52766,11 @@ $grp SCR_DestructibleBuildingEntity : "{3961F81016AAE7CD}Prefabs/Structures/Infr
   angles 0 -91.284 0
  }
  {
+  components {
+   SCR_DestructibleBuildingComponent "{5DA867E27E4539E3}" {
+    Enabled 0
+   }
+  }
   coords 2057.194 2.038 953.02
   angles 0.622 34.002 -0.12
   {
