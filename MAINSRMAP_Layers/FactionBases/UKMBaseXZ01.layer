@@ -1878,6 +1878,10 @@ GenericEntity : "{42417A541F82B0F9}Prefabs/Compositions/Misc/SubCompositions/Cha
   }
  }
 }
+GenericEntity SRZ_FactionStorage_Freedom_6AAD7D78BCEFFC2 : "{447E8AA43CF527DD}Prefabs/SRZ_Storage/SRZ_FactionStorage_Freedom.et" {
+ coords 3567.192 308.822 1843.551
+ angles 0 -4.003 0
+}
 $grp GenericEntity : "{44F62429569B0AD0}Prefabs/Structures/BuildingParts/Windows/Win_Bars_A/Win_Bars_PortableCabin_E_A_B.et" {
  {
   coords 3797.543 308.6 374.392
@@ -3151,6 +3155,34 @@ $grp GenericEntity : "{8C30960EF8E50389}Prefabs/Vehicles/ural/armst_ural_wheels_
      }
     }
    }
+  }
+ }
+}
+GenericEntity : "{8F17372BAB5A9CF8}Prefabs/Structures/BuildingParts/Lights/LightIndustrial_02.et" {
+ components {
+  MeshObject "{5111E74D5E891458}" {
+   Materials {
+    MaterialAssignClass "{6514D9E8569D8EF6}" {
+     SourceMaterial "Glass"
+     AssignedMaterial "{FC236CB65AE3141F}Assets/Structures/BuildingsParts/Lights/LampIndustrial_01/Data/Glass_on_white.emat"
+    }
+   }
+  }
+ }
+ coords 3560.842 304.553 1844.421
+ angles -30 -5.131 90
+ {
+  LightEntity : "{3E3419B86DE31E3B}Prefabs/Structures/BuildingParts/Lights/LightPrefabs/LightIndustrial_02_light_spot_interior.et" {
+   coords -0.008 -0.052 0.12
+   ProjectionMap "{A67B65819074C16F}Common/Textures/Light_profiles/LightIndustrial_02_Mask.edds"
+   ClipEV -10
+   Radius 6
+   SpotAngle 140
+   ShowSource 1
+   SourceSize 0.6
+   VolLightOffset 0.07
+   VolLightOffsetUp 0.03
+   VolLightIntensity 0.05
   }
  }
 }
@@ -7146,6 +7178,14 @@ $grp GenericEntity : "{D3452CED3BD70204}Prefabs/SRZ_Storage/SRZ_FactionStorage_U
  }
  SRZ_FactionStorage_UKM_6AAD7D785B8AC61F2 {
   coords 3843.536 306.796 403.147
+  angles 0 90.168 0
+ }
+ SRZ_FactionStorage_UKM_6AAD7D785B8AC61F14 {
+  coords 3843.529 306.796 399.906
+  angles 0 89.497 0
+ }
+ SRZ_FactionStorage_UKM_6AAD7D785B8AC61F15 {
+  coords 3843.522 306.796 398.368
   angles 0 90.168 0
  }
 }

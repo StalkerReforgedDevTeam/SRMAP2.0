@@ -2011,14 +2011,8 @@ $grp SCR_DestructibleBuildingEntity {
         angles 0 -1.312 0
        }
       }
-      $grp GenericEntity : "{1AB7A2C69A30391D}Prefabs/Props/Furniture/CoatRack_01.et" {
-       {
-        coords 9.981 0 2.028
-        angles 0 -49.708 0
-       }
-       {
-        coords -5.261 0 2.683
-       }
+      GenericEntity : "{1AB7A2C69A30391D}Prefabs/Props/Furniture/CoatRack_01.et" {
+       coords -5.261 0 2.683
       }
       GenericEntity : "{1BE2B6FF4806EB3E}Prefabs/Props/Civilian/Guitar_01/Guitar_01.et" {
        coords 1.599 0.494 0.347
@@ -2486,14 +2480,6 @@ $grp SCR_DestructibleBuildingEntity {
         coords -14.581 0 0.642
         angles 0 90 0
        }
-       {
-        coords 12.866 0 4.625
-        angles 0 90 0
-       }
-       {
-        coords 13.602 0 4.558
-        angles 0 -93.744 0
-       }
       }
       $grp GenericEntity : "{D21DAFB24F46D64C}Prefabs/Props/Furniture/Nightstand_02.et" {
        {
@@ -2560,41 +2546,20 @@ $grp SCR_DestructibleBuildingEntity {
        coords -7.105 0.497 -4.861
        angles 0 48.034 0
       }
-      $grp GenericEntity : "{DB56577F30DE9129}Prefabs/Props/Furniture/Table_02.et" {
+      GenericEntity : "{DB56577F30DE9129}Prefabs/Props/Furniture/Table_02.et" {
+       coords -14.27 0 0.697
        {
-        coords -14.27 0 0.697
-        {
-         GenericEntity : "{1592EC23A583FB04}Prefabs/Props/Garbage/Generic/LitterInterior_01/Single/LitterInterior_01_vodka_V2.et" {
-          coords -0.305 0.907 -0.217
-         }
-         GenericEntity : "{79C6D8C31947742A}Prefabs/Props/Garbage/Generic/LitterInterior_01/Single/LitterInterior_01_vodka_V1.et" {
-          coords -0.369 0.907 -0.083
-         }
-         GenericEntity : "{E1EBAB390EB6BEF7}Prefabs/Props/Civilian/RadioSmall_USSR_01_black.et" {
-          coords 0.007 0.907 -0.425
-         }
-         GenericEntity : "{E56F1B739B9792C4}Prefabs/Props/Civilian/Ashtray_01_Full_green.et" {
-          coords 0.204 0.907 -0.254
-         }
+        GenericEntity : "{1592EC23A583FB04}Prefabs/Props/Garbage/Generic/LitterInterior_01/Single/LitterInterior_01_vodka_V2.et" {
+         coords -0.305 0.907 -0.217
         }
-       }
-       {
-        coords 13.219 0 4.59
-        {
-         GenericEntity : "{1592EC23A583FB04}Prefabs/Props/Garbage/Generic/LitterInterior_01/Single/LitterInterior_01_vodka_V2.et" {
-          coords 0.269 0.907 0.374
-          angles 0 42 0
-         }
-         GenericEntity : "{172585DCA4F947FE}Prefabs/Props/Furniture/PhoneTable_01_khaki.et" {
-          coords -0.19 0.907 0.271
-          angles 0 152.453 0
-         }
-         GenericEntity : "{29BA0E995E24468D}Prefabs/Props/Furniture/PlantRoom_03.et" {
-          coords 0.022 0.907 0.343
-         }
-         GenericEntity : "{79C6D8C31947742A}Prefabs/Props/Garbage/Generic/LitterInterior_01/Single/LitterInterior_01_vodka_V1.et" {
-          coords -0.42 0.907 0.141
-         }
+        GenericEntity : "{79C6D8C31947742A}Prefabs/Props/Garbage/Generic/LitterInterior_01/Single/LitterInterior_01_vodka_V1.et" {
+         coords -0.369 0.907 -0.083
+        }
+        GenericEntity : "{E1EBAB390EB6BEF7}Prefabs/Props/Civilian/RadioSmall_USSR_01_black.et" {
+         coords 0.007 0.907 -0.425
+        }
+        GenericEntity : "{E56F1B739B9792C4}Prefabs/Props/Civilian/Ashtray_01_Full_green.et" {
+         coords 0.204 0.907 -0.254
         }
        }
       }
@@ -11582,14 +11547,6 @@ $grp GenericEntity : "{349AC04D60BDC344}Prefabs/SRZ_Storage/SRZ_FactionStorage_M
  }
 }
 $grp GenericEntity : "{35AFE0B84B106BDD}Prefabs/SRZ_Storage/SRZ_ArtifactStorage.et" {
- SRZ_ArtifactStorage_6AAD7D79C5FD7066 {
-  coords 3556.511 308.811 1835.978
-  angles 0 -6.003 0
- }
- SRZ_ArtifactStorage_6AAD7D79C5FD2 {
-  coords 3557.648 308.811 1836.097
-  angles 0 -6.003 0
- }
  SRZ_ArtifactStorage_6AAD7D79883BB7A5 {
   coords 3103.02 318.712 2647.977
   angles 0 45.629 0
@@ -12589,24 +12546,6 @@ $grp GenericEntity : "{40D59A6502704C4B}Prefabs/SRZ_Locks/KeyCrates/Tier only us
  {
   coords 5383.416 323.104 691.249
   angles 0 134.191 0
- }
-}
-$grp GenericEntity : "{447E8AA43CF527DD}Prefabs/SRZ_Storage/SRZ_FactionStorage_Freedom.et" {
- SRZ_FactionStorage_Freedom_6AAD7D78943827D4 {
-  coords 3556.005 308.811 1839.604
-  angles 0 -95.774 0
- }
- SRZ_FactionStorage_Freedom_6AAD7D78AEAC8DE9 {
-  coords 3558.824 308.811 1840.624
-  angles 0 83.998 0
- }
- SRZ_FactionStorage_Freedom_6AAD7D78B9A30861 {
-  coords 3563.378 308.811 1842.765
-  angles 0 -93.927 0
- }
- SRZ_FactionStorage_Freedom_6AAD7D78BCEFFC96 {
-  coords 3565.203 308.822 1843.412
-  angles 0 -4.003 0
  }
 }
 $grp GenericEntity : "{44BC8D7E221CFE90}Prefabs/SRZ_Locks/KeyCrates/Tier only use this/SRZ_TierCrate_Weapons_T1.et" {

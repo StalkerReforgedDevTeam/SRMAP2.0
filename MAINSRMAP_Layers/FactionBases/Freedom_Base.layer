@@ -2342,12 +2342,30 @@ GenericEntity : "{34C2F623958FCACE}Prefabs/Props/Civilian/Ashtray_01_Full_clear.
  coords 2104.885 304.197 2205.775
  angles 0 0 0
 }
+GenericEntity SRZ_ArtifactStorage_6AAD7D79C5FD7066 : "{35AFE0B84B106BDD}Prefabs/SRZ_Storage/SRZ_ArtifactStorage.et" {
+ coords 3564.759 308.811 1843.32
+ angles 0 176.003 0
+}
 GenericEntity : "{370A5186462E0B62}Prefabs/Props/Civilian/Billiard_01/Billiard_01_ball_blue.et" {
  coords 3552.857 302.146 1841.329
 }
 GenericEntity : "{386560726FEB327F}Prefabs/Structures/Military/Camps/Canvas_Covers/CanvasCover_Large_Base.et" {
  coords 3573.717 300.983 1864.624
  angles 0 -8.682 0
+}
+$grp GenericEntity : "{447E8AA43CF527DD}Prefabs/SRZ_Storage/SRZ_FactionStorage_Freedom.et" {
+ SRZ_FactionStorage_Freedom_6AAD7D78BCEFFC96 {
+  coords 3565.991 308.822 1843.468
+  angles 0 -4.003 0
+ }
+ SRZ_FactionStorage_Freedom_6AAD7D78B9A30861 {
+  coords 3563.387 308.811 1842.62
+  angles 0 -93.927 0
+ }
+ SRZ_FactionStorage_Freedom_6AAD7D78AEAC8DE9 {
+  coords 3563.572 308.811 1841.001
+  angles 0 263.998 0
+ }
 }
 $grp GenericEntity : "{464938975B4955D0}Prefabs/Props/Signs/Industrial/SignIndustrial_30x20_1_Gloves.et" {
  {
