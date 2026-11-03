@@ -28,7 +28,12 @@ class SRZ_ArmorTuning
 	static const float BODY_POOL = 225;
 	static const float HEAD_POOL = 102;
 	static const float RESILIENCE = 180;
-	static const float KO_FRACTION = 0.6;
+	// Knockout lands at this share of the chest kill count
+	static const float KO_FRACTION = 0.75;
+	// The engine knocks you out once resilience falls under this share of its maximum, not at zero
+	static const float KO_THRESHOLD = 0.3;
+	// Every chest column in the chart is multiplied by this. 1 = the chart as written, 1.3 = 30 percent more hits on every tier.
+	static const float CHEST_HITS_SCALE = 1.3;
 	// Arm and leg hits do this share of their vanilla damage. 1 = vanilla.
 	static const float LIMB_SCALE = 0.4;
 	static const int BUCK_PELLETS = 4;
@@ -191,7 +196,7 @@ class SRZ_ArmorTuning
 		if (hits < 1)
 			hits = 1;
 
-		float dmg = BODY_POOL / hits;
+		float dmg = BODY_POOL / (hits * CHEST_HITS_SCALE);
 		if (cal == SRZ_Caliber.SHOT_BUCK)
 			dmg = dmg / BUCK_PELLETS;
 
@@ -207,7 +212,7 @@ class SRZ_ArmorTuning
 		if (hits < 1)
 			hits = 1;
 
-		float dmg = RESILIENCE / (KO_FRACTION * hits);
+		float dmg = RESILIENCE * (1 - KO_THRESHOLD) / (KO_FRACTION * hits * CHEST_HITS_SCALE);
 		if (cal == SRZ_Caliber.SHOT_BUCK)
 			dmg = dmg / BUCK_PELLETS;
 

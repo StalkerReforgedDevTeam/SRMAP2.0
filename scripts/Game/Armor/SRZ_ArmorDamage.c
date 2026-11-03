@@ -39,15 +39,21 @@ modded class SCR_CharacterHitZone
 		else
 			return effective;
 
-		float base = effective;
-		if (struck != this)
-			base = struck.SRZ_BaseEffective(damageContext, isDOT);
+		if (struck == this)
+			return target;
 
+		// The health pool takes a fixed share of the chart number, whatever the engine worked out on the way through
+		if (GetName() == "Health")
+			return target * HEALTH_SHARE;
+
+		float base = struck.SRZ_BaseEffective(damageContext, isDOT);
 		if (base <= 0.01)
 			return effective;
 
 		return effective * (target / base);
 	}
+
+	static const float HEALTH_SHARE = 0.9;
 }
 
 modded class SCR_CharacterResilienceHitZone
