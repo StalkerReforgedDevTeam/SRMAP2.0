@@ -11336,6 +11336,10 @@ GenericEntity : "{1E98A2EEC901FCE4}Prefabs/Props/Commercial/Posters/PosterSet_E_
  coords 4939.78 328.357 3060.483
  angles -2.441 -172.325 4.247
 }
+SCR_ChimeraCharacter : "{20146A6411923517}Prefabs/QUESTS/SRFACTIONS/FREEDOM_QM.et" {
+ coords 3546.6 301.137 1855.112
+ angles 0 113.198 0
+}
 $grp GenericEntity : "{2167BFA3109E4023}Prefabs/SRZ_Locks/KeyCrates/Tier only use this/SRZ_TierCrate_Weapons_T3_GorkiyOnly.et" {
  {
   coords 3329.359 323.06 2668.352
@@ -20241,6 +20245,9 @@ GenericEntity : "{CBFB6247D7EBE1DE}Prefabs/Structures/BuildingParts/Doors/Door_F
  }
  coords 4973.668 306.074 3055.045
  angles 0 -171.822 0
+}
+SCR_ChimeraCharacter : "{CC227119CA3E5FD0}Prefabs/QUESTS/SRFACTIONS/DUTY_QM.et" {
+ coords 4903.458 307.991 1672.864
 }
 GameEntity armst_gasmask_m17_6A52FB37A6C06C4F : "{CCEC06C62737F0D4}Prefabs/New_Equipment/Gasmasks/armst_gasmask_m17.et" {
  coords 3071.297 304.702 2730.013
