@@ -1,0 +1,9 @@
+SRZ_ContractSite : "{5A5A3C0000000A10}Prefabs/SRZ/Contracts/SRZ_Site_Hold.et" {
+ ID "5A5A3C00000D0100"
+ m_eType HUNT
+ m_fRadius 50
+ m_iPay 44000
+ m_fKeyChance 0.4
+ m_iKeyTier 1
+ m_fKeyUpgradeChance 0.3
+}

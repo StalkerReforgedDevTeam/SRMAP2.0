@@ -10373,7 +10373,7 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   m_fFilterDrainHigh 100
  }
  {
-  coords 3002.242 320.233 750.475
+  coords 3022.207 320.233 744.786
   angles 0 -22.261 0
   SphereRadius 46.3
   DrawShape 0
@@ -10673,48 +10673,6 @@ $grp ARMST_RADIATIONSEntity : "{1A22BD0AEAC9F5B6}Prefabs/Anomals/Radiation/ARMST
   DrawShape 0
   UpdatePeriod 5
   m_DamageRadioLevel 27
-  m_fZoneRadiationLevel 1000
-  m_fDeficitDoseScale 0.02
-  m_fZoneTickInterval 10
-  m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.07
-  m_fFilterDrainHigh 100
- }
- {
-  coords 1730.58 319.176 530.347
-  angles 0 26.268 0
-  SphereRadius 46.4
-  DrawShape 0
-  UpdatePeriod 5
-  m_DamageRadioLevel 16
-  m_fZoneRadiationLevel 1000
-  m_fDeficitDoseScale 0.02
-  m_fZoneTickInterval 10
-  m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.07
-  m_fFilterDrainHigh 100
- }
- {
-  coords 1635.755 319.176 525.756
-  angles 0 26.268 0
-  SphereRadius 46.4
-  DrawShape 0
-  UpdatePeriod 5
-  m_DamageRadioLevel 300
-  m_fZoneRadiationLevel 1000
-  m_fDeficitDoseScale 0.02
-  m_fZoneTickInterval 10
-  m_eFilterDrainTier LOW
-  m_fFilterDrainLow 0.07
-  m_fFilterDrainHigh 100
- }
- {
-  coords 1546.249 319.176 542.066
-  angles 0 26.268 0
-  SphereRadius 46.4
-  DrawShape 0
-  UpdatePeriod 5
-  m_DamageRadioLevel 300
   m_fZoneRadiationLevel 1000
   m_fDeficitDoseScale 0.02
   m_fZoneTickInterval 10

@@ -1,0 +1,17 @@
+GenericEntity : "{94CE3523A428A51B}Prefabs/LOOT_BOX/base/army/Loot_army_box_weapons2.et" {
+ ID "5A5A3C00000C0002"
+ components {
+  ARMST_TieredLootSpawnerComponent "{669E6416C7377960}" {
+   m_LootCategories {
+    "NONE"
+   }
+   m_Category_CUSTOM "SRZ_KEYCRATE"
+   m_LootTiersSpawn {
+    "TIER_3"
+   }
+  }
+  SRZ_FixedLootComponent "{5E1F0A9C3B7D2E41}" {
+   m_sTable "{FE4D4949FE535288}Configs/SRZ_Loot/SRZ_Loot_KC_Weapons.conf"
+  }
+ }
+}
