@@ -67,6 +67,13 @@ modded class SCR_ChatComponent
 						return;
 					}
 
+					// Route contract commands
+					if (lower.StartsWith(".contract"))
+					{
+						pc.SRZ_SendContractCommand(msg);
+						return;
+					}
+
 					// Route all other . commands to RP name system
 					pc.SRZ_SendRPCommand(msg);
 					return;

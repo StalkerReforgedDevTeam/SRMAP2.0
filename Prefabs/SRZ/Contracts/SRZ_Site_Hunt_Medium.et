@@ -1,0 +1,19 @@
+SRZ_ContractSite : "{5A5A3C0000000A30}Prefabs/SRZ/Contracts/SRZ_Site_Hunt.et" {
+ ID "5A5A3C00000D0106"
+ m_eAlpha NIGHTSTALKER
+ m_fAlphaToughness 4
+ m_iPay 52000
+ m_fKeyChance 0.4
+ m_iKeyTier 1
+ m_fKeyUpgradeChance 0.3
+ m_aWaveSetup {
+  SRZ_ContractWave "{5A5A3C00000D0107}" {
+   m_aSpawns {
+    SRZ_ContractWaveSpawn "{5A5A3C00000D0108}" {
+     m_eEnemy WOLF
+     m_iCount 3
+    }
+   }
+  }
+ }
+}

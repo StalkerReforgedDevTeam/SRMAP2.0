@@ -1,0 +1,284 @@
+$grp SRZ_ContractSite : "{5A5A3C0000000A21}Prefabs/SRZ/Contracts/SRZ_Site_Easy_Zombies.et" {
+ {
+  coords 4535.881 313.519 1601.059
+  m_sSiteName "Quarry"
+  m_eFaction FACTION_STORM
+ }
+ {
+  coords 4561.2 309.782 2470.4
+  m_sSiteName "North Fishing Village"
+  m_eFaction FACTION_MUTANTS
+ }
+}
+SRZ_ContractSite : "{5A5A3C0000000A22}Prefabs/SRZ/Contracts/SRZ_Site_Easy_Wildlife.et" {
+ coords 3713.2 306.4 775.9
+ m_sSiteName "Savino Dump"
+ m_eFaction FACTION_ARMY
+}
+$grp SRZ_ContractSite : "{5A5A3C0000000A23}Prefabs/SRZ/Contracts/SRZ_Site_Medium_Mixed.et" {
+ {
+  coords 4918.7 311.2 1369.2
+  m_sSiteName "Radar Station"
+  m_eFaction FACTION_STORM
+ }
+ {
+  coords 3470.4 302.6 832.7
+  m_sSiteName "Savino"
+  m_eFaction FACTION_ARMY
+ }
+ {
+  coords 6592.42 308.15 1340.897
+  m_sSiteName "Krotovo"
+  m_eFaction FACTION_MERCENARIES
+ }
+ {
+  coords 3268.2 308.838 1010.7
+  m_sSiteName "Ranger Camp"
+  m_eFaction FACTION_BANDIT
+ }
+}
+$grp SRZ_ContractSite : "{5A5A3C0000000A24}Prefabs/SRZ/Contracts/SRZ_Site_Medium_Bushers.et" {
+ {
+  coords 3664.833 300.8 1848.443
+  m_sSiteName "Sebej"
+  m_eFaction FACTION_MUTANTS
+ }
+ {
+  coords 4126.9 322.3 1634.8
+  m_sSiteName "Holiday Camp"
+  m_eFaction FACTION_STORM
+ }
+ {
+  coords 6246.7 309.467 752.5
+  m_sSiteName "Solomino"
+ }
+}
+$grp SRZ_ContractSite : "{5A5A3C0000000A25}Prefabs/SRZ/Contracts/SRZ_Site_Hard_Toxic.et" {
+ {
+  coords 3888.6 300.8 2010.4
+  m_sSiteName "Gorkiy Kolkhoz"
+  m_eFaction FACTION_MUTANTS
+ }
+ {
+  coords 3943.85 306.427 848.255
+  m_sSiteName "Savino Farms"
+  m_eFaction FACTION_ARMY
+ }
+}
+$grp SRZ_ContractSite : "{5A5A3C0000000A26}Prefabs/SRZ/Contracts/SRZ_Site_Hard_Nightstalkers.et" {
+ {
+  coords 4926 311.266 2579.2
+  m_sSiteName "Udarnik Plant"
+ }
+ {
+  coords 4609.5 307.5 1016.5
+  m_sSiteName "Cursed Farm"
+  m_eFaction FACTION_STORM
+ }
+}
+$grp SRZ_ContractSite : "{5A5A3C0000000A33}Prefabs/SRZ/Contracts/SRZ_Site_Hunt_Easy.et" {
+ {
+  coords 5987.2 303.445 1815.3
+  m_sSiteName "Durino"
+  m_eFaction FACTION_MERCENARIES
+ }
+ {
+  coords 4618 306.3 1972.4
+  m_sSiteName "North Dump"
+  m_eFaction FACTION_STORM
+ }
+ {
+  coords 2413.128 282.825 2187.962
+  m_sSiteName "Voronka Crater"
+  m_eFaction FACTION_KB
+ }
+ {
+  coords 4382 302.583 553.5
+  m_sSiteName "South Sawmill"
+  m_eFaction FACTION_ARMY
+ }
+}
+$grp SRZ_ContractSite : "{5A5A3C0000000A34}Prefabs/SRZ/Contracts/SRZ_Site_Hunt_Medium.et" {
+ {
+  coords 5388.6 320.784 1975.3
+  m_sSiteName "Red Mines"
+  m_eFaction FACTION_STORM
+ }
+ {
+  coords 6583 306.792 1859.9
+  m_sSiteName "Wild Swamp"
+  m_eFaction FACTION_MERCENARIES
+ }
+ {
+  coords 1832.18 291.647 820.604
+  m_sSiteName "Great Swamp"
+  m_eFaction FACTION_BANDIT
+ }
+ {
+  coords 5442.525 304.758 929.022
+  m_sSiteName "Osino"
+ }
+}
+$grp SRZ_ContractSite : "{5A5A3C0000000A35}Prefabs/SRZ/Contracts/SRZ_Site_Hunt_Hard.et" {
+ {
+  coords 4788.7 300.536 2244
+  m_sSiteName "North Sawmill"
+  m_eFaction FACTION_STORM
+ }
+ {
+  coords 1557.5 310.068 206.5
+  m_sSiteName "Michurino"
+  m_eFaction FACTION_BANDIT
+ }
+ {
+  coords 6032 293.533 1109.2
+  m_sSiteName "Polygon"
+ }
+ {
+  coords 5176.2 310.905 2408.3
+  m_sSiteName "Rock of Destiny"
+  m_eFaction FACTION_MUTANTS
+ }
+ {
+  coords 6333.089 300.726 2785.474
+  m_sSiteName "East Church"
+  m_eFaction FACTION_MERCENARIES
+ }
+}
+$grp SRZ_ContractSite : "{5A5A3C0000000A36}Prefabs/SRZ/Contracts/SRZ_Site_Recovery_Easy.et" {
+ {
+  coords 3467.1 298.2 2258.9
+  m_sSiteName "Happy Lake"
+  m_eFaction FACTION_KB
+  m_eLoot GEAR
+ }
+ {
+  coords 398.8 304.848 1558.5
+  m_sSiteName "Lopatino"
+  m_eFaction FACTION_BANDIT
+  m_eLoot UNIQUE
+ }
+}
+$grp SRZ_ContractSite : "{5A5A3C0000000A37}Prefabs/SRZ/Contracts/SRZ_Site_Recovery_Medium.et" {
+ {
+  coords 2417.3 304.227 1605.4
+  m_sSiteName "Airfield"
+  m_eFaction FACTION_KB
+ }
+ {
+  coords 3634.8 305.6 974.7
+  m_sSiteName "Savino Sawmill"
+  m_eFaction FACTION_ARMY
+  m_eLoot MEDICAL
+ }
+ {
+  coords 5965.6 306.976 1494.5
+  m_sSiteName "Durino Farm"
+  m_eFaction FACTION_MERCENARIES
+  m_eLoot WEAPONS
+ }
+ {
+  coords 2803.576 308.7 916.917
+  m_sSiteName "Old Perimeter"
+  m_eFaction FACTION_BANDIT
+  m_eLoot UNIQUE
+ }
+ {
+  coords 5500.2 310.406 1213.9
+  m_sSiteName "East Quarry"
+  m_eLoot GEAR
+ }
+}
+$grp SRZ_ContractSite : "{5A5A3C0000000A38}Prefabs/SRZ/Contracts/SRZ_Site_Recovery_Hard.et" {
+ {
+  coords 4834.8 312.9 492.4
+  m_sSiteName "Deep Forest"
+  m_eFaction FACTION_ARMY
+  m_eLoot GEAR
+ }
+ {
+  coords 6270.3 319.194 2366.3
+  m_sSiteName "East Gas Station"
+  m_eFaction FACTION_MERCENARIES
+ }
+ {
+  coords 5421.8 314.3 657.8
+  m_sSiteName "RLS Malutka"
+  m_eLoot UNIQUE
+ }
+ {
+  coords 3559.3 302.77 1532.5
+  m_sSiteName "Construction Warehouse"
+  m_eFaction FACTION_KB
+  m_eLoot UNIQUE
+ }
+ {
+  coords 3314.3 308.89 1380.6
+  m_sSiteName "Savino Chem Plant"
+  m_eFaction FACTION_BANDIT
+  m_eLoot UNIQUE
+ }
+}
+$grp SRZ_ContractSite : "{5A5A3C0000000A39}Prefabs/SRZ/Contracts/SRZ_Site_Anomaly_Easy.et" {
+ {
+  coords 2256 306.9 1727
+  m_sSiteName "Airfield Gravity Field"
+  m_eFaction FACTION_KB
+ }
+ {
+  coords 4900 319.7 691
+  m_sSiteName "Forest Electro Field"
+ }
+ {
+  coords 3245 304.909 2612
+  m_sSiteName "Gorkiy Eye Field"
+  m_eFaction FACTION_MUTANTS
+ }
+ {
+  coords 3692 312.914 557
+  m_sSiteName "Savino Whirligigs"
+  m_eFaction FACTION_ARMY
+ }
+}
+$grp SRZ_ContractSite : "{5A5A3C0000000A3A}Prefabs/SRZ/Contracts/SRZ_Site_Anomaly_Medium.et" {
+ {
+  coords 3561 307.507 2646
+  m_sSiteName "Gorkiy Burner Field"
+  m_eFaction FACTION_MUTANTS
+ }
+ {
+  coords 4988 303.865 2231
+  m_sSiteName "Udarnik Electro Field"
+ }
+ {
+  coords 2405.889 299.651 1447
+  m_sSiteName "Airfield Electro Field"
+  m_eFaction FACTION_KB
+ }
+ {
+  coords 6135.276 308 1635.62
+  m_sSiteName "Outskirts Eye Field"
+  m_eFaction FACTION_MERCENARIES
+ }
+ {
+  coords 1660.889 300.8 1487.415
+  m_sSiteName "Swamp Whirligigs"
+  m_eFaction FACTION_BANDIT
+ }
+}
+$grp SRZ_ContractSite : "{5A5A3C0000000A3B}Prefabs/SRZ/Contracts/SRZ_Site_Anomaly_Hard.et" {
+ {
+  coords 2566 309.4 2076
+  m_sSiteName "Voronka"
+  m_eFaction FACTION_KB
+ }
+ {
+  coords 3717.736 299.648 2262.928
+  m_sSiteName "Gorkiy Grinders"
+  m_eFaction FACTION_MUTANTS
+ }
+ {
+  coords 6015 317.63 1333
+  m_sSiteName "Outskirts Gravity Field"
+ }
+}
