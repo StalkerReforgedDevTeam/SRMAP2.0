@@ -1052,6 +1052,56 @@ class SRZ_Contracts
 	}
 
 	//------------------------------------------------------------------------------------------------
+	protected static string StatusText(SRZ_Contract contract)
+	{
+		SRZ_ContractSite site = contract.m_Site;
+		if (contract.m_iStage == STAGE_RETURN)
+			return "Done there. Get back to the vendor who gave you this. " + FormatWait(TimeLeft(RETURN_LIMIT, contract.m_iReturnAt)) + " left.";
+
+		if (!contract.m_bArrived)
+			return "Not there yet. " + FormatWait(TimeLeft(TRAVEL_LIMIT, contract.m_iStarted)) + " left to get there.";
+
+		if (site.m_eType == SRZ_EContractType.HOLD)
+			return "Held " + ((int)(contract.m_fHeld / 60)).ToString() + " of " + ((int)site.m_fHoldMinutes).ToString() + " minutes, wave " + contract.m_iWavesDone.ToString() + " of " + site.GetWaveCount().ToString() + ".";
+
+		string text;
+		switch (site.m_eType)
+		{
+			case SRZ_EContractType.HUNT: text = "The " + EnemyName(site.m_eAlpha) + " is still out there. "; break;
+			case SRZ_EContractType.RECOVERY: text = "Search the crate. "; break;
+			case SRZ_EContractType.ANOMALY: text = "Follow the signal. "; break;
+		}
+
+		return text + FormatWait(TimeLeft(WORK_LIMIT, contract.m_iArrivedAt)) + " left.";
+	}
+
+	//------------------------------------------------------------------------------------------------
+	// For the PDA quest log. Only what Status already tells the player, plus the pay.
+	static bool GetLogEntry(int playerId, out string title, out string desc, out vector pos)
+	{
+		string uid = SCR_PlayerIdentityUtils.GetPlayerIdentityId(playerId);
+		SRZ_Contract contract = s_mActive.Get(uid);
+		if (!contract || !contract.m_Site)
+			return false;
+
+		SRZ_ContractSite site = contract.m_Site;
+		title = "Contract: " + TypeName(site.m_eType) + " at " + site.GetDisplayName();
+
+		desc = site.GetDisplayName() + ", grid " + Grid(site.GetOrigin()) + ".\n\n" + StatusText(contract);
+		desc += "\n\nPay: " + site.m_iPay.ToString() + " RUB";
+		if (site.m_fKeyChance > 0)
+			desc += ", with a chance of a tier " + Math.ClampInt(site.m_iKeyTier, 1, 3).ToString() + " crate key";
+
+		desc += ".";
+
+		pos = site.GetOrigin();
+		if (contract.m_iStage == STAGE_RETURN && contract.m_vVendorPos != vector.Zero)
+			pos = contract.m_vVendorPos;
+
+		return true;
+	}
+
+	//------------------------------------------------------------------------------------------------
 	static void Status(int playerId)
 	{
 		string uid = SCR_PlayerIdentityUtils.GetPlayerIdentityId(playerId);
@@ -1059,32 +1109,7 @@ class SRZ_Contracts
 		if (contract && contract.m_Site)
 		{
 			SRZ_ContractSite site = contract.m_Site;
-			string text = TypeName(site.m_eType) + " at " + site.GetDisplayName() + ", grid " + Grid(site.GetOrigin()) + ". ";
-			if (contract.m_iStage == STAGE_RETURN)
-			{
-				text += "Done there. Get back to the vendor who gave you this. " + FormatWait(TimeLeft(RETURN_LIMIT, contract.m_iReturnAt)) + " left.";
-			}
-			else if (!contract.m_bArrived)
-			{
-				text += "Not there yet. " + FormatWait(TimeLeft(TRAVEL_LIMIT, contract.m_iStarted)) + " left to get there.";
-			}
-			else if (site.m_eType == SRZ_EContractType.HOLD)
-			{
-				text += "Held " + ((int)(contract.m_fHeld / 60)).ToString() + " of " + ((int)site.m_fHoldMinutes).ToString() + " minutes, wave " + contract.m_iWavesDone.ToString() + " of " + site.GetWaveCount().ToString() + ".";
-			}
-			else
-			{
-				switch (site.m_eType)
-				{
-					case SRZ_EContractType.HUNT: text += "The " + EnemyName(site.m_eAlpha) + " is still out there. "; break;
-					case SRZ_EContractType.RECOVERY: text += "Search the crate. "; break;
-					case SRZ_EContractType.ANOMALY: text += "Follow the signal. "; break;
-				}
-
-				text += FormatWait(TimeLeft(WORK_LIMIT, contract.m_iArrivedAt)) + " left.";
-			}
-
-			Notify(playerId, text);
+			Notify(playerId, TypeName(site.m_eType) + " at " + site.GetDisplayName() + ", grid " + Grid(site.GetOrigin()) + ". " + StatusText(contract));
 			return;
 		}
 
